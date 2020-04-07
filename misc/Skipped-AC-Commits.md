@@ -2,6 +2,8 @@ Skipped AC commits (just as a reminder and documentation):
 
 | commit                                   | date       | comment |
 |------------------------------------------|------------|---------|
+| 44c3bef14ea78bf6c33e56f4c361fd83749c6152 | 2020-04-05 | follow-up f821b0c7aae9b2968a4c30da33e54cbc7000805c |
+| f821b0c7aae9b2968a4c30da33e54cbc7000805c | 2020-04-05 | SQL script has to be reworked |
 | d22251bcabd475eacd0ddee17b49cfc077b5f69b | 2020-04-04 | split into 2 commits: 1. contains the actual change, 2. contains ea709de58baf6339fd2e589ad51c54d9f901736a and its fix |
 | 378cd6fe289a418e637f1dbc2750b06ed07c168a | 2020-04-04 | spell "Silenced - You can only chat with GMs." not needed (could also use GM command "mute") |
 | 397c5d916fe1330510b1d815d23d18eaa18116a7 | 2020-04-02 | follow-up 9d0ebcd8ea3e14d78ef5d33a6ec12e1d3f632482 |
