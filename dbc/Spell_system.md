@@ -42,8 +42,6 @@ Data not needed by client for all spells is stored in following tables of world 
 
 [spell\_group](../db/world/spell_group.md) - allows grouping spells for convenient handling
 
-[spell\_learn\_spell](../db/world/spell_learn_spell.md) - defines that learning a given spell should learn you other spell, if not provided in dbcs
-
 [spell\_linked\_spell](../db/world/spell_linked_spell.md) - allows simple triggering spell casts on certain spell events
 
 [spell\_pet\_auras](../db/world/spell_pet_auras.md) - defines if a certain aura on pet owner should be linked to other aura on pet
