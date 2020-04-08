@@ -1,6 +1,5 @@
 # Achievement Criteria
 
-
 **Achievement\_Criteria.dbc**
 
 This DBC has been added with WoW 3.0.1.8303 and contains the needed criteria to obtain an achievement.
@@ -31,7 +30,7 @@ This DBC has been added with WoW 3.0.1.8303 and contains the needed criteria to
 </tr>
 <tr class="odd">
 <td>2</td>
-<td><a href="Achievement" class="uri">Achievement</a></td>
+<td><a href="Achievement.md" class="uri">Achievement</a></td>
 <td>iRefID</td>
 <td>Reference to the achievement this criteria is needed for.</td>
 </tr>
@@ -80,7 +79,7 @@ This DBC has been added with WoW 3.0.1.8303 and contains the needed criteria to
 <tr class="odd">
 <td>10-25</td>
 <td>Description</td>
-<td><a href="Localization_lang">Loc</a></td>
+<td><a href="Localization_lang.md">Loc</a></td>
 <td>Criteria description.</td>
 </tr>
 <tr class="even">
@@ -142,11 +141,11 @@ This information is retrieved from DBCStructure.h.
 
 *There are further criterias instead just winning*
 
-|            |            |          |
-|------------|------------|----------|
-| **Column** | **Field**  | **Type** |
-| 4          | [Map](Map) | iRefID   |
-| 5          | winCount   | Integer  |
+|            |               |          |
+|------------|---------------|----------|
+| **Column** | **Field**     | **Type** |
+| 4          | [Map](Map.md) | iRefID   |
+| 5          | winCount      | Integer  |
 
 #### REACH\_LEVEL = 5
 
@@ -161,15 +160,15 @@ This information is retrieved from DBCStructure.h.
 |            |            |          |                                     |
 |------------|------------|----------|-------------------------------------|
 | **Column** | **Field**  | **Type** | **Notes**                           |
-| 4          | skillID    | iRefID   | [SkillLine.dbc](SkillLine) or what? |
+| 4          | skillID    | iRefID   | [SkillLine](SkillLine.md) or what?  |
 | 5          | skillLevel | Integer  |                                     |
 
 #### COMPLETE\_ACHIEVEMENT = 8
 
-|            |                                                                                                |          |
-|------------|------------------------------------------------------------------------------------------------|----------|
-| **Column** | **Field**                                                                                      | **Type** |
-| 4          | [Achievement](http://www.pxr.dk/wowdev/wiki/index.php?title=Achievement.dbc "Achievement.dbc") | iRefID   |
+|            |                               |          |
+|------------|-------------------------------|----------|
+| **Column** | **Field**                     | **Type** |
+| 4          | [Achievement](Achievement.md) | iRefID   |
 
 #### COMPLETE\_QUEST\_COUNT = 9
 
@@ -211,10 +210,10 @@ This information is retrieved from DBCStructure.h.
 
 #### DEATH\_AT\_MAP = 16
 
-|            |            |          |
-|------------|------------|----------|
-| **Column** | **Field**  | **Type** |
-| 4          | [Map](Map) | iRefID   |
+|            |               |          |
+|------------|---------------|----------|
+| **Column** | **Field**     | **Type** |
+| 4          | [Map](Map.md) | iRefID   |
 
 #### DEATH\_IN\_DUNGEON = 18
 
@@ -247,10 +246,10 @@ This information is retrieved from DBCStructure.h.
 
 #### DEATHS\_FROM = 26
 
-|            |                                                                                                                        |          |
-|------------|------------------------------------------------------------------------------------------------------------------------|----------|
-| **Column** | **Field**                                                                                                              | **Type** |
-| 4          | [EnvironmentalDamage](http://www.pxr.dk/wowdev/wiki/index.php?title=EnvironmentalDamage.dbc "EnvironmentalDamage.dbc") | iRefID   |
+|            |                     |          |
+|------------|---------------------|----------|
+| **Column** | **Field**           | **Type** |
+| 4          | EnvironmentalDamage | iRefID   |
 
 #### COMPLETE\_QUEST = 27
 
@@ -266,11 +265,11 @@ This information is retrieved from DBCStructure.h.
 
 #### BE\_SPELL\_TARGET2 = 69
 
-|            |                |          |
-|------------|----------------|----------|
-| **Column** | **Field**      | **Type** |
-| 4          | [Spell](Spell) | iRefID   |
-| 5          | spellCount     | Integer  |
+|            |                   |          |
+|------------|-------------------|----------|
+| **Column** | **Field**         | **Type** |
+| 4          | [Spell](Spell.md) | iRefID   |
+| 5          | spellCount        | Integer  |
 
 #### CAST\_SPELL = 29
 
@@ -278,11 +277,11 @@ This information is retrieved from DBCStructure.h.
 
 #### CAST\_SPELL2 = 110
 
-|            |                |          |
-|------------|----------------|----------|
-| **Column** | **Field**      | **Type** |
-| 4          | [Spell](Spell) | iRefID   |
-| 5          | castCount      | Integer  |
+|            |                   |          |
+|------------|-------------------|----------|
+| **Column** | **Field**         | **Type** |
+| 4          | [Spell](Spell.md) | iRefID   |
+| 5          | castCount         | Integer  |
 
 #### BG\_OBJECTIVE\_CAPTURE = 30
 
@@ -294,11 +293,11 @@ This information is retrieved from DBCStructure.h.
 
 #### HONORABLE\_KILL\_AT\_AREA = 31
 
-|            |                                                                                     |          |
-|------------|-------------------------------------------------------------------------------------|----------|
-| **Column** | **Field**                                                                           | **Type** |
-| 4          | [Area](http://www.pxr.dk/wowdev/wiki/index.php?title=AreaTable.dbc "AreaTable.dbc") | iRefID   |
-| 5          | killCount                                                                           | Integer  |
+|            |                      |          |
+|------------|----------------------|----------|
+| **Column** | **Field**            | **Type** |
+| 4          | [Area](AreaTable.md) | iRefID   |
+| 5          | killCount            | Integer  |
 
 #### WIN\_ARENA = 32
 
@@ -306,17 +305,17 @@ This information is retrieved from DBCStructure.h.
 
 #### PLAY\_ARENA = 33
 
-|            |                                                                        |          |
-|------------|------------------------------------------------------------------------|----------|
-| **Column** | **Field**                                                              | **Type** |
-| 4          | [Map](http://www.pxr.dk/wowdev/wiki/index.php?title=Map.dbc "Map.dbc") | iRefID   |
+|            |               |          |
+|------------|---------------|----------|
+| **Column** | **Field**     | **Type** |
+| 4          | [Map](Map.md) | iRefID   |
 
 #### LEARN\_SPELL = 34
 
-|            |                                                                              |          |
-|------------|------------------------------------------------------------------------------|----------|
-| **Column** | **Field**                                                                    | **Type** |
-| 4          | [Spell](http://www.pxr.dk/wowdev/wiki/index.php?title=Spell.dbc "Spell.dbc") | iRefID   |
+|            |                   |          |
+|------------|-------------------|----------|
+| **Column** | **Field**         | **Type** |
+| 4          | [Spell](Spell.md) | iRefID   |
 
 #### OWN\_ITEM = 36
 
@@ -349,7 +348,7 @@ This information is retrieved from DBCStructure.h.
 |            |            |          |                                                                           |
 |------------|------------|----------|---------------------------------------------------------------------------|
 | **Column** | **Field**  | **Type** | **Notes**                                                                 |
-| 4          | skillID    | iRefID   | [SkillLine.dbc](SkillLine) or what?                                       |
+| 4          | skillID    | iRefID   | [SkillLine](SkillLine.md) or what?                                        |
 | 5          | skillLevel | Integer  | apprentice=1, journeyman=2, expert=3, artisan=4, master=5, grand master=6 |
 
 #### USE\_ITEM = 41
@@ -362,7 +361,7 @@ This information is retrieved from DBCStructure.h.
 
 #### EXPLORE\_AREA = 43
 
-*This areaReference is **NOT** the index from [AreaTable.dbc.](AreaTable) It's from WorldMapOverlay.dbc.
+*This areaReference is **NOT** the index from AreaTable, it's from WorldMapOverlay.dbc.
 *
 
 |            |               |          |
@@ -374,7 +373,7 @@ This information is retrieved from DBCStructure.h.
 
 #### OWN\_RANK = 44
 
-*This rank is **NOT** the index from [CharTitles.dbc](CharTitles)*
+*This rank is **NOT** the index from [CharTitles](CharTitles.md)*
 
 |            |           |          |
 |------------|-----------|----------|
@@ -450,21 +449,21 @@ This information is retrieved from DBCStructure.h.
 
 #### HK\_CLASS = 52
 
-|            |                     |          |
-|------------|---------------------|----------|
-| **Column** | **Field**           | **Type** |
-| 4          | [Class](ChrClasses) | iRefID   |
-| 5          | count               | Integer  |
+|            |                        |          |
+|------------|------------------------|----------|
+| **Column** | **Field**              | **Type** |
+| 4          | [Class](ChrClasses.md) | iRefID   |
+| 5          | count                  | Integer  |
 
  
 
 #### HK\_RACE = 53
 
-|            |                  |          |
-|------------|------------------|----------|
-| **Column** | **Field**        | **Type** |
-| 4          | [Race](ChrRaces) | iRefID   |
-| 5          | count            | Integer  |
+|            |                     |          |
+|------------|---------------------|----------|
+| **Column** | **Field**           | **Type** |
+| 4          | [Race](ChrRaces.md) | iRefID   |
+| 5          | count               | Integer  |
 
  
 
@@ -472,11 +471,11 @@ This information is retrieved from DBCStructure.h.
 
 *where is the information about the target stored?*
 
-|            |                                                                                |          |                                                                 |
-|------------|--------------------------------------------------------------------------------|----------|-----------------------------------------------------------------|
-| **Column** | **Field**                                                                      | **Type** | **Notes**                                                       |
-| 4          | [Emote](http://www.pxr.dk/wowdev/wiki/index.php?title=Emotes.dbc "Emotes.dbc") | iRefID   |                                                                 |
-| 5          | count                                                                          | Integer  | count of emotes, always required special target or requirements |
+|            |                    |          |                                                                 |
+|------------|--------------------|----------|-----------------------------------------------------------------|
+| **Column** | **Field**          | **Type** | **Notes**                                                       |
+| 4          | [Emote](Emotes.md) | iRefID   |                                                                 |
+| 5          | count              | Integer  | count of emotes, always required special target or requirements |
 
  
 
@@ -486,23 +485,23 @@ This information is retrieved from DBCStructure.h.
 
 #### GET\_KILLING\_BLOWS = 56
 
-|            |                                                                        |          |                            |
-|------------|------------------------------------------------------------------------|----------|----------------------------|
-| **Column** | **Field**                                                              | **Type** | **Notes**                  |
-| 4          | unused                                                                 | Integer  |                            |
-| 5          | count                                                                  | Integer  |                            |
-| 6          | flag                                                                   | Integer  | 3 for battleground healing |
-| 7          | [Map](http://www.pxr.dk/wowdev/wiki/index.php?title=Map.dbc "Map.dbc") | iRefID   |                            |
+|            |               |          |                            |
+|------------|---------------|----------|----------------------------|
+| **Column** | **Field**     | **Type** | **Notes**                  |
+| 4          | unused        | Integer  |                            |
+| 5          | count         | Integer  |                            |
+| 6          | flag          | Integer  | 3 for battleground healing |
+| 7          | [Map](Map.md) | iRefID   |                            |
 
  
 
 #### EQUIP\_ITEM = 57
 
-|            |                                                                           |          |
-|------------|---------------------------------------------------------------------------|----------|
-| **Column** | **Field**                                                                 | **Type** |
-| 4          | [Item](http://www.pxr.dk/wowdev/wiki/index.php?title=Item.dbc "Item.dbc") | iRefID   |
-| 5          | itemCount                                                                 | Integer  |
+|            |           |          |
+|------------|-----------|----------|
+| **Column** | **Field** | **Type** |
+| 4          | Item      | iRefID   |
+| 5          | itemCount | Integer  |
 
  
 
@@ -554,11 +553,11 @@ This information is retrieved from DBCStructure.h.
 
 #### LEARN\_SKILLLINE\_SPELLS = 75
 
-|            |                        |          |
-|------------|------------------------|----------|
-| **Column** | **Field**              | **Type** |
-| 4          | [SkillLine](SkillLine) | iRefID   |
-| 5          | spellCount             | Integer  |
+|            |                           |          |
+|------------|---------------------------|----------|
+| **Column** | **Field**                 | **Type** |
+| 4          | [SkillLine](SkillLine.md) | iRefID   |
+| 5          | spellCount                | Integer  |
 
  
 
@@ -592,10 +591,10 @@ This information is retrieved from DBCStructure.h.
 
 #### HIGHEST\_SPELLPOWER = 98
 
-|            |             |          |                                                                                                          |
-|------------|-------------|----------|----------------------------------------------------------------------------------------------------------|
-| **Column** | **Field**   | **Type** | **Notes**                                                                                                |
-| 4          | spellSchool | iRefID   | [SkillLine](SkillLine) or [Resistances](http://www.pxr.dk/wowdev/wiki/index.php?title=Resistances.dbc) ? |
+|            |             |          |                                            |
+|------------|-------------|----------|--------------------------------------------|
+| **Column** | **Field**   | **Type** | **Notes**                                  |
+| 4          | spellSchool | iRefID   | [SkillLine](SkillLine.md) or Resistances ? |
 
  
 
@@ -620,11 +619,11 @@ This information is retrieved from DBCStructure.h.
 
 #### LEARN\_SKILL\_LINE = 112
 
-|            |                        |          |
-|------------|------------------------|----------|
-| **Column** | **Field**              | **Type** |
-| 4          | [SkillLine](SkillLine) | iRefID   |
-| 5          | spellCount             | Integer  |
+|            |                           |          |
+|------------|---------------------------|----------|
+| **Column** | **Field**                 | **Type** |
+| 4          | [SkillLine](SkillLine.md) | iRefID   |
+| 5          | spellCount                | Integer  |
 
  
 

@@ -1,7 +1,6 @@
 # TotemCategory
 
-
-&lt;big&gt;**TotemCategory.dbc**&lt;/big&gt;
+**TotemCategory.dbc**
 
 **Version is : 3.3.5a**
 
@@ -58,8 +57,6 @@
 </table>
 
 ## **Content**
-
-&lt;/noinclude&gt;
 
 <table>
 <colgroup>

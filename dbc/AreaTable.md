@@ -1,9 +1,8 @@
 # AreaTable
 
-
 **AreaTable.dbc**
 
-This dbc contains the zone and subzone lists. For the purposes of this wiki article, the zone IDs, names, mapID and AreaID will be included.
+This DBC contains the zone and subzone lists. For the purposes of this wiki article, the zone IDs, names, mapID and AreaID will be included.
 
 **Version is : 3.3.5a**
 
@@ -49,7 +48,7 @@ This dbc contains the zone and subzone lists. For the purposes of this wiki arti
 </tr>
 <tr class="even">
 <td><p>5</p></td>
-<td><p><a href="#AreaTable-Flags">Flags</a></p></td>
+<td><p><a href="#flags">Flags</a></p></td>
 <td><p>Int</p></td>
 <td></td>
 </tr>

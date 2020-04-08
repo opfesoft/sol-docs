@@ -78,8 +78,6 @@ This DBC contains all skills.
 
 ## **Content**
 
-&lt;/noinclude&gt;
-
 <table style="width:100%;">
 <colgroup>
 <col width="14%" />
@@ -94,7 +92,7 @@ This DBC contains all skills.
 <tr class="odd">
 <td><p><strong>ID</strong></p></td>
 <td><ul>
-<li><a href="#SkillLine-CategoryId">CategoryId</a>*</li>
+<li><a href="#categoryid">CategoryId</a>*</li>
 </ul></td>
 <td><p><strong>SkillCostId</strong></p></td>
 <td><p><strong>Name</strong></p></td>
@@ -1454,8 +1452,6 @@ This DBC contains all skills.
 </tr>
 </tbody>
 </table>
-
-&lt;noinclude&gt;
 
 ------------------------------------------------------------------------
 

@@ -121,6 +121,8 @@ cd ~/sol/apps/db_assembler
 bash db_assembler.sh
 ```
 
+Choose 1) to assemble all and then 9) to quit.
+
 - Import data:
 ```
 cd ~/sol/env/dist/sql
@@ -144,7 +146,7 @@ cp ~/sol-srv/etc/authserver.conf.dist ~/sol-srv/etc/authserver.conf
 vi ~/sol-srv/etc/authserver.conf
 ```
 
-- Change at least these parameters:
+Change at least these parameters:
 ```
 RealmServerPort
 LoginDatabaseInfo
@@ -156,7 +158,7 @@ cp ~/sol-srv/etc/worldserver.conf.dist ~/sol-srv/etc/worldserver.conf
 vi ~/sol-srv/etc/worldserver.conf
 ```
 
-- Change at least these parameters:
+Change at least these parameters:
 ```
 WorldServerPort
 LoginDatabaseInfo
@@ -165,10 +167,21 @@ CharacterDatabaseInfo
 DataDir
 ```
 
-- Also useful:
+Also useful:
 ```
 UseProcessors
 MapUpdate.Threads
 ```
+
+- Modules:
+```
+cp ~/sol-srv/etc/AutoBalance.conf.dist ~/sol-srv/etc/AutoBalance.conf
+cp ~/sol-srv/etc/mod_ahbot.conf.dist ~/sol-srv/etc/mod_ahbot.conf
+cp ~/sol-srv/etc/morphsummon.conf.dist ~/sol-srv/etc/morphsummon.conf
+cp ~/sol-srv/etc/npc_beastmaster.conf.dist ~/sol-srv/etc/npc_beastmaster.conf
+cp ~/sol-srv/etc/transmog.conf.dist ~/sol-srv/etc/transmog.conf
+```
+
+Change the `*.conf` files as needed.
 
 - Set IP address and port for the realm (table "realmlist" in DB "auth")

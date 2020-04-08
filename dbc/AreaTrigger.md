@@ -1,6 +1,5 @@
 # AreaTrigger
 
-
 **AreaTrigger.dbc**
 
 This DBC contains information about the triggers of the in-game areas.
@@ -9,24 +8,20 @@ This DBC contains information about the triggers of the in-game areas.
 
 ## Structure
 
- 
-
 |            |                    |          |                                                      |
-|------------|--------------------|----------|------------------------------------------------------|
-| **Column** | **Field**          | **Type** | **Notes**                                            |
-| 1          | ID                 | Integer  |                                                      |
-| 2          | iRefID\_[Map](Map) | Integer  |                                                      |
-| 3          | X                  | Float    |                                                      |
-| 4          | Y                  | Float    |                                                      |
-| 5          | Z                  | Float    |                                                      |
-| +          | phaseshift         | Integer  | New with wotlk or cataclysm                          |
-| 6          | radius             | Float    | Seems to be a box of size yards with center at x,y,z |
-| 7          | box\_x             | Float    | Most commonly used when size is 0, but not always    |
-| 8          | box\_y             | Float    | Most commonly used when size is 0, but not always    |
-| 9          | box\_z             | Float    | Most commonly used when size is 0, but not always    |
-| 10         | box\_orientation   | Float    | Most commonly used when size is 0, but not always    |
-
- 
+|------------|-----------------------|----------|------------------------------------------------------|
+| **Column** | **Field**             | **Type** | **Notes**                                            |
+| 1          | ID                    | Integer  |                                                      |
+| 2          | iRefID\_[Map](Map.md) | Integer  |                                                      |
+| 3          | X                     | Float    |                                                      |
+| 4          | Y                     | Float    |                                                      |
+| 5          | Z                     | Float    |                                                      |
+| +          | phaseshift            | Integer  | New with wotlk or cataclysm                          |
+| 6          | radius                | Float    | Seems to be a box of size yards with center at x,y,z |
+| 7          | box\_x                | Float    | Most commonly used when size is 0, but not always    |
+| 8          | box\_y                | Float    | Most commonly used when size is 0, but not always    |
+| 9          | box\_z                | Float    | Most commonly used when size is 0, but not always    |
+| 10         | box\_orientation      | Float    | Most commonly used when size is 0, but not always    |
 
 ## Content
 

@@ -1,7 +1,7 @@
 # PageTextMaterial
 
 
-&lt;big&gt;**PageTextMaterial.dbc**&lt;/big&gt;
+**PageTextMaterial.dbc**
 
 This DBC contains material used to display a gossip window for quest or page text.
 
@@ -37,8 +37,6 @@ This DBC contains material used to display a gossip window for quest or page tex
 </table>
 
 ## **Content**
-
-&lt;/noinclude&gt;
 
 <table>
 <colgroup>

@@ -1,11 +1,10 @@
 # Achievement
 
-
 **Achievement.dbc**
 
 This DBC contains all achievements.
 
- **Version is : 3.3.5a**
+**Version is : 3.3.5a**
 
 ## Structure
 
@@ -37,7 +36,7 @@ This DBC contains all achievements.
 </tr>
 <tr class="even">
 <td>3 </td>
-<td><a href="Map" class="uri">Map</a></td>
+<td><a href="Map.md" class="uri">Map</a></td>
 <td>Integer</td>
 <td>Only set if achievement is related to a zone, otherwise set to -1</td>
 </tr>
@@ -50,7 +49,7 @@ This DBC contains all achievements.
 <tr class="even">
 <td>5-20</td>
 <td>Name</td>
-<td>String + <a href="Localization_lang">Loc</a></td>
+<td>String + <a href="Localization_lang.md">Loc</a></td>
 <td> </td>
 </tr>
 <tr class="odd">
@@ -62,7 +61,7 @@ This DBC contains all achievements.
 <tr class="even">
 <td>22-37</td>
 <td>Description</td>
-<td>String + <a href="Localization_lang">Loc</a></td>
+<td>String + <a href="Localization_lang.md">Loc</a></td>
 <td>If Description is empty, it's not an Achievement but part of the statistics tab</td>
 </tr>
 <tr class="odd">
@@ -73,7 +72,7 @@ This DBC contains all achievements.
 </tr>
 <tr class="even">
 <td>39</td>
-<td><a href="Achievement_Category">Category</a></td>
+<td><a href="Achievement_Category.md">Category</a></td>
 <td>Integer</td>
 <td>Category ID</td>
 </tr>
@@ -97,14 +96,14 @@ This DBC contains all achievements.
 </tr>
 <tr class="even">
 <td>43</td>
-<td><a href="SpellIcon" class="uri">SpellIcon</a></td>
+<td>SpellIcon</td>
 <td>Integer</td>
 <td>An icon to display.</td>
 </tr>
 <tr class="odd">
 <td>44-59</td>
 <td>Reward</td>
-<td>String+ <a href="Localization_lang">Loc</a></td>
+<td>String+ <a href="Localization_lang.md">Loc</a></td>
 <td> </td>
 </tr>
 <tr class="even">
@@ -123,13 +122,13 @@ This DBC contains all achievements.
 <td>61</td>
 <td>Demands</td>
 <td>Integer</td>
-<td>Number of things you have to get/fulfill to get this Achievement. For example if you have to get 25 tabards, there is a 25. TrinityCore: &quot;need this count of completed criterias (own or referenced achievement criterias)&quot;</td>
+<td>Number of things you have to get/fulfill to get this Achievement. For example if you have to get 25 tabards, there is a 25. AzerothCore: &quot;need this count of completed criterias (own or referenced achievement criterias)&quot;</td>
 </tr>
 <tr class="odd">
 <td>62</td>
 <td>ReferencedAchievemnt</td>
 <td>Integer</td>
-<td> TrinityCore: &quot;referenced achievement (counting of all completed criterias)&quot;</td>
+<td>AzerothCore: &quot;referenced achievement (counting of all completed criterias)&quot;</td>
 </tr>
 </tbody>
 </table>

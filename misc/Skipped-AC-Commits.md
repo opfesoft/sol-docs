@@ -2,6 +2,8 @@ Skipped AC commits (just as a reminder and documentation):
 
 | commit                                   | date       | comment |
 |------------------------------------------|------------|---------|
+| 9174e1eb962aae530aed9c3624c1997d2168bccb | 2020-04-08 | follow-up 2abde9bd23a9303c3fff8195ae44236181bc833a |
+| 2abde9bd23a9303c3fff8195ae44236181bc833a | 2020-04-08 | SQL script has to be reworked |
 | 44c3bef14ea78bf6c33e56f4c361fd83749c6152 | 2020-04-05 | follow-up f821b0c7aae9b2968a4c30da33e54cbc7000805c |
 | f821b0c7aae9b2968a4c30da33e54cbc7000805c | 2020-04-05 | SQL script has to be reworked |
 | d22251bcabd475eacd0ddee17b49cfc077b5f69b | 2020-04-04 | split into 2 commits: 1. contains the actual change, 2. contains ea709de58baf6339fd2e589ad51c54d9f901736a and its fix |

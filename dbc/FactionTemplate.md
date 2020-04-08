@@ -12,7 +12,7 @@ This DBC contains information on all of the individual factions. A faction entry
 |--------------|-----------------------------------------------------------------------------------------------------|------------------|
 | **Field Nb** | **Name**                                                                                            | **Type**         |
 | 1            | ID                                                                                                  | Int              |
-| 2            | Name (Ref to [Faction.dbc](Faction.dbc)) | Int              |
+| 2            | Name (Ref to [Faction](Faction.md))                                                                 | Int              |
 | 4            | ourMask                                                                                             | Bitmask (4 bits) |
 | 5            | friendlyMask                                                                                        | Bitmask (4 bits) |
 | 6            | hostileMask                                                                                         | Bitmask (4 bits) |

@@ -4,7 +4,7 @@
 
 This dbc contains information on all of the base factions. These factions are unique and represent a faction with which a player can gain reputation.
 
-**IMPORTANT:** These values are used for **ALL** tables **EXCEPT** the [creature\_template](creature_template) and [gameobject\_template\_addon](gameobject_template_addon) tables.
+**IMPORTANT:** These values are used for **ALL** tables **EXCEPT** the [creature\_template](../db/world/creature_template.md) and [gameobject\_template\_addon](../db/world/gameobject_template_addon.md) tables.
 
 
 ## Structure
@@ -26,8 +26,8 @@ This dbc contains information on all of the base factions. These factions are un
 | 19     | **parentFactionID** | iRefID                                                         | Recursive. i.e. Undercity lists ID 67, which is Horde                                                                                                                                                                                                                                                      |
 | 20     | parentFactionMod    | Float\[2\]                                                     |                                                                                                                                                                                                                                                                                                            |
 | 22     | parentFactionCap    | Integer\[2\]                                                   |                                                                                                                                                                                                                                                                                                            |
-| 24     | Name                | [Loc](Localization_lang)                                       | Display name of the faction                                                                                                                                                                                                                                                                                |
-| 41     | Description         | [Loc](http://www.pxr.dk/wowdev/wiki/index.php?title=Loc "Loc") | Seen in the reputation-GUI on click.                                                                                                                                                                                                                                                                       |
+| 24     | Name                | [Loc](Localization_lang.md)                                    | Display name of the faction                                                                                                                                                                                                                                                                                |
+| 41     | Description         | [Loc](Localization_lang.md)                                    | Seen in the reputation-GUI on click.                                                                                                                                                                                                                                                                       |
 
 ## Flags
 

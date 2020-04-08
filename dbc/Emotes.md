@@ -1,22 +1,23 @@
 # Emotes
 
+**Emotes.dbc**
+
 This DBC contains emotes which can be used by NPCs.
 
+**Version is : 3.3.5a**
 
 ## Structure
 
-|            |          |                                                                                                                                                       |
-|------------|----------|-------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Column** | **Type** | **Comment**                                                                                                                                           |
-| 1          | long     | An ID for the emote. Must be unique.                                                                                                                  |
-| 2          | str      | A descriptive name for the emote.                                                                                                                     |
-| 3          | long     | Refers to an ID in [this DBC file](http://collab.kpsn.org/display/tc/AnimationData). This is the ID of the animation to play.                         |
-| 4          | flags    |                                                                                                                                                       |
-| 5          | flags    |                                                                                                                                                       |
-| 6          | long     |                                                                                                                                                       |
-| 7          | long     | Refers to an ID in [this DBC file](http://collab.kpsn.org/display/tc/SoundEntries). This is the ID of the sound to play when the animation is played. |
-
-Information on the structure this DBC file was taken from [here](http://www.pxr.dk/wowdev/wiki/index.php?title=Emotes.dbc). For any information on the columns without a comment, just refer to [that page](http://www.pxr.dk/wowdev/wiki/index.php?title=Emotes.dbc).
+|            |          |                                                                                                                       |
+|------------|----------|-----------------------------------------------------------------------------------------------------------------------|
+| **Column** | **Type** | **Comment**                                                                                                           |
+| 1          | long     | An ID for the emote. Must be unique.                                                                                  |
+| 2          | str      | A descriptive name for the emote.                                                                                     |
+| 3          | long     | Refers to an ID in [AnimationData](AnimationData.md). This is the ID of the animation to play.                        |
+| 4          | flags    |                                                                                                                       |
+| 5          | flags    |                                                                                                                       |
+| 6          | long     |                                                                                                                       |
+| 7          | long     | Refers to an ID in [SoundEntries](SoundEntries.md). This is the ID of the sound to play when the animation is played. |
 
 ## Content
 

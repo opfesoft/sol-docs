@@ -1,14 +1,14 @@
 # Spell
 
 
-# **Spell.dbc**
+**Spell.dbc**
 
 This DBC contains most information on all spells.
 These values are used by the core and a few spell\_\* tables.
 
 **Version 3.3.5**
 
-## **Structure**
+## Structure
 
 <table>
 <colgroup>
@@ -114,7 +114,7 @@ These values are used by the core and a few spell\_\* tables.
 </tr>
 <tr class="even">
 <td><p>18</p></td>
-<td><p><a href="#Spell-RequiresSpellFocus">requiresSpellFocus</a></p></td>
+<td><p><a href="#requiresspellfocus">requiresSpellFocus</a></p></td>
 <td><p>uint</p></td>
 </tr>
 <tr class="odd">
@@ -229,7 +229,7 @@ These values are used by the core and a few spell\_\* tables.
 </tr>
 <tr class="odd">
 <td><p>41</p></td>
-<td><p><a href="#Spell-powerType">powerType</a></p></td>
+<td><p><a href="#powertype">powerType</a></p></td>
 <td><p>uint</p></td>
 </tr>
 <tr class="even">
@@ -1195,7 +1195,7 @@ These values are used by the core and a few spell\_\* tables.
 </tbody>
 </table>
 
-## **Category**
+## Category
 
 <table>
 <colgroup>
@@ -1226,7 +1226,7 @@ These values are used by the core and a few spell\_\* tables.
 </tbody>
 </table>
 
-## **powerType**
+## powerType
 
 <table>
 <colgroup>
@@ -1257,7 +1257,7 @@ These values are used by the core and a few spell\_\* tables.
 </tbody>
 </table>
 
-## **RequiresSpellFocus**
+## RequiresSpellFocus
 
 Indicates that this spell needs a GO near (e.g. forges).
 Required object has the type GAMEOBJECT\_TYPE\_SPELLFOCUS and data0 matches the RequiresSpellFocus value.
