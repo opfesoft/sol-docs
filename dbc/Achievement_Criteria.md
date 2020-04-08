@@ -394,11 +394,11 @@ This information is retrieved from DBCStructure.h.
 
 #### GAIN\_REPUTATION = 46
 
-|            |                                                                                    |          |                                             |
-|------------|------------------------------------------------------------------------------------|----------|---------------------------------------------|
-| **Column** | **Field**                                                                          | **Type** | **Notes**                                   |
-| 4          | [Faction](http://www.pxr.dk/wowdev/wiki/index.php?title=Faction.dbc "Faction.dbc") | iRefID   |                                             |
-| 5          | reputationAmount                                                                   | Integer  | Total reputation amount, so 42000 = exalted |
+|            |                       |          |                                             |
+|------------|-----------------------|----------|---------------------------------------------|
+| **Column** | **Field**             | **Type** | **Notes**                                   |
+| 4          | [Faction](Faction.md) | iRefID   |                                             |
+| 5          | reputationAmount      | Integer  | Total reputation amount, so 42000 = exalted |
 
  
 

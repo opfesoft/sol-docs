@@ -14,13 +14,13 @@ As this data is extracted from client. It doesn't contain spells needed only ser
 
 [spell\_dbc](../db/world/spell_dbc.md) 
 
-[spelldifficulty\_dbc](../db/world/spelldifficulty_dbc)
+[spelldifficulty\_dbc](../db/world/spelldifficulty_dbc.md)
 
 Data stored in dbcs is extracted from client, ergo it may not be interpreted by TC properly, so it's meaning is a subject of changes and fixing, as dbcs contain most of the data needed by spell system to work.
 
 Data not needed by client for all spells is stored in following tables of world db:
 
-[conditions](../db/world/conditions) 
+[conditions](../db/world/conditions.md) 
 
 -CONDITION\_SOURCE\_TYPE\_SPELL\_IMPLICIT\_TARGET - allows you to define requirements for implicit area targets of the spell, only matching targets will be added to spell target list
 
@@ -34,33 +34,33 @@ Data not needed by client for all spells is stored in following tables of world 
 
 -CONDITION\_SOURCE\_TYPE\_VEHICLE\_SPELL
 
-[spell\_area](../db/world/spell_area) - defines if aura should be applied to an object in given area
+[spell\_area](../db/world/spell_area.md) - defines if aura should be applied to an object in given area
 
-[spell\_enchant\_proc\_data](../db/world/spell_enchant_proc_data) - defines behavior of item enchant procs
+[spell\_enchant\_proc\_data](../db/world/spell_enchant_proc_data.md) - defines behavior of item enchant procs
 
-[spell\_group\_stack\_rules](../db/world/spell_group_stack_rules) - defines stacking rules for each group
+[spell\_group\_stack\_rules](../db/world/spell_group_stack_rules.md) - defines stacking rules for each group
 
-[spell\_group](../db/world/spell_group) - allows grouping spells for convenient handling
+[spell\_group](../db/world/spell_group.md) - allows grouping spells for convenient handling
 
-[spell\_learn\_spell](../db/world/spell_learn_spell) - defines that learning a given spell should learn you other spell, if not provided in dbcs
+[spell\_learn\_spell](../db/world/spell_learn_spell.md) - defines that learning a given spell should learn you other spell, if not provided in dbcs
 
-[spell\_linked\_spell](../db/world/spell_linked_spell) - allows simple triggering spell casts on certain spell events
+[spell\_linked\_spell](../db/world/spell_linked_spell.md) - allows simple triggering spell casts on certain spell events
 
-[spell\_pet\_auras](../db/world/spell_pet_auras) - defines if a certain aura on pet owner should be linked to other aura on pet
+[spell\_pet\_auras](../db/world/spell_pet_auras.md) - defines if a certain aura on pet owner should be linked to other aura on pet
 
 spell\_proc\_event - defines a requirement which needs to be passed for proc event to occur
 
-[spell\_proc](../db/world/spell_proc) - same as spell\_proc\_event, table in development
+[spell\_proc](../db/world/spell_proc.md) - same as spell\_proc\_event, table in development
 
-[spell\_required](../db/world/spell_required) - defines requirements for learning a spell
+[spell\_required](../db/world/spell_required.md) - defines requirements for learning a spell
 
-[spell\_ranks](../db/world/spell_ranks) - implements a concept of spell rank ingame
+[spell\_ranks](../db/world/spell_ranks.md) - implements a concept of spell rank ingame
 
-[spell\_script\_names](../db/world/spell_script_names) - binds spells to their spell scripts
+[spell\_script\_names](../db/world/spell_script_names.md) - binds spells to their spell scripts
 
-[spell\_target\_position](../db/world/spell_target_position) - allows setting target location for certain spells
+[spell\_target\_position](../db/world/spell_target_position.md) - allows setting target location for certain spells
 
-[spell\_threat](../db/world/spell_threat) - contains threat data for spells
+[spell\_threat](../db/world/spell_threat.md) - contains threat data for spells
 
 Developers are expected to fill those tables correctly to make spells work correctly. Please follow links for more details about each table.
 
@@ -126,7 +126,7 @@ As you see, there are 2 kinds of scripts: SpellScript and AuraScript. You may de
 
 To make sure your script is executed you have to do two things (these are c++ requirements, I wish this was simpler).
 
--   create [spell\_script\_names](../db/world/spell_script_names) entry - As you've seen above each SpellScript/AuraScript is put inside of SpellScriptLoader class. Constructor of that class contains single parameter, that parameter is the value of ScriptName column inside spell\_script\_names table. The table consists of pairs (spellIdToWhichYouBindTheScript, "spell\_script\_you\_re\_binding"). You can bind one script to many spells or many scripts to one spell. The latter is needed for example when you want to logically separate scripts of a spell when spell is affected by different talents.
+-   create [spell\_script\_names](../db/world/spell_script_names.md) entry - As you've seen above each SpellScript/AuraScript is put inside of SpellScriptLoader class. Constructor of that class contains single parameter, that parameter is the value of ScriptName column inside spell\_script\_names table. The table consists of pairs (spellIdToWhichYouBindTheScript, "spell\_script\_you\_re\_binding"). You can bind one script to many spells or many scripts to one spell. The latter is needed for example when you want to logically separate scripts of a spell when spell is affected by different talents.
 -   properly override AuraScript\* GetAuraScript() const or SpellScript\* GetSpellScript() const to create objects of your script
 -   make sure SpellScriptLoader of your script is created - add a call in AddSC\_XXXXX function.
 
@@ -187,14 +187,6 @@ Sometimes you may decide that you want your script only be present in some cases
                 return GetCaster() && GetCaster()->GetTypeId() == TYPEID_PLAYER;
             }
 ```
-
-#### AuraScript hooks
-
-TODO![(smile)](images/icons/emoticons/smile.png "(smile)"){.emoticon .emoticon-smile}
-
-#### SpellScript hooks
-
-TODO![(smile)](images/icons/emoticons/smile.png "(smile)"){.emoticon .emoticon-smile}
 
 #### Good practices:
 

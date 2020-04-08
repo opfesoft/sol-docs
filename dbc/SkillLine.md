@@ -1,7 +1,7 @@
 # SkillLine
 
 
-&lt;big&gt;**SkillLine.dbc**&lt;/big&gt;
+**SkillLine.dbc**
 
 This DBC contains all skills.
 
