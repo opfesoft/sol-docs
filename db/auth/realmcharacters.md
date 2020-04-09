@@ -67,11 +67,11 @@ The data in this table is maintained by the core.
 
 ### realmid
 
-The ID of the realm. See [realmlist.id](realmlist_2130016.html#realmlist-id)
+The ID of the realm. See [realmlist.id](realmlist.md#id)
 
 ### acctid
 
-The account ID. See [account.id](account_2130004.html#account-id)
+The account ID. See [account.id](account.md#id)
 
 ### numchars
 

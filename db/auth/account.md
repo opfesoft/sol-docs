@@ -377,7 +377,7 @@ The number of failed logins attempted on the account.
 
 ### locked
 
-Boolean 0 or 1 controlling if the account has been locked or not. This can be controlled with the ".account lock" GM command. If locked (1), the user can only log in with their [last\_ip](#account-last_ip). If unlocked (0), a user can log in from any IP, and their last\_ip will be updated if it is different. ".Ban account" does not lock it.
+Boolean 0 or 1 controlling if the account has been locked or not. This can be controlled with the ".account lock" GM command. If locked (1), the user can only log in with their [last\_ip](#last_ip). If unlocked (0), a user can log in from any IP, and their last\_ip will be updated if it is different. ".Ban account" does not lock it.
 
 ### last\_login
 
@@ -394,10 +394,6 @@ Integer 0, 1 or 2 controlling if the client logged in on the account has any exp
 -   0 = Classic
 -   1 = The Burning Crusade (TBC)
 -   2 = Wrath of the Lich King (WotLK)
--   3 = Cataclysm
--   4 = Mist of Pandaria (MOP)
--   5 = Warlords of Draenor (WOD)
--   6 = Legion
 
 ### mutetime
 
@@ -417,7 +413,7 @@ The character name with the rights to the .mute command that give the mute.
 
 ### locale
 
-The locale used by the client logged into this account. If multiple locale data has been configured and added to the world servers, the world servers will return the proper locale strings to the client. See [localization IDs](Localization_lang)
+The locale used by the client logged into this account. If multiple locale data has been configured and added to the world servers, the world servers will return the proper locale strings to the client. See [localization IDs](../../dbc/Localization_lang.md)
 
 ### os
 
@@ -428,9 +424,4 @@ Stores information about client's OS. Used by Warden system.
 
 ### recruiter
 
-The account ID of another account. Used for recuit-a-friend system. See [account.id](#account-id)
-
-## Attachments:
-
-![](images/icons/bullet_blue.gif){width="8" height="8"} [Vbd5vtN.png](attachments/2130004/2131663.png) (image/png)
-
+The account ID of another account. Used for recuit-a-friend system. See [account.id](#id)

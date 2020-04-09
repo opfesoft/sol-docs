@@ -86,7 +86,7 @@ This table holds the server's uptime. The core will automatically update the lat
 
 ### realmid
 
-The ID of the realm. See [realmlist.id](realmlist_2130016.html#realmlist-id)
+The ID of the realm. See [realmlist.id](realmlist.md#id)
 
 ### starttime
 

@@ -1,9 +1,8 @@
 # account\_access
 
-
 **The \`account\_access\` table**
 
-This table holds security access level for any realm in [realmlist](realmlist) table.
+This table holds security access level for any realm in [realmlist](realmlist.md) table.
 
 **Structure**
 
@@ -70,12 +69,12 @@ This table holds security access level for any realm in [realmlist](realmlist) t
 
 ### id
 
-The [account ID](account_2130004.html#account-id).
+The [account ID](account.md#id).
 
 ### gmlevel
 
-The account security level. Different levels have access to different commands. The individual level required for a command is defined in the [command](command) table in each realm.
+The account security level. Different levels have access to different commands. The individual level required for a command is defined in the [command](command.md) table in each realm.
 
 ### RealmID
 
-The [Realm ID](realmlist_2130016.html#realmlist-id).
+The [Realm ID](realmlist.md#id).
