@@ -1,7 +1,5 @@
 # creature\_classlevelstats
 
-``
-
 **Table Structure**
 
 This table contains the base values for creature health, mana, armor, attack power, ranged attack power, damage, and experience.
@@ -128,47 +126,57 @@ Level of the creature.
 
 ### class
 
-Class of the creature. This is a reference to the [unit\_class](creature_template#creature_template-unit_class) field in the [creature\_template](creature_template) table.
+Class of the creature. This is a reference to the [unit\_class](creature_template.md#unit_class) field in the [creature\_template](creature_template.md) table.
 
 ### basehp0
 
-Base health for the creature if creature\_template.exp value is set to 0. This value is multiplied by [creature\_template.Health\_mod](creature_template#creature_template-Health_mod)  to determine the creature's final health.
+Base health for the creature if [creature\_template.exp](creature_template.md#exp) value is set to 0. This value is multiplied by [creature\_template.HealthModifier](creature_template.md#healthmodifier) to determine the creature's final health.
 
 ### basehp1
 
-Base health for the creature if creature\_template.exp value is set to 1. This value is multiplied by [creature\_template.Health\_mod](creature_template#creature_template-Health_mod)  to determine the creature's final health.
+Base health for the creature if [creature\_template.exp](creature_template.md#exp) value is set to 1. This value is multiplied by [creature\_template.HealthModifier](creature_template.md#healthmodifier) to determine the creature's final health.
 
 ### basehp2
 
-Base health for the creature if creature\_template.exp value is set to 2. This value is multiplied by [creature\_template.Health\_mod](creature_template#creature_template-Health_mod)  to determine the creature's final health.
+Base health for the creature if [creature\_template.exp](creature_template.md#exp) value is set to 2. This value is multiplied by [creature\_template.HealthModifier](creature_template.md#healthmodifier) to determine the creature's final health.
 
 ### basemana
 
-Base mana for the creature. This value is multiplied by  [creature\_template.Mana\_mod](creature_template#creature_template-Mana_mod) to determine the creature's final mana.
+Base mana for the creature. This value is multiplied by  [creature\_template.ManaModifier](creature_template.md#manamodifier) to determine the creature's final mana.
 
 ### basearmor
 
-Base armor for the creature. This value is multiplied by creature\_template.Armor\_mod to determine the creature's final armor.
+Base armor for the creature. This value is multiplied by [creature\_template.ArmorModifier](creature_template.md#armormodifier) to determine the creature's final armor.
 
 ### attackpower
 
-Base attack power for the creature. This value is multiplied by [creature\_template.attackpower](creature_template#creature_template-attackpower) to determine the creature's final attack power.
+**Not used by AC, see [creature\_template.attackpower](creature_template.md#attackpower)**
+
+Base attack power for the creature. This value is multiplied by [creature\_template.attackpower](creature_template.md#attackpower) to determine the creature's final attack power.
 
 ### rangedattackpower
 
-Base ranged attack power for the creature. It is currently unknown what this value is multiplied by to determine the creature's final attack power. Maybe it works the same as attack power and multiplies by [creature\_template.attackpower](creature_template#creature_template-attackpower)?
+**Not used by AC, see [creature\_template.rangedattackpower](creature_template.md#rangedattackpower)**
+
+Base ranged attack power for the creature. It is currently unknown what this value is multiplied by to determine the creature's final attack power. Maybe it works the same as attack power and multiplies by [creature\_template.attackpower](creature_template.md#attackpower)?
 
 ### damage\_base
 
-This field is used for unknown. (Might be the base dmg if exp1 and exp2 is set to 0).
+**Not used by AC, see [creature\_template.mindmg](creature_template.md#mindmg) and [creature\_template.maxdmg](creature_template.md#maxdmg)**
+
+Base damage for the creature if [creature\_template.exp](creature_template.md#exp) value is set to 0. This value is multiplied by [creature\_template.DamageModifier](creature_template.md#damagemodifier) to determine the creature's weapon base damage.
 
 ### damage\_exp1
 
-Min damage. This will increase/decrease by creature\_template.damagemodifier.
+**Not used by AC, see [creature\_template.mindmg](creature_template.md#mindmg) and [creature\_template.maxdmg](creature_template.md#maxdmg)**
+
+Base damage for the creature if [creature\_template.exp](creature_template.md#exp) value is set to 1. This value is multiplied by [creature\_template.DamageModifier](creature_template.md#damagemodifier) to determine the creature's weapon base damage.
 
 ### damage\_exp2
 
-Max damage This will increase/decrease by creature\_template.damagemodifier.
+**Not used by AC, see [creature\_template.mindmg](creature_template.md#mindmg) and [creature\_template.maxdmg](creature_template.md#maxdmg)**
+
+Base damage for the creature if [creature\_template.exp](creature_template.md#exp) value is set to 2. This value is multiplied by [creature\_template.DamageModifier](creature_template.md#damagemodifier) to determine the creature's weapon base damage.
 
 ### comment
 

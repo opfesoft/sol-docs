@@ -1,6 +1,5 @@
 # areatrigger\_involvedrelation
 
-
 **The \`areatrigger\_involvedrelation\` table**
 
 Enable a trigger to finish one condition of a quest (explore)
@@ -58,7 +57,7 @@ If there is a record in the table for a quest, then the quest will not be comple
 
 ### id
 
-This is the trigger ID from [AreaTrigger.dbc](DBC-AreaTrigger)
+This is the trigger ID from [AreaTrigger.dbc](../../dbc/AreaTrigger.md)
 
 ### quest
 

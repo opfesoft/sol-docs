@@ -35,16 +35,24 @@
 <td><p>NO</p></td>
 <td><p>0</p></td>
 </tr>
+<tr class="even">
+<td><p>Comment</p></td>
+<td><p>text</p></td>
+<td><p>unasigned</p></td>
+<td><p></p></td>
+<td><p>YES</p></td>
+<td><p>NULL</p></td>
+</tr>
 </tbody>
 </table>
 
 **Description of the fields**
 
 ### id
-Graveyard's ID. See [WorldSafeLocs.dbc](WorldSafelocs)
+Graveyard's ID. See [WorldSafeLocs.dbc](../../dbc/WorldSafeLocs.md)
 
 ### ghost_zone
-Zone's ID of ghost position before teleportation to graveyard. See [AreaTable.dbc](AreaTable)
+Zone's ID of ghost position before teleportation to graveyard. See [AreaTable.dbc](../../dbc/AreaTable.md)
 
 ### faction
 Graveyard's team.

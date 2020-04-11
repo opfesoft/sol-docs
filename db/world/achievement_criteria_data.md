@@ -1,6 +1,5 @@
 # achievement\_criteria\_data
 
-
 **The \`achievement\_criteria\_data\` table**
 
 This table contains the data that a player needs to obtain / complete in order to receive a given achievement.
@@ -86,7 +85,7 @@ This table contains the data that a player needs to obtain / complete in order t
 
 ### criteria\_id
 
-This is the ID from [Achievement\_Criteria.dbc](Achievement+Criteria).
+This is the ID from [Achievement\_Criteria.dbc](../../dbc/Achievement_Criteria.md).
 
 ### type
 
@@ -352,4 +351,4 @@ Depending on this value, it will determine how value1 and value2 are used.
 ### ScriptName
 
 The ScriptName for when scripting it in the core.
-This might also be 'SmartTrigger'. It will than use [SmartAI](smart_scripts).
+This might also be 'SmartTrigger'. It will than use [SmartAI](smart_scripts.md).

@@ -1,6 +1,5 @@
 # battleground\_template
 
-
 **The \`battleground\_template\` table**
 
 Contains information about the different battlegrounds, like how many players are needed to start, how many can be inside the same one, and the locations where each side starts.
@@ -285,23 +284,23 @@ Controls the minimum number of players that need to join the battleground on eac
 
 Controls how many players from each team can join the battleground.
 
-NOTE2: If left to be 0, trinity will use the default DBC value.
+NOTE2: If left to be 0, use the default DBC value.
 
 ### MinLvl
 
 The minimum level that players need to be in order to join the battleground.
 
-NOTE: If left to be 0, trinity will use the default DBC value.
+NOTE: If left to be 0, use the default DBC value.
 
 ### MaxLvl
 
 The maximum level that players can be to enter the battleground.
 
-NOTE: If left to be 0, trinity will use the default DBC value.
+NOTE: If left to be 0, use the default DBC value.
 
 ### AllianceStartLoc
 
-The location where the alliance players get teleported to when the battleground first starts. See WorldSafeLocs.dbc
+The location where the alliance players get teleported to when the battleground first starts. See [WorldSafeLocs.dbc](../../dbc/WorldSafeLocs.md)
 
 ### AllianceStartO
 
@@ -309,7 +308,7 @@ The orientation of the alliance players upon teleport into the battleground. Nor
 
 ### HordeStartLoc
 
-The location where the horde players get teleported to when the battleground first starts. See WorldSafeLocs.dbc
+The location where the horde players get teleported to when the battleground first starts. See [WorldSafeLocs.dbc](../../dbc/WorldSafeLocs.md)
 
 ### HordeStartO
 

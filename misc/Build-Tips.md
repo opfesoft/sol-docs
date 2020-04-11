@@ -3,7 +3,7 @@
 ## Add APT repositories
 
 - clang-10
-  - `wget -O - https://apt.llvm.org/llvm-snapshot.gpg.key | sudo apt-key add -`
+  - `curl https://apt.llvm.org/llvm-snapshot.gpg.key | sudo apt-key add -`
   - `vi /etc/apt/sources.list.d/llvm.list`
     - Ubuntu 16.04: `deb http://apt.llvm.org/xenial/ llvm-toolchain-xenial-10 main`
     - Ubuntu 18.04: `deb http://apt.llvm.org/bionic/ llvm-toolchain-bionic-10 main`
@@ -12,7 +12,7 @@
 
 - latest cmake
   - `apt-get install apt-transport-https`
-  - `wget -O - https://apt.kitware.com/keys/kitware-archive-latest.asc | sudo apt-key add -`
+  - `curl https://apt.kitware.com/keys/kitware-archive-latest.asc | sudo apt-key add -`
   - `vi /etc/apt/sources.list.d/kitware.list`
     - Ubuntu 16.04: `deb https://apt.kitware.com/ubuntu/ xenial main`
     - Ubuntu 18.04: `deb https://apt.kitware.com/ubuntu/ bionic main`

@@ -1,6 +1,5 @@
 # areatrigger\_teleport
 
-
 **The \`areatrigger\_teleport\` table**
 
 Contains all the teleport triggers definition. This table is used to complete .dbc file information.
@@ -116,7 +115,7 @@ Contains all the teleport triggers definition. This table is used to complete .d
 
 ### id
 
-This is the trigger identifier, it must match with the one from [AreaTrigger.dbc](DBC-AreaTrigger)
+This is the trigger identifier, it must match with the one from [AreaTrigger.dbc](../../dbc/AreaTrigger.md)
 
 ### name
 

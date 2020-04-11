@@ -1,6 +1,5 @@
 # areatrigger\_tavern
 
-
 **The \`areatrigger\_tavern\` table**
 
 Enable a trigger when player enters a city or tavern. This causes the player to enter a resting state.
@@ -56,7 +55,7 @@ Enable a trigger when player enters a city or tavern. This causes the player to 
 
 ### id
 
-This is the trigger identifier, see [AreaTrigger.dbc](DBC-AreaTrigger)
+This is the trigger identifier, see [AreaTrigger.dbc](../../dbc/AreaTrigger.md)
 
 ### name
 

@@ -1,6 +1,5 @@
 # areatrigger
 
-
 **The \`areatrigger\` table**
 
 This table contains trigger points for events in certain coordinates in the maps.

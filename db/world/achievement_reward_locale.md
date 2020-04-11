@@ -1,6 +1,5 @@
 # achievement\_reward\_locale
 
-
 **The \`achievement\_reward\_locale\` table**
 
 `table-no-description`

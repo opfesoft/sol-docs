@@ -4,7 +4,7 @@
 
  
 
-This table will have **localized texts** for \`broadcast\_text\` table. Used in [gossips](gossip_menu_option), [creature texts](creature_text) and [npc\_text](npc_text)s.
+This table will have **localized texts** for \`broadcast\_text\` table. Used in [gossips](gossip_menu_option.md), [creature texts](creature_text.md) and [npc\_text](npc_text.md)s.
 
 Its purpose is (will be) used as a globalized table containing the localized texts as mentionned above.
 
@@ -15,8 +15,8 @@ Its purpose is (will be) used as a globalized table containing the localized tex
 |-----------------------------|--------------|------|------|---------|-------|---------|
 | [ID](#ID)                   | mediumint(8) |  PRI | NO   | 0       |       |         |
 | [locale](#locale)           | varchar(4)   |  PRI | NO   | NULL    |       |         |
-| [MaleText](#MaleText)       | text         |      | YES  | NULL    |       |         |
-| [FemaleText](#FemaleText)   | text         |      | YES  | NULL    |       |         |
+| [MaleText](#maletext)       | text         |      | YES  | NULL    |       |         |
+| [FemaleText](#femaletext)   | text         |      | YES  | NULL    |       |         |
 | VerifiedBuild               | smallint(5)  |      | YES  | 0       |       |         |
 
 ### Description of the fields
@@ -50,6 +50,6 @@ If value is above 0 then it has been parsed with WDB files from that specific cl
 
 If value is -1 then it is just a place holder until proper data are found on WDBs.
 
-If value is [-Client Build](https://www.azerothcore.org/wiki/realmlist "DB:Auth:realmlist") then it was parsed with WDB files from that specific [client build](https://www.azerothcore.org/wiki/realmlist#gamebuild "DB:Auth:realmlist") and manually edited later for some special necessity.
+If value is [-Client Build](../auth/realmlist.md "DB:Auth:realmlist") then it was parsed with WDB files from that specific [client build](../auth/realmlist.md#gamebuild "DB:Auth:realmlist") and manually edited later for some special necessity.
 
  

@@ -1,6 +1,5 @@
 # battlemaster\_entry
 
-
 **The \`battlemaster\_entry\` table**
 
 Holds information on which NPC can start what battleground or arena.
@@ -56,8 +55,8 @@ Holds information on which NPC can start what battleground or arena.
 
 ### entry
 
-The ID of the creature. See creature\_template.entry
+The ID of the creature. See [creature_template.entry](creature_template.md#entry)
 
 ### bg\_template
 
-The battleground\_template.id.
+The [battleground_template.id](battleground_template.md#id).

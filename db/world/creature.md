@@ -148,7 +148,7 @@ Contains individual creature spawn data for each individual spawn of each indivi
 <td><p> </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#spawndist">spawndist</a></p></td>
+<td><p><a href="#wander_distance">wander_distance</a></p></td>
 <td><p>float</p></td>
 <td><p>signed</p></td>
 <td><p> </p></td>
@@ -336,9 +336,9 @@ The orientation of the creatures spawn point. (North = 0.0; South = pi (3.14159)
 
 The respawn time, in seconds, of the creature.
 
-### spawndist
+### wander_distance
 
-The maximum distance that the creature may spawn from its spawn point. Also controls how far away the creature can walk from its spawn point if its [MovementType](#creature-MovementType) = 1.
+The maximum distance that the creature may wander from its spawn point. If greater than 0 its [MovementType](#movementtype) has to be 1.
 
 ### currentwaypoint
 

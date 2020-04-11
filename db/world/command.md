@@ -1,3 +1,4 @@
+# command
 
 <p><strong>The `command` table</strong></p>
 
@@ -66,7 +67,7 @@
 <p>The name of the command.</p>
 
 <h3>security</h3>
-<p>The security level required to use the command. Corresponds with account_access.gmlevel in the realm database.</p>
+<p>The security level required to use the command. Corresponds with [account_access.gmlevel](../auth/account_access.md#gmlevel) in the realm database.</p>
 
 <h3>help</h3>
 <p>The help text displayed by the .help command.</p>

@@ -367,7 +367,7 @@ Note: Some commands are working only by selecting a player or a creature. These 
 |saveall|1|Syntax: .saveall Save all characters in game.|
 |send items|3|Syntax: .send items #playername "#subject" "#text" itemid1[:count1] itemid2[:count2] ... itemidN[:countN] Send a mail to a player. Subject and mail text must be in "". If for itemid not provided related count values then expected 1, if count > max items in stack then items will be send in required amount stacks. All stacks amount in mail limited to 12.|
 |send mail|1|Syntax: .send mail #playername "#subject" "#text" Send a mail to a player. Subject and mail text must be in "".|
-|send message|3|Syntax: .send message $playername $message Send screen message to player from ADMINISTRATOR.|
+|send message|3|Syntax: .send message $playername $message Send screen message to player from ADMINISTRATOR. **Will return an error if player is offline (can be problematic with SOAP for example)!**|
 |send money|3|Syntax: .send money #playername "#subject" "#text" #money Send mail with money to a player. Subject and mail text must be in "".|
 |server corpses|2|Syntax: .server corpses Triggering corpses expire check in world.|
 |server exit|4|Syntax: .server exit Terminate azeroth-core NOW. Exit code 0.|
@@ -464,7 +464,7 @@ Note: Some commands are working only by selecting a player or a creature. These 
 |reload creature_text|3|Syntax: .reload creature_text Reload creature_text table.|
 |debug areatriggers|1|Syntax: .debug areatriggers Toggle debug mode for areatriggers. In debug mode GM will be notified if reaching an areatrigger|
 |learn all recipes|2|Syntax: .learn all recipes [$profession] Learns all recipes of specified profession and sets skill level to max. Example: .learn all recipes enchanting|
-|npc set spawndist|2|Syntax: .npc set spawndist #dist Adjust spawndistance of selected creature to dist.|
+|npc set wanderdistance|3|Syntax: .npc set wanderdistance #dist Adjust wanderdistance of selected creature to dist.|
 |npc set spawntime|2|Syntax: .npc set spawntime #time Adjust spawntime of selected creature to time.|
 |npc add temp|2|Syntax: .npc add temp Adds temporary NPC, not saved to database.|
 |npc textemote|1|Syntax: .npc textemote #emoteid Make the selected creature to do textemote with an emote of id #emoteid.|

@@ -4,7 +4,7 @@
 
  
 
-This table (ref <https://github.com/TrinityCore/TrinityCore/commit/60e87db>) will have **everything** you need for your scripts' texts, such as: [gossips](gossip_menu_option), [creature texts](creature_text) and [npc\_text](npc_text)s.
+This table (ref <https://github.com/TrinityCore/TrinityCore/commit/60e87db>) will have **everything** you need for your scripts' texts, such as: [gossips](gossip_menu_option.md), [creature texts](creature_text.md) and [npc\_text](npc_text.md)s.
 
 Its purpose is (will be) used as a globalized table containing the texts as mentionned above, and things like their sounds, their emotes and the languages in which the texts should be said.
 
@@ -16,10 +16,10 @@ All the values are from sniffs (ADBVerified) so, don't add things in it - Kinzco
 
 | Field                                    | Type        | Attributes | Key | Null | Default | Extra | Comment |
 |------------------------------------------|-------------|------------|-----|------|---------|-------|---------|
-| [ID](#broadcast_text-ID)                 | int(10)     | unsigned   | PRI | NO   | 0       |       |         |
-| [Language](#broadcast_text-Language)     | int(11)     | unsigned   |     | NO   | 0       |       |         |
-| [MaleText](#broadcast_text-MaleText)     | text        | signed     |     | YES  | NULL    |       |         |
-| [FemaleText](#broadcast_text-FemaleText) | text        | signed     |     | YES  | NULL    |       |         |
+| [ID](#id)                 | int(10)     | unsigned   | PRI | NO   | 0       |       |         |
+| [Language](#language)     | int(11)     | unsigned   |     | NO   | 0       |       |         |
+| [MaleText](#maletext)     | text        | signed     |     | YES  | NULL    |       |         |
+| [FemaleText](#femaletext) | text        | signed     |     | YES  | NULL    |       |         |
 | EmoteID1                                 | int(10)     | unsigned   |     | NO   | 0       |       |         |
 | EmoteID2                                 | int(10)     | unsigned   |     | NO   | 0       |       |         |
 | EmoteID3                                 | int(10)     | unsigned   |     | NO   | 0       |       |         |
@@ -57,7 +57,7 @@ The text that the female creature will broadcast, or female characters can read 
 
 The emotes played when the texts are broadcast.
 
-IDs from Emotes.dbc
+IDs from [Emotes.dbc](../../dbc/Emotes.md)
 
 ### EmoteDelay\[1-3\]
 
@@ -67,7 +67,7 @@ The delays of the broadcast emotes.
 
 The sounds played when the texts are broadcast.
 
-IDs from SoundEntries.dbc
+IDs from [SoundEntries.dbc](../../dbc/SoundEntries.md)
 
 ### UnkEmoteID
 
@@ -87,6 +87,6 @@ If value is above 0 then it has been parsed with WDB files from that specific cl
 
 If value is -1 then it is just a place holder until proper data are found on WDBs.
 
-If value is -Client Build then it was parsed with WDB files from that specific [client build](http://archive.trinitycore.info/DB:Auth:realmlist#gamebuild "DB:Auth:realmlist") and manually edited later for some special necessity.
+If value is -Client Build then it was parsed with WDB files from that specific [client build](../auth/realmlist.md#gamebuild "DB:Auth:realmlist") and manually edited later for some special necessity.
 
  

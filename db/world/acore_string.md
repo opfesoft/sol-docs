@@ -1,6 +1,5 @@
 # acore_string
 
-
 **The \`acore_string\` table**
 
 This table holds all of the strings used internally by the server. This table is provided with the main purpose of translation in mind.

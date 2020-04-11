@@ -1,6 +1,5 @@
 # creature\_addon
 
-
 **The \`creature\_addon\` table**
 
 The creature\_addon and creature\_template\_addon tables define different things that are applied on creatures when they are loaded. These "different things" can be for example to have the creature be mounted, to have it emote something, to have it display an aura effect, etc. Through the use of the fields in this table, many things can be changed about the outward visual appearance of the creature. The creature\_template\_addon table affects all creatures with that creature template ID while the creature\_addon table affects individually spawned creatures (so that two creatures using the same template can look different).
@@ -24,7 +23,7 @@ NOTICE: The data for this table is largely incomplete and is mostly just a regur
 <td><p><strong>Comment</strong></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#guid/entry">guid/entry</a></p></td>
+<td><p><a href="#guidentry">guid/entry</a></p></td>
 <td><p>int(10)/medumint(8)</p></td>
 <td><p>unsigned</p></td>
 <td><p>PRI</p></td>
@@ -101,7 +100,7 @@ NOTICE: The data for this table is largely incomplete and is mostly just a regur
 </p></td>
 </tr>
 <tr class="even">
-<td><a href="#aianimkit/movementanimkit/meleeanimkit">aiAnimKit</a></td>
+<td><a href="#aianimkit-movementanimkit-meleeanimkit">aiAnimKit</a></td>
 <td>smallint(6)</td>
 <td>signed</td>
 <td><br />
@@ -114,7 +113,7 @@ NOTICE: The data for this table is largely incomplete and is mostly just a regur
 </td>
 </tr>
 <tr class="odd">
-<td><a href="#aianimkit/movementanimkit/meleeanimkit">movementAnimKit</a></td>
+<td><a href="#aianimkit-movementanimkit-meleeanimkit">movementAnimKit</a></td>
 <td>smallint(6)</td>
 <td>signed</td>
 <td><br />
@@ -127,7 +126,7 @@ NOTICE: The data for this table is largely incomplete and is mostly just a regur
 </td>
 </tr>
 <tr class="even">
-<td><a href="#aianimkit/movementanimkit/meleeanimkit">meleeAnimKit</a></td>
+<td><a href="#aianimkit-movementanimkit-meleeanimkit">meleeAnimKit</a></td>
 <td>smallint(6)</td>
 <td>signed</td>
 <td><br />
@@ -140,7 +139,7 @@ NOTICE: The data for this table is largely incomplete and is mostly just a regur
 </td>
 </tr>
 <tr class="odd">
-<td><a href="#isLarge">isLarge</a></td>
+<td><a href="#islarge">isLarge</a></td>
 <td>tinyint(1)</td>
 <td>unsigned</td>
 <td><br />

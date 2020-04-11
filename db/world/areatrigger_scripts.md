@@ -1,9 +1,8 @@
 # areatrigger\_scripts
 
-
 **The \`areatrigger\_scripts\` table**
 
-Allows for an area trigger to be scripted with Trinity Script.
+Allows for an area trigger to be scripted with a core or SAI script.
 
 **Structure**
 
@@ -56,9 +55,9 @@ Allows for an area trigger to be scripted with Trinity Script.
 
 ### entry
 
-This is the trigger identifier from [AreaTrigger.dbc](DBC-AreaTrigger)
+This is the trigger identifier from [AreaTrigger.dbc](../../dbc/AreaTrigger.md)
 
 ### ScriptName
 
 The ScriptName for when scripting it in the core.
-This might also be 'SmartTrigger'. It will than use [SmartAI](smart_scripts).
+This might also be 'SmartTrigger'. It will then use [SmartAI](smart_scripts.md).
