@@ -1,6 +1,5 @@
 # creature\_formations
 
-
 **The \`creature\_formations\` table**
 
 This table allows to group mobs. Members of group will follow others, and attack their targets.
@@ -119,7 +118,7 @@ Maximum distance between group leader and member
 Angle between leader and member
 Note: Only degrees are used! Values should be between 0 and 360
 
-![angle](assets/images/angle.png)
+![angle](../../img/angle.png)
 
 ## groupAI
 
@@ -152,14 +151,3 @@ If your leader has a path like the one below where he moves to point 5 then back
        8    7      6
 
  
-
- 
-
- 
-
- 
-
-## Attachments:
-
-![](images/icons/bullet_blue.gif){width="8" height="8"} [followangle2.png](attachments/2129997/2130322.png) (image/png)
-

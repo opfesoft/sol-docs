@@ -150,31 +150,21 @@ Base armor for the creature. This value is multiplied by [creature\_template.Arm
 
 ### attackpower
 
-**Not used by AC, see [creature\_template.attackpower](creature_template.md#attackpower)**
-
 Base attack power for the creature. This value is multiplied by [creature\_template.attackpower](creature_template.md#attackpower) to determine the creature's final attack power.
 
 ### rangedattackpower
-
-**Not used by AC, see [creature\_template.rangedattackpower](creature_template.md#rangedattackpower)**
 
 Base ranged attack power for the creature. It is currently unknown what this value is multiplied by to determine the creature's final attack power. Maybe it works the same as attack power and multiplies by [creature\_template.attackpower](creature_template.md#attackpower)?
 
 ### damage\_base
 
-**Not used by AC, see [creature\_template.mindmg](creature_template.md#mindmg) and [creature\_template.maxdmg](creature_template.md#maxdmg)**
-
 Base damage for the creature if [creature\_template.exp](creature_template.md#exp) value is set to 0. This value is multiplied by [creature\_template.DamageModifier](creature_template.md#damagemodifier) to determine the creature's weapon base damage.
 
 ### damage\_exp1
 
-**Not used by AC, see [creature\_template.mindmg](creature_template.md#mindmg) and [creature\_template.maxdmg](creature_template.md#maxdmg)**
-
 Base damage for the creature if [creature\_template.exp](creature_template.md#exp) value is set to 1. This value is multiplied by [creature\_template.DamageModifier](creature_template.md#damagemodifier) to determine the creature's weapon base damage.
 
 ### damage\_exp2
-
-**Not used by AC, see [creature\_template.mindmg](creature_template.md#mindmg) and [creature\_template.maxdmg](creature_template.md#maxdmg)**
 
 Base damage for the creature if [creature\_template.exp](creature_template.md#exp) value is set to 2. This value is multiplied by [creature\_template.DamageModifier](creature_template.md#damagemodifier) to determine the creature's weapon base damage.
 

@@ -1,6 +1,5 @@
 # creature\_equip\_template
 
-
 ## **Table: creature\_equip\_template**
 
 This table contains all the equipment combinations that can be sent for each creature.
@@ -90,7 +89,7 @@ This table contains all the equipment combinations that can be sent for each cre
 
 ### CreatureID
 
-The direct corresponding [id](http://www.azerothcore.org/wiki/creature#id) in [creature](creature) table or [entry](http://www.azerothcore.org/wiki/creature_template#creature_template-entry) in [creature\_template](creature_template) table.
+The direct corresponding [id](creature.md#id) in [creature](creature.md) table or [entry](creature_template.md#entry) in [creature\_template](creature_template.md) table.
 
 ### ID
 
@@ -98,12 +97,12 @@ An additional identifier for each individual entry, enabling multiple equipment
 
 ### ItemID1
 
-This is the item number of the equipment used in the right hand from [Item.dbc](Item).
+This is the item number of the equipment used in the right hand from Item.dbc (see [item\_template.entry](item_template.md#entry).
 
 ### ItemID2
 
-This is the item number of the equipment used in the left hand from [Item.dbc](Item).
+This is the item number of the equipment used in the left hand from Item.dbc (see [item\_template.entry](item_template.md#entry).
 
 ### ItemID3
 
-This is the item number of the equipment used in the ranged slot from [Item.dbc](Item).
+This is the item number of the equipment used in the ranged slot from Item.dbc (see [item\_template.entry](item_template.md#entry).

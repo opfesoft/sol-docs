@@ -1,6 +1,5 @@
 # creature
 
-
 **Table Structure**
 
 Contains individual creature spawn data for each individual spawn of each individual creature in the game world.
@@ -56,6 +55,26 @@ Contains individual creature spawn data for each individual spawn of each indivi
 <td><p>0</p></td>
 <td><p> </p></td>
 <td><p>Map Identifier</p></td>
+</tr>
+<tr class="odd">
+<td><p><a href="#zoneid">zoneId</a></p></td>
+<td><p>smallint(5)</p></td>
+<td><p>unsigned</p></td>
+<td><p> </p></td>
+<td><p>NO</p></td>
+<td><p>0</p></td>
+<td><p> </p></td>
+<td><p>Zone Identifier (filled by the core, see worldserver parameter Calculate.Creature.Zone.Area.Data)</p></td>
+</tr>
+<tr class="even">
+<td><p><a href="#areaid">areaId</a></p></td>
+<td><p>smallint(5)</p></td>
+<td><p>unsigned</p></td>
+<td><p> </p></td>
+<td><p>NO</p></td>
+<td><p>0</p></td>
+<td><p> </p></td>
+<td><p>Area Identifier (filled by the core, see worldserver parameter Calculate.Creature.Zone.Area.Data)</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="#spawnmask">spawnMask</a></p></td>
@@ -238,11 +257,19 @@ A unique identifier given to each creature to distinguish one creature from anot
 
 ### id
 
-The ID of the [template](creature_template#creature_template-entry) that is used when instantiating this creature.
+The ID of the [template](creature_template.md#entry) that is used when instantiating this creature.
 
 ### map
 
-The ID of the [map](Map) that the creature is spawned on.
+The ID of the [map](../../dbc/Map.md) that the creature is spawned on.
+
+### zoneId
+
+The ID of the zone that the creature is spawned on. Useful for debugging and filled by the core if worldserver parameter "Calculate.Creature.Zone.Area.Data" is set to 1.
+
+### areaId
+
+The ID of the area that the creature is spawned on. Useful for debugging and filled by the core if worldserver parameter "Calculate.Creature.Zone.Area.Data" is set to 1.
 
 ### spawnMask
 
@@ -302,17 +329,17 @@ This is a bit-mask field that describes all the phases that a creature will appe
 
 ### modelid
 
-The model ID associated with the creature. Note that two creatures that use the same template can have different models. See [creature\_model\_info](creature_model_info) for more information on model-specific characteristics.
+The model ID associated with the creature. Note that two creatures that use the same template can have different models. See [creature\_model\_info](creature_model_info.md) for more information on model-specific characteristics.
 
 Note:
 
-This can be left at 0 and a random model from its assigned models in [creature\_template](creature_template) will be assigned by the core.
+This can be left at 0 and a random model from its assigned models in [creature\_template](creature_template.md) will be assigned by the core.
 
 ### equipment\_id
 
-The ID as defined within [creature\_equip\_template](creature_equip_template) corresponding to the [entry](creature_template). The value essential defines the equip:
+The ID as defined within [creature\_equip\_template](creature_equip_template.md) corresponding to the [entry](creature_template.md). The value essential defines the equip:
 
--   ** -1**: A random equip from the set of equips in [creature\_equip\_template](creature_equip_template) will be chosen.
+-   ** -1**: A random equip from the set of equips in [creature\_equip\_template](creature_equip_template.md) will be chosen.
 -   **  0**: No equipment defined.
 -   **1+**: The individual id within creature\_equip\_template.
 
@@ -342,7 +369,7 @@ The maximum distance that the creature may wander from its spawn point. If great
 
 ### currentwaypoint
 
-The current [waypoint](waypoint_data#waypoint_data-point) that the creature is on, if any.
+The current [waypoint](waypoint_data.md#point) that the creature is on, if any.
 
 ### curhealth
 
@@ -354,13 +381,13 @@ The mana that the creature will spawn with.
 
 ### MovementType
 
-The movement type associated with the creature. Usually the same as its [MovementType](creature_template#creature_template-MovementType), but it can be different.
+The movement type associated with the creature. Usually the same as its [MovementType](creature_template.md#movementtype), but it can be different.
 
 ### npcflag
 
-Same as [creature\_template.npcflag](creature_template#creature_template-npcflag) .
+Same as [creature\_template.npcflag](creature_template.md#npcflag).
 
-NOTE: A creature.npcflag record will override a [creature\_template.npcflag](creature_template#creature_template-npcflag) record.
+NOTE: A creature.npcflag record will override a [creature\_template.npcflag](creature_template.md#npcflag) record.
 
 ### unit\_flags
 
@@ -368,7 +395,7 @@ Same as creature\_template.unit\_flags.
 
 Note:
 
-A creature.unit\_flags record will override a [creature\_template.unit\_flags](creature_template#creature_template-unit_flags) record.
+A creature.unit\_flags record will override a [creature\_template.unit\_flags](creature_template.md#unit_flags) record.
 
 ### dynamicflags
 
@@ -376,4 +403,4 @@ Same as creature\_template.dynamicflags.
 
 Note:
 
-A creature.dynamicflags record will override a [creature\_template.dynamicflags](creature_template#creature_template-dynamicflags) record.
+A creature.dynamicflags record will override a [creature\_template.dynamicflags](creature_template.md#dynamicflags) record.
