@@ -4,11 +4,11 @@
 
 **Short Description:**
 
-This table holds all the speech text (whisper, say, yell, emote text in speech bubbles and in the chat window) used within [SMART\_SCRIPTS](http://www.azerothcore.org/wiki/smart_scripts) table and core scripts.
+This table holds all the speech text (whisper, say, yell, emote text in speech bubbles and in the chat window) used within [SMART\_SCRIPTS](smart_scripts.md) table and core scripts.
 
 **Detailed Description:**
 
-Have you ever wondered how a boss like ***Sindragosa*** (→ [wowhead](http://www.wowhead.com/npc=36853/sindragosa)) is scripted? There is no need to wonder, you can see it for yourself! (→ [Sindragosa Script File](https://github.com/azerothcore/azerothcore-wotlk/blob/master/src/server/scripts/Northrend/IcecrownCitadel/boss_sindragosa.cpp))
+Have you ever wondered how a boss like ***Sindragosa*** (→ [wowhead](http://www.wowhead.com/npc=36853/sindragosa)) is scripted? There is no need to wonder, you can see it for yourself! (→ [Sindragosa Script File](https://gitlab.com/opfesoft/sol/-/blob/master/src/server/scripts/Northrend/IcecrownCitadel/boss_sindragosa.cpp))
 
 I know, I know - this looks incredibly complex, over 1600 lines of code! However there is no need to understand everything at one time. Let's focus on something simple, but still very important, shall we? 
 
@@ -77,7 +77,7 @@ simpler than you might thought. It is stored in **CREATURE\_TEXT** table!
 <td><p>0</p></td>
 <td><p><br />
 </p></td>
-<td><p><a href="http://www.azerothcore.org/wiki/creature_template#creature_template-entry">creature_template entry</a></p></td>
+<td><p><a href="creature_template.md#entry">creature_template entry</a></p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="#groupid">GroupID</a></p></td>
@@ -240,7 +240,7 @@ simpler than you might thought. It is stored in **CREATURE\_TEXT** table!
 
 ### CreatureID
 
-This is the [creature\_template.entry](http://www.azerothcore.org/wiki/creature_template#creature_template-entry) to which the script is linked to.
+This is the [creature\_template.entry](creature_template.md#entry) to which the script is linked to.
 
 ### GroupID
 
@@ -277,16 +277,16 @@ The text the creature will say.
 
 | Value | Old value | Localization | Picture Example                               |
 |-------|-----------|--------------|-----------------------------------------------|
-| 12    | 0         | Say          | ![Say](assets/images/Say.png)                 |
-| 14    | 1         | Yell         | ![Yell](assets/images/Yell.png)               |
-| 16    | 2         | Emote        | ![Emote](assets/images/Emote.png)             |
-| 41    | 3         | Boss Emote   | ![BossEmote](assets/images/BossEmote.png)     |
-| 15    | 4         | Whisper      | ![Whisper](assets/images/Whisper.png)         |
-| 42    | 5         | Boss Whisper | ![BossWhisper](assets/images/BossWhisper.png) |
+| 12    | 0         | Say          | ![Say](../../img/Say.png)                 |
+| 14    | 1         | Yell         | ![Yell](../../img/Yell.png)               |
+| 16    | 2         | Emote        | ![Emote](../../img/Emote.png)             |
+| 41    | 3         | Boss Emote   | ![BossEmote](../../img/BossEmote.png)     |
+| 15    | 4         | Whisper      | ![Whisper](../../img/Whisper.png)         |
+| 42    | 5         | Boss Whisper | ![BossWhisper](../../img/BossWhisper.png) |
 
 ### Language
 
-Value from [Languages.dbc](Languages) (+ the wiki table from the dbc file). When set to 0, the current default language will be used.
+Value from [Languages.dbc](../../dbc/Languages.md) (+ the wiki table from the dbc file). When set to 0, the current default language will be used.
 
 ### Probability
 
@@ -294,7 +294,7 @@ A value from 1-100 that represents the percentage chance that this text will be 
 
 ### Emote
 
-The emote that the creature plays when the text is executed. Value to use in this field can be obtained from the [emote.dbc](Emotes)
+The emote that the creature plays when the text is executed. Value to use in this field can be obtained from the [emote.dbc](../../dbc/Emotes.md)
 
 ### Duration
 
@@ -307,7 +307,7 @@ The sound entry this creature will play at the same time the text is executed. S
 
 ### BroadcastTextId
 
-Id of the equivalent text found in [broadcast\_text](broadcast_text)
+Id of the equivalent text found in [broadcast\_text](broadcast_text.md)
 
 ### TextRange
 

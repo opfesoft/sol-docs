@@ -1,6 +1,5 @@
 # creature\_questender
 
-
 **The \`creature\_questender\` table**
 
 Holds NPC quest ender relations on which NPCs finishes which quests.
@@ -56,8 +55,8 @@ Holds NPC quest ender relations on which NPCs finishes which quests.
 
 ### id
 
-The ID of the creature. See [creature\_template.entry](http://www.azerothcore.org/wiki/creature_template#creature_template-entry)
+The ID of the creature. See [creature\_template.entry](creature_template.md#entry)
 
 ### quest
 
-The quest ID that the creature finishes. See [quest\_template.id](http://www.azerothcore.org/wiki/quest_template#id)
+The quest ID that the creature finishes. See [quest\_template.id](quest_template.md#id)

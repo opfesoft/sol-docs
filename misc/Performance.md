@@ -15,7 +15,7 @@ It is recommended to use at least 16 GB as the server will gradually cache the w
 
 Default behaviour without further configuration:
 
-- Creatures only follow their waypoint path if they are in reach of a player
+- Creatures only follow their waypoint path if they are in reach of a player.
 - Some special creatures (e.g. the Fel Reavers in Hellfire Peninsula) start their waypoint movement when they are loaded (this happens when the grid is activated by a player); they then continue on their path perpetually until the server is restarted.
 
 This takes less memory and causes low CPU usage.
