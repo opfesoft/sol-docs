@@ -1,6 +1,5 @@
 # game\_event\_creature
 
-
 **The \`game\_event\_creature\` table**
 
 Contains all creature instances that have to be spawned/unspawned during defined game events.

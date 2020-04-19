@@ -1,6 +1,5 @@
 # game\_event\_battleground\_holiday
 
-
 **The \`Game\_event\_battleground\_holiday\` table**
 
 This table is used to add a holiday to a battleground, for things like extra reputation / honor.

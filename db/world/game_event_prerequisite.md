@@ -1,6 +1,5 @@
 # game\_event\_prerequisite
 
-
 **The \`game\_event\_prerequisite\` table**
 
 This table contains events that must have been completed to start the given event. You can have more than one event that must be completed before the next will start.
@@ -60,4 +59,4 @@ This is the event that will start when all prerequisite events have been complet
 
 ### prerequisite\_event
 
-The is the event that must be completed before the next [event](#game_event_prerequisite-eventEntry) will start.
+The is the event that must be completed before the next event will start.

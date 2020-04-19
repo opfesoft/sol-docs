@@ -1,6 +1,5 @@
 # disables
 
-
 **The \`disables\` table**
 
 This table is used to disable dungeons/bgs/spells/etc.

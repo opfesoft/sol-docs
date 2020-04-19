@@ -1,6 +1,5 @@
 # game\_event\_npcflag
 
-
 **The \`game\_event\_npcflag\` table**
 
 This table contains npcflags that are to be added to an NPC when the specified event is active for the creature with the given guid.

@@ -54,7 +54,7 @@ This table holds definitions for all game events that are activated or deactivat
 <td><p>Absolute end date, the event will never start after; if NULL it will be implicitly set to 2 years in the future on each server start</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="http://collab.kpsn.org#occurrence">occurrence</a></p></td>
+<td><p><a href="#occurrence">occurrence</a></p></td>
 <td><p>bigint(20)</p></td>
 <td><p>unsigned</p></td>
 <td><p><br />
@@ -165,7 +165,7 @@ This value must be lower than occurrence one or the event will never stop.
 
 ### holiday
 
-Holiday ID from  [Holidays DBC file](Holidays). This is sent to the client to update the calender.
+Holiday ID from  [Holidays DBC file](../../dbc/Holidays.md). This is sent to the client to update the calender.
 
 ### description
 

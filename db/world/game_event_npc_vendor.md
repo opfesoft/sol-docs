@@ -1,9 +1,8 @@
 # game\_event\_npc\_vendor
 
-
 **The \`game\_event\_npc\_vendor\` table**
 
-This table allows you to change the items a vendor sells, or to create a [vendor list](npc_vendor) for an NPC who does not sell items unless an event is active.
+This table allows you to change the items a vendor sells, or to create a [vendor list](npc_vendor.md) for an NPC who does not sell items unless an event is active.
 
 **Structure**
 
@@ -122,11 +121,11 @@ This is an item from the item\_template table.
 
 ### maxcount
 
-The maximum number of copies of the item the vendor has available to be sold before [incrtime](#game_event_npc_vendor-incrtime) is up. If 0, then it is an unlimited number of copies.
+The maximum number of copies of the item the vendor has available to be sold before incrtime is up. If 0, then it is an unlimited number of copies.
 
 ### incrtime
 
-Combined with [maxcount](#game_event_npc_vendor-maxcount), this field tells how often (in seconds) the vendor list is refreshed and the limited item copies are restocked. For limited item copies, every refresh, the quantity is increased by item\_template.BuyCount
+Combined with maxcount, this field tells how often (in seconds) the vendor list is refreshed and the limited item copies are restocked. For limited item copies, every refresh, the quantity is increased by item\_template.BuyCount
 
 ### ExtendedCost
 

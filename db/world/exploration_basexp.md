@@ -1,6 +1,5 @@
 # exploration_basexp
 
-
 <p>This table holds the base experience point information needed for when a player explores a new zone.</p>
 
 <table>

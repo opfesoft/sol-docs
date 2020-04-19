@@ -1,14 +1,13 @@
 # game_graveyard
 
-
 | Field                       | Type         |  Key | Null | Default |
 |-----------------------------|--------------|------|------|---------|
-| [ID](#ID)                   | int(10)      |  PRI | NO   | 0       |
-| [Map](#Map)                 | int(10)      |      | NO   | 0       |
+| [ID](#id)                   | int(10)      |  PRI | NO   | 0       |
+| [Map](#map)                 | int(10)      |      | NO   | 0       |
 | [x](#x)                     | float        |      | NO   | 0       |
 | [y](#y)                     | float        |      | NO   | 0       |
 | [z](#z)                     | float        |      | NO   | 0       |
-| [Comment](#Comment)         | varchar(255) |      | YES  | NULL    |
+| [Comment](#comment)         | varchar(255) |      | YES  | NULL    |
 
 **Description of the fields**
 

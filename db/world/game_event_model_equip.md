@@ -1,6 +1,5 @@
 # game\_event\_model\_equip
 
-
 **The \`game\_event\_model\_equip\` table**
 
 Contains all creature instances that need to change display id and/or equipment during defined game events.
@@ -81,12 +80,12 @@ Guid of the creature participating in the event (creature.guid)
 ### modelid
 
 New model to be used while the event is active (Refers to creature\_model\_info.modelid)
-Use 0 if only the [equipment](#game_event_model_equip-equipment_id) is to be changed during event.
+Use 0 if only the equipment is to be changed during event.
 
 ### equipment\_id
 
 New equipment to be used during the event (Refers to creature\_equip\_template.entry))
-Use 0 if only the [model](#game_event_model_equip-modelid) is to be changed during event.
+Use 0 if only the model is to be changed during event.
 
 ### eventEntry
 

@@ -1,6 +1,5 @@
 # game\_event\_arena\_seasons
 
-
 **The \`game\_event\_arena\_seasons\` table**
 
 This information comes from sniffs and is NOT supposed to be changed.

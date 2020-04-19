@@ -1,6 +1,5 @@
 # game\_event\_pool
 
-
 **The \`game\_event\_pool\` table**
 
 This table determines if a given pool is active for a given game event.
