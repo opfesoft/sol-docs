@@ -1,6 +1,5 @@
 # game_graveyard_zone
 
-
 <table>
 <tbody>
 <tr class="even">

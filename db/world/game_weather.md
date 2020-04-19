@@ -1,6 +1,5 @@
 # game\_weather
 
-
 **Table Structure**
 
 This table holds the percent chances for weather changes to occur in various zones. Not all zones can have their weather changed. For any given zone the percentage of all weather types for each season should total, and not exceed 100%.
@@ -134,7 +133,7 @@ This table holds the percent chances for weather changes to occur in various zon
 
 ### zone
 
-This field contains the zone id from the [AreaTable DBC file](AreaTable) that you wish to change the weather for.
+This field contains the zone id from the [AreaTable DBC file](../../dbc/AreaTable.md) that you wish to change the weather for.
 
 ### spring\_rain\_chance
 

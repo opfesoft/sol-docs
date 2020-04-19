@@ -1,147 +1,70 @@
 # quest\_template\_locale
 
-
 **The \`quest\_template\_locale\` table**
 
 This table is used to provide to localized clients with localized string for quest templates.
 
-**Structure**
+## Structure
 
-|                                                                       |              |                |         |          |             |           |             |
-|-----------------------------------------------------------------------|--------------|----------------|---------|----------|-------------|-----------|-------------|
-| **Field**                                                             | **Type**     | **Attributes** | **Key** | **Null** | **Default** | **Extra** | **Comment** |
-| [Id](#quest_template_locale-Id)                                       | mediumint(8) | unsigned       | PRI     | NO       |             |           |             |
-| [Title\_loc1](#quest_template_locale-Title_loc)                       | text         | signed         |         | YES      | NULL        |           |             |
-| [Title\_loc2](#quest_template_locale-Title_loc)                       | text         | signed         |         | YES      | NULL        |           |             |
-| [Title\_loc3](#quest_template_locale-Title_loc)                       | text         | signed         |         | YES      | NULL        |           |             |
-| [Title\_loc4](#quest_template_locale-Title_loc)                       | text         | signed         |         | YES      | NULL        |           |             |
-| [Title\_loc5](#quest_template_locale-Title_loc)                       | text         | signed         |         | YES      | NULL        |           |             |
-| [Title\_loc6](#quest_template_locale-Title_loc)                       | text         | signed         |         | YES      | NULL        |           |             |
-| [Title\_loc7](#quest_template_locale-Title_loc)                       | text         | signed         |         | YES      | NULL        |           |             |
-| [Title\_loc8](#quest_template_locale-Title_loc)                       | text         | signed         |         | YES      | NULL        |           |             |
-| [Details\_loc1](#quest_template_locale-Details_loc)                   | text         | signed         |         | YES      | NULL        |           |             |
-| [Details\_loc2](#quest_template_locale-Details_loc)                   | text         | signed         |         | YES      | NULL        |           |             |
-| [Details\_loc3](#quest_template_locale-Details_loc)                   | text         | signed         |         | YES      | NULL        |           |             |
-| [Details\_loc4](#quest_template_locale-Details_loc)                   | text         | signed         |         | YES      | NULL        |           |             |
-| [Details\_loc5](#quest_template_locale-Details_loc)                   | text         | signed         |         | YES      | NULL        |           |             |
-| [Details\_loc6](#quest_template_locale-Details_loc)                   | text         | signed         |         | YES      | NULL        |           |             |
-| [Details\_loc7](#quest_template_locale-Details_loc)                   | text         | signed         |         | YES      | NULL        |           |             |
-| [Details\_loc8](#quest_template_locale-Details_loc)                   | text         | signed         |         | YES      | NULL        |           |             |
-| [Objectives\_loc1](#quest_template_locale-Objectives_loc)             | text         | signed         |         | YES      | NULL        |           |             |
-| [Objectives\_loc2](#quest_template_locale-Objectives_loc)             | text         | signed         |         | YES      | NULL        |           |             |
-| [Objectives\_loc3](#quest_template_locale-Objectives_loc)             | text         | signed         |         | YES      | NULL        |           |             |
-| [Objectives\_loc4](#quest_template_locale-Objectives_loc)             | text         | signed         |         | YES      | NULL        |           |             |
-| [Objectives\_loc5](#quest_template_locale-Objectives_loc)             | text         | signed         |         | YES      | NULL        |           |             |
-| [Objectives\_loc6](#quest_template_locale-Objectives_loc)             | text         | signed         |         | YES      | NULL        |           |             |
-| [Objectives\_loc7](#quest_template_locale-Objectives_loc)             | text         | signed         |         | YES      | NULL        |           |             |
-| [Objectives\_loc8](#quest_template_locale-Objectives_loc)             | text         | signed         |         | YES      | NULL        |           |             |
-| [OfferRewardText\_loc1](#quest_template_locale-OfferRewardText_loc)   | text         | signed         |         | YES      | NULL        |           |             |
-| [OfferRewardText\_loc2](#quest_template_locale-OfferRewardText_loc)   | text         | signed         |         | YES      | NULL        |           |             |
-| [OfferRewardText\_loc3](#quest_template_locale-OfferRewardText_loc)   | text         | signed         |         | YES      | NULL        |           |             |
-| [OfferRewardText\_loc4](#quest_template_locale-OfferRewardText_loc)   | text         | signed         |         | YES      | NULL        |           |             |
-| [OfferRewardText\_loc5](#quest_template_locale-OfferRewardText_loc)   | text         | signed         |         | YES      | NULL        |           |             |
-| [OfferRewardText\_loc6](#quest_template_locale-OfferRewardText_loc)   | text         | signed         |         | YES      | NULL        |           |             |
-| [OfferRewardText\_loc7](#quest_template_locale-OfferRewardText_loc)   | text         | signed         |         | YES      | NULL        |           |             |
-| [OfferRewardText\_loc8](#quest_template_locale-OfferRewardText_loc)   | text         | signed         |         | YES      | NULL        |           |             |
-| [RequestItemsText\_loc1](#quest_template_locale-RequestItemsText_loc) | text         | signed         |         | YES      | NULL        |           |             |
-| [RequestItemsText\_loc2](#quest_template_locale-RequestItemsText_loc) | text         | signed         |         | YES      | NULL        |           |             |
-| [RequestItemsText\_loc3](#quest_template_locale-RequestItemsText_loc) | text         | signed         |         | YES      | NULL        |           |             |
-| [RequestItemsText\_loc4](#quest_template_locale-RequestItemsText_loc) | text         | signed         |         | YES      | NULL        |           |             |
-| [RequestItemsText\_loc5](#quest_template_locale-RequestItemsText_loc) | text         | signed         |         | YES      | NULL        |           |             |
-| [RequestItemsText\_loc6](#quest_template_locale-RequestItemsText_loc) | text         | signed         |         | YES      | NULL        |           |             |
-| [RequestItemsText\_loc7](#quest_template_locale-RequestItemsText_loc) | text         | signed         |         | YES      | NULL        |           |             |
-| [RequestItemsText\_loc8](#quest_template_locale-RequestItemsText_loc) | text         | signed         |         | YES      | NULL        |           |             |
-| [EndText\_loc1](#quest_template_locale-EndText_loc)                   | text         | signed         |         | YES      | NULL        |           |             |
-| [EndText\_loc2](#quest_template_locale-EndText_loc)                   | text         | signed         |         | YES      | NULL        |           |             |
-| [EndText\_loc3](#quest_template_locale-EndText_loc)                   | text         | signed         |         | YES      | NULL        |           |             |
-| [EndText\_loc4](#quest_template_locale-EndText_loc)                   | text         | signed         |         | YES      | NULL        |           |             |
-| [EndText\_loc5](#quest_template_locale-EndText_loc)                   | text         | signed         |         | YES      | NULL        |           |             |
-| [EndText\_loc6](#quest_template_locale-EndText_loc)                   | text         | signed         |         | YES      | NULL        |           |             |
-| [EndText\_loc7](#quest_template_locale-EndText_loc)                   | text         | signed         |         | YES      | NULL        |           |             |
-| [EndText\_loc8](#quest_template_locale-EndText_loc)                   | text         | signed         |         | YES      | NULL        |           |             |
-| [CompletedText\_loc1](#quest_template_locale-CompletedText_loc)       | text         | signed         |         | YES      | NULL        |           |             |
-| [CompletedText\_loc2](#quest_template_locale-CompletedText_loc)       | text         | signed         |         | YES      | NULL        |           |             |
-| [CompletedText\_loc3](#quest_template_locale-CompletedText_loc)       | text         | signed         |         | YES      | NULL        |           |             |
-| [CompletedText\_loc4](#quest_template_locale-CompletedText_loc)       | text         | signed         |         | YES      | NULL        |           |             |
-| [CompletedText\_loc5](#quest_template_locale-CompletedText_loc)       | text         | signed         |         | YES      | NULL        |           |             |
-| [CompletedText\_loc6](#quest_template_locale-CompletedText_loc)       | text         | signed         |         | YES      | NULL        |           |             |
-| [CompletedText\_loc7](#quest_template_locale-CompletedText_loc)       | text         | signed         |         | YES      | NULL        |           |             |
-| [CompletedText\_loc8](#quest_template_locale-CompletedText_loc)       | text         | signed         |         | YES      | NULL        |           |             |
-| [ObjectiveText1\_loc1](#quest_template_locale-ObjectiveText_loc)      | text         | signed         |         | YES      | NULL        |           |             |
-| [ObjectiveText1\_loc2](#quest_template_locale-ObjectiveText_loc)      | text         | signed         |         | YES      | NULL        |           |             |
-| [ObjectiveText1\_loc3](#quest_template_locale-ObjectiveText_loc)      | text         | signed         |         | YES      | NULL        |           |             |
-| [ObjectiveText1\_loc4](#quest_template_locale-ObjectiveText_loc)      | text         | signed         |         | YES      | NULL        |           |             |
-| [ObjectiveText1\_loc5](#quest_template_locale-ObjectiveText_loc)      | text         | signed         |         | YES      | NULL        |           |             |
-| [ObjectiveText1\_loc6](#quest_template_locale-ObjectiveText_loc)      | text         | signed         |         | YES      | NULL        |           |             |
-| [ObjectiveText1\_loc7](#quest_template_locale-ObjectiveText_loc)      | text         | signed         |         | YES      | NULL        |           |             |
-| [ObjectiveText1\_loc8](#quest_template_locale-ObjectiveText_loc)      | text         | signed         |         | YES      | NULL        |           |             |
-| [ObjectiveText2\_loc1](#quest_template_locale-ObjectiveText_loc)      | text         | signed         |         | YES      | NULL        |           |             |
-| [ObjectiveText2\_loc2](#quest_template_locale-ObjectiveText_loc)      | text         | signed         |         | YES      | NULL        |           |             |
-| [ObjectiveText2\_loc3](#quest_template_locale-ObjectiveText_loc)      | text         | signed         |         | YES      | NULL        |           |             |
-| [ObjectiveText2\_loc4](#quest_template_locale-ObjectiveText_loc)      | text         | signed         |         | YES      | NULL        |           |             |
-| [ObjectiveText2\_loc5](#quest_template_locale-ObjectiveText_loc)      | text         | signed         |         | YES      | NULL        |           |             |
-| [ObjectiveText2\_loc6](#quest_template_locale-ObjectiveText_loc)      | text         | signed         |         | YES      | NULL        |           |             |
-| [ObjectiveText2\_loc7](#quest_template_locale-ObjectiveText_loc)      | text         | signed         |         | YES      | NULL        |           |             |
-| [ObjectiveText2\_loc8](#quest_template_locale-ObjectiveText_loc)      | text         | signed         |         | YES      | NULL        |           |             |
-| [ObjectiveText3\_loc1](#quest_template_locale-ObjectiveText_loc)      | text         | signed         |         | YES      | NULL        |           |             |
-| [ObjectiveText3\_loc2](#quest_template_locale-ObjectiveText_loc)      | text         | signed         |         | YES      | NULL        |           |             |
-| [ObjectiveText3\_loc3](#quest_template_locale-ObjectiveText_loc)      | text         | signed         |         | YES      | NULL        |           |             |
-| [ObjectiveText3\_loc4](#quest_template_locale-ObjectiveText_loc)      | text         | signed         |         | YES      | NULL        |           |             |
-| [ObjectiveText3\_loc5](#quest_template_locale-ObjectiveText_loc)      | text         | signed         |         | YES      | NULL        |           |             |
-| [ObjectiveText3\_loc6](#quest_template_locale-ObjectiveText_loc)      | text         | signed         |         | YES      | NULL        |           |             |
-| [ObjectiveText3\_loc7](#quest_template_locale-ObjectiveText_loc)      | text         | signed         |         | YES      | NULL        |           |             |
-| [ObjectiveText3\_loc8](#quest_template_locale-ObjectiveText_loc)      | text         | signed         |         | YES      | NULL        |           |             |
-| [ObjectiveText4\_loc1](#quest_template_locale-ObjectiveText_loc)      | text         | signed         |         | YES      | NULL        |           |             |
-| [ObjectiveText4\_loc2](#quest_template_locale-ObjectiveText_loc)      | text         | signed         |         | YES      | NULL        |           |             |
-| [ObjectiveText4\_loc3](#quest_template_locale-ObjectiveText_loc)      | text         | signed         |         | YES      | NULL        |           |             |
-| [ObjectiveText4\_loc4](#quest_template_locale-ObjectiveText_loc)      | text         | signed         |         | YES      | NULL        |           |             |
-| [ObjectiveText4\_loc5](#quest_template_locale-ObjectiveText_loc)      | text         | signed         |         | YES      | NULL        |           |             |
-| [ObjectiveText4\_loc6](#quest_template_locale-ObjectiveText_loc)      | text         | signed         |         | YES      | NULL        |           |             |
-| [ObjectiveText4\_loc8](#quest_template_locale-ObjectiveText_loc)      | text         | signed         |         | YES      | NULL        |           |             |
-| [ObjectiveText4\_loc8](#quest_template_locale-ObjectiveText_loc)      | text         | signed         |         | YES      | NULL        |           |             |
+|                                       |              |                |         |          |             |           |             |
+|---------------------------------------|--------------|----------------|---------|----------|-------------|-----------|-------------|
+| **Field**                             | **Type**     | **Attributes** | **Key** | **Null** | **Default** | **Extra** | **Comment** |
+| [ID](#id)                             | mediumint(8) | unsigned       | PRI     | NO       |             |           |             |
+| [locale](#locale)                     | varchar(4)   |                | PRI     | NO       | NULL        |           |             |
+| [Title](#title)                       | text         |                |         | YES      | NULL        |           |             |
+| [Details](#details)                   | text         |                |         | YES      | NULL        |           |             |
+| [Objectives](#objectives)             | text         |                |         | YES      | NULL        |           |             |
+| [EndText](#endtext)                   | text         |                |         | YES      | NULL        |           |             |
+| [CompletedText](#completedtext)       | text         |                |         | YES      | NULL        |           |             |
+| [ObjectiveText1](#objectivetext)      | text         |                |         | YES      | NULL        |           |             |
+| [ObjectiveText2](#objectivetext)      | text         |                |         | YES      | NULL        |           |             |
+| [ObjectiveText3](#objectivetext)      | text         |                |         | YES      | NULL        |           |             |
+| [ObjectiveText4](#objectivetext)      | text         |                |         | YES      | NULL        |           |             |
+| [VerifiedBuild](#verifiedbuild)       | smallint(5)  |                |         | YES      | 0           |           |             |
 
 **Description of the fields**
 
-### Id
+### ID
 
-This id must be the same as [quest\_template.id](quest+template+tc2#Questtemplatetc2-Id) and then the row will be used to provide localization support for this quest\_template record.
+This id must be the same as [quest\_template.id](quest_template.md#id) and then the row will be used to provide localization support for this quest\_template record.
 
-### Title\_loc
+### locale
 
-Translated content for [quest\_template.Title](quest+template+tc2#Questtemplatetc2-Title) field for language X.
-See [localization languages](Localization+lang) list to know which value to use for X.
+The language of the text.
+Can have 8 values: deDE, esES, esMX, frFR, koKR, ruRU, zhCN, zhTW
 
-### Details\_loc
+### Title
 
-Translated content for [quest\_template.Details](quest+template+tc2#Questtemplatetc2-Details) field for language X.
-See [localization languages](Localization+lang) list to know which value to use for X.
+Translated content for [quest\_template.Title](quest_template.md#title) field.
 
-### Objectives\_loc
+### Details
 
-Translated content for [quest\_template.Objectives](quest+template+tc2#Questtemplatetc2-Objectives) field for language X.
-See [localization languages](Localization+lang) list to know which value to use for X.
+Translated content for [quest\_template.Details](quest_template.md#details) field.
 
-### OfferRewardText\_loc
+### Objectives
 
-Translated content for [quest\_template.OfferRewardText](quest+template+tc2#Questtemplatetc2-OfferRewardText) field for language X.
-See [localization languages](Localization+lang) list to know which value to use for X.
+Translated content for [quest\_template.Objectives](quest_template.md#objectives) field.
 
-### RequestItemsText\_loc
+### EndText
 
-Translated content for [quest\_template.RequestItemsText](quest+template+tc2#Questtemplatetc2-RequestItemsText) field for language X.
-See [localization languages](Localization+lang) list to know which value to use for X.
+Translated content for [quest\_template.EndText](quest_template.md#areadescription) field.
 
-### EndText\_loc
+### CompletedText
 
-Translated content for [quest\_template.EndText](quest+template+tc2#Questtemplatetc2-EndText) field for language X.
-See [localization languages](Localization+lang) list to know which value to use for X.
+Translated content for [quest\_template.CompletedText](quest_template.md#questcompletionlog) field.
 
-### CompletedText\_loc
+### ObjectiveText
 
-Translated content for [quest\_template.CompletedText](quest+template+tc2#Questtemplatetc2-CompletedText) field for language X.
-See [localization languages](Localization+lang) list to know which value to use for X.
+Translated content for [quest\_template.ObjectiveText](quest_template.md#objectivetext) field.
 
-### ObjectiveText\_loc
+### VerifiedBuild
 
-Translated content for [quest\_template.ObjectiveText](quest+template+tc2#Questtemplatetc2-Objectives) field for language X.
-See [localization languages](Localization+lang) list to know which value to use for X.
+This field is used by the AzerothCore Team to determine whether a template has been verified from WDB files (ADB files for this one).
+
+If value is 0 then it has not been parsed yet.
+
+If value is above 0 then it has been parsed with WDB files from that specific client build.
+
+If value is -1 then it is just a place holder until proper data are found on WDBs.
+
+If value is [-Client Build](../auth/realmlist.md "DB:Auth:realmlist") then it was parsed with WDB files from that specific [client build](../auth/realmlist.md#gamebuild "DB:Auth:realmlist") and manually edited later for some special necessity.

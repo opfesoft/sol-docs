@@ -120,7 +120,7 @@ Contains template of all gameobjects
 </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#23">data0</a></p></td>
+<td><p><a href="#data0-23">data0</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p><br />
@@ -133,7 +133,7 @@ Contains template of all gameobjects
 </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#23">data1</a></p></td>
+<td><p><a href="#data0-23">data1</a></p></td>
 <td><p>int(11)</p></td>
 <td><p>unsigned</p></td>
 <td><p><br />
@@ -146,7 +146,7 @@ Contains template of all gameobjects
 </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#23">data2</a></p></td>
+<td><p><a href="#data0-23">data2</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p><br />
@@ -159,7 +159,7 @@ Contains template of all gameobjects
 </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#23">data3</a></p></td>
+<td><p><a href="#data0-23">data3</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p><br />
@@ -172,7 +172,7 @@ Contains template of all gameobjects
 </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#23">data4</a></p></td>
+<td><p><a href="#data0-23">data4</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p><br />
@@ -185,7 +185,7 @@ Contains template of all gameobjects
 </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#23">data5</a></p></td>
+<td><p><a href="#data0-23">data5</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p><br />
@@ -198,7 +198,7 @@ Contains template of all gameobjects
 </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#23">data6</a></p></td>
+<td><p><a href="#data0-23">data6</a></p></td>
 <td><p>int(11)</p></td>
 <td><p>unsigned</p></td>
 <td><p><br />
@@ -211,7 +211,7 @@ Contains template of all gameobjects
 </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#23">data7</a></p></td>
+<td><p><a href="#data0-23">data7</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p><br />
@@ -224,7 +224,7 @@ Contains template of all gameobjects
 </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#23">data8</a></p></td>
+<td><p><a href="#data0-23">data8</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p><br />
@@ -237,7 +237,7 @@ Contains template of all gameobjects
 </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#23">data9</a></p></td>
+<td><p><a href="#data0-23">data9</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p><br />
@@ -250,7 +250,7 @@ Contains template of all gameobjects
 </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#23">data10</a></p></td>
+<td><p><a href="#data0-23">data10</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p><br />
@@ -263,7 +263,7 @@ Contains template of all gameobjects
 </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#23">data11</a></p></td>
+<td><p><a href="#data0-23">data11</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p><br />
@@ -276,7 +276,7 @@ Contains template of all gameobjects
 </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#23">data12</a></p></td>
+<td><p><a href="#data0-23">data12</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p><br />
@@ -289,7 +289,7 @@ Contains template of all gameobjects
 </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#23">data13</a></p></td>
+<td><p><a href="#data0-23">data13</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p><br />
@@ -302,7 +302,7 @@ Contains template of all gameobjects
 </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#23">data14</a></p></td>
+<td><p><a href="#data0-23">data14</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p><br />
@@ -315,7 +315,7 @@ Contains template of all gameobjects
 </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#23">data15</a></p></td>
+<td><p><a href="#data0-23">data15</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p><br />
@@ -328,7 +328,7 @@ Contains template of all gameobjects
 </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#23">data16</a></p></td>
+<td><p><a href="#data0-23">data16</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p><br />
@@ -341,7 +341,7 @@ Contains template of all gameobjects
 </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#23">data17</a></p></td>
+<td><p><a href="#data0-23">data17</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p><br />
@@ -354,7 +354,7 @@ Contains template of all gameobjects
 </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#23">data18</a></p></td>
+<td><p><a href="#data0-23">data18</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p><br />
@@ -367,7 +367,7 @@ Contains template of all gameobjects
 </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#23">data19</a></p></td>
+<td><p><a href="#data0-23">data19</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p><br />
@@ -380,7 +380,7 @@ Contains template of all gameobjects
 </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#23">data20</a></p></td>
+<td><p><a href="#data0-23">data20</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p><br />
@@ -393,7 +393,7 @@ Contains template of all gameobjects
 </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#23">data21</a></p></td>
+<td><p><a href="#data0-23">data21</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p><br />
@@ -406,7 +406,7 @@ Contains template of all gameobjects
 </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#23">data22</a></p></td>
+<td><p><a href="#data0-23">data22</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p><br />
@@ -419,7 +419,7 @@ Contains template of all gameobjects
 </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#23">data23</a></p></td>
+<td><p><a href="#data0-23">data23</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p><br />
@@ -482,42 +482,42 @@ Id of the gameobject template. `WDB-fields`
 ### type 
 
 ``` cpp
-   GAMEOBJECT_TYPE_DOOR               = 0
-   GAMEOBJECT_TYPE_BUTTON             = 1
-   GAMEOBJECT_TYPE_QUESTGIVER         = 2
-   GAMEOBJECT_TYPE_CHEST              = 3
-   GAMEOBJECT_TYPE_BINDER             = 4
-   GAMEOBJECT_TYPE_GENERIC            = 5
-   GAMEOBJECT_TYPE_TRAP               = 6
-   GAMEOBJECT_TYPE_CHAIR              = 7
-   GAMEOBJECT_TYPE_SPELL_FOCUS        = 8
-   GAMEOBJECT_TYPE_TEXT               = 9
-   GAMEOBJECT_TYPE_GOOBER             = 10
-   GAMEOBJECT_TYPE_TRANSPORT          = 11
-   GAMEOBJECT_TYPE_AREADAMAGE         = 12
-   GAMEOBJECT_TYPE_CAMERA             = 13
-   GAMEOBJECT_TYPE_MAP_OBJECT         = 14
-   GAMEOBJECT_TYPE_MO_TRANSPORT       = 15
-   GAMEOBJECT_TYPE_DUEL_ARBITER       = 16
-   GAMEOBJECT_TYPE_FISHINGNODE        = 17
-   GAMEOBJECT_TYPE_RITUAL             = 18
-   GAMEOBJECT_TYPE_MAILBOX            = 19
-   GAMEOBJECT_TYPE_AUCTIONHOUSE       = 20
-   GAMEOBJECT_TYPE_GUARDPOST          = 21
-   GAMEOBJECT_TYPE_SPELLCASTER        = 22
-   GAMEOBJECT_TYPE_MEETINGSTONE       = 23
-   GAMEOBJECT_TYPE_FLAGSTAND          = 24
-   GAMEOBJECT_TYPE_FISHINGHOLE        = 25
-   GAMEOBJECT_TYPE_FLAGDROP           = 26
-   GAMEOBJECT_TYPE_MINI_GAME          = 27
-   GAMEOBJECT_TYPE_LOTTERY_KIOSK      = 28
-   GAMEOBJECT_TYPE_CAPTURE_POINT      = 29
-   GAMEOBJECT_TYPE_AURA_GENERATOR     = 30
-   GAMEOBJECT_TYPE_DUNGEON_DIFFICULTY = 31
-   GAMEOBJECT_TYPE_BARBER_CHAIR       = 32
-   GAMEOBJECT_TYPE_DESTRUCTIBLE_BUILDING = 33
-   GAMEOBJECT_TYPE_GUILD_BANK         = 34
-   GAMEOBJECT_TYPE_TRAPDOOR           = 35
+GAMEOBJECT_TYPE_DOOR                   = 0,
+GAMEOBJECT_TYPE_BUTTON                 = 1,
+GAMEOBJECT_TYPE_QUESTGIVER             = 2,
+GAMEOBJECT_TYPE_CHEST                  = 3,
+GAMEOBJECT_TYPE_BINDER                 = 4,
+GAMEOBJECT_TYPE_GENERIC                = 5,
+GAMEOBJECT_TYPE_TRAP                   = 6,
+GAMEOBJECT_TYPE_CHAIR                  = 7,
+GAMEOBJECT_TYPE_SPELL_FOCUS            = 8,
+GAMEOBJECT_TYPE_TEXT                   = 9,
+GAMEOBJECT_TYPE_GOOBER                 = 10,
+GAMEOBJECT_TYPE_TRANSPORT              = 11,
+GAMEOBJECT_TYPE_AREADAMAGE             = 12,
+GAMEOBJECT_TYPE_CAMERA                 = 13,
+GAMEOBJECT_TYPE_MAP_OBJECT             = 14,
+GAMEOBJECT_TYPE_MO_TRANSPORT           = 15,
+GAMEOBJECT_TYPE_DUEL_ARBITER           = 16,
+GAMEOBJECT_TYPE_FISHINGNODE            = 17,
+GAMEOBJECT_TYPE_SUMMONING_RITUAL       = 18,
+GAMEOBJECT_TYPE_MAILBOX                = 19,
+GAMEOBJECT_TYPE_DO_NOT_USE             = 20,
+GAMEOBJECT_TYPE_GUARDPOST              = 21,
+GAMEOBJECT_TYPE_SPELLCASTER            = 22,
+GAMEOBJECT_TYPE_MEETINGSTONE           = 23,
+GAMEOBJECT_TYPE_FLAGSTAND              = 24,
+GAMEOBJECT_TYPE_FISHINGHOLE            = 25,
+GAMEOBJECT_TYPE_FLAGDROP               = 26,
+GAMEOBJECT_TYPE_MINI_GAME              = 27,
+GAMEOBJECT_TYPE_DO_NOT_USE_2           = 28,
+GAMEOBJECT_TYPE_CAPTURE_POINT          = 29,
+GAMEOBJECT_TYPE_AURA_GENERATOR         = 30,
+GAMEOBJECT_TYPE_DUNGEON_DIFFICULTY     = 31,
+GAMEOBJECT_TYPE_BARBER_CHAIR           = 32,
+GAMEOBJECT_TYPE_DESTRUCTIBLE_BUILDING  = 33,
+GAMEOBJECT_TYPE_GUILD_BANK             = 34,
+GAMEOBJECT_TYPE_TRAPDOOR               = 35
 ```
 
     WDB-fields
@@ -561,7 +561,7 @@ Object's size must be set because graphic models can be resample. `WDB-fields`
 
 ### data0-23
 
-The content of the data fields depends on the [gameobject type](#gameobject_template-type)
+The content of the data fields depends on the [gameobject type](#type)
 
 *Values for these fields come from WDB and are not to be changed.*
 
@@ -584,7 +584,7 @@ The content of the data fields depends on the [gameobject type](#gameobject_temp
 -   data0: startOpen (State)
 -   data1: open (LockId from Lock.dbc)
 -   data2: autoClose (long unknown flag)
--   data3: linkedTrap ([gameobject\_template.entry](#gameobject_template-entry) (Spawned GO type 6))
+-   data3: linkedTrap ([gameobject\_template.entry](#entry) (Spawned GO type 6))
 -   data4: noDamageImmune (Boolean flag)
 -   data5: large? (Boolean flag)
 -   data6: openTextID (Unknown Text ID)
@@ -610,14 +610,14 @@ The content of the data fields depends on the [gameobject type](#gameobject_temp
 **GAMEOBJECT\_TYPE\_CHEST = 3**
 
 -   data0: open (LockId from Lock.dbc)
--   data1: chestLoot ([gameobject\_loot\_template.entry](http://www.azerothcore.org/wiki/loot_template#loot_template-Entry)) `WDB-fields`
+-   data1: chestLoot ([gameobject\_loot\_template.entry](loot_template.md#entry)) `WDB-fields`
 -   data2: chestRestockTime (time in seconds)
 -   data3: consumable (State: Boolean flag)
 -   data4: minRestock (Min successful loot attempts for Mining, Herbalism etc)
 -   data5: maxRestock (Max successful loot attempts for Mining, Herbalism etc)
 -   data6: lootedEvent (Event ID from table event\_scripts)
--   data7: linkedTrap ([gameobject\_template.entry](#gameobject_template-entry) (Spawned GO type 6))
--   data8: questID ([quest\_template.id](http://www.azerothcore.org/wiki/quest_template#id) of completed quest)
+-   data7: linkedTrap ([gameobject\_template.entry](#entry) (Spawned GO type 6))
+-   data8: questID ([quest\_template.id](quest_template.md#id) of completed quest)
 -   data9: level (minimal level required to open this gameobject)
 -   data10: losOK (Boolean flag)
 -   data11: leaveLoot (Boolean flag)
@@ -636,7 +636,7 @@ The content of the data fields depends on the [gameobject type](#gameobject_temp
 
 **GAMEOBJECT\_TYPE\_BINDER = 4**
 
-Object type not used
+Object type not used.
 
 **GAMEOBJECT\_TYPE\_GENERIC = 5**
 
@@ -645,17 +645,17 @@ Object type not used
 -   data2: serverOnly? (Always 0)
 -   data3: large? (Boolean flag)
 -   data4: floatOnWater (Boolean flag)
--   data5: questID (Required active [quest\_template.id](http://www.azerothcore.org/wiki/quest_template#id) to work)
+-   data5: questID (Required active [quest\_template.id](quest_template.md#id) to work)
 -   data6: conditionID1
 -   data7: LargeAOI
 -   data8: UseGarrisonOwnerGuildColors
 
 **GAMEOBJECT\_TYPE\_TRAP = 6**
 
--   data0: open (LockId from [Lock.dbc](Lock) )
+-   data0: open (LockId from [Lock.dbc](../../dbc/Lock.md) )
 -   data1: level (npc equivalent level for casted spell)
 -   data2: diameter (so radius \* 2)
--   data3: spell (Spell Id from [Spell.dbc](Spell))
+-   data3: spell (Spell Id from Spell.dbc)
 -   data4: type (0 trap with no despawn after cast. 1 trap despawns after cast. 2 bomb casts on spawn)
 -   data5: cooldown (time in seconds)
 -   data6:  ? (unknown flag)
@@ -682,11 +682,11 @@ Object type not used
 
 **GAMEOBJECT\_TYPE\_SPELL\_FOCUS = 8**
 
--   data0: spellFocusType (from SpellFocusObject.dbc; value also appears as RequiresSpellFocus in [Spell.dbc](https://trinitycore.atlassian.net/wiki/display/tc/Spell))
+-   data0: spellFocusType (from SpellFocusObject.dbc; value also appears as RequiresSpellFocus in Spell.dbc)
 -   data1: diameter (so radius\*2)
--   data2: linkedTrap ([gameobject\_template.entry](#gameobject_template-entry) (Spawned GO type 6))
+-   data2: linkedTrap ([gameobject\_template.entry](#entry) (Spawned GO type 6))
 -   data3: serverOnly? (Always 0)
--   data4: questID (Required active [quest\_template.id](http://www.azerothcore.org/wiki/quest_template#id) to work)
+-   data4: questID (Required active [quest\_template.id](quest_template.md#id) to work)
 -   data5: large? (Boolean flag)
 -   data6: floatingTooltip (Boolean flag)
 -   data7: floatOnWater
@@ -694,28 +694,28 @@ Object type not used
 
 **GAMEOBJECT\_TYPE\_TEXT = 9**
 
--   data0: pageID ([page\_text.entry](page_text_2130246.html#page_text-entry))
--   data1: language (from  [Languages.dbc](Languages))
--   data2: pageMaterial ([PageTextMaterial.dbc](PageTextMaterial))
+-   data0: pageID ([page\_text.entry](page_text.md#entry))
+-   data1: language (from  [Languages.dbc](../../dbc/Languages.md))
+-   data2: pageMaterial ([PageTextMaterial.dbc](../../dbc/PageTextMaterial.md))
 -   data3: allowMounted
 -   data4: conditionID1
 -   data5: NeverUsableWhileMounted
 
 **GAMEOBJECT\_TYPE\_GOOBER = 10**
 
--   data0: open (LockId from [Lock.dbc](Lock))
--   data1: questID (Required active [quest\_template.id](http://www.azerothcore.org/wiki/quest_template#id) to work)
+-   data0: open (LockId from [Lock.dbc](../../dbc/Lock.md))
+-   data1: questID (Required active [quest\_template.id](quest_template.md#id) to work)
 -   data2: eventID (event\_script id)
 -   data3:  Time in ms before the initial state is restored
 -   data4: customAnim (unknown)
 -   data5: consumable (Boolean flag controling if gameobject will despawn or not)
 -   data6: cooldown (time is seconds)
--   data7: pageID ([page\_text.entry](http://www.azerothcore.org/wiki/page_text#entry))
+-   data7: pageID ([page\_text.entry](page_text.md#entry))
 -   data8: language (from Languages.dbc)
 -   data9: pageMaterial (PageTextMaterial.dbc)
 -   data10: spell (Spell Id from Spell.dbc)
 -   data11: noDamageImmune (Boolean flag)
--   data12: linkedTrap ([gameobject\_template.entry](#gameobject_template-entry) (Spawned GO type 6))
+-   data12: linkedTrap ([gameobject\_template.entry](#entry) (Spawned GO type 6))
 -   data13: large? (Boolean flag)
 -   data14: openTextID (Unknown ID)
 -   data15: closeTextID (Unknown ID)
@@ -766,19 +766,19 @@ Object type not used
 
 **GAMEOBJECT\_TYPE\_CAMERA = 13**
 
--   data0: open (LockId from [Lock.dbc](Lock))
--   data1: camera (Cinematic entry from [CinematicCamera.dbc](CinematicCamera))
+-   data0: open (LockId from [Lock.dbc](../../dbc/Lock.md))
+-   data1: camera (Cinematic entry from CinematicCamera.dbc)
 -   data2: eventID
 -   data3: openTextID
 -   data4: conditionID1
 
-**GAMEOBJECT\_TYPE\_MAPOBJECT = 14**
+**GAMEOBJECT\_TYPE\_MAP\_OBJECT = 14**
 
 No data used, all are always 0
 
-**GAMEOBJECT\_TYPE\_MOTRANSPORT = 15**
+**GAMEOBJECT\_TYPE\_MO\_TRANSPORT = 15**
 
--   data0: taxiPathID (Id from [TaxiPath.dbc](TaxiPath))
+-   data0: taxiPathID (Id from [TaxiPath.dbc](../../dbc/TaxiPath.md))
 -   data1: moveSpeed
 -   data2: accelRate
 -   data3: startEventID
@@ -790,7 +790,7 @@ No data used, all are always 0
 -   data9: InitStopped
 -   data10: TrueInfiniteAOI
 
-**GAMEOBJECT\_TYPE\_DUELFLAG = 16**
+**GAMEOBJECT\_TYPE\_DUEL\_ARBITER = 16**
 
 Only one Gameobject with this type (21680) and no data data
 
@@ -798,13 +798,13 @@ Only one Gameobject with this type (21680) and no data data
 
 Only one Gameobject with this type (35591) and no data data
 
-**GAMEOBJECT\_TYPE\_RITUAL = 18**
+**GAMEOBJECT\_TYPE\_SUMMONING\_RITUAL = 18**
 
 -   data0: casters?
--   data1: spell (Spell Id from [Spell.dbc](Spell))
--   data2: animSpell (Spell Id from [Spell.dbc](Spell))
+-   data1: spell (Spell Id from Spell.dbc)
+-   data2: animSpell (Spell Id from Spell.dbc)
 -   data3: ritualPersistent (Boolean flag)
--   data4: casterTargetSpell (Spell Id from [Spell.dbc](Spell))
+-   data4: casterTargetSpell (Spell Id from Spell.dbc)
 -   data5: casterTargetSpellTargets (Boolean flag)
 -   data6: castersGrouped (Boolean flag)
 -   data7: ritualNoTargetCheck
@@ -814,9 +814,9 @@ Only one Gameobject with this type (35591) and no data data
 
 No data used, all are always 0
 
-**GAMEOBJECT\_TYPE\_AUCTIONHOUSE = 20**
+**GAMEOBJECT\_TYPE\_DO\_NOT\_USE = 20**
 
--   data0: actionHouseID (From [AuctionHouse.dbc](AuctionHouse) ?)
+Object type not used.
 
 **GAMEOBJECT\_TYPE\_GUARDPOST = 21**
 
@@ -825,7 +825,7 @@ No data used, all are always 0
 
 **GAMEOBJECT\_TYPE\_SPELLCASTER = 22**
 
--   data0: spell (Spell Id from [Spell.dbc](Spell))
+-   data0: spell (Spell Id from Spell.dbc)
 -   data1: charges
 -   data2: partyOnly (Boolean flag, need to be in group to use it)
 -   data3: allowMounted
@@ -838,15 +838,15 @@ No data used, all are always 0
 
 -   data0: minLevel
 -   data1: maxLevel
--   data2: areaID (From [AreaTable.dbc](AreaTable))
+-   data2: areaID (From [AreaTable.dbc](../../dbc/AreaTable.md))
 
 **GAMEOBJECT\_TYPE\_FLAGSTAND = 24**
 
--   data0: open (LockId from [Lock.dbc](Lock))
--   data1: pickupSpell (Spell Id from [Spell.dbc](Spell))
+-   data0: open (LockId from [Lock.dbc](../../dbc/Lock.md))
+-   data1: pickupSpell (Spell Id from Spell.dbc)
 -   data2: radius (distance)
--   data3: returnAura (Spell Id from [Spell.dbc](Spell))
--   data4: returnSpell (Spell Id from [Spell.dbc](Spell))
+-   data3: returnAura (Spell Id from Spell.dbc)
+-   data4: returnSpell (Spell Id from Spell.dbc)
 -   data5: noDamageImmune (Boolean flag)
 -   data6: openTextID
 -   data7: losOK (Boolean flag)
@@ -859,16 +859,16 @@ No data used, all are always 0
 **GAMEOBJECT\_TYPE\_FISHINGHOLE = 25**
 
 -   data0: radius (distance)
--   data1: chestLoot ([gameobject\_loot\_template.entry](http://www.azerothcore.org/wiki/loot_template#loot_template-Entry))
+-   data1: chestLoot ([gameobject\_loot\_template.entry](loot_template.md#entry))
 -   data2: minRestock
 -   data3: maxRestock
 -   data4: open
 
 **GAMEOBJECT\_TYPE\_FLAGDROP = 26**
 
--   data0: open (LockId from [Lock.dbc](Lock))
+-   data0: open (LockId from [Lock.dbc](../../dbc/Lock.md))
 -   data1: eventID (Unknown Event ID)
--   data2: pickupSpell (Spell Id from [Spell.dbc](Spell))
+-   data2: pickupSpell (Spell Id from Spell.dbc)
 -   data3: noDamageImmune (Boolean flag)
 -   data4: openTextID
 -   data5: playerCast
@@ -877,17 +877,15 @@ No data used, all are always 0
 -   data8: InfiniteAOI
 -   data9: cooldown
 
-**GAMEOBJECT\_TYPE\_MINIGAME = 27**
+**GAMEOBJECT\_TYPE\_MINI\_GAME = 27**
 
-Object type not used. Reused in core for CUSTOM\_TELEPORT
+Object type not used.
 
--   data0: [areatrigger\_teleport.id](http://www.azerothcore.org/wiki/areatrigger_teleport#id)
+**GAMEOBJECT\_TYPE\_DO\_NOT\_USE\_2 = 28**
 
-**GAMEOBJECT\_TYPE\_LOTTERYKIOSK = 28**
+Object type not used.
 
-Object type not used
-
-**GAMEOBJECT\_TYPE\_CAPTUREPOINT = 29**
+**GAMEOBJECT\_TYPE\_CAPTURE\_POINT = 29**
 
 -   data0: radius (Distance)
 -   data1: spell (Unknown ID, not a spell id in dbc file, maybe server only side spell)
@@ -914,19 +912,19 @@ Object type not used
 -   data22: killbonustime
 -   data23: speedWorldState1
 
-**GAMEOBJECT\_TYPE\_AURAGENERATOR = 30**
+**GAMEOBJECT\_TYPE\_AURA\_GENERATOR = 30**
 
 -   data0: startOpen (Boolean flag)
 -   data1: radius (Distance)
--   data2: auraID1 (Spell Id from [Spell.dbc](Spell))
+-   data2: auraID1 (Spell Id from Spell.dbc)
 -   data3: conditionID1 (Unknown ID)
 -   data4: auraID2
 -   data5: conditionID2
 -   data6: serverOnly
 
-**GAMEOBJECT\_TYPE\_DUNGEONDIFFICULTY = 31**
+**GAMEOBJECT\_TYPE\_DUNGEON\_DIFFICULTY = 31**
 
--   data0: mapID (From [Map.dbc](Map))
+-   data0: mapID (From [Map.dbc](../../dbc/Map.md))
 -   data1: difficulty
 -   data2: DifficultyHeroic
 -   data3: DifficultyEpic

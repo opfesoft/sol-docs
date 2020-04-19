@@ -1,45 +1,47 @@
 # item\_template\_locale
 
-
 **The \`item\_template\_locale\` table**
 
 This table is used to provide to localized clients with localized string for items.
 
-**Structure**
+## Structure
 
-|                                                            |              |                |         |          |             |           |             |
-|------------------------------------------------------------|--------------|----------------|---------|----------|-------------|-----------|-------------|
-| **Field**                                                  | **Type**     | **Attributes** | **Key** | **Null** | **Default** | **Extra** | **Comment** |
-| [entry](#item_template_locale-entry)                       | mediumint(8) | unsigned       | PRI     | NO       | 0           |           |             |
-| [name\_loc1](#item_template_locale-name_loc)               | varchar(100) | signed         |         | NO       | NULL        |           |             |
-| [name\_loc2](#item_template_locale-name_loc)               | varchar(100) | signed         |         | NO       | NULL        |           |             |
-| [name\_loc3](#item_template_locale-name_loc)               | varchar(100) | signed         |         | NO       | NULL        |           |             |
-| [name\_loc4](#item_template_locale-name_loc)               | varchar(100) | signed         |         | NO       | NULL        |           |             |
-| [name\_loc5](#item_template_locale-name_loc)               | varchar(100) | signed         |         | NO       | NULL        |           |             |
-| [name\_loc6](#item_template_locale-name_loc)               | varchar(100) | signed         |         | NO       | NULL        |           |             |
-| [name\_loc7](#item_template_locale-name_loc)               | varchar(100) | signed         |         | NO       | NULL        |           |             |
-| [name\_loc8](#item_template_locale-name_loc)               | varchar(100) | signed         |         | NO       | NULL        |           |             |
-| [description\_loc1](#item_template_locale-description_loc) | varchar(255) | signed         |         | YES      | NULL        |           |             |
-| [description\_loc2](#item_template_locale-description_loc) | varchar(255) | signed         |         | YES      | NULL        |           |             |
-| [description\_loc3](#item_template_locale-description_loc) | varchar(255) | signed         |         | YES      | NULL        |           |             |
-| [description\_loc4](#item_template_locale-description_loc) | varchar(255) | signed         |         | YES      | NULL        |           |             |
-| [description\_loc5](#item_template_locale-description_loc) | varchar(255) | signed         |         | YES      | NULL        |           |             |
-| [description\_loc6](#item_template_locale-description_loc) | varchar(255) | signed         |         | YES      | NULL        |           |             |
-| [description\_loc7](#item_template_locale-description_loc) | varchar(255) | signed         |         | YES      | NULL        |           |             |
-| [description\_loc8](#item_template_locale-description_loc) | varchar(255) | signed         |         | YES      | NULL        |           |             |
+|                                 |              |                |         |          |             |           |             |
+|---------------------------------|--------------|----------------|---------|----------|-------------|-----------|-------------|
+| **Field**                       | **Type**     | **Attributes** | **Key** | **Null** | **Default** | **Extra** | **Comment** |
+| [ID](#id)                       | mediumint(8) | unsigned       | PRI     | NO       | 0           |           |             |
+| [locale](#locale)               | varchar(4)   |                | PRI     | NO       | NULL        |           |             |
+| [Name](#name)                   | text         |                |         | YES      | NULL        |           |             |
+| [Description](#description)     | text         |                |         | YES      | NULL        |           |             |
+| [VerifiedBuild](#verifiedbuild) | smallint(5)  |                |         | YES      | 0           |           |             |
 
 **Description of the fields**
 
-### entry
+### ID
 
-This entry must be the same as  [item\_template.entry](https://trinitycore.atlassian.net/wiki/display/tc/item_template#item_template-entry) and then the row will be used to provide localization support for this creature record.
+This entry must be the same as  [item\_template.entry](item_template.md#entry) and then the row will be used to provide localization support for this creature record.
 
-### name\_loc
+### locale
 
-Translated content for [item\_template.name](https://trinitycore.atlassian.net/wiki/display/tc/item_template#item_template-name) field for language X.
-See localization languages list to know which value to use for X.
+The language of the text.
+Can have 8 values: deDE, esES, esMX, frFR, koKR, ruRU, zhCN, zhTW
 
-### description\_loc
+### Name
 
-Translated content for  [item\_template.description](https://trinitycore.atlassian.net/wiki/display/tc/item_template#item_template-description) field for language X.
-See localization languages list to know which value to use for X.
+Translated content for [item\_template.name](item_template.md#name) field.
+
+### Description
+
+Translated content for  [item\_template.description](item_template.md#description) field.
+
+### VerifiedBuild
+
+This field is used by the AzerothCore Team to determine whether a template has been verified from WDB files (ADB files for this one).
+
+If value is 0 then it has not been parsed yet.
+
+If value is above 0 then it has been parsed with WDB files from that specific client build.
+
+If value is -1 then it is just a place holder until proper data are found on WDBs.
+
+If value is [-Client Build](../auth/realmlist.md "DB:Auth:realmlist") then it was parsed with WDB files from that specific [client build](../auth/realmlist.md#gamebuild "DB:Auth:realmlist") and manually edited later for some special necessity.

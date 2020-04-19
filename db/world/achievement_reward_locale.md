@@ -2,41 +2,31 @@
 
 **The \`achievement\_reward\_locale\` table**
 
-`table-no-description`
+## Structure
 
-**Structure**
-
-|                                                         |              |                |         |          |             |           |             |
-|---------------------------------------------------------|--------------|----------------|---------|----------|-------------|-----------|-------------|
-| **Field**                                               | **Type**     | **Attributes** | **Key** | **Null** | **Default** | **Extra** | **Comment** |
-| [entry](#entry)               | mediumint(8) | unsigned       | PRI     | NO       | 0           |           |             |
-| [subject\_loc1](#subject_loc) | varchar(100) | signed         |         | NO       | NULL        |           |             |
-| [subject\_loc2](#subject_loc) | varchar(100) | signed         |         | NO       | NULL        |           |             |
-| [subject\_loc3](#subject_loc) | varchar(100) | signed         |         | NO       | NULL        |           |             |
-| [subject\_loc4](#subject_loc) | varchar(100) | signed         |         | NO       | NULL        |           |             |
-| [subject\_loc5](#subject_loc) | varchar(100) | signed         |         | NO       | NULL        |           |             |
-| [subject\_loc6](#subject_loc) | varchar(100) | signed         |         | NO       | NULL        |           |             |
-| [subject\_loc7](#subject_loc) | varchar(100) | signed         |         | NO       | NULL        |           |             |
-| [subject\_loc8](#subject_loc) | varchar(100) | signed         |         | NO       | NULL        |           |             |
-| [text\_loc1](#text_loc)       | text         | signed         |         | YES      | NULL        |           |             |
-| [text\_loc2](#text_loc)       | text         | signed         |         | YES      | NULL        |           |             |
-| [text\_loc3](#text_loc)       | text         | signed         |         | YES      | NULL        |           |             |
-| [text\_loc4](#text_loc)       | text         | signed         |         | YES      | NULL        |           |             |
-| [text\_loc5](#text_loc)       | text         | signed         |         | YES      | NULL        |           |             |
-| [text\_loc6](#text_loc)       | text         | signed         |         | YES      | NULL        |           |             |
-| [text\_loc7](#text_loc)       | text         | signed         |         | YES      | NULL        |           |             |
-| [text\_loc8](#text_loc)       | text         | signed         |         | YES      | NULL        |           |             |
+|                     |              |                |         |          |             |           |             |
+|---------------------|--------------|----------------|---------|----------|-------------|-----------|-------------|
+| **Field**           | **Type**     | **Attributes** | **Key** | **Null** | **Default** | **Extra** | **Comment** |
+| [ID](#id)           | mediumint(8) | unsigned       | PRI     | NO       | 0           |           |             |
+| [Locale](#locale)   | varchar(4)   |                | PRI     | NO       | NULL        |           |             |
+| [Subject](#subject) | text         |                |         | YES      | NULL        |           |             |
+| [Text](#text)       | text         |                |         | YES      | NULL        |           |             |
 
 **Description of the fields**
 
-### entry
+### ID
 
-`field-no-description|1`
+This is the ID of the achievement taken from the DBC `Achievement.dbc`.
 
-### subject\_loc
+### Locale
 
-`field-no-description|2`
+The language of the text.
+Can have 8 values: deDE, esES, esMX, frFR, koKR, ruRU, zhCN, zhTW
 
-### text\_loc
+### Subject
 
-`field-no-description|3`
+This is the localized subject of the mail that the player will receive.
+
+### Text
+
+This is the localized body (text) of the mail that the player will receive.

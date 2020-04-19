@@ -1,6 +1,5 @@
 # instance\_template
 
-
 **The \`instance\_template\` table**
 
 This table has all the templates for every instance. When a group enters an instance, a new copy of that instance is made from the values in these fields.

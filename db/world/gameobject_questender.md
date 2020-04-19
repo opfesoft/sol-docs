@@ -1,6 +1,5 @@
 # gameobject\_questender
 
-
 **The \`gameobject\_questender\` table**
 
 Holds game object quest taker relations. The game objects in this table should all be of type QUESTGIVER (2).
@@ -56,8 +55,8 @@ Holds game object quest taker relations. The game objects in this table should a
 
 ### id
 
-The template ID of the game object. See [gameobject\_template.entry](http://www.azerothcore.org/wiki/gameobject_template#entry)
+The template ID of the game object. See [gameobject\_template.entry](gameobject_template.md#entry)
 
 ### quest
 
-The quest ID that this game object finishes. See [quest\_template.id](http://www.azerothcore.org/wiki/quest_template#id)
+The quest ID that this game object finishes. See [quest\_template.id](quest_template.md#id)

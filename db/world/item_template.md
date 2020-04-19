@@ -1,6 +1,5 @@
 # item\_template
 
-
 **Table Structure**
 
 Holds information on every item that exists in the game. All items are created from their template stored in this table.
@@ -2432,7 +2431,7 @@ Bitmask field that contains flags that the item has on it. As all other such fie
 
 ### BuyCount
 
-The size of the item stack when sold by vendors. Also if a vendor has limited copies of this item available, everytime the vendor list is refreshed (See [npc\_vendor.incrtime](http://www.azerothcore.org/wiki/npc_vendor#incrtime)), the number of copies increases by this number.
+The size of the item stack when sold by vendors. Also if a vendor has limited copies of this item available, everytime the vendor list is refreshed (See [npc\_vendor.incrtime](npc_vendor.md#incrtime)), the number of copies increases by this number.
 
 ### BuyPrice
 
@@ -2559,13 +2558,13 @@ In what slot the item can be equipped.
 
 Bitmask controlling which classes can use this item. Add ids together to combine class possibilities. Use -1 if all classes can use it.
 
-See the [ChrClasses DBC file](ChrClasses) for the IDs of the classes.
+See the [ChrClasses DBC file](../../dbc/ChrClasses.md) for the IDs of the classes.
 
 ### AllowableRace
 
 Bitmask controlling which races can use this item. Add ids together to combine race possibilities. Use -1 for all races.
 
-See the [ChrRaces DBC file](ChrRaces) for the IDs of the races.
+See the [ChrRaces DBC file](../../dbc/ChrRaces.md) for the IDs of the races.
 
 ### ItemLevel
 
@@ -2577,7 +2576,7 @@ The level that a player must be to equip the item.
 
 ### RequiredSkill
 
-The skill required to use this item. See the [SkillLine DBC file](SkillLine) for IDs which can be used here.
+The skill required to use this item. See the [SkillLine DBC file](../../dbc/SkillLine.md) for IDs which can be used here.
 
 ### RequiredSkillRank
 
@@ -2599,11 +2598,11 @@ Its use is unknown. All items have 0.
 
 The faction template ID  of the faction that the player has to have a certain ranking with. If this value is 0, the faction of the seller of the item is used.
 
-See the [Faction DBC file](Faction) for the IDs of all of the factions.
+See the [Faction DBC file](../../dbc/Faction.md) for the IDs of all of the factions.
 
 ### RequiredReputationRank
 
-The rank the player has to have with the faction from [RequiredReputationFaction](#item_template-RequiredReputationFaction).
+The rank the player has to have with the faction from [RequiredReputationFaction](#requiredreputationfaction).
 
 <table>
 <colgroup>
@@ -2666,7 +2665,7 @@ If the item is a bag, this field controls the number of slots the bag has.
 
 ### StatsCount
 
-When an item has entries in [stat\_type](#item_template-stat_type), this must be updated to display those entries
+When an item has entries in [stat\_type](#stat_type), this must be updated to display those entries
 (Unknown how this works)
 
 ### stat\_type
@@ -3029,7 +3028,7 @@ The number of times that the item can cast the spell. If 0, then infinite charge
 
 ### spellppmRate
 
-The proc per minute rate controlling how often the spell is triggered (if [\#spelltrigger](#item_template-spelltrigger) == 2).
+The proc per minute rate controlling how often the spell is triggered (if [\#spelltrigger](#spelltrigger) == 2).
 
 ### spellcooldown
 
@@ -3092,29 +3091,29 @@ The description that appears in orange letters at the bottom of the item tooltip
 
 ### PageText
 
-The ID referring to the text that the item will show (if it is a book or a letter, etc). The item will have a magnifying glass cursor in the game and will show the text when right-clicked. See [page\_text.entry](http://www.azerothcore.org/wiki/page_text#entry)
+The ID referring to the text that the item will show (if it is a book or a letter, etc). The item will have a magnifying glass cursor in the game and will show the text when right-clicked. See [page\_text.entry](page_text.md#entry)
 
 ### LanguageID
 
 The language that the item text is written in.
 
-See the [Languages DBC file](Languages) for the IDs of all of the languages.
+See the [Languages DBC file](../../dbc/Languages.md) for the IDs of all of the languages.
 
 ### PageMaterial
 
 The background texture that appears in the page text window.
 
-See the [PageTextMaterial DBC file](PageTextMaterial) for the IDs of all of the material types.
+See the [PageTextMaterial DBC file](../../dbc/PageTextMaterial.md) for the IDs of all of the material types.
 
 ### startquest
 
-The ID of the quest that this item will start if right-clicked. See [quest\_template.id](http://www.azerothcore.org/wiki/quest_template#id)
+The ID of the quest that this item will start if right-clicked. See [quest\_template.id](quest_template.md#id)
 
 ### lockid
 
 The lock entry ID that this item (which serves as a key) is tied to. This field is used in key-door mechanics.
 
-See the [Lock DBC file](Lock).
+See the [Lock DBC file](../../dbc/Lock.md).
 
 ### Material
 
@@ -3240,11 +3239,11 @@ Controls how the item is put away on the character. Press the 'Z' hotkey to shea
 
 ### RandomProperty
 
-The number in this field points to [item\_enchantment\_template.entry](http://www.azerothcore.org/wiki/item_enchantment_template#entry) and ties in an item's chance at having a random property attached to it when it shows up for the first time. This field and the [RandomSuffix](#item_template-RandomSuffix) field CANNOT both have non-zero values. Either one is filled, or the other. Also, the primary source for the number in this field are WDBs.
+The number in this field points to [item\_enchantment\_template.entry](item_enchantment_template.md#entry) and ties in an item's chance at having a random property attached to it when it shows up for the first time. This field and the [RandomSuffix](#randomsuffix) field CANNOT both have non-zero values. Either one is filled, or the other. Also, the primary source for the number in this field are WDBs.
 
 ### RandomSuffix
 
-The number in this field points to [item\_enchantment\_template.entry](http://www.azerothcore.org/wiki/item_enchantment_template#entry) and ties in an item's chance at having a random suffix attached to it when it shows up for the first time. This field and the [RandomProperty](#item_template-RandomProperty) field CANNOT both have non-zero values. Either one is filled, or the other. Also, the primary source for the number in this field are WDBs.
+The number in this field points to [item\_enchantment\_template.entry](item_enchantment_template.md#entry) and ties in an item's chance at having a random suffix attached to it when it shows up for the first time. This field and the [RandomProperty](#randomproperty) field CANNOT both have non-zero values. Either one is filled, or the other. Also, the primary source for the number in this field are WDBs.
 
 ### block
 
@@ -3351,7 +3350,7 @@ If the item is a bag, this field is a bitmask controlling what types of items ca
 
 ### TotemCategory
 
-Corresponds to the ID in the [TotemCategory DBC file](TotemCategory).
+Corresponds to the ID in the [TotemCategory DBC file](../../dbc/TotemCategory.md).
 
 <table>
 <colgroup>
@@ -3611,7 +3610,7 @@ The name of the script that the item should use. There is no 'internalitemhandle
 
 ### DisenchantID
 
-The disenchant loot template ID. See [disenchant\_loot\_template.entry](http://www.azerothcore.org/wiki/loot_template#loot_template-Entry)
+The disenchant loot template ID. See [disenchant\_loot\_template.entry](loot_template.md#entry)
 
 ### FoodType
 
@@ -3710,4 +3709,4 @@ If the item is a container that can contain money, then this field defines the m
 
 ### VerifiedBuild
 
-`(WDBVerified)` Set by TrinityCore developers.
+`(WDBVerified)` Set by developers.

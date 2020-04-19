@@ -1,9 +1,6 @@
 # item\_set\_names
 
-
 **The \`item\_set\_names\` table**
-
-`table-no-description`
 
 **Structure**
 

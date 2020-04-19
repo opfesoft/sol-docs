@@ -1,6 +1,5 @@
 # game\_tele
 
-
 **Table Structure**
 
 This table contains a list of teleport locations that can be used with the *.tele* command in-game. Entries in this table can be added/deleted manually or with the *.tele add* and *.tele delete* commands.
@@ -120,7 +119,7 @@ The direction that the player will face after arriving at the teleport location.
 
 ### map
 
-The map ID of the location. See the [Map DBC file](Map) for the IDs of all of the zones.
+The map ID of the location. See the [Map DBC file](../../dbc/Map.md) for the IDs of all of the zones.
 
 ### name
 

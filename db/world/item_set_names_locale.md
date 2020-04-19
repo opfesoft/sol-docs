@@ -1,161 +1,40 @@
 # item\_set\_names\_locale
 
-
 **The \`item\_set\_names\_locale\` table**
 
-`table-no-description`
+## Structure
 
-**Structure**
-
-<table>
-<colgroup>
-<col width="12%" />
-<col width="12%" />
-<col width="12%" />
-<col width="12%" />
-<col width="12%" />
-<col width="12%" />
-<col width="12%" />
-<col width="12%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p><strong>Field</strong></p></td>
-<td><p><strong>Type</strong></p></td>
-<td><p><strong>Attributes</strong></p></td>
-<td><p><strong>Key</strong></p></td>
-<td><p><strong>Null</strong></p></td>
-<td><p><strong>Default</strong></p></td>
-<td><p><strong>Extra</strong></p></td>
-<td><p><strong>Comment</strong></p></td>
-</tr>
-<tr class="even">
-<td><p><a href="#entry">entry</a></p></td>
-<td><p>mediumint(8)</p></td>
-<td><p>unsigned</p></td>
-<td><p>PRI</p></td>
-<td><p>NO</p></td>
-<td><p>0</p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-</tr>
-<tr class="odd">
-<td><p><a href="#name_loc1">name_loc1</a></p></td>
-<td><p>varchar(100)</p></td>
-<td><p>signed</p></td>
-<td> </td>
-<td><p>NO</p></td>
-<td> </td>
-<td> </td>
-<td> </td>
-</tr>
-<tr class="even">
-<td><p><a href="#name_loc2">name_loc2</a></p></td>
-<td><p>varchar(100)</p></td>
-<td><p>signed</p></td>
-<td> </td>
-<td><p>NO</p></td>
-<td> </td>
-<td><p> </p></td>
-<td><p> </p></td>
-</tr>
-<tr class="odd">
-<td><p><a href="#name_loc3">name_loc3</a></p></td>
-<td><p>varchar(100)</p></td>
-<td><p>signed</p></td>
-<td><p> </p></td>
-<td><p>NO</p></td>
-<td> </td>
-<td> </td>
-<td> </td>
-</tr>
-<tr class="even">
-<td><p><a href="#name_loc4">name_loc4</a></p></td>
-<td><p>varchar(100)</p></td>
-<td><p>signed</p></td>
-<td> </td>
-<td><p>NO</p></td>
-<td> </td>
-<td><p> </p></td>
-<td><p> </p></td>
-</tr>
-<tr class="odd">
-<td><p><a href="#name_loc5">name_loc5</a></p></td>
-<td><p>varchar(100)</p></td>
-<td><p>signed</p></td>
-<td><p> </p></td>
-<td><p>NO</p></td>
-<td> </td>
-<td> </td>
-<td> </td>
-</tr>
-<tr class="even">
-<td><p><a href="#name_loc6">name_loc6</a></p></td>
-<td><p>varchar(100)</p></td>
-<td><p>signed</p></td>
-<td> </td>
-<td><p>NO</p></td>
-<td> </td>
-<td> </td>
-<td> </td>
-</tr>
-<tr class="odd">
-<td><p><a href="#name_loc7">name_loc7</a></p></td>
-<td><p>varchar(100)</p></td>
-<td><p>signed</p></td>
-<td><p> </p></td>
-<td><p>NO</p></td>
-<td> </td>
-<td> </td>
-<td> </td>
-</tr>
-<tr class="even">
-<td><p><a href="#name_loc8">name_loc8</a></p></td>
-<td><p>varchar(100)</p></td>
-<td><p>signed</p></td>
-<td> </td>
-<td><p>NO</p></td>
-<td> </td>
-<td> </td>
-<td> </td>
-</tr>
-</tbody>
-</table>
+|                                 |              |                |         |          |             |           |             |
+|---------------------------------|--------------|----------------|---------|----------|-------------|-----------|-------------|
+| **Field**                       | **Type**     | **Attributes** | **Key** | **Null** | **Default** | **Extra** | **Comment** |
+| [ID](#id)                       | mediumint(8) | unsigned       | PRI     | NO       | 0           |           |             |
+| [locale](#locale)               | varchar(4)   |                | PRI     | NO       | NULL        |           |             |
+| [Name](#name)                   | text         |                |         | YES      | NULL        |           |             |
+| [VerifiedBuild](#verifiedbuild) | smallint(5)  |                |         | YES      | 0           |           |             |
 
 **Description of the fields**
 
-### gentry
+### ID
 
-`field-no-description|1`
+Entry from item\_template
 
-### name\_loc1
+### locale
 
-`field-no-description|2`
+The language of the text.
+Can have 8 values: deDE, esES, esMX, frFR, koKR, ruRU, zhCN, zhTW
 
-### name\_loc2
+### Name
 
-`field-no-description|3`
+Localized name of the item
 
-### name\_loc3
+### VerifiedBuild
 
-`field-no-description|4`
+This field is used by the AzerothCore Team to determine whether a template has been verified from WDB files (ADB files for this one).
 
-### name\_loc4
+If value is 0 then it has not been parsed yet.
 
-`field-no-description|5`
+If value is above 0 then it has been parsed with WDB files from that specific client build.
 
-### name\_loc5
+If value is -1 then it is just a place holder until proper data are found on WDBs.
 
-`field-no-description|6`
-
-### name\_loc6
-
-`field-no-description|7`
-
-### name\_loc7
-
-`field-no-description|8`
-
-### name\_loc8
-
-`field-no-description|9`
+If value is [-Client Build](../auth/realmlist.md "DB:Auth:realmlist") then it was parsed with WDB files from that specific [client build](../auth/realmlist.md#gamebuild "DB:Auth:realmlist") and manually edited later for some special necessity.

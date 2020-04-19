@@ -209,7 +209,7 @@ This table holds information about menu options a gossip NPC can have. Example
 ### MenuID
 
 Gossip entry from Gossip\_menu.entry this option is associated with.
-If this is the default gossip option for the selected NPC, verify that the NPC has this value in it's [creature\_template.gossip\_menu\_id](http://www.azerothcore.org/wiki/creature_template#creature_template-gossip_menu_id) .
+If this is the default gossip option for the selected NPC, verify that the NPC has this value in it's [creature\_template.gossip\_menu\_id](creature_template.md#gossip_menu_id) .
 
 ### OptionID
 
@@ -265,20 +265,19 @@ The ID of the same text in broadcast\_text.ID.
 |GOSSIP_OPTION_UNLEARNPETTALENTS|17|UNIT_NPC_FLAG_TRAINER (bonus option for GOSSIP_OPTION_TRAINER)|16|
 |GOSSIP_OPTION_LEARNDUALSPEC|18|UNIT_NPC_FLAG_TRAINER (bonus option for GOSSIP_OPTION_TRAINER)|16|
 |GOSSIP_OPTION_OUTDOORPVP|19|Added by code (option for outdoor PvP creatures)||
-|GOSSIP_OPTION_MAX||||
-
+|GOSSIP_OPTION_DUALSPEC_INFO|20|UNIT_NPC_FLAG_TRAINER (bonus option for GOSSIP_OPTION_TRAINER)|16|
 
 ### OptionNpcFlag
 
-This is the npcflag ([Creature\_template.npcflag](creature_template#creature_template-npcflag) ) that the NPC must have to have this option display. See comments (after //) in previous table)
+This is the npcflag ([Creature\_template.npcflag](creature_template.md#npcflag) ) that the NPC must have to have this option display. See comments (after //) in previous table)
 
 ### ActionMenuID
 
-If you want to create a sub-menu, this is the ID ([gossip\_menu.entry](http://www.azerothcore.org/wiki/gossip_menu#entry) / [gossip\_menu\_option.menu\_id](http://www.azerothcore.org/wiki/gossip_menu_option#menu_id)) to link to to create that sub-menu.
+If you want to create a sub-menu, this is the ID ([gossip\_menu.entry](gossip_menu.md#entry) / [gossip\_menu\_option.menu\_id](gossip_menu_option.md#menu_id)) to link to to create that sub-menu.
 
 ### ActionPoiID
 
-If you want a POI (point of interest) to display on the minimap (like how a city guard places a marker when you ask directions), this is the \`entry\` from [Points\_of\_interest.entry](http://www.azerothcore.org/wiki/points_of_interest#entry)
+If you want a POI (point of interest) to display on the minimap (like how a city guard places a marker when you ask directions), this is the \`entry\` from [Points\_of\_interest.entry](points_of_interest.md#entry)
 
 ### BoxCoded
 
@@ -296,7 +295,7 @@ If BoxBroadCastTextID contains a valid broadcast\_text.ID, it links to broadcast
 
 ### BoxBroadcastTextID
 
-The ID of the same text in [broadcast\_text.ID](http://www.azerothcore.org/wiki/broadcast_text#broadcast_text-ID).
+The ID of the same text in [broadcast\_text.ID](broadcast_text.md#id).
 
 ### VerifiedBuild
 
@@ -308,4 +307,4 @@ If value is above 0 then it has been parsed with WDB files from that specific cl
 
 If value is -1 then it is just a place holder until proper data are found on WDBs.
 
-If value is [client Build](http://www.azerothcore.org/wiki/realmlist#gamebuild) then it was parsed with WDB files from that specific client build and manually edited later for some special necessity.
+If value is [client Build](../auth/realmlist.md#gamebuild) then it was parsed with WDB files from that specific client build and manually edited later for some special necessity.

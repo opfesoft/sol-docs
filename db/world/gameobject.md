@@ -1,6 +1,5 @@
 # gameobject
 
-
 **The \`gameobject\` table**
 
 This table holds the individual object data on each spawned game object in the world. This data along with the object's template data is read and used to instantiate the objects in the world.
@@ -200,7 +199,7 @@ The global unique identifier for the game object. This field must be unique amon
 
 ### id
 
-The template ID of the gameobject. See [gameobject\_template.entry](http://www.azerothcore.org/wiki/gameobject_template#entry)
+The template ID of the gameobject. See [gameobject\_template.entry](gameobject_template.md#entry)
 
 ### map
 
