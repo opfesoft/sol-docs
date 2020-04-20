@@ -5,7 +5,7 @@
 
 This table holds the respawn time when creatures should be respawned in the world. In case of a server crash, this table holds the respawn data so that the creatures don't respawn immediately on server restart. How often the respawn time is saved for creatures can be controlled in TrinityCore.conf at SaveRespawnTimeImmediately.
 
-**Structure**
+## Structure
 
 <table>
 <colgroup>
@@ -62,7 +62,7 @@ This table holds the respawn time when creatures should be respawned in the worl
 </tbody>
 </table>
 
-**Description of the fields**
+## Description of the fields
 
 ### guid
 

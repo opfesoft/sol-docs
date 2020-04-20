@@ -31,7 +31,7 @@
 </tbody>
 </table>
 
-**Description of the fields**
+## Description of the fields
 
 ### level
 The player level.

@@ -23,7 +23,7 @@ This table handles Quest NPC emotes with emote delays.
 
  
 
-**Description of the fields:**
+## Description of the fields
 
 ### ID
 

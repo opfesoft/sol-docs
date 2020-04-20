@@ -5,7 +5,7 @@
 
 This table holds static information on all current instances that have not yet been reset.
 
-**Structure**
+## Structure
 
 <table>
 <colgroup>
@@ -92,7 +92,7 @@ This table holds static information on all current instances that have not yet b
 </tbody>
 </table>
 
-**Description of the fields**
+## Description of the fields
 
 ### id
 

@@ -5,7 +5,7 @@
 
 `table-no-description`
 
-**Structure**
+## Structure
 
 <table>
 <colgroup>
@@ -62,7 +62,7 @@
 </tbody>
 </table>
 
-**Description of the fields**
+## Description of the fields
 
 ### eventEntry
 

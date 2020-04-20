@@ -5,7 +5,7 @@
 
 Contains extra definitions like linking quests, dependencies and requirements for the quests defined in the [quest\_template](quest_template) table to become available to the player.
 
-**Structure:**
+## Structure
 
 <table>
 <thead>
@@ -249,7 +249,7 @@ Unique ID linked to quest_template.ID</td>
 </tbody>
 </table>
 
-**Description of the fields:**
+## Description of the fields
 
 ### **ID**
 

@@ -5,7 +5,7 @@
 
 This table contains data regarding serverside spells which are not to be found in Client DBC files.
 
-**Structure**
+## Structure
 
 <table>
 <tbody>
@@ -1210,7 +1210,7 @@ This table contains data regarding serverside spells which are not to be found i
 </tbody>
 </table>
 
-**Description of the fields**
+## Description of the fields
 
 ### Id
 

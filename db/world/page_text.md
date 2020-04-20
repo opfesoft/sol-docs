@@ -5,7 +5,7 @@
 
 This table holds the text for letter items or any items that when moused-over turn the cursor into a magnifying glass and on right-click will open up a window where you can read the contents of the letter.
 
-**Structure**
+## Structure
 
 <table>
 <colgroup>
@@ -72,7 +72,7 @@ This table holds the text for letter items or any items that when moused-over tu
 </tbody>
 </table>
 
-**Description of the fields**
+## Description of the fields
 
 ### entry
 

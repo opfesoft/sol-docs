@@ -5,7 +5,7 @@
 
 Contains all the individual button data for each character. A button is any of the places in the GUI where you can place for example a spell, item, or macro as a shortcut.
 
-**Structure**
+## Structure
 
 <table>
 <colgroup>
@@ -82,7 +82,7 @@ Contains all the individual button data for each character. A button is any of t
 </tbody>
 </table>
 
-**Description of the fields**
+## Description of the fields
 
 ### guid
 

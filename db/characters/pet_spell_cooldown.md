@@ -5,7 +5,7 @@
 
 This table holds information on pet spell cooldowns.
 
-**Structure**
+## Structure
 
 <table>
 <colgroup>
@@ -62,7 +62,7 @@ This table holds information on pet spell cooldowns.
 </tbody>
 </table>
 
-**Description of the fields**
+## Description of the fields
 
 ### guid
 

@@ -21,7 +21,7 @@ This table contains data related to the use of the anti-cheat tool Warden, which
 
  
 
-**Description of the fields:**
+## Description of the fields
 
  
 

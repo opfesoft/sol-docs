@@ -16,7 +16,7 @@ Its purpose is (will be) used as a globalized table containing the localized tex
 | [FemaleText](#femaletext)       | text         |      | YES  | NULL    |       |         |
 | [VerifiedBuild](#verifiedbuild) | smallint(5)  |      | YES  | 0       |       |         |
 
-**Description of the fields**
+## Description of the fields
 
 ### ID
 

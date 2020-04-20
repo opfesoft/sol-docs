@@ -5,7 +5,7 @@
 
 This table contains all of the banned IPs and the date when (or if) the ban will expire.
 
-**Structure**
+## Structure
 
 <table>
 <colgroup>
@@ -82,7 +82,7 @@ This table contains all of the banned IPs and the date when (or if) the ban will
 </tbody>
 </table>
 
-**Description of the fields**
+## Description of the fields
 
 ### ip
 

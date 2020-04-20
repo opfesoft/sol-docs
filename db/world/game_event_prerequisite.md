@@ -4,7 +4,7 @@
 
 This table contains events that must have been completed to start the given event. You can have more than one event that must be completed before the next will start.
 
-**Structure**
+## Structure
 
 <table>
 <colgroup>
@@ -51,7 +51,7 @@ This table contains events that must have been completed to start the given even
 </tbody>
 </table>
 
-**Description of the fields**
+## Description of the fields
 
 ### eventEntry
 

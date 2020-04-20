@@ -5,7 +5,7 @@
 
 This table lists all of the characters that have been banned along with the date when (or if) the ban will expire.
 
-**Structure**
+## Structure
 
 <table>
 <colgroup>
@@ -92,7 +92,7 @@ This table lists all of the characters that have been banned along with the date
 </tbody>
 </table>
 
-**Description of the fields**
+## Description of the fields
 
 ### guid
 

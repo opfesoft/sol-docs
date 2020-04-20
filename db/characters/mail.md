@@ -5,7 +5,7 @@
 
 This table contains main data about all mails in the game.
 
-**Structure**
+## Structure
 
  
 
@@ -176,7 +176,7 @@ This table contains main data about all mails in the game.
 </tbody>
 </table>
 
-**Description of the fields**
+## Description of the fields
 
 ### id
 

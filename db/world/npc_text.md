@@ -1,7 +1,7 @@
 # npc\_text
 
 
-**Table Structure**
+## Structure
 
 This table contains the texts that are used for gossip. More research needs to be done on this table.
 

@@ -5,7 +5,7 @@
 
 This table hold informations regarding the right guild member have to withdraw, deposit etc at the guild bank.
 
-**Structure**
+## Structure
 
 <table>
 <colgroup>
@@ -82,7 +82,7 @@ This table hold informations regarding the right guild member have to withdraw, 
 </tbody>
 </table>
 
-**Description of the fields**
+## Description of the fields
 
 ### guildid
 

@@ -12,7 +12,7 @@
 | [Name](#name)                   | text         |                |         | YES      | NULL        |           |             |
 | [VerifiedBuild](#verifiedbuild) | smallint(5)  |                |         | YES      | 0           |           |             |
 
-**Description of the fields**
+## Description of the fields
 
 ### ID
 

@@ -5,7 +5,7 @@
 
 Holds scripts that can be activated by spells with effect SPELL\_EFFECT\_SCRIPT\_EFFECT (77) or SPELL\_EFFECT\_DUMMY(3).
 
-### Structure
+## Structure
 
 | Field                            | Type         | Attributes   | Key | Null | Default |
 |----------------------------------|--------------|--------------|-----|------|---------|

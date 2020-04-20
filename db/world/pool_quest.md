@@ -5,7 +5,7 @@
 
 This table contains a list of quests that are tied to a specific pool.
 
-**Structure**
+## Structure
 
 <table>
 <colgroup>
@@ -62,7 +62,7 @@ This table contains a list of quests that are tied to a specific pool.
 </tbody>
 </table>
 
-**Description of the fields**
+## Description of the fields
 
 ### entry
 

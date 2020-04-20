@@ -5,7 +5,7 @@
 
 Holds information on the quest status of each character.
 
-**Structure**
+## Structure
 
 <table>
 <tbody>
@@ -226,7 +226,7 @@ Holds information on the quest status of each character.
 </tbody>
 </table>
 
-**Description of the fields**
+## Description of the fields
 
 ### guid
 

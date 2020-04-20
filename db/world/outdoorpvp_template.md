@@ -46,7 +46,7 @@
 </tbody>
 </table>
 
-**Description of the fields**
+## Description of the fields
 
 ### TypeId
 `field-no-description|1`

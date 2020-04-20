@@ -1,12 +1,11 @@
 # linked\_respawn
 
-
 **The \`linked\_respawn\` table**
 
 This table links trash mobs to bosses so that if you kill the boss, the trash do not respawn before the instance is reset.
 Gameobjects can be linked too!
 
-**Structure**
+## Structure
 
 <table>
 <colgroup>
@@ -63,15 +62,15 @@ Gameobjects can be linked too!
 </tbody>
 </table>
 
-**Description of the fields**
+## Description of the fields
 
 ### guid
 
-This is the guid of the [creature](http://www.azerothcore.org/wiki/creature#guid) or [gameobject](http://www.azerothcore.org/wiki/gameobject#guid) you want to link.
+This is the guid of the [creature](creature.md#guid) or [gameobject](gameobject.md#guid) you want to link.
 
 ### linkedGuid
 
-This is the guid of the [creature](http://www.azerothcore.org/wiki/creature#guid) or [gameobject](http://www.azerothcore.org/wiki/gameobject#guid) (boss most likely) that you want to link to.
+This is the guid of the [creature](creature.md#guid) or [gameobject](gameobject.md#guid) (boss most likely) that you want to link to.
 
 ### linkedType
 

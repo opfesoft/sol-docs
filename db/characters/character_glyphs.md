@@ -5,7 +5,7 @@
 
 Contains all the individual glyph data for each character.
 
-**Structure**
+## Structure
 
 <table>
 <colgroup>
@@ -112,7 +112,7 @@ Contains all the individual glyph data for each character.
 </tbody>
 </table>
 
-**Description of the fields**
+## Description of the fields
 
 ### guid
 

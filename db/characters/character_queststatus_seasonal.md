@@ -5,7 +5,7 @@
 
 Holds information on the seasonal quest (quests with ZoneOrSort of -22) status of every player. The quests reset at the end of the corresponding eventEntry.
 
-**Structure**
+## Structure
 
 <table>
 <colgroup>
@@ -62,7 +62,7 @@ Holds information on the seasonal quest (quests with ZoneOrSort of -22) status o
 </tbody>
 </table>
 
-**Description of the fields**
+## Description of the fields
 
 ### guid
 

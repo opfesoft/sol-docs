@@ -5,7 +5,7 @@
 
 This table is used for any custom items that you might want to give to characters on creation. I used to be used to hold the normal items that characters get as well, but now that info is read from CharStartOutfit.dbc
 
-**Structure**
+## Structure
 
 <table>
 <colgroup>
@@ -72,7 +72,7 @@ This table is used for any custom items that you might want to give to character
 </tbody>
 </table>
 
-**Description of the fields**
+## Description of the fields
 
 ### race
 

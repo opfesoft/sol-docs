@@ -4,7 +4,7 @@
 
 This table is used for displaying gossip when a player talks to an NPC with [npcflag](creature_template.md#npcflag) set.
 
-**Structure**
+## Structure
 
 <table>
 <colgroup>
@@ -55,7 +55,7 @@ This table is used for displaying gossip when a player talks to an NPC with [np
 </tbody>
 </table>
 
-**Description of the fields**
+## Description of the fields
 
 ### MenuID
 

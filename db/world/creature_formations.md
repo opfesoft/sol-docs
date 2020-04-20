@@ -4,7 +4,7 @@
 
 This table allows to group mobs. Members of group will follow others, and attack their targets.
 
-**Structure**
+## Structure
 
 <table>
 <colgroup>

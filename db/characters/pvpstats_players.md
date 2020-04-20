@@ -5,7 +5,7 @@
 
 This table holds datas about BattleGrounds scores. To enable storing this kind of informations, set **Battleground . StoreStatistics . Enable   =   1** in **worldserver.config** file.
 
-**Structure**
+## Structure
 
 <table>
 <colgroup>
@@ -172,7 +172,7 @@ This table holds datas about BattleGrounds scores. To enable storing this kind o
 </tbody>
 </table>
 
-**Description of the fields**
+## Description of the fields
 
 ### battleground\_id
 

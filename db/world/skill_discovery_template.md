@@ -5,7 +5,7 @@
 
 This table controls the so called "discovery" system of learning spells. This system is solely ![(question)](images/icons/emoticons/help_16.png){.emoticon .emoticon-question} used by the alchemy profession and controls the chance for a player to "discover" another recipe while creating items with other recipes.
 
-**Structure**
+## Structure
 
 <table>
 <colgroup>
@@ -72,7 +72,7 @@ This table controls the so called "discovery" system of learning spells. This sy
 </tbody>
 </table>
 
-**Description of the fields**
+## Description of the fields
 
 ### spellId
 

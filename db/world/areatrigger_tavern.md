@@ -4,7 +4,7 @@
 
 Enable a trigger when player enters a city or tavern. This causes the player to enter a resting state.
 
-**Structure**
+## Structure
 
 <table>
 <colgroup>
@@ -51,7 +51,7 @@ Enable a trigger when player enters a city or tavern. This causes the player to 
 </tbody>
 </table>
 
-**Description of the fields**
+## Description of the fields
 
 ### id
 

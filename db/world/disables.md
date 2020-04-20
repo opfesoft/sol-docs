@@ -4,7 +4,7 @@
 
 This table is used to disable dungeons/bgs/spells/etc.
 
-**Structure**
+## Structure
 
 <table>
 <tbody>
@@ -100,7 +100,7 @@ This table is used to disable dungeons/bgs/spells/etc.
 </tbody>
 </table>
 
-**Description of the fields**
+## Description of the fields
 
 ### sourceType
 

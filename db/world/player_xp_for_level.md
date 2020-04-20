@@ -5,7 +5,7 @@
 
 Includes information on how much experience needed for next level. Comes from sniffs.
 
-**Structure**
+## Structure
 
 <table>
 <colgroup>
@@ -52,7 +52,7 @@ Includes information on how much experience needed for next level. Comes from sn
 </tbody>
 </table>
 
-**Description of the fields**
+## Description of the fields
 
 This table sets the exp point needed to upgrade the player's level.
 

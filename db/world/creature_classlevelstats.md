@@ -1,6 +1,6 @@
 # creature\_classlevelstats
 
-**Table Structure**
+## Structure
 
 This table contains the base values for creature health, mana, armor, attack power, ranged attack power, damage, and experience.
 

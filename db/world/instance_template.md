@@ -6,7 +6,7 @@ This table has all the templates for every instance. When a group enters an inst
 
 If you want to change the spot you will start in when you enter/leave an instance, go to areatrigger\_teleport
 
-**Structure**
+## Structure
 
 <table>
 <colgroup>
@@ -73,7 +73,7 @@ If you want to change the spot you will start in when you enter/leave an instanc
 </tbody>
 </table>
 
-**Description of the fields**
+## Description of the fields
 
 ### map
 

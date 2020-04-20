@@ -5,7 +5,7 @@
 
 Holds information on the daily quest status of every player. The quest must have type = 87 or the 4096 flag at QuestFlags.
 
-**Structure**
+## Structure
 
 <table>
 <colgroup>
@@ -62,7 +62,7 @@ Holds information on the daily quest status of every player. The quest must have
 </tbody>
 </table>
 
-**Description of the fields**
+## Description of the fields
 
 ### guid
 

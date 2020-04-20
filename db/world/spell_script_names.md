@@ -5,7 +5,7 @@
 
 Holds the spell id to ScriptName pairings for use in spell scripts.
 
-**Structure**
+## Structure
 
 <table>
 <colgroup>
@@ -52,7 +52,7 @@ Holds the spell id to ScriptName pairings for use in spell scripts.
 </tbody>
 </table>
 
-**Description of the fields**
+## Description of the fields
 
 ### spell\_id
 

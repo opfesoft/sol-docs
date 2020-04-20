@@ -4,7 +4,7 @@
 
 This table determines if a given pool is active for a given game event.
 
-**Structure**
+## Structure
 
 <table>
 <colgroup>
@@ -51,7 +51,7 @@ This table determines if a given pool is active for a given game event.
 </tbody>
 </table>
 
-**Description of the fields**
+## Description of the fields
 
 ### eventEntry
 

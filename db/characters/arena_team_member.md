@@ -5,7 +5,7 @@
 
 This table holds arena info about specific team members. All arena\_team members have a record in this table.
 
-**Structure**
+## Structure
 
 <table>
 <colgroup>
@@ -102,7 +102,7 @@ This table holds arena info about specific team members. All arena\_team members
 </tbody>
 </table>
 
-**Description of the fields**
+## Description of the fields
 
 ### arenaTeamId
 

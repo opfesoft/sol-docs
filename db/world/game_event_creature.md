@@ -4,7 +4,7 @@
 
 Contains all creature instances that have to be spawned/unspawned during defined game events.
 
-**Structure**
+## Structure
 
 <table>
 <colgroup>
@@ -51,7 +51,7 @@ Contains all creature instances that have to be spawned/unspawned during defined
 </tbody>
 </table>
 
-**Description of the fields**
+## Description of the fields
 
 ### eventEntry
 

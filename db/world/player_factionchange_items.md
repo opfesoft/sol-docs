@@ -90,7 +90,7 @@ Basically all item changes made when player changes faction.
 </tbody>
 </table>
 
-**Description of the fields**
+## Description of the fields
 
 ### race\_A
 

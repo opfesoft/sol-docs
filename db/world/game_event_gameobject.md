@@ -4,7 +4,7 @@
 
 Contains all gameobjects instances that participate to any game event.
 
-**Structure**
+## Structure
 
 <table>
 <colgroup>
@@ -51,7 +51,7 @@ Contains all gameobjects instances that participate to any game event.
 </tbody>
 </table>
 
-**Description of the fields**
+## Description of the fields
 
 ### eventEntry
 

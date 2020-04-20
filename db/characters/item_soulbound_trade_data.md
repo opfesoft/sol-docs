@@ -5,7 +5,7 @@
 
 This table stores information about which players can trade soulbound items between each other.
 
-**Structure**
+## Structure
 
 <table>
 <colgroup>
@@ -52,7 +52,7 @@ This table stores information about which players can trade soulbound items betw
 </tbody>
 </table>
 
-**Description of the fields**
+## Description of the fields
 
 ### itemGuid
 

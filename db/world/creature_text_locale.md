@@ -14,7 +14,7 @@ This table is used to provide to localized clients with localized string for cre
 | [Locale](#locale)         | varchar(4)   |            | PRI | NO   | NULL    |       |         |
 | [Text](#text)             | text         |            |     | YES  | NULL    |       |         |
 
-**Description of the fields**
+## Description of the fields
 
 ### CreatureID
 

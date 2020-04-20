@@ -5,7 +5,7 @@
 
 This table holds information on individual pet base stats based on level.
 
-**Structure**
+## Structure
 
 |                                                   |              |                |         |          |             |           |             |
 |---------------------------------------------------|--------------|----------------|---------|----------|-------------|-----------|-------------|
@@ -21,7 +21,7 @@ This table holds information on individual pet base stats based on level.
 | [inte](#pet_levelstats-inte)                      | smallint(5)  | unsigned       |         | NO       | NULL        |           |             |
 | [spi](#pet_levelstats-spi)                        | smallint(5)  | unsigned       |         | NO       | NULL        |           |             |
 
-**Description of the fields**
+## Description of the fields
 
 ### creature\_entry
 

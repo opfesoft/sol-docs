@@ -70,7 +70,7 @@ This table provides data for spell linking system, telling it which spells trigg
 </tbody>
 </table>
 
-**Description of the fields**
+## Description of the fields
 
 ### spell\_trigger
 

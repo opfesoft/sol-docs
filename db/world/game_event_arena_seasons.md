@@ -4,7 +4,7 @@
 
 This information comes from sniffs and is NOT supposed to be changed.
 
-**Structure**
+## Structure
 
 <table>
 <colgroup>
@@ -51,7 +51,7 @@ This information comes from sniffs and is NOT supposed to be changed.
 </tbody>
 </table>
 
-**Description of the fields**
+## Description of the fields
 
 ### eventEntry
 

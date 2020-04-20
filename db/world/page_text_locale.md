@@ -14,7 +14,7 @@ This table is used to provide localized clients with localized string for page\_
 | [text](#text)                        | longtext     | signed         |         | YES      | NULL        |           |             |
 | [VerifiedBuild](#verifiedbuild)      | smallint(5)  |                |         | YES      | 0           |           |             |
 
-**Description of the fields**
+## Description of the fields
 
 ### ID
 

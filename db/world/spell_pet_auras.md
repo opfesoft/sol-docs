@@ -70,7 +70,7 @@
 </tbody>
 </table>
 
-**Description of the fields**
+## Description of the fields
 
 ### spell
 

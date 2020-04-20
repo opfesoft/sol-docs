@@ -5,7 +5,7 @@
 
 Contains all the character inventory data, including the bank data.
 
-**Structure**
+## Structure
 
 <table>
 <colgroup>
@@ -72,7 +72,7 @@ Contains all the character inventory data, including the bank data.
 </tbody>
 </table>
 
-**Description of the fields**
+## Description of the fields
 
 ### guid
 

@@ -5,7 +5,7 @@
 
 Contains data about character settings.
 
-**Structure**
+## Structure
 
 <table>
 <colgroup>
@@ -72,7 +72,7 @@ Contains data about character settings.
 </tbody>
 </table>
 
-**Description of the fields**
+## Description of the fields
 
 ### guid
 

@@ -5,7 +5,7 @@
 
 Comes from sniffs.
 
-**Structure**
+## Structure
 
 <table>
 <tbody>
@@ -124,7 +124,7 @@ Comes from sniffs.
 </tbody>
 </table>
 
-**Description of the fields**
+## Description of the fields
 
 ### QuestID
 

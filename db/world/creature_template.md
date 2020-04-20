@@ -81,7 +81,7 @@ This table contains the description of creatures. Each spawned creature is an in
 
 ---
 
-**Description of the fields**
+## Description of the fields
 
 #### entry
 

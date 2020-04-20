@@ -5,7 +5,7 @@
 
 Holds reputation multipliers for specific factions.
 
-**Structure**
+## Structure
 
 <table>
 <colgroup>
@@ -72,7 +72,7 @@ Holds reputation multipliers for specific factions.
 </tbody>
 </table>
 
-**Description of the fields**
+## Description of the fields
 
 ### faction
 

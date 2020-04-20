@@ -1,6 +1,5 @@
 # lfg_dungeon_template
 
-
 Column | Type | Description
 --- | --- | ---
 DungeonId | int(10) unsigned | 

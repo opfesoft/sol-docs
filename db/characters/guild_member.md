@@ -5,7 +5,7 @@
 
 This table holds information on the members of all guilds, their ranks in the guild, and any notes made by them or by guild officers.
 
-**Structure**
+## Structure
 
 <table>
 <colgroup>
@@ -222,7 +222,7 @@ This table holds information on the members of all guilds, their ranks in the gu
 </tbody>
 </table>
 
-**Description of the fields**
+## Description of the fields
 
 ### guildid
 

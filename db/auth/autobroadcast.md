@@ -5,7 +5,7 @@
 
 This table contains the autobroadcast entries for your realms. Values like it's activity, position and Timer (\*.On, \*.Center, \*.Timer) are defined within the [worldserver.conf](https://gitlab.com/opfesoft/sol/-/blob/master/src/server/worldserver/worldserver.conf.dist). They are chosen randomly, based on their weight.
 
-**Structure**
+## Structure
 
 <table>
 <colgroup>
@@ -72,7 +72,7 @@ This table contains the autobroadcast entries for your realms. Values like it's 
 </tbody>
 </table>
 
-**Description of the fields**
+## Description of the fields
 
 ### realmid
 

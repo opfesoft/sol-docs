@@ -4,7 +4,7 @@
 
 Allows for an area trigger to be scripted with a core or SAI script.
 
-**Structure**
+## Structure
 
 <table>
 <colgroup>
@@ -51,7 +51,7 @@ Allows for an area trigger to be scripted with a core or SAI script.
 </tbody>
 </table>
 
-**Description of the fields**
+## Description of the fields
 
 ### entry
 

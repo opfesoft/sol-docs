@@ -5,7 +5,7 @@
 
 This table stores all tickets
 
-**Structure**
+## Structure
 
 <table>
 <tbody>
@@ -280,7 +280,7 @@ This table stores all tickets
 </tbody>
 </table>
 
-'Description of the fields'''
+## Description of the fields
 
 ### Id
 

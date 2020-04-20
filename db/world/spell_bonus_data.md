@@ -5,7 +5,7 @@
 
 Table used for storing custom damage/healing bonus coefficients.
 
-**Structure**
+## Structure
 
 <table>
 <colgroup>
@@ -92,7 +92,7 @@ Table used for storing custom damage/healing bonus coefficients.
 </tbody>
 </table>
 
-**Description of the fields**
+## Description of the fields
 
 ### entry
 

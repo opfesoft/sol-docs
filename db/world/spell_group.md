@@ -50,7 +50,7 @@ Table used to group spells for varius checks in the core. One spell may be added
 </tbody>
 </table>
 
-**Description of the fields**
+## Description of the fields
 
 ### id
 

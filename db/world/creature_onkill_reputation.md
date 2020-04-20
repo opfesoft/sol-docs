@@ -4,7 +4,7 @@
 
 This table controls the reputation given by creatures when killed by other players.
 
-**Structure**
+## Structure
 
 <table>
 <colgroup>
@@ -131,7 +131,7 @@ This table controls the reputation given by creatures when killed by other playe
 </tbody>
 </table>
 
-**Description of the fields**
+## Description of the fields
 
 ### creature\_id
 

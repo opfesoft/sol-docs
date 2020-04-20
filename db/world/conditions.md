@@ -4,7 +4,7 @@
 
 This table allows you to define conditions for various systems - Gossip, loot etc.
 
-**Structure**
+## Structure
 
 <table>
 <tbody>
@@ -205,7 +205,7 @@ This table allows you to define conditions for various systems - Gossip, loot et
 </tbody>
 </table>
 
-**Description of the fields**
+## Description of the fields
 
 ### SourceTypeOrReferenceId
 

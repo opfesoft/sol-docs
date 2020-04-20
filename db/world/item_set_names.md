@@ -2,7 +2,7 @@
 
 **The \`item\_set\_names\` table**
 
-**Structure**
+## Structure
 
 <table>
 <colgroup>
@@ -69,7 +69,7 @@
 </tbody>
 </table>
 
-**Description of the fields**
+## Description of the fields
 
 ### entry
 

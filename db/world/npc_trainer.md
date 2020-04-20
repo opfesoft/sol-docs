@@ -5,7 +5,7 @@
 
 This table contains all the spells that each trainer can teach.
 
-**Structure**
+## Structure
 
 |                                            |              |                |         |          |             |           |             |
 |--------------------------------------------|--------------|----------------|---------|----------|-------------|-----------|-------------|
@@ -17,7 +17,7 @@ This table contains all the spells that each trainer can teach.
 | [ReqSkillRank](#npc_trainer-reqskillvalue) | smallint(5)  | unsigned       |         | NO       | 0           |           |             |
 | [ReqLevel](#npc_trainer-reqlevel)          | tinyint(3)   | unsigned       |         | NO       | 0           |           |             |
 
-**Description of the fields**
+## Description of the fields
 
 ### ID
 

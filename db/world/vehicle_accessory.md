@@ -5,7 +5,7 @@
 
 This table is used to tell the server to spawn an additional NPC with this vehicle.
 
-**Structure**
+## Structure
 
 <table>
 <colgroup>
@@ -102,7 +102,7 @@ This table is used to tell the server to spawn an additional NPC with this vehic
 </tbody>
 </table>
 
-**Description of the fields**
+## Description of the fields
 
 ### guid
 

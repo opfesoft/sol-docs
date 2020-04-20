@@ -4,7 +4,7 @@
 
 This table contains all models of mobs, their gender and other information that are model related. This means that when a creature uses another model, this information will change as well.
 
-**Structure**
+## Structure
 
 <table>
 <colgroup>
@@ -95,7 +95,7 @@ This table contains all models of mobs, their gender and other information that 
 </tbody>
 </table>
 
-**Description of the fields**
+## Description of the fields
 
 ### modelid
 

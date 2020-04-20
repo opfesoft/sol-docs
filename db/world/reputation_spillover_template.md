@@ -5,7 +5,7 @@
 
 `field-no-description|0`
 
-**Structure**
+## Structure
 
 <table>
 <tbody>
@@ -190,7 +190,7 @@
 </tbody>
 </table>
 
-**Description of the fields**
+## Description of the fields
 
 ### faction
 

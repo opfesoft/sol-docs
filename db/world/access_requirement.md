@@ -4,7 +4,7 @@
 
 This table contains the access requirements to enter an instance.
 
-**Structure**
+## Structure
 
 <table>
 <tbody>
@@ -175,7 +175,7 @@ This table contains the access requirements to enter an instance.
 </tbody>
 </table>
 
-**Description of the fields**
+## Description of the fields
 
 ### mapId
 

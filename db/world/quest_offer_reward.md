@@ -24,7 +24,7 @@ This table is used for quests offering rewards without any required quest items 
 
  
 
-**Description of the fields:**
+## Description of the fields
 
 ### ID
 

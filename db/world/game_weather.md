@@ -1,6 +1,6 @@
 # game\_weather
 
-**Table Structure**
+## Structure
 
 This table holds the percent chances for weather changes to occur in various zones. Not all zones can have their weather changed. For any given zone the percentage of all weather types for each season should total, and not exceed 100%.
 

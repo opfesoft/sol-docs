@@ -4,7 +4,7 @@
 
 This table holds enchantment chance information for items that should have either a random property or a random suffix attached to them.
 
-**Structure**
+## Structure
 
 <table>
 <colgroup>
@@ -61,7 +61,7 @@ This table holds enchantment chance information for items that should have eithe
 </tbody>
 </table>
 
-**Description of the fields**
+## Description of the fields
 
 ### entry
 

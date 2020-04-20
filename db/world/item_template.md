@@ -1,6 +1,6 @@
 # item\_template
 
-**Table Structure**
+## Structure
 
 Holds information on every item that exists in the game. All items are created from their template stored in this table.
 

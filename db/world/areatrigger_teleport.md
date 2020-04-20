@@ -4,7 +4,7 @@
 
 Contains all the teleport triggers definition. This table is used to complete .dbc file information.
 
-**Structure**
+## Structure
 
 <table>
 <colgroup>
@@ -111,7 +111,7 @@ Contains all the teleport triggers definition. This table is used to complete .d
 </tbody>
 </table>
 
-**Description of the fields**
+## Description of the fields
 
 ### id
 

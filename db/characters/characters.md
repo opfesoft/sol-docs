@@ -5,7 +5,7 @@
 
 This table holds vital static information for each character. This information loaded and used to create the player objects in-game.
 
-**Structure**
+## Structure
 
 | Field                       | Type         | Attributes | Key | Null | Default | Extra | Comment |
 |-----------------------------|--------------|------------|-----|------|---------|-------|---------|
@@ -88,7 +88,7 @@ This table holds vital static information for each character. This information l
 |[deleteInfos_Name](#deleteInfos_Name)|varchar(12)|unsigned|    |YES   |NULL     |       ||
 |[deleteDate](#deleteDate)    |int(10)       |unsigned    |     |YES   |NULL     |       ||
   
-**Description of the fields**
+## Description of the fields
 
 ### guid
 

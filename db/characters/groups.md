@@ -5,7 +5,7 @@
 
 This table holds basic info about groups.
 
-**Structure**
+## Structure
 
 <table>
 <colgroup>
@@ -192,7 +192,7 @@ This table holds basic info about groups.
 </tbody>
 </table>
 
-**Description of the fields**
+## Description of the fields
 
 ### guid
 

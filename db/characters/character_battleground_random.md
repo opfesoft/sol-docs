@@ -5,7 +5,7 @@
 
 This table stores battlegrounds IDs for random battleground sessions.
 
-**Structure**
+## Structure
 
 <table>
 <colgroup>
@@ -42,7 +42,7 @@ This table stores battlegrounds IDs for random battleground sessions.
 </tbody>
 </table>
 
-**Description of the fields**
+## Description of the fields
 
 ### guid
 

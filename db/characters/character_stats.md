@@ -6,7 +6,7 @@
 This table holds information on all the stats regarding the character. Used for external applications such as websites.
 See worldserver.conf: PlayerSave.Stats.\*
 
-**Structure**
+## Structure
 
 <table>
 <colgroup>
@@ -343,7 +343,7 @@ See worldserver.conf: PlayerSave.Stats.\*
 </tbody>
 </table>
 
-**Description of the fields**
+## Description of the fields
 
 ### guid
 

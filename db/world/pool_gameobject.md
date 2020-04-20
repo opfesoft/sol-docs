@@ -6,7 +6,7 @@
 This table contains gameobjects that are tied to a specific pool.
 This table can only contain gameobjects that have a type of GAMEOBJECT\_TYPE\_CHEST, GAMEOBJECT\_TYPE\_GOOBER, GAMEOBJECT\_TYPE\_FISHINGHOLE.
 
-**Structure**
+## Structure
 
 <table>
 <colgroup>
@@ -73,7 +73,7 @@ This table can only contain gameobjects that have a type of GAMEOBJECT\_TYPE\_CH
 </tbody>
 </table>
 
-**Description of the fields**
+## Description of the fields
 
 ### guid
 

@@ -5,7 +5,7 @@
 
 This table holds data about wrapped/gift items.
 
-**Structure**
+## Structure
 
 <table>
 <colgroup>
@@ -72,7 +72,7 @@ This table holds data about wrapped/gift items.
 </tbody>
 </table>
 
-**Description of the fields**
+## Description of the fields
 
 ### guid
 

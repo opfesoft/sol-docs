@@ -5,7 +5,7 @@
 
 This table holds information on what stats are gained by characters when they level up. Each race-class combination has different level stats. All of the values in this table signify only the base stats of the race-class combination at a specific level.
 
-**Structure**
+## Structure
 
 <table>
 <colgroup>
@@ -112,7 +112,7 @@ This table holds information on what stats are gained by characters when they le
 </tbody>
 </table>
 
-**Description of the fields**
+## Description of the fields
 
 ### race
 

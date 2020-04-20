@@ -5,7 +5,7 @@
 
 Comes from sniffs. Visually speaking, this table is used to identify the X and Y coordinates on the map (not the minimap - the main map) where a quest's question mark should appear. Use the ".gps" command where you are standing to find these coordinates. In order to see changes, ".reload quest\_poi", close Wow.exe, then delete your cache folder.
 
-**Structure**
+## Structure
 
 <table>
 <tbody>
@@ -72,7 +72,7 @@ Comes from sniffs. Visually speaking, this table is used to identify the X and Y
 </tbody>
 </table>
 
-**Description of the fields**
+## Description of the fields
 
 ### questid
 

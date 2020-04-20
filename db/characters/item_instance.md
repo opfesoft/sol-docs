@@ -5,7 +5,7 @@
 
 This table holds individual item instance information for all items currently equipped in some kind of character bag or bank, in auctionhouses, in guild banks or in mails.
 
-**Structure**
+## Structure
 
 <table>
 <colgroup>
@@ -172,7 +172,7 @@ This table holds individual item instance information for all items currently eq
 </tbody>
 </table>
 
-**Description of the fields**
+## Description of the fields
 
 ### guid
 

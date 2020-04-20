@@ -5,7 +5,7 @@
 
 Holds game object quest giver relations. The game objects in this table should all be of type QUESTGIVER (2).
 
-**Structure**
+## Structure
 
 <table>
 <colgroup>
@@ -52,7 +52,7 @@ Holds game object quest giver relations. The game objects in this table should a
 </tbody>
 </table>
 
-**Description of the fields**
+## Description of the fields
 
 ### id
 

@@ -4,7 +4,7 @@
 
 This table contains npcflags that are to be added to an NPC when the specified event is active for the creature with the given guid.
 
-**Structure**
+## Structure
 
 <table>
 <colgroup>
@@ -61,7 +61,7 @@ This table contains npcflags that are to be added to an NPC when the specified e
 </tbody>
 </table>
 
-**Description of the fields**
+## Description of the fields
 
 ### eventEntry
 

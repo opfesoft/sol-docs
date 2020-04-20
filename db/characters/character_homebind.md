@@ -5,7 +5,7 @@
 
 Contains information on the location where characters get teleported when they use their Hearthstone.
 
-**Structure**
+## Structure
 
 <table>
 <colgroup>
@@ -92,7 +92,7 @@ Contains information on the location where characters get teleported when they u
 </tbody>
 </table>
 
-**Description of the fields**
+## Description of the fields
 
 ### guid
 

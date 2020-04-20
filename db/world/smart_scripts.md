@@ -1,7 +1,7 @@
 # smart\_scripts
 
 
-**Table Structure**
+## Structure
 
 <table height="400">
 <tbody>
@@ -408,7 +408,7 @@
 </tbody>
 </table>
 
-**Description of the fields**
+## Description of the fields
 
 ### entryorguid
 

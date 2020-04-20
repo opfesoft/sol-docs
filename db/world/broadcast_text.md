@@ -12,7 +12,7 @@ Its purpose is (will be) used as a globalized table containing the texts as ment
 
 All the values are from sniffs (ADBVerified) so, don't add things in it - Kinzcool.
 
-**Structure**
+## Structure
 
 | Field                                    | Type        | Attributes | Key | Null | Default | Extra | Comment |
 |------------------------------------------|-------------|------------|-----|------|---------|-------|---------|
@@ -31,7 +31,7 @@ All the values are from sniffs (ADBVerified) so, don't add things in it - Kinzco
 | Type                                     | int(10)     | unsigned   |     | NO   | 0       |       |         |
 | WDBVerified                              | smallint(5) | signed     |     | NO   | 0       |       |         |
 
-### Description of the fields
+## Description of the fields
 
  
 

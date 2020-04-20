@@ -4,7 +4,7 @@
 
 This table holds information on quests that should only be available when an event is currently taking place.
 
-**Structure**
+## Structure
 
 <table>
 <colgroup>
@@ -61,7 +61,7 @@ This table holds information on quests that should only be available when an eve
 </tbody>
 </table>
 
-**Description of the fields**
+## Description of the fields
 
 ### eventEntry
 

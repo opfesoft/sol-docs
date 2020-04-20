@@ -5,7 +5,7 @@
 
 This table controls how many instances the account's characters have been in last 1 hour. If there is 5 records per account, the player won't be able to enter another instance.
 
-**Structure**
+## Structure
 
 <table>
 <colgroup>
@@ -62,7 +62,7 @@ This table controls how many instances the account's characters have been in las
 </tbody>
 </table>
 
-**Description of the fields**
+## Description of the fields
 
 ### accountId
 

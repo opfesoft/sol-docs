@@ -4,7 +4,7 @@
 
 Contains all creature instances that need to change display id and/or equipment during defined game events.
 
-**Structure**
+## Structure
 
 <table>
 <colgroup>
@@ -71,7 +71,7 @@ Contains all creature instances that need to change display id and/or equipment 
 </tbody>
 </table>
 
-**Description of the fields**
+## Description of the fields
 
 ### guid
 

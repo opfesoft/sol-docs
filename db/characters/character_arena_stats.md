@@ -5,7 +5,7 @@
 
 This table holds information about character's matchmaker rating in all team types.
 
-**Structure**
+## Structure
 
 <table>
 <colgroup>
@@ -62,7 +62,7 @@ This table holds information about character's matchmaker rating in all team typ
 </tbody>
 </table>
 
-**Description of the fields**
+## Description of the fields
 
 ### guid
 

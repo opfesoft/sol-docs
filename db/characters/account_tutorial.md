@@ -5,7 +5,7 @@
 
 This table is used to store the tutorial state of all the accounts.
 
-**Structure**
+## Structure
 
 <table>
 <colgroup>
@@ -122,7 +122,7 @@ This table is used to store the tutorial state of all the accounts.
 </tbody>
 </table>
 
-**Description of the fields**
+## Description of the fields
 
 ### guid
 

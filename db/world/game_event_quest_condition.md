@@ -4,7 +4,7 @@
 
 This table contains the mapping of a quest in a world event to the condition that it will fulfill. It also contains how much a given quest will add to a condition once that quest is completed by a player.
 
-**Structure**
+## Structure
 
 <table>
 <colgroup>
@@ -71,7 +71,7 @@ This table contains the mapping of a quest in a world event to the condition tha
 </tbody>
 </table>
 
-**Description of the fields**
+## Description of the fields
 
 ### eventEntry
 

@@ -5,7 +5,7 @@
 
 Includes information on current core and database version.
 
-**Structure**
+## Structure
 
 <table>
 <colgroup>
@@ -82,7 +82,7 @@ Includes information on current core and database version.
 </tbody>
 </table>
 
-**Description of the fields**
+## Description of the fields
 
 ### core\_version
 

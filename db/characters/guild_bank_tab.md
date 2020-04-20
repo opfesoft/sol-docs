@@ -5,7 +5,7 @@
 
 This table holds information on all the tabs in use for all guilds that make use of the guild bank.
 
-**Structure**
+## Structure
 
 <table>
 <colgroup>
@@ -82,7 +82,7 @@ This table holds information on all the tabs in use for all guilds that make use
 </tbody>
 </table>
 
-**Description of the fields**
+## Description of the fields
 
 ### guildid
 

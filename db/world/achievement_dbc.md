@@ -4,7 +4,7 @@
 
 Stores achievement data that is missing in [Achievement.dbc](../../dbc/Achievement.md)
 
-**Structure**
+## Structure
 
 <table>
 <colgroup>
@@ -101,7 +101,7 @@ Stores achievement data that is missing in [Achievement.dbc](../../dbc/Achieveme
 </tbody>
 </table>
 
-**Description of the fields**
+## Description of the fields
 
 ### ID
 

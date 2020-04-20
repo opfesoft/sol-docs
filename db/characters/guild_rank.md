@@ -5,7 +5,7 @@
 
 This table holds the information on all of the ranks available in a guild along with their names and what rights a person with that rank has.
 
-**Structure**
+## Structure
 
 <table>
 <colgroup>
@@ -82,7 +82,7 @@ This table holds the information on all of the ranks available in a guild along 
 </tbody>
 </table>
 
-**Description of the fields**
+## Description of the fields
 
 ### guildid
 

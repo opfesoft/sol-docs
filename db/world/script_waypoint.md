@@ -7,7 +7,7 @@
 
 Used for CreatureAI waypoint movement. See also [Waypoints-Information](Waypoints-Information) for general information about waypoints.
 
-### Structure
+## Structure
 
 | Field                            | Type         | Attributes | Key | Null | Default |
 |----------------------------------|--------------|------------|-----|------|---------|

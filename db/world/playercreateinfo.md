@@ -5,7 +5,7 @@
 
 This table holds the start positions of each class-race combinations for all newly created characters.
 
-**Structure**
+## Structure
 
 <table>
 <colgroup>
@@ -112,7 +112,7 @@ This table holds the start positions of each class-race combinations for all new
 </tbody>
 </table>
 
-**Description of the fields**
+## Description of the fields
 
 ### race
 

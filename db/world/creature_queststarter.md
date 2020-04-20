@@ -4,7 +4,7 @@
 
 Holds NPC quest giver relations on which NPCs start which quests.
 
-**Structure**
+## Structure
 
 <table>
 <colgroup>
@@ -51,7 +51,7 @@ Holds NPC quest giver relations on which NPCs start which quests.
 </tbody>
 </table>
 
-**Description of the fields**
+## Description of the fields
 
 ### id
 

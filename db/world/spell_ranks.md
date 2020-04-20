@@ -5,7 +5,7 @@
 
 Table used by the core to group different ranks of spells (the gray text seen on ranked spells) into one "spell stem". This partly involves checks for aura stacking (e.g. different levels of the same spell). One spell can not be linked to multiple rank chains (they are "unique").
 
-**Structure**
+## Structure
 
 <table>
 <colgroup>
@@ -62,7 +62,7 @@ Table used by the core to group different ranks of spells (the gray text seen on
 </tbody>
 </table>
 
-**Description of the fields**
+## Description of the fields
 
 ### first\_spell\_id
 

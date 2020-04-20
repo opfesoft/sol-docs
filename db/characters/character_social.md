@@ -5,7 +5,7 @@
 
 Contains data about characters' friends/ignored list.
 
-**Structure**
+## Structure
 
 <table>
 <colgroup>
@@ -72,7 +72,7 @@ Contains data about characters' friends/ignored list.
 </tbody>
 </table>
 
-**Description of the fields**
+## Description of the fields
 
 ### guid
 

@@ -5,7 +5,7 @@
 
 This table holds information of **every** rewarded quest to a player.
 
-**Structure**
+## Structure
 
 <table>
 <colgroup>
@@ -62,7 +62,7 @@ This table holds information of **every** rewarded quest to a player.
 </tbody>
 </table>
 
-**Description of the fields**
+## Description of the fields
 
 ### guid
 

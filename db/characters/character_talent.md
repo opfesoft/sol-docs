@@ -5,7 +5,7 @@
 
 Contains all the individual talent data for each character. This is only used as a storage table, values get read from here and written to character\_spell, and vice-versa, when a player switches specs.
 
-**Structure**
+## Structure
 
 <table>
 <tbody>
@@ -58,7 +58,7 @@ Contains all the individual talent data for each character. This is only used as
 </tbody>
 </table>
 
-**Description of the fields**
+## Description of the fields
 
 ### guid
 

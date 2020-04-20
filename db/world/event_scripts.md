@@ -4,7 +4,7 @@
 
 Holds scripts activated whenever an event is activated, be it by an object or as the spell effect SPELL\_EFFECT\_SEND\_EVENT (61).
 
-### Structure
+## Structure
 
 | Field                            | Type         | Attributes   | Key | Null | Default |
 |----------------------------------|--------------|--------------|-----|------|---------|

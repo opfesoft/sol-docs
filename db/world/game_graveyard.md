@@ -9,7 +9,7 @@
 | [z](#z)                     | float        |      | NO   | 0       |
 | [Comment](#comment)         | varchar(255) |      | YES  | NULL    |
 
-**Description of the fields**
+## Description of the fields
 
 ### ID
 Graveyard's ID. See [WorldSafeLocs.dbc](../../dbc/WorldSafeLocs.md)

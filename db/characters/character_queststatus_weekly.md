@@ -5,7 +5,7 @@
 
 Holds information on the weekly quest status of every player. The timers reset at the same time the Raids reset.
 
-**Structure**
+## Structure
 
 <table>
 <colgroup>
@@ -52,7 +52,7 @@ Holds information on the weekly quest status of every player. The timers reset a
 </tbody>
 </table>
 
-**Description of the fields**
+## Description of the fields
 
 ### guid
 

@@ -4,7 +4,7 @@
 
 This table holds security access level for any realm in [realmlist](realmlist.md) table.
 
-**Structure**
+## Structure
 
 <table>
 <colgroup>
@@ -65,7 +65,7 @@ This table holds security access level for any realm in [realmlist](realmlist.md
 </tbody>
 </table>
 
-**Description of the fields**
+## Description of the fields
 
 ### id
 

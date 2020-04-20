@@ -5,7 +5,7 @@
 
 This table holds a listing of all skill for each character.
 
-**Structure**
+## Structure
 
 <table>
 <colgroup>
@@ -72,7 +72,7 @@ This table holds a listing of all skill for each character.
 </tbody>
 </table>
 
-**Description of the fields**
+## Description of the fields
 
 ### guid
 

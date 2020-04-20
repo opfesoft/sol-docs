@@ -5,7 +5,7 @@
 
 `table-no-description|0`
 
-**Structure**
+## Structure
 
 <table>
 <colgroup>
@@ -102,7 +102,7 @@
 </tbody>
 </table>
 
-**Description of the fields**
+## Description of the fields
 
 ### reportId
 

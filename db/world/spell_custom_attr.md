@@ -5,7 +5,7 @@
 
 Table used for storing custom spell attributes.
 
-**Structure**
+## Structure
 
 <table>
 <colgroup>
@@ -56,7 +56,7 @@ Table used for storing custom spell attributes.
 
  
 
-**Description of the fields**
+## Description of the fields
 
 ### entry
 

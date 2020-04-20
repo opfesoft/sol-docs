@@ -5,7 +5,7 @@
 
 This table holds all item information for items that are stored in the guild bank.
 
-**Structure**
+## Structure
 
 <table>
 <colgroup>
@@ -72,7 +72,7 @@ This table holds all item information for items that are stored in the guild ban
 </tbody>
 </table>
 
-**Description of the fields**
+## Description of the fields
 
 ### guildid
 

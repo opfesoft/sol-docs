@@ -5,7 +5,7 @@
 
 This table holds the main guild information. All created guilds or all guilds in the process of being created have a record in this table.
 
-**Structure**
+## Structure
 
 <table>
 <colgroup>
@@ -152,7 +152,7 @@ This table holds the main guild information. All created guilds or all guilds in
 </tbody>
 </table>
 
-**Description of the fields**
+## Description of the fields
 
 ### guildid
 

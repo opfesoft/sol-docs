@@ -5,7 +5,7 @@
 
 This table controls the minimum skill level required in fishing to fish in a certain area.
 
-**Structure**
+## Structure
 
 <table>
 <colgroup>
@@ -52,7 +52,7 @@ This table controls the minimum skill level required in fishing to fish in a cer
 </tbody>
 </table>
 
-**Description of the fields**
+## Description of the fields
 
 ### entry
 

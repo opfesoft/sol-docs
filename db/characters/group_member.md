@@ -5,7 +5,7 @@
 
 This table holds info about group members.
 
-**Structure**
+## Structure
 
  
 
@@ -86,7 +86,7 @@ This table holds info about group members.
 </tbody>
 </table>
 
-**Description of the fields**
+## Description of the fields
 
 #### guid
 

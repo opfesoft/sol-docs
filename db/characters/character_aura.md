@@ -5,7 +5,7 @@
 
 Contains aura information that is loaded when a character is loaded, so the auras that were on the character when it logged out are still kept when it logs back in. A spell can have up to three auras, one in each of its effects.
 
-**Structure**
+## Structure
 
 <table>
 <colgroup>
@@ -192,7 +192,7 @@ Contains aura information that is loaded when a character is loaded, so the aura
 </tbody>
 </table>
 
-**Description of the fields**
+## Description of the fields
 
 ### guid
 

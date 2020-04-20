@@ -5,7 +5,7 @@
 
 Contains all basic definitions of available quests.
 
-## **Structure**
+## Structure
 
 <table>
 <thead>
@@ -802,7 +802,7 @@ Contains all basic definitions of available quests.
 </tbody>
 </table>
 
-**Description of the fields**
+## Description of the fields
 
 ### ID
 

@@ -7,7 +7,7 @@ Contains all information about the currently ongoing auctions in the auction hou
 
 This table is used by Trinity while running and not a table that you would usually edit.
 
-**Structure**
+## Structure
 
 <table>
 <colgroup>
@@ -134,7 +134,7 @@ This table is used by Trinity while running and not a table that you would usual
 </tbody>
 </table>
 
-**Description of the fields**
+## Description of the fields
 
 ### id
 

@@ -5,7 +5,7 @@
 
 This table holds pieces of names (first and last half) that are use for pet name generation.
 
-**Structure**
+## Structure
 
 <table>
 <colgroup>
@@ -72,7 +72,7 @@ This table holds pieces of names (first and last half) that are use for pet name
 </tbody>
 </table>
 
-**Description of the fields**
+## Description of the fields
 
 ### id
 

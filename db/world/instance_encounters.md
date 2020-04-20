@@ -4,7 +4,7 @@
 
 Definitions of instance encounters. Used by LFG.
 
-**Structure**
+## Structure
 
 <table>
 <colgroup>
@@ -81,7 +81,7 @@ Definitions of instance encounters. Used by LFG.
 </tbody>
 </table>
 
-**Description of the fields**
+## Description of the fields
 
 ### entry
 

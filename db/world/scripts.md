@@ -13,7 +13,7 @@ This table format is used for 3 different tables to control possible scripts act
 
 NOTE: An entry in this table may have more than one row as a script may do more than just one action. Also each action the script may make can have a separate delay attached to it. In that case, the core will activate the appropriate action after the correct delay.
 
-## **Structure**
+## Structure
 
 | Field                     | Comment
 |---------------------------|--------
@@ -30,7 +30,7 @@ NOTE: An entry in this table may have more than one row as a script may do more 
 | [o](#otherfields)         |
 | [guid](#guid)             | only used in [waypoint\_scripts](waypoint_scripts); acts as primary key and is set automatically using the [GM command](GM-Commands) 'wp event add'
 
-## **Description of the fields**
+## Description of the fields
 
 ### id
 

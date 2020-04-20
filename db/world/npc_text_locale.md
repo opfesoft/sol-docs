@@ -28,7 +28,7 @@ This table is used to provide localized clients with localized string for npc\_t
 | [Text7\_0](#text) | longtext     | signed       |                |         | YES      | NULL        |           |             |
 | [Text7\_1](#text) | longtext     | signed       |                |         | YES      | NULL        |           |             |
 
-**Description of the fields**
+## Description of the fields
 
 ### ID
 

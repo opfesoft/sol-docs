@@ -8,7 +8,7 @@ To see which locale IDs correspond to what languages, visit the Localization\_la
 
 NOTE: The % arguments need to stay in the exact same order as they are provided by default in the English translation.
 
-**Structure**
+## Structure
 
 <table>
 <colgroup>
@@ -135,7 +135,7 @@ NOTE: The % arguments need to stay in the exact same order as they are provided 
 </tbody>
 </table>
 
-**Description of the fields**
+## Description of the fields
 
 ### entry
 

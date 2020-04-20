@@ -5,7 +5,7 @@
 
 This table stores all logs from authserver if database logging in config is enabled.
 
-**Structure**
+## Structure
 
 <table>
 <colgroup>
@@ -82,7 +82,7 @@ This table stores all logs from authserver if database logging in config is enab
 </tbody>
 </table>
 
-**Description of the fields**
+## Description of the fields
 
 ### time
 

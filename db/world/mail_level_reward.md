@@ -1,11 +1,10 @@
 # mail\_level\_reward
 
-
 **The \`mail\_level\_reward\` table**
 
 On certain levels, you receive a mail with some text.
 
-**Structure**
+## Structure
 
 <table>
 <colgroup>
@@ -72,7 +71,7 @@ On certain levels, you receive a mail with some text.
 </tbody>
 </table>
 
-**Description of the fields**
+## Description of the fields
 
 ### level
 
@@ -85,7 +84,7 @@ Mask required to receive mail.
 
 ### mailTemplateId
 
-Mail ID to be send. See [MailTemplate.dbc](MailTemplate)
+Mail ID to be send. See MailTemplate.dbc
 
 ### senderEntry
 

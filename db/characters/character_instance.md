@@ -5,7 +5,7 @@
 
 Contains the instance data for characters.
 
-**Structure**
+## Structure
 
 <table>
 <colgroup>
@@ -62,7 +62,7 @@ Contains the instance data for characters.
 </tbody>
 </table>
 
-**Description of the fields**
+## Description of the fields
 
 ### guid
 

@@ -15,7 +15,7 @@ Some examples:
     -   "Strength of Wrynn" (spell 73828) for alliance
 -   Even region-based buffs, such as area 440 - Tanaris.
 
-**Structure**
+## Structure
 
 <table>
 <tbody>
@@ -156,7 +156,7 @@ Some examples:
 </tbody>
 </table>
 
-**Description of the fields**
+## Description of the fields
 
 ### spell
 

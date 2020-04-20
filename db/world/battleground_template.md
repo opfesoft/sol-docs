@@ -4,7 +4,7 @@
 
 Contains information about the different battlegrounds, like how many players are needed to start, how many can be inside the same one, and the locations where each side starts.
 
-**Structure**
+## Structure
 
 <table>
 <colgroup>
@@ -203,7 +203,7 @@ Contains information about the different battlegrounds, like how many players ar
 </tbody>
 </table>
 
-**Description of the fields**
+## Description of the fields
 
 ### id
 

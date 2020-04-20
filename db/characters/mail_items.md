@@ -5,7 +5,7 @@
 
 This table contains data regarding items from item\_instance which are being sent via email.
 
-**Structure**
+## Structure
 
 <table>
 <colgroup>
@@ -62,7 +62,7 @@ This table contains data regarding items from item\_instance which are being sen
 </tbody>
 </table>
 
-**Description of the fields**
+## Description of the fields
 
 ### mail\_id
 

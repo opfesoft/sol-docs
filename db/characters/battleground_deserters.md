@@ -5,7 +5,7 @@
 
 This table holds datas about BattleGrounds deserters. To enable storing this kind of informations, set **Battleground . TrackDeserters . Enable   =   1** in **worldserver.config** file.
 
-**Structure**
+## Structure
 
 <table>
 <colgroup>
@@ -62,7 +62,7 @@ This table holds datas about BattleGrounds deserters. To enable storing this kin
 </tbody>
 </table>
 
-**Description of the fields**
+## Description of the fields
 
 ### guid
 

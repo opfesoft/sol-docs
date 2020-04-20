@@ -15,7 +15,7 @@ This table is used to provide to localized clients with localized string for ite
 | [Description](#description)     | text         |                |         | YES      | NULL        |           |             |
 | [VerifiedBuild](#verifiedbuild) | smallint(5)  |                |         | YES      | 0           |           |             |
 
-**Description of the fields**
+## Description of the fields
 
 ### ID
 

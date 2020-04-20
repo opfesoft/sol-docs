@@ -4,7 +4,7 @@
 
 This table is used to add a holiday to a battleground, for things like extra reputation / honor.
 
-**Structure**
+## Structure
 
 <table>
 <colgroup>
@@ -51,7 +51,7 @@ This table is used to add a holiday to a battleground, for things like extra rep
 </tbody>
 </table>
 
-**Description of the fields**
+## Description of the fields
 
 ### eventEntry
 

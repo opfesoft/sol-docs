@@ -45,7 +45,7 @@
 </tbody>
 </table>
 
-**Description of the fields**
+## Description of the fields
 
 ### id
 Graveyard's ID. See [WorldSafeLocs.dbc](../../dbc/WorldSafeLocs.md)

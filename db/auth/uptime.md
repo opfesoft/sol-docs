@@ -5,7 +5,7 @@
 
 This table holds the server's uptime. The core will automatically update the latest entry's value until it crashes and a new record is added.
 
-**Structure**
+## Structure
 
 <table>
 <colgroup>
@@ -82,7 +82,7 @@ This table holds the server's uptime. The core will automatically update the lat
 </tbody>
 </table>
 
-**Description of the fields**
+## Description of the fields
 
 ### realmid
 

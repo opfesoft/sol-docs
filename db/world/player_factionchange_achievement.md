@@ -50,7 +50,7 @@ Basically all achievement changes made when player changes faction.
 </tbody>
 </table>
 
-**Description of the fields**
+## Description of the fields
 
 ### alliance\_id
 

@@ -4,7 +4,7 @@
 
 This table contains the data that a player needs to obtain / complete in order to receive a given achievement.
 
-**Structure**
+## Structure
 
 <table>
 <colgroup>
@@ -81,7 +81,7 @@ This table contains the data that a player needs to obtain / complete in order t
 </tbody>
 </table>
 
-**Description of the fields**
+## Description of the fields
 
 ### criteria\_id
 

@@ -4,7 +4,7 @@
 
 Holds information on which NPC can start what battleground or arena.
 
-**Structure**
+## Structure
 
 <table>
 <colgroup>
@@ -51,7 +51,7 @@ Holds information on which NPC can start what battleground or arena.
 </tbody>
 </table>
 
-**Description of the fields**
+## Description of the fields
 
 ### entry
 

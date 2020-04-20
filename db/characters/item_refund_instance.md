@@ -5,7 +5,7 @@
 
 This table serves as a receipt of refundable purchases during a 2 hour ingame time window. It holds information on what currency was spent to purchase the item.
 
-**Structure**
+## Structure
 
 <table>
 <colgroup>
@@ -72,7 +72,7 @@ This table serves as a receipt of refundable purchases during a 2 hour ingame ti
 </tbody>
 </table>
 
-**Description of the fields**
+## Description of the fields
 
 ### item\_guid
 

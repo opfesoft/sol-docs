@@ -5,7 +5,7 @@
 
 Records in this table can be overwritten by [vehicle\_accessory](vehicle_accessory) table
 
-**Structure**
+## Structure
 
 <table>
 <colgroup>
@@ -102,7 +102,7 @@ Records in this table can be overwritten by [vehicle\_accessory](vehicle_accesso
 </tbody>
 </table>
 
-**Description of the fields**
+## Description of the fields
 
 ### entry
 

@@ -5,7 +5,7 @@
 
 This is the pool of pools table. You can create a pool with a chance of a range of pools in that pool being activated.
 
-**Structure**
+## Structure
 
 <table>
 <colgroup>
@@ -72,7 +72,7 @@ This is the pool of pools table. You can create a pool with a chance of a range 
 </tbody>
 </table>
 
-**Description of the fields**
+## Description of the fields
 
 ### pool\_id
 

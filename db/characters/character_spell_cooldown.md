@@ -5,7 +5,7 @@
 
 Holds the remaining cooldowns from either character spells or item spells for each character.
 
-**Structure**
+## Structure
 
 <table>
 <colgroup>
@@ -72,7 +72,7 @@ Holds the remaining cooldowns from either character spells or item spells for ea
 </tbody>
 </table>
 
-**Description of the fields**
+## Description of the fields
 
 ### guid
 

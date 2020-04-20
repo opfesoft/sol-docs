@@ -5,7 +5,7 @@
 
 This table holds info about player's equipment manager settings.
 
-**Structure**
+## Structure
 
 <table>
 <colgroup>
@@ -282,7 +282,7 @@ This table holds info about player's equipment manager settings.
 </tbody>
 </table>
 
-**Description of the fields**
+## Description of the fields
 
 ### guid
 

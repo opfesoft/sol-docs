@@ -5,7 +5,7 @@
 
 This table holds threat values on all spells that should either give or take away threat.
 
-**Structure**
+## Structure
 
 <table>
 <colgroup>
@@ -52,7 +52,7 @@ This table holds threat values on all spells that should either give or take awa
 </tbody>
 </table>
 
-**Description of the fields**
+## Description of the fields
 
 ### entry
 

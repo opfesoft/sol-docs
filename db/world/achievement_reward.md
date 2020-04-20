@@ -4,7 +4,7 @@
 
 This table describes the reward that you will receive when you obtain a given achievement.
 
-**Structure**
+## Structure
 
 <table>
 <colgroup>
@@ -101,7 +101,7 @@ This table describes the reward that you will receive when you obtain a given ac
 </tbody>
 </table>
 
-**Description of the fields**
+## Description of the fields
 
 ### ID
 

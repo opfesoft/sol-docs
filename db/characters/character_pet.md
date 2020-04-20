@@ -5,7 +5,7 @@
 
 This table holds the pet data for each pet summoned by anyone in the game.
 
-**Structure**
+## Structure
 
 <table>
 <colgroup>
@@ -222,7 +222,7 @@ This table holds the pet data for each pet summoned by anyone in the game.
 </tbody>
 </table>
 
-**Description of the fields**
+## Description of the fields
 
 ### id
 

@@ -8,7 +8,7 @@ NOTE: A creature\_addon record will override a creature\_template\_addon record 
 
 NOTICE: The data for this table is largely incomplete and is mostly just a regurgitation of what the client receives from the server. This article is a WIP as to what all the possible values are.
 
-**Structure**
+## Structure
 
 <table>
 <tbody>
@@ -168,7 +168,7 @@ NOTICE: The data for this table is largely incomplete and is mostly just a regur
 </tbody>
 </table>
 
-**Description of the fields**
+## Description of the fields
 
 ### guid/entry
 

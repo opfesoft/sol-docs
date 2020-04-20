@@ -5,7 +5,7 @@
 
 `table-no-description`
 
-**Structure**
+## Structure
 
 <table>
 <tbody>
@@ -112,7 +112,7 @@
 </tbody>
 </table>
 
-**Description of the fields**
+## Description of the fields
 
 ### entry
 

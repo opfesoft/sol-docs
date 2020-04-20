@@ -50,7 +50,7 @@ Table used to add restrictions for learning spells from trainer. Player can't le
 </tbody>
 </table>
 
-**Description of the fields**
+## Description of the fields
 
 ### spell\_id
 

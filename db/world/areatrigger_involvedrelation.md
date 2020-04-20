@@ -6,7 +6,7 @@ Enable a trigger to finish one condition of a quest (explore)
 
 If there is a record in the table for a quest, then the quest will not be completed until the player activates this areatriger. The quest is not necessarily finished after that, but that one condition of the quest is satisfied. If the only condition of the quest is to explore an area, then the quest will be complete.
 
-**Structure**
+## Structure
 
 <table>
 <colgroup>
@@ -53,7 +53,7 @@ If there is a record in the table for a quest, then the quest will not be comple
 </tbody>
 </table>
 
-**Description of the fields**
+## Description of the fields
 
 ### id
 

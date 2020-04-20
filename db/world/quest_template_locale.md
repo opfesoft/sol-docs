@@ -22,7 +22,7 @@ This table is used to provide to localized clients with localized string for que
 | [ObjectiveText4](#objectivetext)      | text         |                |         | YES      | NULL        |           |             |
 | [VerifiedBuild](#verifiedbuild)       | smallint(5)  |                |         | YES      | 0           |           |             |
 
-**Description of the fields**
+## Description of the fields
 
 ### ID
 
@@ -47,11 +47,11 @@ Translated content for [quest\_template.Objectives](quest_template.md#objectives
 
 ### EndText
 
-Translated content for [quest\_template.EndText](quest_template.md#areadescription) field.
+Translated content for [quest\_template.AreaDescription](quest_template.md#areadescription) field.
 
 ### CompletedText
 
-Translated content for [quest\_template.CompletedText](quest_template.md#questcompletionlog) field.
+Translated content for [quest\_template.QuestCompletionLog](quest_template.md#questcompletionlog) field.
 
 ### ObjectiveText
 

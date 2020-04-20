@@ -5,7 +5,7 @@
 
 This table holds information on the achievements a character has earned / completed.
 
-**Structure**
+## Structure
 
 <table>
 <tbody>
@@ -61,7 +61,7 @@ This table holds information on the achievements a character has earned / comple
 </tbody>
 </table>
 
-**Description of the fields**
+## Description of the fields
 
 ### guid
 

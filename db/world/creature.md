@@ -1,6 +1,6 @@
 # creature
 
-**Table Structure**
+## Structure
 
 Contains individual creature spawn data for each individual spawn of each individual creature in the game world.
 

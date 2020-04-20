@@ -13,7 +13,7 @@
 | [OptionText](#optiontext) | text         |                |         | YES      | NULL        |           |             |
 | [BoxText](#boxtext)       | text         |                |         | YES      | NULL        |           |             |
 
-**Description of the fields**
+## Description of the fields
 
 ### MenuID
 

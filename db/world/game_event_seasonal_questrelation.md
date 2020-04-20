@@ -4,7 +4,7 @@
 
 Holds information on the game event seasonal quest relations to allow for resetting of quests with ZoneOrSort of -22.
 
-**Structure**
+## Structure
 
 <table>
 <colgroup>
@@ -51,7 +51,7 @@ Holds information on the game event seasonal quest relations to allow for resett
 </tbody>
 </table>
 
-**Description of the fields**
+## Description of the fields
 
 ### quest
 

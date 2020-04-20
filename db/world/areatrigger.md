@@ -4,7 +4,7 @@
 
 This table contains trigger points for events in certain coordinates in the maps.
 
-**Structure**
+## Structure
 
 <table>
 <tbody>
@@ -149,7 +149,7 @@ This table contains trigger points for events in certain coordinates in the maps
 </tbody>
 </table>
 
-**Description of the fields**
+## Description of the fields
 
 ### Entry
 

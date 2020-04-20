@@ -5,7 +5,7 @@
 
 This table holds information on all ongoing petitions for a guild or for an arena team.
 
-**Structure**
+## Structure
 
 <table>
 <colgroup>
@@ -72,7 +72,7 @@ This table holds information on all ongoing petitions for a guild or for an aren
 </tbody>
 </table>
 
-**Description of the fields**
+## Description of the fields
 
 ### ownerguid
 

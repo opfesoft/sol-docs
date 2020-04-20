@@ -5,7 +5,7 @@
 
 This table holds information about when using certain profession spells, you have the chance of creating more than one copy of the item.
 
-**Structure**
+## Structure
 
 <table>
 <colgroup>
@@ -72,7 +72,7 @@ This table holds information about when using certain profession spells, you hav
 </tbody>
 </table>
 
-**Description of the fields**
+## Description of the fields
 
 ### spellId
 

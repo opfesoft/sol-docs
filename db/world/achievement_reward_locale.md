@@ -12,7 +12,7 @@
 | [Subject](#subject) | text         |                |         | YES      | NULL        |           |             |
 | [Text](#text)       | text         |                |         | YES      | NULL        |           |             |
 
-**Description of the fields**
+## Description of the fields
 
 ### ID
 

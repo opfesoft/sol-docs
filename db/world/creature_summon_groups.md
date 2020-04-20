@@ -131,7 +131,7 @@ This table holds data about temporary summoned creatures. It is possible to grou
 </tbody>
 </table>
 
-## **Description of the fields**
+## Description of the fields
 
 ### summonerId
 

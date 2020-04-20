@@ -4,7 +4,7 @@
 
 This table allows you to change the items a vendor sells, or to create a [vendor list](npc_vendor.md) for an NPC who does not sell items unless an event is active.
 
-**Structure**
+## Structure
 
 <table>
 <colgroup>
@@ -101,7 +101,7 @@ This table allows you to change the items a vendor sells, or to create a [vendor
 </tbody>
 </table>
 
-**Description of the fields**
+## Description of the fields
 
 ### eventEntry
 

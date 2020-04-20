@@ -5,7 +5,7 @@
 
 Each unique pool is defined in this table.
 
-**Structure**
+## Structure
 
 <table>
 <colgroup>
@@ -62,7 +62,7 @@ Each unique pool is defined in this table.
 </tbody>
 </table>
 
-**Description of the fields**
+## Description of the fields
 
 ### entry
 

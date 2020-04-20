@@ -5,7 +5,7 @@
 
 This table holds coordinate information on where the player should be teleported to when a spell with target type: TARGET\_DST\_DB(17).
 
-**Structure**
+## Structure
 
 <table>
 <colgroup>
@@ -92,7 +92,7 @@ This table holds coordinate information on where the player should be teleported
 </tbody>
 </table>
 
-**Description of the fields**
+## Description of the fields
 
 ### id
 
