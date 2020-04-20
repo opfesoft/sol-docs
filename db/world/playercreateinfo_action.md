@@ -83,7 +83,7 @@ This table holds information on what default actions a brand new character shoul
 </tbody>
 </table>
 
-**Field Descriptions**
+## Description of the fields
 
 ### race
 

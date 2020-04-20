@@ -93,7 +93,7 @@ This table contains a list of teleport locations that can be used with the *.tel
 **
 **
 
-**Field Descriptions**
+## Description of the fields
 
 ### id
 

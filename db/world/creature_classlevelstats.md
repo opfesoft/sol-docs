@@ -118,7 +118,7 @@ This table contains the base values for creature health, mana, armor, attack pow
 </tbody>
 </table>
 
-**Field Descriptions**
+## Description of the fields
 
 ### level
 

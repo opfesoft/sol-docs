@@ -1281,7 +1281,7 @@ Holds information on every item that exists in the game. All items are created f
 </tbody>
 </table>
 
-**Field Descriptions**
+## Description of the fields
 
 ### entry
 

@@ -140,7 +140,7 @@ This table holds definitions for all game events that are activated or deactivat
 </tbody>
 </table>
 
-**Field Descriptions**
+## Description of the fields
 
 ### eventEntry
 

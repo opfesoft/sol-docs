@@ -249,7 +249,7 @@ Contains individual creature spawn data for each individual spawn of each indivi
 </tbody>
 </table>
 
-**Field Descriptions**
+## Description of the fields
 
 ### guid
 
