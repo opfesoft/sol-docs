@@ -34,6 +34,8 @@ Using 4 Bytes it is possible to combine a total of 32 phases:
 
 ## Testing quests
 
+**Important: always turn off GM mode before testing quests, creatures etc.!**
+
 If testing quests it is important to always remove the affected quests before and after the test in order to reduce the risk of side effects.
 For example to test if the quest "Making Sense of It" (ID 4321) is working correctly you can create 2 macros:
 
@@ -76,7 +78,7 @@ See "[GM-Commands](GM-Commands.md)" for a complete overview.
 
 | Command                          | Abbreviation            | Example                          | Comment |
 |----------------------------------|-------------------------|----------------------------------|---------|
-| `.gm [on\|off]`                  | `.g [on\|off]`          | `.g on`                          | Turn GM mode on/off **(important: always turn off GM mode for testing quests, creatures etc.!)** |
+| `.gm [on\|off]`                  | `.g [on\|off]`          | `.g on`                          | Turn GM mode on/off **(important: always turn off GM mode before testing quests, creatures etc.!)** |
 | `.gm fly [on\|off]`              | `.g f [on\|off]`        | `.g f on`                        | Turn flying on/off |
 | `.modify speed all <multiplier>` | `.mo sp a <multiplier>` | `.mo sp a 5`                     | Set all speed multipliers (run, walk, fly) to the specified value |
 | `.modify hp <value>`             | `.mo h <value>`         | `.mo h 9999999`                  | Set health of the selected player (or own if no player is selected) |
