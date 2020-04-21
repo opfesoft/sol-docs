@@ -32,10 +32,10 @@ The id is always seperatable into three digits. The least significant is some ki
 
 10* are WotLK marks and basic PvP currencies.
 
-- 101 (10) - Emblem of Heroism](http://www.wowhead.com/?item=40752)
-- 102 (11) - Emblem of Valor](http://www.wowhead.com/?item=40753)
-- 103 (12) - Arena Points](http://www.wowhead.com/?item=43307)
-- 104 (13) - Honor Points](http://www.wowhead.com/?item=43308)
+- 101 (10) - [Emblem of Heroism](http://www.wowhead.com/?item=40752)
+- 102 (11) - [Emblem of Valor](http://www.wowhead.com/?item=40753)
+- 103 (12) - [Arena Points](http://www.wowhead.com/?item=43307)
+- 104 (13) - [Honor Points](http://www.wowhead.com/?item=43308)
 
 ## Content
 
