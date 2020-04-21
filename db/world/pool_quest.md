@@ -1,6 +1,5 @@
 # pool\_quest
 
-
 **The \`pool\_quest\` table**
 
 This table contains a list of quests that are tied to a specific pool.
@@ -66,11 +65,11 @@ This table contains a list of quests that are tied to a specific pool.
 
 ### entry
 
-Quest [id](quest_template#id).
+Quest [id](quest_template.md#id).
 
 ### pool\_entry
 
-The [pool](pool_template#entry) that this quest is in. Refers to [pool\_template entry](pool_template#entry).
+The [pool](pool_template.md#entry) that this quest is in. Refers to [pool\_template entry](pool_template.md#entry).
 
 ### description
 

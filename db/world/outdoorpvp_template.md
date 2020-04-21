@@ -1,5 +1,6 @@
 # outdoorpvp_template
 
+## Structure
 
 <table>
 <tbody>
@@ -14,7 +15,7 @@
 <td><p><strong>Comment</strong></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#TypeId">TypeId</a></p></td>
+<td><p><a href="#typeid">TypeId</a></p></td>
 <td><p>tinyint(2)</p></td>
 <td><p>unasigned</p></td>
 <td><p>PRI</p></td>
@@ -24,7 +25,7 @@
 <td><p></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#ScriptName">ScriptName</a></p></td>
+<td><p><a href="#scriptname">ScriptName</a></p></td>
 <td><p>char(64)</p></td>
 <td><p>signed</p></td>
 <td><p></p></td>

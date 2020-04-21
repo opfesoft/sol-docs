@@ -1,6 +1,5 @@
 # pool\_template
 
-
 **The \`pool\_template\` table**
 
 Each unique pool is defined in this table.

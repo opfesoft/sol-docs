@@ -1,6 +1,5 @@
 # pet\_name\_generation
 
-
 **The \`pet\_name\_generation\` table**
 
 This table holds pieces of names (first and last half) that are use for pet name generation.

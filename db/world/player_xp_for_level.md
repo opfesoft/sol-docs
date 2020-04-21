@@ -1,6 +1,5 @@
 # player\_xp\_for\_level
 
-
 **The \`player\_xp\_for\_level\` table**
 
 Includes information on how much experience needed for next level. Comes from sniffs.

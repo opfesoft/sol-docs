@@ -76,13 +76,11 @@ This table is used for any custom items that you might want to give to character
 
 ### race
 
-The character's race.
-`:ChrRaces.dbc_tc2`
+The character's race, see [ChrRaces.dbc](../../dbc/ChrRaces.md).
 
 ### class
 
-The character's class.
-`:ChrClasses.dbc_tc2`
+The character's class, see [ChrClasses.dbc](../../dbc/ChrClasses.md).
 
 ### itemid
 

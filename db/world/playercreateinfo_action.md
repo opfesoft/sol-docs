@@ -1,6 +1,5 @@
 # playercreateinfo\_action
 
-
 ## Structure
 
 This table holds information on what default actions a brand new character should start out with. Each race-class combination can have a different default starting setup.
@@ -87,11 +86,11 @@ This table holds information on what default actions a brand new character shoul
 
 ### race
 
-The character's [race](ChrRaces#ChrRaces-Content).
+The character's [race](../../dbc/ChrRaces.md).
 
 ### class
 
-The character's [class](ChrClasses#ChrClasses-Content).
+The character's [class](../../dbc/ChrClasses.md).
 
 ### button
 
@@ -114,7 +113,7 @@ Special bars are used for stances, auras, pets, stealth, and other similar speci
 
 ### action
 
-Depending on the type value, this could be either the [spell ID](Spell#Spell-ID), the [item ID](item_template#item_template-entry) or macro ID.
+Depending on the type value, this could be either the spell ID, the [item ID](item_template.md#entry) or macro ID.
 
 ### type
 

@@ -7,6 +7,7 @@
   - `vi /etc/apt/sources.list.d/llvm.list`
     - Ubuntu 16.04: `deb http://apt.llvm.org/xenial/ llvm-toolchain-xenial-10 main`
     - Ubuntu 18.04: `deb http://apt.llvm.org/bionic/ llvm-toolchain-bionic-10 main`
+    - Ubuntu 20.04: `deb http://apt.llvm.org/focal/ llvm-toolchain-focal-10 main`
 
 <br>
 
@@ -16,6 +17,7 @@
   - `vi /etc/apt/sources.list.d/kitware.list`
     - Ubuntu 16.04: `deb https://apt.kitware.com/ubuntu/ xenial main`
     - Ubuntu 18.04: `deb https://apt.kitware.com/ubuntu/ bionic main`
+    - Ubuntu 20.04: `deb https://apt.kitware.com/ubuntu/ focal main`
 
 <br>
 
@@ -24,6 +26,7 @@
   - `vi /etc/apt/sources.list.d/test.list`
     - Ubuntu 16.04: `deb http://ppa.launchpad.net/ubuntu-toolchain-r/test/ubuntu xenial main`
     - Ubuntu 18.04: `deb http://ppa.launchpad.net/ubuntu-toolchain-r/test/ubuntu bionic main`
+    - Ubuntu 20.04: `deb http://ppa.launchpad.net/ubuntu-toolchain-r/test/ubuntu focal main`
 
 ## Packages
 

@@ -1,6 +1,5 @@
 # playercreateinfo_spell
 
-
 Column | Type | Description
 --- | --- | ---
 Racemask | int(10) unsigned | 

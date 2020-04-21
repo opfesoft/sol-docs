@@ -1,6 +1,5 @@
 # player\_factionchange\_items
 
-
 **The \`player\_factionchange\_items\` table**
 
 Basically all item changes made when player changes faction.
@@ -100,7 +99,7 @@ See item\_template.AllowableRace
 
 ### alliance\_id
 
-This is the alliance item ID. If you convert to horde and your items have a record in his table, they will be converted to [\#horde\_id](#player_factionchange_items-horde_id)
+This is the alliance item ID. If you convert to horde and your items have a record in his table, they will be converted to horde\_id
 
 ### commentA
 
@@ -110,11 +109,11 @@ This is for easy item name identifying. Comment style should be name(ItemLevel)
 
 Not implemented.
 
-See [item\_template.AllowableRace](item_template#allowablerace)
+See [item\_template.AllowableRace](item_template.md#allowablerace)
 
 ### horde\_id
 
-This is the horde item ID. If you convert to alliance and your items have a record in his table, they will be converted to [\#alliance\_id](#player_factionchange_items-alliance_id)
+This is the horde item ID. If you convert to alliance and your items have a record in his table, they will be converted to alliance\_id
 
 ### commentH
 

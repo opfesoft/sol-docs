@@ -1,6 +1,5 @@
 # playercreateinfo
 
-
 **The \`playercreateinfo\` table**
 
 This table holds the start positions of each class-race combinations for all newly created characters.
@@ -116,21 +115,19 @@ This table holds the start positions of each class-race combinations for all new
 
 ### race
 
-The character's race.
-`:ChrRaces.dbc_tc2`
+The character's race, see [ChrRaces.dbc](../../dbc/ChrRaces.md).
 
 ### class
 
-The character's class.
-`:ChrClasses.dbc_tc2`
+The character's class, see [ChrClasses.dbc](../../dbc/ChrClasses.md).
 
 ### map
 
-The map ID. See [Map.dbc](Map)
+The map ID. See [Map.dbc](../../dbc/Map.md)
 
 ### zone
 
-The zone ID. See [AreaTable.dbc](AreaTable)
+The zone ID. See [AreaTable.dbc](../../dbc/AreaTable.md)
 
 ### position\_x
 

@@ -1,6 +1,5 @@
 # quest\_poi
 
-
 **The \`quest\_poi\` table**
 
 Comes from sniffs.
@@ -44,7 +43,7 @@ Comes from sniffs.
 </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#objindex">ObjectiveIndex</a></p></td>
+<td><p><a href="#objectiveindex">ObjectiveIndex</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p><br />
@@ -83,7 +82,7 @@ Comes from sniffs.
 </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#floorid">Floor</a></p></td>
+<td><p><a href="#floor">Floor</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p><br />
@@ -96,7 +95,7 @@ Comes from sniffs.
 </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#unk3">Priority</a></p></td>
+<td><p><a href="#priority">Priority</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p><br />
@@ -109,7 +108,7 @@ Comes from sniffs.
 </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#unk4">Flags</a></p></td>
+<td><p><a href="#flags">Flags</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p><br />
@@ -128,7 +127,7 @@ Comes from sniffs.
 
 ### QuestID
 
-The Quest Id from [quest\_template.id](quest_template#id)
+The Quest Id from [quest\_template.id](quest_template.md#id)
 
 ### id
 
@@ -140,11 +139,11 @@ if -1 than position of npc where you can complete quest
 
 ### MapID
 
-The Map id from [Map.dbc](Map)
+The Map id from [Map.dbc](../../dbc/Map.md)
 
 ### WorldMapAreaId
 
-The ID from [WorldMapArea.dbc](WorldMapArea).
+The ID from WorldMapArea.dbc.
 
 ### Floor
 

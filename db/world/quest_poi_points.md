@@ -1,6 +1,5 @@
 # quest\_poi\_points
 
-
 **The \`quest\_poi\_points\` table**
 
 Comes from sniffs. Visually speaking, this table is used to identify the X and Y coordinates on the map (not the minimap - the main map) where a quest's question mark should appear. Use the ".gps" command where you are standing to find these coordinates. In order to see changes, ".reload quest\_poi", close Wow.exe, then delete your cache folder.
@@ -20,7 +19,7 @@ Comes from sniffs. Visually speaking, this table is used to identify the X and Y
 <td><p><strong>Comment</strong></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#quest_poi_points-questid">questid</a></p></td>
+<td><p><a href="#questid">questid</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unasigned</p></td>
 <td><p>PRI</p></td>
@@ -30,7 +29,7 @@ Comes from sniffs. Visually speaking, this table is used to identify the X and Y
 <td><p></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#quest_poi_points-idx">idx</a>2</p></td>
+<td><p><a href="#idx1">idx1</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unasigned</p></td>
 <td><p>PRI</p></td>
@@ -40,7 +39,17 @@ Comes from sniffs. Visually speaking, this table is used to identify the X and Y
 <td><p></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#quest_poi_points-x">x</a></p></td>
+<td><p><a href="#idx2">idx2</a></p></td>
+<td><p>int(10)</p></td>
+<td><p>unasigned</p></td>
+<td><p>PRI</p></td>
+<td><p>NO</p></td>
+<td><p>0</p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="even">
+<td><p><a href="#x">x</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unasigned</p></td>
 <td><p></p></td>
@@ -50,7 +59,7 @@ Comes from sniffs. Visually speaking, this table is used to identify the X and Y
 <td><p></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#quest_poi_points-y">y</a></p></td>
+<td><p><a href="#y">y</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unasigned</p></td>
 <td><p></p></td>
@@ -60,7 +69,7 @@ Comes from sniffs. Visually speaking, this table is used to identify the X and Y
 <td><p></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#VerifiedBuild">VerifiedBuild</a></p></td>
+<td><p><a href="#verifiedbuild">VerifiedBuild</a></p></td>
 <td><p>smallint</p></td>
 <td><p>unasigned</p></td>
 <td><p></p></td>
@@ -76,7 +85,7 @@ Comes from sniffs. Visually speaking, this table is used to identify the X and Y
 
 ### questid
 
-The Quest Id from [quest\_poi.questid](quest_poi#questid)
+The Quest Id from [quest\_poi.questid](quest_poi.md#questid)
 
 ### idx1
 
@@ -175,4 +184,12 @@ The Y position of the question mark on the map.
 
 ### VerifiedBuild
 
-VerifiedBuild
+This field is used by the AzerothCore Team to determine whether a template has been verified from WDB files (ADB files for this one).
+
+If value is 0 then it has not been parsed yet.
+
+If value is above 0 then it has been parsed with WDB files from that specific client build.
+
+If value is -1 then it is just a place holder until proper data are found on WDBs.
+
+If value is [-Client Build](../auth/realmlist.md "DB:Auth:realmlist") then it was parsed with WDB files from that specific [client build](../auth/realmlist.md#gamebuild "DB:Auth:realmlist") and manually edited later for some special necessity.

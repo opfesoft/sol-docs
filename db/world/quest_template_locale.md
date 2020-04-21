@@ -43,7 +43,7 @@ Translated content for [quest\_template.Details](quest_template.md#details) fiel
 
 ### Objectives
 
-Translated content for [quest\_template.Objectives](quest_template.md#objectives) field.
+Translated content for [quest\_template.LogDescription](quest_template.md#logdescription) field.
 
 ### EndText
 

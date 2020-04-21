@@ -1,6 +1,5 @@
 # quest\_template
 
-
 **Table: quest\_template**
 
 Contains all basic definitions of available quests.
@@ -56,18 +55,6 @@ Contains all basic definitions of available quests.
 </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#questpackageid">QuestPackageID</a></p></td>
-<td><p>int(10) unsigned</p></td>
-<td><p>NO</p></td>
-<td><p><br />
-</p></td>
-<td><p>0</p></td>
-<td><p><br />
-</p></td>
-<td><p><br />
-</p></td>
-</tr>
-<tr class="odd">
 <td><p><a href="#minlevel">MinLevel</a></p></td>
 <td><p>int(11)</p></td>
 <td><p>NO</p></td>
@@ -79,7 +66,7 @@ Contains all basic definitions of available quests.
 <td><p><br />
 </p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><a href="#questsortid">QuestSortID</a></p></td>
 <td><p>smallint(6)</p></td>
 <td><p>NO</p></td>
@@ -91,7 +78,7 @@ Contains all basic definitions of available quests.
 <td><p><br />
 </p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><a href="#questinfoid">QuestInfoID</a></p></td>
 <td><p>smallint(5) unsigned</p></td>
 <td><p>NO</p></td>
@@ -103,7 +90,7 @@ Contains all basic definitions of available quests.
 <td><p><br />
 </p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><a href="#suggestedgroupnum">SuggestedGroupNum</a></p></td>
 <td><p>tinyint(3) unsigned</p></td>
 <td><p>NO</p></td>
@@ -115,7 +102,7 @@ Contains all basic definitions of available quests.
 <td><p><br />
 </p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><a href="#rewardnextquest">RewardNextQuest</a></p></td>
 <td><p>int(10) unsigned</p></td>
 <td><p>NO</p></td>
@@ -127,25 +114,13 @@ Contains all basic definitions of available quests.
 <td><p><br />
 </p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><a href="#rewardxpdifficulty">RewardXPDifficulty</a></p></td>
 <td><p>int(10) unsigned</p></td>
 <td><p>NO</p></td>
 <td><p><br />
 </p></td>
 <td><p>0</p></td>
-<td><p><br />
-</p></td>
-<td><p><br />
-</p></td>
-</tr>
-<tr class="odd">
-<td><p><a href="#rewardxpmultiplier">RewardXPMultiplier</a></p></td>
-<td><p>float</p></td>
-<td><p>NO</p></td>
-<td><p><br />
-</p></td>
-<td><p>1</p></td>
 <td><p><br />
 </p></td>
 <td><p><br />
@@ -164,30 +139,6 @@ Contains all basic definitions of available quests.
 </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#rewardmoneydifficulty">RewardMoneyDifficulty</a></p></td>
-<td><p>int(10) unsigned</p></td>
-<td><p>NO</p></td>
-<td><p><br />
-</p></td>
-<td><p>0</p></td>
-<td><p><br />
-</p></td>
-<td><p><br />
-</p></td>
-</tr>
-<tr class="even">
-<td><p><a href="#rewardmoneymultiplier">RewardMoneyMultiplier</a></p></td>
-<td><p>float</p></td>
-<td><p>NO</p></td>
-<td><p><br />
-</p></td>
-<td><p>1</p></td>
-<td><p><br />
-</p></td>
-<td><p><br />
-</p></td>
-</tr>
-<tr class="odd">
 <td><p><a href="#rewardbonusmoney">RewardBonusMoney</a></p></td>
 <td><p>int(10) unsigned</p></td>
 <td><p>NO</p></td>
@@ -200,7 +151,7 @@ Contains all basic definitions of available quests.
 </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#rewarddisplayspell">RewardDisplaySpell(X=1...3)</a></p></td>
+<td><p><a href="#rewarddisplayspell">RewardDisplaySpell</a></p></td>
 <td><p>int(10) unsigned</p></td>
 <td><p>NO</p></td>
 <td><p><br />
@@ -236,7 +187,7 @@ Contains all basic definitions of available quests.
 </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#rewardkillh">RewardKillHonor</a></p></td>
+<td><p><a href="#rewardkillhonor">RewardKillHonor</a></p></td>
 <td><p>int(10) unsigned</p></td>
 <td><p>NO</p></td>
 <td><p><br />
@@ -260,42 +211,6 @@ Contains all basic definitions of available quests.
 </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="quest_template">RewardArtifactXPDifficulty</a></p></td>
-<td><p>int(10) unsigned</p></td>
-<td><p>NO</p></td>
-<td><p><br />
-</p></td>
-<td><p>0</p></td>
-<td><p><br />
-</p></td>
-<td><p><br />
-</p></td>
-</tr>
-<tr class="even">
-<td><p><a href="quest_template">RewardArtifactXPMultiplier</a></p></td>
-<td><p>float</p></td>
-<td><p>NO</p></td>
-<td><p><br />
-</p></td>
-<td><p>1</p></td>
-<td><p><br />
-</p></td>
-<td><p><br />
-</p></td>
-</tr>
-<tr class="odd">
-<td><p><a href="quest_template">RewardArtifactCategoryID</a></p></td>
-<td><p>int(10) unsigned</p></td>
-<td><p>NO</p></td>
-<td><p><br />
-</p></td>
-<td><p>0</p></td>
-<td><p><br />
-</p></td>
-<td><p><br />
-</p></td>
-</tr>
-<tr class="even">
 <td><p><a href="#flags">Flags</a></p></td>
 <td><p>int(10) unsigned</p></td>
 <td><p>NO</p></td>
@@ -307,20 +222,8 @@ Contains all basic definitions of available quests.
 <td><p><br />
 </p></td>
 </tr>
-<tr class="odd">
-<td><p><a href="#flagsex">FlagsEx</a></p></td>
-<td><p>int(10) unsigned</p></td>
-<td><p>NO</p></td>
-<td><p><br />
-</p></td>
-<td><p>0</p></td>
-<td><p><br />
-</p></td>
-<td><p><br />
-</p></td>
-</tr>
 <tr class="even">
-<td><p><a href="#rewarditem(x=1...4)">RewardItem(X=1...4)</a></p></td>
+<td><p><a href="#rewarditem">RewardItem(X=1...4)</a></p></td>
 <td><p>int(10) unsigned</p></td>
 <td><p>NO</p></td>
 <td><p><br />
@@ -356,7 +259,7 @@ Contains all basic definitions of available quests.
 </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#itemdropquantity(x=1...4)">ItemDropQuantity(X=1...4)</a></p></td>
+<td><p><a href="#itemdropquantity">ItemDropQuantity(X=1...4)</a></p></td>
 <td><p>int(10) unsigned</p></td>
 <td><p>NO</p></td>
 <td><p><br />
@@ -380,7 +283,7 @@ Contains all basic definitions of available quests.
 </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#rewardchoiceitemquantity(">RewardChoiceItemQuantity(X=1...6)</a></p></td>
+<td><p><a href="#rewardchoiceitemquantity">RewardChoiceItemQuantity(X=1...6)</a></p></td>
 <td><p>int(10) unsigned</p></td>
 <td><p>NO</p></td>
 <td><p><br />
@@ -392,18 +295,6 @@ Contains all basic definitions of available quests.
 </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#rewardchoiceitemdisplayid(x">RewardChoiceItemDisplayID(X=1...6)</a></p></td>
-<td><p>int(10) unsigned</p></td>
-<td><p>NO</p></td>
-<td><p><br />
-</p></td>
-<td><p>0</p></td>
-<td><p><br />
-</p></td>
-<td><p><br />
-</p></td>
-</tr>
-<tr class="odd">
 <td><p><a href="#poicontinent">POIContinent</a></p></td>
 <td><p>int(10) unsigned</p></td>
 <td><p>NO</p></td>
@@ -415,8 +306,20 @@ Contains all basic definitions of available quests.
 <td><p><br />
 </p></td>
 </tr>
+<tr class="odd">
+<td><p><a href="#poix">POIx</a></p></td>
+<td><p>float</p></td>
+<td><p>NO</p></td>
+<td><p><br />
+</p></td>
+<td><p>0</p></td>
+<td><p><br />
+</p></td>
+<td><p><br />
+</p></td>
+</tr>
 <tr class="even">
-<td><p><a href="quest_template">POIx</a></p></td>
+<td><p><a href="#poiy">POIy</a></p></td>
 <td><p>float</p></td>
 <td><p>NO</p></td>
 <td><p><br />
@@ -428,18 +331,6 @@ Contains all basic definitions of available quests.
 </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="quest_template">POIy</a></p></td>
-<td><p>float</p></td>
-<td><p>NO</p></td>
-<td><p><br />
-</p></td>
-<td><p>0</p></td>
-<td><p><br />
-</p></td>
-<td><p><br />
-</p></td>
-</tr>
-<tr class="even">
 <td><p><a href="#poipriority">POIPriority</a></p></td>
 <td><p>int(11)</p></td>
 <td><p>NO</p></td>
@@ -451,7 +342,7 @@ Contains all basic definitions of available quests.
 <td><p><br />
 </p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><a href="#rewardtitle">RewardTitle</a></p></td>
 <td><p>int(10) unsigned</p></td>
 <td><p>NO</p></td>
@@ -463,21 +354,9 @@ Contains all basic definitions of available quests.
 <td><p><br />
 </p></td>
 </tr>
-<tr class="even">
-<td><p><a href="quest_template">RewardArenaPoints</a></p></td>
-<td><p>int(10) unsigned</p></td>
-<td><p>NO</p></td>
-<td><p><br />
-</p></td>
-<td><p>0</p></td>
-<td><p><br />
-</p></td>
-<td><p><br />
-</p></td>
-</tr>
 <tr class="odd">
-<td><p><a href="quest_template">RewardSkillLineID</a></p></td>
-<td><p>int(10) unsigned</p></td>
+<td><p><a href="#requiredplayerkills">RequiredPlayerKills</a></p></td>
+<td><p>tinyint(3) unsigned</p></td>
 <td><p>NO</p></td>
 <td><p><br />
 </p></td>
@@ -488,8 +367,8 @@ Contains all basic definitions of available quests.
 </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#rewardnumskillups">RewardNumSkillUps</a></p></td>
-<td><p>int(10) unsigned</p></td>
+<td><p><a href="#rewardtalents">RewardTalents</a></p></td>
+<td><p>tinyint(3) unsigned</p></td>
 <td><p>NO</p></td>
 <td><p><br />
 </p></td>
@@ -500,7 +379,7 @@ Contains all basic definitions of available quests.
 </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="quest_template">PortraitGiver</a></p></td>
+<td><p><a href="#rewardarenapoints">RewardArenaPoints</a></p></td>
 <td><p>int(10) unsigned</p></td>
 <td><p>NO</p></td>
 <td><p><br />
@@ -512,18 +391,6 @@ Contains all basic definitions of available quests.
 </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#portraitturnin">PortraitTurnIn</a></p></td>
-<td><p>int(10) unsigned</p></td>
-<td><p>NO</p></td>
-<td><p><br />
-</p></td>
-<td><p>0</p></td>
-<td><p><br />
-</p></td>
-<td><p><br />
-</p></td>
-</tr>
-<tr class="odd">
 <td><p><a href="#rewardfactionid">RewardFactionID(X=1...5)</a></p></td>
 <td><p>int(10) unsigned</p></td>
 <td><p>NO</p></td>
@@ -535,7 +402,7 @@ Contains all basic definitions of available quests.
 <td><p><br />
 </p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><a href="#rewardfactionvalue">RewardFactionValue(X=1...5)</a></p></td>
 <td><p>int(11)</p></td>
 <td><p>NO</p></td>
@@ -547,93 +414,9 @@ Contains all basic definitions of available quests.
 <td><p><br />
 </p></td>
 </tr>
-<tr class="odd">
-<td><p><a href="#rewardfactionoverride(x=1...5)">RewardFactionOverride(X=1...5)</a></p></td>
+<tr class="even">
+<td><p><a href="#rewardfactionoverride">RewardFactionOverride(X=1...5)</a></p></td>
 <td><p>int(11)</p></td>
-<td><p>NO</p></td>
-<td><p><br />
-</p></td>
-<td><p>0</p></td>
-<td><p><br />
-</p></td>
-<td><p><br />
-</p></td>
-</tr>
-<tr class="even">
-<td><p><a href="#rewardfactioncapin(x=1...5)">RewardFactionCapIn(X=1...5)</a></p></td>
-<td><p>int(10) unsigned</p></td>
-<td><p>NO</p></td>
-<td><p><br />
-</p></td>
-<td><p>0</p></td>
-<td><p><br />
-</p></td>
-<td><p><br />
-</p></td>
-</tr>
-<tr class="odd">
-<td><p><a href="#rewardfactionflags">RewardFactionFlags</a></p></td>
-<td><p>int(10) unsigned</p></td>
-<td><p>NO</p></td>
-<td><p><br />
-</p></td>
-<td><p>0</p></td>
-<td><p><br />
-</p></td>
-<td><p><br />
-</p></td>
-</tr>
-<tr class="even">
-<td><p><a href="#rewardcurrencyid(">RewardCurrencyID(X=1...4)</a></p></td>
-<td><p>int(10) unsigned</p></td>
-<td><p>NO</p></td>
-<td><p><br />
-</p></td>
-<td><p>0</p></td>
-<td><p><br />
-</p></td>
-<td><p><br />
-</p></td>
-</tr>
-<tr class="odd">
-<td><p><a href="#rewardcurrencyqty">RewardCurrencyQty(X=1...4)</a></p></td>
-<td><p>int(10) unsigned</p></td>
-<td><p>NO</p></td>
-<td><p><br />
-</p></td>
-<td><p>0</p></td>
-<td><p><br />
-</p></td>
-<td><p><br />
-</p></td>
-</tr>
-<tr class="even">
-<td><p><a href="#acceptedsoundkitid">AcceptedSoundKitID</a></p></td>
-<td><p>int(10) unsigned</p></td>
-<td><p>NO</p></td>
-<td><p><br />
-</p></td>
-<td><p>0</p></td>
-<td><p><br />
-</p></td>
-<td><p><br />
-</p></td>
-</tr>
-<tr class="odd">
-<td><p><a href="#completesoundkitid">CompleteSoundKitID</a></p></td>
-<td><p>int(10) unsigned</p></td>
-<td><p>NO</p></td>
-<td><p><br />
-</p></td>
-<td><p>0</p></td>
-<td><p><br />
-</p></td>
-<td><p><br />
-</p></td>
-</tr>
-<tr class="even">
-<td><p><a href="#areagroupid">AreaGroupID</a></p></td>
-<td><p>int(10) unsigned</p></td>
 <td><p>NO</p></td>
 <td><p><br />
 </p></td>
@@ -668,18 +451,6 @@ Contains all basic definitions of available quests.
 </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#questrewardid">QuestRewardID</a></p></td>
-<td><p>int(10) unsigned</p></td>
-<td><p>NO</p></td>
-<td><p><br />
-</p></td>
-<td><p>0</p></td>
-<td><p><br />
-</p></td>
-<td><p><br />
-</p></td>
-</tr>
-<tr class="even">
 <td><p><a href="#logtitle">LogTitle</a></p></td>
 <td><p>text</p></td>
 <td><p>YES</p></td>
@@ -691,8 +462,8 @@ Contains all basic definitions of available quests.
 <td><p><br />
 </p></td>
 </tr>
-<tr class="odd">
-<td><p><a href="quest_template">LogDescription</a></p></td>
+<tr class="even">
+<td><p><a href="#logdescription">LogDescription</a></p></td>
 <td><p>text</p></td>
 <td><p>YES</p></td>
 <td><p><br />
@@ -703,7 +474,7 @@ Contains all basic definitions of available quests.
 <td><p><br />
 </p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><a href="#questdescription">QuestDescription</a></p></td>
 <td><p>text</p></td>
 <td><p>YES</p></td>
@@ -715,20 +486,8 @@ Contains all basic definitions of available quests.
 <td><p><br />
 </p></td>
 </tr>
-<tr class="odd">
-<td><p><a href="quest_template">AreaDescription</a></p></td>
-<td><p>text</p></td>
-<td><p>YES</p></td>
-<td><p><br />
-</p></td>
-<td><p>(NULL)</p></td>
-<td><p><br />
-</p></td>
-<td><p><br />
-</p></td>
-</tr>
 <tr class="even">
-<td><p><a href="quest_template">PortraitGiverText</a></p></td>
+<td><p><a href="#areadescription">AreaDescription</a></p></td>
 <td><p>text</p></td>
 <td><p>YES</p></td>
 <td><p><br />
@@ -740,7 +499,7 @@ Contains all basic definitions of available quests.
 </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="quest_template">PortraitGiverName</a></p></td>
+<td><p><a href="#questcompletionlog">QuestCompletionLog</a></p></td>
 <td><p>text</p></td>
 <td><p>YES</p></td>
 <td><p><br />
@@ -752,31 +511,79 @@ Contains all basic definitions of available quests.
 </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#portraitturnintext">PortraitTurnInText</a></p></td>
-<td><p>text</p></td>
-<td><p>YES</p></td>
+<td><p><a href="#requirednpcorgo">RequiredNpcOrGo(X=1...4)</a></p></td>
+<td><p>mediumint(8)</p></td>
+<td><p>NO</p></td>
 <td><p><br />
 </p></td>
-<td><p>(NULL)</p></td>
+<td><p>0</p></td>
 <td><p><br />
 </p></td>
 <td><p><br />
 </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="quest_template">PortraitTurnInName</a></p></td>
-<td><p>text</p></td>
-<td><p>YES</p></td>
+<td><p><a href="#requirednpcorgocount">RequiredNpcOrGoCount(X=1...4)</a></p></td>
+<td><p>smallint(5) unsigned</p></td>
+<td><p>NO</p></td>
 <td><p><br />
 </p></td>
-<td><p>(NULL)</p></td>
+<td><p>0</p></td>
 <td><p><br />
 </p></td>
 <td><p><br />
 </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="quest_template">QuestCompletionLog</a></p></td>
+<td><p><a href="#requireditemid">RequiredItemId(X=1...6)</a></p></td>
+<td><p>mediumint(8) unsigned</p></td>
+<td><p>NO</p></td>
+<td><p><br />
+</p></td>
+<td><p>0</p></td>
+<td><p><br />
+</p></td>
+<td><p><br />
+</p></td>
+</tr>
+<tr class="odd">
+<td><p><a href="#requireditemcount">RequiredItemCount(X=1...6)</a></p></td>
+<td><p>smallint(5) unsigned</p></td>
+<td><p>NO</p></td>
+<td><p><br />
+</p></td>
+<td><p>0</p></td>
+<td><p><br />
+</p></td>
+<td><p><br />
+</p></td>
+</tr>
+<tr class="even">
+<td><p><a href="#requiredfactionid">RequiredFactionId(X=1...2)</a></p></td>
+<td><p>smallint(5) unsigned</p></td>
+<td><p>NO</p></td>
+<td><p><br />
+</p></td>
+<td><p>0</p></td>
+<td><p><br />
+</p></td>
+<td><p><br />
+</p></td>
+</tr>
+<tr class="odd">
+<td><p><a href="#requiredfactionvalue">RequiredFactionValue(X=1...2)</a></p></td>
+<td><p>mediumint(8)</p></td>
+<td><p>NO</p></td>
+<td><p><br />
+</p></td>
+<td><p>0</p></td>
+<td><p><br />
+</p></td>
+<td><p><br />
+</p></td>
+</tr>
+<tr class="even">
+<td><p><a href="#objectivetext">ObjectiveText(X=1...4)</a></p></td>
 <td><p>text</p></td>
 <td><p>YES</p></td>
 <td><p><br />
@@ -833,23 +640,19 @@ This field defines under what category the quest falls in the quest log.
 
 If **value &gt; 0** then value is Zone IDs taken from AreaTable.dbc.
 
-if **value &lt; 0** then (**-value**) is quest sort id: (in general profession or class quests. Also see [RequiredSkillPoints](#quest_template-RequiredSkillPoints) ) Value is ID from QuestSort.dbc
+if **value &lt; 0** then (**-value**) is quest sort id: (in general profession or class quests.) Value is ID from [QuestSort.dbc](../../dbc/QuestSort.md)
 
 ### QuestInfoID
 
-These values are ID taken from [QuestInfo.dbc](QuestInfo)
+These values are ID taken from [QuestInfo.dbc](../../dbc/QuestInfo.md)
 
 ### SuggestedGroupNum
 
 Recommended number of players to do the quest together.
 
-### LimitTime
+### TimeAllowed
 
 Time in seconds that the player has to complete this quest.
-
-### ~~RequiredClasses~~
-
-~~This field is a bitmask, you can combine class values. See [ChrClasses.dbc](ChrClasses)~~
 
 ### AllowableRaces
 
@@ -867,25 +670,15 @@ Examples:
 
 1101 (1 + 4 + 8 + 64 + 1024) = Alliance Quest
 
-### RepObjectiveFaction
-
-Faction ID for an objective to achieve a certain reputation value with. See Faction.dbc
-
-### RepObjectiveValue
-
-Reputation value that the player must achieve with the faction in [RepObjectiveFaction](#quest_template-RepObjectiveFaction) as part of the quest objectives.
-
 ### RewardNextQuest
-
-**(Old field name: NextQuestIdChain)**
 
 The quest entry from a **creature** or **gameobject** that ends a quest and starts a new one. The result is, that if you end the quest, the new quest instantly appears from the quest giver.
 
-See the [examples section](#quest_template-Examples) for examples.
+See the [examples section](#examples-dealing-with-quests) for examples.
 
 ### RewardXPDifficulty
 
-According to the [Level](#quest_template-Level), the basic experience with index *RewardXPDifficulty* is taken from QuestXP.dbc.
+According to the Level, the basic experience with index *RewardXPDifficulty* is taken from QuestXP.dbc.
 
 This field also controls the XP given as the XP is calculated from the value in this field by the following formula. If the quest is repeatable, XP will be given only once. The total XP that a character will receive is also affected by the level difference between the character's level and the quest's level.
 
@@ -905,15 +698,13 @@ Money earned by completing the quest (if value &gt; 0) or money requirement to c
 
 The money a character at level 80 would get when they complete this quest.
 
+### RewardDisplaySpell
+
+TODO
+
 ### RewardSpell
 
-Spell that is shown to be casted on quest completion in the quest log. Note that this spell will NOT be casted if [RewardSpellCast](#quest_template-RewardSpellCast) is non-zero. The spell in the other field will be casted instead, in which case the spell here only serves as the visual in the quest log.
-
-NOTE: This field comes straight from the WDB and should not be changed.
-
-### RewardSpellCast
-
-Spell that will always be casted at player when completing the quest. This can be learn spell and player learned some spell in result, or buff spell, for example. If this field is non-zero then this spell will ALWAYS be casted and the spell in [RewardSpell](#quest_template-RewardSpell) will not.
+Spell that is shown to be casted on quest completion in the quest log.
 
 NOTE: This field comes straight from the WDB and should not be changed.
 
@@ -923,11 +714,9 @@ Number of honorable kill honor rewarded for completing this quest.
 
 Example: An example value is 15 for quest 8388: At level 80 an honorable kill is 124 honor worth. Multiply this with 15 and you receive 1860, after the multiplication the value is rounded up. So the honor rewarded at level 80 is 1860 for this quest.
 
-### RewardHonorMultiplier
+### RewardKillHonor
 
-Multiplies [RewardHonor](#quest_template-RewardHonor), so if value is 2, it will give double.
-
-**WARNING:** If this field is 1 and [RewardHonor](#quest_template-RewardHonor) is 0, the quest will reward default honor kill value (124 honor at level 80)
+TODO
 
 ### StartItem
 
@@ -1128,9 +917,9 @@ Like all flag based fields, **QuestFlags** can be added for the different types 
 
 Note that some flags may not be supported by core.
 
-### RewardTitleId
+### RewardTitle
 
-The title the character will receive upon completion of the quest. See [CharTitles.dbc](CharTitles)
+The title the character will receive upon completion of the quest. See [CharTitles.dbc](../../dbc/CharTitles.md)
 
 ### RequiredPlayerKills
 
@@ -1149,30 +938,38 @@ Will Give X Arena Points to the player that completes the quest. Leave"0"For no 
 Id of item available for reward choice.
 Number of Charges in rewarded item available.
 
-### RewardChoiceItemCount
+### RewardChoiceItemQuantity
 
-Will choose how many items will be added for reward. E.g "RewardChoiceItemId" is the reward item and "RewardChoiceItemCount" is the count of how many items will be added as a reward.
+Will choose how many items will be added for reward. E.g "RewardChoiceItemId" is the reward item and "RewardChoiceItemQuantity" is the count of how many items will be added as a reward.
 
-### RewardItemId
+### RewardItem
 
-[item Id](item_template#entry) given for reward (no choice).
+[item Id](item_template.md#entry) given for reward (no choice).
 
-### RewardItemCount
+### RewardAmount
 
-`field-no-description|46`
+Amount of the rewarded item.
+
+### ItemDrop
+
+TODO
+
+### ItemDropQuantity
+
+TODO
 
 ### RewardFactionId
 
-Faction Id (from [Faction.dbc](Faction)) for which the quest give reputation points.
+Faction Id (from [Faction.dbc](../../dbc/Faction.md)) for which the quest give reputation points.
 Number of gain or lost reputation points for Faction at quest completion. This is special reputation rewarding. Normal reputation reward to quest rewarding creature faction calculated and added automatically.
 
-### RewardFactionValueId
+### RewardFactionValue
 
-This field is used for reputation lookup in [QuestFactionReward.dbc](QuestFactionReward) if [RewardFactionValueId](#quest_template-RewardFactionValueId) is 0. Value X in this field indicates RepX column of [QuestFactionReward.dbc](QuestFactionReward). If RewardRepValueId is positive, reputation from the first row of QuestFactionReward.dbc will be used, for negative values the second row is used.
+This field is used for reputation lookup in [QuestFactionReward.dbc](../../dbc/QuestFactionReward.md) if RewardFactionValue is 0. Value X in this field indicates RepX column of QuestFactionReward.dbc. If RewardRepValueId is positive, reputation from the first row of QuestFactionReward.dbc will be used, for negative values the second row is used.
 
-### RewardFactionValueIdOverride
+### RewardFactionOverride
 
-This field is used to give reputation values not present in QuestFactionReward.dbc or to override them if [RewardRepValueId](#quest_template-RewardRepValueId) is wrong for some reason. The value in this field is 100× the intended reputation reward (if you want to give 400 rep, put 40000 in RewardFactionValueIdOverride).
+This field is used to give reputation values not present in QuestFactionReward.dbc or to override them if [RewardFactionValue](#rewardfactionvalue) is wrong for some reason. The value in this field is 100× the intended reputation reward (if you want to give 400 rep, put 40000 in RewardFactionValueIdOverride).
 
 ### POIContinent
 
@@ -1190,25 +987,25 @@ Y coordinate of quest POI.
 
 TODO
 
-### Title
+### LogTitle
 
 Title of the quest.
 
-### Objectives
+### LogDescription
 
 Objectives of the quest. If empty, quest is an auto-complete quest that can be immediately finished without accepting it first.
 
-### Details
+### QuestDescription
 
 The quest text. You can use certain placeholders that will be filled in in-game: $B - line break, $N - name, $R - race, $C - class, $Gmale:female; (male and female can be replace with any synonymn you want, but the order must stay the same. IE: boy:girl / man:woman / sir:madam / dude:chick)
 
-### OfferRewardText
+### AreaDescription
 
-First text send to the player by the NPC when completing the quest. You can use certain placeholders that will be filled in in-game: $B - line break, $N - name, $R - race, $C - class, $Gmale:female; (male and female can be replace with any synonymn you want, but the order must stay the same. IE: boy:girl / man:woman / sir:madam / dude:chick)
+Additional objectives shown as summary in the quest tracker.
 
-### RequestItemsText
+### QuestCompletionLog
 
-Text sent to player when the player tries to talk to the NPC with the quest active but incomplete. (The text under the "Progress" title in Wowhead.) You can use certain placeholders that will be filled in in-game: $B - line break, $N - name, $R - race, $C - class, $Gmale:female; (male and female can be replace with any synonymn you want, but the order must stay the same. IE: boy:girl / man:woman / sir:madam / dude:chick)
+Text shown after the quest has been completed.
 
 ### RequiredNpcOrGo
 
@@ -1221,16 +1018,9 @@ NOTE: If RequiredSpellCast is != 0 and the spell has effects Send Event or Ques
 
 The number of times the creature or gameobject must be killed or casted upon.
 
-### RequiredSourceItemId
-
-Item ID that is needed indirectly by the quest. For example, the quests asks for item X but the only way to get item X is by activating item Y; however, item Y is also a quest item. Therefore you set item Y's ID in this field. This requirement will not appear in the quest text, it is just for the core to know when to drop a quest item that isn't in the RequiredItemId field but is still needed by the quest.
-
-### RequiredSourceItemCount
-
-The maximum number of copies of the item in RequiredSourceItemId that can be picked up (and dropped by the core).
-
 ### RequiredItemId
-[Item\_template](item_template#id) 
+
+[Item\_template](item_template.md#id) 
 
 Id of required item to complete the quest.
 
@@ -1238,33 +1028,31 @@ Id of required item to complete the quest.
 
 Amount of required items
 
-### RequiredSpell
+### RequiredFactionId
 
-Spell Id required to cast on [RequiredNpcOrGo](quest_template#RequiredNpcOrGo) to update Objective.
+TODO
+
+### RequiredFactionValue
+
+TODO
 
 ### ObjectiveText
 
 Used to define non-standard objective texts, that show up in the questlog. Example, "Heal fallen warrior" and the number gets added by Count values.
 
-### DetailsEmote
+### VerifiedBuild
 
-`field-no-description|69`
+This field is used by the AzerothCore Team to determine whether a template has been verified from WDB files (ADB files for this one).
 
-### DetailsEmoteDelay
+If value is 0 then it has not been parsed yet.
 
-Emote delay in ms
+If value is above 0 then it has been parsed with WDB files from that specific client build.
 
-### OfferRewardEmote
+If value is -1 then it is just a place holder until proper data are found on WDBs.
 
-Emote played by the NPC at the time the character is rewarded for the quest.
+If value is [-Client Build](../auth/realmlist.md "DB:Auth:realmlist") then it was parsed with WDB files from that specific [client build](../auth/realmlist.md#gamebuild "DB:Auth:realmlist") and manually edited later for some special necessity.
 
-### OfferRewardEmoteDelay
-
-Emote delay in ms
-
-### WDBVerified
-
-## **Examples dealing with quests**
+## Examples dealing with quests
 
 Always use PrevQuestId before using NextQuestId. NextQuestId is considered optional and to be used only when PrevQuestId is not sufficient
 
@@ -1471,6 +1259,6 @@ PrevQuestId = questF   NextQuestId = 0         ExclusiveGroup = 0          NextQ
 
 Note:
 
-If player can choose between chain A or B may be determined by faction status (aldor or scryer), using ReqMinRepFaction = 1. Player should not be able to be neutral+1 with both at the same time. This may be the common threshold to obtain aldor or scryer quests (this is unsure). If that is the case, only the unlock of C, D and E after complete A2 *or* B2 is the impossible part.\_Note 2: With the [Conditions](conditions) table now every quest chain is possible.''
+If player can choose between chain A or B may be determined by faction status (aldor or scryer), using ReqMinRepFaction = 1. Player should not be able to be neutral+1 with both at the same time. This may be the common threshold to obtain aldor or scryer quests (this is unsure). If that is the case, only the unlock of C, D and E after complete A2 *or* B2 is the impossible part.\_Note 2: With the [Conditions](conditions.md) table now every quest chain is possible.''
 
 /table

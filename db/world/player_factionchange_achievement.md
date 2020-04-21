@@ -1,6 +1,5 @@
 # player\_factionchange\_achievement
 
-
 **The \`player\_factionchange\_achievement\` table**
 
 Basically all achievement changes made when player changes faction.
@@ -54,8 +53,8 @@ Basically all achievement changes made when player changes faction.
 
 ### alliance\_id
 
-This is the alliance achievement ID. If you convert to horde and your achievements have a record in his table, they will be converted to [\#horde\_id](#player_factionchange_achievement-horde_id)
+This is the alliance achievement ID. If you convert to horde and your achievements have a record in his table, they will be converted to horde\_id
 
 ### horde\_id
 
-This is the horde achievement ID. If you convert to alliance and your achievements have a record in his table, they will be converted to [\#alliance\_id](#player_factionchange_achievement-alliance_id)
+This is the horde achievement ID. If you convert to alliance and your achievements have a record in his table, they will be converted to alliance\_id

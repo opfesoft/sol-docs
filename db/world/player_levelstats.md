@@ -1,6 +1,5 @@
 # player\_levelstats
 
-
 **The \`player\_levelstats\` table**
 
 This table holds information on what stats are gained by characters when they level up. Each race-class combination has different level stats. All of the values in this table signify only the base stats of the race-class combination at a specific level.
@@ -116,12 +115,11 @@ This table holds information on what stats are gained by characters when they le
 
 ### race
 
-The character race. This field along with [class](#player_levelstats-class) defines what stats to be applied on the character.
-`:ChrRaces.dbc_tc2`
+The character race. This field along with class defines what stats to be applied on the character. See [ChrRaces.dbc](../../dbc/ChrRaces.md).
 
 ### class
 
-The character class. This field along with [race](#player_levelstats-race) defines what stats to be applied on the character.
+The character class. This field along with race defines what stats to be applied on the character. See [ChrClasses.dbc](../../dbc/ChrClasses.md).
 `:ChrClasses.dbc_tc2`
 
 ### level
