@@ -2,8 +2,6 @@
 
 **The \`points\_of\_interest\` table**
 
-`table-no-description`
-
 ## Structure
 
 <table>

@@ -1,9 +1,6 @@
 # guild\_eventlog
 
-
 **The \`guild\_eventlog\` table**
-
-`table-no-description`
 
 ## Structure
 

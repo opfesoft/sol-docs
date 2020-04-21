@@ -1,6 +1,5 @@
 # character\_talent
 
-
 **The \`character\_talent\` table**
 
 Contains all the individual talent data for each character. This is only used as a storage table, values get read from here and written to character\_spell, and vice-versa, when a player switches specs.

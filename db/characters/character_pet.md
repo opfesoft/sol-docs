@@ -1,6 +1,5 @@
 # character\_pet
 
-
 **The \`character\_pet\` table**
 
 This table holds the pet data for each pet summoned by anyone in the game.

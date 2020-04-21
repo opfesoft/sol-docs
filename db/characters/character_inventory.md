@@ -1,6 +1,5 @@
 # character\_inventory
 
-
 **The \`character\_inventory\` table**
 
 Contains all the character inventory data, including the bank data.

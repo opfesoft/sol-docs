@@ -1,6 +1,5 @@
 # character\_skills
 
-
 **The \`character\_skills\` table**
 
 This table holds a listing of all skill for each character.

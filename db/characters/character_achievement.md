@@ -1,6 +1,5 @@
 # character\_achievement
 
-
 **The \`character\_achievement\` table**
 
 This table holds information on the achievements a character has earned / completed.
@@ -65,11 +64,11 @@ This table holds information on the achievements a character has earned / comple
 
 ### guid
 
-The GUID of the character. See [characters.guid](../tc-wiki/characters_table_)
+The GUID of the character. See [characters.guid](characters.md#guid)
 
 ### achievement
 
-The ID of the achievement from [Achievement.dbc](https://trinitycore.atlassian.net/wiki/display/tc/Achievement)
+The ID of the achievement from [Achievement.dbc](../../dbc/Achievement.md)
 
 ### date
 

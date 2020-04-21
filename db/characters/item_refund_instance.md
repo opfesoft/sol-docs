@@ -1,6 +1,5 @@
 # item\_refund\_instance
 
-
 **The \`item\_refund\_instance\` table**
 
 This table serves as a receipt of refundable purchases during a 2 hour ingame time window. It holds information on what currency was spent to purchase the item.

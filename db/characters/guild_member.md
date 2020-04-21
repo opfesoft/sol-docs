@@ -1,6 +1,5 @@
 # guild\_member
 
-
 **The \`guild\_member\` table**
 
 This table holds information on the members of all guilds, their ranks in the guild, and any notes made by them or by guild officers.
@@ -100,7 +99,7 @@ This table holds information on the members of all guilds, their ranks in the gu
 <td><p> </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#5">BankResetTimeTab0</a></p></td>
+<td><p><a href="#bankresettimetab0-5">BankResetTimeTab0</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -110,7 +109,7 @@ This table holds information on the members of all guilds, their ranks in the gu
 <td><p> </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#5">BankRemSlotsTab0</a></p></td>
+<td><p><a href="#bankremslotstab0-5">BankRemSlotsTab0</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -120,7 +119,7 @@ This table holds information on the members of all guilds, their ranks in the gu
 <td><p> </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#5">BankResetTimeTab1</a></p></td>
+<td><p><a href="#bankresettimetab0-5">BankResetTimeTab1</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -130,7 +129,7 @@ This table holds information on the members of all guilds, their ranks in the gu
 <td><p> </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#5">BankRemSlotsTab1</a></p></td>
+<td><p><a href="#bankremslotstab0-5">BankRemSlotsTab1</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -140,7 +139,7 @@ This table holds information on the members of all guilds, their ranks in the gu
 <td><p> </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#5">BankResetTimeTab2</a></p></td>
+<td><p><a href="#bankresettimetab0-5">BankResetTimeTab2</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -150,7 +149,7 @@ This table holds information on the members of all guilds, their ranks in the gu
 <td><p> </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#5">BankRemSlotsTab2</a></p></td>
+<td><p><a href="#bankremslotstab0-5">BankRemSlotsTab2</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -160,7 +159,7 @@ This table holds information on the members of all guilds, their ranks in the gu
 <td><p> </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#5">BankResetTimeTab3</a></p></td>
+<td><p><a href="#bankresettimetab0-5">BankResetTimeTab3</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -170,7 +169,7 @@ This table holds information on the members of all guilds, their ranks in the gu
 <td><p> </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#5">BankRemSlotsTab3</a></p></td>
+<td><p><a href="#bankremslotstab0-5">BankRemSlotsTab3</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -180,7 +179,7 @@ This table holds information on the members of all guilds, their ranks in the gu
 <td><p> </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#5">BankResetTimeTab4</a></p></td>
+<td><p><a href="#bankresettimetab0-5">BankResetTimeTab4</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -190,7 +189,7 @@ This table holds information on the members of all guilds, their ranks in the gu
 <td><p> </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#5">BankRemSlotsTab4</a></p></td>
+<td><p><a href="#bankremslotstab0-5">BankRemSlotsTab4</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -200,7 +199,7 @@ This table holds information on the members of all guilds, their ranks in the gu
 <td><p> </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#5">BankResetTimeTab5</a></p></td>
+<td><p><a href="#bankresettimetab0-5">BankResetTimeTab5</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -210,7 +209,7 @@ This table holds information on the members of all guilds, their ranks in the gu
 <td><p> </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#5">BankRemSlotsTab5</a></p></td>
+<td><p><a href="#bankremslotstab0-5">BankRemSlotsTab5</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>

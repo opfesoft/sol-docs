@@ -1,6 +1,5 @@
 # item\_soulbound\_trade\_data
 
-
 **The \`item\_soulbound\_trade\_data**
 
 This table stores information about which players can trade soulbound items between each other.

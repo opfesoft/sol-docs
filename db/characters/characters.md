@@ -1,6 +1,5 @@
 # characters (table)
 
-
 **The \`characters\` table**
 
 This table holds vital static information for each character. This information loaded and used to create the player objects in-game.
@@ -96,7 +95,7 @@ The character global unique identifier. This number must be unique and is the be
 
 ### account
 
-The account ID in which this character resides. See [account.id](http://www.azerothcore.org/wiki/account#id). in the auth database.
+The account ID in which this character resides. See [account.id](../auth/account.md#id). in the auth database.
 
 ### name
 
@@ -104,11 +103,11 @@ The name of the character.
 
 ### race
 
-The race of the character. See [ChrRaces.dbc](ChrRaces)
+The race of the character. See [ChrRaces.dbc](../../dbc/ChrRaces.md)
 
 ### class
 
-The class of the character: [ChrClasses.dbc](ChrClasses)
+The class of the character: [ChrClasses.dbc](../../dbc/ChrClasses.md)
 
 ### gender
 
@@ -358,7 +357,7 @@ Time when a character can be resurrected in case of a server crash or client exi
 
 ### taxi\_path
 
-Stores the players current taxi path ([TaxiPath.dbc](TaxiPath)) if logged off while on one.
+Stores the players current taxi path ([TaxiPath.dbc](../../dbc/TaxiPath.md)) if logged off while on one.
 
 ### arenaPoints
 
@@ -390,15 +389,15 @@ The amount of players this character killed yesterday
 
 ### chosenTitle
 
-Current title, using the bit\_index field (InGameOrder in [CharTitles.dbc](CharTitles))
+Current title, using the bit\_index field (InGameOrder in [CharTitles.dbc](../../dbc/CharTitles.md))
 
 ### knownCurrencies
 
-Known currencies (what to be listed in the Currency tab), bitmask of BitIndexes, see [CurrencyTypes.dbc](CurrencyTypes)
+Known currencies (what to be listed in the Currency tab), bitmask of BitIndexes, see [CurrencyTypes.dbc](../../dbc/CurrencyTypes.md)
 
 ### watchedFaction
 
-Tracked faction at experience bar (using reputation ID, see [Faction.dbc](Faction))
+Tracked faction at experience bar (using reputation ID, see [Faction.dbc](../../dbc/Faction.md))
 
 ### drunk
 
@@ -482,11 +481,11 @@ Character's equipment and bag cache. `field-no-description|58`
 
 ### ammoId
 
-[Template ID](http://www.azerothcore.org/wiki/item_template#entry) of the ammo item
+[Template ID](../world/item_template.md#entry) of the ammo item
 
 ### knownTitles
 
-Contains data about known Titles stored in 6 x 16bit integers. To calculate where a knownTitle is in one of those 6 integers you do the following: We select one of the titles from [CharTitles.dbc](CharTitles), take Archmage title for example:
+Contains data about known Titles stored in 6 x 16bit integers. To calculate where a knownTitle is in one of those 6 integers you do the following: We select one of the titles from [CharTitles.dbc](../../dbc/CharTitles.md), take Archmage title for example:
 
 <table>
 <colgroup>

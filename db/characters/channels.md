@@ -1,7 +1,6 @@
 # channels
 
-
-# Table: channels
+**Table: channels**
 
 Information and settings for ingame, player-based chat channels (not affecting the default system channels)
 
@@ -30,7 +29,7 @@ Information and settings for ingame, player-based chat channels (not affecting t
 <td><p><strong>Comment</strong></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#m_name">name</a></p></td>
+<td><p><a href="#name">name</a></p></td>
 <td><p>varchar(128)</p></td>
 <td><p>signed</p></td>
 <td><p>PRI</p></td>
@@ -40,7 +39,7 @@ Information and settings for ingame, player-based chat channels (not affecting t
 <td><p> </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#m_team">team</a></p></td>
+<td><p><a href="#team">team</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p>PRI</p></td>
@@ -50,7 +49,7 @@ Information and settings for ingame, player-based chat channels (not affecting t
 <td><p> </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#m_announce">announce</a></p></td>
+<td><p><a href="#announce">announce</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -60,7 +59,7 @@ Information and settings for ingame, player-based chat channels (not affecting t
 <td><p> </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#m_ownership">ownership</a></p></td>
+<td><p><a href="#ownership">ownership</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -70,7 +69,7 @@ Information and settings for ingame, player-based chat channels (not affecting t
 <td><p> </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#m_password">password</a></p></td>
+<td><p><a href="#password">password</a></p></td>
 <td><p>varchar(32)</p></td>
 <td><p>signed</p></td>
 <td><p> </p></td>

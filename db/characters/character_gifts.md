@@ -1,6 +1,5 @@
 # character\_gifts
 
-
 **The \`character\_gifts\` table**
 
 This table holds data about wrapped/gift items.

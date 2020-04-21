@@ -1,6 +1,5 @@
 # character\_queststatus\_seasonal
 
-
 **The \`character\_queststatus\_seasonal\` table**
 
 Holds information on the seasonal quest (quests with ZoneOrSort of -22) status of every player. The quests reset at the end of the corresponding eventEntry.

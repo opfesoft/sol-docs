@@ -1,6 +1,5 @@
 # spell\_area
 
-
 **The \`spell\_area\` table**
 
 This table is used to apply a specific spell aura to the player within an area in the game. When any player enters this area or somehow interacts with a quest, this aura will be handled accordingly.
@@ -128,7 +127,7 @@ Some examples:
 </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#quest_start_status,quest_end_status">quest_start_status</a></p></td>
+<td><p><a href="#quest_start_status-quest_end_status">quest_start_status</a></p></td>
 <td><p>int(11)</p></td>
 <td><p>unsigned</p></td>
 <td><p><br />
@@ -141,7 +140,7 @@ Some examples:
 </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#quest_start_status,quest_end_status">quest_end_status</a></p></td>
+<td><p><a href="#quest_start_status-quest_end_status">quest_end_status</a></p></td>
 <td><p>int(11)</p></td>
 <td><p>unsigned</p></td>
 <td><p><br />
@@ -160,19 +159,19 @@ Some examples:
 
 ### spell
 
-The spell ID of the spell to be casted on the player. See [Spell.dbc](Spell).
+The spell ID of the spell to be casted on the player. See Spell.dbc.
 
 ### area
 
-The area ID. Type ".gps" in-game and find the "Area:" number to use for this cell. Also see AreaTable.dbc.
+The area ID. Type ".gps" in-game and find the "Area:" number to use for this cell. Also see [AreaTable.dbc](../../dbc/AreaTable.md).
 
 ### quest\_start
 
-The entry of the quest which the player must have in the state defined by **quest\_start\_status**. See [quest\_template.id](quest_template#id).
+The entry of the quest which the player must have in the state defined by **quest\_start\_status**. See [quest\_template.id](quest_template.md#id).
 
 ### quest\_end
 
-The entry of the quest which the player must not have in the state defined by **quest\_end\_status**. See [quest\_template.id](quest_template#id). Setting both **quest\_start** and **quest\_end** to the same value is useless.
+The entry of the quest which the player must not have in the state defined by **quest\_end\_status**. See [quest\_template.id](quest_template.md#id). Setting both **quest\_start** and **quest\_end** to the same value is useless.
 
 ### aura\_spell
 
@@ -180,13 +179,13 @@ If set, this value (plus or minus aura spell ID from Spell.dbc) imposes addition
 
 The value has the following effect:
 
--   **&lt;** **0**  (negative values) If the player has aura **-aura\_spell** then the [spell](#spell_area-spell) will not be activated.
+-   **&lt;** **0**  (negative values) If the player has aura **-aura\_spell** then the [spell](#spell) will not be activated.
 -     **0**   this column is ignored.
--   **&gt;** **0**  (positive values) If the player has no aura **aura\_spell** then the [spell](#spell_area-spell) will not be activated.
+-   **&gt;** **0**  (positive values) If the player has no aura **aura\_spell** then the [spell](#spell) will not be activated.
 
 ### racemask
 
-This ID is automatically called from [ChrRaces.dbc](ChrRaces). The bitmask is entered here.
+This ID is automatically called from [ChrRaces.dbc](../../dbc/ChrRaces.md). The bitmask is entered here.
 
 MASTER:
 

@@ -1,9 +1,6 @@
 # character\_pet\_declinedname
 
-
 **The \`character\_pet\_declinedname\` table**
-
-`table-no-description`
 
 ## Structure
 

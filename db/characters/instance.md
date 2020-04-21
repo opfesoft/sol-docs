@@ -1,6 +1,5 @@
 # instance
 
-
 **The \`instance\` table**
 
 This table holds static information on all current instances that have not yet been reset.

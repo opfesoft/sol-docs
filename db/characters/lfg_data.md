@@ -1,9 +1,6 @@
 # lfg\_data
 
-
 **The \`lfg\_data\` table**
-
-`table-no-description`
 
 ## Structure
 

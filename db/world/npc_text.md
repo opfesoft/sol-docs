@@ -528,7 +528,7 @@ This table contains the texts that are used for gossip. More research needs to b
 <td><p>NULL</p></td>
 </tr>
 <tr class="odd">
-<td><a href="http://collab.kpsn.org#lang5">lang5</a></td>
+<td><a href="lang6">lang6</a></td>
 <td>tinyint(3)</td>
 <td>unsigned</td>
 <td> </td>

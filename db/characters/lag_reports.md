@@ -1,6 +1,5 @@
 # lag\_reports
 
-
 **The \`lag\_reports\` table**
 
 `table-no-description|0`
@@ -110,7 +109,7 @@ Report ID
 
 ### guid
 
-Player guid. See [characters.guid](http://www.azerothcore.org/wiki/characters#guid)
+Player guid. See [characters.guid](characters.md#guid)
 
 ### lagType
 

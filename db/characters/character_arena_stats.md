@@ -1,6 +1,5 @@
 # character\_arena\_stats
 
-
 **The \`character\_arena\_stats\` table**
 
 This table holds information about character's matchmaker rating in all team types.

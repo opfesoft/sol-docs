@@ -3602,11 +3602,11 @@ Set ITEM\_FLAGS\_CU\_DURATION\_REAL\_TIME in *flagsCustom* for real time. In tha
 
 ### HolidayId
 
-See the [Holidays DBC file](Holidays) for the IDs of all of the holidays.
+See the [Holidays DBC file](../../dbc/Holidays.md) for the IDs of all of the holidays.
 
 ### ScriptName
 
-The name of the script that the item should use. There is no 'internalitemhandler' or 'internalitemhanler' script so trinity will ignore any such values in this field.
+The name of the script that the item should use. There is no 'internalitemhandler' or 'internalitemhanler' script so the core will ignore any such values in this field.
 
 ### DisenchantID
 

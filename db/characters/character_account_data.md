@@ -1,6 +1,5 @@
 # character\_account\_data
 
-
 **The \`character\_account\_data\` table**
 
 Contains data about character settings.
@@ -76,7 +75,7 @@ Contains data about character settings.
 
 ### guid
 
-The character global unique identifier. See [Characters.guid](2129969.html#characters(table)-guid)
+The character global unique identifier. See [Characters.guid](characters.md#guid)
 
 ### type
 

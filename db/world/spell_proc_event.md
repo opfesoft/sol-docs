@@ -1,6 +1,5 @@
 # spell_proc_event
 
-
 Column | Type | Description
 --- | --- | ---
 Entry | mediumint(8) | 

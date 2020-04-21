@@ -1,9 +1,8 @@
 # waypoint\_data
 
-
 ### Information
 
-This table contains all the path data for creatures that use waypoints and waypoint scripts directly in their creature addon definition. See also [Waypoints-Information](Waypoints-Information) for general information about waypoints.
+This table contains all the path data for creatures that use waypoints and waypoint scripts directly in their creature addon definition. See also [Waypoints-Information](../../misc/Waypoints-Information.md) for general information about waypoints.
 
 ## Structure
 
@@ -65,7 +64,7 @@ Time to wait (in ms) between each point.
 
 #### action
 
-ID of the action to be performed. See [waypoint\_scripts.id](waypoint_scripts).
+ID of the action to be performed. See [waypoint\_scripts.id](waypoint_scripts.md).
 
 #### action\_chance
 

@@ -1,7 +1,6 @@
 # pvpstats\_players
 
-
-**The \`[pvpstats\_players](http://collab.kpsn.org/pages/createpage.action?spaceKey=tc&title=pvpstats_battlegrounds&linkCreation=true&fromPageId=331580)\` table**
+**The \`pvpstats\_players\` table**
 
 This table holds datas about BattleGrounds scores. To enable storing this kind of informations, set **Battleground . StoreStatistics . Enable   =   1** in **worldserver.config** file.
 
@@ -60,7 +59,7 @@ This table holds datas about BattleGrounds scores. To enable storing this kind o
 <td> </td>
 </tr>
 <tr class="odd">
-<td><p><a href="#score_*">score_killing_blows</a></p></td>
+<td><p><a href="#score_">score_killing_blows</a></p></td>
 <td>mediumint</td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -70,7 +69,7 @@ This table holds datas about BattleGrounds scores. To enable storing this kind o
 <td><p> </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#score_*">score_deaths</a></p></td>
+<td><p><a href="#score_">score_deaths</a></p></td>
 <td>mediumint</td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -80,7 +79,7 @@ This table holds datas about BattleGrounds scores. To enable storing this kind o
 <td><p> </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#score_*">score_honorable_kills</a></p></td>
+<td><p><a href="#score_">score_honorable_kills</a></p></td>
 <td><p>mediumint</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -90,7 +89,7 @@ This table holds datas about BattleGrounds scores. To enable storing this kind o
 <td><p> </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#score_*">score_bonus_honor</a></p></td>
+<td><p><a href="#score_">score_bonus_honor</a></p></td>
 <td><p>mediumint</p></td>
 <td><p>unsigned</p></td>
 <td> </td>
@@ -100,7 +99,7 @@ This table holds datas about BattleGrounds scores. To enable storing this kind o
 <td> </td>
 </tr>
 <tr class="odd">
-<td><p><a href="#score_*">score_damage_done</a></p></td>
+<td><p><a href="#score_">score_damage_done</a></p></td>
 <td>mediumint</td>
 <td><p>unsigned</p></td>
 <td> </td>
@@ -110,7 +109,7 @@ This table holds datas about BattleGrounds scores. To enable storing this kind o
 <td> </td>
 </tr>
 <tr class="even">
-<td><p><a href="#score_*">score_healing_done</a></p></td>
+<td><p><a href="#score_">score_healing_done</a></p></td>
 <td><p>mediumint</p></td>
 <td><p>unsigned</p></td>
 <td> </td>
@@ -120,7 +119,7 @@ This table holds datas about BattleGrounds scores. To enable storing this kind o
 <td> </td>
 </tr>
 <tr class="odd">
-<td><p><a href="#attr_*">attr_1</a></p></td>
+<td><p><a href="#attr_">attr_1</a></p></td>
 <td><p>mediumint</p></td>
 <td><p>unsigned</p></td>
 <td> </td>
@@ -130,7 +129,7 @@ This table holds datas about BattleGrounds scores. To enable storing this kind o
 <td> </td>
 </tr>
 <tr class="even">
-<td><p><a href="#attr_*">attr_2</a></p></td>
+<td><p><a href="#attr_">attr_2</a></p></td>
 <td><p>mediumint</p></td>
 <td><p>unsigned</p></td>
 <td> </td>
@@ -140,7 +139,7 @@ This table holds datas about BattleGrounds scores. To enable storing this kind o
 <td> </td>
 </tr>
 <tr class="odd">
-<td><p><a href="#attr_*">attr_3</a></p></td>
+<td><p><a href="#attr_">attr_3</a></p></td>
 <td><p>mediumint</p></td>
 <td><p>unsigned</p></td>
 <td> </td>
@@ -150,7 +149,7 @@ This table holds datas about BattleGrounds scores. To enable storing this kind o
 <td> </td>
 </tr>
 <tr class="even">
-<td><p><a href="#attr_*">attr_4</a></p></td>
+<td><p><a href="#attr_">attr_4</a></p></td>
 <td>mediumint</td>
 <td><p>unsigned</p></td>
 <td> </td>
@@ -160,7 +159,7 @@ This table holds datas about BattleGrounds scores. To enable storing this kind o
 <td> </td>
 </tr>
 <tr class="odd">
-<td><p><a href="#attr_*">attr_5</a></p></td>
+<td><p><a href="#attr_">attr_5</a></p></td>
 <td><p>mediumint</p></td>
 <td><p>unsigned</p></td>
 <td> </td>

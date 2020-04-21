@@ -1,6 +1,5 @@
 # groups
 
-
 **The \`groups\` table**
 
 This table holds basic info about groups.
@@ -80,7 +79,7 @@ This table holds basic info about groups.
 <td> </td>
 </tr>
 <tr class="odd">
-<td><p><a href="#8">icon1</a></p></td>
+<td><p><a href="#icon1-8">icon1</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td> </td>
@@ -90,7 +89,7 @@ This table holds basic info about groups.
 <td><p> </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#8">icon2</a></p></td>
+<td><p><a href="#icon1-8">icon2</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -100,7 +99,7 @@ This table holds basic info about groups.
 <td> </td>
 </tr>
 <tr class="odd">
-<td><p><a href="#8">icon3</a></p></td>
+<td><p><a href="#icon1-8">icon3</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td> </td>
@@ -110,7 +109,7 @@ This table holds basic info about groups.
 <td><p> </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#8">icon4</a></p></td>
+<td><p><a href="#icon1-8">icon4</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -120,7 +119,7 @@ This table holds basic info about groups.
 <td> </td>
 </tr>
 <tr class="odd">
-<td><p><a href="#8">icon5</a></p></td>
+<td><p><a href="#icon1-8">icon5</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td> </td>
@@ -130,7 +129,7 @@ This table holds basic info about groups.
 <td> </td>
 </tr>
 <tr class="even">
-<td><p><a href="#8">icon6</a></p></td>
+<td><p><a href="#icon1-8">icon6</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -140,7 +139,7 @@ This table holds basic info about groups.
 <td> </td>
 </tr>
 <tr class="odd">
-<td><p><a href="#8">icon7</a></p></td>
+<td><p><a href="#icon1-8">icon7</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td> </td>
@@ -150,7 +149,7 @@ This table holds basic info about groups.
 <td> </td>
 </tr>
 <tr class="even">
-<td><p><a href="#8">icon8</a></p></td>
+<td><p><a href="#icon1-8">icon8</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -249,7 +248,7 @@ The GUID of the character. See characters.guid
 ### looterGuid
 
 Master looter's guid. See characters.guid
-If [lootMethod](#groups-lootMethod) is not 2, then it's group leader's guid.
+If [lootMethod](#lootmethod) is not 2, then it's group leader's guid.
 
 ### lootThreshold
 

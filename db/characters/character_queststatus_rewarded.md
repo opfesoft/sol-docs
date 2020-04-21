@@ -1,6 +1,5 @@
 # character\_queststatus\_rewarded
 
-
 **The \`character\_queststatus\_rewarded\` table**
 
 This table holds information of **every** rewarded quest to a player.

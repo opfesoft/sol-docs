@@ -1,6 +1,5 @@
 # character\_homebind
 
-
 **The \`character\_homebind\` table**
 
 Contains information on the location where characters get teleported when they use their Hearthstone.
@@ -96,7 +95,7 @@ Contains information on the location where characters get teleported when they u
 
 ### guid
 
-The GUID of the character. See [characters.guid](2129969.html#characters(table)-guid)
+The GUID of the character. See [characters.guid](characters.md#guid)
 
 ### mapId
 

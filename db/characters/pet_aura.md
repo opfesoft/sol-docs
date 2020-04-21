@@ -1,9 +1,6 @@
 # pet\_aura
 
-
 **The \`pet\_aura\` table**
-
-`table-no-description`
 
 ## Structure
 

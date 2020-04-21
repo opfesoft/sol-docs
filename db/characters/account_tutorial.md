@@ -1,6 +1,5 @@
 # account\_tutorial
 
-
 **The \`account\_tutorial\` table**
 
 This table is used to store the tutorial state of all the accounts.
@@ -40,7 +39,7 @@ This table is used to store the tutorial state of all the accounts.
 <td><p>Account Identifier</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#7">tut0</a></p></td>
+<td><p><a href="#tut0-7">tut0</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -50,7 +49,7 @@ This table is used to store the tutorial state of all the accounts.
 <td><p> </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#7">tut1</a></p></td>
+<td><p><a href="#tut0-7">tut1</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -60,7 +59,7 @@ This table is used to store the tutorial state of all the accounts.
 <td><p> </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#7">tut2</a></p></td>
+<td><p><a href="#tut0-7">tut2</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -70,7 +69,7 @@ This table is used to store the tutorial state of all the accounts.
 <td><p> </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#7">tut3</a></p></td>
+<td><p><a href="#tut0-7">tut3</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -80,7 +79,7 @@ This table is used to store the tutorial state of all the accounts.
 <td><p> </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#7">tut4</a></p></td>
+<td><p><a href="#tut0-7">tut4</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -90,7 +89,7 @@ This table is used to store the tutorial state of all the accounts.
 <td><p> </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#7">tut5</a></p></td>
+<td><p><a href="#tut0-7">tut5</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -100,7 +99,7 @@ This table is used to store the tutorial state of all the accounts.
 <td><p> </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#7">tut6</a></p></td>
+<td><p><a href="#tut0-7">tut6</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -110,7 +109,7 @@ This table is used to store the tutorial state of all the accounts.
 <td><p> </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#7">tut7</a></p></td>
+<td><p><a href="#tut0-7">tut7</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -126,7 +125,7 @@ This table is used to store the tutorial state of all the accounts.
 
 ### guid
 
-Account of the player. See [account.id](account_2130004.html#account-id).
+Account of the player. See [account.id](../auth/account.md#id).
 
 ### tut0-7
 

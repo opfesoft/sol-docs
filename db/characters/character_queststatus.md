@@ -1,6 +1,5 @@
 # character\_queststatus
 
-
 **The \`character\_queststatus\` table**
 
 Holds information on the quest status of each character.
@@ -261,12 +260,12 @@ Boolean 1 or 0 representing if the character has explored what was needed to exp
 
 ### mobcount1-4
 
-Current count of the number of kills or casts on the first creature or gameobject, if any. Corresponds with quest\_template.ReqCreatureOrGOCount
+Current count of the number of kills or casts on the first creature or gameobject, if any. Corresponds with quest\_template.RequiredNpcOrGoCount
 
 ### itemcount1-6
 
-Current item count for the first item in a delivery quest, if any. Corresponds with quest\_template.ReqItemCount
+Current item count for the first item in a delivery quest, if any. Corresponds with quest\_template.RequiredItemCount
 
 ### playercount
 
-Current player slay count. Required in quest\_template.PlayersSlain
+Current player slay count. Required in quest\_template.RequiredPlayerKills

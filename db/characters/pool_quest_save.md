@@ -1,6 +1,5 @@
 # pool\_quest\_save
 
-
 **The \`pool\_quest\_save\` table**
 
 `table-no-description|0`
@@ -56,8 +55,8 @@
 
 ### pool\_id
 
-[pool\_quest.entry](Pool+quest+tc2#Poolquesttc2-pool_entry)
+[pool\_quest.entry](../world/pool_quest.md#entry)
 
 ### quest\_id
 
-[quest\_template.id](Quest+template+tc2#Questtemplatetc2-Id)
+[quest\_template.id](../world/quest_template.md#id)

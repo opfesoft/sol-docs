@@ -1,6 +1,5 @@
 # spell\_linked\_spell
 
-
 **The \`spell\_linked\_spell\` table**
 
 This table provides data for spell linking system, telling it which spells trigger what, and under which conditions.
@@ -74,11 +73,11 @@ This table provides data for spell linking system, telling it which spells trigg
 
 ### spell\_trigger
 
-The spell, which when cast, will trigger the spell listed in [spell\_effect](#spell_linked_spell-spell_effect)
+The spell, which when cast, will trigger the spell listed in [spell\_effect](#spell_effect)
 
 ### spell\_ effect
 
-The spell that you want to be triggered. How this spell acts is determined by the [type](#spell_linked_spell-type) field.
+The spell that you want to be triggered. How this spell acts is determined by the [type](#type) field.
 
 ### type
 

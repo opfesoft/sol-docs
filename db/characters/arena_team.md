@@ -1,6 +1,5 @@
 # arena\_team
 
-
 **The \`arena\_team\` table**
 
 This table holds the main ArenaTeam information. All created teams or all teams in the process of being created have a record in this table.
@@ -194,7 +193,7 @@ Name of the Arena team
 
 ### captainGuid
 
-The GUID of the character who created the ArenaTeam. See [characters.guid](2129969.html#characters(table)-guid)
+The GUID of the character who created the ArenaTeam. See [characters.guid](characters.md#guid)
 
 ### type
 

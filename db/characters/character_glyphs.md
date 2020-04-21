@@ -1,6 +1,5 @@
 # character\_glyphs
 
-
 **The \`character\_glyphs\` table**
 
 Contains all the individual glyph data for each character.
@@ -50,7 +49,7 @@ Contains all the individual glyph data for each character.
 <td><p> </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#6">glyph1</a></p></td>
+<td><p><a href="#glyph1-6">glyph1</a></p></td>
 <td><p>smallint(5)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -60,7 +59,7 @@ Contains all the individual glyph data for each character.
 <td><p> </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#6">glyph2</a></p></td>
+<td><p><a href="#glyph1-6">glyph2</a></p></td>
 <td><p>smallint(5)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -70,7 +69,7 @@ Contains all the individual glyph data for each character.
 <td><p> </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#6">glyph3</a></p></td>
+<td><p><a href="#glyph1-6">glyph3</a></p></td>
 <td><p>smallint(5)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -80,7 +79,7 @@ Contains all the individual glyph data for each character.
 <td><p> </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#6">glyph4</a></p></td>
+<td><p><a href="#glyph1-6">glyph4</a></p></td>
 <td><p>smallint(5)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -90,7 +89,7 @@ Contains all the individual glyph data for each character.
 <td><p> </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#6">glyph5</a></p></td>
+<td><p><a href="#glyph1-6">glyph5</a></p></td>
 <td><p>smallint(5)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -100,7 +99,7 @@ Contains all the individual glyph data for each character.
 <td><p> </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#6">glyph6</a></p></td>
+<td><p><a href="#glyph1-6">glyph6</a></p></td>
 <td><p>smallint(5)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>

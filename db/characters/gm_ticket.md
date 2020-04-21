@@ -1,6 +1,5 @@
 # gm\_ticket
 
-
 **The \`gm\_tickets\` table**
 
 This table stores all tickets

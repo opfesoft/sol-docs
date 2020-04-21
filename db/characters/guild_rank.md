@@ -1,6 +1,5 @@
 # guild\_rank
 
-
 **The \`guild\_rank\` table**
 
 This table holds the information on all of the ranks available in a guild along with their names and what rights a person with that rank has.

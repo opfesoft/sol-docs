@@ -1,6 +1,5 @@
 # spell\_target\_position
 
-
 **The \`spell\_target\_position\` table**
 
 This table holds coordinate information on where the player should be teleported to when a spell with target type: TARGET\_DST\_DB(17).
@@ -96,11 +95,11 @@ This table holds coordinate information on where the player should be teleported
 
 ### id
 
-The spell ID. See [Spell.dbc](Spell)
+The spell ID. See Spell.dbc
 
 ### target\_map
 
-Map where the player should be teleported to. See [Map.dbc](Map).
+Map where the player should be teleported to. See [Map.dbc](../../dbc/Map.md).
 
 ### target\_position\_x
 

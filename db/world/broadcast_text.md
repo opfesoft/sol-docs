@@ -4,7 +4,7 @@
 
  
 
-This table (ref <https://github.com/TrinityCore/TrinityCore/commit/60e87db>) will have **everything** you need for your scripts' texts, such as: [gossips](gossip_menu_option.md), [creature texts](creature_text.md) and [npc\_text](npc_text.md)s.
+This table will have **everything** you need for your scripts' texts, such as: [gossips](gossip_menu_option.md), [creature texts](creature_text.md) and [npc\_text](npc_text.md)s.
 
 Its purpose is (will be) used as a globalized table containing the texts as mentionned above, and things like their sounds, their emotes and the languages in which the texts should be said.
 

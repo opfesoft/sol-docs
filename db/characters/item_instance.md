@@ -1,6 +1,5 @@
 # item\_instance
 
-
 **The \`item\_instance\` table**
 
 This table holds individual item instance information for all items currently equipped in some kind of character bag or bank, in auctionhouses, in guild banks or in mails.
@@ -180,19 +179,19 @@ The GUID of the item. This number is unique for each item instance.
 
 ### itemEnry
 
-[Item](item_template_2130222.html#item_template-entry) entry.
+[Item](../world/item_template.md#entry) entry.
 
 ### owner\_guid
 
-The GUID of the character who has ownership of this item. See [characters.guid](2129969.html#characters(table)-guid)
+The GUID of the character who has ownership of this item. See [characters.guid](characters.md#guid)
 
 ### creatorGuid
 
-[GUID](2129969.html#characters(table)-guid) of character who created the item.
+[GUID](characters.md#guid) of character who created the item.
 
 ### giftCreatorGuid
 
-[GUID](2129969.html#characters(table)-guid) of character who created the [item](character_gifts_2129986.html#character_gifts-item_guid).
+[GUID](characters.md#guid) of character who created the [item](character_gifts.md#item_guid).
 
 ### count
 

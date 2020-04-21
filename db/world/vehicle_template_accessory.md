@@ -1,9 +1,8 @@
 # vehicle\_template\_accessory
 
-
 **The \`vehicle\_template\_accessory\` table**
 
-Records in this table can be overwritten by [vehicle\_accessory](vehicle_accessory) table
+Records in this table can be overwritten by [vehicle\_accessory](vehicle_accessory.md) table
 
 ## Structure
 
@@ -106,15 +105,15 @@ Records in this table can be overwritten by [vehicle\_accessory](vehicle_accesso
 
 ### entry
 
-Entry of creature to be used as Vehicle. Entry from [creature_template](creature_template#entry).
+Entry of creature to be used as Vehicle. Entry from [creature_template](creature_template.md#entry).
 
 ### accessory\_entry
 
-Entry from [creature_template](creature_template#entry) to be used as the rider/turret/addon to the main vehicle. ID from creature\_template.
+Entry from [creature_template](creature_template.md#entry) to be used as the rider/turret/addon to the main vehicle. ID from creature\_template.
 
 ### seat\_id
 
-Vehicle seat in witch the accessory should be spawned. See [VehicleSeat.dbc](VehicleSeat).
+Vehicle seat in witch the accessory should be spawned. See VehicleSeat.dbc.
 
 ### minion
 

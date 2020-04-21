@@ -1,6 +1,5 @@
 # character\_instance
 
-
 **The \`character\_instance\` table**
 
 Contains the instance data for characters.
@@ -66,12 +65,12 @@ Contains the instance data for characters.
 
 ### guid
 
-The GUID of the character. See [characters.guid](Characters+tc2#Characterstc2-guid)
+The GUID of the character. See [characters.guid](characters.md#guid)
 
 ### instance
 
-The instance ID. See [instance.id](Instance+tc2#Instancetc2-id)
+The instance ID. See [instance.id](instance.md#id)
 
 ### permanent
 
-Boolean 0 or 1 controlling if the player has been bound to the instance. A player is bound to the instance only when he (or his party/raid) kills a creature with the CREATURE\_FLAG\_EXTRA\_INSTANCE\_BIND flag set in the [flags\_extras](creature_template#creature_template-flags_extra) field.
+Boolean 0 or 1 controlling if the player has been bound to the instance. A player is bound to the instance only when he (or his party/raid) kills a creature with the CREATURE\_FLAG\_EXTRA\_INSTANCE\_BIND flag set in the [flags\_extras](../world/creature_template.md#flags_extra) field.

@@ -1,11 +1,10 @@
 # waypoints
 
-
-###### **Used by [SAI](smart_scripts)**
+###### **Used by [SAI](smart_scripts.md)**
 
 ### Information
 
-Contains waypoint data, allowing creatures to move to certain X, Y, and Z coordinates. See also [Waypoints-Information](Waypoints-Information) for general information about waypoints.
+Contains waypoint data, allowing creatures to move to certain X, Y, and Z coordinates. See also [Waypoints-Information](../../misc/Waypoints-Information.md) for general information about waypoints.
 
 ## Structure
 
@@ -20,7 +19,7 @@ Contains waypoint data, allowing creatures to move to certain X, Y, and Z coordi
 
 #### entry
 
-Path ID. Standard way of assigning an ID is [creature\_template.entry](creature_template#entry) * 100, but any random number can be used here.
+Path ID. Standard way of assigning an ID is [creature\_template.entry](creature_template.md#entry) * 100, but any random number can be used here.
 
 #### pointid
 

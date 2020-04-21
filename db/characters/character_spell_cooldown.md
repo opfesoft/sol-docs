@@ -1,6 +1,5 @@
 # character\_spell\_cooldown
 
-
 **The \`character\_spell\_cooldown\` table**
 
 Holds the remaining cooldowns from either character spells or item spells for each character.

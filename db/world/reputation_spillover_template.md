@@ -1,9 +1,6 @@
 # reputation\_spillover\_template
 
-
 **The \`reputation\_spillover\_rate\` table**
-
-`field-no-description|0`
 
 ## Structure
 
@@ -32,7 +29,7 @@
 </td>
 </tr>
 <tr class="odd">
-<td><a href="#4">faction1</a></td>
+<td><a href="#faction1-4">faction1</a></td>
 <td><p>smallint(6)</p></td>
 <td><p>unsigned</p></td>
 <td><br />
@@ -45,7 +42,7 @@
 </td>
 </tr>
 <tr class="even">
-<td><p><a href="#4">rate_1</a></p></td>
+<td><p><a href="#rate1-4">rate_1</a></p></td>
 <td>float</td>
 <td>signed</td>
 <td><br />
@@ -58,7 +55,7 @@
 </td>
 </tr>
 <tr class="odd">
-<td><p><a href="#4">rank1</a></p></td>
+<td><p><a href="#rank1-4">rank1</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td>unsigned</td>
 <td><br />
@@ -71,7 +68,7 @@
 </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#4">faction2</a></p></td>
+<td><p><a href="#faction1-4">faction2</a></p></td>
 <td><p>smallint(6)</p></td>
 <td>unsigned</td>
 <td><br />
@@ -84,7 +81,7 @@
 </td>
 </tr>
 <tr class="odd">
-<td><p><a href="#4">rate_2</a></p></td>
+<td><p><a href="#rate1-4">rate_2</a></p></td>
 <td><p>float</p></td>
 <td><p>signed</p></td>
 <td><p><br />
@@ -97,7 +94,7 @@
 </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#4">rank_2</a></p></td>
+<td><p><a href="#rank1-4">rank_2</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
 <td><p><br />
@@ -110,7 +107,7 @@
 </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#4">faction3</a></p></td>
+<td><p><a href="#faction1-4">faction3</a></p></td>
 <td><p>smallint(6)</p></td>
 <td><p>unsigned</p></td>
 <td><p><br />
@@ -123,7 +120,7 @@
 </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#4">rate_3</a></p></td>
+<td><p><a href="#rate1-4">rate_3</a></p></td>
 <td><p>float</p></td>
 <td><p>signed</p></td>
 <td><p><br />
@@ -136,7 +133,7 @@
 </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#4">rank_3</a></p></td>
+<td><p><a href="#rank1-4">rank_3</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
 <td><p><br />
@@ -149,7 +146,7 @@
 </td>
 </tr>
 <tr class="even">
-<td><p><a href="#4">faction4</a></p></td>
+<td><p><a href="#faction1-4">faction4</a></p></td>
 <td><p>smallint(6)</p></td>
 <td><p>unsigned</p></td>
 <td><p><br />
@@ -162,7 +159,7 @@
 </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#4">rate_4</a></p></td>
+<td><p><a href="#rate1-4">rate_4</a></p></td>
 <td><p>float</p></td>
 <td><p>signed</p></td>
 <td><p><br />
@@ -175,7 +172,7 @@
 </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#4">rank_4</a></p></td>
+<td><p><a href="#rank1-4">rank_4</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
 <td><p><br />

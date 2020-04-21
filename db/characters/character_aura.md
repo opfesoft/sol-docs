@@ -1,6 +1,5 @@
 # character\_aura
 
-
 **The \`character\_aura\` table**
 
 Contains aura information that is loaded when a character is loaded, so the auras that were on the character when it logged out are still kept when it logs back in. A spell can have up to three auras, one in each of its effects.

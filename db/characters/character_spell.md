@@ -1,6 +1,5 @@
 # character\_spell
 
-
 **The \`character\_spell\` table**
 
 Holds information for each character's spells.

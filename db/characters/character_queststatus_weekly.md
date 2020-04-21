@@ -1,6 +1,5 @@
 # character\_queststatus\_weekly
 
-
 **The \`character\_queststatus\_weekly\` table**
 
 Holds information on the weekly quest status of every player. The timers reset at the same time the Raids reset.

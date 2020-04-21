@@ -1,6 +1,5 @@
 # petition
 
-
 **The \`petition\` table**
 
 This table holds information on all ongoing petitions for a guild or for an arena team.

@@ -1,15 +1,10 @@
 # mail
 
-
 **The \`mail\` table**
 
 This table contains main data about all mails in the game.
 
 ## Structure
-
- 
-
- 
 
 <table>
 <colgroup>
@@ -213,11 +208,11 @@ Id from MailTemplate.dbc
 
 ### sender
 
-In this field is entered sender [character.guid.](2129969.html#characters(table)-guid)
+In this field is entered sender [character.guid](characters.md#guid)
 
 ### receiver
 
-Here is receiver's [character.guid.](2129969.html#characters(table)-guid)
+Here is receiver's [character.guid](characters.md#guid)
 
 ### subject
 
@@ -233,7 +228,7 @@ Default: 0,
 
 When is set to 1, that mail can contain items.
 
-For items look at [mail\_items](mail_items) table.
+For items look at [mail\_items](mail_items.md) table.
 
 ### expire\_time
 

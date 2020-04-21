@@ -1,6 +1,5 @@
 # character\_stats
 
-
 **The \`character\_stats\` table**
 
 This table holds information on all the stats regarding the character. Used for external applications such as websites.

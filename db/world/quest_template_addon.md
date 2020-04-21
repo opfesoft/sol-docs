@@ -3,7 +3,7 @@
 
 **Table: quest\_template\_addon**
 
-Contains extra definitions like linking quests, dependencies and requirements for the quests defined in the [quest\_template](quest_template) table to become available to the player.
+Contains extra definitions like linking quests, dependencies and requirements for the quests defined in the [quest\_template](quest_template.md) table to become available to the player.
 
 ## Structure
 

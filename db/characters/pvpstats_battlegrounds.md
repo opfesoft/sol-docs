@@ -1,7 +1,6 @@
 # pvpstats\_battlegrounds
 
-
-**The \`[pvpstats\_battlegrounds](http://collab.kpsn.org/pages/createpage.action?spaceKey=tc&title=pvpstats_battlegrounds&linkCreation=true&fromPageId=331580)\` table**
+**The \`pvpstats\_battlegrounds\` table**
 
 This table holds datas about BattleGrounds scores. To enable storing this kind of informations, set **Battleground . StoreStatistics . Enable   =   1** in **worldserver.config** file.
 

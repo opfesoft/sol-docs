@@ -1,6 +1,5 @@
 # pet\_spell
 
-
 **The \`pet\_spell\` table**
 
 This table holds information on individual pet spells.

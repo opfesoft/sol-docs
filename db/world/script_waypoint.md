@@ -1,17 +1,16 @@
-
 # script\_waypoint
 
-###### **Used by [CreatureAI](https://github.com/azerothcore/azerothcore-wotlk/blob/master/src/server/game/AI/ScriptedAI/ScriptedCreature.h#L159)**
+###### **Used by [CreatureAI](https://gitlab.com/opfesoft/sol/-/blob/master/src/server/game/AI/ScriptedAI/ScriptedCreature.h#L159)**
 
 ### Information
 
-Used for CreatureAI waypoint movement. See also [Waypoints-Information](Waypoints-Information) for general information about waypoints.
+Used for CreatureAI waypoint movement. See also [Waypoints-Information](../../misc/Waypoints-Information.md) for general information about waypoints.
 
 ## Structure
 
 | Field                            | Type         | Attributes | Key | Null | Default |
 |----------------------------------|--------------|------------|-----|------|---------|
-| [entry](creature_template#entry) | mediumint(8) | unsigned   | PRI | NO   | 0       |
+| [entry](creature_template.md#entry) | mediumint(8) | unsigned   | PRI | NO   | 0       |
 | [pointid](#pointid)              | mediumint(8) | unsigned   | PRI | NO   | 0       |
 | [location_x](#location_x)        | float        |            |     | NO   | 0       |
 | [location_y](#location_y)        | float        |            |     | NO   | 0       |
@@ -21,7 +20,7 @@ Used for CreatureAI waypoint movement. See also [Waypoints-Information](Waypoint
 
 ### entry
 
-Entry of the creature, see [creature\_template.entry](creature_template#entry).
+Entry of the creature, see [creature\_template.entry](creature_template.md#entry).
 
 ### pointid
 

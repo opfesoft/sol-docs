@@ -1,9 +1,6 @@
 # character\_achievement\_progress
 
-
 **The \`character\_achievement\_progress\` table**
-
-`table-no-description`
 
 ## Structure
 
@@ -80,7 +77,7 @@ The GUID of the character. See characters.guid
 
 ### criteria
 
-Criteria from [Achievement\_Criteria.dbc](Achievement_Criteria)
+Criteria from [Achievement\_Criteria.dbc](../../dbc/Achievement_Criteria.md)
 
 ### counter
 

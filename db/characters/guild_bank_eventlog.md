@@ -1,9 +1,6 @@
 # guild\_bank\_eventlog
 
-
 **The \`guild\_bank\_eventlog\` table**
-
-`table-no-description`
 
 ## Structure
 

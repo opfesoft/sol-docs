@@ -1,9 +1,6 @@
 # spell\_pet\_auras
 
-
 **The \`spell\_pet\_auras\` table**
-
-`table-no-description`
 
 <table>
 <colgroup>

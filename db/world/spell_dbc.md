@@ -1,6 +1,5 @@
 # spell\_dbc
 
-
 **The \`spell\_dbc\` table**
 
 This table contains data regarding serverside spells which are not to be found in Client DBC files.
@@ -1410,7 +1409,7 @@ Effect1, Effect2 and Effect3. Effect\_ID of the Spell\_Effect. A Spell can only 
 
 **SPELL\_EFFECT\_ID**
 
-Effect\_IDs of [Effect1, Effect2 and/or Effect3](#spell_dbc-Effect).
+Effect\_IDs of [Effect1, Effect2 and/or Effect3](#effect).
 
 | Effect_ID | Spell_Effect                   | Description                                                                                                                             |
 |-----------|--------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------|
@@ -1580,5 +1579,3 @@ Effect\_IDs of [Effect1, Effect2 and/or Effect3](#spell_dbc-Effect).
 | 163       | EffectNULL                     | unused                                                                                                                                  |
 | 164       | EffectRemoveAura               | SPELL_EFFECT_REMOVE_AURA                                                                                                                |
   
-
-/td-EffectSkinPlayerCorpseconfluenceTdtrp

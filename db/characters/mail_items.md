@@ -1,6 +1,5 @@
 # mail\_items
 
-
 **The \`mail\_items\` table**
 
 This table contains data regarding items from item\_instance which are being sent via email.

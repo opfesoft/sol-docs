@@ -1,6 +1,5 @@
 # character\_queststatus\_daily
 
-
 **The \`character\_queststatus\_daily\` table**
 
 Holds information on the daily quest status of every player. The quest must have type = 87 or the 4096 flag at QuestFlags.

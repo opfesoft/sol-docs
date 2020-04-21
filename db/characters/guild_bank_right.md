@@ -1,6 +1,5 @@
 # guild\_bank\_right
 
-
 **The \`guild\_bank\_right\` table**
 
 This table hold informations regarding the right guild member have to withdraw, deposit etc at the guild bank.

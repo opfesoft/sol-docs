@@ -1,6 +1,5 @@
 # account\_data
 
-
 **The \`account\_data\` table**
 
 Contains data about client account and settings.
@@ -76,7 +75,7 @@ Contains data about client account and settings.
 
 ### account
 
-[Account.id](http://www.azerothcore.org/wiki/account#id).
+[Account.id](../auth/account.md#id).
 
 ### type
 

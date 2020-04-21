@@ -1,6 +1,5 @@
 # spell\_group
 
-
 **The \`spell\_group\` table**
 
 Table used to group spells for varius checks in the core. One spell may be added to many groups, but can occur in one group only once.

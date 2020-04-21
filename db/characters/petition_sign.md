@@ -1,6 +1,5 @@
 # petition\_sign
 
-
 **The \`petition\_sign\` table**
 
 This table holds information on all the signatures of a petition for either a guild or an arena team.

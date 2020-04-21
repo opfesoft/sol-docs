@@ -1,6 +1,5 @@
 # vehicle\_accessory
 
-
 **The \`vehicle\_accessory\` table**
 
 This table is used to tell the server to spawn an additional NPC with this vehicle.
@@ -106,7 +105,7 @@ This table is used to tell the server to spawn an additional NPC with this vehic
 
 ### guid
 
-Guid of creature to be used as Vehicle, to be obtained from [creature](creature) table.
+Guid of creature to be used as Vehicle, to be obtained from [creature](creature.md) table.
 
 ### accessory\_entry
 
@@ -115,7 +114,7 @@ Flying vehicles must have InhabitType set to (4 - Flying).
 
 ### seat\_id
 
-Vehicle seat in witch the accessory should be spawned. See [VehicleSeat.dbc](VehicleSeat)
+Vehicle seat in witch the accessory should be spawned. See VehicleSeat.dbc
 
 ### minion
 

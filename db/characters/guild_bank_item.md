@@ -1,6 +1,5 @@
 # guild\_bank\_item
 
-
 **The \`guild\_bank\_item\` table**
 
 This table holds all item information for items that are stored in the guild bank.
@@ -76,7 +75,7 @@ This table holds all item information for items that are stored in the guild ban
 
 ### guildid
 
-The guild ID who owns the bank. See [guild.guildid](guild_2130175.html#guild-guildid)
+The guild ID who owns the bank. See [guild.guildid](guild.md#guildid)
 
 ### TabId
 
@@ -88,4 +87,4 @@ The slot that the item is placed in in the tab.
 
 ### item\_guid
 
-The item guid. See  [item\_instance.guid](Item+instance+tc2#Iteminstancetc2-guid)
+The item guid. See  [item\_instance.guid](item_instance.md#guid)

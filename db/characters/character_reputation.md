@@ -1,6 +1,5 @@
 # character\_reputation
 
-
 **The \`character\_reputation\` table**
 
 This table holds the reputation information for each character.

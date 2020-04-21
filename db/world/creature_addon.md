@@ -173,7 +173,7 @@ NOTICE: The data for this table is largely incomplete and is mostly just a regur
 ### guid/entry
 
 For creature\_addon, this field signifies a unique creature guid. It will affect just that creature whose GUID matches the one specified here.
-For creature\_template\_addon, this field signifies the [creature\_template.entry](creature_template#creature_template-entry). It will affect all spawned creatures using that template entry.
+For creature\_template\_addon, this field signifies the [creature\_template.entry](creature_template.md#creature_template-entry). It will affect all spawned creatures using that template entry.
 
 ### path\_id
 
@@ -217,7 +217,7 @@ List of few known values and what their visual effects on the creature
 
 Emote ID that the creature should continually perform.
 
-List of often used emote IDs and what they do can be found [here](Emotes).
+List of often used emote IDs and what they do can be found [here](../../dbc/Emotes.md).
 
 ### aiAnimKit / movementAnimKit / meleeAnimKit
 

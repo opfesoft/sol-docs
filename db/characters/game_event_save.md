@@ -1,9 +1,6 @@
 # game\_event\_save
 
-
 **The \`game\_event\_save\` table**
-
-`table-no-description`
 
 ## Structure
 

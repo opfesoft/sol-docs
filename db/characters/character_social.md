@@ -1,6 +1,5 @@
 # character\_social
 
-
 **The \`character\_social\` table**
 
 Contains data about characters' friends/ignored list.

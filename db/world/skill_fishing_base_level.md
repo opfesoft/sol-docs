@@ -1,6 +1,5 @@
 # skill\_fishing\_base\_level
 
-
 **The \`skill\_fishing\_base\_level\` table**
 
 This table controls the minimum skill level required in fishing to fish in a certain area.
@@ -56,7 +55,7 @@ This table controls the minimum skill level required in fishing to fish in a cer
 
 ### entry
 
-The area ID see [AreaTable.dbc](AreaTable).
+The area ID see [AreaTable.dbc](../../dbc/AreaTable.md).
 
 ### skill
 

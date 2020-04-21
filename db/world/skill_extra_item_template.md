@@ -1,6 +1,5 @@
 # skill\_extra\_item\_template
 
-
 **The \`skill\_extra\_item\_template\` table**
 
 This table holds information about when using certain profession spells, you have the chance of creating more than one copy of the item.
@@ -76,7 +75,7 @@ This table holds information about when using certain profession spells, you hav
 
 ### spellId
 
-The spell ID that creates the item. See [Spell.dbc](Spell)
+The spell ID that creates the item. See Spell.dbc
 
 ### requiredSpecialization
 

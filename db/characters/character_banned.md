@@ -1,6 +1,5 @@
 # character\_banned
 
-
 **The \`character\_banned\` table**
 
 This table lists all of the characters that have been banned along with the date when (or if) the ban will expire.
@@ -96,7 +95,7 @@ This table lists all of the characters that have been banned along with the date
 
 ### guid
 
-The character guid. See [characters.guid](2129969.html#characters(table)-id).
+The character guid. See [characters.guid](characters.md#guid).
 
 ### bandate
 

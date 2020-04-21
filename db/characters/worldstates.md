@@ -1,6 +1,5 @@
 # worldstates
 
-
 **The \`worldstates\` table**
 
 This table holds data the Core needs to handle variables (like timer for arena point automatic flush).

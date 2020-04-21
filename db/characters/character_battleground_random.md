@@ -1,6 +1,5 @@
 # character\_battleground\_random
 
-
 **The \`character\_battleground\_random\` table**
 
 This table stores battlegrounds IDs for random battleground sessions.
@@ -46,4 +45,4 @@ This table stores battlegrounds IDs for random battleground sessions.
 
 ### guid
 
-The guid of the character who has already won random battleground today. See [characters.guid](2129969.html#characters(table)-guid)
+The guid of the character who has already won random battleground today. See [characters.guid](characters.md#guid)

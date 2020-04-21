@@ -1,6 +1,5 @@
 # account\_instance\_times
 
-
 **The \`account\_instance\_times\` table**
 
 This table controls how many instances the account's characters have been in last 1 hour. If there is 5 records per account, the player won't be able to enter another instance.
@@ -66,7 +65,7 @@ This table controls how many instances the account's characters have been in las
 
 ### accountId
 
-Account of the player. See [account.id](account_2130004.html#account-id).
+Account of the player. See [account.id](../auth/account.md#id).
 
 ### instanceId
 

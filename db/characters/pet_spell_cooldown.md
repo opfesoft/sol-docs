@@ -1,6 +1,5 @@
 # pet\_spell\_cooldown
 
-
 **The \`pet\_spell\_cooldown\` table**
 
 This table holds information on pet spell cooldowns.

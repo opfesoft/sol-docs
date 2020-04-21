@@ -8,7 +8,7 @@ Well, according to vocabulary the meaning of the word "loot" is good for corpse 
 
 This table format is used for 12 different tables to generate different loot items for different things. The 12 tables are creature\_loot\_template, disenchant\_loot\_template, fishing\_loot\_template, gameobject\_loot\_template, item\_loot\_template, pickpocketing\_loot\_template, prospecting\_loot\_template, skinning\_loot\_template, quest\_mail\_loot\_template, reference\_loot\_template, milling\_loot\_template, spell\_loot\_template. The general description here is valid for all 12 because the loot system is the same for all eleven.
 
-Loot templates define only items in the loot. See comments about money drop in corpse, pickpocketing and luggage loot in [creature\_template](creature_template) and [item\_template](item_template).
+Loot templates define only items in the loot. See comments about money drop in corpse, pickpocketing and luggage loot in [creature\_template](creature_template.md) and [item\_template](item_template.md).
 
 ## Structure
 

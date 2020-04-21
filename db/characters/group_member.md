@@ -1,6 +1,5 @@
 # group\_member
 
-
 **The \`group\_member\` table**
 
 This table holds info about group members.
@@ -39,7 +38,7 @@ This table holds info about group members.
 <td><p>unsigned</p></td>
 <td><p> </p></td>
 <td><p>NO</p></td>
-<td><p>_</p></td>
+<td><p></p></td>
 <td> </td>
 <td> </td>
 </tr>
@@ -90,11 +89,11 @@ This table holds info about group members.
 
 #### guid
 
-GUID of the group. See [groups.guid](Groups+tc2#Groupstc2-guid).
+GUID of the group. See [groups.guid](groups.md#guid).
 
 #### memberGuid
 
-GUID of the character member of the group. See [characters.guid](Characters+tc2#Characterstc2-guid).
+GUID of the character member of the group. See [characters.guid](characters.md#guid).
 
 <table>
 <colgroup>
