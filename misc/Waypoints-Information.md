@@ -1,4 +1,4 @@
-# Waypoints and pathes
+# Waypoints and paths
 
 ### Different kinds of waypoint paths
 
