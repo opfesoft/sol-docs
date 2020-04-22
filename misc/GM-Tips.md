@@ -2,6 +2,7 @@
 
 - [Template IDs vs GUIDs](#template-ids-vs-guids)
 - [Phasing](#phasing)
+- [Testing NPCs](#testing-npcs)
 - [Testing quests](#testing-quests)
 - [Set reputation](#set-reputation)
 - [A few useful GM commands](#a-few-useful-gm-commands)
@@ -31,6 +32,17 @@ Using 4 Bytes it is possible to combine a total of 32 phases:
 ...
 1111 1111 1111 1111 1111 1111 1111 1111 (0xFFFFFFFF) All 32 phases together
 ```
+
+## Testing NPCs
+
+If testing an existing creature, teleport to it:
+- Using the creature ID: `.go c id 620` (teleport to the first creature with ID 620 found, in this case the first chicken found in the game world)
+- Using the GUID: `.go c 79947` (teleport to the spawned creature with GUID 79947, in this case a rabbit in Northshire Abbey)
+
+If testing other creatures they can be temporarily spawned using this command:
+`.np a t 620` (will spawn a chicken at the position of the GM)
+
+**Important: Never spawn creatures using command `.np a` without "t(emp)", as those are saved permanently to the DB**
 
 ## Testing quests
 
@@ -88,13 +100,14 @@ See "[GM-Commands](GM-Commands.md)" for a complete overview.
 | `.respawn`                       | `.resp`                 |                                  | Respawn the selected creature/gameobject; if nothing is selected respawn all near creatures / gameobjects |
 | `.cheat cooldown`                | `.che c`                |                                  | Toggle cast cooldown off/on |
 | `.instance unbind all`           | `.i u all`              |                                  | Unbind all instances |
-| `.quest add <id>`                | `.q a <id>`             | `.q a 123`                       | Add the specified quest to the quest log |
-| `.quest complete <id>`           | `.q c <id>`             | `.q c 123`                       | Mark the specified quest as completed (has to be added be added before) |
-| `.quest reward <id>`             | `.q rew <id>`           | `.q rew 123`                     | Reward the specified quest (has to be completed before) |
-| `.quest remove <id>`             | `.q rem <id>`           | `.q rem 123`                     | Remove the specified quest (will also reset rewarded quests, so this should always be used after testing quests) |
-| `.go creature id <id>`           | `.go c id <id>`         | `.go c id 123`                   | Teleport to the first creature with the specified template ID (the ID used by wowhead etc.) |
-| `.go creature <guid>`            | `.go c <guid>`          | `.go c 123`                      | Teleport to the creature with the specified GUID (**G**lobally **U**nique **Id**entifier, the unique ID of the spawned creature) |
+| `.quest add <id>`                | `.q a <id>`             | `.q a 4284`                       | Add the specified quest to the quest log |
+| `.quest complete <id>`           | `.q c <id>`             | `.q c 4284`                       | Mark the specified quest as completed (has to be added be added before) |
+| `.quest reward <id>`             | `.q rew <id>`           | `.q rew 4284`                     | Reward the specified quest (has to be completed before) |
+| `.quest remove <id>`             | `.q rem <id>`           | `.q rem 4284`                     | Remove the specified quest (will also reset rewarded quests, so this should always be used after testing quests) |
+| `.go creature id <id>`           | `.go c id <id>`         | `.go c id 620`                   | Teleport to the first creature with the specified template ID (the ID used by wowhead etc.) |
+| `.go creature <guid>`            | `.go c <guid>`          | `.go c 79947`                    | Teleport to the creature with the specified GUID (**G**lobally **U**nique **Id**entifier, the unique ID of the spawned creature) |
 | `.go <x> <y> <z> <map>`          |                         | `.go 1629.36 -4373.39 31.2564 1` | Teleport to the specified coordinates on the specified [map](../dbc/Map.md) |
 | `.teleport <location>`           | `.t <location>`         | `.t Orgrimmar`                   | Teleport to the specified [location](../db/world/game_tele.md); use the ".lookup" command to search for locations, e.g. `.lookup tele orgr` |
 | `.lookup <subcommand>`           | `.lo <subcommand>`      | `.lo sp Uber Heal`               | Lookup various topics, e.g. skills, spells, creatures, teleport locations etc.; call ".lookup" without sub-command for a list of possible values |
 | `.modify phase <phasemask>`      | `.mo p <phasemask>`     | `.mo p 64`                       | Change phase mask of the selected creature or your own if no creature is selected. See [Phasing](#phasing) for details concerning phasing |
+| `.npc add temp <id>`             | `.np a t <id>`          | `.np a t 620`                    | Spawn a temporary NPC with the specified creature ID at the position of the GM; the temporary creature is not saved to the DB |
