@@ -111,3 +111,7 @@ See "[GM-Commands](GM-Commands.md)" for a complete overview.
 | `.lookup <subcommand>`           | `.lo <subcommand>`      | `.lo sp Uber Heal`               | Lookup various topics, e.g. skills, spells, creatures, teleport locations etc.; call ".lookup" without sub-command for a list of possible values |
 | `.modify phase <phasemask>`      | `.mo p <phasemask>`     | `.mo p 64`                       | Change phase mask of the selected creature or your own if no creature is selected. See [Phasing](#phasing) for details concerning phasing |
 | `.npc add temp <id>`             | `.np a t <id>`          | `.np a t 620`                    | Spawn a temporary NPC with the specified creature ID at the position of the GM; the temporary creature is not saved to the DB |
+| `.learn <id>`                    | `.l <id>`               | `.l 1908`                        | Learn the spell with the specified ID (either targeted player or self) |
+| `.unlearn <id>`                  | `.unl <id>`             | `.unl 1908`                      | Unlearn the spell with the specified ID (either targeted player or self) |
+| `.aura <id>`                     | `.au <id>`              | `.au 1908`                       | Add aura with the specified spell ID to the target (or self) |
+| `.unaura <id>`                   | `.u <id>`               | `.u 1908`                        | Remove aura with the specified spell ID to the target (or self); if using "all" as ID all auras will be removed |

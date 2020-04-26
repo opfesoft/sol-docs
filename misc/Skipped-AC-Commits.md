@@ -2,6 +2,17 @@ Skipped AC commits (just as a reminder and documentation):
 
 | commit       | date       | comment |
 |--------------|------------|---------|
+| sol@49cff4ab | 2020-04-26 | follow-up sol@fe1815d4 |
+| sol@fe1815d4 | 2020-04-26 | **TODO:** SQL script has to be reworked as it will delete existing NPCs on other maps |
+| sol@5f2f68c5 | 2020-04-23 | CI |
+| sol@9cc5bcc1 | 2020-04-23 | CI |
+| sol@cee55da4 | 2020-04-22 | CI |
+| sol@fe5b46f3 | 2020-04-21 | not needed, the Ragefire Shaman is working correctly; actually this commit is a regression: Lightning Bolt does not prevent combat movement anymore and is not interrupted by Healing Wave |
+| sol@13979719 | 2020-04-19 | CI |
+| sol@2514f8fc | 2020-04-18 | not needed, may be taken over later if it is actually used anywhere |
+| sol@f381bd47 | 2020-04-17 | not needed, may be taken over later if it is actually used anywhere |
+| sol@6a410efa | 2020-04-17 | not needed, may be taken over later if it is actually used anywhere |
+| sol@8aa80eef | 2020-04-16 | not needed, may be taken over later if it is actually used anywhere |
 | sol@9174e1eb | 2020-04-08 | follow-up sol@2abde9bd |
 | sol@2abde9bd | 2020-04-08 | SQL script has been reworked, see sol@83b99ab9 |
 | sol@44c3bef1 | 2020-04-05 | follow-up sol@f821b0c7 |
