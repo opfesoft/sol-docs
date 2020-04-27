@@ -3,7 +3,7 @@ Skipped AC commits (just as a reminder and documentation):
 | commit       | date       | comment |
 |--------------|------------|---------|
 | sol@49cff4ab | 2020-04-26 | follow-up sol@fe1815d4 |
-| sol@fe1815d4 | 2020-04-26 | **TODO:** SQL script has to be reworked as it will delete existing NPCs on other maps |
+| sol@fe1815d4 | 2020-04-26 | SQL script has been reworked, see sol@fa480f63; the original script will delete existing NPCs on other maps and also contains many other bugs |
 | sol@5f2f68c5 | 2020-04-23 | CI |
 | sol@9cc5bcc1 | 2020-04-23 | CI |
 | sol@cee55da4 | 2020-04-22 | CI |
@@ -14,13 +14,13 @@ Skipped AC commits (just as a reminder and documentation):
 | sol@6a410efa | 2020-04-17 | not needed, may be taken over later if it is actually used anywhere |
 | sol@8aa80eef | 2020-04-16 | not needed, may be taken over later if it is actually used anywhere |
 | sol@9174e1eb | 2020-04-08 | follow-up sol@2abde9bd |
-| sol@2abde9bd | 2020-04-08 | SQL script has been reworked, see sol@83b99ab9 |
+| sol@2abde9bd | 2020-04-08 | SQL script has been reworked, see sol@83b99ab9 and sol@0c893298 |
 | sol@44c3bef1 | 2020-04-05 | follow-up sol@f821b0c7 |
 | sol@f821b0c7 | 2020-04-05 | SQL script has been reworked, see sol@3568b8f6 |
 | sol@d22251bc | 2020-04-04 | split into 2 commits: 1. contains the actual change, 2. contains sol@ea709de5 and its fix; see sol@bc224cdb and sol@1db927b3 |
 | sol@378cd6fe | 2020-04-04 | spell "Silenced - You can only chat with GMs." not needed (could also use GM command "mute") |
 | sol@397c5d91 | 2020-04-02 | follow-up sol@9d0ebcd8 |
-| sol@9d0ebcd8 | 2020-04-02 | unnecessary change to table "battleground_template" |
+| sol@9d0ebcd8 | 2020-04-02 | unnecessary change to table "battleground\_template" |
 | sol@cfdbf00a | 2020-04-01 | only needed for mod-learn-spells |
 | sol@ea709de5 | 2020-03-31 | bugged (SQL scripts getting added multiple times) |
 | sol@f9f3efe0 | 2020-03-29 | follow-up sol@ccb1d813 |
