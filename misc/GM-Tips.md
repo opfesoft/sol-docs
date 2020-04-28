@@ -20,7 +20,7 @@ A bit more technical information on how the GUID is handled internally by the co
 - Data type: uint64
 - Consists of 3 components:
   - **High:** Identify the entity type (creature, gameobject, player etc.)
-  - **Entry:** Used for entry (ID) of gameobjects and creatures or the pet number, not used by items, player etc. (see [IsGuidHaveEnPart in ObjectDefines.h](https://gitlab.com/opfesoft/sol/-/blob/master/src/server/game/Entities/Object/ObjectDefines.h#L201)
+  - **Entry:** Used for entry (ID) of gameobjects and creatures or the pet number, not used by items, player etc. (see [IsGuidHaveEnPart in ObjectDefines.h](https://gitlab.com/opfesoft/sol/-/blob/master/src/server/game/Entities/Object/ObjectDefines.h#L201))
   - **Low:** The actual GUID that is saved to the DB
 
 ## Phasing
