@@ -415,7 +415,7 @@
 
 <!-- -->
 
--   EntryOrGuid &lt; 0: guid of the creature / game object / etc.
+-   EntryOrGuid &lt; 0: guid of the creature / game object / etc. (overrides existing SAI for entries)
 
 <!-- -->
 

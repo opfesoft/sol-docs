@@ -13,14 +13,22 @@
 Creatures and gameobjects use specific template IDs (the IDs also seen on wowhead etc.) which refer to a template of the
 [creature](../db/world/creature_template.md) or [gameobject](../db/world/gameobject_template.md) describing all basic attributes.
 The GUID (**G**lobally **U**nique **Id**entifier) is used to identify a specific spawned [creature](../db/world/creature.md) or [gameobject](../db/world/gameobject.md).
-Multiple spawned creatures or gameobjects can refer to the same template ID, e.g. city guards etc.
+Multiple spawned creatures or gameobjects can refer to the same template ID (e.g. city guards).
+
+A bit more technical information on how the GUID is handled internally by the core:
+
+- Data type: uint64
+- Consists of 3 components:
+  - **High:** Identify the entity type (creature, gameobject, player etc.)
+  - **Entry:** Used for entry (ID) of gameobjects and creatures or the pet number, not used by items, player etc. (see [IsGuidHaveEnPart in ObjectDefines.h](https://gitlab.com/opfesoft/sol/-/blob/master/src/server/game/Entities/Object/ObjectDefines.h#L201)
+  - **Low:** The actual GUID that is saved to the DB
 
 ## Phasing
 
 Each creature/gameobject has a phase mask, a bit mask combining the phases in which the creature is visible, e.g. phase 1 = 1, 2 = 2, 3 = 4, 4 = 8, 5 = 16 etc.
 So a creature which should be visible in phases 2 and 4 would use phase mask 2+8 = 10. You can modify your phase as GM using the command "modify phase".
-If you use "gm on" you automatically set your own phase mask to "PHASEMASK_ANYWHERE" (0xFFFFFFFF), so you see all phases together. For a player the phases are
-managed via specific auras, e.g. spell 59062 which forces the player to only see phase 7 (bit 64). This is normally handled via table "[spell_area](../db/world/spell_area.md)",
+If you use "gm on" you automatically set your own phase mask to "PHASEMASK\_ANYWHERE" (0xFFFFFFFF), so you see all phases together. For a player the phases are
+managed via specific auras, e.g. spell 59062 which forces the player to only see phase 7 (bit 64). This is normally handled via table "[spell\_area](../db/world/spell_area.md)",
 but can also be activated through other means (auras can be applied to the player using many other mechanisms).
 
 Using 4 Bytes it is possible to combine a total of 32 phases:
