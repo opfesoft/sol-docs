@@ -6,6 +6,7 @@
 - [Testing quests](#testing-quests)
 - [Set reputation](#set-reputation)
 - [A few useful GM commands](#a-few-useful-gm-commands)
+- [Macros](#macros)
 - [Waypoints](Waypoints-Information.md)
 
 ## Template IDs vs GUIDs
@@ -123,3 +124,28 @@ See "[GM-Commands](GM-Commands.md)" for a complete overview.
 | `.unlearn <id>`                  | `.unl <id>`             | `.unl 1908`                      | Unlearn the spell with the specified ID (either targeted player or self) |
 | `.aura <id>`                     | `.au <id>`              | `.au 1908`                       | Add aura with the specified spell ID to the target (or self) |
 | `.unaura <id>`                   | `.u <id>`               | `.u 1908`                        | Remove aura with the specified spell ID to the target (or self); if using "all" as ID all auras will be removed |
+
+## Macros
+
+A few useful macros if you don't want to use GM addons:
+
+| macro name | macro |
+|------------|-------|
+| cd         | .cheat cooldown |
+| die        | .die |
+| dmg        | .damage 999999999 |
+| dmg0       | .damage 10 |
+| dmg1       | .damage 100 |
+| dmg2       | .damage 1000 |
+| dmg3       | .damage 10000 |
+| dmg4       | .damage 100000 |
+| fly        | .gm fly on<br>.modify speed all 5 |
+| gmoff      | .gm off |
+| gmon       | .gm on |
+| hp         | .modify hp 999999999 |
+| ins        | .i u all |
+| mana       | .modify mana 10000 |
+| rage       | .mod rage 100 |
+| visoff     | .gm vis off |
+| vison      | .gm vis on |
+| walk       | .gm fly off<br>.modify speed all 1 |

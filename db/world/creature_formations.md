@@ -78,26 +78,6 @@ This table allows to group mobs. Members of group will follow others, and attack
 <td> </td>
 <td> </td>
 </tr>
-<tr class="odd">
-<td><a href="#point_1">point_1</a></td>
-<td>int(11)</td>
-<td>unsigned</td>
-<td> </td>
-<td>NO</td>
-<td>0</td>
-<td> </td>
-<td> </td>
-</tr>
-<tr class="even">
-<td><p><a href="#point_2">point_2</a></p></td>
-<td><p>int(11)</p></td>
-<td><p>unsigned</p></td>
-<td><p> </p></td>
-<td><p>NO</p></td>
-<td><p>0</p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-</tr>
 </tbody>
 </table>
 
@@ -116,17 +96,27 @@ Maximum distance between group leader and member
 ## angle
 
 Angle between leader and member
-Note: Only degrees are used! Values should be between 0 and 360
+Note: Only degrees are used! Values should be between 0 and 360:
 
-![angle](../../img/angle.png)
+| degrees | position in relation to the leader |
+|---------|------------------------------------|
+| 0       | front                              |
+| 90      | right                              |
+| 180     | behind                             |
+| 270     | left                               |
+
+The core will automatically switch the position if the members if the leader takes a turn greater than 90 degrees. This prevents crossover movement of the members. Examples:
+
+- 90 degrees becomes 270 degrees (and vice versa)
+- 220 degrees becomes 140 degrees (and vice versa)
+- 30 degrees becomes 330 degrees (and vice versa)
 
 ## groupAI
 
 Sets group member behaviours, values are:
 
-|       |                                                              |
-|-------|--------------------------------------------------------------|
 | Value | Behaviour                                                    |
+|-------|--------------------------------------------------------------|
 | 0     | Noone assists noone and member don't follow the leader       |
 | 512   | Noone assists noone and member follow the leader             |
 | 1     | The member aggroes if the leader aggroes                     |
@@ -134,20 +124,3 @@ Sets group member behaviours, values are:
 | 3     | Everyone assists everyone and member don't follow the leader |
 | 515   | Everyone assists everyone and member follow the leader       |
 
-## point\_1  
-
-## point\_2
-
-These values are used to set leaderGUID pre ending path points for memberGUID's where the path is a straight return path and memberGUID's should not crossover to other side of leaderGUID on direction change.
-
-If your leader has a path like the one below where he moves to point 5 then back to 1 you would set point\_1 = 4 and point\_2 = 8 on the memberGUID. If the memberGUID is at angle 90 up to point 5 it will switch to angle 270 for the return trip. This is only needed to keep creatures on the correct side. these values can be left at 0 for creatures following directly behind leaderGUID or any creatures in a circular path. 
-
- 
-
-1     2     3     4    5
-
------&lt;---------&gt;------
-
-       8    7      6
-
- 
