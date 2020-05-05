@@ -115,12 +115,10 @@ The core will automatically switch the position if the members if the leader tak
 
 Sets group member behaviours, values are:
 
-| Value | Behaviour                                                    |
-|-------|--------------------------------------------------------------|
-| 0     | Noone assists noone and member don't follow the leader       |
-| 512   | Noone assists noone and member follow the leader             |
-| 1     | The member aggroes if the leader aggroes                     |
-| 2     | The leader aggroes if the member aggroes                     |
-| 3     | Everyone assists everyone and member don't follow the leader |
-| 515   | Everyone assists everyone and member follow the leader       |
+| Value | Behaviour                                                        |
+|-------|------------------------------------------------------------------|
+| 0     | If any creature from the group is attacked, members won't assist |
+| 1     | Group members will assist only their leader if attacked.         |
+| >1    | Group members will assist all group members                      |
+| 5     | Group members won't follow the leader                            |
 
