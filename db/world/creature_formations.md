@@ -105,7 +105,7 @@ Note: Only degrees are used! Values should be between 0 and 360:
 | 180     | behind                             |
 | 270     | left                               |
 
-The core will automatically switch the position if the members if the leader takes a turn greater than 90 degrees. This prevents crossover movement of the members. Examples:
+The core will automatically switch the position of the members if the leader takes a turn greater than 90 degrees. This prevents crossover movement of the members. Examples:
 
 - 90 degrees becomes 270 degrees (and vice versa)
 - 220 degrees becomes 140 degrees (and vice versa)
