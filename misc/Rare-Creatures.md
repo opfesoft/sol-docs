@@ -282,7 +282,7 @@
 | Zaricotl                   |  2931 |  134472 | no      | no  | yes | Random movement |
 | Ghost Howl                 |  3056 |   51845 |         |     |     |         |
 | Mazzranache                |  3068 |   26908 |         |     |     |         |
-| Silithid Harvester         |  3253 |   51814 |         |     |     |         |
+| Silithid Harvester         |  3253 |   51814 | no      | no  | yes | Random movement |
 | Elder Mystic Razorsnout    |  3270 |   20430 |         |     |     |         |
 | Sludge Beast               |  3295 |   51809 |         |     |     |         |
 | Gesharahan                 |  3398 |   14033 |         |     |     |         |

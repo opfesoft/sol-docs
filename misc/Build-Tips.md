@@ -34,12 +34,12 @@
 
 ## ACE installation
 
-Example for ACE 6.5.8, installation in "~/sol-srv/lib/ace":
+Example for ACE 6.5.9, installation in "~/sol-srv/lib/ace":
 
 - Get package:
 ```
-curl -L 'https://github.com/DOCGroup/ACE_TAO/releases/download/ACE%2BTAO-6_5_8/ACE+TAO-6.5.8.tar.gz' >ACE+TAO-6.5.8.tar.gz
-tar -xzf ACE+TAO-6.5.8.tar.gz
+curl -L 'https://github.com/DOCGroup/ACE_TAO/releases/download/ACE%2BTAO-6_5_9/ACE+TAO-6.5.9.tar.gz' >ACE+TAO-6.5.9.tar.gz
+tar -xzf ACE+TAO-6.5.9.tar.gz
 ```
 
 - Set `ACE_ROOT`:
