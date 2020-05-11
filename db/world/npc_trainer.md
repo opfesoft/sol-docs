@@ -20,7 +20,7 @@ This table contains all the spells that each trainer can teach.
 
 ### ID
 
-Usually, this would be an entry of a creature referring to [creature\_template.entry](creature_template.md#entry). However, Biohazard included several trainer lists by refering to their id. For more information, see [Reference\_list](../../misc/Trainer_reference.md).
+Usually, this would be an entry of a creature referring to [creature\_template.entry](creature_template.md#entry). However, Biohazard included several trainer lists by refering to their id. For more information, see [Reference\_list](../../misc/Trainer_reference.md). **Important:** If creating custom trainers don't use creature template IDs >200000 as those entries are used for the spell reference lists (see "ACORE_TRAINER_START_REF").
 
 ### SpellID
 

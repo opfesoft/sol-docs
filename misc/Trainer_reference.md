@@ -25,8 +25,7 @@ Thanks to Biohazard for getting and implementing!
 | 200015 | Rogue-Lowlevel |
 | 200016 | Rogue-Highlevel |
 | 200017 | Shaman-Lowlevel |
-| 200018 | Shaman-HighlevelHorde |
-| ? | Shaman-HighlevelAlly |
+| 200018 | Shaman-Highlevel |
 | 200019 | Death Knights-Alllevel |
 
 **Primary Professions References**

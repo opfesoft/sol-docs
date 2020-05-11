@@ -2,17 +2,17 @@
 
 If dealing with IDs it has to be ensured that the same ID is not used twice. Please use these ranges for new IDs and always check if the ID you chose is not already used by the core or one of the modules (see below for already existing IDs).
 
-| Table / Field                                          | Reserved IDs for the core | Reserved IDs for modules | Reserved IDs for custom use | Max value  |
-|--------------------------------------------------------|---------------------------|--------------------------|-----------------------------|------------|
-| [creature_template.entry](../db/world/creature_template.md#entry)     | < 4000000                 | >= 4000000 < 5000000     | >= 5000000                  | 16777215   |
-| [creature.guid](../db/world/creature.md#guid)                         | < 4000000                 | >= 4000000 < 5000000     | >= 5000000                  | 4294967295 |
-| [gameobject_template.entry](../db/world/gameobject_template.md#entry) | < 4000000                 | >= 4000000 < 5000000     | >= 5000000                  | 16777215   |
-| [gameobject.guid](../db/world/gameobject.md#guid)                     | < 4000000                 | >= 4000000 < 5000000     | >= 5000000                  | 4294967295 |
-| [npc_text.ID](../db/world/npc_text.md#id)                             | < 4000000                 | >= 4000000 < 5000000     | >= 5000000                  | 16777215   |
-| [gossip_menu.MenuID](../db/world/gossip_menu.md#menuid)               | < 57000                   | >= 57000 < 60000         | >= 60000                    | 65535      |
-| [broadcast_text.ID](../db/world/broadcast_text.md#id)                 | < 4000000                 | >= 4000000 < 5000000     | >= 5000000                  | 16777215   |
-| [creature_text.CreatureID](../db/world/creature_text.md#creatureid)   | < 4000000                 | >= 4000000 < 5000000     | >= 5000000                  | 16777215   |
-| [acore_string.entry](../db/world/acore_string.md#entry)               | < 4000000                 | >= 4000000 < 5000000     | >= 5000000                  | 16777215   |
+| Table / Field                                                         | Reserved IDs for the core | Reserved IDs for modules | Reserved IDs for custom use | Max value  | Comment |
+|-----------------------------------------------------------------------|---------------------------|--------------------------|-----------------------------|------------|---------|
+| [creature_template.entry](../db/world/creature_template.md#entry)     | < 4000000                 | >= 4000000 < 5000000     | >= 5000000                  | 16777215   | Important: Custom trainers need an entry < 200000 in order to work correctly (see "ACORE_TRAINER_START_REF") |
+| [creature.guid](../db/world/creature.md#guid)                         | < 4000000                 | >= 4000000 < 5000000     | >= 5000000                  | 4294967295 |         |
+| [gameobject_template.entry](../db/world/gameobject_template.md#entry) | < 4000000                 | >= 4000000 < 5000000     | >= 5000000                  | 16777215   |         |
+| [gameobject.guid](../db/world/gameobject.md#guid)                     | < 4000000                 | >= 4000000 < 5000000     | >= 5000000                  | 4294967295 |         |
+| [npc_text.ID](../db/world/npc_text.md#id)                             | < 4000000                 | >= 4000000 < 5000000     | >= 5000000                  | 16777215   |         |
+| [gossip_menu.MenuID](../db/world/gossip_menu.md#menuid)               | < 57000                   | >= 57000 < 60000         | >= 60000                    | 65535      |         |
+| [broadcast_text.ID](../db/world/broadcast_text.md#id)                 | < 4000000                 | >= 4000000 < 5000000     | >= 5000000                  | 16777215   |         |
+| [creature_text.CreatureID](../db/world/creature_text.md#creatureid)   | < 4000000                 | >= 4000000 < 5000000     | >= 5000000                  | 16777215   |         |
+| [acore_string.entry](../db/world/acore_string.md#entry)               | < 4000000                 | >= 4000000 < 5000000     | >= 5000000                  | 16777215   |         |
 
 
 # IDs already in use by modules

@@ -432,7 +432,7 @@ Note: Some commands are working only by selecting a player or a creature. These 
 |whispers|1|Syntax: .whispers on\off Enable/disable accepting whispers by GM from players. By default use worldserver.conf setting.|
 |wp event|2|Syntax: .wp event $subcommand Type .path event to see the list of possible subcommands or .help path event $subcommand to see info on subcommands.|
 |wp load|2|Syntax: .wp load $pathid Load pathid number for selected creature. Creature must have no waypoint data.|
-|wp modify||Syntax: .wp modify $optionOptions:action Changes the value actionaction_chance Changes the value action_chancedel Deletes a selected waypointdelay Changes the value delaymove Moves a selected waypointmove_flag Changes the value move_flag|
+|wp modify||Syntax: .wp modify $option; Options: "action" - Changes the value action; "action_chance" - Changes the value action_chance; "del" - Deletes a selected waypoint; "delay" - Changes the value delay; "move" - Moves a selected waypoint; "move_type" - Changes the value move_type|
 |wp show|2|Syntax: .wp show $optionOptions:on $pathid (or selected creature with loaded path) - Show visual waypoints (Note: You must have GM on to see the waypoints)off Hide the visual waypoints.info Shows info for selected waypoint.first Shows visual the first waypoint.last Shows visual the last waypoint.|
 |wp unload|2|Syntax: .wp unload Unload path for selected creature.|
 |account addon|1|Syntax: .account addon #addon Set expansion addon level allowed. Addon values: 0 - normal, 1 - tbc, 2 - wotlk.|
