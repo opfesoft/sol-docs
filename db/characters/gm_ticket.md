@@ -21,7 +21,7 @@ This table stores all tickets
 <tr class="even">
 <td><p><a href="#id">Id</a></p></td>
 <td><p>int(10)</p></td>
-<td><p>signed</p></td>
+<td><p>unsigned</p></td>
 <td><p>PRI</p></td>
 <td><p>NO</p></td>
 <td><p><br />
@@ -57,7 +57,8 @@ This table stores all tickets
 <tr class="odd">
 <td><p><a href="#name">name</a></p></td>
 <td><p>varchar(12)</p></td>
-<td><p>signed</p></td>
+<td><p><br />
+</p></td>
 <td><p><br />
 </p></td>
 <td><p>NO</p></td>
@@ -69,7 +70,8 @@ This table stores all tickets
 <tr class="even">
 <td><p><a href="#description">description</a></p></td>
 <td><p>text</p></td>
-<td><p>signed</p></td>
+<td><p><br />
+</p></td>
 <td><p><br />
 </p></td>
 <td><p>NO</p></td>
@@ -109,7 +111,8 @@ This table stores all tickets
 <tr class="dd">
 <td><p><a href="#posx">posX</a></p></td>
 <td><p>float</p></td>
-<td><p>signed</p></td>
+<td><p><br />
+</p></td>
 <td><br />
 </td>
 <td><p>NO</p></td>
@@ -122,7 +125,8 @@ This table stores all tickets
 <tr class="even">
 <td><p><a href="#posy">posY</a></p></td>
 <td><p>float</p></td>
-<td><p>signed</p></td>
+<td><p><br />
+</p></td>
 <td><br />
 </td>
 <td><p>NO</p></td>
@@ -135,7 +139,8 @@ This table stores all tickets
 <tr class="odd">
 <td><p><a href="#posz">posZ</a></p></td>
 <td><p>float</p></td>
-<td><p>signed</p></td>
+<td><p><br />
+</p></td>
 <td><br />
 </td>
 <td><p>NO</p></td>
@@ -148,7 +153,7 @@ This table stores all tickets
 <tr class="even">
 <td><p><a href="#lastmodifiedtime">lastModifiedTime</a></p></td>
 <td><p>int(10)</p></td>
-<td><p>signed</p></td>
+<td><p>unsigned</p></td>
 <td><br />
 </td>
 <td><p>NO</p></td>
@@ -161,7 +166,7 @@ This table stores all tickets
 <tr class="odd">
 <td><p><a href="#closedby">closedBy</a></p></td>
 <td><p>int(10)</p></td>
-<td><p>signed</p></td>
+<td><p>unsigned</p></td>
 <td><br />
 </td>
 <td><p>NO</p></td>
@@ -186,7 +191,8 @@ This table stores all tickets
 <tr class="odd">
 <td><p><a href="#comment">comment</a></p></td>
 <td><p>text</p></td>
-<td><p>signed</p></td>
+<td><p><br />
+</p></td>
 <td><br />
 </td>
 <td><p>NO</p></td>
@@ -200,7 +206,8 @@ This table stores all tickets
 <tr class="even">
 <td><p><a href="#response">response</a></p></td>
 <td><p>text</p></td>
-<td><p>signed</p></td>
+<td><p><br />
+</p></td>
 <td><br />
 </td>
 <td><p>NO</p></td>
@@ -328,8 +335,6 @@ The time when the ticket was closed or deleted by the issuer as linux timestamp
 ### closedBy
 
 0 : Open
-
--1 : Closed by Console
 
 &gt;0 : player who abandoned ticket or GM who closed ticket
 

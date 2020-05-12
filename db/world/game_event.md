@@ -165,7 +165,7 @@ This value must be lower than occurrence one or the event will never stop.
 
 ### holiday
 
-Holiday ID from  [Holidays DBC file](../../dbc/Holidays.md). This is sent to the client to update the calender.
+Holiday ID from [Holidays DBC file](../../dbc/Holidays.md). This is sent to the client to update the calender.
 
 ### description
 
