@@ -95,7 +95,7 @@ Some quests or quest chains depend on a certain reputation for specific factions
 
 ## A few useful GM commands
 
-See "[GM-Commands](GM-Commands.md)" for a complete overview.
+See "[GM-Commands](GM-Commands.md)" for a complete overview. If dead you can use the guild channel '/g' to execute the commands.
 
 | Command                          | Abbreviation            | Example                          | Comment |
 |----------------------------------|-------------------------|----------------------------------|---------|

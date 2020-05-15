@@ -2098,17 +2098,18 @@ This is the probability of the event to occur as a percentage from 0-100. So, if
 <tr class="even">
 <td><p>SMART_ACTION_CALL_FOR_HELP</p></td>
 <td><p>39</p></td>
-<td><p>Radius in yards that other creatures must be to acknowledge the cry for help.</p></td>
-<td><p>0/1 (say calls for help text)</p></td>
+<td><p>Radius in yards that other creatures must be to acknowledge the call for help.</p></td>
+<td><p>0/1 (say "calls for help" text)</p></td>
+<td><p>0/1 (force assistance from neutral / defensive NPCs nearby)</p></td>
 <td><p><br />
 </p></td>
 <td><p><br />
 </p></td>
 <td><p><br />
 </p></td>
-<td><p><br />
-</p></td>
-<td><p>If you want the NPC to say '%s calls for help!'. Use 1 on param1, 0 for no message.</p></td>
+<td><p>If you want the NPC to say '%s calls for help!' use 1 on param2, 0 for no message.<br />
+If param3 is set to 1 the call forces neutral / defensive NPCs nearby to also attack the player;
+if set to 0 only aggressive / hostile NPCs attack</p></td>
 </tr>
 <tr class="odd">
 <td><p>SMART_ACTION_SET_SHEATH</p></td>

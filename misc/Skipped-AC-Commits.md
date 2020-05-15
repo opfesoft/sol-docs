@@ -2,6 +2,16 @@ Skipped AC commits (just as a reminder and documentation):
 
 | commit       | date       | comment |
 |--------------|------------|---------|
+| sol@4a402d6d | 2020-05-14 | follow-up sol@807005ae |
+| sol@807005ae | 2020-05-14 | no need to rename the GM command "explorecheat" |
+| sol@6e70b962 | 2020-05-14 | follow-up sol@7d7cedd1 |
+| sol@7d7cedd1 | 2020-05-14 | the quest chain is already broken because quest 6804 (Poisoned Water) is missing in "creature_queststarter", no need to remove the whole quest chain |
+| sol@1aab9b1b | 2020-05-13 | follow-up sol@ee81b7c8 |
+| sol@ee81b7c8 | 2020-05-13 | follow-up sol@74e0f002 |
+| sol@74e0f002 | 2020-05-13 | not needed and on top of that takes away the option to create "hidden" quests (quests without quest marker); even if it is not used on retail it can be used for custom content |
+| sol@db45f79c | 2020-05-12 | not needed |
+| sol@fede473a | 2020-05-11 | follow-up sol@397c5d91 |
+| sol@4266d1f7 | 2020-05-07 | CI |
 | sol@49cff4ab | 2020-04-26 | follow-up sol@fe1815d4 |
 | sol@fe1815d4 | 2020-04-26 | SQL script has been reworked, see sol@fa480f63; the original script will delete existing NPCs on other maps and also contains many other bugs |
 | sol@5f2f68c5 | 2020-04-23 | CI |
