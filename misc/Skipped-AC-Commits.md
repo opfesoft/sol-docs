@@ -2,10 +2,11 @@ Skipped AC commits (just as a reminder and documentation):
 
 | commit       | date       | comment |
 |--------------|------------|---------|
+| sol@dca02598 | 2020-05-16 | installer script |
 | sol@4a402d6d | 2020-05-14 | follow-up sol@807005ae |
 | sol@807005ae | 2020-05-14 | no need to rename the GM command "explorecheat" |
 | sol@6e70b962 | 2020-05-14 | follow-up sol@7d7cedd1 |
-| sol@7d7cedd1 | 2020-05-14 | the quest chain is already broken because quest 6804 (Poisoned Water) is missing in "creature_queststarter", no need to remove the whole quest chain |
+| sol@7d7cedd1 | 2020-05-14 | the quest chain is already broken because quest 6804 (Poisoned Water) is missing in "creature\_queststarter", no need to remove the whole quest chain |
 | sol@1aab9b1b | 2020-05-13 | follow-up sol@ee81b7c8 |
 | sol@ee81b7c8 | 2020-05-13 | follow-up sol@74e0f002 |
 | sol@74e0f002 | 2020-05-13 | not needed and on top of that takes away the option to create "hidden" quests (quests without quest marker); even if it is not used on retail it can be used for custom content |
