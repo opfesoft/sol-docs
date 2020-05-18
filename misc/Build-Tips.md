@@ -30,7 +30,7 @@
 
 ## Packages
 
-`apt-get install git cmake make gcc-9 g++-9 clang-10 libmysqlclient-dev libssl-dev libbz2-dev libreadline-dev libncurses-dev mysql-server`
+`apt-get install git cmake make gcc-9 g++-9 clang-10 libmariadbclient-dev libssl-dev libbz2-dev libreadline-dev libncurses-dev mariadb-server`
 
 ## ACE installation
 
@@ -107,7 +107,7 @@ cp -r dbc maps vmaps mmaps ~/sol-srv/data
 
 ### DB import
 
-- Ensure that MySQL 5.7 is running
+- Ensure that MariaDB is running
 
 - Create tables:
 ```

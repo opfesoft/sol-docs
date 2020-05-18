@@ -124,6 +124,7 @@ See "[GM-Commands](GM-Commands.md)" for a complete overview. If dead you can use
 | `.unlearn <id>`                  | `.unl <id>`             | `.unl 1908`                      | Unlearn the spell with the specified ID (either targeted player or self) |
 | `.aura <id>`                     | `.au <id>`              | `.au 1908`                       | Add aura with the specified spell ID to the target (or self) |
 | `.unaura <id>`                   | `.u <id>`               | `.u 1908`                        | Remove aura with the specified spell ID to the target (or self); if using "all" as ID all auras will be removed |
+| `.additem <id> <amount>`         | `.ad <id> <amount>`     | `.ad 4457 10`                    | Add items with the specified item ID to the inventory; if amount is negative, remove the items |
 
 ## Macros
 
