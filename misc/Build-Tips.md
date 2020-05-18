@@ -28,6 +28,11 @@
     - Ubuntu 18.04: `deb http://ppa.launchpad.net/ubuntu-toolchain-r/test/ubuntu bionic main`
     - Ubuntu 20.04: `deb http://ppa.launchpad.net/ubuntu-toolchain-r/test/ubuntu focal main`
 
+<br>
+
+- latest MariaDB
+  - see https://downloads.mariadb.org/mariadb/repositories/
+
 ## Packages
 
 `apt-get install git cmake make gcc-9 g++-9 clang-10 libmariadbclient-dev libssl-dev libbz2-dev libreadline-dev libncurses-dev mariadb-server`
