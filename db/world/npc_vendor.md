@@ -98,3 +98,14 @@ Combined with maxcount, this field tells how often (in seconds) the vendor list 
 ### ExtendedCost
 
 The value here corresponds to the ID in [ItemExtendedCost.dbc](../../dbc/ItemExtendedCost.md) and that ID controls the item's non monetary price, be it honor points, arena points, different types of badges or any combination of the above.
+
+## Additional notes
+
+### Prices
+
+The monetary price for each item or currency is defined in its related item template entry as [item\_template.BuyPrice](item_template.md#buyprice).
+Special costs (honor, tokens etc.) are defined in [ExtendedCost](#extendedcost).
+
+### GM mode
+
+If you open the vendor's inventory in GM mode, you will see all the items sold by the vendor. If you disable GM mode, you will see the items sold like a normal player (e.g. only for your own faction or class etc.).

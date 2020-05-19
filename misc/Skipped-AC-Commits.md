@@ -2,6 +2,7 @@ Skipped AC commits (just as a reminder and documentation):
 
 | commit       | date       | comment |
 |--------------|------------|---------|
+| sol@fecba9f2 | 2020-05-17 | not needed as MySQL is not supported by Sol |
 | sol@dca02598 | 2020-05-16 | installer script |
 | sol@4a402d6d | 2020-05-14 | follow-up sol@807005ae |
 | sol@807005ae | 2020-05-14 | no need to rename the GM command "explorecheat" |

@@ -234,7 +234,7 @@
 | Firecaller Radison         |  2192 |   37852 |         |     |     |         |
 | Stone Fury                 |  2258 |   63913 |         |     |     |         |
 | Ravenclaw Regent           |  2283 | 1970415 |         |     |     |         |
-| Narillasanz                |  2447 |   16973 |         |     |     |         |
+| Narillasanz                |  2447 |   16973 | yes     | yes | yes |         |
 | Skhowl                     |  2452 |   17600 |         |     |     |         |
 | Lo'Grosh                   |  2453 |   69113 |         |     |     |         |
 | Large Loch Crocolisk       |  2476 |    9202 |         |     |     |         |
@@ -588,7 +588,7 @@
 | Grizzle Snowpaw            | 10199 |   42306 |         |     |     |         |
 | Rak'shiri                  | 10200 |   51892 |         |     |     |         |
 | Lady Hederine              | 10201 |   42307 |         |     |     |         |
-| Azurous                    | 10202 |   51890 |         |     |     |         |
+| Azurous                    | 10202 |   51890 | yes     | yes | yes |         |
 | Burning Felguard           | 10263 |   45808 |         |     |     |         |
 | Bayne                      | 10356 |   42142 |         |     |     |         |
 | Ressan the Needler         | 10357 |   42141 |         |     |     |         |
