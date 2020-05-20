@@ -613,7 +613,7 @@
 | Warlord Thresh'jin         | 10822 |   86607 |         |     |     |         |
 | Zul'Brin Warpbranch        | 10823 |   86625 |         |     |     |         |
 | Ranger Lord Hawkspear      | 10824 |   92138 |         |     |     |         |
-| Gish the Unmoving          | 10825 |   86626 |         |     |     |         |
+| Gish the Unmoving          | 10825 |   86626 | yes     | yes | yes |         |
 | Lord Darkscythe            | 10826 |   92220 |         |     |     |         |
 | Deathspeaker Selendre      | 10827 |   86755 |         |     |     |         |
 | High General Abbendis      | 10828 |   92657 |         |     |     |         |

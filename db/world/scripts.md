@@ -45,7 +45,7 @@ The effect index of the spell that this script is to be applied to.
 
 ### delay
 
-Delay in seconds before this current step of the script activates. 0 = instant.
+Delay in milliseconds before this current step of the script activates. 0 = instant. For [waypoint\_scripts](waypoint_scripts.md): Time to wait until moving on to the next waypoint ([command](#command) will be executed at once without delay).
 
 ### command
 
