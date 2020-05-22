@@ -4397,16 +4397,16 @@ INSERT INTO `areatrigger_scripts` (`entry`, `ScriptName`) VALUES (y, 'SmartTrigg
 
 ### Summon Types
 
-| Name                                        | Value | Comment                                                              |
-|---------------------------------------------|-------|----------------------------------------------------------------------|
-| TEMPSUMMON\_TIMED\_OR\_DEAD\_DESPAWN        | 1     | Despawns after a specified time OR when the creature disappears.     |
-| TEMPSUMMON\_TIMED\_OR\_CORPSE\_DESPAWN      | 2     | Despawns after a specified time OR when the creature dies.           |
-| TEMPSUMMON\_TIMED\_DESPAWN                  | 3     | Despawns after a specified time.                                     |
-| TEMPSUMMON\_TIMED\_DESPAWN\_OUT\_OF\_COMBAT | 4     | Despawns after a specified time after the creature is out of combat. |
-| TEMPSUMMON\_CORPSE\_DESPAWN                 | 5     | Despawns instantly after death.                                      |
-| TEMPSUMMON\_CORPSE\_TIMED\_DESPAWN          | 6     | Despawns after a specified time after death.                         |
-| TEMPSUMMON\_DEAD\_DESPAWN                   | 7     | Despawns when the creature disappears.                               |
-| TEMPSUMMON\_MANUAL\_DESPAWN                 | 8     | Despawns when UnSummon() (or Force Despawn action) is called.        |
+| Name                                        | Value | Comment                                                                               |
+|---------------------------------------------|-------|---------------------------------------------------------------------------------------|
+| TEMPSUMMON\_TIMED\_OR\_DEAD\_DESPAWN        | 1     | Despawns after a specified time (only out of combat) OR when the creature disappears. |
+| TEMPSUMMON\_TIMED\_OR\_CORPSE\_DESPAWN      | 2     | Despawns after a specified time (only out of combat) OR when the creature dies.       |
+| TEMPSUMMON\_TIMED\_DESPAWN                  | 3     | Despawns after a specified time (no matter if the creature is in combat or not).      |
+| TEMPSUMMON\_TIMED\_DESPAWN\_OUT\_OF\_COMBAT | 4     | Despawns after a specified time after the creature is out of combat.                  |
+| TEMPSUMMON\_CORPSE\_DESPAWN                 | 5     | Despawns instantly after death.                                                       |
+| TEMPSUMMON\_CORPSE\_TIMED\_DESPAWN          | 6     | Despawns after a specified time after death.                                          |
+| TEMPSUMMON\_DEAD\_DESPAWN                   | 7     | Despawns when the creature disappears.                                                |
+| TEMPSUMMON\_MANUAL\_DESPAWN                 | 8     | Despawns when UnSummon() (or Force Despawn action) is called.                         |
 
 ### Invoker:
 
