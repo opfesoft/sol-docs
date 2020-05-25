@@ -2,6 +2,17 @@ Skipped AC commits (just as a reminder and documentation):
 
 | commit       | date       | comment |
 |--------------|------------|---------|
+| sol@8e2e27d3 | 2020-05-25 | docker |
+| sol@1fc82e7f | 2020-05-24 | docker |
+| sol@f7278844 | 2020-05-24 | docker |
+| sol@c7f4204d | 2020-05-23 | already fixed, see sol@1d0de3ec |
+| sol@92442cfb | 2020-05-22 | follow-up sol@2c4ffc19 |
+| sol@2c4ffc19 | 2020-05-22 | not needed, see sol@d579b3f4 and sol@b9a142c6 |
+| sol@dca4fd3d | 2020-05-22 | MySQL |
+| sol@9745fc52 | 2020-05-21 | follow-up sol@a1644ed8 |
+| sol@a1644ed8 | 2020-05-21 | SQL script has been reworked, see sol@7c23067c |
+| sol@8b7530b9 | 2020-05-20 | follow-up sol@275c6e79 |
+| sol@275c6e79 | 2020-05-20 | not needed, see sol@c0b30b28 |
 | sol@fecba9f2 | 2020-05-17 | not needed as MySQL is not supported by Sol |
 | sol@dca02598 | 2020-05-16 | installer script |
 | sol@4a402d6d | 2020-05-14 | follow-up sol@807005ae |
