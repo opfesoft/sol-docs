@@ -36,7 +36,7 @@ NOTICE: The data for this table is largely incomplete and is mostly just a regur
 </tr>
 <tr class="odd">
 <td><p><a href="#path_id">path_id</a></p></td>
-<td><p>int(11)</p></td>
+<td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p><br />
 </p></td>
@@ -99,45 +99,6 @@ NOTICE: The data for this table is largely incomplete and is mostly just a regur
 <td><p><br />
 </p></td>
 </tr>
-<tr class="even">
-<td><a href="#aianimkit-movementanimkit-meleeanimkit">aiAnimKit</a></td>
-<td>smallint(6)</td>
-<td>signed</td>
-<td><br />
-</td>
-<td>NO</td>
-<td>0</td>
-<td><br />
-</td>
-<td><br />
-</td>
-</tr>
-<tr class="odd">
-<td><a href="#aianimkit-movementanimkit-meleeanimkit">movementAnimKit</a></td>
-<td>smallint(6)</td>
-<td>signed</td>
-<td><br />
-</td>
-<td>NO</td>
-<td>0</td>
-<td><br />
-</td>
-<td><br />
-</td>
-</tr>
-<tr class="even">
-<td><a href="#aianimkit-movementanimkit-meleeanimkit">meleeAnimKit</a></td>
-<td>smallint(6)</td>
-<td>signed</td>
-<td><br />
-</td>
-<td>NO</td>
-<td>0</td>
-<td><br />
-</td>
-<td><br />
-</td>
-</tr>
 <tr class="odd">
 <td><a href="#islarge">isLarge</a></td>
 <td>tinyint(1)</td>
@@ -154,7 +115,7 @@ NOTICE: The data for this table is largely incomplete and is mostly just a regur
 <tr class="even">
 <td><p><a href="#auras">auras</a></p></td>
 <td><p>text</p></td>
-<td><p>unsigned</p></td>
+<td><p></p></td>
 <td><p><br />
 </p></td>
 <td><p>YES</p></td>
@@ -209,19 +170,15 @@ NOTE: //creatures always have melee weapon ready if any unless specified otherwi
 
 List of few known values and what their visual effects on the creature
 
--   0 = STATE\_UNARMED (not prepared weapon)
--   1 = STATE\_MELEE (prepared melee weapon)
--   2 = STATE\_RANGED (prepared ranged weapon)
+-   0 = STATE\_UNARMED (sheathed weapon)
+-   1 = STATE\_MELEE (ready melee weapon)
+-   2 = STATE\_RANGED (ready ranged weapon, melee weapon is sheathed)
 
 ### emote
 
 Emote ID that the creature should continually perform.
 
 List of often used emote IDs and what they do can be found [here](../../dbc/Emotes.md).
-
-### aiAnimKit / movementAnimKit / meleeAnimKit
-
-AnimKit ID from AnimKit.db2 that is applied on creature when spawned.
 
 ### isLarge
 

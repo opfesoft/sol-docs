@@ -2513,7 +2513,7 @@ In what slot the item can be equipped.
 <td><p>8</p></td>
 <td><p>Feet</p></td>
 <td><p>23</p></td>
-<td><p>Held in Off-Hand (tome, cane, flowers, torches, orbs etc... See also Off-Hand = 22)</p></td>
+<td><p>Held in Off-Hand (tome, cane, flowers, torches, orbs etc... See also Off-Hand = 22; mind that it's classified as armor, not weapon)</p></td>
 </tr>
 <tr class="even">
 <td><p>9</p></td>
@@ -2543,11 +2543,11 @@ In what slot the item can be equipped.
 <td><p>13</p></td>
 <td><p>One-Hand (not to confuse with Off-Hand = 22)</p></td>
 <td><p>28</p></td>
-<td><p>Relic</p></td>
+<td><p>Relic (mind that it's classified as armor, not weapon)</p></td>
 </tr>
 <tr class="odd">
 <td><p>14</p></td>
-<td><p>Shield</p></td>
+<td><p>Shield (mind that it's classified as armor, not weapon)</p></td>
 <td><p> </p></td>
 <td><p> </p></td>
 </tr>
@@ -3260,11 +3260,11 @@ The maximum durability of this item.
 
 ### area
 
-The ID of the zone in which this item can be used.
+The ID of the zone in which this item can be used. If you leave the area, the item will be deleted from the inventory.
 
 ### Map
 
-The ID of the map in which this item can be used.
+The ID of the map in which this item can be used. If you leave the map, the item will be deleted from the inventory.
 
 ### BagFamily
 

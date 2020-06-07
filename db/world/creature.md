@@ -343,6 +343,8 @@ The ID as defined within [creature\_equip\_template](creature_equip_template.md)
 -   **  0**: No equipment defined.
 -   **1+**: The individual id within creature\_equip\_template.
 
+If a creature is spawned via GM command `.npc add`, then this value will be set automatically (0 if no equip specified in creature\_equip\_template, otherwise the equipment with [id](creature_equip_template.md#id) 1).
+
 ### position\_x
 
 The X position of the creatures spawn point.

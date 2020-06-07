@@ -75,11 +75,11 @@ This is the pool of pools table. You can create a pool with a chance of a range 
 
 ### pool\_id
 
-The ID of the [pool\_template](pool_template.md)) that you want to include in this "pool of pools" as a child pool.
+The ID of the [pool\_template](pool_template.md) that you want to include in this "pool of pools" as a child pool.
 
 ### mother\_pool
 
-The ID of the [pool\_template](pool_template.md)) that defines this "pool of pools".
+The ID of the [pool\_template](pool_template.md) that defines this "pool of pools".
 
 ### chance
 

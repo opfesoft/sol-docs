@@ -108,4 +108,4 @@ Special costs (honor, tokens etc.) are defined in [ExtendedCost](#extendedcost).
 
 ### GM mode
 
-If you open the vendor's inventory in GM mode, you will see all the items sold by the vendor. If you disable GM mode, you will see the items sold like a normal player (e.g. only for your own faction or class etc.).
+If you open the vendor's inventory in GM mode, you will see all the items sold by the vendor. If you disable GM mode, you will see the items sold like a normal player (e.g. only for your own faction or class etc.; if you can't use an item and cannot trade it, you won't see it listed).

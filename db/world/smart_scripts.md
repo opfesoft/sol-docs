@@ -2580,7 +2580,7 @@ if set to 0 only aggressive / hostile NPCs attack</p></td>
 <tr class="odd">
 <td><p>SMART_ACTION_RESPAWN_TARGET</p></td>
 <td><p>70</p></td>
-<td><p>Respawntime in seconds</p></td>
+<td><p>Respawntime in seconds (only for GO; for creature: 0: respawn only if dead; >0: force respawn even if alive)</p></td>
 <td><p><br />
 </p></td>
 <td><p><br />

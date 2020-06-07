@@ -45,7 +45,7 @@ The effect index of the spell that this script is to be applied to.
 
 ### delay
 
-Delay in milliseconds before this current step of the script activates. 0 = instant. For [waypoint\_scripts](waypoint_scripts.md): Time to wait until moving on to the next waypoint ([command](#command) will be executed at once without delay).
+Delay in seconds before this current step of the script activates. 0 = instant. For [waypoint\_scripts](waypoint_scripts.md): Time to wait until moving on to the next waypoint ([command](#command) will be executed at once without delay).
 
 ### command
 
@@ -81,6 +81,7 @@ The type of action performed by the script after [delay](#delay) seconds have pa
 | 33      | [CLOSE\_GOSSIP](#script_command_close_gossip-33)                  | Closes gossip window. This command is only used for Gossip Scripts.      |
 | 34      | [PLAYMOVIE](#script_command_playmovie-34)                         | Plays movie.                                                             |
 | 35      | [MOVEMENT](#script_command_movement-35)                           | Change movement type.                                                    |
+| 50      | [DESPAWN\_CREATURE](#script_command_despawn_creature-50)          | Forces the closest creature with the specified creature entry to despawn.|
 
 ### OtherFields
 
@@ -275,6 +276,13 @@ Depending on what command was used, the meaning and use for the following fields
 - datalong: MovementType.
 - datalong2: MovementDistance (e.g. wander_distance for MovementType 1).
 - dataint: pathid (for MovementType 2, see [waypoint\_data.id](waypoint_data.md#id)).
+
+#### \*SCRIPT\_COMMAND\_DESPAWN\_CREATURE = 50
+
+- source: Unit.
+- datalong: [creature\_template.entry](creature_template.md#entry)
+- datalong2: Despawn delay.
+- x: Search range for creature entry
 
 ### guid
 

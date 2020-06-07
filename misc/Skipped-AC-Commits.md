@@ -2,6 +2,43 @@ Skipped AC commits (just as a reminder and documentation):
 
 | commit       | date       | comment |
 |--------------|------------|---------|
+| sol@441c02a4 | 2020-06-07 | follow-up sol@83e46e20 |
+| sol@83e46e20 | 2020-06-07 | not needed, see [comment](#dmg_boss) below; TODO: verify and collect the SAI in a separate commit |
+| sol@3282ae8e | 2020-06-07 | follow-up sol@88590fe3 |
+| sol@88590fe3 | 2020-06-07 | not needed, see [comment](#dmg_boss) below; TODO: verify and collect the SAI in a separate commit |
+| sol@78995f97 | 2020-06-06 | follow-up sol@2fc109a1 |
+| sol@2fc109a1 | 2020-06-06 | not needed, see [comment](#dmg_boss) below |
+| sol@a67dd974 | 2020-06-06 | follow-up sol@3ed778df |
+| sol@3ed778df | 2020-06-06 | not needed, see [comment](#dmg_boss) below |
+| sol@0550a8d5 | 2020-06-05 | follow-up sol@ac355433 |
+| sol@ac355433 | 2020-06-05 | not needed, see [comment](#dmg_boss) below; TODO: verify and collect the SAI in a separate commit |
+| sol@c98c6452 | 2020-06-04 | follow-up sol@9bd47bd5 |
+| sol@9bd47bd5 | 2020-06-04 | not needed, see [comment](#dmg_boss) below; TODO: verify and collect the SAI in a separate commit |
+| sol@f4953cc1 | 2020-06-04 | follow-up sol@ece33e4c |
+| sol@ece33e4c | 2020-06-04 | not needed, see [comment](#dmg_boss) below; TODO: verify and collect the SAI in a separate commit |
+| sol@bdd1c331 | 2020-06-04 | follow-up sol@6c727805 |
+| sol@6c727805 | 2020-06-04 | not needed, see [comment](#dmg_boss) below |
+| sol@c208a121 | 2020-06-03 | CI |
+| sol@5a0a12c6 | 2020-06-02 | could be dangerous because some scripted spells could cause issues if used in the wrong context (even crashing the server) |
+| sol@3526d3af | 2020-06-02 | CI |
+| sol@7c0cc3cf | 2020-06-02 | not needed, see sol@206577b8 |
+| sol@5fb235ff | 2020-06-01 | Sol doesn't support Eluna |
+| sol@7c1da6c5 | 2020-06-01 | CI |
+| sol@b64e20c8 | 2020-06-01 | follow-up sol@fa805a29 |
+| sol@fa805a29 | 2020-06-01 | not needed, see [comment](#dmg_boss) below |
+| sol@468398d5 | 2020-05-31 | MySQL / Windows |
+| sol@c92d9b92 | 2020-05-31 | follow-up sol@50484427 |
+| sol@50484427 | 2020-05-31 | not needed, see [comment](#dmg_boss) below |
+| sol@2e597c06 | 2020-05-30 | MySQL |
+| sol@86f5c914 | 2020-05-29 | MySQL |
+| sol@408a5152 | 2020-05-29 | follow-up sol@00ce59d2 |
+| sol@00ce59d2 | 2020-05-29 | not needed, see [comment](#dmg_boss) below |
+| sol@d1e83f6e | 2020-05-28 | follow-up sol@027c42fd |
+| sol@027c42fd | 2020-05-28 | not needed, "tele" command is good enough |
+| sol@428133dc | 2020-05-26 | MySQL |
+| sol@72614dd0 | 2020-05-26 | docker |
+| sol@6c7184b2 | 2020-05-25 | follow-up sol@c50131fa |
+| sol@c50131fa | 2020-05-25 | not needed (<a name="dmg_boss"></a>Sol uses another damage calculation, see sol@d41fae5c; type\_flag "CREATURE\_TYPEFLAGS\_BOSS" is wrong here, it is meant for raid bosses as can be seen in old videos) |
 | sol@8e2e27d3 | 2020-05-25 | docker |
 | sol@1fc82e7f | 2020-05-24 | docker |
 | sol@f7278844 | 2020-05-24 | docker |
