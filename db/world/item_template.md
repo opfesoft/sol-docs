@@ -3599,7 +3599,11 @@ Set ITEM\_FLAGS\_CU\_DURATION\_REAL\_TIME in *flagsCustom* for real time. In tha
 
 ### ItemLimitCategory
 
-`field-no-description|78`
+This value corresponds to the ID in ItemLimitCategory.dbc where specific item categories and their quantities are defined. This limits the amount of items of a specific category players can have in their inventory. Examples:
+
+- Category 2 is used for the Dragon's Eyes (Solid Dragon's Eye, Rigid Dragon's Eye etc.), they have a quantity of 3.
+- Category 3 is used for the healthstones (Greater Healthstone, Lesser Healthstone etc.), they have a quantity of 1.
+- Category 4 is used for the mana stones (Mana Agate, Mana Emerald etc.), they also have a quantity of 1.
 
 ### HolidayId
 
