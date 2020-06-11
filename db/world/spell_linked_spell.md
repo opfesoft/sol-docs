@@ -126,7 +126,7 @@ For this mode *spell\_trigger* must be positive. Effect is executed when the aur
 
 <!-- -->
 
--   ON REMOVE: Removes aura *spell\_effect*on the same target.
+-   ON REMOVE: Removes aura *spell\_effect* on the same target.
 
     \***spell\_effect &lt; 0 (IMMUNITY)**
 
