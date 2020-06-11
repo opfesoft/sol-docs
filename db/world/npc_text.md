@@ -702,7 +702,7 @@ The \`broadcast\_text\`.\`ID\` field value for the \`MaleText\` in the \`broadca
 
 ### lang0
 
-The language of the text in game. Refer to [Languages.dbc](../../dbc/Languages.md) for the available language IDs.
+The language of the text in game. Refer to [Languages.dbc](../../dbc/Languages.md) for the available language IDs. If 0 the text is readable by everyone.
 
 ### Probability0
 
@@ -746,7 +746,7 @@ The \`broadcast\_text\`.\`ID\` field value for the \`FemaleText\` in the \`broad
 
 ### lang1
 
-The language of the text in game. Refer to [Languages.dbc](../../dbc/Languages.md) for the available language IDs.
+The language of the text in game. Refer to [Languages.dbc](../../dbc/Languages.md) for the available language IDs. If 0 the text is readable by everyone.
 
 ### Probability1
 
@@ -790,7 +790,7 @@ The use of this field is unknown.
 
 ### lang2
 
-The language of the text in game. Refer to [Languages.dbc](../../dbc/Languages.md) for the available language IDs.
+The language of the text in game. Refer to [Languages.dbc](../../dbc/Languages.md) for the available language IDs. If 0 the text is readable by everyone.
 
 ### Probability2
 
@@ -834,7 +834,7 @@ The use of this field is unknown.
 
 ### lang3
 
-The language of the text in game. Refer to [Languages.dbc](../../dbc/Languages.md) for the available language IDs.
+The language of the text in game. Refer to [Languages.dbc](../../dbc/Languages.md) for the available language IDs. If 0 the text is readable by everyone.
 
 ### Probability3
 
@@ -878,7 +878,7 @@ The use of this field is unknown.
 
 ### lang4
 
-The language of the text in game. Refer to [Languages.dbc](../../dbc/Languages.md) for the available language IDs.
+The language of the text in game. Refer to [Languages.dbc](../../dbc/Languages.md) for the available language IDs. If 0 the text is readable by everyone.
 
 ### Probability4
 
@@ -922,7 +922,7 @@ The use of this field is unknown.
 
 ### lang5
 
-The language of the text in game. Refer to [Languages.dbc](../../dbc/Languages.md) for the available language IDs.
+The language of the text in game. Refer to [Languages.dbc](../../dbc/Languages.md) for the available language IDs. If 0 the text is readable by everyone.
 
 ### Probability5
 
@@ -966,7 +966,7 @@ The use of this field is unknown.
 
 ### lang6
 
-The language of the text in game. Refer to [Languages.dbc](../../dbc/Languages.md) for the available language IDs.
+The language of the text in game. Refer to [Languages.dbc](../../dbc/Languages.md) for the available language IDs. If 0 the text is readable by everyone.
 
 ### Probability6
 
@@ -1010,7 +1010,7 @@ The use of this field is unknown.
 
 ### lang7
 
-The language of the text in game. Refer to [Languages.dbc](../../dbc/Languages.md) for the available language IDs.
+The language of the text in game. Refer to [Languages.dbc](../../dbc/Languages.md) for the available language IDs. If 0 the text is readable by everyone.
 
 ### Probability7
 
