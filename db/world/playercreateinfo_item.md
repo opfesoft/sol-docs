@@ -88,4 +88,4 @@ The template ID of the item. See item\_template.entry
 
 ### amount
 
-The number of copies of that item.
+The number of copies of that item. If -1 the item is removed from the default character start items specified in CharStartOutfit.dbc.
