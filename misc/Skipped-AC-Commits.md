@@ -2,6 +2,18 @@ Skipped AC commits (just as a reminder and documentation):
 
 | commit       | date       | comment |
 |--------------|------------|---------|
+| sol@49c6a815 | 2020-06-12 | follow-up sol@8ab818d9 |
+| sol@8ab818d9 | 2020-06-12 | SQL script has been reworked, see sol@75818b14 |
+| sol@bf74a3a0 | 2020-06-12 | follow-up sol@74ce78b2 |
+| sol@74ce78b2 | 2020-06-12 | not needed, see [comment](#dmg_boss) below |
+| sol@b5e1d93d | 2020-06-11 | follow-up sol@d08d3b22 |
+| sol@d08d3b22 | 2020-06-11 | not needed, see [comment](#dmg_boss) below |
+| sol@a8658f24 | 2020-06-10 | follow-up sol@d4293f52 |
+| sol@d4293f52 | 2020-06-10 | not needed, see [comment](#dmg_boss) below |
+| sol@80fd8226 | 2020-06-09 | follow-up sol@46123a38 |
+| sol@46123a38 | 2020-06-09 | not needed, see [comment](#dmg_boss) below |
+| sol@f860d49d | 2020-06-08 | follow-up sol@aee070b8 |
+| sol@aee070b8 | 2020-06-08 | not needed, see [comment](#dmg_boss) below; TODO: verify and collect the SAI in a separate commit |
 | sol@441c02a4 | 2020-06-07 | follow-up sol@83e46e20 |
 | sol@83e46e20 | 2020-06-07 | not needed, see [comment](#dmg_boss) below; TODO: verify and collect the SAI in a separate commit |
 | sol@3282ae8e | 2020-06-07 | follow-up sol@88590fe3 |
