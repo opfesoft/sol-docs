@@ -2,6 +2,8 @@ Skipped AC commits (just as a reminder and documentation):
 
 | commit       | date       | comment |
 |--------------|------------|---------|
+| sol@74247183 | 2020-06-13 | follow-up sol@d3e5b5bb |
+| sol@d3e5b5bb | 2020-06-13 | SQL script has been reworked, see sol@d11b6f2e |
 | sol@49c6a815 | 2020-06-12 | follow-up sol@8ab818d9 |
 | sol@8ab818d9 | 2020-06-12 | SQL script has been reworked, see sol@75818b14 |
 | sol@bf74a3a0 | 2020-06-12 | follow-up sol@74ce78b2 |
