@@ -106,7 +106,7 @@ mkdir vmaps mmaps
 ~/sol-srv/bin/mapextractor
 ~/sol-srv/bin/vmap4extractor
 ~/sol-srv/bin/vmap4assembler Buildings vmaps
-~/sol-srv/bin/mmaps_generator
+~/sol-srv/bin/mmaps_generator --threads $(expr $(nproc) + 2)
 cp -r dbc maps vmaps mmaps ~/sol-srv/data
 ```
 

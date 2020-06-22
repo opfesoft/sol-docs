@@ -322,7 +322,9 @@ The unique account ID.
 
 ### username
 
-The account user name.
+The account username.
+
+**NOTE**: Usernames are limited to 20 characters.
 
 ### sha\_pass\_hash
 
@@ -332,6 +334,8 @@ This field contains the encrypted password. The encryption is SHA1 and is in the
 |----------|---------------------------------------------------------------------|
 | SQL      | UPPER(SHA1(CONCAT(UPPER('myusername'), ':', UPPER('mypass'))));     |
 | PHP      | strtoupper(sha1(strtoupper($username).':'.strtoupper($password)));  |
+
+**NOTE**: Passwords are limited to 16 characters.
 
 ### sessionkey
 
