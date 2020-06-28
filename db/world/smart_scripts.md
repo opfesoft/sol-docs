@@ -4181,7 +4181,7 @@ if set to 0 only aggressive / hostile NPCs attack</p></td>
 <td><p>SMART_TARGET_CLOSEST_CREATURE</p></td>
 <td><p>19</p></td>
 <td><p><a href="creature_template.md#entry">creature_template.entry</a> (0 any)</p></td>
-<td><p>maxDist (Can be from 0-100 yards)</p></td>
+<td><p>maxDist (Can be from 1-100 yards)</p></td>
 <td><p>dead? (0/1)</p></td>
 <td><p><br />
 </p></td>
@@ -4193,13 +4193,13 @@ if set to 0 only aggressive / hostile NPCs attack</p></td>
 </p></td>
 <td><p><br />
 </p></td>
-<td><p>Closest creature with the specified ID within the specified range.</p></td>
+<td><p>Closest creature with the specified ID within the specified range. If maxDist is 0 then 100 yards will be used.</p></td>
 </tr>
 <tr class="odd">
 <td><p>SMART_TARGET_CLOSEST_GAMEOBJECT</p></td>
 <td><p>20</p></td>
 <td><p><a href="gameobject_template.md#entry">gameobject_template.entry</a> (0 any)</p></td>
-<td><p>maxDist (Can be from 0-100 yards)</p></td>
+<td><p>maxDist (Can be from 1-100 yards)</p></td>
 <td><p><br />
 </p></td>
 <td><p><br />
@@ -4212,7 +4212,7 @@ if set to 0 only aggressive / hostile NPCs attack</p></td>
 </p></td>
 <td><p><br />
 </p></td>
-<td><p>Closest object with specified ID within specified range.</p></td>
+<td><p>Closest object with specified ID within specified range. If maxDist is 0 then 100 yards will be used.</p></td>
 </tr>
 <tr class="even">
 <td><p>SMART_TARGET_CLOSEST_PLAYER</p></td>
