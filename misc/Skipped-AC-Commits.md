@@ -2,6 +2,28 @@ Skipped AC commits (just as a reminder and documentation):
 
 | commit       | date       | comment |
 |--------------|------------|---------|
+| sol@94a62654 | 2020-06-29 | follow-up sol@ce7fa544 |
+| sol@ce7fa544 | 2020-06-29 | not needed, see [comment](#dmg_boss) below |
+| sol@6332fd95 | 2020-06-27 | follow-up sol@7d54d191 |
+| sol@7d54d191 | 2020-06-27 | not needed, see [comment](#dmg_boss) below |
+| sol@7b56b2bb | 2020-06-27 | follow-up sol@3fe41b1d |
+| sol@3fe41b1d | 2020-06-27 | not needed, see [comment](#dmg_boss) below |
+| sol@64dbdd96 | 2020-06-25 | follow-up sol@f1b266f4 |
+| sol@f1b266f4 | 2020-06-25 | not needed, see [comment](#dmg_boss) below |
+| sol@257a5308 | 2020-06-24 | follow-up sol@9410e409 |
+| sol@9410e409 | 2020-06-24 | TODO: verify and rework SAI |
+| sol@20c7da23 | 2020-06-23 | follow-up sol@255989c1 |
+| sol@255989c1 | 2020-06-23 | TODO: verify and rework SAI |
+| sol@039fe10a | 2020-06-22 | GitHub issue template |
+| sol@cae81a95 | 2020-06-19 | follow-up sol@0b35a240 |
+| sol@0b35a240 | 2020-06-19 | not needed, see sol@53e48938 |
+| sol@fb9eb95f | 2020-06-17 | follow-up sol@444f691e |
+| sol@444f691e | 2020-06-17 | TODO: verify and rework SAI |
+| sol@383a95f9 | 2020-06-16 | follow-up sol@82dab24a |
+| sol@82dab24a | 2020-06-16 | TODO: verify and rework SAI; also reducing the respawn time for rares to 10 minutes is wrong (doesn't make them rare anymore) |
+| sol@a12e58b1 | 2020-06-15 | not needed, see sol@206577b8 |
+| sol@cccdb0a6 | 2020-06-14 | follow-up sol@55fde9ca |
+| sol@55fde9ca | 2020-06-14 | TODO: verify and rework SAI |
 | sol@74247183 | 2020-06-13 | follow-up sol@d3e5b5bb |
 | sol@d3e5b5bb | 2020-06-13 | SQL script has been reworked, see sol@d11b6f2e |
 | sol@49c6a815 | 2020-06-12 | follow-up sol@8ab818d9 |
