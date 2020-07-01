@@ -17,7 +17,7 @@ Loot templates define only items in the loot. See comments about money drop in c
 | [Entry](#entry)                 | mediumint unsigned | NO       | PRI     | 0           |           |
 | [Item](#item)                   | mediumint unsigned | NO       | PRI     | 0           |           |
 | [Reference](#reference)         | mediumint unsigned | NO       |         | 0           |           |
-| [Chance](#chanceorquestchance)  | float              | NO       |         | 100         |           |
+| [Chance](#chance)               | float              | NO       |         | 100         |           |
 | [QuestRequired](#questrequired) | bool               | NO       |         | 0           |           |
 | [LootMode](#lootmode)           | smallint           | NO       |         | 1           |           |
 | [GroupId](#groupid)             | tinyint            | NO       |         | 0           |           |
@@ -80,31 +80,21 @@ INSERT INTO `reference_loot_template` (`Entry`,`Item`,`Reference`) VALUES (21215
 
 then the core will crash due to stack overflow at first attempt of loot 21215 processing. That is why **self references and loop references are strictly forbidden**.
 
-### ChanceOrQuestChance
+### Chance
 
-Item drop chance (plain entry or quest entry). Not sure how this functions for loot reference items.
-
-### Plain entry
+Item drop chance.
 
 **Chance** &gt; 0
 
 Absolute value of **Chance** signifies the percent chance that the item has to drop. Any floating point number is allowed but indeed any value larger that 100 will make the same result as 100.
 
-### Quest drop
+**Chanced references**
 
-**Chance** &gt; 0
-
-Absolute value of **Chance** signifies the percent chance that the item has to drop. Any floating point number is allowed but indeed any value larger that 100 will make the same result as 100.
-
-Just as for plain entries absolute value of **Chance **signifies the percent chance that the item has to drop. But in addition negative **Chance**
-
-### Chanced references
-
-For **Reference*** *entries **Chance** signifies the percent chance that the reference has to be used. So it is very similar to plain entries meaning, just note that entire reference is skipped if the chance is missed.
+For **Reference** entries **Chance** signifies the percent chance that the reference has to be used. So it is very similar to plain entries meaning, just note that entire reference is skipped if the chance is missed.
 
 Negative and zero values of **Chance** make no sense for that case and should not be used.
 
-### Common remarks
+**Remarks**
 
 Zero value of **Chance** is allowed for [grouped entries](#groupid) only.
 
