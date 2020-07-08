@@ -83,7 +83,6 @@ Note: Some commands are working only by selecting a player or a creature. These 
 |debug unitstate|3|Syntax: .debug unitstate [#unitstate]. Set #unitstate for the selected unit. If no parameter is specified show the unit state and the react state of the unit.|
 |debug uws|3|Syntax: .debug uws #worldstate #value. Send update world state for #worldstate and #value to the current player.|
 |debug|3|Syntax: .debug $subcommand Type .debug to see the list of possible subcommands or .help debug $subcommand to see info on subcommands|
-|demorph|2|Syntax: .demorph Demorph the selected player.|
 |deserter bg add|3|Syntax: .deserter bg add $time. Adds the bg deserter debuff to your target with $time duration.|
 |deserter bg remove|3|Syntax: .deserter bg remove. Removes the bg deserter debuff from your target.|
 |deserter instance add|3|Syntax: .deserter instance add $time. Adds the instance deserter debuff to your target with $time duration.|
@@ -109,7 +108,7 @@ Note: Some commands are working only by selecting a player or a creature. These 
 |gmannounce|1|Syntax: .gmannounce $announcement Send an announcement to online Gamemasters.|
 |gmnameannounce|1|Syntax: .gmnameannounce $announcement. Send an announcement to all online GM's, displaying the name of the sender.|
 |gmnotify|1|Syntax: .gmnotify $notification Displays a notification on the screen of all online GM's.|
-|go creature|1|Syntax:.go creature #creature_guidTeleport your character to creature with guid #creature_guid..go creature #creature_nameTeleport your character to creature with this name..go creature id #creature_entryTeleport your character to a creature that was spawned from the template with this entry.If more than one creature is found, then you are teleported to the first that is found inside the database.|
+|go creature|1|Syntax:.go creature #creature_guid Teleport your character to creature with guid #creature_guid..go creature #creature_nameTeleport your character to creature with this name..go creature id #creature_entryTeleport your character to a creature that was spawned from the template with this entry.If more than one creature is found, then you are teleported to the first that is found inside the database.|
 |go graveyard|1|Syntax: .go graveyard #graveyardId Teleport to graveyard with the graveyardId specified.|
 |go grid|1|Syntax: .go grid #gridX #gridY [#mapId] Teleport the gm to center of grid with provided indexes at map #mapId (or current map if it not provided).|
 |go object|1|Syntax: .go object #object_guid Teleport your character to gameobject with guid #object_guid|
@@ -194,13 +193,16 @@ Note: Some commands are working only by selecting a player or a creature. These 
 |lookup|3|Syntax: .lookup $subcommand Type .lookup to see the list of possible subcommands or .help lookup $subcommand to see info on subcommands|
 |maxskill|3|Syntax: .maxskill Sets all skills of the targeted player to their maximum values for its current level.|
 |mailbox|1|Syntax: .mailbox. Open mailbox.|
-|modify speed walk|1|Syntax: .modify speed bwalk #rate Modify the speed of the selected player while running to "normal walk speed"*rate. If no player is selected, modify your speed. #rate may range from 0.1 to 50.|
+|modify speed|1|Syntax: .modify speed $speedtype #rate Modify the speed type of the selected player or creature to "normal base speed"\*rate. If no target is selected, modify your speed. $speedtypes may be walk, backwalk (only for players), swim or fly. #rate may range from 0.1 to 50.|
+|modify speed walk|1|Syntax: .modify speed walk #rate Modify the walk and run speed of the selected player or creature to "normal walk/run speed"\*rate. If no target is selected, modify your speed. #rate may range from 0.1 to 50.|
+|modify speed backwalk|1|Syntax: .modify speed backwalk #rate Modify the speed of the selected player while running backwards to "normal walk back speed"\*rate. If no player is selected, modify your speed. #rate may range from 0.1 to 50.|
+|modify speed swim|1|Syntax: .modify speed swim #rate Modify the swim speed of the selected player or creature to "normal swim speed"\*rate. If no target is selected, modify your speed. #rate may range from 0.1 to 50.|
+|modify speed fly|1|.modify speed fly #rate Modify the flying speed of the selected player or creature to "normal flying speed"\*rate. If no target is selected, modify your speed. #rate may range from 0.1 to 50.|
+|modify speed all|1|Syntax: .modify speed all #rate Modify all speed types -walk,run,swim,fly- of the selected player or creature to "normal base speed"\*rate. If no target is selected, modify your speed. #rate may range from 0.1 to 50.|
 |modify bit|1|Syntax: .modify bit #field #bit Toggle the #bit bit of the #field field for the selected player. If no player is selected, modify your character.|
-|modify speed swim|1|Syntax: .modify speed swim #rate Modify the swim speed of the selected player to "normal swim speed"*rate. If no player is selected, modify your speed. #rate may range from 0.1 to 50.|
 |modify drunk|1|Syntax: .modify drunk #value Set drunk level to #value (0..100). Value 0 remove drunk state, 100 is max drunked state.|
 |modify energy|1|Syntax: .modify energy #energy Modify the energy of the selected player. If no player is selected, modify your energy.|
 |modify faction|1|Syntax: .modify faction #factionid #flagid #npcflagid #dynamicflagid Modify the faction and flags of the selected creature. Without arguments, display the faction and flags of the selected creature.|
-|modify speed fly|1|.modify speed fly #rate Modify the flying speed of the selected player to "normal flying speed"*rate. If no player is selected, modify your speed. #rate may range from 0.1 to 50.|
 |modify gender|2|Syntax: .modify gender male/female Change gender of selected player.|
 |modify honor|1|Syntax: .modify honor $amount Add $amount honor points to the selected player.|
 |modify hp|1|Syntax: .modify hp #newhp Modify the hp of the selected player. If no player is selected, modify your hp.|
@@ -211,12 +213,9 @@ Note: Some commands are working only by selecting a player or a creature. These 
 |modify rage|1|Syntax: .modify rage #newrage Modify the rage of the selected player. If no player is selected, modify your rage.|
 |modify reputation|2|Syntax: .modify reputation #repId (#repvalue \ $rankname [#delta]) Sets the selected players reputation with faction #repId to #repvalue or to $reprank. If the reputation rank name is provided, the resulting reputation will be the lowest reputation for that rank plus the delta amount, if specified. You can use '.pinfo rep' to list all known reputation ids, or use '.lookup faction $name' to locate a specific faction id.|
 |modify runicpower|1|Syntax: .modify runicpower #newrunicpower Modify the runic power of the selected player. If no player is selected, modify your runic power.|
-|modify speed|1|Syntax: .modify speed $speedtype #rate Modify the running speed of the selected player to "normal base run speed"= 1. If no player is selected, modify your speed. $speedtypes may be fly, all, walk, backwalk, or swim. #rate may range from 0.1 to 50.|
 |modify spell|1|TODO|
 |modify standstate|2|Syntax: .modify standstate #emoteid Change the emote of your character while standing to #emoteid.|
-|modify speed backwalk|1|Syntax: .modify speed backwalk #rate Modify the speed of the selected player while running backwards to "normal walk back speed"*rate. If no player is selected, modify your speed. #rate may range from 0.1 to 50.|
 |character titles|2|Syntax: .character titles [$player_name] Show known titles list for selected player or player find by $player_name.|
-|modify speed all|1|Syntax: .modify aspeed #rate Modify all speeds -run,swim,run back,swim back- of the selected player to "normalbase speed for this move type"*rate. If no player is selected, modify your speed. #rate may range from 0.1 to 50.|
 |modify|1|Syntax: .modify $subcommand Type .modify to see the list of possible subcommands or .help modify $subcommand to see info on subcommands|
 |movegens|3|Syntax: .movegens Show movement generators stack for selected creature or player.|
 |mute|1|Syntax: .mute [$playerName] $timeInMinutes [$reason] Disible chat messaging for any character from account of character $playerName (or currently selected) at $timeInMinutes minutes. Player can be offline.|
@@ -492,6 +491,7 @@ Note: Some commands are working only by selecting a player or a creature. These 
 |group remove|3|Syntax: .group remove [$characterName] Removes the given character from his group.|
 |debug moveflags|3|Syntax: .debug moveflags [$newMoveFlags [$newMoveFlags2]] No params given will output the current moveflags of the target|
 |morph|2|Syntax: .morph #displayid Change your current model id to #displayid.|
+|demorph|2|Syntax: .demorph Demorph the selected player.|
 |modify arenapoints|1|Syntax: .modify arenapoints #value Add $amount arena points to the selected player.|
 |npc set data|3|Syntax: .npc set data $field $data Sets data for the selected creature. Used for testing Scripting|
 |disable add quest|3|Syntax: .disable add quest $entry $flag $comment|

@@ -220,7 +220,7 @@ Here is stored mail subject.
 
 ### body
 
-The text contained in the mail.
+The text contained in the mail. Maximum length is 8000 characters.
 
 ### has\_items
 

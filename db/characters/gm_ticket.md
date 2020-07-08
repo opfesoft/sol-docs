@@ -344,11 +344,11 @@ Specify account number of GameMaster that have this ticket assigned.
 
 ### comment
 
-The comment to the ticket, only visible to game masters
+The comment added to the ticket using GM command `.ticket comment`, only visible to game masters. If the command is used twice the comment will be overwritten.
 
 ### response
 
-The string the GM inserted with `.ticket response` commands to answer the ticket before completing it.
+The response the GM gave using the `.ticket response` command to answer the ticket before completing it. If the command is used twice the new response will be appended to the old one.
 
 ### completed
 

@@ -21,7 +21,7 @@
 
 <br>
 
-- latest g++ and gcc
+- latest g++ and gcc (clang needs the GCC header files)
   - `apt-key adv --keyserver keyserver.ubuntu.com --recv 60C317803A41BA51845E371A1E9377A2BA9EF27F`
   - `vi /etc/apt/sources.list.d/test.list`
     - Ubuntu 16.04: `deb http://ppa.launchpad.net/ubuntu-toolchain-r/test/ubuntu xenial main`
@@ -35,16 +35,16 @@
 
 ## Packages
 
-`apt-get install git cmake make gcc-9 g++-9 clang-10 libmariadbclient-dev libssl-dev libbz2-dev libreadline-dev libncurses-dev mariadb-server`
+`apt-get install git cmake make libgcc-9-dev libstdc++-9-dev clang-10 clang++-10 libmariadbclient-dev libssl-dev libbz2-dev libreadline-dev libncurses-dev mariadb-server`
 
 ## ACE installation
 
-Example for ACE 6.5.9, installation in "~/sol-srv/lib/ace":
+Example for ACE 6.5.10, installation in "~/sol-srv/lib/ace":
 
 - Get package:
 ```
-curl -L 'https://github.com/DOCGroup/ACE_TAO/releases/download/ACE%2BTAO-6_5_9/ACE+TAO-6.5.9.tar.gz' >ACE+TAO-6.5.9.tar.gz
-tar -xzf ACE+TAO-6.5.9.tar.gz
+curl -L 'https://github.com/DOCGroup/ACE_TAO/releases/download/ACE%2BTAO-6_5_10/ACE+TAO-6.5.10.tar.gz' >ACE+TAO-6.5.10.tar.gz
+tar -xzf ACE+TAO-6.5.10.tar.gz
 ```
 
 - Set `ACE_ROOT`:
@@ -65,14 +65,20 @@ add
 add
 
 ```
-include $(ACE_ROOT)/include/makeinclude/platform_linux.GNU
+include $(ACE_ROOT)/include/makeinclude/platform_linux_clang.GNU
 INSTALL_PREFIX = $(HOME)/sol-srv/lib/ace
 ```
 
-- Install (here GCC 9 is used):
+- Install (here clang 10 is used):
 ```
 cd $ACE_ROOT/ace
-make -j 12 CC=gcc-9 CXX=g++-9 install
+make -j 12 CC='clang-10' CXX='clang++-10' install
+```
+
+- Remove `ACE_wrappers` and clear `ACE_ROOT`:
+```
+rm -fr "$ACE_ROOT"
+export ACE_ROOT=
 ```
 
 Further information: http://www.dre.vanderbilt.edu/~schmidt/DOC_ROOT/ACE/ACE-INSTALL.html#unix_traditional
