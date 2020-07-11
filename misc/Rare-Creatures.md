@@ -228,7 +228,7 @@
 | Garneg Charskull           |  2108 |   10745 |         |     |     |         |
 | Strider Clutchmother       |  2172 |   37385 |         |     |     |         |
 | Shadowclaw                 |  2175 |   37432 |         |     |     |         |
-| Lady Moongazer             |  2184 |   37730 |         |     |     |         |
+| Lady Moongazer             |  2184 |   37730 | yes     | yes | yes |         |
 | Carnivous the Breaker      |  2186 |   51900 |         |     |     |         |
 | Licillin                   |  2191 |   52009 |         |     |     |         |
 | Firecaller Radison         |  2192 |   37852 |         |     |     |         |
