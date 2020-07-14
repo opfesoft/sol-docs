@@ -2,6 +2,23 @@ Skipped AC commits (just as a reminder and documentation):
 
 | commit       | date       | comment |
 |--------------|------------|---------|
+| sol@e359cb00 | 2020-07-13 | follow-up sol@26dcedd7 |
+| sol@26dcedd7 | 2020-07-13 | TODO: verify and rework SAI |
+| sol@2fb9985a | 2020-07-12 | follow-up sol@41c8a116 |
+| sol@41c8a116 | 2020-07-12 | TODO: verify and rework SAI |
+| sol@a0b00be5 | 2020-07-07 | follow-up sol@6d460c54 |
+| sol@6d460c54 | 2020-07-07 | TODO: verify and rework SAI |
+| sol@b9adeba2 | 2020-07-07 | not needed |
+| sol@f9d6711b | 2020-07-06 | not needed |
+| sol@12c00e91 | 2020-07-06 | Windows |
+| sol@aeab506f | 2020-07-03 | follow-up sol@3dbd0181 |
+| sol@3dbd0181 | 2020-07-03 | not needed, see [comment](#dmg_boss) below; TODO: verify and collect the SAI in a separate commit |
+| sol@e225ba26 | 2020-07-02 | follow-up sol@b5004b31 |
+| sol@b5004b31 | 2020-07-02 | not needed, see [comment](#dmg_boss) below |
+| sol@df637282 | 2020-07-01 | follow-up sol@d7afa142 |
+| sol@d7afa142 | 2020-07-01 | not needed, see [comment](#dmg_boss) below |
+| sol@8968039a | 2020-07-01 | follow-up sol@849edc24 |
+| sol@849edc24 | 2020-07-01 | TODO: verify and rework DB script |
 | sol@94a62654 | 2020-06-29 | follow-up sol@ce7fa544 |
 | sol@ce7fa544 | 2020-06-29 | not needed, see [comment](#dmg_boss) below |
 | sol@6332fd95 | 2020-06-27 | follow-up sol@7d54d191 |

@@ -23,6 +23,7 @@ Note: Some commands are working only by selecting a player or a creature. These 
 |arena captain|3|Syntax: .arena captain #TeamID $name. A command to set new captain to the team. $name must be in the team|
 |aura|3|Syntax: .aura #spellid Add the aura from spell #spellid to the selected Unit.|
 |ban account|3|Syntax: .ban account $Name $bantime $reason Ban account kick player. $bantime: negative value leads to permban, otherwise use a timestring like "4d20h3s".|
+|ban playeraccount|3|Syntax: .ban playeraccount $Name $bantime $reason Ban account and kick player. $bantime: negative value leads to permban, otherwise use a timestring like "4d20h3s".|
 |ban character|3|Syntax: .ban character $Name $bantime $reason Ban character and kick player. $bantime: negative value leads to permban, otherwise use a timestring like "4d20h3s".|
 |ban ip|3|Syntax: .ban ip $Ip $bantime $reason Ban IP. $bantime: negative value leads to permban, otherwise use a timestring like "4d20h3s".|
 |ban|3|Syntax: .ban $subcommand Type .ban to see the list of possible subcommands or .help ban $subcommand to see info on subcommands|
@@ -30,11 +31,15 @@ Note: Some commands are working only by selecting a player or a creature. These 
 |baninfo character|3|Syntax: .baninfo character $charactername Watch full information about a specific ban.|
 |baninfo ip|3|Syntax: .baninfo ip $ip Watch full information about a specific ban.|
 |baninfo|3|Syntax: .baninfo $subcommand Type .baninfo to see the list of possible subcommands or .help baninfo $subcommand to see info on subcommands|
-|bank|3|Syntax: .bank Show your bank inventory.|
 |banlist account|3|Syntax: .banlist account [$Name] Searches the banlist for a account name pattern or show full list account bans.|
 |banlist character|3|Syntax: .banlist character $Name Searches the banlist for a character name pattern. Pattern required.|
 |banlist ip|3|Syntax: .banlist ip [$Ip] Searches the banlist for a IP pattern or show full list of IP bans.|
 |banlist|3|Syntax: .banlist $subcommand Type .banlist to see the list of possible subcommands or .help banlist $subcommand to see info on subcommands|
+|unban account|3|Syntax: .unban account $Name Unban accounts for account name pattern.|
+|unban character|3|Syntax: .unban character $Name Unban accounts for character name pattern.|
+|unban ip|3|Syntax : .unban ip $Ip Unban accounts for IP pattern.|
+|unban|3|Syntax: .unban $subcommand Type .unban to see the list of possible subcommands or .help unban $subcommand to see info on subcommands|
+|bank|3|Syntax: .bank Show your bank inventory.|
 |bindsight|3|Syntax: .bindsight Binds vision to the selected unit indefinitely. Cannot be used while currently possessing a target.|
 |cast back|3|Syntax: .cast back #spellid [triggered] Selected target will cast #spellid to your character. If 'trigered' or part provided then spell casted with triggered flag.|
 |cast dist|3|Syntax: .cast dist #spellid [#dist [triggered]] You will cast spell to pint at distance #dist. If 'trigered' or part provided then spell casted with triggered flag. Not all spells can be casted as area spells.|
@@ -417,10 +422,6 @@ Note: Some commands are working only by selecting a player or a creature. These 
 |ticket viewname|1|Usage: .ticket viewname $creatorname. Returns details about specified ticket. Ticket must be open and not deleted.|
 |ticket|1|Syntax: .ticket $subcommand Type .ticket to see the list of possible subcommands or .help ticket $subcommand to see info on subcommands|
 |unaura|3|Syntax: .unaura #spellid Remove aura due to spell #spellid from the selected Unit. If using "all" as #spellid all auras will be removed.|
-|unban account|3|Syntax: .unban account $Name Unban accounts for account name pattern.|
-|unban character|3|Syntax: .unban character $Name Unban accounts for character name pattern.|
-|unban ip|3|Syntax : .unban ip $Ip Unban accounts for IP pattern.|
-|unban|3|Syntax: .unban $subcommand Type .unban to see the list of possible subcommands or .help unban $subcommand to see info on subcommands|
 |unbindsight|3|Syntax: .unbindsight Removes bound vision. Cannot be used while currently possessing a target.|
 |unfreeze|1|Syntax: .unfreeze (#player) "Unfreezes" #player and enables his chat again. When using this without #name it will unfreeze your target.|
 |unlearn|3|Syntax: .unlearn #spell [all] Unlearn for selected player a spell #spell. If 'all' provided then all ranks unlearned.|
@@ -456,7 +457,6 @@ Note: Some commands are working only by selecting a player or a creature. These 
 |reload lfg_dungeon_rewards|3|Syntax: .reload lfg_dungeon_rewards Reload lfg_dungeon_rewards table.|
 |character changefaction|2|Syntax: .character changefaction $name Change character faction.|
 |character changerace|2|Syntax: .character changerace $name Change character race.|
-|ban playeraccount|3|Syntax: .ban playeraccount $Name $bantime $reason Ban account and kick player. $bantime: negative value leads to permban, otherwise use a timestring like "4d20h3s".|
 |achievement add|4|Syntax: .achievement add $achievement Add an achievement to the targeted player. $achievement: can be either achievement id or achievement link|
 |achievement checkall|3|Syntax: .achievement checkall. Check all achievement criteria of the selected player.|
 |achievement|4|Syntax: .achievement $subcommand Type .achievement to see the list of possible subcommands or .help achievement $subcommand to see info on subcommands|

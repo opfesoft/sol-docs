@@ -99,7 +99,7 @@ The account ID in which this character resides. See [account.id](../auth/account
 
 ### name
 
-The name of the character.
+The name of the character (maximum length 12 characters).
 
 ### race
 
@@ -515,8 +515,10 @@ Contains data about known Titles stored in 6 x 16bit integers. To calculate wher
 
 We use the InGameOrder to calculate in which one of the 6 (16bit) integer is the title stored:
 
+```
 InGameOrder / 32 = X
 61 / 32 = **1,90625** (1 - Do **NOT** round the value!)
+```
 
 so the 1st integer stores the title. Because counting starts from **0** to 5, it would be "0 **TITLE\_BIT** 0 0 0 0".
 
