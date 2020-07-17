@@ -2327,7 +2327,7 @@ if set to 0 only aggressive / hostile NPCs attack</p></td>
 <td><p><a href="quest_template.md#id">quest_template.id</a></p></td>
 <td><p>despawntime</p></td>
 <td><p>reactState</p></td>
-<td><p>Creature starts Waypoint Movement. Use <a href="waypoints.md#entry">waypoints</a> table to create movement.</p></td>
+<td><p>Creature starts Waypoint Movement. Use <a href="waypoints.md#entry">waypoints</a> table to create movement. Uses the target as escort if it is a player.</p></td>
 </tr>
 <tr class="odd">
 <td><p>SMART_ACTION_WP_PAUSE</p></td>
