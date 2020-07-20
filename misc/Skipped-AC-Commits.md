@@ -2,6 +2,14 @@ Skipped AC commits (just as a reminder and documentation):
 
 | commit       | date       | comment |
 |--------------|------------|---------|
+| sol@39f2d13f | 2020-07-19 | wrong, see [comment](#combat_with_zone) below |
+| sol@49e4ae7e | 2020-07-17 | follow-up sol@a62f29fe |
+| sol@a62f29fe | 2020-07-17 | wrong, see [comment](#combat_with_zone) below |
+| sol@6bf93eb8 | 2020-07-16 | readme |
+| sol@abb2d99b | 2020-07-15 | follow-up sol@f73bd8b2 |
+| sol@f73bd8b2 | 2020-07-15 | already fixed, see sol@037c5762 |
+| sol@0d9e52d8 | 2020-07-14 | follow-up sol@a0737047 |
+| sol@a0737047 | 2020-07-14 | TODO: verify and rework SAI |
 | sol@e359cb00 | 2020-07-13 | follow-up sol@26dcedd7 |
 | sol@26dcedd7 | 2020-07-13 | TODO: verify and rework SAI |
 | sol@2fb9985a | 2020-07-12 | follow-up sol@41c8a116 |
@@ -123,7 +131,7 @@ Skipped AC commits (just as a reminder and documentation):
 | sol@fe5b46f3 | 2020-04-21 | not needed, the Ragefire Shaman is working correctly; actually this commit is a regression: Lightning Bolt does not prevent combat movement anymore and is not interrupted by Healing Wave |
 | sol@13979719 | 2020-04-19 | CI |
 | sol@2514f8fc | 2020-04-18 | not needed, may be taken over later if it is actually used anywhere (double-check for bugs!) |
-| sol@f381bd47 | 2020-04-17 | not needed and also uses a wrong logic: "SMART\_ACTION\_SET\_IN\_COMBAT\_WITH\_ZONE" is meant to be used with targeted creatures, not with the script holder |
+| sol@f381bd47 | 2020-04-17 | not needed and also uses a <a name="combat_with_zone"></a>wrong logic: "SMART\_ACTION\_SET\_IN\_COMBAT\_WITH\_ZONE" is meant to be used with targeted creatures, not with the script holder |
 | sol@6a410efa | 2020-04-17 | not needed, may be taken over later if it is actually used anywhere (double-check for bugs!) |
 | sol@8aa80eef | 2020-04-16 | not needed, may be taken over later if it is actually used anywhere (double-check for bugs!) |
 | sol@9174e1eb | 2020-04-08 | follow-up sol@2abde9bd |
