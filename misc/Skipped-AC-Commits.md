@@ -2,6 +2,13 @@ Skipped AC commits (just as a reminder and documentation):
 
 | commit       | date       | comment |
 |--------------|------------|---------|
+| sol@e428f0d6 | 2020-07-22 | follow-up sol@833611f1 |
+| sol@833611f1 | 2020-07-22 | not needed |
+| sol@3cce4446 | 2020-07-21 | follow-up sol@ab01adbb |
+| sol@ab01adbb | 2020-07-21 | TODO: verify and rework SAI |
+| sol@24e7e8cf | 2020-07-21 | follow-up sol@8449a0b0 |
+| sol@8449a0b0 | 2020-07-21 | TODO: verify and rework SAI |
+| sol@d735e225 | 2020-07-20 | macOS |
 | sol@39f2d13f | 2020-07-19 | wrong, see [comment](#combat_with_zone) below |
 | sol@49e4ae7e | 2020-07-17 | follow-up sol@a62f29fe |
 | sol@a62f29fe | 2020-07-17 | wrong, see [comment](#combat_with_zone) below |
