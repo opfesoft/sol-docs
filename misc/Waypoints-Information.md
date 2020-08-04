@@ -22,6 +22,7 @@
   - ```action```: Change the [action](../db/world/scripts.md#id) of the selected waypoint.
   - ```action_chance```: Change the [action_chance](../db/world/waypoint_data.md#action_chance) of the selected waypoint.
   - ```move_type```: Change the [move_type](../db/world/waypoint_data.md#move_type) of the selected waypoint (0: walk, 1: run, 2: fly).
+  - ```orientation```: Change the [orientation](../db/world/waypoint_data.md#orientation) of the selected waypoint. If "player" is specified as value the current orientation of the player is used instead.
 - ```.wp event```: Modify the waypoint [actions](../db/world/scripts.md#id), options:
   - ```add``` [guid](../db/world/scripts.md#guid): Add a new action with the specified GUID (not to be confused with the creature GUID!). If no GUID is specified a new one is generated automatically.
   - ```listid``` [action](../db/world/scripts.md#id): Show information about the specified action id.

@@ -48,7 +48,7 @@ The Z coordinate of the destination waypoint.
 
 #### orientation
 
-The orientation of the creature. (North = 0.0; South = π (3.14159))
+The orientation of the creature (North = 0.0; South = π (3.14159)). Is only used if a waypoint delay is specified.
 
 #### delay
 
