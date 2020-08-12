@@ -41,24 +41,24 @@
 
 ### Example for path creation using GM '.wp' commands
 
-Example creature GUID: 1234567, example path id: 123456700
+Example creature GUID: 1234567, example path id: 12345670
 
 - Create a macro 'wp1' with this command:
   ```
-  .wp add 123456700
+  .wp add 12345670
   ```
 - Create a macro 'wp2' with these commands:
   ```
-  .wp reload 123456700
-  .wp load 123456700
+  .wp reload 12345670
+  .wp load 12345670
   ```
 - Create a macro 'wp3' with this command:
   ```
-  .wp show on 123456700
+  .wp show on 12345670
   ```
 - Create a macro 'wp4' with this command:
   ```
-  .wp show off 123456700
+  .wp show off 12345670
   ```
 - Teleport to the creature:
   ```
@@ -81,18 +81,18 @@ Example creature GUID: 1234567, example path id: 123456700
   .wp unload
   ```
 
-- Delete the path from the DB, for example 123456700:
+- Delete the path from the DB, for example 12345670:
   ```sql
-  DELETE FROM `waypoint_data` WHERE `id` = 123456700;
+  DELETE FROM `waypoint_data` WHERE `id` = 12345670;
   ```
 
 #### Take over the waypoints from 'waypoint_data' to 'waypoints' (SmartAI)
 
-If you need the waypoints for SmartAI you have to copy the waypoints from table [waypoint_data](../db/world/waypoint_data.md) into table [waypoints](../db/world/waypoints.md) and then delete the original waypoints (unload the path for the creature via ```.wp unload``` if it was loaded before). Here an example for path 123456700:
+If you need the waypoints for SmartAI you have to copy the waypoints from table [waypoint_data](../db/world/waypoint_data.md) into table [waypoints](../db/world/waypoints.md) and then delete the original waypoints (unload the path for the creature via ```.wp unload``` if it was loaded before). Here an example for path 12345670:
 ```sql
 INSERT INTO `waypoints` (`entry`,`pointid`,`position_x`,`position_y`,`position_z`)
-  SELECT `id`,`point`,`position_x`,`position_y`,`position_z` FROM `waypoint_data` WHERE `id` = 123456700;
-DELETE FROM `waypoint_data` WHERE `id` = 123456700;
+  SELECT 1234567 AS `id`,`point`,`position_x`,`position_y`,`position_z` FROM `waypoint_data` WHERE `id` = 12345670;
+DELETE FROM `waypoint_data` WHERE `id` = 12345670;
 ```
 
 #### Take over the waypoints from 'waypoint_data' to 'script_waypoint' (CreatureAI)
@@ -100,9 +100,17 @@ DELETE FROM `waypoint_data` WHERE `id` = 123456700;
 The same as above, but now for [script_waypoint](../db/world/script_waypoint.md) instead of [waypoints](../db/world/waypoints.md). The entry of [script_waypoint](../db/world/script_waypoint.md) has to be the [creature_template.entry](../db/world/creature_template.md#entry), here for example 1234567:
 ```sql
 INSERT INTO `script_waypoint` (`entry`,`pointid`,`location_x`,`location_y`,`location_z`)
-  SELECT 1234567 AS `entry`,`point`,`position_x`,`position_y`,`position_z` FROM `waypoint_data` WHERE `id` = 123456700;
-DELETE FROM `waypoint_data` WHERE `id` = 123456700;
+  SELECT 1234567 AS `entry`,`point`,`position_x`,`position_y`,`position_z` FROM `waypoint_data` WHERE `id` = 12345670;
+DELETE FROM `waypoint_data` WHERE `id` = 12345670;
 
 ```
 Don't forget to unload the path from the creature if it was loaded before.
 
+#### Take over the waypoints from 'waypoints' to 'waypoint_data'
+
+Copy the SmartAI waypoints into table [waypoint_data](../db/world/waypoint_data.md) and delete them from the [waypoints](../db/world/waypoints.md) table afterwards:
+```sql
+INSERT INTO `waypoint_data` (`id`,`point`,`position_x`,`position_y`,`position_z`)
+  SELECT 12345670 AS `entry`,`pointid`,`position_x`,`position_y`,`position_z` FROM `waypoints` WHERE `entry` = 1234567;
+DELETE FROM `waypoints` WHERE `entry` = 1234567;
+```

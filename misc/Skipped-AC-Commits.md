@@ -2,6 +2,34 @@ Skipped AC commits (just as a reminder and documentation):
 
 | commit       | date       | comment |
 |--------------|------------|---------|
+| sol@c83c53e7 | 2020-08-12 | follow-up sol@3ddfb568 |
+| sol@3ddfb568 | 2020-08-12 | not needed, see [comment](#dmg_boss) below; TODO: verify and collect the SAI in a separate commit |
+| sol@0e1713d1 | 2020-08-11 | already fixed, see sol@206577b8 |
+| sol@d5079353 | 2020-08-10 | follow-up sol@96dc9fc0 |
+| sol@96dc9fc0 | 2020-08-10 | TODO: use gossip menu ids in the "npc\_taxi" CreatureScript, no need to move the logic into the DB |
+| sol@e00ae680 | 2020-08-09 | follow-up sol@f398fd22 |
+| sol@f398fd22 | 2020-08-09 | not needed, see [comment](#dmg_boss) below |
+| sol@205409ec | 2020-08-09 | follow-up sol@455ce5f0 |
+| sol@455ce5f0 | 2020-08-09 | not needed |
+| sol@0580ac08 | 2020-08-08 | follow-up sol@ca8dbc39 |
+| sol@ca8dbc39 | 2020-08-08 | not needed, see [comment](#dmg_boss) below |
+| sol@cdb49996 | 2020-08-06 | not needed |
+| sol@ad6ad094 | 2020-08-06 | not needed |
+| sol@a37ea1b6 | 2020-08-05 | Sol uses 80 as default GM.StartLevel (see sol@2c6e5432) |
+| sol@83d5d9dc | 2020-08-03 | follow-up sol@4e764850 |
+| sol@4e764850 | 2020-08-03 | wrong, "amount" has to stay signed integer: amount -1 means that the item is removed from the inventory, so if deleting the DB entry for item 40582 it will actually be added to the inventory because it is contained in the DBC |
+| sol@3f1adefb | 2020-08-02 | follow-up sol@e949ab27 |
+| sol@e949ab27 | 2020-08-02 | TODO: rework SQL script (wrong / obsolete texts) |
+| sol@fcaf91b8 | 2020-07-30 | already implemented, see sol@dc6a4411 |
+| sol@91bbbf08 | 2020-07-28 | not needed |
+| sol@e3a81ad1 | 2020-07-26 | follow-up sol@a6a9cfbb |
+| sol@a6a9cfbb | 2020-07-26 | not needed, see [comment](#dmg_boss) below; TODO: verify and collect the SAI in a separate commit |
+| sol@b9ff7eb0 | 2020-07-25 | follow-up sol@049299ca |
+| sol@049299ca | 2020-07-25 | not needed, see [comment](#dmg_boss) below |
+| sol@99dd2689 | 2020-07-24 | follow-up sol@3b911f7f |
+| sol@3b911f7f | 2020-07-24 | not needed, see [comment](#dmg_boss) below |
+| sol@16c20c96 | 2020-07-23 | follow-up sol@e8fa3720 |
+| sol@e8fa3720 | 2020-07-23 | TODO: verify and rework SAI |
 | sol@e428f0d6 | 2020-07-22 | follow-up sol@833611f1 |
 | sol@833611f1 | 2020-07-22 | not needed |
 | sol@3cce4446 | 2020-07-21 | follow-up sol@ab01adbb |
