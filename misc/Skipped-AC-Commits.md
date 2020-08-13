@@ -2,6 +2,7 @@ Skipped AC commits (just as a reminder and documentation):
 
 | commit       | date       | comment |
 |--------------|------------|---------|
+| sol@d2cc3fcb | 2020-08-13 | Docker not needed; other improvements already implemented, see sol@206577b8 |
 | sol@c83c53e7 | 2020-08-12 | follow-up sol@3ddfb568 |
 | sol@3ddfb568 | 2020-08-12 | not needed, see [comment](#dmg_boss) below; TODO: verify and collect the SAI in a separate commit |
 | sol@0e1713d1 | 2020-08-11 | already fixed, see sol@206577b8 |
