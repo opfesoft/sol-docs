@@ -2,6 +2,19 @@ Skipped AC commits (just as a reminder and documentation):
 
 | commit       | date       | comment |
 |--------------|------------|---------|
+| sol@1854a3a3 | 2020-08-18 | CI |
+| sol@9e5c3f78 | 2020-08-18 | unit tests |
+| sol@da61bf3a | 2020-08-17 | unit tests |
+| sol@da1725cf | 2020-08-17 | unit tests |
+| sol@408366f3 | 2020-08-17 | not needed |
+| sol@27ed629f | 2020-08-16 | follow-up sol@8b9cec62 |
+| sol@8b9cec62 | 2020-08-16 | not needed |
+| sol@95dff359 | 2020-08-15 | CI / docker |
+| sol@c2b40b12 | 2020-08-15 | unit tests not needed |
+| sol@4d11f5c9 | 2020-08-15 | follow-up sol@f754c008 |
+| sol@f754c008 | 2020-08-15 | TODO: verify and rework SAI |
+| sol@2052491a | 2020-08-13 | follow-up sol@8b57a3e2 |
+| sol@8b57a3e2 | 2020-08-13 | TODO: verify and rework SAI |
 | sol@d2cc3fcb | 2020-08-13 | Docker not needed; other improvements already implemented, see sol@206577b8 |
 | sol@c83c53e7 | 2020-08-12 | follow-up sol@3ddfb568 |
 | sol@3ddfb568 | 2020-08-12 | not needed, see [comment](#dmg_boss) below; TODO: verify and collect the SAI in a separate commit |
