@@ -2,6 +2,14 @@ Skipped AC commits (just as a reminder and documentation):
 
 | commit       | date       | comment |
 |--------------|------------|---------|
+| sol@07c9debb | 2020-08-19 | CI |
+| sol@2bc832ef | 2020-08-19 | not needed; clang warnings already fixed, see sol@37244e4d, sol@206577b8 |
+| sol@4e4a0013 | 2020-08-19 | follow-up sol@3f8abc6b |
+| sol@3f8abc6b | 2020-08-19 | no need to move SAI to CreatureScript; the CreatureScript is also not using the correct Heroic spells (the TC version taken over here is very old) |
+| sol@60176cd3 | 2020-08-19 | follow-up sol@fae5753f |
+| sol@fae5753f | 2020-08-19 | not needed |
+| sol@261289f1 | 2020-08-19 | follow-up sol@106f6f94 |
+| sol@106f6f94 | 2020-08-19 | TODO: Rework SQL script as this one is buggy (e.g. no gameobject GUID specified); also Yor's SAI can be easily improved (no need to write a CreatureScript) |
 | sol@1854a3a3 | 2020-08-18 | CI |
 | sol@9e5c3f78 | 2020-08-18 | unit tests |
 | sol@da61bf3a | 2020-08-17 | unit tests |
