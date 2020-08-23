@@ -39,12 +39,12 @@
 
 ## ACE installation
 
-Example for ACE 6.5.10, installation in "~/sol-srv/lib/ace":
+Example for ACE 6.5.11, installation in "~/sol-srv/lib/ace":
 
 - Get package:
 ```
-curl -L 'https://github.com/DOCGroup/ACE_TAO/releases/download/ACE%2BTAO-6_5_10/ACE+TAO-6.5.10.tar.gz' >ACE+TAO-6.5.10.tar.gz
-tar -xzf ACE+TAO-6.5.10.tar.gz
+curl -L 'https://github.com/DOCGroup/ACE_TAO/releases/download/ACE%2BTAO-6_5_11/ACE+TAO-6.5.11.tar.gz' >ACE+TAO-6.5.11.tar.gz
+tar -xzf ACE+TAO-6.5.11.tar.gz
 ```
 
 - Set `ACE_ROOT`:
@@ -72,7 +72,7 @@ INSTALL_PREFIX = $(HOME)/sol-srv/lib/ace
 - Install (here clang 10 is used):
 ```
 cd $ACE_ROOT/ace
-make -j 12 CC='clang-10' CXX='clang++-10'
+make -j $(($(nproc)+2)) CC='clang-10' CXX='clang++-10'
 make install
 ```
 
@@ -111,7 +111,7 @@ Build and install:
 cd ~/sol
 mkdir build; cd build
 cmake ../ -DCMAKE_C_COMPILER_LAUNCHER=ccache -DCMAKE_CXX_COMPILER_LAUNCHER=ccache -DCMAKE_C_COMPILER="clang-10" -DCMAKE_CXX_COMPILER="clang++-10" -DWITH_WARNINGS=1 -DCMAKE_C_FLAGS="-Werror" -DCMAKE_CXX_FLAGS="-Werror" -DUSE_COREPCH=0 -DUSE_SCRIPTPCH=0 -DCMAKE_INSTALL_PREFIX=~/sol-srv/ -DTOOLS=1 -DSCRIPTS=1
-make -j $(expr $(nproc) + 2)
+make -j $(($(nproc)+2))
 make install
 ```
 
@@ -122,7 +122,7 @@ mkdir vmaps mmaps
 ~/sol-srv/bin/mapextractor
 ~/sol-srv/bin/vmap4extractor
 ~/sol-srv/bin/vmap4assembler Buildings vmaps
-~/sol-srv/bin/mmaps_generator --threads $(expr $(nproc) + 2)
+~/sol-srv/bin/mmaps_generator --threads $(($(nproc)+2))
 cp -r dbc maps vmaps mmaps ~/sol-srv/data
 ```
 
