@@ -5,9 +5,9 @@ Skipped AC commits (just as a reminder and documentation):
 | sol@78a02c8f | 2020-08-23 | better solution implemented, see sol@5aa37a16 |
 | sol@529d3747 | 2020-08-23 | follow-up sol@5bac46bb |
 | sol@5bac46bb | 2020-08-23 | not needed (there is nothing wrong with Boahn's loot) |
-| sol@77b7a20f | 2020-08-22 | not needed (the bug was introduced by commit sol@833611f1 which was not taken over by Sol) |
+| sol@77b7a20f | 2020-08-22 | not needed (the bug was introduced with commit sol@833611f1 which was not taken over by Sol) |
 | sol@2a1f6c7a | 2020-08-22 | follow-up sol@a5c301a2 |
-| sol@a5c301a2 | 2020-08-22 | wrong, as the SQL script updates on 'guid' instead of 'id'; TODO: verify and rework script |
+| sol@a5c301a2 | 2020-08-22 | wrong, as the SQL script updates on 'guid' instead of 'id'; fixed in sol@caff0d30 |
 | sol@1dd9965d | 2020-08-21 | CI |
 | sol@2ad98c57 | 2020-08-21 | CI |
 | sol@ed8ed175 | 2020-08-21 | not needed |
