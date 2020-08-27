@@ -208,4 +208,4 @@ cp ~/sol-srv/etc/transmog.conf.dist ~/sol-srv/etc/transmog.conf
 
 Change the `*.conf` files as needed.
 
-- Set IP address and port for the realm (table "realmlist" in DB "auth")
+- Set name, IP address and port for the realm (table "realmlist" in DB "auth")

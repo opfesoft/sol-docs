@@ -2,6 +2,18 @@ Skipped AC commits (just as a reminder and documentation):
 
 | commit       | date       | comment |
 |--------------|------------|---------|
+| sol@d7a758e3 | 2020-08-27 | CI |
+| sol@041a508a | 2020-08-27 | follow-up sol@68bd9985 |
+| sol@68bd9985 | 2020-08-27 | TODO: verify and rework SAI |
+| sol@a6a7cbf8 | 2020-08-26 | follow-up sol@e6b49e4a |
+| sol@e6b49e4a | 2020-08-26 | TODO: verify and rework SAI |
+| sol@d8ad0c52 | 2020-08-26 | wrong: the ability to refresh "Living Bomb" was introduced with patch 4.0.1 |
+| sol@4db1164d | 2020-08-26 | follow-up sol@9d5bbaf2 |
+| sol@9d5bbaf2 | 2020-08-26 | not needed, see [comment](#dmg_boss) below |
+| sol@a9b90c9a | 2020-08-25 | ACE removal not needed |
+| sol@208c257b | 2020-08-25 | follow-up sol@9bf66931 |
+| sol@9bf66931 | 2020-08-25 | TODO: verify and rework SAI |
+| sol@c79a4757 | 2020-08-24 | wrong, see [comment](#combat_with_zone) below |
 | sol@78a02c8f | 2020-08-23 | better solution implemented, see sol@5aa37a16 |
 | sol@529d3747 | 2020-08-23 | follow-up sol@5bac46bb |
 | sol@5bac46bb | 2020-08-23 | not needed (there is nothing wrong with Boahn's loot) |
