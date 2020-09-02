@@ -2,6 +2,30 @@ Skipped AC commits (just as a reminder and documentation):
 
 | commit       | date       | comment |
 |--------------|------------|---------|
+| sol@37248474 | 2020-09-01 | docs |
+| sol@eb952ecb | 2020-09-01 | follow-up sol@a07c2b39 |
+| sol@a07c2b39 | 2020-09-01 | TODO: verify and rework SAI |
+| sol@48182f17 | 2020-08-31 | follow-up sol@34d9998c |
+| sol@34d9998c | 2020-08-31 | TODO: verify and rework SAI |
+| sol@bbb4af34 | 2020-08-31 | CI |
+| sol@0ff3f84f | 2020-08-31 | CI |
+| sol@f11ddc65 | 2020-08-31 | CI |
+| sol@1f89282b | 2020-08-31 | not needed |
+| sol@38903b5d | 2020-08-31 | docs |
+| sol@799ebb6a | 2020-08-30 | follow-up sol@3a56cdbd |
+| sol@3a56cdbd | 2020-08-30 | replacing the creature ID leads to several bugs (e.g. cannot turn in the quest "Muradin's Lament" anymore); TODO: implement a better solution |
+| sol@d2b68b78 | 2020-08-29 | follow-up sol@5fd404de |
+| sol@5fd404de | 2020-08-29 | TODO: verify and rework SAI |
+| sol@9ca4554b | 2020-08-29 | follow-up sol@6f86643e |
+| sol@6f86643e | 2020-08-29 | TODO: verify and rework SAI |
+| sol@a1a726f0 | 2020-08-29 | follow-up sol@2a6a5e48 |
+| sol@2a6a5e48 | 2020-08-29 | TODO: verify and rework SAI |
+| sol@33613254 | 2020-08-28 | follow-up sol@21fb494d |
+| sol@21fb494d | 2020-08-28 | TODO: verify and rework SAI |
+| sol@f39ae8f6 | 2020-08-28 | follow-up sol@cb860e8e |
+| sol@cb860e8e | 2020-08-28 | TODO: verify and rework SAI |
+| sol@8c144458 | 2020-08-28 | follow-up sol@fd517414 |
+| sol@fd517414 | 2020-08-28 | TODO: verify and rework SAI |
 | sol@d7a758e3 | 2020-08-27 | CI |
 | sol@041a508a | 2020-08-27 | follow-up sol@68bd9985 |
 | sol@68bd9985 | 2020-08-27 | TODO: verify and rework SAI |
