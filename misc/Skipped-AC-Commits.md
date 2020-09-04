@@ -2,6 +2,19 @@ Skipped AC commits (just as a reminder and documentation):
 
 | commit       | date       | comment |
 |--------------|------------|---------|
+| sol@1e2ebb3f | 2020-09-03 | CI |
+| sol@203b8476 | 2020-09-03 | follow-up sol@29410b53 |
+| sol@29410b53 | 2020-09-03 | not needed |
+| sol@c6b2b4c3 | 2020-09-03 | CI |
+| sol@5244b8d7 | 2020-09-03 | not needed |
+| sol@a51c865a | 2020-09-03 | GitHub |
+| sol@e06dd5b1 | 2020-09-02 | CI |
+| sol@8f696fc5 | 2020-09-02 | follow-up sol@29f2c2ae |
+| sol@29f2c2ae | 2020-09-02 | not needed, can be accomplished using SAI (see SMART\_ACTION\_MUSIC); TODO: create appropriate SAI scripts |
+| sol@e2f9a080 | 2020-09-02 | follow-up sol@2fc95675 |
+| sol@2fc95675 | 2020-09-02 | not needed, see [comment](#dmg_boss) below |
+| sol@d0958c76 | 2020-09-02 | docker |
+| sol@41abcfbe | 2020-09-02 | docs |
 | sol@37248474 | 2020-09-01 | docs |
 | sol@eb952ecb | 2020-09-01 | follow-up sol@a07c2b39 |
 | sol@a07c2b39 | 2020-09-01 | TODO: verify and rework SAI |

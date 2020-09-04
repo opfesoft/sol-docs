@@ -265,7 +265,6 @@ Note: Some commands are working only by selecting a player or a creature. These 
 |pdump|3|Syntax: .pdump $subcommand Type .pdump to see the list of possible subcommands or .help pdump $subcommand to see info on subcommands|
 |pet create|2|Syntax: .pet create Creates a pet of the selected creature.|
 |pet learn|2|Syntax: .pet learn Learn #spellid to pet.|
-|reload spell_proc|3|Syntax: .reload spell_proc Reload spell_proc table.|
 |pet unlearn|2|Syntax: .pet unlean unLearn #spellid to pet.|
 |pet|2|Syntax: .pet $subcommand Type .pet to see the list of possible subcommands or .help pet $subcommand to see info on subcommands|
 |pinfo|2|Syntax: .pinfo [$player_name/#GUID] Output account information for selected player or player find by $player_name or #GUID.|
