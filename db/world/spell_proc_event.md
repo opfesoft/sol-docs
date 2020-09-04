@@ -10,15 +10,15 @@ This table holds information on what events (or procs) certain spells are activa
 |--------------------------------------|--------------|------------|-----|------|---------|-------|---------|
 | [entry](#entry)                      | mediumint(8) |            | PRI | NO   | 0       |       |         |
 | [SchoolMask](#schoolmask)            | tinyint(4)   |            |     | NO   | 0       |       |         |
-| [SpellFamilyName](spellfamilyname)   | smallint(5)  | unsigned   |     | NO   | 0       |       |         |
-| [SpellFamilyMask0](spellfamilymaskx) | int(10)      | unsigned   |     | NO   | 0       |       |         |
-| [SpellFamilyMask1](spellfamilymaskx) | int(10)      | unsigned   |     | NO   | 0       |       |         |
-| [SpellFamilyMask2](spellfamilymaskx) | int(10)      | unsigned   |     | NO   | 0       |       |         |
-| [procFlags](procflags)               | int(10)      | unsigned   |     | NO   | 0       |       |         |
-| [procEx](procex)                     | int(10)      | unsigned   |     | NO   | 0       |       |         |
-| [ppmRate](ppmrate)                   | float        |            |     | NO   | 0       |       |         |
-| [CustomChance](customchance)         | float        |            |     | NO   | 0       |       |         |
-| [Cooldown](cooldown)                 | int(10)      | unsigned   |     | NO   | 0       |       |         |
+| [SpellFamilyName](#spellfamilyname)   | smallint(5)  | unsigned   |     | NO   | 0       |       |         |
+| [SpellFamilyMask0](#spellfamilymaskx) | int(10)      | unsigned   |     | NO   | 0       |       |         |
+| [SpellFamilyMask1](#spellfamilymaskx) | int(10)      | unsigned   |     | NO   | 0       |       |         |
+| [SpellFamilyMask2](#spellfamilymaskx) | int(10)      | unsigned   |     | NO   | 0       |       |         |
+| [procFlags](#procflags)               | int(10)      | unsigned   |     | NO   | 0       |       |         |
+| [procEx](#procex)                     | int(10)      | unsigned   |     | NO   | 0       |       |         |
+| [ppmRate](#ppmrate)                   | float        |            |     | NO   | 0       |       |         |
+| [CustomChance](#customchance)         | float        |            |     | NO   | 0       |       |         |
+| [Cooldown](#cooldown)                 | int(10)      | unsigned   |     | NO   | 0       |       |         |
 
 ## Description of the fields
 
