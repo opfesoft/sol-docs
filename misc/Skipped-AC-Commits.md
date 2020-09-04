@@ -26,7 +26,7 @@ Skipped AC commits (just as a reminder and documentation):
 | sol@1f89282b | 2020-08-31 | not needed |
 | sol@38903b5d | 2020-08-31 | docs |
 | sol@799ebb6a | 2020-08-30 | follow-up sol@3a56cdbd |
-| sol@3a56cdbd | 2020-08-30 | replacing the creature ID leads to several bugs (e.g. cannot turn in the quest "Muradin's Lament" anymore); TODO: implement a better solution |
+| sol@3a56cdbd | 2020-08-30 | replacing the creature ID leads to several bugs (e.g. cannot turn in the quest "Muradin's Lament" anymore); fixed in sol@3e1253b2 |
 | sol@d2b68b78 | 2020-08-29 | follow-up sol@5fd404de |
 | sol@5fd404de | 2020-08-29 | TODO: verify and rework SAI |
 | sol@9ca4554b | 2020-08-29 | follow-up sol@6f86643e |
