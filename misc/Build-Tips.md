@@ -2,15 +2,6 @@
 
 ## Add APT repositories
 
-- clang-10
-  - `curl https://apt.llvm.org/llvm-snapshot.gpg.key | sudo apt-key add -`
-  - `vi /etc/apt/sources.list.d/llvm.list`
-    - Ubuntu 16.04: `deb http://apt.llvm.org/xenial/ llvm-toolchain-xenial-10 main`
-    - Ubuntu 18.04: `deb http://apt.llvm.org/bionic/ llvm-toolchain-bionic-10 main`
-    - Ubuntu 20.04: `deb http://apt.llvm.org/focal/ llvm-toolchain-focal-10 main`
-
-<br>
-
 - latest cmake
   - `apt-get install apt-transport-https`
   - `curl https://apt.kitware.com/keys/kitware-archive-latest.asc | sudo apt-key add -`
@@ -21,7 +12,7 @@
 
 <br>
 
-- latest g++ and gcc (clang needs the GCC header files)
+- latest gcc
   - `apt-key adv --keyserver keyserver.ubuntu.com --recv 60C317803A41BA51845E371A1E9377A2BA9EF27F`
   - `vi /etc/apt/sources.list.d/test.list`
     - Ubuntu 16.04: `deb http://ppa.launchpad.net/ubuntu-toolchain-r/test/ubuntu xenial main`
@@ -35,7 +26,7 @@
 
 ## Packages
 
-`apt-get install git cmake make libgcc-9-dev libstdc++-9-dev ccache clang-10 clang++-10 libmariadbclient-dev libssl-dev libbz2-dev libreadline-dev libncurses-dev mariadb-server`
+`apt-get install git cmake make gcc-9 g++-9 ccache libmariadbclient-dev libssl-dev libbz2-dev libreadline-dev libncurses-dev mariadb-server`
 
 ## ACE installation
 
@@ -65,14 +56,14 @@ add
 add
 
 ```
-include $(ACE_ROOT)/include/makeinclude/platform_linux_clang.GNU
+include $(ACE_ROOT)/include/makeinclude/platform_linux.GNU
 INSTALL_PREFIX = $(HOME)/sol-srv/lib/ace
 ```
 
-- Install (here clang 10 is used):
+- Install (here gcc 9 is used):
 ```
 cd $ACE_ROOT/ace
-make -j $(($(nproc)+2)) CC='clang-10' CXX='clang++-10'
+make -j $(($(nproc)+2)) CC='gcc-9' CXX='g++-9'
 make install
 ```
 
@@ -101,16 +92,11 @@ git clone https://gitlab.com/opfesoft/mod-weapon-visual.git   ~/sol/modules/mod-
 ```
 
 ### Build and install server components:
-If using a ccache version lower than 3.3 the following environment variable has to be set in order to be able to work with clang:
-```
-export CCACHE_CPP2=true
-```
-
 Build and install:
 ```
 cd ~/sol
 mkdir build; cd build
-cmake ../ -DCMAKE_C_COMPILER_LAUNCHER=ccache -DCMAKE_CXX_COMPILER_LAUNCHER=ccache -DCMAKE_C_COMPILER="clang-10" -DCMAKE_CXX_COMPILER="clang++-10" -DWITH_WARNINGS=1 -DCMAKE_C_FLAGS="-Werror" -DCMAKE_CXX_FLAGS="-Werror" -DUSE_COREPCH=0 -DUSE_SCRIPTPCH=0 -DCMAKE_INSTALL_PREFIX=~/sol-srv/ -DTOOLS=1 -DSCRIPTS=1
+cmake ../ -DCMAKE_C_COMPILER_LAUNCHER=ccache -DCMAKE_CXX_COMPILER_LAUNCHER=ccache -DCMAKE_C_COMPILER="gcc-9" -DCMAKE_CXX_COMPILER="g++-9" -DWITH_WARNINGS=1 -DCMAKE_C_FLAGS="-Werror" -DCMAKE_CXX_FLAGS="-Werror" -DUSE_COREPCH=0 -DUSE_SCRIPTPCH=0 -DCMAKE_INSTALL_PREFIX=~/sol-srv/ -DTOOLS=1 -DSCRIPTS=1
 make -j $(($(nproc)+2))
 make install
 ```
