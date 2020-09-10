@@ -1,13 +1,5 @@
-TODOs only:
-
-| commit       | date       | comment |
-|--------------|------------|---------|
-|              |            |         |
-
-<br>
-
 Skipped AC commits (just as a reminder and documentation; not counting the pending SQL imports which follow each SQL update):<br>
-(2020-09-09: Stopped tracking all commits, as Sol follows its own development path and also too many bugs make their way into AC; only track interesting commits as "TODO" which have to be further verified or reworked)
+(2020-09-09: Stopped tracking all commits, as Sol follows its own development path and also too many bugs make their way into AC; only track interesting commits as "[TODOs](TODO.md)" which have to be further verified or reworked)
 
 | commit       | date       | comment |
 |--------------|------------|---------|
