@@ -2326,7 +2326,7 @@ if set to 0 only aggressive / hostile NPCs attack</p></td>
 <td><p>canRepeat</p></td>
 <td><p><a href="quest_template.md#id">quest_template.id</a></p></td>
 <td><p>despawntime</p></td>
-<td><p>reactState</p></td>
+<td><p><a href="#react-states">reactState</a></p></td>
 <td><p>Creature starts Waypoint Movement. Use <a href="waypoints.md#entry">waypoints</a> table to create movement. Uses the target as escort if it is a player.</p></td>
 </tr>
 <tr class="odd">
@@ -2521,7 +2521,7 @@ if set to 0 only aggressive / hostile NPCs attack</p></td>
 <tr class="odd">
 <td><p>SMART_ACTION_SET_ORIENTATION</p></td>
 <td><p>66</p></td>
-<td><p>Depends on the script target. If SMART_TARGET_SELF, facing will be the same as in HomePosition, For SMART_TARGET_POSITION you need to set target_o : 0 = North, West = 1.5, South = 3, East = 4.5</p></td>
+<td><p>quickChange</p></td>
 <td><p><br />
 </p></td>
 <td><p><br />
@@ -2532,8 +2532,8 @@ if set to 0 only aggressive / hostile NPCs attack</p></td>
 </p></td>
 <td><p><br />
 </p></td>
-<td><p><br />
-</p></td>
+<td><p>Depends on the script target. If SMART_TARGET_SELF, facing will be the same as in HomePosition, For SMART_TARGET_POSITION you need to set target_o : 0 = North, West = 1.5, South = 3, East = 4.5<br><br>
+quickChange 1 forces the creature to quickly change its orientation (useful if this smart action is combined with SMART_ACTION_WP_PAUSE)</p></td>
 </tr>
 <tr class="even">
 <td><p>SMART_ACTION_CREATE_TIMED_EVENT</p></td>

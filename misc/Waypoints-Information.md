@@ -99,8 +99,8 @@ DELETE FROM `waypoint_data` WHERE `id` = 12345670;
 
 The same as above, but now for [script_waypoint](../db/world/script_waypoint.md) instead of [waypoints](../db/world/waypoints.md). The entry of [script_waypoint](../db/world/script_waypoint.md) has to be the [creature_template.entry](../db/world/creature_template.md#entry), here for example 1234567:
 ```sql
-INSERT INTO `script_waypoint` (`entry`,`pointid`,`location_x`,`location_y`,`location_z`)
-  SELECT 1234567 AS `entry`,`point`,`position_x`,`position_y`,`position_z` FROM `waypoint_data` WHERE `id` = 12345670;
+INSERT INTO `script_waypoint` (`entry`,`pointid`,`location_x`,`location_y`,`location_z`,`waittime`)
+  SELECT 1234567 AS `entry`,`point`,`position_x`,`position_y`,`position_z`,`delay` FROM `waypoint_data` WHERE `id` = 12345670;
 DELETE FROM `waypoint_data` WHERE `id` = 12345670;
 
 ```
@@ -114,3 +114,11 @@ INSERT INTO `waypoint_data` (`id`,`point`,`position_x`,`position_y`,`position_z`
   SELECT 12345670 AS `entry`,`pointid`,`position_x`,`position_y`,`position_z` FROM `waypoints` WHERE `entry` = 1234567;
 DELETE FROM `waypoints` WHERE `entry` = 1234567;
 ```
+
+#### Take over the waypoints from 'script_waypoint' to 'waypoint_data'
+
+Copy the waypoints into table [waypoint_data](../db/world/waypoint_data.md) and delete them from the [script_waypoint](../db/world/script_waypoint.md) table afterwards:
+```sql
+INSERT INTO `waypoint_data` (`id`,`point`,`position_x`,`position_y`,`position_z`,`delay`)
+  SELECT 12345670 AS `entry`,`pointid`,`location_x`,`location_y`,`location_z`,`waittime` FROM `script_waypoint` WHERE `entry` = 1234567;
+DELETE FROM `script_waypoint` WHERE `entry` = 1234567;
