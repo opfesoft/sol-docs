@@ -24,7 +24,7 @@ Entry of the creature, see [creature\_template.entry](creature_template.md#entry
 
 ### pointid
 
-Unique ID for each waypoint. Starts at 1 and increases with each waypoint.
+Unique ID for each waypoint. Can start with any ID (normally 0 or 1) but has to increase with each waypoint.
 
 ### location\_x
 
