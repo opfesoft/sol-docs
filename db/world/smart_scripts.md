@@ -2889,7 +2889,7 @@ quickChange 1 forces the creature to quickly change its orientation (useful if t
 </p></td>
 <td><p><br />
 </p></td>
-<td><p>Creature moves to random position in given radius.</p></td>
+<td><p>Enables random movement for the targeted creatures using the specified radius. If radius is 0 disables random movement.</p></td>
 </tr>
 <tr class="odd">
 <td><p>SMART_ACTION_SET_UNIT_FIELD_BYTES_1</p></td>
@@ -3017,7 +3017,7 @@ quickChange 1 forces the creature to quickly change its orientation (useful if t
 </p></td>
 <td><p><br />
 </p></td>
-<td><p>If selfJump is 1 the actor will jump to the target (you can add an offset from the target's position by also specifying target coordinates); if selfJump is 0 the targeted creature will jump to the target position</p></td>
+<td><p>If selfJump is 1 the actor will jump to the target (you can add an offset from the target's position by also specifying target coordinates); if selfJump is 0 the targeted creature will jump to the target coordinates</p></td>
 </tr>
 <tr class="odd">
 <td><p>SMART_ACTION_SEND_GOSSIP_MENU</p></td>
@@ -3686,6 +3686,20 @@ quickChange 1 forces the creature to quickly change its orientation (useful if t
 0: Play music for the specified target(s)<br />
 1: Play music for all players in the entire zone<br />
 2: Play music for all players in the area</p></td>
+</tr>
+<tr class="even">
+<td><p>SMART_ACTION_CIRCLE_MOVE</p></td>
+<td><p>231</p></td>
+<td><p>radius</p></td>
+<td><p>clockwise (0/1)</p></td>
+<td><p>stepCount</p></td>
+<td><p>centerSelf (0/1)</p></td>
+<td><p><br />
+</p></td>
+<td><p><br />
+</p></td>
+<td><p>Start circle movement using the given radius. If "centerSelf" is set to 1 the specified target creatures will start circling the script owner.<br />
+If the start position distance is far away the circle movement speed will be decreased following the second circle (this is the behaviour of the client which is reflected by the server)</p></td>
 </tr>
 </tbody>
 </table>
