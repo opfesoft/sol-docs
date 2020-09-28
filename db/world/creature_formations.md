@@ -100,10 +100,10 @@ Note: Only degrees are used! Values should be between 0 and 360:
 
 | degrees | position in relation to the leader |
 |---------|------------------------------------|
-| 0       | front                              |
-| 90      | left                               |
-| 180     | behind                             |
-| 270     | right                              |
+| 180     | front                              |
+| 270     | left                               |
+| 0       | behind                             |
+| 90      | right                              |
 
 The core will automatically switch the position of the members if the leader takes a turn greater than 90 degrees. This prevents crossover movement of the members. Examples:
 

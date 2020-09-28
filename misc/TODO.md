@@ -2,6 +2,7 @@ TODOs:
 
 | commit       | date       | todo |
 |--------------|------------|------|
+| sol@3e81beac | 2020-09-28 | verify and collect the SAI in a separate commit |
 | sol@72025003 | 2020-09-12 | verify and rework SAI |
 | sol@cc3c2ada | 2020-09-04 | verify and collect the SAI in a separate commit |
 | sol@29f2c2ae | 2020-09-02 | create appropriate SAI scripts |
