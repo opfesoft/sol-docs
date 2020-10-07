@@ -95,7 +95,7 @@ Maximum distance between group leader and member
 
 ## angle
 
-Angle between leader and member
+Angle between leader and member<br>
 Note: Only degrees are used! Values should be between 0 and 360:
 
 | degrees | position in relation to the leader |

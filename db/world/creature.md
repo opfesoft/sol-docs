@@ -176,16 +176,6 @@ Contains individual creature spawn data for each individual spawn of each indivi
 <td><p> </p></td>
 <td><p>Dist in yards for random movement.</p></td>
 </tr>
-<tr class="odd">
-<td><p><a href="#currentwaypoint">currentwaypoint</a></p></td>
-<td><p>mediumint(8)</p></td>
-<td><p>unsigned</p></td>
-<td><p> </p></td>
-<td><p>NO</p></td>
-<td><p>0</p></td>
-<td><p> </p></td>
-<td><p>Storage used by core. &quot;Always set as 0&quot;</p></td>
-</tr>
 <tr class="even">
 <td><p><a href="#curhealth">curhealth</a></p></td>
 <td><p>int(10)</p></td>
@@ -368,10 +358,6 @@ The respawn time, in seconds, of the creature.
 ### wander_distance
 
 The maximum distance that the creature may wander from its spawn point. If greater than 0 its [MovementType](#movementtype) has to be 1.
-
-### currentwaypoint
-
-The current [waypoint](waypoint_data.md#point) that the creature is on, if any.
 
 ### curhealth
 

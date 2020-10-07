@@ -1004,14 +1004,14 @@ This is the probability of the event to occur as a percentage from 0-100. So, if
 <td><p>SMART_EVENT_MOVEMENTINFORM</p></td>
 <td><p>34</p></td>
 <td><p>MovementType (0=any)</p></td>
-<td><p>PointID</p></td>
+<td><p>PointID (Important: For WAYPOINT_MOTION_TYPE the waypoint ID always starts with 0!)</p></td>
 <td><p><br />
 </p></td>
 <td><p><br />
 </p></td>
 <td><p><br />
 </p></td>
-<td>ESCORT_MOTION_TYPE = 17, POINT_MOTION_TYPE = 8</td>
+<td>ESCORT_MOTION_TYPE = 17, POINT_MOTION_TYPE = 8, WAYPOINT_MOTION_TYPE = 2</td>
 </tr>
 <tr class="even">
 <td><p>SMART_EVENT_SUMMON_DESPAWNED</p></td>
