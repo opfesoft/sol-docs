@@ -29,7 +29,7 @@ This table contains all models of mobs, their gender and other information that 
 <td><p><strong>Comment</strong></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#modelid">modelid</a></p></td>
+<td><p><a href="#displayid">DisplayID</a></p></td>
 <td><p>mediumint(8)</p></td>
 <td><p>unsigned</p></td>
 <td><p>PRI</p></td>
@@ -41,7 +41,7 @@ This table contains all models of mobs, their gender and other information that 
 </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#bounding_radius">bounding_radius</a></p></td>
+<td><p><a href="#boundingradius">BoundingRadius</a></p></td>
 <td><p>float</p></td>
 <td><p>signed</p></td>
 <td><p><br />
@@ -54,7 +54,7 @@ This table contains all models of mobs, their gender and other information that 
 </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#combat_reach">combat_reach</a></p></td>
+<td><p><a href="#combatreach">CombatReach</a></p></td>
 <td><p>float</p></td>
 <td><p>signed</p></td>
 <td><p><br />
@@ -67,7 +67,7 @@ This table contains all models of mobs, their gender and other information that 
 </p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="#gender">gender</a></p></td>
+<td><p><a href="#gender">Gender</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
 <td><p><br />
@@ -80,7 +80,7 @@ This table contains all models of mobs, their gender and other information that 
 </p></td>
 </tr>
 <tr class="even">
-<td><p><a href="#modelid_other_gender">modelid_other_gender</a></p></td>
+<td><p><a href="#displayid_other_gender">DisplayID_Other_Gender</a></p></td>
 <td><p>mediumint(8)</p></td>
 <td><p>unsigned</p></td>
 <td><p><br />
@@ -97,19 +97,19 @@ This table contains all models of mobs, their gender and other information that 
 
 ## Description of the fields
 
-### modelid
+### DisplayID
 
 Display ID from CreatureDisplayInfo.dbc
 
-### bounding\_radius
+### BoundingRadius
 
 This field is unused. It's purpose is currently unknown. It may or may not be linked to path-finding.
 
-### combat\_reach
+### CombatReach
 
 This value is the unit's radius in term of game mechanics: The bigger this value is, the higher the unit's range is and also the further away it can get hit from.
 
-### gender
+### Gender
 
 Gender of the creature
 
@@ -117,7 +117,7 @@ Gender of the creature
 -   1: Female
 -   2: None
 
-### modelid\_other\_gender
+### DisplayID\_Other\_Gender
 
-Point to Creature\_model\_info.modelid.
+Point to creature\_model\_info.DisplayID.
 When the entry is gender male (0) or female (1), this value can point to the opposite gender counterpart.

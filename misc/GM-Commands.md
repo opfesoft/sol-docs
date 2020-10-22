@@ -102,6 +102,7 @@ Note: Some commands are working only by selecting a player or a creature. These 
 |explorecheat|3|Syntax: .explorecheat [1\|0]. 1: Set all zones to explored; 0: Set all zones to unexplored|
 |cheat cooldown|2|Syntax: .cheat cooldown [on/off] Enables or disables your character's spell cooldowns.|
 |cheat power|2|Syntax: .cheat power [on/off] Enables or disables your character's spell cost (e.g mana).|
+|face|1|Syntax: .face Face the selected unit.|
 |flusharenapoints|3|Syntax: .flusharenapoints Use it to distribute arena points based on arena team ratings, and start a new week.|
 |freeze|1|Syntax: .freeze (#player) "Freezes" #player and disables his chat. When using this without #name it will freeze your target.|
 |gm chat|1|Syntax: .gm chat [on/off] Enable or disable chat GM MODE (show gm badge in messages) or show current state of on/off not provided.|
@@ -113,7 +114,7 @@ Note: Some commands are working only by selecting a player or a creature. These 
 |gmannounce|1|Syntax: .gmannounce $announcement Send an announcement to online Gamemasters.|
 |gmnameannounce|1|Syntax: .gmnameannounce $announcement. Send an announcement to all online GM's, displaying the name of the sender.|
 |gmnotify|1|Syntax: .gmnotify $notification Displays a notification on the screen of all online GM's.|
-|go creature|1|Syntax:.go creature #creature_guid Teleport your character to creature with guid #creature_guid..go creature #creature_nameTeleport your character to creature with this name..go creature id #creature_entryTeleport your character to a creature that was spawned from the template with this entry.If more than one creature is found, then you are teleported to the first that is found inside the database.|
+|go creature|1|Syntax:.go creature #creature_guid Teleport your character to creature with guid #creature_guid. .go creature #creature_name Teleport your character to creature with this name. .go creature id #creature_entry Teleport your character to a creature that was spawned from the template with this entry. If more than one creature is found, then you are teleported to the first that is found inside the database. If no creature is specified teleport to the selected creature.|
 |go graveyard|1|Syntax: .go graveyard #graveyardId Teleport to graveyard with the graveyardId specified.|
 |go grid|1|Syntax: .go grid #gridX #gridY [#mapId] Teleport the gm to center of grid with provided indexes at map #mapId (or current map if it not provided).|
 |go gobject|1|Syntax: .go gobject #object_guid Teleport your character to gameobject with guid #object_guid|

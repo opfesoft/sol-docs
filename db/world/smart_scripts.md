@@ -1552,7 +1552,7 @@ This is the probability of the event to occur as a percentage from 0-100. So, if
 <td><p>SMART_ACTION_SOUND</p></td>
 <td><p>4</p></td>
 <td><p>SoundId</p></td>
-<td><p>onlySelf (0/1)</p></td>
+<td><p>onlySelf (1: only sends the sound to targeted players, 0: sends the sound to everyone in visibility range of the target)</p></td>
 <td><p><br />
 </p></td>
 <td><p><br />
@@ -1561,7 +1561,7 @@ This is the probability of the event to occur as a percentage from 0-100. So, if
 </p></td>
 <td><p><br />
 </p></td>
-<td><p>Play Sound; onlySelf = 1 only sends sound to self, onlySelf = 0 sends sound to everyone in visibility range</p></td>
+<td><p>Play Sound</p></td>
 </tr>
 <tr class="even">
 <td><p>SMART_ACTION_PLAY_EMOTE</p></td>
@@ -2858,7 +2858,7 @@ quickChange 1 forces the creature to quickly change its orientation (useful if t
 <td><p>EntryOrGuid 4 (<a href="#entryorguid">entryorguid</a> * 100 + n)</p></td>
 <td><p>EntryOrGuid 5 (<a href="#entryorguid">entryorguid</a> * 100 + n)</p></td>
 <td><p>EntryOrGuid 6 (<a href="#entryorguid">entryorguid</a> * 100 + n)</p></td>
-<td><p>Will select one entry from the ones provided. 0 is ignored.</p></td>
+<td><p>Will select one entry from the ones provided. 0 is ignored. The timer will update IC and OOC.</p></td>
 </tr>
 <tr class="odd">
 <td><p>SMART_ACTION_CALL_RANDOM_RANGE_TIMED_ACTIONLIST</p></td>
@@ -2873,7 +2873,7 @@ quickChange 1 forces the creature to quickly change its orientation (useful if t
 </p></td>
 <td><p><br />
 </p></td>
-<td><p>0 is ignored.</p></td>
+<td><p>0 is ignored. The timer will update IC and OOC.</p></td>
 </tr>
 <tr class="even">
 <td><p>SMART_ACTION_RANDOM_MOVE</p></td>
@@ -2889,7 +2889,7 @@ quickChange 1 forces the creature to quickly change its orientation (useful if t
 </p></td>
 <td><p><br />
 </p></td>
-<td><p>Enables random movement for the targeted creatures using the specified radius. If radius is 0 disables random movement.</p></td>
+<td><p>Enables random movement for the targeted creatures using the specified radius. If radius is 0 disables random movement. The target will use walk speed if not explicitly overridden using SMART_ACTION_SET_RUN.</p></td>
 </tr>
 <tr class="odd">
 <td><p>SMART_ACTION_SET_UNIT_FIELD_BYTES_1</p></td>
@@ -3660,7 +3660,7 @@ quickChange 1 forces the creature to quickly change its orientation (useful if t
 <td><p>SMART_ACTION_MUSIC</p></td>
 <td><p>216</p></td>
 <td><p>SoundId</p></td>
-<td><p>onlySelf</p></td>
+<td><p>onlySelf (1: only sends music to targeted players, 0: sends music to everyone in visibility range of the target)</p></td>
 <td><p>type</p></td>
 <td><p><br />
 </p></td>
@@ -3680,7 +3680,7 @@ quickChange 1 forces the creature to quickly change its orientation (useful if t
 <td><p>SoundId2</p></td>
 <td><p>SoundId3</p></td>
 <td><p>SoundId4</p></td>
-<td><p>onlySelf</p></td>
+<td><p>onlySelf (1: only sends music to targeted players, 0: sends music to everyone in visibility range of the target)</p></td>
 <td><p>type</p></td>
 <td><p>Plays randomly one of the specified sound files as music. Type can be one of these values:<br />
 0: Play music for the specified target(s)<br />
@@ -4019,7 +4019,7 @@ If the start position distance is far away the circle movement speed will be dec
 </p></td>
 <td><p><br />
 </p></td>
-<td><p>All creatures with the specified ID within the specified range and the specified alive state.</p></td>
+<td><p>All creatures with the specified ID within the specified range and the specified alive state (the script owner will never be included here).</p></td>
 </tr>
 <tr class="odd">
 <td><p>SMART_TARGET_CREATURE_GUID</p></td>
@@ -4055,7 +4055,7 @@ If the start position distance is far away the circle movement speed will be dec
 </p></td>
 <td><p><br />
 </p></td>
-<td><p>All creatures with the specified ID within the specified distance and the specified alive state.</p></td>
+<td><p>All creatures with the specified ID within the specified distance and the specified alive state (the script owner will never be included here).</p></td>
 </tr>
 <tr class="odd">
 <td><p>SMART_TARGET_STORED</p></td>
@@ -4093,7 +4093,7 @@ If the start position distance is far away the circle movement speed will be dec
 </p></td>
 <td><p><br />
 </p></td>
-<td><p>All game objects with the specified ID within the specified range.</p></td>
+<td><p>All game objects with the specified ID within the specified range (the script owner will never be included here).</p></td>
 </tr>
 <tr class="odd">
 <td><p>SMART_TARGET_GAMEOBJECT_GUID</p></td>
@@ -4130,7 +4130,7 @@ If the start position distance is far away the circle movement speed will be dec
 </p></td>
 <td><p><br />
 </p></td>
-<td><p>All objects with the specified ID within the specified distance.</p></td>
+<td><p>All objects with the specified ID within the specified distance (the script owner will never be included here).</p></td>
 </tr>
 <tr class="odd">
 <td><p>SMART_TARGET_INVOKER_PARTY</p></td>

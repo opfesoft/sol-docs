@@ -105,8 +105,8 @@ make install
 ```
 cd ~/client
 mkdir vmaps mmaps
-~/sol-srv/bin/mapextractor
-~/sol-srv/bin/vmap4extractor
+~/sol-srv/bin/mapextractor -f 0
+~/sol-srv/bin/vmap4extractor -l
 ~/sol-srv/bin/vmap4assembler Buildings vmaps
 ~/sol-srv/bin/mmaps_generator --threads $(($(nproc)+2))
 cp -r dbc maps vmaps mmaps ~/sol-srv/data

@@ -2,6 +2,13 @@ TODOs:
 
 | commit       | date       | todo |
 |--------------|------------|------|
+| sol@d5bb6ba1 | 2020-10-21 | take over if needed |
+| sol@ab5933ef | 2020-10-17 | take over if needed |
+| sol@24cfa307 | 2020-10-11 | verify SQL script |
+| sol@4cca286a | 2020-10-09 | verify if this actually fixes any issues |
+| sol@3368e0f8 | 2020-10-08 | verify new creature positions |
+| sol@22f8195c | 2020-10-07 | verify changes and new creature ID |
+| sol@369d292c | 2020-10-07 | verify SQL script |
 | sol@b67c30e2 | 2020-10-03 | verify quest and texts; remove hard-coded gossip |
 | sol@3e81beac | 2020-09-28 | verify and collect the SAI in a separate commit |
 | sol@72025003 | 2020-09-12 | verify and rework SAI |
