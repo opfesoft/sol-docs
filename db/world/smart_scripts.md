@@ -1343,7 +1343,7 @@ This is the probability of the event to occur as a percentage from 0-100. So, if
 </p></td>
 <td><p><br />
 </p></td>
-<td>On <a href="game_event.md">game_event</a> started.</td>
+<td>On <a href="game_event.md">game_event</a> started. Do not use directly with "summon" actions, use timed action lists instead.</td>
 </tr>
 <tr class="even">
 <td><p>SMART_EVENT_GAME_EVENT_END</p></td>
@@ -1357,7 +1357,7 @@ This is the probability of the event to occur as a percentage from 0-100. So, if
 </p></td>
 <td><p><br />
 </p></td>
-<td>On <a href="game_event.md">game_event</a> ended.</td>
+<td>On <a href="game_event.md">game_event</a> ended. Do not use directly with "summon" actions, use timed action lists instead.</td>
 </tr>
 <tr class="odd">
 <td><p>SMART_EVENT_GO_STATE_CHANGED</p></td>

@@ -253,4 +253,4 @@ Orientation the summoned creature will get when spawned
 
 ### summonTime
 
-Timer linked to summontype
+Timer linked to summontype (in milliseconds).
