@@ -30,12 +30,12 @@
 
 ## ACE installation
 
-Example for ACE 6.5.11, installation in "~/sol-srv/lib/ace":
+Example for ACE 6.5.12, installation in "~/sol-srv/lib/ace":
 
 - Get package:
 ```
-curl -L 'https://github.com/DOCGroup/ACE_TAO/releases/download/ACE%2BTAO-6_5_11/ACE+TAO-6.5.11.tar.gz' >ACE+TAO-6.5.11.tar.gz
-tar -xzf ACE+TAO-6.5.11.tar.gz
+curl -L 'https://github.com/DOCGroup/ACE_TAO/releases/download/ACE%2BTAO-6_5_12/ACE+TAO-6.5.12.tar.gz' >ACE+TAO-6.5.12.tar.gz
+tar -xzf ACE+TAO-6.5.12.tar.gz
 ```
 
 - Set `ACE_ROOT`:
@@ -64,7 +64,7 @@ INSTALL_PREFIX = $(HOME)/sol-srv/lib/ace
 ```
 cd $ACE_ROOT/ace
 make -j $(($(nproc)+2)) CC='gcc-9' CXX='g++-9'
-make install
+make CC='gcc-9' CXX='g++-9' install
 ```
 
 - Remove `ACE_wrappers` and clear `ACE_ROOT`:

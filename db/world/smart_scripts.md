@@ -1439,8 +1439,7 @@ This is the probability of the event to occur as a percentage from 0-100. So, if
 <td>database entry</td>
 <td>distance</td>
 <td>repeat interval (ms)</td>
-<td><p><br />
-</p></td>
+<td><p>alive state (0 - Ignore alive state, 1 - Alive, 2 - Dead)</p></td>
 <td><p>On creature guid OR any instance of creature entry is within distance.</p></td>
 </tr>
 <tr class="odd">
@@ -1450,8 +1449,7 @@ This is the probability of the event to occur as a percentage from 0-100. So, if
 <td>database entry</td>
 <td>distance</td>
 <td>repeat interval (ms)</td>
-<td><p><br />
-</p></td>
+<td><p>GO state (0 - Ignore GO state, 1 - Active, 2 - Ready, 3 - Active alternative)</p></td>
 <td><p>On gameobject guid OR any instance of gameobject entry is within distance.</p></td>
 </tr>
 <tr class="even">

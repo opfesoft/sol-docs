@@ -2,6 +2,11 @@ TODOs:
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@82ee9088 | 2020-11-02 |      | verify SQL script, compare with TC version |
+| sol@155e634b | 2020-11-01 |      | verify and rework SQL script |
+| sol@d2ddf03c | 2020-10-31 |      | verify and rework SQL script |
+| sol@cef27317 | 2020-10-31 |      | verify and rework SQL script |
+| sol@93c70f5a | 2020-10-30 |      | verify and rework SQL script |
 | sol@2b47117d | 2020-10-28 |      | verify and rework SQL script |
 | sol@00e736e4 | 2020-10-27 |      | verify and rework SQL script |
 | sol@24b9c929 | 2020-10-26 |      | verify and rework SQL script |
