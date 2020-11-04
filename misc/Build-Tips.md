@@ -62,9 +62,11 @@ INSTALL_PREFIX = $(HOME)/sol-srv/lib/ace
 
 - Install (here gcc 9 is used):
 ```
+export CC='gcc-9'
+export CXX='g++-9'
 cd $ACE_ROOT/ace
-make -j $(($(nproc)+2)) CC='gcc-9' CXX='g++-9'
-make CC='gcc-9' CXX='g++-9' install
+make -j $(($(nproc)+2))
+make install
 ```
 
 - Remove `ACE_wrappers` and clear `ACE_ROOT`:
