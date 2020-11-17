@@ -70,7 +70,6 @@ This table contains the description of creatures. Each spawned creature is an in
 | [ManaModifier](#manamodifier)                 | float                 | NO   |     | 1       |       |                                      |
 | [ArmorModifier](#armormodifier)               | float                 | NO   |     | 1       |       |                                      |
 | [DamageModifier](#damagemodifier)             | float                 | NO   |     | 1       |       |                                      |
-| [ExperienceModifier](#experiencemodifier)     | float                 | NO   |     | 1       |       |                                      |
 | [RacialLeader](#racialleader)                 | tinyint(3) unsigned   | NO   |     | 0       |       |                                      |
 | [movementId](#movementid)                     | int(11) unsigned      | NO   |     | 0       |       |                                      |
 | [RegenHealth](#regenhealth)                   | tinyint(3) unsigned   | NO   |     | 1       |       |                                      |

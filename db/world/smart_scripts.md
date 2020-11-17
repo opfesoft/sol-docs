@@ -1942,14 +1942,21 @@ This is the probability of the event to occur as a percentage from 0-100. So, if
 <tr class="even">
 <td><p>SMART_ACTION_FOLLOW</p></td>
 <td><p>29</p></td>
-<td><p>Distance (0 = Default value)</p></td>
-<td><p>Angle (0 = Default value)</p></td>
+<td><p>Distance</p></td>
+<td><p>Angle</p></td>
 <td><p>End <a href="creature_template.md#entry">creature_template.entry</a></p></td>
 <td><p>credit</p></td>
 <td><p>creditType (0 monsterkill, 1 event)</p></td>
 <td><p><br />
 </p></td>
-<td><p>Follow Target</p></td>
+<td><p>Follow the target; angle is counter-clockwise, 0 means in front of the target; if lower or equal to 6 use as radian, otherwise use as degrees; as only integer values are allowed if specified as radian the degrees would be as follows:<br />
+1: ca. 57.3 degrees<br />
+2: ca. 114.6 degrees<br />
+3: ca. 171.9 degrees<br />
+4: ca. 229.2 degrees<br />
+5: ca. 286.5 degrees<br />
+6: ca. 343.8 degrees<br />
+Important note: Ensure that the home position is saved regularly while following the target (use "SMART_ACTION_SET_HOME_POS" for this) or else the creature won't fight correctly as it conflicts with its evade mode.</p></td>
 </tr>
 <tr class="odd">
 <td><p>SMART_ACTION_RANDOM_PHASE</p></td>
@@ -2486,6 +2493,7 @@ if set to 0 only aggressive / hostile NPCs attack</p></td>
 <td><p>SMART_ACTION_STORE_TARGET_LIST</p></td>
 <td><p>64</p></td>
 <td><p>varID</p></td>
+<td><p>varID range</p></td>
 <td><p><br />
 </p></td>
 <td><p><br />
@@ -2494,10 +2502,7 @@ if set to 0 only aggressive / hostile NPCs attack</p></td>
 </p></td>
 <td><p><br />
 </p></td>
-<td><p><br />
-</p></td>
-<td><p><br />
-</p></td>
+<td><p>Stores the targets in a list with the specified "varID". If "varID range" is set each of the targets will be stored in a separate "varID", beginning with "varID" until (and including) "varID range".</p></td>
 </tr>
 <tr class="even">
 <td><p>SMART_ACTION_WP_RESUME</p></td>
@@ -3699,6 +3704,20 @@ quickChange 1 forces the creature to quickly change its orientation (useful if t
 <td><p>Start circle movement using the given radius. If "centerSelf" is set to 1 the specified target creatures will start circling the script owner.<br />
 If the start position distance is far away the circle movement speed will be decreased following the second circle (this is the behaviour of the client which is reflected by the server)</p></td>
 </tr>
+<tr class="odd">
+<td><p>SMART_ACTION_COPY_HEALTH</p></td>
+<td><p>232</p></td>
+<td><p>use percentage (0/1)</p></td>
+<td><p>copy from target (0/1)</p></td>
+<td><p><br />
+</p></td>
+<td><p><br />
+</p></td>
+<td><p><br />
+</p></td>
+<td><p><br />
+</p></td>
+<td><p>Copy health, either from the first target to the script owner if "copy from target" is set to 1 or from the script owner to all targets if set to 0. Use percentage if "use percentage" is set to 1, otherwise the actual health amount.
 </tbody>
 </table>
 
@@ -4362,6 +4381,28 @@ If the start position distance is far away the circle movement speed will be dec
 <td><p><br />
 </p></td>
 <td><p>Farthest unit on the threat list</p></td>
+</tr>
+<tr class="odd">
+<td>SMART_TARGET_VEHICLE_PASSENGER</td>
+<td>29</td>
+<td>seatMask</td>
+<td><p><br />
+</p></td>
+<td><p><br />
+</p></td>
+<td><p><br />
+</p></td>
+<td><p><br />
+</p></td>
+<td><p><br />
+</p></td>
+<td><p><br />
+</p></td>
+<td><p><br />
+</p></td>
+<td><p>Target units identified by the specified seat bit mask; 0 means all seats;<br />
+combine bits 1 (seat 1), 2 (seat 2), 4 (seat 3), 8 (seat 4) etc. if targeting multiple seats, example:<br />
+seat mask 9 means seat 1 and 4 (bit 1 + 8)</p></td>
 </tr>
 </tbody>
 </table>

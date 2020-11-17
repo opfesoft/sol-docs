@@ -2,6 +2,31 @@ TODOs:
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@17bfcb77 | 2020-11-14 |      | take over if needed |
+| sol@2788d495 | 2020-11-14 |      | take over if needed |
+| sol@75ea2170 | 2020-11-13 |      | verify and rework SQL script |
+| sol@5485ef60 | 2020-11-13 |      | verify and rework SQL script |
+| sol@58d4e7e1 | 2020-11-13 |      | verify and rework SQL script |
+| sol@10ef5a16 | 2020-11-13 |      | verify and rework SQL script |
+| sol@1cae3835 | 2020-11-13 |      | verify and rework SQL script |
+| sol@8ec31ef1 | 2020-11-12 |      | verify and rework SQL script |
+| sol@5aafba86 | 2020-11-12 |      | verify and rework SQL script |
+| sol@6fd48609 | 2020-11-12 |      | verify and rework SQL script |
+| sol@c3368191 | 2020-11-12 |      | verify and rework SQL script |
+| sol@d28688d4 | 2020-11-12 |      | verify and rework SQL script |
+| sol@d9b24bf1 | 2020-11-12 |      | verify and rework SQL script |
+| sol@41b5b543 | 2020-11-11 |      | verify and rework SQL script |
+| sol@c563b3a6 | 2020-11-11 |      | verify and rework SQL script |
+| sol@8fbbf58c | 2020-11-10 |      | verify and rework SQL script |
+| sol@1cccc8d4 | 2020-11-09 |      | verify and rework SQL script |
+| sol@da4235cc | 2020-11-09 |      | verify loot and compare with TC version |
+| sol@e5fc4fca | 2020-11-08 |      | verify and rework SQL script |
+| sol@9bb6b15c | 2020-11-08 |      | verify and rework SQL script |
+| sol@5254aec6 | 2020-11-07 |      | verify and compare with TC implementation |
+| sol@1dc1beb3 | 2020-11-06 |      | verify and rework SQL script |
+| sol@9763c4f4 | 2020-11-06 |      | verify and rework SQL script |
+| sol@74a34b59 | 2020-11-06 |      | use correct position above ground, not in the cave |
+| sol@f4a5907a | 2020-11-06 |      | verify WP path |
 | sol@82ee9088 | 2020-11-02 |      | verify SQL script, compare with TC version |
 | sol@155e634b | 2020-11-01 |      | verify and rework SQL script |
 | sol@d2ddf03c | 2020-10-31 |      | verify and rework SQL script |
