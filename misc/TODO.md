@@ -2,6 +2,7 @@ TODOs:
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@9a8aa615 | 2020-11-16 |      | verify and rework SQL script |
 | sol@17bfcb77 | 2020-11-14 |      | take over if needed |
 | sol@2788d495 | 2020-11-14 |      | take over if needed |
 | sol@75ea2170 | 2020-11-13 |      | verify and rework SQL script |
