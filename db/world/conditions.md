@@ -1005,7 +1005,7 @@ CONDITION_HP_PCT</td>
 CONDITION_IN_WATER</td>
 <td><br />
 40</td>
-<td>Always 0 - Use NegativeCondition and the following settings:NegativeCondition = 0 If target needs to be on landNegativeCondition = 1 If target needs to be in water</td>
+<td>Always 0 - Use NegativeCondition and the following settings: NegativeCondition = 0 if target needs to be on land; NegativeCondition = 1 if target needs to be in water</td>
 <td>Always 0</td>
 <td>Always 0</td>
 </tr>
@@ -1067,14 +1067,25 @@ CONDITION_STAND_STATE</p></td>
 <td>Quest Objective Count</td>
 </tr>
 <tr class="even">
-<td><p>CONDITION_MAX</p></td>
-<td>49</td>
-<td><br />
-</td>
-<td><br />
-</td>
-<td><br />
-</td>
+<td>CONDITION_QUEST_SATISFY_EXCLUSIVE</td>
+<td>101</td>
+<td>Quest ID - see <a href="quest_template.md#id">quest_template.id</a>; true if satisfied exclusive group</td>
+<td>Always 0</td>
+<td>Always 0</td>
+</tr>
+<tr class="odd">
+<td>CONDITION_HAS_AURA_TYPE</td>
+<td>102</td>
+<td>aura_type; true if has aura type</td>
+<td>Always 0</td>
+<td>Always 0</td>
+</tr>
+<tr class="even">
+<td>CONDITION_HAS_EMPTY_SEAT</td>
+<td>151</td>
+<td>Always 0 - Use NegativeCondition and the following settings: NegativeCondition = 0 if the target vehicle needs to have an empty seat; NegativeCondition = 1 if target vehicle needs to have no empty seat</td>
+<td>Always 0</td>
+<td>Always 0</td>
 </tr>
 </tbody>
 </table>
