@@ -114,7 +114,7 @@ Some examples:
 </p></td>
 </tr>
 <tr>
-<td><p><a href="#flags">flags</a></p></td>
+<td><p><a href="#autocast">autocast</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
 <td><p><br />
@@ -207,28 +207,9 @@ MASTER:
 
 The gender type this entry applies to. 0 = Male, 1 = Female, 2 = Any.
 
-### flags
+### autocast
 
-Flag
-Name
-Comment
-1
-0x01
-SPELL\_AREA\_FLAG\_AUTOCAST
-If the spell should be automatically applied when the character enters the area. Also prevents the user from removing it.
-2
-0x02
-SPELL\_AREA\_FLAG\_AUTOREMOVE
-If the spell should be automatically removed when the character is **inside** the area (only works with quest updates)
-
-Note: Spell is allways removed on leaving area, SPELL\_AREA\_FLAG\_AUTOREMOVE does not effect this.
-
-Example:
-
-flags = 0 : Spell not added on enter (must be added manually), not automatically removed on quest update, but removed on leave.
-flags = 1 : Spell is automatically applied on enter, not automatically removed on quest update, but removed on leave.
-flags = 2 : Spell not added on enter (must be added manually), automatically removed on quest update and removed on leave.
-flags = 3 : (Default) Spell is automatically applied on enter, automatically removed on quest update and removed on leave.
+If set to 1 the spell is automatically applied when the character enters the area. Also prevents the user from removing it.
 
 ### quest\_start\_status, quest\_end\_status
 
