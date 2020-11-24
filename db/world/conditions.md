@@ -8,7 +8,7 @@ This table allows you to define conditions for various systems - Gossip, loot et
 
 <table>
 <tbody>
-<tr class="odd">
+<tr>
 <td><p><strong>Field</strong></p></td>
 <td><p><strong>Type</strong></p></td>
 <td><p><strong>Attributes</strong></p></td>
@@ -18,7 +18,7 @@ This table allows you to define conditions for various systems - Gossip, loot et
 <td><p><strong>Extra</strong></p></td>
 <td><p><strong>Comment</strong></p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#sourcetypeorreferenceid">SourceTypeOrReferenceId</a></p></td>
 <td><p>mediumint(8)</p></td>
 <td><p>signed</p></td>
@@ -30,7 +30,7 @@ This table allows you to define conditions for various systems - Gossip, loot et
 <td><p><br />
 </p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#sourcegroup">SourceGroup</a></p></td>
 <td><p>mediumint(8)</p></td>
 <td><p>unsigned</p></td>
@@ -42,7 +42,7 @@ This table allows you to define conditions for various systems - Gossip, loot et
 <td><p><br />
 </p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#sourceentry">SourceEntry</a></p></td>
 <td><p>mediumint(8)</p></td>
 <td><p>signed</p></td>
@@ -54,7 +54,7 @@ This table allows you to define conditions for various systems - Gossip, loot et
 <td><p><br />
 </p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#condition_source_type_smart_event=22">SourceId</a></p></td>
 <td><p>int(11)</p></td>
 <td><p>signed</p></td>
@@ -65,7 +65,7 @@ This table allows you to define conditions for various systems - Gossip, loot et
 </p></td>
 <td><p><a href="smart_scripts.md#source_type">smart_scripts.source_type</a> <strong>||</strong> 0 for everything else</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#elsegroup">ElseGroup</a></p></td>
 <td><p>mediumint(8)</p></td>
 <td><p>unsigned</p></td>
@@ -77,7 +77,7 @@ This table allows you to define conditions for various systems - Gossip, loot et
 <td><p><br />
 </p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#conditiontypeorreference">ConditionTypeOrReference</a></p></td>
 <td><p>mediumint(8)</p></td>
 <td><p>signed</p></td>
@@ -89,7 +89,7 @@ This table allows you to define conditions for various systems - Gossip, loot et
 <td><p><br />
 </p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#conditiontarget">ConditionTarget</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
@@ -101,7 +101,7 @@ This table allows you to define conditions for various systems - Gossip, loot et
 <td><p><br />
 </p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#conditionvalue1">ConditionValue1</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
@@ -113,7 +113,7 @@ This table allows you to define conditions for various systems - Gossip, loot et
 <td><p><br />
 </p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#conditionvalue2">ConditionValue2</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
@@ -125,7 +125,7 @@ This table allows you to define conditions for various systems - Gossip, loot et
 <td><p><br />
 </p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#conditionvalue3">ConditionValue3</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
@@ -137,7 +137,7 @@ This table allows you to define conditions for various systems - Gossip, loot et
 <td><p><br />
 </p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#negativecondition">NegativeCondition</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
@@ -149,7 +149,7 @@ This table allows you to define conditions for various systems - Gossip, loot et
 </p></td>
 <td><p>Boolean 0 or 1 (if <a href="#negativecondition">NegativeCondition</a></p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#errortype">ErrorType</a></p></td>
 <td><p>mediumint(8)</p></td>
 <td><p>unsigned</p></td>
@@ -162,7 +162,7 @@ This table allows you to define conditions for various systems - Gossip, loot et
 <td><p><br />
 </p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#errortextid">ErrorTextId</a></p></td>
 <td><p>mediumint(8)</p></td>
 <td><p>unsigned</p></td>
@@ -175,7 +175,7 @@ This table allows you to define conditions for various systems - Gossip, loot et
 <td><p><br />
 </p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#scriptname">ScriptName</a></p></td>
 <td><p>char(64)</p></td>
 <td><p>signed</p></td>
@@ -188,7 +188,7 @@ This table allows you to define conditions for various systems - Gossip, loot et
 <td><p><br />
 </p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#comment">Comment</a></p></td>
 <td><p>varchar(255)</p></td>
 <td><p><br />
@@ -224,7 +224,7 @@ if negative, then it is a reference template.
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td>CONDITION_SOURCE_TYPE_NONE</td>
 <td>0</td>
 <td><strong><a href="#referencetemplates">See REFERENCE TEMPLATES</a></strong></td>
@@ -233,7 +233,7 @@ if negative, then it is a reference template.
 <td>(See below)</td>
 <td><strong>Only used in <a href="#referencetemplates">Reference Templates! See below.</a></strong></td>
 </tr>
-<tr class="even">
+<tr>
 <td>CONDITION_SOURCE_TYPE_CREATURE_LOOT_TEMPLATE</td>
 <td>1</td>
 <td><a href="loot_template.md#entry">creature_loot_template.Entry or reference_loot_template.Entry</a></td>
@@ -243,7 +243,7 @@ if negative, then it is a reference template.
 <td><br />
 </td>
 </tr>
-<tr class="odd">
+<tr>
 <td>CONDITION_SOURCE_TYPE_DISENCHANT_LOOT_TEMPLATE</td>
 <td>2</td>
 <td><a href="loot_template.md#entry">disenchant_loot_template.Entry or reference_loot_template.Entry</a></td>
@@ -253,7 +253,7 @@ if negative, then it is a reference template.
 <td><br />
 </td>
 </tr>
-<tr class="even">
+<tr>
 <td>CONDITION_SOURCE_TYPE_FISHING_LOOT_TEMPLATE</td>
 <td>3</td>
 <td><a href="loot_template.md#entry">fishing_loot_template.Entry or reference_loot_template.Entry</a></td>
@@ -263,7 +263,7 @@ if negative, then it is a reference template.
 <td><br />
 </td>
 </tr>
-<tr class="odd">
+<tr>
 <td>CONDITION_SOURCE_TYPE_GAMEOBJECT_LOOT_TEMPLATE</td>
 <td>4</td>
 <td><a href="loot_template.md#entry">gameobject_loot_template.Entry or reference_loot_template.Entry</a></td>
@@ -273,7 +273,7 @@ if negative, then it is a reference template.
 <td><br />
 </td>
 </tr>
-<tr class="even">
+<tr>
 <td>CONDITION_SOURCE_TYPE_ITEM_LOOT_TEMPLATE</td>
 <td>5</td>
 <td><a href="loot_template.md#entry">item_loot_template.Entry or reference_loot_template.Entry</a></td>
@@ -283,7 +283,7 @@ if negative, then it is a reference template.
 <td><br />
 </td>
 </tr>
-<tr class="odd">
+<tr>
 <td>CONDITION_SOURCE_TYPE_MAIL_LOOT_TEMPLATE</td>
 <td>6</td>
 <td><a href="loot_template.md#entry">mail_loot_template.Entry or reference_loot_template.Entry</a></td>
@@ -293,7 +293,7 @@ if negative, then it is a reference template.
 <td><br />
 </td>
 </tr>
-<tr class="even">
+<tr>
 <td>CONDITION_SOURCE_TYPE_MILLING_LOOT_TEMPLATE</td>
 <td>7</td>
 <td><a href="loot_template.md#entry">milling_loot_template.Entry or reference_loot_template.Entry</a></td>
@@ -303,7 +303,7 @@ if negative, then it is a reference template.
 <td><br />
 </td>
 </tr>
-<tr class="odd">
+<tr>
 <td>CONDITION_SOURCE_TYPE_PICKPOCKETING_LOOT_TEMPLATE</td>
 <td>8</td>
 <td><a href="loot_template.md#entry">pickpocketing_loot_template.Entry or reference_loot_template.Entry</a></td>
@@ -313,7 +313,7 @@ if negative, then it is a reference template.
 <td><br />
 </td>
 </tr>
-<tr class="even">
+<tr>
 <td>CONDITION_SOURCE_TYPE_PROSPECTING_LOOT_TEMPLATE</td>
 <td>9</td>
 <td><a href="loot_template.md#entry">prospecting_loot_template.Entry or reference_loot_template.Entry</a></td>
@@ -323,7 +323,7 @@ if negative, then it is a reference template.
 <td><br />
 </td>
 </tr>
-<tr class="odd">
+<tr>
 <td>CONDITION_SOURCE_TYPE_REFERENCE_LOOT_TEMPLATE</td>
 <td>10</td>
 <td><a href="loot_template.md#entry">reference_loot_template.Entry</a></td>
@@ -333,7 +333,7 @@ if negative, then it is a reference template.
 <td><br />
 </td>
 </tr>
-<tr class="even">
+<tr>
 <td>CONDITION_SOURCE_TYPE_SKINNING_LOOT_TEMPLATE</td>
 <td>11</td>
 <td><a href="loot_template.md#entry">skinning_loot_template.Entry or reference_loot_template.Entry</a></td>
@@ -343,7 +343,7 @@ if negative, then it is a reference template.
 <td><br />
 </td>
 </tr>
-<tr class="odd">
+<tr>
 <td>CONDITION_SOURCE_TYPE_SPELL_LOOT_TEMPLATE</td>
 <td>12</td>
 <td><a href="loot_template.md#entry">spell_loot_template.Entry or reference_loot_template.Entry</a></td>
@@ -353,7 +353,7 @@ if negative, then it is a reference template.
 <td><br />
 </td>
 </tr>
-<tr class="even">
+<tr>
 <td><br />
 CONDITION_SOURCE_TYPE_SPELL_IMPLICIT_TARGET</td>
 <td><br />
@@ -366,7 +366,7 @@ CONDITION_SOURCE_TYPE_SPELL_IMPLICIT_TARGET</td>
 1 : spell Caster</p></td>
 <td>Don't use wowhead to get number of effects, data from wowhead sometimes doesn't match real effect number.</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>CONDITION_SOURCE_TYPE_GOSSIP_MENU</td>
 <td>14</td>
 <td><a href="gossip_menu.md#menuid">gossip_menu.MenuID</a></td>
@@ -377,7 +377,7 @@ CONDITION_SOURCE_TYPE_SPELL_IMPLICIT_TARGET</td>
 <td><br />
 </td>
 </tr>
-<tr class="even">
+<tr>
 <td>CONDITION_SOURCE_TYPE_GOSSIP_MENU_OPTION</td>
 <td>15</td>
 <td><a href="gossip_menu_option.md#menuid">gossip_menu_option.MenuID</a></td>
@@ -388,7 +388,7 @@ CONDITION_SOURCE_TYPE_SPELL_IMPLICIT_TARGET</td>
 <td><br />
 </td>
 </tr>
-<tr class="odd">
+<tr>
 <td>CONDITION_SOURCE_TYPE_CREATURE_TEMPLATE_VEHICLE</td>
 <td>16</td>
 <td>Always 0</td>
@@ -399,7 +399,7 @@ CONDITION_SOURCE_TYPE_SPELL_IMPLICIT_TARGET</td>
 <td><br />
 </td>
 </tr>
-<tr class="even">
+<tr>
 <td><br />
 <br />
 <br />
@@ -432,7 +432,7 @@ Spell ID from <a href="../../dbc/Spell.md">Spell.dbc</a></td>
 <li>Remember that conditions with the same ElseGroup value will be used to make logical AND check, so to allow different targets for the same spell effect you have to set ElseGroup respectively.</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr>
 <td>CONDITION_SOURCE_TYPE_SPELL_CLICK_EVENT</td>
 <td>18</td>
 <td>creature entry (<a href="npc_spellclick_spells.md#npc_entry">npc_spellclick_spells.npc_entry</a>)</td>
@@ -443,7 +443,7 @@ Spell ID from <a href="../../dbc/Spell.md">Spell.dbc</a></td>
 <td><br />
 </td>
 </tr>
-<tr class="even">
+<tr>
 <td>CONDITION_SOURCE_TYPE_QUEST_ACCEPT</td>
 <td>19</td>
 <td>Always 0</td>
@@ -452,7 +452,7 @@ Spell ID from <a href="../../dbc/Spell.md">Spell.dbc</a></td>
 <td>Always 0</td>
 <td>Condition must be met for quest to be available to player.</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>CONDITION_SOURCE_TYPE_QUEST_SHOW_MARK</td>
 <td>20</td>
 <td>Always 0</td>
@@ -461,7 +461,7 @@ Spell ID from <a href="../../dbc/Spell.md">Spell.dbc</a></td>
 <td>Always 0</td>
 <td>Condition must be met for the quest mark to show.</td>
 </tr>
-<tr class="even">
+<tr>
 <td><br />
 CONDITION_SOURCE_TYPE_VEHICLE_SPELL</td>
 <td><br />
@@ -474,7 +474,7 @@ Spell ID from <a href="../../dbc/Spell.md">Spell.dbc</a></td>
 <td><br />
 This will show or hide spells in vehicle spell bar.</td>
 </tr>
-<tr class="odd">
+<tr>
 <td><a name="condition_source_type_smart_event=22"></a>CONDITION_SOURCE_TYPE_SMART_EVENT</td>
 <td>22</td>
 <td>ID (<a href="smart_scripts.md#id">smart_scripts.id</a>) + 1</td>
@@ -485,7 +485,7 @@ This will show or hide spells in vehicle spell bar.</td>
 <td><br />
 </td>
 </tr>
-<tr class="even">
+<tr>
 <td>CONDITION_SOURCE_TYPE_NPC_VENDOR</td>
 <td>23</td>
 <td>vendor entry (<a href="npc_vendor.md#entry">npc_vendor.entry</a>)</td>
@@ -495,7 +495,7 @@ This will show or hide spells in vehicle spell bar.</td>
 <td><br />
 </td>
 </tr>
-<tr class="odd">
+<tr>
 <td>CONDITION_SOURCE_TYPE_SPELL_PROC</td>
 <td>24</td>
 <td>Always 0</td>
@@ -506,7 +506,7 @@ This will show or hide spells in vehicle spell bar.</td>
 <td><br />
 </td>
 </tr>
-<tr class="even">
+<tr>
 <td>CONDITION_SOURCE_TYPE_MAX</td>
 <td>27</td>
 <td><br />
@@ -554,42 +554,42 @@ Two conditions with the same SourceType, SourceGroup and SourceEntry but with a
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td>CONDITION_NONE</td>
 <td>0</td>
 <td>(Never used)</td>
 <td>(Never used)</td>
 <td>(Never used)</td>
 </tr>
-<tr class="even">
+<tr>
 <td>CONDITION_AURA</td>
 <td>1</td>
 <td>Spell ID from <a href="../../dbc/Spell.md">Spell.dbc</a></td>
 <td>Effect index (0-2)</td>
 <td>Always 0</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>CONDITION_ITEM</td>
 <td>2</td>
 <td>item entry (<a href="item_template.md#entry">item_template.entry</a>)</td>
 <td>item count</td>
 <td>0 = not in bank, 1 = in bank</td>
 </tr>
-<tr class="even">
+<tr>
 <td>CONDITION_ITEM_EQUIPPED</td>
 <td>3</td>
 <td>item entry (<a href="item_template.md#entry">item_template.entry</a>)</td>
 <td>Always 0</td>
 <td>Always 0</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>CONDITION_ZONEID</td>
 <td>4</td>
 <td>Zone ID where this condition will be true.</td>
 <td>Always 0</td>
 <td>Always 0</td>
 </tr>
-<tr class="even">
+<tr>
 <td><br />
 <br />
 <br />
@@ -620,56 +620,56 @@ Faction template ID from <a href="../../dbc/Faction.md">Faction.dbc</a></p></td
 <p>Add the target ranks together for the condition to be true for all those ranks.</p></td>
 <td>Always 0</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>CONDITION_TEAM</td>
 <td>6</td>
 <td>Team id :Alliance = 469 / Horde = 67</td>
 <td>Always 0</td>
 <td>Always 0</td>
 </tr>
-<tr class="even">
+<tr>
 <td>CONDITION_SKILL</td>
 <td>7</td>
 <td>Required skill. See <a href="../../dbc/SkillLine.md">SkillLine.dbc</a> .</td>
 <td>Skill rank value (e.g. from 1 to 450 for the 3.3.5 branch)</td>
 <td>Always 0</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>CONDITION_QUESTREWARDED</td>
 <td>8</td>
 <td>Quest ID - see <a href="quest_template.md#id">quest_template.id</a></td>
 <td>Always 0</td>
 <td>Always 0</td>
 </tr>
-<tr class="even">
+<tr>
 <td>CONDITION_QUESTTAKEN</td>
 <td>9</td>
 <td>Quest ID - see <a href="quest_template.md#id">quest_template.id</a></td>
 <td>Always 0</td>
 <td>Always 0</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>CONDITION_DRUNKENSTATE</td>
 <td>10</td>
 <td>Sober=0; Tipsy=1, Drunk=2, Smashed=3</td>
 <td>Always 0</td>
 <td>Always 0</td>
 </tr>
-<tr class="even">
+<tr>
 <td>CONDITION_WORLD_STATE</td>
 <td>11</td>
 <td>World state index</td>
 <td>World state value</td>
 <td>Always 0</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>CONDITION_ACTIVE_EVENT</td>
 <td>12</td>
 <td>Event entry (<a href="game_event.md#evententry">game_event.eventEntry</a>)</td>
 <td>Always 0</td>
 <td>Always 0</td>
 </tr>
-<tr class="even">
+<tr>
 <td><br />
 CONDITION_INSTANCE_INFO</td>
 <td><br />
@@ -683,14 +683,14 @@ data</strong> (see corresponding script source files for more info)</td>
 <p>2=INSTANCE_INFO_BOSS_STATE</p>
 <p>3=INSTANCE_INFO_DATA64</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td>CONDITION_QUEST_NONE</td>
 <td>14</td>
 <td>Quest ID - see <a href="quest_template.md#id">quest_template.id</a></td>
 <td>Always 0</td>
 <td>Always 0</td>
 </tr>
-<tr class="even">
+<tr>
 <td><br />
 CONDITION_CLASS</td>
 <td><br />
@@ -700,7 +700,7 @@ Add flags together for all classes where condition is true.</td>
 <td>Always 0</td>
 <td>Always 0</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>CONDITION_RACE</td>
 <td>16</td>
 <td>Player must be this race. See <a href="../../dbc/ChrRaces.md">ChrRaces.dbc</a> .<br />
@@ -708,21 +708,21 @@ Add flags together for all races where condition is true.</td>
 <td>Always 0</td>
 <td>Always 0</td>
 </tr>
-<tr class="even">
+<tr>
 <td>CONDITION_ACHIEVEMENT</td>
 <td>17</td>
 <td>Achievement ID from <a href="../../dbc/Achievement.md">Achievement.dbc</a></td>
 <td>Always 0</td>
 <td>Always 0</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>CONDITION_TITLE</td>
 <td>18</td>
 <td>Title ID from <a href="../../dbc/CharTitles.md">CharTitles.dbc</a></td>
 <td>Always 0</td>
 <td>Always 0</td>
 </tr>
-<tr class="even">
+<tr>
 <td>CONDITION_SPAWNMASK</td>
 <td>19</td>
 <td>spawnMask from<br />
@@ -730,21 +730,21 @@ Add flags together for all races where condition is true.</td>
 <td>Always 0</td>
 <td>Always 0</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>CONDITION_GENDER</td>
 <td>20</td>
 <td>0 = Male, 1 = Female, 2 = None</td>
 <td>Always 0</td>
 <td>Always 0</td>
 </tr>
-<tr class="even">
+<tr>
 <td>CONDITION_UNIT_STATE</td>
 <td>21</td>
 <td>UnitState (<a href="https://gitlab.com/opfesoft/sol/-/blob/master/src/server/game/Entities/Unit/Unit.h#L451">enum from Unit.h</a>)</td>
 <td>Always 0</td>
 <td>Always 0</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>CONDITION_MAPID</td>
 <td>22</td>
 <td><p>Map entry from Map.dbc</p>
@@ -752,14 +752,14 @@ Add flags together for all races where condition is true.</td>
 <td>Always 0</td>
 <td>Always 0</td>
 </tr>
-<tr class="even">
+<tr>
 <td>CONDITION_AREAID</td>
 <td>23</td>
 <td>Area ID from AreaTable.dbc</td>
 <td>Always 0</td>
 <td>Always 0</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>CONDITION_CREATURE_TYPE</td>
 <td>24</td>
 <td><p>Creature type from <a href="creature_template.md#type">creature_template.type</a></p>
@@ -767,21 +767,21 @@ Add flags together for all races where condition is true.</td>
 <td>Always 0</td>
 <td>Always 0</td>
 </tr>
-<tr class="even">
+<tr>
 <td>CONDITION_SPELL</td>
 <td>25</td>
 <td>Spell ID from <a href="../../dbc/Spell.md">Spell.dbc</a></td>
 <td>Always 0</td>
 <td>Always 0</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>CONDITION_PHASEMASK</td>
 <td>26</td>
 <td>phasemask value</td>
 <td>Always 0</td>
 <td>Always 0</td>
 </tr>
-<tr class="even">
+<tr>
 <td><br />
 CONDITION_LEVEL</td>
 <td><br />
@@ -792,28 +792,28 @@ Player level (1-80 in 3.3.5)</td>
 3 = Level must be higher or equal, 4 = Level must be lower or equal.</td>
 <td>Always 0</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>CONDITION_QUEST_COMPLETE</td>
 <td>28</td>
 <td>Quest ID - see <a href="quest_template.md#id">quest_template.id</a></td>
 <td>Always 0</td>
 <td>Always 0</td>
 </tr>
-<tr class="even">
+<tr>
 <td>CONDITION_NEAR_CREATURE</td>
 <td>29</td>
 <td>Creature entry from <a href="creature_template.md#entry">creature_template.entry</a></td>
 <td>Distance in yards</td>
 <td>Alive=0 / Dead=1</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>CONDITION_NEAR_GAMEOBJECT</td>
 <td>30</td>
 <td>Gameobject entry from <a href="gameobject_template.md#entry">gameobject_template.entry</a></td>
 <td>Distance in yards</td>
 <td>Always 0</td>
 </tr>
-<tr class="even">
+<tr>
 <td><br />
 <br />
 CONDITION_OBJECT_ENTRY_GUID</td>
@@ -833,7 +833,7 @@ if TypeID = TYPEID_GAMEOBJECT =&gt; Gameobject entry from </a><a href="gameobje
 0 = Any object of given type</p>
 <p>1 - 500k : creature / gameobject GUID</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><br />
 <br />
 CONDITION_TYPE_MASK</td>
@@ -848,7 +848,7 @@ CONDITION_TYPE_MASK</td>
 <td>Always 0</td>
 <td>Always 0</td>
 </tr>
-<tr class="even">
+<tr>
 <td><br />
 <br />
 <br />
@@ -871,7 +871,7 @@ Target to which relation is checked.<br />
 5 - RELATION_CREATED_BY (ConditionTarget is summoned by ConditionValue1)</p></td>
 <td>Always 0</td>
 </tr>
-<tr class="odd">
+<tr>
 <td><br />
 <br />
 <br />
@@ -904,7 +904,7 @@ Flags for the reactions are:
 128 = Exalted</code></pre></td>
 <td>Always 0</td>
 </tr>
-<tr class="even">
+<tr>
 <td><br />
 <br />
 <br />
@@ -932,7 +932,7 @@ Defines distance between current ConditionTarget and target specified in Conditi
 3 = distance must be equal to or higher than ConditionValue2<br />
 4 = distance must be equal to or lower than ConditionValue2</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><br />
 <br />
 <br />
@@ -950,7 +950,7 @@ and the other is just using an emote to appear dead. </p></td>
 <td>Always 0</td>
 <td>Always 0</td>
 </tr>
-<tr class="even">
+<tr>
 <td><br />
 <br />
 <br />
@@ -973,7 +973,7 @@ HP value</td>
 </ul></td>
 <td>Always 0</td>
 </tr>
-<tr class="odd">
+<tr>
 <td><br />
 <br />
 <br />
@@ -993,14 +993,14 @@ CONDITION_HP_PCT</td>
 </ul></td>
 <td>Always 0</td>
 </tr>
-<tr class="even">
+<tr>
 <td>CONDITION_REALM_ACHIEVEMENT</td>
 <td>39</td>
 <td>Achievement ID from <a href="../../dbc/Achievement.md">Achievement.dbc</a></td>
 <td>Always 0</td>
 <td>Always 0</td>
 </tr>
-<tr class="odd">
+<tr>
 <td><br />
 CONDITION_IN_WATER</td>
 <td><br />
@@ -1009,7 +1009,7 @@ CONDITION_IN_WATER</td>
 <td>Always 0</td>
 <td>Always 0</td>
 </tr>
-<tr class="odd">
+<!-- <tr>
 <td><p><br />
 CONDITION_STAND_STATE</p></td>
 <td><br />
@@ -1018,35 +1018,35 @@ CONDITION_STAND_STATE</p></td>
 <td>Exact stand state, or generic state (stand / sit), depending on value 10 = Standing 1 = Sitting</td>
 <td>Always 0</td>
 </tr>
-<tr class="even">
+<tr>
 <td>CONDITION_DAILY_QUEST_DONE</td>
 <td>43</td>
-<td>Quest ID - see <a href="quest_template.md#id">quest_template.id</a></td>
+<td>Quest ID - see <a href="quest_template.md#id">quest_template.id</a>; true if daily quest has been completed for the day</td>
 <td>Always 0</td>
 <td>Always 0</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>CONDITION_CHARMED</td>
 <td>44</td>
 <td>Always 0</td>
 <td>Always 0</td>
 <td>Always 0</td>
 </tr>
-<tr class="even">
+<tr>
 <td>CONDITION_PET_TYPE</td>
 <td>45</td>
 <td>mask</td>
 <td>Always 0</td>
 <td>Always 0</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>CONDITION_TAXI</td>
 <td>46</td>
 <td>Always 0</td>
 <td>Always 0</td>
 <td>Always 0</td>
 </tr>
-<tr class="even">
+<tr>
 <td>CONDITION_QUESTSTATE</td>
 <td>47</td>
 <td>Quest ID - see <a href="quest_template.md#id">quest_template.id</a></td>
@@ -1058,29 +1058,29 @@ CONDITION_STAND_STATE</p></td>
 <li>64 = Rewarded</li>
 </td>
 <td>Always 0</td>
-</tr>
-<tr class="odd">
+</tr> -->
+<tr>
 <td>CONDITION_QUEST_OBJECTIVE_PROGRESS</td>
 <td>48</td>
 <td>Quest ID - see <a href="quest_template.md#id">quest_template.id</a></td>
 <td>Quest Objective ID - see <a href="quest_template.md#requirednpcorgo">quest_template.RequiredNpcOrGo</a></td>
 <td>Quest Objective Count</td>
 </tr>
-<tr class="even">
+<tr>
 <td>CONDITION_QUEST_SATISFY_EXCLUSIVE</td>
 <td>101</td>
 <td>Quest ID - see <a href="quest_template.md#id">quest_template.id</a>; true if satisfied exclusive group</td>
 <td>Always 0</td>
 <td>Always 0</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>CONDITION_HAS_AURA_TYPE</td>
 <td>102</td>
 <td>aura_type; true if has aura type</td>
 <td>Always 0</td>
 <td>Always 0</td>
 </tr>
-<tr class="even">
+<tr>
 <td>CONDITION_HAS_EMPTY_SEAT</td>
 <td>151</td>
 <td>Always 0 - Use NegativeCondition and the following settings: NegativeCondition = 0 if the target vehicle needs to have an empty seat; NegativeCondition = 1 if target vehicle needs to have no empty seat</td>

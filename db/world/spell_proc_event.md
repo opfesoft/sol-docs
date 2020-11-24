@@ -131,4 +131,4 @@ Custom chance for triggering, given in percentage.
 
 ### Cooldown
 
-Define hidden cooldowns on the spell, given in seconds. Also known as the proc's internal cooldown, or ICD.
+Define hidden cooldowns on the spell, given in milliseconds. Also known as the proc's internal cooldown, or ICD.
