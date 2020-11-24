@@ -18,7 +18,7 @@ This table contains main data about all mails in the game.
 <col width="12%" />
 </colgroup>
 <tbody>
-<tr class="odd">
+<tr>
 <td><p><strong>Field</strong></p></td>
 <td><p><strong>Type</strong></p></td>
 <td><p><strong>Attributes</strong></p></td>
@@ -28,7 +28,7 @@ This table contains main data about all mails in the game.
 <td><p><strong>Extra</strong></p></td>
 <td><p><strong>Comment</strong></p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#id">id</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
@@ -38,7 +38,7 @@ This table contains main data about all mails in the game.
 <td><p> </p></td>
 <td><p>Identifier</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#messagetype">messageType</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
@@ -48,7 +48,7 @@ This table contains main data about all mails in the game.
 <td><p> </p></td>
 <td><p> </p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#stationery">stationery</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>signed</p></td>
@@ -58,7 +58,7 @@ This table contains main data about all mails in the game.
 <td><p> </p></td>
 <td><p> </p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#mailtemplateid_x">mailTemplateId</a></p></td>
 <td><p>mediumint(5)</p></td>
 <td><p>unsigned</p></td>
@@ -68,7 +68,7 @@ This table contains main data about all mails in the game.
 <td><p> </p></td>
 <td><p> </p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#sender">sender</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
@@ -78,7 +78,7 @@ This table contains main data about all mails in the game.
 <td><p> </p></td>
 <td><p>Character Global Unique Identifier</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#receiver">receiver</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
@@ -88,7 +88,7 @@ This table contains main data about all mails in the game.
 <td><p> </p></td>
 <td><p>Character Global Unique Identifier</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#subject">subject</a></p></td>
 <td><p>longtext</p></td>
 <td><p>signed</p></td>
@@ -98,7 +98,7 @@ This table contains main data about all mails in the game.
 <td><p> </p></td>
 <td><p> </p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#body">body</a></p></td>
 <td><p>longtext</p></td>
 <td><p>signed</p></td>
@@ -108,7 +108,7 @@ This table contains main data about all mails in the game.
 <td> </td>
 <td> </td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#has_items">has_items</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
@@ -118,7 +118,7 @@ This table contains main data about all mails in the game.
 <td> </td>
 <td> </td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#expire_time">expire_time</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
@@ -128,7 +128,7 @@ This table contains main data about all mails in the game.
 <td> </td>
 <td> </td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#deliver_time">deliver_time</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
@@ -138,7 +138,7 @@ This table contains main data about all mails in the game.
 <td> </td>
 <td> </td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#money">money</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
@@ -148,7 +148,7 @@ This table contains main data about all mails in the game.
 <td> </td>
 <td> </td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#cod">cod</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
@@ -158,7 +158,7 @@ This table contains main data about all mails in the game.
 <td> </td>
 <td> </td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#checked">checked</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
@@ -262,27 +262,27 @@ when is set to 1, that field \`money\` stores gold for COD.
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td><p>0</p></td>
 <td><p>MAIL_CHECK_MASK_NONE</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>1</p></td>
 <td><p>MAIL_CHECK_MASK_READ</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>2</p></td>
 <td><p>MAIL_CHECK_MASK_RETURNED</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>4</p></td>
 <td><p>MAIL_CHECK_MASK_COPIED</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>8</p></td>
 <td><p>MAIL_CHECK_MASK_COD_PAYMENT</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>16</p></td>
 <td><p>MAIL_CHECK_MASK_HAS_BODY</p></td>
 </tr>

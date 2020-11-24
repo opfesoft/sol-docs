@@ -18,7 +18,7 @@ This table controls how many instances the account's characters have been in las
 <col width="12%" />
 </colgroup>
 <tbody>
-<tr class="odd">
+<tr>
 <td><p><strong>Field</strong></p></td>
 <td><p><strong>Type</strong></p></td>
 <td><p><strong>Attributes</strong></p></td>
@@ -28,7 +28,7 @@ This table controls how many instances the account's characters have been in las
 <td><p><strong>Extra</strong></p></td>
 <td><p><strong>Comment</strong></p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#accountid">accountId</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
@@ -38,7 +38,7 @@ This table controls how many instances the account's characters have been in las
 <td><p> </p></td>
 <td><p> </p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#instanceid">instanceId</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
@@ -48,7 +48,7 @@ This table controls how many instances the account's characters have been in las
 <td><p> </p></td>
 <td><p> </p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#releasetime">releaseTime</a></p></td>
 <td><p>bigint(20)</p></td>
 <td><p>unsigned</p></td>

@@ -18,7 +18,7 @@ This table contains the data that a player needs to obtain / complete in order t
 <col width="12%" />
 </colgroup>
 <tbody>
-<tr class="odd">
+<tr>
 <td><p><strong>Field</strong></p></td>
 <td><p><strong>Type</strong></p></td>
 <td><p><strong>Attributes</strong></p></td>
@@ -28,7 +28,7 @@ This table contains the data that a player needs to obtain / complete in order t
 <td><p><strong>Extra</strong></p></td>
 <td><p><strong>Comment</strong></p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#criteria_id">criteria_id</a></p></td>
 <td><p>mediumint(8)</p></td>
 <td><p>signed</p></td>
@@ -38,7 +38,7 @@ This table contains the data that a player needs to obtain / complete in order t
 <td><p> </p></td>
 <td><p> </p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#type">type</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
@@ -48,7 +48,7 @@ This table contains the data that a player needs to obtain / complete in order t
 <td><p> </p></td>
 <td><p> </p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#value1">value1</a></p></td>
 <td><p>medium(8)</p></td>
 <td><p>unsigned</p></td>
@@ -58,7 +58,7 @@ This table contains the data that a player needs to obtain / complete in order t
 <td><p> </p></td>
 <td><p> </p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#value2">value2</a></p></td>
 <td><p>medium(8)</p></td>
 <td><p>unsigned</p></td>
@@ -68,7 +68,7 @@ This table contains the data that a player needs to obtain / complete in order t
 <td><p> </p></td>
 <td><p> </p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#scriptname">ScriptName</a></p></td>
 <td><p>char(64)</p></td>
 <td><p>signed</p></td>
@@ -103,99 +103,99 @@ Depending on this value, it will determine how value1 and value2 are used.
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td><p>0</p></td>
 <td><p>TYPE_NONE</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>1</p></td>
 <td><p>TYPE_T_CREATURE</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>2</p></td>
 <td><p>TYPE_T_PLAYER_CLASS_RACE</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>3</p></td>
 <td><p>TYPE_T_PLAYER_LESS_HEALTH</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>4</p></td>
 <td><p>TYPE_T_PLAYER_DEAD</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>5</p></td>
 <td><p>TYPE_S_AURA</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>6</p></td>
 <td><p>TYPE_S_AREA</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>7</p></td>
 <td><p>TYPE_T_AURA</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>8</p></td>
 <td><p>TYPE_VALUE</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>9</p></td>
 <td><p>TYPE_T_LEVEL</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>10</p></td>
 <td><p>TYPE_T_GENDER</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>11</p></td>
 <td><p>TYPE_SCRIPT</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>12</p></td>
 <td><p>TYPE_MAP_DIFFICULTY</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>13</p></td>
 <td><p>TYPE_MAP_PLAYER_COUNT</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>14</p></td>
 <td><p>TYPE_T_TEAM</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>15</p></td>
 <td><p>TYPE_S_DRUNK</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>16</p></td>
 <td><p>TYPE_HOLIDAY</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>17</p></td>
 <td><p>TYPE_BG_LOSS_TEAM_SCORE</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>18</p></td>
 <td><p>TYPE_INSTANCE_SCRIPT</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>19</p></td>
 <td><p>TYPE_S_EQUIPED_ITEM</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>20</p></td>
 <td><p>TYPE_MAP_ID</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>21</p></td>
 <td><p>TYPE_S_PLAYER_CLASS_RACE</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td>22</td>
 <td>TYPE_NTH_BIRTHDAY</td>
 </tr>
-<tr class="even">
+<tr>
 <td>23</td>
 <td>TYPE_S_KNOWN_TITLE</td>
 </tr>

@@ -18,7 +18,7 @@ Holds game object quest taker relations. The game objects in this table should a
 <col width="12%" />
 </colgroup>
 <tbody>
-<tr class="odd">
+<tr>
 <td><p><strong>Field</strong></p></td>
 <td><p><strong>Type</strong></p></td>
 <td><p><strong>Attributes</strong></p></td>
@@ -28,7 +28,7 @@ Holds game object quest taker relations. The game objects in this table should a
 <td><p><strong>Extra</strong></p></td>
 <td><p><strong>Comment</strong></p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#id">id</a></p></td>
 <td><p>mediumint(8)</p></td>
 <td><p>unsigned</p></td>
@@ -38,7 +38,7 @@ Holds game object quest taker relations. The game objects in this table should a
 <td><p> </p></td>
 <td><p> </p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#quest">quest</a></p></td>
 <td><p>mediumint(8)</p></td>
 <td><p>unsigned</p></td>

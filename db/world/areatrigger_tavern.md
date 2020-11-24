@@ -18,7 +18,7 @@ Enable a trigger when player enters a city or tavern. This causes the player to 
 <col width="12%" />
 </colgroup>
 <tbody>
-<tr class="odd">
+<tr>
 <td><p><strong>Field</strong></p></td>
 <td><p><strong>Type</strong></p></td>
 <td><p><strong>Attributes</strong></p></td>
@@ -28,7 +28,7 @@ Enable a trigger when player enters a city or tavern. This causes the player to 
 <td><p><strong>Extra</strong></p></td>
 <td><p><strong>Comment</strong></p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#id">id</a></p></td>
 <td><p>mediumint(8)</p></td>
 <td><p>unsigned</p></td>
@@ -38,7 +38,7 @@ Enable a trigger when player enters a city or tavern. This causes the player to 
 <td><p> </p></td>
 <td><p>Identifier</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#name">name</a></p></td>
 <td><p>text</p></td>
 <td><p>signed</p></td>

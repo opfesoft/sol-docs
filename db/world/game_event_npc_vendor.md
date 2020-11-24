@@ -18,7 +18,7 @@ This table allows you to change the items a vendor sells, or to create a [vendor
 <col width="12%" />
 </colgroup>
 <tbody>
-<tr class="odd">
+<tr>
 <td><p><strong>Field</strong></p></td>
 <td><p><strong>Type</strong></p></td>
 <td><p><strong>Attributes</strong></p></td>
@@ -28,7 +28,7 @@ This table allows you to change the items a vendor sells, or to create a [vendor
 <td><p><strong>Extra</strong></p></td>
 <td><p><strong>Comment</strong></p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#evententry">eventEntry</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>signed</p></td>
@@ -38,7 +38,7 @@ This table allows you to change the items a vendor sells, or to create a [vendor
 <td><p> </p></td>
 <td><p> </p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#guid">guid</a></p></td>
 <td><p>mediumint(8)</p></td>
 <td><p>unsigned</p></td>
@@ -48,7 +48,7 @@ This table allows you to change the items a vendor sells, or to create a [vendor
 <td><p> </p></td>
 <td><p> </p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#slot">slot</a></p></td>
 <td><p>smallint(6)</p></td>
 <td><p>signed</p></td>
@@ -58,7 +58,7 @@ This table allows you to change the items a vendor sells, or to create a [vendor
 <td><p> </p></td>
 <td><p> </p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#item">item</a></p></td>
 <td><p>mediumint(8)</p></td>
 <td><p>unsigned</p></td>
@@ -68,7 +68,7 @@ This table allows you to change the items a vendor sells, or to create a [vendor
 <td><p> </p></td>
 <td><p> </p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#maxcount">maxcount</a></p></td>
 <td><p>mediumint(8)</p></td>
 <td><p>unsigned</p></td>
@@ -78,7 +78,7 @@ This table allows you to change the items a vendor sells, or to create a [vendor
 <td><p> </p></td>
 <td><p> </p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#incrtime">incrtime</a></p></td>
 <td><p>mediumint(8)</p></td>
 <td><p>unsigned</p></td>
@@ -88,7 +88,7 @@ This table allows you to change the items a vendor sells, or to create a [vendor
 <td><p> </p></td>
 <td><p> </p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#extendedcost">ExtendedCost</a></p></td>
 <td><p>mediumint(8)</p></td>
 <td><p>unsigned</p></td>

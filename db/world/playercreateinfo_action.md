@@ -6,7 +6,7 @@ This table holds information on what default actions a brand new character shoul
 
 <table>
 <tbody>
-<tr class="odd">
+<tr>
 <td><p><strong>Field</strong></p></td>
 <td><p><strong>Type</strong></p></td>
 <td><p><strong>Attributes</strong></p></td>
@@ -16,7 +16,7 @@ This table holds information on what default actions a brand new character shoul
 <td><p><strong>Extra</strong></p></td>
 <td><p><strong>Comment</strong></p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#race">race</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
@@ -28,7 +28,7 @@ This table holds information on what default actions a brand new character shoul
 <td><p><br />
 </p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#class">class</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
@@ -40,7 +40,7 @@ This table holds information on what default actions a brand new character shoul
 <td><p><br />
 </p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#button">button</a></p></td>
 <td><p>smallint(5)</p></td>
 <td><p>unsigned</p></td>
@@ -53,7 +53,7 @@ This table holds information on what default actions a brand new character shoul
 <td><p><br />
 </p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#action">action</a></p></td>
 <td><p>int(11)</p></td>
 <td><p>unsigned</p></td>
@@ -66,7 +66,7 @@ This table holds information on what default actions a brand new character shoul
 <td><p><br />
 </p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#type">type</a></p></td>
 <td><p>smallint(5)</p></td>
 <td><p>unsigned</p></td>
@@ -131,15 +131,15 @@ The type of action:
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td><p>0</p></td>
 <td><p>Spell</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>64</p></td>
 <td><p>Macro</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>128</p></td>
 <td><p>Item</p></td>
 </tr>

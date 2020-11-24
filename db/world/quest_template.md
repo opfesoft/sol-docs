@@ -19,7 +19,7 @@ Contains all basic definitions of available quests.
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td><p><a href="#id">ID</a></p></td>
 <td><p>int(10) unsigned</p></td>
 <td><p>NO</p></td>
@@ -30,7 +30,7 @@ Contains all basic definitions of available quests.
 <td><p><br />
 </p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#questtype">QuestType</a></p></td>
 <td><p>tinyint(3) unsigned</p></td>
 <td><p>NO</p></td>
@@ -42,7 +42,7 @@ Contains all basic definitions of available quests.
 <td><p><br />
 </p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#questlevel">QuestLevel</a></p></td>
 <td><p>int(11)</p></td>
 <td><p>NO</p></td>
@@ -54,7 +54,7 @@ Contains all basic definitions of available quests.
 <td><p><br />
 </p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#minlevel">MinLevel</a></p></td>
 <td><p>int(11)</p></td>
 <td><p>NO</p></td>
@@ -66,7 +66,7 @@ Contains all basic definitions of available quests.
 <td><p><br />
 </p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#questsortid">QuestSortID</a></p></td>
 <td><p>smallint(6)</p></td>
 <td><p>NO</p></td>
@@ -78,7 +78,7 @@ Contains all basic definitions of available quests.
 <td><p><br />
 </p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#questinfoid">QuestInfoID</a></p></td>
 <td><p>smallint(5) unsigned</p></td>
 <td><p>NO</p></td>
@@ -90,7 +90,7 @@ Contains all basic definitions of available quests.
 <td><p><br />
 </p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#suggestedgroupnum">SuggestedGroupNum</a></p></td>
 <td><p>tinyint(3) unsigned</p></td>
 <td><p>NO</p></td>
@@ -102,7 +102,7 @@ Contains all basic definitions of available quests.
 <td><p><br />
 </p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#rewardnextquest">RewardNextQuest</a></p></td>
 <td><p>int(10) unsigned</p></td>
 <td><p>NO</p></td>
@@ -114,7 +114,7 @@ Contains all basic definitions of available quests.
 <td><p><br />
 </p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#rewardxpdifficulty">RewardXPDifficulty</a></p></td>
 <td><p>int(10) unsigned</p></td>
 <td><p>NO</p></td>
@@ -126,7 +126,7 @@ Contains all basic definitions of available quests.
 <td><p><br />
 </p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#rewardmoney">RewardMoney</a></p></td>
 <td><p>int(11)</p></td>
 <td><p>NO</p></td>
@@ -138,7 +138,7 @@ Contains all basic definitions of available quests.
 <td><p><br />
 </p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#rewardbonusmoney">RewardBonusMoney</a></p></td>
 <td><p>int(10) unsigned</p></td>
 <td><p>NO</p></td>
@@ -150,7 +150,7 @@ Contains all basic definitions of available quests.
 <td><p><br />
 </p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#rewarddisplayspell">RewardDisplaySpell</a></p></td>
 <td><p>int(10) unsigned</p></td>
 <td><p>NO</p></td>
@@ -162,7 +162,7 @@ Contains all basic definitions of available quests.
 <td><p><br />
 </p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#rewardspell">RewardSpell</a></p></td>
 <td><p>int(10) unsigned</p></td>
 <td><p>NO</p></td>
@@ -174,7 +174,7 @@ Contains all basic definitions of available quests.
 <td><p><br />
 </p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#rewardhonor">RewardHonor</a></p></td>
 <td><p>int(10) unsigned</p></td>
 <td><p>NO</p></td>
@@ -186,7 +186,7 @@ Contains all basic definitions of available quests.
 <td><p><br />
 </p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#rewardkillhonor">RewardKillHonor</a></p></td>
 <td><p>int(10) unsigned</p></td>
 <td><p>NO</p></td>
@@ -198,7 +198,7 @@ Contains all basic definitions of available quests.
 <td><p><br />
 </p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#startitem">StartItem</a></p></td>
 <td><p>int(10) unsigned</p></td>
 <td><p>NO</p></td>
@@ -210,7 +210,7 @@ Contains all basic definitions of available quests.
 <td><p><br />
 </p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#flags">Flags</a></p></td>
 <td><p>int(10) unsigned</p></td>
 <td><p>NO</p></td>
@@ -222,7 +222,7 @@ Contains all basic definitions of available quests.
 <td><p><br />
 </p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#rewarditem">RewardItem(X=1...4)</a></p></td>
 <td><p>int(10) unsigned</p></td>
 <td><p>NO</p></td>
@@ -234,7 +234,7 @@ Contains all basic definitions of available quests.
 <td><p><br />
 </p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#rewardamount">RewardAmount(X=1...4)</a></p></td>
 <td><p>int(10) unsigned</p></td>
 <td><p>NO</p></td>
@@ -246,7 +246,7 @@ Contains all basic definitions of available quests.
 <td><p><br />
 </p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#itemdrop">ItemDrop(X=1...4)</a></p></td>
 <td><p>int(10) unsigned</p></td>
 <td><p>NO</p></td>
@@ -258,7 +258,7 @@ Contains all basic definitions of available quests.
 <td><p><br />
 </p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#itemdropquantity">ItemDropQuantity(X=1...4)</a></p></td>
 <td><p>int(10) unsigned</p></td>
 <td><p>NO</p></td>
@@ -270,7 +270,7 @@ Contains all basic definitions of available quests.
 <td><p><br />
 </p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#rewardchoiceitemid">RewardChoiceItemID(X=1...6)</a></p></td>
 <td><p>int(10) unsigned</p></td>
 <td><p>NO</p></td>
@@ -282,7 +282,7 @@ Contains all basic definitions of available quests.
 <td><p><br />
 </p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#rewardchoiceitemquantity">RewardChoiceItemQuantity(X=1...6)</a></p></td>
 <td><p>int(10) unsigned</p></td>
 <td><p>NO</p></td>
@@ -294,7 +294,7 @@ Contains all basic definitions of available quests.
 <td><p><br />
 </p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#poicontinent">POIContinent</a></p></td>
 <td><p>int(10) unsigned</p></td>
 <td><p>NO</p></td>
@@ -306,7 +306,7 @@ Contains all basic definitions of available quests.
 <td><p><br />
 </p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#poix">POIx</a></p></td>
 <td><p>float</p></td>
 <td><p>NO</p></td>
@@ -318,7 +318,7 @@ Contains all basic definitions of available quests.
 <td><p><br />
 </p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#poiy">POIy</a></p></td>
 <td><p>float</p></td>
 <td><p>NO</p></td>
@@ -330,7 +330,7 @@ Contains all basic definitions of available quests.
 <td><p><br />
 </p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#poipriority">POIPriority</a></p></td>
 <td><p>int(11)</p></td>
 <td><p>NO</p></td>
@@ -342,7 +342,7 @@ Contains all basic definitions of available quests.
 <td><p><br />
 </p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#rewardtitle">RewardTitle</a></p></td>
 <td><p>int(10) unsigned</p></td>
 <td><p>NO</p></td>
@@ -354,7 +354,7 @@ Contains all basic definitions of available quests.
 <td><p><br />
 </p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#requiredplayerkills">RequiredPlayerKills</a></p></td>
 <td><p>tinyint(3) unsigned</p></td>
 <td><p>NO</p></td>
@@ -366,7 +366,7 @@ Contains all basic definitions of available quests.
 <td><p><br />
 </p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#rewardtalents">RewardTalents</a></p></td>
 <td><p>tinyint(3) unsigned</p></td>
 <td><p>NO</p></td>
@@ -378,7 +378,7 @@ Contains all basic definitions of available quests.
 <td><p><br />
 </p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#rewardarenapoints">RewardArenaPoints</a></p></td>
 <td><p>int(10) unsigned</p></td>
 <td><p>NO</p></td>
@@ -390,7 +390,7 @@ Contains all basic definitions of available quests.
 <td><p><br />
 </p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#rewardfactionid">RewardFactionID(X=1...5)</a></p></td>
 <td><p>int(10) unsigned</p></td>
 <td><p>NO</p></td>
@@ -402,7 +402,7 @@ Contains all basic definitions of available quests.
 <td><p><br />
 </p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#rewardfactionvalue">RewardFactionValue(X=1...5)</a></p></td>
 <td><p>int(11)</p></td>
 <td><p>NO</p></td>
@@ -414,7 +414,7 @@ Contains all basic definitions of available quests.
 <td><p><br />
 </p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#rewardfactionoverride">RewardFactionOverride(X=1...5)</a></p></td>
 <td><p>int(11)</p></td>
 <td><p>NO</p></td>
@@ -426,7 +426,7 @@ Contains all basic definitions of available quests.
 <td><p><br />
 </p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#timeallowed">TimeAllowed</a></p></td>
 <td><p>int(10) unsigned</p></td>
 <td><p>NO</p></td>
@@ -438,7 +438,7 @@ Contains all basic definitions of available quests.
 <td><p><br />
 </p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#allowableraces">AllowableRaces</a></p></td>
 <td><p>int(11)</p></td>
 <td><p>NO</p></td>
@@ -450,7 +450,7 @@ Contains all basic definitions of available quests.
 <td><p><br />
 </p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#logtitle">LogTitle</a></p></td>
 <td><p>text</p></td>
 <td><p>YES</p></td>
@@ -462,7 +462,7 @@ Contains all basic definitions of available quests.
 <td><p><br />
 </p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#logdescription">LogDescription</a></p></td>
 <td><p>text</p></td>
 <td><p>YES</p></td>
@@ -474,7 +474,7 @@ Contains all basic definitions of available quests.
 <td><p><br />
 </p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#questdescription">QuestDescription</a></p></td>
 <td><p>text</p></td>
 <td><p>YES</p></td>
@@ -486,7 +486,7 @@ Contains all basic definitions of available quests.
 <td><p><br />
 </p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#areadescription">AreaDescription</a></p></td>
 <td><p>text</p></td>
 <td><p>YES</p></td>
@@ -498,7 +498,7 @@ Contains all basic definitions of available quests.
 <td><p><br />
 </p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#questcompletionlog">QuestCompletionLog</a></p></td>
 <td><p>text</p></td>
 <td><p>YES</p></td>
@@ -510,7 +510,7 @@ Contains all basic definitions of available quests.
 <td><p><br />
 </p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#requirednpcorgo">RequiredNpcOrGo(X=1...4)</a></p></td>
 <td><p>mediumint(8)</p></td>
 <td><p>NO</p></td>
@@ -522,7 +522,7 @@ Contains all basic definitions of available quests.
 <td><p><br />
 </p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#requirednpcorgocount">RequiredNpcOrGoCount(X=1...4)</a></p></td>
 <td><p>smallint(5) unsigned</p></td>
 <td><p>NO</p></td>
@@ -534,7 +534,7 @@ Contains all basic definitions of available quests.
 <td><p><br />
 </p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#requireditemid">RequiredItemId(X=1...6)</a></p></td>
 <td><p>mediumint(8) unsigned</p></td>
 <td><p>NO</p></td>
@@ -546,7 +546,7 @@ Contains all basic definitions of available quests.
 <td><p><br />
 </p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#requireditemcount">RequiredItemCount(X=1...6)</a></p></td>
 <td><p>smallint(5) unsigned</p></td>
 <td><p>NO</p></td>
@@ -558,7 +558,7 @@ Contains all basic definitions of available quests.
 <td><p><br />
 </p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#requiredfactionid">RequiredFactionId(X=1...2)</a></p></td>
 <td><p>smallint(5) unsigned</p></td>
 <td><p>NO</p></td>
@@ -570,7 +570,7 @@ Contains all basic definitions of available quests.
 <td><p><br />
 </p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#requiredfactionvalue">RequiredFactionValue(X=1...2)</a></p></td>
 <td><p>mediumint(8)</p></td>
 <td><p>NO</p></td>
@@ -582,7 +582,7 @@ Contains all basic definitions of available quests.
 <td><p><br />
 </p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#objectivetext">ObjectiveText(X=1...4)</a></p></td>
 <td><p>text</p></td>
 <td><p>YES</p></td>
@@ -594,7 +594,7 @@ Contains all basic definitions of available quests.
 <td><p><br />
 </p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#verifiedbuild">VerifiedBuild</a></p></td>
 <td><p>smallint(5)</p></td>
 <td><p>YES</p></td>
@@ -735,176 +735,176 @@ This flag field defines more specifically the type of quest it is. Aside from th
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td><p>0</p></td>
 <td><p>QUEST_FLAGS_NONE</p></td>
 <td><p>No flags, so no groups assigned to this quest.</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>1</p></td>
 <td><p>QUEST_FLAGS_STAY_ALIVE</p></td>
 <td><p>If the player dies, the quest is failed.</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>2</p></td>
 <td><p>QUEST_FLAGS_PARTY_ACCEPT</p></td>
 <td><p>Escort quests or any other event-driven quests. If player in party, all players that can accept this quest will receive confirmation box to accept quest.</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>4</p></td>
 <td><p>QUEST_FLAGS_EXPLORATION</p></td>
 <td><p>Involves the activation of an areatrigger.</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>8</p></td>
 <td><p>QUEST_FLAGS_SHARABLE</p></td>
 <td><p>Allows the quest to be shared with other players.</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>16</p></td>
 <td><p>QUEST_FLAGS_HAS_CONDITION</p></td>
 <td><p>Not used currently</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>32</p></td>
 <td><p>QUEST_FLAGS_HIDE_REWARD_POI</p></td>
 <td><p>Not used currently: Unsure of content</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>64</p></td>
 <td><p>QUEST_FLAGS_RAID</p></td>
 <td><p>Can be completed while in raid</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>128</p></td>
 <td><p>QUEST_FLAGS_TBC</p></td>
 <td><p>Not used currently: Available if TBC expansion enabled only</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>256</p></td>
 <td><p>QUEST_FLAGS_NO_MONEY_FROM_XP</p></td>
 <td><p>Not used currently: Experience is not converted to gold at max level</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>512</p></td>
 <td><p>QUEST_FLAGS_HIDDEN_REWARDS</p></td>
 <td><p>Item and monetary rewards are hidden in the initial quest details page and in the quest log but will appear once ready to be rewarded.</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>1024</p></td>
 <td><p>QUEST_FLAGS_TRACKING</p></td>
 <td><p>These quests are automatically rewarded on quest complete and they will never appear in quest log client side.</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>2048</p></td>
 <td><p>QUEST_FLAGS_DEPRECATE_REPUTATION</p></td>
 <td><p>Not used currently</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>4096</p></td>
 <td><p>QUEST_FLAGS_DAILY</p></td>
 <td><p>Daily repeatable quests (only flag that the core applies specific behavior for)</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>8192</p></td>
 <td><p>QUEST_FLAGS_FLAGS_PVP</p></td>
 <td><p>Having this quest in log forces PvP flag</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>16384</p></td>
 <td><p>QUEST_FLAGS_UNAVAILABLE</p></td>
 <td><p>Used on quests that are not generically available</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>32768</p></td>
 <td><p>QUEST_FLAGS_WEEKLY</p></td>
 <td><p>Weekly repeatable quests (only flag that the core applies specific behavior for)</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>65536</p></td>
 <td><p>QUEST_FLAGS_AUTOCOMPLETE</p></td>
 <td><p>Auto complete</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>131072</p></td>
 <td><p>QUEST_FLAGS_DISPLAY_ITEM_IN_TRACKER</p></td>
 <td><p>Displays usable item in quest tracker</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>262144</p></td>
 <td><p>QUEST_FLAGS_OBJ_TEXT</p></td>
 <td><p>Use Objective text as Complete text</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>524288</p></td>
 <td><p>QUEST_FLAGS_AUTO_ACCEPT</p></td>
 <td><p>The client recognizes this flag as auto-accept. However, NONE of the current quests (3.3.5a) have this flag. Maybe blizz used to use it, or will use it in the future.</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td>1048576</td>
 <td>QUEST_FLAGS_PLAYER_CAST_ON_ACCEPT</td>
 <td>Quests with this flag player submit automatically by special button in player GUI</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>2097152</td>
 <td> QUEST_FLAGS_PLAYER_CAST_ON_COMPLETE</td>
 <td>Automatically suggestion of accepting quest. Not from npc.</td>
 </tr>
-<tr class="even">
+<tr>
 <td>4194304</td>
 <td>QUEST_FLAGS_UPDATE_PHASE_SHIFT</td>
 <td><br />
 </td>
 </tr>
-<tr class="odd">
+<tr>
 <td>8388608</td>
 <td>QUEST_FLAGS_SOR_WHITELIST</td>
 <td><br />
 </td>
 </tr>
-<tr class="even">
+<tr>
 <td>16777216</td>
 <td>QUEST_FLAGS_LAUNCH_GOSSIP_COMPLETE</td>
 <td><br />
 </td>
 </tr>
-<tr class="odd">
+<tr>
 <td>54432</td>
 <td>QUEST_FLAGS_REMOVE_EXTRA_GET_ITEMS</td>
 <td><br />
 </td>
 </tr>
-<tr class="even">
+<tr>
 <td>67108864</td>
 <td>QUEST_FLAGS_HIDE_UNTIL_DISCOVERED</td>
 <td><br />
 </td>
 </tr>
-<tr class="odd">
+<tr>
 <td>134217728</td>
 <td>QUEST_FLAGS_PORTRAIT_IN_QUEST_LOG</td>
 <td><br />
 </td>
 </tr>
-<tr class="even">
+<tr>
 <td>268435456</td>
 <td>QUEST_FLAGS_SHOW_ITEM_WHEN_COMPLETED</td>
 <td><br />
 </td>
 </tr>
-<tr class="odd">
+<tr>
 <td>536870912</td>
 <td>QUEST_FLAGS_LAUNCH_GOSSIP_ACCEPT</td>
 <td><br />
 </td>
 </tr>
-<tr class="even">
+<tr>
 <td>1073741824</td>
 <td>QUEST_FLAGS_ITEMS_GLOW_WHEN_DONE</td>
 <td><br />
 </td>
 </tr>
-<tr class="odd">
+<tr>
 <td>2147483648</td>
 <td>QUEST_FLAGS_FAIL_ON_LOGOUT</td>
 <td><br />

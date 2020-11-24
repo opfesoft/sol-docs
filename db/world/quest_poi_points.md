@@ -8,7 +8,7 @@ Comes from sniffs. Visually speaking, this table is used to identify the X and Y
 
 <table>
 <tbody>
-<tr class="even">
+<tr>
 <td><p><strong>Field</strong></p></td>
 <td><p><strong>Type</strong></p></td>
 <td><p><strong>Attributes</strong></p></td>
@@ -18,7 +18,7 @@ Comes from sniffs. Visually speaking, this table is used to identify the X and Y
 <td><p><strong>Extra</strong></p></td>
 <td><p><strong>Comment</strong></p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#questid">questid</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unasigned</p></td>
@@ -28,7 +28,7 @@ Comes from sniffs. Visually speaking, this table is used to identify the X and Y
 <td><p></p></td>
 <td><p></p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#idx1">idx1</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unasigned</p></td>
@@ -38,7 +38,7 @@ Comes from sniffs. Visually speaking, this table is used to identify the X and Y
 <td><p></p></td>
 <td><p></p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#idx2">idx2</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unasigned</p></td>
@@ -48,7 +48,7 @@ Comes from sniffs. Visually speaking, this table is used to identify the X and Y
 <td><p></p></td>
 <td><p></p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#x">x</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unasigned</p></td>
@@ -58,7 +58,7 @@ Comes from sniffs. Visually speaking, this table is used to identify the X and Y
 <td><p></p></td>
 <td><p></p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#y">y</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unasigned</p></td>
@@ -68,7 +68,7 @@ Comes from sniffs. Visually speaking, this table is used to identify the X and Y
 <td><p></p></td>
 <td><p></p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#verifiedbuild">VerifiedBuild</a></p></td>
 <td><p>smallint</p></td>
 <td><p>unasigned</p></td>
@@ -99,7 +99,7 @@ Example quest: Secreat Communication.
 
 <table>
 <tbody>
-<tr class="even">
+<tr>
 <td><p><strong>QuestID</strong></p></td>
 <td><p><strong>idx1</strong></p></td>
 <td><p><strong>idx2</strong></p></td>
@@ -107,7 +107,7 @@ Example quest: Secreat Communication.
 <td><p><strong>y</strong></p></td>
 <td><p><strong>VerifiedBuild</strong></p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>8318</p></td>
 <td><p>3</p></td>
 <td><p>0</p></td>
@@ -115,7 +115,7 @@ Example quest: Secreat Communication.
 <td><p>-51</p></td>
 <td><p>0</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>8318</p></td>
 <td><p>3</p></td>
 <td><p>1</p></td>
@@ -123,7 +123,7 @@ Example quest: Secreat Communication.
 <td><p>-19</p></td>
 <td><p>0</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>8318</p></td>
 <td><p>3</p></td>
 <td><p>2</p></td>
@@ -131,7 +131,7 @@ Example quest: Secreat Communication.
 <td><p>-52</p></td>
 <td><p>0</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>8318</p></td>
 <td><p>3</p></td>
 <td><p>3</p></td>
@@ -139,7 +139,7 @@ Example quest: Secreat Communication.
 <td><p>-282</p></td>
 <td><p>0</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>8318</p></td>
 <td><p>3</p></td>
 <td><p>4</p></td>
@@ -147,7 +147,7 @@ Example quest: Secreat Communication.
 <td><p>-282</p></td>
 <td><p>0</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>8318</p></td>
 <td><p>3</p></td>
 <td><p>5</p></td>
@@ -155,7 +155,7 @@ Example quest: Secreat Communication.
 <td><p>-250</p></td>
 <td><p>0</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>8318</p></td>
 <td><p>3</p></td>
 <td><p>6</p></td>
@@ -163,7 +163,7 @@ Example quest: Secreat Communication.
 <td><p>-217</p></td>
 <td><p>0</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>8318</p></td>
 <td><p>3</p></td>
 <td><p>7</p></td>

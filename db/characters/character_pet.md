@@ -18,7 +18,7 @@ This table holds the pet data for each pet summoned by anyone in the game.
 <col width="12%" />
 </colgroup>
 <tbody>
-<tr class="odd">
+<tr>
 <td><p><strong>Field</strong></p></td>
 <td><p><strong>Type</strong></p></td>
 <td><p><strong>Attributes</strong></p></td>
@@ -28,7 +28,7 @@ This table holds the pet data for each pet summoned by anyone in the game.
 <td><p><strong>Extra</strong></p></td>
 <td><p><strong>Comment</strong></p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#id">id</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
@@ -38,7 +38,7 @@ This table holds the pet data for each pet summoned by anyone in the game.
 <td><p> </p></td>
 <td><p> </p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#entry">entry</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
@@ -48,7 +48,7 @@ This table holds the pet data for each pet summoned by anyone in the game.
 <td><p> </p></td>
 <td><p> </p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#owner">owner</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
@@ -58,7 +58,7 @@ This table holds the pet data for each pet summoned by anyone in the game.
 <td><p> </p></td>
 <td><p> </p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#modelid">modelid</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
@@ -68,7 +68,7 @@ This table holds the pet data for each pet summoned by anyone in the game.
 <td><p> </p></td>
 <td><p> </p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#createdbyspell">CreatedBySpell</a></p></td>
 <td><p>mediumint(8)</p></td>
 <td><p>unsigned</p></td>
@@ -78,7 +78,7 @@ This table holds the pet data for each pet summoned by anyone in the game.
 <td><p> </p></td>
 <td><p> </p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#pettype">PetType</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
@@ -88,7 +88,7 @@ This table holds the pet data for each pet summoned by anyone in the game.
 <td><p> </p></td>
 <td><p> </p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#level">level</a></p></td>
 <td><p>smallint(5)</p></td>
 <td><p>unsigned</p></td>
@@ -98,7 +98,7 @@ This table holds the pet data for each pet summoned by anyone in the game.
 <td><p> </p></td>
 <td><p> </p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#exp">exp</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
@@ -108,7 +108,7 @@ This table holds the pet data for each pet summoned by anyone in the game.
 <td><p> </p></td>
 <td><p> </p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#reactstate">Reactstate</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
@@ -118,7 +118,7 @@ This table holds the pet data for each pet summoned by anyone in the game.
 <td><p> </p></td>
 <td><p> </p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#name">name</a></p></td>
 <td><p>varchar(21)</p></td>
 <td><p>signed</p></td>
@@ -128,7 +128,7 @@ This table holds the pet data for each pet summoned by anyone in the game.
 <td><p> </p></td>
 <td><p> </p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#renamed">renamed</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
@@ -138,7 +138,7 @@ This table holds the pet data for each pet summoned by anyone in the game.
 <td><p> </p></td>
 <td><p> </p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#slot">slot</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
@@ -148,7 +148,7 @@ This table holds the pet data for each pet summoned by anyone in the game.
 <td><p> </p></td>
 <td><p> </p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#curhealth">curhealth</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
@@ -158,7 +158,7 @@ This table holds the pet data for each pet summoned by anyone in the game.
 <td><p> </p></td>
 <td><p> </p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#curmana">curmana</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
@@ -168,7 +168,7 @@ This table holds the pet data for each pet summoned by anyone in the game.
 <td><p> </p></td>
 <td><p> </p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#curhappiness">curhappiness</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
@@ -178,7 +178,7 @@ This table holds the pet data for each pet summoned by anyone in the game.
 <td><p> </p></td>
 <td><p> </p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#savetime">savetime</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
@@ -188,7 +188,7 @@ This table holds the pet data for each pet summoned by anyone in the game.
 <td><p> </p></td>
 <td><p> </p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#resettalents_cost">resettalents_cost</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
@@ -198,7 +198,7 @@ This table holds the pet data for each pet summoned by anyone in the game.
 <td><p> </p></td>
 <td><p> </p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#resettalents_time">resettalents_time</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
@@ -208,7 +208,7 @@ This table holds the pet data for each pet summoned by anyone in the game.
 <td><p> </p></td>
 <td><p> </p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#abdata">abdata</a></p></td>
 <td><p>text</p></td>
 <td><p>signed</p></td>

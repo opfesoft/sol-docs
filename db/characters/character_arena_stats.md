@@ -18,7 +18,7 @@ This table holds information about character's matchmaker rating in all team typ
 <col width="12%" />
 </colgroup>
 <tbody>
-<tr class="odd">
+<tr>
 <td><p><strong>Field</strong></p></td>
 <td><p><strong>Type</strong></p></td>
 <td><p><strong>Attributes</strong></p></td>
@@ -28,7 +28,7 @@ This table holds information about character's matchmaker rating in all team typ
 <td><p><strong>Extra</strong></p></td>
 <td><p><strong>Comment</strong></p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#guid">guid</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>signed</p></td>
@@ -38,7 +38,7 @@ This table holds information about character's matchmaker rating in all team typ
 <td><p> </p></td>
 <td><p> </p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#slot">slot</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>signed</p></td>
@@ -48,7 +48,7 @@ This table holds information about character's matchmaker rating in all team typ
 <td><p> </p></td>
 <td><p> </p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#matchmakerrating">matchmakerRating</a></p></td>
 <td><p>smallint(5)</p></td>
 <td><p>signed</p></td>

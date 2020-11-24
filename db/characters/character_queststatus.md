@@ -8,7 +8,7 @@ Holds information on the quest status of each character.
 
 <table>
 <tbody>
-<tr class="odd">
+<tr>
 <td><p><strong>Field</strong></p></td>
 <td><p><strong>Type</strong></p></td>
 <td><p><strong>Attributes</strong></p></td>
@@ -18,7 +18,7 @@ Holds information on the quest status of each character.
 <td><p><strong>Extra</strong></p></td>
 <td><p><strong>Comment</strong></p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#guid">guid</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
@@ -29,7 +29,7 @@ Holds information on the quest status of each character.
 </p></td>
 <td><p>Global Unique Identifier</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#quest">quest</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
@@ -40,7 +40,7 @@ Holds information on the quest status of each character.
 </p></td>
 <td><p>Quest Identifier</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#status">status</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
@@ -53,7 +53,7 @@ Holds information on the quest status of each character.
 <td><p><br />
 </p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#explored">explored</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
@@ -66,7 +66,7 @@ Holds information on the quest status of each character.
 <td><p><br />
 </p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#timer">timer</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
@@ -79,7 +79,7 @@ Holds information on the quest status of each character.
 <td><p><br />
 </p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#mobcount">mobcount1</a></p></td>
 <td><p>smallint(5)</p></td>
 <td><p>unsigned</p></td>
@@ -92,7 +92,7 @@ Holds information on the quest status of each character.
 <td><p><br />
 </p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#mobcount">mobcount2</a></p></td>
 <td><p>smallint(5)</p></td>
 <td><p>unsigned</p></td>
@@ -105,7 +105,7 @@ Holds information on the quest status of each character.
 <td><p><br />
 </p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#mobcount">mobcount3</a></p></td>
 <td><p>smallint(5)</p></td>
 <td><p>unsigned</p></td>
@@ -118,7 +118,7 @@ Holds information on the quest status of each character.
 <td><p><br />
 </p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#mobcount">mobcount4</a></p></td>
 <td><p>smallint(5)</p></td>
 <td><p>unsigned</p></td>
@@ -131,7 +131,7 @@ Holds information on the quest status of each character.
 <td><p><br />
 </p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#itemcount">itemcount1</a></p></td>
 <td><p>smallint(5)</p></td>
 <td><p>unsigned</p></td>
@@ -144,7 +144,7 @@ Holds information on the quest status of each character.
 <td><p><br />
 </p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#itemcount">itemcount2</a></p></td>
 <td><p>smallint(5)</p></td>
 <td><p>unsigned</p></td>
@@ -157,7 +157,7 @@ Holds information on the quest status of each character.
 <td><p><br />
 </p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#itemcount">itemcount3</a></p></td>
 <td><p>smallint(5)</p></td>
 <td><p>unsigned</p></td>
@@ -170,7 +170,7 @@ Holds information on the quest status of each character.
 <td><p><br />
 </p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#itemcount">itemcount4</a></p></td>
 <td><p>smallint(5)</p></td>
 <td><p>unsigned</p></td>
@@ -183,7 +183,7 @@ Holds information on the quest status of each character.
 <td><p><br />
 </p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td>itemcount5</td>
 <td>smallint(5)</td>
 <td>unsigned</td>
@@ -196,7 +196,7 @@ Holds information on the quest status of each character.
 <td><br />
 </td>
 </tr>
-<tr class="even">
+<tr>
 <td>itemcount6</td>
 <td>smallint(5)</td>
 <td>unsigned</td>
@@ -209,7 +209,7 @@ Holds information on the quest status of each character.
 <td><br />
 </td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#playercount">playercount</a></p></td>
 <td><p>smallint(5)</p></td>
 <td><p>unsigned</p></td>

@@ -19,7 +19,7 @@ This table lists all of the accounts that have been banned along with the date w
 <col width="12%" />
 </colgroup>
 <tbody>
-<tr class="odd">
+<tr>
 <td><p><strong>Field</strong></p></td>
 <td><p><strong>Type</strong></p></td>
 <td><p><strong>Attributes</strong></p></td>
@@ -29,7 +29,7 @@ This table lists all of the accounts that have been banned along with the date w
 <td><p><strong>Extra</strong></p></td>
 <td><p><strong>Comment</strong></p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#id">id</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
@@ -39,7 +39,7 @@ This table lists all of the accounts that have been banned along with the date w
 <td><p> </p></td>
 <td><p>Account id</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#bandate">bandate</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>signed</p></td>
@@ -49,7 +49,7 @@ This table lists all of the accounts that have been banned along with the date w
 <td><p> </p></td>
 <td><p> </p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#unbandate">unbandate</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
@@ -59,7 +59,7 @@ This table lists all of the accounts that have been banned along with the date w
 <td><p> </p></td>
 <td><p> </p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#bannedby">bannedby</a></p></td>
 <td><p>varchar(50)</p></td>
 <td><p>signed</p></td>
@@ -69,7 +69,7 @@ This table lists all of the accounts that have been banned along with the date w
 <td><p> </p></td>
 <td><p> </p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#banreason">banreason</a></p></td>
 <td><p>varchar(255)</p></td>
 <td><p>signed</p></td>
@@ -79,7 +79,7 @@ This table lists all of the accounts that have been banned along with the date w
 <td><p> </p></td>
 <td><p> </p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#active">active</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>signed</p></td>

@@ -15,7 +15,7 @@ This table contains a list of teleport locations that can be used with the *.tel
 <col width="14%" />
 </colgroup>
 <tbody>
-<tr class="odd">
+<tr>
 <td><p><strong>Field</strong></p></td>
 <td><p><strong>Type</strong></p></td>
 <td><p><strong>Attributes</strong></p></td>
@@ -24,7 +24,7 @@ This table contains a list of teleport locations that can be used with the *.tel
 <td><p><strong>Default</strong></p></td>
 <td><p><strong>Extra</strong></p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#id">id</a></p></td>
 <td><p>mediumint(8)</p></td>
 <td><p>unsigned</p></td>
@@ -33,7 +33,7 @@ This table contains a list of teleport locations that can be used with the *.tel
 <td><p>NULL</p></td>
 <td><p>Auto increment</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#position_x">position_x</a></p></td>
 <td><p>float</p></td>
 <td><p>signed</p></td>
@@ -42,7 +42,7 @@ This table contains a list of teleport locations that can be used with the *.tel
 <td><p>0</p></td>
 <td><p> </p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#position_y">position_y</a></p></td>
 <td><p>float</p></td>
 <td><p>signed</p></td>
@@ -51,7 +51,7 @@ This table contains a list of teleport locations that can be used with the *.tel
 <td><p>0</p></td>
 <td><p> </p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#position_z">position_z</a></p></td>
 <td><p>float</p></td>
 <td><p>signed</p></td>
@@ -60,7 +60,7 @@ This table contains a list of teleport locations that can be used with the *.tel
 <td><p>0</p></td>
 <td><p> </p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#orientation">orientation</a></p></td>
 <td><p>float</p></td>
 <td><p>signed</p></td>
@@ -69,7 +69,7 @@ This table contains a list of teleport locations that can be used with the *.tel
 <td><p>0</p></td>
 <td><p> </p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#map">map</a></p></td>
 <td><p>smallint(5)</p></td>
 <td><p>unsigned</p></td>
@@ -78,7 +78,7 @@ This table contains a list of teleport locations that can be used with the *.tel
 <td><p>0</p></td>
 <td><p> </p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#name">name</a></p></td>
 <td><p>varchar(100)</p></td>
 <td><p>signed</p></td>

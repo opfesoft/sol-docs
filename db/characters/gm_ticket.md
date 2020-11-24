@@ -8,7 +8,7 @@ This table stores all tickets
 
 <table>
 <tbody>
-<tr class="odd">
+<tr>
 <td><p><strong>Field</strong></p></td>
 <td><p><strong>Type</strong></p></td>
 <td><p><strong>Attributes</strong></p></td>
@@ -18,7 +18,7 @@ This table stores all tickets
 <td><p><strong>Extra</strong></p></td>
 <td><p><strong>Comment</strong></p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#id">Id</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
@@ -30,7 +30,7 @@ This table stores all tickets
 <td><p><br />
 </p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#type">type</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
@@ -42,7 +42,7 @@ This table stores all tickets
 </p></td>
 <td><p>0 open, 1 closed, 2 character deleted</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#playerguid">playerGuid</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
@@ -54,7 +54,7 @@ This table stores all tickets
 </p></td>
 <td><p>Global Unique Identifier of ticket creator</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#name">name</a></p></td>
 <td><p>varchar(12)</p></td>
 <td><p><br />
@@ -67,7 +67,7 @@ This table stores all tickets
 </p></td>
 <td><p>Name of ticket creator</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#description">description</a></p></td>
 <td><p>text</p></td>
 <td><p><br />
@@ -82,7 +82,7 @@ This table stores all tickets
 <td><p><br />
 </p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#createtime">createtime</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
@@ -95,7 +95,7 @@ This table stores all tickets
 <td><br />
 </td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#mapid">mapId</a></p></td>
 <td><p>smallint(5)</p></td>
 <td><p>unsigned</p></td>
@@ -122,7 +122,7 @@ This table stores all tickets
 <td><br />
 </td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#posy">posY</a></p></td>
 <td><p>float</p></td>
 <td><p><br />
@@ -136,7 +136,7 @@ This table stores all tickets
 <td><br />
 </td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#posz">posZ</a></p></td>
 <td><p>float</p></td>
 <td><p><br />
@@ -150,7 +150,7 @@ This table stores all tickets
 <td><br />
 </td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#lastmodifiedtime">lastModifiedTime</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
@@ -163,7 +163,7 @@ This table stores all tickets
 <td><br />
 </td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#closedby">closedBy</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
@@ -176,7 +176,7 @@ This table stores all tickets
 <td><br />
 </td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#assignedto">assignedTo</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
@@ -188,7 +188,7 @@ This table stores all tickets
 </td>
 <td><p>GUID of admin to whom ticket is assigned</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#comment">comment</a></p></td>
 <td><p>text</p></td>
 <td><p><br />
@@ -203,7 +203,7 @@ This table stores all tickets
 <td><br />
 </td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#response">response</a></p></td>
 <td><p>text</p></td>
 <td><p><br />
@@ -218,7 +218,7 @@ This table stores all tickets
 <td><br />
 </td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#completed">completed</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
@@ -231,7 +231,7 @@ This table stores all tickets
 <td><br />
 </td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#escalated">escalated</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
@@ -244,7 +244,7 @@ This table stores all tickets
 <td><br />
 </td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#viewed">viewed</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
@@ -257,7 +257,7 @@ This table stores all tickets
 <td><br />
 </td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#needmorehelp">needMoreHelp</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
@@ -270,7 +270,7 @@ This table stores all tickets
 <td><br />
 </td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#resolvedBy">resolvedBy</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>

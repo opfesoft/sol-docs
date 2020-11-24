@@ -18,7 +18,7 @@ Some examples:
 
 <table>
 <tbody>
-<tr class="odd">
+<tr>
 <td><p><strong>Field</strong></p></td>
 <td><p><strong>Type</strong></p></td>
 <td><p><strong>Attributes</strong></p></td>
@@ -28,7 +28,7 @@ Some examples:
 <td><p><strong>Extra</strong></p></td>
 <td><p><strong>Comment</strong></p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#spell">spell</a></p></td>
 <td><p>mediumint(8)</p></td>
 <td><p>unsigned</p></td>
@@ -40,7 +40,7 @@ Some examples:
 <td><p><br />
 </p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#area">area</a></p></td>
 <td><p>mediumint(8)</p></td>
 <td><p>unsigned</p></td>
@@ -52,7 +52,7 @@ Some examples:
 <td><p><br />
 </p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#quest_start">quest_start</a></p></td>
 <td><p>mediumint(8)</p></td>
 <td><p>unsigned</p></td>
@@ -64,7 +64,7 @@ Some examples:
 <td><p><br />
 </p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#quest_end">quest_end</a></p></td>
 <td><p>mediumint(8)</p></td>
 <td><p>unsigned</p></td>
@@ -77,7 +77,7 @@ Some examples:
 <td><p><br />
 </p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#aura_spell">aura_spell</a></p></td>
 <td><p>mediumint(8)</p></td>
 <td><p>signed</p></td>
@@ -89,7 +89,7 @@ Some examples:
 <td><p><br />
 </p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#racemask">racemask</a></p></td>
 <td><p>mediumint(8)</p></td>
 <td><p>unsigned</p></td>
@@ -101,7 +101,7 @@ Some examples:
 <td><p><br />
 </p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#gender">gender</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
@@ -113,7 +113,7 @@ Some examples:
 <td><p><br />
 </p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#flags">flags</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
@@ -126,7 +126,7 @@ Some examples:
 <td><p><br />
 </p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#quest_start_status-quest_end_status">quest_start_status</a></p></td>
 <td><p>int(11)</p></td>
 <td><p>unsigned</p></td>
@@ -139,7 +139,7 @@ Some examples:
 <td><p><br />
 </p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#quest_start_status-quest_end_status">quest_end_status</a></p></td>
 <td><p>int(11)</p></td>
 <td><p>unsigned</p></td>

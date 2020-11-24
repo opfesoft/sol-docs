@@ -18,7 +18,7 @@ This table holds information about when using certain profession spells, you hav
 <col width="12%" />
 </colgroup>
 <tbody>
-<tr class="odd">
+<tr>
 <td><p><strong>Field</strong></p></td>
 <td><p><strong>Type</strong></p></td>
 <td><p><strong>Attributes</strong></p></td>
@@ -28,7 +28,7 @@ This table holds information about when using certain profession spells, you hav
 <td><p><strong>Extra</strong></p></td>
 <td><p><strong>Comment</strong></p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#spellid">spellId</a></p></td>
 <td><p>mediumint(8)</p></td>
 <td><p>unsigned</p></td>
@@ -38,7 +38,7 @@ This table holds information about when using certain profession spells, you hav
 <td><p> </p></td>
 <td><p>SpellId of the item creation spell</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#requiredspecialization">requiredSpecialization</a></p></td>
 <td><p>mediumint(8)</p></td>
 <td><p>unsigned</p></td>
@@ -48,7 +48,7 @@ This table holds information about when using certain profession spells, you hav
 <td><p> </p></td>
 <td><p>Specialization spell id</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#additionalcreatechance">additionalCreateChance</a></p></td>
 <td><p>float</p></td>
 <td><p>signed</p></td>
@@ -58,7 +58,7 @@ This table holds information about when using certain profession spells, you hav
 <td><p> </p></td>
 <td><p>chance to create add</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#additionalmaxnum">additionalMaxNum</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>

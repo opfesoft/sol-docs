@@ -18,7 +18,7 @@ Allows for an area trigger to be scripted with a core or SAI script.
 <col width="12%" />
 </colgroup>
 <tbody>
-<tr class="odd">
+<tr>
 <td><p><strong>Field</strong></p></td>
 <td><p><strong>Type</strong></p></td>
 <td><p><strong>Attributes</strong></p></td>
@@ -28,7 +28,7 @@ Allows for an area trigger to be scripted with a core or SAI script.
 <td><p><strong>Extra</strong></p></td>
 <td><p><strong>Comment</strong></p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#entry">entry</a></p></td>
 <td><p>mediumint(8)</p></td>
 <td><p>signed</p></td>
@@ -38,7 +38,7 @@ Allows for an area trigger to be scripted with a core or SAI script.
 <td><p> </p></td>
 <td><p> </p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#scriptname">ScriptName</a></p></td>
 <td><p>char(64)</p></td>
 <td><p>signed</p></td>

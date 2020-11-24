@@ -18,7 +18,7 @@ This table holds the individual object data on each spawned game object in the w
 <col width="12%" />
 </colgroup>
 <tbody>
-<tr class="odd">
+<tr>
 <td><p><strong>Field</strong></p></td>
 <td><p><strong>Type</strong></p></td>
 <td><p><strong>Attributes</strong></p></td>
@@ -28,7 +28,7 @@ This table holds the individual object data on each spawned game object in the w
 <td><p><strong>Extra</strong></p></td>
 <td><p><strong>Comment</strong></p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#guid">guid</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
@@ -38,7 +38,7 @@ This table holds the individual object data on each spawned game object in the w
 <td><p>Auto increment</p></td>
 <td><p>Global Unique Identifier</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#id">id</a></p></td>
 <td><p>mediumint(8)</p></td>
 <td><p>unsigned</p></td>
@@ -48,7 +48,7 @@ This table holds the individual object data on each spawned game object in the w
 <td><p> </p></td>
 <td><p>Gameobject Identifier</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#map">map</a></p></td>
 <td><p>smallint(5)</p></td>
 <td><p>unsigned</p></td>
@@ -58,7 +58,7 @@ This table holds the individual object data on each spawned game object in the w
 <td><p> </p></td>
 <td><p>Map Identifier</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#spawnmask">spawnMask</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
@@ -68,7 +68,7 @@ This table holds the individual object data on each spawned game object in the w
 <td><p> </p></td>
 <td><p> </p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#phasemask">phaseMask</a></p></td>
 <td><p>smallint(5)</p></td>
 <td><p>unsigned</p></td>
@@ -78,7 +78,7 @@ This table holds the individual object data on each spawned game object in the w
 <td><p> </p></td>
 <td><p> </p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#position_x">position_x</a></p></td>
 <td><p>float</p></td>
 <td><p>signed</p></td>
@@ -88,7 +88,7 @@ This table holds the individual object data on each spawned game object in the w
 <td><p> </p></td>
 <td><p> </p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#position_y">position_y</a></p></td>
 <td><p>float</p></td>
 <td><p>signed</p></td>
@@ -98,7 +98,7 @@ This table holds the individual object data on each spawned game object in the w
 <td><p> </p></td>
 <td><p> </p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#position_z">position_z</a></p></td>
 <td><p>float</p></td>
 <td><p>signed</p></td>
@@ -108,7 +108,7 @@ This table holds the individual object data on each spawned game object in the w
 <td><p> </p></td>
 <td><p> </p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#orientation">orientation</a></p></td>
 <td><p>float</p></td>
 <td><p>signed</p></td>
@@ -118,7 +118,7 @@ This table holds the individual object data on each spawned game object in the w
 <td><p> </p></td>
 <td><p> </p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#rotation0">rotation0</a></p></td>
 <td><p>float</p></td>
 <td><p>signed</p></td>
@@ -128,7 +128,7 @@ This table holds the individual object data on each spawned game object in the w
 <td><p> </p></td>
 <td><p> </p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#rotation1">rotation1</a></p></td>
 <td><p>float</p></td>
 <td><p>signed</p></td>
@@ -138,7 +138,7 @@ This table holds the individual object data on each spawned game object in the w
 <td><p> </p></td>
 <td><p> </p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#rotation2">rotation2</a></p></td>
 <td><p>float</p></td>
 <td><p>signed</p></td>
@@ -148,7 +148,7 @@ This table holds the individual object data on each spawned game object in the w
 <td><p> </p></td>
 <td><p> </p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#rotation3">rotation3</a></p></td>
 <td><p>float</p></td>
 <td><p>signed</p></td>
@@ -158,7 +158,7 @@ This table holds the individual object data on each spawned game object in the w
 <td><p> </p></td>
 <td><p> </p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#spawntimesecs">spawntimesecs</a></p></td>
 <td><p>int(11)</p></td>
 <td><p>signed</p></td>
@@ -168,7 +168,7 @@ This table holds the individual object data on each spawned game object in the w
 <td><p> </p></td>
 <td><p> </p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#animprogress">animprogress</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
@@ -178,7 +178,7 @@ This table holds the individual object data on each spawned game object in the w
 <td><p> </p></td>
 <td><p> </p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#state">state</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
@@ -223,27 +223,27 @@ Just like flags you can add them as you wish so 3 would be: Spawned in 10/25 man
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td><p>0</p></td>
 <td><p>Not spawned</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>1</p></td>
 <td><p>Spawned only in 10-man-normal versions of maps (includes maps without a heroic mode)</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>2</p></td>
 <td><p>Spawned only in 25-man-normal versions of maps (or heroics pre 3.2)</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>4</p></td>
 <td><p>Spawned only in 10-man heroic versions of maps</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>8</p></td>
 <td><p>Spawned only in 25-man-heroic versions of maps</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>15</p></td>
 <td><p>Spawned in all versions of maps</p></td>
 </tr>

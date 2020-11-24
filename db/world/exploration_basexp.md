@@ -4,7 +4,7 @@
 
 <table>
 <tbody>
-<tr class="even">
+<tr>
 <td><p><strong>Field</strong></p></td>
 <td><p><strong>Type</strong></p></td>
 <td><p><strong>Attributes</strong></p></td>
@@ -12,7 +12,7 @@
 <td><p><strong>Null</strong></p></td>
 <td><p><strong>Default</strong></p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#level">level</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unasigned</p></td>
@@ -20,7 +20,7 @@
 <td><p>NO</p></td>
 <td><p>0</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#basexp">basexp</a></p></td>
 <td><p>mediumint(8)</p></td>
 <td><p>signed</p></td>

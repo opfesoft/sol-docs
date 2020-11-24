@@ -18,7 +18,7 @@ This table is used for displaying gossip when a player talks to an NPC with [np
 <col width="12%" />
 </colgroup>
 <tbody>
-<tr class="odd">
+<tr>
 <td><p><strong>Field</strong></p></td>
 <td><p><strong>Type</strong></p></td>
 <td><p><strong>Attributes</strong></p></td>
@@ -28,7 +28,7 @@ This table is used for displaying gossip when a player talks to an NPC with [np
 <td><p><strong>Extra</strong></p></td>
 <td><p><strong>Comment</strong></p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#menuid">MenuID</a></p></td>
 <td><p>smallint(6)</p></td>
 <td><p>unsigned</p></td>
@@ -40,7 +40,7 @@ This table is used for displaying gossip when a player talks to an NPC with [np
 <td><p><br />
 </p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#textid">TextID</a></p></td>
 <td><p>mediumint(8)</p></td>
 <td><p>unsigned</p></td>

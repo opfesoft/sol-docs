@@ -18,7 +18,7 @@ This table contains conditions to meet for the specified game event to be comple
 <col width="12%" />
 </colgroup>
 <tbody>
-<tr class="odd">
+<tr>
 <td><p><strong>Field</strong></p></td>
 <td><p><strong>Type</strong></p></td>
 <td><p><strong>Attributes</strong></p></td>
@@ -28,7 +28,7 @@ This table contains conditions to meet for the specified game event to be comple
 <td><p><strong>Extra</strong></p></td>
 <td><p><strong>Comment</strong></p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#evententry">eventEntry</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
@@ -38,7 +38,7 @@ This table contains conditions to meet for the specified game event to be comple
 <td><p> </p></td>
 <td><p>Entry of the game event</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#condition_id">condition_id</a></p></td>
 <td><p>mediumint(8)</p></td>
 <td><p>unsigned</p></td>
@@ -48,7 +48,7 @@ This table contains conditions to meet for the specified game event to be comple
 <td><p> </p></td>
 <td><p> </p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#req_num">req_num</a></p></td>
 <td><p>float</p></td>
 <td><p>signed</p></td>
@@ -58,7 +58,7 @@ This table contains conditions to meet for the specified game event to be comple
 <td><p> </p></td>
 <td><p> </p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#max_world_state_field">max_world_state_field</a></p></td>
 <td><p>smallint(5)</p></td>
 <td><p>unsigned</p></td>
@@ -68,7 +68,7 @@ This table contains conditions to meet for the specified game event to be comple
 <td><p> </p></td>
 <td><p> </p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#done_world_state_field">done_world_state_field</a></p></td>
 <td><p>smallint(5)</p></td>
 <td><p>unsigned</p></td>
@@ -78,7 +78,7 @@ This table contains conditions to meet for the specified game event to be comple
 <td><p> </p></td>
 <td><p> </p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#description">description</a></p></td>
 <td><p>varchar(25)</p></td>
 <td><p>signed</p></td>

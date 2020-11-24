@@ -16,7 +16,7 @@ This table provides data for spell linking system, telling it which spells trigg
 <col width="12%" />
 </colgroup>
 <tbody>
-<tr class="odd">
+<tr>
 <td><p><strong>Field</strong></p></td>
 <td><p><strong>Type</strong></p></td>
 <td><p><strong>Attributes</strong></p></td>
@@ -26,7 +26,7 @@ This table provides data for spell linking system, telling it which spells trigg
 <td><p><strong>Extra</strong></p></td>
 <td><p><strong>Comment</strong></p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#spell_trigger">spell_trigger</a></p></td>
 <td><p>mediumint(8)</p></td>
 <td><p>signed</p></td>
@@ -36,7 +36,7 @@ This table provides data for spell linking system, telling it which spells trigg
 <td><p> </p></td>
 <td><p> </p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#spell_effect">spell_effect</a></p></td>
 <td><p>mediumint(8)</p></td>
 <td><p>signed</p></td>
@@ -46,7 +46,7 @@ This table provides data for spell linking system, telling it which spells trigg
 <td><p> </p></td>
 <td><p> </p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#type">type</a></p></td>
 <td><p>smallint(3)</p></td>
 <td><p>unsigned</p></td>
@@ -56,7 +56,7 @@ This table provides data for spell linking system, telling it which spells trigg
 <td><p> </p></td>
 <td><p> </p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#comment">comment</a></p></td>
 <td><p>text</p></td>
 <td><p>signed</p></td>

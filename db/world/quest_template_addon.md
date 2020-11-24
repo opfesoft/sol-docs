@@ -21,7 +21,7 @@ Contains extra definitions like linking quests, dependencies and requirements fo
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td><a href="#id">ID</a></td>
 <td>mediumint(8)</td>
 <td>unsigned</td>
@@ -33,7 +33,7 @@ Contains extra definitions like linking quests, dependencies and requirements fo
 <td><td><a href="quest_template.md#id">Unique ID linked to quest_template.ID</a></td>
 Unique ID linked to quest_template.ID</td>
 </tr>
-<tr class="even">
+<tr>
 <td><a href="#maxlevel">MaxLevel</a></td>
 <td>tinyint(3)</td>
 <td>unsigned</td>
@@ -46,7 +46,7 @@ Unique ID linked to quest_template.ID</td>
 <td><br />
 </td>
 </tr>
-<tr class="odd">
+<tr>
 <td><a href="#allowableclasses">AllowableClasses</a></td>
 <td>int(10)</td>
 <td>unsigned</td>
@@ -59,7 +59,7 @@ Unique ID linked to quest_template.ID</td>
 <td><br />
 </td>
 </tr>
-<tr class="even">
+<tr>
 <td><a href="#sourcespellid">SourceSpellID</a></td>
 <td>mediumint(8)</td>
 <td>unsigned</td>
@@ -72,7 +72,7 @@ Unique ID linked to quest_template.ID</td>
 <td><br />
 </td>
 </tr>
-<tr class="odd">
+<tr>
 <td><a href="#prevquestid">PrevQuestID</a></td>
 <td>mediumint(8)</td>
 <td><br />
@@ -86,7 +86,7 @@ Unique ID linked to quest_template.ID</td>
 <td><br />
 </td>
 </tr>
-<tr class="even">
+<tr>
 <td><a href="#nextquestid">NextQuestID</a></td>
 <td>mediumint(8)</td>
 <td><br />
@@ -100,7 +100,7 @@ Unique ID linked to quest_template.ID</td>
 <td><br />
 </td>
 </tr>
-<tr class="odd">
+<tr>
 <td><a href="#exclusivegroup">ExclusiveGroup</a></td>
 <td>mediumint(8)</td>
 <td><br />
@@ -114,7 +114,7 @@ Unique ID linked to quest_template.ID</td>
 <td><br />
 </td>
 </tr>
-<tr class="even">
+<tr>
 <td><a href="#rewardmailtemplateid">RewardMailTemplateID</a></td>
 <td>mediumint(8)</td>
 <td>unsigned</td>
@@ -127,7 +127,7 @@ Unique ID linked to quest_template.ID</td>
 <td><br />
 </td>
 </tr>
-<tr class="odd">
+<tr>
 <td><a href="#rewardmaildelay">RewardMailDelay</a></td>
 <td>int(10)</td>
 <td>unsigned</td>
@@ -140,7 +140,7 @@ Unique ID linked to quest_template.ID</td>
 <td><br />
 </td>
 </tr>
-<tr class="even">
+<tr>
 <td><a href="#requiredskillid">RequiredSkillID</a></td>
 <td>smallint(5)</td>
 <td>unsigned</td>
@@ -153,7 +153,7 @@ Unique ID linked to quest_template.ID</td>
 <td><br />
 </td>
 </tr>
-<tr class="odd">
+<tr>
 <td><a href="#requiredskillpoints">RequiredSkillPoints</a></td>
 <td>smallint(5)</td>
 <td>unsigned</td>
@@ -166,7 +166,7 @@ Unique ID linked to quest_template.ID</td>
 <td><br />
 </td>
 </tr>
-<tr class="even">
+<tr>
 <td><a href="#requiredminrepfaction">RequiredMinRepFaction</a></td>
 <td>smallint(5)</td>
 <td>unsigned</td>
@@ -179,7 +179,7 @@ Unique ID linked to quest_template.ID</td>
 <td><br />
 </td>
 </tr>
-<tr class="odd">
+<tr>
 <td><a href="#requiredmaxrepfaction">RequiredMaxRepFaction</a></td>
 <td>smallint(5)</td>
 <td>unsigned</td>
@@ -192,7 +192,7 @@ Unique ID linked to quest_template.ID</td>
 <td><br />
 </td>
 </tr>
-<tr class="even">
+<tr>
 <td><a href="#requiredminrepvalue">RequiredMinRepValue</a></td>
 <td>mediumint(8)</td>
 <td><br />
@@ -206,7 +206,7 @@ Unique ID linked to quest_template.ID</td>
 <td><br />
 </td>
 </tr>
-<tr class="odd">
+<tr>
 <td><a href="#requiredmaxrepvalue">RequiredMaxRepValue</a></td>
 <td>mediumint(8)</td>
 <td><br />
@@ -220,7 +220,7 @@ Unique ID linked to quest_template.ID</td>
 <td><br />
 </td>
 </tr>
-<tr class="even">
+<tr>
 <td><a href="#provideditemcount">ProvidedItemCount</a></td>
 <td>tinyint(3)</td>
 <td>unsigned</td>
@@ -233,7 +233,7 @@ Unique ID linked to quest_template.ID</td>
 <td><br />
 </td>
 </tr>
-<tr class="odd">
+<tr>
 <td><a href="#specialflags">SpecialFlags</a></td>
 <td>tinyint(3)</td>
 <td>unsigned</td>

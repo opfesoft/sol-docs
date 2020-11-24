@@ -17,7 +17,7 @@ This table describes the reward that you will receive when you obtain a given ac
 <col width="14%" />
 </colgroup>
 <tbody>
-<tr class="odd">
+<tr>
 <td><p><strong>Field</strong></p></td>
 <td><p><strong>Type</strong></p></td>
 <td><p><strong>Attributes</strong></p></td>
@@ -26,7 +26,7 @@ This table describes the reward that you will receive when you obtain a given ac
 <td><p><strong>Default</strong></p></td>
 <td><p><strong>Extra</strong></p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#id">ID</a></p></td>
 <td><p>mediumint(8)</p></td>
 <td><p>unsigned</p></td>
@@ -35,7 +35,7 @@ This table describes the reward that you will receive when you obtain a given ac
 <td><p>0</p></td>
 <td><p> </p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#titlea">TitleA</a></p></td>
 <td><p>mediumint(8)</p></td>
 <td><p>unsigned</p></td>
@@ -44,7 +44,7 @@ This table describes the reward that you will receive when you obtain a given ac
 <td><p>0</p></td>
 <td><p> </p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#titleh">TitleH</a></p></td>
 <td><p>mediumint(8)</p></td>
 <td><p>unsigned</p></td>
@@ -53,7 +53,7 @@ This table describes the reward that you will receive when you obtain a given ac
 <td><p>0</p></td>
 <td><p> </p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#itemid">ItemID</a></p></td>
 <td><p>mediumint(8)</p></td>
 <td><p>unsigned</p></td>
@@ -62,7 +62,7 @@ This table describes the reward that you will receive when you obtain a given ac
 <td><p>0</p></td>
 <td><p> </p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#sender">Sender</a></p></td>
 <td><p>mediumint(8)</p></td>
 <td><p>unsigned</p></td>
@@ -71,7 +71,7 @@ This table describes the reward that you will receive when you obtain a given ac
 <td><p>0</p></td>
 <td><p> </p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#subject">Subject</a></p></td>
 <td><p>varchar(255)</p></td>
 <td><p>signed</p></td>
@@ -80,7 +80,7 @@ This table describes the reward that you will receive when you obtain a given ac
 <td><p>NULL</p></td>
 <td><p> </p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#body">Body</a></p></td>
 <td><p>text</p></td>
 <td><p>signed</p></td>
@@ -89,7 +89,7 @@ This table describes the reward that you will receive when you obtain a given ac
 <td><p> </p></td>
 <td><p> </p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><a href="#mailtemplateid">MailTemplateID</a></td>
 <td>mediumint(8)</td>
 <td>unsigned</td>

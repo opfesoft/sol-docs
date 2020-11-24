@@ -6,7 +6,7 @@ This table holds definitions for all game events that are activated or deactivat
 
 <table>
 <tbody>
-<tr class="odd">
+<tr>
 <td><p><strong>Field</strong></p></td>
 <td><p><strong>Type</strong></p></td>
 <td><p><strong>Attributes</strong></p></td>
@@ -16,7 +16,7 @@ This table holds definitions for all game events that are activated or deactivat
 <td><p><strong>Extra</strong></p></td>
 <td><p><strong>Comment</strong></p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#evententry">eventEntry</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
@@ -27,7 +27,7 @@ This table holds definitions for all game events that are activated or deactivat
 <td><p>Unique</p></td>
 <td><p>Entry of the game event</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#start_time">start_time</a></p></td>
 <td><p>timestamp</p></td>
 <td><p><br />
@@ -40,7 +40,7 @@ This table holds definitions for all game events that are activated or deactivat
 </p></td>
 <td><p>Absolute start date, the event will never start before</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#end_time">end_time</a></p></td>
 <td><p>timestamp</p></td>
 <td><p><br />
@@ -53,7 +53,7 @@ This table holds definitions for all game events that are activated or deactivat
 </p></td>
 <td><p>Absolute end date, the event will never start after; if NULL it will be implicitly set to 2 years in the future on each server start</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#occurrence">occurrence</a></p></td>
 <td><p>bigint(20)</p></td>
 <td><p>unsigned</p></td>
@@ -65,7 +65,7 @@ This table holds definitions for all game events that are activated or deactivat
 </p></td>
 <td><p>Delay in minutes between occurrences of the event</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#length">length</a></p></td>
 <td><p>bigint(20)</p></td>
 <td><p>unsigned</p></td>
@@ -77,7 +77,7 @@ This table holds definitions for all game events that are activated or deactivat
 </p></td>
 <td><p>Length in minutes of the event</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#holiday">holiday</a></p></td>
 <td><p>mediumint(8)</p></td>
 <td><p>unsigned</p></td>
@@ -89,7 +89,7 @@ This table holds definitions for all game events that are activated or deactivat
 </p></td>
 <td><p>Client side holiday id (from dbc)</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td>holidayStage</td>
 <td>tinyint(3)</td>
 <td>unsigned</td>
@@ -101,7 +101,7 @@ This table holds definitions for all game events that are activated or deactivat
 </td>
 <td>?</td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#description">description</a></p></td>
 <td><p>varchar(255)</p></td>
 <td><p>signed</p></td>
@@ -113,7 +113,7 @@ This table holds definitions for all game events that are activated or deactivat
 </p></td>
 <td><p>Description of the event displayed in console</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#world_event">world_event</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
@@ -125,7 +125,7 @@ This table holds definitions for all game events that are activated or deactivat
 </p></td>
 <td><p>0 if normal event, 1 if world event</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td>announce</td>
 <td>tinyint(3)</td>
 <td>unsigned</td>

@@ -8,7 +8,7 @@ This table contains trigger points for events in certain coordinates in the maps
 
 <table>
 <tbody>
-<tr class="odd">
+<tr>
 <td><p><strong>Field</strong></p></td>
 <td><p><strong>Type</strong></p></td>
 <td><p><strong>Attributes</strong></p></td>
@@ -18,7 +18,7 @@ This table contains trigger points for events in certain coordinates in the maps
 <td><p><strong>Extra</strong></p></td>
 <td><p><strong>Comment</strong></p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#entry">entry</a></p></td>
 <td><p>int (10)</p></td>
 <td><p>unsigned</p></td>
@@ -30,7 +30,7 @@ This table contains trigger points for events in certain coordinates in the maps
 <td><p><br />
 </p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#map">map</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
@@ -42,7 +42,7 @@ This table contains trigger points for events in certain coordinates in the maps
 <td><p><br />
 </p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#x">x</a></p></td>
 <td><p>FLOAT</p></td>
 <td><p></p></td>
@@ -55,7 +55,7 @@ This table contains trigger points for events in certain coordinates in the maps
 <td><p><br />
 </p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#y">y</a></p></td>
 <td><p>FLOAT</p></td>
 <td><p></p></td>
@@ -68,7 +68,7 @@ This table contains trigger points for events in certain coordinates in the maps
 <td><p><br />
 </p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><a href="#z">z</a></td>
 <td>FLOAT</td>
 <td></td>
@@ -81,7 +81,7 @@ This table contains trigger points for events in certain coordinates in the maps
 <td><br />
 </td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#radius">radius</a></p></td>
 <td><p>FLOAT</p></td>
 <td><p></p></td>
@@ -94,7 +94,7 @@ This table contains trigger points for events in certain coordinates in the maps
 <td><p><br />
 </p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#length">length</a></p></td>
 <td><p>FLOAT</p></td>
 <td><p></p></td>
@@ -107,7 +107,7 @@ This table contains trigger points for events in certain coordinates in the maps
 <td><p><br />
 </p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#width">width</a></p></td>
 <td><p>FLOAT</p></td>
 <td><p></p></td>
@@ -120,7 +120,7 @@ This table contains trigger points for events in certain coordinates in the maps
 <td><p><br />
 </p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#height">height</a></p></td>
 <td><p>FLOAT</p></td>
 <td><p></p></td>
@@ -133,7 +133,7 @@ This table contains trigger points for events in certain coordinates in the maps
 <td><p><br />
 </p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#orientation">orientation</a></p></td>
 <td><p>FLOAT</p></td>
 <td><p></p></td>

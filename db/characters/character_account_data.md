@@ -18,7 +18,7 @@ Contains data about character settings.
 <col width="12%" />
 </colgroup>
 <tbody>
-<tr class="odd">
+<tr>
 <td><p><strong>Field</strong></p></td>
 <td><p><strong>Type</strong></p></td>
 <td><p><strong>Attributes</strong></p></td>
@@ -28,7 +28,7 @@ Contains data about character settings.
 <td><p><strong>Extra</strong></p></td>
 <td><p><strong>Comment</strong></p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#guid">guid</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
@@ -38,7 +38,7 @@ Contains data about character settings.
 <td><p> </p></td>
 <td><p> </p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#type">type</a></p></td>
 <td><p>int(3)</p></td>
 <td><p>unsigned</p></td>
@@ -48,7 +48,7 @@ Contains data about character settings.
 <td><p> </p></td>
 <td><p> </p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#time">time</a></p></td>
 <td><p>bigint(10)</p></td>
 <td><p>unsigned</p></td>
@@ -58,7 +58,7 @@ Contains data about character settings.
 <td><p> </p></td>
 <td><p> </p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#data">data</a></p></td>
 <td><p>blob</p></td>
 <td><p>signed</p></td>

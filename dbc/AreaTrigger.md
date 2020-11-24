@@ -39,7 +39,7 @@ This DBC contains information about the triggers of the in-game areas.
 <col width="10%" />
 </colgroup>
 <tbody>
-<tr class="odd">
+<tr>
 <td><p><strong>ID</strong></p></td>
 <td><p><strong>MapId</strong></p></td>
 <td><p><strong>X</strong></p></td>
@@ -51,7 +51,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p><strong>Box_Z</strong></p></td>
 <td><p><strong>Box_O</strong></p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>45</p></td>
 <td><p>0</p></td>
 <td><p>2924.379883</p></td>
@@ -63,7 +63,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>71</p></td>
 <td><p>0</p></td>
 <td><p>-10645.900391</p></td>
@@ -75,7 +75,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>78</p></td>
 <td><p>0</p></td>
 <td><p>-11208.500000</p></td>
@@ -87,7 +87,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>84</p></td>
 <td><p>0</p></td>
 <td><p>16449.900391</p></td>
@@ -99,7 +99,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>87</p></td>
 <td><p>0</p></td>
 <td><p>-9077.339844</p></td>
@@ -111,7 +111,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>88</p></td>
 <td><p>0</p></td>
 <td><p>-9843.540039</p></td>
@@ -123,7 +123,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>97</p></td>
 <td><p>0</p></td>
 <td><p>-5660.330078</p></td>
@@ -135,7 +135,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>98</p></td>
 <td><p>0</p></td>
 <td><p>-11634.799805</p></td>
@@ -147,7 +147,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>100</p></td>
 <td><p>0</p></td>
 <td><p>2019.349365</p></td>
@@ -159,7 +159,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>101</p></td>
 <td><p>0</p></td>
 <td><p>-8761.849609</p></td>
@@ -171,7 +171,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>7.444000</p></td>
 <td><p>0.663200</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>107</p></td>
 <td><p>0</p></td>
 <td><p>-8667.559570</p></td>
@@ -183,7 +183,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>145</p></td>
 <td><p>0</p></td>
 <td><p>-229.490005</p></td>
@@ -195,7 +195,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>168</p></td>
 <td><p>0</p></td>
 <td><p>-5584.206543</p></td>
@@ -207,7 +207,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>169</p></td>
 <td><p>0</p></td>
 <td><p>-5586.459961</p></td>
@@ -219,7 +219,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>171</p></td>
 <td><p>0</p></td>
 <td><p>-5763.720215</p></td>
@@ -231,7 +231,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>173</p></td>
 <td><p>0</p></td>
 <td><p>1058.109985</p></td>
@@ -243,7 +243,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>175</p></td>
 <td><p>0</p></td>
 <td><p>-4086.360107</p></td>
@@ -255,7 +255,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>178</p></td>
 <td><p>0</p></td>
 <td><p>683.770996</p></td>
@@ -267,7 +267,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>196</p></td>
 <td><p>0</p></td>
 <td><p>-12153.621094</p></td>
@@ -279,7 +279,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>197</p></td>
 <td><p>0</p></td>
 <td><p>-9796.179688</p></td>
@@ -291,7 +291,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>284</p></td>
 <td><p>0</p></td>
 <td><p>-8681.370117</p></td>
@@ -303,7 +303,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>286</p></td>
 <td><p>0</p></td>
 <td><p>-6053.729980</p></td>
@@ -315,7 +315,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>324</p></td>
 <td><p>0</p></td>
 <td><p>-5161.330078</p></td>
@@ -327,7 +327,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>342</p></td>
 <td><p>0</p></td>
 <td><p>-9029.173828</p></td>
@@ -339,7 +339,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>362</p></td>
 <td><p>0</p></td>
 <td><p>-10429.434570</p></td>
@@ -351,7 +351,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>382</p></td>
 <td><p>0</p></td>
 <td><p>-8681.400391</p></td>
@@ -363,7 +363,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>446</p></td>
 <td><p>0</p></td>
 <td><p>-10162.700195</p></td>
@@ -375,7 +375,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>482</p></td>
 <td><p>0</p></td>
 <td><p>-8932.780273</p></td>
@@ -387,7 +387,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>523</p></td>
 <td><p>0</p></td>
 <td><p>-4858.270020</p></td>
@@ -399,7 +399,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>562</p></td>
 <td><p>0</p></td>
 <td><p>-9465.580078</p></td>
@@ -411,7 +411,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>610</p></td>
 <td><p>0</p></td>
 <td><p>2925.179932</p></td>
@@ -423,7 +423,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>612</p></td>
 <td><p>0</p></td>
 <td><p>2877.979980</p></td>
@@ -435,7 +435,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>614</p></td>
 <td><p>0</p></td>
 <td><p>2859.729980</p></td>
@@ -447,7 +447,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>682</p></td>
 <td><p>0</p></td>
 <td><p>-9219.370117</p></td>
@@ -459,7 +459,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>702</p></td>
 <td><p>0</p></td>
 <td><p>-9023.259766</p></td>
@@ -471,7 +471,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>704</p></td>
 <td><p>0</p></td>
 <td><p>-9020.089844</p></td>
@@ -483,7 +483,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>707</p></td>
 <td><p>0</p></td>
 <td><p>-10517.00</p></td>
@@ -495,7 +495,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>708</p></td>
 <td><p>0</p></td>
 <td><p>-854.546997</p></td>
@@ -507,7 +507,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>28.530001</p></td>
 <td><p>4.712000</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>710</p></td>
 <td><p>0</p></td>
 <td><p>-5601.459961</p></td>
@@ -519,7 +519,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>712</p></td>
 <td><p>0</p></td>
 <td><p>-5390.180176</p></td>
@@ -531,7 +531,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>713</p></td>
 <td><p>0</p></td>
 <td><p>-3823.060059</p></td>
@@ -543,7 +543,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>719</p></td>
 <td><p>0</p></td>
 <td><p>2266.679932</p></td>
@@ -555,7 +555,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>720</p></td>
 <td><p>0</p></td>
 <td><p>511.536011</p></td>
@@ -567,7 +567,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>721</p></td>
 <td><p>0</p></td>
 <td><p>-4.944440</p></td>
@@ -579,7 +579,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>11.580000</p></td>
 <td><p>5.829000</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>802</p></td>
 <td><p>0</p></td>
 <td><p>-3752.810059</p></td>
@@ -591,7 +591,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>803</p></td>
 <td><p>0</p></td>
 <td><p>-3668.340088</p></td>
@@ -603,7 +603,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>844</p></td>
 <td><p>0</p></td>
 <td><p>-10487.299805</p></td>
@@ -615,7 +615,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>862</p></td>
 <td><p>0</p></td>
 <td><p>-14457.00</p></td>
@@ -627,7 +627,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>902</p></td>
 <td><p>0</p></td>
 <td><p>-6606.479980</p></td>
@@ -639,7 +639,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>1042</p></td>
 <td><p>0</p></td>
 <td><p>357.220001</p></td>
@@ -651,7 +651,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>1103</p></td>
 <td><p>0</p></td>
 <td><p>-14468.00</p></td>
@@ -663,7 +663,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>1104</p></td>
 <td><p>0</p></td>
 <td><p>-5096.759766</p></td>
@@ -675,7 +675,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>1125</p></td>
 <td><p>0</p></td>
 <td><p>-8561.540039</p></td>
@@ -687,7 +687,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>1205</p></td>
 <td><p>0</p></td>
 <td><p>-295.639008</p></td>
@@ -699,7 +699,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>1426</p></td>
 <td><p>0</p></td>
 <td><p>-11204.500000</p></td>
@@ -711,7 +711,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>1427</p></td>
 <td><p>0</p></td>
 <td><p>-11079.700195</p></td>
@@ -723,7 +723,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>1428</p></td>
 <td><p>0</p></td>
 <td><p>-11208.099609</p></td>
@@ -735,7 +735,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>1429</p></td>
 <td><p>0</p></td>
 <td><p>-11337.400391</p></td>
@@ -747,7 +747,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>1446</p></td>
 <td><p>0</p></td>
 <td><p>-11185.099609</p></td>
@@ -759,7 +759,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>1466</p></td>
 <td><p>0</p></td>
 <td><p>-7176.629883</p></td>
@@ -771,7 +771,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>1468</p></td>
 <td><p>0</p></td>
 <td><p>-7518.189941</p></td>
@@ -783,7 +783,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>1506</p></td>
 <td><p>0</p></td>
 <td><p>-7921.140137</p></td>
@@ -795,7 +795,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>1606</p></td>
 <td><p>0</p></td>
 <td><p>-6657.350098</p></td>
@@ -807,7 +807,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>1646</p></td>
 <td><p>0</p></td>
 <td><p>-907.864990</p></td>
@@ -819,7 +819,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>2146</p></td>
 <td><p>0</p></td>
 <td><p>16299.200195</p></td>
@@ -831,7 +831,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>9.306000</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>2173</p></td>
 <td><p>0</p></td>
 <td><p>-8346.459961</p></td>
@@ -843,7 +843,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>2175</p></td>
 <td><p>0</p></td>
 <td><p>-4840.259766</p></td>
@@ -855,7 +855,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>2214</p></td>
 <td><p>0</p></td>
 <td><p>3237.459961</p></td>
@@ -867,7 +867,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>10.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>2216</p></td>
 <td><p>0</p></td>
 <td><p>3392.459961</p></td>
@@ -879,7 +879,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>34.689999</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>2217</p></td>
 <td><p>0</p></td>
 <td><p>3392.560059</p></td>
@@ -891,7 +891,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>35.189999</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>2246</p></td>
 <td><p>0</p></td>
 <td><p>1757.260010</p></td>
@@ -903,7 +903,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>2248</p></td>
 <td><p>0</p></td>
 <td><p>1855.130005</p></td>
@@ -915,7 +915,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.333300</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>2250</p></td>
 <td><p>0</p></td>
 <td><p>1462.130005</p></td>
@@ -927,7 +927,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.333300</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>2252</p></td>
 <td><p>0</p></td>
 <td><p>1668.119995</p></td>
@@ -939,7 +939,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>2387</p></td>
 <td><p>0</p></td>
 <td><p>-9897.209961</p></td>
@@ -951,7 +951,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>2412</p></td>
 <td><p>0</p></td>
 <td><p>97.431999</p></td>
@@ -963,7 +963,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>22.170000</p></td>
 <td><p>5.253000</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>2413</p></td>
 <td><p>0</p></td>
 <td><p>544.830017</p></td>
@@ -975,7 +975,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>12.060000</p></td>
 <td><p>3.822000</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>2567</p></td>
 <td><p>0</p></td>
 <td><p>1282.050049</p></td>
@@ -987,7 +987,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>21.670000</p></td>
 <td><p>0.471200</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>2626</p></td>
 <td><p>0</p></td>
 <td><p>1756.790039</p></td>
@@ -999,7 +999,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>2627</p></td>
 <td><p>0</p></td>
 <td><p>1723.319946</p></td>
@@ -1011,7 +1011,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>2628</p></td>
 <td><p>0</p></td>
 <td><p>1723.099976</p></td>
@@ -1023,7 +1023,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>2629</p></td>
 <td><p>0</p></td>
 <td><p>1879.598511</p></td>
@@ -1035,7 +1035,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>2630</p></td>
 <td><p>0</p></td>
 <td><p>1903.00</p></td>
@@ -1047,7 +1047,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>2631</p></td>
 <td><p>0</p></td>
 <td><p>1878.079956</p></td>
@@ -1059,7 +1059,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>2632</p></td>
 <td><p>0</p></td>
 <td><p>1487.030029</p></td>
@@ -1071,7 +1071,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>2633</p></td>
 <td><p>0</p></td>
 <td><p>1510.459961</p></td>
@@ -1083,7 +1083,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>2634</p></td>
 <td><p>0</p></td>
 <td><p>1485.609985</p></td>
@@ -1095,7 +1095,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>2635</p></td>
 <td><p>0</p></td>
 <td><p>1681.116821</p></td>
@@ -1107,7 +1107,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>2636</p></td>
 <td><p>0</p></td>
 <td><p>1712.750000</p></td>
@@ -1119,7 +1119,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>2637</p></td>
 <td><p>0</p></td>
 <td><p>1700.250000</p></td>
@@ -1131,7 +1131,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>2647</p></td>
 <td><p>0</p></td>
 <td><p>2841.810059</p></td>
@@ -1143,7 +1143,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>2706</p></td>
 <td><p>0</p></td>
 <td><p>2964.560059</p></td>
@@ -1155,7 +1155,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.333300</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>2707</p></td>
 <td><p>0</p></td>
 <td><p>2980.100098</p></td>
@@ -1167,7 +1167,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.277800</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>2726</p></td>
 <td><p>0</p></td>
 <td><p>1868.959961</p></td>
@@ -1179,7 +1179,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>2746</p></td>
 <td><p>0</p></td>
 <td><p>-8821.360352</p></td>
@@ -1191,7 +1191,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.277800</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>2786</p></td>
 <td><p>0</p></td>
 <td><p>-9050.870117</p></td>
@@ -1203,7 +1203,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.277800</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>3066</p></td>
 <td><p>0</p></td>
 <td><p>40.967300</p></td>
@@ -1215,7 +1215,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>3106</p></td>
 <td><p>0</p></td>
 <td><p>-30.053301</p></td>
@@ -1227,7 +1227,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>3366</p></td>
 <td><p>0</p></td>
 <td><p>2832.070068</p></td>
@@ -1239,7 +1239,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>3367</p></td>
 <td><p>0</p></td>
 <td><p>2843.399902</p></td>
@@ -1251,7 +1251,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>3528</p></td>
 <td><p>0</p></td>
 <td><p>-7510.870117</p></td>
@@ -1263,7 +1263,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>2.056000</p></td>
 <td><p>0.715600</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>3529</p></td>
 <td><p>0</p></td>
 <td><p>-7512.160156</p></td>
@@ -1275,7 +1275,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>3530</p></td>
 <td><p>0</p></td>
 <td><p>-8536.179688</p></td>
@@ -1287,7 +1287,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.333300</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>3547</p></td>
 <td><p>0</p></td>
 <td><p>1642.099976</p></td>
@@ -1299,7 +1299,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>3548</p></td>
 <td><p>0</p></td>
 <td><p>-4754.560059</p></td>
@@ -1311,7 +1311,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>3552</p></td>
 <td><p>0</p></td>
 <td><p>-11413.599609</p></td>
@@ -1323,7 +1323,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>3606</p></td>
 <td><p>0</p></td>
 <td><p>-7514.810059</p></td>
@@ -1335,7 +1335,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>3690</p></td>
 <td><p>0</p></td>
 <td><p>-622.142029</p></td>
@@ -1347,7 +1347,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>21.639999</p></td>
 <td><p>3.194000</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>3847</p></td>
 <td><p>0</p></td>
 <td><p>-7663.399902</p></td>
@@ -1359,7 +1359,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>3886</p></td>
 <td><p>0</p></td>
 <td><p>-12432.799805</p></td>
@@ -1371,7 +1371,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>3928</p></td>
 <td><p>0</p></td>
 <td><p>-11915.799805</p></td>
@@ -1383,7 +1383,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>3953</p></td>
 <td><p>0</p></td>
 <td><p>-1189.270020</p></td>
@@ -1395,7 +1395,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>17.309999</p></td>
 <td><p>0.034910</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>3954</p></td>
 <td><p>0</p></td>
 <td><p>-811.424988</p></td>
@@ -1407,7 +1407,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>16.920000</p></td>
 <td><p>0.663200</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>3991</p></td>
 <td><p>0</p></td>
 <td><p>1733.319946</p></td>
@@ -1419,7 +1419,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>4017</p></td>
 <td><p>0</p></td>
 <td><p>-10636.200195</p></td>
@@ -1431,7 +1431,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>4026</p></td>
 <td><p>0</p></td>
 <td><p>-5049.339844</p></td>
@@ -1443,7 +1443,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>4028</p></td>
 <td><p>0</p></td>
 <td><p>2051.360107</p></td>
@@ -1455,7 +1455,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>4029</p></td>
 <td><p>0</p></td>
 <td><p>-14294.299805</p></td>
@@ -1467,7 +1467,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>4030</p></td>
 <td><p>0</p></td>
 <td><p>-3755.104980</p></td>
@@ -1479,7 +1479,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>4032</p></td>
 <td><p>0</p></td>
 <td><p>-8823.480469</p></td>
@@ -1491,7 +1491,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.277800</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>4058</p></td>
 <td><p>0</p></td>
 <td><p>2298.169922</p></td>
@@ -1503,7 +1503,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>24.559999</p></td>
 <td><p>2.182000</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>4092</p></td>
 <td><p>0</p></td>
 <td><p>-9242.969727</p></td>
@@ -1515,7 +1515,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>6.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>4094</p></td>
 <td><p>0</p></td>
 <td><p>-9240.959961</p></td>
@@ -1527,7 +1527,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>4095</p></td>
 <td><p>0</p></td>
 <td><p>-9182.620117</p></td>
@@ -1539,7 +1539,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>6.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>4096</p></td>
 <td><p>0</p></td>
 <td><p>-9218.129883</p></td>
@@ -1551,7 +1551,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>4098</p></td>
 <td><p>0</p></td>
 <td><p>-5273.180176</p></td>
@@ -1563,7 +1563,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>4099</p></td>
 <td><p>0</p></td>
 <td><p>-5375.600098</p></td>
@@ -1575,7 +1575,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>4100</p></td>
 <td><p>0</p></td>
 <td><p>1979.989990</p></td>
@@ -1587,7 +1587,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>4131</p></td>
 <td><p>0</p></td>
 <td><p>-11101.900391</p></td>
@@ -1599,7 +1599,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>14.690000</p></td>
 <td><p>0.698100</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>4135</p></td>
 <td><p>0</p></td>
 <td><p>-11041.900391</p></td>
@@ -1611,7 +1611,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>13.330000</p></td>
 <td><p>5.376000</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>4189</p></td>
 <td><p>0</p></td>
 <td><p>1782.199951</p></td>
@@ -1623,7 +1623,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>4294</p></td>
 <td><p>0</p></td>
 <td><p>2541.943115</p></td>
@@ -1635,7 +1635,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>4354</p></td>
 <td><p>0</p></td>
 <td><p>-11908.900391</p></td>
@@ -1647,7 +1647,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>25.830000</p></td>
 <td><p>3.281000</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>4409</p></td>
 <td><p>0</p></td>
 <td><p>3483.580078</p></td>
@@ -1659,7 +1659,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>45.970001</p></td>
 <td><p>5.306000</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>4712</p></td>
 <td><p>0</p></td>
 <td><p>-5139.780273</p></td>
@@ -1671,7 +1671,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.277800</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>4715</p></td>
 <td><p>0</p></td>
 <td><p>-5172.120117</p></td>
@@ -1683,7 +1683,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>4716</p></td>
 <td><p>0</p></td>
 <td><p>-5140.403320</p></td>
@@ -1695,7 +1695,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>4718</p></td>
 <td><p>0</p></td>
 <td><p>-5173.604004</p></td>
@@ -1707,7 +1707,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>4733</p></td>
 <td><p>0</p></td>
 <td><p>-9017.099609</p></td>
@@ -1719,7 +1719,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>3.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>4734</p></td>
 <td><p>0</p></td>
 <td><p>-9020.400391</p></td>
@@ -1731,7 +1731,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>3.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>4769</p></td>
 <td><p>0</p></td>
 <td><p>-4920.970215</p></td>
@@ -1743,7 +1743,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>4770</p></td>
 <td><p>0</p></td>
 <td><p>-4704.660156</p></td>
@@ -1755,7 +1755,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>4772</p></td>
 <td><p>0</p></td>
 <td><p>-4969.569824</p></td>
@@ -1767,7 +1767,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>4774</p></td>
 <td><p>0</p></td>
 <td><p>-4662.939941</p></td>
@@ -1779,7 +1779,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>4786</p></td>
 <td><p>0</p></td>
 <td><p>-5604.450195</p></td>
@@ -1791,7 +1791,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>4787</p></td>
 <td><p>0</p></td>
 <td><p>-5202.517090</p></td>
@@ -1803,7 +1803,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>4788</p></td>
 <td><p>0</p></td>
 <td><p>-5604.100098</p></td>
@@ -1815,7 +1815,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>4789</p></td>
 <td><p>0</p></td>
 <td><p>-5202.628418</p></td>
@@ -1827,7 +1827,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>4820</p></td>
 <td><p>0</p></td>
 <td><p>-5187.410156</p></td>
@@ -1839,7 +1839,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>4990</p></td>
 <td><p>0</p></td>
 <td><p>-481.041992</p></td>
@@ -1851,7 +1851,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>16.030001</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>5127</p></td>
 <td><p>0</p></td>
 <td><p>2479.340088</p></td>
@@ -1863,7 +1863,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>5128</p></td>
 <td><p>0</p></td>
 <td><p>2469.290039</p></td>
@@ -1875,7 +1875,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>5129</p></td>
 <td><p>0</p></td>
 <td><p>2362.550049</p></td>
@@ -1887,7 +1887,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>5130</p></td>
 <td><p>0</p></td>
 <td><p>2412.679932</p></td>
@@ -1899,7 +1899,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>5131</p></td>
 <td><p>0</p></td>
 <td><p>2558.370117</p></td>
@@ -1911,7 +1911,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>5132</p></td>
 <td><p>0</p></td>
 <td><p>2508.139893</p></td>
@@ -1923,7 +1923,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>5133</p></td>
 <td><p>0</p></td>
 <td><p>2441.370117</p></td>
@@ -1935,7 +1935,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>5134</p></td>
 <td><p>0</p></td>
 <td><p>2451.500000</p></td>
@@ -1947,7 +1947,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>5135</p></td>
 <td><p>0</p></td>
 <td><p>2427.669922</p></td>
@@ -1959,7 +1959,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>5136</p></td>
 <td><p>0</p></td>
 <td><p>2505.389893</p></td>
@@ -1971,7 +1971,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>5137</p></td>
 <td><p>0</p></td>
 <td><p>2419.030029</p></td>
@@ -1983,7 +1983,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>5138</p></td>
 <td><p>0</p></td>
 <td><p>2486.989990</p></td>
@@ -1995,7 +1995,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>5537</p></td>
 <td><p>0</p></td>
 <td><p>1419.719971</p></td>
@@ -2007,7 +2007,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>10.00</p></td>
 <td><p>0.610500</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>5538</p></td>
 <td><p>0</p></td>
 <td><p>1390.949951</p></td>
@@ -2019,7 +2019,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>10.00</p></td>
 <td><p>0.772900</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>5703</p></td>
 <td><p>0</p></td>
 <td><p>-9033.269531</p></td>
@@ -2031,7 +2031,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>5704</p></td>
 <td><p>0</p></td>
 <td><p>-8867.900391</p></td>
@@ -2043,7 +2043,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>5710</p></td>
 <td><p>0</p></td>
 <td><p>-8907.559570</p></td>
@@ -2055,7 +2055,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>7.636000</p></td>
 <td><p>0.458800</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>5711</p></td>
 <td><p>0</p></td>
 <td><p>-8807.059570</p></td>
@@ -2067,7 +2067,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>6.273000</p></td>
 <td><p>1.327000</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>5712</p></td>
 <td><p>0</p></td>
 <td><p>-8756.030273</p></td>
@@ -2079,7 +2079,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>2.157000</p></td>
 <td><p>1.890000</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>5807</p></td>
 <td><p>0</p></td>
 <td><p>-5161.629883</p></td>
@@ -2091,7 +2091,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>2.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>5827</p></td>
 <td><p>0</p></td>
 <td><p>-9459.769531</p></td>
@@ -2103,7 +2103,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>5828</p></td>
 <td><p>0</p></td>
 <td><p>-8966.150391</p></td>
@@ -2115,7 +2115,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>31.320000</p></td>
 <td><p>0.660200</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>5829</p></td>
 <td><p>0</p></td>
 <td><p>-9646.030273</p></td>
@@ -2127,7 +2127,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>20.370001</p></td>
 <td><p>5.869000</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>5830</p></td>
 <td><p>0</p></td>
 <td><p>-9465.250000</p></td>
@@ -2139,7 +2139,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>17.650000</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>5831</p></td>
 <td><p>0</p></td>
 <td><p>-8553.129883</p></td>
@@ -2151,7 +2151,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>205</p></td>
 <td><p>1</p></td>
 <td><p>-1895.780029</p></td>
@@ -2163,7 +2163,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>216</p></td>
 <td><p>1</p></td>
 <td><p>90.100304</p></td>
@@ -2175,7 +2175,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>217</p></td>
 <td><p>1</p></td>
 <td><p>10708.799805</p></td>
@@ -2187,7 +2187,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>218</p></td>
 <td><p>1</p></td>
 <td><p>9859.089844</p></td>
@@ -2199,7 +2199,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>219</p></td>
 <td><p>1</p></td>
 <td><p>9556.240234</p></td>
@@ -2211,7 +2211,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>220</p></td>
 <td><p>1</p></td>
 <td><p>10675.200195</p></td>
@@ -2223,7 +2223,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>223</p></td>
 <td><p>1</p></td>
 <td><p>4508.169922</p></td>
@@ -2235,7 +2235,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>224</p></td>
 <td><p>1</p></td>
 <td><p>4605.569824</p></td>
@@ -2247,7 +2247,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>225</p></td>
 <td><p>1</p></td>
 <td><p>4558.359863</p></td>
@@ -2259,7 +2259,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>228</p></td>
 <td><p>1</p></td>
 <td><p>-753.596008</p></td>
@@ -2271,7 +2271,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>230</p></td>
 <td><p>1</p></td>
 <td><p>6744.979980</p></td>
@@ -2283,7 +2283,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>231</p></td>
 <td><p>1</p></td>
 <td><p>5996.560059</p></td>
@@ -2295,7 +2295,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>232</p></td>
 <td><p>1</p></td>
 <td><p>5980.169922</p></td>
@@ -2307,7 +2307,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>233</p></td>
 <td><p>1</p></td>
 <td><p>4916.990234</p></td>
@@ -2319,7 +2319,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>234</p></td>
 <td><p>1</p></td>
 <td><p>4641.189941</p></td>
@@ -2331,7 +2331,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>235</p></td>
 <td><p>1</p></td>
 <td><p>4554.649902</p></td>
@@ -2343,7 +2343,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>236</p></td>
 <td><p>1</p></td>
 <td><p>4643.379883</p></td>
@@ -2355,7 +2355,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>237</p></td>
 <td><p>1</p></td>
 <td><p>4504.310059</p></td>
@@ -2367,7 +2367,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>238</p></td>
 <td><p>1</p></td>
 <td><p>6876.279785</p></td>
@@ -2379,7 +2379,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>239</p></td>
 <td><p>1</p></td>
 <td><p>3469.429932</p></td>
@@ -2391,7 +2391,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>244</p></td>
 <td><p>1</p></td>
 <td><p>-4456.700195</p></td>
@@ -2403,7 +2403,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>246</p></td>
 <td><p>1</p></td>
 <td><p>-4932.529785</p></td>
@@ -2415,7 +2415,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>257</p></td>
 <td><p>1</p></td>
 <td><p>4252.370117</p></td>
@@ -2427,7 +2427,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>302</p></td>
 <td><p>1</p></td>
 <td><p>-3463.260010</p></td>
@@ -2439,7 +2439,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>303</p></td>
 <td><p>1</p></td>
 <td><p>-4058.750000</p></td>
@@ -2451,7 +2451,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>422</p></td>
 <td><p>1</p></td>
 <td><p>-93.161400</p></td>
@@ -2463,7 +2463,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>442</p></td>
 <td><p>1</p></td>
 <td><p>-4666.520020</p></td>
@@ -2475,7 +2475,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>522</p></td>
 <td><p>1</p></td>
 <td><p>-1679.300049</p></td>
@@ -2487,7 +2487,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>527</p></td>
 <td><p>1</p></td>
 <td><p>9947.480469</p></td>
@@ -2499,7 +2499,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>542</p></td>
 <td><p>1</p></td>
 <td><p>8799.410156</p></td>
@@ -2511,7 +2511,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>709</p></td>
 <td><p>1</p></td>
 <td><p>-3615.489990</p></td>
@@ -2523,7 +2523,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>715</p></td>
 <td><p>1</p></td>
 <td><p>9809.049805</p></td>
@@ -2535,7 +2535,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>716</p></td>
 <td><p>1</p></td>
 <td><p>6410.009766</p></td>
@@ -2547,7 +2547,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>717</p></td>
 <td><p>1</p></td>
 <td><p>2756.639893</p></td>
@@ -2559,7 +2559,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>722</p></td>
 <td><p>1</p></td>
 <td><p>-2366.699951</p></td>
@@ -2571,7 +2571,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>742</p></td>
 <td><p>1</p></td>
 <td><p>-405.311005</p></td>
@@ -2583,7 +2583,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>743</p></td>
 <td><p>1</p></td>
 <td><p>-1051.439941</p></td>
@@ -2595,7 +2595,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>843</p></td>
 <td><p>1</p></td>
 <td><p>341.420013</p></td>
@@ -2607,7 +2607,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>924</p></td>
 <td><p>1</p></td>
 <td><p>-6773.490234</p></td>
@@ -2619,7 +2619,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>942</p></td>
 <td><p>1</p></td>
 <td><p>-4950.649902</p></td>
@@ -2631,7 +2631,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>943</p></td>
 <td><p>1</p></td>
 <td><p>-4950.740234</p></td>
@@ -2643,7 +2643,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>944</p></td>
 <td><p>1</p></td>
 <td><p>-4950.649902</p></td>
@@ -2655,7 +2655,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>982</p></td>
 <td><p>1</p></td>
 <td><p>-2372.510010</p></td>
@@ -2667,7 +2667,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>1022</p></td>
 <td><p>1</p></td>
 <td><p>898.481995</p></td>
@@ -2679,7 +2679,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>1023</p></td>
 <td><p>1</p></td>
 <td><p>-7162.140137</p></td>
@@ -2691,7 +2691,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>1024</p></td>
 <td><p>1</p></td>
 <td><p>-4370.830078</p></td>
@@ -2703,7 +2703,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>1025</p></td>
 <td><p>1</p></td>
 <td><p>-4461.919922</p></td>
@@ -2715,7 +2715,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>14.190000</p></td>
 <td><p>3.560000</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>1387</p></td>
 <td><p>1</p></td>
 <td><p>4260.729980</p></td>
@@ -2727,7 +2727,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>1388</p></td>
 <td><p>1</p></td>
 <td><p>4277.580078</p></td>
@@ -2739,7 +2739,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>1667</p></td>
 <td><p>1</p></td>
 <td><p>-3464.709961</p></td>
@@ -2751,7 +2751,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>1726</p></td>
 <td><p>1</p></td>
 <td><p>-7286.009766</p></td>
@@ -2763,7 +2763,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>1727</p></td>
 <td><p>1</p></td>
 <td><p>-7208.419922</p></td>
@@ -2775,7 +2775,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>1728</p></td>
 <td><p>1</p></td>
 <td><p>-7170.020020</p></td>
@@ -2787,7 +2787,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>1729</p></td>
 <td><p>1</p></td>
 <td><p>-7395.189941</p></td>
@@ -2799,7 +2799,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>1730</p></td>
 <td><p>1</p></td>
 <td><p>-7449.899902</p></td>
@@ -2811,7 +2811,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>1731</p></td>
 <td><p>1</p></td>
 <td><p>-7463.350098</p></td>
@@ -2823,7 +2823,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>1732</p></td>
 <td><p>1</p></td>
 <td><p>-7509.580078</p></td>
@@ -2835,7 +2835,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>1733</p></td>
 <td><p>1</p></td>
 <td><p>-7516.870117</p></td>
@@ -2847,7 +2847,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>1734</p></td>
 <td><p>1</p></td>
 <td><p>-7594.120117</p></td>
@@ -2859,7 +2859,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>1735</p></td>
 <td><p>1</p></td>
 <td><p>-7748.899902</p></td>
@@ -2871,7 +2871,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>1736</p></td>
 <td><p>1</p></td>
 <td><p>-7768.609863</p></td>
@@ -2883,7 +2883,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>1737</p></td>
 <td><p>1</p></td>
 <td><p>-7612.560059</p></td>
@@ -2895,7 +2895,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>1738</p></td>
 <td><p>1</p></td>
 <td><p>-7952.200195</p></td>
@@ -2907,7 +2907,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>1739</p></td>
 <td><p>1</p></td>
 <td><p>-7895.290039</p></td>
@@ -2919,7 +2919,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>1740</p></td>
 <td><p>1</p></td>
 <td><p>-7874.180176</p></td>
@@ -2931,7 +2931,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>1766</p></td>
 <td><p>1</p></td>
 <td><p>-7308.713379</p></td>
@@ -2943,7 +2943,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>1906</p></td>
 <td><p>1</p></td>
 <td><p>6818.560059</p></td>
@@ -2955,7 +2955,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>1966</p></td>
 <td><p>1</p></td>
 <td><p>4988.970215</p></td>
@@ -2967,7 +2967,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>2206</p></td>
 <td><p>1</p></td>
 <td><p>5483.899902</p></td>
@@ -2979,7 +2979,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>2207</p></td>
 <td><p>1</p></td>
 <td><p>5552.089844</p></td>
@@ -2991,7 +2991,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>2208</p></td>
 <td><p>1</p></td>
 <td><p>5587.020020</p></td>
@@ -3003,7 +3003,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>2211</p></td>
 <td><p>1</p></td>
 <td><p>6107.620117</p></td>
@@ -3015,7 +3015,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>2213</p></td>
 <td><p>1</p></td>
 <td><p>5893.319824</p></td>
@@ -3027,7 +3027,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>2230</p></td>
 <td><p>1</p></td>
 <td><p>1818.400024</p></td>
@@ -3039,7 +3039,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>21.219999</p></td>
 <td><p>0.576000</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>2266</p></td>
 <td><p>1</p></td>
 <td><p>245.587006</p></td>
@@ -3051,7 +3051,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>2267</p></td>
 <td><p>1</p></td>
 <td><p>-1596.160034</p></td>
@@ -3063,7 +3063,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>30.030001</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>2286</p></td>
 <td><p>1</p></td>
 <td><p>-5477.910156</p></td>
@@ -3075,7 +3075,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>2287</p></td>
 <td><p>1</p></td>
 <td><p>6687.990234</p></td>
@@ -3087,7 +3087,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>2327</p></td>
 <td><p>1</p></td>
 <td><p>5018.910156</p></td>
@@ -3099,7 +3099,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>2486</p></td>
 <td><p>1</p></td>
 <td><p>6207.500000</p></td>
@@ -3111,7 +3111,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>2610</p></td>
 <td><p>1</p></td>
 <td><p>2343.570068</p></td>
@@ -3123,7 +3123,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>2848</p></td>
 <td><p>1</p></td>
 <td><p>-4768.609863</p></td>
@@ -3135,7 +3135,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>2926</p></td>
 <td><p>1</p></td>
 <td><p>1999.150024</p></td>
@@ -3147,7 +3147,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>2946</p></td>
 <td><p>1</p></td>
 <td><p>2.005750</p></td>
@@ -3159,7 +3159,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>3133</p></td>
 <td><p>1</p></td>
 <td><p>-1484.069946</p></td>
@@ -3171,7 +3171,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>35.189999</p></td>
 <td><p>4.538000</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>3134</p></td>
 <td><p>1</p></td>
 <td><p>-1181.979980</p></td>
@@ -3183,7 +3183,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>34.189999</p></td>
 <td><p>3.211000</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>3146</p></td>
 <td><p>1</p></td>
 <td><p>-7180.939941</p></td>
@@ -3195,7 +3195,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.277800</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>3183</p></td>
 <td><p>1</p></td>
 <td><p>-3730.479980</p></td>
@@ -3207,7 +3207,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>19.670000</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>3184</p></td>
 <td><p>1</p></td>
 <td><p>-3981.580078</p></td>
@@ -3219,7 +3219,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>20.219999</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>3185</p></td>
 <td><p>1</p></td>
 <td><p>-4028.209961</p></td>
@@ -3231,7 +3231,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>15.690000</p></td>
 <td><p>0.471200</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>3186</p></td>
 <td><p>1</p></td>
 <td><p>-3837.790039</p></td>
@@ -3243,7 +3243,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>18.360001</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>3187</p></td>
 <td><p>1</p></td>
 <td><p>-3741.959961</p></td>
@@ -3255,7 +3255,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>18.690001</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>3189</p></td>
 <td><p>1</p></td>
 <td><p>-3520.649902</p></td>
@@ -3267,7 +3267,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>23.219999</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>3546</p></td>
 <td><p>1</p></td>
 <td><p>9933.940430</p></td>
@@ -3279,7 +3279,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>3549</p></td>
 <td><p>1</p></td>
 <td><p>1253.790039</p></td>
@@ -3291,7 +3291,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>3550</p></td>
 <td><p>1</p></td>
 <td><p>-959.299011</p></td>
@@ -3303,7 +3303,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>3551</p></td>
 <td><p>1</p></td>
 <td><p>-998.182983</p></td>
@@ -3315,7 +3315,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>3586</p></td>
 <td><p>1</p></td>
 <td><p>6221.839844</p></td>
@@ -3327,7 +3327,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>3587</p></td>
 <td><p>1</p></td>
 <td><p>6221.890137</p></td>
@@ -3339,7 +3339,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>3650</p></td>
 <td><p>1</p></td>
 <td><p>1422.329956</p></td>
@@ -3351,7 +3351,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>6.944000</p></td>
 <td><p>3.037000</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>3654</p></td>
 <td><p>1</p></td>
 <td><p>1034.189941</p></td>
@@ -3363,7 +3363,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>18.309999</p></td>
 <td><p>1.588000</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>3985</p></td>
 <td><p>1</p></td>
 <td><p>-6864.979980</p></td>
@@ -3375,7 +3375,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>3986</p></td>
 <td><p>1</p></td>
 <td><p>-8215.089844</p></td>
@@ -3387,7 +3387,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>4008</p></td>
 <td><p>1</p></td>
 <td><p>-8424.940430</p></td>
@@ -3399,7 +3399,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>35.639999</p></td>
 <td><p>2.635000</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>4010</p></td>
 <td><p>1</p></td>
 <td><p>-8230.400391</p></td>
@@ -3411,7 +3411,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>46.580002</p></td>
 <td><p>0.925000</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>4015</p></td>
 <td><p>1</p></td>
 <td><p>5085.819824</p></td>
@@ -3423,7 +3423,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>4027</p></td>
 <td><p>1</p></td>
 <td><p>1332.270020</p></td>
@@ -3435,7 +3435,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.277800</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>4031</p></td>
 <td><p>1</p></td>
 <td><p>-7166.060059</p></td>
@@ -3447,7 +3447,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>4085</p></td>
 <td><p>1</p></td>
 <td><p>7763.328125</p></td>
@@ -3459,7 +3459,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>4090</p></td>
 <td><p>1</p></td>
 <td><p>2716.600098</p></td>
@@ -3471,7 +3471,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>4101</p></td>
 <td><p>1</p></td>
 <td><p>1179.459961</p></td>
@@ -3483,7 +3483,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.277800</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>4102</p></td>
 <td><p>1</p></td>
 <td><p>1204.859985</p></td>
@@ -3495,7 +3495,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.333300</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>4103</p></td>
 <td><p>1</p></td>
 <td><p>-1545.390015</p></td>
@@ -3507,7 +3507,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.277800</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>4104</p></td>
 <td><p>1</p></td>
 <td><p>9914.169922</p></td>
@@ -3519,7 +3519,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>4105</p></td>
 <td><p>1</p></td>
 <td><p>9948.009766</p></td>
@@ -3531,7 +3531,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>4162</p></td>
 <td><p>1</p></td>
 <td><p>-7142.040039</p></td>
@@ -3543,7 +3543,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>4168</p></td>
 <td><p>1</p></td>
 <td><p>-7588.479980</p></td>
@@ -3555,7 +3555,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>4299</p></td>
 <td><p>1</p></td>
 <td><p>-7376.839844</p></td>
@@ -3567,7 +3567,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>4319</p></td>
 <td><p>1</p></td>
 <td><p>-8158.899902</p></td>
@@ -3579,7 +3579,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>30.690001</p></td>
 <td><p>0.959900</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>4320</p></td>
 <td><p>1</p></td>
 <td><p>-8777.389648</p></td>
@@ -3591,7 +3591,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>51.939999</p></td>
 <td><p>1.920000</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>4321</p></td>
 <td><p>1</p></td>
 <td><p>-8326.269531</p></td>
@@ -3603,7 +3603,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>112.400002</p></td>
 <td><p>2.199000</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>4666</p></td>
 <td><p>1</p></td>
 <td><p>3637.820068</p></td>
@@ -3615,7 +3615,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>39.080002</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>4667</p></td>
 <td><p>1</p></td>
 <td><p>3263.370117</p></td>
@@ -3627,7 +3627,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>43.610001</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>4670</p></td>
 <td><p>1</p></td>
 <td><p>2869.600098</p></td>
@@ -3639,7 +3639,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>21.719999</p></td>
 <td><p>5.114000</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>4671</p></td>
 <td><p>1</p></td>
 <td><p>2634.729980</p></td>
@@ -3651,7 +3651,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>33.689999</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>4672</p></td>
 <td><p>1</p></td>
 <td><p>2416.389893</p></td>
@@ -3663,7 +3663,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>27.440001</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>4673</p></td>
 <td><p>1</p></td>
 <td><p>3451.850098</p></td>
@@ -3675,7 +3675,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>31.190001</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>4680</p></td>
 <td><p>1</p></td>
 <td><p>-381.844238</p></td>
@@ -3687,7 +3687,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.277800</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>4681</p></td>
 <td><p>1</p></td>
 <td><p>-378.178009</p></td>
@@ -3699,7 +3699,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.277800</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>4682</p></td>
 <td><p>1</p></td>
 <td><p>-399.252991</p></td>
@@ -3711,7 +3711,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.277800</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>4714</p></td>
 <td><p>1</p></td>
 <td><p>-4622.310059</p></td>
@@ -3723,7 +3723,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>25.780001</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>4719</p></td>
 <td><p>1</p></td>
 <td><p>-2108.449951</p></td>
@@ -3735,7 +3735,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.277800</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>4720</p></td>
 <td><p>1</p></td>
 <td><p>-2494.570068</p></td>
@@ -3747,7 +3747,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>38.439999</p></td>
 <td><p>1.693000</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>4752</p></td>
 <td><p>1</p></td>
 <td><p>-4234.479980</p></td>
@@ -3759,7 +3759,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.277800</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>4775</p></td>
 <td><p>1</p></td>
 <td><p>-3182.409912</p></td>
@@ -3771,7 +3771,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>4797</p></td>
 <td><p>1</p></td>
 <td><p>1216.829956</p></td>
@@ -3783,7 +3783,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>4798</p></td>
 <td><p>1</p></td>
 <td><p>1179.150024</p></td>
@@ -3795,7 +3795,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>4799</p></td>
 <td><p>1</p></td>
 <td><p>1195.849976</p></td>
@@ -3807,7 +3807,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>4800</p></td>
 <td><p>1</p></td>
 <td><p>1178.130005</p></td>
@@ -3819,7 +3819,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>4801</p></td>
 <td><p>1</p></td>
 <td><p>1646.765869</p></td>
@@ -3831,7 +3831,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>35.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>4802</p></td>
 <td><p>1</p></td>
 <td><p>1953.400024</p></td>
@@ -3843,7 +3843,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>27.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>4803</p></td>
 <td><p>1</p></td>
 <td><p>1931.219971</p></td>
@@ -3855,7 +3855,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>27.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>4804</p></td>
 <td><p>1</p></td>
 <td><p>1573.079956</p></td>
@@ -3867,7 +3867,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>35.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>4807</p></td>
 <td><p>1</p></td>
 <td><p>835.071899</p></td>
@@ -3879,7 +3879,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.277800</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>4808</p></td>
 <td><p>1</p></td>
 <td><p>1283.798340</p></td>
@@ -3891,7 +3891,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>4809</p></td>
 <td><p>1</p></td>
 <td><p>1284.239624</p></td>
@@ -3903,7 +3903,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>4810</p></td>
 <td><p>1</p></td>
 <td><p>835.313782</p></td>
@@ -3915,7 +3915,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>4829</p></td>
 <td><p>1</p></td>
 <td><p>1200.660034</p></td>
@@ -3927,7 +3927,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>5047</p></td>
 <td><p>1</p></td>
 <td><p>-6157.589844</p></td>
@@ -3939,7 +3939,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>11.00</p></td>
 <td><p>5.534000</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>5049</p></td>
 <td><p>1</p></td>
 <td><p>-6161.970215</p></td>
@@ -3951,7 +3951,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>5150</p></td>
 <td><p>1</p></td>
 <td><p>-8758.780273</p></td>
@@ -3963,7 +3963,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>4.00</p></td>
 <td><p>6.222000</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>5263</p></td>
 <td><p>1</p></td>
 <td><p>1331.589966</p></td>
@@ -3975,7 +3975,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>5264</p></td>
 <td><p>1</p></td>
 <td><p>1335.560059</p></td>
@@ -3987,7 +3987,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>5265</p></td>
 <td><p>1</p></td>
 <td><p>1289.089966</p></td>
@@ -3999,7 +3999,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>5266</p></td>
 <td><p>1</p></td>
 <td><p>1352.310059</p></td>
@@ -4011,7 +4011,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>5267</p></td>
 <td><p>1</p></td>
 <td><p>1368.400024</p></td>
@@ -4023,7 +4023,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>5268</p></td>
 <td><p>1</p></td>
 <td><p>1434.069946</p></td>
@@ -4035,7 +4035,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>5269</p></td>
 <td><p>1</p></td>
 <td><p>1438.199951</p></td>
@@ -4047,7 +4047,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>5270</p></td>
 <td><p>1</p></td>
 <td><p>1511.280029</p></td>
@@ -4059,7 +4059,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>5271</p></td>
 <td><p>1</p></td>
 <td><p>1505.170044</p></td>
@@ -4071,7 +4071,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>5272</p></td>
 <td><p>1</p></td>
 <td><p>1591.250000</p></td>
@@ -4083,7 +4083,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>5279</p></td>
 <td><p>1</p></td>
 <td><p>1920.170044</p></td>
@@ -4095,7 +4095,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>5311</p></td>
 <td><p>1</p></td>
 <td><p>1921.699951</p></td>
@@ -4107,7 +4107,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>5462</p></td>
 <td><p>1</p></td>
 <td><p>-6161.169922</p></td>
@@ -4119,7 +4119,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>11.00</p></td>
 <td><p>5.534000</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>5463</p></td>
 <td><p>1</p></td>
 <td><p>-6154.700195</p></td>
@@ -4131,7 +4131,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>11.00</p></td>
 <td><p>5.534000</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>5464</p></td>
 <td><p>1</p></td>
 <td><p>-6159.640137</p></td>
@@ -4143,7 +4143,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>11.00</p></td>
 <td><p>5.534000</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>5485</p></td>
 <td><p>1</p></td>
 <td><p>-1048.00</p></td>
@@ -4155,7 +4155,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>5518</p></td>
 <td><p>1</p></td>
 <td><p>7886.830078</p></td>
@@ -4167,7 +4167,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>40.00</p></td>
 <td><p>4.783000</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>5557</p></td>
 <td><p>1</p></td>
 <td><p>9684.389648</p></td>
@@ -4179,7 +4179,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>10.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>5705</p></td>
 <td><p>1</p></td>
 <td><p>1391.400024</p></td>
@@ -4191,7 +4191,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>5706</p></td>
 <td><p>1</p></td>
 <td><p>1657.969971</p></td>
@@ -4203,7 +4203,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>5714</p></td>
 <td><p>1</p></td>
 <td><p>1669.510010</p></td>
@@ -4215,7 +4215,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>6.273000</p></td>
 <td><p>3.576000</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>5715</p></td>
 <td><p>1</p></td>
 <td><p>1615.239990</p></td>
@@ -4227,7 +4227,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>7.636000</p></td>
 <td><p>0.458800</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>5716</p></td>
 <td><p>1</p></td>
 <td><p>1766.859985</p></td>
@@ -4239,7 +4239,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>3.079000</p></td>
 <td><p>1.986000</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>5802</p></td>
 <td><p>1</p></td>
 <td><p>1226.900024</p></td>
@@ -4251,7 +4251,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>5810</p></td>
 <td><p>1</p></td>
 <td><p>1247.449951</p></td>
@@ -4263,7 +4263,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>5813</p></td>
 <td><p>1</p></td>
 <td><p>1342.609985</p></td>
@@ -4275,7 +4275,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>45.650002</p></td>
 <td><p>0.162000</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>5814</p></td>
 <td><p>1</p></td>
 <td><p>1164.109985</p></td>
@@ -4287,7 +4287,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>45.650002</p></td>
 <td><p>0.594000</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>5815</p></td>
 <td><p>1</p></td>
 <td><p>306.239990</p></td>
@@ -4299,7 +4299,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>45.650002</p></td>
 <td><p>0.730200</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>5843</p></td>
 <td><p>1</p></td>
 <td><p>-1121.760010</p></td>
@@ -4311,7 +4311,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>56.730000</p></td>
 <td><p>5.521000</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>5847</p></td>
 <td><p>1</p></td>
 <td><p>-972.737976</p></td>
@@ -4323,7 +4323,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>56.730000</p></td>
 <td><p>5.682000</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>5848</p></td>
 <td><p>1</p></td>
 <td><p>-816.543030</p></td>
@@ -4335,7 +4335,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>56.730000</p></td>
 <td><p>6.043000</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>60</p></td>
 <td><p>24</p></td>
 <td><p>47.613499</p></td>
@@ -4347,7 +4347,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>81</p></td>
 <td><p>28</p></td>
 <td><p>-259.246979</p></td>
@@ -4359,7 +4359,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>83</p></td>
 <td><p>28</p></td>
 <td><p>254.569397</p></td>
@@ -4371,7 +4371,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>95</p></td>
 <td><p>30</p></td>
 <td><p>-409.828125</p></td>
@@ -4383,7 +4383,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>2606</p></td>
 <td><p>30</p></td>
 <td><p>-1510.089966</p></td>
@@ -4395,7 +4395,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>16.170000</p></td>
 <td><p>0.722500</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>2608</p></td>
 <td><p>30</p></td>
 <td><p>946.833008</p></td>
@@ -4407,7 +4407,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>24.309999</p></td>
 <td><p>1.134000</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>3326</p></td>
 <td><p>30</p></td>
 <td><p>-767.072998</p></td>
@@ -4419,7 +4419,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>5.028000</p></td>
 <td><p>1.466000</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>3327</p></td>
 <td><p>30</p></td>
 <td><p>-1221.349976</p></td>
@@ -4431,7 +4431,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>5.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>3328</p></td>
 <td><p>30</p></td>
 <td><p>-1305.239990</p></td>
@@ -4443,7 +4443,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>5.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>3329</p></td>
 <td><p>30</p></td>
 <td><p>213.923004</p></td>
@@ -4455,7 +4455,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.333300</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>3330</p></td>
 <td><p>30</p></td>
 <td><p>326.269867</p></td>
@@ -4467,7 +4467,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.333300</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>3331</p></td>
 <td><p>30</p></td>
 <td><p>683.106995</p></td>
@@ -4479,7 +4479,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.333300</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>194</p></td>
 <td><p>33</p></td>
 <td><p>-230.953003</p></td>
@@ -4491,7 +4491,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>254</p></td>
 <td><p>33</p></td>
 <td><p>-236.470001</p></td>
@@ -4503,7 +4503,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>255</p></td>
 <td><p>33</p></td>
 <td><p>-223.399002</p></td>
@@ -4515,7 +4515,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>256</p></td>
 <td><p>33</p></td>
 <td><p>-189.005997</p></td>
@@ -4527,7 +4527,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>2406</p></td>
 <td><p>33</p></td>
 <td><p>-287.071014</p></td>
@@ -4539,7 +4539,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>80.580002</p></td>
 <td><p>2.880000</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>2407</p></td>
 <td><p>33</p></td>
 <td><p>-315.990997</p></td>
@@ -4551,7 +4551,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>212.600006</p></td>
 <td><p>2.897000</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>2408</p></td>
 <td><p>33</p></td>
 <td><p>-232.371994</p></td>
@@ -4563,7 +4563,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>43.310001</p></td>
 <td><p>4.311000</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>2409</p></td>
 <td><p>33</p></td>
 <td><p>-255.272995</p></td>
@@ -4575,7 +4575,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>169.399994</p></td>
 <td><p>4.328000</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>2410</p></td>
 <td><p>33</p></td>
 <td><p>-167.091995</p></td>
@@ -4587,7 +4587,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>17.080000</p></td>
 <td><p>6.021000</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>2411</p></td>
 <td><p>33</p></td>
 <td><p>-179.729004</p></td>
@@ -4599,7 +4599,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>187.100006</p></td>
 <td><p>6.091000</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>5571</p></td>
 <td><p>33</p></td>
 <td><p>-159.274002</p></td>
@@ -4611,7 +4611,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>20.00</p></td>
 <td><p>1.384000</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>5572</p></td>
 <td><p>33</p></td>
 <td><p>-239.417999</p></td>
@@ -4623,7 +4623,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>8.00</p></td>
 <td><p>5.870000</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>5722</p></td>
 <td><p>33</p></td>
 <td><p>-177.882004</p></td>
@@ -4635,7 +4635,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>10.00</p></td>
 <td><p>3.392000</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>503</p></td>
 <td><p>34</p></td>
 <td><p>39.374100</p></td>
@@ -4647,7 +4647,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>109</p></td>
 <td><p>35</p></td>
 <td><p>-0.900420</p></td>
@@ -4659,7 +4659,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>119</p></td>
 <td><p>36</p></td>
 <td><p>-14.362800</p></td>
@@ -4671,7 +4671,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>121</p></td>
 <td><p>36</p></td>
 <td><p>-110.760002</p></td>
@@ -4683,7 +4683,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>3746</p></td>
 <td><p>36</p></td>
 <td><p>-29.554701</p></td>
@@ -4695,7 +4695,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>226</p></td>
 <td><p>43</p></td>
 <td><p>-172.181000</p></td>
@@ -4707,7 +4707,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>3766</p></td>
 <td><p>43</p></td>
 <td><p>-108.563004</p></td>
@@ -4719,7 +4719,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>242</p></td>
 <td><p>47</p></td>
 <td><p>1936.390015</p></td>
@@ -4731,7 +4731,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>262</p></td>
 <td><p>47</p></td>
 <td><p>2019.729980</p></td>
@@ -4743,7 +4743,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>462</p></td>
 <td><p>47</p></td>
 <td><p>2107.719971</p></td>
@@ -4755,7 +4755,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>463</p></td>
 <td><p>47</p></td>
 <td><p>2165.750000</p></td>
@@ -4767,7 +4767,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>259</p></td>
 <td><p>48</p></td>
 <td><p>-148.632996</p></td>
@@ -4779,7 +4779,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>283</p></td>
 <td><p>48</p></td>
 <td><p>-527.658020</p></td>
@@ -4791,7 +4791,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>762</p></td>
 <td><p>48</p></td>
 <td><p>-842.075989</p></td>
@@ -4803,7 +4803,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>288</p></td>
 <td><p>70</p></td>
 <td><p>-228.192993</p></td>
@@ -4815,7 +4815,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>822</p></td>
 <td><p>70</p></td>
 <td><p>-234.444000</p></td>
@@ -4827,7 +4827,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>882</p></td>
 <td><p>70</p></td>
 <td><p>-213.720001</p></td>
@@ -4839,7 +4839,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>322</p></td>
 <td><p>90</p></td>
 <td><p>-312.204987</p></td>
@@ -4851,7 +4851,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>525</p></td>
 <td><p>90</p></td>
 <td><p>-717.867981</p></td>
@@ -4863,7 +4863,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>1105</p></td>
 <td><p>90</p></td>
 <td><p>-377.056000</p></td>
@@ -4875,7 +4875,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>448</p></td>
 <td><p>109</p></td>
 <td><p>-300.00</p></td>
@@ -4887,7 +4887,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>1306</p></td>
 <td><p>109</p></td>
 <td><p>-496.854004</p></td>
@@ -4899,7 +4899,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>1326</p></td>
 <td><p>109</p></td>
 <td><p>-467.520996</p></td>
@@ -4911,7 +4911,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>4016</p></td>
 <td><p>109</p></td>
 <td><p>-662.106018</p></td>
@@ -4923,7 +4923,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>444</p></td>
 <td><p>129</p></td>
 <td><p>2593.939941</p></td>
@@ -4935,7 +4935,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>602</p></td>
 <td><p>189</p></td>
 <td><p>1687.569946</p></td>
@@ -4947,7 +4947,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>604</p></td>
 <td><p>189</p></td>
 <td><p>853.679016</p></td>
@@ -4959,7 +4959,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>606</p></td>
 <td><p>189</p></td>
 <td><p>1608.650024</p></td>
@@ -4971,7 +4971,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>608</p></td>
 <td><p>189</p></td>
 <td><p>253.600998</p></td>
@@ -4983,7 +4983,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>4089</p></td>
 <td><p>189</p></td>
 <td><p>864.622986</p></td>
@@ -4995,7 +4995,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>4261</p></td>
 <td><p>189</p></td>
 <td><p>1693.770020</p></td>
@@ -5007,7 +5007,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>4262</p></td>
 <td><p>189</p></td>
 <td><p>1617.180054</p></td>
@@ -5019,7 +5019,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>4263</p></td>
 <td><p>189</p></td>
 <td><p>269.061005</p></td>
@@ -5031,7 +5031,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>922</p></td>
 <td><p>209</p></td>
 <td><p>1190.349976</p></td>
@@ -5043,7 +5043,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>962</p></td>
 <td><p>209</p></td>
 <td><p>1909.270020</p></td>
@@ -5055,7 +5055,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>1447</p></td>
 <td><p>209</p></td>
 <td><p>1811.050049</p></td>
@@ -5067,7 +5067,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>20.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>1470</p></td>
 <td><p>229</p></td>
 <td><p>73.508301</p></td>
@@ -5079,7 +5079,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>1628</p></td>
 <td><p>229</p></td>
 <td><p>-78.581902</p></td>
@@ -5091,7 +5091,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>1946</p></td>
 <td><p>229</p></td>
 <td><p>70.861099</p></td>
@@ -5103,7 +5103,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>1986</p></td>
 <td><p>229</p></td>
 <td><p>91.085403</p></td>
@@ -5115,7 +5115,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>1987</p></td>
 <td><p>229</p></td>
 <td><p>109.608002</p></td>
@@ -5127,7 +5127,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.333300</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>2026</p></td>
 <td><p>229</p></td>
 <td><p>153.763000</p></td>
@@ -5139,7 +5139,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>2046</p></td>
 <td><p>229</p></td>
 <td><p>102.430000</p></td>
@@ -5151,7 +5151,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>2066</p></td>
 <td><p>229</p></td>
 <td><p>75.262199</p></td>
@@ -5163,7 +5163,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>2067</p></td>
 <td><p>229</p></td>
 <td><p>26.458300</p></td>
@@ -5175,7 +5175,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>2068</p></td>
 <td><p>229</p></td>
 <td><p>25.928499</p></td>
@@ -5187,7 +5187,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>20.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>3726</p></td>
 <td><p>229</p></td>
 <td><p>178.729004</p></td>
@@ -5199,7 +5199,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>7.889000</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>1472</p></td>
 <td><p>230</p></td>
 <td><p>456.968994</p></td>
@@ -5211,7 +5211,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>1526</p></td>
 <td><p>230</p></td>
 <td><p>596.432007</p></td>
@@ -5223,7 +5223,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>1590</p></td>
 <td><p>230</p></td>
 <td><p>376.105988</p></td>
@@ -5235,7 +5235,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>1686</p></td>
 <td><p>230</p></td>
 <td><p>319.973999</p></td>
@@ -5247,7 +5247,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>1746</p></td>
 <td><p>230</p></td>
 <td><p>411.617004</p></td>
@@ -5259,7 +5259,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>1786</p></td>
 <td><p>230</p></td>
 <td><p>690.518005</p></td>
@@ -5271,7 +5271,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>1826</p></td>
 <td><p>230</p></td>
 <td><p>471.141998</p></td>
@@ -5283,7 +5283,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>1827</p></td>
 <td><p>230</p></td>
 <td><p>1380.150024</p></td>
@@ -5295,7 +5295,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>1828</p></td>
 <td><p>230</p></td>
 <td><p>497.398987</p></td>
@@ -5307,7 +5307,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>1926</p></td>
 <td><p>230</p></td>
 <td><p>845.911011</p></td>
@@ -5319,7 +5319,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>2886</p></td>
 <td><p>230</p></td>
 <td><p>1097.989990</p></td>
@@ -5331,7 +5331,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>4751</p></td>
 <td><p>230</p></td>
 <td><p>876.874023</p></td>
@@ -5343,7 +5343,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>1064</p></td>
 <td><p>249</p></td>
 <td><p>29.242701</p></td>
@@ -5355,7 +5355,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>1626</p></td>
 <td><p>269</p></td>
 <td><p>3122.199951</p></td>
@@ -5367,7 +5367,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>4288</p></td>
 <td><p>269</p></td>
 <td><p>-2023.579956</p></td>
@@ -5379,7 +5379,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>4322</p></td>
 <td><p>269</p></td>
 <td><p>-1498.380005</p></td>
@@ -5391,7 +5391,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>71.669998</p></td>
 <td><p>2.950000</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>4485</p></td>
 <td><p>269</p></td>
 <td><p>-1529.839966</p></td>
@@ -5403,7 +5403,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>25.940001</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>2547</p></td>
 <td><p>289</p></td>
 <td><p>332.865997</p></td>
@@ -5415,7 +5415,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>60.419998</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>2548</p></td>
 <td><p>289</p></td>
 <td><p>322.884003</p></td>
@@ -5427,7 +5427,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>44.029999</p></td>
 <td><p>0.802900</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>2549</p></td>
 <td><p>289</p></td>
 <td><p>325.183990</p></td>
@@ -5439,7 +5439,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>54.169998</p></td>
 <td><p>5.236000</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>2568</p></td>
 <td><p>289</p></td>
 <td><p>182.264999</p></td>
@@ -5451,7 +5451,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>16.389999</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>3926</p></td>
 <td><p>309</p></td>
 <td><p>-11594.099609</p></td>
@@ -5463,7 +5463,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>3930</p></td>
 <td><p>309</p></td>
 <td><p>-11917.00</p></td>
@@ -5475,7 +5475,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>3956</p></td>
 <td><p>309</p></td>
 <td><p>-11918.599609</p></td>
@@ -5487,7 +5487,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>3957</p></td>
 <td><p>309</p></td>
 <td><p>-11916.799805</p></td>
@@ -5499,7 +5499,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.333300</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>3958</p></td>
 <td><p>309</p></td>
 <td><p>-11915.043945</p></td>
@@ -5511,7 +5511,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.277800</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>3959</p></td>
 <td><p>309</p></td>
 <td><p>-11945.688477</p></td>
@@ -5523,7 +5523,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>3960</p></td>
 <td><p>309</p></td>
 <td><p>-11788.900391</p></td>
@@ -5535,7 +5535,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>3961</p></td>
 <td><p>309</p></td>
 <td><p>-11614.200195</p></td>
@@ -5547,7 +5547,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>3962</p></td>
 <td><p>309</p></td>
 <td><p>-11957.599609</p></td>
@@ -5559,7 +5559,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>3963</p></td>
 <td><p>309</p></td>
 <td><p>-12112.900391</p></td>
@@ -5571,7 +5571,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>3964</p></td>
 <td><p>309</p></td>
 <td><p>-11791.00</p></td>
@@ -5583,7 +5583,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>3965</p></td>
 <td><p>309</p></td>
 <td><p>-11610.00</p></td>
@@ -5595,7 +5595,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>3966</p></td>
 <td><p>309</p></td>
 <td><p>-12072.299805</p></td>
@@ -5607,7 +5607,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>2187</p></td>
 <td><p>329</p></td>
 <td><p>3673.600098</p></td>
@@ -5619,7 +5619,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>2209</p></td>
 <td><p>329</p></td>
 <td><p>3665.110107</p></td>
@@ -5631,7 +5631,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>2210</p></td>
 <td><p>329</p></td>
 <td><p>3663.949951</p></td>
@@ -5643,7 +5643,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>2221</p></td>
 <td><p>329</p></td>
 <td><p>3584.780029</p></td>
@@ -5655,7 +5655,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>27.920000</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>3126</p></td>
 <td><p>349</p></td>
 <td><p>756.877991</p></td>
@@ -5667,7 +5667,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>44.139999</p></td>
 <td><p>1.641000</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>3131</p></td>
 <td><p>349</p></td>
 <td><p>1005.020020</p></td>
@@ -5679,7 +5679,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>23.420000</p></td>
 <td><p>0.017450</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>2166</p></td>
 <td><p>369</p></td>
 <td><p>76.027000</p></td>
@@ -5691,7 +5691,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>20.639999</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>2171</p></td>
 <td><p>369</p></td>
 <td><p>80.163300</p></td>
@@ -5703,7 +5703,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>2226</p></td>
 <td><p>389</p></td>
 <td><p>2.580190</p></td>
@@ -5715,7 +5715,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>25.559999</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>2890</p></td>
 <td><p>409</p></td>
 <td><p>1115.219971</p></td>
@@ -5727,7 +5727,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>3190</p></td>
 <td><p>429</p></td>
 <td><p>-55.965801</p></td>
@@ -5739,7 +5739,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>19.559999</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>3191</p></td>
 <td><p>429</p></td>
 <td><p>24.560900</p></td>
@@ -5751,7 +5751,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>21.610001</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>3193</p></td>
 <td><p>429</p></td>
 <td><p>255.248993</p></td>
@@ -5763,7 +5763,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>20.719999</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>3194</p></td>
 <td><p>429</p></td>
 <td><p>37.449902</p></td>
@@ -5775,7 +5775,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>19.440001</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>3195</p></td>
 <td><p>429</p></td>
 <td><p>-202.664001</p></td>
@@ -5787,7 +5787,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>17.440001</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>3196</p></td>
 <td><p>429</p></td>
 <td><p>4.311190</p></td>
@@ -5799,7 +5799,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>22.940001</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>3197</p></td>
 <td><p>429</p></td>
 <td><p>194.350998</p></td>
@@ -5811,7 +5811,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>25.330000</p></td>
 <td><p>1.117000</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>3506</p></td>
 <td><p>429</p></td>
 <td><p>580.754028</p></td>
@@ -5823,7 +5823,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>17.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>3507</p></td>
 <td><p>429</p></td>
 <td><p>580.656982</p></td>
@@ -5835,7 +5835,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>3508</p></td>
 <td><p>429</p></td>
 <td><p>592.507019</p></td>
@@ -5847,7 +5847,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>3509</p></td>
 <td><p>429</p></td>
 <td><p>591.919983</p></td>
@@ -5859,7 +5859,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>2534</p></td>
 <td><p>449</p></td>
 <td><p>-0.358041</p></td>
@@ -5871,7 +5871,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>6.194000</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>2530</p></td>
 <td><p>450</p></td>
 <td><p>215.194000</p></td>
@@ -5883,7 +5883,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>10.00</p></td>
 <td><p>3.595000</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>2416</p></td>
 <td><p>451</p></td>
 <td><p>16186.00</p></td>
@@ -5895,7 +5895,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>30.00</p></td>
 <td><p>6.185000</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>4750</p></td>
 <td><p>451</p></td>
 <td><p>15683.660156</p></td>
@@ -5907,7 +5907,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>4836</p></td>
 <td><p>451</p></td>
 <td><p>15838.500000</p></td>
@@ -5919,7 +5919,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>4840</p></td>
 <td><p>451</p></td>
 <td><p>14666.900391</p></td>
@@ -5931,7 +5931,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>10.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>4841</p></td>
 <td><p>451</p></td>
 <td><p>14667.299805</p></td>
@@ -5943,7 +5943,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>10.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>4854</p></td>
 <td><p>451</p></td>
 <td><p>16528.900391</p></td>
@@ -5955,7 +5955,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>10.410000</p></td>
 <td><p>0.002603</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>4901</p></td>
 <td><p>451</p></td>
 <td><p>9456.349609</p></td>
@@ -5967,7 +5967,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>1.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>4905</p></td>
 <td><p>451</p></td>
 <td><p>9542.030273</p></td>
@@ -5979,7 +5979,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>4909</p></td>
 <td><p>451</p></td>
 <td><p>16116.599609</p></td>
@@ -5991,7 +5991,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>4911</p></td>
 <td><p>451</p></td>
 <td><p>9438.030273</p></td>
@@ -6003,7 +6003,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>4953</p></td>
 <td><p>451</p></td>
 <td><p>4686.160156</p></td>
@@ -6015,7 +6015,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>20.00</p></td>
 <td><p>5.498000</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>4958</p></td>
 <td><p>451</p></td>
 <td><p>-15914.099609</p></td>
@@ -6027,7 +6027,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>20.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>4962</p></td>
 <td><p>451</p></td>
 <td><p>4690.509766</p></td>
@@ -6039,7 +6039,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>50.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>5453</p></td>
 <td><p>451</p></td>
 <td><p>15634.200195</p></td>
@@ -6051,7 +6051,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>5477</p></td>
 <td><p>451</p></td>
 <td><p>16217.299805</p></td>
@@ -6063,7 +6063,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>17.270000</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>2426</p></td>
 <td><p>469</p></td>
 <td><p>-7474.009766</p></td>
@@ -6075,7 +6075,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>63.939999</p></td>
 <td><p>5.323000</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>2427</p></td>
 <td><p>469</p></td>
 <td><p>-7375.319824</p></td>
@@ -6087,7 +6087,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>77.059998</p></td>
 <td><p>0.733000</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>2428</p></td>
 <td><p>469</p></td>
 <td><p>-7568.399902</p></td>
@@ -6099,7 +6099,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>132.199997</p></td>
 <td><p>5.341000</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>2429</p></td>
 <td><p>469</p></td>
 <td><p>-7412.970215</p></td>
@@ -6111,7 +6111,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>245.899994</p></td>
 <td><p>3.787000</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>3626</p></td>
 <td><p>469</p></td>
 <td><p>-7529.100098</p></td>
@@ -6123,7 +6123,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>3728</p></td>
 <td><p>469</p></td>
 <td><p>-7676.109863</p></td>
@@ -6135,7 +6135,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>5.083000</p></td>
 <td><p>3.752000</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>3646</p></td>
 <td><p>489</p></td>
 <td><p>1539.890015</p></td>
@@ -6147,7 +6147,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.333300</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>3647</p></td>
 <td><p>489</p></td>
 <td><p>918.495972</p></td>
@@ -6159,7 +6159,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.333300</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>3649</p></td>
 <td><p>489</p></td>
 <td><p>1532.066650</p></td>
@@ -6171,7 +6171,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>3686</p></td>
 <td><p>489</p></td>
 <td><p>1449.766724</p></td>
@@ -6183,7 +6183,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.333300</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>3687</p></td>
 <td><p>489</p></td>
 <td><p>1005.266724</p></td>
@@ -6195,7 +6195,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.333300</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>3688</p></td>
 <td><p>489</p></td>
 <td><p>1125.226685</p></td>
@@ -6207,7 +6207,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.277800</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>3706</p></td>
 <td><p>489</p></td>
 <td><p>1316.966675</p></td>
@@ -6219,7 +6219,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.277800</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>3707</p></td>
 <td><p>489</p></td>
 <td><p>1319.766724</p></td>
@@ -6231,7 +6231,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.277800</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>3708</p></td>
 <td><p>489</p></td>
 <td><p>1112.640015</p></td>
@@ -6243,7 +6243,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.277800</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>3709</p></td>
 <td><p>489</p></td>
 <td><p>1140.066650</p></td>
@@ -6255,7 +6255,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>4628</p></td>
 <td><p>489</p></td>
 <td><p>1470.00</p></td>
@@ -6267,7 +6267,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>76.779999</p></td>
 <td><p>6.255000</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>4629</p></td>
 <td><p>489</p></td>
 <td><p>973.293030</p></td>
@@ -6279,7 +6279,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>64.139999</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>4006</p></td>
 <td><p>509</p></td>
 <td><p>-8419.580078</p></td>
@@ -6291,7 +6291,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>40.500000</p></td>
 <td><p>5.794000</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>3866</p></td>
 <td><p>529</p></td>
 <td><p>1185.449951</p></td>
@@ -6303,7 +6303,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>3867</p></td>
 <td><p>529</p></td>
 <td><p>817.939026</p></td>
@@ -6315,7 +6315,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>3868</p></td>
 <td><p>529</p></td>
 <td><p>809.007690</p></td>
@@ -6327,7 +6327,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>3869</p></td>
 <td><p>529</p></td>
 <td><p>1147.010010</p></td>
@@ -6339,7 +6339,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>3870</p></td>
 <td><p>529</p></td>
 <td><p>989.851990</p></td>
@@ -6351,7 +6351,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>3948</p></td>
 <td><p>529</p></td>
 <td><p>1394.359985</p></td>
@@ -6363,7 +6363,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>17.639999</p></td>
 <td><p>0.366500</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>3949</p></td>
 <td><p>529</p></td>
 <td><p>627.192017</p></td>
@@ -6375,7 +6375,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>17.280001</p></td>
 <td><p>3.334000</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>4020</p></td>
 <td><p>529</p></td>
 <td><p>1313.930054</p></td>
@@ -6387,7 +6387,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>7.583000</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>4021</p></td>
 <td><p>529</p></td>
 <td><p>683.960999</p></td>
@@ -6399,7 +6399,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>4.722000</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>4674</p></td>
 <td><p>529</p></td>
 <td><p>976.840027</p></td>
@@ -6411,7 +6411,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.277800</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>4064</p></td>
 <td><p>530</p></td>
 <td><p>7922.680176</p></td>
@@ -6423,7 +6423,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>4071</p></td>
 <td><p>530</p></td>
 <td><p>7567.669922</p></td>
@@ -6435,7 +6435,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>4108</p></td>
 <td><p>530</p></td>
 <td><p>7557.310059</p></td>
@@ -6447,7 +6447,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.277800</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>4109</p></td>
 <td><p>530</p></td>
 <td><p>7557.439941</p></td>
@@ -6459,7 +6459,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>8.056000</p></td>
 <td><p>4.241000</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>4150</p></td>
 <td><p>530</p></td>
 <td><p>-365.610992</p></td>
@@ -6471,7 +6471,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>15.580000</p></td>
 <td><p>1.798000</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>4151</p></td>
 <td><p>530</p></td>
 <td><p>-310.210999</p></td>
@@ -6483,7 +6483,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>17.440001</p></td>
 <td><p>1.466000</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>4152</p></td>
 <td><p>530</p></td>
 <td><p>-307.251007</p></td>
@@ -6495,7 +6495,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>15.360000</p></td>
 <td><p>2.147000</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>4153</p></td>
 <td><p>530</p></td>
 <td><p>-309.678009</p></td>
@@ -6507,7 +6507,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>17.940001</p></td>
 <td><p>5.184000</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>4170</p></td>
 <td><p>530</p></td>
 <td><p>-17.608101</p></td>
@@ -6519,7 +6519,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>4186</p></td>
 <td><p>530</p></td>
 <td><p>-3849.139893</p></td>
@@ -6531,7 +6531,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.277800</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>4233</p></td>
 <td><p>530</p></td>
 <td><p>9336.219727</p></td>
@@ -6543,7 +6543,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>4240</p></td>
 <td><p>530</p></td>
 <td><p>-4133.419922</p></td>
@@ -6555,7 +6555,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>4241</p></td>
 <td><p>530</p></td>
 <td><p>-2058.159912</p></td>
@@ -6567,7 +6567,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>4252</p></td>
 <td><p>530</p></td>
 <td><p>-329.145996</p></td>
@@ -6579,7 +6579,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.333300</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>4253</p></td>
 <td><p>530</p></td>
 <td><p>-274.725586</p></td>
@@ -6591,7 +6591,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>8.222000</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>4265</p></td>
 <td><p>530</p></td>
 <td><p>8701.480469</p></td>
@@ -6603,7 +6603,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>4267</p></td>
 <td><p>530</p></td>
 <td><p>9285.969727</p></td>
@@ -6615,7 +6615,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>4280</p></td>
 <td><p>530</p></td>
 <td><p>-1163.689941</p></td>
@@ -6627,7 +6627,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>4291</p></td>
 <td><p>530</p></td>
 <td><p>-111.149002</p></td>
@@ -6639,7 +6639,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>4293</p></td>
 <td><p>530</p></td>
 <td><p>-751.145996</p></td>
@@ -6651,7 +6651,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>159.100006</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>4298</p></td>
 <td><p>530</p></td>
 <td><p>565.372009</p></td>
@@ -6663,7 +6663,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>33.110001</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>4300</p></td>
 <td><p>530</p></td>
 <td><p>-201.399994</p></td>
@@ -6675,7 +6675,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>14.720000</p></td>
 <td><p>0.261800</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>4301</p></td>
 <td><p>530</p></td>
 <td><p>-383.097992</p></td>
@@ -6687,7 +6687,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>4326</p></td>
 <td><p>530</p></td>
 <td><p>-2336.629883</p></td>
@@ -6699,7 +6699,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>4336</p></td>
 <td><p>530</p></td>
 <td><p>192.903000</p></td>
@@ -6711,7 +6711,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.277800</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>4337</p></td>
 <td><p>530</p></td>
 <td><p>-704.893005</p></td>
@@ -6723,7 +6723,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>25.440001</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>4339</p></td>
 <td><p>530</p></td>
 <td><p>9851.129883</p></td>
@@ -6735,7 +6735,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>4342</p></td>
 <td><p>530</p></td>
 <td><p>304.738159</p></td>
@@ -6747,7 +6747,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.277800</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>4345</p></td>
 <td><p>530</p></td>
 <td><p>-3544.860107</p></td>
@@ -6759,7 +6759,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>4352</p></td>
 <td><p>530</p></td>
 <td><p>-247.677002</p></td>
@@ -6771,7 +6771,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>53.810001</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>4356</p></td>
 <td><p>530</p></td>
 <td><p>-248.242996</p></td>
@@ -6783,7 +6783,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.277800</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>4363</p></td>
 <td><p>530</p></td>
 <td><p>782.879028</p></td>
@@ -6795,7 +6795,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>33.860001</p></td>
 <td><p>3.211000</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>4364</p></td>
 <td><p>530</p></td>
 <td><p>818.487000</p></td>
@@ -6807,7 +6807,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>29.690001</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>4365</p></td>
 <td><p>530</p></td>
 <td><p>745.838989</p></td>
@@ -6819,7 +6819,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>24.080000</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>4368</p></td>
 <td><p>530</p></td>
 <td><p>-3279.520020</p></td>
@@ -6831,7 +6831,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>4369</p></td>
 <td><p>530</p></td>
 <td><p>-1511.619995</p></td>
@@ -6843,7 +6843,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>4370</p></td>
 <td><p>530</p></td>
 <td><p>-711.754272</p></td>
@@ -6855,7 +6855,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>4371</p></td>
 <td><p>530</p></td>
 <td><p>-790.687012</p></td>
@@ -6867,7 +6867,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>4372</p></td>
 <td><p>530</p></td>
 <td><p>-1338.250000</p></td>
@@ -6879,7 +6879,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>4373</p></td>
 <td><p>530</p></td>
 <td><p>229.352005</p></td>
@@ -6891,7 +6891,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>20.889999</p></td>
 <td><p>2.758000</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>4374</p></td>
 <td><p>530</p></td>
 <td><p>282.220001</p></td>
@@ -6903,7 +6903,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>35.110001</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>4375</p></td>
 <td><p>530</p></td>
 <td><p>-1224.930054</p></td>
@@ -6915,7 +6915,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.277800</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>4376</p></td>
 <td><p>530</p></td>
 <td><p>-2734.679932</p></td>
@@ -6927,7 +6927,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>106.599998</p></td>
 <td><p>2.740000</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>4377</p></td>
 <td><p>530</p></td>
 <td><p>-2912.374023</p></td>
@@ -6939,7 +6939,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>25.030001</p></td>
 <td><p>2.985000</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>4378</p></td>
 <td><p>530</p></td>
 <td><p>-2620.050049</p></td>
@@ -6951,7 +6951,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.277800</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>4380</p></td>
 <td><p>530</p></td>
 <td><p>-573.994995</p></td>
@@ -6963,7 +6963,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>4381</p></td>
 <td><p>530</p></td>
 <td><p>218.737000</p></td>
@@ -6975,7 +6975,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>4382</p></td>
 <td><p>530</p></td>
 <td><p>-172.554840</p></td>
@@ -6987,7 +6987,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>19.969999</p></td>
 <td><p>5.027000</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>4383</p></td>
 <td><p>530</p></td>
 <td><p>1060.506470</p></td>
@@ -6999,7 +6999,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.277800</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>4386</p></td>
 <td><p>530</p></td>
 <td><p>6107.259766</p></td>
@@ -7011,7 +7011,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>45.669998</p></td>
 <td><p>0.663200</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>4387</p></td>
 <td><p>530</p></td>
 <td><p>-3080.820068</p></td>
@@ -7023,7 +7023,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.277800</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>4389</p></td>
 <td><p>530</p></td>
 <td><p>-2072.469971</p></td>
@@ -7035,7 +7035,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>4404</p></td>
 <td><p>530</p></td>
 <td><p>-3361.550049</p></td>
@@ -7047,7 +7047,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>19.610001</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>4405</p></td>
 <td><p>530</p></td>
 <td><p>-3068.129883</p></td>
@@ -7059,7 +7059,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>27.080000</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>4406</p></td>
 <td><p>530</p></td>
 <td><p>-3362.350098</p></td>
@@ -7071,7 +7071,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>23.809999</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>4407</p></td>
 <td><p>530</p></td>
 <td><p>-3656.050049</p></td>
@@ -7083,7 +7083,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>26.670000</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>4410</p></td>
 <td><p>530</p></td>
 <td><p>-1852.670044</p></td>
@@ -7095,7 +7095,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>4415</p></td>
 <td><p>530</p></td>
 <td><p>4160.229980</p></td>
@@ -7107,7 +7107,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.277800</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>4416</p></td>
 <td><p>530</p></td>
 <td><p>843.885010</p></td>
@@ -7119,7 +7119,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>41.080002</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>4422</p></td>
 <td><p>530</p></td>
 <td><p>3044.149902</p></td>
@@ -7131,7 +7131,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>4425</p></td>
 <td><p>530</p></td>
 <td><p>-1636.510010</p></td>
@@ -7143,7 +7143,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>11.830000</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>4426</p></td>
 <td><p>530</p></td>
 <td><p>-1831.109985</p></td>
@@ -7155,7 +7155,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>16.780001</p></td>
 <td><p>2.147000</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>4427</p></td>
 <td><p>530</p></td>
 <td><p>-1659.579956</p></td>
@@ -7167,7 +7167,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>12.110000</p></td>
 <td><p>2.077000</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>4428</p></td>
 <td><p>530</p></td>
 <td><p>-1669.867676</p></td>
@@ -7179,7 +7179,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>10.690000</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>4429</p></td>
 <td><p>530</p></td>
 <td><p>-1871.057739</p></td>
@@ -7191,7 +7191,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>21.830000</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>4430</p></td>
 <td><p>530</p></td>
 <td><p>-1979.291260</p></td>
@@ -7203,7 +7203,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>20.719999</p></td>
 <td><p>0.139600</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>4431</p></td>
 <td><p>530</p></td>
 <td><p>-1877.930054</p></td>
@@ -7215,7 +7215,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>16.170000</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>4432</p></td>
 <td><p>530</p></td>
 <td><p>-2013.459961</p></td>
@@ -7227,7 +7227,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>10.970000</p></td>
 <td><p>2.862000</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>4433</p></td>
 <td><p>530</p></td>
 <td><p>-2020.329956</p></td>
@@ -7239,7 +7239,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>11.330000</p></td>
 <td><p>2.862000</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>4434</p></td>
 <td><p>530</p></td>
 <td><p>-1812.729980</p></td>
@@ -7251,7 +7251,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>10.030000</p></td>
 <td><p>1.187000</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>4435</p></td>
 <td><p>530</p></td>
 <td><p>-1815.880005</p></td>
@@ -7263,7 +7263,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>7.444000</p></td>
 <td><p>1.187000</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>4439</p></td>
 <td><p>530</p></td>
 <td><p>-591.479980</p></td>
@@ -7275,7 +7275,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>4440</p></td>
 <td><p>530</p></td>
 <td><p>-591.715027</p></td>
@@ -7287,7 +7287,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>4443</p></td>
 <td><p>530</p></td>
 <td><p>-2260.120117</p></td>
@@ -7299,7 +7299,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>4445</p></td>
 <td><p>530</p></td>
 <td><p>-2245.020020</p></td>
@@ -7311,7 +7311,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>4466</p></td>
 <td><p>530</p></td>
 <td><p>3114.179932</p></td>
@@ -7323,7 +7323,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>4467</p></td>
 <td><p>530</p></td>
 <td><p>3418.919922</p></td>
@@ -7335,7 +7335,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>24.00</p></td>
 <td><p>5.620000</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>4468</p></td>
 <td><p>530</p></td>
 <td><p>3314.780029</p></td>
@@ -7347,7 +7347,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>15.940000</p></td>
 <td><p>5.096000</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>4469</p></td>
 <td><p>530</p></td>
 <td><p>2861.370117</p></td>
@@ -7359,7 +7359,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>17.110001</p></td>
 <td><p>3.857000</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>4470</p></td>
 <td><p>530</p></td>
 <td><p>3087.179932</p></td>
@@ -7371,7 +7371,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>31.080000</p></td>
 <td><p>4.625000</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>4471</p></td>
 <td><p>530</p></td>
 <td><p>3017.810059</p></td>
@@ -7383,7 +7383,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>4472</p></td>
 <td><p>530</p></td>
 <td><p>2951.229980</p></td>
@@ -7395,7 +7395,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>4473</p></td>
 <td><p>530</p></td>
 <td><p>4199.700195</p></td>
@@ -7407,7 +7407,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.277800</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>4475</p></td>
 <td><p>530</p></td>
 <td><p>3923.060059</p></td>
@@ -7419,7 +7419,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.277800</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>4478</p></td>
 <td><p>530</p></td>
 <td><p>4682.100098</p></td>
@@ -7431,7 +7431,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>4479</p></td>
 <td><p>530</p></td>
 <td><p>4131.009766</p></td>
@@ -7443,7 +7443,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>16.330000</p></td>
 <td><p>4.747000</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>4482</p></td>
 <td><p>530</p></td>
 <td><p>4007.320068</p></td>
@@ -7455,7 +7455,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>4486</p></td>
 <td><p>530</p></td>
 <td><p>9477.669922</p></td>
@@ -7467,7 +7467,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>43.110001</p></td>
 <td><p>5.480000</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>4493</p></td>
 <td><p>530</p></td>
 <td><p>281.500000</p></td>
@@ -7479,7 +7479,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>9.361000</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>4494</p></td>
 <td><p>530</p></td>
 <td><p>2405.00</p></td>
@@ -7491,7 +7491,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.277800</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>4495</p></td>
 <td><p>530</p></td>
 <td><p>4180.390137</p></td>
@@ -7503,7 +7503,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>6.556000</p></td>
 <td><p>5.690000</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>4496</p></td>
 <td><p>530</p></td>
 <td><p>-3836.715332</p></td>
@@ -7515,7 +7515,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.277800</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>4497</p></td>
 <td><p>530</p></td>
 <td><p>2345.530029</p></td>
@@ -7527,7 +7527,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>10.580000</p></td>
 <td><p>4.259000</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>4499</p></td>
 <td><p>530</p></td>
 <td><p>2099.500000</p></td>
@@ -7539,7 +7539,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>49.860001</p></td>
 <td><p>0.820300</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>4506</p></td>
 <td><p>530</p></td>
 <td><p>3905.639893</p></td>
@@ -7551,7 +7551,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>4507</p></td>
 <td><p>530</p></td>
 <td><p>3895.120117</p></td>
@@ -7563,7 +7563,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>4521</p></td>
 <td><p>530</p></td>
 <td><p>3070.639893</p></td>
@@ -7575,7 +7575,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>13.420000</p></td>
 <td><p>2.059000</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>4523</p></td>
 <td><p>530</p></td>
 <td><p>4798.129883</p></td>
@@ -7587,7 +7587,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>9.444000</p></td>
 <td><p>0.680700</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>4526</p></td>
 <td><p>530</p></td>
 <td><p>-2961.929932</p></td>
@@ -7599,7 +7599,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.333300</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>4527</p></td>
 <td><p>530</p></td>
 <td><p>-2960.250000</p></td>
@@ -7611,7 +7611,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>50.080002</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>4528</p></td>
 <td><p>530</p></td>
 <td><p>-4085.00</p></td>
@@ -7623,7 +7623,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>26.580000</p></td>
 <td><p>3.194000</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>4529</p></td>
 <td><p>530</p></td>
 <td><p>-4090.080078</p></td>
@@ -7635,7 +7635,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>10.500000</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>4535</p></td>
 <td><p>530</p></td>
 <td><p>3556.790039</p></td>
@@ -7647,7 +7647,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>56.860001</p></td>
 <td><p>5.707000</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>4542</p></td>
 <td><p>530</p></td>
 <td><p>2484.820068</p></td>
@@ -7659,7 +7659,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.277800</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>4546</p></td>
 <td><p>530</p></td>
 <td><p>2035.670044</p></td>
@@ -7671,7 +7671,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>10.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>4548</p></td>
 <td><p>530</p></td>
 <td><p>-3300.379883</p></td>
@@ -7683,7 +7683,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>10.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>4555</p></td>
 <td><p>530</p></td>
 <td><p>4112.020020</p></td>
@@ -7695,7 +7695,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>22.530001</p></td>
 <td><p>0.418900</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>4556</p></td>
 <td><p>530</p></td>
 <td><p>4131.540039</p></td>
@@ -7707,7 +7707,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>10.610000</p></td>
 <td><p>0.506100</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>4557</p></td>
 <td><p>530</p></td>
 <td><p>4097.350098</p></td>
@@ -7719,7 +7719,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>7.250000</p></td>
 <td><p>5.027000</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>4558</p></td>
 <td><p>530</p></td>
 <td><p>1945.359985</p></td>
@@ -7731,7 +7731,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.277800</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>4560</p></td>
 <td><p>530</p></td>
 <td><p>-3277.380127</p></td>
@@ -7743,7 +7743,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.444400</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>4561</p></td>
 <td><p>530</p></td>
 <td><p>-2829.780029</p></td>
@@ -7755,7 +7755,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.277800</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>4562</p></td>
 <td><p>530</p></td>
 <td><p>-2745.239990</p></td>
@@ -7767,7 +7767,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>4563</p></td>
 <td><p>530</p></td>
 <td><p>-3279.629883</p></td>
@@ -7779,7 +7779,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>12.190000</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>4566</p></td>
 <td><p>530</p></td>
 <td><p>-3278.770020</p></td>
@@ -7791,7 +7791,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>11.750000</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>4576</p></td>
 <td><p>530</p></td>
 <td><p>3673.100098</p></td>
@@ -7803,7 +7803,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.333300</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>4577</p></td>
 <td><p>530</p></td>
 <td><p>-2978.520020</p></td>
@@ -7815,7 +7815,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>4578</p></td>
 <td><p>530</p></td>
 <td><p>-3277.600098</p></td>
@@ -7827,7 +7827,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>9.389000</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>4579</p></td>
 <td><p>530</p></td>
 <td><p>-3277.469971</p></td>
@@ -7839,7 +7839,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>10.190000</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>4580</p></td>
 <td><p>530</p></td>
 <td><p>3661.050049</p></td>
@@ -7851,7 +7851,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>4581</p></td>
 <td><p>530</p></td>
 <td><p>-4300.959961</p></td>
@@ -7863,7 +7863,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.277800</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>4582</p></td>
 <td><p>530</p></td>
 <td><p>-4124.470215</p></td>
@@ -7875,7 +7875,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>4583</p></td>
 <td><p>530</p></td>
 <td><p>-4405.350098</p></td>
@@ -7887,7 +7887,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>4588</p></td>
 <td><p>530</p></td>
 <td><p>-4230.580078</p></td>
@@ -7899,7 +7899,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>4589</p></td>
 <td><p>530</p></td>
 <td><p>-4109.419922</p></td>
@@ -7911,7 +7911,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>4590</p></td>
 <td><p>530</p></td>
 <td><p>-4436.020020</p></td>
@@ -7923,7 +7923,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>4591</p></td>
 <td><p>530</p></td>
 <td><p>813.934021</p></td>
@@ -7935,7 +7935,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.333300</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>4595</p></td>
 <td><p>530</p></td>
 <td><p>2230.120117</p></td>
@@ -7947,7 +7947,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>4598</p></td>
 <td><p>530</p></td>
 <td><p>-3671.959961</p></td>
@@ -7959,7 +7959,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>33.610001</p></td>
 <td><p>3.002000</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>4607</p></td>
 <td><p>530</p></td>
 <td><p>-4133.799805</p></td>
@@ -7971,7 +7971,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>4608</p></td>
 <td><p>530</p></td>
 <td><p>-4133.799805</p></td>
@@ -7983,7 +7983,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>4609</p></td>
 <td><p>530</p></td>
 <td><p>-4118.00</p></td>
@@ -7995,7 +7995,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>4613</p></td>
 <td><p>530</p></td>
 <td><p>3784.540039</p></td>
@@ -8007,7 +8007,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>4615</p></td>
 <td><p>530</p></td>
 <td><p>3625.020020</p></td>
@@ -8019,7 +8019,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.277800</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>4616</p></td>
 <td><p>530</p></td>
 <td><p>3734.399902</p></td>
@@ -8031,7 +8031,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.277800</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>4617</p></td>
 <td><p>530</p></td>
 <td><p>3575.689941</p></td>
@@ -8043,7 +8043,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.277800</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>4640</p></td>
 <td><p>530</p></td>
 <td><p>3020.919922</p></td>
@@ -8055,7 +8055,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>27.860001</p></td>
 <td><p>5.393000</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>4713</p></td>
 <td><p>530</p></td>
 <td><p>-2106.040039</p></td>
@@ -8067,7 +8067,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.333300</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>4722</p></td>
 <td><p>530</p></td>
 <td><p>8702.080078</p></td>
@@ -8079,7 +8079,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>4738</p></td>
 <td><p>530</p></td>
 <td><p>6851.879883</p></td>
@@ -8091,7 +8091,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>26.940001</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>4847</p></td>
 <td><p>530</p></td>
 <td><p>12831.200195</p></td>
@@ -8103,7 +8103,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>67.040001</p></td>
 <td><p>5.434000</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>4851</p></td>
 <td><p>530</p></td>
 <td><p>9346.080078</p></td>
@@ -8115,7 +8115,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>4852</p></td>
 <td><p>530</p></td>
 <td><p>-3999.620117</p></td>
@@ -8127,7 +8127,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>4874</p></td>
 <td><p>530</p></td>
 <td><p>-1983.060059</p></td>
@@ -8139,7 +8139,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>4887</p></td>
 <td><p>530</p></td>
 <td><p>12878.799805</p></td>
@@ -8151,7 +8151,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>36.00</p></td>
 <td><p>5.802000</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>4889</p></td>
 <td><p>530</p></td>
 <td><p>12551.00</p></td>
@@ -8163,7 +8163,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>35.00</p></td>
 <td><p>6.264000</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>5151</p></td>
 <td><p>530</p></td>
 <td><p>-4018.040039</p></td>
@@ -8175,7 +8175,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>6.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>5152</p></td>
 <td><p>530</p></td>
 <td><p>-4105.229980</p></td>
@@ -8187,7 +8187,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>6.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>5153</p></td>
 <td><p>530</p></td>
 <td><p>-4184.00</p></td>
@@ -8199,7 +8199,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>6.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>5154</p></td>
 <td><p>530</p></td>
 <td><p>-4156.459961</p></td>
@@ -8211,7 +8211,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>6.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>5158</p></td>
 <td><p>530</p></td>
 <td><p>9348.219727</p></td>
@@ -8223,7 +8223,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>5159</p></td>
 <td><p>530</p></td>
 <td><p>9290.879883</p></td>
@@ -8235,7 +8235,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>5160</p></td>
 <td><p>530</p></td>
 <td><p>9252.740234</p></td>
@@ -8247,7 +8247,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>5161</p></td>
 <td><p>530</p></td>
 <td><p>9218.450195</p></td>
@@ -8259,7 +8259,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>4012</p></td>
 <td><p>531</p></td>
 <td><p>-8231.330078</p></td>
@@ -8271,7 +8271,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>81.639999</p></td>
 <td><p>5.655000</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>4033</p></td>
 <td><p>531</p></td>
 <td><p>-8546.230469</p></td>
@@ -8283,7 +8283,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>4034</p></td>
 <td><p>531</p></td>
 <td><p>-8545.678711</p></td>
@@ -8295,7 +8295,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>4036</p></td>
 <td><p>531</p></td>
 <td><p>-8578.00</p></td>
@@ -8307,7 +8307,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>4047</p></td>
 <td><p>531</p></td>
 <td><p>-8967.959961</p></td>
@@ -8319,7 +8319,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.277800</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>4052</p></td>
 <td><p>531</p></td>
 <td><p>-8176.830078</p></td>
@@ -8331,7 +8331,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>26.420000</p></td>
 <td><p>6.091000</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>4191</p></td>
 <td><p>532</p></td>
 <td><p>-11038.599609</p></td>
@@ -8343,7 +8343,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.333300</p></td>
 <td><p>3.054000</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>4216</p></td>
 <td><p>532</p></td>
 <td><p>-11178.599609</p></td>
@@ -8355,7 +8355,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>4242</p></td>
 <td><p>532</p></td>
 <td><p>-11171.900391</p></td>
@@ -8367,7 +8367,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>4436</p></td>
 <td><p>532</p></td>
 <td><p>-11118.400391</p></td>
@@ -8379,7 +8379,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>21.190001</p></td>
 <td><p>0.680700</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>4520</p></td>
 <td><p>532</p></td>
 <td><p>-11036.500000</p></td>
@@ -8391,7 +8391,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>10.670000</p></td>
 <td><p>5.411000</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>4522</p></td>
 <td><p>532</p></td>
 <td><p>-11048.200195</p></td>
@@ -8403,7 +8403,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.333300</p></td>
 <td><p>0.279300</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>5014</p></td>
 <td><p>532</p></td>
 <td><p>-11104.700195</p></td>
@@ -8415,7 +8415,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>5015</p></td>
 <td><p>532</p></td>
 <td><p>-11099.700195</p></td>
@@ -8427,7 +8427,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>12.00</p></td>
 <td><p>0.687000</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>4086</p></td>
 <td><p>533</p></td>
 <td><p>3292.738525</p></td>
@@ -8439,7 +8439,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>4087</p></td>
 <td><p>533</p></td>
 <td><p>3291.106934</p></td>
@@ -8451,7 +8451,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>4088</p></td>
 <td><p>533</p></td>
 <td><p>3321.290039</p></td>
@@ -8463,7 +8463,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>4097</p></td>
 <td><p>533</p></td>
 <td><p>3320.935547</p></td>
@@ -8475,7 +8475,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>4112</p></td>
 <td><p>533</p></td>
 <td><p>3716.379883</p></td>
@@ -8487,7 +8487,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>4113</p></td>
 <td><p>533</p></td>
 <td><p>3432.810059</p></td>
@@ -8499,7 +8499,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>4114</p></td>
 <td><p>533</p></td>
 <td><p>3432.300049</p></td>
@@ -8511,7 +8511,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>4115</p></td>
 <td><p>533</p></td>
 <td><p>3322.739990</p></td>
@@ -8523,7 +8523,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>4116</p></td>
 <td><p>533</p></td>
 <td><p>2740.00</p></td>
@@ -8535,7 +8535,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>4117</p></td>
 <td><p>533</p></td>
 <td><p>2917.030029</p></td>
@@ -8547,7 +8547,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>4119</p></td>
 <td><p>533</p></td>
 <td><p>3214.340088</p></td>
@@ -8559,7 +8559,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>4120</p></td>
 <td><p>533</p></td>
 <td><p>3493.449951</p></td>
@@ -8571,7 +8571,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>4156</p></td>
 <td><p>533</p></td>
 <td><p>3006.090088</p></td>
@@ -8583,7 +8583,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.277800</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>4158</p></td>
 <td><p>533</p></td>
 <td><p>3754.550049</p></td>
@@ -8595,7 +8595,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>16.889999</p></td>
 <td><p>6.074000</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>4163</p></td>
 <td><p>533</p></td>
 <td><p>3320.729980</p></td>
@@ -8607,7 +8607,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.277800</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>4166</p></td>
 <td><p>533</p></td>
 <td><p>3310.223633</p></td>
@@ -8619,7 +8619,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.277800</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>4167</p></td>
 <td><p>533</p></td>
 <td><p>3498.159912</p></td>
@@ -8631,7 +8631,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>4177</p></td>
 <td><p>533</p></td>
 <td><p>2661.040039</p></td>
@@ -8643,7 +8643,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>4180</p></td>
 <td><p>533</p></td>
 <td><p>3374.042969</p></td>
@@ -8655,7 +8655,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>41.889999</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>4184</p></td>
 <td><p>533</p></td>
 <td><p>2793.959229</p></td>
@@ -8667,7 +8667,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.277800</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>5196</p></td>
 <td><p>533</p></td>
 <td><p>3005.469971</p></td>
@@ -8679,7 +8679,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>8.00</p></td>
 <td><p>0.028050</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>5197</p></td>
 <td><p>533</p></td>
 <td><p>3016.939941</p></td>
@@ -8691,7 +8691,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>8.00</p></td>
 <td><p>4.714000</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>5198</p></td>
 <td><p>533</p></td>
 <td><p>3005.669922</p></td>
@@ -8703,7 +8703,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>8.00</p></td>
 <td><p>6.276000</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>5199</p></td>
 <td><p>533</p></td>
 <td><p>2994.629883</p></td>
@@ -8715,7 +8715,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>8.00</p></td>
 <td><p>4.728000</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>4311</p></td>
 <td><p>534</p></td>
 <td><p>4162.020020</p></td>
@@ -8727,7 +8727,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>35.060001</p></td>
 <td><p>3.054000</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>4312</p></td>
 <td><p>534</p></td>
 <td><p>4284.149902</p></td>
@@ -8739,7 +8739,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>21.969999</p></td>
 <td><p>0.331600</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>4313</p></td>
 <td><p>534</p></td>
 <td><p>4203.640137</p></td>
@@ -8751,7 +8751,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>22.940001</p></td>
 <td><p>0.279300</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>4323</p></td>
 <td><p>534</p></td>
 <td><p>4273.799805</p></td>
@@ -8763,7 +8763,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>30.080000</p></td>
 <td><p>6.004000</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>4341</p></td>
 <td><p>534</p></td>
 <td><p>5189.879883</p></td>
@@ -8775,7 +8775,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>4487</p></td>
 <td><p>534</p></td>
 <td><p>4274.660156</p></td>
@@ -8787,7 +8787,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>24.639999</p></td>
 <td><p>6.056000</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>4145</p></td>
 <td><p>540</p></td>
 <td><p>-41.748001</p></td>
@@ -8799,7 +8799,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>15.420000</p></td>
 <td><p>1.466000</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>4182</p></td>
 <td><p>540</p></td>
 <td><p>-28.071884</p></td>
@@ -8811,7 +8811,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>4.417000</p></td>
 <td><p>3.648000</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>4183</p></td>
 <td><p>540</p></td>
 <td><p>-23.701105</p></td>
@@ -8823,7 +8823,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>4.583000</p></td>
 <td><p>3.683000</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>4246</p></td>
 <td><p>540</p></td>
 <td><p>281.840240</p></td>
@@ -8835,7 +8835,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.277800</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>4347</p></td>
 <td><p>540</p></td>
 <td><p>181.404999</p></td>
@@ -8847,7 +8847,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.333300</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>4524</p></td>
 <td><p>540</p></td>
 <td><p>226.899994</p></td>
@@ -8859,7 +8859,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>19.110001</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>4575</p></td>
 <td><p>540</p></td>
 <td><p>483.441010</p></td>
@@ -8871,7 +8871,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.277800</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>4147</p></td>
 <td><p>542</p></td>
 <td><p>0.276847</p></td>
@@ -8883,7 +8883,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>18.250000</p></td>
 <td><p>1.222000</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>4200</p></td>
 <td><p>542</p></td>
 <td><p>327.363007</p></td>
@@ -8895,7 +8895,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>15.810000</p></td>
 <td><p>4.660000</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>4201</p></td>
 <td><p>542</p></td>
 <td><p>326.417999</p></td>
@@ -8907,7 +8907,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>13.060000</p></td>
 <td><p>1.518000</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>4297</p></td>
 <td><p>543</p></td>
 <td><p>-1360.180054</p></td>
@@ -8919,7 +8919,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>19.250000</p></td>
 <td><p>4.154000</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>4304</p></td>
 <td><p>543</p></td>
 <td><p>-1070.00</p></td>
@@ -8931,7 +8931,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>82.610001</p></td>
 <td><p>3.211000</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>4149</p></td>
 <td><p>544</p></td>
 <td><p>189.018005</p></td>
@@ -8943,7 +8943,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>32.060001</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>4192</p></td>
 <td><p>544</p></td>
 <td><p>-39.738174</p></td>
@@ -8955,7 +8955,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>4193</p></td>
 <td><p>544</p></td>
 <td><p>-13.630307</p></td>
@@ -8967,7 +8967,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>4194</p></td>
 <td><p>544</p></td>
 <td><p>7.181800</p></td>
@@ -8979,7 +8979,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>4195</p></td>
 <td><p>544</p></td>
 <td><p>-11.572740</p></td>
@@ -8991,7 +8991,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>4196</p></td>
 <td><p>544</p></td>
 <td><p>-20.714199</p></td>
@@ -9003,7 +9003,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>4366</p></td>
 <td><p>545</p></td>
 <td><p>-29.303801</p></td>
@@ -9015,7 +9015,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>31.440001</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>4281</p></td>
 <td><p>546</p></td>
 <td><p>331.800995</p></td>
@@ -9027,7 +9027,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>4292</p></td>
 <td><p>546</p></td>
 <td><p>330.184998</p></td>
@@ -9039,7 +9039,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>12.560000</p></td>
 <td><p>3.334000</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>4302</p></td>
 <td><p>546</p></td>
 <td><p>234.979996</p></td>
@@ -9051,7 +9051,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.333300</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>4303</p></td>
 <td><p>546</p></td>
 <td><p>162.528000</p></td>
@@ -9063,7 +9063,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.277800</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>4367</p></td>
 <td><p>546</p></td>
 <td><p>3.968630</p></td>
@@ -9075,7 +9075,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>22.750000</p></td>
 <td><p>0.523600</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>4295</p></td>
 <td><p>547</p></td>
 <td><p>-139.876999</p></td>
@@ -9087,7 +9087,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>28.00</p></td>
 <td><p>0.192000</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>4379</p></td>
 <td><p>547</p></td>
 <td><p>120.382004</p></td>
@@ -9099,7 +9099,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>29.420000</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>4411</p></td>
 <td><p>547</p></td>
 <td><p>-85.933647</p></td>
@@ -9111,7 +9111,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.333300</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>4418</p></td>
 <td><p>548</p></td>
 <td><p>-13.080900</p></td>
@@ -9123,7 +9123,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>47.189999</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>4652</p></td>
 <td><p>548</p></td>
 <td><p>39.00</p></td>
@@ -9135,7 +9135,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.277800</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>4457</p></td>
 <td><p>550</p></td>
 <td><p>-25.827499</p></td>
@@ -9147,7 +9147,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>47.580002</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>4455</p></td>
 <td><p>552</p></td>
 <td><p>-11.150200</p></td>
@@ -9159,7 +9159,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>43.939999</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>4459</p></td>
 <td><p>553</p></td>
 <td><p>53.134998</p></td>
@@ -9171,7 +9171,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>27.219999</p></td>
 <td><p>5.515000</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>4612</p></td>
 <td><p>553</p></td>
 <td><p>166.009003</p></td>
@@ -9183,7 +9183,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>28.309999</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>4461</p></td>
 <td><p>554</p></td>
 <td><p>-47.159401</p></td>
@@ -9195,7 +9195,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>49.779999</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>4614</p></td>
 <td><p>554</p></td>
 <td><p>65.968201</p></td>
@@ -9207,7 +9207,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>40.669998</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>4397</p></td>
 <td><p>555</p></td>
 <td><p>13.237300</p></td>
@@ -9219,7 +9219,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>22.219999</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>4399</p></td>
 <td><p>556</p></td>
 <td><p>-14.381100</p></td>
@@ -9231,7 +9231,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>28.500000</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>4401</p></td>
 <td><p>557</p></td>
 <td><p>13.069100</p></td>
@@ -9243,7 +9243,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>29.500000</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>4403</p></td>
 <td><p>558</p></td>
 <td><p>-33.929699</p></td>
@@ -9255,7 +9255,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>25.580000</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>4536</p></td>
 <td><p>559</p></td>
 <td><p>4009.189941</p></td>
@@ -9267,7 +9267,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>4537</p></td>
 <td><p>559</p></td>
 <td><p>4103.330078</p></td>
@@ -9279,7 +9279,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>4917</p></td>
 <td><p>559</p></td>
 <td><p>4054.149902</p></td>
@@ -9291,7 +9291,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>20.00</p></td>
 <td><p>0.468000</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>5006</p></td>
 <td><p>559</p></td>
 <td><p>4054.149902</p></td>
@@ -9303,7 +9303,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>20.00</p></td>
 <td><p>0.468000</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>5008</p></td>
 <td><p>559</p></td>
 <td><p>4054.149902</p></td>
@@ -9315,7 +9315,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>20.00</p></td>
 <td><p>0.468000</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>4324</p></td>
 <td><p>560</p></td>
 <td><p>2768.300049</p></td>
@@ -9327,7 +9327,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>38.810001</p></td>
 <td><p>5.969000</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>4498</p></td>
 <td><p>560</p></td>
 <td><p>1810.900024</p></td>
@@ -9339,7 +9339,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.277800</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>4501</p></td>
 <td><p>560</p></td>
 <td><p>1872.099976</p></td>
@@ -9351,7 +9351,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>4502</p></td>
 <td><p>560</p></td>
 <td><p>1822.640015</p></td>
@@ -9363,7 +9363,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>4503</p></td>
 <td><p>560</p></td>
 <td><p>1794.719971</p></td>
@@ -9375,7 +9375,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>4504</p></td>
 <td><p>560</p></td>
 <td><p>1900.869995</p></td>
@@ -9387,7 +9387,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>4538</p></td>
 <td><p>562</p></td>
 <td><p>6248.729980</p></td>
@@ -9399,7 +9399,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>4539</p></td>
 <td><p>562</p></td>
 <td><p>6228.209961</p></td>
@@ -9411,7 +9411,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>4919</p></td>
 <td><p>562</p></td>
 <td><p>6188.009766</p></td>
@@ -9423,7 +9423,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>60.00</p></td>
 <td><p>0.878200</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>4921</p></td>
 <td><p>562</p></td>
 <td><p>6288.220215</p></td>
@@ -9435,7 +9435,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>60.00</p></td>
 <td><p>0.878200</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>4922</p></td>
 <td><p>562</p></td>
 <td><p>6214.870117</p></td>
@@ -9447,7 +9447,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>60.00</p></td>
 <td><p>5.579000</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>4923</p></td>
 <td><p>562</p></td>
 <td><p>6187.770020</p></td>
@@ -9459,7 +9459,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>60.00</p></td>
 <td><p>5.579000</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>4924</p></td>
 <td><p>562</p></td>
 <td><p>6264.759766</p></td>
@@ -9471,7 +9471,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>60.00</p></td>
 <td><p>5.623000</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>4925</p></td>
 <td><p>562</p></td>
 <td><p>6290.770020</p></td>
@@ -9483,7 +9483,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>60.00</p></td>
 <td><p>5.623000</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>4944</p></td>
 <td><p>562</p></td>
 <td><p>6237.839844</p></td>
@@ -9495,7 +9495,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>20.00</p></td>
 <td><p>5.623000</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>5039</p></td>
 <td><p>562</p></td>
 <td><p>6237.839844</p></td>
@@ -9507,7 +9507,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>20.00</p></td>
 <td><p>5.623000</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>5040</p></td>
 <td><p>562</p></td>
 <td><p>6237.839844</p></td>
@@ -9519,7 +9519,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>20.00</p></td>
 <td><p>5.623000</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>4619</p></td>
 <td><p>564</p></td>
 <td><p>75.829002</p></td>
@@ -9531,7 +9531,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>54.939999</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>4648</p></td>
 <td><p>564</p></td>
 <td><p>706.400024</p></td>
@@ -9543,7 +9543,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.277800</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>4649</p></td>
 <td><p>564</p></td>
 <td><p>678.184998</p></td>
@@ -9555,7 +9555,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>4650</p></td>
 <td><p>564</p></td>
 <td><p>676.403992</p></td>
@@ -9567,7 +9567,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>4653</p></td>
 <td><p>564</p></td>
 <td><p>677.052002</p></td>
@@ -9579,7 +9579,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>4654</p></td>
 <td><p>564</p></td>
 <td><p>676.521973</p></td>
@@ -9591,7 +9591,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>4655</p></td>
 <td><p>564</p></td>
 <td><p>639.987000</p></td>
@@ -9603,7 +9603,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>4656</p></td>
 <td><p>564</p></td>
 <td><p>855.838989</p></td>
@@ -9615,7 +9615,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>4657</p></td>
 <td><p>564</p></td>
 <td><p>1166.619995</p></td>
@@ -9627,7 +9627,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>4665</p></td>
 <td><p>564</p></td>
 <td><p>517.278992</p></td>
@@ -9639,7 +9639,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.277800</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>4760</p></td>
 <td><p>564</p></td>
 <td><p>760.823975</p></td>
@@ -9651,7 +9651,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.277800</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>4534</p></td>
 <td><p>565</p></td>
 <td><p>21.269899</p></td>
@@ -9663,7 +9663,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>39.439999</p></td>
 <td><p>1.117000</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>4476</p></td>
 <td><p>566</p></td>
 <td><p>2048.479980</p></td>
@@ -9675,7 +9675,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>4512</p></td>
 <td><p>566</p></td>
 <td><p>2048.469971</p></td>
@@ -9687,7 +9687,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>4514</p></td>
 <td><p>566</p></td>
 <td><p>2044.00</p></td>
@@ -9699,7 +9699,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>4515</p></td>
 <td><p>566</p></td>
 <td><p>2043.949951</p></td>
@@ -9711,7 +9711,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>4516</p></td>
 <td><p>566</p></td>
 <td><p>2284.780029</p></td>
@@ -9723,7 +9723,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>4517</p></td>
 <td><p>566</p></td>
 <td><p>2284.770020</p></td>
@@ -9735,7 +9735,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>4518</p></td>
 <td><p>566</p></td>
 <td><p>2286.560059</p></td>
@@ -9747,7 +9747,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>4519</p></td>
 <td><p>566</p></td>
 <td><p>2286.560059</p></td>
@@ -9759,7 +9759,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>4530</p></td>
 <td><p>566</p></td>
 <td><p>1807.709961</p></td>
@@ -9771,7 +9771,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.277800</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>4531</p></td>
 <td><p>566</p></td>
 <td><p>2523.479980</p></td>
@@ -9783,7 +9783,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>4568</p></td>
 <td><p>566</p></td>
 <td><p>2050.459961</p></td>
@@ -9795,7 +9795,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.277800</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>4569</p></td>
 <td><p>566</p></td>
 <td><p>2046.329956</p></td>
@@ -9807,7 +9807,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.277800</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>4570</p></td>
 <td><p>566</p></td>
 <td><p>2283.379883</p></td>
@@ -9819,7 +9819,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>4571</p></td>
 <td><p>566</p></td>
 <td><p>2302.689941</p></td>
@@ -9831,7 +9831,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>5866</p></td>
 <td><p>566</p></td>
 <td><p>2024.599976</p></td>
@@ -9843,7 +9843,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>4723</p></td>
 <td><p>568</p></td>
 <td><p>-80.145798</p></td>
@@ -9855,7 +9855,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>7.333000</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>4724</p></td>
 <td><p>568</p></td>
 <td><p>-37.061001</p></td>
@@ -9867,7 +9867,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>5.583000</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>4725</p></td>
 <td><p>568</p></td>
 <td><p>362.480011</p></td>
@@ -9879,7 +9879,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>15.610000</p></td>
 <td><p>0.261800</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>4726</p></td>
 <td><p>568</p></td>
 <td><p>369.783997</p></td>
@@ -9891,7 +9891,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>13.940000</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>4739</p></td>
 <td><p>568</p></td>
 <td><p>120.559998</p></td>
@@ -9903,7 +9903,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>42.060001</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>4768</p></td>
 <td><p>568</p></td>
 <td><p>124.795998</p></td>
@@ -9915,7 +9915,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>335.700012</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>4782</p></td>
 <td><p>568</p></td>
 <td><p>-34.455898</p></td>
@@ -9927,7 +9927,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.277800</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>4745</p></td>
 <td><p>571</p></td>
 <td><p>1257.109985</p></td>
@@ -9939,7 +9939,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>100.699997</p></td>
 <td><p>1.902000</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>4747</p></td>
 <td><p>571</p></td>
 <td><p>1226.229980</p></td>
@@ -9951,7 +9951,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>13.00</p></td>
 <td><p>3.456000</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>4753</p></td>
 <td><p>571</p></td>
 <td><p>1451.439941</p></td>
@@ -9963,7 +9963,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>29.440001</p></td>
 <td><p>0.855200</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>4755</p></td>
 <td><p>571</p></td>
 <td><p>2683.270020</p></td>
@@ -9975,7 +9975,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>4756</p></td>
 <td><p>571</p></td>
 <td><p>2486.590088</p></td>
@@ -9987,7 +9987,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.333300</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>4778</p></td>
 <td><p>571</p></td>
 <td><p>1062.930054</p></td>
@@ -9999,7 +9999,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>18.190001</p></td>
 <td><p>3.438000</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>4779</p></td>
 <td><p>571</p></td>
 <td><p>914.632019</p></td>
@@ -10011,7 +10011,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.277800</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>4806</p></td>
 <td><p>571</p></td>
 <td><p>2563.219971</p></td>
@@ -10023,7 +10023,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>16.910000</p></td>
 <td><p>5.725000</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>4850</p></td>
 <td><p>571</p></td>
 <td><p>3841.500000</p></td>
@@ -10035,7 +10035,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>12.710000</p></td>
 <td><p>5.457000</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>4857</p></td>
 <td><p>571</p></td>
 <td><p>4111.399902</p></td>
@@ -10047,7 +10047,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>28.010000</p></td>
 <td><p>1.986000</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>4858</p></td>
 <td><p>571</p></td>
 <td><p>4094.129883</p></td>
@@ -10059,7 +10059,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>21.219999</p></td>
 <td><p>4.222000</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>4860</p></td>
 <td><p>571</p></td>
 <td><p>3794.659912</p></td>
@@ -10071,7 +10071,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>33.650002</p></td>
 <td><p>2.696000</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>4861</p></td>
 <td><p>571</p></td>
 <td><p>4512.049805</p></td>
@@ -10083,7 +10083,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>4867</p></td>
 <td><p>571</p></td>
 <td><p>4177.100098</p></td>
@@ -10095,7 +10095,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>24.250000</p></td>
 <td><p>6.248000</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>4868</p></td>
 <td><p>571</p></td>
 <td><p>3464.729980</p></td>
@@ -10107,7 +10107,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>6.212000</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>4871</p></td>
 <td><p>571</p></td>
 <td><p>2782.770020</p></td>
@@ -10119,7 +10119,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>5.00</p></td>
 <td><p>0.694300</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>4872</p></td>
 <td><p>571</p></td>
 <td><p>2879.860107</p></td>
@@ -10131,7 +10131,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>5.00</p></td>
 <td><p>10.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>4873</p></td>
 <td><p>571</p></td>
 <td><p>3073.209961</p></td>
@@ -10143,7 +10143,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>10.00</p></td>
 <td><p>2.227000</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>4883</p></td>
 <td><p>571</p></td>
 <td><p>3210.939941</p></td>
@@ -10155,7 +10155,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>7.880000</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>4894</p></td>
 <td><p>571</p></td>
 <td><p>3728.830078</p></td>
@@ -10167,7 +10167,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>4896</p></td>
 <td><p>571</p></td>
 <td><p>3964.909912</p></td>
@@ -10179,7 +10179,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>71.279999</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>4899</p></td>
 <td><p>571</p></td>
 <td><p>4012.530029</p></td>
@@ -10191,7 +10191,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>35.980000</p></td>
 <td><p>0.780900</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>4910</p></td>
 <td><p>571</p></td>
 <td><p>2814.050049</p></td>
@@ -10203,7 +10203,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>13.870000</p></td>
 <td><p>0.759000</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>4914</p></td>
 <td><p>571</p></td>
 <td><p>3571.270020</p></td>
@@ -10215,7 +10215,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>4916</p></td>
 <td><p>571</p></td>
 <td><p>4154.009766</p></td>
@@ -10227,7 +10227,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>65.110001</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>4946</p></td>
 <td><p>571</p></td>
 <td><p>4784.299805</p></td>
@@ -10239,7 +10239,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>14.720000</p></td>
 <td><p>0.512100</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>4947</p></td>
 <td><p>571</p></td>
 <td><p>4662.240234</p></td>
@@ -10251,7 +10251,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>19.139999</p></td>
 <td><p>0.921000</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>4948</p></td>
 <td><p>571</p></td>
 <td><p>4530.120117</p></td>
@@ -10263,7 +10263,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>21.110001</p></td>
 <td><p>4.369000</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>4949</p></td>
 <td><p>571</p></td>
 <td><p>3831.360107</p></td>
@@ -10275,7 +10275,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>4950</p></td>
 <td><p>571</p></td>
 <td><p>3684.760010</p></td>
@@ -10287,7 +10287,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>17.240000</p></td>
 <td><p>6.204000</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>4951</p></td>
 <td><p>571</p></td>
 <td><p>2432.399902</p></td>
@@ -10299,7 +10299,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>105.099998</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>4952</p></td>
 <td><p>571</p></td>
 <td><p>4013.179932</p></td>
@@ -10311,7 +10311,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>20.00</p></td>
 <td><p>5.851000</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>4956</p></td>
 <td><p>571</p></td>
 <td><p>3107.729980</p></td>
@@ -10323,7 +10323,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>159.199997</p></td>
 <td><p>0.010270</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>4960</p></td>
 <td><p>571</p></td>
 <td><p>3819.709961</p></td>
@@ -10335,7 +10335,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>4961</p></td>
 <td><p>571</p></td>
 <td><p>2293.719971</p></td>
@@ -10347,7 +10347,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>20.00</p></td>
 <td><p>1.147000</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>4963</p></td>
 <td><p>571</p></td>
 <td><p>2418.659912</p></td>
@@ -10359,7 +10359,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>4964</p></td>
 <td><p>571</p></td>
 <td><p>3474.560059</p></td>
@@ -10371,7 +10371,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>4965</p></td>
 <td><p>571</p></td>
 <td><p>3410.580078</p></td>
@@ -10383,7 +10383,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>30.00</p></td>
 <td><p>0.624000</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>4966</p></td>
 <td><p>571</p></td>
 <td><p>4600.540039</p></td>
@@ -10395,7 +10395,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>6.00</p></td>
 <td><p>0.820600</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>4967</p></td>
 <td><p>571</p></td>
 <td><p>3873.290039</p></td>
@@ -10407,7 +10407,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>11.00</p></td>
 <td><p>6.128000</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>4968</p></td>
 <td><p>571</p></td>
 <td><p>4245.740234</p></td>
@@ -10419,7 +10419,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>50.00</p></td>
 <td><p>1.994000</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>4969</p></td>
 <td><p>571</p></td>
 <td><p>4153.410156</p></td>
@@ -10431,7 +10431,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>50.00</p></td>
 <td><p>0.433200</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>4970</p></td>
 <td><p>571</p></td>
 <td><p>3275.550049</p></td>
@@ -10443,7 +10443,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>130.00</p></td>
 <td><p>5.895000</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>4971</p></td>
 <td><p>571</p></td>
 <td><p>4676.140137</p></td>
@@ -10455,7 +10455,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>30.00</p></td>
 <td><p>0.480900</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>4972</p></td>
 <td><p>571</p></td>
 <td><p>4679.390137</p></td>
@@ -10467,7 +10467,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>30.00</p></td>
 <td><p>0.085630</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>4973</p></td>
 <td><p>571</p></td>
 <td><p>4631.700195</p></td>
@@ -10479,7 +10479,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>30.00</p></td>
 <td><p>5.938000</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>4974</p></td>
 <td><p>571</p></td>
 <td><p>4594.689941</p></td>
@@ -10491,7 +10491,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>30.00</p></td>
 <td><p>6.142000</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>4975</p></td>
 <td><p>571</p></td>
 <td><p>2777.360107</p></td>
@@ -10503,7 +10503,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>4976</p></td>
 <td><p>571</p></td>
 <td><p>700.151978</p></td>
@@ -10515,7 +10515,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>4977</p></td>
 <td><p>571</p></td>
 <td><p>3003.399902</p></td>
@@ -10527,7 +10527,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>4979</p></td>
 <td><p>571</p></td>
 <td><p>3215.040039</p></td>
@@ -10539,7 +10539,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>20.00</p></td>
 <td><p>5.811000</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>4983</p></td>
 <td><p>571</p></td>
 <td><p>3902.790039</p></td>
@@ -10551,7 +10551,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>12.00</p></td>
 <td><p>0.062630</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>4984</p></td>
 <td><p>571</p></td>
 <td><p>2724.919922</p></td>
@@ -10563,7 +10563,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>20.00</p></td>
 <td><p>0.643800</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>4985</p></td>
 <td><p>571</p></td>
 <td><p>4376.709961</p></td>
@@ -10575,7 +10575,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>30.00</p></td>
 <td><p>0.129400</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>4986</p></td>
 <td><p>571</p></td>
 <td><p>4415.350098</p></td>
@@ -10587,7 +10587,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>30.00</p></td>
 <td><p>5.894000</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>4987</p></td>
 <td><p>571</p></td>
 <td><p>2827.860107</p></td>
@@ -10599,7 +10599,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>2.411000</p></td>
 <td><p>6.273000</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>4988</p></td>
 <td><p>571</p></td>
 <td><p>4527.149902</p></td>
@@ -10611,7 +10611,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>30.00</p></td>
 <td><p>5.894000</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>4989</p></td>
 <td><p>571</p></td>
 <td><p>4569.930176</p></td>
@@ -10623,7 +10623,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>30.00</p></td>
 <td><p>5.894000</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>4993</p></td>
 <td><p>571</p></td>
 <td><p>3635.00</p></td>
@@ -10635,7 +10635,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>25.00</p></td>
 <td><p>6.162000</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>4998</p></td>
 <td><p>571</p></td>
 <td><p>4775.319824</p></td>
@@ -10647,7 +10647,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>12.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>5003</p></td>
 <td><p>571</p></td>
 <td><p>6375.709961</p></td>
@@ -10659,7 +10659,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>24.540001</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>5010</p></td>
 <td><p>571</p></td>
 <td><p>8922.030273</p></td>
@@ -10671,7 +10671,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>30.00</p></td>
 <td><p>4.689000</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>5030</p></td>
 <td><p>571</p></td>
 <td><p>6721.120117</p></td>
@@ -10683,7 +10683,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>5045</p></td>
 <td><p>571</p></td>
 <td><p>3842.399902</p></td>
@@ -10695,7 +10695,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>110.00</p></td>
 <td><p>0.027970</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>5046</p></td>
 <td><p>571</p></td>
 <td><p>4873.240234</p></td>
@@ -10707,7 +10707,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>20.040001</p></td>
 <td><p>0.405600</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>5048</p></td>
 <td><p>571</p></td>
 <td><p>4884.939941</p></td>
@@ -10719,7 +10719,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.459900</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>5051</p></td>
 <td><p>571</p></td>
 <td><p>6175.180176</p></td>
@@ -10731,7 +10731,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>5052</p></td>
 <td><p>571</p></td>
 <td><p>5718.060059</p></td>
@@ -10743,7 +10743,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>13.260000</p></td>
 <td><p>6.271000</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>5056</p></td>
 <td><p>571</p></td>
 <td><p>5961.350098</p></td>
@@ -10755,7 +10755,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>5057</p></td>
 <td><p>571</p></td>
 <td><p>5365.839844</p></td>
@@ -10767,7 +10767,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>5058</p></td>
 <td><p>571</p></td>
 <td><p>6287.959961</p></td>
@@ -10779,7 +10779,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>5059</p></td>
 <td><p>571</p></td>
 <td><p>5968.299805</p></td>
@@ -10791,7 +10791,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>5060</p></td>
 <td><p>571</p></td>
 <td><p>6967.720215</p></td>
@@ -10803,7 +10803,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>5061</p></td>
 <td><p>571</p></td>
 <td><p>6175.410156</p></td>
@@ -10815,7 +10815,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>5062</p></td>
 <td><p>571</p></td>
 <td><p>5451.109863</p></td>
@@ -10827,7 +10827,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>30.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>5079</p></td>
 <td><p>571</p></td>
 <td><p>6175.169922</p></td>
@@ -10839,7 +10839,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>5080</p></td>
 <td><p>571</p></td>
 <td><p>6175.240234</p></td>
@@ -10851,7 +10851,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>5093</p></td>
 <td><p>571</p></td>
 <td><p>9188.820313</p></td>
@@ -10863,7 +10863,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>71.00</p></td>
 <td><p>5.541000</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>5095</p></td>
 <td><p>571</p></td>
 <td><p>6630.660156</p></td>
@@ -10875,7 +10875,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>5096</p></td>
 <td><p>571</p></td>
 <td><p>6230.040039</p></td>
@@ -10887,7 +10887,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>5097</p></td>
 <td><p>571</p></td>
 <td><p>5245.00</p></td>
@@ -10899,7 +10899,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>5098</p></td>
 <td><p>571</p></td>
 <td><p>6042.680176</p></td>
@@ -10911,7 +10911,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>5108</p></td>
 <td><p>571</p></td>
 <td><p>6309.870117</p></td>
@@ -10923,7 +10923,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>21.330000</p></td>
 <td><p>5.059000</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>5117</p></td>
 <td><p>571</p></td>
 <td><p>3668.290039</p></td>
@@ -10935,7 +10935,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>5.00</p></td>
 <td><p>5.538000</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>5163</p></td>
 <td><p>571</p></td>
 <td><p>6045.299805</p></td>
@@ -10947,7 +10947,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>5164</p></td>
 <td><p>571</p></td>
 <td><p>5765.540039</p></td>
@@ -10959,7 +10959,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>5171</p></td>
 <td><p>571</p></td>
 <td><p>7028.990234</p></td>
@@ -10971,7 +10971,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>20.00</p></td>
 <td><p>6.136000</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>5172</p></td>
 <td><p>571</p></td>
 <td><p>6910.910156</p></td>
@@ -10983,7 +10983,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>30.00</p></td>
 <td><p>0.799600</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>5173</p></td>
 <td><p>571</p></td>
 <td><p>6959.410156</p></td>
@@ -10995,7 +10995,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>20.00</p></td>
 <td><p>5.522000</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>5174</p></td>
 <td><p>571</p></td>
 <td><p>5753.279785</p></td>
@@ -11007,7 +11007,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>5175</p></td>
 <td><p>571</p></td>
 <td><p>5693.459961</p></td>
@@ -11019,7 +11019,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>5176</p></td>
 <td><p>571</p></td>
 <td><p>5951.350098</p></td>
@@ -11031,7 +11031,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>5177</p></td>
 <td><p>571</p></td>
 <td><p>5544.950195</p></td>
@@ -11043,7 +11043,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>166.100006</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>5182</p></td>
 <td><p>571</p></td>
 <td><p>6679.049805</p></td>
@@ -11055,7 +11055,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>2.00</p></td>
 <td><p>0.239800</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>5183</p></td>
 <td><p>571</p></td>
 <td><p>6123.029785</p></td>
@@ -11067,7 +11067,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>2.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>5187</p></td>
 <td><p>571</p></td>
 <td><p>6314.339844</p></td>
@@ -11079,7 +11079,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>12.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>5190</p></td>
 <td><p>571</p></td>
 <td><p>6153.930176</p></td>
@@ -11091,7 +11091,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>12.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>5191</p></td>
 <td><p>571</p></td>
 <td><p>3681.290039</p></td>
@@ -11103,7 +11103,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>10.00</p></td>
 <td><p>0.822100</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>5192</p></td>
 <td><p>571</p></td>
 <td><p>3680.639893</p></td>
@@ -11115,7 +11115,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>10.00</p></td>
 <td><p>5.572000</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>5193</p></td>
 <td><p>571</p></td>
 <td><p>3659.260010</p></td>
@@ -11127,7 +11127,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>10.00</p></td>
 <td><p>5.572000</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>5194</p></td>
 <td><p>571</p></td>
 <td><p>3658.040039</p></td>
@@ -11139,7 +11139,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>10.00</p></td>
 <td><p>0.822100</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>5200</p></td>
 <td><p>571</p></td>
 <td><p>7115.279785</p></td>
@@ -11151,7 +11151,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>10.00</p></td>
 <td><p>0.212800</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>5204</p></td>
 <td><p>571</p></td>
 <td><p>8414.790039</p></td>
@@ -11163,7 +11163,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>10.00</p></td>
 <td><p>5.540000</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>5205</p></td>
 <td><p>571</p></td>
 <td><p>6700.479980</p></td>
@@ -11175,7 +11175,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>34.00</p></td>
 <td><p>0.770700</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>5206</p></td>
 <td><p>571</p></td>
 <td><p>6976.540039</p></td>
@@ -11187,7 +11187,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>35.00</p></td>
 <td><p>0.770700</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>5209</p></td>
 <td><p>571</p></td>
 <td><p>5675.430176</p></td>
@@ -11199,7 +11199,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>16.00</p></td>
 <td><p>0.902000</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>5215</p></td>
 <td><p>571</p></td>
 <td><p>3639.399902</p></td>
@@ -11211,7 +11211,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>8.00</p></td>
 <td><p>5.931000</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>5217</p></td>
 <td><p>571</p></td>
 <td><p>5570.279785</p></td>
@@ -11223,7 +11223,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>14.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>5227</p></td>
 <td><p>571</p></td>
 <td><p>6220.029785</p></td>
@@ -11235,7 +11235,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>5243</p></td>
 <td><p>571</p></td>
 <td><p>3442.629883</p></td>
@@ -11247,7 +11247,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>25.00</p></td>
 <td><p>0.080930</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>5245</p></td>
 <td><p>571</p></td>
 <td><p>6466.350098</p></td>
@@ -11259,7 +11259,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>5246</p></td>
 <td><p>571</p></td>
 <td><p>3869.840088</p></td>
@@ -11271,7 +11271,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>10.00</p></td>
 <td><p>0.039920</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>5248</p></td>
 <td><p>571</p></td>
 <td><p>6379.540039</p></td>
@@ -11283,7 +11283,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>6.018000</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>5254</p></td>
 <td><p>571</p></td>
 <td><p>5172.120117</p></td>
@@ -11295,7 +11295,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>5257</p></td>
 <td><p>571</p></td>
 <td><p>4851.220215</p></td>
@@ -11307,7 +11307,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>5258</p></td>
 <td><p>571</p></td>
 <td><p>5494.879883</p></td>
@@ -11319,7 +11319,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>10.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>5273</p></td>
 <td><p>571</p></td>
 <td><p>5886.270020</p></td>
@@ -11331,7 +11331,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>5274</p></td>
 <td><p>571</p></td>
 <td><p>6316.850098</p></td>
@@ -11343,7 +11343,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>60.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>5275</p></td>
 <td><p>571</p></td>
 <td><p>6311.609863</p></td>
@@ -11355,7 +11355,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>60.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>5280</p></td>
 <td><p>571</p></td>
 <td><p>7239.669922</p></td>
@@ -11367,7 +11367,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>5281</p></td>
 <td><p>571</p></td>
 <td><p>7628.859863</p></td>
@@ -11379,7 +11379,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>5282</p></td>
 <td><p>571</p></td>
 <td><p>7889.200195</p></td>
@@ -11391,7 +11391,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>5283</p></td>
 <td><p>571</p></td>
 <td><p>5832.890137</p></td>
@@ -11403,7 +11403,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>200.00</p></td>
 <td><p>5.789000</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>5284</p></td>
 <td><p>571</p></td>
 <td><p>7487.439941</p></td>
@@ -11415,7 +11415,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>248.500000</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>5285</p></td>
 <td><p>571</p></td>
 <td><p>7761.549805</p></td>
@@ -11427,7 +11427,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>154.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>5286</p></td>
 <td><p>571</p></td>
 <td><p>8110.00</p></td>
@@ -11439,7 +11439,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>336.500000</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>5287</p></td>
 <td><p>571</p></td>
 <td><p>8151.899902</p></td>
@@ -11451,7 +11451,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>409.799988</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>5290</p></td>
 <td><p>571</p></td>
 <td><p>3870.290039</p></td>
@@ -11463,7 +11463,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>5294</p></td>
 <td><p>571</p></td>
 <td><p>5157.160156</p></td>
@@ -11475,7 +11475,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>5296</p></td>
 <td><p>571</p></td>
 <td><p>5088.930176</p></td>
@@ -11487,7 +11487,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>5298</p></td>
 <td><p>571</p></td>
 <td><p>5116.470215</p></td>
@@ -11499,7 +11499,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>5300</p></td>
 <td><p>571</p></td>
 <td><p>5022.310059</p></td>
@@ -11511,7 +11511,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>5302</p></td>
 <td><p>571</p></td>
 <td><p>4327.359863</p></td>
@@ -11523,7 +11523,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>5304</p></td>
 <td><p>571</p></td>
 <td><p>4344.140137</p></td>
@@ -11535,7 +11535,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>5305</p></td>
 <td><p>571</p></td>
 <td><p>6784.680176</p></td>
@@ -11547,7 +11547,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>50.00</p></td>
 <td><p>6.206000</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>5306</p></td>
 <td><p>571</p></td>
 <td><p>7024.479980</p></td>
@@ -11559,7 +11559,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>30.00</p></td>
 <td><p>6.187000</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>5307</p></td>
 <td><p>571</p></td>
 <td><p>7198.390137</p></td>
@@ -11571,7 +11571,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>30.00</p></td>
 <td><p>6.187000</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>5308</p></td>
 <td><p>571</p></td>
 <td><p>6978.620117</p></td>
@@ -11583,7 +11583,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>30.00</p></td>
 <td><p>6.187000</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>5309</p></td>
 <td><p>571</p></td>
 <td><p>8535.540039</p></td>
@@ -11595,7 +11595,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>5310</p></td>
 <td><p>571</p></td>
 <td><p>5825.040039</p></td>
@@ -11607,7 +11607,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>5312</p></td>
 <td><p>571</p></td>
 <td><p>7143.620117</p></td>
@@ -11619,7 +11619,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>30.00</p></td>
 <td><p>6.187000</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>5313</p></td>
 <td><p>571</p></td>
 <td><p>7049.740234</p></td>
@@ -11631,7 +11631,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>30.00</p></td>
 <td><p>6.187000</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>5314</p></td>
 <td><p>571</p></td>
 <td><p>3538.929932</p></td>
@@ -11643,7 +11643,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>1.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>5315</p></td>
 <td><p>571</p></td>
 <td><p>3637.800049</p></td>
@@ -11655,7 +11655,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>1.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>5316</p></td>
 <td><p>571</p></td>
 <td><p>3555.300049</p></td>
@@ -11667,7 +11667,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>1.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>5317</p></td>
 <td><p>571</p></td>
 <td><p>3451.580078</p></td>
@@ -11679,7 +11679,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>1.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>5318</p></td>
 <td><p>571</p></td>
 <td><p>3650.439941</p></td>
@@ -11691,7 +11691,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>1.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>5323</p></td>
 <td><p>571</p></td>
 <td><p>7796.740234</p></td>
@@ -11703,7 +11703,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>20.00</p></td>
 <td><p>5.821000</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>5327</p></td>
 <td><p>571</p></td>
 <td><p>5832.890137</p></td>
@@ -11715,7 +11715,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>5332</p></td>
 <td><p>571</p></td>
 <td><p>3798.620117</p></td>
@@ -11727,7 +11727,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>7.467000</p></td>
 <td><p>4.387000</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>5334</p></td>
 <td><p>571</p></td>
 <td><p>3739.659912</p></td>
@@ -11739,7 +11739,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>3.055000</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>5338</p></td>
 <td><p>571</p></td>
 <td><p>3787.570068</p></td>
@@ -11751,7 +11751,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>5.768000</p></td>
 <td><p>5.998000</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>5339</p></td>
 <td><p>571</p></td>
 <td><p>3739.500000</p></td>
@@ -11763,7 +11763,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>3.371000</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>5340</p></td>
 <td><p>571</p></td>
 <td><p>3738.639893</p></td>
@@ -11775,7 +11775,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>1.402000</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>5341</p></td>
 <td><p>571</p></td>
 <td><p>3740.320068</p></td>
@@ -11787,7 +11787,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>2.042000</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>5360</p></td>
 <td><p>571</p></td>
 <td><p>7843.930176</p></td>
@@ -11799,7 +11799,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>5379</p></td>
 <td><p>571</p></td>
 <td><p>9364.360352</p></td>
@@ -11811,7 +11811,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>160.00</p></td>
 <td><p>6.280000</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>5392</p></td>
 <td><p>571</p></td>
 <td><p>8466.179688</p></td>
@@ -11823,7 +11823,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>5403</p></td>
 <td><p>571</p></td>
 <td><p>8484.929688</p></td>
@@ -11835,7 +11835,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>10.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>5404</p></td>
 <td><p>571</p></td>
 <td><p>8574.469727</p></td>
@@ -11847,7 +11847,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>10.00</p></td>
 <td><p>1.405000</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>5405</p></td>
 <td><p>571</p></td>
 <td><p>8421.389648</p></td>
@@ -11859,7 +11859,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>10.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>5440</p></td>
 <td><p>571</p></td>
 <td><p>4200.279785</p></td>
@@ -11871,7 +11871,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>5460</p></td>
 <td><p>571</p></td>
 <td><p>4866.419922</p></td>
@@ -11883,7 +11883,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>20.040001</p></td>
 <td><p>0.405600</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>5461</p></td>
 <td><p>571</p></td>
 <td><p>4880.209961</p></td>
@@ -11895,7 +11895,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>20.040001</p></td>
 <td><p>0.405600</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>5500</p></td>
 <td><p>571</p></td>
 <td><p>8454.509766</p></td>
@@ -11907,7 +11907,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>5503</p></td>
 <td><p>571</p></td>
 <td><p>8515.209961</p></td>
@@ -11919,7 +11919,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>12.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>5505</p></td>
 <td><p>571</p></td>
 <td><p>8562.599609</p></td>
@@ -11931,7 +11931,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>12.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>5635</p></td>
 <td><p>571</p></td>
 <td><p>5678.560059</p></td>
@@ -11943,7 +11943,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>21.00</p></td>
 <td><p>0.695000</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>5636</p></td>
 <td><p>571</p></td>
 <td><p>5627.410156</p></td>
@@ -11955,7 +11955,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>35.00</p></td>
 <td><p>1.500000</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>5637</p></td>
 <td><p>571</p></td>
 <td><p>5584.109863</p></td>
@@ -11967,7 +11967,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>21.00</p></td>
 <td><p>2.265000</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>5650</p></td>
 <td><p>571</p></td>
 <td><p>4800.009766</p></td>
@@ -11979,7 +11979,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>21.299999</p></td>
 <td><p>5.836000</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>5670</p></td>
 <td><p>571</p></td>
 <td><p>5772.109863</p></td>
@@ -11991,7 +11991,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>24.00</p></td>
 <td><p>0.429200</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>5691</p></td>
 <td><p>571</p></td>
 <td><p>5816.220215</p></td>
@@ -12003,7 +12003,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>8.422000</p></td>
 <td><p>1.776000</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>5692</p></td>
 <td><p>571</p></td>
 <td><p>5815.700195</p></td>
@@ -12015,7 +12015,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>8.422000</p></td>
 <td><p>1.776000</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>5693</p></td>
 <td><p>571</p></td>
 <td><p>5783.060059</p></td>
@@ -12027,7 +12027,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>2.422000</p></td>
 <td><p>0.881900</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>5694</p></td>
 <td><p>571</p></td>
 <td><p>5782.740234</p></td>
@@ -12039,7 +12039,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>2.422000</p></td>
 <td><p>0.886600</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>5774</p></td>
 <td><p>571</p></td>
 <td><p>5805.950195</p></td>
@@ -12051,7 +12051,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>8.112000</p></td>
 <td><p>3.309000</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>5869</p></td>
 <td><p>571</p></td>
 <td><p>3608.189941</p></td>
@@ -12063,7 +12063,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>24.00</p></td>
 <td><p>5.341000</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>4696</p></td>
 <td><p>572</p></td>
 <td><p>1328.719971</p></td>
@@ -12075,7 +12075,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>4697</p></td>
 <td><p>572</p></td>
 <td><p>1243.300049</p></td>
@@ -12087,7 +12087,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>4927</p></td>
 <td><p>572</p></td>
 <td><p>1200.329956</p></td>
@@ -12099,7 +12099,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>40.00</p></td>
 <td><p>0.887500</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>4928</p></td>
 <td><p>572</p></td>
 <td><p>1223.609985</p></td>
@@ -12111,7 +12111,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>40.00</p></td>
 <td><p>5.617000</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>4929</p></td>
 <td><p>572</p></td>
 <td><p>1359.180054</p></td>
@@ -12123,7 +12123,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>40.00</p></td>
 <td><p>5.615000</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>4930</p></td>
 <td><p>572</p></td>
 <td><p>1371.510010</p></td>
@@ -12135,7 +12135,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>40.00</p></td>
 <td><p>0.887500</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>4931</p></td>
 <td><p>572</p></td>
 <td><p>1299.760010</p></td>
@@ -12147,7 +12147,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>40.00</p></td>
 <td><p>0.125000</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>4932</p></td>
 <td><p>572</p></td>
 <td><p>1274.510010</p></td>
@@ -12159,7 +12159,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>40.00</p></td>
 <td><p>0.125000</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>4933</p></td>
 <td><p>572</p></td>
 <td><p>1246.060059</p></td>
@@ -12171,7 +12171,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>40.00</p></td>
 <td><p>1.675000</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>4934</p></td>
 <td><p>572</p></td>
 <td><p>1305.439941</p></td>
@@ -12183,7 +12183,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>40.00</p></td>
 <td><p>1.675000</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>4935</p></td>
 <td><p>572</p></td>
 <td><p>1321.619995</p></td>
@@ -12195,7 +12195,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>40.00</p></td>
 <td><p>1.675000</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>4936</p></td>
 <td><p>572</p></td>
 <td><p>1269.119995</p></td>
@@ -12207,7 +12207,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>40.00</p></td>
 <td><p>1.675000</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>4941</p></td>
 <td><p>572</p></td>
 <td><p>1285.359985</p></td>
@@ -12219,7 +12219,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>20.00</p></td>
 <td><p>2.479000</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>5041</p></td>
 <td><p>572</p></td>
 <td><p>1285.359985</p></td>
@@ -12231,7 +12231,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>20.00</p></td>
 <td><p>2.479000</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>5042</p></td>
 <td><p>572</p></td>
 <td><p>1285.359985</p></td>
@@ -12243,7 +12243,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>20.00</p></td>
 <td><p>2.479000</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>4741</p></td>
 <td><p>574</p></td>
 <td><p>136.729004</p></td>
@@ -12255,7 +12255,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>70.940002</p></td>
 <td><p>1.900000</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>4757</p></td>
 <td><p>574</p></td>
 <td><p>260.497009</p></td>
@@ -12267,7 +12267,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>43.360001</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>4762</p></td>
 <td><p>574</p></td>
 <td><p>164.324997</p></td>
@@ -12279,7 +12279,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>12.080000</p></td>
 <td><p>3.473000</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>4764</p></td>
 <td><p>574</p></td>
 <td><p>168.774002</p></td>
@@ -12291,7 +12291,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>11.110000</p></td>
 <td><p>3.473000</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>4791</p></td>
 <td><p>574</p></td>
 <td><p>377.471039</p></td>
@@ -12303,7 +12303,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.277800</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>4792</p></td>
 <td><p>574</p></td>
 <td><p>373.926270</p></td>
@@ -12315,7 +12315,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>4793</p></td>
 <td><p>574</p></td>
 <td><p>369.697845</p></td>
@@ -12327,7 +12327,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>4838</p></td>
 <td><p>574</p></td>
 <td><p>273.721985</p></td>
@@ -12339,7 +12339,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>4743</p></td>
 <td><p>575</p></td>
 <td><p>595.190002</p></td>
@@ -12351,7 +12351,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>12.00</p></td>
 <td><p>6.269000</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>4991</p></td>
 <td><p>575</p></td>
 <td><p>330.903015</p></td>
@@ -12363,7 +12363,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>30.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>5140</p></td>
 <td><p>575</p></td>
 <td><p>312.645996</p></td>
@@ -12375,7 +12375,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>35.230000</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>4954</p></td>
 <td><p>576</p></td>
 <td><p>184.843994</p></td>
@@ -12387,7 +12387,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>20.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>4955</p></td>
 <td><p>576</p></td>
 <td><p>184.843994</p></td>
@@ -12399,7 +12399,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>20.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>4981</p></td>
 <td><p>576</p></td>
 <td><p>145.759003</p></td>
@@ -12411,7 +12411,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>10.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>5004</p></td>
 <td><p>576</p></td>
 <td><p>601.693970</p></td>
@@ -12423,7 +12423,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>100.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>5001</p></td>
 <td><p>578</p></td>
 <td><p>1084.349976</p></td>
@@ -12435,7 +12435,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>100.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>4853</p></td>
 <td><p>580</p></td>
 <td><p>1595.599976</p></td>
@@ -12447,7 +12447,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>33.689999</p></td>
 <td><p>5.576000</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>4891</p></td>
 <td><p>580</p></td>
 <td><p>1797.290039</p></td>
@@ -12459,7 +12459,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>16.770000</p></td>
 <td><p>6.264000</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>4937</p></td>
 <td><p>580</p></td>
 <td><p>1807.270020</p></td>
@@ -12471,7 +12471,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>17.629999</p></td>
 <td><p>5.953000</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>5626</p></td>
 <td><p>580</p></td>
 <td><p>1766.939941</p></td>
@@ -12483,7 +12483,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>5652</p></td>
 <td><p>580</p></td>
 <td><p>1772.630005</p></td>
@@ -12495,7 +12495,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>71.400002</p></td>
 <td><p>2.253000</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>5664</p></td>
 <td><p>580</p></td>
 <td><p>1772.939941</p></td>
@@ -12507,7 +12507,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>71.400002</p></td>
 <td><p>2.253000</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>5681</p></td>
 <td><p>580</p></td>
 <td><p>1703.890015</p></td>
@@ -12519,7 +12519,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>71.400002</p></td>
 <td><p>3.123000</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>5682</p></td>
 <td><p>580</p></td>
 <td><p>1698.939941</p></td>
@@ -12531,7 +12531,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>71.400002</p></td>
 <td><p>3.105000</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>5684</p></td>
 <td><p>580</p></td>
 <td><p>1681.660034</p></td>
@@ -12543,7 +12543,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>48.310001</p></td>
 <td><p>5.903000</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>5685</p></td>
 <td><p>580</p></td>
 <td><p>1645.880005</p></td>
@@ -12555,7 +12555,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>48.310001</p></td>
 <td><p>5.076000</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>4849</p></td>
 <td><p>585</p></td>
 <td><p>231.891006</p></td>
@@ -12567,7 +12567,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>100.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>4885</p></td>
 <td><p>585</p></td>
 <td><p>-5.894530</p></td>
@@ -12579,7 +12579,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>7.543000</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>5085</p></td>
 <td><p>595</p></td>
 <td><p>1807.489990</p></td>
@@ -12591,7 +12591,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>4.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>5148</p></td>
 <td><p>595</p></td>
 <td><p>1427.339966</p></td>
@@ -12603,7 +12603,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>4.00</p></td>
 <td><p>3.610000</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>5181</p></td>
 <td><p>595</p></td>
 <td><p>2235.439941</p></td>
@@ -12615,7 +12615,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>6.00</p></td>
 <td><p>0.470500</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>5249</p></td>
 <td><p>595</p></td>
 <td><p>2110.989990</p></td>
@@ -12627,7 +12627,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>5250</p></td>
 <td><p>595</p></td>
 <td><p>2199.550049</p></td>
@@ -12639,7 +12639,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>1.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>5251</p></td>
 <td><p>595</p></td>
 <td><p>2148.530029</p></td>
@@ -12651,7 +12651,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>5252</p></td>
 <td><p>595</p></td>
 <td><p>2233.899902</p></td>
@@ -12663,7 +12663,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>5253</p></td>
 <td><p>595</p></td>
 <td><p>2325.310059</p></td>
@@ -12675,7 +12675,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>5256</p></td>
 <td><p>595</p></td>
 <td><p>2384.659912</p></td>
@@ -12687,7 +12687,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>5291</p></td>
 <td><p>595</p></td>
 <td><p>1561.310059</p></td>
@@ -12699,7 +12699,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>5795</p></td>
 <td><p>595</p></td>
 <td><p>2107.149902</p></td>
@@ -12711,7 +12711,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>12.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>5012</p></td>
 <td><p>599</p></td>
 <td><p>1153.869995</p></td>
@@ -12723,7 +12723,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>25.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>5000</p></td>
 <td><p>600</p></td>
 <td><p>-519.182007</p></td>
@@ -12735,7 +12735,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>15.00</p></td>
 <td><p>2.364000</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>5113</p></td>
 <td><p>601</p></td>
 <td><p>404.282013</p></td>
@@ -12747,7 +12747,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>5.00</p></td>
 <td><p>0.310800</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>5115</p></td>
 <td><p>601</p></td>
 <td><p>405.541992</p></td>
@@ -12759,7 +12759,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>5.00</p></td>
 <td><p>0.698600</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>5292</p></td>
 <td><p>601</p></td>
 <td><p>549.182007</p></td>
@@ -12771,7 +12771,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>3.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>5082</p></td>
 <td><p>602</p></td>
 <td><p>1225.810059</p></td>
@@ -12783,7 +12783,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>20.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>5083</p></td>
 <td><p>602</p></td>
 <td><p>1187.089966</p></td>
@@ -12795,7 +12795,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>20.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>5084</p></td>
 <td><p>602</p></td>
 <td><p>1174.979980</p></td>
@@ -12807,7 +12807,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>20.00</p></td>
 <td><p>4.712000</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>5091</p></td>
 <td><p>602</p></td>
 <td><p>1330.839966</p></td>
@@ -12819,7 +12819,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>30.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>5357</p></td>
 <td><p>603</p></td>
 <td><p>2133.780029</p></td>
@@ -12831,7 +12831,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>15.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>5358</p></td>
 <td><p>603</p></td>
 <td><p>-811.104004</p></td>
@@ -12843,7 +12843,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>70.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>5359</p></td>
 <td><p>603</p></td>
 <td><p>-841.468018</p></td>
@@ -12855,7 +12855,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>70.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>5366</p></td>
 <td><p>603</p></td>
 <td><p>477.850006</p></td>
@@ -12867,7 +12867,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>5369</p></td>
 <td><p>603</p></td>
 <td><p>139.018997</p></td>
@@ -12879,7 +12879,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>5381</p></td>
 <td><p>603</p></td>
 <td><p>-927.00</p></td>
@@ -12891,7 +12891,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>170.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>5388</p></td>
 <td><p>603</p></td>
 <td><p>-771.429993</p></td>
@@ -12903,7 +12903,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>5390</p></td>
 <td><p>603</p></td>
 <td><p>1800.00</p></td>
@@ -12915,7 +12915,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>30.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>5398</p></td>
 <td><p>603</p></td>
 <td><p>583.054993</p></td>
@@ -12927,7 +12927,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>60.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>5399</p></td>
 <td><p>603</p></td>
 <td><p>1752.900024</p></td>
@@ -12939,7 +12939,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>5.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>5400</p></td>
 <td><p>603</p></td>
 <td><p>1637.890015</p></td>
@@ -12951,7 +12951,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>13.340000</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>5401</p></td>
 <td><p>603</p></td>
 <td><p>1640.770020</p></td>
@@ -12963,7 +12963,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>13.340000</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>5402</p></td>
 <td><p>603</p></td>
 <td><p>2309.719971</p></td>
@@ -12975,7 +12975,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>44.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>5414</p></td>
 <td><p>603</p></td>
 <td><p>-349.794006</p></td>
@@ -12987,7 +12987,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>102.699997</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>5415</p></td>
 <td><p>603</p></td>
 <td><p>-181.199997</p></td>
@@ -12999,7 +12999,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>102.699997</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>5416</p></td>
 <td><p>603</p></td>
 <td><p>74.258499</p></td>
@@ -13011,7 +13011,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>24.480000</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>5417</p></td>
 <td><p>603</p></td>
 <td><p>117.374001</p></td>
@@ -13023,7 +13023,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>24.480000</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>5420</p></td>
 <td><p>603</p></td>
 <td><p>-705.737000</p></td>
@@ -13035,7 +13035,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>5423</p></td>
 <td><p>603</p></td>
 <td><p>131.035995</p></td>
@@ -13047,7 +13047,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>5426</p></td>
 <td><p>603</p></td>
 <td><p>-54.910198</p></td>
@@ -13059,7 +13059,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>24.480000</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>5427</p></td>
 <td><p>603</p></td>
 <td><p>588.018005</p></td>
@@ -13071,7 +13071,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>60.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>5428</p></td>
 <td><p>603</p></td>
 <td><p>-401.944000</p></td>
@@ -13083,7 +13083,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>24.480000</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>5432</p></td>
 <td><p>603</p></td>
 <td><p>2307.100098</p></td>
@@ -13095,7 +13095,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>1.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>5433</p></td>
 <td><p>603</p></td>
 <td><p>1629.079956</p></td>
@@ -13107,7 +13107,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>4.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>5442</p></td>
 <td><p>603</p></td>
 <td><p>44.472099</p></td>
@@ -13119,7 +13119,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>24.480000</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>5443</p></td>
 <td><p>603</p></td>
 <td><p>-513.848999</p></td>
@@ -13131,7 +13131,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>102.699997</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>5231</p></td>
 <td><p>604</p></td>
 <td><p>1896.959961</p></td>
@@ -13143,7 +13143,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>20.00</p></td>
 <td><p>1.553000</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>5233</p></td>
 <td><p>604</p></td>
 <td><p>1913.790039</p></td>
@@ -13155,7 +13155,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>20.00</p></td>
 <td><p>3.144000</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>5276</p></td>
 <td><p>604</p></td>
 <td><p>1981.119995</p></td>
@@ -13167,7 +13167,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>20.00</p></td>
 <td><p>3.141000</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>5277</p></td>
 <td><p>604</p></td>
 <td><p>1899.310059</p></td>
@@ -13179,7 +13179,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>20.00</p></td>
 <td><p>4.703000</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>5354</p></td>
 <td><p>607</p></td>
 <td><p>1357.060059</p></td>
@@ -13191,7 +13191,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>5355</p></td>
 <td><p>607</p></td>
 <td><p>1367.550049</p></td>
@@ -13203,7 +13203,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>5356</p></td>
 <td><p>607</p></td>
 <td><p>978.716980</p></td>
@@ -13215,7 +13215,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>5211</p></td>
 <td><p>608</p></td>
 <td><p>1798.739990</p></td>
@@ -13227,7 +13227,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>8.00</p></td>
 <td><p>0.012300</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>5017</p></td>
 <td><p>609</p></td>
 <td><p>2990.570068</p></td>
@@ -13239,7 +13239,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>5029</p></td>
 <td><p>609</p></td>
 <td><p>2985.489990</p></td>
@@ -13251,7 +13251,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>5086</p></td>
 <td><p>609</p></td>
 <td><p>1410.060059</p></td>
@@ -13263,7 +13263,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>5087</p></td>
 <td><p>609</p></td>
 <td><p>1877.310059</p></td>
@@ -13275,7 +13275,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>9.063000</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>5088</p></td>
 <td><p>609</p></td>
 <td><p>1407.900024</p></td>
@@ -13287,7 +13287,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>19.309999</p></td>
 <td><p>5.489000</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>5089</p></td>
 <td><p>609</p></td>
 <td><p>1392.849976</p></td>
@@ -13299,7 +13299,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>19.309999</p></td>
 <td><p>5.489000</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>5094</p></td>
 <td><p>609</p></td>
 <td><p>1319.810059</p></td>
@@ -13311,7 +13311,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>5.212000</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>5099</p></td>
 <td><p>609</p></td>
 <td><p>1322.280029</p></td>
@@ -13323,7 +13323,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>5.212000</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>5100</p></td>
 <td><p>609</p></td>
 <td><p>1320.780029</p></td>
@@ -13335,7 +13335,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>5.733000</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>5101</p></td>
 <td><p>609</p></td>
 <td><p>1330.719971</p></td>
@@ -13347,7 +13347,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>5.075000</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>5102</p></td>
 <td><p>609</p></td>
 <td><p>1321.060059</p></td>
@@ -13359,7 +13359,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>4.644000</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>5103</p></td>
 <td><p>609</p></td>
 <td><p>1328.689941</p></td>
@@ -13371,7 +13371,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>4.924000</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>5104</p></td>
 <td><p>609</p></td>
 <td><p>1330.099976</p></td>
@@ -13383,7 +13383,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>4.186000</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>5105</p></td>
 <td><p>609</p></td>
 <td><p>1330.719971</p></td>
@@ -13395,7 +13395,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>4.800000</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>5106</p></td>
 <td><p>609</p></td>
 <td><p>1330.500000</p></td>
@@ -13407,7 +13407,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>2.694000</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>5107</p></td>
 <td><p>609</p></td>
 <td><p>1321.790039</p></td>
@@ -13419,7 +13419,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>5.814000</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>5228</p></td>
 <td><p>615</p></td>
 <td><p>3242.989990</p></td>
@@ -13431,7 +13431,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>5229</p></td>
 <td><p>615</p></td>
 <td><p>3244.340088</p></td>
@@ -13443,7 +13443,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>5241</p></td>
 <td><p>615</p></td>
 <td><p>3228.399902</p></td>
@@ -13455,7 +13455,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>25.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>5342</p></td>
 <td><p>616</p></td>
 <td><p>754.596985</p></td>
@@ -13467,7 +13467,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>30.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>5326</p></td>
 <td><p>617</p></td>
 <td><p>1330.00</p></td>
@@ -13479,7 +13479,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>20.00</p></td>
 <td><p>90.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>5328</p></td>
 <td><p>617</p></td>
 <td><p>1289.719971</p></td>
@@ -13491,7 +13491,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>20.00</p></td>
 <td><p>0.003541</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>5329</p></td>
 <td><p>617</p></td>
 <td><p>1292.050049</p></td>
@@ -13503,7 +13503,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>20.00</p></td>
 <td><p>0.003541</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>5330</p></td>
 <td><p>617</p></td>
 <td><p>1238.079956</p></td>
@@ -13515,7 +13515,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>9.00</p></td>
 <td><p>4.711000</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>5331</p></td>
 <td><p>617</p></td>
 <td><p>1348.500000</p></td>
@@ -13527,7 +13527,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>9.00</p></td>
 <td><p>4.703000</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>5343</p></td>
 <td><p>617</p></td>
 <td><p>1330.00</p></td>
@@ -13539,7 +13539,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>20.00</p></td>
 <td><p>90.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>5344</p></td>
 <td><p>617</p></td>
 <td><p>1330.00</p></td>
@@ -13551,7 +13551,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>20.00</p></td>
 <td><p>0.468000</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>5347</p></td>
 <td><p>617</p></td>
 <td><p>1249.430054</p></td>
@@ -13563,7 +13563,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>5348</p></td>
 <td><p>617</p></td>
 <td><p>1333.510010</p></td>
@@ -13575,7 +13575,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>5224</p></td>
 <td><p>618</p></td>
 <td><p>765.145996</p></td>
@@ -13587,7 +13587,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>10.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>5226</p></td>
 <td><p>618</p></td>
 <td><p>764.301025</p></td>
@@ -13599,7 +13599,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>10.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>5447</p></td>
 <td><p>618</p></td>
 <td><p>801.663025</p></td>
@@ -13611,7 +13611,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>50.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>5473</p></td>
 <td><p>618</p></td>
 <td><p>743.663025</p></td>
@@ -13623,7 +13623,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>10.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>5474</p></td>
 <td><p>618</p></td>
 <td><p>783.203003</p></td>
@@ -13635,7 +13635,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>10.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>5213</p></td>
 <td><p>619</p></td>
 <td><p>332.397003</p></td>
@@ -13647,7 +13647,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>7.00</p></td>
 <td><p>0.631000</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>5235</p></td>
 <td><p>619</p></td>
 <td><p>523.231018</p></td>
@@ -13659,7 +13659,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>8.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>5322</p></td>
 <td><p>619</p></td>
 <td><p>548.745972</p></td>
@@ -13671,7 +13671,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>53.880001</p></td>
 <td><p>0.161400</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>5262</p></td>
 <td><p>624</p></td>
 <td><p>-517.960022</p></td>
@@ -13683,7 +13683,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>20.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>5530</p></td>
 <td><p>628</p></td>
 <td><p>1049.310059</p></td>
@@ -13695,7 +13695,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>5535</p></td>
 <td><p>628</p></td>
 <td><p>1216.880005</p></td>
@@ -13707,7 +13707,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>50.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>5536</p></td>
 <td><p>628</p></td>
 <td><p>350.885010</p></td>
@@ -13719,7 +13719,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>50.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>5555</p></td>
 <td><p>628</p></td>
 <td><p>340.625000</p></td>
@@ -13731,7 +13731,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>5604</p></td>
 <td><p>631</p></td>
 <td><p>4396.569824</p></td>
@@ -13743,7 +13743,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>60.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>5608</p></td>
 <td><p>631</p></td>
 <td><p>51.470501</p></td>
@@ -13755,7 +13755,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>20.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>5609</p></td>
 <td><p>631</p></td>
 <td><p>61.191002</p></td>
@@ -13767,7 +13767,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>20.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>5611</p></td>
 <td><p>631</p></td>
 <td><p>-142.085007</p></td>
@@ -13779,7 +13779,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>30.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>5612</p></td>
 <td><p>631</p></td>
 <td><p>-205.858002</p></td>
@@ -13791,7 +13791,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>30.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>5616</p></td>
 <td><p>631</p></td>
 <td><p>4356.879883</p></td>
@@ -13803,7 +13803,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>5617</p></td>
 <td><p>631</p></td>
 <td><p>4313.910156</p></td>
@@ -13815,7 +13815,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>5618</p></td>
 <td><p>631</p></td>
 <td><p>4386.040039</p></td>
@@ -13827,7 +13827,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>5619</p></td>
 <td><p>631</p></td>
 <td><p>4356.750000</p></td>
@@ -13839,7 +13839,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>20.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>5623</p></td>
 <td><p>631</p></td>
 <td><p>4181.279785</p></td>
@@ -13851,7 +13851,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>1.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>5628</p></td>
 <td><p>631</p></td>
 <td><p>-497.942993</p></td>
@@ -13863,7 +13863,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>50.00</p></td>
 <td><p>5.017000</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>5629</p></td>
 <td><p>631</p></td>
 <td><p>-370.787994</p></td>
@@ -13875,7 +13875,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>50.00</p></td>
 <td><p>4.413000</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>5630</p></td>
 <td><p>631</p></td>
 <td><p>-504.694000</p></td>
@@ -13887,7 +13887,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>50.00</p></td>
 <td><p>4.203000</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>5631</p></td>
 <td><p>631</p></td>
 <td><p>-375.691010</p></td>
@@ -13899,7 +13899,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>50.00</p></td>
 <td><p>5.062000</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>5647</p></td>
 <td><p>631</p></td>
 <td><p>4360.089844</p></td>
@@ -13911,7 +13911,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>30.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>5649</p></td>
 <td><p>631</p></td>
 <td><p>4234.189941</p></td>
@@ -13923,7 +13923,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>20.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>5668</p></td>
 <td><p>631</p></td>
 <td><p>85.939201</p></td>
@@ -13935,7 +13935,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>18.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>5698</p></td>
 <td><p>631</p></td>
 <td><p>-465.351990</p></td>
@@ -13947,7 +13947,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>20.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>5700</p></td>
 <td><p>631</p></td>
 <td><p>4120.350098</p></td>
@@ -13959,7 +13959,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>20.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>5708</p></td>
 <td><p>631</p></td>
 <td><p>4694.490234</p></td>
@@ -13971,7 +13971,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>1.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>5709</p></td>
 <td><p>631</p></td>
 <td><p>-543.424988</p></td>
@@ -13983,7 +13983,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>40.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>5718</p></td>
 <td><p>631</p></td>
 <td><p>4357.089844</p></td>
@@ -13995,7 +13995,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>5729</p></td>
 <td><p>631</p></td>
 <td><p>4489.020020</p></td>
@@ -14007,7 +14007,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>30.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>5730</p></td>
 <td><p>631</p></td>
 <td><p>4245.879883</p></td>
@@ -14019,7 +14019,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>40.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>5732</p></td>
 <td><p>631</p></td>
 <td><p>-333.615997</p></td>
@@ -14031,7 +14031,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>5736</p></td>
 <td><p>631</p></td>
 <td><p>28.501699</p></td>
@@ -14043,7 +14043,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>20.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>5744</p></td>
 <td><p>631</p></td>
 <td><p>4354.649902</p></td>
@@ -14055,7 +14055,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>5745</p></td>
 <td><p>631</p></td>
 <td><p>4457.759766</p></td>
@@ -14067,7 +14067,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>5746</p></td>
 <td><p>631</p></td>
 <td><p>4271.220215</p></td>
@@ -14079,7 +14079,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>5747</p></td>
 <td><p>631</p></td>
 <td><p>4256.709961</p></td>
@@ -14091,7 +14091,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>5748</p></td>
 <td><p>631</p></td>
 <td><p>4257.649902</p></td>
@@ -14103,7 +14103,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>5749</p></td>
 <td><p>631</p></td>
 <td><p>4357.569824</p></td>
@@ -14115,7 +14115,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>5772</p></td>
 <td><p>631</p></td>
 <td><p>-458.920013</p></td>
@@ -14127,7 +14127,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>20.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>5642</p></td>
 <td><p>632</p></td>
 <td><p>4925.850098</p></td>
@@ -14139,7 +14139,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>25.00</p></td>
 <td><p>0.464800</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>5672</p></td>
 <td><p>632</p></td>
 <td><p>5661.350098</p></td>
@@ -14151,7 +14151,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>16.670000</p></td>
 <td><p>5.573000</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>5688</p></td>
 <td><p>632</p></td>
 <td><p>5684.479980</p></td>
@@ -14163,7 +14163,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>20.00</p></td>
 <td><p>0.908200</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>5475</p></td>
 <td><p>649</p></td>
 <td><p>744.226013</p></td>
@@ -14175,7 +14175,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>30.00</p></td>
 <td><p>1.570000</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>5508</p></td>
 <td><p>649</p></td>
 <td><p>563.455017</p></td>
@@ -14187,7 +14187,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>14.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>5562</p></td>
 <td><p>649</p></td>
 <td><p>563.645996</p></td>
@@ -14199,7 +14199,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>4.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>5491</p></td>
 <td><p>650</p></td>
 <td><p>790.564026</p></td>
@@ -14211,7 +14211,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>20.00</p></td>
 <td><p>1.581000</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>5492</p></td>
 <td><p>650</p></td>
 <td><p>793.122986</p></td>
@@ -14223,7 +14223,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>20.00</p></td>
 <td><p>1.576000</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>5510</p></td>
 <td><p>650</p></td>
 <td><p>819.268982</p></td>
@@ -14235,7 +14235,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>15.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>5573</p></td>
 <td><p>658</p></td>
 <td><p>464.421997</p></td>
@@ -14247,7 +14247,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>40.00</p></td>
 <td><p>6.253000</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>5578</p></td>
 <td><p>658</p></td>
 <td><p>859.281006</p></td>
@@ -14259,7 +14259,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>40.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>5579</p></td>
 <td><p>658</p></td>
 <td><p>960.056030</p></td>
@@ -14271,7 +14271,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>40.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>5580</p></td>
 <td><p>658</p></td>
 <td><p>969.913025</p></td>
@@ -14283,7 +14283,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>40.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>5581</p></td>
 <td><p>658</p></td>
 <td><p>1066.619995</p></td>
@@ -14295,7 +14295,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>40.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>5582</p></td>
 <td><p>658</p></td>
 <td><p>1002.650024</p></td>
@@ -14307,7 +14307,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>30.00</p></td>
 <td><p>6.255000</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>5583</p></td>
 <td><p>658</p></td>
 <td><p>1038.589966</p></td>
@@ -14319,7 +14319,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>30.00</p></td>
 <td><p>0.757700</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>5584</p></td>
 <td><p>658</p></td>
 <td><p>1059.040039</p></td>
@@ -14331,7 +14331,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>30.00</p></td>
 <td><p>1.273000</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>5585</p></td>
 <td><p>658</p></td>
 <td><p>1066.290039</p></td>
@@ -14343,7 +14343,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>30.00</p></td>
 <td><p>1.273000</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>5586</p></td>
 <td><p>658</p></td>
 <td><p>1073.050049</p></td>
@@ -14355,7 +14355,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>30.00</p></td>
 <td><p>1.273000</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>5587</p></td>
 <td><p>658</p></td>
 <td><p>1077.810059</p></td>
@@ -14367,7 +14367,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>30.00</p></td>
 <td><p>1.660000</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>5588</p></td>
 <td><p>658</p></td>
 <td><p>822.989990</p></td>
@@ -14379,7 +14379,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>40.00</p></td>
 <td><p>5.484000</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>5589</p></td>
 <td><p>658</p></td>
 <td><p>752.456970</p></td>
@@ -14391,7 +14391,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>40.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>5593</p></td>
 <td><p>658</p></td>
 <td><p>706.056030</p></td>
@@ -14403,7 +14403,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>40.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>5594</p></td>
 <td><p>658</p></td>
 <td><p>619.679016</p></td>
@@ -14415,7 +14415,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>40.00</p></td>
 <td><p>4.380000</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>5595</p></td>
 <td><p>658</p></td>
 <td><p>622.713989</p></td>
@@ -14427,7 +14427,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>40.00</p></td>
 <td><p>4.646000</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>5596</p></td>
 <td><p>658</p></td>
 <td><p>656.747009</p></td>
@@ -14439,7 +14439,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>40.00</p></td>
 <td><p>5.317000</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>5597</p></td>
 <td><p>658</p></td>
 <td><p>726.296997</p></td>
@@ -14451,7 +14451,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>40.00</p></td>
 <td><p>0.298700</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>5598</p></td>
 <td><p>658</p></td>
 <td><p>777.763977</p></td>
@@ -14463,7 +14463,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>40.00</p></td>
 <td><p>0.775500</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>5599</p></td>
 <td><p>658</p></td>
 <td><p>805.752014</p></td>
@@ -14475,7 +14475,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>40.00</p></td>
 <td><p>0.775500</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>5600</p></td>
 <td><p>658</p></td>
 <td><p>794.789978</p></td>
@@ -14487,7 +14487,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>40.00</p></td>
 <td><p>2.405000</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>5601</p></td>
 <td><p>658</p></td>
 <td><p>763.643982</p></td>
@@ -14499,7 +14499,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>40.00</p></td>
 <td><p>2.405000</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>5602</p></td>
 <td><p>658</p></td>
 <td><p>662.418030</p></td>
@@ -14511,7 +14511,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>40.00</p></td>
 <td><p>2.405000</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>5633</p></td>
 <td><p>658</p></td>
 <td><p>1006.859985</p></td>
@@ -14523,7 +14523,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>5643</p></td>
 <td><p>658</p></td>
 <td><p>423.846985</p></td>
@@ -14535,7 +14535,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>5683</p></td>
 <td><p>658</p></td>
 <td><p>1189.729980</p></td>
@@ -14547,7 +14547,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>6.00</p></td>
 <td><p>5.560000</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>5570</p></td>
 <td><p>668</p></td>
 <td><p>5381.020020</p></td>
@@ -14559,7 +14559,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>10.00</p></td>
 <td><p>2.373000</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>5605</p></td>
 <td><p>668</p></td>
 <td><p>5539.649902</p></td>
@@ -14571,7 +14571,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>72.139999</p></td>
 <td><p>3.942000</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>5632</p></td>
 <td><p>668</p></td>
 <td><p>5244.520020</p></td>
@@ -14583,7 +14583,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>37.860001</p></td>
 <td><p>5.511000</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>5646</p></td>
 <td><p>668</p></td>
 <td><p>5228.240234</p></td>
@@ -14595,7 +14595,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>25.00</p></td>
 <td><p>5.528000</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>5660</p></td>
 <td><p>668</p></td>
 <td><p>5276.169922</p></td>
@@ -14607,7 +14607,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>37.860001</p></td>
 <td><p>5.549000</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>5689</p></td>
 <td><p>668</p></td>
 <td><p>5249.520020</p></td>
@@ -14619,7 +14619,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>30.00</p></td>
 <td><p>5.508000</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>5697</p></td>
 <td><p>668</p></td>
 <td><p>5309.560059</p></td>
@@ -14631,7 +14631,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>5740</p></td>
 <td><p>668</p></td>
 <td><p>5361.100098</p></td>
@@ -14643,7 +14643,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>6.00</p></td>
 <td><p>0.807400</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>5742</p></td>
 <td><p>668</p></td>
 <td><p>5374.439941</p></td>
@@ -14655,7 +14655,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>6.00</p></td>
 <td><p>0.807400</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>5752</p></td>
 <td><p>668</p></td>
 <td><p>5433.129883</p></td>
@@ -14667,7 +14667,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>30.00</p></td>
 <td><p>5.508000</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>5867</p></td>
 <td><p>724</p></td>
 <td><p>3152.080078</p></td>
@@ -14679,7 +14679,7 @@ This DBC contains information about the triggers of the in-game areas.
 <td><p>0.00</p></td>
 <td><p>0.00</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>5872</p></td>
 <td><p>724</p></td>
 <td><p>3286.800049</p></td>

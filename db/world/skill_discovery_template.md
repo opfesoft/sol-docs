@@ -18,7 +18,7 @@ This table controls the so called "discovery" system of learning spells. This sy
 <col width="12%" />
 </colgroup>
 <tbody>
-<tr class="odd">
+<tr>
 <td><p><strong>Field</strong></p></td>
 <td><p><strong>Type</strong></p></td>
 <td><p><strong>Attributes</strong></p></td>
@@ -28,7 +28,7 @@ This table controls the so called "discovery" system of learning spells. This sy
 <td><p><strong>Extra</strong></p></td>
 <td><p><strong>Comment</strong></p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#spellid">spellId</a></p></td>
 <td><p>mediumint(8)</p></td>
 <td><p>unsigned</p></td>
@@ -38,7 +38,7 @@ This table controls the so called "discovery" system of learning spells. This sy
 <td><p> </p></td>
 <td><p>SpellId of the discoverable spell</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#reqspell">reqSpell</a></p></td>
 <td><p>mediumint(8)</p></td>
 <td><p>unsigned</p></td>
@@ -48,7 +48,7 @@ This table controls the so called "discovery" system of learning spells. This sy
 <td><p> </p></td>
 <td><p>spell requirement</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#reqskillvalue">reqSkillValue</a></p></td>
 <td><p>smallint(5)</p></td>
 <td><p>unsigned</p></td>
@@ -58,7 +58,7 @@ This table controls the so called "discovery" system of learning spells. This sy
 <td><p> </p></td>
 <td><p>skill points requirement</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#chance">chance</a></p></td>
 <td><p>float</p></td>
 <td><p>signed</p></td>

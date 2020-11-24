@@ -2,7 +2,7 @@
 
 <table>
 <tbody>
-<tr class="even">
+<tr>
 <td><p><strong>Field</strong></p></td>
 <td><p><strong>Type</strong></p></td>
 <td><p><strong>Attributes</strong></p></td>
@@ -10,7 +10,7 @@
 <td><p><strong>Null</strong></p></td>
 <td><p><strong>Default</strong></p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#id">id</a></p></td>
 <td><p>mediumint(8)</p></td>
 <td><p>unasigned</p></td>
@@ -18,7 +18,7 @@
 <td><p>NO</p></td>
 <td><p>0</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#ghost_zone">ghost_zone</a></p></td>
 <td><p>mediumint(8)</p></td>
 <td><p>unasigned</p></td>
@@ -26,7 +26,7 @@
 <td><p>NO</p></td>
 <td><p>0</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#faction">faction</a></p></td>
 <td><p>smallint(5)</p></td>
 <td><p>unasigned</p></td>
@@ -34,7 +34,7 @@
 <td><p>NO</p></td>
 <td><p>0</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>Comment</p></td>
 <td><p>text</p></td>
 <td><p>unasigned</p></td>

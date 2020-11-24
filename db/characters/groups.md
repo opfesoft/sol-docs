@@ -18,7 +18,7 @@ This table holds basic info about groups.
 <col width="12%" />
 </colgroup>
 <tbody>
-<tr class="odd">
+<tr>
 <td><p><strong>Field</strong></p></td>
 <td><p><strong>Type</strong></p></td>
 <td><p><strong>Attributes</strong></p></td>
@@ -28,7 +28,7 @@ This table holds basic info about groups.
 <td><p><strong>Extra</strong></p></td>
 <td><p><strong>Comment</strong></p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#guid">guid</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
@@ -38,7 +38,7 @@ This table holds basic info about groups.
 <td> </td>
 <td> </td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#leaderguid">leaderGuid</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
@@ -48,7 +48,7 @@ This table holds basic info about groups.
 <td><p> </p></td>
 <td><p> </p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#lootmethod">lootMethod</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
@@ -58,7 +58,7 @@ This table holds basic info about groups.
 <td> </td>
 <td> </td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#looterguid">looterGuid</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
@@ -68,7 +68,7 @@ This table holds basic info about groups.
 <td><p> </p></td>
 <td><p> </p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#lootthreshold">lootThreshold</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
@@ -78,7 +78,7 @@ This table holds basic info about groups.
 <td> </td>
 <td> </td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#icon1-8">icon1</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
@@ -88,7 +88,7 @@ This table holds basic info about groups.
 <td><p> </p></td>
 <td><p> </p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#icon1-8">icon2</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
@@ -98,7 +98,7 @@ This table holds basic info about groups.
 <td> </td>
 <td> </td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#icon1-8">icon3</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
@@ -108,7 +108,7 @@ This table holds basic info about groups.
 <td><p> </p></td>
 <td><p> </p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#icon1-8">icon4</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
@@ -118,7 +118,7 @@ This table holds basic info about groups.
 <td> </td>
 <td> </td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#icon1-8">icon5</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
@@ -128,7 +128,7 @@ This table holds basic info about groups.
 <td><p> </p></td>
 <td> </td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#icon1-8">icon6</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
@@ -138,7 +138,7 @@ This table holds basic info about groups.
 <td> </td>
 <td> </td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#icon1-8">icon7</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
@@ -148,7 +148,7 @@ This table holds basic info about groups.
 <td> </td>
 <td> </td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#icon1-8">icon8</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
@@ -158,7 +158,7 @@ This table holds basic info about groups.
 <td> </td>
 <td> </td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#grouptype">groupType</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
@@ -168,7 +168,7 @@ This table holds basic info about groups.
 <td> </td>
 <td> </td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#difficulty">difficulty</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
@@ -178,7 +178,7 @@ This table holds basic info about groups.
 <td><p> </p></td>
 <td><p> </p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#raiddifficulty">raiddifficulty</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
@@ -217,27 +217,27 @@ The GUID of the character. See characters.guid
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td><p>0</p></td>
 <td><p>FREE_FOR_ALL</p></td>
 <td><p> </p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>1</p></td>
 <td><p>ROUND_ROBIN</p></td>
 <td><p> </p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>2</p></td>
 <td><p>MASTER_LOOT</p></td>
 <td><p> </p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>3</p></td>
 <td><p>GROUP_LOOT</p></td>
 <td><p> </p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>4</p></td>
 <td><p>NEED_BEFORE_GREED</p></td>
 <td><p> </p></td>
@@ -274,32 +274,32 @@ If [lootMethod](#lootmethod) is not 2, then it's group leader's guid.
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td><p>0</p></td>
 <td><p>GROUPTYPE_NORMAL</p></td>
 <td><p> </p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>1</p></td>
 <td><p>GROUPTYPE_BG</p></td>
 <td><p> </p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>2</p></td>
 <td><p>GROUPTYPE_RAID</p></td>
 <td><p> </p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>3</p></td>
 <td><p>GROUPTYPE_BGRAID</p></td>
 <td><p>GROUPTYPE_BG + GROUPTYPE_RAID, // mask</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>4</p></td>
 <td><p>GROUPTYPE_UNK1</p></td>
 <td><p> </p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>8</p></td>
 <td><p>GROUPTYPE_LFG</p></td>
 <td><p> </p></td>

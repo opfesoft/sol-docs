@@ -14,7 +14,7 @@
 <col width="12%" />
 </colgroup>
 <tbody>
-<tr class="odd">
+<tr>
 <td><p><strong>Field</strong></p></td>
 <td><p><strong>Type</strong></p></td>
 <td><p><strong>Attributes</strong></p></td>
@@ -24,7 +24,7 @@
 <td><p><strong>Extra</strong></p></td>
 <td><p><strong>Comment</strong></p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#spell">spell</a></p></td>
 <td><p>mediumint(8)</p></td>
 <td><p>unsigned</p></td>
@@ -34,7 +34,7 @@
 <td><p> </p></td>
 <td><p>dummy spell id</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#effectid">effectId</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
@@ -44,7 +44,7 @@
 <td><p> </p></td>
 <td><p> </p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#pet">pet</a></p></td>
 <td><p>mediumint(8)</p></td>
 <td><p>unsigned</p></td>
@@ -54,7 +54,7 @@
 <td><p> </p></td>
 <td><p>pet id; 0 = all</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#aura">aura</a></p></td>
 <td><p>mediumint(8)</p></td>
 <td><p>unsigned</p></td>

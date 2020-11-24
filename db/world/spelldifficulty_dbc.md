@@ -18,7 +18,7 @@ This table contains spell data regarding cpp scripts. The id is called in the sc
 <col width="12%" />
 </colgroup>
 <tbody>
-<tr class="odd">
+<tr>
 <td><p><strong>Field</strong></p></td>
 <td><p><strong>Type</strong></p></td>
 <td><p><strong>Attributes</strong></p></td>
@@ -28,7 +28,7 @@ This table contains spell data regarding cpp scripts. The id is called in the sc
 <td><p><strong>Extra</strong></p></td>
 <td><p><strong>Comment</strong></p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#id">id</a></p></td>
 <td><p>int(11)</p></td>
 <td><p>unsigned</p></td>
@@ -38,7 +38,7 @@ This table contains spell data regarding cpp scripts. The id is called in the sc
 <td><p> </p></td>
 <td><p> </p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#spellid0">spellid0</a></p></td>
 <td><p>int(11)</p></td>
 <td><p>unsigned</p></td>
@@ -48,7 +48,7 @@ This table contains spell data regarding cpp scripts. The id is called in the sc
 <td><p> </p></td>
 <td><p> </p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#spellid1">spellid1</a></p></td>
 <td><p>int(11)</p></td>
 <td><p>unsigned</p></td>
@@ -58,7 +58,7 @@ This table contains spell data regarding cpp scripts. The id is called in the sc
 <td><p> </p></td>
 <td><p> </p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#spellid2">spellid2</a></p></td>
 <td><p>int(11)</p></td>
 <td><p>unsigned</p></td>
@@ -68,7 +68,7 @@ This table contains spell data regarding cpp scripts. The id is called in the sc
 <td><p> </p></td>
 <td><p> </p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#spellid3">spellid3</a></p></td>
 <td><p>int(11)</p></td>
 <td><p>unsigned</p></td>

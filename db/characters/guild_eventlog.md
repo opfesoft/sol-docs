@@ -16,7 +16,7 @@
 <col width="12%" />
 </colgroup>
 <tbody>
-<tr class="odd">
+<tr>
 <td><p><strong>Field</strong></p></td>
 <td><p><strong>Type</strong></p></td>
 <td><p><strong>Attributes</strong></p></td>
@@ -26,7 +26,7 @@
 <td><p><strong>Extra</strong></p></td>
 <td><p><strong>Comment</strong></p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#guildid">guildid</a></p></td>
 <td><p>int(11)</p></td>
 <td><p>signed</p></td>
@@ -36,7 +36,7 @@
 <td><p> </p></td>
 <td><p>Guild Identificator</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#logguid">LogGuid</a></p></td>
 <td><p>int(11)</p></td>
 <td><p>signed</p></td>
@@ -46,7 +46,7 @@
 <td><p> </p></td>
 <td><p>Log record identificator - auxiliary column</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#eventtype">EventType</a></p></td>
 <td><p>tinyint(1)</p></td>
 <td><p>signed</p></td>
@@ -56,7 +56,7 @@
 <td><p> </p></td>
 <td><p>Event type</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#playerguid1">PlayerGuid1</a></p></td>
 <td><p>int(11)</p></td>
 <td><p>signed</p></td>
@@ -66,7 +66,7 @@
 <td><p> </p></td>
 <td><p>Player 1</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#playerguid2">PlayerGuid2</a></p></td>
 <td><p>int(11)</p></td>
 <td><p>signed</p></td>
@@ -76,7 +76,7 @@
 <td><p> </p></td>
 <td><p>Player 2</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#newrank">NewRank</a></p></td>
 <td><p>tinyint(2)</p></td>
 <td><p>signed</p></td>
@@ -86,7 +86,7 @@
 <td><p> </p></td>
 <td><p>New rank(in case promotion/demotion)</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#timestamp">TimeStamp</a></p></td>
 <td><p>bigint(20)</p></td>
 <td><p>signed</p></td>

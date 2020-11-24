@@ -8,7 +8,7 @@ Contains all the individual talent data for each character. This is only used as
 
 <table>
 <tbody>
-<tr class="odd">
+<tr>
 <td><p><strong>Field</strong></p></td>
 <td><p><strong>Type</strong></p></td>
 <td><p><strong>Attributes</strong></p></td>
@@ -18,7 +18,7 @@ Contains all the individual talent data for each character. This is only used as
 <td><p><strong>Extra</strong></p></td>
 <td><p><strong>Comment</strong></p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#guid">guid</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
@@ -30,7 +30,7 @@ Contains all the individual talent data for each character. This is only used as
 <td><p><br />
 </p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#spell">spell</a></p></td>
 <td><p>mediumint(8)</p></td>
 <td><p>unsigned</p></td>
@@ -42,7 +42,7 @@ Contains all the individual talent data for each character. This is only used as
 <td><p><br />
 </p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#talentgroup">talentGroup</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>

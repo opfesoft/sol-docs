@@ -18,7 +18,7 @@ This information comes from sniffs and is NOT supposed to be changed.
 <col width="12%" />
 </colgroup>
 <tbody>
-<tr class="odd">
+<tr>
 <td><p><strong>Field</strong></p></td>
 <td><p><strong>Type</strong></p></td>
 <td><p><strong>Attributes</strong></p></td>
@@ -28,7 +28,7 @@ This information comes from sniffs and is NOT supposed to be changed.
 <td><p><strong>Extra</strong></p></td>
 <td><p><strong>Comment</strong></p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#evententry">eventEntry</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
@@ -38,7 +38,7 @@ This information comes from sniffs and is NOT supposed to be changed.
 <td><p>Unique</p></td>
 <td><p>Entry of the game event.</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#season">season</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>

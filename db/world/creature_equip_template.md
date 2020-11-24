@@ -8,7 +8,7 @@ This table contains all the equipment combinations that can be sent for each cre
 
 <table>
 <tbody>
-<tr class="odd">
+<tr>
 <td><p><strong>Field</strong></p></td>
 <td><p><strong>Type</strong></p></td>
 <td><p><strong>Attributes</strong></p></td>
@@ -18,7 +18,7 @@ This table contains all the equipment combinations that can be sent for each cre
 <td><p><strong>Extra</strong></p></td>
 <td><p><strong>Comment</strong></p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#creatureid">CreatureID</a></p></td>
 <td><p>mediumint(8)</p></td>
 <td><p>unsigned</p></td>
@@ -29,7 +29,7 @@ This table contains all the equipment combinations that can be sent for each cre
 </p></td>
 <td><p>Unique entry</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#id">ID</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
@@ -40,7 +40,7 @@ This table contains all the equipment combinations that can be sent for each cre
 </p></td>
 <td><p>Unique entry</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#itemid1">ItemID1</a></p></td>
 <td><p>mediumint(8)</p></td>
 <td><p>unsigned</p></td>
@@ -53,7 +53,7 @@ This table contains all the equipment combinations that can be sent for each cre
 <td><p><br />
 </p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#itemid2">ItemID2</a></p></td>
 <td><p>mediumint(8)</p></td>
 <td><p>unsigned</p></td>
@@ -66,7 +66,7 @@ This table contains all the equipment combinations that can be sent for each cre
 <td><p><br />
 </p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#itemid3">ItemID3</a></p></td>
 <td>mediumint(8)</td>
 <td>unsigned</td>

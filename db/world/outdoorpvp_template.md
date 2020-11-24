@@ -4,7 +4,7 @@
 
 <table>
 <tbody>
-<tr class="even">
+<tr>
 <td><p><strong>Field</strong></p></td>
 <td><p><strong>Type</strong></p></td>
 <td><p><strong>Attributes</strong></p></td>
@@ -14,7 +14,7 @@
 <td><p><strong>Extra</strong></p></td>
 <td><p><strong>Comment</strong></p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#typeid">TypeId</a></p></td>
 <td><p>tinyint(2)</p></td>
 <td><p>unasigned</p></td>
@@ -24,7 +24,7 @@
 <td><p></p></td>
 <td><p></p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#scriptname">ScriptName</a></p></td>
 <td><p>char(64)</p></td>
 <td><p>signed</p></td>
@@ -34,7 +34,7 @@
 <td><p></p></td>
 <td><p></p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#comment">comment</a></p></td>
 <td><p>text</p></td>
 <td><p>signed</p></td>

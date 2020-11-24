@@ -20,7 +20,7 @@ This table is used by the core while running and not a table that you would usua
 <col width="12%" />
 </colgroup>
 <tbody>
-<tr class="odd">
+<tr>
 <td><p><strong>Field</strong></p></td>
 <td><p><strong>Type</strong></p></td>
 <td><p><strong>Attributes</strong></p></td>
@@ -30,7 +30,7 @@ This table is used by the core while running and not a table that you would usua
 <td><p><strong>Extra</strong></p></td>
 <td><p><strong>Comment</strong></p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#id">id</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
@@ -40,7 +40,7 @@ This table is used by the core while running and not a table that you would usua
 <td><p> </p></td>
 <td><p> </p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#auctioneerguid">auctioneerguid</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
@@ -50,7 +50,7 @@ This table is used by the core while running and not a table that you would usua
 <td><p> </p></td>
 <td><p> </p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#itemguid">itemguid</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
@@ -60,7 +60,7 @@ This table is used by the core while running and not a table that you would usua
 <td><p> </p></td>
 <td><p> </p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#itemowner">itemowner</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
@@ -70,7 +70,7 @@ This table is used by the core while running and not a table that you would usua
 <td><p> </p></td>
 <td><p> </p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#buyoutprice">buyoutprice</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
@@ -80,7 +80,7 @@ This table is used by the core while running and not a table that you would usua
 <td><p> </p></td>
 <td><p> </p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#time">time</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
@@ -90,7 +90,7 @@ This table is used by the core while running and not a table that you would usua
 <td><p> </p></td>
 <td><p> </p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#buyguid">buyguid</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
@@ -100,7 +100,7 @@ This table is used by the core while running and not a table that you would usua
 <td><p> </p></td>
 <td><p> </p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#lastbid">lastbid</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
@@ -110,7 +110,7 @@ This table is used by the core while running and not a table that you would usua
 <td><p> </p></td>
 <td><p> </p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#startbid">startbid</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
@@ -120,7 +120,7 @@ This table is used by the core while running and not a table that you would usua
 <td><p> </p></td>
 <td><p> </p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#deposit">deposit</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>

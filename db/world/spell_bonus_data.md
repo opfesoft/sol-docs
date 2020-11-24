@@ -18,7 +18,7 @@ Table used for storing custom damage/healing bonus coefficients.
 <col width="12%" />
 </colgroup>
 <tbody>
-<tr class="odd">
+<tr>
 <td><p><strong>Field</strong></p></td>
 <td><p><strong>Type</strong></p></td>
 <td><p><strong>Attributes</strong></p></td>
@@ -28,7 +28,7 @@ Table used for storing custom damage/healing bonus coefficients.
 <td><p><strong>Extra</strong></p></td>
 <td><p><strong>Comment</strong></p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#entry">entry</a></p></td>
 <td><p>mediumint(8)</p></td>
 <td><p>unsigned</p></td>
@@ -38,7 +38,7 @@ Table used for storing custom damage/healing bonus coefficients.
 <td><p> </p></td>
 <td><p> </p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#direct_bonus">direct_bonus</a></p></td>
 <td><p>float</p></td>
 <td><p>signed</p></td>
@@ -48,7 +48,7 @@ Table used for storing custom damage/healing bonus coefficients.
 <td><p> </p></td>
 <td><p> </p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#dot_bonus">dot_bonus</a></p></td>
 <td><p>float</p></td>
 <td><p>signed</p></td>
@@ -58,7 +58,7 @@ Table used for storing custom damage/healing bonus coefficients.
 <td><p> </p></td>
 <td><p> </p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#ap_bonus">ap_bonus</a></p></td>
 <td><p>float</p></td>
 <td><p>signed</p></td>
@@ -68,7 +68,7 @@ Table used for storing custom damage/healing bonus coefficients.
 <td><p> </p></td>
 <td><p> </p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#ap_dot_bonus">ap_dot_bonus</a></p></td>
 <td><p>float</p></td>
 <td><p>signed</p></td>
@@ -78,7 +78,7 @@ Table used for storing custom damage/healing bonus coefficients.
 <td><p> </p></td>
 <td><p> </p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#comments">comments</a></p></td>
 <td><p>varchar(255)</p></td>
 <td><p>signed</p></td>

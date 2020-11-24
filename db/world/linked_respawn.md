@@ -19,7 +19,7 @@ Gameobjects can be linked too!
 <col width="12%" />
 </colgroup>
 <tbody>
-<tr class="odd">
+<tr>
 <td><p><strong>Field</strong></p></td>
 <td><p><strong>Type</strong></p></td>
 <td><p><strong>Attributes</strong></p></td>
@@ -29,7 +29,7 @@ Gameobjects can be linked too!
 <td><p><strong>Extra</strong></p></td>
 <td><p><strong>Comment</strong></p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#guid">guid</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
@@ -39,7 +39,7 @@ Gameobjects can be linked too!
 <td><p> </p></td>
 <td><p>Dependent Creature</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#linkedguid">linkedGuid</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
@@ -49,7 +49,7 @@ Gameobjects can be linked too!
 <td><p> </p></td>
 <td><p>Master Creature</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#linktype">linkType</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
@@ -81,27 +81,27 @@ This is the guid of the [creature](creature.md#guid) or [gameobject](gameobject.
 <col width="33%" />
 </colgroup>
 <tbody>
-<tr class="odd">
+<tr>
 <td><p><strong>Value</strong></p></td>
 <td><p><strong>Dependent</strong></p></td>
 <td><p><strong>Master</strong></p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>0</p></td>
 <td><p>creature</p></td>
 <td><p>creature</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>1</p></td>
 <td><p>creature</p></td>
 <td><p>gameobject</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>2</p></td>
 <td><p>gameobject</p></td>
 <td><p>gameobject</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>3</p></td>
 <td><p>gameobject</p></td>
 <td><p>creature</p></td>

@@ -18,7 +18,7 @@ Information and settings for ingame, player-based chat channels (not affecting t
 <col width="12%" />
 </colgroup>
 <tbody>
-<tr class="odd">
+<tr>
 <td><p><strong>Field</strong></p></td>
 <td><p><strong>Type</strong></p></td>
 <td><p><strong>Attributes</strong></p></td>
@@ -28,7 +28,7 @@ Information and settings for ingame, player-based chat channels (not affecting t
 <td><p><strong>Extra</strong></p></td>
 <td><p><strong>Comment</strong></p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#name">name</a></p></td>
 <td><p>varchar(128)</p></td>
 <td><p>signed</p></td>
@@ -38,7 +38,7 @@ Information and settings for ingame, player-based chat channels (not affecting t
 <td><p> </p></td>
 <td><p> </p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#team">team</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
@@ -48,7 +48,7 @@ Information and settings for ingame, player-based chat channels (not affecting t
 <td><p> </p></td>
 <td><p> </p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#announce">announce</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
@@ -58,7 +58,7 @@ Information and settings for ingame, player-based chat channels (not affecting t
 <td><p> </p></td>
 <td><p> </p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#ownership">ownership</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
@@ -68,7 +68,7 @@ Information and settings for ingame, player-based chat channels (not affecting t
 <td><p> </p></td>
 <td><p> </p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#password">password</a></p></td>
 <td><p>varchar(32)</p></td>
 <td><p>signed</p></td>
@@ -78,7 +78,7 @@ Information and settings for ingame, player-based chat channels (not affecting t
 <td><p> </p></td>
 <td><p> </p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#bannedlist">bannedList</a> (NOT IMPLEMENTED FOR NOW)</p></td>
 <td><p>text</p></td>
 <td><p>signed</p></td>
@@ -88,7 +88,7 @@ Information and settings for ingame, player-based chat channels (not affecting t
 <td><p> </p></td>
 <td><p> </p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#last_used">lastUsed</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>

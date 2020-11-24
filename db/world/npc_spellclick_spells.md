@@ -10,7 +10,7 @@ That opcode is sent for quests in which you have to loot creatures, who are alre
 
 <table>
 <tbody>
-<tr class="odd">
+<tr>
 <td><p><strong>Field</strong></p></td>
 <td><p><strong>Type</strong></p></td>
 <td><p><strong>Attributes</strong></p></td>
@@ -20,7 +20,7 @@ That opcode is sent for quests in which you have to loot creatures, who are alre
 <td><p><strong>Extra</strong></p></td>
 <td><p><strong>Comment</strong>'</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#npc_entry">npc_entry</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
@@ -32,7 +32,7 @@ That opcode is sent for quests in which you have to loot creatures, who are alre
 </p></td>
 <td>Reference to the creature_template table</td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#spell_id">spell_id</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
@@ -44,7 +44,7 @@ That opcode is sent for quests in which you have to loot creatures, who are alre
 </p></td>
 <td><p>The ID of the spell to be cast</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><a href="#cast_flags">cast_flags</a></td>
 <td>tinyint(3)</td>
 <td>unsigned</td>
@@ -56,7 +56,7 @@ That opcode is sent for quests in which you have to loot creatures, who are alre
 </td>
 <td><p>Who casts the spell on who, creature &lt;=&gt; player (values: 0-3)</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#user_type">user_type</a></p></td>
 <td><p>smallint(3)</p></td>
 <td><p>unsigned</p></td>
@@ -117,19 +117,19 @@ Relation with summoner: defines who is able to use this spellclick.
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td><p>0</p></td>
 <td><p>Only self</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>1</p></td>
 <td><p>Friendly</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>2</p></td>
 <td><p>Raid</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>3</p></td>
 <td><p>Party</p></td>
 </tr>

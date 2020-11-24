@@ -18,7 +18,7 @@ This table holds the reputation information for each character.
 <col width="12%" />
 </colgroup>
 <tbody>
-<tr class="odd">
+<tr>
 <td><p><strong>Field</strong></p></td>
 <td><p><strong>Type</strong></p></td>
 <td><p><strong>Attributes</strong></p></td>
@@ -28,7 +28,7 @@ This table holds the reputation information for each character.
 <td><p><strong>Extra</strong></p></td>
 <td><p><strong>Comment</strong></p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#guid">guid</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
@@ -38,7 +38,7 @@ This table holds the reputation information for each character.
 <td><p> </p></td>
 <td><p>Global Unique Identifier</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#faction">faction</a></p></td>
 <td><p>smallint(5)</p></td>
 <td><p>unsigned</p></td>
@@ -48,7 +48,7 @@ This table holds the reputation information for each character.
 <td><p> </p></td>
 <td><p> </p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#standing">standing</a></p></td>
 <td><p>int(11)</p></td>
 <td><p>signed</p></td>
@@ -58,7 +58,7 @@ This table holds the reputation information for each character.
 <td><p> </p></td>
 <td><p> </p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#flags">flags</a></p></td>
 <td><p>smallint(5)</p></td>
 <td><p>unsigned</p></td>
@@ -103,42 +103,42 @@ This field is a bitmask containing flags that apply to the faction and how it's 
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td><p>1</p></td>
 <td><p>FACTION_FLAG_VISIBLE</p></td>
 <td><p>Displayed in the reputation tab</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>2</p></td>
 <td><p>FACTION_FLAG_AT_WAR</p></td>
 <td><p>Active when the player sets the at war checkbox</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>4</p></td>
 <td><p>FACTION_FLAG_HIDDEN</p></td>
 <td><p>Hidden faction from reputation pane in client</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>8</p></td>
 <td><p>FACTION_FLAG_INVISIBLE_FORCED</p></td>
 <td><p>Always overwrites FACTION_FLAG_VISIBLE and hide faction in rep.list</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>16</p></td>
 <td><p>FACTION_FLAG_PEACE_FORCED</p></td>
 <td><p>Always overwrites FACTION_FLAG_AT_WAR</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>32</p></td>
 <td><p>FACTION_FLAG_INACTIVE</p></td>
 <td><p> </p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>64</p></td>
 <td><p>FACTION_FLAG_RIVAL</p></td>
 <td><p>Flag for the two competing outland factions</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>128</p></td>
 <td><p>FACTION_FLAG_SPECIAL</p></td>
 <td><p>Horde and alliance home cities and their northrend allies have this flag</p></td>

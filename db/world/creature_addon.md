@@ -12,7 +12,7 @@ NOTICE: The data for this table is largely incomplete and is mostly just a regur
 
 <table>
 <tbody>
-<tr class="odd">
+<tr>
 <td><p><strong>Field</strong></p></td>
 <td><p><strong>Type</strong></p></td>
 <td><p><strong>Attributes</strong></p></td>
@@ -22,7 +22,7 @@ NOTICE: The data for this table is largely incomplete and is mostly just a regur
 <td><p><strong>Extra</strong></p></td>
 <td><p><strong>Comment</strong></p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#guidentry">guid/entry</a></p></td>
 <td><p>int(10)/medumint(8)</p></td>
 <td><p>unsigned</p></td>
@@ -34,7 +34,7 @@ NOTICE: The data for this table is largely incomplete and is mostly just a regur
 <td><p><br />
 </p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#path_id">path_id</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
@@ -47,7 +47,7 @@ NOTICE: The data for this table is largely incomplete and is mostly just a regur
 <td><p><br />
 </p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#mount">mount</a></p></td>
 <td><p>mediumint(8)</p></td>
 <td><p>unsigned</p></td>
@@ -60,7 +60,7 @@ NOTICE: The data for this table is largely incomplete and is mostly just a regur
 <td><p><br />
 </p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#bytes1">bytes1</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
@@ -73,7 +73,7 @@ NOTICE: The data for this table is largely incomplete and is mostly just a regur
 <td><p><br />
 </p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#bytes2">bytes2</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
@@ -86,7 +86,7 @@ NOTICE: The data for this table is largely incomplete and is mostly just a regur
 <td><p><br />
 </p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#emote">emote</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
@@ -99,7 +99,7 @@ NOTICE: The data for this table is largely incomplete and is mostly just a regur
 <td><p><br />
 </p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><a href="#islarge">isLarge</a></td>
 <td>tinyint(1)</td>
 <td>unsigned</td>
@@ -112,7 +112,7 @@ NOTICE: The data for this table is largely incomplete and is mostly just a regur
 <td><br />
 </td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#auras">auras</a></p></td>
 <td><p>text</p></td>
 <td><p></p></td>

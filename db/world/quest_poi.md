@@ -8,7 +8,7 @@ Comes from sniffs.
 
 <table>
 <tbody>
-<tr class="odd">
+<tr>
 <td><p><strong>Field</strong></p></td>
 <td><p><strong>Type</strong></p></td>
 <td><p><strong>Attributes</strong></p></td>
@@ -18,7 +18,7 @@ Comes from sniffs.
 <td><p><strong>Extra</strong></p></td>
 <td><p><strong>Comment</strong></p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#questid">QuestID</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
@@ -30,7 +30,7 @@ Comes from sniffs.
 <td><p><br />
 </p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#id">id</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
@@ -42,7 +42,7 @@ Comes from sniffs.
 <td><p><br />
 </p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#objectiveindex">ObjectiveIndex</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
@@ -55,7 +55,7 @@ Comes from sniffs.
 <td><p><br />
 </p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#mapid">MapID</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
@@ -68,7 +68,7 @@ Comes from sniffs.
 <td><p><br />
 </p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#worldmapareaid">WorldMapAreaId</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
@@ -81,7 +81,7 @@ Comes from sniffs.
 <td><p><br />
 </p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#floor">Floor</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
@@ -94,7 +94,7 @@ Comes from sniffs.
 <td><p><br />
 </p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#priority">Priority</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
@@ -107,7 +107,7 @@ Comes from sniffs.
 <td><p><br />
 </p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#flags">Flags</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>

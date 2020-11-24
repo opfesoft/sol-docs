@@ -25,49 +25,49 @@ This DBC contains all skills.
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td>1</td>
 <td><pre><code>ID</code></pre></td>
 <td><pre><code>Integer</code></pre></td>
 <td> </td>
 </tr>
-<tr class="even">
+<tr>
 <td>2</td>
 <td><pre><code>iRefID_SkillLineCategory</code></pre></td>
 <td><pre><code>Integer</code></pre></td>
 <td> </td>
 </tr>
-<tr class="odd">
+<tr>
 <td>3</td>
 <td><pre><code>skillCostID</code></pre></td>
 <td><pre><code>Integer</code></pre></td>
 <td> </td>
 </tr>
-<tr class="even">
+<tr>
 <td>4</td>
 <td><pre><code>sRefName</code></pre></td>
 <td><pre><code>String + Loc</code></pre></td>
 <td> </td>
 </tr>
-<tr class="odd">
+<tr>
 <td>5</td>
 <td><pre><code>description</code></pre></td>
 <td><pre><code>String + Loc</code></pre></td>
 <td> </td>
 </tr>
-<tr class="even">
+<tr>
 <td>6</td>
 <td><pre><code>iRefID_SpellIcon</code></pre></td>
 <td><pre><code>Integer</code></pre></td>
 <td> </td>
 </tr>
-<tr class="odd">
+<tr>
 <td>7</td>
 <td><pre><code>verb</code></pre></td>
 <td><pre><code>String + Loc</code></pre></td>
 <td> </td>
 </tr>
-<tr class="even">
+<tr>
 <td>8</td>
 <td><pre><code>canLink</code></pre></td>
 <td><pre><code>Integer</code></pre></td>
@@ -89,7 +89,7 @@ This DBC contains all skills.
 <col width="14%" />
 </colgroup>
 <tbody>
-<tr class="odd">
+<tr>
 <td><p><strong>ID</strong></p></td>
 <td><ul>
 <li><a href="#categoryid">CategoryId</a>*</li>
@@ -100,7 +100,7 @@ This DBC contains all skills.
 <td><p><strong>AltVerb</strong></p></td>
 <td><p><strong>CanLink</strong></p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>6</p></td>
 <td><p>7</p></td>
 <td><p>0</p></td>
@@ -109,7 +109,7 @@ This DBC contains all skills.
 <td><p> </p></td>
 <td><p>0</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>8</p></td>
 <td><p>7</p></td>
 <td><p>0</p></td>
@@ -118,7 +118,7 @@ This DBC contains all skills.
 <td><p> </p></td>
 <td><p>0</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>26</p></td>
 <td><p>7</p></td>
 <td><p>0</p></td>
@@ -127,7 +127,7 @@ This DBC contains all skills.
 <td><p> </p></td>
 <td><p>0</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>38</p></td>
 <td><p>7</p></td>
 <td><p>0</p></td>
@@ -136,7 +136,7 @@ This DBC contains all skills.
 <td><p> </p></td>
 <td><p>0</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>39</p></td>
 <td><p>7</p></td>
 <td><p>0</p></td>
@@ -145,7 +145,7 @@ This DBC contains all skills.
 <td><p> </p></td>
 <td><p>0</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>43</p></td>
 <td><p>6</p></td>
 <td><p>0</p></td>
@@ -154,7 +154,7 @@ This DBC contains all skills.
 <td><p> </p></td>
 <td><p>0</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>44</p></td>
 <td><p>6</p></td>
 <td><p>0</p></td>
@@ -163,7 +163,7 @@ This DBC contains all skills.
 <td><p> </p></td>
 <td><p>0</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>45</p></td>
 <td><p>6</p></td>
 <td><p>0</p></td>
@@ -172,7 +172,7 @@ This DBC contains all skills.
 <td><p> </p></td>
 <td><p>0</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>46</p></td>
 <td><p>6</p></td>
 <td><p>0</p></td>
@@ -181,7 +181,7 @@ This DBC contains all skills.
 <td><p> </p></td>
 <td><p>0</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>50</p></td>
 <td><p>7</p></td>
 <td><p>0</p></td>
@@ -190,7 +190,7 @@ This DBC contains all skills.
 <td><p> </p></td>
 <td><p>0</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>51</p></td>
 <td><p>7</p></td>
 <td><p>0</p></td>
@@ -199,7 +199,7 @@ This DBC contains all skills.
 <td><p> </p></td>
 <td><p>0</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>54</p></td>
 <td><p>6</p></td>
 <td><p>0</p></td>
@@ -208,7 +208,7 @@ This DBC contains all skills.
 <td><p> </p></td>
 <td><p>0</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>55</p></td>
 <td><p>6</p></td>
 <td><p>0</p></td>
@@ -217,7 +217,7 @@ This DBC contains all skills.
 <td><p> </p></td>
 <td><p>0</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>56</p></td>
 <td><p>7</p></td>
 <td><p>0</p></td>
@@ -226,7 +226,7 @@ This DBC contains all skills.
 <td><p> </p></td>
 <td><p>0</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>78</p></td>
 <td><p>7</p></td>
 <td><p>0</p></td>
@@ -235,7 +235,7 @@ This DBC contains all skills.
 <td><p> </p></td>
 <td><p>0</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>95</p></td>
 <td><p>6</p></td>
 <td><p>0</p></td>
@@ -244,7 +244,7 @@ This DBC contains all skills.
 <td><p> </p></td>
 <td><p>0</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>98</p></td>
 <td><p>10</p></td>
 <td><p>0</p></td>
@@ -253,7 +253,7 @@ This DBC contains all skills.
 <td><p> </p></td>
 <td><p>0</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>101</p></td>
 <td><p>9</p></td>
 <td><p>0</p></td>
@@ -262,7 +262,7 @@ This DBC contains all skills.
 <td><p> </p></td>
 <td><p>0</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>109</p></td>
 <td><p>10</p></td>
 <td><p>0</p></td>
@@ -271,7 +271,7 @@ This DBC contains all skills.
 <td><p> </p></td>
 <td><p>0</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>111</p></td>
 <td><p>10</p></td>
 <td><p>0</p></td>
@@ -280,7 +280,7 @@ This DBC contains all skills.
 <td><p> </p></td>
 <td><p>0</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>113</p></td>
 <td><p>10</p></td>
 <td><p>0</p></td>
@@ -289,7 +289,7 @@ This DBC contains all skills.
 <td><p> </p></td>
 <td><p>0</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>115</p></td>
 <td><p>10</p></td>
 <td><p>0</p></td>
@@ -298,7 +298,7 @@ This DBC contains all skills.
 <td><p> </p></td>
 <td><p>0</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>118</p></td>
 <td><p>6</p></td>
 <td><p>0</p></td>
@@ -307,7 +307,7 @@ This DBC contains all skills.
 <td><p> </p></td>
 <td><p>0</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>124</p></td>
 <td><p>9</p></td>
 <td><p>0</p></td>
@@ -316,7 +316,7 @@ This DBC contains all skills.
 <td><p> </p></td>
 <td><p>0</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>125</p></td>
 <td><p>9</p></td>
 <td><p>0</p></td>
@@ -325,7 +325,7 @@ This DBC contains all skills.
 <td><p> </p></td>
 <td><p>0</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>126</p></td>
 <td><p>9</p></td>
 <td><p>0</p></td>
@@ -334,7 +334,7 @@ This DBC contains all skills.
 <td><p> </p></td>
 <td><p>0</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>129</p></td>
 <td><p>9</p></td>
 <td><p>0</p></td>
@@ -343,7 +343,7 @@ This DBC contains all skills.
 <td><p> </p></td>
 <td><p>1</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>134</p></td>
 <td><p>7</p></td>
 <td><p>0</p></td>
@@ -352,7 +352,7 @@ This DBC contains all skills.
 <td><p> </p></td>
 <td><p>0</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>136</p></td>
 <td><p>6</p></td>
 <td><p>0</p></td>
@@ -361,7 +361,7 @@ This DBC contains all skills.
 <td><p> </p></td>
 <td><p>0</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>137</p></td>
 <td><p>10</p></td>
 <td><p>0</p></td>
@@ -370,7 +370,7 @@ This DBC contains all skills.
 <td><p> </p></td>
 <td><p>0</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>138</p></td>
 <td><p>10</p></td>
 <td><p>0</p></td>
@@ -379,7 +379,7 @@ This DBC contains all skills.
 <td><p> </p></td>
 <td><p>0</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>139</p></td>
 <td><p>10</p></td>
 <td><p>0</p></td>
@@ -388,7 +388,7 @@ This DBC contains all skills.
 <td><p> </p></td>
 <td><p>0</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>140</p></td>
 <td><p>10</p></td>
 <td><p>0</p></td>
@@ -397,7 +397,7 @@ This DBC contains all skills.
 <td><p> </p></td>
 <td><p>0</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>141</p></td>
 <td><p>10</p></td>
 <td><p>0</p></td>
@@ -406,7 +406,7 @@ This DBC contains all skills.
 <td><p> </p></td>
 <td><p>0</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>142</p></td>
 <td><p>9</p></td>
 <td><p>0</p></td>
@@ -415,7 +415,7 @@ This DBC contains all skills.
 <td><p> </p></td>
 <td><p>0</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>148</p></td>
 <td><p>9</p></td>
 <td><p>0</p></td>
@@ -424,7 +424,7 @@ This DBC contains all skills.
 <td><p> </p></td>
 <td><p>0</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>149</p></td>
 <td><p>9</p></td>
 <td><p>0</p></td>
@@ -433,7 +433,7 @@ This DBC contains all skills.
 <td><p> </p></td>
 <td><p>0</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>150</p></td>
 <td><p>9</p></td>
 <td><p>0</p></td>
@@ -442,7 +442,7 @@ This DBC contains all skills.
 <td><p> </p></td>
 <td><p>0</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>152</p></td>
 <td><p>9</p></td>
 <td><p>0</p></td>
@@ -451,7 +451,7 @@ This DBC contains all skills.
 <td><p> </p></td>
 <td><p>0</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>155</p></td>
 <td><p>9</p></td>
 <td><p>0</p></td>
@@ -460,7 +460,7 @@ This DBC contains all skills.
 <td><p> </p></td>
 <td><p>0</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>160</p></td>
 <td><p>6</p></td>
 <td><p>0</p></td>
@@ -469,7 +469,7 @@ This DBC contains all skills.
 <td><p> </p></td>
 <td><p>0</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>162</p></td>
 <td><p>6</p></td>
 <td><p>0</p></td>
@@ -478,7 +478,7 @@ This DBC contains all skills.
 <td><p> </p></td>
 <td><p>0</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>163</p></td>
 <td><p>7</p></td>
 <td><p>0</p></td>
@@ -487,7 +487,7 @@ This DBC contains all skills.
 <td><p> </p></td>
 <td><p>0</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>164</p></td>
 <td><p>11</p></td>
 <td><p>0</p></td>
@@ -496,7 +496,7 @@ This DBC contains all skills.
 <td><p>Modify</p></td>
 <td><p>1</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>165</p></td>
 <td><p>11</p></td>
 <td><p>0</p></td>
@@ -505,7 +505,7 @@ This DBC contains all skills.
 <td><p>Emboss</p></td>
 <td><p>1</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>171</p></td>
 <td><p>11</p></td>
 <td><p>0</p></td>
@@ -514,7 +514,7 @@ This DBC contains all skills.
 <td><p>Refill</p></td>
 <td><p>1</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>172</p></td>
 <td><p>6</p></td>
 <td><p>0</p></td>
@@ -523,7 +523,7 @@ This DBC contains all skills.
 <td><p> </p></td>
 <td><p>0</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>173</p></td>
 <td><p>6</p></td>
 <td><p>0</p></td>
@@ -532,7 +532,7 @@ This DBC contains all skills.
 <td><p> </p></td>
 <td><p>0</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>176</p></td>
 <td><p>6</p></td>
 <td><p>0</p></td>
@@ -541,7 +541,7 @@ This DBC contains all skills.
 <td><p> </p></td>
 <td><p>0</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>182</p></td>
 <td><p>11</p></td>
 <td><p>0</p></td>
@@ -550,7 +550,7 @@ This DBC contains all skills.
 <td><p> </p></td>
 <td><p>0</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>183</p></td>
 <td><p>12</p></td>
 <td><p>0</p></td>
@@ -559,7 +559,7 @@ This DBC contains all skills.
 <td><p> </p></td>
 <td><p>0</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>184</p></td>
 <td><p>7</p></td>
 <td><p>0</p></td>
@@ -568,7 +568,7 @@ This DBC contains all skills.
 <td><p> </p></td>
 <td><p>0</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>185</p></td>
 <td><p>9</p></td>
 <td><p>0</p></td>
@@ -577,7 +577,7 @@ This DBC contains all skills.
 <td><p> </p></td>
 <td><p>1</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>186</p></td>
 <td><p>11</p></td>
 <td><p>0</p></td>
@@ -586,7 +586,7 @@ This DBC contains all skills.
 <td><p> </p></td>
 <td><p>0</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>188</p></td>
 <td><p>7</p></td>
 <td><p>0</p></td>
@@ -595,7 +595,7 @@ This DBC contains all skills.
 <td><p> </p></td>
 <td><p>0</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>189</p></td>
 <td><p>7</p></td>
 <td><p>0</p></td>
@@ -604,7 +604,7 @@ This DBC contains all skills.
 <td><p> </p></td>
 <td><p>0</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>197</p></td>
 <td><p>11</p></td>
 <td><p>0</p></td>
@@ -613,7 +613,7 @@ This DBC contains all skills.
 <td><p>Embroider</p></td>
 <td><p>1</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>202</p></td>
 <td><p>11</p></td>
 <td><p>0</p></td>
@@ -622,7 +622,7 @@ This DBC contains all skills.
 <td><p>Tinker</p></td>
 <td><p>1</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>203</p></td>
 <td><p>7</p></td>
 <td><p>0</p></td>
@@ -631,7 +631,7 @@ This DBC contains all skills.
 <td><p> </p></td>
 <td><p>0</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>204</p></td>
 <td><p>7</p></td>
 <td><p>0</p></td>
@@ -640,7 +640,7 @@ This DBC contains all skills.
 <td><p> </p></td>
 <td><p>0</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>205</p></td>
 <td><p>7</p></td>
 <td><p>0</p></td>
@@ -649,7 +649,7 @@ This DBC contains all skills.
 <td><p> </p></td>
 <td><p>0</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>206</p></td>
 <td><p>7</p></td>
 <td><p>0</p></td>
@@ -658,7 +658,7 @@ This DBC contains all skills.
 <td><p> </p></td>
 <td><p>0</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>207</p></td>
 <td><p>7</p></td>
 <td><p>0</p></td>
@@ -667,7 +667,7 @@ This DBC contains all skills.
 <td><p> </p></td>
 <td><p>0</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>208</p></td>
 <td><p>7</p></td>
 <td><p>0</p></td>
@@ -676,7 +676,7 @@ This DBC contains all skills.
 <td><p> </p></td>
 <td><p>0</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>209</p></td>
 <td><p>7</p></td>
 <td><p>0</p></td>
@@ -685,7 +685,7 @@ This DBC contains all skills.
 <td><p> </p></td>
 <td><p>0</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>210</p></td>
 <td><p>7</p></td>
 <td><p>0</p></td>
@@ -694,7 +694,7 @@ This DBC contains all skills.
 <td><p> </p></td>
 <td><p>0</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>211</p></td>
 <td><p>7</p></td>
 <td><p>0</p></td>
@@ -703,7 +703,7 @@ This DBC contains all skills.
 <td><p> </p></td>
 <td><p>0</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>212</p></td>
 <td><p>7</p></td>
 <td><p>0</p></td>
@@ -712,7 +712,7 @@ This DBC contains all skills.
 <td><p> </p></td>
 <td><p>0</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>213</p></td>
 <td><p>7</p></td>
 <td><p>0</p></td>
@@ -721,7 +721,7 @@ This DBC contains all skills.
 <td><p> </p></td>
 <td><p>0</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>214</p></td>
 <td><p>7</p></td>
 <td><p>0</p></td>
@@ -730,7 +730,7 @@ This DBC contains all skills.
 <td><p> </p></td>
 <td><p>0</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>215</p></td>
 <td><p>7</p></td>
 <td><p>0</p></td>
@@ -739,7 +739,7 @@ This DBC contains all skills.
 <td><p> </p></td>
 <td><p>0</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>217</p></td>
 <td><p>7</p></td>
 <td><p>0</p></td>
@@ -748,7 +748,7 @@ This DBC contains all skills.
 <td><p> </p></td>
 <td><p>0</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>218</p></td>
 <td><p>7</p></td>
 <td><p>0</p></td>
@@ -757,7 +757,7 @@ This DBC contains all skills.
 <td><p> </p></td>
 <td><p>0</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>220</p></td>
 <td><p>9</p></td>
 <td><p>0</p></td>
@@ -766,7 +766,7 @@ This DBC contains all skills.
 <td><p> </p></td>
 <td><p>0</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>226</p></td>
 <td><p>6</p></td>
 <td><p>0</p></td>
@@ -775,7 +775,7 @@ This DBC contains all skills.
 <td><p> </p></td>
 <td><p>0</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>228</p></td>
 <td><p>6</p></td>
 <td><p>0</p></td>
@@ -784,7 +784,7 @@ This DBC contains all skills.
 <td><p> </p></td>
 <td><p>0</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>229</p></td>
 <td><p>6</p></td>
 <td><p>0</p></td>
@@ -793,7 +793,7 @@ This DBC contains all skills.
 <td><p> </p></td>
 <td><p>0</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>236</p></td>
 <td><p>7</p></td>
 <td><p>0</p></td>
@@ -802,7 +802,7 @@ This DBC contains all skills.
 <td><p> </p></td>
 <td><p>0</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>237</p></td>
 <td><p>7</p></td>
 <td><p>0</p></td>
@@ -811,7 +811,7 @@ This DBC contains all skills.
 <td><p> </p></td>
 <td><p>0</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>251</p></td>
 <td><p>7</p></td>
 <td><p>0</p></td>
@@ -820,7 +820,7 @@ This DBC contains all skills.
 <td><p> </p></td>
 <td><p>0</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>253</p></td>
 <td><p>7</p></td>
 <td><p>0</p></td>
@@ -829,7 +829,7 @@ This DBC contains all skills.
 <td><p> </p></td>
 <td><p>0</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>256</p></td>
 <td><p>7</p></td>
 <td><p>0</p></td>
@@ -838,7 +838,7 @@ This DBC contains all skills.
 <td><p> </p></td>
 <td><p>0</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>257</p></td>
 <td><p>7</p></td>
 <td><p>0</p></td>
@@ -847,7 +847,7 @@ This DBC contains all skills.
 <td><p> </p></td>
 <td><p>0</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>267</p></td>
 <td><p>7</p></td>
 <td><p>0</p></td>
@@ -856,7 +856,7 @@ This DBC contains all skills.
 <td><p> </p></td>
 <td><p>0</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>270</p></td>
 <td><p>7</p></td>
 <td><p>0</p></td>
@@ -865,7 +865,7 @@ This DBC contains all skills.
 <td><p> </p></td>
 <td><p>0</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>293</p></td>
 <td><p>8</p></td>
 <td><p>0</p></td>
@@ -874,7 +874,7 @@ This DBC contains all skills.
 <td><p> </p></td>
 <td><p>0</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>313</p></td>
 <td><p>10</p></td>
 <td><p>0</p></td>
@@ -883,7 +883,7 @@ This DBC contains all skills.
 <td><p> </p></td>
 <td><p>0</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>315</p></td>
 <td><p>10</p></td>
 <td><p>0</p></td>
@@ -892,7 +892,7 @@ This DBC contains all skills.
 <td><p> </p></td>
 <td><p>0</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>333</p></td>
 <td><p>11</p></td>
 <td><p>0</p></td>
@@ -901,7 +901,7 @@ This DBC contains all skills.
 <td><p>Enchant</p></td>
 <td><p>1</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>354</p></td>
 <td><p>7</p></td>
 <td><p>0</p></td>
@@ -910,7 +910,7 @@ This DBC contains all skills.
 <td><p> </p></td>
 <td><p>0</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>355</p></td>
 <td><p>7</p></td>
 <td><p>0</p></td>
@@ -919,7 +919,7 @@ This DBC contains all skills.
 <td><p> </p></td>
 <td><p>0</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>356</p></td>
 <td><p>9</p></td>
 <td><p>0</p></td>
@@ -928,7 +928,7 @@ This DBC contains all skills.
 <td><p> </p></td>
 <td><p>0</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>373</p></td>
 <td><p>7</p></td>
 <td><p>0</p></td>
@@ -937,7 +937,7 @@ This DBC contains all skills.
 <td><p> </p></td>
 <td><p>0</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>374</p></td>
 <td><p>7</p></td>
 <td><p>0</p></td>
@@ -946,7 +946,7 @@ This DBC contains all skills.
 <td><p> </p></td>
 <td><p>0</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>375</p></td>
 <td><p>7</p></td>
 <td><p>0</p></td>
@@ -955,7 +955,7 @@ This DBC contains all skills.
 <td><p> </p></td>
 <td><p>0</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>393</p></td>
 <td><p>11</p></td>
 <td><p>0</p></td>
@@ -964,7 +964,7 @@ This DBC contains all skills.
 <td><p> </p></td>
 <td><p>0</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>413</p></td>
 <td><p>8</p></td>
 <td><p>0</p></td>
@@ -973,7 +973,7 @@ This DBC contains all skills.
 <td><p> </p></td>
 <td><p>0</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>414</p></td>
 <td><p>8</p></td>
 <td><p>0</p></td>
@@ -982,7 +982,7 @@ This DBC contains all skills.
 <td><p> </p></td>
 <td><p>0</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>415</p></td>
 <td><p>8</p></td>
 <td><p>0</p></td>
@@ -991,7 +991,7 @@ This DBC contains all skills.
 <td><p> </p></td>
 <td><p>0</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>433</p></td>
 <td><p>8</p></td>
 <td><p>0</p></td>
@@ -1000,7 +1000,7 @@ This DBC contains all skills.
 <td><p> </p></td>
 <td><p>0</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>473</p></td>
 <td><p>6</p></td>
 <td><p>0</p></td>
@@ -1009,7 +1009,7 @@ This DBC contains all skills.
 <td><p> </p></td>
 <td><p>0</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>533</p></td>
 <td><p>9</p></td>
 <td><p>0</p></td>
@@ -1018,7 +1018,7 @@ This DBC contains all skills.
 <td><p> </p></td>
 <td><p>0</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>553</p></td>
 <td><p>9</p></td>
 <td><p>0</p></td>
@@ -1027,7 +1027,7 @@ This DBC contains all skills.
 <td><p> </p></td>
 <td><p>0</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>554</p></td>
 <td><p>9</p></td>
 <td><p>0</p></td>
@@ -1036,7 +1036,7 @@ This DBC contains all skills.
 <td><p> </p></td>
 <td><p>0</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>573</p></td>
 <td><p>7</p></td>
 <td><p>0</p></td>
@@ -1045,7 +1045,7 @@ This DBC contains all skills.
 <td><p> </p></td>
 <td><p>0</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>574</p></td>
 <td><p>7</p></td>
 <td><p>0</p></td>
@@ -1054,7 +1054,7 @@ This DBC contains all skills.
 <td><p> </p></td>
 <td><p>0</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>593</p></td>
 <td><p>7</p></td>
 <td><p>0</p></td>
@@ -1063,7 +1063,7 @@ This DBC contains all skills.
 <td><p> </p></td>
 <td><p>0</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>594</p></td>
 <td><p>7</p></td>
 <td><p>0</p></td>
@@ -1072,7 +1072,7 @@ This DBC contains all skills.
 <td><p> </p></td>
 <td><p>0</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>613</p></td>
 <td><p>7</p></td>
 <td><p>0</p></td>
@@ -1081,7 +1081,7 @@ This DBC contains all skills.
 <td><p> </p></td>
 <td><p>0</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>633</p></td>
 <td><p>7</p></td>
 <td><p>0</p></td>
@@ -1090,7 +1090,7 @@ This DBC contains all skills.
 <td><p> </p></td>
 <td><p>0</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>653</p></td>
 <td><p>7</p></td>
 <td><p>0</p></td>
@@ -1099,7 +1099,7 @@ This DBC contains all skills.
 <td><p> </p></td>
 <td><p>0</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>654</p></td>
 <td><p>7</p></td>
 <td><p>0</p></td>
@@ -1108,7 +1108,7 @@ This DBC contains all skills.
 <td><p> </p></td>
 <td><p>0</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>655</p></td>
 <td><p>7</p></td>
 <td><p>0</p></td>
@@ -1117,7 +1117,7 @@ This DBC contains all skills.
 <td><p> </p></td>
 <td><p>0</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>656</p></td>
 <td><p>7</p></td>
 <td><p>0</p></td>
@@ -1126,7 +1126,7 @@ This DBC contains all skills.
 <td><p> </p></td>
 <td><p>0</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>673</p></td>
 <td><p>10</p></td>
 <td><p>0</p></td>
@@ -1135,7 +1135,7 @@ This DBC contains all skills.
 <td><p> </p></td>
 <td><p>0</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>713</p></td>
 <td><p>9</p></td>
 <td><p>0</p></td>
@@ -1144,7 +1144,7 @@ This DBC contains all skills.
 <td><p> </p></td>
 <td><p>0</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>733</p></td>
 <td><p>9</p></td>
 <td><p>0</p></td>
@@ -1153,7 +1153,7 @@ This DBC contains all skills.
 <td><p> </p></td>
 <td><p>0</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>753</p></td>
 <td><p>9</p></td>
 <td><p>0</p></td>
@@ -1162,7 +1162,7 @@ This DBC contains all skills.
 <td><p> </p></td>
 <td><p>0</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>754</p></td>
 <td><p>9</p></td>
 <td><p>0</p></td>
@@ -1171,7 +1171,7 @@ This DBC contains all skills.
 <td><p> </p></td>
 <td><p>0</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>755</p></td>
 <td><p>11</p></td>
 <td><p>0</p></td>
@@ -1180,7 +1180,7 @@ This DBC contains all skills.
 <td><p>Modify</p></td>
 <td><p>1</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>756</p></td>
 <td><p>9</p></td>
 <td><p>0</p></td>
@@ -1189,7 +1189,7 @@ This DBC contains all skills.
 <td><p> </p></td>
 <td><p>0</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>758</p></td>
 <td><p>-1</p></td>
 <td><p>0</p></td>
@@ -1198,7 +1198,7 @@ This DBC contains all skills.
 <td><p> </p></td>
 <td><p>0</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>759</p></td>
 <td><p>10</p></td>
 <td><p>0</p></td>
@@ -1207,7 +1207,7 @@ This DBC contains all skills.
 <td><p> </p></td>
 <td><p>0</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>760</p></td>
 <td><p>9</p></td>
 <td><p>0</p></td>
@@ -1216,7 +1216,7 @@ This DBC contains all skills.
 <td><p> </p></td>
 <td><p>0</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>761</p></td>
 <td><p>7</p></td>
 <td><p>0</p></td>
@@ -1225,7 +1225,7 @@ This DBC contains all skills.
 <td><p> </p></td>
 <td><p>0</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>762</p></td>
 <td><p>9</p></td>
 <td><p>0</p></td>
@@ -1234,7 +1234,7 @@ This DBC contains all skills.
 <td><p> </p></td>
 <td><p>0</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>763</p></td>
 <td><p>7</p></td>
 <td><p>0</p></td>
@@ -1243,7 +1243,7 @@ This DBC contains all skills.
 <td><p> </p></td>
 <td><p>0</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>764</p></td>
 <td><p>7</p></td>
 <td><p>0</p></td>
@@ -1252,7 +1252,7 @@ This DBC contains all skills.
 <td><p> </p></td>
 <td><p>0</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>765</p></td>
 <td><p>7</p></td>
 <td><p>0</p></td>
@@ -1261,7 +1261,7 @@ This DBC contains all skills.
 <td><p> </p></td>
 <td><p>0</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>766</p></td>
 <td><p>7</p></td>
 <td><p>0</p></td>
@@ -1270,7 +1270,7 @@ This DBC contains all skills.
 <td><p> </p></td>
 <td><p>0</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>767</p></td>
 <td><p>7</p></td>
 <td><p>0</p></td>
@@ -1279,7 +1279,7 @@ This DBC contains all skills.
 <td><p> </p></td>
 <td><p>0</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>768</p></td>
 <td><p>7</p></td>
 <td><p>0</p></td>
@@ -1288,7 +1288,7 @@ This DBC contains all skills.
 <td><p> </p></td>
 <td><p>0</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>769</p></td>
 <td><p>7</p></td>
 <td><p>22</p></td>
@@ -1297,7 +1297,7 @@ This DBC contains all skills.
 <td><p> </p></td>
 <td><p>0</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>770</p></td>
 <td><p>7</p></td>
 <td><p>0</p></td>
@@ -1306,7 +1306,7 @@ This DBC contains all skills.
 <td><p> </p></td>
 <td><p>0</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>771</p></td>
 <td><p>7</p></td>
 <td><p>0</p></td>
@@ -1315,7 +1315,7 @@ This DBC contains all skills.
 <td><p> </p></td>
 <td><p>0</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>772</p></td>
 <td><p>7</p></td>
 <td><p>0</p></td>
@@ -1324,7 +1324,7 @@ This DBC contains all skills.
 <td><p> </p></td>
 <td><p>0</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>773</p></td>
 <td><p>11</p></td>
 <td><p>0</p></td>
@@ -1333,7 +1333,7 @@ This DBC contains all skills.
 <td><p>Inscribe</p></td>
 <td><p>1</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>775</p></td>
 <td><p>7</p></td>
 <td><p>0</p></td>
@@ -1342,7 +1342,7 @@ This DBC contains all skills.
 <td><p> </p></td>
 <td><p>0</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>776</p></td>
 <td><p>7</p></td>
 <td><p>0</p></td>
@@ -1351,7 +1351,7 @@ This DBC contains all skills.
 <td><p>Engrave</p></td>
 <td><p>0</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>777</p></td>
 <td><p>7</p></td>
 <td><p>0</p></td>
@@ -1360,7 +1360,7 @@ This DBC contains all skills.
 <td><p> </p></td>
 <td><p>0</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>778</p></td>
 <td><p>7</p></td>
 <td><p>0</p></td>
@@ -1369,7 +1369,7 @@ This DBC contains all skills.
 <td><p> </p></td>
 <td><p>0</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>780</p></td>
 <td><p>7</p></td>
 <td><p>0</p></td>
@@ -1378,7 +1378,7 @@ This DBC contains all skills.
 <td><p> </p></td>
 <td><p>0</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>781</p></td>
 <td><p>7</p></td>
 <td><p>0</p></td>
@@ -1387,7 +1387,7 @@ This DBC contains all skills.
 <td><p> </p></td>
 <td><p>0</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>782</p></td>
 <td><p>7</p></td>
 <td><p>0</p></td>
@@ -1396,7 +1396,7 @@ This DBC contains all skills.
 <td><p> </p></td>
 <td><p>0</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>783</p></td>
 <td><p>7</p></td>
 <td><p>0</p></td>
@@ -1405,7 +1405,7 @@ This DBC contains all skills.
 <td><p> </p></td>
 <td><p>0</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>784</p></td>
 <td><p>7</p></td>
 <td><p>0</p></td>
@@ -1414,7 +1414,7 @@ This DBC contains all skills.
 <td><p> </p></td>
 <td><p>0</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>785</p></td>
 <td><p>7</p></td>
 <td><p>0</p></td>
@@ -1423,7 +1423,7 @@ This DBC contains all skills.
 <td><p> </p></td>
 <td><p>0</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>786</p></td>
 <td><p>7</p></td>
 <td><p>0</p></td>
@@ -1432,7 +1432,7 @@ This DBC contains all skills.
 <td><p> </p></td>
 <td><p>0</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>787</p></td>
 <td><p>7</p></td>
 <td><p>0</p></td>
@@ -1441,7 +1441,7 @@ This DBC contains all skills.
 <td><p> </p></td>
 <td><p>0</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>788</p></td>
 <td><p>5</p></td>
 <td><p>0</p></td>
@@ -1467,39 +1467,39 @@ This in the content of this small dbc
 <col width="50%" />
 </colgroup>
 <tbody>
-<tr class="odd">
+<tr>
 <td><p><strong>Category Id</strong></p></td>
 <td><p><strong>Name</strong></p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>5</p></td>
 <td><p>Attributes</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>6</p></td>
 <td><p>Weapon Skills</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>7</p></td>
 <td><p>Class Skills</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>8</p></td>
 <td><p>Armor Proficiencies</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>9</p></td>
 <td><p>Secondary Skills</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>10</p></td>
 <td><p>Languages</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>11</p></td>
 <td><p>Professions</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>12</p></td>
 <td><p>Not Displayed</p></td>
 </tr>

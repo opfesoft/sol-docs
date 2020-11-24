@@ -18,7 +18,7 @@ This table holds info about player's equipment manager settings.
 <col width="12%" />
 </colgroup>
 <tbody>
-<tr class="odd">
+<tr>
 <td><p><strong>Field</strong></p></td>
 <td><p><strong>Type</strong></p></td>
 <td><p><strong>Attributes</strong></p></td>
@@ -28,7 +28,7 @@ This table holds info about player's equipment manager settings.
 <td><p><strong>Extra</strong></p></td>
 <td><p><strong>Comment</strong></p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#guid">guid</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>signed</p></td>
@@ -38,7 +38,7 @@ This table holds info about player's equipment manager settings.
 <td><p> </p></td>
 <td><p> </p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#setguid">setguid</a></p></td>
 <td><p>bigint(20)</p></td>
 <td><p>signed</p></td>
@@ -48,7 +48,7 @@ This table holds info about player's equipment manager settings.
 <td><p>Auto Increment</p></td>
 <td><p> </p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#setindex">setindex</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>signed</p></td>
@@ -58,7 +58,7 @@ This table holds info about player's equipment manager settings.
 <td><p> </p></td>
 <td><p> </p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#name">name</a></p></td>
 <td><p>varchar(31)</p></td>
 <td><p>signed</p></td>
@@ -68,7 +68,7 @@ This table holds info about player's equipment manager settings.
 <td><p> </p></td>
 <td><p> </p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#iconname">iconname</a></p></td>
 <td><p>varchar(100)</p></td>
 <td><p>signed</p></td>
@@ -78,7 +78,7 @@ This table holds info about player's equipment manager settings.
 <td><p> </p></td>
 <td><p> </p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#ignore_mask">ignore_mask</a></p></td>
 <td><p>int(11)</p></td>
 <td><p>unsigned</p></td>
@@ -88,7 +88,7 @@ This table holds info about player's equipment manager settings.
 <td><p> </p></td>
 <td><p> </p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#item0-18">item0</a></p></td>
 <td><p>int(11)</p></td>
 <td><p>unsigned</p></td>
@@ -98,7 +98,7 @@ This table holds info about player's equipment manager settings.
 <td><p> </p></td>
 <td><p> </p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#item0-18">item1</a></p></td>
 <td><p>int(11)</p></td>
 <td><p>unsigned</p></td>
@@ -108,7 +108,7 @@ This table holds info about player's equipment manager settings.
 <td><p> </p></td>
 <td><p> </p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#item0-18">item2</a></p></td>
 <td><p>int(11)</p></td>
 <td><p>unsigned</p></td>
@@ -118,7 +118,7 @@ This table holds info about player's equipment manager settings.
 <td><p> </p></td>
 <td><p> </p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#item0-18">item3</a></p></td>
 <td><p>int(11)</p></td>
 <td><p>unsigned</p></td>
@@ -128,7 +128,7 @@ This table holds info about player's equipment manager settings.
 <td><p> </p></td>
 <td><p> </p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#item0-18">item4</a></p></td>
 <td><p>int(11)</p></td>
 <td><p>unsigned</p></td>
@@ -138,7 +138,7 @@ This table holds info about player's equipment manager settings.
 <td><p> </p></td>
 <td><p> </p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#item0-18">item5</a></p></td>
 <td><p>int(11)</p></td>
 <td><p>unsigned</p></td>
@@ -148,7 +148,7 @@ This table holds info about player's equipment manager settings.
 <td><p> </p></td>
 <td><p> </p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#item0-18">item6</a></p></td>
 <td><p>int(11)</p></td>
 <td><p>unsigned</p></td>
@@ -158,7 +158,7 @@ This table holds info about player's equipment manager settings.
 <td><p> </p></td>
 <td><p> </p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#item0-18">item7</a></p></td>
 <td><p>int(11)</p></td>
 <td><p>unsigned</p></td>
@@ -168,7 +168,7 @@ This table holds info about player's equipment manager settings.
 <td><p> </p></td>
 <td><p> </p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#item0-18">item8</a></p></td>
 <td><p>int(11)</p></td>
 <td><p>unsigned</p></td>
@@ -178,7 +178,7 @@ This table holds info about player's equipment manager settings.
 <td><p> </p></td>
 <td><p> </p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#item0-18">item9</a></p></td>
 <td><p>int(11)</p></td>
 <td><p>unsigned</p></td>
@@ -188,7 +188,7 @@ This table holds info about player's equipment manager settings.
 <td><p> </p></td>
 <td><p> </p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#item0-18">item10</a></p></td>
 <td><p>int(11)</p></td>
 <td><p>unsigned</p></td>
@@ -198,7 +198,7 @@ This table holds info about player's equipment manager settings.
 <td><p> </p></td>
 <td><p> </p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#item0-18">item11</a></p></td>
 <td><p>int(11)</p></td>
 <td><p>unsigned</p></td>
@@ -208,7 +208,7 @@ This table holds info about player's equipment manager settings.
 <td><p> </p></td>
 <td><p> </p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#item0-18">item12</a></p></td>
 <td><p>int(11)</p></td>
 <td><p>unsigned</p></td>
@@ -218,7 +218,7 @@ This table holds info about player's equipment manager settings.
 <td><p> </p></td>
 <td><p> </p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#item0-18">item13</a></p></td>
 <td><p>int(11)</p></td>
 <td><p>unsigned</p></td>
@@ -228,7 +228,7 @@ This table holds info about player's equipment manager settings.
 <td><p> </p></td>
 <td><p> </p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#item0-18">item14</a></p></td>
 <td><p>int(11)</p></td>
 <td><p>unsigned</p></td>
@@ -238,7 +238,7 @@ This table holds info about player's equipment manager settings.
 <td><p> </p></td>
 <td><p> </p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#item0-18">item15</a></p></td>
 <td><p>int(11)</p></td>
 <td><p>unsigned</p></td>
@@ -248,7 +248,7 @@ This table holds info about player's equipment manager settings.
 <td><p> </p></td>
 <td><p> </p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#item0-18">item16</a></p></td>
 <td><p>int(11)</p></td>
 <td><p>unsigned</p></td>
@@ -258,7 +258,7 @@ This table holds info about player's equipment manager settings.
 <td><p> </p></td>
 <td><p> </p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#item0-18">item17</a></p></td>
 <td><p>int(11)</p></td>
 <td><p>unsigned</p></td>
@@ -268,7 +268,7 @@ This table holds info about player's equipment manager settings.
 <td><p> </p></td>
 <td><p> </p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#item0-18">item18</a></p></td>
 <td><p>int(11)</p></td>
 <td><p>unsigned</p></td>

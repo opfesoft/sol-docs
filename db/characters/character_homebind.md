@@ -18,7 +18,7 @@ Contains information on the location where characters get teleported when they u
 <col width="12%" />
 </colgroup>
 <tbody>
-<tr class="odd">
+<tr>
 <td><p><strong>Field</strong></p></td>
 <td><p><strong>Type</strong></p></td>
 <td><p><strong>Attributes</strong></p></td>
@@ -28,7 +28,7 @@ Contains information on the location where characters get teleported when they u
 <td><p><strong>Extra</strong></p></td>
 <td><p><strong>Comment</strong></p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#guid">guid</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
@@ -38,7 +38,7 @@ Contains information on the location where characters get teleported when they u
 <td><p> </p></td>
 <td><p>Global Unique Identifier</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#mapid">mapId</a></p></td>
 <td><p>smallint(5)</p></td>
 <td><p>unsigned</p></td>
@@ -48,7 +48,7 @@ Contains information on the location where characters get teleported when they u
 <td><p> </p></td>
 <td><p>Map Identifier</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#zoneid">zoneId</a></p></td>
 <td><p>smallint(5)</p></td>
 <td><p>unsigned</p></td>
@@ -58,7 +58,7 @@ Contains information on the location where characters get teleported when they u
 <td><p> </p></td>
 <td><p>Zone Identifier</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#posx">posX</a></p></td>
 <td><p>float</p></td>
 <td><p>signed</p></td>
@@ -68,7 +68,7 @@ Contains information on the location where characters get teleported when they u
 <td><p> </p></td>
 <td><p> </p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#posy">posY</a></p></td>
 <td><p>float</p></td>
 <td><p>signed</p></td>
@@ -78,7 +78,7 @@ Contains information on the location where characters get teleported when they u
 <td><p> </p></td>
 <td><p> </p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#posz">posZ</a></p></td>
 <td><p>float</p></td>
 <td><p>signed</p></td>

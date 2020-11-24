@@ -14,7 +14,7 @@ This table holds the vendor data for all NPCs that sell items and currency. The 
 <col width="16%" />
 </colgroup>
 <tbody>
-<tr class="odd">
+<tr>
 <td><p><strong>Field</strong></p></td>
 <td><p><strong>Type</strong></p></td>
 <td><p><strong>Attributes</strong></p></td>
@@ -22,7 +22,7 @@ This table holds the vendor data for all NPCs that sell items and currency. The 
 <td><p><strong>Null</strong></p></td>
 <td><p><strong>Default</strong></p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#entry">entry</a></p></td>
 <td><p>mediumint(8)</p></td>
 <td><p>unsigned</p></td>
@@ -30,7 +30,7 @@ This table holds the vendor data for all NPCs that sell items and currency. The 
 <td><p>NO</p></td>
 <td><p>0</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#slot">slot</a></p></td>
 <td><p>smallint(6)</p></td>
 <td><p>signed</p></td>
@@ -38,7 +38,7 @@ This table holds the vendor data for all NPCs that sell items and currency. The 
 <td><p>NO</p></td>
 <td><p>0</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#item">item</a></p></td>
 <td><p>mediumint(8)</p></td>
 <td><p>signed</p></td>
@@ -46,7 +46,7 @@ This table holds the vendor data for all NPCs that sell items and currency. The 
 <td><p>NO</p></td>
 <td><p>0</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#maxcount">maxcount</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
@@ -54,7 +54,7 @@ This table holds the vendor data for all NPCs that sell items and currency. The 
 <td><p>NO</p></td>
 <td><p>0</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#incrtime">incrtime</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
@@ -62,7 +62,7 @@ This table holds the vendor data for all NPCs that sell items and currency. The 
 <td><p>NO</p></td>
 <td><p>0</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#extendedcost">ExtendedCost</a></p></td>
 <td><p>mediumint(8)</p></td>
 <td><p>unsigned</p></td>

@@ -16,7 +16,7 @@ Basically all faction/reputation changes made when player changes faction.
 <col width="12%" />
 </colgroup>
 <tbody>
-<tr class="odd">
+<tr>
 <td><p><strong>Field</strong></p></td>
 <td><p><strong>Type</strong></p></td>
 <td><p><strong>Attributes</strong></p></td>
@@ -26,7 +26,7 @@ Basically all faction/reputation changes made when player changes faction.
 <td><p><strong>Extra</strong></p></td>
 <td><p><strong>Comment</strong></p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#alliance_id">alliance_id</a></p></td>
 <td><p>int(8)</p></td>
 <td><p>unsigned</p></td>
@@ -36,7 +36,7 @@ Basically all faction/reputation changes made when player changes faction.
 <td><p> </p></td>
 <td><p> </p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#horde_id">horde_id</a></p></td>
 <td><p>int(8)</p></td>
 <td><p>signed</p></td>

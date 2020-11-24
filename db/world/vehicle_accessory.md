@@ -18,7 +18,7 @@ This table is used to tell the server to spawn an additional NPC with this vehic
 <col width="12%" />
 </colgroup>
 <tbody>
-<tr class="odd">
+<tr>
 <td><p><strong>Field</strong></p></td>
 <td><p><strong>Type</strong></p></td>
 <td><p><strong>Attributes</strong></p></td>
@@ -28,7 +28,7 @@ This table is used to tell the server to spawn an additional NPC with this vehic
 <td><p><strong>Extra</strong></p></td>
 <td><p><strong>Comment</strong></p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#guid">guid</a></p></td>
 <td><p>mediumint(8)</p></td>
 <td><p>unsigned</p></td>
@@ -38,7 +38,7 @@ This table is used to tell the server to spawn an additional NPC with this vehic
 <td><p> </p></td>
 <td><p> </p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#accessory_entry">accessory_entry</a></p></td>
 <td><p>mediumint(8)</p></td>
 <td><p>unsigned</p></td>
@@ -48,7 +48,7 @@ This table is used to tell the server to spawn an additional NPC with this vehic
 <td><p> </p></td>
 <td><p> </p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#seat_id">seat_id</a></p></td>
 <td><p>tinyint(1)</p></td>
 <td><p>signed</p></td>
@@ -58,7 +58,7 @@ This table is used to tell the server to spawn an additional NPC with this vehic
 <td><p> </p></td>
 <td><p> </p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#minion">minion</a></p></td>
 <td><p>tinyint(1)</p></td>
 <td><p>unsigned</p></td>
@@ -68,7 +68,7 @@ This table is used to tell the server to spawn an additional NPC with this vehic
 <td><p> </p></td>
 <td><p> </p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#description">description</a></p></td>
 <td><p>text</p></td>
 <td><p>signed</p></td>
@@ -78,7 +78,7 @@ This table is used to tell the server to spawn an additional NPC with this vehic
 <td><p> </p></td>
 <td><p> </p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#summonype">summontype</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
@@ -88,7 +88,7 @@ This table is used to tell the server to spawn an additional NPC with this vehic
 <td><p> </p></td>
 <td><p>see enum TempSummonType</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#summontimer">summontimer</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
@@ -143,42 +143,42 @@ Comment
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td><p>1</p></td>
 <td><p>TEMPSUMMON_TIMED_OR_DEAD_DESPAWN</p></td>
 <td><p>Despawns after a specified time OR when the creature disappears</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>2</p></td>
 <td><p>TEMPSUMMON_TIMED_OR_CORPSE_DESPAWN</p></td>
 <td><p>Despawns after a specified time OR when the creature dies</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>3</p></td>
 <td><p>TEMPSUMMON_TIMED_DESPAWN</p></td>
 <td><p>Despawns after a specified time</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>4</p></td>
 <td><p>TEMPSUMMON_TIMED_DESPAWN_OUT_OF_COMBAT</p></td>
 <td><p>Despawns after a specified time after the creature is out of combat</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>5</p></td>
 <td><p>TEMPSUMMON_CORPSE_DESPAWN</p></td>
 <td><p>Despawns instantly after death</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>6</p></td>
 <td><p>TEMPSUMMON_CORPSE_TIMED_DESPAWN</p></td>
 <td><p>Despawns after a specified time after death</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>7</p></td>
 <td><p>TEMPSUMMON_DEAD_DESPAWN</p></td>
 <td><p>Despawns when the creature disappears</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>8</p></td>
 <td><p>TEMPSUMMON_MANUAL_DESPAWN</p></td>
 <td><p>Despawns when UnSummon() is called</p></td>

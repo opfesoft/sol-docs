@@ -22,42 +22,42 @@
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td>0</td>
 <td>eventID</td>
 <td>Integer</td>
 <td>Holiday event ID</td>
 <td> </td>
 </tr>
-<tr class="even">
+<tr>
 <td>1</td>
 <td>eventStage1Duration</td>
 <td>Integer</td>
 <td>Stage1 event length (for stage1, either as preparation or main event. See eventSchedulerType for more info)</td>
 <td> </td>
 </tr>
-<tr class="odd">
+<tr>
 <td>2</td>
 <td>eventStage2Duration</td>
 <td>Integer</td>
 <td>Stage2 event length (for stage2, either as main event or cooldown. See eventSchedulerType for more info)</td>
 <td> </td>
 </tr>
-<tr class="even">
+<tr>
 <td>11</td>
 <td>eventDate</td>
 <td>Integer</td>
 <td>Packed blizzdate - Epochdate=01.01.2000-00:00 - Year is discarded if column12 is 0</td>
 <td> </td>
 </tr>
-<tr class="odd">
+<tr>
 <td>37</td>
 <td>Region</td>
 <td>integer</td>
 <td> ??? (needs more research)</td>
 <td> </td>
 </tr>
-<tr class="even">
+<tr>
 <td>38</td>
 <td>Looping</td>
 <td>integer</td>
@@ -69,42 +69,42 @@
  400 - Call to Arms: Strand of the Ancient
  420 - Call to Arms: Isle of Conquest</code></pre></td>
 </tr>
-<tr class="odd">
+<tr>
 <td>39</td>
 <td>calendarFlags</td>
 <td>integer</td>
 <td> ??? (needs more research)</td>
 <td> </td>
 </tr>
-<tr class="even">
+<tr>
 <td>49</td>
 <td>eventCalendarName</td>
 <td>iRefID</td>
 <td>Ref to <a href="Localization_lang">Loc</a> in HolidayNames.dbc</td>
 <td> </td>
 </tr>
-<tr class="odd">
+<tr>
 <td>50</td>
 <td>eventCalendarDescription</td>
 <td>iRefID</td>
 <td>Ref to <a href="Localization_lang">Loc</a> in HolidayDescriptions.dbc</td>
 <td> </td>
 </tr>
-<tr class="even">
+<tr>
 <td>51</td>
 <td>eventCalendarOverlay</td>
 <td>String</td>
 <td>Overlay texture used for ingame calendar event-decorations</td>
 <td> </td>
 </tr>
-<tr class="odd">
+<tr>
 <td>52</td>
 <td>priority</td>
 <td>Integer</td>
 <td> ??? (needs more research)</td>
 <td> </td>
 </tr>
-<tr class="even">
+<tr>
 <td>53</td>
 <td>eventSchedulerType</td>
 <td>Integer</td>
@@ -114,7 +114,7 @@
   1: repeat, use defined dates
   2: repeat, hourly</code></pre></td>
 </tr>
-<tr class="odd">
+<tr>
 <td>54</td>
 <td>eventFlags</td>
 <td>Integer</td>

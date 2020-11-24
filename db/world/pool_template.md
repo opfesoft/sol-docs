@@ -18,7 +18,7 @@ Each unique pool is defined in this table.
 <col width="12%" />
 </colgroup>
 <tbody>
-<tr class="odd">
+<tr>
 <td><p><strong>Field</strong></p></td>
 <td><p><strong>Type</strong></p></td>
 <td><p><strong>Attributes</strong></p></td>
@@ -28,7 +28,7 @@ Each unique pool is defined in this table.
 <td><p><strong>Extra</strong></p></td>
 <td><p><strong>Comment</strong></p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#entry">entry</a></p></td>
 <td><p>mediumint(8)</p></td>
 <td><p>unsigned</p></td>
@@ -38,7 +38,7 @@ Each unique pool is defined in this table.
 <td><p> </p></td>
 <td><p>Pool entry</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#max_limit">max_limit</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
@@ -48,7 +48,7 @@ Each unique pool is defined in this table.
 <td><p> </p></td>
 <td><p>Max number of objects (0) is no limit</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#description">description</a></p></td>
 <td><p>varchar(255)</p></td>
 <td><p>signed</p></td>

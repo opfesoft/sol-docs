@@ -22,7 +22,7 @@ This table holds info about group members.
 <col width="12%" />
 </colgroup>
 <tbody>
-<tr class="odd">
+<tr>
 <td><p><strong>Field</strong></p></td>
 <td><p><strong>Type</strong></p></td>
 <td><p><strong>Attributes</strong></p></td>
@@ -32,7 +32,7 @@ This table holds info about group members.
 <td><p><strong>Extra</strong></p></td>
 <td><p><strong>Comment</strong></p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#guid">guid</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
@@ -42,7 +42,7 @@ This table holds info about group members.
 <td> </td>
 <td> </td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#memberguid">memberGuid</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
@@ -52,7 +52,7 @@ This table holds info about group members.
 <td><p>Unique</p></td>
 <td> </td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#memberflags">memberFlags</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
@@ -62,7 +62,7 @@ This table holds info about group members.
 <td> </td>
 <td> </td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#subgroup">subgroup</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
@@ -72,7 +72,7 @@ This table holds info about group members.
 <td> </td>
 <td> </td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#roles">roles</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
@@ -102,17 +102,17 @@ GUID of the character member of the group. See [characters.guid](characters.md#g
 <col width="33%" />
 </colgroup>
 <tbody>
-<tr class="odd">
+<tr>
 <td><pre><code>MEMBER_FLAG_ASSISTANT</code></pre></td>
 <td><pre><code>0x01</code></pre></td>
 <td> </td>
 </tr>
-<tr class="even">
+<tr>
 <td><pre><code>MEMBER_FLAG_MAINTANK</code></pre></td>
 <td><pre><code>0x02</code></pre></td>
 <td><pre><code>(U)</code></pre></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><pre><code>MEMBER_FLAG_MAINASSIST</code></pre></td>
 <td><pre><code>0x04</code></pre></td>
 <td><pre><code>(U)</code></pre></td>
@@ -145,27 +145,27 @@ There can only be 5 membes in one subgroup per raid group.
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td><p>0</p></td>
 <td><p>ROLE_NONE</p></td>
 <td><p> </p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>1</p></td>
 <td><p>ROLE_LEADER</p></td>
 <td><p>The character has signed to Random Dungeon Finder as experienced</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>2</p></td>
 <td><p>ROLE_TANK</p></td>
 <td><p>The character has signed to Random Dungeon Finder as tank</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>4</p></td>
 <td><p>ROLE_HEALER</p></td>
 <td><p>The character has signed to Random Dungeon Finder as healer</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>8</p></td>
 <td><p>ROLE_DAMAGE</p></td>
 <td><p>The character has signed to Random Dungeon Finder as dps</p></td>

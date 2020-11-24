@@ -8,7 +8,7 @@ This table holds data the Core needs to handle variables (like timer for arena p
 
 <table>
 <tbody>
-<tr class="odd">
+<tr>
 <td><p><strong>Field</strong></p></td>
 <td><p><strong>Type</strong></p></td>
 <td><p><strong>Attributes</strong></p></td>
@@ -18,7 +18,7 @@ This table holds data the Core needs to handle variables (like timer for arena p
 <td><p><strong>Extra</strong></p></td>
 <td><p><strong>Comment</strong></p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#entry">entry</a></p></td>
 <td><p>mediumint(10)</p></td>
 <td><p>unsigned</p></td>
@@ -30,7 +30,7 @@ This table holds data the Core needs to handle variables (like timer for arena p
 <td><p><br />
 </p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#value">value</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
@@ -43,7 +43,7 @@ This table holds data the Core needs to handle variables (like timer for arena p
 <td><p><br />
 </p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#comment">comment</a></p></td>
 <td><p>text</p></td>
 <td><p>signed</p></td>

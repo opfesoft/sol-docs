@@ -18,7 +18,7 @@ This table holds individual item instance information for all items currently eq
 <col width="12%" />
 </colgroup>
 <tbody>
-<tr class="odd">
+<tr>
 <td><p><strong>Field</strong></p></td>
 <td><p><strong>Type</strong></p></td>
 <td><p><strong>Attributes</strong></p></td>
@@ -28,7 +28,7 @@ This table holds individual item instance information for all items currently eq
 <td><p><strong>Extra</strong></p></td>
 <td><p><strong>Comment</strong></p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#guid">guid</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
@@ -38,7 +38,7 @@ This table holds individual item instance information for all items currently eq
 <td><p> </p></td>
 <td><p> </p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#itemenry">itemEntry</a></p></td>
 <td><p>mediumint(8)</p></td>
 <td><p>unsigned</p></td>
@@ -48,7 +48,7 @@ This table holds individual item instance information for all items currently eq
 <td><p> </p></td>
 <td><p> </p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#owner_guid">owner_guid</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
@@ -58,7 +58,7 @@ This table holds individual item instance information for all items currently eq
 <td><p> </p></td>
 <td><p> </p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#creatorguid">creatorGuid</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
@@ -68,7 +68,7 @@ This table holds individual item instance information for all items currently eq
 <td><p> </p></td>
 <td><p> </p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#giftcreatorguid">giftCreatorGuid</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
@@ -78,7 +78,7 @@ This table holds individual item instance information for all items currently eq
 <td><p> </p></td>
 <td><p> </p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#count">count</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
@@ -88,7 +88,7 @@ This table holds individual item instance information for all items currently eq
 <td><p> </p></td>
 <td><p> </p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#duration">duration</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
@@ -98,7 +98,7 @@ This table holds individual item instance information for all items currently eq
 <td><p> </p></td>
 <td><p> </p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#charges">charges</a></p></td>
 <td><p>tinytext</p></td>
 <td><p>signed</p></td>
@@ -108,7 +108,7 @@ This table holds individual item instance information for all items currently eq
 <td><p> </p></td>
 <td><p> </p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#flags">flags</a></p></td>
 <td><p>mediunint(8)</p></td>
 <td><p>unsigned</p></td>
@@ -118,7 +118,7 @@ This table holds individual item instance information for all items currently eq
 <td><p> </p></td>
 <td><p> </p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#enchantments">enchantments</a></p></td>
 <td><p>text</p></td>
 <td><p>signed</p></td>
@@ -128,7 +128,7 @@ This table holds individual item instance information for all items currently eq
 <td><p> </p></td>
 <td><p> </p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#randompropertyid">randomPropertyId</a></p></td>
 <td><p>smallint(5)</p></td>
 <td><p>signed</p></td>
@@ -138,7 +138,7 @@ This table holds individual item instance information for all items currently eq
 <td><p> </p></td>
 <td><p> </p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#durability">durability</a></p></td>
 <td><p>smallint(5)</p></td>
 <td><p>unsigned</p></td>
@@ -148,7 +148,7 @@ This table holds individual item instance information for all items currently eq
 <td><p> </p></td>
 <td><p> </p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#playedtime">playedTime</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
@@ -158,7 +158,7 @@ This table holds individual item instance information for all items currently eq
 <td><p> </p></td>
 <td><p> </p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#text">text</a></p></td>
 <td><p>text</p></td>
 <td><p>signed</p></td>

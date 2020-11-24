@@ -9,7 +9,7 @@ This table holds information on all available accounts.
 
 <table>
 <tbody>
-<tr class="odd">
+<tr>
 <td><p><strong>Field</strong></p></td>
 <td><p><strong>Type</strong></p></td>
 <td><p><strong>Attributes</strong></p></td>
@@ -19,7 +19,7 @@ This table holds information on all available accounts.
 <td><p><strong>Extra</strong></p></td>
 <td><p><strong>Comment</strong></p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#id">id</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
@@ -30,7 +30,7 @@ This table holds information on all available accounts.
 <td><p>Auto increment</p></td>
 <td><p>Identifier</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#username">username</a></p></td>
 <td><p>varchar(32)</p></td>
 <td><p><br />
@@ -43,7 +43,7 @@ This table holds information on all available accounts.
 <td><p><br />
 </p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#sha_pass_hash">sha_pass_hash</a></p></td>
 <td><p>varchar(40)</p></td>
 <td><p><br />
@@ -57,7 +57,7 @@ This table holds information on all available accounts.
 <td><p><br />
 </p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#sessionkey">sessionkey</a></p></td>
 <td><p>varchar(80)</p></td>
 <td><p><br />
@@ -71,7 +71,7 @@ This table holds information on all available accounts.
 <td><p><br />
 </p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#v">v</a></p></td>
 <td><p>varchar(64)</p></td>
 <td><br />
@@ -85,7 +85,7 @@ This table holds information on all available accounts.
 <td><p><br />
 </p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#s">s</a></p></td>
 <td><p>varchar(64)</p></td>
 <td><p><br />
@@ -99,7 +99,7 @@ This table holds information on all available accounts.
 <td><p><br />
 </p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><a href="#token_key">token_key</a></td>
 <td>varchar(100)</td>
 <td><br />
@@ -113,7 +113,7 @@ This table holds information on all available accounts.
 <td><br />
 </td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#email">email</a></p></td>
 <td><p>varchar(255)</p></td>
 <td><p><br />
@@ -127,7 +127,7 @@ This table holds information on all available accounts.
 <td><p><br />
 </p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><a href="#reg_mail">reg_mail</a></td>
 <td>varchar(255)</td>
 <td><br />
@@ -141,7 +141,7 @@ This table holds information on all available accounts.
 <td><br />
 </td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#joindate">joindate</a></p></td>
 <td><p>timestamp</p></td>
 <td><p>signed</p></td>
@@ -154,7 +154,7 @@ This table holds information on all available accounts.
 <td><p><br />
 </p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#last_ip">last_ip</a></p></td>
 <td><p>varchar(15)</p></td>
 <td><p><br />
@@ -168,7 +168,7 @@ This table holds information on all available accounts.
 <td><p><br />
 </p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#failed_logins">failed_logins</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
@@ -181,7 +181,7 @@ This table holds information on all available accounts.
 <td><p><br />
 </p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#locked">locked</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
@@ -194,7 +194,7 @@ This table holds information on all available accounts.
 <td><p><br />
 </p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#last_login">last_login</a></p></td>
 <td><p>timestamp</p></td>
 <td><p>signed</p></td>
@@ -207,7 +207,7 @@ This table holds information on all available accounts.
 <td><p><br />
 </p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#online">online</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>signed</p></td>
@@ -220,7 +220,7 @@ This table holds information on all available accounts.
 <td><p><br />
 </p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#expansion">expansion</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
@@ -233,7 +233,7 @@ This table holds information on all available accounts.
 <td><p><br />
 </p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#mutetime">mutetime</a></p></td>
 <td><p>bigint(20)</p></td>
 <td><p>signed</p></td>
@@ -246,7 +246,7 @@ This table holds information on all available accounts.
 <td><p><br />
 </p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><a href="#mutereason">mutereason</a></td>
 <td>varchar(255)</td>
 <td>signed</td>
@@ -259,7 +259,7 @@ This table holds information on all available accounts.
 <td><br />
 </td>
 </tr>
-<tr class="even">
+<tr>
 <td><a href="#muteby">muteby</a></td>
 <td>varchar(50)</td>
 <td>signed</td>
@@ -272,7 +272,7 @@ This table holds information on all available accounts.
 <td><br />
 </td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#locale">locale</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
@@ -285,7 +285,7 @@ This table holds information on all available accounts.
 <td><p><br />
 </p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#os">os</a></p></td>
 <td><p>varchar(3)</p></td>
 <td><p>signed</p></td>
@@ -298,7 +298,7 @@ This table holds information on all available accounts.
 <td><p><br />
 </p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#recruiter">recruiter</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>

@@ -18,7 +18,7 @@ This table holds the main guild information. All created guilds or all guilds in
 <col width="12%" />
 </colgroup>
 <tbody>
-<tr class="odd">
+<tr>
 <td><p><strong>Field</strong></p></td>
 <td><p><strong>Type</strong></p></td>
 <td><p><strong>Attributes</strong></p></td>
@@ -28,7 +28,7 @@ This table holds the main guild information. All created guilds or all guilds in
 <td><p><strong>Extra</strong></p></td>
 <td><p><strong>Comment</strong></p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#guildid">guildid</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
@@ -38,7 +38,7 @@ This table holds the main guild information. All created guilds or all guilds in
 <td><p>Unique</p></td>
 <td><p> </p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#name">name</a></p></td>
 <td><p>varchar(24)</p></td>
 <td><p>signed</p></td>
@@ -48,7 +48,7 @@ This table holds the main guild information. All created guilds or all guilds in
 <td><p> </p></td>
 <td><p> </p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#leaderguid">leaderguid</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
@@ -58,7 +58,7 @@ This table holds the main guild information. All created guilds or all guilds in
 <td><p> </p></td>
 <td><p> </p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#emblemstyle">EmblemStyle</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
@@ -68,7 +68,7 @@ This table holds the main guild information. All created guilds or all guilds in
 <td><p> </p></td>
 <td><p> </p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#emblemcolor">EmblemColor</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
@@ -78,7 +78,7 @@ This table holds the main guild information. All created guilds or all guilds in
 <td><p> </p></td>
 <td><p> </p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#borderstyle">BorderStyle</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
@@ -88,7 +88,7 @@ This table holds the main guild information. All created guilds or all guilds in
 <td><p> </p></td>
 <td><p> </p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#bordercolor">BorderColor</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
@@ -98,7 +98,7 @@ This table holds the main guild information. All created guilds or all guilds in
 <td><p> </p></td>
 <td><p> </p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#backgroundcolor">BackgroundColor</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>signed</p></td>
@@ -108,7 +108,7 @@ This table holds the main guild information. All created guilds or all guilds in
 <td><p> </p></td>
 <td><p> </p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#info">info</a></p></td>
 <td><p>text</p></td>
 <td><p>signed</p></td>
@@ -118,7 +118,7 @@ This table holds the main guild information. All created guilds or all guilds in
 <td><p> </p></td>
 <td><p> </p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#motd">motd</a></p></td>
 <td><p>varchar(128)</p></td>
 <td><p>signed</p></td>
@@ -128,7 +128,7 @@ This table holds the main guild information. All created guilds or all guilds in
 <td><p> </p></td>
 <td><p> </p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#createdate">createdate</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
@@ -138,7 +138,7 @@ This table holds the main guild information. All created guilds or all guilds in
 <td><p> </p></td>
 <td><p> </p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#bankmoney">BankMoney</a></p></td>
 <td><p>bigint(20)</p></td>
 <td><p>signed</p></td>

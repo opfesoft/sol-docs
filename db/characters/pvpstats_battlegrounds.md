@@ -18,7 +18,7 @@ This table holds datas about BattleGrounds scores. To enable storing this kind o
 <col width="12%" />
 </colgroup>
 <tbody>
-<tr class="odd">
+<tr>
 <td><p><strong>Field</strong></p></td>
 <td><p><strong>Type</strong></p></td>
 <td><p><strong>Attributes</strong></p></td>
@@ -28,7 +28,7 @@ This table holds datas about BattleGrounds scores. To enable storing this kind o
 <td><p><strong>Extra</strong></p></td>
 <td><p><strong>Comment</strong></p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#id">id</a></p></td>
 <td><p>bigint</p></td>
 <td><p>unsigned</p></td>
@@ -38,7 +38,7 @@ This table holds datas about BattleGrounds scores. To enable storing this kind o
 <td><p> </p></td>
 <td><p> </p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#winner_faction">winner_faction</a></p></td>
 <td><p>tinyint</p></td>
 <td> </td>
@@ -48,7 +48,7 @@ This table holds datas about BattleGrounds scores. To enable storing this kind o
 <td><p> </p></td>
 <td><p> </p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#bracket_id">bracket_id</a></p></td>
 <td><p>tinyint</p></td>
 <td><p>unsigned</p></td>
@@ -58,7 +58,7 @@ This table holds datas about BattleGrounds scores. To enable storing this kind o
 <td><p> </p></td>
 <td><p> </p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#type">type</a></p></td>
 <td><p>tinyint</p></td>
 <td><p>unsigned</p></td>
@@ -68,7 +68,7 @@ This table holds datas about BattleGrounds scores. To enable storing this kind o
 <td><p> </p></td>
 <td><p> </p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#date">date</a></p></td>
 <td><p>datetime</p></td>
 <td><p> </p></td>

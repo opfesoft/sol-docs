@@ -8,7 +8,7 @@ This table is used to disable dungeons/bgs/spells/etc.
 
 <table>
 <tbody>
-<tr class="odd">
+<tr>
 <td><p><strong>Field</strong></p></td>
 <td><p><strong>Type</strong></p></td>
 <td><p><strong>Attributes</strong></p></td>
@@ -18,7 +18,7 @@ This table is used to disable dungeons/bgs/spells/etc.
 <td><p><strong>Extra</strong></p></td>
 <td><p><strong>Comment</strong></p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#sourcetype">sourceType</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
@@ -30,7 +30,7 @@ This table is used to disable dungeons/bgs/spells/etc.
 <td><p><br />
 </p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#entry">entry</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
@@ -42,7 +42,7 @@ This table is used to disable dungeons/bgs/spells/etc.
 <td><p><br />
 </p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#flags">flags</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
@@ -55,7 +55,7 @@ This table is used to disable dungeons/bgs/spells/etc.
 <td><p><br />
 </p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#params_0">params_0</a></p></td>
 <td><p>varchar(255)</p></td>
 <td><p><br />
@@ -69,7 +69,7 @@ This table is used to disable dungeons/bgs/spells/etc.
 <td><p><br />
 </p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#params_1">params_1</a></p></td>
 <td><p>varchar(255)</p></td>
 <td><p><br />
@@ -83,7 +83,7 @@ This table is used to disable dungeons/bgs/spells/etc.
 <td><p><br />
 </p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#comment">comment</a></p></td>
 <td><p>varchar(255)</p></td>
 <td><p><br />
@@ -155,19 +155,19 @@ Specifies what type of map is disabled (5man/10man/heroic/etc).
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td><p>1</p></td>
 <td><p>DUNGEON_STATUSFLAG_NORMAL OR RAID_STATUSFLAG_10MAN_NORMAL</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>2</p></td>
 <td><p>DUNGEON_STATUSFLAG_HEROIC OR RAID_STATUSFLAG_25MAN_NORMAL</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>4</p></td>
 <td><p>RAID_STATUSFLAG_10MAN_HEROIC</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>8</p></td>
 <td><p>RAID_STATUSFLAG_25MAN_HEROIC</p></td>
 </tr>

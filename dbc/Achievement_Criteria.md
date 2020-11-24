@@ -16,103 +16,103 @@ This DBC has been added with WoW 3.0.1.8303 and contains the needed criteria to
 <col width="25%" />
 </colgroup>
 <tbody>
-<tr class="odd">
+<tr>
 <td><p><strong>Column</strong></p></td>
 <td><strong>Field</strong></td>
 <td><strong>Type</strong></td>
 <td><strong>Notes</strong></td>
 </tr>
-<tr class="even">
+<tr>
 <td>1</td>
 <td>ID</td>
 <td>Integer</td>
 <td>Criteria ID</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>2</td>
 <td><a href="Achievement.md" class="uri">Achievement</a></td>
 <td>iRefID</td>
 <td>Reference to the achievement this criteria is needed for.</td>
 </tr>
-<tr class="even">
+<tr>
 <td>3</td>
 <td>Type</td>
 <td>Integer</td>
 <td>Which type is this criteria? This defines the rows below. See below.</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>4</td>
 <td>asset_id</td>
 <td>Integer</td>
 <td>Main requirement</td>
 </tr>
-<tr class="even">
+<tr>
 <td>5</td>
 <td>Quantity</td>
 <td>Integer</td>
 <td>Main requirement count</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>6</td>
 <td>start_event</td>
 <td>Integer</td>
 <td>additional requirement 1 type</td>
 </tr>
-<tr class="even">
+<tr>
 <td>7</td>
 <td>start_asset</td>
 <td>Integer</td>
 <td>additional requirement 1 value</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>8</td>
 <td>fail_event</td>
 <td>Integer</td>
 <td>additional requirement 2 type</td>
 </tr>
-<tr class="even">
+<tr>
 <td>9</td>
 <td>fail_asset</td>
 <td>Integer</td>
 <td>additional requirement 2 value</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>10-25</td>
 <td>Description</td>
 <td><a href="Localization_lang.md">Loc</a></td>
 <td>Criteria description.</td>
 </tr>
-<tr class="even">
+<tr>
 <td>26</td>
 <td>?</td>
 <td> </td>
 <td>Mostly 16712190, but not always</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>27</td>
 <td>Flags</td>
 <td>Integer</td>
 <td>display flags: 1: shows progress bar (other flags I don't know)</td>
 </tr>
-<tr class="even">
+<tr>
 <td>28</td>
 <td>timer_start_event</td>
 <td>Integer</td>
 <td> </td>
 </tr>
-<tr class="odd">
+<tr>
 <td>29</td>
 <td>timer_asset_id</td>
 <td>Integer</td>
 <td> </td>
 </tr>
-<tr class="even">
+<tr>
 <td>30</td>
 <td>timer_time</td>
 <td>Integer</td>
 <td>Complete quest in %i seconds.</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>31</td>
 <td>ui_order</td>
 <td>Integer</td>

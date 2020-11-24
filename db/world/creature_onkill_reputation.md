@@ -18,7 +18,7 @@ This table controls the reputation given by creatures when killed by other playe
 <col width="12%" />
 </colgroup>
 <tbody>
-<tr class="odd">
+<tr>
 <td><p><strong>Field</strong></p></td>
 <td><p><strong>Type</strong></p></td>
 <td><p><strong>Attributes</strong></p></td>
@@ -28,7 +28,7 @@ This table controls the reputation given by creatures when killed by other playe
 <td><p><strong>Extra</strong></p></td>
 <td><p><strong>Comment</strong></p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#creature_id">creature_id</a></p></td>
 <td><p>mediumint(8)</p></td>
 <td><p>unsigned</p></td>
@@ -38,7 +38,7 @@ This table controls the reputation given by creatures when killed by other playe
 <td><p> </p></td>
 <td><p>Creature Identifier</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#rewonkillrepfaction">RewOnKillRepFaction1</a></p></td>
 <td><p>smallint(6)</p></td>
 <td><p>signed</p></td>
@@ -48,7 +48,7 @@ This table controls the reputation given by creatures when killed by other playe
 <td><p> </p></td>
 <td><p> </p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#rewonkillrepfaction">RewOnKillRepFaction2</a></p></td>
 <td><p>smallint(6)</p></td>
 <td><p>signed</p></td>
@@ -58,7 +58,7 @@ This table controls the reputation given by creatures when killed by other playe
 <td><p> </p></td>
 <td><p> </p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#maxstanding">MaxStanding1</a></p></td>
 <td><p>tinyint(4)</p></td>
 <td><p>signed</p></td>
@@ -68,7 +68,7 @@ This table controls the reputation given by creatures when killed by other playe
 <td><p> </p></td>
 <td><p> </p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#isteamaward">IsTeamAward1</a></p></td>
 <td><p>tinyint(4)</p></td>
 <td><p>signed</p></td>
@@ -78,7 +78,7 @@ This table controls the reputation given by creatures when killed by other playe
 <td><p> </p></td>
 <td><p> </p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#rewonkillrepvalue">RewOnKillRepValue1</a></p></td>
 <td><p>mediumint(9)</p></td>
 <td><p>signed</p></td>
@@ -88,7 +88,7 @@ This table controls the reputation given by creatures when killed by other playe
 <td><p> </p></td>
 <td><p> </p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#maxstanding">MaxStanding2</a></p></td>
 <td><p>tinyint(4)</p></td>
 <td><p>signed</p></td>
@@ -98,7 +98,7 @@ This table controls the reputation given by creatures when killed by other playe
 <td><p> </p></td>
 <td><p> </p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#isteamaward">IsTeamAward2</a></p></td>
 <td><p>tinyint(4)</p></td>
 <td><p>signed</p></td>
@@ -108,7 +108,7 @@ This table controls the reputation given by creatures when killed by other playe
 <td><p> </p></td>
 <td><p> </p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#rewonkillrepvalue">RewOnKillRepValue2</a></p></td>
 <td><p>mediumint(9)</p></td>
 <td><p>signed</p></td>
@@ -118,7 +118,7 @@ This table controls the reputation given by creatures when killed by other playe
 <td><p> </p></td>
 <td><p> </p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#teamdependent">TeamDependent</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
@@ -157,35 +157,35 @@ The maximum standing that the creature will award reputation until. If the playe
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td><p>0</p></td>
 <td><p>Hated</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>1</p></td>
 <td><p>Hostile</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>2</p></td>
 <td><p>Unfriendly</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>3</p></td>
 <td><p>Neutral</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>4</p></td>
 <td><p>Friendly</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>5</p></td>
 <td><p>Honored</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>6</p></td>
 <td><p>Revered</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>7</p></td>
 <td><p>Exalted</p></td>
 </tr>

@@ -18,7 +18,7 @@ Holds information on the game event seasonal quest relations to allow for resett
 <col width="12%" />
 </colgroup>
 <tbody>
-<tr class="odd">
+<tr>
 <td><p><strong>Field</strong></p></td>
 <td><p><strong>Type</strong></p></td>
 <td><p><strong>Attributes</strong></p></td>
@@ -28,7 +28,7 @@ Holds information on the game event seasonal quest relations to allow for resett
 <td><p><strong>Extra</strong></p></td>
 <td><p><strong>Comment</strong></p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#questid">questId</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
@@ -38,7 +38,7 @@ Holds information on the game event seasonal quest relations to allow for resett
 <td><p> </p></td>
 <td><p>Quest Identifier</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#evententry">eventEntry</a></p></td>
 <td><p>mediumint(10)</p></td>
 <td><p>unsigned</p></td>

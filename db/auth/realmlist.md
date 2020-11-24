@@ -9,7 +9,7 @@ This table sets up information on all available realms. Each row controls a diff
 
 <table>
 <tbody>
-<tr class="odd">
+<tr>
 <td><p><strong>Field</strong></p></td>
 <td><p><strong>Type</strong></p></td>
 <td><p><strong>Attributes</strong></p></td>
@@ -19,7 +19,7 @@ This table sets up information on all available realms. Each row controls a diff
 <td><p><strong>Extra</strong></p></td>
 <td><p><strong>Comment</strong></p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#id">id</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
@@ -31,7 +31,7 @@ This table sets up information on all available realms. Each row controls a diff
 <td><p><br />
 </p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#name">name</a></p></td>
 <td><p>varchar(32)</p></td>
 <td><p>signed</p></td>
@@ -43,7 +43,7 @@ This table sets up information on all available realms. Each row controls a diff
 <td><p><br />
 </p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#address">address</a></p></td>
 <td><p>varchar(255)</p></td>
 <td><p>signed</p></td>
@@ -56,7 +56,7 @@ This table sets up information on all available realms. Each row controls a diff
 <td><p><br />
 </p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><a href="#localaddress">localAddress</a></td>
 <td>varchar(255)</td>
 <td>signed</td>
@@ -69,7 +69,7 @@ This table sets up information on all available realms. Each row controls a diff
 <td><br />
 </td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#port">port</a></p></td>
 <td><p>smallint(5)</p></td>
 <td><p>unsigned</p></td>
@@ -82,7 +82,7 @@ This table sets up information on all available realms. Each row controls a diff
 <td><p><br />
 </p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#icon">icon</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
@@ -95,7 +95,7 @@ This table sets up information on all available realms. Each row controls a diff
 <td><p><br />
 </p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#flag">flag</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
@@ -107,7 +107,7 @@ This table sets up information on all available realms. Each row controls a diff
 </p></td>
 <td><p>Updates population status or realm status</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#timezone">timezone</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
@@ -120,7 +120,7 @@ This table sets up information on all available realms. Each row controls a diff
 <td><p><br />
 </p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#allowedsecuritylevel">allowedSecurityLevel</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
@@ -133,7 +133,7 @@ This table sets up information on all available realms. Each row controls a diff
 <td><p><br />
 </p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#population">population</a></p></td>
 <td><p>float</p></td>
 <td><p>unsigned</p></td>
@@ -146,7 +146,7 @@ This table sets up information on all available realms. Each row controls a diff
 <td><p><br />
 </p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#gamebuild">gamebuild</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
@@ -202,23 +202,23 @@ The icon of the realm.
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td><p>0</p></td>
 <td><p>Normal</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>1</p></td>
 <td><p>PvP</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>4</p></td>
 <td><p>Normal</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>6</p></td>
 <td><p>RP</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>8</p></td>
 <td><p>RP PvP</p></td>
 </tr>
@@ -253,238 +253,238 @@ The realm timezone, it will be displayed in the tabs of the realmlist
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td><p>1</p></td>
 <td><p>Development</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>2</p></td>
 <td><p>United States</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>3</p></td>
 <td><p>Oceanic</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>4</p></td>
 <td><p>Latin America</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>5</p></td>
 <td><p>Tournament</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>6</p></td>
 <td><p>Korea</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>7</p></td>
 <td><p>Tournament</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>8</p></td>
 <td><p>English</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>9</p></td>
 <td><p>German</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>10</p></td>
 <td><p>French</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>11</p></td>
 <td><p>Spanish</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>12</p></td>
 <td><p>Russian</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>13</p></td>
 <td><p>Tournament</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>14</p></td>
 <td><p>Taiwan</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>15</p></td>
 <td><p>Tournament</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>16</p></td>
 <td><p>China</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>17</p></td>
 <td><p>CN1</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>18</p></td>
 <td><p>CN2</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>19</p></td>
 <td><p>CN3</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>20</p></td>
 <td><p>CN4</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>21</p></td>
 <td><p>CN5</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>22</p></td>
 <td><p>CN6</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>23</p></td>
 <td><p>CN7</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>24</p></td>
 <td><p>CN8</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>25</p></td>
 <td><p>Tournament</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>26</p></td>
 <td><p>Test Server</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>27</p></td>
 <td><p>Tournament</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td>29</td>
 <td>CN9</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>30</td>
 <td>Test Server 2</td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>31</p></td>
 <td><p>CN10</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td>32</td>
 <td>CTC</td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>33</p></td>
 <td><p>CNC</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>34</p></td>
 <td><p>CN1/4</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td>35</td>
 <td><p>CN/2/6/9</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td>36</td>
 <td><p>CN3/7</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>37</p></td>
 <td><p>Russian Tournament</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td>38</td>
 <td>CN5/8</td>
 </tr>
-<tr class="even">
+<tr>
 <td>39</td>
 <td>CN11</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>40</td>
 <td>CN12</td>
 </tr>
-<tr class="even">
+<tr>
 <td>41</td>
 <td>CN13</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>42</td>
 <td>CN14</td>
 </tr>
-<tr class="even">
+<tr>
 <td>43</td>
 <td>CN15</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>44</td>
 <td>CN16</td>
 </tr>
-<tr class="even">
+<tr>
 <td>45</td>
 <td>CN17</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>46</td>
 <td>CN18</td>
 </tr>
-<tr class="even">
+<tr>
 <td>47</td>
 <td>CN19</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>48</td>
 <td>CN20</td>
 </tr>
-<tr class="even">
+<tr>
 <td>49</td>
 <td>Brazil</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>50</td>
 <td>Italian</td>
 </tr>
-<tr class="even">
+<tr>
 <td>51</td>
 <td>Hyrule</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>52</td>
 <td>QA2 Test</td>
 </tr>
-<tr class="even">
+<tr>
 <td>53</td>
 <td><br />
 </td>
 </tr>
-<tr class="odd">
+<tr>
 <td>54</td>
 <td><br />
 </td>
 </tr>
-<tr class="even">
+<tr>
 <td>55</td>
 <td>Recommended Realm</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>56</td>
 <td>Test</td>
 </tr>
-<tr class="even">
+<tr>
 <td>57</td>
 <td>Recommended Realm</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>58</td>
 <td><br />
 </td>
 </tr>
-<tr class="even">
+<tr>
 <td>59</td>
 <td>Future Test</td>
 </tr>

@@ -23,12 +23,12 @@ This DBC contains material used to display a gossip window for quest or page tex
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td>1</td>
 <td><pre><code>ID</code></pre></td>
 <td><pre><code>Integer</code></pre></td>
 </tr>
-<tr class="even">
+<tr>
 <td>2</td>
 <td><pre><code>sRefCon</code></pre></td>
 <td><pre><code>String</code></pre></td>
@@ -44,35 +44,35 @@ This DBC contains material used to display a gossip window for quest or page tex
 <col width="50%" />
 </colgroup>
 <tbody>
-<tr class="odd">
+<tr>
 <td><p><strong>ID</strong></p></td>
 <td><p><strong>Name</strong></p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>1</p></td>
 <td><p>Parchment</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>2</p></td>
 <td><p>Stone</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>3</p></td>
 <td><p>Marble</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>4</p></td>
 <td><p>Silver</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>5</p></td>
 <td><p>Bronze</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>6</p></td>
 <td><p>Valentine</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>7</p></td>
 <td><p>Illidan</p></td>
 </tr>

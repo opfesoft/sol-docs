@@ -2,7 +2,7 @@ TODOs:
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
-| sol@5d3bb608 | 2020-11-23 |      | verify and only take over if actually needed (if so, also take over sol@2788d495) |
+| sol@5d3bb608 | 2020-11-23 |      | verify and only take over if actually needed (if so, also take over sol@2788d495); fix PvP flag for the NPCs |
 | sol@fb69db21 | 2020-11-19 |      | verify and probably find a better solution |
 | sol@9a8aa615 | 2020-11-16 |      | verify and rework SQL script |
 | sol@17bfcb77 | 2020-11-14 |      | take over if needed (compare with TC implementation) |

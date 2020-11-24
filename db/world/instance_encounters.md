@@ -18,7 +18,7 @@ Definitions of instance encounters. Used by LFG.
 <col width="12%" />
 </colgroup>
 <tbody>
-<tr class="odd">
+<tr>
 <td><p><strong>Field</strong></p></td>
 <td><p><strong>Type</strong></p></td>
 <td><p><strong>Attributes</strong></p></td>
@@ -28,7 +28,7 @@ Definitions of instance encounters. Used by LFG.
 <td><p><strong>Extra</strong></p></td>
 <td><p><strong>Comment</strong></p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#entry">entry</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
@@ -38,7 +38,7 @@ Definitions of instance encounters. Used by LFG.
 <td><p> </p></td>
 <td><p>Unique entry from DungeonEncounter.dbc</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#credittype">creditType</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
@@ -48,7 +48,7 @@ Definitions of instance encounters. Used by LFG.
 <td><p> </p></td>
 <td><p> </p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#creditentry">creditEntry</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
@@ -58,7 +58,7 @@ Definitions of instance encounters. Used by LFG.
 <td><p> </p></td>
 <td><p> </p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#lastencounterdungeon">lastEncounterDungeon</a></p></td>
 <td><p>smallint(5)</p></td>
 <td><p>unsigned</p></td>
@@ -68,7 +68,7 @@ Definitions of instance encounters. Used by LFG.
 <td><p> </p></td>
 <td><p>If not 0, LfgDungeon.dbc entry for the instance it is last encounter in</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#comment">comment</a></p></td>
 <td><p>varchat(255)</p></td>
 <td><p>signed</p></td>

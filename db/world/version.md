@@ -18,7 +18,7 @@ Includes information on current core and database version.
 <col width="12%" />
 </colgroup>
 <tbody>
-<tr class="odd">
+<tr>
 <td><p><strong>Field</strong></p></td>
 <td><p><strong>Type</strong></p></td>
 <td><p><strong>Attributes</strong></p></td>
@@ -28,7 +28,7 @@ Includes information on current core and database version.
 <td><p><strong>Extra</strong></p></td>
 <td><p><strong>Comment</strong></p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#core_version">core_version</a></p></td>
 <td><p>varchar(120)</p></td>
 <td><p>signed</p></td>
@@ -38,7 +38,7 @@ Includes information on current core and database version.
 <td><p> </p></td>
 <td><p>Core revision dumped at startup</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#core_revision">core_revision</a></p></td>
 <td><p>bigint(20)</p></td>
 <td><p>unsigned</p></td>
@@ -48,7 +48,7 @@ Includes information on current core and database version.
 <td><p> </p></td>
 <td><p>Core revision hash</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#db_version">db_version</a></p></td>
 <td><p>varchar(120)</p></td>
 <td><p>signed</p></td>
@@ -58,7 +58,7 @@ Includes information on current core and database version.
 <td><p> </p></td>
 <td><p>Version of world DB</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#script_version">script_version</a></p></td>
 <td><p>varchar(120)</p></td>
 <td><p>signed</p></td>
@@ -68,7 +68,7 @@ Includes information on current core and database version.
 <td><p> </p></td>
 <td><p>Version of scripts DB</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#cache_id">cache_id</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>signed</p></td>

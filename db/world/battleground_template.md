@@ -18,7 +18,7 @@ Contains information about the different battlegrounds, like how many players ar
 <col width="12%" />
 </colgroup>
 <tbody>
-<tr class="odd">
+<tr>
 <td><p><strong>Field</strong></p></td>
 <td><p><strong>Type</strong></p></td>
 <td><p><strong>Atributes</strong></p></td>
@@ -28,7 +28,7 @@ Contains information about the different battlegrounds, like how many players ar
 <td><p><strong>Extra</strong></p></td>
 <td><p><strong>Comment</strong></p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#id">id</a></p></td>
 <td><p>mediumint(8)</p></td>
 <td><p>unsigned</p></td>
@@ -40,7 +40,7 @@ Contains information about the different battlegrounds, like how many players ar
 <td><p><br />
 </p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#minplayersperteam">MinPlayersPerTeam</a></p></td>
 <td><p>smallintint(5)</p></td>
 <td><p>unsigned</p></td>
@@ -53,7 +53,7 @@ Contains information about the different battlegrounds, like how many players ar
 <td><p><br />
 </p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#maxplayersperteam">MaxPlayersPerTeam</a></p></td>
 <td><p>smallint(5)</p></td>
 <td><p>unsigned</p></td>
@@ -66,7 +66,7 @@ Contains information about the different battlegrounds, like how many players ar
 <td><p><br />
 </p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#minlvl">MinLvl</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
@@ -79,7 +79,7 @@ Contains information about the different battlegrounds, like how many players ar
 <td><p><br />
 </p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#maxlvl">MaxLvl</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
@@ -92,7 +92,7 @@ Contains information about the different battlegrounds, like how many players ar
 <td><p><br />
 </p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#alliancestartloc">AllianceStartLoc</a></p></td>
 <td><p>mediumint(8)</p></td>
 <td><p>unsigned</p></td>
@@ -105,7 +105,7 @@ Contains information about the different battlegrounds, like how many players ar
 <td><p><br />
 </p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#alliancestarto">AllianceStartO</a></p></td>
 <td><p>float</p></td>
 <td><p>signed</p></td>
@@ -118,7 +118,7 @@ Contains information about the different battlegrounds, like how many players ar
 <td><p><br />
 </p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#hordestartloc">HordeStartLoc</a></p></td>
 <td><p>mediumint(8)</p></td>
 <td><p>unsigned</p></td>
@@ -131,7 +131,7 @@ Contains information about the different battlegrounds, like how many players ar
 <td><p><br />
 </p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#hordestarto">HordeStartO</a></p></td>
 <td><p>float</p></td>
 <td><p>signed</p></td>
@@ -144,7 +144,7 @@ Contains information about the different battlegrounds, like how many players ar
 <td><p><br />
 </p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#startmaxdist">StartMaxDist</a></p></td>
 <td><p>float</p></td>
 <td><p>signed</p></td>
@@ -157,7 +157,7 @@ Contains information about the different battlegrounds, like how many players ar
 <td><p><br />
 </p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#weight">Weight</a></p></td>
 <td><p>tinyint (2)</p></td>
 <td><p>unsigned</p></td>
@@ -170,7 +170,7 @@ Contains information about the different battlegrounds, like how many players ar
 <td><p><br />
 </p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#scriptname">ScriptName</a></p></td>
 <td><p>char (64)</p></td>
 <td><p><br />
@@ -185,7 +185,7 @@ Contains information about the different battlegrounds, like how many players ar
 <td><p><br />
 </p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#comment">Comment</a></p></td>
 <td><p>char (32)</p></td>
 <td><p><br />
@@ -221,55 +221,55 @@ The battleground ID.
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td><p>1</p></td>
 <td><p>Alterac Valley</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>2</p></td>
 <td><p>Warsong Gulch</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>3</p></td>
 <td><p>Arathi Basin</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>4</p></td>
 <td><p>Nagrand Arena</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>5</p></td>
 <td><p>Blade's Edge Arena</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>6</p></td>
 <td><p>All Arena</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>7</p></td>
 <td><p>Eye of the Storm</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>8</p></td>
 <td><p>Ruins of Lordaeron</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>9</p></td>
 <td><p>Strand of the Ancients</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>10</p></td>
 <td><p>Dalaran Sewers</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>11</p></td>
 <td><p>The Ring of Valor</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>30</p></td>
 <td><p>Isle of Conquest</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>32</p></td>
 <td><p>Random battleground</p></td>
 </tr>

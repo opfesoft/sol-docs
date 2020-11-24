@@ -18,7 +18,7 @@ Includes information on how much experience needed for next level. Comes from sn
 <col width="12%" />
 </colgroup>
 <tbody>
-<tr class="odd">
+<tr>
 <td><p><strong>Field</strong></p></td>
 <td><p><strong>Type</strong></p></td>
 <td><p><strong>Attributes</strong></p></td>
@@ -28,7 +28,7 @@ Includes information on how much experience needed for next level. Comes from sn
 <td><p><strong>Extra</strong></p></td>
 <td><p><strong>Comment</strong></p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#lvl">lvl</a></p></td>
 <td><p>int(3)</p></td>
 <td><p>unsigned</p></td>
@@ -38,7 +38,7 @@ Includes information on how much experience needed for next level. Comes from sn
 <td><p> </p></td>
 <td><p> </p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#xp_for_next_level">xp_for_next_level</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>

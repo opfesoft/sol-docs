@@ -19,7 +19,7 @@ This table can only contain gameobjects that have a type of GAMEOBJECT\_TYPE\_CH
 <col width="12%" />
 </colgroup>
 <tbody>
-<tr class="odd">
+<tr>
 <td><p><strong>Field</strong></p></td>
 <td><p><strong>Type</strong></p></td>
 <td><p><strong>Attributes</strong></p></td>
@@ -29,7 +29,7 @@ This table can only contain gameobjects that have a type of GAMEOBJECT\_TYPE\_CH
 <td><p><strong>Extra</strong></p></td>
 <td><p><strong>Comment</strong></p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#guid">guid</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
@@ -39,7 +39,7 @@ This table can only contain gameobjects that have a type of GAMEOBJECT\_TYPE\_CH
 <td><p> </p></td>
 <td><p> </p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#pool_entry">pool_entry</a></p></td>
 <td><p>mediumint(8)</p></td>
 <td><p>unsigned</p></td>
@@ -49,7 +49,7 @@ This table can only contain gameobjects that have a type of GAMEOBJECT\_TYPE\_CH
 <td><p> </p></td>
 <td><p> </p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#chance">chance</a></p></td>
 <td><p>float</p></td>
 <td><p>unsigned</p></td>
@@ -59,7 +59,7 @@ This table can only contain gameobjects that have a type of GAMEOBJECT\_TYPE\_CH
 <td><p> </p></td>
 <td><p> </p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#description">description</a></p></td>
 <td><p>varchar(255)</p></td>
 <td><p>signed</p></td>

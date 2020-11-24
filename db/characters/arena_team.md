@@ -18,7 +18,7 @@ This table holds the main ArenaTeam information. All created teams or all teams 
 <col width="12%" />
 </colgroup>
 <tbody>
-<tr class="odd">
+<tr>
 <td><p><strong>Field</strong></p></td>
 <td><p><strong>Type</strong></p></td>
 <td><p><strong>Attributes</strong></p></td>
@@ -28,7 +28,7 @@ This table holds the main ArenaTeam information. All created teams or all teams 
 <td><p><strong>Extra</strong></p></td>
 <td><p><strong>Comment</strong></p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#arenateamid">arenaTeamId</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
@@ -38,7 +38,7 @@ This table holds the main ArenaTeam information. All created teams or all teams 
 <td><p>Unique</p></td>
 <td><p> </p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#name">name</a></p></td>
 <td><p>varchar(24)</p></td>
 <td><p>signed</p></td>
@@ -48,7 +48,7 @@ This table holds the main ArenaTeam information. All created teams or all teams 
 <td><p> </p></td>
 <td><p> </p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#captainguid">captainGuid</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
@@ -58,7 +58,7 @@ This table holds the main ArenaTeam information. All created teams or all teams 
 <td><p> </p></td>
 <td><p> </p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#type">type</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
@@ -68,7 +68,7 @@ This table holds the main ArenaTeam information. All created teams or all teams 
 <td><p> </p></td>
 <td><p> </p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#rating">rating</a></p></td>
 <td><p>smallint(5)</p></td>
 <td><p>unsigned</p></td>
@@ -78,7 +78,7 @@ This table holds the main ArenaTeam information. All created teams or all teams 
 <td><p> </p></td>
 <td><p> </p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#seasongames">seasonGames</a></p></td>
 <td><p>smallint(5)</p></td>
 <td><p>unsigned</p></td>
@@ -88,7 +88,7 @@ This table holds the main ArenaTeam information. All created teams or all teams 
 <td><p> </p></td>
 <td><p> </p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#seasonwins">seasonWins</a></p></td>
 <td><p>smallint(5)</p></td>
 <td><p>unsigned</p></td>
@@ -98,7 +98,7 @@ This table holds the main ArenaTeam information. All created teams or all teams 
 <td><p> </p></td>
 <td><p> </p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#weekgames">weekGames</a></p></td>
 <td><p>smallint(5)</p></td>
 <td><p>unsigned</p></td>
@@ -108,7 +108,7 @@ This table holds the main ArenaTeam information. All created teams or all teams 
 <td><p> </p></td>
 <td><p> </p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#weekwins">weekWins</a></p></td>
 <td><p>smallint(5)</p></td>
 <td><p>unsigned</p></td>
@@ -118,7 +118,7 @@ This table holds the main ArenaTeam information. All created teams or all teams 
 <td><p> </p></td>
 <td><p> </p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#rank">rank</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
@@ -128,7 +128,7 @@ This table holds the main ArenaTeam information. All created teams or all teams 
 <td><p> </p></td>
 <td><p> </p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#backgroundcolor">BackgroundColor</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
@@ -138,7 +138,7 @@ This table holds the main ArenaTeam information. All created teams or all teams 
 <td><p> </p></td>
 <td><p> </p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#emblemstyle">EmblemStyle</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
@@ -148,7 +148,7 @@ This table holds the main ArenaTeam information. All created teams or all teams 
 <td><p> </p></td>
 <td><p> </p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#emblemcolor">EmblemColor</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
@@ -158,7 +158,7 @@ This table holds the main ArenaTeam information. All created teams or all teams 
 <td><p> </p></td>
 <td><p> </p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#borderstyle">BorderStyle</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
@@ -168,7 +168,7 @@ This table holds the main ArenaTeam information. All created teams or all teams 
 <td><p> </p></td>
 <td><p> </p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#bordercolor">BorderColor</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>

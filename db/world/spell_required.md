@@ -16,7 +16,7 @@ Table used to add restrictions for learning spells from trainer. Player can't le
 <col width="12%" />
 </colgroup>
 <tbody>
-<tr class="odd">
+<tr>
 <td><p><strong>Field</strong></p></td>
 <td><p><strong>Type</strong></p></td>
 <td><p><strong>Attributes</strong></p></td>
@@ -26,7 +26,7 @@ Table used to add restrictions for learning spells from trainer. Player can't le
 <td><p><strong>Extra</strong></p></td>
 <td><p><strong>Comment</strong></p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#spell_id">spell_id</a></p></td>
 <td><p>mediumint(9)</p></td>
 <td><p>signed</p></td>
@@ -36,7 +36,7 @@ Table used to add restrictions for learning spells from trainer. Player can't le
 <td><p> </p></td>
 <td><p> </p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#req_spell">req_spell</a></p></td>
 <td><p>mediumint(9)</p></td>
 <td><p>signed</p></td>

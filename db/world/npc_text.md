@@ -15,7 +15,7 @@ This table contains the texts that are used for gossip. More research needs to b
 <col width="16%" />
 </colgroup>
 <tbody>
-<tr class="odd">
+<tr>
 <td><p><strong>Field</strong></p></td>
 <td><p><strong>Type</strong></p></td>
 <td><p><strong>Attributes</strong></p></td>
@@ -23,7 +23,7 @@ This table contains the texts that are used for gossip. More research needs to b
 <td><p><strong>Null</strong></p></td>
 <td><p><strong>Default</strong></p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#id">ID</a></p></td>
 <td><p>mediumint(8)</p></td>
 <td><p>unsigned</p></td>
@@ -31,7 +31,7 @@ This table contains the texts that are used for gossip. More research needs to b
 <td><p>NO</p></td>
 <td><p>0</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#text0_0">text0_0</a></p></td>
 <td><p>longtext</p></td>
 <td><p>signed</p></td>
@@ -39,7 +39,7 @@ This table contains the texts that are used for gossip. More research needs to b
 <td><p>YES</p></td>
 <td><p>NULL</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#text0_1">text0_1</a></p></td>
 <td><p>longtext</p></td>
 <td><p>signed</p></td>
@@ -47,7 +47,7 @@ This table contains the texts that are used for gossip. More research needs to b
 <td><p>YES</p></td>
 <td><p>NULL</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#lang0">lang0</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
@@ -55,7 +55,7 @@ This table contains the texts that are used for gossip. More research needs to b
 <td><p>NO</p></td>
 <td><p>0</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#probability0">Probability0</a></p></td>
 <td><p>float</p></td>
 <td><p>signed</p></td>
@@ -63,7 +63,7 @@ This table contains the texts that are used for gossip. More research needs to b
 <td><p>NO</p></td>
 <td><p>0</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#em0_0">em0_0</a></p></td>
 <td><p>smallint(5)</p></td>
 <td><p>unsigned</p></td>
@@ -71,7 +71,7 @@ This table contains the texts that are used for gossip. More research needs to b
 <td><p>NO</p></td>
 <td><p>0</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#em0_1">em0_1</a></p></td>
 <td><p>smallint(5)</p></td>
 <td><p>unsigned</p></td>
@@ -79,7 +79,7 @@ This table contains the texts that are used for gossip. More research needs to b
 <td><p>NO</p></td>
 <td><p>0</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#em0_2">em0_2</a></p></td>
 <td><p>smallint(5)</p></td>
 <td><p>unsigned</p></td>
@@ -87,7 +87,7 @@ This table contains the texts that are used for gossip. More research needs to b
 <td><p>NO</p></td>
 <td><p>0</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#em0_3">em0_3</a></p></td>
 <td><p>smallint(5)</p></td>
 <td><p>unsigned</p></td>
@@ -95,7 +95,7 @@ This table contains the texts that are used for gossip. More research needs to b
 <td><p>NO</p></td>
 <td><p>0</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#em0_4">em0_4</a></p></td>
 <td><p>smallint(5)</p></td>
 <td><p>unsigned</p></td>
@@ -103,7 +103,7 @@ This table contains the texts that are used for gossip. More research needs to b
 <td><p>NO</p></td>
 <td><p>0</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#em0_5">em0_5</a></p></td>
 <td><p>smallint(5)</p></td>
 <td><p>unsigned</p></td>
@@ -111,7 +111,7 @@ This table contains the texts that are used for gossip. More research needs to b
 <td><p>NO</p></td>
 <td><p>0</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#text0_0">text1_0</a></p></td>
 <td><p>longtext</p></td>
 <td><p>signed</p></td>
@@ -119,7 +119,7 @@ This table contains the texts that are used for gossip. More research needs to b
 <td><p>YES</p></td>
 <td><p>NULL</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#text0_1">text1_1</a></p></td>
 <td><p>longtext</p></td>
 <td><p>signed</p></td>
@@ -127,7 +127,7 @@ This table contains the texts that are used for gossip. More research needs to b
 <td><p>YES</p></td>
 <td><p>NULL</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#lang">lang1</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
@@ -135,7 +135,7 @@ This table contains the texts that are used for gossip. More research needs to b
 <td><p>NO</p></td>
 <td><p>0</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#probability1">Probability1</a></p></td>
 <td><p>float</p></td>
 <td><p>signed</p></td>
@@ -143,7 +143,7 @@ This table contains the texts that are used for gossip. More research needs to b
 <td><p>NO</p></td>
 <td><p>0</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#em1_0">em1_0</a></p></td>
 <td><p>smallint(5)</p></td>
 <td><p>unsigned</p></td>
@@ -151,7 +151,7 @@ This table contains the texts that are used for gossip. More research needs to b
 <td><p>NO</p></td>
 <td><p>0</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#em1_1">em1_1</a></p></td>
 <td><p>smallint(5)</p></td>
 <td><p>unsigned</p></td>
@@ -159,7 +159,7 @@ This table contains the texts that are used for gossip. More research needs to b
 <td><p>NO</p></td>
 <td><p>0</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#em1_2">em1_2</a></p></td>
 <td><p>smallint(5)</p></td>
 <td><p>unsigned</p></td>
@@ -167,7 +167,7 @@ This table contains the texts that are used for gossip. More research needs to b
 <td><p>NO</p></td>
 <td><p>0</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#em1_3">em1_3</a></p></td>
 <td><p>smallint(5)</p></td>
 <td><p>unsigned</p></td>
@@ -175,7 +175,7 @@ This table contains the texts that are used for gossip. More research needs to b
 <td><p>NO</p></td>
 <td><p>0</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#em1_4">em1_4</a></p></td>
 <td><p>smallint(5)</p></td>
 <td><p>unsigned</p></td>
@@ -183,7 +183,7 @@ This table contains the texts that are used for gossip. More research needs to b
 <td><p>NO</p></td>
 <td><p>0</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#em1_5">em1_5</a></p></td>
 <td><p>smallint(5)</p></td>
 <td><p>unsigned</p></td>
@@ -191,7 +191,7 @@ This table contains the texts that are used for gossip. More research needs to b
 <td><p>NO</p></td>
 <td><p>0</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#text2_0">text2_0</a></p></td>
 <td><p>longtext</p></td>
 <td><p>signed</p></td>
@@ -199,7 +199,7 @@ This table contains the texts that are used for gossip. More research needs to b
 <td><p>YES</p></td>
 <td><p>NULL</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#text2_1">text2_1</a></p></td>
 <td><p>longtext</p></td>
 <td><p>signed</p></td>
@@ -207,7 +207,7 @@ This table contains the texts that are used for gossip. More research needs to b
 <td><p>YES</p></td>
 <td><p>NULL</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#lang2">lang2</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
@@ -215,7 +215,7 @@ This table contains the texts that are used for gossip. More research needs to b
 <td><p>NO</p></td>
 <td><p>0</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#probability2">Probability2</a></p></td>
 <td><p>float</p></td>
 <td><p>signed</p></td>
@@ -223,7 +223,7 @@ This table contains the texts that are used for gossip. More research needs to b
 <td><p>NO</p></td>
 <td><p>0</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#em2_0">em2_0</a></p></td>
 <td><p>smallint(5)</p></td>
 <td><p>unsigned</p></td>
@@ -231,7 +231,7 @@ This table contains the texts that are used for gossip. More research needs to b
 <td><p>NO</p></td>
 <td><p>0</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#em2_1">em2_1</a></p></td>
 <td><p>smallint(5)</p></td>
 <td><p>unsigned</p></td>
@@ -239,7 +239,7 @@ This table contains the texts that are used for gossip. More research needs to b
 <td><p>NO</p></td>
 <td><p>0</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#em2_2">em2_2</a></p></td>
 <td><p>smallint(5)</p></td>
 <td><p>unsigned</p></td>
@@ -247,7 +247,7 @@ This table contains the texts that are used for gossip. More research needs to b
 <td><p>NO</p></td>
 <td><p>0</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#em2_3">em2_3</a></p></td>
 <td><p>smallint(5)</p></td>
 <td><p>unsigned</p></td>
@@ -255,7 +255,7 @@ This table contains the texts that are used for gossip. More research needs to b
 <td><p>NO</p></td>
 <td><p>0</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#em2_4">em2_4</a></p></td>
 <td><p>smallint(5)</p></td>
 <td><p>unsigned</p></td>
@@ -263,7 +263,7 @@ This table contains the texts that are used for gossip. More research needs to b
 <td><p>NO</p></td>
 <td><p>0</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#em2_5">em2_5</a></p></td>
 <td><p>smallint(5)</p></td>
 <td><p>unsigned</p></td>
@@ -271,7 +271,7 @@ This table contains the texts that are used for gossip. More research needs to b
 <td><p>NO</p></td>
 <td><p>0</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#text3_0">text3_0</a></p></td>
 <td><p>longtext</p></td>
 <td><p>signed</p></td>
@@ -279,7 +279,7 @@ This table contains the texts that are used for gossip. More research needs to b
 <td><p>YES</p></td>
 <td><p>NULL</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#text3_1">text3_1</a></p></td>
 <td><p>longtext</p></td>
 <td><p>signed</p></td>
@@ -287,7 +287,7 @@ This table contains the texts that are used for gossip. More research needs to b
 <td><p>YES</p></td>
 <td><p>NULL</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#lang3">lang3</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
@@ -295,7 +295,7 @@ This table contains the texts that are used for gossip. More research needs to b
 <td><p>NO</p></td>
 <td><p>0</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#probability3">Probability3</a></p></td>
 <td><p>float</p></td>
 <td><p>signed</p></td>
@@ -303,7 +303,7 @@ This table contains the texts that are used for gossip. More research needs to b
 <td><p>NO</p></td>
 <td><p>0</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#em3_0">em3_0</a></p></td>
 <td><p>smallint(5)</p></td>
 <td><p>unsigned</p></td>
@@ -311,7 +311,7 @@ This table contains the texts that are used for gossip. More research needs to b
 <td><p>NO</p></td>
 <td><p>0</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#em3_1">em3_1</a></p></td>
 <td><p>smallint(5)</p></td>
 <td><p>unsigned</p></td>
@@ -319,7 +319,7 @@ This table contains the texts that are used for gossip. More research needs to b
 <td><p>NO</p></td>
 <td><p>0</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#em3_2">em3_2</a></p></td>
 <td><p>smallint(5)</p></td>
 <td><p>unsigned</p></td>
@@ -327,7 +327,7 @@ This table contains the texts that are used for gossip. More research needs to b
 <td><p>NO</p></td>
 <td><p>0</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#em3_3">em3_3</a></p></td>
 <td><p>smallint(5)</p></td>
 <td><p>unsigned</p></td>
@@ -335,7 +335,7 @@ This table contains the texts that are used for gossip. More research needs to b
 <td><p>NO</p></td>
 <td><p>0</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#em3_4">em3_4</a></p></td>
 <td><p>smallint(5)</p></td>
 <td><p>unsigned</p></td>
@@ -343,7 +343,7 @@ This table contains the texts that are used for gossip. More research needs to b
 <td><p>NO</p></td>
 <td><p>0</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#em3_5">em3_5</a></p></td>
 <td><p>smallint(5)</p></td>
 <td><p>unsigned</p></td>
@@ -351,7 +351,7 @@ This table contains the texts that are used for gossip. More research needs to b
 <td><p>NO</p></td>
 <td><p>0</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#text4_0">text4_0</a></p></td>
 <td><p>longtext</p></td>
 <td><p>signed</p></td>
@@ -359,7 +359,7 @@ This table contains the texts that are used for gossip. More research needs to b
 <td><p>YES</p></td>
 <td><p>NULL</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#text4_1">text4_1</a></p></td>
 <td><p>longtext</p></td>
 <td><p>signed</p></td>
@@ -367,7 +367,7 @@ This table contains the texts that are used for gossip. More research needs to b
 <td><p>YES</p></td>
 <td><p>NULL</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#lang4">lang4</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
@@ -375,7 +375,7 @@ This table contains the texts that are used for gossip. More research needs to b
 <td><p>NO</p></td>
 <td><p>0</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#probability4">Probability4</a></p></td>
 <td><p>float</p></td>
 <td><p>signed</p></td>
@@ -383,7 +383,7 @@ This table contains the texts that are used for gossip. More research needs to b
 <td><p>NO</p></td>
 <td><p>0</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#em4_0">em4_0</a></p></td>
 <td><p>smallint(5)</p></td>
 <td><p>unsigned</p></td>
@@ -391,7 +391,7 @@ This table contains the texts that are used for gossip. More research needs to b
 <td><p>NO</p></td>
 <td><p>0</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#em4_1">em4_1</a></p></td>
 <td><p>smallint(5)</p></td>
 <td><p>unsigned</p></td>
@@ -399,7 +399,7 @@ This table contains the texts that are used for gossip. More research needs to b
 <td><p>NO</p></td>
 <td><p>0</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#em4_2">em4_2</a></p></td>
 <td><p>smallint(5)</p></td>
 <td><p>unsigned</p></td>
@@ -407,7 +407,7 @@ This table contains the texts that are used for gossip. More research needs to b
 <td><p>NO</p></td>
 <td><p>0</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#em4_3">em4_3</a></p></td>
 <td><p>smallint(5)</p></td>
 <td><p>unsigned</p></td>
@@ -415,7 +415,7 @@ This table contains the texts that are used for gossip. More research needs to b
 <td><p>NO</p></td>
 <td><p>0</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#em4_4">em4_4</a></p></td>
 <td><p>smallint(5)</p></td>
 <td><p>unsigned</p></td>
@@ -423,7 +423,7 @@ This table contains the texts that are used for gossip. More research needs to b
 <td><p>NO</p></td>
 <td><p>0</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#em4_5">em4_5</a></p></td>
 <td><p>smallint(5)</p></td>
 <td><p>unsigned</p></td>
@@ -431,7 +431,7 @@ This table contains the texts that are used for gossip. More research needs to b
 <td><p>NO</p></td>
 <td><p>0</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#text5_0">text5_0</a></p></td>
 <td><p>longtext</p></td>
 <td><p>signed</p></td>
@@ -439,7 +439,7 @@ This table contains the texts that are used for gossip. More research needs to b
 <td><p>YES</p></td>
 <td><p>NULL</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#text5_1">text5_1</a></p></td>
 <td><p>longtext</p></td>
 <td><p>signed</p></td>
@@ -447,7 +447,7 @@ This table contains the texts that are used for gossip. More research needs to b
 <td><p>YES</p></td>
 <td><p>NULL</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#lang5">lang5</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
@@ -455,7 +455,7 @@ This table contains the texts that are used for gossip. More research needs to b
 <td><p>NO</p></td>
 <td><p>0</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#probability5">Probability5</a></p></td>
 <td><p>float</p></td>
 <td><p>signed</p></td>
@@ -463,7 +463,7 @@ This table contains the texts that are used for gossip. More research needs to b
 <td><p>NO</p></td>
 <td><p>0</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#em5_0">em5_0</a></p></td>
 <td><p>smallint(5)</p></td>
 <td><p>unsigned</p></td>
@@ -471,7 +471,7 @@ This table contains the texts that are used for gossip. More research needs to b
 <td><p>NO</p></td>
 <td><p>0</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#em5_1">em5_1</a></p></td>
 <td><p>smallint(5)</p></td>
 <td><p>unsigned</p></td>
@@ -479,7 +479,7 @@ This table contains the texts that are used for gossip. More research needs to b
 <td><p>NO</p></td>
 <td><p>0</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#em5_2">em5_2</a></p></td>
 <td><p>smallint(5)</p></td>
 <td><p>unsigned</p></td>
@@ -487,7 +487,7 @@ This table contains the texts that are used for gossip. More research needs to b
 <td><p>NO</p></td>
 <td><p>0</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#em5_3">em5_3</a></p></td>
 <td><p>smallint(5)</p></td>
 <td><p>unsigned</p></td>
@@ -495,7 +495,7 @@ This table contains the texts that are used for gossip. More research needs to b
 <td><p>NO</p></td>
 <td><p>0</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#em5_4">em5_4</a></p></td>
 <td><p>smallint(5)</p></td>
 <td><p>unsigned</p></td>
@@ -503,7 +503,7 @@ This table contains the texts that are used for gossip. More research needs to b
 <td><p>NO</p></td>
 <td><p>0</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#em5_5">em5_5</a></p></td>
 <td><p>smallint(5)</p></td>
 <td><p>unsigned</p></td>
@@ -511,7 +511,7 @@ This table contains the texts that are used for gossip. More research needs to b
 <td><p>NO</p></td>
 <td><p>0</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#text6_0">text6_0</a></p></td>
 <td><p>longtext</p></td>
 <td><p>signed</p></td>
@@ -519,7 +519,7 @@ This table contains the texts that are used for gossip. More research needs to b
 <td><p>YES</p></td>
 <td><p>NULL</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#text6_1">text6_1</a></p></td>
 <td><p>longtext</p></td>
 <td><p>signed</p></td>
@@ -527,7 +527,7 @@ This table contains the texts that are used for gossip. More research needs to b
 <td><p>YES</p></td>
 <td><p>NULL</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><a href="lang6">lang6</a></td>
 <td>tinyint(3)</td>
 <td>unsigned</td>
@@ -535,7 +535,7 @@ This table contains the texts that are used for gossip. More research needs to b
 <td>NO</td>
 <td>0</td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#probability6">Probability6</a></p></td>
 <td><p>float</p></td>
 <td><p>signed</p></td>
@@ -543,7 +543,7 @@ This table contains the texts that are used for gossip. More research needs to b
 <td><p>NO</p></td>
 <td><p>0</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#em6_0">em6_0</a></p></td>
 <td><p>smallint(5)</p></td>
 <td><p>unsigned</p></td>
@@ -551,7 +551,7 @@ This table contains the texts that are used for gossip. More research needs to b
 <td><p>NO</p></td>
 <td><p>0</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#em6_1">em6_1</a></p></td>
 <td><p>smallint(5)</p></td>
 <td><p>unsigned</p></td>
@@ -559,7 +559,7 @@ This table contains the texts that are used for gossip. More research needs to b
 <td><p>NO</p></td>
 <td><p>0</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#em6_2">em6_2</a></p></td>
 <td><p>smallint(5)</p></td>
 <td><p>unsigned</p></td>
@@ -567,7 +567,7 @@ This table contains the texts that are used for gossip. More research needs to b
 <td><p>NO</p></td>
 <td><p>0</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#em6_3">em6_3</a></p></td>
 <td><p>smallint(5)</p></td>
 <td><p>unsigned</p></td>
@@ -575,7 +575,7 @@ This table contains the texts that are used for gossip. More research needs to b
 <td><p>NO</p></td>
 <td><p>0</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#em6_4">em6_4</a></p></td>
 <td><p>smallint(5)</p></td>
 <td><p>unsigned</p></td>
@@ -583,7 +583,7 @@ This table contains the texts that are used for gossip. More research needs to b
 <td><p>NO</p></td>
 <td><p>0</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#em6_5">em6_5</a></p></td>
 <td><p>smallint(5)</p></td>
 <td><p>unsigned</p></td>
@@ -591,7 +591,7 @@ This table contains the texts that are used for gossip. More research needs to b
 <td><p>NO</p></td>
 <td><p>0</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#text7_0">text7_0</a></p></td>
 <td><p>longtext</p></td>
 <td><p>signed</p></td>
@@ -599,7 +599,7 @@ This table contains the texts that are used for gossip. More research needs to b
 <td><p>YES</p></td>
 <td><p>NULL</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#text7_1">text7_1</a></p></td>
 <td><p>longtext</p></td>
 <td><p>signed</p></td>
@@ -607,7 +607,7 @@ This table contains the texts that are used for gossip. More research needs to b
 <td><p>YES</p></td>
 <td><p>NULL</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#lang7">lang7</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
@@ -615,7 +615,7 @@ This table contains the texts that are used for gossip. More research needs to b
 <td><p>NO</p></td>
 <td><p>0</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#probability7">Probability7</a></p></td>
 <td><p>float</p></td>
 <td><p>signed</p></td>
@@ -623,7 +623,7 @@ This table contains the texts that are used for gossip. More research needs to b
 <td><p>NO</p></td>
 <td><p>0</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#em7_0">em7_0</a></p></td>
 <td><p>smallint(5)</p></td>
 <td><p>unsigned</p></td>
@@ -631,7 +631,7 @@ This table contains the texts that are used for gossip. More research needs to b
 <td><p>NO</p></td>
 <td><p>0</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#em7_1">em7_1</a></p></td>
 <td><p>smallint(5)</p></td>
 <td><p>unsigned</p></td>
@@ -639,7 +639,7 @@ This table contains the texts that are used for gossip. More research needs to b
 <td><p>NO</p></td>
 <td><p>0</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#em7_2">em7_2</a></p></td>
 <td><p>smallint(5)</p></td>
 <td><p>unsigned</p></td>
@@ -647,7 +647,7 @@ This table contains the texts that are used for gossip. More research needs to b
 <td><p>NO</p></td>
 <td><p>0</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#em7_3">em7_3</a></p></td>
 <td><p>smallint(5)</p></td>
 <td><p>unsigned</p></td>
@@ -655,7 +655,7 @@ This table contains the texts that are used for gossip. More research needs to b
 <td><p>NO</p></td>
 <td><p>0</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#em7_4">em7_4</a></p></td>
 <td><p>smallint(5)</p></td>
 <td><p>unsigned</p></td>
@@ -663,7 +663,7 @@ This table contains the texts that are used for gossip. More research needs to b
 <td><p>NO</p></td>
 <td><p>0</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#em7_5">em7_5</a></p></td>
 <td><p>smallint(5)</p></td>
 <td><p>unsigned</p></td>
@@ -671,7 +671,7 @@ This table contains the texts that are used for gossip. More research needs to b
 <td><p>NO</p></td>
 <td><p>0</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#verifiedbuild">VerifiedBuild</a></p></td>
 <td><p>smallint(5)</p></td>
 <td><p>signed</p></td>

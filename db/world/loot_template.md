@@ -116,27 +116,27 @@ Loot mode examples from the Flame Leviathan fight in Ulduar:
 <col width="50%" />
 </colgroup>
 <tbody>
-<tr class="odd">
+<tr>
 <td><p><strong>LootMode</strong></p></td>
 <td><p><strong>Use</strong></p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>1</p></td>
 <td><p>Normal mode (0 towers)</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>2</p></td>
 <td><p>Hard mode A (1 tower)</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>4</p></td>
 <td><p>Hard mode B (2 towers)</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>8</p></td>
 <td><p>Hard mode C (3 towers)</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>16</p></td>
 <td><p>Hard mode D (4 towers)</p></td>
 </tr>
@@ -317,51 +317,51 @@ Agreements for Reference Templates are as followed:
 <col width="50%" />
 </colgroup>
 <tbody>
-<tr class="odd">
+<tr>
 <td><p><strong>Range</strong></p></td>
 <td><p><strong>Used for</strong></p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>00000-00999</p></td>
 <td><p>Skinning Reference Templates</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>01000-09999</p></td>
 <td><p>KEEP FREE: TDB-DEV-References</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>10000-10999</p></td>
 <td><p>Item Reference Templates</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>11000-11799</p></td>
 <td><p>Fishing Reference Templates</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>11800-11999</p></td>
 <td><p>Milling Reference Templates</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>12000-12899</p></td>
 <td><p>Raid: Gameobject Reference Templates</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>12900-12999</p></td>
 <td><p>Mining Reference Templates</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>13000-13999</p></td>
 <td><p>Prospecting Reference Templates</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>14000-29000</p></td>
 <td><p>World Reference Templates</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>34000-34999</p></td>
 <td><p>Raid: Creature Reference Templates</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>35000-35999</p></td>
 <td><p>Dungeon Reference Templates</p></td>
 </tr>

@@ -8,7 +8,7 @@ This table contains data regarding serverside spells which are not to be found i
 
 <table>
 <tbody>
-<tr class="odd">
+<tr>
 <td><p><strong>Field</strong></p></td>
 <td><p><strong>Type</strong></p></td>
 <td><p><strong>Attributes</strong></p></td>
@@ -18,7 +18,7 @@ This table contains data regarding serverside spells which are not to be found i
 <td><p><strong>Extra</strong></p></td>
 <td><p><strong>Comment</strong></p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#id">Id</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
@@ -30,7 +30,7 @@ This table contains data regarding serverside spells which are not to be found i
 <td><p><br />
 </p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#dispel">Dispel</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
@@ -43,7 +43,7 @@ This table contains data regarding serverside spells which are not to be found i
 <td><p><br />
 </p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#mechanic">Mechanic</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
@@ -56,7 +56,7 @@ This table contains data regarding serverside spells which are not to be found i
 <td><p><br />
 </p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#attributes">Attributes</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
@@ -69,7 +69,7 @@ This table contains data regarding serverside spells which are not to be found i
 <td><p><br />
 </p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#attributesex">AttributesEx</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
@@ -82,7 +82,7 @@ This table contains data regarding serverside spells which are not to be found i
 <td><p><br />
 </p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#attributesex">AttributesEx2</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
@@ -95,7 +95,7 @@ This table contains data regarding serverside spells which are not to be found i
 <td><p><br />
 </p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#attributesex">AttributesEx3</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
@@ -108,7 +108,7 @@ This table contains data regarding serverside spells which are not to be found i
 <td><p><br />
 </p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#attributesex">AttributesEx4</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
@@ -121,7 +121,7 @@ This table contains data regarding serverside spells which are not to be found i
 <td><p><br />
 </p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#attributesex">AttributesEx5</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
@@ -134,7 +134,7 @@ This table contains data regarding serverside spells which are not to be found i
 <td><p><br />
 </p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#stances">Stances</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
@@ -147,7 +147,7 @@ This table contains data regarding serverside spells which are not to be found i
 <td><p><br />
 </p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#stancesnot">StancesNot</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
@@ -160,7 +160,7 @@ This table contains data regarding serverside spells which are not to be found i
 <td><p><br />
 </p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#targets">Targets</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
@@ -173,7 +173,7 @@ This table contains data regarding serverside spells which are not to be found i
 <td><p><br />
 </p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#castingtimeindex">CastingTimeIndex</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
@@ -186,7 +186,7 @@ This table contains data regarding serverside spells which are not to be found i
 <td><p><br />
 </p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#aurainterruptflags">AuraInterruptFlags</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
@@ -199,7 +199,7 @@ This table contains data regarding serverside spells which are not to be found i
 <td><p><br />
 </p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#procflags">ProcFlags</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
@@ -212,7 +212,7 @@ This table contains data regarding serverside spells which are not to be found i
 <td><p><br />
 </p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#procchance">ProcChance</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
@@ -225,7 +225,7 @@ This table contains data regarding serverside spells which are not to be found i
 <td><p><br />
 </p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#proccharges">ProcCharges</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
@@ -238,7 +238,7 @@ This table contains data regarding serverside spells which are not to be found i
 <td><p><br />
 </p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#maxlevel">MaxLevel</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
@@ -251,7 +251,7 @@ This table contains data regarding serverside spells which are not to be found i
 <td><p><br />
 </p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#baselevel">BaseLevel</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
@@ -264,7 +264,7 @@ This table contains data regarding serverside spells which are not to be found i
 <td><p><br />
 </p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#spelllevel">SpellLevel</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
@@ -277,7 +277,7 @@ This table contains data regarding serverside spells which are not to be found i
 <td><p><br />
 </p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#durationindex">DurationIndex</a></p></td>
 <td><p>smallint(5)</p></td>
 <td><p>unsigned</p></td>
@@ -290,7 +290,7 @@ This table contains data regarding serverside spells which are not to be found i
 <td><p><br />
 </p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#rangeindex">RangeIndex</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
@@ -303,7 +303,7 @@ This table contains data regarding serverside spells which are not to be found i
 <td><p><br />
 </p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#stackamount">StackAmount</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
@@ -316,7 +316,7 @@ This table contains data regarding serverside spells which are not to be found i
 <td><p><br />
 </p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#equippeditemclass">EquippedItemClass</a></p></td>
 <td><p>int(11)</p></td>
 <td><p>signed</p></td>
@@ -335,7 +335,7 @@ This table contains data regarding serverside spells which are not to be found i
 <td><p><br />
 </p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#equippeditemsubclassmask">EquippedItemSubClassMask</a></p></td>
 <td><p>int(11)</p></td>
 <td><p>signed</p></td>
@@ -348,7 +348,7 @@ This table contains data regarding serverside spells which are not to be found i
 <td><p><br />
 </p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#equippediteminventorytypemask">EquippedItemInventoryTypeMask</a></p></td>
 <td><p>int(11)</p></td>
 <td><p>signed</p></td>
@@ -361,7 +361,7 @@ This table contains data regarding serverside spells which are not to be found i
 <td><p><br />
 </p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#effect">Effect1</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
@@ -374,7 +374,7 @@ This table contains data regarding serverside spells which are not to be found i
 <td><p><br />
 </p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#effect">Effect2</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
@@ -387,7 +387,7 @@ This table contains data regarding serverside spells which are not to be found i
 <td><p><br />
 </p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#effect">Effect3</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
@@ -400,7 +400,7 @@ This table contains data regarding serverside spells which are not to be found i
 <td><p><br />
 </p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#effectdiesides">EffectDieSides1</a></p></td>
 <td><p>int(11)</p></td>
 <td><p>signed</p></td>
@@ -413,7 +413,7 @@ This table contains data regarding serverside spells which are not to be found i
 <td><p><br />
 </p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#effectdiesides">EffectDieSides2</a></p></td>
 <td><p>int(11)</p></td>
 <td><p>signed</p></td>
@@ -426,7 +426,7 @@ This table contains data regarding serverside spells which are not to be found i
 <td><p><br />
 </p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#effectdiesides">EffectDieSides3</a></p></td>
 <td><p>int(11)</p></td>
 <td><p>signed</p></td>
@@ -439,7 +439,7 @@ This table contains data regarding serverside spells which are not to be found i
 <td><p><br />
 </p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#effectrealpointsperlevel">EffectRealPointsPerLevel1</a></p></td>
 <td><p>float</p></td>
 <td><p>signed</p></td>
@@ -452,7 +452,7 @@ This table contains data regarding serverside spells which are not to be found i
 <td><p><br />
 </p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#effectrealpointsperlevel">EffectRealPointsPerLevel2</a></p></td>
 <td><p>float</p></td>
 <td><p>signed</p></td>
@@ -465,7 +465,7 @@ This table contains data regarding serverside spells which are not to be found i
 <td><p><br />
 </p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#effectrealpointsperlevel">EffectRealPointsPerLevel3</a></p></td>
 <td><p>float</p></td>
 <td><p>signed</p></td>
@@ -478,7 +478,7 @@ This table contains data regarding serverside spells which are not to be found i
 <td><p><br />
 </p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#effectbasepoints">EffectBasePoints1</a></p></td>
 <td><p>int(11)</p></td>
 <td><p>signed</p></td>
@@ -491,7 +491,7 @@ This table contains data regarding serverside spells which are not to be found i
 <td><p><br />
 </p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#effectbasepoints">EffectBasePoints2</a></p></td>
 <td><p>int(11)</p></td>
 <td><p>signed</p></td>
@@ -504,7 +504,7 @@ This table contains data regarding serverside spells which are not to be found i
 <td><p><br />
 </p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#effectbasepoints">EffectBasePoints3</a></p></td>
 <td><p>int(11)</p></td>
 <td><p>signed</p></td>
@@ -517,7 +517,7 @@ This table contains data regarding serverside spells which are not to be found i
 <td><p><br />
 </p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#effectmechanic">EffectMechanic1</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
@@ -530,7 +530,7 @@ This table contains data regarding serverside spells which are not to be found i
 <td><p><br />
 </p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#effectmechanic">EffectMechanic2</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
@@ -543,7 +543,7 @@ This table contains data regarding serverside spells which are not to be found i
 <td><p><br />
 </p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#effectmechanic">EffectMechanic3</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
@@ -556,7 +556,7 @@ This table contains data regarding serverside spells which are not to be found i
 <td><p><br />
 </p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#effectimplicittargeta">EffectImplicitTargetA1</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
@@ -569,7 +569,7 @@ This table contains data regarding serverside spells which are not to be found i
 <td><p><br />
 </p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#effectimplicittargeta">EffectImplicitTargetA2</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
@@ -582,7 +582,7 @@ This table contains data regarding serverside spells which are not to be found i
 <td><p><br />
 </p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#effectimplicittargeta">EffectImplicitTargetA3</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
@@ -595,7 +595,7 @@ This table contains data regarding serverside spells which are not to be found i
 <td><p><br />
 </p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#effectimplicittargetb">EffectImplicitTargetB1</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
@@ -608,7 +608,7 @@ This table contains data regarding serverside spells which are not to be found i
 <td><p><br />
 </p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#effectimplicittargetb">EffectImplicitTargetB2</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
@@ -621,7 +621,7 @@ This table contains data regarding serverside spells which are not to be found i
 <td><p><br />
 </p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#effectimplicittargetb">EffectImplicitTargetB3</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
@@ -634,7 +634,7 @@ This table contains data regarding serverside spells which are not to be found i
 <td><p><br />
 </p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#effectradiusindex">EffectRadiusIndex1</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
@@ -647,7 +647,7 @@ This table contains data regarding serverside spells which are not to be found i
 <td><p><br />
 </p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#effectradiusindex">EffectRadiusIndex2</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
@@ -660,7 +660,7 @@ This table contains data regarding serverside spells which are not to be found i
 <td><p><br />
 </p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#effectradiusindex">EffectRadiusIndex3</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
@@ -673,7 +673,7 @@ This table contains data regarding serverside spells which are not to be found i
 <td><p><br />
 </p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#effectapplyauraname">EffectApplyAuraName1</a></p></td>
 <td><p>smallint(5)</p></td>
 <td><p>unsigned</p></td>
@@ -686,7 +686,7 @@ This table contains data regarding serverside spells which are not to be found i
 <td><p><br />
 </p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#effectapplyauraname">EffectApplyAuraName2</a></p></td>
 <td><p>smallint(5)</p></td>
 <td><p>unsigned</p></td>
@@ -699,7 +699,7 @@ This table contains data regarding serverside spells which are not to be found i
 <td><p><br />
 </p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#effectapplyauraname">EffectApplyAuraName3</a></p></td>
 <td><p>smallint(5)</p></td>
 <td><p>unsigned</p></td>
@@ -712,7 +712,7 @@ This table contains data regarding serverside spells which are not to be found i
 <td><p><br />
 </p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#effectamplitude">EffectAmplitude1</a></p></td>
 <td><p>int(11)</p></td>
 <td><p>signed</p></td>
@@ -725,7 +725,7 @@ This table contains data regarding serverside spells which are not to be found i
 <td><p><br />
 </p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#effectamplitude">EffectAmplitude2</a></p></td>
 <td><p>int(11)</p></td>
 <td><p>signed</p></td>
@@ -738,7 +738,7 @@ This table contains data regarding serverside spells which are not to be found i
 <td><p><br />
 </p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#effectamplitude">EffectAmplitude3</a></p></td>
 <td><p>int(11)</p></td>
 <td><p>signed</p></td>
@@ -751,7 +751,7 @@ This table contains data regarding serverside spells which are not to be found i
 <td><p><br />
 </p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#effectmultiplevalue">EffectMultipleValue1</a></p></td>
 <td><p>float</p></td>
 <td><p>signed</p></td>
@@ -764,7 +764,7 @@ This table contains data regarding serverside spells which are not to be found i
 <td><p><br />
 </p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#effectmultiplevalue">EffectMultipleValue2</a></p></td>
 <td><p>float</p></td>
 <td><p>signed</p></td>
@@ -777,7 +777,7 @@ This table contains data regarding serverside spells which are not to be found i
 <td><p><br />
 </p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#effectmultiplevalue">EffectMultipleValue3</a></p></td>
 <td><p>float</p></td>
 <td><p>signed</p></td>
@@ -790,7 +790,7 @@ This table contains data regarding serverside spells which are not to be found i
 <td><p><br />
 </p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#effectmiscvalue">EffectMiscValue1</a></p></td>
 <td><p>int(11)</p></td>
 <td><p>signed</p></td>
@@ -803,7 +803,7 @@ This table contains data regarding serverside spells which are not to be found i
 <td><p><br />
 </p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#effectmiscvalue">EffectMiscValue2</a></p></td>
 <td><p>int(11)</p></td>
 <td><p>signed</p></td>
@@ -816,7 +816,7 @@ This table contains data regarding serverside spells which are not to be found i
 <td><p><br />
 </p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#effectmiscvalue">EffectMiscValue3</a></p></td>
 <td><p>int(11)</p></td>
 <td><p>signed</p></td>
@@ -829,7 +829,7 @@ This table contains data regarding serverside spells which are not to be found i
 <td><p><br />
 </p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#effectmiscvalueb">EffectMiscValueB1</a></p></td>
 <td><p>int(11)</p></td>
 <td><p>signed</p></td>
@@ -842,7 +842,7 @@ This table contains data regarding serverside spells which are not to be found i
 <td><p><br />
 </p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#effectmiscvalueb">EffectMiscValueB2</a></p></td>
 <td><p>int(11)</p></td>
 <td><p>signed</p></td>
@@ -855,7 +855,7 @@ This table contains data regarding serverside spells which are not to be found i
 <td><p><br />
 </p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#effectmiscvalueb">EffectMiscValueB3</a></p></td>
 <td><p>int(11)</p></td>
 <td><p>signed</p></td>
@@ -868,7 +868,7 @@ This table contains data regarding serverside spells which are not to be found i
 <td><p><br />
 </p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#effecttriggerspell">EffectTriggerSpell1</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
@@ -881,7 +881,7 @@ This table contains data regarding serverside spells which are not to be found i
 <td><p><br />
 </p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#effecttriggerspell">EffectTriggerSpell2</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
@@ -894,7 +894,7 @@ This table contains data regarding serverside spells which are not to be found i
 <td><p><br />
 </p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#effecttriggerspell">EffectTriggerSpell3</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
@@ -907,7 +907,7 @@ This table contains data regarding serverside spells which are not to be found i
 <td><p><br />
 </p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#effectspellclassmaska">EffectSpellClassMaskA1</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
@@ -920,7 +920,7 @@ This table contains data regarding serverside spells which are not to be found i
 <td><p><br />
 </p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#effectspellclassmaska">EffectSpellClassMaskA2</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
@@ -933,7 +933,7 @@ This table contains data regarding serverside spells which are not to be found i
 <td><p><br />
 </p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#effectspellclassmaska">EffectSpellClassMaskA3</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
@@ -946,7 +946,7 @@ This table contains data regarding serverside spells which are not to be found i
 <td><p><br />
 </p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#effectspellclassmaskb">EffectSpellClassMaskB1</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
@@ -959,7 +959,7 @@ This table contains data regarding serverside spells which are not to be found i
 <td><p><br />
 </p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#effectspellclassmaskb">EffectSpellClassMaskB2</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
@@ -972,7 +972,7 @@ This table contains data regarding serverside spells which are not to be found i
 <td><p><br />
 </p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#effectspellclassmaskb">EffectSpellClassMaskB3</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
@@ -985,7 +985,7 @@ This table contains data regarding serverside spells which are not to be found i
 <td><p><br />
 </p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#effectspellclassmaskc">EffectSpellClassMaskC1</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
@@ -998,7 +998,7 @@ This table contains data regarding serverside spells which are not to be found i
 <td><p><br />
 </p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#effectspellclassmaskc">EffectSpellClassMaskC2</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
@@ -1011,7 +1011,7 @@ This table contains data regarding serverside spells which are not to be found i
 <td><p><br />
 </p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#effectspellclassmaskc">EffectSpellClassMaskC3</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
@@ -1024,7 +1024,7 @@ This table contains data regarding serverside spells which are not to be found i
 <td><p><br />
 </p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#maxtargetlevel">MaxTargetLevel</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
@@ -1037,7 +1037,7 @@ This table contains data regarding serverside spells which are not to be found i
 <td><p><br />
 </p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#spellfamilyname">SpellFamilyName</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
@@ -1050,7 +1050,7 @@ This table contains data regarding serverside spells which are not to be found i
 <td><p><br />
 </p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#spellfamilyflags">SpellFamilyFlags1</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
@@ -1063,7 +1063,7 @@ This table contains data regarding serverside spells which are not to be found i
 <td><p><br />
 </p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#spellfamilyflags">SpellFamilyFlags2</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
@@ -1076,7 +1076,7 @@ This table contains data regarding serverside spells which are not to be found i
 <td><p><br />
 </p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#spellfamilyflags">SpellFamilyFlags3</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
@@ -1089,7 +1089,7 @@ This table contains data regarding serverside spells which are not to be found i
 <td><p><br />
 </p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#maxaffectedtargets">MaxAffectedTargets</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
@@ -1102,7 +1102,7 @@ This table contains data regarding serverside spells which are not to be found i
 <td><p><br />
 </p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#dmgclass">DmgClass</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
@@ -1115,7 +1115,7 @@ This table contains data regarding serverside spells which are not to be found i
 <td><p><br />
 </p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#preventiontype">PreventionType</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
@@ -1128,7 +1128,7 @@ This table contains data regarding serverside spells which are not to be found i
 <td><p><br />
 </p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#dmgmultiplier">DmgMultiplier1</a></p></td>
 <td><p>float</p></td>
 <td><p>signed</p></td>
@@ -1141,7 +1141,7 @@ This table contains data regarding serverside spells which are not to be found i
 <td><p><br />
 </p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#dmgmultiplier">DmgMultiplier2</a></p></td>
 <td><p>float</p></td>
 <td><p>signed</p></td>
@@ -1154,7 +1154,7 @@ This table contains data regarding serverside spells which are not to be found i
 <td><p><br />
 </p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#dmgmultiplier">DmgMultiplier3</a></p></td>
 <td><p>float</p></td>
 <td><p>signed</p></td>
@@ -1167,7 +1167,7 @@ This table contains data regarding serverside spells which are not to be found i
 <td><p><br />
 </p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#areagroupid">AreaGroupId</a></p></td>
 <td><p>int(11)</p></td>
 <td><p>signed</p></td>
@@ -1180,7 +1180,7 @@ This table contains data regarding serverside spells which are not to be found i
 <td><p><br />
 </p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#schoolmask">SchoolMask</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
@@ -1193,7 +1193,7 @@ This table contains data regarding serverside spells which are not to be found i
 <td><p><br />
 </p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#comment">Comment</a></p></td>
 <td><p>text</p></td>
 <td><p>signed</p></td>

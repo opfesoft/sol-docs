@@ -8,7 +8,7 @@ This table holds information about menu options a gossip NPC can have. Example
 
 <table>
 <tbody>
-<tr class="odd">
+<tr>
 <td><p><strong>Field</strong></p></td>
 <td><p><strong>Type</strong></p></td>
 <td><p><strong>Attributes</strong></p></td>
@@ -18,7 +18,7 @@ This table holds information about menu options a gossip NPC can have. Example
 <td><p><strong>Extra</strong></p></td>
 <td><p><strong>Comment</strong></p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#menuid">MenuID</a></p></td>
 <td><p>smallint(6)</p></td>
 <td><p>unsigned</p></td>
@@ -30,7 +30,7 @@ This table holds information about menu options a gossip NPC can have. Example
 <td><p><br />
 </p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#id">OptionID</a></p></td>
 <td><p>smallint(6)</p></td>
 <td><p>unsigned</p></td>
@@ -42,7 +42,7 @@ This table holds information about menu options a gossip NPC can have. Example
 <td><p><br />
 </p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#optionicon">OptionIcon</a></p></td>
 <td><p>smallint(6)</p></td>
 <td><p>unsigned</p></td>
@@ -54,7 +54,7 @@ This table holds information about menu options a gossip NPC can have. Example
 <td><p><br />
 </p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#optiontext">OptionText</a></p></td>
 <td><p>text</p></td>
 <td><p>signed</p></td>
@@ -67,7 +67,7 @@ This table holds information about menu options a gossip NPC can have. Example
 <td><p><br />
 </p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><a href="#optionbroadcasttextid">OptionBroadcastTextID</a></td>
 <td>mediumint(6)</td>
 <td><br />
@@ -82,7 +82,7 @@ This table holds information about menu options a gossip NPC can have. Example
 <td><br />
 </td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#optionid">OptionType</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
@@ -95,7 +95,7 @@ This table holds information about menu options a gossip NPC can have. Example
 <td><p><br />
 </p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#npcoptionnpcflag">OptionNpcFlag</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
@@ -108,7 +108,7 @@ This table holds information about menu options a gossip NPC can have. Example
 <td><p><br />
 </p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#actionmenuid">ActionMenuID</a></p></td>
 <td><p>mediumint(8)</p></td>
 <td><p>unsigned</p></td>
@@ -121,7 +121,7 @@ This table holds information about menu options a gossip NPC can have. Example
 <td><p><br />
 </p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#actionpoiid">ActionPoiID</a></p></td>
 <td><p>mediumint(8)</p></td>
 <td><p>unsigned</p></td>
@@ -134,7 +134,7 @@ This table holds information about menu options a gossip NPC can have. Example
 <td><p><br />
 </p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#boxcoded">BoxCoded</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
@@ -147,7 +147,7 @@ This table holds information about menu options a gossip NPC can have. Example
 <td><p><br />
 </p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#boxmoney">BoxMoney</a></p></td>
 <td><p>int(11)</p></td>
 <td><p>unsigned</p></td>
@@ -160,7 +160,7 @@ This table holds information about menu options a gossip NPC can have. Example
 <td><p><br />
 </p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#boxtext">BoxText</a></p></td>
 <td><p>text</p></td>
 <td><p>signed</p></td>
@@ -173,7 +173,7 @@ This table holds information about menu options a gossip NPC can have. Example
 <td><p><br />
 </p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><a href="#boxbroadcasttextid">BoxBroadcastTextID</a></td>
 <td>mediumint(6)</td>
 <td><br />
@@ -187,7 +187,7 @@ This table holds information about menu options a gossip NPC can have. Example
 <td><br />
 </td>
 </tr>
-<tr class="odd">
+<tr>
 <td>VerifiedBuild</td>
 <td>smallint(5)</td>
 <td><br />

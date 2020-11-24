@@ -228,19 +228,19 @@ The current dungeon difficulty that the player is in. This field is bitmask. Val
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td><p>0</p></td>
 <td><p>Normal</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>1</p></td>
 <td><p>Heroic</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>16</p></td>
 <td><p>10 man</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>32</p></td>
 <td><p>25 man</p></td>
 </tr>
@@ -428,31 +428,31 @@ Current character powers (snapshot from when the character was saved)
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td><p>power1</p></td>
 <td><p>Mana</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>power2</p></td>
 <td><p>Rage</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>power3</p></td>
 <td><p>Focus</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>power4</p></td>
 <td><p>Energy</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>power5</p></td>
 <td><p>Happiness</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>power6</p></td>
 <td><p>Runes</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>power7</p></td>
 <td><p>Runic Power</p></td>
 </tr>
@@ -496,14 +496,14 @@ Contains data about known Titles stored in 6 x 16bit integers. To calculate wher
 <col width="20%" />
 </colgroup>
 <tbody>
-<tr class="odd">
+<tr>
 <td><p>TitleID</p></td>
 <td><p>UnkRef?</p></td>
 <td><p>MaleTitle</p></td>
 <td><p>FemaleTitle</p></td>
 <td><p>InGameOrder</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>93</p></td>
 <td><p>0</p></td>
 <td><p>Archmage %s</p></td>

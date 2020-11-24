@@ -18,7 +18,7 @@ Please note you'll have to set PlayerStart.AllSpells to 1 in config, else this t
 <col width="12%" />
 </colgroup>
 <tbody>
-<tr class="odd">
+<tr>
 <td><p><strong>Field</strong></p></td>
 <td><p><strong>Type</strong></p></td>
 <td><p><strong>Attributes</strong></p></td>
@@ -28,7 +28,7 @@ Please note you'll have to set PlayerStart.AllSpells to 1 in config, else this t
 <td><p><strong>Extra</strong></p></td>
 <td><p><strong>Comment</strong></p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#race">racemask</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
@@ -38,7 +38,7 @@ Please note you'll have to set PlayerStart.AllSpells to 1 in config, else this t
 <td><p> </p></td>
 <td><p> </p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#class">classmask</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
@@ -48,7 +48,7 @@ Please note you'll have to set PlayerStart.AllSpells to 1 in config, else this t
 <td><p> </p></td>
 <td><p> </p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#spell">Spell</a></p></td>
 <td><p>mediumint(8)</p></td>
 <td><p>unsigned</p></td>
@@ -58,7 +58,7 @@ Please note you'll have to set PlayerStart.AllSpells to 1 in config, else this t
 <td><p> </p></td>
 <td><p> </p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#note">Note</a></p></td>
 <td><p>varchar(255)</p></td>
 <td><p>signed</p></td>

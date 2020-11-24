@@ -18,7 +18,7 @@ Holds information on which NPC can start what battleground or arena.
 <col width="12%" />
 </colgroup>
 <tbody>
-<tr class="odd">
+<tr>
 <td><p><strong>Field</strong></p></td>
 <td><p><strong>Type</strong></p></td>
 <td><p><strong>Attributes</strong></p></td>
@@ -28,7 +28,7 @@ Holds information on which NPC can start what battleground or arena.
 <td><p><strong>Extra</strong></p></td>
 <td><p><strong>Comment</strong></p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#entry">entry</a></p></td>
 <td><p>mediumint(8)</p></td>
 <td><p>unsigned</p></td>
@@ -38,7 +38,7 @@ Holds information on which NPC can start what battleground or arena.
 <td><p> </p></td>
 <td><p>Entry of a creature</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#bg_template">bg_template</a></p></td>
 <td><p>mediumint(8)</p></td>
 <td><p>unsigned</p></td>

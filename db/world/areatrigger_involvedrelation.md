@@ -20,7 +20,7 @@ If there is a record in the table for a quest, then the quest will not be comple
 <col width="12%" />
 </colgroup>
 <tbody>
-<tr class="odd">
+<tr>
 <td><p><strong>Field</strong></p></td>
 <td><p><strong>Type</strong></p></td>
 <td><p><strong>Attributes</strong></p></td>
@@ -30,7 +30,7 @@ If there is a record in the table for a quest, then the quest will not be comple
 <td><p><strong>Extra</strong></p></td>
 <td><p><strong>Comments</strong></p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#id">id</a></p></td>
 <td><p>mediumint(8)</p></td>
 <td><p>unsigned</p></td>
@@ -40,7 +40,7 @@ If there is a record in the table for a quest, then the quest will not be comple
 <td><p> </p></td>
 <td><p>Identifier</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#quest">quest</a></p></td>
 <td><p>mediumint(8)</p></td>
 <td><p>unsigned</p></td>

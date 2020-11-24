@@ -18,7 +18,7 @@ This table holds pieces of names (first and last half) that are use for pet name
 <col width="12%" />
 </colgroup>
 <tbody>
-<tr class="odd">
+<tr>
 <td><p><strong>Field</strong></p></td>
 <td><p><strong>Type</strong></p></td>
 <td><p><strong>Attributes</strong></p></td>
@@ -28,7 +28,7 @@ This table holds pieces of names (first and last half) that are use for pet name
 <td><p><strong>Extra</strong></p></td>
 <td><p><strong>Comment</strong></p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#id">id</a></p></td>
 <td><p>mediumint(8)</p></td>
 <td><p>unsigned</p></td>
@@ -38,7 +38,7 @@ This table holds pieces of names (first and last half) that are use for pet name
 <td><p>Auto increment</p></td>
 <td><p> </p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#word">word</a></p></td>
 <td><p>tinytext</p></td>
 <td><p>signed</p></td>
@@ -48,7 +48,7 @@ This table holds pieces of names (first and last half) that are use for pet name
 <td><p> </p></td>
 <td><p> </p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#entry">entry</a></p></td>
 <td><p>mediumint(8)</p></td>
 <td><p>unsigned</p></td>
@@ -58,7 +58,7 @@ This table holds pieces of names (first and last half) that are use for pet name
 <td><p> </p></td>
 <td><p> </p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#half">half</a></p></td>
 <td><p>tinyint(4)</p></td>
 <td><p>signed</p></td>

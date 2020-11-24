@@ -18,7 +18,7 @@ This table holds data about temporary summoned creatures. It is possible to grou
 <col width="12%" />
 </colgroup>
 <tbody>
-<tr class="odd">
+<tr>
 <td><p><strong>Field</strong></p></td>
 <td><p><strong>Type</strong></p></td>
 <td><p><strong>Attributes</strong></p></td>
@@ -28,7 +28,7 @@ This table holds data about temporary summoned creatures. It is possible to grou
 <td><p><strong>Extra</strong></p></td>
 <td><p><strong>Comment</strong></p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#summonerid">summonerId</a></p></td>
 <td><p>mediumint(8)</p></td>
 <td><p>unsigned</p></td>
@@ -38,7 +38,7 @@ This table holds data about temporary summoned creatures. It is possible to grou
 <td><p> </p></td>
 <td><p> </p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#summonertype">summonerType</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
@@ -48,7 +48,7 @@ This table holds data about temporary summoned creatures. It is possible to grou
 <td><p> </p></td>
 <td><p> </p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><a href="#groupid">groupId</a></td>
 <td>tinyint(3)</td>
 <td>unsigned</td>
@@ -58,7 +58,7 @@ This table holds data about temporary summoned creatures. It is possible to grou
 <td> </td>
 <td> </td>
 </tr>
-<tr class="odd">
+<tr>
 <td><a href="#entry">entry</a></td>
 <td>mediumint(8)</td>
 <td>unsigned</td>
@@ -68,7 +68,7 @@ This table holds data about temporary summoned creatures. It is possible to grou
 <td> </td>
 <td> </td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#position_x">position_x</a></p></td>
 <td><p>float</p></td>
 <td><p> </p></td>
@@ -78,7 +78,7 @@ This table holds data about temporary summoned creatures. It is possible to grou
 <td><p> </p></td>
 <td><p> </p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#position_y">position_y</a></p></td>
 <td><p>float</p></td>
 <td><p> </p></td>
@@ -88,7 +88,7 @@ This table holds data about temporary summoned creatures. It is possible to grou
 <td><p> </p></td>
 <td> </td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#position_z">position_z</a></p></td>
 <td><p>float</p></td>
 <td><p> </p></td>
@@ -98,7 +98,7 @@ This table holds data about temporary summoned creatures. It is possible to grou
 <td><p> </p></td>
 <td> </td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#orientation">orientation</a></p></td>
 <td><p>float</p></td>
 <td><p> </p></td>
@@ -108,7 +108,7 @@ This table holds data about temporary summoned creatures. It is possible to grou
 <td><p> </p></td>
 <td><p> </p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><a href="#summontype">summonType</a></td>
 <td>tinyint(3)</td>
 <td>unsigned</td>
@@ -118,7 +118,7 @@ This table holds data about temporary summoned creatures. It is possible to grou
 <td> </td>
 <td> </td>
 </tr>
-<tr class="odd">
+<tr>
 <td><a href="#summontime">summonTime</a></td>
 <td>int(10)</td>
 <td>unsigned</td>
@@ -153,15 +153,15 @@ Summoner's type:
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td><p>0</p></td>
 <td><p>SUMMONER_TYPE_CREATURE</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>1</p></td>
 <td><p>SUMMONER_TYPE_GAMEOBJECT</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>2</p></td>
 <td><p>SUMMONER_TYPE_MAP</p></td>
 </tr>
@@ -208,42 +208,42 @@ Orientation the summoned creature will get when spawned
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td><p>1</p></td>
 <td><p>TEMPSUMMON_TIMED_OR_DEAD_DESPAWN</p></td>
 <td><p>Despawns after a specified time OR when the creature disappears</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>2</p></td>
 <td><p>TEMPSUMMON_TIMED_OR_CORPSE_DESPAWN</p></td>
 <td><p>Despawns after a specified time OR when the creature dies</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>3</p></td>
 <td><p>TEMPSUMMON_TIMED_DESPAWN</p></td>
 <td><p>Despawns after a specified time</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>4</p></td>
 <td><p>TEMPSUMMON_TIMED_DESPAWN_OUT_OF_COMBAT</p></td>
 <td><p>Despawns after a specified time after the creature is out of combat</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>5</p></td>
 <td><p>TEMPSUMMON_CORPSE_DESPAWN</p></td>
 <td><p>Despawns instantly after death</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>6</p></td>
 <td><p>TEMPSUMMON_CORPSE_TIMED_DESPAWN</p></td>
 <td><p>Despawns after a specified time after death</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>7</p></td>
 <td><p>TEMPSUMMON_DEAD_DESPAWN</p></td>
 <td><p>Despawns when the creature disappears</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>8</p></td>
 <td><p>TEMPSUMMON_MANUAL_DESPAWN</p></td>
 <td><p>Despawns when UnSummon() is called</p></td>

@@ -18,7 +18,7 @@ This table stores information about which players can trade soulbound items betw
 <col width="12%" />
 </colgroup>
 <tbody>
-<tr class="odd">
+<tr>
 <td><p><strong>Field</strong></p></td>
 <td><p><strong>Type</strong></p></td>
 <td><p><strong>Attributes</strong></p></td>
@@ -28,7 +28,7 @@ This table stores information about which players can trade soulbound items betw
 <td><p><strong>Extra</strong></p></td>
 <td><p><strong>Comment</strong></p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="#itemguid">itemGuid</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
@@ -38,7 +38,7 @@ This table stores information about which players can trade soulbound items betw
 <td><p>Unique</p></td>
 <td><p>Item GUID</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="#alowedplayers">alowedplayers</a></p></td>
 <td><p>text</p></td>
 <td><p>signed</p></td>
