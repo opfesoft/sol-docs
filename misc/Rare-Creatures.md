@@ -1,59 +1,61 @@
+Track and verify the movement types of rare creatures:
+
 | name                       | entry | guid    | active? | wp? | ok? | comment |
 |----------------------------|-------|---------|---------|-----|-----|---------|
-| Thuros Lightfingers        |    61 |   81107 |         |     |     |         |
-| Thuros Lightfingers        |    61 |  134007 |         |     |     |         |
-| Thuros Lightfingers        |    61 |  134008 |         |     |     |         |
-| Thuros Lightfingers        |    61 |  134009 |         |     |     |         |
-| Thuros Lightfingers        |    61 |  134010 |         |     |     |         |
-| Thuros Lightfingers        |    61 |  134011 |         |     |     |         |
-| Thuros Lightfingers        |    61 |  134012 |         |     |     |         |
-| Thuros Lightfingers        |    61 |  134013 |         |     |     |         |
-| Narg the Taskmaster        |    79 |   80647 |         |     |     |         |
-| Morgaine the Sly           |    99 |   80395 |         |     |     |         |
-| Gruff Swiftbite            |   100 |   86154 |         |     |     |         |
-| Gruff Swiftbite            |   100 |  134003 |         |     |     |         |
-| Gruff Swiftbite            |   100 |  134004 |         |     |     |         |
-| Gruff Swiftbite            |   100 |  134005 |         |     |     |         |
-| Gruff Swiftbite            |   100 |  134006 |         |     |     |         |
-| Vultros                    |   462 |   28407 |         |     |     |         |
-| Vultros                    |   462 |  134024 |         |     |     |         |
-| Vultros                    |   462 |  134025 |         |     |     |         |
-| Vultros                    |   462 |  134026 |         |     |     |         |
-| Vultros                    |   462 |  134027 |         |     |     |         |
-| Vultros                    |   462 |  134028 |         |     |     |         |
-| Vultros                    |   462 |  134029 |         |     |     |         |
-| Vultros                    |   462 |  134030 |         |     |     |         |
-| Vultros                    |   462 |  134031 |         |     |     |         |
-| Vultros                    |   462 |  134032 |         |     |     |         |
-| Vultros                    |   462 |  134033 |         |     |     |         |
-| Vultros                    |   462 |  134034 |         |     |     |         |
-| Vultros                    |   462 |  134035 |         |     |     |         |
-| Vultros                    |   462 |  134036 |         |     |     |         |
-| Vultros                    |   462 |  134037 |         |     |     |         |
-| Vultros                    |   462 |  134038 |         |     |     |         |
-| Mother Fang                |   471 |   80989 |         |     |     |         |
-| Fedfennel                  |   472 |   81122 |         |     |     |         |
-| Fedfennel                  |   472 |  134000 |         |     |     |         |
-| Fedfennel                  |   472 |  134001 |         |     |     |         |
-| Fedfennel                  |   472 |  134002 |         |     |     |         |
-| Lord Malathrom             |   503 |    5037 |         |     |     |         |
-| Lord Malathrom             |   503 |  134095 |         |     |     |         |
-| Lord Malathrom             |   503 |  134096 |         |     |     |         |
-| Lord Malathrom             |   503 |  134097 |         |     |     |         |
-| Lord Malathrom             |   503 |  134098 |         |     |     |         |
-| Lord Malathrom             |   503 |  134099 |         |     |     |         |
-| Lord Malathrom             |   503 |  134100 |         |     |     |         |
-| Sergeant Brashclaw         |   506 |   90209 |         |     |     |         |
-| Fenros                     |   507 |   28408 |         |     |     |         |
-| Fenros                     |   507 |  134088 |         |     |     |         |
-| Fenros                     |   507 |  134089 |         |     |     |         |
-| Fenros                     |   507 |  134090 |         |     |     |         |
-| Fenros                     |   507 |  134091 |         |     |     |         |
-| Fenros                     |   507 |  134092 |         |     |     |         |
-| Fenros                     |   507 |  134093 |         |     |     |         |
-| Fenros                     |   507 |  134094 |         |     |     |         |
-| Slark                      |   519 |   90206 |         |     |     |         |
-| Brack                      |   520 |   90207 |         |     |     |         |
+| Thuros Lightfingers        |    61 |   81107 | no      | no  | yes |         |
+| Thuros Lightfingers        |    61 |  134007 | no      | no  | yes |         |
+| Thuros Lightfingers        |    61 |  134008 | no      | no  | yes |         |
+| Thuros Lightfingers        |    61 |  134009 | no      | no  | yes |         |
+| Thuros Lightfingers        |    61 |  134010 | no      | no  | yes |         |
+| Thuros Lightfingers        |    61 |  134011 | no      | no  | yes |         |
+| Thuros Lightfingers        |    61 |  134012 | no      | no  | yes |         |
+| Thuros Lightfingers        |    61 |  134013 | no      | no  | yes |         |
+| Narg the Taskmaster        |    79 |   80647 | no      | no  | yes |         |
+| Morgaine the Sly           |    99 |   80395 | no      | no  | yes |         |
+| Gruff Swiftbite            |   100 |   86154 | no      | no  | yes | Random movement |
+| Gruff Swiftbite            |   100 |  134003 | no      | no  | yes | Random movement |
+| Gruff Swiftbite            |   100 |  134004 | no      | no  | yes | Random movement |
+| Gruff Swiftbite            |   100 |  134005 | no      | no  | yes | Random movement |
+| Gruff Swiftbite            |   100 |  134006 | no      | no  | yes | Random movement |
+| Vultros                    |   462 |   28407 | no      | no  | yes | Random movement |
+| Vultros                    |   462 |  134024 | no      | no  | yes | Random movement |
+| Vultros                    |   462 |  134025 | no      | no  | yes | Random movement |
+| Vultros                    |   462 |  134026 | no      | no  | yes | Random movement |
+| Vultros                    |   462 |  134027 | no      | no  | yes | Random movement |
+| Vultros                    |   462 |  134028 | no      | no  | yes | Random movement |
+| Vultros                    |   462 |  134029 | no      | no  | yes | Random movement |
+| Vultros                    |   462 |  134030 | no      | no  | yes | Random movement |
+| Vultros                    |   462 |  134031 | no      | no  | yes | Random movement |
+| Vultros                    |   462 |  134032 | no      | no  | yes | Random movement |
+| Vultros                    |   462 |  134033 | no      | no  | yes | Random movement |
+| Vultros                    |   462 |  134034 | no      | no  | yes | Random movement |
+| Vultros                    |   462 |  134035 | no      | no  | yes | Random movement |
+| Vultros                    |   462 |  134036 | no      | no  | yes | Random movement |
+| Vultros                    |   462 |  134037 | no      | no  | yes | Random movement |
+| Vultros                    |   462 |  134038 | no      | no  | yes | Random movement |
+| Mother Fang                |   471 |   80989 | no      | no  | yes |         |
+| Fedfennel                  |   472 |   81122 | no      | no  | yes | Random movement |
+| Fedfennel                  |   472 |  134000 | no      | no  | yes | Random movement |
+| Fedfennel                  |   472 |  134001 | no      | no  | yes | Random movement |
+| Fedfennel                  |   472 |  134002 | no      | no  | yes | Random movement |
+| Lord Malathrom             |   503 |    5037 | no      | no  | yes | Random movement |
+| Lord Malathrom             |   503 |  134095 | no      | no  | yes | Random movement |
+| Lord Malathrom             |   503 |  134096 | no      | no  | yes | Random movement |
+| Lord Malathrom             |   503 |  134097 | no      | no  | yes | Random movement |
+| Lord Malathrom             |   503 |  134098 | no      | no  | yes | Random movement |
+| Lord Malathrom             |   503 |  134099 | no      | no  | yes | Random movement |
+| Lord Malathrom             |   503 |  134100 | no      | no  | yes | Random movement |
+| Sergeant Brashclaw         |   506 |   90209 | no      | no  | yes |         |
+| Fenros                     |   507 |   28408 | no      | no  | yes | Random movement |
+| Fenros                     |   507 |  134088 | no      | no  | yes | Random movement |
+| Fenros                     |   507 |  134089 | no      | no  | yes | Random movement |
+| Fenros                     |   507 |  134090 | no      | no  | yes | Random movement |
+| Fenros                     |   507 |  134091 | no      | no  | yes | Random movement |
+| Fenros                     |   507 |  134092 | no      | no  | yes | Random movement |
+| Fenros                     |   507 |  134093 | no      | no  | yes | Random movement |
+| Fenros                     |   507 |  134094 | no      | no  | yes | Random movement |
+| Slark                      |   519 |   90206 | yes     | yes | yes |         |
+| Brack                      |   520 |   90207 | yes     | yes | yes |         |
 | Lupos                      |   521 |   28411 |         |     |     |         |
 | Lupos                      |   521 |  134101 |         |     |     |         |
 | Lupos                      |   521 |  134102 |         |     |     |         |
@@ -1009,5 +1011,7 @@
 | Gondria                    | 33776 |  200129 |         |     |     |         |
 | Gondria                    | 33776 |  200130 |         |     |     |         |
 | Gondria                    | 33776 |  200131 |         |     |     |         |
-| Skoll                      | 35189 |   42159 |         |     |     |         |
-| Arcturis                   | 38453 |   42158 |         |     |     |         |
+| Skoll                      | 35189 |   42159 | no      | no  | yes | Random movement |
+| Skoll                      | 3008775 | 42159 | no      | no  | yes | Random movement |
+| Skoll                      | 3008776 | 42159 | no      | no  | yes | Random movement |
+| Arcturis                   | 38453 |   42158 | no      | no  | yes | Random movement |

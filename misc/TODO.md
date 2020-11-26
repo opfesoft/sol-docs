@@ -2,8 +2,10 @@ TODOs:
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@1a8110dc | 2020-11-26 | X    | use a creature pool instead of deleting the second spawn; done: sol@06e0a18a |
+| sol@2e39d452 | 2020-11-24 |      | verify and rework SQL script |
 | sol@5d3bb608 | 2020-11-23 |      | verify and only take over if actually needed (if so, also take over sol@2788d495); fix PvP flag for the NPCs |
-| sol@fb69db21 | 2020-11-19 |      | verify and probably find a better solution |
+| sol@fb69db21 | 2020-11-19 |      | probably find a better solution (AC commit reverted with sol@35fb9f49) |
 | sol@9a8aa615 | 2020-11-16 |      | verify and rework SQL script |
 | sol@17bfcb77 | 2020-11-14 |      | take over if needed (compare with TC implementation) |
 | sol@2788d495 | 2020-11-14 |      | take over if needed (compare with TC implementation) |
@@ -40,11 +42,11 @@ TODOs:
 | sol@24b9c929 | 2020-10-26 |      | verify and rework SQL script |
 | sol@c4ded889 | 2020-10-26 |      | verify and rework SQL script |
 | sol@5ec25278 | 2020-10-25 |      | verify and rework SQL script |
-| sol@d07a34c1 | 2020-10-23 | X    | see sol@91c47cb4 and sol@c129c06a; AC implementation for AURA\_INTERRUPT\_FLAG\_LEAVE\_COMBAT is at the wrong code place |
+| sol@d07a34c1 | 2020-10-23 | X    | done: sol@91c47cb4 and sol@c129c06a; AC implementation for AURA\_INTERRUPT\_FLAG\_LEAVE\_COMBAT is at the wrong code place |
 | sol@d5bb6ba1 | 2020-10-21 |      | see also follow-up bugfix sol@b3a967db; could contain several other hidden bugs, so only take over if really needed and double-check the code changes in that case |
 | sol@ab5933ef | 2020-10-17 |      | take over if needed |
 | sol@24cfa307 | 2020-10-11 |      | verify SQL script |
-| sol@4cca286a | 2020-10-09 | X    | see sol@afa10355 |
+| sol@4cca286a | 2020-10-09 | X    | verify and find a better solution as flying creatures respawn on the ground instead of their actual spawn point; done: sol@afa10355 |
 | sol@3368e0f8 | 2020-10-08 |      | verify new creature positions |
 | sol@22f8195c | 2020-10-07 |      | verify changes and new creature ID |
 | sol@369d292c | 2020-10-07 |      | verify SQL script |
