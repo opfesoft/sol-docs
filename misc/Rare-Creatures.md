@@ -1,4 +1,4 @@
-Track and verify the movement types of rare creatures:
+Used to track and verify the movement types of rare creatures:
 
 | name                       | entry | guid    | active? | wp? | ok? | comment |
 |----------------------------|-------|---------|---------|-----|-----|---------|
@@ -56,193 +56,192 @@ Track and verify the movement types of rare creatures:
 | Fenros                     |   507 |  134094 | no      | no  | yes | Random movement |
 | Slark                      |   519 |   90206 | yes     | yes | yes |         |
 | Brack                      |   520 |   90207 | yes     | yes | yes |         |
-| Lupos                      |   521 |   28411 |         |     |     |         |
-| Lupos                      |   521 |  134101 |         |     |     |         |
-| Lupos                      |   521 |  134102 |         |     |     |         |
-| Lupos                      |   521 |  134103 |         |     |     |         |
-| Lupos                      |   521 |  134104 |         |     |     |         |
-| Lupos                      |   521 |  134105 |         |     |     |         |
-| Lupos                      |   521 |  134106 |         |     |     |         |
-| Lupos                      |   521 |  134107 |         |     |     |         |
-| Lupos                      |   521 |  134108 |         |     |     |         |
-| Lupos                      |   521 |  134109 |         |     |     |         |
-| Lupos                      |   521 |  134110 |         |     |     |         |
-| Lupos                      |   521 |  134111 |         |     |     |         |
-| Lupos                      |   521 |  134112 |         |     |     |         |
-| Lupos                      |   521 |  134113 |         |     |     |         |
-| Lupos                      |   521 |  134114 |         |     |     |         |
-| Lupos                      |   521 |  134115 |         |     |     |         |
-| Nefaru                     |   534 |    4277 |         |     |     |         |
-| Nefaru                     |   534 |  134116 |         |     |     |         |
-| Nefaru                     |   534 |  134117 |         |     |     |         |
-| Leprithus                  |   572 |   28458 |         |     |     |         |
-| Leprithus                  |   572 |  134020 |         |     |     |         |
-| Leprithus                  |   572 |  134021 |         |     |     |         |
-| Leprithus                  |   572 |  134022 |         |     |     |         |
-| Leprithus                  |   572 |  134023 |         |     |     |         |
-| Foe Reaper 4000            |   573 |   90413 |         |     |     |         |
-| Foe Reaper 4000            |   573 |  134039 |         |     |     |         |
-| Foe Reaper 4000            |   573 |  134040 |         |     |     |         |
-| Foe Reaper 4000            |   573 |  134041 |         |     |     |         |
-| Foe Reaper 4000            |   573 |  134042 |         |     |     |         |
-| Foe Reaper 4000            |   573 |  134043 |         |     |     |         |
-| Foe Reaper 4000            |   573 |  134044 |         |     |     |         |
-| Foe Reaper 4000            |   573 |  134045 |         |     |     |         |
-| Foe Reaper 4000            |   573 |  134046 |         |     |     |         |
-| Foe Reaper 4000            |   573 |  134047 |         |     |     |         |
-| Foe Reaper 4000            |   573 |  134048 |         |     |     |         |
-| Foe Reaper 4000            |   573 |  134049 |         |     |     |         |
-| Foe Reaper 4000            |   573 |  134050 |         |     |     |         |
-| Foe Reaper 4000            |   573 |  134051 |         |     |     |         |
-| Foe Reaper 4000            |   573 |  134052 |         |     |     |         |
-| Foe Reaper 4000            |   573 |  134053 |         |     |     |         |
-| Foe Reaper 4000            |   573 |  134054 |         |     |     |         |
-| Foe Reaper 4000            |   573 |  134055 |         |     |     |         |
-| Foe Reaper 4000            |   573 |  134056 |         |     |     |         |
-| Foe Reaper 4000            |   573 |  134057 |         |     |     |         |
-| Foe Reaper 4000            |   573 |  134058 |         |     |     |         |
-| Foe Reaper 4000            |   573 |  134059 |         |     |     |         |
-| Foe Reaper 4000            |   573 |  134060 |         |     |     |         |
-| Foe Reaper 4000            |   573 |  134061 |         |     |     |         |
-| Foe Reaper 4000            |   573 |  134062 |         |     |     |         |
-| Foe Reaper 4000            |   573 |  134063 |         |     |     |         |
-| Foe Reaper 4000            |   573 |  134064 |         |     |     |         |
-| Foe Reaper 4000            |   573 |  134065 |         |     |     |         |
-| Foe Reaper 4000            |   573 |  134066 |         |     |     |         |
-| Foe Reaper 4000            |   573 |  134067 |         |     |     |         |
-| Foe Reaper 4000            |   573 |  134068 |         |     |     |         |
-| Foe Reaper 4000            |   573 |  134069 |         |     |     |         |
-| Foe Reaper 4000            |   573 |  134070 |         |     |     |         |
-| Foe Reaper 4000            |   573 |  134071 |         |     |     |         |
-| Foe Reaper 4000            |   573 |  134072 |         |     |     |         |
-| Foe Reaper 4000            |   573 |  134073 |         |     |     |         |
-| Foe Reaper 4000            |   573 |  134074 |         |     |     |         |
-| Foe Reaper 4000            |   573 |  134075 |         |     |     |         |
-| Foe Reaper 4000            |   573 |  134076 |         |     |     |         |
-| Foe Reaper 4000            |   573 |  134077 |         |     |     |         |
-| Foe Reaper 4000            |   573 |  134078 |         |     |     |         |
-| Naraxis                    |   574 |    5015 |         |     |     |         |
-| Kazon                      |   584 |   28459 |         |     |     |         |
-| Kazon                      |   584 |  134131 |         |     |     |         |
-| Kazon                      |   584 |  134132 |         |     |     |         |
-| Kazon                      |   584 |  134133 |         |     |     |         |
-| Brainwashed Noble          |   596 |   89573 |         |     |     |         |
-| Marisa du'Paige            |   599 |   89574 |         |     |     |         |
-| Chatter                    |   616 |   31806 |         |     |     |         |
-| Chatter                    |   616 |  134118 |         |     |     |         |
-| Chatter                    |   616 |  134119 |         |     |     |         |
-| Chatter                    |   616 |  134120 |         |     |     |         |
-| Chatter                    |   616 |  134121 |         |     |     |         |
-| Chatter                    |   616 |  134122 |         |     |     |         |
-| Chatter                    |   616 |  134123 |         |     |     |         |
-| Chatter                    |   616 |  134124 |         |     |     |         |
-| Chatter                    |   616 |  134125 |         |     |     |         |
-| Chatter                    |   616 |  134126 |         |     |     |         |
-| Chatter                    |   616 |  134127 |         |     |     |         |
-| Chatter                    |   616 |  134128 |         |     |     |         |
-| Chatter                    |   616 |  134129 |         |     |     |         |
-| Chatter                    |   616 |  134130 |         |     |     |         |
-| Lost One Chieftain         |   763 |   42112 |         |     |     |         |
-| Lost One Chieftain         |   763 |  134261 |         |     |     |         |
-| Lost One Chieftain         |   763 |  134262 |         |     |     |         |
-| Lost One Chieftain         |   763 |  134263 |         |     |     |         |
-| Lost One Chieftain         |   763 |  134264 |         |     |     |         |
-| Commander Felstrom         |   771 |    5126 |         |     |     |         |
-| Commander Felstrom         |   771 |  134079 |         |     |     |         |
-| Commander Felstrom         |   771 |  134080 |         |     |     |         |
-| Commander Felstrom         |   771 |  134081 |         |     |     |         |
-| Commander Felstrom         |   771 |  134082 |         |     |     |         |
-| Commander Felstrom         |   771 |  134083 |         |     |     |         |
-| Commander Felstrom         |   771 |  134084 |         |     |     |         |
-| Commander Felstrom         |   771 |  134085 |         |     |     |         |
-| Commander Felstrom         |   771 |  134086 |         |     |     |         |
-| Commander Felstrom         |   771 |  134087 |         |     |     |         |
-| Rohh the Silent            |   947 |   28480 |         |     |     |         |
-| Rohh the Silent            |   947 |  134148 |         |     |     |         |
-| Rohh the Silent            |   947 |  134149 |         |     |     |         |
-| Rohh the Silent            |   947 |  134150 |         |     |     |         |
-| Rohh the Silent            |   947 |  134151 |         |     |     |         |
-| Rohh the Silent            |   947 |  134152 |         |     |     |         |
-| Rohh the Silent            |   947 |  134153 |         |     |     |         |
-| Rohh the Silent            |   947 |  134154 |         |     |     |         |
-| Rohh the Silent            |   947 |  134155 |         |     |     |         |
-| Rohh the Silent            |   947 |  134156 |         |     |     |         |
-| Rohh the Silent            |   947 |  134157 |         |     |     |         |
-| Rohh the Silent            |   947 |  134158 |         |     |     |         |
-| Rohh the Silent            |   947 |  134159 |         |     |     |         |
-| Dragonmaw Battlemaster     |  1037 |   49203 |         |     |     |         |
-| Jade                       |  1063 |  134242 |         |     |     |         |
-| Jade                       |  1063 |  134243 |         |     |     |         |
-| Lost One Cook              |  1106 |   38936 |         |     |     |         |
-| Lost One Cook              |  1106 |  134265 |         |     |     |         |
-| Lost One Cook              |  1106 |  134266 |         |     |     |         |
-| Lost One Cook              |  1106 |  134267 |         |     |     |         |
-| Lost One Cook              |  1106 |  134268 |         |     |     |         |
-| Lost One Cook              |  1106 |  134269 |         |     |     |         |
-| Leech Widow                |  1112 |   49204 |         |     |     |         |
-| Hammerspine                |  1119 |   86172 |         |     |     |         |
-| Bjarn                      |  1130 |   86170 |         |     |     |         |
-| Bjarn                      |  1130 |  134473 |         |     |     |         |
-| Bjarn                      |  1130 |  134474 |         |     |     |         |
-| Bjarn                      |  1130 |  134475 |         |     |     |         |
-| Timber                     |  1132 |    3154 |         |     |     |         |
-| Timber                     |  1132 |  134483 |         |     |     |         |
-| Timber                     |  1132 |  134484 |         |     |     |         |
-| Edan the Howler            |  1137 |    3127 |         |     |     |         |
-| Edan the Howler            |  1137 |  134476 |         |     |     |         |
-| Razormaw Matriarch         |  1140 |    9677 |         |     |     |         |
-| Great Father Arctikus      |  1260 |    2938 |         |     |     |         |
-| Great Father Arctikus      |  1260 |  134478 |         |     |     |         |
-| Great Father Arctikus      |  1260 |  134479 |         |     |     |         |
-| Great Father Arctikus      |  1260 |  134480 |         |     |     |         |
-| Great Father Arctikus      |  1260 |  134481 |         |     |     |         |
-| Great Father Arctikus      |  1260 |  134482 |         |     |     |         |
-| Boss Galgosh               |  1398 |    9029 |         |     |     |         |
-| Magosh                     |  1399 |    9178 |         |     |     |         |
-| Master Digger              |  1424 |   90212 |         |     |     |         |
-| Grizlak                    |  1425 |    9192 |         |     |     |         |
-| Lost Soul                  |  1531 |   44863 |         |     |     |         |
-| Lost Soul                  |  1531 |   44864 |         |     |     |         |
-| Tormented Spirit           |  1533 |   49222 |         |     |     |         |
-| Scale Belly                |  1552 |    1577 |         |     |     |         |
-| Scale Belly                |  1552 |  134228 |         |     |     |         |
-| Scale Belly                |  1552 |  134229 |         |     |     |         |
-| Scale Belly                |  1552 |  134230 |         |     |     |         |
-| Bruegal Ironknuckle        |  1720 |   79090 |         |     |     |         |
-| Scarlet Judge              |  1837 |   49223 |         |     |     |         |
-| Scarlet Interrogator       |  1838 |   49330 |         |     |     |         |
-| Scarlet High Clerist       |  1839 |   49764 |         |     |     |         |
-| Scarlet Executioner        |  1841 |   49765 |         |     |     |         |
-| Foreman Jerris             |  1843 |   49768 |         |     |     |         |
-| Foreman Marcrid            |  1844 |   49769 |         |     |     |         |
-| Foulmane                   |  1847 |   45454 |         |     |     |         |
-| Lord Maldazzar             |  1848 |   52725 |         |     |     |         |
-| Putridius                  |  1850 |   53783 |         |     |     |         |
-| The Husk                   |  1851 |   53933 |         |     |     |         |
-| Scarlet Smith              |  1885 |   61634 |         |     |     |         |
-| Muad                       |  1910 |   43909 |         |     |     |         |
-| Deeb                       |  1911 |   42144 |         |     |     |         |
-| Dalaran Spellscribe        |  1920 |   18071 |         |     |     |         |
-| Farmer Solliden            |  1936 |   44569 |         |     |     |         |
-| Rot Hide Bruiser           |  1944 |   18032 |         |     |     |         |
-| Snarlmane                  |  1948 |   17988 |         |     |     |         |
-| Ma'ruk Wyrmscale           |  2090 |   10872 |         |     |     |         |
-| Garneg Charskull           |  2108 |   10745 |         |     |     |         |
-| Strider Clutchmother       |  2172 |   37385 |         |     |     |         |
-| Shadowclaw                 |  2175 |   37432 |         |     |     |         |
+| Lupos                      |   521 |   28411 | no      | no  | yes | Random movement |
+| Lupos                      |   521 |  134101 | no      | no  | yes | Random movement |
+| Lupos                      |   521 |  134102 | no      | no  | yes | Random movement |
+| Lupos                      |   521 |  134103 | no      | no  | yes | Random movement |
+| Lupos                      |   521 |  134104 | no      | no  | yes | Random movement |
+| Lupos                      |   521 |  134105 | no      | no  | yes | Random movement |
+| Lupos                      |   521 |  134106 | no      | no  | yes | Random movement |
+| Lupos                      |   521 |  134107 | no      | no  | yes | Random movement |
+| Lupos                      |   521 |  134108 | no      | no  | yes | Random movement |
+| Lupos                      |   521 |  134109 | no      | no  | yes | Random movement |
+| Lupos                      |   521 |  134110 | no      | no  | yes | Random movement |
+| Lupos                      |   521 |  134111 | no      | no  | yes | Random movement |
+| Lupos                      |   521 |  134112 | no      | no  | yes | Random movement |
+| Lupos                      |   521 |  134113 | no      | no  | yes | Random movement |
+| Lupos                      |   521 |  134114 | no      | no  | yes | Random movement |
+| Lupos                      |   521 |  134115 | no      | no  | yes | Random movement |
+| Nefaru                     |   534 |    4277 | no      | no  | yes | Random movement |
+| Nefaru                     |   534 |  134116 | no      | no  | yes | Random movement |
+| Nefaru                     |   534 |  134117 | no      | no  | yes | Random movement |
+| Leprithus                  |   572 |   28458 | no      | no  | yes | Random movement |
+| Leprithus                  |   572 |  134020 | no      | no  | yes | Random movement |
+| Leprithus                  |   572 |  134021 | no      | no  | yes | Random movement |
+| Leprithus                  |   572 |  134022 | no      | no  | yes | Random movement |
+| Leprithus                  |   572 |  134023 | no      | no  | yes | Random movement |
+| Foe Reaper 4000            |   573 |   90413 | no      | no  | yes | Random movement |
+| Foe Reaper 4000            |   573 |  134039 | no      | no  | yes | Random movement |
+| Foe Reaper 4000            |   573 |  134040 | no      | no  | yes | Random movement |
+| Foe Reaper 4000            |   573 |  134041 | no      | no  | yes | Random movement |
+| Foe Reaper 4000            |   573 |  134042 | no      | no  | yes | Random movement |
+| Foe Reaper 4000            |   573 |  134043 | no      | no  | yes | Random movement |
+| Foe Reaper 4000            |   573 |  134044 | no      | no  | yes | Random movement |
+| Foe Reaper 4000            |   573 |  134045 | no      | no  | yes | Random movement |
+| Foe Reaper 4000            |   573 |  134046 | no      | no  | yes | Random movement |
+| Foe Reaper 4000            |   573 |  134047 | no      | no  | yes | Random movement |
+| Foe Reaper 4000            |   573 |  134048 | no      | no  | yes | Random movement |
+| Foe Reaper 4000            |   573 |  134049 | no      | no  | yes | Random movement |
+| Foe Reaper 4000            |   573 |  134050 | no      | no  | yes | Random movement |
+| Foe Reaper 4000            |   573 |  134051 | no      | no  | yes | Random movement |
+| Foe Reaper 4000            |   573 |  134052 | no      | no  | yes | Random movement |
+| Foe Reaper 4000            |   573 |  134053 | no      | no  | yes | Random movement |
+| Foe Reaper 4000            |   573 |  134054 | no      | no  | yes | Random movement |
+| Foe Reaper 4000            |   573 |  134055 | no      | no  | yes | Random movement |
+| Foe Reaper 4000            |   573 |  134056 | no      | no  | yes | Random movement |
+| Foe Reaper 4000            |   573 |  134057 | no      | no  | yes | Random movement |
+| Foe Reaper 4000            |   573 |  134058 | no      | no  | yes | Random movement |
+| Foe Reaper 4000            |   573 |  134059 | no      | no  | yes | Random movement |
+| Foe Reaper 4000            |   573 |  134060 | no      | no  | yes | Random movement |
+| Foe Reaper 4000            |   573 |  134061 | no      | no  | yes | Random movement |
+| Foe Reaper 4000            |   573 |  134062 | no      | no  | yes | Random movement |
+| Foe Reaper 4000            |   573 |  134063 | no      | no  | yes | Random movement |
+| Foe Reaper 4000            |   573 |  134064 | no      | no  | yes | Random movement |
+| Foe Reaper 4000            |   573 |  134065 | no      | no  | yes | Random movement |
+| Foe Reaper 4000            |   573 |  134066 | no      | no  | yes | Random movement |
+| Foe Reaper 4000            |   573 |  134067 | no      | no  | yes | Random movement |
+| Foe Reaper 4000            |   573 |  134068 | no      | no  | yes | Random movement |
+| Foe Reaper 4000            |   573 |  134069 | no      | no  | yes | Random movement |
+| Foe Reaper 4000            |   573 |  134070 | no      | no  | yes | Random movement |
+| Foe Reaper 4000            |   573 |  134071 | no      | no  | yes | Random movement |
+| Foe Reaper 4000            |   573 |  134072 | no      | no  | yes | Random movement |
+| Foe Reaper 4000            |   573 |  134073 | no      | no  | yes | Random movement |
+| Foe Reaper 4000            |   573 |  134074 | no      | no  | yes | Random movement |
+| Foe Reaper 4000            |   573 |  134075 | no      | no  | yes | Random movement |
+| Foe Reaper 4000            |   573 |  134076 | no      | no  | yes | Random movement |
+| Foe Reaper 4000            |   573 |  134077 | no      | no  | yes | Random movement |
+| Foe Reaper 4000            |   573 |  134078 | no      | no  | yes | Random movement |
+| Naraxis                    |   574 |    5015 | yes     | yes | yes |         |
+| Kazon                      |   584 |   28459 | no      | no  | yes | Random movement |
+| Kazon                      |   584 |  134131 | no      | no  | yes | Random movement |
+| Kazon                      |   584 |  134132 | no      | no  | yes | Random movement |
+| Kazon                      |   584 |  134133 | no      | no  | yes | Random movement |
+| Brainwashed Noble          |   596 |   89573 | no      | no  | yes |         |
+| Marisa du'Paige            |   599 |   89574 | no      | no  | yes |         |
+| Chatter                    |   616 |   31806 | no      | no  | yes | Random movement |
+| Chatter                    |   616 |  134118 | no      | no  | yes | Random movement |
+| Chatter                    |   616 |  134119 | no      | no  | yes | Random movement |
+| Chatter                    |   616 |  134120 | no      | no  | yes | Random movement |
+| Chatter                    |   616 |  134121 | no      | no  | yes | Random movement |
+| Chatter                    |   616 |  134122 | no      | no  | yes | Random movement |
+| Chatter                    |   616 |  134123 | no      | no  | yes | Random movement |
+| Chatter                    |   616 |  134124 | no      | no  | yes | Random movement |
+| Chatter                    |   616 |  134125 | no      | no  | yes | Random movement |
+| Chatter                    |   616 |  134126 | no      | no  | yes | Random movement |
+| Chatter                    |   616 |  134127 | no      | no  | yes | Random movement |
+| Chatter                    |   616 |  134128 | no      | no  | yes | Random movement |
+| Chatter                    |   616 |  134129 | no      | no  | yes | Random movement |
+| Chatter                    |   616 |  134130 | no      | no  | yes | Random movement |
+| Lost One Chieftain         |   763 |   42112 | no      | no  | yes |         |
+| Lost One Chieftain         |   763 |  134261 | no      | no  | yes |         |
+| Lost One Chieftain         |   763 |  134262 | no      | no  | yes |         |
+| Lost One Chieftain         |   763 |  134263 | no      | no  | yes |         |
+| Lost One Chieftain         |   763 |  134264 | no      | no  | yes |         |
+| Commander Felstrom         |   771 |    5126 | no      | no  | yes | Random movement |
+| Commander Felstrom         |   771 |  134079 | no      | no  | yes | Random movement |
+| Commander Felstrom         |   771 |  134080 | no      | no  | yes | Random movement |
+| Commander Felstrom         |   771 |  134081 | no      | no  | yes | Random movement |
+| Commander Felstrom         |   771 |  134082 | no      | no  | yes | Random movement |
+| Commander Felstrom         |   771 |  134083 | no      | no  | yes | Random movement |
+| Commander Felstrom         |   771 |  134084 | no      | no  | yes | Random movement |
+| Commander Felstrom         |   771 |  134085 | no      | no  | yes | Random movement |
+| Commander Felstrom         |   771 |  134086 | no      | no  | yes | Random movement |
+| Commander Felstrom         |   771 |  134087 | no      | no  | yes | Random movement |
+| Rohh the Silent            |   947 |   28480 | no      | no  | yes | Random movement |
+| Rohh the Silent            |   947 |  134148 | no      | no  | yes | Random movement |
+| Rohh the Silent            |   947 |  134149 | no      | no  | yes | Random movement |
+| Rohh the Silent            |   947 |  134150 | no      | no  | yes | Random movement |
+| Rohh the Silent            |   947 |  134151 | no      | no  | yes | Random movement |
+| Rohh the Silent            |   947 |  134152 | no      | no  | yes | Random movement |
+| Rohh the Silent            |   947 |  134153 | no      | no  | yes | Random movement |
+| Rohh the Silent            |   947 |  134154 | no      | no  | yes | Random movement |
+| Rohh the Silent            |   947 |  134155 | no      | no  | yes | Random movement |
+| Rohh the Silent            |   947 |  134156 | no      | no  | yes | Random movement |
+| Rohh the Silent            |   947 |  134157 | no      | no  | yes | Random movement |
+| Rohh the Silent            |   947 |  134158 | no      | no  | yes | Random movement |
+| Rohh the Silent            |   947 |  134159 | no      | no  | yes | Random movement |
+| Dragonmaw Battlemaster     |  1037 |   49203 | yes     | yes | yes |         |
+| Jade                       |  1063 |  134242 | no      | no  | yes |         |
+| Jade                       |  1063 |  134243 | no      | no  | yes |         |
+| Lost One Cook              |  1106 |   38936 | no      | no  | yes |         |
+| Lost One Cook              |  1106 |  134265 | no      | no  | yes |         |
+| Lost One Cook              |  1106 |  134266 | no      | no  | yes |         |
+| Lost One Cook              |  1106 |  134267 | no      | no  | yes |         |
+| Lost One Cook              |  1106 |  134268 | no      | no  | yes |         |
+| Lost One Cook              |  1106 |  134269 | no      | no  | yes |         |
+| Leech Widow                |  1112 |   49204 | no      | no  | yes |         |
+| Hammerspine                |  1119 |   86172 | no      | no  | yes |         |
+| Bjarn                      |  1130 |   86170 | no      | no  | yes | Random movement |
+| Bjarn                      |  1130 |  134473 | no      | no  | yes | Random movement |
+| Bjarn                      |  1130 |  134474 | no      | no  | yes | Random movement |
+| Bjarn                      |  1130 |  134475 | no      | no  | yes | Random movement |
+| Timber                     |  1132 |    3154 | no      | no  | yes | Random movement |
+| Timber                     |  1132 |  134483 | no      | no  | yes | Random movement |
+| Timber                     |  1132 |  134484 | no      | no  | yes | Random movement |
+| Edan the Howler            |  1137 |    3127 | yes     | yes | yes |         |
+| Edan the Howler            |  1137 |  134476 | yes     | yes | yes |         |
+| Razormaw Matriarch         |  1140 |    9677 | yes     | yes | yes |         |
+| Great Father Arctikus      |  1260 |    2938 | no      | no  | yes | Random movement |
+| Great Father Arctikus      |  1260 |  134478 | no      | no  | yes | Random movement |
+| Great Father Arctikus      |  1260 |  134479 | no      | no  | yes | Random movement |
+| Great Father Arctikus      |  1260 |  134480 | no      | no  | yes | Random movement |
+| Great Father Arctikus      |  1260 |  134481 | no      | no  | yes | Random movement |
+| Great Father Arctikus      |  1260 |  134482 | no      | no  | yes | Random movement |
+| Boss Galgosh               |  1398 |    9029 | no      | no  | yes |         |
+| Magosh                     |  1399 |    9178 | no      | no  | yes |         |
+| Master Digger              |  1424 |   90212 | no      | no  | yes |         |
+| Grizlak                    |  1425 |    9192 | no      | no  | yes |         |
+| Lost Soul                  |  1531 |   44863 | no      | no  | yes | No creature pool |
+| Lost Soul                  |  1531 |   44864 | no      | no  | yes | No creature pool |
+| Tormented Spirit           |  1533 |   49222 | yes     | yes | yes |         |
+| Scale Belly                |  1552 |    1577 | no      | no  | yes |         |
+| Scale Belly                |  1552 |  134228 | no      | no  | yes |         |
+| Scale Belly                |  1552 |  134229 | no      | no  | yes |         |
+| Scale Belly                |  1552 |  134230 | no      | no  | yes |         |
+| Bruegal Ironknuckle        |  1720 |   79090 | no      | no  | yes | Dungeon |
+| Scarlet Judge              |  1837 |   49223 | no      | no  | yes |         |
+| Scarlet Interrogator       |  1838 |   49330 | no      | no  | yes |         |
+| Scarlet High Clerist       |  1839 |   49764 | yes     | yes | yes |         |
+| Scarlet Executioner        |  1841 |   49765 | no      | no  | yes |         |
+| Foreman Jerris             |  1843 |   49768 | no      | no  | yes |         |
+| Foreman Marcrid            |  1844 |   49769 | no      | no  | yes |         |
+| Foulmane                   |  1847 |   45454 | no      | no  | yes |         |
+| Lord Maldazzar             |  1848 |   52725 | no      | no  | yes |         |
+| Putridius                  |  1850 |   53783 | no      | no  | yes |         |
+| The Husk                   |  1851 |   53933 | no      | no  | yes |         |
+| Scarlet Smith              |  1885 |   61634 | yes     | yes | yes |         |
+| Muad                       |  1910 |   43909 | yes     | yes | yes |         |
+| Deeb                       |  1911 |   42144 | no      | no  | yes |         |
+| Dalaran Spellscribe        |  1920 |   18071 | no      | no  | yes |         |
+| Farmer Solliden            |  1936 |   44569 | no      | no  | yes |         |
+| Rot Hide Bruiser           |  1944 |   18032 | no      | no  | yes |         |
+| Snarlmane                  |  1948 |   17988 | no      | no  | yes |         |
+| Ma'ruk Wyrmscale           |  2090 |   10872 | no      | no  | yes |         |
+| Garneg Charskull           |  2108 |   10745 | no      | no  | yes |         |
+| Strider Clutchmother       |  2172 |   37385 | yes     | yes | yes |         |
+| Shadowclaw                 |  2175 |   37432 | yes     | yes | yes |         |
 | Lady Moongazer             |  2184 |   37730 | yes     | yes | yes |         |
-| Carnivous the Breaker      |  2186 |   51900 |         |     |     |         |
-| Licillin                   |  2191 |   52009 |         |     |     |         |
-| Firecaller Radison         |  2192 |   37852 |         |     |     |         |
-| Stone Fury                 |  2258 |   63913 |         |     |     |         |
-| Ravenclaw Regent           |  2283 | 1970415 |         |     |     |         |
+| Carnivous the Breaker      |  2186 |   51900 | no      | no  | yes |         |
+| Licillin                   |  2191 |   52009 | no      | no  | yes |         |
+| Firecaller Radison         |  2192 |   37852 | no      | yes | yes |         |
+| Stone Fury                 |  2258 |   63913 | yes     | yes | yes |         |
+| Ravenclaw Regent           |  2283 | 1970415 | no      | no  | yes |         |
 | Narillasanz                |  2447 |   16973 | yes     | yes | yes |         |
-| Skhowl                     |  2452 |   17600 |         |     |     |         |
-| Lo'Grosh                   |  2453 |   69113 |         |     |     |         |
+| Skhowl                     |  2452 |   17600 | yes     | yes | yes |         |
+| Lo'Grosh                   |  2453 |   69113 | yes     | yes | yes |         |
 | Large Loch Crocolisk       |  2476 |    9202 |         |     |     |         |
 | Large Loch Crocolisk       |  2476 |  134485 |         |     |     |         |
-| Lord Sakrasis              |  2541 |   32043 |         |     |     |         |
-| Lord Sakrasis              |  2541 |  134220 |         |     |     |         |
+| Lord Sakrasis              |  2541 |   32043 | yes     | yes | yes |         |
 | Singer                     |  2600 |   14498 |         |     |     |         |
 | Geomancer Flintdagger      |  2609 |   13375 |         |     |     |         |
 | Shadowforge Commander      |  2744 |   69114 |         |     |     |         |
@@ -283,7 +282,7 @@ Track and verify the movement types of rare creatures:
 | Zaricotl                   |  2931 |  134471 | no      | no  | yes | Random movement |
 | Zaricotl                   |  2931 |  134472 | no      | no  | yes | Random movement |
 | Ghost Howl                 |  3056 |   51845 |         |     |     |         |
-| Mazzranache                |  3068 |   26908 |         |     |     |         |
+| Mazzranache                |  3068 |   26908 | yes     | yes | yes |         |
 | Silithid Harvester         |  3253 |   51814 | no      | no  | yes | Random movement |
 | Elder Mystic Razorsnout    |  3270 |   20430 |         |     |     |         |
 | Sludge Beast               |  3295 |   51809 |         |     |     |         |
@@ -321,10 +320,10 @@ Track and verify the movement types of rare creatures:
 | Sister Hatelash            |  5785 |   26055 |         |     |     |         |
 | Snagglespear               |  5786 |   26081 |         |     |     |         |
 | Enforcer Emilgund          |  5787 |   26179 |         |     |     |         |
-| Aean Swiftriver            |  5797 |   15145 |         |     |     |         |
-| Thora Feathermoon          |  5798 |   15169 |         |     |     |         |
-| Hannah Bladeleaf           |  5799 |   15246 |         |     |     |         |
-| Marcus Bel                 |  5800 |   17433 |         |     |     |         |
+| Aean Swiftriver            |  5797 |   15145 | yes     | yes | yes |         |
+| Thora Feathermoon          |  5798 |   15169 | no      | no  | yes | Creature formation |
+| Hannah Bladeleaf           |  5799 |   15246 | no      | no  | yes | Creature formation |
+| Marcus Bel                 |  5800 |   17433 | no      | no  | yes | Creature formation |
 | The Rake                   |  5807 |   26611 |         |     |     |         |
 | Warlord Kolkanis           |  5808 |   12260 |         |     |     |         |
 | Watch Commander Zalaphil   |  5809 |   51807 |         |     |     |         |
@@ -332,18 +331,18 @@ Track and verify the movement types of rare creatures:
 | Death Flayer               |  5823 |   12322 |         |     |     |         |
 | Captain Flat Tusk          |  5824 |   12218 |         |     |     |         |
 | Geolord Mottle             |  5826 |   12384 |         |     |     |         |
-| Brontus                    |  5827 |   51815 | yes     | yes | yes |         |
+| Brontus                    |  5827 |   51815 | no      | no  | yes | Creature formation |
 | Humar the Pridelord        |  5828 |   65607 |         |     |     |         |
 | Snort the Heckler          |  5829 |   20409 |         |     |     |         |
-| Sister Rathtalon           |  5830 |   20429 |         |     |     |         |
-| Swiftmane                  |  5831 |   20433 |         |     |     |         |
+| Sister Rathtalon           |  5830 |   20429 | yes     | yes | yes |         |
+| Swiftmane                  |  5831 |   20433 | yes     | yes | yes |         |
 | Thunderstomp               |  5832 |   51816 | no      | no  | yes | Random movement |
 | Azzere the Skyblade        |  5834 |   51813 |         |     |     |         |
-| Foreman Grills             |  5835 |   51808 |         |     |     |         |
+| Foreman Grills             |  5835 |   51808 | yes     | yes | yes |         |
 | Engineer Whirleygig        |  5836 |   20614 |         |     |     |         |
 | Stonearm                   |  5837 |   20635 |         |     |     |         |
 | Brokespear                 |  5838 |   20685 |         |     |     |         |
-| Rocklance                  |  5841 |   20720 |         |     |     |         |
+| Rocklance                  |  5841 |   20720 | yes     | yes | yes |         |
 | Takk the Leaper            |  5842 |   20736 |         |     |     |         |
 | Heggin Stonewhisker        |  5847 |   51817 |         |     |     |         |
 | Malgin Barleybrew          |  5848 |   51819 |         |     |     |         |
@@ -380,7 +379,7 @@ Track and verify the movement types of rare creatures:
 | General Fangferror         |  6650 |   51853 |         |     |     |         |
 | Gatekeeper Rageroar        |  6651 |   36519 |         |     |     |         |
 | Master Feardred            |  6652 |   51858 |         |     |     |         |
-| Flagglemurk the Cruel      |  7015 |   51899 |         |     |     |         |
+| Flagglemurk the Cruel      |  7015 |   51899 | yes     | yes | yes |         |
 | Lady Vespira               |  7016 |   52010 |         |     |     |         |
 | Lord Sinslayer             |  7017 |   37089 |         |     |     |         |
 | Digmaster Shovelphlange    |  7057 |    7862 |         |     |     |         |
@@ -403,7 +402,7 @@ Track and verify the movement types of rare creatures:
 | Jalinde Summerdrake        |  8214 |   72002 |         |     |     |         |
 | Grimungous                 |  8215 |   77480 |         |     |     |         |
 | Retherokk the Berserker    |  8216 |   93302 |         |     |     |         |
-| Mith'rethis the Enchanter  |  8217 |   82469 |         |     |     |         |
+| Mith'rethis the Enchanter  |  8217 |   82469 | yes     | yes | yes |         |
 | Witherheart the Stalker    |  8218 |   85478 |         |     |     |         |
 | Zul'arek Hatefowler        |  8219 |   86257 |         |     |     |         |
 | Rekk'tilac                 |  8277 |    6218 |         |     |     |         |

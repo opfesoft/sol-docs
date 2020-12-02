@@ -2,7 +2,11 @@ TODOs:
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
-| sol@1a8110dc | 2020-11-26 | X    | use a creature pool instead of deleting the second spawn; done: sol@06e0a18a |
+| sol@0baecd3e | 2020-12-01 |      | check if this contains something useful; don't take over because it breaks the existing behaviour of creatures in dungeons following the player throughout the dungeon; fleeing creatures already fixed with commits sol@5d02c61f and sol@4caa8425 |
+| sol@1c30f878 | 2020-11-29 |      | verify and rework SQL script |
+| sol@01fa6257 | 2020-11-28 |      | verify changes and take over if needed |
+| sol@931609d2 | 2020-11-26 |      | find a better solution (restore the player's phases according to his auras) |
+| sol@1a8110dc | 2020-11-25 | X    | use a creature pool instead of deleting the second spawn; done: sol@06e0a18a |
 | sol@2e39d452 | 2020-11-24 |      | verify and rework SQL script |
 | sol@5d3bb608 | 2020-11-23 |      | verify and only take over if actually needed (if so, also take over sol@2788d495); fix PvP flag for the NPCs |
 | sol@fb69db21 | 2020-11-19 |      | probably find a better solution (AC commit reverted with sol@35fb9f49) |
