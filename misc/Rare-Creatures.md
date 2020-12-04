@@ -403,7 +403,7 @@ Used to track and verify the movement types of rare creatures:
 | Grimungous                 |  8215 |   77480 |         |     |     |         |
 | Retherokk the Berserker    |  8216 |   93302 |         |     |     |         |
 | Mith'rethis the Enchanter  |  8217 |   82469 | yes     | yes | yes |         |
-| Witherheart the Stalker    |  8218 |   85478 |         |     |     |         |
+| Witherheart the Stalker    |  8218 |   85478 | yes     | yes | yes |         |
 | Zul'arek Hatefowler        |  8219 |   86257 |         |     |     |         |
 | Rekk'tilac                 |  8277 |    6218 |         |     |     |         |
 | Rekk'tilac                 |  8277 |  134430 |         |     |     |         |
@@ -587,13 +587,12 @@ Used to track and verify the movement types of rare creatures:
 | Mezzir the Howler          | 10197 |   42304 |         |     |     |         |
 | Kashoch the Reaver         | 10198 |   42305 |         |     |     |         |
 | Grizzle Snowpaw            | 10199 |   42306 |         |     |     |         |
-| Rak'shiri                  | 10200 |   51892 |         |     |     |         |
+| Rak'shiri                  | 10200 |   51892 | yes     | yes | yes |         |
 | Lady Hederine              | 10201 |   42307 |         |     |     |         |
 | Azurous                    | 10202 |   51890 | yes     | yes | yes |         |
-| Burning Felguard           | 10263 |   45808 |         |     |     |         |
 | Bayne                      | 10356 |   42142 |         |     |     |         |
 | Ressan the Needler         | 10357 |   42141 |         |     |     |         |
-| Fellicent's Shade          | 10358 |   42143 |         |     |     |         |
+| Fellicent's Shade          | 10358 |   42143 | yes     | yes | yes |         |
 | Sri'skulk                  | 10359 |   86604 |         |     |     |         |
 | Crystal Fang               | 10376 |   44422 |         |     |     |         |
 | Skul                       | 10393 |  247225 |         |     |     |         |
@@ -616,7 +615,7 @@ Used to track and verify the movement types of rare creatures:
 | Ranger Lord Hawkspear      | 10824 |   92138 |         |     |     |         |
 | Gish the Unmoving          | 10825 |   86626 | yes     | yes | yes |         |
 | Lord Darkscythe            | 10826 |   92220 |         |     |     |         |
-| Deathspeaker Selendre      | 10827 |   86755 |         |     |     |         |
+| Deathspeaker Selendre      | 10827 |   86755 | yes     | yes | yes |         |
 | High General Abbendis      | 10828 |   92657 |         |     |     |         |
 | Goraluk Anvilcrack         | 10899 |  137856 |         |     |     |         |
 | High Priestess Hai'watna   | 11383 |     910 |         |     |     |         |
@@ -632,9 +631,9 @@ Used to track and verify the movement types of rare creatures:
 | Old Vicejaw                | 12432 |   26125 |         |     |     |         |
 | Krethis Shadowspinner      | 12433 |   18198 |         |     |     |         |
 | Scalebeard                 | 13896 |   35864 |         |     |     |         |
-| Gravis Slipknot            | 14221 |   86756 |         |     |     |         |
+| Gravis Slipknot            | 14221 |   86756 | yes     | yes | yes |         |
 | Araga                      | 14222 |   17066 |         |     |     |         |
-| Cranky Benj                | 14223 |   90511 |         |     |     |         |
+| Cranky Benj                | 14223 |   90511 | yes     | yes | yes |         |
 | 7:XT                       | 14224 |   90782 |         |     |     |         |
 | 7:XT                       | 14224 |  134439 |         |     |     |         |
 | 7:XT                       | 14224 |  134440 |         |     |     |         |
@@ -718,10 +717,10 @@ Used to track and verify the movement types of rare creatures:
 | Snarlflare                 | 14272 |  134171 |         |     |     |         |
 | Snarlflare                 | 14272 |  134172 |         |     |     |         |
 | Boulderheart               | 14273 |    6710 |         |     |     |         |
-| Tamra Stormpike            | 14275 |   90783 |         |     |     |         |
-| Scargil                    | 14276 |   15970 |         |     |     |         |
-| Lady Zephris               | 14277 |   16047 |         |     |     |         |
-| Ro'Bark                    | 14278 |   15973 |         |     |     |         |
+| Tamra Stormpike            | 14275 |   90783 | yes     | yes | yes |         |
+| Scargil                    | 14276 |   15970 | yes     | yes | yes |         |
+| Lady Zephris               | 14277 |   16047 | yes     | yes | yes |         |
+| Ro'Bark                    | 14278 |   15973 | yes     | yes | yes |         |
 | Creepthess                 | 14279 |   90785 |         |     |     |         |
 | Big Samras                 | 14280 |   15839 |         |     |     |         |
 | Jimmy the Bleeder          | 14281 |   91111 |         |     |     |         |
@@ -763,7 +762,7 @@ Used to track and verify the movement types of rare creatures:
 | Gibblesnik                 | 14427 |   51822 |         |     |     |         |
 | Uruson                     | 14428 |   46350 |         |     |     |         |
 | Duskstalker                | 14430 |   46351 |         |     |     |         |
-| Fury Shelda                | 14431 |   46352 |         |     |     |         |
+| Fury Shelda                | 14431 |   46352 | yes     | yes | yes |         |
 | Threggil                   | 14432 |   46354 |         |     |     |         |
 | Sludginn                   | 14433 |   91114 |         |     |     |         |
 | Lord Captain Wyrmak        | 14445 |   45860 |         |     |     |         |
@@ -819,7 +818,7 @@ Used to track and verify the movement types of rare creatures:
 | Krellack                   | 14476 |   51837 |         |     |     |         |
 | Grubthor                   | 14477 |   43124 |         |     |     |         |
 | Huricanian                 | 14478 |   43125 |         |     |     |         |
-| Twilight Lord Everun       | 14479 |   43126 |         |     |     |         |
+| Twilight Lord Everun       | 14479 |   43126 | yes     | yes | yes |         |
 | Gluggle                    | 14487 |  134203 |         |     |     |         |
 | Gluggle                    | 14487 |  134204 |         |     |     |         |
 | Gluggle                    | 14487 |  134205 |         |     |     |         |
@@ -832,17 +831,7 @@ Used to track and verify the movement types of rare creatures:
 | Roloch                     | 14488 |  134227 |         |     |     |         |
 | Rippa                      | 14490 |   49058 |         |     |     |         |
 | Rippa                      | 14490 |  134221 |         |     |     |         |
-| Kurmokk                    | 14491 |   49126 |         |     |     |         |
-| Kurmokk                    | 14491 |  134210 |         |     |     |         |
-| Kurmokk                    | 14491 |  134211 |         |     |     |         |
-| Kurmokk                    | 14491 |  134212 |         |     |     |         |
-| Kurmokk                    | 14491 |  134213 |         |     |     |         |
-| Kurmokk                    | 14491 |  134214 |         |     |     |         |
-| Kurmokk                    | 14491 |  134215 |         |     |     |         |
-| Kurmokk                    | 14491 |  134216 |         |     |     |         |
-| Kurmokk                    | 14491 |  134217 |         |     |     |         |
-| Kurmokk                    | 14491 |  134218 |         |     |     |         |
-| Kurmokk                    | 14491 |  134219 |         |     |     |         |
+| Kurmokk                    | 14491 |   49126 | yes     | yes | yes |         |
 | Verifonix                  | 14492 |   49152 |         |     |     |         |
 | Verifonix                  | 14492 |  134231 |         |     |     |         |
 | Verifonix                  | 14492 |  134232 |         |     |     |         |
