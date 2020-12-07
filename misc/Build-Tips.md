@@ -194,6 +194,12 @@ cp ~/sol-srv/etc/npc_beastmaster.conf.dist ~/sol-srv/etc/npc_beastmaster.conf
 cp ~/sol-srv/etc/transmog.conf.dist ~/sol-srv/etc/transmog.conf
 ```
 
+If using the customizations from mod-stoabrogga:
+```
+cp ~/sol/modules/mod-stoabrogga/custom_module_configs/morphsummon.conf ~/sol-srv/etc/morphsummon.conf
+cp ~/sol/modules/mod-stoabrogga/custom_module_configs/npc_beastmaster.conf ~/sol-srv/etc/npc_beastmaster.conf
+```
+
 Change the `*.conf` files as needed.
 
 - Set name, IP address and port for the realm (table "realmlist" in DB "auth")

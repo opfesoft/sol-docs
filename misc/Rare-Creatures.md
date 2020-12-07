@@ -871,20 +871,20 @@ Used to track and verify the movement types of rare creatures:
 | Doomsayer Jurim            | 18686 |   40470 |         |     |     |         |
 | Crippler                   | 18689 |  151903 |         |     |     |         |
 | Morcrush                   | 18690 |   66948 |         |     |     |         |
-| Hemathion                  | 18692 |  151919 |         |     |     |         |
-| Hemathion                  | 18692 |  151920 |         |     |     |         |
+| Hemathion                  | 18692 |  151919 | yes     | yes | yes |         |
+| Hemathion                  | 18692 |  151920 | yes     | yes | yes |         |
 | Speaker Mar'grom           | 18693 |  151923 |         |     |     |         |
 | Speaker Mar'grom           | 18693 |  151924 |         |     |     |         |
 | Speaker Mar'grom           | 18693 |  151925 |         |     |     |         |
 | Speaker Mar'grom           | 18693 |  151926 |         |     |     |         |
 | Speaker Mar'grom           | 18693 |  151927 |         |     |     |         |
-| Collidus the Warp-Watcher  | 18694 |    1007 |         |     |     |         |
+| Collidus the Warp-Watcher  | 18694 |    1007 | yes     | yes | yes |         |
 | Ambassador Jerrikar        | 18695 |  151895 |         |     |     |         |
 | Ambassador Jerrikar        | 18695 |  151896 |         |     |     |         |
 | Ambassador Jerrikar        | 18695 |  151897 |         |     |     |         |
 | Ambassador Jerrikar        | 18695 |  151898 |         |     |     |         |
 | Ambassador Jerrikar        | 18695 |  151899 |         |     |     |         |
-| Kraator                    | 18696 |   78222 |         |     |     |         |
+| Kraator                    | 18696 |   78222 | yes     | yes | yes |         |
 | Chief Engineer Lorthander  | 18697 |  151900 |         |     |     |         |
 | Chief Engineer Lorthander  | 18697 |  151901 |         |     |     |         |
 | Chief Engineer Lorthander  | 18697 |  151902 |         |     |     |         |
@@ -893,8 +893,8 @@ Used to track and verify the movement types of rare creatures:
 | Ever-Core the Punisher     | 18698 |  151911 |         |     |     |         |
 | Ever-Core the Punisher     | 18698 |  151912 |         |     |     |         |
 | Nuramoc                    | 20932 |   86860 |         |     |     |         |
-| Fenissa the Assassin       | 22060 |   77280 |         |     |     |         |
-| Fenissa the Assassin       | 22060 |   77281 |         |     |     |         |
+| Fenissa the Assassin       | 22060 |   77280 | yes     | yes | yes |         |
+| Fenissa the Assassin       | 22060 |   77281 | yes     | yes | yes |         |
 | Dr. Whitherlimb            | 22062 | 1975927 |         |     |     |         |
 | Old Crystalbark            | 32357 |  151934 |         |     |     |         |
 | Old Crystalbark            | 32357 |  151935 |         |     |     |         |

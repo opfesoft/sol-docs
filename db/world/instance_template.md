@@ -89,6 +89,6 @@ The name of the instance script that the instance will use and apply (if any).
 
 ### allowMount
 
-0 = you can enter on mount and will not get dismounted on enter
+0 = you can't enter on mount and get dismounted on enter
 
-1 = you can't enter on mount and get dismounted on enter
+1 = you can enter on mount and will not get dismounted on enter

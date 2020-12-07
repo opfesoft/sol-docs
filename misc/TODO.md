@@ -2,6 +2,9 @@ TODOs:
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@04c245cf | 2020-12-04 |      | verify and rework SQL script |
+| sol@755e30f9 | 2020-12-04 |      | verify if this actually fixes anything; the original PR provides no description on the issue and contains no test specification (the attached backtrace is invalid: too old, contains no AC commit and line numbers also don't match) |
+| sol@5fe10355 | 2020-12-03 |      | verify SQL script and actual issue |
 | sol@0baecd3e | 2020-12-01 |      | check if this contains something useful; don't take over because it breaks the existing behaviour of creatures in dungeons following the player throughout the dungeon; fleeing creatures already fixed with commits sol@5d02c61f and sol@4caa8425 |
 | sol@1c30f878 | 2020-11-29 |      | verify and rework SQL script |
 | sol@01fa6257 | 2020-11-28 |      | verify changes and take over if needed |
