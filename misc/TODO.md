@@ -2,6 +2,7 @@ TODOs:
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@6d10d075 | 2020-12-09 |      | verify and collect the SAI in a separate commit |
 | sol@04c245cf | 2020-12-04 |      | verify and rework SQL script |
 | sol@755e30f9 | 2020-12-04 |      | verify if this actually fixes anything; the original PR provides no description on the issue and contains no test specification (the attached backtrace is invalid: too old, contains no AC commit and line numbers also don't match) |
 | sol@5fe10355 | 2020-12-03 |      | verify SQL script and actual issue |

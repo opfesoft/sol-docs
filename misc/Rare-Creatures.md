@@ -239,49 +239,49 @@ Used to track and verify the movement types of rare creatures:
 | Narillasanz                |  2447 |   16973 | yes     | yes | yes |         |
 | Skhowl                     |  2452 |   17600 | yes     | yes | yes |         |
 | Lo'Grosh                   |  2453 |   69113 | yes     | yes | yes |         |
-| Large Loch Crocolisk       |  2476 |    9202 |         |     |     |         |
-| Large Loch Crocolisk       |  2476 |  134485 |         |     |     |         |
+| Large Loch Crocolisk       |  2476 |    9202 | no      | no  | yes | Random movement |
+| Large Loch Crocolisk       |  2476 |  134485 | no      | no  | yes | Random movement |
 | Lord Sakrasis              |  2541 |   32043 | yes     | yes | yes |         |
-| Singer                     |  2600 |   14498 |         |     |     |         |
-| Geomancer Flintdagger      |  2609 |   13375 |         |     |     |         |
-| Shadowforge Commander      |  2744 |   69114 |         |     |     |         |
-| Shadowforge Commander      |  2744 |  134453 |         |     |     |         |
-| Shadowforge Commander      |  2744 |  134454 |         |     |     |         |
-| Shadowforge Commander      |  2744 |  134455 |         |     |     |         |
-| Siege Golem                |  2749 |   69115 |         |     |     |         |
-| Siege Golem                |  2749 |  134456 |         |     |     |         |
-| Siege Golem                |  2749 |  134457 |         |     |     |         |
-| Siege Golem                |  2749 |  134458 |         |     |     |         |
-| Siege Golem                |  2749 |  134459 |         |     |     |         |
-| Siege Golem                |  2749 |  134460 |         |     |     |         |
-| Siege Golem                |  2749 |  134461 |         |     |     |         |
-| Siege Golem                |  2749 |  134462 |         |     |     |         |
-| Siege Golem                |  2749 |  134463 |         |     |     |         |
-| Siege Golem                |  2749 |  134464 |         |     |     |         |
-| Siege Golem                |  2749 |  134465 |         |     |     |         |
-| Siege Golem                |  2749 |  134466 |         |     |     |         |
-| Siege Golem                |  2749 |  134467 |         |     |     |         |
-| Siege Golem                |  2749 |  134468 |         |     |     |         |
-| War Golem                  |  2751 |   69116 |         |     |     |         |
-| War Golem                  |  2751 |  134469 |         |     |     |         |
-| War Golem                  |  2751 |  134470 |         |     |     |         |
-| Rumbler                    |  2752 |    7781 |         |     |     |         |
-| Rumbler                    |  2752 |  134450 |         |     |     |         |
-| Rumbler                    |  2752 |  134451 |         |     |     |         |
-| Rumbler                    |  2752 |  134452 |         |     |     |         |
+| Singer                     |  2600 |   14498 | no      | no  | yes |         |
+| Geomancer Flintdagger      |  2609 |   13375 | no      | no  | yes |         |
+| Shadowforge Commander      |  2744 |   69114 | no      | no  | yes |         |
+| Shadowforge Commander      |  2744 |  134453 | no      | no  | yes |         |
+| Shadowforge Commander      |  2744 |  134454 | no      | no  | yes |         |
+| Shadowforge Commander      |  2744 |  134455 | no      | no  | yes |         |
+| Siege Golem                |  2749 |   69115 | no      | no  | yes | Random movement |
+| Siege Golem                |  2749 |  134456 | no      | no  | yes | Random movement |
+| Siege Golem                |  2749 |  134457 | no      | no  | yes | Random movement |
+| Siege Golem                |  2749 |  134458 | no      | no  | yes | Random movement |
+| Siege Golem                |  2749 |  134459 | no      | no  | yes | Random movement |
+| Siege Golem                |  2749 |  134460 | no      | no  | yes | Random movement |
+| Siege Golem                |  2749 |  134461 | no      | no  | yes | Random movement |
+| Siege Golem                |  2749 |  134462 | no      | no  | yes | Random movement |
+| Siege Golem                |  2749 |  134463 | no      | no  | yes | Random movement |
+| Siege Golem                |  2749 |  134464 | no      | no  | yes | Random movement |
+| Siege Golem                |  2749 |  134465 | no      | no  | yes | Random movement |
+| Siege Golem                |  2749 |  134466 | no      | no  | yes | Random movement |
+| Siege Golem                |  2749 |  134467 | no      | no  | yes | Random movement |
+| Siege Golem                |  2749 |  134468 | no      | no  | yes | Random movement |
+| War Golem                  |  2751 |   69116 | no      | no  | yes | Random movement |
+| War Golem                  |  2751 |  134469 | no      | no  | yes | Random movement |
+| War Golem                  |  2751 |  134470 | no      | no  | yes | Random movement |
+| Rumbler                    |  2752 |    7781 | no      | no  | yes | Random movement |
+| Rumbler                    |  2752 |  134450 | no      | no  | yes | Random movement |
+| Rumbler                    |  2752 |  134451 | no      | no  | yes | Random movement |
+| Rumbler                    |  2752 |  134452 | no      | no  | yes | Random movement |
 | Barnabus                   |  2753 |   27546 | no      | no  | yes | Random movement |
 | Barnabus                   |  2753 |  134445 | no      | no  | yes | Random movement |
 | Barnabus                   |  2753 |  134446 | no      | no  | yes | Random movement |
 | Anathemus                  |  2754 |   27567 | yes     | yes | yes |         |
-| Prince Nazjak              |  2779 |   84713 |         |     |     |         |
-| Broken Tooth               |  2850 |    8195 |         |     |     |         |
-| Broken Tooth               |  2850 |  134447 |         |     |     |         |
-| Broken Tooth               |  2850 |  134448 |         |     |     |         |
-| Broken Tooth               |  2850 |  134449 |         |     |     |         |
+| Prince Nazjak              |  2779 |   84713 | no      | no  | yes |         |
+| Broken Tooth               |  2850 |    8195 | no      | no  | yes | Random movement |
+| Broken Tooth               |  2850 |  134447 | no      | no  | yes | Random movement |
+| Broken Tooth               |  2850 |  134448 | no      | no  | yes | Random movement |
+| Broken Tooth               |  2850 |  134449 | no      | no  | yes | Random movement |
 | Zaricotl                   |  2931 |    7144 | no      | no  | yes | Random movement |
 | Zaricotl                   |  2931 |  134471 | no      | no  | yes | Random movement |
 | Zaricotl                   |  2931 |  134472 | no      | no  | yes | Random movement |
-| Ghost Howl                 |  3056 |   51845 |         |     |     |         |
+| Ghost Howl                 |  3056 |   51845 | yes     | yes | yes |         |
 | Mazzranache                |  3068 |   26908 | yes     | yes | yes |         |
 | Silithid Harvester         |  3253 |   51814 | no      | no  | yes | Random movement |
 | Elder Mystic Razorsnout    |  3270 |   20430 |         |     |     |         |
@@ -294,15 +294,15 @@ Used to track and verify the movement types of rare creatures:
 | Miner Johnson              |  3586 |   84079 |         |     |     |         |
 | Boahn                      |  3672 |   51811 |         |     |     |         |
 | Apothecary Falthis         |  3735 |   32913 |         |     |     |         |
-| Akkrilus                   |  3773 |   51883 |         |     |     |         |
-| Terrowulf Packlord         |  3792 |   51870 |         |     |     |         |
-| Deathsworn Captain         |  3872 |  134517 |         |     |     |         |
+| Akkrilus                   |  3773 |   51883 | yes     | yes | yes |         |
+| Terrowulf Packlord         |  3792 |   51870 | no      | yes | yes |         |
+| Deathsworn Captain         |  3872 |  134517 | no      | yes | yes | Dungeon |
 | Pridewing Patriarch        |  4015 |   29981 |         |     |     |         |
 | Pridewing Patriarch        |  4015 |   29982 |         |     |     |         |
 | Vengeful Ancient           |  4030 |   51889 |         |     |     |         |
 | Nal'taszar                 |  4066 |   32273 |         |     |     |         |
 | Silithid Ravager           |  4132 |   21302 |         |     |     |         |
-| Brimgore                   |  4339 |   31613 |         |     |     |         |
+| Brimgore                   |  4339 |   31613 | yes     | yes | yes |         |
 | Darkmist Widow             |  4380 |   31614 |         |     |     |         |
 | Blind Hunter               |  4425 |   87485 |         |     |     |         |
 | Razorfen Spearhide         |  4438 |   87387 |         |     |     |         |
@@ -311,11 +311,11 @@ Used to track and verify the movement types of rare creatures:
 | Lady Szallah               |  5343 |   51679 |         |     |     |         |
 | Diamond Head               |  5345 |   51843 |         |     |     |         |
 | Bloodroar the Stalker      |  5346 |   51841 |         |     |     |         |
-| Antilus the Soarer         |  5347 |   51840 |         |     |     |         |
+| Antilus the Soarer         |  5347 |   51840 | yes     | yes | yes |         |
 | Arash-ethis                |  5349 |   51844 |         |     |     |         |
 | Qirot                      |  5350 |   51681 |         |     |     |         |
 | Old Grizzlegut             |  5352 |   51839 |         |     |     |         |
-| Gnarl Leafbrother          |  5354 |   51842 |         |     |     |         |
+| Gnarl Leafbrother          |  5354 |   51842 | yes     | yes | yes |         |
 | Snarler                    |  5356 |   51683 |         |     |     |         |
 | Sister Hatelash            |  5785 |   26055 |         |     |     |         |
 | Snagglespear               |  5786 |   26081 |         |     |     |         |
@@ -324,7 +324,7 @@ Used to track and verify the movement types of rare creatures:
 | Thora Feathermoon          |  5798 |   15169 | no      | no  | yes | Creature formation |
 | Hannah Bladeleaf           |  5799 |   15246 | no      | no  | yes | Creature formation |
 | Marcus Bel                 |  5800 |   17433 | no      | no  | yes | Creature formation |
-| The Rake                   |  5807 |   26611 |         |     |     |         |
+| The Rake                   |  5807 |   26611 | yes     | yes | yes |         |
 | Warlord Kolkanis           |  5808 |   12260 |         |     |     |         |
 | Watch Commander Zalaphil   |  5809 |   51807 |         |     |     |         |
 | Felweaver Scornn           |  5822 |   12209 |         |     |     |         |
@@ -333,7 +333,7 @@ Used to track and verify the movement types of rare creatures:
 | Geolord Mottle             |  5826 |   12384 |         |     |     |         |
 | Brontus                    |  5827 |   51815 | no      | no  | yes | Creature formation |
 | Humar the Pridelord        |  5828 |   65607 |         |     |     |         |
-| Snort the Heckler          |  5829 |   20409 |         |     |     |         |
+| Snort the Heckler          |  5829 |   20409 | yes     | yes | yes |         |
 | Sister Rathtalon           |  5830 |   20429 | yes     | yes | yes |         |
 | Swiftmane                  |  5831 |   20433 | yes     | yes | yes |         |
 | Thunderstomp               |  5832 |   51816 | no      | no  | yes | Random movement |
@@ -343,7 +343,7 @@ Used to track and verify the movement types of rare creatures:
 | Stonearm                   |  5837 |   20635 |         |     |     |         |
 | Brokespear                 |  5838 |   20685 |         |     |     |         |
 | Rocklance                  |  5841 |   20720 | yes     | yes | yes |         |
-| Takk the Leaper            |  5842 |   20736 |         |     |     |         |
+| Takk the Leaper            |  5842 |   20736 | yes     | yes | yes |         |
 | Heggin Stonewhisker        |  5847 |   51817 |         |     |     |         |
 | Malgin Barleybrew          |  5848 |   51819 |         |     |     |         |
 | Digger Flameforge          |  5849 |   20854 |         |     |     |         |
@@ -355,22 +355,22 @@ Used to track and verify the movement types of rare creatures:
 | Deviate Faerie Dragon      |  5912 |     517 |         |     |     |         |
 | Brother Ravenoak           |  5915 |   29210 |         |     |     |         |
 | Sentinel Amarassan         |  5916 |   51888 |         |     |     |         |
-| Sorrow Wing                |  5928 |   29212 |         |     |     |         |
+| Sorrow Wing                |  5928 |   29212 | yes     | yes | yes |         |
 | Sister Riven               |  5930 |   29213 |         |     |     |         |
 | Foreman Rigger             |  5931 |   29214 |         |     |     |         |
 | Taskmaster Whipfang        |  5932 |   29215 |         |     |     |         |
 | Achellios the Banished     |  5933 |   21388 | yes     | yes | yes |         |
-| Heartrazor                 |  5934 |   51821 |         |     |     |         |
+| Heartrazor                 |  5934 |   51821 | yes     | yes | yes |         |
 | Ironeye the Invincible     |  5935 |   51824 |         |     |     |         |
 | Vile Sting                 |  5937 |   51823 |         |     |     |         |
-| Varo'then's Ghost          |  6118 |    2189 |         |     |     |         |
+| Varo'then's Ghost          |  6118 |    2189 | yes     | yes | yes |         |
 | Fallen Champion            |  6488 |   39894 |         |     |     |         |
 | Ironspine                  |  6489 |   12164 |         |     |     |         |
 | Azshir the Sleepless       |  6490 | 1975841 |         |     |     |         |
 | Ravasaur Matriarch         |  6581 |   24433 |         |     |     |         |
 | Clutchmother Zavas         |  6582 |   24434 |         |     |     |         |
 | Gruff                      |  6583 |   24435 |         |     |     |         |
-| King Mosh                  |  6584 |   24437 |         |     |     |         |
+| King Mosh                  |  6584 |   24437 | yes     | yes | yes |         |
 | Uhk'loc                    |  6585 |   24438 |         |     |     |         |
 | Monnos the Elder           |  6646 |   51862 |         |     |     |         |
 | Magister Hawkhelm          |  6647 |   51855 |         |     |     |         |
@@ -384,7 +384,7 @@ Used to track and verify the movement types of rare creatures:
 | Lord Sinslayer             |  7017 |   37089 |         |     |     |         |
 | Digmaster Shovelphlange    |  7057 |    7862 |         |     |     |         |
 | Dessecus                   |  7104 |   51898 |         |     |     |         |
-| Immolatus                  |  7137 |   39624 |         |     |     |         |
+| Immolatus                  |  7137 |   39624 | yes     | yes | yes |         |
 | Ambassador Bloodrage       |  7895 |   51818 |         |     |     |         |
 | Warleader Krazzilak        |  8199 |   51828 |         |     |     |         |
 | Jin'Zallah the Sandbringer |  8200 |   51829 |         |     |     |         |
@@ -395,30 +395,30 @@ Used to track and verify the movement types of rare creatures:
 | Haarka the Ravenous        |  8205 |   51833 |         |     |     |         |
 | Greater Firebird           |  8207 |   51827 |         |     |     |         |
 | Murderous Blisterpaw       |  8208 |   51825 |         |     |     |         |
-| Razortalon                 |  8210 |   93605 |         |     |     |         |
+| Razortalon                 |  8210 |   93605 | yes     | yes | yes |         |
 | Old Cliff Jumper           |  8211 |   69117 |         |     |     |         |
 | The Reak                   |  8212 |   69118 |         |     |     |         |
 | Ironback                   |  8213 |   69119 |         |     |     |         |
 | Jalinde Summerdrake        |  8214 |   72002 |         |     |     |         |
-| Grimungous                 |  8215 |   77480 |         |     |     |         |
-| Retherokk the Berserker    |  8216 |   93302 |         |     |     |         |
+| Grimungous                 |  8215 |   77480 | yes     | yes | yes |         |
+| Retherokk the Berserker    |  8216 |   93302 | yes     | yes | yes |         |
 | Mith'rethis the Enchanter  |  8217 |   82469 | yes     | yes | yes |         |
 | Witherheart the Stalker    |  8218 |   85478 | yes     | yes | yes |         |
 | Zul'arek Hatefowler        |  8219 |   86257 |         |     |     |         |
-| Rekk'tilac                 |  8277 |    6218 |         |     |     |         |
-| Rekk'tilac                 |  8277 |  134430 |         |     |     |         |
-| Rekk'tilac                 |  8277 |  134431 |         |     |     |         |
-| Rekk'tilac                 |  8277 |  134432 |         |     |     |         |
-| Rekk'tilac                 |  8277 |  134433 |         |     |     |         |
-| Smoldar                    |  8278 |    6229 |         |     |     |         |
+| Rekk'tilac                 |  8277 |    6218 | no      | yes | yes |         |
+| Rekk'tilac                 |  8277 |  134430 | no      | no  | yes | Random movement |
+| Rekk'tilac                 |  8277 |  134431 | no      | no  | yes | Random movement |
+| Rekk'tilac                 |  8277 |  134432 | no      | no  | yes | Random movement |
+| Rekk'tilac                 |  8277 |  134433 | no      | no  | yes | Random movement |
+| Smoldar                    |  8278 |    6229 | yes     | yes | yes |         |
 | Faulty War Golem           |  8279 |   86600 |         |     |     |         |
 | Faulty War Golem           |  8279 |  134423 |         |     |     |         |
 | Faulty War Golem           |  8279 |  134424 |         |     |     |         |
 | Faulty War Golem           |  8279 |  134425 |         |     |     |         |
 | Faulty War Golem           |  8279 |  134426 |         |     |     |         |
-| Shleipnarr                 |  8280 |   86601 |         |     |     |         |
-| Scald                      |  8281 |   86602 |         |     |     |         |
-| Scald                      |  8281 |  134434 |         |     |     |         |
+| Shleipnarr                 |  8280 |   86601 | yes     | yes | yes |         |
+| Scald                      |  8281 |   86602 | yes     | yes | yes |         |
+| Scald                      |  8281 |  134434 | yes     | yes | yes |         |
 | Highlord Mastrogonde       |  8282 |    6240 |         |     |     |         |
 | Highlord Mastrogonde       |  8282 |  134427 |         |     |     |         |
 | Highlord Mastrogonde       |  8282 |  134428 |         |     |     |         |
@@ -590,6 +590,7 @@ Used to track and verify the movement types of rare creatures:
 | Rak'shiri                  | 10200 |   51892 | yes     | yes | yes |         |
 | Lady Hederine              | 10201 |   42307 |         |     |     |         |
 | Azurous                    | 10202 |   51890 | yes     | yes | yes |         |
+| Burning Felguard           | 10263 |   45808 | no      | no  | yes | Spawned via SAI (Scarshield Portal) |
 | Bayne                      | 10356 |   42142 |         |     |     |         |
 | Ressan the Needler         | 10357 |   42141 |         |     |     |         |
 | Fellicent's Shade          | 10358 |   42143 | yes     | yes | yes |         |
@@ -893,8 +894,8 @@ Used to track and verify the movement types of rare creatures:
 | Ever-Core the Punisher     | 18698 |  151911 |         |     |     |         |
 | Ever-Core the Punisher     | 18698 |  151912 |         |     |     |         |
 | Nuramoc                    | 20932 |   86860 |         |     |     |         |
-| Fenissa the Assassin       | 22060 |   77280 | yes     | yes | yes |         |
-| Fenissa the Assassin       | 22060 |   77281 | yes     | yes | yes |         |
+| Fenissa the Assassin       | 22060 |   77280 | yes     | yes | yes | No creature pool |
+| Fenissa the Assassin       | 22060 |   77281 | yes     | yes | yes | No creature pool |
 | Dr. Whitherlimb            | 22062 | 1975927 |         |     |     |         |
 | Old Crystalbark            | 32357 |  151934 |         |     |     |         |
 | Old Crystalbark            | 32357 |  151935 |         |     |     |         |
