@@ -122,6 +122,7 @@ Copy the waypoints into table [waypoint_data](../db/world/waypoint_data.md) and 
 INSERT INTO `waypoint_data` (`id`,`point`,`position_x`,`position_y`,`position_z`,`delay`)
   SELECT 12345670 AS `entry`,`pointid`,`location_x`,`location_y`,`location_z`,`waittime` FROM `script_waypoint` WHERE `entry` = 1234567;
 DELETE FROM `script_waypoint` WHERE `entry` = 1234567;
+```
 
 #### Mirror 'waypoint_data' path
 
