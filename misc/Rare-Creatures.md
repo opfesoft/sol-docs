@@ -527,11 +527,11 @@ Used to track and verify the movement types of rare creatures:
 | Grunter                    |  8303 |  134338 |         |     |     |         |
 | Grunter                    |  8303 |  134339 |         |     |     |         |
 | Grunter                    |  8303 |  134340 |         |     |     |         |
-| Dreadscorn                 |  8304 |    3902 |         |     |     |         |
+| Dreadscorn                 |  8304 |    3902 | yes     | yes | yes |         |
 | Gibblewilt                 |  8503 |    2470 |         |     |     |         |
 | Gibblewilt                 |  8503 |  134477 |         |     |     |         |
-| The Evalcharr              |  8660 |   36093 |         |     |     |         |
-| Hematos                    |  8976 |  134515 |         |     |     |         |
+| The Evalcharr              |  8660 |   36093 | yes     | yes | yes |         |
+| Hematos                    |  8976 |  134515 | yes     | yes | yes |         |
 | Thauris Balgarr            |  8978 |  134414 |         |     |     |         |
 | Thauris Balgarr            |  8978 |  134415 |         |     |     |         |
 | Thauris Balgarr            |  8978 |  134416 |         |     |     |         |
@@ -559,7 +559,7 @@ Used to track and verify the movement types of rare creatures:
 | Scarshield Quartermaster   |  9046 |     248 |         |     |     |         |
 | Spirestone Lord Magus      |  9217 |   43521 |         |     |     |         |
 | Spirestone Battle Lord     |  9218 |   43519 |         |     |     |         |
-| Spirestone Butcher         |  9219 |   43523 |         |     |     |         |
+| Spirestone Butcher         |  9219 |   43523 | no      | yes | yes | Dungeon |
 | Bannok Grimaxe             |  9596 |   45843 |         |     |     |         |
 | Hahk'Zor                   |  9602 |  134397 |         |     |     |         |
 | Hahk'Zor                   |  9602 |  134398 |         |     |     |         |
@@ -582,11 +582,11 @@ Used to track and verify the movement types of rare creatures:
 | Terrorspark                | 10078 |  134411 |         |     |     |         |
 | Terrorspark                | 10078 |  134412 |         |     |     |         |
 | Terrorspark                | 10078 |  134413 |         |     |     |         |
-| Volchan                    | 10119 |    5469 |         |     |     |         |
+| Volchan                    | 10119 |    5469 | yes     | yes | yes |         |
 | General Colbatann          | 10196 |   51891 |         |     |     |         |
 | Mezzir the Howler          | 10197 |   42304 |         |     |     |         |
 | Kashoch the Reaver         | 10198 |   42305 |         |     |     |         |
-| Grizzle Snowpaw            | 10199 |   42306 |         |     |     |         |
+| Grizzle Snowpaw            | 10199 |   42306 | yes     | yes | yes |         |
 | Rak'shiri                  | 10200 |   51892 | yes     | yes | yes |         |
 | Lady Hederine              | 10201 |   42307 |         |     |     |         |
 | Azurous                    | 10202 |   51890 | yes     | yes | yes |         |
@@ -597,28 +597,28 @@ Used to track and verify the movement types of rare creatures:
 | Sri'skulk                  | 10359 |   86604 |         |     |     |         |
 | Crystal Fang               | 10376 |   44422 |         |     |     |         |
 | Skul                       | 10393 |  247225 |         |     |     |         |
-| Jed Runewatcher            | 10509 |  137970 |         |     |     |         |
+| Jed Runewatcher            | 10509 |  137970 | no      | yes | yes | Dungeon |
 | Hearthsinger Forresten     | 10558 |   52150 |         |     |     |         |
-| Lady Vespia                | 10559 |   32384 |         |     |     |         |
-| Rorgish Jowl               | 10639 |   32869 |         |     |     |         |
-| Oakpaw                     | 10640 |   32872 |         |     |     |         |
-| Branch Snapper             | 10641 |   51882 |         |     |     |         |
+| Lady Vespia                | 10559 |   32384 | yes     | yes | yes |         |
+| Rorgish Jowl               | 10639 |   32869 | yes     | yes | yes |         |
+| Oakpaw                     | 10640 |   32872 | yes     | yes | yes |         |
+| Branch Snapper             | 10641 |   51882 | yes     | yes | yes |         |
 | Eck'alom                   | 10642 |   32879 |         |     |     |         |
 | Mugglefin                  | 10643 |   51884 |         |     |     |         |
 | Mist Howler                | 10644 |   32884 |         |     |     |         |
 | Mist Howler                | 10644 |   51885 |         |     |     |         |
-| Prince Raze                | 10647 |   32914 |         |     |     |         |
+| Prince Raze                | 10647 |   32914 | yes     | yes | yes |         |
 | Stonespine                 | 10809 |   52147 |         |     |     |         |
 | Duggan Wildhammer          | 10817 |   86605 |         |     |     |         |
 | Hed'mush the Rotting       | 10821 |   86606 |         |     |     |         |
 | Warlord Thresh'jin         | 10822 |   86607 |         |     |     |         |
 | Zul'Brin Warpbranch        | 10823 |   86625 |         |     |     |         |
-| Ranger Lord Hawkspear      | 10824 |   92138 |         |     |     |         |
+| Ranger Lord Hawkspear      | 10824 |   92138 | no      | yes | yes |         |
 | Gish the Unmoving          | 10825 |   86626 | yes     | yes | yes |         |
-| Lord Darkscythe            | 10826 |   92220 |         |     |     |         |
+| Lord Darkscythe            | 10826 |   92220 | yes     | yes | yes |         |
 | Deathspeaker Selendre      | 10827 |   86755 | yes     | yes | yes |         |
 | High General Abbendis      | 10828 |   92657 |         |     |     |         |
-| Goraluk Anvilcrack         | 10899 |  137856 |         |     |     |         |
+| Goraluk Anvilcrack         | 10899 |  137856 | no      | yes | yes | Dungeon |
 | High Priestess Hai'watna   | 11383 |     910 |         |     |     |         |
 | High Priestess Hai'watna   | 11383 |  134207 |         |     |     |         |
 | High Priestess Hai'watna   | 11383 |  134208 |         |     |     |         |
@@ -627,11 +627,11 @@ Used to track and verify the movement types of rare creatures:
 | The Razza                  | 11497 |   45759 |         |     |     |         |
 | Skarr the Unbreakable      | 11498 |   45760 |         |     |     |         |
 | Ursol'lok                  | 12037 |   51869 |         |     |     |         |
-| Meshlok the Harvester      | 12237 |  203506 |         |     |     |         |
-| Gorefang                   | 12431 |   18410 |         |     |     |         |
+| Meshlok the Harvester      | 12237 |  203506 | no      | yes | yes | Dungeon |
+| Gorefang                   | 12431 |   18410 | yes     | yes | yes |         |
 | Old Vicejaw                | 12432 |   26125 |         |     |     |         |
-| Krethis Shadowspinner      | 12433 |   18198 |         |     |     |         |
-| Scalebeard                 | 13896 |   35864 |         |     |     |         |
+| Krethis Shadowspinner      | 12433 |   18198 | yes     | yes | yes |         |
+| Scalebeard                 | 13896 |   35864 | yes     | yes | yes |         |
 | Gravis Slipknot            | 14221 |   86756 | yes     | yes | yes |         |
 | Araga                      | 14222 |   17066 |         |     |     |         |
 | Cranky Benj                | 14223 |   90511 | yes     | yes | yes |         |
@@ -650,15 +650,15 @@ Used to track and verify the movement types of rare creatures:
 | Burgle Eye                 | 14230 |   31612 |         |     |     |         |
 | Dart                       | 14232 |  200145 |         |     |     |         |
 | Hayoc                      | 14234 |   31481 |         |     |     |         |
-| Shanda the Spinner         | 14266 |    8370 |         |     |     |         |
-| Emogg the Crusher          | 14267 |    9206 |         |     |     |         |
+| Shanda the Spinner         | 14266 |    8370 | yes     | yes | yes |         |
+| Emogg the Crusher          | 14267 |    9206 | yes     | yes | yes |         |
 | Lord Condar                | 14268 |    8690 |         |     |     |         |
 | Lord Condar                | 14268 |  134486 |         |     |     |         |
 | Lord Condar                | 14268 |  134487 |         |     |     |         |
 | Lord Condar                | 14268 |  134488 |         |     |     |         |
-| Seeker Aqualon             | 14269 |   45220 |         |     |     |         |
-| Seeker Aqualon             | 14269 |  134160 |         |     |     |         |
-| Seeker Aqualon             | 14269 |  134161 |         |     |     |         |
+| Seeker Aqualon             | 14269 |   45220 | yes     | yes | yes |         |
+| Seeker Aqualon             | 14269 |  134160 | yes     | yes | yes |         |
+| Seeker Aqualon             | 14269 |  134161 | yes     | yes | yes |         |
 | Squiddic                   | 14270 |   10169 |         |     |     |         |
 | Squiddic                   | 14270 |  134173 |         |     |     |         |
 | Squiddic                   | 14270 |  134174 |         |     |     |         |
@@ -717,7 +717,7 @@ Used to track and verify the movement types of rare creatures:
 | Snarlflare                 | 14272 |  134170 |         |     |     |         |
 | Snarlflare                 | 14272 |  134171 |         |     |     |         |
 | Snarlflare                 | 14272 |  134172 |         |     |     |         |
-| Boulderheart               | 14273 |    6710 |         |     |     |         |
+| Boulderheart               | 14273 |    6710 | yes     | yes | yes |         |
 | Tamra Stormpike            | 14275 |   90783 | yes     | yes | yes |         |
 | Scargil                    | 14276 |   15970 | yes     | yes | yes |         |
 | Lady Zephris               | 14277 |   16047 | yes     | yes | yes |         |
@@ -761,10 +761,10 @@ Used to track and verify the movement types of rare creatures:
 | Gnawbone                   | 14425 |  134493 |         |     |     |         |
 | Harb Foulmountain          | 14426 |   21564 |         |     |     |         |
 | Gibblesnik                 | 14427 |   51822 |         |     |     |         |
-| Uruson                     | 14428 |   46350 |         |     |     |         |
+| Uruson                     | 14428 |   46350 | yes     | yes | yes |         |
 | Duskstalker                | 14430 |   46351 |         |     |     |         |
 | Fury Shelda                | 14431 |   46352 | yes     | yes | yes |         |
-| Threggil                   | 14432 |   46354 |         |     |     |         |
+| Threggil                   | 14432 |   46354 | yes     | yes | yes |         |
 | Sludginn                   | 14433 |   91114 |         |     |     |         |
 | Lord Captain Wyrmak        | 14445 |   45860 |         |     |     |         |
 | Lord Captain Wyrmak        | 14445 |  134244 |         |     |     |         |
@@ -791,7 +791,7 @@ Used to track and verify the movement types of rare creatures:
 | Fingat                     | 14446 |  134239 |         |     |     |         |
 | Fingat                     | 14446 |  134240 |         |     |     |         |
 | Fingat                     | 14446 |  134241 |         |     |     |         |
-| Gilmorian                  | 14447 |   48204 |         |     |     |         |
+| Gilmorian                  | 14447 |   48204 | yes     | yes | yes |         |
 | Molt Thorn                 | 14448 |   48345 |         |     |     |         |
 | Molt Thorn                 | 14448 |  134270 |         |     |     |         |
 | Molt Thorn                 | 14448 |  134271 |         |     |     |         |
@@ -811,14 +811,14 @@ Used to track and verify the movement types of rare creatures:
 | Molt Thorn                 | 14448 |  134285 |         |     |     |         |
 | Molt Thorn                 | 14448 |  134286 |         |     |     |         |
 | Molt Thorn                 | 14448 |  134287 |         |     |     |         |
-| Setis                      | 14471 |   51838 |         |     |     |         |
+| Setis                      | 14471 |   51838 | yes     | yes | yes |         |
 | Gretheer                   | 14472 |   43119 |         |     |     |         |
-| Lapress                    | 14473 |   43120 |         |     |     |         |
+| Lapress                    | 14473 |   43120 | yes     | yes | yes |         |
 | Zora                       | 14474 |   51835 |         |     |     |         |
 | Rex Ashil                  | 14475 |   51836 |         |     |     |         |
 | Krellack                   | 14476 |   51837 |         |     |     |         |
 | Grubthor                   | 14477 |   43124 |         |     |     |         |
-| Huricanian                 | 14478 |   43125 |         |     |     |         |
+| Huricanian                 | 14478 |   43125 | yes     | yes | yes |         |
 | Twilight Lord Everun       | 14479 |   43126 | yes     | yes | yes |         |
 | Gluggle                    | 14487 |  134203 |         |     |     |         |
 | Gluggle                    | 14487 |  134204 |         |     |     |         |
@@ -830,8 +830,8 @@ Used to track and verify the movement types of rare creatures:
 | Roloch                     | 14488 |  134225 |         |     |     |         |
 | Roloch                     | 14488 |  134226 |         |     |     |         |
 | Roloch                     | 14488 |  134227 |         |     |     |         |
-| Rippa                      | 14490 |   49058 |         |     |     |         |
-| Rippa                      | 14490 |  134221 |         |     |     |         |
+| Rippa                      | 14490 |   49058 | yes     | yes | yes |         |
+| Rippa                      | 14490 |  134221 | yes     | yes | yes |         |
 | Kurmokk                    | 14491 |   49126 | yes     | yes | yes |         |
 | Verifonix                  | 14492 |   49152 |         |     |     |         |
 | Verifonix                  | 14492 |  134231 |         |     |     |         |
@@ -842,9 +842,9 @@ Used to track and verify the movement types of rare creatures:
 | Hyakiss the Lurker         | 16179 |  135369 |         |     |     |         |
 | Shadikith the Glider       | 16180 |  135587 |         |     |     |         |
 | Rokad the Ravager          | 16181 |  135901 |         |     |     |         |
-| Nerubian Overseer          | 16184 |   54112 |         |     |     |         |
+| Nerubian Overseer          | 16184 |   54112 | yes     | yes | yes |         |
 | Eldinarcus                 | 16854 |   58019 |         |     |     |         |
-| Tregla                     | 16855 |   58020 |         |     |     |         |
+| Tregla                     | 16855 |   58020 | no      | yes | yes |         |
 | Goretooth                  | 17144 |  151915 |         |     |     |         |
 | Goretooth                  | 17144 |  151916 |         |     |     |         |
 | Goretooth                  | 17144 |  151917 |         |     |     |         |
@@ -869,7 +869,9 @@ Used to track and verify the movement types of rare creatures:
 | Okrek                      | 18685 |   85405 |         |     |     |         |
 | Okrek                      | 18685 |   85564 |         |     |     |         |
 | Okrek                      | 18685 |   85565 |         |     |     |         |
-| Doomsayer Jurim            | 18686 |   40470 |         |     |     |         |
+| Doomsayer Jurim            | 18686 |   40470 | yes     | yes | yes |         |
+| Doomsayer Jurim            | 18686 | 3008778 | yes     | yes | yes |         |
+| Doomsayer Jurim            | 18686 | 3008779 | yes     | yes | yes |         |
 | Crippler                   | 18689 |  151903 |         |     |     |         |
 | Morcrush                   | 18690 |   66948 |         |     |     |         |
 | Hemathion                  | 18692 |  151919 | yes     | yes | yes |         |
@@ -893,7 +895,7 @@ Used to track and verify the movement types of rare creatures:
 | Ever-Core the Punisher     | 18698 |  151910 |         |     |     |         |
 | Ever-Core the Punisher     | 18698 |  151911 |         |     |     |         |
 | Ever-Core the Punisher     | 18698 |  151912 |         |     |     |         |
-| Nuramoc                    | 20932 |   86860 |         |     |     |         |
+| Nuramoc                    | 20932 |   86860 | yes     | yes | yes |         |
 | Fenissa the Assassin       | 22060 |   77280 | yes     | yes | yes | No creature pool |
 | Fenissa the Assassin       | 22060 |   77281 | yes     | yes | yes | No creature pool |
 | Dr. Whitherlimb            | 22062 | 1975927 |         |     |     |         |
@@ -901,7 +903,7 @@ Used to track and verify the movement types of rare creatures:
 | Old Crystalbark            | 32357 |  151935 |         |     |     |         |
 | Old Crystalbark            | 32357 |  151936 |         |     |     |         |
 | Old Crystalbark            | 32357 |  151937 |         |     |     |         |
-| Fumblub Gearwind           | 32358 |  151938 |         |     |     |         |
+| Fumblub Gearwind           | 32358 |  151938 | yes     | yes | yes |         |
 | Icehorn                    | 32361 |  151939 |         |     |     |         |
 | Icehorn                    | 32361 |  151940 |         |     |     |         |
 | Icehorn                    | 32361 |  151941 |         |     |     |         |
@@ -941,15 +943,15 @@ Used to track and verify the movement types of rare creatures:
 | Seething Hate              | 32429 |  151975 |         |     |     |         |
 | Seething Hate              | 32429 |  151976 |         |     |     |         |
 | Seething Hate              | 32429 |  151977 |         |     |     |         |
-| Vern                       | 32435 |  112862 |         |     |     |         |
+| Vern                       | 32435 |  112862 | no      | yes | yes |         |
 | Syreian the Bonecarver     | 32438 |  151978 |         |     |     |         |
 | Syreian the Bonecarver     | 32438 |  151979 |         |     |     |         |
 | Syreian the Bonecarver     | 32438 |  151980 |         |     |     |         |
 | Syreian the Bonecarver     | 32438 |  151981 |         |     |     |         |
 | Syreian the Bonecarver     | 32438 |  151982 |         |     |     |         |
 | Syreian the Bonecarver     | 32438 |  151983 |         |     |     |         |
-| Zul'drak Sentinel          | 32447 |  152019 |         |     |     |         |
-| Zul'drak Sentinel          | 32447 |  152020 |         |     |     |         |
+| Zul'drak Sentinel          | 32447 |  152019 | yes     | yes | yes |         |
+| Zul'drak Sentinel          | 32447 |  152020 | yes     | yes | yes |         |
 | Griegen                    | 32471 |  151995 |         |     |     |         |
 | Griegen                    | 32471 |  151996 |         |     |     |         |
 | Griegen                    | 32471 |  151997 |         |     |     |         |
@@ -1001,6 +1003,6 @@ Used to track and verify the movement types of rare creatures:
 | Gondria                    | 33776 |  200130 |         |     |     |         |
 | Gondria                    | 33776 |  200131 |         |     |     |         |
 | Skoll                      | 35189 |   42159 | no      | no  | yes | Random movement |
-| Skoll                      | 3008775 | 42159 | no      | no  | yes | Random movement |
-| Skoll                      | 3008776 | 42159 | no      | no  | yes | Random movement |
+| Skoll                      | 35189 | 3008775 | no      | no  | yes | Random movement |
+| Skoll                      | 35189 | 3008776 | no      | no  | yes | Random movement |
 | Arcturis                   | 38453 |   42158 | no      | no  | yes | Random movement |

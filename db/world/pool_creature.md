@@ -4,6 +4,8 @@
 
 This table contains a list of creatures that are tied to a specific pool.
 
+**Important:** Don't use this for instanced maps (e.g. dungeons) as the pool will be shared for all instances of the map. This means if for example the pool is used to spawn a rare creature this creature will also be shown in all other instances of the map.
+
 ## Structure
 
 <table>

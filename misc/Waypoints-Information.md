@@ -102,8 +102,8 @@ The same as above, but now for [script_waypoint](../db/world/script_waypoint.md)
 INSERT INTO `script_waypoint` (`entry`,`pointid`,`location_x`,`location_y`,`location_z`,`waittime`)
   SELECT 1234567 AS `entry`,`point`,`position_x`,`position_y`,`position_z`,`delay` FROM `waypoint_data` WHERE `id` = 12345670;
 DELETE FROM `waypoint_data` WHERE `id` = 12345670;
-
 ```
+
 Don't forget to unload the path from the creature if it was loaded before.
 
 #### Take over the waypoints from 'waypoints' to 'waypoint_data'
@@ -122,3 +122,12 @@ Copy the waypoints into table [waypoint_data](../db/world/waypoint_data.md) and 
 INSERT INTO `waypoint_data` (`id`,`point`,`position_x`,`position_y`,`position_z`,`delay`)
   SELECT 12345670 AS `entry`,`pointid`,`location_x`,`location_y`,`location_z`,`waittime` FROM `script_waypoint` WHERE `entry` = 1234567;
 DELETE FROM `script_waypoint` WHERE `entry` = 1234567;
+
+#### Mirror 'waypoint_data' path
+
+```sql
+SET @PATH_LENGTH := 50;
+SET @PATH_ID     := 12345670;
+INSERT INTO `waypoint_data` (`id`,`point`,`position_x`,`position_y`,`position_z`,`delay`)
+  SELECT @PATH_ID AS `id`,(@PATH_LENGTH * 2) - `point`,`position_x`,`position_y`,`position_z`,`delay` FROM `waypoint_data` WHERE `id` = @PATH_ID AND `point` BETWEEN 2 AND (@PATH_LENGTH - 1) ORDER BY `point` DESC;
+```
