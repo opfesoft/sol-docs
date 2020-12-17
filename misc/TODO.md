@@ -2,6 +2,11 @@ TODOs:
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@dd9d9e0c | 2020-12-15 |      | verify and rework SQL script |
+| sol@086ad6c9 | 2020-12-13 |      | use the already existing broadcast texts |
+| sol@af53598f | 2020-12-11 |      | verify solution (and bugfix sol@282966c1) |
+| sol@62cb1f36 | 2020-12-10 |      | verify and rework SQL script |
+| sol@963553a9 | 2020-12-10 |      | verify and rework SQL script |
 | sol@6d10d075 | 2020-12-09 |      | verify and collect the SAI in a separate commit |
 | sol@04c245cf | 2020-12-04 |      | verify and rework SQL script |
 | sol@755e30f9 | 2020-12-04 |      | verify if this actually fixes anything; the original PR provides no description on the issue and contains no test specification (the attached backtrace is invalid: too old, contains no AC commit and line numbers also don't match) |
@@ -13,7 +18,7 @@ TODOs:
 | sol@1a8110dc | 2020-11-25 | X    | use a creature pool instead of deleting the second spawn; done: sol@06e0a18a |
 | sol@2e39d452 | 2020-11-24 |      | verify and rework SQL script |
 | sol@5d3bb608 | 2020-11-23 |      | verify and only take over if actually needed (if so, also take over sol@2788d495); fix PvP flag for the NPCs |
-| sol@fb69db21 | 2020-11-19 |      | probably find a better solution (AC commit reverted with sol@35fb9f49) |
+| sol@fb69db21 | 2020-11-19 |      | probably find a better solution (AC commit reverted with sol@35fb9f49, see new solution sol@af53598f and bugfix sol@282966c1) |
 | sol@9a8aa615 | 2020-11-16 |      | verify and rework SQL script |
 | sol@17bfcb77 | 2020-11-14 |      | take over if needed (compare with TC implementation) |
 | sol@2788d495 | 2020-11-14 |      | take over if needed (compare with TC implementation) |
