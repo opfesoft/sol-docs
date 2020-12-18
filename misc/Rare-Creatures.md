@@ -1,4 +1,5 @@
 Used to track and verify the movement types of rare creatures:
+(2020-12-19: finished verifying the list)
 
 | name                       | entry | guid    | active? | wp? | ok? | comment |
 |----------------------------|-------|---------|---------|-----|-----|---------|
@@ -766,242 +767,244 @@ Used to track and verify the movement types of rare creatures:
 | Fury Shelda                | 14431 |   46352 | yes     | yes | yes |         |
 | Threggil                   | 14432 |   46354 | yes     | yes | yes |         |
 | Sludginn                   | 14433 |   91114 | no      | no  | yes |         |
-| Lord Captain Wyrmak        | 14445 |   45860 |         |     |     |         |
-| Lord Captain Wyrmak        | 14445 |  134244 |         |     |     |         |
-| Lord Captain Wyrmak        | 14445 |  134245 |         |     |     |         |
-| Lord Captain Wyrmak        | 14445 |  134246 |         |     |     |         |
-| Lord Captain Wyrmak        | 14445 |  134247 |         |     |     |         |
-| Lord Captain Wyrmak        | 14445 |  134248 |         |     |     |         |
-| Lord Captain Wyrmak        | 14445 |  134249 |         |     |     |         |
-| Lord Captain Wyrmak        | 14445 |  134250 |         |     |     |         |
-| Lord Captain Wyrmak        | 14445 |  134251 |         |     |     |         |
-| Lord Captain Wyrmak        | 14445 |  134252 |         |     |     |         |
-| Lord Captain Wyrmak        | 14445 |  134253 |         |     |     |         |
-| Lord Captain Wyrmak        | 14445 |  134254 |         |     |     |         |
-| Lord Captain Wyrmak        | 14445 |  134255 |         |     |     |         |
-| Lord Captain Wyrmak        | 14445 |  134256 |         |     |     |         |
-| Lord Captain Wyrmak        | 14445 |  134257 |         |     |     |         |
-| Lord Captain Wyrmak        | 14445 |  134258 |         |     |     |         |
-| Lord Captain Wyrmak        | 14445 |  134259 |         |     |     |         |
-| Lord Captain Wyrmak        | 14445 |  134260 |         |     |     |         |
-| Fingat                     | 14446 |   43604 |         |     |     |         |
-| Fingat                     | 14446 |  134236 |         |     |     |         |
-| Fingat                     | 14446 |  134237 |         |     |     |         |
-| Fingat                     | 14446 |  134238 |         |     |     |         |
-| Fingat                     | 14446 |  134239 |         |     |     |         |
-| Fingat                     | 14446 |  134240 |         |     |     |         |
-| Fingat                     | 14446 |  134241 |         |     |     |         |
+| Lord Captain Wyrmak        | 14445 |   45860 | no      | no  | yes | Random movement |
+| Lord Captain Wyrmak        | 14445 |  134244 | no      | no  | yes | Random movement |
+| Lord Captain Wyrmak        | 14445 |  134245 | no      | no  | yes | Random movement |
+| Lord Captain Wyrmak        | 14445 |  134246 | no      | no  | yes | Random movement |
+| Lord Captain Wyrmak        | 14445 |  134247 | no      | no  | yes | Random movement |
+| Lord Captain Wyrmak        | 14445 |  134248 | no      | no  | yes | Random movement |
+| Lord Captain Wyrmak        | 14445 |  134249 | no      | no  | yes | Random movement |
+| Lord Captain Wyrmak        | 14445 |  134250 | no      | no  | yes | Random movement |
+| Lord Captain Wyrmak        | 14445 |  134251 | no      | no  | yes | Random movement |
+| Lord Captain Wyrmak        | 14445 |  134252 | no      | no  | yes | Random movement |
+| Lord Captain Wyrmak        | 14445 |  134253 | no      | no  | yes | Random movement |
+| Lord Captain Wyrmak        | 14445 |  134254 | no      | no  | yes | Random movement |
+| Lord Captain Wyrmak        | 14445 |  134255 | no      | no  | yes | Random movement |
+| Lord Captain Wyrmak        | 14445 |  134256 | no      | no  | yes | Random movement |
+| Lord Captain Wyrmak        | 14445 |  134257 | no      | no  | yes | Random movement |
+| Lord Captain Wyrmak        | 14445 |  134258 | no      | no  | yes | Random movement |
+| Lord Captain Wyrmak        | 14445 |  134259 | no      | no  | yes | Random movement |
+| Lord Captain Wyrmak        | 14445 |  134260 | no      | no  | yes | Random movement |
+| Fingat                     | 14446 |   43604 | no      | no  | yes | Random movement |
+| Fingat                     | 14446 |  134236 | no      | no  | yes | Random movement |
+| Fingat                     | 14446 |  134237 | no      | no  | yes | Random movement |
+| Fingat                     | 14446 |  134238 | no      | no  | yes | Random movement |
+| Fingat                     | 14446 |  134239 | no      | no  | yes | Random movement |
+| Fingat                     | 14446 |  134240 | no      | no  | yes | Random movement |
+| Fingat                     | 14446 |  134241 | no      | no  | yes | Random movement |
 | Gilmorian                  | 14447 |   48204 | yes     | yes | yes |         |
-| Molt Thorn                 | 14448 |   48345 |         |     |     |         |
-| Molt Thorn                 | 14448 |  134270 |         |     |     |         |
-| Molt Thorn                 | 14448 |  134271 |         |     |     |         |
-| Molt Thorn                 | 14448 |  134272 |         |     |     |         |
-| Molt Thorn                 | 14448 |  134273 |         |     |     |         |
-| Molt Thorn                 | 14448 |  134274 |         |     |     |         |
-| Molt Thorn                 | 14448 |  134275 |         |     |     |         |
-| Molt Thorn                 | 14448 |  134276 |         |     |     |         |
-| Molt Thorn                 | 14448 |  134277 |         |     |     |         |
-| Molt Thorn                 | 14448 |  134278 |         |     |     |         |
-| Molt Thorn                 | 14448 |  134279 |         |     |     |         |
-| Molt Thorn                 | 14448 |  134280 |         |     |     |         |
-| Molt Thorn                 | 14448 |  134281 |         |     |     |         |
-| Molt Thorn                 | 14448 |  134282 |         |     |     |         |
-| Molt Thorn                 | 14448 |  134283 |         |     |     |         |
-| Molt Thorn                 | 14448 |  134284 |         |     |     |         |
-| Molt Thorn                 | 14448 |  134285 |         |     |     |         |
-| Molt Thorn                 | 14448 |  134286 |         |     |     |         |
-| Molt Thorn                 | 14448 |  134287 |         |     |     |         |
+| Molt Thorn                 | 14448 |   48345 | no      | no  | yes | Random movement |
+| Molt Thorn                 | 14448 |  134270 | no      | no  | yes | Random movement |
+| Molt Thorn                 | 14448 |  134271 | no      | no  | yes | Random movement |
+| Molt Thorn                 | 14448 |  134272 | no      | no  | yes | Random movement |
+| Molt Thorn                 | 14448 |  134273 | no      | no  | yes | Random movement |
+| Molt Thorn                 | 14448 |  134274 | no      | no  | yes | Random movement |
+| Molt Thorn                 | 14448 |  134275 | no      | no  | yes | Random movement |
+| Molt Thorn                 | 14448 |  134276 | no      | no  | yes | Random movement |
+| Molt Thorn                 | 14448 |  134277 | no      | no  | yes | Random movement |
+| Molt Thorn                 | 14448 |  134278 | no      | no  | yes | Random movement |
+| Molt Thorn                 | 14448 |  134279 | no      | no  | yes | Random movement |
+| Molt Thorn                 | 14448 |  134280 | no      | no  | yes | Random movement |
+| Molt Thorn                 | 14448 |  134281 | no      | no  | yes | Random movement |
+| Molt Thorn                 | 14448 |  134282 | no      | no  | yes | Random movement |
+| Molt Thorn                 | 14448 |  134283 | no      | no  | yes | Random movement |
+| Molt Thorn                 | 14448 |  134284 | no      | no  | yes | Random movement |
+| Molt Thorn                 | 14448 |  134285 | no      | no  | yes | Random movement |
+| Molt Thorn                 | 14448 |  134286 | no      | no  | yes | Random movement |
+| Molt Thorn                 | 14448 |  134287 | no      | no  | yes | Random movement |
 | Setis                      | 14471 |   51838 | yes     | yes | yes |         |
-| Gretheer                   | 14472 |   43119 |         |     |     |         |
+| Gretheer                   | 14472 |   43119 | no      | no  | yes | Random movement |
 | Lapress                    | 14473 |   43120 | yes     | yes | yes |         |
-| Zora                       | 14474 |   51835 |         |     |     |         |
-| Rex Ashil                  | 14475 |   51836 |         |     |     |         |
-| Krellack                   | 14476 |   51837 |         |     |     |         |
-| Grubthor                   | 14477 |   43124 |         |     |     |         |
+| Zora                       | 14474 |   51835 | no      | no  | yes | Random movement |
+| Rex Ashil                  | 14475 |   51836 | no      | no  | yes |         |
+| Krellack                   | 14476 |   51837 | no      | no  | yes |         |
+| Grubthor                   | 14477 |   43124 | no      | no  | yes |         |
 | Huricanian                 | 14478 |   43125 | yes     | yes | yes |         |
 | Twilight Lord Everun       | 14479 |   43126 | yes     | yes | yes |         |
-| Gluggle                    | 14487 |  134203 |         |     |     |         |
-| Gluggle                    | 14487 |  134204 |         |     |     |         |
-| Gluggle                    | 14487 |  134205 |         |     |     |         |
-| Gluggle                    | 14487 |  134206 |         |     |     |         |
-| Roloch                     | 14488 |  134222 |         |     |     |         |
-| Roloch                     | 14488 |  134223 |         |     |     |         |
-| Roloch                     | 14488 |  134224 |         |     |     |         |
-| Roloch                     | 14488 |  134225 |         |     |     |         |
-| Roloch                     | 14488 |  134226 |         |     |     |         |
-| Roloch                     | 14488 |  134227 |         |     |     |         |
+| Gluggle                    | 14487 |  134203 | no      | no  | yes |         |
+| Gluggle                    | 14487 |  134204 | no      | no  | yes |         |
+| Gluggle                    | 14487 |  134205 | no      | no  | yes |         |
+| Gluggle                    | 14487 |  134206 | no      | no  | yes |         |
+| Roloch                     | 14488 |  134222 | no      | no  | yes |         |
+| Roloch                     | 14488 |  134223 | no      | no  | yes |         |
+| Roloch                     | 14488 |  134224 | no      | no  | yes |         |
+| Roloch                     | 14488 |  134225 | no      | no  | yes | Random movement |
+| Roloch                     | 14488 |  134226 | no      | no  | yes | Random movement |
+| Roloch                     | 14488 |  134227 | no      | no  | yes | Random movement |
 | Rippa                      | 14490 |   49058 | yes     | yes | yes |         |
 | Rippa                      | 14490 |  134221 | yes     | yes | yes |         |
 | Kurmokk                    | 14491 |   49126 | yes     | yes | yes |         |
-| Verifonix                  | 14492 |   49152 |         |     |     |         |
-| Verifonix                  | 14492 |  134231 |         |     |     |         |
-| Verifonix                  | 14492 |  134232 |         |     |     |         |
-| Verifonix                  | 14492 |  134233 |         |     |     |         |
-| Verifonix                  | 14492 |  134234 |         |     |     |         |
-| Verifonix                  | 14492 |  134235 |         |     |     |         |
-| Hyakiss the Lurker         | 16179 |  135369 |         |     |     |         |
-| Shadikith the Glider       | 16180 |  135587 |         |     |     |         |
-| Rokad the Ravager          | 16181 |  135901 |         |     |     |         |
+| Verifonix                  | 14492 |   49152 | no      | no  | yes |         |
+| Verifonix                  | 14492 |  134231 | no      | no  | yes |         |
+| Verifonix                  | 14492 |  134232 | no      | no  | yes |         |
+| Verifonix                  | 14492 |  134233 | no      | no  | yes |         |
+| Verifonix                  | 14492 |  134234 | no      | no  | yes |         |
+| Verifonix                  | 14492 |  134235 | no      | no  | yes |         |
+| Hyakiss the Lurker         | 16179 |  135369 | no      | no  | yes | Dungeon; CreatureScript: boss_servant_quarters |
+| Shadikith the Glider       | 16180 |  135587 | no      | no  | yes | Dungeon; CreatureScript: boss_servant_quarters |
+| Rokad the Ravager          | 16181 |  135901 | no      | no  | yes | Dungeon; CreatureScript: boss_servant_quarters |
 | Nerubian Overseer          | 16184 |   54112 | yes     | yes | yes |         |
-| Eldinarcus                 | 16854 |   58019 |         |     |     |         |
+| Eldinarcus                 | 16854 |   58019 | no      | no  | yes |         |
 | Tregla                     | 16855 |   58020 | no      | yes | yes |         |
-| Goretooth                  | 17144 |  151915 |         |     |     |         |
-| Goretooth                  | 17144 |  151916 |         |     |     |         |
-| Goretooth                  | 17144 |  151917 |         |     |     |         |
-| Goretooth                  | 17144 |  151918 |         |     |     |         |
-| Crusty                     | 18241 |   27825 |         |     |     |         |
-| Mekthorg the Wild          | 18677 |  151921 |         |     |     |         |
-| Mekthorg the Wild          | 18677 |  151922 |         |     |     |         |
+| Goretooth                  | 17144 |  151915 | no      | no  | yes |         |
+| Goretooth                  | 17144 |  151916 | no      | no  | yes |         |
+| Goretooth                  | 17144 |  151917 | no      | no  | yes |         |
+| Goretooth                  | 17144 |  151918 | no      | no  | yes |         |
+| Crusty                     | 18241 |   27825 | no      | no  | yes | Random movement |
+| Mekthorg the Wild          | 18677 |  151921 | no      | no  | yes | Random movement |
+| Mekthorg the Wild          | 18677 |  151922 | no      | no  | yes | Random movement |
 | Fulgorge                   | 18678 |  151913 | yes     | yes | yes |         |
 | Fulgorge                   | 18678 |  151914 | yes     | yes | yes |         |
 | Fulgorge                   | 18678 |  151933 | yes     | yes | yes |         |
-| Vorakem Doomspeaker        | 18679 |  151929 |         |     |     |         |
-| Vorakem Doomspeaker        | 18679 |  151930 |         |     |     |         |
-| Vorakem Doomspeaker        | 18679 |  151931 |         |     |     |         |
-| Vorakem Doomspeaker        | 18679 |  151932 |         |     |     |         |
-| Marticar                   | 18680 |   66945 |         |     |     |         |
-| Coilfang Emissary          | 18681 |   10994 |         |     |     |         |
-| Bog Lurker                 | 18682 |   86744 |         |     |     |         |
-| Bog Lurker                 | 18682 |   86745 |         |     |     |         |
-| Bog Lurker                 | 18682 |   86746 |         |     |     |         |
-| Voidhunter Yar             | 18683 |  151928 |         |     |     |         |
-| Okrek                      | 18685 |   85382 |         |     |     |         |
-| Okrek                      | 18685 |   85405 |         |     |     |         |
-| Okrek                      | 18685 |   85564 |         |     |     |         |
-| Okrek                      | 18685 |   85565 |         |     |     |         |
+| Vorakem Doomspeaker        | 18679 |  151929 | no      | no  | yes |         |
+| Vorakem Doomspeaker        | 18679 |  151930 | no      | no  | yes |         |
+| Vorakem Doomspeaker        | 18679 |  151931 | no      | no  | yes |         |
+| Vorakem Doomspeaker        | 18679 |  151932 | no      | no  | yes |         |
+| Marticar                   | 18680 |   66945 | yes     | yes | yes |         |
+| Marticar                   | 18680 | 3008780 | yes     | yes | yes |         |
+| Marticar                   | 18680 | 3008781 | yes     | yes | yes |         |
+| Coilfang Emissary          | 18681 |   10994 | no      | no  | yes |         |
+| Bog Lurker                 | 18682 |   86744 | no      | no  | yes | Random movement |
+| Bog Lurker                 | 18682 |   86745 | no      | no  | yes | Random movement |
+| Bog Lurker                 | 18682 |   86746 | no      | no  | yes | Random movement |
+| Voidhunter Yar             | 18683 |  151928 | no      | no  | yes |         |
+| Okrek                      | 18685 |   85382 | no      | no  | yes |         |
+| Okrek                      | 18685 |   85405 | no      | no  | yes |         |
+| Okrek                      | 18685 |   85564 | no      | no  | yes |         |
+| Okrek                      | 18685 |   85565 | no      | no  | yes |         |
 | Doomsayer Jurim            | 18686 |   40470 | yes     | yes | yes |         |
 | Doomsayer Jurim            | 18686 | 3008778 | yes     | yes | yes |         |
 | Doomsayer Jurim            | 18686 | 3008779 | yes     | yes | yes |         |
-| Crippler                   | 18689 |  151903 |         |     |     |         |
-| Morcrush                   | 18690 |   66948 |         |     |     |         |
+| Crippler                   | 18689 |  151903 | no      | no  | yes | Random movement |
+| Morcrush                   | 18690 |   66948 | no      | no  | yes |         |
 | Hemathion                  | 18692 |  151919 | yes     | yes | yes |         |
 | Hemathion                  | 18692 |  151920 | yes     | yes | yes |         |
-| Speaker Mar'grom           | 18693 |  151923 |         |     |     |         |
-| Speaker Mar'grom           | 18693 |  151924 |         |     |     |         |
-| Speaker Mar'grom           | 18693 |  151925 |         |     |     |         |
-| Speaker Mar'grom           | 18693 |  151926 |         |     |     |         |
-| Speaker Mar'grom           | 18693 |  151927 |         |     |     |         |
+| Speaker Mar'grom           | 18693 |  151923 | no      | no  | yes | Random movement |
+| Speaker Mar'grom           | 18693 |  151924 | no      | no  | yes | Random movement |
+| Speaker Mar'grom           | 18693 |  151925 | no      | no  | yes | Random movement |
+| Speaker Mar'grom           | 18693 |  151926 | no      | no  | yes | Random movement |
+| Speaker Mar'grom           | 18693 |  151927 | no      | no  | yes | Random movement |
 | Collidus the Warp-Watcher  | 18694 |    1007 | yes     | yes | yes |         |
-| Ambassador Jerrikar        | 18695 |  151895 |         |     |     |         |
-| Ambassador Jerrikar        | 18695 |  151896 |         |     |     |         |
-| Ambassador Jerrikar        | 18695 |  151897 |         |     |     |         |
-| Ambassador Jerrikar        | 18695 |  151898 |         |     |     |         |
-| Ambassador Jerrikar        | 18695 |  151899 |         |     |     |         |
+| Ambassador Jerrikar        | 18695 |  151895 | no      | no  | yes |         |
+| Ambassador Jerrikar        | 18695 |  151896 | no      | no  | yes |         |
+| Ambassador Jerrikar        | 18695 |  151897 | no      | no  | yes |         |
+| Ambassador Jerrikar        | 18695 |  151898 | no      | no  | yes | Random movement |
+| Ambassador Jerrikar        | 18695 |  151899 | no      | no  | yes | Random movement |
 | Kraator                    | 18696 |   78222 | yes     | yes | yes |         |
-| Chief Engineer Lorthander  | 18697 |  151900 |         |     |     |         |
-| Chief Engineer Lorthander  | 18697 |  151901 |         |     |     |         |
-| Chief Engineer Lorthander  | 18697 |  151902 |         |     |     |         |
-| Ever-Core the Punisher     | 18698 |  151909 |         |     |     |         |
-| Ever-Core the Punisher     | 18698 |  151910 |         |     |     |         |
-| Ever-Core the Punisher     | 18698 |  151911 |         |     |     |         |
-| Ever-Core the Punisher     | 18698 |  151912 |         |     |     |         |
+| Chief Engineer Lorthander  | 18697 |  151900 | no      | no  | yes |         |
+| Chief Engineer Lorthander  | 18697 |  151901 | no      | no  | yes | Random movement |
+| Chief Engineer Lorthander  | 18697 |  151902 | no      | no  | yes |         |
+| Ever-Core the Punisher     | 18698 |  151909 | no      | no  | yes | Random movement |
+| Ever-Core the Punisher     | 18698 |  151910 | no      | no  | yes | Random movement |
+| Ever-Core the Punisher     | 18698 |  151911 | no      | no  | yes | Random movement |
+| Ever-Core the Punisher     | 18698 |  151912 | no      | no  | yes | Random movement |
 | Nuramoc                    | 20932 |   86860 | yes     | yes | yes |         |
 | Fenissa the Assassin       | 22060 |   77280 | yes     | yes | yes |         |
 | Fenissa the Assassin       | 22060 |   77281 | yes     | yes | yes |         |
-| Dr. Whitherlimb            | 22062 | 1975927 |         |     |     |         |
-| Old Crystalbark            | 32357 |  151934 |         |     |     |         |
-| Old Crystalbark            | 32357 |  151935 |         |     |     |         |
-| Old Crystalbark            | 32357 |  151936 |         |     |     |         |
-| Old Crystalbark            | 32357 |  151937 |         |     |     |         |
+| Dr. Whitherlimb            | 22062 | 1975927 | no      | no  | yes | Random movement |
+| Old Crystalbark            | 32357 |  151934 | no      | no  | yes | Random movement |
+| Old Crystalbark            | 32357 |  151935 | no      | no  | yes | Random movement |
+| Old Crystalbark            | 32357 |  151936 | no      | no  | yes | Random movement |
+| Old Crystalbark            | 32357 |  151937 | no      | no  | yes | Random movement |
 | Fumblub Gearwind           | 32358 |  151938 | yes     | yes | yes |         |
-| Icehorn                    | 32361 |  151939 |         |     |     |         |
-| Icehorn                    | 32361 |  151940 |         |     |     |         |
-| Icehorn                    | 32361 |  151941 |         |     |     |         |
-| Perobas the Bloodthirster  | 32377 |  151947 |         |     |     |         |
-| Perobas the Bloodthirster  | 32377 |  151948 |         |     |     |         |
-| Perobas the Bloodthirster  | 32377 |  151949 |         |     |     |         |
-| Vigdis the War Maiden      | 32386 |  151950 |         |     |     |         |
-| Vigdis the War Maiden      | 32386 |  151951 |         |     |     |         |
-| Vigdis the War Maiden      | 32386 |  151952 |         |     |     |         |
-| Vigdis the War Maiden      | 32386 |  151953 |         |     |     |         |
-| Vigdis the War Maiden      | 32386 |  151954 |         |     |     |         |
-| Vigdis the War Maiden      | 32386 |  151955 |         |     |     |         |
-| King Ping                  | 32398 |  151956 |         |     |     |         |
-| King Ping                  | 32398 |  151957 |         |     |     |         |
-| King Ping                  | 32398 |  151958 |         |     |     |         |
-| King Ping                  | 32398 |  151959 |         |     |     |         |
-| King Ping                  | 32398 |  151960 |         |     |     |         |
-| Tukemuth                   | 32400 |  151961 |         |     |     |         |
-| Tukemuth                   | 32400 |  151962 |         |     |     |         |
-| Tukemuth                   | 32400 |  151963 |         |     |     |         |
-| Tukemuth                   | 32400 |  151964 |         |     |     |         |
-| Tukemuth                   | 32400 |  151965 |         |     |     |         |
-| Tukemuth                   | 32400 |  151966 |         |     |     |         |
-| Tukemuth                   | 32400 |  151967 |         |     |     |         |
-| Tukemuth                   | 32400 |  151968 |         |     |     |         |
-| Crazed Indu'le Survivor    | 32409 |  151942 |         |     |     |         |
-| Scarlet Highlord Daion     | 32417 |  151943 |         |     |     |         |
-| Scarlet Highlord Daion     | 32417 |  151944 |         |     |     |         |
-| Scarlet Highlord Daion     | 32417 |  151945 |         |     |     |         |
-| Scarlet Highlord Daion     | 32417 |  151946 |         |     |     |         |
-| Grocklar                   | 32422 |  151969 |         |     |     |         |
-| Grocklar                   | 32422 |  151970 |         |     |     |         |
-| Grocklar                   | 32422 |  151971 |         |     |     |         |
-| Grocklar                   | 32422 |  151972 |         |     |     |         |
-| Grocklar                   | 32422 |  151973 |         |     |     |         |
-| Grocklar                   | 32422 |  151974 |         |     |     |         |
-| Seething Hate              | 32429 |  151975 |         |     |     |         |
-| Seething Hate              | 32429 |  151976 |         |     |     |         |
-| Seething Hate              | 32429 |  151977 |         |     |     |         |
+| Icehorn                    | 32361 |  151939 | no      | no  | yes | Random movement |
+| Icehorn                    | 32361 |  151940 | no      | no  | yes |         |
+| Icehorn                    | 32361 |  151941 | no      | no  | yes | Random movement |
+| Perobas the Bloodthirster  | 32377 |  151947 | no      | no  | yes |         |
+| Perobas the Bloodthirster  | 32377 |  151948 | no      | no  | yes |         |
+| Perobas the Bloodthirster  | 32377 |  151949 | no      | no  | yes |         |
+| Vigdis the War Maiden      | 32386 |  151950 | no      | no  | yes | Random movement |
+| Vigdis the War Maiden      | 32386 |  151951 | no      | no  | yes | Random movement |
+| Vigdis the War Maiden      | 32386 |  151952 | no      | no  | yes | Random movement |
+| Vigdis the War Maiden      | 32386 |  151953 | no      | no  | yes | Random movement |
+| Vigdis the War Maiden      | 32386 |  151954 | no      | no  | yes | Random movement |
+| Vigdis the War Maiden      | 32386 |  151955 | no      | no  | yes | Random movement |
+| King Ping                  | 32398 |  151956 | no      | no  | yes | Random movement |
+| King Ping                  | 32398 |  151957 | no      | no  | yes | Random movement |
+| King Ping                  | 32398 |  151958 | no      | no  | yes | Random movement |
+| King Ping                  | 32398 |  151959 | no      | no  | yes | Random movement |
+| King Ping                  | 32398 |  151960 | no      | no  | yes | Random movement |
+| Tukemuth                   | 32400 |  151961 | no      | no  | yes | Random movement |
+| Tukemuth                   | 32400 |  151962 | no      | no  | yes | Random movement |
+| Tukemuth                   | 32400 |  151963 | no      | no  | yes | Random movement |
+| Tukemuth                   | 32400 |  151964 | no      | no  | yes | Random movement |
+| Tukemuth                   | 32400 |  151965 | no      | no  | yes | Random movement |
+| Tukemuth                   | 32400 |  151966 | no      | no  | yes | Random movement |
+| Tukemuth                   | 32400 |  151967 | no      | no  | yes | Random movement |
+| Tukemuth                   | 32400 |  151968 | no      | no  | yes | Random movement |
+| Crazed Indu'le Survivor    | 32409 |  151942 | no      | no  | yes |         |
+| Scarlet Highlord Daion     | 32417 |  151943 | no      | no  | yes | Random movement |
+| Scarlet Highlord Daion     | 32417 |  151944 | no      | no  | yes | Random movement |
+| Scarlet Highlord Daion     | 32417 |  151945 | no      | no  | yes | Random movement |
+| Scarlet Highlord Daion     | 32417 |  151946 | no      | no  | yes | Random movement |
+| Grocklar                   | 32422 |  151969 | no      | no  | yes | Random movement |
+| Grocklar                   | 32422 |  151970 | no      | no  | yes | Random movement |
+| Grocklar                   | 32422 |  151971 | no      | no  | yes | Random movement |
+| Grocklar                   | 32422 |  151972 | no      | no  | yes | Random movement |
+| Grocklar                   | 32422 |  151973 | no      | no  | yes | Random movement |
+| Grocklar                   | 32422 |  151974 | no      | no  | yes | Random movement |
+| Seething Hate              | 32429 |  151975 | no      | no  | yes | Random movement |
+| Seething Hate              | 32429 |  151976 | no      | no  | yes | Random movement |
+| Seething Hate              | 32429 |  151977 | no      | no  | yes | Random movement |
 | Vern                       | 32435 |  112862 | no      | yes | yes |         |
-| Syreian the Bonecarver     | 32438 |  151978 |         |     |     |         |
-| Syreian the Bonecarver     | 32438 |  151979 |         |     |     |         |
-| Syreian the Bonecarver     | 32438 |  151980 |         |     |     |         |
-| Syreian the Bonecarver     | 32438 |  151981 |         |     |     |         |
-| Syreian the Bonecarver     | 32438 |  151982 |         |     |     |         |
-| Syreian the Bonecarver     | 32438 |  151983 |         |     |     |         |
+| Syreian the Bonecarver     | 32438 |  151978 | no      | no  | yes | Random movement |
+| Syreian the Bonecarver     | 32438 |  151979 | no      | no  | yes | Random movement |
+| Syreian the Bonecarver     | 32438 |  151980 | no      | no  | yes | Random movement |
+| Syreian the Bonecarver     | 32438 |  151981 | no      | no  | yes | Random movement |
+| Syreian the Bonecarver     | 32438 |  151982 | no      | no  | yes | Random movement |
+| Syreian the Bonecarver     | 32438 |  151983 | no      | no  | yes | Random movement |
 | Zul'drak Sentinel          | 32447 |  152019 | yes     | yes | yes |         |
 | Zul'drak Sentinel          | 32447 |  152020 | yes     | yes | yes |         |
-| Griegen                    | 32471 |  151995 |         |     |     |         |
-| Griegen                    | 32471 |  151996 |         |     |     |         |
-| Griegen                    | 32471 |  151997 |         |     |     |         |
-| Griegen                    | 32471 |  151998 |         |     |     |         |
-| Griegen                    | 32471 |  151999 |         |     |     |         |
-| Griegen                    | 32471 |  152000 |         |     |     |         |
-| Griegen                    | 32471 |  152001 |         |     |     |         |
-| Terror Spinner             | 32475 |  151991 |         |     |     |         |
-| Terror Spinner             | 32475 |  151992 |         |     |     |         |
-| Terror Spinner             | 32475 |  151993 |         |     |     |         |
-| Aotona                     | 32481 |  152004 |         |     |     |         |
-| Aotona                     | 32481 |  152005 |         |     |     |         |
-| Aotona                     | 32481 |  152006 |         |     |     |         |
-| Aotona                     | 32481 |  152007 |         |     |     |         |
-| Aotona                     | 32481 |  152008 |         |     |     |         |
-| Aotona                     | 32481 |  152009 |         |     |     |         |
+| Griegen                    | 32471 |  151995 | no      | no  | yes | Random movement |
+| Griegen                    | 32471 |  151996 | no      | no  | yes | Random movement |
+| Griegen                    | 32471 |  151997 | no      | no  | yes | Random movement |
+| Griegen                    | 32471 |  151998 | no      | no  | yes | Random movement |
+| Griegen                    | 32471 |  151999 | no      | no  | yes | Random movement |
+| Griegen                    | 32471 |  152000 | no      | no  | yes | Random movement |
+| Griegen                    | 32471 |  152001 | no      | no  | yes | Random movement |
+| Terror Spinner             | 32475 |  151991 | no      | no  | yes | Random movement |
+| Terror Spinner             | 32475 |  151992 | no      | no  | yes | Random movement |
+| Terror Spinner             | 32475 |  151993 | no      | no  | yes | Random movement |
+| Aotona                     | 32481 |  152004 | no      | no  | yes | Random movement |
+| Aotona                     | 32481 |  152005 | no      | no  | yes | Random movement |
+| Aotona                     | 32481 |  152006 | no      | no  | yes | Random movement |
+| Aotona                     | 32481 |  152007 | no      | no  | yes | Random movement |
+| Aotona                     | 32481 |  152008 | no      | no  | yes | Random movement |
+| Aotona                     | 32481 |  152009 | no      | no  | yes | Random movement |
 | King Krush                 | 32485 |  201215 | yes     | yes | yes |         |
 | King Krush                 | 32485 |  152002 | yes     | yes | yes |         |
 | King Krush                 | 32485 |  152003 | yes     | yes | yes |         |
-| Putridus the Ancient       | 32487 |  152014 |         |     |     |         |
-| Putridus the Ancient       | 32487 |  152015 |         |     |     |         |
-| Putridus the Ancient       | 32487 |  152016 |         |     |     |         |
-| Putridus the Ancient       | 32487 |  152017 |         |     |     |         |
-| Putridus the Ancient       | 32487 |  152018 |         |     |     |         |
-| Time-Lost Proto Drake      | 32491 | 1975840 |         |     |     |         |
-| Hildana Deathstealer       | 32495 |  151984 |         |     |     |         |
-| Hildana Deathstealer       | 32495 |  151985 |         |     |     |         |
-| Hildana Deathstealer       | 32495 |  151986 |         |     |     |         |
-| Hildana Deathstealer       | 32495 |  151987 |         |     |     |         |
-| Dirkee                     | 32500 |  152010 |         |     |     |         |
-| Dirkee                     | 32500 |  152011 |         |     |     |         |
-| Dirkee                     | 32500 |  152012 |         |     |     |         |
-| Dirkee                     | 32500 |  152013 |         |     |     |         |
-| High Thane Jorfus          | 32501 |  151988 |         |     |     |         |
-| High Thane Jorfus          | 32501 |  151989 |         |     |     |         |
-| High Thane Jorfus          | 32501 |  151990 |         |     |     |         |
-| Loque'nahak                | 32517 |  200132 |         |     |     |         |
-| Loque'nahak                | 32517 |  200133 |         |     |     |         |
-| Loque'nahak                | 32517 |  200134 |         |     |     |         |
-| Loque'nahak                | 32517 |  200135 |         |     |     |         |
-| Loque'nahak                | 32517 |  200136 |         |     |     |         |
-| Loque'nahak                | 32517 |  200137 |         |     |     |         |
-| Loque'nahak                | 32517 |  200138 |         |     |     |         |
-| Loque'nahak                | 32517 |  200139 |         |     |     |         |
-| Gondria                    | 33776 |  200126 |         |     |     |         |
-| Gondria                    | 33776 |  200127 |         |     |     |         |
-| Gondria                    | 33776 |  200128 |         |     |     |         |
-| Gondria                    | 33776 |  200129 |         |     |     |         |
-| Gondria                    | 33776 |  200130 |         |     |     |         |
-| Gondria                    | 33776 |  200131 |         |     |     |         |
+| Putridus the Ancient       | 32487 |  152014 | yes     | yes | yes |         |
+| Putridus the Ancient       | 32487 |  152015 | yes     | yes | yes |         |
+| Putridus the Ancient       | 32487 |  152016 | yes     | yes | yes |         |
+| Putridus the Ancient       | 32487 |  152017 | yes     | yes | yes |         |
+| Putridus the Ancient       | 32487 |  152018 | yes     | yes | yes |         |
+| Time-Lost Proto Drake      | 32491 | 1975840 | yes     | yes | yes | CreatureScript: npc_time_lost_proto_drake |
+| Hildana Deathstealer       | 32495 |  151984 | no      | no  | yes |         |
+| Hildana Deathstealer       | 32495 |  151985 | no      | no  | yes |         |
+| Hildana Deathstealer       | 32495 |  151986 | no      | no  | yes |         |
+| Hildana Deathstealer       | 32495 |  151987 | no      | no  | yes |         |
+| Dirkee                     | 32500 |  152010 | no      | no  | yes | Random movement |
+| Dirkee                     | 32500 |  152011 | no      | no  | yes | Random movement |
+| Dirkee                     | 32500 |  152012 | no      | no  | yes | Random movement |
+| Dirkee                     | 32500 |  152013 | no      | no  | yes | Random movement |
+| High Thane Jorfus          | 32501 |  151988 | no      | no  | yes |         |
+| High Thane Jorfus          | 32501 |  151989 | no      | no  | yes |         |
+| High Thane Jorfus          | 32501 |  151990 | no      | no  | yes |         |
+| Loque'nahak                | 32517 |  200132 | no      | no  | yes | Random movement |
+| Loque'nahak                | 32517 |  200133 | no      | no  | yes | Random movement |
+| Loque'nahak                | 32517 |  200134 | no      | no  | yes | Random movement |
+| Loque'nahak                | 32517 |  200135 | no      | no  | yes | Random movement |
+| Loque'nahak                | 32517 |  200136 | no      | no  | yes | Random movement |
+| Loque'nahak                | 32517 |  200137 | no      | no  | yes | Random movement |
+| Loque'nahak                | 32517 |  200138 | no      | no  | yes | Random movement |
+| Loque'nahak                | 32517 |  200139 | no      | no  | yes | Random movement |
+| Gondria                    | 33776 |  200126 | no      | no  | yes | Random movement |
+| Gondria                    | 33776 |  200127 | no      | no  | yes | Random movement |
+| Gondria                    | 33776 |  200128 | no      | no  | yes | Random movement |
+| Gondria                    | 33776 |  200129 | no      | no  | yes | Random movement |
+| Gondria                    | 33776 |  200130 | no      | no  | yes | Random movement |
+| Gondria                    | 33776 |  200131 | no      | no  | yes | Random movement |
 | Skoll                      | 35189 |   42159 | no      | no  | yes | Random movement |
 | Skoll                      | 35189 | 3008775 | no      | no  | yes | Random movement |
 | Skoll                      | 35189 | 3008776 | no      | no  | yes | Random movement |
