@@ -1,4 +1,4 @@
-Used to track and verify the movement types of rare creatures:
+Used to track and verify the movement types of rare creatures:<br>
 (2020-12-19: finished verifying the list)
 
 | name                       | entry | guid    | active? | wp? | ok? | comment |

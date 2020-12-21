@@ -7,7 +7,7 @@ TODOs:
 | sol@af53598f | 2020-12-11 |      | verify solution (and bugfix sol@282966c1) |
 | sol@62cb1f36 | 2020-12-10 |      | verify and rework SQL script |
 | sol@963553a9 | 2020-12-10 |      | verify and rework SQL script |
-| sol@6d10d075 | 2020-12-09 |      | verify and collect the SAI in a separate commit |
+| sol@6d10d075 | 2020-12-09 | X    | verify and collect the SAI in a separate commit; done: sol@0fc62baf |
 | sol@04c245cf | 2020-12-04 |      | verify and rework SQL script |
 | sol@755e30f9 | 2020-12-04 |      | verify if this actually fixes anything; the original PR provides no description on the issue and contains no test specification (the attached backtrace is invalid: too old, contains no AC commit and line numbers also don't match) |
 | sol@5fe10355 | 2020-12-03 |      | verify SQL script and actual issue |
@@ -54,7 +54,7 @@ TODOs:
 | sol@00e736e4 | 2020-10-27 |      | verify and rework SQL script |
 | sol@24b9c929 | 2020-10-26 |      | verify and rework SQL script |
 | sol@c4ded889 | 2020-10-26 |      | verify and rework SQL script |
-| sol@5ec25278 | 2020-10-25 |      | verify and rework SQL script |
+| sol@5ec25278 | 2020-10-25 | X    | verify and rework SQL script; done: sol@71f51551 |
 | sol@d07a34c1 | 2020-10-23 | X    | done: sol@91c47cb4 and sol@c129c06a; AC implementation for AURA\_INTERRUPT\_FLAG\_LEAVE\_COMBAT is at the wrong code place |
 | sol@d5bb6ba1 | 2020-10-21 |      | see also follow-up bugfix sol@b3a967db; could contain several other hidden bugs, so only take over if really needed and double-check the code changes in that case |
 | sol@ab5933ef | 2020-10-17 |      | take over if needed |
@@ -64,9 +64,9 @@ TODOs:
 | sol@22f8195c | 2020-10-07 |      | verify changes and new creature ID |
 | sol@369d292c | 2020-10-07 |      | verify SQL script |
 | sol@b67c30e2 | 2020-10-03 |      | verify quest and texts; remove hard-coded gossip |
-| sol@3e81beac | 2020-09-28 |      | verify and collect the SAI in a separate commit |
+| sol@3e81beac | 2020-09-28 | X    | verify and collect the SAI in a separate commit; done: sol@0fc62baf |
 | sol@72025003 | 2020-09-12 |      | verify and rework SAI |
-| sol@cc3c2ada | 2020-09-04 |      | verify and collect the SAI in a separate commit |
+| sol@cc3c2ada | 2020-09-04 | X    | verify and collect the SAI in a separate commit; done: sol@0fc62baf |
 | sol@29f2c2ae | 2020-09-02 |      | create appropriate SAI scripts |
 | sol@a07c2b39 | 2020-09-01 |      | verify and rework SAI |
 | sol@34d9998c | 2020-08-31 |      | verify and rework SAI |
@@ -82,10 +82,10 @@ TODOs:
 | sol@106f6f94 | 2020-08-19 |      | Rework SQL script as this one is buggy (e.g. no gameobject GUID specified); also Yor's SAI can be easily improved (no need to write a CreatureScript) |
 | sol@f754c008 | 2020-08-15 |      | verify and rework SAI |
 | sol@8b57a3e2 | 2020-08-13 |      | verify and rework SAI |
-| sol@3ddfb568 | 2020-08-12 |      | verify and collect the SAI in a separate commit |
+| sol@3ddfb568 | 2020-08-12 | X    | verify and collect the SAI in a separate commit; done: sol@0fc62baf |
 | sol@96dc9fc0 | 2020-08-10 |      | use gossip menu ids in the "npc\_taxi" CreatureScript, no need to move the logic into the DB |
 | sol@e949ab27 | 2020-08-02 |      | rework SQL script (wrong / obsolete texts) |
-| sol@a6a9cfbb | 2020-07-26 |      | verify and collect the SAI in a separate commit |
+| sol@a6a9cfbb | 2020-07-26 | X    | verify and collect the SAI in a separate commit; done: sol@0fc62baf |
 | sol@e8fa3720 | 2020-07-23 |      | verify and rework SAI |
 | sol@ab01adbb | 2020-07-21 |      | verify and rework SAI |
 | sol@8449a0b0 | 2020-07-21 |      | verify and rework SAI |
@@ -93,16 +93,16 @@ TODOs:
 | sol@26dcedd7 | 2020-07-13 |      | verify and rework SAI |
 | sol@41c8a116 | 2020-07-12 |      | verify and rework SAI |
 | sol@6d460c54 | 2020-07-07 |      | verify and rework SAI |
-| sol@3dbd0181 | 2020-07-03 |      | verify and collect the SAI in a separate commit |
+| sol@3dbd0181 | 2020-07-03 | X    | verify and collect the SAI in a separate commit; done: sol@0fc62baf |
 | sol@849edc24 | 2020-07-01 |      | verify and rework DB script |
 | sol@9410e409 | 2020-06-24 |      | verify and rework SAI |
 | sol@255989c1 | 2020-06-23 |      | verify and rework SAI |
 | sol@444f691e | 2020-06-17 |      | verify and rework SAI |
-| sol@82dab24a | 2020-06-16 |      | verify and rework SAI |
-| sol@55fde9ca | 2020-06-14 |      | verify and rework SAI |
-| sol@aee070b8 | 2020-06-08 |      | verify and collect the SAI in a separate commit |
-| sol@83e46e20 | 2020-06-07 |      | verify and collect the SAI in a separate commit |
-| sol@88590fe3 | 2020-06-07 |      | verify and collect the SAI in a separate commit |
-| sol@ac355433 | 2020-06-05 |      | verify and collect the SAI in a separate commit |
-| sol@9bd47bd5 | 2020-06-04 |      | verify and collect the SAI in a separate commit |
-| sol@ece33e4c | 2020-06-04 |      | verify and collect the SAI in a separate commit |
+| sol@82dab24a | 2020-06-16 | X    | verify and rework SAI; done: sol@71f51551 |
+| sol@55fde9ca | 2020-06-14 | X    | verify and rework SAI; done: sol@1d7941f5 |
+| sol@aee070b8 | 2020-06-08 | X    | verify and collect the SAI in a separate commit; done: sol@0fc62baf |
+| sol@83e46e20 | 2020-06-07 | X    | verify and collect the SAI in a separate commit; done: sol@0fc62baf |
+| sol@88590fe3 | 2020-06-07 | X    | verify and collect the SAI in a separate commit; done: sol@0fc62baf |
+| sol@ac355433 | 2020-06-05 | X    | verify and collect the SAI in a separate commit; done: sol@0fc62baf |
+| sol@9bd47bd5 | 2020-06-04 | X    | verify and collect the SAI in a separate commit; won't take over, as "Dazed" is obviously a wrong spell to use here |
+| sol@ece33e4c | 2020-06-04 | X    | verify and collect the SAI in a separate commit; done: sol@0fc62baf |
