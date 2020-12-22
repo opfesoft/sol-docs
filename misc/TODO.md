@@ -96,8 +96,8 @@ TODOs:
 | sol@3dbd0181 | 2020-07-03 | X    | verify and collect the SAI in a separate commit; done: sol@0fc62baf |
 | sol@849edc24 | 2020-07-01 |      | verify and rework DB script |
 | sol@9410e409 | 2020-06-24 |      | verify and rework SAI |
-| sol@255989c1 | 2020-06-23 |      | verify and rework SAI |
-| sol@444f691e | 2020-06-17 |      | verify and rework SAI |
+| sol@255989c1 | 2020-06-23 | X    | verify and rework SAI; done: sol@5d62548b |
+| sol@444f691e | 2020-06-17 | X    | verify and rework SAI; done: sol@8d1367d8 |
 | sol@82dab24a | 2020-06-16 | X    | verify and rework SAI; done: sol@71f51551 |
 | sol@55fde9ca | 2020-06-14 | X    | verify and rework SAI; done: sol@1d7941f5 |
 | sol@aee070b8 | 2020-06-08 | X    | verify and collect the SAI in a separate commit; done: sol@0fc62baf |
