@@ -2,6 +2,9 @@ TODOs:
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@aec0dbb7 | 2020-12-25 |      | verify CreatureScript |
+| sol@d710057a | 2020-12-25 |      | verify and rework SQL script / CreatureScript |
+| sol@1f5babf0 | 2020-12-22 |      | take over if needed |
 | sol@dd9d9e0c | 2020-12-15 |      | verify and rework SQL script |
 | sol@086ad6c9 | 2020-12-13 |      | use the already existing broadcast texts |
 | sol@af53598f | 2020-12-11 |      | verify solution (and bugfix sol@282966c1) |
@@ -91,11 +94,11 @@ TODOs:
 | sol@8449a0b0 | 2020-07-21 |      | verify and rework SAI |
 | sol@a0737047 | 2020-07-14 |      | verify and rework SAI |
 | sol@26dcedd7 | 2020-07-13 |      | verify and rework SAI |
-| sol@41c8a116 | 2020-07-12 |      | verify and rework SAI |
-| sol@6d460c54 | 2020-07-07 |      | verify and rework SAI |
+| sol@41c8a116 | 2020-07-12 | X    | verify and rework SAI; done: sol@9b84fd44 |
+| sol@6d460c54 | 2020-07-07 | X    | verify and rework SAI; done: sol@7321c904 |
 | sol@3dbd0181 | 2020-07-03 | X    | verify and collect the SAI in a separate commit; done: sol@0fc62baf |
 | sol@849edc24 | 2020-07-01 |      | verify and rework DB script |
-| sol@9410e409 | 2020-06-24 |      | verify and rework SAI |
+| sol@9410e409 | 2020-06-24 | X    | verify and rework SAI; done: sol@bf97855c |
 | sol@255989c1 | 2020-06-23 | X    | verify and rework SAI; done: sol@5d62548b |
 | sol@444f691e | 2020-06-17 | X    | verify and rework SAI; done: sol@8d1367d8 |
 | sol@82dab24a | 2020-06-16 | X    | verify and rework SAI; done: sol@71f51551 |

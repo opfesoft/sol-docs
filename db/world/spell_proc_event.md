@@ -72,7 +72,7 @@ A bitmask controlling what events trigger the spell. To combine possible events,
 | PROC_FLAG_NONE                          | 0x00000000 |                                                                                    |
 | PROC_FLAG_KILLED                        | 0x00000001 | Killed by agressor                                                                 |
 | PROC_FLAG_KILL_AND_GET_XP               | 0x00000002 | Kill that yields experience or honor                                               |
-| PROC_FLAG_SUCCESSFUL_MILEE_HIT          | 0x00000004 | Successful melee attack                                                            |
+| PROC_FLAG_SUCCESSFUL_MELEE_HIT          | 0x00000004 | Successful melee attack                                                            |
 | PROC_FLAG_TAKEN_MELEE_HIT               | 0x00000008 | Taken damage from melee strike hit                                                 |
 | PROC_FLAG_SUCCESSFUL_MELEE_SPELL_HIT    | 0x00000010 | Successful attack by Spell that use melee weapon                                   |
 | PROC_FLAG_TAKEN_MELEE_SPELL_HIT         | 0x00000020 | Taken damage by Spell that use melee weapon                                        |
