@@ -1658,13 +1658,12 @@ This is the probability of the event to occur as a percentage from 0-100. So, if
 <td><p>SpellId</p></td>
 <td><p><a href="#cast-flags">castFlags</a></p></td>
 <td><p>limitTargets (0 = all targets)</p></td>
+<td><p>forceRepeatOnRangeFail</p></td>
 <td><p><br />
 </p></td>
 <td><p><br />
 </p></td>
-<td><p><br />
-</p></td>
-<td><p>Cast Spell ID at Target(s)</p></td>
+<td><p>Cast Spell ID at Target(s); if "forceRepeatOnRangeFail" is set to 1 recalculate the event timer if the spell fails due to the range check (repeat 500ms later until the range check is successful); only works for events with timers, e.g. "SMART_EVENT_UPDATE_IC"</p></td>
 </tr>
 <tr>
 <td><p>SMART_ACTION_SUMMON_CREATURE</p></td>

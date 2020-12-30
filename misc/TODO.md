@@ -2,12 +2,14 @@ TODOs:
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@0264289f | 2020-12-29 |      | verify SQL script & texts |
+| sol@57a4f432 | 2020-12-27 |      | verify SQL script |
 | sol@aec0dbb7 | 2020-12-25 |      | verify CreatureScript |
 | sol@d710057a | 2020-12-25 |      | verify and rework SQL script / CreatureScript |
 | sol@1f5babf0 | 2020-12-22 |      | take over if needed |
 | sol@dd9d9e0c | 2020-12-15 |      | verify and rework SQL script |
 | sol@086ad6c9 | 2020-12-13 |      | use the already existing broadcast texts |
-| sol@af53598f | 2020-12-11 |      | verify solution (and bugfix sol@282966c1) |
+| sol@af53598f | 2020-12-11 |      | verify solution (and bugfixes sol@282966c1, sol@d3aff86c) |
 | sol@62cb1f36 | 2020-12-10 |      | verify and rework SQL script |
 | sol@963553a9 | 2020-12-10 |      | verify and rework SQL script |
 | sol@6d10d075 | 2020-12-09 | X    | verify and collect the SAI in a separate commit; done: sol@0fc62baf |
@@ -21,7 +23,7 @@ TODOs:
 | sol@1a8110dc | 2020-11-25 | X    | use a creature pool instead of deleting the second spawn; done: sol@06e0a18a |
 | sol@2e39d452 | 2020-11-24 |      | verify and rework SQL script |
 | sol@5d3bb608 | 2020-11-23 |      | verify and only take over if actually needed (if so, also take over sol@2788d495); fix PvP flag for the NPCs |
-| sol@fb69db21 | 2020-11-19 |      | probably find a better solution (AC commit reverted with sol@35fb9f49, see new solution sol@af53598f and bugfix sol@282966c1) |
+| sol@fb69db21 | 2020-11-19 |      | probably find a better solution (AC commit reverted with sol@35fb9f49, see new solution sol@af53598f and bugfixes sol@282966c1, sol@d3aff86c) |
 | sol@9a8aa615 | 2020-11-16 |      | verify and rework SQL script |
 | sol@17bfcb77 | 2020-11-14 |      | take over if needed (compare with TC implementation) |
 | sol@2788d495 | 2020-11-14 |      | take over if needed (compare with TC implementation) |
@@ -90,10 +92,10 @@ TODOs:
 | sol@e949ab27 | 2020-08-02 |      | rework SQL script (wrong / obsolete texts) |
 | sol@a6a9cfbb | 2020-07-26 | X    | verify and collect the SAI in a separate commit; done: sol@0fc62baf |
 | sol@e8fa3720 | 2020-07-23 |      | verify and rework SAI |
-| sol@ab01adbb | 2020-07-21 |      | verify and rework SAI |
-| sol@8449a0b0 | 2020-07-21 |      | verify and rework SAI |
-| sol@a0737047 | 2020-07-14 |      | verify and rework SAI |
-| sol@26dcedd7 | 2020-07-13 |      | verify and rework SAI |
+| sol@ab01adbb | 2020-07-21 | X    | verify and rework SAI; done: sol@2d7c1d08 |
+| sol@8449a0b0 | 2020-07-21 | X    | verify and rework SAI; done: sol@898ca467 |
+| sol@a0737047 | 2020-07-14 | X    | verify and rework SAI; done: sol@5045815b |
+| sol@26dcedd7 | 2020-07-13 | X    | verify and rework SAI; done: sol@5e04edf1 |
 | sol@41c8a116 | 2020-07-12 | X    | verify and rework SAI; done: sol@9b84fd44 |
 | sol@6d460c54 | 2020-07-07 | X    | verify and rework SAI; done: sol@7321c904 |
 | sol@3dbd0181 | 2020-07-03 | X    | verify and collect the SAI in a separate commit; done: sol@0fc62baf |
