@@ -24,7 +24,7 @@ This table holds information on what events (or procs) certain spells are activa
 
 ### entry
 
-The spell ID that is capable to proc on an event.
+The spell ID that is capable to proc on an event (can use negative spellId for ranked spells).
 
 ### SchoolMask
 

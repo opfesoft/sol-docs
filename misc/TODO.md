@@ -2,6 +2,15 @@ TODOs:
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@b2761626 | 2021-01-04 |      | verify solution (probably find a simpler way); very low prio as it's not really needed and could cause many unexpected bugs |
+| sol@64c686c4 | 2021-01-04 |      | verify creature spawns |
+| sol@92881ad1 | 2021-01-04 |      | verify and rework SQL script |
+| sol@0bd7e9dd | 2021-01-03 |      | verify and rework SQL script |
+| sol@1078bf49 | 2021-01-03 | X    | use a better solution; done: sol@9c7d90d6 |
+| sol@469d5a8b | 2021-01-02 |      | verify and rework SQL script |
+| sol@1e5e20ab | 2021-01-02 |      | verify and rework SQL script |
+| sol@f366db28 | 2021-01-01 |      | verify GOs and their associated quests before changing the respawn time |
+| sol@106684fb | 2020-12-31 |      | verify SQL script & quest |
 | sol@0264289f | 2020-12-29 |      | verify SQL script & texts |
 | sol@57a4f432 | 2020-12-27 |      | verify SQL script |
 | sol@aec0dbb7 | 2020-12-25 |      | verify CreatureScript |
@@ -62,7 +71,7 @@ TODOs:
 | sol@5ec25278 | 2020-10-25 | X    | verify and rework SQL script; done: sol@71f51551 |
 | sol@d07a34c1 | 2020-10-23 | X    | done: sol@91c47cb4 and sol@c129c06a; AC implementation for AURA\_INTERRUPT\_FLAG\_LEAVE\_COMBAT is at the wrong code place |
 | sol@d5bb6ba1 | 2020-10-21 |      | see also follow-up bugfix sol@b3a967db; could contain several other hidden bugs, so only take over if really needed and double-check the code changes in that case |
-| sol@ab5933ef | 2020-10-17 |      | take over if needed |
+| sol@ab5933ef | 2020-10-17 | X    | take over if needed; done: sol@79964075 |
 | sol@24cfa307 | 2020-10-11 |      | verify SQL script |
 | sol@4cca286a | 2020-10-09 | X    | verify and find a better solution as flying creatures respawn on the ground instead of their actual spawn point; done: sol@afa10355 |
 | sol@3368e0f8 | 2020-10-08 |      | verify new creature positions |
@@ -76,22 +85,22 @@ TODOs:
 | sol@a07c2b39 | 2020-09-01 |      | verify and rework SAI |
 | sol@34d9998c | 2020-08-31 |      | verify and rework SAI |
 | sol@5fd404de | 2020-08-29 |      | verify and rework SAI |
-| sol@6f86643e | 2020-08-29 |      | verify and rework SAI |
-| sol@2a6a5e48 | 2020-08-29 |      | verify and rework SAI |
-| sol@21fb494d | 2020-08-28 |      | verify and rework SAI |
-| sol@cb860e8e | 2020-08-28 |      | verify and rework SAI |
-| sol@fd517414 | 2020-08-28 |      | verify and rework SAI |
-| sol@68bd9985 | 2020-08-27 |      | verify and rework SAI |
-| sol@e6b49e4a | 2020-08-26 |      | verify and rework SAI |
-| sol@9bf66931 | 2020-08-25 |      | verify and rework SAI |
+| sol@6f86643e | 2020-08-29 | X    | verify and rework SAI; done: sol@c2c53ea9 |
+| sol@2a6a5e48 | 2020-08-29 | X    | verify and rework SAI; done: sol@5554d209 |
+| sol@21fb494d | 2020-08-28 | X    | verify and rework SAI; done: sol@83a8c43a |
+| sol@cb860e8e | 2020-08-28 | X    | verify and rework SAI; done: sol@975bb42a |
+| sol@fd517414 | 2020-08-28 | X    | verify and rework SAI; done: sol@c56f0d2c |
+| sol@68bd9985 | 2020-08-27 | X    | verify and rework SAI; done: sol@cbea7076 |
+| sol@e6b49e4a | 2020-08-26 | X    | verify and rework SAI; done: sol@dec28c8f |
+| sol@9bf66931 | 2020-08-25 | X    | verify and rework SAI; done: sol@e58260af |
 | sol@106f6f94 | 2020-08-19 |      | Rework SQL script as this one is buggy (e.g. no gameobject GUID specified); also Yor's SAI can be easily improved (no need to write a CreatureScript) |
-| sol@f754c008 | 2020-08-15 |      | verify and rework SAI |
-| sol@8b57a3e2 | 2020-08-13 |      | verify and rework SAI |
+| sol@f754c008 | 2020-08-15 | X    | verify and rework SAI; done: sol@b143cd27 |
+| sol@8b57a3e2 | 2020-08-13 | X    | verify and rework SAI; done: sol@d0ad6250 |
 | sol@3ddfb568 | 2020-08-12 | X    | verify and collect the SAI in a separate commit; done: sol@0fc62baf |
 | sol@96dc9fc0 | 2020-08-10 |      | use gossip menu ids in the "npc\_taxi" CreatureScript, no need to move the logic into the DB |
 | sol@e949ab27 | 2020-08-02 |      | rework SQL script (wrong / obsolete texts) |
 | sol@a6a9cfbb | 2020-07-26 | X    | verify and collect the SAI in a separate commit; done: sol@0fc62baf |
-| sol@e8fa3720 | 2020-07-23 |      | verify and rework SAI |
+| sol@e8fa3720 | 2020-07-23 | X    | verify and rework SAI; done: sol@8057cea6 |
 | sol@ab01adbb | 2020-07-21 | X    | verify and rework SAI; done: sol@2d7c1d08 |
 | sol@8449a0b0 | 2020-07-21 | X    | verify and rework SAI; done: sol@898ca467 |
 | sol@a0737047 | 2020-07-14 | X    | verify and rework SAI; done: sol@5045815b |

@@ -701,9 +701,8 @@ This is the probability of the event to occur as a percentage from 0-100. So, if
 <td><p>MaxDist</p></td>
 <td><p>RepeatMin</p></td>
 <td><p>RepeatMax</p></td>
-<td><p><br />
-</p></td>
-<td>On Target In Range</td>
+<td><p>Exact</p></td>
+<td>On Target In Range; if "Exact" is 1 will use the exact distance ignoring the size of the units. Useful for range checks concerning combat range (exactly 5 yards).</td>
 </tr>
 <tr>
 <td><p>SMART_EVENT_OOC_LOS</p></td>
@@ -1427,10 +1426,8 @@ This is the probability of the event to occur as a percentage from 0-100. So, if
 <td><p>maxHpPct</p></td>
 <td><p>repeatMin</p></td>
 <td><p>repeatMax</p></td>
-<td><p><br />
-</p></td>
-<td><p><br />
-</p></td>
+<td><p>radius</p></td>
+<td><p>The parameter "radius" is only used if the target type is "SMART_TARGET_ACTION_INVOKER". Otherwise the health of all specified targets will be checked for the event to occur (the triggered action will use all specified targets).</p></td>
 </tr>
 <tr>
 <td>SMART_EVENT_DISTANCE_CREATURE</td>
