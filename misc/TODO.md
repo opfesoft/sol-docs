@@ -2,7 +2,19 @@ TODOs:
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
-| sol@b2761626 | 2021-01-04 |      | verify solution (probably find a simpler way); very low prio as it's not really needed and could cause many unexpected bugs |
+| sol@adb877f2 | 2021-01-10 |      | verify and rework SQL script |
+| sol@7cf097ea | 2021-01-10 |      | take over if needed |
+| sol@3fb18944 | 2021-01-09 |      | deleting the second gossip option is wrong as the SAI triggers different spells depending on the selected option; also verify the quest chain, it should not be possible to have both bombing runs at the same time |
+| sol@b1452b5b | 2021-01-09 |      | verify and rework SQL script |
+| sol@c5fe21fe | 2021-01-08 |      | verify code and compare with TC |
+| sol@9592028a | 2021-01-08 |      | verify text changes |
+| sol@2dd6141a | 2021-01-07 |      | verify changes and take over if needed |
+| sol@ba534cea | 2021-01-07 |      | verify SAI |
+| sol@8b101654 | 2021-01-07 |      | verify and rework SQL script |
+| sol@9427da06 | 2021-01-06 |      | verify priest trainer spells |
+| sol@f869c17d | 2021-01-06 |      | use UPDATE instead of DELETE / INSERT |
+| sol@1a0e4fc6 | 2021-01-05 |      | changing the walk speed is wrong; adjust CreatureScript instead (also check and improve waypoints) |
+| sol@b2761626 | 2021-01-04 |      | verify solution (and bugfix sol@aeab8d8b; probably find a simpler way); very low prio as it's not really needed and could cause many unexpected bugs |
 | sol@64c686c4 | 2021-01-04 |      | verify creature spawns |
 | sol@92881ad1 | 2021-01-04 |      | verify and rework SQL script |
 | sol@0bd7e9dd | 2021-01-03 |      | verify and rework SQL script |
@@ -36,38 +48,38 @@ TODOs:
 | sol@9a8aa615 | 2020-11-16 |      | verify and rework SQL script |
 | sol@17bfcb77 | 2020-11-14 |      | take over if needed (compare with TC implementation) |
 | sol@2788d495 | 2020-11-14 |      | take over if needed (compare with TC implementation) |
-| sol@75ea2170 | 2020-11-13 |      | verify and rework SQL script |
-| sol@5485ef60 | 2020-11-13 |      | verify and rework SQL script |
-| sol@58d4e7e1 | 2020-11-13 |      | verify and rework SQL script |
-| sol@10ef5a16 | 2020-11-13 |      | verify and rework SQL script |
-| sol@1cae3835 | 2020-11-13 |      | verify and rework SQL script |
-| sol@8ec31ef1 | 2020-11-12 |      | verify and rework SQL script |
-| sol@5aafba86 | 2020-11-12 |      | verify and rework SQL script |
-| sol@6fd48609 | 2020-11-12 |      | verify and rework SQL script |
-| sol@c3368191 | 2020-11-12 |      | verify and rework SQL script |
-| sol@d28688d4 | 2020-11-12 |      | verify and rework SQL script |
-| sol@d9b24bf1 | 2020-11-12 |      | verify and rework SQL script |
-| sol@41b5b543 | 2020-11-11 |      | verify and rework SQL script |
-| sol@c563b3a6 | 2020-11-11 |      | verify and rework SQL script |
-| sol@8fbbf58c | 2020-11-10 |      | verify and rework SQL script |
-| sol@1cccc8d4 | 2020-11-09 |      | verify and rework SQL script |
+| sol@75ea2170 | 2020-11-13 | X    | verify and rework SQL script; done: sol@78abbe20 |
+| sol@5485ef60 | 2020-11-13 | X    | verify and rework SQL script; done: sol@25eb3885 |
+| sol@58d4e7e1 | 2020-11-13 | X    | verify and rework SQL script; done: sol@25eb3885 |
+| sol@10ef5a16 | 2020-11-13 | X    | verify and rework SQL script; done: sol@d0095140 |
+| sol@1cae3835 | 2020-11-13 | X    | verify and rework SQL script; done: sol@5d8d10f3 |
+| sol@8ec31ef1 | 2020-11-12 | X    | verify and rework SQL script; done: sol@5d8d10f3 |
+| sol@5aafba86 | 2020-11-12 | X    | verify and rework SQL script; done: sol@5d8d10f3 |
+| sol@6fd48609 | 2020-11-12 | X    | verify and rework SQL script; done: sol@5d8d10f3 |
+| sol@c3368191 | 2020-11-12 | X    | verify and rework SQL script; done: sol@f34ae533 |
+| sol@d28688d4 | 2020-11-12 | X    | verify and rework SQL script; done: sol@d7279046 |
+| sol@d9b24bf1 | 2020-11-12 | X    | verify and rework SQL script; done: sol@641e8e96 |
+| sol@41b5b543 | 2020-11-11 | X    | verify and rework SQL script; done: sol@11fe4f69 |
+| sol@c563b3a6 | 2020-11-11 | X    | verify and rework SQL script; done: sol@11fe4f69 |
+| sol@8fbbf58c | 2020-11-10 | X    | verify and rework SQL script; done: sol@8ad44364 |
+| sol@1cccc8d4 | 2020-11-09 | X    | verify and rework SQL script; done: sol@8ad44364 |
 | sol@da4235cc | 2020-11-09 |      | verify loot and compare with TC version |
-| sol@e5fc4fca | 2020-11-08 |      | verify and rework SQL script |
-| sol@9bb6b15c | 2020-11-08 |      | verify and rework SQL script |
+| sol@e5fc4fca | 2020-11-08 | X    | verify and rework SQL script; done: sol@8ad44364 |
+| sol@9bb6b15c | 2020-11-08 | X    | verify and rework SQL script; done: sol@ee0ca7c5 |
 | sol@5254aec6 | 2020-11-07 |      | verify and compare with TC implementation |
-| sol@1dc1beb3 | 2020-11-06 |      | verify and rework SQL script |
-| sol@9763c4f4 | 2020-11-06 |      | verify and rework SQL script |
+| sol@1dc1beb3 | 2020-11-06 | X    | verify and rework SQL script; done: sol@1807c1f4 |
+| sol@9763c4f4 | 2020-11-06 | X    | verify and rework SQL script; done: sol@6a23be7c |
 | sol@74a34b59 | 2020-11-06 |      | use correct position above ground, not in the cave |
 | sol@f4a5907a | 2020-11-06 |      | verify WP path |
 | sol@82ee9088 | 2020-11-02 |      | verify SQL script, compare with TC version |
-| sol@155e634b | 2020-11-01 |      | verify and rework SQL script |
-| sol@d2ddf03c | 2020-10-31 |      | verify and rework SQL script |
-| sol@cef27317 | 2020-10-31 |      | verify and rework SQL script |
-| sol@93c70f5a | 2020-10-30 |      | verify and rework SQL script |
-| sol@2b47117d | 2020-10-28 |      | verify and rework SQL script |
-| sol@00e736e4 | 2020-10-27 |      | verify and rework SQL script |
-| sol@24b9c929 | 2020-10-26 |      | verify and rework SQL script |
-| sol@c4ded889 | 2020-10-26 |      | verify and rework SQL script |
+| sol@155e634b | 2020-11-01 | X    | verify and rework SQL script; done: sol@92215744 |
+| sol@d2ddf03c | 2020-10-31 | X    | verify and rework SQL script; done: sol@e53d1dc7 |
+| sol@cef27317 | 2020-10-31 | X    | verify and rework SQL script; done: sol@e90c034e |
+| sol@93c70f5a | 2020-10-30 | X    | verify and rework SQL script; done: sol@8a8fe634 |
+| sol@2b47117d | 2020-10-28 | X    | verify and rework SQL script; done: sol@b71f8ef5 |
+| sol@00e736e4 | 2020-10-27 | X    | verify and rework SQL script; done: sol@36cd7904 |
+| sol@24b9c929 | 2020-10-26 | X    | verify and rework SQL script; done: sol@6e780808 |
+| sol@c4ded889 | 2020-10-26 | X    | verify and rework SQL script; done: sol@f35a4d57 |
 | sol@5ec25278 | 2020-10-25 | X    | verify and rework SQL script; done: sol@71f51551 |
 | sol@d07a34c1 | 2020-10-23 | X    | done: sol@91c47cb4 and sol@c129c06a; AC implementation for AURA\_INTERRUPT\_FLAG\_LEAVE\_COMBAT is at the wrong code place |
 | sol@d5bb6ba1 | 2020-10-21 |      | see also follow-up bugfix sol@b3a967db; could contain several other hidden bugs, so only take over if really needed and double-check the code changes in that case |
@@ -83,8 +95,8 @@ TODOs:
 | sol@cc3c2ada | 2020-09-04 | X    | verify and collect the SAI in a separate commit; done: sol@0fc62baf |
 | sol@29f2c2ae | 2020-09-02 |      | create appropriate SAI scripts |
 | sol@a07c2b39 | 2020-09-01 |      | verify and rework SAI |
-| sol@34d9998c | 2020-08-31 |      | verify and rework SAI |
-| sol@5fd404de | 2020-08-29 |      | verify and rework SAI |
+| sol@34d9998c | 2020-08-31 | X    | verify and rework SAI; done, script seems to be ok: sol@824a2fcf |
+| sol@5fd404de | 2020-08-29 | X    | verify and rework SAI; done: sol@9d5d1a41 |
 | sol@6f86643e | 2020-08-29 | X    | verify and rework SAI; done: sol@c2c53ea9 |
 | sol@2a6a5e48 | 2020-08-29 | X    | verify and rework SAI; done: sol@5554d209 |
 | sol@21fb494d | 2020-08-28 | X    | verify and rework SAI; done: sol@83a8c43a |
