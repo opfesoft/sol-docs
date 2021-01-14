@@ -46,7 +46,7 @@ TODOs:
 | sol@5d3bb608 | 2020-11-23 |      | verify and only take over if actually needed (if so, also take over sol@2788d495); fix PvP flag for the NPCs |
 | sol@fb69db21 | 2020-11-19 |      | probably find a better solution (AC commit reverted with sol@35fb9f49, see new solution sol@af53598f and bugfixes sol@282966c1, sol@d3aff86c) |
 | sol@9a8aa615 | 2020-11-16 |      | verify and rework SQL script |
-| sol@17bfcb77 | 2020-11-14 |      | take over if needed (compare with TC implementation) |
+| sol@17bfcb77 | 2020-11-14 | X    | take over if needed (compare with TC implementation); done: sol@dca0bcd0 |
 | sol@2788d495 | 2020-11-14 |      | take over if needed (compare with TC implementation) |
 | sol@75ea2170 | 2020-11-13 | X    | verify and rework SQL script; done: sol@78abbe20 |
 | sol@5485ef60 | 2020-11-13 | X    | verify and rework SQL script; done: sol@25eb3885 |
@@ -109,8 +109,8 @@ TODOs:
 | sol@f754c008 | 2020-08-15 | X    | verify and rework SAI; done: sol@b143cd27 |
 | sol@8b57a3e2 | 2020-08-13 | X    | verify and rework SAI; done: sol@d0ad6250 |
 | sol@3ddfb568 | 2020-08-12 | X    | verify and collect the SAI in a separate commit; done: sol@0fc62baf |
-| sol@96dc9fc0 | 2020-08-10 |      | use gossip menu ids in the "npc\_taxi" CreatureScript, no need to move the logic into the DB |
-| sol@e949ab27 | 2020-08-02 |      | rework SQL script (wrong / obsolete texts) |
+| sol@96dc9fc0 | 2020-08-10 | X    | CreatureScript "npc\_taxi" migrated to SAI: sol@b0398ec4 |
+| sol@e949ab27 | 2020-08-02 | X    | rework SQL script (wrong / obsolete texts); done: sol@05d19c1b |
 | sol@a6a9cfbb | 2020-07-26 | X    | verify and collect the SAI in a separate commit; done: sol@0fc62baf |
 | sol@e8fa3720 | 2020-07-23 | X    | verify and rework SAI; done: sol@8057cea6 |
 | sol@ab01adbb | 2020-07-21 | X    | verify and rework SAI; done: sol@2d7c1d08 |
@@ -120,7 +120,7 @@ TODOs:
 | sol@41c8a116 | 2020-07-12 | X    | verify and rework SAI; done: sol@9b84fd44 |
 | sol@6d460c54 | 2020-07-07 | X    | verify and rework SAI; done: sol@7321c904 |
 | sol@3dbd0181 | 2020-07-03 | X    | verify and collect the SAI in a separate commit; done: sol@0fc62baf |
-| sol@849edc24 | 2020-07-01 |      | verify and rework DB script |
+| sol@849edc24 | 2020-07-01 | X    | verify and rework DB script; done: sol@d58e08d5 |
 | sol@9410e409 | 2020-06-24 | X    | verify and rework SAI; done: sol@bf97855c |
 | sol@255989c1 | 2020-06-23 | X    | verify and rework SAI; done: sol@5d62548b |
 | sol@444f691e | 2020-06-17 | X    | verify and rework SAI; done: sol@8d1367d8 |

@@ -1045,7 +1045,7 @@ CONDITION_STAND_STATE</p></td>
 <td>Always 0</td>
 <td>Always 0</td>
 <td>Always 0</td>
-</tr>
+</tr> -->
 <tr>
 <td>CONDITION_QUESTSTATE</td>
 <td>47</td>
@@ -1058,7 +1058,7 @@ CONDITION_STAND_STATE</p></td>
 <li>64 = Rewarded</li>
 </td>
 <td>Always 0</td>
-</tr> -->
+</tr>
 <tr>
 <td>CONDITION_QUEST_OBJECTIVE_PROGRESS</td>
 <td>48</td>

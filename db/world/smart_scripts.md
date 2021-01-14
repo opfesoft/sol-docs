@@ -712,7 +712,7 @@ This is the probability of the event to occur as a percentage from 0-100. So, if
 <td><p>CooldownMin</p></td>
 <td><p>CooldownMax</p></td>
 <td>0/1 Player Only</td>
-<td>On Target In Distance Out of Combat</td>
+<td>On Target In Distance Out of Combat; will trigger the first time after the cooldown has expired</td>
 </tr>
 <tr>
 <td><p>SMART_EVENT_RESPAWN</p></td>
@@ -853,7 +853,7 @@ This is the probability of the event to occur as a percentage from 0-100. So, if
 <tr>
 <td><p>SMART_EVENT_RECEIVE_EMOTE</p></td>
 <td><p>22</p></td>
-<td><p><a href="../../dbc/Emotes.md">EmoteId</a></p></td>
+<td><p><a href="../../dbc/Emotes.md#slash-commands">Slash Command ID</a></p></td>
 <td><p>CooldownMin</p></td>
 <td><p>CooldownMax</p></td>
 <td><p></p></td>
@@ -906,7 +906,7 @@ This is the probability of the event to occur as a percentage from 0-100. So, if
 <td><p>CooldownMin</p></td>
 <td><p>CooldownMax</p></td>
 <td>0/1 Player Only</td>
-<td>On Target In Distance In Combat</td>
+<td>On Target In Distance In Combat; will trigger the first time after the cooldown has expired</td>
 </tr>
 <tr>
 <td><p>SMART_EVENT_PASSENGER_BOARDED</p></td>
