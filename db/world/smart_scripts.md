@@ -3898,6 +3898,9 @@ If the start position distance is far away the circle movement speed will be dec
 <tr>
 <td><p>SMART_TARGET_HOSTILE_SECOND_AGGRO</p></td>
 <td><p>3</p></td>
+<td><p>maxDist</p></td>
+<td><p>playerOnly (0/1)</p></td>
+<td><p>powerType</p></td>
 <td><p><br />
 </p></td>
 <td><p><br />
@@ -3908,17 +3911,14 @@ If the start position distance is far away the circle movement speed will be dec
 </p></td>
 <td><p><br />
 </p></td>
-<td><p><br />
-</p></td>
-<td><p><br />
-</p></td>
-<td><p><br />
-</p></td>
-<td><p>Second highest aggro.</p></td>
+<td><p>Second highest aggro. Power type: 1 - Mana, 2 - Rage, 3 - Focus, 4 - Energy, 5 - Happiness, 6 - Rune, 7 - Runic Power</p></td>
 </tr>
 <tr>
 <td><p>SMART_TARGET_HOSTILE_LAST_AGGRO</p></td>
 <td><p>4</p></td>
+<td><p>maxDist</p></td>
+<td><p>playerOnly (0/1)</p></td>
+<td><p>powerType</p></td>
 <td><p><br />
 </p></td>
 <td><p><br />
@@ -3929,17 +3929,14 @@ If the start position distance is far away the circle movement speed will be dec
 </p></td>
 <td><p><br />
 </p></td>
-<td><p><br />
-</p></td>
-<td><p><br />
-</p></td>
-<td><p><br />
-</p></td>
-<td><p>Dead last on aggro.</p></td>
+<td><p>Dead last on aggro. Power type: see above</p></td>
 </tr>
 <tr>
 <td><p>SMART_TARGET_HOSTILE_RANDOM</p></td>
 <td><p>5</p></td>
+<td><p>maxDist</p></td>
+<td><p>playerOnly (0/1)</p></td>
+<td><p>powerType</p></td>
 <td><p><br />
 </p></td>
 <td><p><br />
@@ -3950,17 +3947,14 @@ If the start position distance is far away the circle movement speed will be dec
 </p></td>
 <td><p><br />
 </p></td>
-<td><p><br />
-</p></td>
-<td><p><br />
-</p></td>
-<td><p><br />
-</p></td>
-<td><p>Just any random target on our threat list.</p></td>
+<td><p>Just any random target on our threat list. Power type: see above</p></td>
 </tr>
 <tr>
 <td><p>SMART_TARGET_HOSTILE_RANDOM_NOT_TOP</p></td>
 <td><p>6</p></td>
+<td><p>maxDist</p></td>
+<td><p>playerOnly (0/1)</p></td>
+<td><p>powerType</p></td>
 <td><p><br />
 </p></td>
 <td><p><br />
@@ -3971,13 +3965,7 @@ If the start position distance is far away the circle movement speed will be dec
 </p></td>
 <td><p><br />
 </p></td>
-<td><p><br />
-</p></td>
-<td><p><br />
-</p></td>
-<td><p><br />
-</p></td>
-<td><p>Any random target except top threat.</p></td>
+<td><p>Any random target except top threat. Power type: see above</p></td>
 </tr>
 <tr>
 <td><p>SMART_TARGET_ACTION_INVOKER</p></td>

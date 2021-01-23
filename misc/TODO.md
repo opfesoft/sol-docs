@@ -2,6 +2,15 @@ TODOs:
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@0a8a7ef1 | 2021-01-22 |      | perhaps take over if nothing else is left to do; not really needed as this was also not the case on retail at the time; low prio |
+| sol@f9b836ef | 2021-01-22 | X    | wrong, has to update coordinates in quest\_poi\_points; done: sol@0e6eac8d |
+| sol@42244612 | 2021-01-19 |      | verify and rework SQL script |
+| sol@eddde219 | 2021-01-18 |      | INHABIT\_ROOT won't be taken over; rooting creatures should be handled via scripts, not via inhabit type; only fix the original issue |
+| sol@b2e7f397 | 2021-01-16 |      | verify and rework SQL script |
+| sol@943c1e7a | 2021-01-14 |      | verify changes |
+| sol@9c70c6e4 | 2021-01-14 |      | verify gameobjects and quest |
+| sol@d54a860a | 2021-01-13 |      | verify and rework SQL script |
+| sol@b9375fff | 2021-01-12 |      | verify and rework SQL script & code changes |
 | sol@adb877f2 | 2021-01-10 |      | verify and rework SQL script |
 | sol@7cf097ea | 2021-01-10 |      | take over if needed |
 | sol@3fb18944 | 2021-01-09 |      | deleting the second gossip option is wrong as the SAI triggers different spells depending on the selected option; also verify the quest chain, it should not be possible to have both bombing runs at the same time |
@@ -14,7 +23,7 @@ TODOs:
 | sol@9427da06 | 2021-01-06 |      | verify priest trainer spells |
 | sol@f869c17d | 2021-01-06 |      | use UPDATE instead of DELETE / INSERT |
 | sol@1a0e4fc6 | 2021-01-05 |      | changing the walk speed is wrong; adjust CreatureScript instead (also check and improve waypoints) |
-| sol@b2761626 | 2021-01-04 |      | verify solution (and bugfix sol@aeab8d8b; probably find a simpler way); very low prio as it's not really needed and could cause many unexpected bugs |
+| sol@b2761626 | 2021-01-04 |      | probably find a better solution (AC commit reverted with sol@df600f99); very low prio as it's not really needed and could cause many unexpected bugs |
 | sol@64c686c4 | 2021-01-04 |      | verify creature spawns |
 | sol@92881ad1 | 2021-01-04 |      | verify and rework SQL script |
 | sol@0bd7e9dd | 2021-01-03 |      | verify and rework SQL script |
@@ -28,7 +37,7 @@ TODOs:
 | sol@aec0dbb7 | 2020-12-25 |      | verify CreatureScript |
 | sol@d710057a | 2020-12-25 |      | verify and rework SQL script / CreatureScript |
 | sol@1f5babf0 | 2020-12-22 |      | take over if needed |
-| sol@dd9d9e0c | 2020-12-15 |      | verify and rework SQL script |
+| sol@dd9d9e0c | 2020-12-15 |      | verify and rework SQL script (see also AC commit sol@d54a860a) |
 | sol@086ad6c9 | 2020-12-13 |      | use the already existing broadcast texts |
 | sol@af53598f | 2020-12-11 |      | verify solution (and bugfixes sol@282966c1, sol@d3aff86c) |
 | sol@62cb1f36 | 2020-12-10 |      | verify and rework SQL script |
@@ -89,12 +98,12 @@ TODOs:
 | sol@3368e0f8 | 2020-10-08 |      | verify new creature positions |
 | sol@22f8195c | 2020-10-07 |      | verify changes and new creature ID |
 | sol@369d292c | 2020-10-07 |      | verify SQL script |
-| sol@b67c30e2 | 2020-10-03 |      | verify quest and texts; remove hard-coded gossip |
+| sol@b67c30e2 | 2020-10-03 | X    | verify quest and texts; remove hard-coded gossip; done: sol@cbe3c232 |
 | sol@3e81beac | 2020-09-28 | X    | verify and collect the SAI in a separate commit; done: sol@0fc62baf |
-| sol@72025003 | 2020-09-12 |      | verify and rework SAI |
+| sol@72025003 | 2020-09-12 | X    | SAI was just taken over from TC without further verification (it is only a small part of the scripts implementing the whole quest chain); Prince Sandoval is not attackable because UNIT\_FLAG\_IMMUNE\_TO\_PC is set; implement a better solution by taking over the TC scripts, verify, rework and adapt them to Sol and get rid of the CreatureScript "npc\_battle\_at\_valhalas"; done: sol@5c12a0bb |
 | sol@cc3c2ada | 2020-09-04 | X    | verify and collect the SAI in a separate commit; done: sol@0fc62baf |
-| sol@29f2c2ae | 2020-09-02 |      | create appropriate SAI scripts |
-| sol@a07c2b39 | 2020-09-01 |      | verify and rework SAI |
+| sol@29f2c2ae | 2020-09-02 |      | create appropriate SAI scripts using SMART\_ACTION\_MUSIC; low prio |
+| sol@a07c2b39 | 2020-09-01 | X    | verify and rework SAI; done: sol@97ab5224 |
 | sol@34d9998c | 2020-08-31 | X    | verify and rework SAI; done, script seems to be ok: sol@824a2fcf |
 | sol@5fd404de | 2020-08-29 | X    | verify and rework SAI; done: sol@9d5d1a41 |
 | sol@6f86643e | 2020-08-29 | X    | verify and rework SAI; done: sol@c2c53ea9 |
@@ -105,7 +114,7 @@ TODOs:
 | sol@68bd9985 | 2020-08-27 | X    | verify and rework SAI; done: sol@cbea7076 |
 | sol@e6b49e4a | 2020-08-26 | X    | verify and rework SAI; done: sol@dec28c8f |
 | sol@9bf66931 | 2020-08-25 | X    | verify and rework SAI; done: sol@e58260af |
-| sol@106f6f94 | 2020-08-19 |      | Rework SQL script as this one is buggy (e.g. no gameobject GUID specified); also Yor's SAI can be easily improved (no need to write a CreatureScript) |
+| sol@106f6f94 | 2020-08-19 | X    | Rework SQL script as this one is buggy (e.g. no gameobject GUID specified); also Yor's SAI can be easily improved (no need to write a CreatureScript); done: sol@fc3fd371 |
 | sol@f754c008 | 2020-08-15 | X    | verify and rework SAI; done: sol@b143cd27 |
 | sol@8b57a3e2 | 2020-08-13 | X    | verify and rework SAI; done: sol@d0ad6250 |
 | sol@3ddfb568 | 2020-08-12 | X    | verify and collect the SAI in a separate commit; done: sol@0fc62baf |

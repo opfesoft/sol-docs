@@ -8,9 +8,8 @@ This DBC contains emotes which can be used by NPCs.
 
 ## Structure
 
-|            |          |                                                                                                                       |
+| Column     | Type     | Comment                                                                                                               |
 |------------|----------|-----------------------------------------------------------------------------------------------------------------------|
-| **Column** | **Type** | **Comment**                                                                                                           |
 | 1          | long     | An ID for the emote. Must be unique.                                                                                  |
 | 2          | str      | A descriptive name for the emote.                                                                                     |
 | 3          | long     | Refers to an ID in [AnimationData](AnimationData.md). This is the ID of the animation to play.                        |
