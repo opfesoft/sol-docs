@@ -2,14 +2,16 @@ TODOs:
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@d60fbc8e | 2021-01-27 |      | verify and rework SQL script |
+| sol@d0c5bee5 | 2021-01-24 |      | compare with TC version |
 | sol@0a8a7ef1 | 2021-01-22 |      | perhaps take over if nothing else is left to do; not really needed as this was also not the case on retail at the time; low prio |
 | sol@f9b836ef | 2021-01-22 | X    | wrong, has to update coordinates in quest\_poi\_points; done: sol@0e6eac8d |
 | sol@42244612 | 2021-01-19 |      | verify and rework SQL script |
-| sol@eddde219 | 2021-01-18 |      | INHABIT\_ROOT won't be taken over; rooting creatures should be handled via scripts, not via inhabit type; only fix the original issue |
+| sol@eddde219 | 2021-01-18 | X    | INHABIT\_ROOT won't be taken over; rooting creatures should be handled via scripts, not via inhabit type (often UNIT\_FLAG2\_DISABLE\_TURN is also needed); only fix the issue mentioned in the PR: Webbed Crusader; done: sol@aebf05e9 |
 | sol@b2e7f397 | 2021-01-16 |      | verify and rework SQL script |
 | sol@943c1e7a | 2021-01-14 |      | verify changes |
 | sol@9c70c6e4 | 2021-01-14 |      | verify gameobjects and quest |
-| sol@d54a860a | 2021-01-13 |      | verify and rework SQL script |
+| sol@d54a860a | 2021-01-13 | X    | verify and rework SQL script; done: sol@682d0bc1 |
 | sol@b9375fff | 2021-01-12 |      | verify and rework SQL script & code changes |
 | sol@adb877f2 | 2021-01-10 |      | verify and rework SQL script |
 | sol@7cf097ea | 2021-01-10 |      | take over if needed |
@@ -31,30 +33,30 @@ TODOs:
 | sol@469d5a8b | 2021-01-02 |      | verify and rework SQL script |
 | sol@1e5e20ab | 2021-01-02 |      | verify and rework SQL script |
 | sol@f366db28 | 2021-01-01 |      | verify GOs and their associated quests before changing the respawn time |
-| sol@106684fb | 2020-12-31 |      | verify SQL script & quest |
+| sol@106684fb | 2020-12-31 |      | verify SQL script & quest; low prio |
 | sol@0264289f | 2020-12-29 |      | verify SQL script & texts |
 | sol@57a4f432 | 2020-12-27 |      | verify SQL script |
 | sol@aec0dbb7 | 2020-12-25 |      | verify CreatureScript |
 | sol@d710057a | 2020-12-25 |      | verify and rework SQL script / CreatureScript |
 | sol@1f5babf0 | 2020-12-22 |      | take over if needed |
-| sol@dd9d9e0c | 2020-12-15 |      | verify and rework SQL script (see also AC commit sol@d54a860a) |
-| sol@086ad6c9 | 2020-12-13 |      | use the already existing broadcast texts |
-| sol@af53598f | 2020-12-11 |      | verify solution (and bugfixes sol@282966c1, sol@d3aff86c) |
-| sol@62cb1f36 | 2020-12-10 |      | verify and rework SQL script |
-| sol@963553a9 | 2020-12-10 |      | verify and rework SQL script |
+| sol@dd9d9e0c | 2020-12-15 | X    | verify and rework SQL script (see also AC commit sol@d54a860a); was just taken over from TC without further verification or evaluation (several bugs, script can be simplified and improved at the same time); done: sol@682d0bc1 |
+| sol@086ad6c9 | 2020-12-13 | X    | use the already existing broadcast texts; done: sol@1ea51fe0 |
+| sol@af53598f | 2020-12-11 |      | verify solution (and bugfixes sol@282966c1, sol@d3aff86c); low prio |
+| sol@62cb1f36 | 2020-12-10 | X    | taken over: sol@91d42f37 |
+| sol@963553a9 | 2020-12-10 | X    | verify and rework SQL script; done: sol@a3c71145 |
 | sol@6d10d075 | 2020-12-09 | X    | verify and collect the SAI in a separate commit; done: sol@0fc62baf |
-| sol@04c245cf | 2020-12-04 |      | verify and rework SQL script |
-| sol@755e30f9 | 2020-12-04 |      | verify if this actually fixes anything; the original PR provides no description on the issue and contains no test specification (the attached backtrace is invalid: too old, contains no AC commit and line numbers also don't match) |
-| sol@5fe10355 | 2020-12-03 |      | verify SQL script and actual issue |
-| sol@0baecd3e | 2020-12-01 |      | check if this contains something useful; don't take over because it breaks the existing behaviour of creatures in dungeons following the player throughout the dungeon; fleeing creatures already fixed with commits sol@5d02c61f and sol@4caa8425 |
-| sol@1c30f878 | 2020-11-29 |      | verify and rework SQL script |
-| sol@01fa6257 | 2020-11-28 |      | verify changes and take over if needed |
-| sol@931609d2 | 2020-11-26 |      | find a better solution (restore the player's phases according to his auras) |
+| sol@04c245cf | 2020-12-04 | X    | verify and rework SQL script; done: sol@fc68abe6 |
+| sol@755e30f9 | 2020-12-04 |      | verify if this actually fixes anything; the original PR provides no description on the issue and contains no test specification (the attached backtrace is invalid: too old, contains no AC commit and line numbers also don't match); low prio |
+| sol@5fe10355 | 2020-12-03 | X    | verify SQL script and actual issue; done: sol@27ca9189 |
+| sol@0baecd3e | 2020-12-01 | X    | check if this contains something useful; don't take over because it breaks creatures following the player throughout the dungeon; fleeing creatures already fixed with commits sol@5d02c61f and sol@4caa8425; done: nothing will be taken over from this commit |
+| sol@1c30f878 | 2020-11-29 | X    | verify and rework SQL script; done: sol@5a2fe9dc |
+| sol@01fa6257 | 2020-11-28 |      | verify changes and take over if needed; low prio |
+| sol@931609d2 | 2020-11-26 | X    | taken over: sol@94f60176 |
 | sol@1a8110dc | 2020-11-25 | X    | use a creature pool instead of deleting the second spawn; done: sol@06e0a18a |
-| sol@2e39d452 | 2020-11-24 |      | verify and rework SQL script |
-| sol@5d3bb608 | 2020-11-23 |      | verify and only take over if actually needed (if so, also take over sol@2788d495); fix PvP flag for the NPCs |
-| sol@fb69db21 | 2020-11-19 |      | probably find a better solution (AC commit reverted with sol@35fb9f49, see new solution sol@af53598f and bugfixes sol@282966c1, sol@d3aff86c) |
-| sol@9a8aa615 | 2020-11-16 |      | verify and rework SQL script |
+| sol@2e39d452 | 2020-11-24 | X    | verify and rework SQL script; done: sol@23fbb3a2 |
+| sol@5d3bb608 | 2020-11-23 |      | verify and only take over if actually needed (if so, also take over sol@2788d495); fix PvP flag for the NPCs; low prio |
+| sol@fb69db21 | 2020-11-19 | X    | probably find a better solution; done: AC commit reverted with sol@35fb9f49, see new solution sol@af53598f and bugfixes sol@282966c1, sol@d3aff86c |
+| sol@9a8aa615 | 2020-11-16 | X    | verify and rework SQL script; done: sol@781df936 |
 | sol@17bfcb77 | 2020-11-14 | X    | take over if needed (compare with TC implementation); done: sol@dca0bcd0 |
 | sol@2788d495 | 2020-11-14 |      | take over if needed (compare with TC implementation) |
 | sol@75ea2170 | 2020-11-13 | X    | verify and rework SQL script; done: sol@78abbe20 |
@@ -72,15 +74,15 @@ TODOs:
 | sol@c563b3a6 | 2020-11-11 | X    | verify and rework SQL script; done: sol@11fe4f69 |
 | sol@8fbbf58c | 2020-11-10 | X    | verify and rework SQL script; done: sol@8ad44364 |
 | sol@1cccc8d4 | 2020-11-09 | X    | verify and rework SQL script; done: sol@8ad44364 |
-| sol@da4235cc | 2020-11-09 |      | verify loot and compare with TC version |
+| sol@da4235cc | 2020-11-09 | X    | verify loot and compare with TC version; done: sol@7cff8416 |
 | sol@e5fc4fca | 2020-11-08 | X    | verify and rework SQL script; done: sol@8ad44364 |
 | sol@9bb6b15c | 2020-11-08 | X    | verify and rework SQL script; done: sol@ee0ca7c5 |
-| sol@5254aec6 | 2020-11-07 |      | verify and compare with TC implementation |
+| sol@5254aec6 | 2020-11-07 | X    | verify and compare with TC implementation; done: sol@5b6922da |
 | sol@1dc1beb3 | 2020-11-06 | X    | verify and rework SQL script; done: sol@1807c1f4 |
 | sol@9763c4f4 | 2020-11-06 | X    | verify and rework SQL script; done: sol@6a23be7c |
-| sol@74a34b59 | 2020-11-06 |      | use correct position above ground, not in the cave |
-| sol@f4a5907a | 2020-11-06 |      | verify WP path |
-| sol@82ee9088 | 2020-11-02 |      | verify SQL script, compare with TC version |
+| sol@74a34b59 | 2020-11-06 | X    | remove Coilskar Assassins as they should only be spawned during quest "Escape from Coilskar Cistern" (side note: the quest is not scripted correctly and the whole area is also not populated); done: sol@c96a586e |
+| sol@f4a5907a | 2020-11-06 | X    | verify WP path; done: sol@4c9388d9 |
+| sol@82ee9088 | 2020-11-02 | X    | verify and rework SQL script; done: sol@8bd27087 |
 | sol@155e634b | 2020-11-01 | X    | verify and rework SQL script; done: sol@92215744 |
 | sol@d2ddf03c | 2020-10-31 | X    | verify and rework SQL script; done: sol@e53d1dc7 |
 | sol@cef27317 | 2020-10-31 | X    | verify and rework SQL script; done: sol@e90c034e |
@@ -91,13 +93,13 @@ TODOs:
 | sol@c4ded889 | 2020-10-26 | X    | verify and rework SQL script; done: sol@f35a4d57 |
 | sol@5ec25278 | 2020-10-25 | X    | verify and rework SQL script; done: sol@71f51551 |
 | sol@d07a34c1 | 2020-10-23 | X    | done: sol@91c47cb4 and sol@c129c06a; AC implementation for AURA\_INTERRUPT\_FLAG\_LEAVE\_COMBAT is at the wrong code place |
-| sol@d5bb6ba1 | 2020-10-21 |      | see also follow-up bugfix sol@b3a967db; could contain several other hidden bugs, so only take over if really needed and double-check the code changes in that case |
+| sol@d5bb6ba1 | 2020-10-21 |      | see also follow-up bugfix sol@b3a967db; could contain several other hidden bugs, so only take over if really needed and double-check the code changes in that case; low prio |
 | sol@ab5933ef | 2020-10-17 | X    | take over if needed; done: sol@79964075 |
-| sol@24cfa307 | 2020-10-11 |      | verify SQL script |
+| sol@24cfa307 | 2020-10-11 | X    | verify and rework SQL script; compare with TC version; low prio |
 | sol@4cca286a | 2020-10-09 | X    | verify and find a better solution as flying creatures respawn on the ground instead of their actual spawn point; done: sol@afa10355 |
-| sol@3368e0f8 | 2020-10-08 |      | verify new creature positions |
-| sol@22f8195c | 2020-10-07 |      | verify changes and new creature ID |
-| sol@369d292c | 2020-10-07 |      | verify SQL script |
+| sol@3368e0f8 | 2020-10-08 | X    | verify new creature positions; done: sol@1644948e |
+| sol@22f8195c | 2020-10-07 | X    | verify changes and new creature ID; done: sol@733de7ef |
+| sol@369d292c | 2020-10-07 | X    | verify SQL script; done: sol@d8fb966d |
 | sol@b67c30e2 | 2020-10-03 | X    | verify quest and texts; remove hard-coded gossip; done: sol@cbe3c232 |
 | sol@3e81beac | 2020-09-28 | X    | verify and collect the SAI in a separate commit; done: sol@0fc62baf |
 | sol@72025003 | 2020-09-12 | X    | SAI was just taken over from TC without further verification (it is only a small part of the scripts implementing the whole quest chain); Prince Sandoval is not attackable because UNIT\_FLAG\_IMMUNE\_TO\_PC is set; implement a better solution by taking over the TC scripts, verify, rework and adapt them to Sol and get rid of the CreatureScript "npc\_battle\_at\_valhalas"; done: sol@5c12a0bb |
