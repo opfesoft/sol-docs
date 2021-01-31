@@ -33,11 +33,11 @@ TODOs:
 | sol@469d5a8b | 2021-01-02 |      | verify and rework SQL script |
 | sol@1e5e20ab | 2021-01-02 |      | verify and rework SQL script |
 | sol@f366db28 | 2021-01-01 |      | verify GOs and their associated quests before changing the respawn time |
-| sol@106684fb | 2020-12-31 |      | verify SQL script & quest; low prio |
+| sol@106684fb | 2020-12-31 |      | verify SQL script & quest; low prio (Brewfest) |
 | sol@0264289f | 2020-12-29 |      | verify SQL script & texts |
 | sol@57a4f432 | 2020-12-27 |      | verify SQL script |
-| sol@aec0dbb7 | 2020-12-25 |      | verify CreatureScript |
-| sol@d710057a | 2020-12-25 |      | verify and rework SQL script / CreatureScript |
+| sol@aec0dbb7 | 2020-12-25 |      | verify CreatureScript; low prio (Dungeon) |
+| sol@d710057a | 2020-12-25 |      | verify and rework SQL script / CreatureScript; low prio (Dungeon) |
 | sol@1f5babf0 | 2020-12-22 |      | take over if needed |
 | sol@dd9d9e0c | 2020-12-15 | X    | verify and rework SQL script (see also AC commit sol@d54a860a); was just taken over from TC without further verification or evaluation (several bugs, script can be simplified and improved at the same time); done: sol@682d0bc1 |
 | sol@086ad6c9 | 2020-12-13 | X    | use the already existing broadcast texts; done: sol@1ea51fe0 |
@@ -50,7 +50,7 @@ TODOs:
 | sol@5fe10355 | 2020-12-03 | X    | verify SQL script and actual issue; done: sol@27ca9189 |
 | sol@0baecd3e | 2020-12-01 | X    | check if this contains something useful; don't take over because it breaks creatures following the player throughout the dungeon; fleeing creatures already fixed with commits sol@5d02c61f and sol@4caa8425; done: nothing will be taken over from this commit |
 | sol@1c30f878 | 2020-11-29 | X    | verify and rework SQL script; done: sol@5a2fe9dc |
-| sol@01fa6257 | 2020-11-28 |      | verify changes and take over if needed; low prio |
+| sol@01fa6257 | 2020-11-28 |      | verify changes and take over if needed; low prio (Dungeon) |
 | sol@931609d2 | 2020-11-26 | X    | taken over: sol@94f60176 |
 | sol@1a8110dc | 2020-11-25 | X    | use a creature pool instead of deleting the second spawn; done: sol@06e0a18a |
 | sol@2e39d452 | 2020-11-24 | X    | verify and rework SQL script; done: sol@23fbb3a2 |
@@ -95,7 +95,7 @@ TODOs:
 | sol@d07a34c1 | 2020-10-23 | X    | done: sol@91c47cb4 and sol@c129c06a; AC implementation for AURA\_INTERRUPT\_FLAG\_LEAVE\_COMBAT is at the wrong code place |
 | sol@d5bb6ba1 | 2020-10-21 |      | see also follow-up bugfix sol@b3a967db; could contain several other hidden bugs, so only take over if really needed and double-check the code changes in that case; low prio |
 | sol@ab5933ef | 2020-10-17 | X    | take over if needed; done: sol@79964075 |
-| sol@24cfa307 | 2020-10-11 | X    | verify and rework SQL script; compare with TC version; low prio |
+| sol@24cfa307 | 2020-10-11 | X    | verify and rework SQL script; compare with TC version; low prio (Brewfest) |
 | sol@4cca286a | 2020-10-09 | X    | verify and find a better solution as flying creatures respawn on the ground instead of their actual spawn point; done: sol@afa10355 |
 | sol@3368e0f8 | 2020-10-08 | X    | verify new creature positions; done: sol@1644948e |
 | sol@22f8195c | 2020-10-07 | X    | verify changes and new creature ID; done: sol@733de7ef |
@@ -104,7 +104,7 @@ TODOs:
 | sol@3e81beac | 2020-09-28 | X    | verify and collect the SAI in a separate commit; done: sol@0fc62baf |
 | sol@72025003 | 2020-09-12 | X    | SAI was just taken over from TC without further verification (it is only a small part of the scripts implementing the whole quest chain); Prince Sandoval is not attackable because UNIT\_FLAG\_IMMUNE\_TO\_PC is set; implement a better solution by taking over the TC scripts, verify, rework and adapt them to Sol and get rid of the CreatureScript "npc\_battle\_at\_valhalas"; done: sol@5c12a0bb |
 | sol@cc3c2ada | 2020-09-04 | X    | verify and collect the SAI in a separate commit; done: sol@0fc62baf |
-| sol@29f2c2ae | 2020-09-02 |      | create appropriate SAI scripts using SMART\_ACTION\_MUSIC; low prio |
+| sol@29f2c2ae | 2020-09-02 |      | create appropriate SAI scripts using SMART\_ACTION\_MUSIC; low prio (Brewfest) |
 | sol@a07c2b39 | 2020-09-01 | X    | verify and rework SAI; done: sol@97ab5224 |
 | sol@34d9998c | 2020-08-31 | X    | verify and rework SAI; done, script seems to be ok: sol@824a2fcf |
 | sol@5fd404de | 2020-08-29 | X    | verify and rework SAI; done: sol@9d5d1a41 |
