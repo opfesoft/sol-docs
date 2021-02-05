@@ -2,6 +2,14 @@ TODOs:
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@6e1fb0d5 | 2021-02-03 |      | take over if needed (compare with TC implementation) |
+| sol@c628cd77 | 2021-02-03 |      | verify SQL script; low prio (Lunar Festival) |
+| sol@f65cfb6f | 2021-02-02 |      | verify and rework SQL script |
+| sol@911ac12e | 2021-02-01 |      | verify SQL script; low prio (Lunar Festival) |
+| sol@9c239d17 | 2021-02-01 |      | verify SQL script; low prio (Lunar Festival) |
+| sol@c8f43d85 | 2021-02-01 |      | probably find a better solution for some of the changes; very low prio as it's not really needed and could cause many unexpected bugs / performance issues |
+| sol@fcad2b56 | 2021-01-31 |      | only take over name changes for attributes which are actually used in the code |
+| sol@6ef73413 | 2021-01-31 |      | verify CreatureScript; low prio (Dungeon) |
 | sol@d60fbc8e | 2021-01-27 |      | verify and rework SQL script |
 | sol@d0c5bee5 | 2021-01-24 |      | compare with TC version |
 | sol@0a8a7ef1 | 2021-01-22 |      | perhaps take over if nothing else is left to do; not really needed as this was also not the case on retail at the time; low prio |
@@ -12,7 +20,7 @@ TODOs:
 | sol@943c1e7a | 2021-01-14 |      | verify changes |
 | sol@9c70c6e4 | 2021-01-14 |      | verify gameobjects and quest |
 | sol@d54a860a | 2021-01-13 | X    | verify and rework SQL script; done: sol@682d0bc1 |
-| sol@b9375fff | 2021-01-12 |      | verify and rework SQL script & code changes |
+| sol@b9375fff | 2021-01-12 |      | verify and rework SQL script & code changes; low prio (Dungeon) |
 | sol@adb877f2 | 2021-01-10 |      | verify and rework SQL script |
 | sol@7cf097ea | 2021-01-10 |      | take over if needed |
 | sol@3fb18944 | 2021-01-09 |      | deleting the second gossip option is wrong as the SAI triggers different spells depending on the selected option; also verify the quest chain, it should not be possible to have both bombing runs at the same time |
@@ -22,20 +30,20 @@ TODOs:
 | sol@2dd6141a | 2021-01-07 |      | verify changes and take over if needed |
 | sol@ba534cea | 2021-01-07 |      | verify SAI |
 | sol@8b101654 | 2021-01-07 |      | verify and rework SQL script |
-| sol@9427da06 | 2021-01-06 |      | verify priest trainer spells |
+| sol@9427da06 | 2021-01-06 | X    | verify priest trainer spells; don't take over (Exodar is not far away, can use the priest trainer there) |
 | sol@f869c17d | 2021-01-06 |      | use UPDATE instead of DELETE / INSERT |
-| sol@1a0e4fc6 | 2021-01-05 |      | changing the walk speed is wrong; adjust CreatureScript instead (also check and improve waypoints) |
-| sol@b2761626 | 2021-01-04 |      | probably find a better solution (AC commit reverted with sol@df600f99); very low prio as it's not really needed and could cause many unexpected bugs |
-| sol@64c686c4 | 2021-01-04 |      | verify creature spawns |
-| sol@92881ad1 | 2021-01-04 |      | verify and rework SQL script |
-| sol@0bd7e9dd | 2021-01-03 |      | verify and rework SQL script |
+| sol@1a0e4fc6 | 2021-01-05 | x    | changing the walk speed is wrong; adjust CreatureScript instead (also check and improve waypoints); done: sol@14afdbb1 |
+| sol@b2761626 | 2021-01-04 | X    | probably find a better solution (AC commit reverted with sol@df600f99, see new solution sol@c8f43d85); very low prio as it's not really needed and could cause many unexpected bugs / performance issues |
+| sol@64c686c4 | 2021-01-04 | X    | verify creature spawns; done: sol@214894b7 |
+| sol@92881ad1 | 2021-01-04 | X    | verify and rework SQL script; implemented a new solution affecting the whole battle at the supply caravan: sol@7d4ef6a7 |
+| sol@0bd7e9dd | 2021-01-03 | X    | verify and rework SQL script; done: sol@cda2e09f |
 | sol@1078bf49 | 2021-01-03 | X    | use a better solution; done: sol@9c7d90d6 |
-| sol@469d5a8b | 2021-01-02 |      | verify and rework SQL script |
-| sol@1e5e20ab | 2021-01-02 |      | verify and rework SQL script |
-| sol@f366db28 | 2021-01-01 |      | verify GOs and their associated quests before changing the respawn time |
+| sol@469d5a8b | 2021-01-02 | X    | verify and rework SQL script; done: sol@e27e4857 |
+| sol@1e5e20ab | 2021-01-02 | X    | taken over: sol@039be9ea |
+| sol@f366db28 | 2021-01-01 | X    | verify GOs and their associated quests before changing the respawn time; done: sol@a85ca098 |
 | sol@106684fb | 2020-12-31 |      | verify SQL script & quest; low prio (Brewfest) |
-| sol@0264289f | 2020-12-29 |      | verify SQL script & texts |
-| sol@57a4f432 | 2020-12-27 |      | verify SQL script |
+| sol@0264289f | 2020-12-29 | X    | verify SQL script & texts; done: sol@5fd6cb2a |
+| sol@57a4f432 | 2020-12-27 | X    | verify SQL script; done: sol@7f9c41c0 |
 | sol@aec0dbb7 | 2020-12-25 |      | verify CreatureScript; low prio (Dungeon) |
 | sol@d710057a | 2020-12-25 |      | verify and rework SQL script / CreatureScript; low prio (Dungeon) |
 | sol@1f5babf0 | 2020-12-22 |      | take over if needed |

@@ -1672,7 +1672,7 @@ This is the probability of the event to occur as a percentage from 0-100. So, if
 <td><p>attackScriptOwner (0/1)</p></td>
 <td><p><br />
 </p></td>
-<td><p>Summon Unit; attackInvoker 1: attack target; attackInvoker 2: attack actual invoker</p></td>
+<td><p>Summon Unit; attackInvoker 1: attack target; attackInvoker 2: attack actual invoker; if an entity is specified as target and also coordinates are set (target x,y,z) those coordinates are handled as offset from the target's position</p></td>
 </tr>
 <tr>
 <td><p>SMART_ACTION_THREAT_SINGLE_PCT</p></td>
