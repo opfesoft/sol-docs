@@ -176,19 +176,6 @@ This table allows you to define conditions for various systems - Gossip, loot et
 </p></td>
 </tr>
 <tr>
-<td><p><a href="#scriptname">ScriptName</a></p></td>
-<td><p>char(64)</p></td>
-<td><p>signed</p></td>
-<td><p><br />
-</p></td>
-<td><p>NO</p></td>
-<td><p>' '</p></td>
-<td><p><br />
-</p></td>
-<td><p><br />
-</p></td>
-</tr>
-<tr>
 <td><p><a href="#comment">Comment</a></p></td>
 <td><p>varchar(255)</p></td>
 <td><p><br />
@@ -1125,10 +1112,6 @@ Id from [/src/server/game/Miscellaneous/SharedDefines.h#L1024](https://gitlab.co
 CONDITION\_SOURCE\_TYPE\_SPELL = 17
 
 (ErrorType must be SPELL\_FAILED\_CUSTOM\_ERROR (209) otherwise 0)
-
-### ScriptName
-
-The ScriptName this condition uses, if any.
 
 ### Comment
 

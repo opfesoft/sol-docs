@@ -435,33 +435,40 @@ The type of the creature.
 
 This field can control whether a mob is minable or herbable or lootable by engineer. If it is either of those three, then the loot given when it is skinned/mined will be stored in the [skinning_loot_template](loot_template.md) table. It also controls, whether this mob can be tamed by a hunter. Other fields have no special meaning on the serverside. The entire field will be send to the client in SMSG_CREATURE_QUERY_RESPONSE
 
-| Flag      |            | Name                                                 | Comments                                                                                   |
-|-----------|------------|------------------------------------------------------|--------------------------------------------------------------------------------------------|
-| 1         | 0x00000001 | CREATURE_TYPEFLAGS_TAMEABLE                          | Makes the mob tameable (must also be a beast and have family set)                          |
-| 2         | 0x00000002 | CREATURE_TYPEFLAGS_GHOST                             | Creature are also visible for not alive player. Allow gossip interaction if npcflag allow? |
-| 4         | 0x00000004 | CREATURE_TYPEFLAGS_BOSS                              | Changes creature's visible level to "??" in the creature's portrait - Immune to Knockback. |
-| 8         | 0x00000008 | CREATURE_TYPEFLAGS_DO_NOT_PLAY_WOUND_PARRY_ANIMATION | Does not play wound animation on parry.                                                    |
-| 16        | 0x00000010 | CREATURE_TYPEFLAGS_HIDE_FACTION_TOOLTIP              | Hides tooltip faction.                                                                     |
-| 32        | 0x00000020 | CREATURE_TYPEFLAGS_UNK6                              |                                                                                            |
-| 64        | 0x00000040 | CREATURE_TYPEFLAGS_SPELL_ATTACKABLE                  | Spell attackable.                                                                          |
-| 128       | 0x00000080 | CREATURE_TYPEFLAGS_DEAD_INTERACT                     | Player can interact with the creature if its dead (not player dead)                        |
-| 256       | 0x00000100 | CREATURE_TYPEFLAGS_HERBLOOT                          | Makes mob herbable                                                                         |
-| 512       | 0x00000200 | CREATURE_TYPEFLAGS_MININGLOOT                        | Makes mob minable                                                                          |
-| 1024      | 0x00000400 | CREATURE_TYPEFLAGS_DONT_LOG_DEATH                    | Does not combatlog death.                                                                  |
-| 2048      | 0x00000800 | CREATURE_TYPEFLAGS_MOUNTED_COMBAT                    | Creature can remain mounted when entering combat                                           |
-| 4096      | 0x00001000 | CREATURE_TYPEFLAGS_AID_PLAYERS                       | Can aid any player in combat if in range?                                                  |
-| 8192      | 0x00002000 | CREATURE_TYPEFLAGS_IS_PET_BAR_USED                   | Is using pet bar.                                                                          |
-| 16384     | 0x00004000 | CREATURE_TYPEFLAGS_MASK_UID                          |                                                                                            |
-| 32768     | 0x00008000 | CREATURE_TYPEFLAGS_ENGINEERLOOT                      | Makes mob lootable by engineer                                                             |
-| 65536     | 0x00010000 | CREATURE_TYPE_FLAG_EXOTIC_PET                        | Tamable as an exotic pet. Normal tamable flag must also be set.                            |
-| 131072    | 0x00020000 | CREATURE_TYPEFLAGS_USE_DEFAULT_COLLISION_BOX         | Collision related. (always using default collision box?)                                   |
-| 262144    | 0x00040000 | CREATURE_TYPEFLAGS_IS_SIEGE_WEAPON                   | Is siege weapon.                                                                           |
-| 524288    | 0x00080000 | CREATURE_TYPEFLAGS_PROJECTILE_COLLISION              | Projectiles can collide with this creature - interacts with TARGET_DEST_TRAJ               |
-| 1048576   | 0x00100000 | CREATURE_TYPEFLAGS_HIDE_NAMEPLATE                    | Hides nameplate.                                                                           |
-| 2097152   | 0x00200000 | CREATURE_TYPEFLAGS_DO_NOT_PLAY_MOUNTED_ANIMATIONS    | Does not play mounted animations.                                                          |
-| 4194304   | 0x00400000 | CREATURE_TYPEFLAGS_IS_LINK_ALL                       |                                                                                            |
-| 8388608   | 0x00800000 | CREATURE_TYPEFLAGS_INTERACT_ONLY_WITH_CREATOR        | Can only interact with its creator.                                                        |
-| 134217728 | 0x08000000 | CREATURE_TYPEFLAGS_FORCE_GOSSIP                      | Allows the creature to display a single gossip option.                                     |
+| Flag       |            | Name                                                 | Comments                                                                                   |
+|------------|------------|------------------------------------------------------|--------------------------------------------------------------------------------------------|
+| 1          | 0x00000001 | CREATURE_TYPE_FLAG_TAMEABLE_PET                      | Makes the mob tameable (must also be a beast and have family set)                          |
+| 2          | 0x00000002 | CREATURE_TYPE_FLAG_GHOST_VISIBLE                     | Creature are also visible for not alive player. Allow gossip interaction if npcflag allow? |
+| 4          | 0x00000004 | CREATURE_TYPE_FLAG_BOSS_MOB                          | Changes creature's visible level to "??" in the creature's portrait - Immune to Knockback. |
+| 8          | 0x00000008 | CREATURE_TYPE_FLAG_DO_NOT_PLAY_WOUND_PARRY_ANIMATION | Does not play wound animation on parry.                                                    |
+| 16         | 0x00000010 | CREATURE_TYPE_FLAG_HIDE_FACTION_TOOLTIP              | Hides tooltip faction.                                                                     |
+| 32         | 0x00000020 | CREATURE_TYPE_FLAG_UNK5                              |                                                                                            |
+| 64         | 0x00000040 | CREATURE_TYPE_FLAG_SPELL_ATTACKABLE                  | Spell attackable.                                                                          |
+| 128        | 0x00000080 | CREATURE_TYPE_FLAG_CAN_INTERACT_WHILE_DEAD           | Player can interact with the creature if its dead (not player dead)                        |
+| 256        | 0x00000100 | CREATURE_TYPE_FLAG_HERB_SKINNING_SKILL               | Makes mob herbable                                                                         |
+| 512        | 0x00000200 | CREATURE_TYPE_FLAG_MINING_SKINNING_SKILL             | Makes mob minable                                                                          |
+| 1024       | 0x00000400 | CREATURE_TYPE_FLAG_DO_NOT_LOG_DEATH                  | Does not combatlog death.                                                                  |
+| 2048       | 0x00000800 | CREATURE_TYPE_FLAG_MOUNTED_COMBAT_ALLOWED            | Creature can remain mounted when entering combat                                           |
+| 4096       | 0x00001000 | CREATURE_TYPE_FLAG_CAN_ASSISTS                       | Can aid any player in combat if in range?                                                  |
+| 8192       | 0x00002000 | CREATURE_TYPE_FLAG_IS_PET_BAR_USED                   | Is using pet bar.                                                                          |
+| 16384      | 0x00004000 | CREATURE_TYPE_FLAG_MASK_UID                          |                                                                                            |
+| 32768      | 0x00008000 | CREATURE_TYPE_FLAG_ENGINEERING_SKINNING_SKILL        | Makes mob lootable by engineer                                                             |
+| 65536      | 0x00010000 | CREATURE_TYPE_FLAG_EXOTIC_PET                        | Tamable as an exotic pet. Normal tamable flag must also be set.                            |
+| 131072     | 0x00020000 | CREATURE_TYPE_FLAG_USE_DEFAULT_COLLISION_BOX         | Collision related. (always using default collision box?)                                   |
+| 262144     | 0x00040000 | CREATURE_TYPE_FLAG_IS_SIEGE_WEAPON                   | Is siege weapon.                                                                           |
+| 524288     | 0x00080000 | CREATURE_TYPE_FLAG_CAN_COLLIDE_WITH_MISSILES         | Projectiles can collide with this creature - interacts with TARGET_DEST_TRAJ               |
+| 1048576    | 0x00100000 | CREATURE_TYPE_FLAG_HIDE_NAME_PLATE                   | Hides nameplate.                                                                           |
+| 2097152    | 0x00200000 | CREATURE_TYPE_FLAG_DO_NOT_PLAY_MOUNTED_ANIMATIONS    | Does not play mounted animations.                                                          |
+| 4194304    | 0x00400000 | CREATURE_TYPE_FLAG_IS_LINK_ALL                       |                                                                                            |
+| 8388608    | 0x00800000 | CREATURE_TYPE_FLAG_INTERACT_ONLY_WITH_CREATOR        | Can only interact with its creator.                                                        |
+| 16777216   | 0x01000000 | CREATURE_TYPE_FLAG_DO_NOT_PLAY_UNIT_EVENT_SOUNDS     |                                                                                            |
+| 33554432   | 0x02000000 | CREATURE_TYPE_FLAG_HAS_NO_SHADOW_BLOB                |                                                                                            |
+| 67108864   | 0x04000000 | CREATURE_TYPE_FLAG_TREAT_AS_RAID_UNIT                | Creature can be targeted by spells that require target to be in caster's party/raid        |
+| 134217728  | 0x08000000 | CREATURE_TYPE_FLAG_FORCE_GOSSIP                      | Allows the creature to display a single gossip option.                                     |
+| 268435456  | 0x10000000 | CREATURE_TYPE_FLAG_DO_NOT_SHEATHE                    |                                                                                            |
+| 536870912  | 0x20000000 | CREATURE_TYPE_FLAG_DO_NOT_TARGET_ON_INTERACTION      |                                                                                            |
+| 1073741824 | 0x40000000 | CREATURE_TYPE_FLAG_DO_NOT_RENDER_OBJECT_NAME         |                                                                                            |
+| 2147483648 | 0x80000000 | CREATURE_TYPE_FLAG_UNIT_IS_QUEST_BOSS                | Not verified                                                                               |
 
 #### lootid
 

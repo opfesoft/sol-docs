@@ -2,12 +2,14 @@ TODOs:
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
-| sol@6e1fb0d5 | 2021-02-03 |      | take over if needed (compare with TC implementation) |
+| sol@0f1633c9 | 2021-02-08 |      | find a better position |
+| sol@d9024111 | 2021-02-07 | X    | verify changes; update: won't take over; according to the 4.2.0 patch notes the Clearcasting buff was increased from 8 to 15 seconds, so 8 seconds is the correct value |
+| sol@6e1fb0d5 | 2021-02-03 | X    | take over if needed (additional AC commit: sol@bfcc3c6f); update: "spell\_school\_immune\_mask" won't be taken over; immunities should be handled via scripts |
 | sol@c628cd77 | 2021-02-03 |      | verify SQL script; low prio (Lunar Festival) |
 | sol@f65cfb6f | 2021-02-02 |      | verify and rework SQL script |
 | sol@911ac12e | 2021-02-01 |      | verify SQL script; low prio (Lunar Festival) |
 | sol@9c239d17 | 2021-02-01 |      | verify SQL script; low prio (Lunar Festival) |
-| sol@c8f43d85 | 2021-02-01 |      | probably find a better solution for some of the changes; very low prio as it's not really needed and could cause many unexpected bugs / performance issues |
+| sol@c8f43d85 | 2021-02-01 |      | probably find a better solution for some of the changes (also see bugfix sol@e7bfbe76); very low prio as it's not really needed and could cause many unexpected bugs / performance issues |
 | sol@fcad2b56 | 2021-01-31 |      | only take over name changes for attributes which are actually used in the code |
 | sol@6ef73413 | 2021-01-31 |      | verify CreatureScript; low prio (Dungeon) |
 | sol@d60fbc8e | 2021-01-27 |      | verify and rework SQL script |
@@ -15,24 +17,24 @@ TODOs:
 | sol@0a8a7ef1 | 2021-01-22 |      | perhaps take over if nothing else is left to do; not really needed as this was also not the case on retail at the time; low prio |
 | sol@f9b836ef | 2021-01-22 | X    | wrong, has to update coordinates in quest\_poi\_points; done: sol@0e6eac8d |
 | sol@42244612 | 2021-01-19 |      | verify and rework SQL script |
-| sol@eddde219 | 2021-01-18 | X    | INHABIT\_ROOT won't be taken over; rooting creatures should be handled via scripts, not via inhabit type (often UNIT\_FLAG2\_DISABLE\_TURN is also needed); only fix the issue mentioned in the PR: Webbed Crusader; done: sol@aebf05e9 |
+| sol@eddde219 | 2021-01-18 | X    | take over if needed; update: "INHABIT\_ROOT" won't be taken over; rooting creatures should be handled via scripts, not via inhabit type (often UNIT\_FLAG2\_DISABLE\_TURN is also needed); only fix the issue mentioned in the PR: Webbed Crusader; done: sol@aebf05e9 |
 | sol@b2e7f397 | 2021-01-16 |      | verify and rework SQL script |
 | sol@943c1e7a | 2021-01-14 |      | verify changes |
 | sol@9c70c6e4 | 2021-01-14 |      | verify gameobjects and quest |
 | sol@d54a860a | 2021-01-13 | X    | verify and rework SQL script; done: sol@682d0bc1 |
 | sol@b9375fff | 2021-01-12 |      | verify and rework SQL script & code changes; low prio (Dungeon) |
 | sol@adb877f2 | 2021-01-10 |      | verify and rework SQL script |
-| sol@7cf097ea | 2021-01-10 |      | take over if needed |
-| sol@3fb18944 | 2021-01-09 |      | deleting the second gossip option is wrong as the SAI triggers different spells depending on the selected option; also verify the quest chain, it should not be possible to have both bombing runs at the same time |
-| sol@b1452b5b | 2021-01-09 |      | verify and rework SQL script |
-| sol@c5fe21fe | 2021-01-08 |      | verify code and compare with TC |
-| sol@9592028a | 2021-01-08 |      | verify text changes |
-| sol@2dd6141a | 2021-01-07 |      | verify changes and take over if needed |
-| sol@ba534cea | 2021-01-07 |      | verify SAI |
-| sol@8b101654 | 2021-01-07 |      | verify and rework SQL script |
-| sol@9427da06 | 2021-01-06 | X    | verify priest trainer spells; don't take over (Exodar is not far away, can use the priest trainer there) |
-| sol@f869c17d | 2021-01-06 |      | use UPDATE instead of DELETE / INSERT |
-| sol@1a0e4fc6 | 2021-01-05 | x    | changing the walk speed is wrong; adjust CreatureScript instead (also check and improve waypoints); done: sol@14afdbb1 |
+| sol@7cf097ea | 2021-01-10 | X    | take over if needed; done: sol@2c297364 |
+| sol@3fb18944 | 2021-01-09 | X    | deleting the second gossip option is wrong as the SAI triggers different spells depending on the selected option; fixed the broadcast text ID concerning the second option: sol@bb8bbfd4; the bomber missions themselves should be improved, though |
+| sol@b1452b5b | 2021-01-09 | X    | verify and rework SQL script; update: won't take over: script is bugged (breaks quest "Re-Cursive"), double quest credit already fixed (see sol@c3976f48), SAI for Fizzcrank Survivor has been improved via sol@d9397bc4 |
+| sol@c5fe21fe | 2021-01-08 | X    | verify code and compare with TC; done: sol@2788a20b |
+| sol@9592028a | 2021-01-08 | X    | verify text changes; done: sol@2a824c2f |
+| sol@2dd6141a | 2021-01-07 | X    | verify changes and take over if needed; done: sol@b5f8d475 |
+| sol@ba534cea | 2021-01-07 | X    | verify SAI; not necessary to change the SAI; the actual issue here is that SmartAI does not check if the target is friendly if assisting another unit (fixed with sol@7f6c049a); nevertheless the quest "Ending Their World" should be improved as there are several issues (WP movement, talk texts, IC SAI etc.) |
+| sol@8b101654 | 2021-01-07 | X    | verify and rework SQL script; done: sol@3d693c03 |
+| sol@9427da06 | 2021-01-06 | X    | verify priest trainer spells; update: won't take over (Exodar is not far away, can use the priest trainer there) |
+| sol@f869c17d | 2021-01-06 | X    | use UPDATE instead of DELETE / INSERT; done: sol@ba69b4e0 |
+| sol@1a0e4fc6 | 2021-01-05 | X    | changing the walk speed is wrong; adjust CreatureScript instead (also check and improve waypoints); done: sol@14afdbb1 |
 | sol@b2761626 | 2021-01-04 | X    | probably find a better solution (AC commit reverted with sol@df600f99, see new solution sol@c8f43d85); very low prio as it's not really needed and could cause many unexpected bugs / performance issues |
 | sol@64c686c4 | 2021-01-04 | X    | verify creature spawns; done: sol@214894b7 |
 | sol@92881ad1 | 2021-01-04 | X    | verify and rework SQL script; implemented a new solution affecting the whole battle at the supply caravan: sol@7d4ef6a7 |
@@ -56,7 +58,7 @@ TODOs:
 | sol@04c245cf | 2020-12-04 | X    | verify and rework SQL script; done: sol@fc68abe6 |
 | sol@755e30f9 | 2020-12-04 |      | verify if this actually fixes anything; the original PR provides no description on the issue and contains no test specification (the attached backtrace is invalid: too old, contains no AC commit and line numbers also don't match); low prio |
 | sol@5fe10355 | 2020-12-03 | X    | verify SQL script and actual issue; done: sol@27ca9189 |
-| sol@0baecd3e | 2020-12-01 | X    | check if this contains something useful; don't take over because it breaks creatures following the player throughout the dungeon; fleeing creatures already fixed with commits sol@5d02c61f and sol@4caa8425; done: nothing will be taken over from this commit |
+| sol@0baecd3e | 2020-12-01 | X    | check if this contains something useful; update: won't take over because it breaks creatures following the player throughout the dungeon; fleeing creatures already fixed with commits sol@5d02c61f and sol@4caa8425; done: nothing will be taken over from this commit |
 | sol@1c30f878 | 2020-11-29 | X    | verify and rework SQL script; done: sol@5a2fe9dc |
 | sol@01fa6257 | 2020-11-28 |      | verify changes and take over if needed; low prio (Dungeon) |
 | sol@931609d2 | 2020-11-26 | X    | taken over: sol@94f60176 |
@@ -149,5 +151,5 @@ TODOs:
 | sol@83e46e20 | 2020-06-07 | X    | verify and collect the SAI in a separate commit; done: sol@0fc62baf |
 | sol@88590fe3 | 2020-06-07 | X    | verify and collect the SAI in a separate commit; done: sol@0fc62baf |
 | sol@ac355433 | 2020-06-05 | X    | verify and collect the SAI in a separate commit; done: sol@0fc62baf |
-| sol@9bd47bd5 | 2020-06-04 | X    | verify and collect the SAI in a separate commit; won't take over, as "Dazed" is obviously a wrong spell to use here |
+| sol@9bd47bd5 | 2020-06-04 | X    | verify and collect the SAI in a separate commit; update: won't take over, as "Dazed" is obviously a wrong spell to use here |
 | sol@ece33e4c | 2020-06-04 | X    | verify and collect the SAI in a separate commit; done: sol@0fc62baf |
