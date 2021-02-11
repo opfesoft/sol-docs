@@ -1608,7 +1608,7 @@ This is the probability of the event to occur as a percentage from 0-100. So, if
 <tr>
 <td><p>SMART_ACTION_SET_REACT_STATE</p></td>
 <td><p>8</p></td>
-<td><p><a href="https://gitlab.com/opfesoft/sol/-/blob/master/src/server/game/Entities/Unit/Unit.h#L1099">ReactState</a></p></td>
+<td><p><a href="https://gitlab.com/opfesoft/sol/-/blob/master/src/server/game/Entities/Unit/Unit.h#L1100">ReactState</a></p></td>
 <td><p><br />
 </p></td>
 <td><p><br />
@@ -2893,8 +2893,8 @@ quickChange 1 forces the creature to quickly change its orientation (useful if t
 <tr>
 <td><p>SMART_ACTION_SET_UNIT_FIELD_BYTES_1</p></td>
 <td><p>90</p></td>
-<td><p><a href="https://gitlab.com/opfesoft/sol/-/blob/master/src/server/game/Entities/Unit/Unit.h#L137">Value</a></p></td>
-<td><p><a href="https://gitlab.com/opfesoft/sol/-/blob/master/src/server/game/Entities/Unit/Unit.h#L137">Type</a></p></td>
+<td><p><a href="https://gitlab.com/opfesoft/sol/-/blob/master/src/server/game/Entities/Unit/Unit.h#L138">Value</a></p></td>
+<td><p><a href="https://gitlab.com/opfesoft/sol/-/blob/master/src/server/game/Entities/Unit/Unit.h#L138">Type</a></p></td>
 <td><p><br />
 </p></td>
 <td><p><br />
@@ -2909,8 +2909,8 @@ quickChange 1 forces the creature to quickly change its orientation (useful if t
 <tr>
 <td><p>SMART_ACTION_REMOVE_UNIT_FIELD_BYTES_1</p></td>
 <td><p>91</p></td>
-<td><p><a href="https://gitlab.com/opfesoft/sol/-/blob/master/src/server/game/Entities/Unit/Unit.h#L137">Value</a></p></td>
-<td><p><a href="https://gitlab.com/opfesoft/sol/-/blob/master/src/server/game/Entities/Unit/Unit.h#L137">Type</a></p></td>
+<td><p><a href="https://gitlab.com/opfesoft/sol/-/blob/master/src/server/game/Entities/Unit/Unit.h#L138">Value</a></p></td>
+<td><p><a href="https://gitlab.com/opfesoft/sol/-/blob/master/src/server/game/Entities/Unit/Unit.h#L138">Type</a></p></td>
 <td><p><br />
 </p></td>
 <td><p><br />

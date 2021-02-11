@@ -727,7 +727,7 @@ Add flags together for all races where condition is true.</td>
 <tr>
 <td>CONDITION_UNIT_STATE</td>
 <td>21</td>
-<td>UnitState (<a href="https://gitlab.com/opfesoft/sol/-/blob/master/src/server/game/Entities/Unit/Unit.h#L451">enum from Unit.h</a>)</td>
+<td>UnitState (<a href="https://gitlab.com/opfesoft/sol/-/blob/master/src/server/game/Entities/Unit/Unit.h#L452">enum from Unit.h</a>)</td>
 <td>Always 0</td>
 <td>Always 0</td>
 </tr>
@@ -1375,7 +1375,7 @@ Note: it will show or hide spells in vehicle spell bar.
 
 \***CONDITION\_UNIT\_STATE = 21**
 
--   -   ConditionValue1: UnitState ([enum](https://gitlab.com/opfesoft/sol/-/blob/master/src/server/game/Entities/Unit/Unit.h#L451)) 
+-   -   ConditionValue1: UnitState ([enum](https://gitlab.com/opfesoft/sol/-/blob/master/src/server/game/Entities/Unit/Unit.h#L452)) 
     -   ConditionValue2: always 0
     -   ConditionValue3: always 0
 
