@@ -2,24 +2,25 @@ TODOs:
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
-| sol@f9d0be8d | 2021-02-09 |      | verify and rework SQL script |
-| sol@0f1633c9 | 2021-02-08 |      | find a better position |
+| sol@32e48823 | 2021-02-13 |      | verify and rework SQL script |
+| sol@f9d0be8d | 2021-02-09 |      | verify and rework SQL script (also see bugfix sol@7d46e389) |
+| sol@0f1633c9 | 2021-02-08 | X    | find a better position; done: sol@9549ab5f |
 | sol@d9024111 | 2021-02-07 | X    | verify changes; update: won't take over; according to the 4.2.0 patch notes the Clearcasting buff was increased from 8 to 15 seconds, so 8 seconds is the correct value |
 | sol@6e1fb0d5 | 2021-02-03 | X    | take over if needed (additional AC commit: sol@bfcc3c6f); update: "spell\_school\_immune\_mask" won't be taken over; immunities should be handled via scripts |
 | sol@c628cd77 | 2021-02-03 |      | verify SQL script; low prio (Lunar Festival) |
 | sol@f65cfb6f | 2021-02-02 |      | verify and rework SQL script |
 | sol@911ac12e | 2021-02-01 |      | verify SQL script; low prio (Lunar Festival) |
 | sol@9c239d17 | 2021-02-01 |      | verify SQL script; low prio (Lunar Festival) |
-| sol@c8f43d85 | 2021-02-01 |      | probably find a better solution for some of the changes (also see bugfixes sol@e7bfbe76, sol@522eb9a7); very low prio as it's not really needed and could cause many unexpected bugs / performance issues |
+| sol@c8f43d85 | 2021-02-01 |      | probably find a better solution for some of the changes (also see bugfixes sol@e7bfbe76, sol@522eb9a7, sol@695a7402); very low prio as it's not really needed and could cause many unexpected bugs / performance issues |
 | sol@fcad2b56 | 2021-01-31 | X    | only take over name changes for attributes which are actually used in the code; done: sol@c9bae62c |
 | sol@6ef73413 | 2021-01-31 |      | verify CreatureScript (and bugfix sol@1a137dad); low prio (Dungeon) |
 | sol@d60fbc8e | 2021-01-27 |      | verify and rework SQL script |
-| sol@d0c5bee5 | 2021-01-24 |      | compare with TC version |
+| sol@d0c5bee5 | 2021-01-24 | X    | compare with TC version; done: sol@1eb9e027 |
 | sol@0a8a7ef1 | 2021-01-22 |      | perhaps take over if nothing else is left to do; not really needed as this was also not the case on retail at the time; low prio |
 | sol@f9b836ef | 2021-01-22 | X    | wrong, has to update coordinates in quest\_poi\_points; done: sol@0e6eac8d |
-| sol@42244612 | 2021-01-19 |      | verify and rework SQL script |
+| sol@42244612 | 2021-01-19 | X    | verify and rework SQL script; done: sol@54cb8ce2 |
 | sol@eddde219 | 2021-01-18 | X    | take over if needed; update: "INHABIT\_ROOT" won't be taken over; rooting creatures should be handled via scripts, not via inhabit type (often UNIT\_FLAG2\_DISABLE\_TURN is also needed); only fix the issue mentioned in the PR: Webbed Crusader; done: sol@aebf05e9 |
-| sol@b2e7f397 | 2021-01-16 |      | verify and rework SQL script |
+| sol@b2e7f397 | 2021-01-16 | X    | verify and rework SQL script; done: sol@862af8f7 |
 | sol@943c1e7a | 2021-01-14 | X    | verify changes; update: won't take over, as this is a bad player experience, even if this probably was the case on retail: setting PvP for these NPCs will cause the player to be flagged with PvP after healing the NPC; UNIT\_FLAG\_PVP\_ATTACKABLE suffices, the color of the NPC's portrait is irrelevant for the quests |
 | sol@9c70c6e4 | 2021-01-14 | X    | verify gameobjects and quest; done: sol@bffc89c6 |
 | sol@d54a860a | 2021-01-13 | X    | verify and rework SQL script; done: sol@682d0bc1 |
