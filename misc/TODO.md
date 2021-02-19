@@ -2,19 +2,21 @@ TODOs:
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
-| sol@32e48823 | 2021-02-13 |      | verify and rework SQL script |
-| sol@f9d0be8d | 2021-02-09 |      | verify and rework SQL script (also see bugfix sol@7d46e389) |
+| sol@2cd534de | 2021-02-16 |      | verify and rework SQL script |
+| sol@f6c2c903 | 2021-02-15 | X    | use UPDATE statements with regular expressions; update: the changes are not needed as the placeholders are handled in a case-insensitive way; only fix a wrong name placeholder by replacing $N$N with $B$B, see sol@542ecf4a |
+| sol@32e48823 | 2021-02-13 | X    | taken over: sol@6a0df2fa |
+| sol@f9d0be8d | 2021-02-09 | X    | verify and rework SQL script (also see bugfix sol@7d46e389); done: sol@30f81211 (only took over the emote state for the Valiance Keep Footman and the increased shooting range for the Valiance Keep Rifleman, the other changes are not needed) |
 | sol@0f1633c9 | 2021-02-08 | X    | find a better position; done: sol@9549ab5f |
 | sol@d9024111 | 2021-02-07 | X    | verify changes; update: won't take over; according to the 4.2.0 patch notes the Clearcasting buff was increased from 8 to 15 seconds, so 8 seconds is the correct value |
 | sol@6e1fb0d5 | 2021-02-03 | X    | take over if needed (additional AC commit: sol@bfcc3c6f); update: "spell\_school\_immune\_mask" won't be taken over; immunities should be handled via scripts |
 | sol@c628cd77 | 2021-02-03 |      | verify SQL script; low prio (Lunar Festival) |
-| sol@f65cfb6f | 2021-02-02 |      | verify and rework SQL script |
+| sol@f65cfb6f | 2021-02-02 | X    | verify and rework SQL script; done: sol@5805ce04 |
 | sol@911ac12e | 2021-02-01 |      | verify SQL script; low prio (Lunar Festival) |
 | sol@9c239d17 | 2021-02-01 |      | verify SQL script; low prio (Lunar Festival) |
-| sol@c8f43d85 | 2021-02-01 |      | probably find a better solution for some of the changes (also see bugfixes sol@e7bfbe76, sol@522eb9a7, sol@695a7402); very low prio as it's not really needed and could cause many unexpected bugs / performance issues |
+| sol@c8f43d85 | 2021-02-01 |      | perhaps try to find a better solution for some of the changes if nothing else is left to do (also see bugfixes sol@e7bfbe76, sol@522eb9a7, sol@695a7402); very low prio as it's not really needed and could cause many unexpected bugs / performance issues |
 | sol@fcad2b56 | 2021-01-31 | X    | only take over name changes for attributes which are actually used in the code; done: sol@c9bae62c |
 | sol@6ef73413 | 2021-01-31 |      | verify CreatureScript (and bugfix sol@1a137dad); low prio (Dungeon) |
-| sol@d60fbc8e | 2021-01-27 |      | verify and rework SQL script |
+| sol@d60fbc8e | 2021-01-27 | X    | verify and rework SQL script; done: sol@139c9572 |
 | sol@d0c5bee5 | 2021-01-24 | X    | compare with TC version; done: sol@1eb9e027 |
 | sol@0a8a7ef1 | 2021-01-22 |      | perhaps take over if nothing else is left to do; not really needed as this was also not the case on retail at the time; low prio |
 | sol@f9b836ef | 2021-01-22 | X    | wrong, has to update coordinates in quest\_poi\_points; done: sol@0e6eac8d |
@@ -29,7 +31,7 @@ TODOs:
 | sol@7cf097ea | 2021-01-10 | X    | take over if needed; done: sol@2c297364 |
 | sol@3fb18944 | 2021-01-09 | X    | deleting the second gossip option is wrong as the SAI triggers different spells depending on the selected option; fixed the broadcast text ID concerning the second option: sol@bb8bbfd4; the bomber missions themselves should be improved, though |
 | sol@b1452b5b | 2021-01-09 | X    | verify and rework SQL script; update: won't take over: script is bugged (breaks quest "Re-Cursive"), double quest credit already fixed (see sol@c3976f48), SAI for Fizzcrank Survivor has been improved via sol@d9397bc4 |
-| sol@c5fe21fe | 2021-01-08 | X    | verify code and compare with TC; done: sol@2788a20b |
+| sol@c5fe21fe | 2021-01-08 | X    | verify code and compare with TC; done: sol@8d4ddd4b |
 | sol@9592028a | 2021-01-08 | X    | verify text changes; done: sol@2a824c2f |
 | sol@2dd6141a | 2021-01-07 | X    | verify changes and take over if needed; done: sol@b5f8d475 |
 | sol@ba534cea | 2021-01-07 | X    | verify SAI; not necessary to change the SAI; the actual issue here is that SmartAI does not check if the target is friendly if assisting another unit (fixed with sol@7f6c049a); nevertheless the quest "Ending Their World" should be improved as there are several issues (WP movement, talk texts, IC SAI etc.) |
@@ -58,7 +60,7 @@ TODOs:
 | sol@963553a9 | 2020-12-10 | X    | verify and rework SQL script; done: sol@a3c71145 |
 | sol@6d10d075 | 2020-12-09 | X    | verify and collect the SAI in a separate commit; done: sol@0fc62baf |
 | sol@04c245cf | 2020-12-04 | X    | verify and rework SQL script; done: sol@fc68abe6 |
-| sol@755e30f9 | 2020-12-04 |      | verify if this actually fixes anything; the original PR provides no description on the issue and contains no test specification (the attached backtrace is invalid: too old, contains no AC commit and line numbers also don't match); low prio |
+| sol@755e30f9 | 2020-12-04 | X    | verify if this actually fixes anything; the original PR provides no description on the issue and contains no test specification (the attached backtrace is invalid: too old, contains no AC commit and line numbers also don't match); low prio; update: the actual issue here is that multiple threads have access to the player social map, so the access has to be synchronized (the changes in this commit are not needed and won't be taken over); done: sol@b665ca63 |
 | sol@5fe10355 | 2020-12-03 | X    | verify SQL script and actual issue; done: sol@27ca9189 |
 | sol@0baecd3e | 2020-12-01 | X    | check if this contains something useful; update: won't take over because it breaks creatures following the player throughout the dungeon; fleeing creatures already fixed with commits sol@5d02c61f and sol@4caa8425; done: nothing will be taken over from this commit |
 | sol@1c30f878 | 2020-11-29 | X    | verify and rework SQL script; done: sol@5a2fe9dc |
