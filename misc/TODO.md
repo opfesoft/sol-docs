@@ -2,6 +2,8 @@ TODOs:
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@f910d635 | 2021-02-21 |      | verify and rework SQL script |
+| sol@922f87e5 | 2021-02-21 |      | verify and rework SQL script |
 | sol@2cd534de | 2021-02-16 |      | verify and rework SQL script |
 | sol@f6c2c903 | 2021-02-15 | X    | use UPDATE statements with regular expressions; update: the changes are not needed as the placeholders are handled in a case-insensitive way; only fix a wrong name placeholder by replacing $N$N with $B$B, see sol@542ecf4a |
 | sol@32e48823 | 2021-02-13 | X    | taken over: sol@6a0df2fa |
