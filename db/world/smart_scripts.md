@@ -3701,19 +3701,18 @@ quickChange 1 forces the creature to quickly change its orientation (useful if t
 If the start position distance is far away the circle movement speed will be decreased following the second circle (this is the behaviour of the client which is reflected by the server)</p></td>
 </tr>
 <tr>
-<td><p>SMART_ACTION_COPY_HEALTH</p></td>
+<td><p>SMART_ACTION_SET_HEALTH</p></td>
 <td><p>232</p></td>
 <td><p>use percentage (0/1)</p></td>
 <td><p>copy from target (0/1)</p></td>
+<td><p>health</p></td>
 <td><p><br />
 </p></td>
 <td><p><br />
 </p></td>
 <td><p><br />
 </p></td>
-<td><p><br />
-</p></td>
-<td><p>Copy health, either from the first target to the script owner if "copy from target" is set to 1 or from the script owner to all targets if set to 0. Use percentage if "use percentage" is set to 1, otherwise the actual health amount.
+<td><p>If "health" is greater than 0 set the health on the target(s). Otherwise copy health, either from the first target to the script owner if "copy from target" is set to 1 or from the script owner to all targets if set to 0. Use percentage if "use percentage" is set to 1, otherwise the actual health amount.
 </tbody>
 </table>
 
