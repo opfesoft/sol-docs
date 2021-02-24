@@ -2,9 +2,13 @@
 
 ### Different kinds of waypoint paths
 
-- Waypoint paths directly attached to a creature via [creature_addon.path_id](../db/world/creature_addon.md#path_id) use the tables [waypoint_data](../db/world/waypoint_data.md) and [waypoint_scripts](../db/world/waypoint_scripts.md). They can be added and manipulated using the GM '.wp' commands.
+- Waypoint paths directly attached to a creature via [creature_addon.path_id](../db/world/creature_addon.md#path_id) use the tables [waypoint_data](../db/world/waypoint_data.md) and [waypoint_scripts](../db/world/waypoint_scripts.md). They can be added and manipulated using the GM '.wp' commands. **Important:** Whenever possible use "waypoint_data" to create paths. SmartAI can use the event "SMART_EVENT_MOVEMENTINFORM" and CreatureAI can override "MovementInform" to trigger specific actions if reaching a waypoint, it is not mandatory to use "waypoint_scripts". Also, "waypoint_data" is the only means of using [creature formations](../db/world/creature_formations.md) (you can use the SmartAI action "SMART_ACTION_FOLLOW" or the CreatureAI function "StartFollow", though, but this is not quite the same as creature formations).
+
+SmartAI and CreatureAI use their own waypoint path systems which are meant to be used primarily for escort quests (although they can be used for other events, too):
 - [SmartAI](../db/world/smart_scripts.md) uses waypoint paths defined in table [waypoints](../db/world/waypoints.md).
-- The table [script_waypoint](../db/world/script_waypoint.md) contains waypoint paths for [CreatureAI](https://gitlab.com/opfesoft/sol/-/blob/a9f083b64105c1d7ca8e750f984454c4b2822fb5/src/server/game/AI/ScriptedAI/ScriptedCreature.h#L159).
+- The table [script_waypoint](../db/world/script_waypoint.md) contains waypoint paths for [CreatureAI](https://gitlab.com/opfesoft/sol/-/blob/master/src/server/game/AI/CreatureAI.h).
+
+Side note: Because SmartAI is derived from CreatureAI both use the same movement generator for their paths: EscortMovementGenerator. The paths created via "waypoint_data" use WaypointMovementGenerator.
 
 ### Overview of GM '.wp' commands
 
