@@ -2,6 +2,11 @@ TODOs:
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@81957089 | 2021-02-28 |      | implement another solution (remark: the attacking NPCs should not transform to worgen at all; also delete the conditions which were used in the old SAI script to control the transformation according to the Pyrewood Village Event; this has been forgotten in the AC commit and will cause a bug in the SAI execution) |
+| sol@41fa30a5 | 2021-02-28 |      | the quest is working on Sol; the movement bugs described in the AC issue seem to be caused by AC commit sol@c8f43d85 (another good hint to not take this commit over); nevertheless, rework the existing SAI as it seems to be very old and the NPC following the player should indeed fight the enemies |
+| sol@573a5605 | 2021-02-25 |      | verify and rework SQL script |
+| sol@dbd78936 | 2021-02-24 |      | verify and rework SQL script; low prio (Dungeon: Gnomeregan) |
+| sol@ae2bd072 | 2021-02-24 |      | verify and rework SQL script; low prio (Dungeon: Gnomeregan) |
 | sol@f910d635 | 2021-02-21 |      | verify and rework SQL script |
 | sol@922f87e5 | 2021-02-21 |      | verify and rework SQL script |
 | sol@2cd534de | 2021-02-16 |      | verify and rework SQL script |
@@ -17,7 +22,7 @@ TODOs:
 | sol@9c239d17 | 2021-02-01 |      | verify SQL script; low prio (Lunar Festival) |
 | sol@c8f43d85 | 2021-02-01 |      | perhaps try to find a better solution for some of the changes if nothing else is left to do (also see bugfixes sol@e7bfbe76, sol@522eb9a7, sol@695a7402); very low prio as it's not really needed and could cause many unexpected bugs / performance issues |
 | sol@fcad2b56 | 2021-01-31 | X    | only take over name changes for attributes which are actually used in the code; done: sol@c9bae62c |
-| sol@6ef73413 | 2021-01-31 |      | verify CreatureScript (and bugfix sol@1a137dad); low prio (Dungeon) |
+| sol@6ef73413 | 2021-01-31 |      | verify CreatureScript (and bugfix sol@1a137dad); low prio (Dungeon: Blackwing Lair) |
 | sol@d60fbc8e | 2021-01-27 | X    | verify and rework SQL script; done: sol@139c9572 |
 | sol@d0c5bee5 | 2021-01-24 | X    | compare with TC version; done: sol@1eb9e027 |
 | sol@0a8a7ef1 | 2021-01-22 |      | perhaps take over if nothing else is left to do; not really needed as this was also not the case on retail at the time; low prio |
@@ -28,7 +33,7 @@ TODOs:
 | sol@943c1e7a | 2021-01-14 | X    | verify changes; update: won't take over, as this is a bad player experience, even if this probably was the case on retail: setting PvP for these NPCs will cause the player to be flagged with PvP after healing the NPC; UNIT\_FLAG\_PVP\_ATTACKABLE suffices, the color of the NPC's portrait is irrelevant for the quests |
 | sol@9c70c6e4 | 2021-01-14 | X    | verify gameobjects and quest; done: sol@bffc89c6 |
 | sol@d54a860a | 2021-01-13 | X    | verify and rework SQL script; done: sol@682d0bc1 |
-| sol@b9375fff | 2021-01-12 |      | verify and rework SQL script & code changes; low prio (Dungeon) |
+| sol@b9375fff | 2021-01-12 |      | verify and rework SQL script & code changes; low prio (Dungeon: The Oculus) |
 | sol@adb877f2 | 2021-01-10 | X    | verify and rework SQL script; done: sol@61bc5bfc |
 | sol@7cf097ea | 2021-01-10 | X    | take over if needed; done: sol@2c297364 |
 | sol@3fb18944 | 2021-01-09 | X    | deleting the second gossip option is wrong as the SAI triggers different spells depending on the selected option; fixed the broadcast text ID concerning the second option: sol@bb8bbfd4; the bomber missions themselves should be improved, though |
@@ -52,8 +57,8 @@ TODOs:
 | sol@106684fb | 2020-12-31 |      | verify SQL script & quest; low prio (Brewfest) |
 | sol@0264289f | 2020-12-29 | X    | verify SQL script & texts; done: sol@5fd6cb2a |
 | sol@57a4f432 | 2020-12-27 | X    | verify SQL script; done: sol@7f9c41c0 |
-| sol@aec0dbb7 | 2020-12-25 |      | verify CreatureScript; low prio (Dungeon) |
-| sol@d710057a | 2020-12-25 |      | verify and rework SQL script / CreatureScript; low prio (Dungeon) |
+| sol@aec0dbb7 | 2020-12-25 |      | verify CreatureScript; low prio (Dungeon: Ulduar) |
+| sol@d710057a | 2020-12-25 |      | verify and rework SQL script / CreatureScript; low prio (Dungeon: Ulduar) |
 | sol@1f5babf0 | 2020-12-22 |      | take over if needed |
 | sol@dd9d9e0c | 2020-12-15 | X    | verify and rework SQL script (see also AC commit sol@d54a860a); was just taken over from TC without further verification or evaluation (several bugs, script can be simplified and improved at the same time); done: sol@682d0bc1 |
 | sol@086ad6c9 | 2020-12-13 | X    | use the already existing broadcast texts; done: sol@1ea51fe0 |
@@ -66,7 +71,7 @@ TODOs:
 | sol@5fe10355 | 2020-12-03 | X    | verify SQL script and actual issue; done: sol@27ca9189 |
 | sol@0baecd3e | 2020-12-01 | X    | check if this contains something useful; update: won't take over because it breaks creatures following the player throughout the dungeon; fleeing creatures already fixed with commits sol@5d02c61f and sol@4caa8425; done: nothing will be taken over from this commit |
 | sol@1c30f878 | 2020-11-29 | X    | verify and rework SQL script; done: sol@5a2fe9dc |
-| sol@01fa6257 | 2020-11-28 |      | verify changes and take over if needed; low prio (Dungeon) |
+| sol@01fa6257 | 2020-11-28 |      | verify changes and take over if needed; low prio (Dungeon: Obsidian Sanctum) |
 | sol@931609d2 | 2020-11-26 | X    | taken over: sol@94f60176 |
 | sol@1a8110dc | 2020-11-25 | X    | use a creature pool instead of deleting the second spawn; done: sol@06e0a18a |
 | sol@2e39d452 | 2020-11-24 | X    | verify and rework SQL script; done: sol@23fbb3a2 |
