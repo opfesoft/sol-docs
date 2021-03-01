@@ -129,17 +129,10 @@ create database world;
 exit
 ```
 
-- Assemble data:
+- Assemble and import data:
 ```
-cd ~/sol/apps/db_assembler
-bash db_assembler.sh
-```
-
-Choose 1) to assemble all and then 9) to quit.
-
-- Import data:
-```
-cd ~/sol/env/dist/sql
+cd ~/sol/local/sql
+bash ~/sol/apps/db_assembler/db_assembler.sh 1
 mysql -e "SET GLOBAL max_allowed_packet=128*1024*1024;"
 mysql --default-character-set=utf8 auth       <auth_base.sql
 mysql --default-character-set=utf8 auth       <auth_updates.sql
