@@ -329,9 +329,11 @@ This can be left at 0 and a random model from its assigned models in [creature\_
 
 The ID as defined within [creature\_equip\_template](creature_equip_template.md) corresponding to the [entry](creature_template.md). The value essential defines the equip:
 
--   ** -1**: A random equip from the set of equips in [creature\_equip\_template](creature_equip_template.md) will be chosen.
--   **  0**: No equipment defined.
+-   **-1**: A random equip from the set of equips in [creature\_equip\_template](creature_equip_template.md) will be chosen.
+-   **0**: No equipment defined.
 -   **1+**: The individual id within creature\_equip\_template.
+
+The equipment ID specified here is only used for the initial spawn. If the equipment is changed via scripts the creature will keep the new equipment on respawn.
 
 If a creature is spawned via GM command `.npc add`, then this value will be set automatically (0 if no equip specified in creature\_equip\_template, otherwise the equipment with [id](creature_equip_template.md#id) 1).
 

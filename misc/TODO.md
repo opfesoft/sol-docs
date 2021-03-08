@@ -2,6 +2,13 @@ TODOs:
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@1e90722a | 2021-03-07 |      | verify and rework SQL script |
+| sol@53d73416 | 2021-03-07 |      | broadcast text ID already fixed with commit sol@3e648f34, but the quest does not seem to be working correctly; compare with "official" walkthrough |
+| sol@9239f033 | 2021-03-07 |      | creature IDs 4295 and 4300 should keep their talk actions, but it is necessary to clean up the creature texts and adjust their SAI |
+| sol@303ba07b | 2021-03-07 |      | the spell "New Summon Test" is obviously wrong here, so instead of manipulating the Spell DBC improve the spell script "spell\_q9452\_cast\_net" to directly summon the creature with an appropriate summon type |
+| sol@bfb6faa2 | 2021-03-06 |      | wrong; instead of deleting the reference loot ID from creature 16348 remove item 2088 from reference loot ID 24076 and add the item directly to the loot of creature 831 (see TC version) |
+| sol@a269c51d | 2021-03-05 |      | verify deleted loot and compare with TC version |
+| sol@727590dc | 2021-03-04 |      | verify and rework SQL script |
 | sol@81957089 | 2021-02-28 |      | implement another solution (remark: the attacking NPCs should not transform to worgen at all; also delete the conditions which were used in the old SAI script to control the transformation according to the Pyrewood Village Event; this has been forgotten in the AC commit and will cause a bug in the SAI execution) |
 | sol@41fa30a5 | 2021-02-28 |      | the quest is working on Sol; the movement bugs described in the AC issue seem to be caused by AC commit sol@c8f43d85 (another good hint to not take this commit over); nevertheless, rework the existing SAI as it seems to be very old and the NPC following the player should indeed fight the enemies |
 | sol@573a5605 | 2021-02-25 |      | verify and rework SQL script |
