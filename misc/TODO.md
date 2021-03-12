@@ -2,6 +2,13 @@ TODOs:
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@30b3d74f | 2021-03-11 |      | verify and rework SQL script (perhaps just fix the CreatureScript instead) |
+| sol@7b7dac05 | 2021-03-11 |      | verify new position; use UPDATE statement |
+| sol@57c32ec4 | 2021-03-11 |      | verify and rework SQL script |
+| sol@3846caab | 2021-03-11 |      | verify rare creatures, take over and rework only the missing ones; low prio |
+| sol@646f6657 | 2021-03-10 |      | try to find a better solution without manipulating Spell DBC and also addressing the other affected mechanical creatures |
+| sol@9e17e139 | 2021-03-09 |      | verify SQL script; low prio (Hallow's End) |
+| sol@9d096233 | 2021-03-09 |      | verify SQL script (see also AC commit sol@671c4dc5); low prio (Dungeon: Naxxramas) |
 | sol@1e90722a | 2021-03-07 |      | verify and rework SQL script |
 | sol@53d73416 | 2021-03-07 |      | broadcast text ID already fixed with commit sol@3e648f34, but the quest does not seem to be working correctly; compare with "official" walkthrough |
 | sol@9239f033 | 2021-03-07 |      | creature IDs 4295 and 4300 should keep their talk actions, but it is necessary to clean up the creature texts and adjust their SAI |
