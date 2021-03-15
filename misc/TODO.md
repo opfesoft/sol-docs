@@ -2,6 +2,13 @@ TODOs:
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@80f665cd | 2021-03-14 |      | verify new positions; use UPDATE statement |
+| sol@f8b9a273 | 2021-03-14 |      | verify new positions; use UPDATE statement |
+| sol@3d0192fa | 2021-03-14 |      | verify changes |
+| sol@dd7027dc | 2021-03-14 |      | verify and rework SQL script |
+| sol@b514dfb9 | 2021-03-14 |      | explode visual is not shown; try to find another solution |
+| sol@cfadd5a8 | 2021-03-14 |      | verify and rework SQL script |
+| sol@79504214 | 2021-03-14 |      | verify and rework SQL script (also remove sneak visual as this is added through the spell) |
 | sol@30b3d74f | 2021-03-11 |      | verify and rework SQL script (perhaps just fix the CreatureScript instead) |
 | sol@7b7dac05 | 2021-03-11 |      | verify new position; use UPDATE statement |
 | sol@57c32ec4 | 2021-03-11 |      | verify and rework SQL script |
