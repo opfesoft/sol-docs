@@ -6,20 +6,20 @@ TODOs:
 | sol@f8b9a273 | 2021-03-14 |      | verify new positions; use UPDATE statement |
 | sol@3d0192fa | 2021-03-14 |      | verify changes |
 | sol@dd7027dc | 2021-03-14 |      | verify and rework SQL script |
-| sol@b514dfb9 | 2021-03-14 |      | explode visual is not shown; try to find another solution |
+| sol@b514dfb9 | 2021-03-14 | X    | explode visual is not shown; try to find another solution; done: sol@8c3bd5a5 |
 | sol@cfadd5a8 | 2021-03-14 |      | verify and rework SQL script |
 | sol@79504214 | 2021-03-14 |      | verify and rework SQL script (also remove sneak visual as this is added through the spell) |
-| sol@30b3d74f | 2021-03-11 |      | verify and rework SQL script (perhaps just fix the CreatureScript instead) |
+| sol@30b3d74f | 2021-03-11 |      | verify and rework SQL script (perhaps just fix the CreatureScript instead); also don't manipulate the faction template DBC as this is the wrong way to solve the issues (faction is used by multiple creatures and can cause issues with the other ones); use the correct spell to transform to bear form |
 | sol@7b7dac05 | 2021-03-11 |      | verify new position; use UPDATE statement |
 | sol@57c32ec4 | 2021-03-11 |      | verify and rework SQL script |
 | sol@3846caab | 2021-03-11 |      | verify rare creatures, take over and rework only the missing ones; low prio |
-| sol@646f6657 | 2021-03-10 |      | try to find a better solution without manipulating Spell DBC and also addressing the other affected mechanical creatures |
+| sol@646f6657 | 2021-03-10 | X    | try to find a better solution without manipulating Spell DBC and also addressing the other affected mechanical creatures; done: sol@ef11a791 |
 | sol@9e17e139 | 2021-03-09 |      | verify SQL script; low prio (Hallow's End) |
 | sol@9d096233 | 2021-03-09 |      | verify SQL script (see also AC commit sol@671c4dc5); low prio (Dungeon: Naxxramas) |
 | sol@1e90722a | 2021-03-07 |      | verify and rework SQL script |
 | sol@53d73416 | 2021-03-07 |      | broadcast text ID already fixed with commit sol@3e648f34, but the quest does not seem to be working correctly; compare with "official" walkthrough |
 | sol@9239f033 | 2021-03-07 |      | creature IDs 4295 and 4300 should keep their talk actions, but it is necessary to clean up the creature texts and adjust their SAI |
-| sol@303ba07b | 2021-03-07 |      | the spell "New Summon Test" is obviously wrong here, so instead of manipulating the Spell DBC improve the spell script "spell\_q9452\_cast\_net" to directly summon the creature with an appropriate summon type |
+| sol@303ba07b | 2021-03-07 | X    | the spell "New Summon Test" is obviously wrong here, so instead of manipulating the Spell DBC improve the spell script "spell\_q9452\_cast\_net" to directly summon the creature with an appropriate summon type; done: sol@b773b702 |
 | sol@bfb6faa2 | 2021-03-06 |      | wrong; instead of deleting the reference loot ID from creature 16348 remove item 2088 from reference loot ID 24076 and add the item directly to the loot of creature 831 (see TC version) |
 | sol@a269c51d | 2021-03-05 |      | verify deleted loot and compare with TC version |
 | sol@727590dc | 2021-03-04 |      | verify and rework SQL script |
