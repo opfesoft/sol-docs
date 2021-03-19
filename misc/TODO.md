@@ -2,6 +2,12 @@ TODOs:
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@2ec26893 | 2021-03-18 |      | change pool template ID as this one will overwrite "Minerals - Rolands Doom - Duskwood" from AC commit sol@910106a0 |
+| sol@8119bff9 | 2021-03-18 |      | verify and rework SQL script; also check event script 5991 |
+| sol@79420c86 | 2021-03-17 |      | position the creature in the water nearby |
+| sol@0d19ac43 | 2021-03-17 |      | verify changes; low prio (Dungeon: Ulduar) |
+| sol@252f56c0 | 2021-03-17 |      | verify changes; low prio (Dungeon: Ulduar) |
+| sol@99c2efe3 | 2021-03-16 |      | verify issue & solution |
 | sol@80f665cd | 2021-03-14 |      | verify new positions; use UPDATE statement |
 | sol@f8b9a273 | 2021-03-14 |      | verify new positions; use UPDATE statement |
 | sol@3d0192fa | 2021-03-14 |      | verify changes |
