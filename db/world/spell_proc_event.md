@@ -120,6 +120,8 @@ A bitmask controlling what events trigger the spell. To combine possible events,
 | PROC_EX_EX_TRIGGER_ALWAYS   | 0x0010000 | If set trigger always ( no matter another flags) used for drop charges                |
 | PROC_EX_EX_ONE_TIME_TRIGGER | 0x0020000 | If set trigger always but only one time                                               |
 | PROC_EX_ONLY_ACTIVE_SPELL   | 0x0040000 | Spell has to do damage/heal to proc                                                   |
+| PROC_EX_NO_OVERHEAL         | 0x0080000 | Proc if heal did some work                                                            |
+| PROC_EX_NO_AURA_REFRESH     | 0x0100000 | Proc if aura was not refreshed                                                        |
 
 ### ppmRate
 

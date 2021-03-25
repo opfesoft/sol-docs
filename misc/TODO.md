@@ -2,6 +2,13 @@ TODOs:
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@8ba442bd | 2021-03-23 |      | verify changes; low prio (Dungeon: Naxxramas) |
+| sol@485f7e76 | 2021-03-21 |      | try to find a less intrusive solution instead of taking over all of the TC refactoring |
+| sol@9f354db7 | 2021-03-21 |      | verify changes |
+| sol@41ea3394 | 2021-03-20 |      | only take over the Perry Gatner event if there is nothing else to do (the event itself is rather annoying); quest "Stranglethorn Fever" already fixed with commit sol@293d7d38; very low prio |
+| sol@3306f925 | 2021-03-20 |      | verify/rework SQL script |
+| sol@156f7966 | 2021-03-20 |      | verify/rework SQL script |
+| sol@aea4ce30 | 2021-03-20 |      | verify changes; low prio (Dungeon: Ulduar) |
 | sol@2ec26893 | 2021-03-18 |      | change pool template ID as this one will overwrite "Minerals - Rolands Doom - Duskwood" from AC commit sol@910106a0 |
 | sol@8119bff9 | 2021-03-18 |      | verify and rework SQL script; also check event script 5991 |
 | sol@79420c86 | 2021-03-17 |      | position the creature in the water nearby |
@@ -47,7 +54,7 @@ TODOs:
 | sol@f65cfb6f | 2021-02-02 | X    | verify and rework SQL script; done: sol@5805ce04 |
 | sol@911ac12e | 2021-02-01 |      | verify SQL script; low prio (Lunar Festival) |
 | sol@9c239d17 | 2021-02-01 |      | verify SQL script; low prio (Lunar Festival) |
-| sol@c8f43d85 | 2021-02-01 |      | perhaps try to find a better solution for some of the changes if nothing else is left to do (also see bugfixes sol@e7bfbe76, sol@522eb9a7, sol@695a7402); very low prio as it's not really needed and could cause many unexpected bugs / performance issues |
+| sol@c8f43d85 | 2021-02-01 |      | perhaps try to find a better solution for some of the changes if nothing else is left to do (also see bugfixes sol@e7bfbe76, sol@522eb9a7, sol@695a7402, sol@b2f6a36c, sol@1d5cc1fb); very low prio as it's not really needed and could cause many unexpected bugs / performance issues |
 | sol@fcad2b56 | 2021-01-31 | X    | only take over name changes for attributes which are actually used in the code; done: sol@c9bae62c |
 | sol@6ef73413 | 2021-01-31 |      | verify CreatureScript (and bugfix sol@1a137dad); low prio (Dungeon: Blackwing Lair) |
 | sol@d60fbc8e | 2021-01-27 | X    | verify and rework SQL script; done: sol@139c9572 |
