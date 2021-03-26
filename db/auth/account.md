@@ -44,20 +44,6 @@ This table holds information on all available accounts.
 </p></td>
 </tr>
 <tr>
-<td><p><a href="#sha_pass_hash">sha_pass_hash</a></p></td>
-<td><p>varchar(40)</p></td>
-<td><p><br />
-</p></td>
-<td><p><br />
-</p></td>
-<td><p>NO</p></td>
-<td><p>&quot;</p></td>
-<td><p><br />
-</p></td>
-<td><p><br />
-</p></td>
-</tr>
-<tr>
 <td><p><a href="#sessionkey">sessionkey</a></p></td>
 <td><p>varchar(80)</p></td>
 <td><p><br />
@@ -324,30 +310,18 @@ The unique account ID.
 
 The account username.
 
-**NOTE**: Usernames are limited to 20 characters.
-
-### sha\_pass\_hash
-
-This field contains the encrypted password. The encryption is SHA1 and is in the following format: username:password. The SQL to create the password (or to compare with the current hash) is:
-
-| Language | Code                                                                |
-|----------|---------------------------------------------------------------------|
-| SQL      | UPPER(SHA1(CONCAT(UPPER('myusername'), ':', UPPER('mypass'))));     |
-| PHP      | strtoupper(sha1(strtoupper($username).':'.strtoupper($password)));  |
-
-**NOTE**: Passwords are limited to 16 characters.
+**NOTE**: Usernames are limited to 20 characters and are case insensitive.
 
 ### sessionkey
 
-`field-no-description|5`
+Session key negotiated between the client and the server. Allows clients to reconnect to their previous session.
 
 ### v
 ### s
 
-v and s fields are used by server authentication system since the client uses a SRP6 protocol to handle authentication
+Contains the verifier "v" and the salt "s" used to verify the username/password. See <https://en.wikipedia.org/wiki/Secure_Remote_Password_protocol> for more information on the SRP6 protocol.
 
-If you change the password these fields must be set to 0 allowing the server to regenerate them at login. 
-The .account password command already does it, but you must take care about it on external registration systems (web client)
+**NOTE**: Passwords are limited to 16 characters and are case insensitive.
 
 ### **token\_key**
 

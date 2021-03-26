@@ -2,19 +2,20 @@ TODOs:
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@b1af0192 | 2021-03-24 |      | verify changes; low prio (Dungeon: Vault of Archavon) |
 | sol@8ba442bd | 2021-03-23 |      | verify changes; low prio (Dungeon: Naxxramas) |
-| sol@485f7e76 | 2021-03-21 |      | try to find a less intrusive solution instead of taking over all of the TC refactoring |
-| sol@9f354db7 | 2021-03-21 |      | verify changes |
+| sol@485f7e76 | 2021-03-21 | X    | try to find a less intrusive solution instead of taking over all of the TC refactoring; done: sol@75eb56c6, sol@4114a861 |
+| sol@9f354db7 | 2021-03-21 | X    | verify changes; update: just another TC refactoring without real benefit; won't take over |
 | sol@41ea3394 | 2021-03-20 |      | only take over the Perry Gatner event if there is nothing else to do (the event itself is rather annoying); quest "Stranglethorn Fever" already fixed with commit sol@293d7d38; very low prio |
 | sol@3306f925 | 2021-03-20 |      | verify/rework SQL script |
 | sol@156f7966 | 2021-03-20 |      | verify/rework SQL script |
 | sol@aea4ce30 | 2021-03-20 |      | verify changes; low prio (Dungeon: Ulduar) |
-| sol@2ec26893 | 2021-03-18 |      | change pool template ID as this one will overwrite "Minerals - Rolands Doom - Duskwood" from AC commit sol@910106a0 |
+| sol@2ec26893 | 2021-03-18 | X    | change pool template ID as this one will overwrite "Minerals - Rolands Doom - Duskwood" from AC commit sol@910106a0; done: sol@d012a9c2 |
 | sol@8119bff9 | 2021-03-18 |      | verify and rework SQL script; also check event script 5991 |
 | sol@79420c86 | 2021-03-17 |      | position the creature in the water nearby |
 | sol@0d19ac43 | 2021-03-17 |      | verify changes; low prio (Dungeon: Ulduar) |
 | sol@252f56c0 | 2021-03-17 |      | verify changes; low prio (Dungeon: Ulduar) |
-| sol@99c2efe3 | 2021-03-16 |      | verify issue & solution |
+| sol@99c2efe3 | 2021-03-16 | X    | verify issue & solution; not needed, bug was introduced with AC commit sol@0b35a240 which was not taken over by Sol |
 | sol@80f665cd | 2021-03-14 |      | verify new positions; use UPDATE statement |
 | sol@f8b9a273 | 2021-03-14 |      | verify new positions; use UPDATE statement |
 | sol@3d0192fa | 2021-03-14 |      | verify changes |
@@ -34,7 +35,7 @@ TODOs:
 | sol@9239f033 | 2021-03-07 |      | creature IDs 4295 and 4300 should keep their talk actions, but it is necessary to clean up the creature texts and adjust their SAI |
 | sol@303ba07b | 2021-03-07 | X    | the spell "New Summon Test" is obviously wrong here, so instead of manipulating the Spell DBC improve the spell script "spell\_q9452\_cast\_net" to directly summon the creature with an appropriate summon type; done: sol@b773b702 |
 | sol@bfb6faa2 | 2021-03-06 |      | wrong; instead of deleting the reference loot ID from creature 16348 remove item 2088 from reference loot ID 24076 and add the item directly to the loot of creature 831 (see TC version) |
-| sol@a269c51d | 2021-03-05 |      | verify deleted loot and compare with TC version |
+| sol@a269c51d | 2021-03-05 | X    | verify deleted loot and compare with TC version; done: sol@e9c3b4d1; don't remove loot for Farmer Kent (2436) and Xandivious (15623) |
 | sol@727590dc | 2021-03-04 |      | verify and rework SQL script |
 | sol@81957089 | 2021-02-28 |      | implement another solution (remark: the attacking NPCs should not transform to worgen at all; also delete the conditions which were used in the old SAI script to control the transformation according to the Pyrewood Village Event; this has been forgotten in the AC commit and will cause a bug in the SAI execution) |
 | sol@41fa30a5 | 2021-02-28 |      | the quest is working on Sol; the movement bugs described in the AC issue seem to be caused by AC commit sol@c8f43d85 (another good hint to not take this commit over); nevertheless, rework the existing SAI as it seems to be very old and the NPC following the player should indeed fight the enemies |
