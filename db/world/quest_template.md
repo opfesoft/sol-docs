@@ -923,7 +923,7 @@ The title the character will receive upon completion of the quest. See [CharTitl
 
 ### RequiredPlayerKills
 
-Displays how much players you need to kill betd class=td class=a class=/td data-linked-resource-default-alias=fore completing the quest.
+Displays how much players you need to kill before completing the quest.
 
 ### RewardTalents
 
@@ -1009,14 +1009,12 @@ Text shown after the quest has been completed.
 
 ### RequiredNpcOrGo
 
-Value &gt; 0:required creature\_template ID the player needs to kill/cast on in order to complete the quest.
-Value &lt; 0:required gameobject\_template ID the player needs to cast on in order to complete the quest.
-If\*RequiredSpellCast\*is != 0, the objective is to cast on target, else kill.
-NOTE: If RequiredSpellCast is != 0 and the spell has effects Send Event or Quest Complete, this field may be left empty.
+Value &gt; 0:required creature\_template ID the player needs to kill in order to complete the quest.
+Value &lt; 0:required gameobject\_template ID the player needs to use in order to complete the quest (only gameobject type GAMEOBJECT\_TYPE\_GOOBER).
 
 ### RequiredNpcOrGoCount
 
-The number of times the creature or gameobject must be killed or casted upon.
+The number of times the creature or gameobject must be killed or used.
 
 ### RequiredItemId
 

@@ -279,6 +279,8 @@ The orientation. (North = 0, South = 3.14159)
 
 ### rotation3
 
+Rotation quaternion (x, y, z, w); see [Quaternions and spatial rotation](https://en.wikipedia.org/wiki/Quaternions_and_spatial_rotation)
+
 ### spawntimesecs
 
 Time in seconds for this object to respawn.

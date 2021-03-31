@@ -343,4 +343,4 @@ This field is a bitmask and is for controlling server side quest functions. Bliz
 -    4: Make quest auto-accept. As of patch 3.3.5a only quests in the starter area need this flag.
 -    8: Only used for Dungeon Finder quests
 -   16: Makes the quest monthly
--   32: The quest requires RequiredOrNpcGo killcredit (a spell cast), but NOT an actual NPC kill. This action usually involves killing an invisible "bunny" NPC.
+-   32: The quest requires RequiredOrNpcGo killcredit (a spell cast), but NOT an actual NPC kill. This action usually involves killing an invisible "bunny" NPC. **Note:** This is actually not working correctly, so better not use this flag for new quests.

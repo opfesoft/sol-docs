@@ -2,6 +2,11 @@ TODOs:
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@c0aa1b88 | 2021-03-29 |      | verify changes; low prio (Love is in the Air) |
+| sol@9bf2800c | 2021-03-29 |      | verify changes; low prio (Dungeon: Ulduar) |
+| sol@7a5e4be7 | 2021-03-28 |      | verify changes; low prio (Dungeon: Utgarde Keep) |
+| sol@2a601a16 | 2021-03-28 |      | verify changes |
+| sol@01f0020e | 2021-03-27 |      | verify/rework SQL script |
 | sol@b1af0192 | 2021-03-24 |      | verify changes; low prio (Dungeon: Vault of Archavon) |
 | sol@8ba442bd | 2021-03-23 |      | verify changes; low prio (Dungeon: Naxxramas) |
 | sol@485f7e76 | 2021-03-21 | X    | try to find a less intrusive solution instead of taking over all of the TC refactoring; done: sol@75eb56c6, sol@4114a861 |
@@ -12,19 +17,19 @@ TODOs:
 | sol@aea4ce30 | 2021-03-20 |      | verify changes; low prio (Dungeon: Ulduar) |
 | sol@2ec26893 | 2021-03-18 | X    | change pool template ID as this one will overwrite "Minerals - Rolands Doom - Duskwood" from AC commit sol@910106a0; done: sol@d012a9c2 |
 | sol@8119bff9 | 2021-03-18 |      | verify and rework SQL script; also check event script 5991 |
-| sol@79420c86 | 2021-03-17 |      | position the creature in the water nearby |
+| sol@79420c86 | 2021-03-17 | X    | position the creature in the water nearby; done: sol@80d13a0b |
 | sol@0d19ac43 | 2021-03-17 |      | verify changes; low prio (Dungeon: Ulduar) |
 | sol@252f56c0 | 2021-03-17 |      | verify changes; low prio (Dungeon: Ulduar) |
 | sol@99c2efe3 | 2021-03-16 | X    | verify issue & solution; not needed, bug was introduced with AC commit sol@0b35a240 which was not taken over by Sol |
-| sol@80f665cd | 2021-03-14 |      | verify new positions; use UPDATE statement |
-| sol@f8b9a273 | 2021-03-14 |      | verify new positions; use UPDATE statement |
-| sol@3d0192fa | 2021-03-14 |      | verify changes |
+| sol@80f665cd | 2021-03-14 | X    | verify new positions; use UPDATE statement; done: sol@bfef495c |
+| sol@f8b9a273 | 2021-03-14 | X    | verify new positions; use UPDATE statement; done: sol@cd44de32 |
+| sol@3d0192fa | 2021-03-14 | X    | verify changes; update: this is wrong, those creatures are meant as flavor and should not be targetable or killable; correct inhabit type and WP movement was already added with commit sol@88243a8a |
 | sol@dd7027dc | 2021-03-14 |      | verify and rework SQL script |
 | sol@b514dfb9 | 2021-03-14 | X    | explode visual is not shown; try to find another solution; done: sol@8c3bd5a5 |
 | sol@cfadd5a8 | 2021-03-14 |      | verify and rework SQL script |
 | sol@79504214 | 2021-03-14 |      | verify and rework SQL script (also remove sneak visual as this is added through the spell) |
 | sol@30b3d74f | 2021-03-11 |      | verify and rework SQL script (perhaps just fix the CreatureScript instead); also don't manipulate the faction template DBC as this is the wrong way to solve the issues (faction is used by multiple creatures and can cause issues with the other ones); use the correct spell to transform to bear form |
-| sol@7b7dac05 | 2021-03-11 |      | verify new position; use UPDATE statement |
+| sol@7b7dac05 | 2021-03-11 | X    | verify new position; use UPDATE statement; done: sol@0952a39c |
 | sol@57c32ec4 | 2021-03-11 |      | verify and rework SQL script |
 | sol@3846caab | 2021-03-11 |      | verify rare creatures, take over and rework only the missing ones; low prio |
 | sol@646f6657 | 2021-03-10 | X    | try to find a better solution without manipulating Spell DBC and also addressing the other affected mechanical creatures; done: sol@ef11a791 |
