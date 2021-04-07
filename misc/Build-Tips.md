@@ -3,10 +3,9 @@
 ## Add APT repositories
 
 - latest cmake
-  - `apt-get install apt-transport-https`
-  - `curl https://apt.kitware.com/keys/kitware-archive-latest.asc | sudo apt-key add -`
+  - `sudo apt-get install apt-transport-https curl gnupg gnupg2`
+  - `curl -L https://apt.kitware.com/keys/kitware-archive-latest.asc | sudo apt-key add -`
   - `vi /etc/apt/sources.list.d/kitware.list`
-    - Ubuntu 16.04: `deb https://apt.kitware.com/ubuntu/ xenial main`
     - Ubuntu 18.04: `deb https://apt.kitware.com/ubuntu/ bionic main`
     - Ubuntu 20.04: `deb https://apt.kitware.com/ubuntu/ focal main`
 
@@ -15,7 +14,6 @@
 - latest gcc
   - `apt-key adv --keyserver keyserver.ubuntu.com --recv 60C317803A41BA51845E371A1E9377A2BA9EF27F`
   - `vi /etc/apt/sources.list.d/test.list`
-    - Ubuntu 16.04: `deb http://ppa.launchpad.net/ubuntu-toolchain-r/test/ubuntu xenial main`
     - Ubuntu 18.04: `deb http://ppa.launchpad.net/ubuntu-toolchain-r/test/ubuntu bionic main`
     - Ubuntu 20.04: `deb http://ppa.launchpad.net/ubuntu-toolchain-r/test/ubuntu focal main`
 
@@ -26,7 +24,7 @@
 
 ## Packages
 
-`apt-get install git cmake make gcc-9 g++-9 ccache libmariadbclient-dev libssl-dev libbz2-dev libreadline-dev libncurses-dev mariadb-server`
+`sudo apt-get install git cmake make gcc-10 g++-10 ccache libmariadb-dev libssl-dev libbz2-dev libreadline-dev libncurses-dev mariadb-server`
 
 ## ACE installation
 
@@ -60,10 +58,10 @@ include $(ACE_ROOT)/include/makeinclude/platform_linux.GNU
 INSTALL_PREFIX = $(HOME)/sol-srv/lib/ace
 ```
 
-- Install (here gcc 9 is used):
+- Install (here gcc 10 is used):
 ```
-export CC='gcc-9'
-export CXX='g++-9'
+export CC='gcc-10'
+export CXX='g++-10'
 cd $ACE_ROOT/ace
 make -j $(($(nproc)+2))
 make install

@@ -2,10 +2,28 @@ TODOs:
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@042cec82 | 2021-04-06 |      | take over if needed |
+| sol@655ccacf | 2021-04-05 |      | don't take over all SQL scripts as there are also several changes to the English localization which seem to be wrong (e.g. quest 5636); low prio |
+| sol@0528e0b4 | 2021-04-05 |      | verify commit and only take over relevant changes from this TC commit: https://github.com/TrinityCore/TrinityCore/commit/8d19fcbc469e0b37a323c876a15097fbe848d884 |
+| sol@d8c4795e | 2021-04-04 |      | verify gameobjects & positions |
+| sol@26c30996 | 2021-04-04 |      | verify/rework SQL script; low prio (Dungeon: Naxxramas) |
+| sol@7413c17e | 2021-04-04 |      | verify changes & issue (cannot reproduce on Sol) |
+| sol@0d8aa2e8 | 2021-04-03 |      | take over if needed |
+| sol@6dc4ca85 | 2021-04-02 |      | verify changes; low prio (Dungeon: Naxxramas) |
+| sol@1b722dfc | 2021-04-02 |      | verify/rework SQL script |
+| sol@0bbe5fa4 | 2021-04-01 |      | verify/rework SQL script |
+| sol@9b9e070c | 2021-04-01 |      | verify changes |
+| sol@12165b81 | 2021-04-01 |      | verify/rework SQL script |
+| sol@86f6ec3c | 2021-04-01 |      | verify/rework SQL script |
+| sol@4e112a89 | 2021-04-01 |      | verify/rework SQL script |
+| sol@f38e63cc | 2021-04-01 |      | verify/rework SQL script |
+| sol@a9ba546c | 2021-04-01 |      | verify gameobjects & positions |
+| sol@4c0467c5 | 2021-04-01 |      | verify/rework SQL script |
+| sol@10c56336 | 2021-04-01 |      | verify gameobjects & positions |
 | sol@c0aa1b88 | 2021-03-29 |      | verify changes; low prio (Love is in the Air) |
 | sol@9bf2800c | 2021-03-29 |      | verify changes; low prio (Dungeon: Ulduar) |
 | sol@7a5e4be7 | 2021-03-28 |      | verify changes; low prio (Dungeon: Utgarde Keep) |
-| sol@2a601a16 | 2021-03-28 |      | verify changes |
+| sol@2a601a16 | 2021-03-28 | X    | verify changes; taken over with a few improvements: sol@146bf661 |
 | sol@01f0020e | 2021-03-27 |      | verify/rework SQL script |
 | sol@b1af0192 | 2021-03-24 |      | verify changes; low prio (Dungeon: Vault of Archavon) |
 | sol@8ba442bd | 2021-03-23 |      | verify changes; low prio (Dungeon: Naxxramas) |
@@ -60,7 +78,7 @@ TODOs:
 | sol@f65cfb6f | 2021-02-02 | X    | verify and rework SQL script; done: sol@5805ce04 |
 | sol@911ac12e | 2021-02-01 |      | verify SQL script; low prio (Lunar Festival) |
 | sol@9c239d17 | 2021-02-01 |      | verify SQL script; low prio (Lunar Festival) |
-| sol@c8f43d85 | 2021-02-01 |      | perhaps try to find a better solution for some of the changes if nothing else is left to do (also see bugfixes sol@e7bfbe76, sol@522eb9a7, sol@695a7402, sol@b2f6a36c, sol@1d5cc1fb); very low prio as it's not really needed and could cause many unexpected bugs / performance issues |
+| sol@c8f43d85 | 2021-02-01 |      | try to find a better solution for some of the changes if nothing else is left to do (also see bugfixes sol@e7bfbe76, sol@522eb9a7, sol@695a7402, sol@b2f6a36c, sol@1d5cc1fb ....); very low prio as it's not really needed and could cause many unexpected bugs / performance issues; the only interesting changes concerning creature movement are circling the player and going backwards if too close to the player |
 | sol@fcad2b56 | 2021-01-31 | X    | only take over name changes for attributes which are actually used in the code; done: sol@c9bae62c |
 | sol@6ef73413 | 2021-01-31 |      | verify CreatureScript (and bugfix sol@1a137dad); low prio (Dungeon: Blackwing Lair) |
 | sol@d60fbc8e | 2021-01-27 | X    | verify and rework SQL script; done: sol@139c9572 |
