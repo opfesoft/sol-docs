@@ -2,6 +2,29 @@ TODOs:
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@085be43e | 2021-04-19 |      | verify/rework SQL script |
+| sol@6d0ebdfb | 2021-04-18 |      | wrong; instead of removing the reference from the other creatures remove the item from table "reference\_loot\_template" and add it directly to "creature\_loot\_template"; do the same for Humbert's other items (Pants -> Dun Garok Priest, Chestpiece -> Dun Garok Mountaineer & Tamra Stormpike) |
+| sol@b5409a18 | 2021-04-18 |      | verify SQL script; instead of removing the broadcast text ID fix the broadcast text itself |
+| sol@9bf10f90 | 2021-04-18 |      | verify position and use UPDATE instead of DELETE/INSERT |
+| sol@53a21ff7 | 2021-04-18 |      | verify/rework SQL script |
+| sol@acce0d48 | 2021-04-18 |      | verify/rework SQL script |
+| sol@42dde8c7 | 2021-04-16 |      | verify/rework SQL script |
+| sol@62635ca5 | 2021-04-13 |      | only take over the DELETE statements for the duplicates; no need to change the gameobject IDs, instead updates to "gameobject\_template\_locale" should be used to add localized names |
+| sol@41e37f2d | 2021-04-11 |      | only update z position; enable random movement |
+| sol@91d23c70 | 2021-04-11 |      | only update z position |
+| sol@d1f4306e | 2021-04-11 |      | change pool template ID as this one will overwrite "Treasures - Teldrassil" from AC commit sol@74f4ba97 |
+| sol@2d020575 | 2021-04-11 |      | verify/rework SQL script |
+| sol@40b951fb | 2021-04-11 |      | only update z position |
+| sol@10954b6d | 2021-04-11 |      | verify drop chances |
+| sol@577bee84 | 2021-04-11 |      | verify/rework loot chances; seems to be wrong that all are equal; perhaps just add money to the loot instead of changing the chances (check for all junkboxes) |
+| sol@372d72fa | 2021-04-11 |      | verify/rework SQL script; perhaps use summon spell instead of the creature spawns |
+| sol@70308572 | 2021-04-11 |      | only update z position |
+| sol@d1fe14ff | 2021-04-11 |      | verify/rework SQL script |
+| sol@44cecc82 | 2021-04-11 |      | only update z position |
+| sol@b96a6a13 | 2021-04-11 |      | verify/rework SQL script; perhaps use summon spell instead of the creature spawns |
+| sol@d0e9c6ca | 2021-04-08 |      | verify changes |
+| sol@91dfedd0 | 2021-04-07 |      | take over if needed; does not seem to fix anything and the original PR does not contain any information other than that it was copied blindly from TC |
+| sol@88ddc244 | 2021-04-07 |      | take over if needed; does not seem to fix anything and the original PR does not contain any information other than that it was copied blindly from TC |
 | sol@042cec82 | 2021-04-06 |      | take over if needed |
 | sol@655ccacf | 2021-04-05 |      | don't take over all SQL scripts as there are also several changes to the English localization which seem to be wrong (e.g. quest 5636); low prio |
 | sol@0528e0b4 | 2021-04-05 |      | verify commit and only take over relevant changes from this TC commit: https://github.com/TrinityCore/TrinityCore/commit/8d19fcbc469e0b37a323c876a15097fbe848d884 |
@@ -45,7 +68,7 @@ TODOs:
 | sol@dd7027dc | 2021-03-14 |      | verify and rework SQL script |
 | sol@b514dfb9 | 2021-03-14 | X    | explode visual is not shown; try to find another solution; done: sol@8c3bd5a5 |
 | sol@cfadd5a8 | 2021-03-14 |      | verify and rework SQL script |
-| sol@79504214 | 2021-03-14 |      | verify and rework SQL script (also remove sneak visual as this is added through the spell) |
+| sol@79504214 | 2021-03-14 | X    | verify and rework SQL script (also remove sneak visual as this is added through the spell); done: sol@70558369 |
 | sol@30b3d74f | 2021-03-11 |      | verify and rework SQL script (perhaps just fix the CreatureScript instead); also don't manipulate the faction template DBC as this is the wrong way to solve the issues (faction is used by multiple creatures and can cause issues with the other ones); use the correct spell to transform to bear form |
 | sol@7b7dac05 | 2021-03-11 | X    | verify new position; use UPDATE statement; done: sol@0952a39c |
 | sol@57c32ec4 | 2021-03-11 |      | verify and rework SQL script |
@@ -53,7 +76,7 @@ TODOs:
 | sol@646f6657 | 2021-03-10 | X    | try to find a better solution without manipulating Spell DBC and also addressing the other affected mechanical creatures; done: sol@ef11a791 |
 | sol@9e17e139 | 2021-03-09 |      | verify SQL script; low prio (Hallow's End) |
 | sol@9d096233 | 2021-03-09 |      | verify SQL script (see also AC commit sol@671c4dc5); low prio (Dungeon: Naxxramas) |
-| sol@1e90722a | 2021-03-07 |      | verify and rework SQL script |
+| sol@1e90722a | 2021-03-07 |      | verify and rework SQL script (see also AC commit sol@bfdfe361) |
 | sol@53d73416 | 2021-03-07 |      | broadcast text ID already fixed with commit sol@3e648f34, but the quest does not seem to be working correctly; compare with "official" walkthrough |
 | sol@9239f033 | 2021-03-07 |      | creature IDs 4295 and 4300 should keep their talk actions, but it is necessary to clean up the creature texts and adjust their SAI |
 | sol@303ba07b | 2021-03-07 | X    | the spell "New Summon Test" is obviously wrong here, so instead of manipulating the Spell DBC improve the spell script "spell\_q9452\_cast\_net" to directly summon the creature with an appropriate summon type; done: sol@b773b702 |

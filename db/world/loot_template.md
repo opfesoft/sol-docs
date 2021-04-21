@@ -74,7 +74,7 @@ Value of [MaxCount](#maxcount) field is used as a repetition factor for referen
 
 Be careful. Self references (loot template includes reference to itself) and loop references (loot template A includes reference to entire template B, loot template B includes reference to entire template A) are *completely* different from internal references. If you make a self-reference like
 
-``` cpp
+```sql
 INSERT INTO `reference_loot_template` (`Entry`,`Item`,`Reference`) VALUES (21215, 0, 21215); 
 ```
 
@@ -145,13 +145,13 @@ Loot mode examples from the Flame Leviathan fight in Ulduar:
 
 ### GroupId
 
-A group is a set of loot definitions processed in such a way that at any given looting event the loot generated can receive only 1 (or none) [item](#item) from the items declared in the loot definitions of the group. Groups are formed by loot definitions having the same values of [entry](#entry) and **GroupId** fields.
+If greater than 0 defines a loot group. This is a set of loot definitions processed in such a way that at any given looting event the loot generated can receive only 1 (or none) [item](#item) from the items declared in the loot definitions of the group. Groups are formed by loot definitions having the same values of [entry](#entry) and **GroupId** fields.
 
 A group may consists of **explicitly-chanced** (having non-zero [Chance](#chanceorquestchance)) and **equal-chanced** ([Chance](#chanceorquestchance) = 0) entries. Every *equal-chanced* entry of a group is considered having such a chance that:
 
 -   all equal-chanced entries have the same chance
 
-    \***group chance** (sum of chances of all entries) is 100%
+-   **group chance** (sum of chances of all entries) is 100%
 
 Of course group may consist of
 
@@ -163,15 +163,15 @@ The easiest way to understand what are groups is to understand how core processe
 
 At loading time:
 
-**groups are formed - all grouped entries with the same values of\*GroupId** and **Entry** fields are gathered into two sets - one for explicitly-chanced entries and one for equal-chanced. Note that order of entries in the sets can not be defined by DB - you should assume that the entries are in an unknown order. But indeed every time core processes a group the entries are in some order, constant during processing.
+Groups are formed: All grouped entries with the same values of **GroupId** and **Entry** fields are gathered into two sets - one for explicitly-chanced entries and one for equal-chanced. Note that order of entries in the sets can not be defined by DB - you should assume that the entries are in an unknown order. But indeed every time core processes a group the entries are in some order, constant during processing.
 
 During loot generation:
 
 -   core rolls for explicitly-chanced entries (if any):
--   **a random number\*R **is rolled in range 0 to 100 (floating point value).
+-   a random number **R** is rolled in range 0 to 100 (floating point value).
     -   chance to drop is checked for every (explicitly-chanced) entry in the group:
-    -   **if\*R** is less than absolute value of [Chance](#chanceorquestchance) of the entry then the entry 'wins': the [Item](#item) is included in the loot. Group processing stops, the rest of group entries are just skipped.
-    -   **otherwise the entry 'looses': the [Item](#loot_template-item) misses its chance to get into the loot.\*R** is decreased by the absolute value of [Chance](#chanceorquestchance) and next explicitly-chanced entry is checked.
+    -   if **R** is less than absolute value of [Chance](#chanceorquestchance) of the entry then the entry 'wins': the [Item](#item) is included in the loot. Group processing stops, the rest of group entries are just skipped.
+    -   otherwise the entry 'looses': the [Item](#loot_template-item) misses its chance to get into the loot. **R** is decreased by the absolute value of [Chance](#chanceorquestchance) and next explicitly-chanced entry is checked.
 -   if none of explicitly-chanced entries got its chance then equal-chanced part (if any) is processed:
     -   a random entry is selected from the set of equal-chanced entries and corresponding [Item](#item) is included in the loot.
 -   If nothing selected yet (this never happens if the group has some equal-chanced entries) - no item from the group is included into the loot.
@@ -181,20 +181,15 @@ Let us use term **group chance** as the sum of [Chance](#chanceorquestchance) (a
 If you understand the process you can understand the results:
 
 -   Not more than one item from a group may drop at any given time.
-
-    **If\*group chance** is at least 100 then one item will be dropped for sure.
-
--   If *group chance* does not exceed 100 then every item defined in group entries has *exactly* that chance to drop as set in [Chance](#chanceorquestchance).
-
-    **If *group chance* is greater than 100 then some entries will lost a part of their chance (or even not be checked at all - that will be the case for all equal-chanced entries) whatever value takes the roll\*R**. So for some items chance to drop will be less than their [Chance](#chanceorquestchance). That is *very* bad and that is why having *group chance* &gt; 100 is strictly prohibited.
-
+-   If **group chance** is at least 100 then one item will be dropped for sure.
+-   If **group chance** does not exceed 100 then every item defined in group entries has *exactly* that chance to drop as set in [Chance](#chanceorquestchance).
+-   If **group chance** is greater than 100 then some entries will lost a part of their chance (or even not be checked at all - that will be the case for all equal-chanced entries) whatever value takes the roll **R**. So for some items chance to drop will be less than their [Chance](#chanceorquestchance). That is *very* bad and that is why having **group chance** &gt; 100 is strictly prohibited.
 -   Processing of *equal-chanced* part takes much less time then of *explicitly-chanced* one. So usage of equal-chanced groups is recommended when possible.
 
 So now basic applications of the groups are clear:
 
-**Groups with *group chance* of 100% generate\*exactly one** [item](#item) every time. This is needed quite often, for example such behavior is needed to define a loot template for tier item drop from a boss.
-**Groups with *group chance* &lt; 100 generate\*one or zero** [items](#item) every time keeping [chances](#chanceorref) of every item unchanged. Such behavior is useful to limit maximum number of items in the loot.
-
+-   Groups with **group chance** of 100% generate **exactly one** [item](#item) every time. This is needed quite often, for example such behavior is needed to define a loot template for tier item drop from a boss.
+-   Groups with **group chance** &lt; 100 generate **one or zero** [items](#item) every time keeping [chances](#chanceorref) of every item unchanged. Such behavior is useful to limit maximum number of items in the loot.
 -   A single group may be defined for a set of items common for several loot sources. This could be very useful for decreasing DB size without any loss of data. See [References](#reference) for more details.
 
 There is no way to have a [reference](#mincountorref) as a part of a group.
