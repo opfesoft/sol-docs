@@ -1,6 +1,6 @@
 # Visualize maps / vmaps
 
-The following steps are only valid for Ubuntu:
+The following steps have only been tested on Ubuntu:
 
 - Install necessary packages:<br>
   `sudo apt-get install git libsdl2-dev`

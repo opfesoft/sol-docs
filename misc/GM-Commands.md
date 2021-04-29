@@ -127,7 +127,7 @@ Note: Some commands are working only by selecting a player or a creature. These 
 |gobject activate|2|Syntax: .gobject activate #guid Activates an object like a door or a button.|
 |gobject add|2|Syntax: .gobject add #id Add a game object from game object templates to the world at your current location using the #id. spawntimesecs sets the spawntime, it is optional. Note: this is a copy of .gameobject.|
 |gobject delete|2|Syntax: .gobject delete #go_guid Delete gameobject with guid #go_guid.|
-|gobject move|2|Syntax: .gobject move #goguid [#x #y #z] Move gameobject #goguid to character coordinates (or to (#x,#y,#z) coordinates if its provide).|
+|gobject move|2|Syntax: .gobject move #goguid [#x #y #z] Move gameobject #goguid to character coordinates (or to #x, #y, #z coordinates if provided); **Important:** As gameobjects are not meant to be moved around the original gameobject will be hidden (phasemask 0) and replaced with a temporary one using the specified position; a server restart is necessary after the gameobject is properly positioned|
 |gobject near|2|Syntax: .gobject near [#distance] Output gameobjects at distance #distance from player. Output gameobject guids and coordinates sorted by distance from character. If #distance not provided use 10 as default value.|
 |gobject add temp|2|Adds a temporary gameobject that is not saved to DB.|
 |gobject target|2|Syntax: .gobject target [#go_id\#go_name_part] Locate and show position nearest gameobject. If #go_id or #go_name_part provide then locate and show position of nearest gameobject with gameobject template id #go_id or name included #go_name_part as part.|

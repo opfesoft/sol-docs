@@ -129,9 +129,10 @@ exit
 
 - Assemble and import data:
 ```
-cd ~/sol/local/sql
+cd ~/sol
 bash ~/sol/apps/db_assembler/db_assembler.sh 1
 mysql -e "SET GLOBAL max_allowed_packet=128*1024*1024;"
+cd local/sql
 mysql --default-character-set=utf8 auth       <auth_base.sql
 mysql --default-character-set=utf8 auth       <auth_updates.sql
 mysql --default-character-set=utf8 auth       <auth_custom.sql

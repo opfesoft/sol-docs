@@ -2,6 +2,16 @@ TODOs:
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@0372ddc1 | 2021-04-27 |      | rework SQL script; verify positions |
+| sol@28ce1e92 | 2021-04-25 |      | verify position and use UPDATE instead of DELETE/INSERT |
+| sol@96e0d2ca | 2021-04-25 |      | verify/rework SQL script; also remove sneak visual effect (UNIT\_FIELD\_BYTES\_1 flag 131072) |
+| sol@8ab6c569 | 2021-04-25 |      | verify/rework SQL script; verify loot |
+| sol@620eb8e9 | 2021-04-25 |      | verify changes; low prio (Dungeon: Scholomance) |
+| sol@eaf90b6b | 2021-04-25 |      | verify changes; setting "Attributes" to 8192 (0x00002000) is wrong, correct value is 2097152 (0x00200000); also don't overwrite "Attributes" with a single value, use bitwise OR instead |
+| sol@98364e43 | 2021-04-25 |      | adapt to Sol; low prio (Localization: zhCN))
+| sol@2e8ef021 | 2021-04-25 |      | verify changes; low prio (Dungeon: Scholomance) |
+| sol@472361a0 | 2021-04-25 |      | verify/rework SQL script |
+| sol@c95d1f72 | 2021-04-23 |      | verify changes |
 | sol@085be43e | 2021-04-19 |      | verify/rework SQL script |
 | sol@6d0ebdfb | 2021-04-18 |      | wrong; instead of removing the reference from the other creatures remove the item from table "reference\_loot\_template" and add it directly to "creature\_loot\_template"; do the same for Humbert's other items (Pants -> Dun Garok Priest, Chestpiece -> Dun Garok Mountaineer & Tamra Stormpike) |
 | sol@b5409a18 | 2021-04-18 |      | verify SQL script; instead of removing the broadcast text ID fix the broadcast text itself |
@@ -10,23 +20,23 @@ TODOs:
 | sol@acce0d48 | 2021-04-18 |      | verify/rework SQL script |
 | sol@42dde8c7 | 2021-04-16 |      | verify/rework SQL script |
 | sol@62635ca5 | 2021-04-13 |      | only take over the DELETE statements for the duplicates; no need to change the gameobject IDs, instead updates to "gameobject\_template\_locale" should be used to add localized names |
-| sol@41e37f2d | 2021-04-11 |      | only update z position; enable random movement |
-| sol@91d23c70 | 2021-04-11 |      | only update z position |
+| sol@41e37f2d | 2021-04-11 | X    | only update z position; enable random movement; done: sol@9f908dac |
+| sol@91d23c70 | 2021-04-11 | X    | only update z position; done: sol@f334662d |
 | sol@d1f4306e | 2021-04-11 |      | change pool template ID as this one will overwrite "Treasures - Teldrassil" from AC commit sol@74f4ba97 |
 | sol@2d020575 | 2021-04-11 |      | verify/rework SQL script |
-| sol@40b951fb | 2021-04-11 |      | only update z position |
+| sol@40b951fb | 2021-04-11 | X    | only update z position; done: sol@5ecf266c |
 | sol@10954b6d | 2021-04-11 |      | verify drop chances |
 | sol@577bee84 | 2021-04-11 |      | verify/rework loot chances; seems to be wrong that all are equal; perhaps just add money to the loot instead of changing the chances (check for all junkboxes) |
 | sol@372d72fa | 2021-04-11 |      | verify/rework SQL script; perhaps use summon spell instead of the creature spawns |
-| sol@70308572 | 2021-04-11 |      | only update z position |
+| sol@70308572 | 2021-04-11 | X    | only update z position; done: sol@d2ceb8ad |
 | sol@d1fe14ff | 2021-04-11 |      | verify/rework SQL script |
-| sol@44cecc82 | 2021-04-11 |      | only update z position |
+| sol@44cecc82 | 2021-04-11 | X    | only update z position; done: sol@801a6c1f |
 | sol@b96a6a13 | 2021-04-11 |      | verify/rework SQL script; perhaps use summon spell instead of the creature spawns |
 | sol@d0e9c6ca | 2021-04-08 |      | verify changes |
 | sol@91dfedd0 | 2021-04-07 |      | take over if needed; does not seem to fix anything and the original PR does not contain any information other than that it was copied blindly from TC |
 | sol@88ddc244 | 2021-04-07 |      | take over if needed; does not seem to fix anything and the original PR does not contain any information other than that it was copied blindly from TC |
 | sol@042cec82 | 2021-04-06 |      | take over if needed |
-| sol@655ccacf | 2021-04-05 |      | don't take over all SQL scripts as there are also several changes to the English localization which seem to be wrong (e.g. quest 5636); low prio |
+| sol@655ccacf | 2021-04-05 |      | don't take over all SQL scripts as there are also several changes to the English localization which seem to be wrong (e.g. quest 5636); low prio (Localization: esES, esMX) |
 | sol@0528e0b4 | 2021-04-05 |      | verify commit and only take over relevant changes from this TC commit: https://github.com/TrinityCore/TrinityCore/commit/8d19fcbc469e0b37a323c876a15097fbe848d884 |
 | sol@d8c4795e | 2021-04-04 |      | verify gameobjects & positions |
 | sol@26c30996 | 2021-04-04 |      | verify/rework SQL script; low prio (Dungeon: Naxxramas) |
