@@ -2,6 +2,10 @@ TODOs:
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@752595dc | 2021-05-01 |      | try to find another solution without changing the logic in NearestAttackableUnitInObjectRangeCheck |
+| sol@5ee7fed0 | 2021-04-30 |      | verify/rework SQL script |
+| sol@6389d2eb | 2021-04-30 |      | verify/rework SQL script |
+| sol@0b87bb0d | 2021-04-30 |      | verify changes; low prio (Dungeon: Deadmines) |
 | sol@0372ddc1 | 2021-04-27 |      | rework SQL script; verify positions |
 | sol@28ce1e92 | 2021-04-25 |      | verify position and use UPDATE instead of DELETE/INSERT |
 | sol@96e0d2ca | 2021-04-25 |      | verify/rework SQL script; also remove sneak visual effect (UNIT\_FIELD\_BYTES\_1 flag 131072) |
@@ -11,7 +15,7 @@ TODOs:
 | sol@98364e43 | 2021-04-25 |      | adapt to Sol; low prio (Localization: zhCN))
 | sol@2e8ef021 | 2021-04-25 |      | verify changes; low prio (Dungeon: Scholomance) |
 | sol@472361a0 | 2021-04-25 |      | verify/rework SQL script |
-| sol@c95d1f72 | 2021-04-23 |      | verify changes |
+| sol@c95d1f72 | 2021-04-23 |      | verify changes; update: find another solution as this one seems to be wrong (removes the check concerning boss encounters) |
 | sol@085be43e | 2021-04-19 |      | verify/rework SQL script |
 | sol@6d0ebdfb | 2021-04-18 |      | wrong; instead of removing the reference from the other creatures remove the item from table "reference\_loot\_template" and add it directly to "creature\_loot\_template"; do the same for Humbert's other items (Pants -> Dun Garok Priest, Chestpiece -> Dun Garok Mountaineer & Tamra Stormpike) |
 | sol@b5409a18 | 2021-04-18 |      | verify SQL script; instead of removing the broadcast text ID fix the broadcast text itself |
@@ -37,10 +41,10 @@ TODOs:
 | sol@88ddc244 | 2021-04-07 |      | take over if needed; does not seem to fix anything and the original PR does not contain any information other than that it was copied blindly from TC |
 | sol@042cec82 | 2021-04-06 |      | take over if needed |
 | sol@655ccacf | 2021-04-05 |      | don't take over all SQL scripts as there are also several changes to the English localization which seem to be wrong (e.g. quest 5636); low prio (Localization: esES, esMX) |
-| sol@0528e0b4 | 2021-04-05 |      | verify commit and only take over relevant changes from this TC commit: https://github.com/TrinityCore/TrinityCore/commit/8d19fcbc469e0b37a323c876a15097fbe848d884 |
+| sol@0528e0b4 | 2021-04-05 |      | verify commit and only take over relevant changes from this TC commit: https://github.com/TrinityCore/TrinityCore/commit/8d19fcbc469e0b37a323c876a15097fbe848d884; done: sol@c30b7e25 |
 | sol@d8c4795e | 2021-04-04 |      | verify gameobjects & positions |
 | sol@26c30996 | 2021-04-04 |      | verify/rework SQL script; low prio (Dungeon: Naxxramas) |
-| sol@7413c17e | 2021-04-04 |      | verify changes & issue (cannot reproduce on Sol) |
+| sol@7413c17e | 2021-04-04 |      | verify changes & issue (cannot reproduce on Sol); low prio |
 | sol@0d8aa2e8 | 2021-04-03 |      | take over if needed |
 | sol@6dc4ca85 | 2021-04-02 |      | verify changes; low prio (Dungeon: Naxxramas) |
 | sol@1b722dfc | 2021-04-02 |      | verify/rework SQL script |
