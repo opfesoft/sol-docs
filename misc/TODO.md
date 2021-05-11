@@ -2,6 +2,23 @@ TODOs:
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@ca74d308 | 2021-05-10 |      | use a single UPDATE statement using the creature IDs instead |
+| sol@44c45aa2 | 2021-05-10 |      | the script contains several bugs (e.g. wrong gameobject & map IDs); also don't change the respawn time for gameobjects which are contained in pools |
+| sol@54c18cff | 2021-05-10 |      | verify/rework SQL script and check WP path |
+| sol@534ec53b | 2021-05-09 |      | verify/rework SQL script and compare with original CreatureScript |
+| sol@ea6c2321 | 2021-05-09 |      | verify/rework SQL script |
+| sol@44babc3c | 2021-05-08 |      | implement another solution without copy/paste from TC; low prio as the pools are basically working, they just sometimes spawn 1 object less than specified |
+| sol@42659f06 | 2021-05-07 |      | remove associated WP paths; use wander distance 5 instead of 10 |
+| sol@3e1a2024 | 2021-05-06 |      | verify creature pool |
+| sol@926a3103 | 2021-05-06 |      | don't remove the broadcast text IDs, instead update the broadcast texts themselves |
+| sol@64461da3 | 2021-05-06 |      | verify & adapt to Sol; low prio (Localization: esES, esMX) |
+| sol@71d5d27e | 2021-05-06 |      | verify changes; low prio (Dungeon: Icecrown Citadel) |
+| sol@058f0c94 | 2021-05-06 |      | verify & adapt to Sol; low prio (Localization: esES, esMX) |
+| sol@37c3e051 | 2021-05-05 |      | verify & adapt to Sol; low prio (Localization: esES, esMX) |
+| sol@74a54b49 | 2021-05-04 |      | don't remove the broadcast text ID, instead update the broadcast text itself |
+| sol@f96c5281 | 2021-05-04 |      | verify & adapt to Sol; low prio (Localization: esES, esMX) |
+| sol@1d919f84 | 2021-05-03 |      | verify position and use UPDATE instead of DELETE/INSERT |
+| sol@292439ca | 2021-05-03 |      | use UPDATE instead of DELETE/INSERT for the position; verify path |
 | sol@752595dc | 2021-05-01 |      | try to find another solution without changing the logic in NearestAttackableUnitInObjectRangeCheck |
 | sol@5ee7fed0 | 2021-04-30 |      | verify/rework SQL script |
 | sol@6389d2eb | 2021-04-30 |      | verify/rework SQL script |
@@ -12,7 +29,7 @@ TODOs:
 | sol@8ab6c569 | 2021-04-25 |      | verify/rework SQL script; verify loot |
 | sol@620eb8e9 | 2021-04-25 |      | verify changes; low prio (Dungeon: Scholomance) |
 | sol@eaf90b6b | 2021-04-25 |      | verify changes; setting "Attributes" to 8192 (0x00002000) is wrong, correct value is 2097152 (0x00200000); also don't overwrite "Attributes" with a single value, use bitwise OR instead |
-| sol@98364e43 | 2021-04-25 |      | adapt to Sol; low prio (Localization: zhCN))
+| sol@98364e43 | 2021-04-25 |      | adapt to Sol; low prio (Localization: zhCN)) |
 | sol@2e8ef021 | 2021-04-25 |      | verify changes; low prio (Dungeon: Scholomance) |
 | sol@472361a0 | 2021-04-25 |      | verify/rework SQL script |
 | sol@c95d1f72 | 2021-04-23 |      | verify changes; update: find another solution as this one seems to be wrong (removes the check concerning boss encounters) |
@@ -51,7 +68,7 @@ TODOs:
 | sol@0bbe5fa4 | 2021-04-01 |      | verify/rework SQL script |
 | sol@9b9e070c | 2021-04-01 |      | verify changes |
 | sol@12165b81 | 2021-04-01 |      | verify/rework SQL script |
-| sol@86f6ec3c | 2021-04-01 |      | verify/rework SQL script |
+| sol@86f6ec3c | 2021-04-01 |      | verify/rework SQL script (see also AC commit sol@81c07178 |
 | sol@4e112a89 | 2021-04-01 |      | verify/rework SQL script |
 | sol@f38e63cc | 2021-04-01 |      | verify/rework SQL script |
 | sol@a9ba546c | 2021-04-01 |      | verify gameobjects & positions |
@@ -90,7 +107,7 @@ TODOs:
 | sol@646f6657 | 2021-03-10 | X    | try to find a better solution without manipulating Spell DBC and also addressing the other affected mechanical creatures; done: sol@ef11a791 |
 | sol@9e17e139 | 2021-03-09 |      | verify SQL script; low prio (Hallow's End) |
 | sol@9d096233 | 2021-03-09 |      | verify SQL script (see also AC commit sol@671c4dc5); low prio (Dungeon: Naxxramas) |
-| sol@1e90722a | 2021-03-07 |      | verify and rework SQL script (see also AC commit sol@bfdfe361) |
+| sol@1e90722a | 2021-03-07 |      | verify and rework SQL script (see also AC commits sol@bfdfe361, sol@ad5ba1a7) |
 | sol@53d73416 | 2021-03-07 |      | broadcast text ID already fixed with commit sol@3e648f34, but the quest does not seem to be working correctly; compare with "official" walkthrough |
 | sol@9239f033 | 2021-03-07 |      | creature IDs 4295 and 4300 should keep their talk actions, but it is necessary to clean up the creature texts and adjust their SAI |
 | sol@303ba07b | 2021-03-07 | X    | the spell "New Summon Test" is obviously wrong here, so instead of manipulating the Spell DBC improve the spell script "spell\_q9452\_cast\_net" to directly summon the creature with an appropriate summon type; done: sol@b773b702 |

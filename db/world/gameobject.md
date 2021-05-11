@@ -285,7 +285,7 @@ Rotation quaternion (x, y, z, w); see [Quaternions and spatial rotation](https:/
 
 Time in seconds for this object to respawn.
 
-Using a negative value will result in the object starting out by being "despawned" until a script will spawn it. It will then despawn after the amount of time specified here has passed.
+Using a negative value will result in the object starting out by being "despawned" until a script will spawn it.
 
 ### animprogress
 
