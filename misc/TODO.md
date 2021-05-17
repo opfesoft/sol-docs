@@ -2,6 +2,12 @@ TODOs:
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@0ca86925 | 2021-05-15 |      | verify/rework SQL script |
+| sol@16a385d1 | 2021-05-14 |      | verify/rework SQL script |
+| sol@88071b7e | 2021-05-14 |      | verify loot chances |
+| sol@fe5aedaa | 2021-05-13 |      | verify/rework SQL script |
+| sol@b14ffdb8 | 2021-05-13 |      | verify changes; rework SQL script if replacing the CreatureScript with SAI |
+| sol@61325fd4 | 2021-05-11 |      | verify WP path; set active; rework SQL script |
 | sol@ca74d308 | 2021-05-10 |      | use a single UPDATE statement using the creature IDs instead |
 | sol@44c45aa2 | 2021-05-10 |      | the script contains several bugs (e.g. wrong gameobject & map IDs); also don't change the respawn time for gameobjects which are contained in pools |
 | sol@54c18cff | 2021-05-10 |      | verify/rework SQL script and check WP path |
@@ -9,7 +15,7 @@ TODOs:
 | sol@ea6c2321 | 2021-05-09 |      | verify/rework SQL script |
 | sol@44babc3c | 2021-05-08 |      | implement another solution without copy/paste from TC; low prio as the pools are basically working, they just sometimes spawn 1 object less than specified |
 | sol@42659f06 | 2021-05-07 |      | remove associated WP paths; use wander distance 5 instead of 10 |
-| sol@3e1a2024 | 2021-05-06 |      | verify creature pool |
+| sol@3e1a2024 | 2021-05-06 | X    | verify creature pool; update: wrong, the pool is working correctly; chance 0 for all pool members means equal chance for all |
 | sol@926a3103 | 2021-05-06 |      | don't remove the broadcast text IDs, instead update the broadcast texts themselves |
 | sol@64461da3 | 2021-05-06 |      | verify & adapt to Sol; low prio (Localization: esES, esMX) |
 | sol@71d5d27e | 2021-05-06 |      | verify changes; low prio (Dungeon: Icecrown Citadel) |
