@@ -8,7 +8,7 @@ TODOs:
 | sol@fe5aedaa | 2021-05-13 |      | verify/rework SQL script |
 | sol@b14ffdb8 | 2021-05-13 |      | verify changes; rework SQL script if replacing the CreatureScript with SAI |
 | sol@61325fd4 | 2021-05-11 |      | verify WP path; set active; rework SQL script |
-| sol@ca74d308 | 2021-05-10 |      | use a single UPDATE statement using the creature IDs instead |
+| sol@ca74d308 | 2021-05-10 | X    | use a single UPDATE statement using the creature IDs instead; done: sol@9094b20d |
 | sol@44c45aa2 | 2021-05-10 |      | the script contains several bugs (e.g. wrong gameobject & map IDs); also don't change the respawn time for gameobjects which are contained in pools |
 | sol@54c18cff | 2021-05-10 |      | verify/rework SQL script and check WP path |
 | sol@534ec53b | 2021-05-09 |      | verify/rework SQL script and compare with original CreatureScript |
@@ -23,14 +23,14 @@ TODOs:
 | sol@37c3e051 | 2021-05-05 |      | verify & adapt to Sol; low prio (Localization: esES, esMX) |
 | sol@74a54b49 | 2021-05-04 |      | don't remove the broadcast text ID, instead update the broadcast text itself |
 | sol@f96c5281 | 2021-05-04 |      | verify & adapt to Sol; low prio (Localization: esES, esMX) |
-| sol@1d919f84 | 2021-05-03 |      | verify position and use UPDATE instead of DELETE/INSERT |
-| sol@292439ca | 2021-05-03 |      | use UPDATE instead of DELETE/INSERT for the position; verify path |
+| sol@1d919f84 | 2021-05-03 | X    | verify position and use UPDATE instead of DELETE/INSERT; done: sol@a4651f4a |
+| sol@292439ca | 2021-05-03 | X    | use UPDATE instead of DELETE/INSERT for the position; verify path; done: sol@37248ae7 |
 | sol@752595dc | 2021-05-01 |      | try to find another solution without changing the logic in NearestAttackableUnitInObjectRangeCheck |
 | sol@5ee7fed0 | 2021-04-30 |      | verify/rework SQL script |
 | sol@6389d2eb | 2021-04-30 |      | verify/rework SQL script |
 | sol@0b87bb0d | 2021-04-30 |      | verify changes; low prio (Dungeon: Deadmines) |
 | sol@0372ddc1 | 2021-04-27 |      | rework SQL script; verify positions |
-| sol@28ce1e92 | 2021-04-25 |      | verify position and use UPDATE instead of DELETE/INSERT |
+| sol@28ce1e92 | 2021-04-25 | X    | verify position and use UPDATE instead of DELETE/INSERT; done: sol@3f0f8670 |
 | sol@96e0d2ca | 2021-04-25 |      | verify/rework SQL script; also remove sneak visual effect (UNIT\_FIELD\_BYTES\_1 flag 131072) |
 | sol@8ab6c569 | 2021-04-25 |      | verify/rework SQL script; verify loot |
 | sol@620eb8e9 | 2021-04-25 |      | verify changes; low prio (Dungeon: Scholomance) |
@@ -42,7 +42,7 @@ TODOs:
 | sol@085be43e | 2021-04-19 |      | verify/rework SQL script |
 | sol@6d0ebdfb | 2021-04-18 |      | wrong; instead of removing the reference from the other creatures remove the item from table "reference\_loot\_template" and add it directly to "creature\_loot\_template"; do the same for Humbert's other items (Pants -> Dun Garok Priest, Chestpiece -> Dun Garok Mountaineer & Tamra Stormpike) |
 | sol@b5409a18 | 2021-04-18 |      | verify SQL script; instead of removing the broadcast text ID fix the broadcast text itself |
-| sol@9bf10f90 | 2021-04-18 |      | verify position and use UPDATE instead of DELETE/INSERT |
+| sol@9bf10f90 | 2021-04-18 | X    | verify position and use UPDATE instead of DELETE/INSERT; chose another position: sol@2e739a95 |
 | sol@53a21ff7 | 2021-04-18 |      | verify/rework SQL script |
 | sol@acce0d48 | 2021-04-18 |      | verify/rework SQL script |
 | sol@42dde8c7 | 2021-04-16 |      | verify/rework SQL script |
@@ -52,8 +52,8 @@ TODOs:
 | sol@d1f4306e | 2021-04-11 |      | change pool template ID as this one will overwrite "Treasures - Teldrassil" from AC commit sol@74f4ba97 |
 | sol@2d020575 | 2021-04-11 |      | verify/rework SQL script |
 | sol@40b951fb | 2021-04-11 | X    | only update z position; done: sol@5ecf266c |
-| sol@10954b6d | 2021-04-11 |      | verify drop chances |
-| sol@577bee84 | 2021-04-11 |      | verify/rework loot chances; seems to be wrong that all are equal; perhaps just add money to the loot instead of changing the chances (check for all junkboxes) |
+| sol@10954b6d | 2021-04-11 | X    | verify drop chances; done: sol@318db455 |
+| sol@577bee84 | 2021-04-11 | X    | verify/rework loot chances; seems to be wrong that all are equal; perhaps just add money to the loot instead of changing the chances (check for all junkboxes); done: sol@bb7956f0 |
 | sol@372d72fa | 2021-04-11 |      | verify/rework SQL script; perhaps use summon spell instead of the creature spawns |
 | sol@70308572 | 2021-04-11 | X    | only update z position; done: sol@d2ceb8ad |
 | sol@d1fe14ff | 2021-04-11 |      | verify/rework SQL script |
