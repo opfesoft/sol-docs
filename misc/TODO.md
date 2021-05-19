@@ -2,9 +2,12 @@ TODOs:
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@4fff925b | 2021-05-18 |      | verify/rework SQL script |
+| sol@fc4496ec | 2021-05-18 |      | verify/rework SQL script |
+| sol@16e04439 | 2021-05-18 |      | verify/rework SQL script |
 | sol@0ca86925 | 2021-05-15 |      | verify/rework SQL script |
 | sol@16a385d1 | 2021-05-14 |      | verify/rework SQL script |
-| sol@88071b7e | 2021-05-14 |      | verify loot chances |
+| sol@88071b7e | 2021-05-14 | X    | verify loot chances; update: if every chance in a group has the same value (in this case 0) the chances are equal, so this commit is wrong, won't take over |
 | sol@fe5aedaa | 2021-05-13 |      | verify/rework SQL script |
 | sol@b14ffdb8 | 2021-05-13 |      | verify changes; rework SQL script if replacing the CreatureScript with SAI |
 | sol@61325fd4 | 2021-05-11 |      | verify WP path; set active; rework SQL script |
