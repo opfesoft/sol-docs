@@ -2253,7 +2253,7 @@ if set to 0 only aggressive / hostile NPCs attack</p></td>
 </p></td>
 <td><p><br />
 </p></td>
-<td><p>If a creature or GO is set active it will stay active even if no player is near. Take care, though, as it needs additional ressources (CPU/RAM) to keep them active (other objects/creatures nearby stay active).</p></td>
+<td><p>If a creature or GO is set active it will stay active even if no player is near. Take care, though, as it needs additional ressources (CPU/RAM) to keep them active (other objects/creatures nearby stay active). If a creature dies/despawns the active state is automatically turned off; it can be turned on again using the event SMART_EVENT_DEATH if the corpse should also stay active, e.g. to trigger actions via SMART_EVENT_CORPSE_REMOVED.</p></td>
 </tr>
 <tr>
 <td><p>SMART_ACTION_ATTACK_START</p></td>
@@ -3652,8 +3652,7 @@ quickChange 1 forces the creature to quickly change its orientation (useful if t
 </p></td>
 <td><p><br />
 </p></td>
-<td><p><br />
-</p></td>
+<td><p>Use target x/y values to load the respective grid</p></td>
 </tr>
 <tr>
 <td><p>SMART_ACTION_MUSIC</p></td>

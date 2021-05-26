@@ -2,6 +2,19 @@ TODOs:
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@e8181130 | 2021-05-25 |      | verify & adapt to Sol; low prio (Localization: esES, esMX) |
+| sol@537798e4 | 2021-05-25 |      | verify & adapt to Sol; low prio (Localization: esES, esMX) |
+| sol@2d41cd49 | 2021-05-25 |      | not working correctly because it uses the wrong WorldMapAreaId; look up the correct one |
+| sol@d16605d4 | 2021-05-25 |      | verify/rework SQL script; verify quest |
+| sol@3c09156d | 2021-05-25 |      | verify/rework SQL script; verify WP path |
+| sol@ae66ea08 | 2021-05-25 |      | verify/rework SQL script; low prio (Dungeon: Scholomance) |
+| sol@3bc7880d | 2021-05-23 |      | wrong: don't just switch the broadcast text IDs, fix the conditions instead |
+| sol@556a7b76 | 2021-05-23 |      | adapt to Sol; low prio (Localization: zhCN) |
+| sol@07527618 | 2021-05-23 |      | don't delete the spawn, use Crazed Dragonhawk instead |
+| sol@b4830948 | 2021-05-23 |      | not working; try to find another solution |
+| sol@0527c17d | 2021-05-22 |      | verify changes; adapt to Sol |
+| sol@d74832ef | 2021-05-22 |      | verify/rework SQL script |
+| sol@3f6da615 | 2021-05-21 |      | take over if needed |
 | sol@4fff925b | 2021-05-18 |      | verify/rework SQL script |
 | sol@fc4496ec | 2021-05-18 |      | verify/rework SQL script |
 | sol@16e04439 | 2021-05-18 |      | verify/rework SQL script |
@@ -38,7 +51,7 @@ TODOs:
 | sol@8ab6c569 | 2021-04-25 |      | verify/rework SQL script; verify loot |
 | sol@620eb8e9 | 2021-04-25 |      | verify changes; low prio (Dungeon: Scholomance) |
 | sol@eaf90b6b | 2021-04-25 |      | verify changes; setting "Attributes" to 8192 (0x00002000) is wrong, correct value is 2097152 (0x00200000); also don't overwrite "Attributes" with a single value, use bitwise OR instead |
-| sol@98364e43 | 2021-04-25 |      | adapt to Sol; low prio (Localization: zhCN)) |
+| sol@98364e43 | 2021-04-25 |      | adapt to Sol; low prio (Localization: zhCN) |
 | sol@2e8ef021 | 2021-04-25 |      | verify changes; low prio (Dungeon: Scholomance) |
 | sol@472361a0 | 2021-04-25 |      | verify/rework SQL script |
 | sol@c95d1f72 | 2021-04-23 |      | verify changes; update: find another solution as this one seems to be wrong (removes the check concerning boss encounters) |
@@ -130,7 +143,7 @@ TODOs:
 | sol@ae2bd072 | 2021-02-24 |      | verify and rework SQL script; low prio (Dungeon: Gnomeregan) |
 | sol@f910d635 | 2021-02-21 |      | verify and rework SQL script |
 | sol@922f87e5 | 2021-02-21 |      | verify and rework SQL script |
-| sol@2cd534de | 2021-02-16 |      | verify and rework SQL script |
+| sol@2cd534de | 2021-02-16 | X    | verify and rework SQL script; done: sol@cd3a0535 |
 | sol@f6c2c903 | 2021-02-15 | X    | use UPDATE statements with regular expressions; update: the changes are not needed as the placeholders are handled in a case-insensitive way; only fix a wrong name placeholder by replacing $N$N with $B$B, see sol@542ecf4a |
 | sol@32e48823 | 2021-02-13 | X    | taken over: sol@6a0df2fa |
 | sol@f9d0be8d | 2021-02-09 | X    | verify and rework SQL script (also see bugfix sol@7d46e389); done: sol@30f81211 (only took over the emote state for the Valiance Keep Footman and the increased shooting range for the Valiance Keep Rifleman, the other changes are not needed) |
@@ -141,7 +154,7 @@ TODOs:
 | sol@f65cfb6f | 2021-02-02 | X    | verify and rework SQL script; done: sol@5805ce04 |
 | sol@911ac12e | 2021-02-01 |      | verify SQL script; low prio (Lunar Festival) |
 | sol@9c239d17 | 2021-02-01 |      | verify SQL script; low prio (Lunar Festival) |
-| sol@c8f43d85 | 2021-02-01 |      | try to find a better solution for some of the changes if nothing else is left to do (also see bugfixes sol@e7bfbe76, sol@522eb9a7, sol@695a7402, sol@b2f6a36c, sol@1d5cc1fb ....); very low prio as it's not really needed and could cause many unexpected bugs / performance issues; the only interesting changes concerning creature movement are circling the player and going backwards if too close to the player |
+| sol@c8f43d85 | 2021-02-01 |      | try to find a better solution for some of the changes if nothing else is left to do (also see bugfixes sol@e7bfbe76, sol@522eb9a7, sol@695a7402, sol@b2f6a36c, sol@1d5cc1fb ....); very low prio as it's not really needed and could cause many unexpected bugs / performance issues; the only interesting changes concerning creature movement are circling the player and going backwards if too close to the player; update: if ever implementing mob fanning use an additional field in creature\_addon to control this behaviour as not all NPCs showed this on retail; also add a config parameter to disable this entirely as it will reduce performance |
 | sol@fcad2b56 | 2021-01-31 | X    | only take over name changes for attributes which are actually used in the code; done: sol@c9bae62c |
 | sol@6ef73413 | 2021-01-31 |      | verify CreatureScript (and bugfix sol@1a137dad); low prio (Dungeon: Blackwing Lair) |
 | sol@d60fbc8e | 2021-01-27 | X    | verify and rework SQL script; done: sol@139c9572 |
