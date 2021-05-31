@@ -2,9 +2,17 @@ TODOs:
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@d46a55d9 | 2021-05-31 |      | verify/rework SQL script |
+| sol@11cdb969 | 2021-05-31 |      | verify issue & changes |
+| sol@3ac48489 | 2021-05-31 |      | verify/rework SQL script |
+| sol@8dc13a53 | 2021-05-31 |      | fix the spell script "spell\_gen\_throw\_back" and the spell ID of the throw back spell |
+| sol@cedd6363 | 2021-05-30 |      | verify changes |
+| sol@107658eb | 2021-05-30 |      | not working; try to find another solution |
+| sol@a355b4d2 | 2021-05-29 |      | verify issue & changes |
+| sol@f1b43a89 | 2021-05-27 |      | take over if needed |
 | sol@e8181130 | 2021-05-25 |      | verify & adapt to Sol; low prio (Localization: esES, esMX) |
 | sol@537798e4 | 2021-05-25 |      | verify & adapt to Sol; low prio (Localization: esES, esMX) |
-| sol@2d41cd49 | 2021-05-25 |      | not working correctly because it uses the wrong WorldMapAreaId; look up the correct one |
+| sol@2d41cd49 | 2021-05-25 | X    | not working correctly because it uses the wrong WorldMapAreaId; look up the correct one; done: sol@d2c97188 |
 | sol@d16605d4 | 2021-05-25 |      | verify/rework SQL script; verify quest |
 | sol@3c09156d | 2021-05-25 |      | verify/rework SQL script; verify WP path |
 | sol@ae66ea08 | 2021-05-25 |      | verify/rework SQL script; low prio (Dungeon: Scholomance) |
@@ -142,7 +150,7 @@ TODOs:
 | sol@dbd78936 | 2021-02-24 |      | verify and rework SQL script; low prio (Dungeon: Gnomeregan) |
 | sol@ae2bd072 | 2021-02-24 |      | verify and rework SQL script; low prio (Dungeon: Gnomeregan) |
 | sol@f910d635 | 2021-02-21 |      | verify and rework SQL script |
-| sol@922f87e5 | 2021-02-21 |      | verify and rework SQL script |
+| sol@922f87e5 | 2021-02-21 | X    | verify and rework SQL script; update: this commit is wrong because it's adding the SAI to **all** firework launchers in the world and doesn't randomly launch rockets, won't take over; implemented a better solution: sol@207d00fe |
 | sol@2cd534de | 2021-02-16 | X    | verify and rework SQL script; done: sol@cd3a0535 |
 | sol@f6c2c903 | 2021-02-15 | X    | use UPDATE statements with regular expressions; update: the changes are not needed as the placeholders are handled in a case-insensitive way; only fix a wrong name placeholder by replacing $N$N with $B$B, see sol@542ecf4a |
 | sol@32e48823 | 2021-02-13 | X    | taken over: sol@6a0df2fa |

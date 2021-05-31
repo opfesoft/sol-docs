@@ -482,7 +482,7 @@ The ID of the pickpocketing loot template that this creature should use to gener
 
 The ID of the skinning loot template that this creature should use to generate skinning loots. See [skinning_loot_template.entry](loot_template.md#entry)
 
-**resistancex**
+#### resistancex
 
 | resistancex | school |
 |-------------|--------|
