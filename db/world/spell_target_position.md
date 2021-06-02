@@ -39,6 +39,16 @@ This table holds coordinate information on where the player should be teleported
 <td><p>Identifier</p></td>
 </tr>
 <tr>
+<td><p><a href="#effectindex">EffectIndex</a></p></td>
+<td><p>tinyint(3)</p></td>
+<td><p>unsigned</p></td>
+<td><p>PRI</p></td>
+<td><p>NO</p></td>
+<td><p>0</p></td>
+<td><p> </p></td>
+<td><p></p></td>
+</tr>
+<tr>
 <td><p><a href="#target_map">target_map</a></p></td>
 <td><p>smallint(5)</p></td>
 <td><p>unsigned</p></td>
@@ -96,6 +106,10 @@ This table holds coordinate information on where the player should be teleported
 ### id
 
 The spell ID. See Spell.dbc
+
+### EffectIndex
+
+The effect index of the spell. See Spell.dbc
 
 ### target\_map
 

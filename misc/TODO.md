@@ -2,13 +2,15 @@ TODOs:
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@ee7d54b7 | 2021-06-01 |      | verify/rework SQL script |
+| sol@a7585d61 | 2021-06-01 |      | verify/rework SQL script |
 | sol@d46a55d9 | 2021-05-31 |      | verify/rework SQL script |
 | sol@11cdb969 | 2021-05-31 |      | verify issue & changes |
 | sol@3ac48489 | 2021-05-31 |      | verify/rework SQL script |
-| sol@8dc13a53 | 2021-05-31 |      | fix the spell script "spell\_gen\_throw\_back" and the spell ID of the throw back spell |
-| sol@cedd6363 | 2021-05-30 |      | verify changes |
+| sol@8dc13a53 | 2021-05-31 | X    | fix the spell script "spell\_gen\_throw\_back" and the spell ID of the throw back spell; done: sol@483c30b9 |
+| sol@cedd6363 | 2021-05-30 | X    | verify changes; update: wrong, won't take over; holy resistance is derived from arcane resistance, so the values should stay in the DB |
 | sol@107658eb | 2021-05-30 |      | not working; try to find another solution |
-| sol@a355b4d2 | 2021-05-29 |      | verify issue & changes |
+| sol@a355b4d2 | 2021-05-29 |      | verify issue & changes; update: cannot reproduce on Sol; low prio |
 | sol@f1b43a89 | 2021-05-27 |      | take over if needed |
 | sol@e8181130 | 2021-05-25 |      | verify & adapt to Sol; low prio (Localization: esES, esMX) |
 | sol@537798e4 | 2021-05-25 |      | verify & adapt to Sol; low prio (Localization: esES, esMX) |
