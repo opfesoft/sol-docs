@@ -2,6 +2,11 @@ TODOs:
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@e3fcf1ad | 2021-06-02 |      | verify/rework SQL script |
+| sol@c90a43eb | 2021-06-02 |      | verify issue; use UPDATE instead of DELETE/INSERT |
+| sol@8747f965 | 2021-06-02 |      | verify/rework SQL script |
+| sol@e7087433 | 2021-06-02 |      | verify/rework SQL script |
+| sol@40a71471 | 2021-06-02 |      | SAI not necessary, update spell script "spell\_q6124\_6129\_apply\_salve" instead |
 | sol@ee7d54b7 | 2021-06-01 |      | verify/rework SQL script |
 | sol@a7585d61 | 2021-06-01 |      | verify/rework SQL script |
 | sol@d46a55d9 | 2021-05-31 |      | verify/rework SQL script |
@@ -151,7 +156,7 @@ TODOs:
 | sol@573a5605 | 2021-02-25 |      | verify and rework SQL script |
 | sol@dbd78936 | 2021-02-24 |      | verify and rework SQL script; low prio (Dungeon: Gnomeregan) |
 | sol@ae2bd072 | 2021-02-24 |      | verify and rework SQL script; low prio (Dungeon: Gnomeregan) |
-| sol@f910d635 | 2021-02-21 |      | verify and rework SQL script |
+| sol@f910d635 | 2021-02-21 | X    | verify and rework SQL script; taken over from TC instead: sol@8dac3d5f |
 | sol@922f87e5 | 2021-02-21 | X    | verify and rework SQL script; update: this commit is wrong because it's adding the SAI to **all** firework launchers in the world and doesn't randomly launch rockets, won't take over; implemented a better solution: sol@207d00fe |
 | sol@2cd534de | 2021-02-16 | X    | verify and rework SQL script; done: sol@cd3a0535 |
 | sol@f6c2c903 | 2021-02-15 | X    | use UPDATE statements with regular expressions; update: the changes are not needed as the placeholders are handled in a case-insensitive way; only fix a wrong name placeholder by replacing $N$N with $B$B, see sol@542ecf4a |

@@ -2143,7 +2143,7 @@ if set to 0 only aggressive / hostile NPCs attack</p></td>
 </p></td>
 <td><p><br />
 </p></td>
-<td><p>Despawn Target after param1 in Milliseconds.</p></td>
+<td><p>Despawn the target after the specified time in ms if it is a creature. If the target is a gameobject it is deleted at once, the timer is ignored in this case.</p></td>
 </tr>
 <tr>
 <td><p>SMART_ACTION_SET_INVINCIBILITY_HP_LEVEL</p></td>
