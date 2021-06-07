@@ -1940,12 +1940,11 @@ This is the probability of the event to occur as a percentage from 0-100. So, if
 <td><p>29</p></td>
 <td><p>Distance</p></td>
 <td><p>Angle</p></td>
-<td><p>End <a href="creature_template.md#entry">creature_template.entry</a></p></td>
+<td><p>End NPC<a href="creature_template.md#entry">creature_template.entry</a></p></td>
 <td><p>credit</p></td>
 <td><p>creditType (0 monsterkill, 1 event)</p></td>
-<td><p><br />
-</p></td>
-<td><p>Follow the target; angle is counter-clockwise, 0 means in front of the target; if lower or equal to 6 use as radian, otherwise use as degrees; as only integer values are allowed if specified as radian the degrees would be as follows:<br />
+<td><p>aliveState End NPC (0: alive, 1: dead)</p></td>
+<td><p>Follow the target; stop following if target is SMART_TARGET_NONE; angle is counter-clockwise, 0 means in front of the target; if lower or equal to 6 use as radian, otherwise use as degrees; as only integer values are allowed if specified as radian the degrees would be as follows:<br />
 1: ca. 57.3 degrees<br />
 2: ca. 114.6 degrees<br />
 3: ca. 171.9 degrees<br />

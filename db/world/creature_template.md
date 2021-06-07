@@ -184,32 +184,35 @@ Note: This field also controls the creature family assistance mechanic. Only cre
 
 A bitmask that represents what NPC flags the creature has. Each bit controls a different flag and to combine flags, you can add each flag that you want, in effect activating the respective bits.
 
-| Flag     |            | Name               | Comment                                                                          |
-|----------|------------|--------------------|----------------------------------------------------------------------------------|
-| 1        | 0x00000001 | Gossip             | If creature has more gossip options, add this flag to bring up a menu.           |
-| 2        | 0x00000002 | Quest Giver        | Any creature giving or taking quests needs to have this flag.                    |
-| 16       | 0x00000010 | Trainer            | Allows the creature to have a trainer list to teach spells                       |
-| 32       | 0x00000020 | Class Trainer      |                                                                                  |
-| 64       | 0x00000040 | Profession Trainer |                                                                                  |
-| 128      | 0x00000080 | Vendor             | Any creature selling items needs to have this flag.                              |
-| 256      | 0x00000100 | Vendor Ammo        |                                                                                  |
-| 512      | 0x00000200 | Vendor Food        |                                                                                  |
-| 1024     | 0x00000400 | Vendor Poison      |                                                                                  |
-| 2048     | 0x00000800 | Vendor Reagent     |                                                                                  |
-| 4096     | 0x00001000 | Repairer           | Creatures with this flag can repair items.                                       |
-| 8192     | 0x00002000 | Flight Master      | Any creature serving as flight master has this.                                  |
-| 16384    | 0x00004000 | Spirit Healer      | Makes the creature invisible to alive characters and has the resurrect function. |
-| 32768    | 0x00008000 | Spirit Guide       |                                                                                  |
-| 65536    | 0x00010000 | Innkeeper          | Creatures with this flag can set hearthstone locations.                          |
-| 131072   | 0x00020000 | Banker             | Creatures with this flag can show the bank                                       |
-| 262144   | 0x00040000 | Petitioner         |                                                                                  |
-| 524288   | 0x00080000 | Tabard Designer    | Allows the designing of guild tabards.                                           |
-| 1048576  | 0x00100000 | Battlemaster       | Creatures with this flag port players to battlegrounds.                          |
-| 2097152  | 0x00200000 | Auctioneer         | Allows creature to display auction list.                                         |
-| 4194304  | 0x00400000 | Stable Master      | Has the option to stable pets for hunters.                                       |
-| 8388608  | 0x00800000 | Guild Banker       |                                                                                  |
-| 16777216 | 0x01000000 | Spellclick         | Needs data on [npc_spellclick_spells.npc_entry](npc_spellclick_spells.md#npc_entry) table |
-| 67108864 | 0x04000000 | Mailbox            | NPC will act like a mailbox (opens mailbox with right-click)                     |
+| Flag     |            | Name                             | Comment                                                                                   |
+|----------|------------|----------------------------------|-------------------------------------------------------------------------------------------|
+| 1        | 0x00000001 | UNIT_NPC_FLAG_GOSSIP             | If creature has more gossip options, add this flag to bring up a menu.                    |
+| 2        | 0x00000002 | UNIT_NPC_FLAG_QUESTGIVER         | Any creature giving or taking quests needs to have this flag.                             |
+| 4        | 0x00000004 | UNIT_NPC_FLAG_UNK1               |                                                                                           |
+| 8        | 0x00000008 | UNIT_NPC_FLAG_UNK2               |                                                                                           |
+| 16       | 0x00000010 | UNIT_NPC_FLAG_TRAINER            | Allows the creature to have a trainer list to teach spells                                |
+| 32       | 0x00000020 | UNIT_NPC_FLAG_TRAINER_CLASS      |                                                                                           |
+| 64       | 0x00000040 | UNIT_NPC_FLAG_TRAINER_PROFESSION |                                                                                           |
+| 128      | 0x00000080 | UNIT_NPC_FLAG_VENDOR             | Any creature selling items needs to have this flag.                                       |
+| 256      | 0x00000100 | UNIT_NPC_FLAG_VENDOR_AMMO        |                                                                                           |
+| 512      | 0x00000200 | UNIT_NPC_FLAG_VENDOR_FOOD        |                                                                                           |
+| 1024     | 0x00000400 | UNIT_NPC_FLAG_VENDOR_POISON      |                                                                                           |
+| 2048     | 0x00000800 | UNIT_NPC_FLAG_VENDOR_REAGENT     |                                                                                           |
+| 4096     | 0x00001000 | UNIT_NPC_FLAG_REPAIR             | Creatures with this flag can repair items.                                                |
+| 8192     | 0x00002000 | UNIT_NPC_FLAG_FLIGHTMASTER       | Any creature serving as flight master has this.                                           |
+| 16384    | 0x00004000 | UNIT_NPC_FLAG_SPIRITHEALER       | Makes the creature invisible to alive characters and has the resurrect function.          |
+| 32768    | 0x00008000 | UNIT_NPC_FLAG_SPIRITGUIDE        |                                                                                           |
+| 65536    | 0x00010000 | UNIT_NPC_FLAG_INNKEEPER          | Creatures with this flag can set hearthstone locations.                                   |
+| 131072   | 0x00020000 | UNIT_NPC_FLAG_BANKER             | Creatures with this flag can show the bank                                                |
+| 262144   | 0x00040000 | UNIT_NPC_FLAG_PETITIONER         |                                                                                           |
+| 524288   | 0x00080000 | UNIT_NPC_FLAG_TABARDDESIGNER     | Allows the designing of guild tabards.                                                    |
+| 1048576  | 0x00100000 | UNIT_NPC_FLAG_BATTLEMASTER       | Creatures with this flag port players to battlegrounds.                                   |
+| 2097152  | 0x00200000 | UNIT_NPC_FLAG_AUCTIONEER         | Allows creature to display auction list.                                                  |
+| 4194304  | 0x00400000 | UNIT_NPC_FLAG_STABLEMASTER       | Has the option to stable pets for hunters.                                                |
+| 8388608  | 0x00800000 | UNIT_NPC_FLAG_GUILD_BANKER       |                                                                                           |
+| 16777216 | 0x01000000 | UNIT_NPC_FLAG_SPELLCLICK         | Needs data on [npc_spellclick_spells.npc_entry](npc_spellclick_spells.md#npc_entry) table |
+| 33554432 | 0x02000000 | UNIT_NPC_FLAG_PLAYER_VEHICLE     |                                                                                           |
+| 67108864 | 0x04000000 | UNIT_NPC_FLAG_MAILBOX            | NPC will act like a mailbox (opens mailbox with right-click)                              |
 
 So if you want a NPC that is a quest giver(2), a vendor(128) and can repair(4096) you just add specific flags together: 2+128+4096=4226                                                                              
 

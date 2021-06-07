@@ -2,6 +2,8 @@ TODOs:
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@752038e2 | 2021-06-05 |      | low prio (Localization: zhCN) |
+| sol@c485bab6 | 2021-06-04 |      | don't use SAI, fix GameObjectScript instead |
 | sol@e3fcf1ad | 2021-06-02 |      | verify/rework SQL script |
 | sol@c90a43eb | 2021-06-02 |      | verify issue; use UPDATE instead of DELETE/INSERT |
 | sol@8747f965 | 2021-06-02 |      | verify/rework SQL script |
@@ -85,11 +87,11 @@ TODOs:
 | sol@40b951fb | 2021-04-11 | X    | only update z position; done: sol@5ecf266c |
 | sol@10954b6d | 2021-04-11 | X    | verify drop chances; done: sol@318db455 |
 | sol@577bee84 | 2021-04-11 | X    | verify/rework loot chances; seems to be wrong that all are equal; perhaps just add money to the loot instead of changing the chances (check for all junkboxes); done: sol@bb7956f0 |
-| sol@372d72fa | 2021-04-11 |      | verify/rework SQL script; perhaps use summon spell instead of the creature spawns |
+| sol@372d72fa | 2021-04-11 | X    | verify/rework SQL script; perhaps use summon spell instead of the creature spawns; update: won't take over, instead fixed controlled NPCs to attack if their owner NPC is attacked: sol@5fe208ec |
 | sol@70308572 | 2021-04-11 | X    | only update z position; done: sol@d2ceb8ad |
 | sol@d1fe14ff | 2021-04-11 |      | verify/rework SQL script |
 | sol@44cecc82 | 2021-04-11 | X    | only update z position; done: sol@801a6c1f |
-| sol@b96a6a13 | 2021-04-11 |      | verify/rework SQL script; perhaps use summon spell instead of the creature spawns |
+| sol@b96a6a13 | 2021-04-11 | X    | verify/rework SQL script; perhaps use summon spell instead of the creature spawns; update: won't take over, instead fixed controlled NPCs to attack if their owner NPC is attacked: sol@5fe208ec |
 | sol@d0e9c6ca | 2021-04-08 |      | verify changes |
 | sol@91dfedd0 | 2021-04-07 |      | take over if needed; does not seem to fix anything and the original PR does not contain any information other than that it was copied blindly from TC |
 | sol@88ddc244 | 2021-04-07 |      | take over if needed; does not seem to fix anything and the original PR does not contain any information other than that it was copied blindly from TC |
@@ -152,8 +154,8 @@ TODOs:
 | sol@a269c51d | 2021-03-05 | X    | verify deleted loot and compare with TC version; done: sol@e9c3b4d1; don't remove loot for Farmer Kent (2436) and Xandivious (15623) |
 | sol@727590dc | 2021-03-04 |      | verify and rework SQL script |
 | sol@81957089 | 2021-02-28 |      | implement another solution (remark: the attacking NPCs should not transform to worgen at all; also delete the conditions which were used in the old SAI script to control the transformation according to the Pyrewood Village Event; this has been forgotten in the AC commit and will cause a bug in the SAI execution) |
-| sol@41fa30a5 | 2021-02-28 |      | the quest is working on Sol; the movement bugs described in the AC issue seem to be caused by AC commit sol@c8f43d85 (another good hint to not take this commit over); nevertheless, rework the existing SAI as it seems to be very old and the NPC following the player should indeed fight the enemies |
-| sol@573a5605 | 2021-02-25 |      | verify and rework SQL script |
+| sol@41fa30a5 | 2021-02-28 | X    | the quest is working on Sol; the movement bugs described in the AC issue seem to be caused by AC commit sol@c8f43d85 (another good hint to not take this commit over); nevertheless, rework the existing SAI as it seems to be very old and the NPC following the player should indeed fight the enemies; done: sol@330199c6 |
+| sol@573a5605 | 2021-02-25 | X    | verify and rework SQL script; update: won't take over, instead fixed controlled NPCs to attack if their owner NPC is attacked: sol@5fe208ec |
 | sol@dbd78936 | 2021-02-24 |      | verify and rework SQL script; low prio (Dungeon: Gnomeregan) |
 | sol@ae2bd072 | 2021-02-24 |      | verify and rework SQL script; low prio (Dungeon: Gnomeregan) |
 | sol@f910d635 | 2021-02-21 | X    | verify and rework SQL script; taken over from TC instead: sol@8dac3d5f |
