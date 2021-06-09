@@ -1037,7 +1037,7 @@ This is the probability of the event to occur as a percentage from 0-100. So, if
 </p></td>
 <td><p><br />
 </p></td>
-<td>On Creature Corpse Removed</td>
+<td>On creature corpse removed or creature despawned</td>
 </tr>
 <tr>
 <td><p>SMART_EVENT_AI_INIT</p></td>
@@ -1687,7 +1687,7 @@ This is the probability of the event to occur as a percentage from 0-100. So, if
 </p></td>
 <td><p><br />
 </p></td>
-<td><p>Change Threat Percentage for Single Target</p></td>
+<td><p>Change threat percentage for the specified targets</p></td>
 </tr>
 <tr>
 <td><p>SMART_ACTION_THREAT_ALL_PCT</p></td>
@@ -1702,7 +1702,7 @@ This is the probability of the event to occur as a percentage from 0-100. So, if
 </p></td>
 <td><p><br />
 </p></td>
-<td><p>Change Threat Percentage for All Enemies</p></td>
+<td><p>Change threat percentage for all creatures on the current threat list</p></td>
 </tr>
 <tr>
 <td><p>SMART_ACTION_CALL_AREAEXPLOREDOREVENTHAPPENS</p></td>
@@ -2252,7 +2252,7 @@ if set to 0 only aggressive / hostile NPCs attack</p></td>
 </p></td>
 <td><p><br />
 </p></td>
-<td><p>If a creature or GO is set active it will stay active even if no player is near. Take care, though, as it needs additional ressources (CPU/RAM) to keep them active (other objects/creatures nearby stay active). If a creature dies/despawns the active state is automatically turned off; it can be turned on again using the event SMART_EVENT_DEATH if the corpse should also stay active, e.g. to trigger actions via SMART_EVENT_CORPSE_REMOVED.</p></td>
+<td><p>If a creature or GO is set active it will stay active even if no player is near. Take care, though, as it needs additional ressources (CPU/RAM) to keep them active (other objects/creatures nearby stay active). If a creature dies/despawns the active state is automatically turned off; it can be turned on again using the event SMART_EVENT_DEATH if the corpse should also stay active, e.g. to trigger actions via SMART_EVENT_CORPSE_REMOVED. If the active state is turned on using the events SMART_EVENT_RESPAWN, SMART_EVENT_DEATH and SMART_EVENT_CORPSE_REMOVED the creature will stay active forever.</p></td>
 </tr>
 <tr>
 <td><p>SMART_ACTION_ATTACK_START</p></td>
@@ -3347,8 +3347,7 @@ quickChange 1 forces the creature to quickly change its orientation (useful if t
 </p></td>
 <td><p><br />
 </p></td>
-<td><p><br />
-</p></td>
+<td><p>Add/remove threat directly to all specified targets</p></td>
 </tr>
 <tr>
 <td><p>SMART_ACTION_LOAD_EQUIPMENT</p></td>
