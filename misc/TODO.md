@@ -2,6 +2,11 @@ TODOs:
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@63359657 | 2021-06-09 |      | verify/rework SQL script |
+| sol@0062a81d | 2021-06-09 |      | verify loot; rework UPDATE statement and remove variables |
+| sol@3381d0d7 | 2021-06-08 |      | verify loot; rework DELETE statement and remove variables |
+| sol@6dacfc07 | 2021-06-08 |      | wrong: only save loot to the DB which the player can actually see (is allowed for the player); implement another solution |
+| sol@1644e4c0 | 2021.06.07 |      | use a single DELETE statement instead |
 | sol@752038e2 | 2021-06-05 |      | low prio (Localization: zhCN) |
 | sol@c485bab6 | 2021-06-04 |      | don't use SAI, fix GameObjectScript instead |
 | sol@e3fcf1ad | 2021-06-02 |      | verify/rework SQL script |
