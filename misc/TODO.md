@@ -2,10 +2,17 @@ TODOs:
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@c3bac33e | 2021-06-13 |      | probably just change the position, not all creatures have to move around randomly |
+| sol@f54c6364 | 2021-06-13 |      | verify/rework SQL script; use other positions & wander distances |
+| sol@fe2aa2ec | 2021-06-12 |      | verify spell IDs; remove variables; low prio |
+| sol@c934b306 | 2021-06-12 |      | add WP movement instead of random movement |
+| sol@9170eadc | 2021-06-11 |      | verify creatures; not all creatures have to move around randomly, especially not Goreclaw the Ravenous |
+| sol@85103fd2 | 2021-06-11 |      | verify/rework SQL script |
+| sol@07ec1ba0 | 2021-06-11 |      | verify/rework SQL script |
 | sol@63359657 | 2021-06-09 |      | verify/rework SQL script |
 | sol@0062a81d | 2021-06-09 |      | verify loot; rework UPDATE statement and remove variables |
 | sol@3381d0d7 | 2021-06-08 |      | verify loot; rework DELETE statement and remove variables |
-| sol@6dacfc07 | 2021-06-08 |      | wrong: only save loot to the DB which the player can actually see (is allowed for the player); implement another solution |
+| sol@6dacfc07 | 2021-06-08 | X    | wrong: only save loot to the DB which the player can actually see (is allowed for the player); implement another solution; done: sol@2ac4d6ff |
 | sol@1644e4c0 | 2021.06.07 |      | use a single DELETE statement instead |
 | sol@752038e2 | 2021-06-05 |      | low prio (Localization: zhCN) |
 | sol@c485bab6 | 2021-06-04 |      | don't use SAI, fix GameObjectScript instead |
@@ -42,7 +49,7 @@ TODOs:
 | sol@16e04439 | 2021-05-18 |      | verify/rework SQL script |
 | sol@0ca86925 | 2021-05-15 |      | verify/rework SQL script |
 | sol@16a385d1 | 2021-05-14 |      | verify/rework SQL script |
-| sol@88071b7e | 2021-05-14 | X    | verify loot chances; update: if every chance in a group has the same value (in this case 0) the chances are equal, so this commit is wrong, won't take over |
+| sol@88071b7e | 2021-05-14 | X    | verify loot chances; update: if every chance in a group is 0 this means that the chances are equal, so this commit is wrong, won't take over |
 | sol@fe5aedaa | 2021-05-13 |      | verify/rework SQL script |
 | sol@b14ffdb8 | 2021-05-13 |      | verify changes; rework SQL script if replacing the CreatureScript with SAI |
 | sol@61325fd4 | 2021-05-11 |      | verify WP path; set active; rework SQL script |
@@ -102,7 +109,7 @@ TODOs:
 | sol@88ddc244 | 2021-04-07 |      | take over if needed; does not seem to fix anything and the original PR does not contain any information other than that it was copied blindly from TC |
 | sol@042cec82 | 2021-04-06 |      | take over if needed |
 | sol@655ccacf | 2021-04-05 |      | don't take over all SQL scripts as there are also several changes to the English localization which seem to be wrong (e.g. quest 5636); low prio (Localization: esES, esMX) |
-| sol@0528e0b4 | 2021-04-05 |      | verify commit and only take over relevant changes from this TC commit: https://github.com/TrinityCore/TrinityCore/commit/8d19fcbc469e0b37a323c876a15097fbe848d884; done: sol@c30b7e25 |
+| sol@0528e0b4 | 2021-04-05 | X    | verify commit and only take over relevant changes from this TC commit: https://github.com/TrinityCore/TrinityCore/commit/8d19fcbc469e0b37a323c876a15097fbe848d884; done: sol@c30b7e25 |
 | sol@d8c4795e | 2021-04-04 |      | verify gameobjects & positions |
 | sol@26c30996 | 2021-04-04 |      | verify/rework SQL script; low prio (Dungeon: Naxxramas) |
 | sol@7413c17e | 2021-04-04 |      | verify changes & issue (cannot reproduce on Sol); low prio |
@@ -155,7 +162,7 @@ TODOs:
 | sol@53d73416 | 2021-03-07 |      | broadcast text ID already fixed with commit sol@3e648f34, but the quest does not seem to be working correctly; compare with "official" walkthrough |
 | sol@9239f033 | 2021-03-07 |      | creature IDs 4295 and 4300 should keep their talk actions, but it is necessary to clean up the creature texts and adjust their SAI |
 | sol@303ba07b | 2021-03-07 | X    | the spell "New Summon Test" is obviously wrong here, so instead of manipulating the Spell DBC improve the spell script "spell\_q9452\_cast\_net" to directly summon the creature with an appropriate summon type; done: sol@b773b702 |
-| sol@bfb6faa2 | 2021-03-06 |      | wrong; instead of deleting the reference loot ID from creature 16348 remove item 2088 from reference loot ID 24076 and add the item directly to the loot of creature 831 (see TC version) |
+| sol@bfb6faa2 | 2021-03-06 | X    | wrong; instead of deleting the reference loot ID from creature 16348 remove item 2088 from reference loot ID 24076 and add the item directly to the loot of creature 831 (see TC version); done: sol@3aafe6c3 |
 | sol@a269c51d | 2021-03-05 | X    | verify deleted loot and compare with TC version; done: sol@e9c3b4d1; don't remove loot for Farmer Kent (2436) and Xandivious (15623) |
 | sol@727590dc | 2021-03-04 | X    | verify and rework SQL script; done: sol@db7dca3a |
 | sol@81957089 | 2021-02-28 | X    | implement another solution (remark: the attacking NPCs should not transform to worgen at all; also delete the conditions which were used in the old SAI script to control the transformation according to the Pyrewood Village Event; this has been forgotten in the AC commit and will cause a bug in the SAI execution); done: sol@56d41cf3 |

@@ -211,6 +211,8 @@ Groupid for dummies as people have a hard time understanding it;
 
 For reference entries: If GroupId &gt; 0 only the referenced items with said GroupId will drop.
 
+If GroupId is 0 a separate roll is made for each entry (that's also the reason why chance 0 is not allowed for GroupId 0).
+
 ### MinCountOrRef
 
 The minimum number of copies of the item that can drop in a single loot
