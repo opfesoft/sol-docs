@@ -1548,8 +1548,7 @@ This is the probability of the event to occur as a percentage from 0-100. So, if
 <td><p>4</p></td>
 <td><p>SoundId</p></td>
 <td><p>onlySelf (1: only sends the sound to targeted players, 0: sends the sound to everyone in visibility range of the target)</p></td>
-<td><p><br />
-</p></td>
+<td><p>distance (1: the sound fades with increasing distance to the target, 0: the sound is played at full volume no matter the distance)</p></td>
 <td><p><br />
 </p></td>
 <td><p><br />
@@ -3294,9 +3293,8 @@ quickChange 1 forces the creature to quickly change its orientation (useful if t
 <td><p>soundId2</p></td>
 <td><p>soundId3</p></td>
 <td><p>soundId4</p></td>
-<td><p>onlySelf (0/1)</p></td>
-<td><p><br />
-</p></td>
+<td><p>onlySelf (1: only sends the sound to targeted players, 0: sends the sound to everyone in visibility range of the target)</p></td>
+<td><p>distance (1: the sound fades with increasing distance to the target, 0: the sound is played at full volume no matter the distance)</p></td>
 <td><p><br />
 </p></td>
 </tr>

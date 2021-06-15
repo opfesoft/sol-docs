@@ -2,7 +2,7 @@ TODOs:
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
-| sol@c3bac33e | 2021-06-13 |      | probably just change the position, not all creatures have to move around randomly |
+| sol@c3bac33e | 2021-06-13 | X    | probably just change the position, not all creatures have to move around randomly; done: sol@12faeaf8 |
 | sol@f54c6364 | 2021-06-13 |      | verify/rework SQL script; use other positions & wander distances |
 | sol@fe2aa2ec | 2021-06-12 |      | verify spell IDs; remove variables; low prio |
 | sol@c934b306 | 2021-06-12 |      | add WP movement instead of random movement |
