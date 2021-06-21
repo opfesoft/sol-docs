@@ -2,6 +2,21 @@ TODOs:
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@56495763 | 2021-06-20 |      | verify conditions; add comment if taking over |
+| sol@b870fe53 | 2021-06-20 |      | verify & adapt to Sol; low prio (Localization: esES, esMX) |
+| sol@64aa901c | 2021-06-20 |      | verify changes; there's at least one bug concerning CONFIG\_START\_HEROIC\_PLAYER\_LEVEL; low prio |
+| sol@ff5e4570 | 2021-06-20 |      | wrong: the gossip options should only be available after the quest "Cache of Mau'ari" is rewarded; also add proper comments |
+| sol@18a02e9c | 2021-06-18 |      | low prio (Localization: zhCN) |
+| sol@ea7f693c | 2021-06-18 |      | take over TC commit 2fb573150d5c08a5a2fa870f886969d25aee5734 instead |
+| sol@4811a14b | 2021-06-18 |      | compare changes; check TC implementation |
+| sol@8214873e | 2021-06-18 |      | verify/rework SQL script |
+| sol@137c0137 | 2021-06-18 |      | check if other creatures are using model ID 3680 |
+| sol@206c4055 | 2021-06-18 |      | implement other conditions in order to allow the drop even if "The Swarm Grows" is rewarded (otherwise the player is not able to finish the quest later; although this wasn't the case on retail, it provides a better player experience) |
+| sol@efd575fe | 2021-06-18 |      | verify/rework SQL script; low prio (Dungeon: Scholomance) |
+| sol@f8c098f3 | 2021-06-18 |      | wrong: a loot reference cannot be part of a group, so the update changes nothing; find another solution |
+| sol@3da83cc0 | 2021-06-17 |      | take over if needed |
+| sol@0d96866c | 2021-06-14 |      | does not seem to fix the issue, try to find another solution; low prio as it's just a visual bug |
+| sol@34da0cda | 2021-06-14 |      | verify changes; low prio (Dungeon: Upper Blackrock Spire) |
 | sol@c3bac33e | 2021-06-13 | X    | probably just change the position, not all creatures have to move around randomly; done: sol@12faeaf8 |
 | sol@f54c6364 | 2021-06-13 |      | verify/rework SQL script; use other positions & wander distances |
 | sol@fe2aa2ec | 2021-06-12 |      | verify spell IDs; remove variables; low prio |
@@ -66,6 +81,7 @@ TODOs:
 | sol@71d5d27e | 2021-05-06 |      | verify changes; low prio (Dungeon: Icecrown Citadel) |
 | sol@058f0c94 | 2021-05-06 |      | verify & adapt to Sol; low prio (Localization: esES, esMX) |
 | sol@37c3e051 | 2021-05-05 |      | verify & adapt to Sol; low prio (Localization: esES, esMX) |
+| sol@ad5ba1a7 | 2021-05-05 |      | verify/rework SQL script |
 | sol@74a54b49 | 2021-05-04 |      | don't remove the broadcast text ID, instead update the broadcast text itself |
 | sol@f96c5281 | 2021-05-04 |      | verify & adapt to Sol; low prio (Localization: esES, esMX) |
 | sol@1d919f84 | 2021-05-03 | X    | verify position and use UPDATE instead of DELETE/INSERT; done: sol@a4651f4a |
@@ -158,9 +174,9 @@ TODOs:
 | sol@646f6657 | 2021-03-10 | X    | try to find a better solution without manipulating Spell DBC and also addressing the other affected mechanical creatures; done: sol@ef11a791 |
 | sol@9e17e139 | 2021-03-09 |      | verify SQL script; low prio (Hallow's End) |
 | sol@9d096233 | 2021-03-09 |      | verify SQL script (see also AC commit sol@671c4dc5); low prio (Dungeon: Naxxramas) |
-| sol@1e90722a | 2021-03-07 |      | verify and rework SQL script (see also AC commits sol@bfdfe361, sol@ad5ba1a7) |
-| sol@53d73416 | 2021-03-07 |      | broadcast text ID already fixed with commit sol@3e648f34, but the quest does not seem to be working correctly; compare with "official" walkthrough |
-| sol@9239f033 | 2021-03-07 |      | creature IDs 4295 and 4300 should keep their talk actions, but it is necessary to clean up the creature texts and adjust their SAI |
+| sol@1e90722a | 2021-03-07 | X    | verify and rework SQL script (see also AC commit sol@bfdfe361); done: sol@8bbe5cc2, sol@f8aac25b, sol@641905b3, sol@7d01d98f |
+| sol@53d73416 | 2021-03-07 | X    | broadcast text ID already fixed with commit sol@3e648f34, but the quest does not seem to be working correctly; compare with "official" walkthrough; done: sol@dd4748fd |
+| sol@9239f033 | 2021-03-07 | X    | creature IDs 4295 and 4300 should keep their talk actions, but it is necessary to clean up the creature texts and adjust their SAI; done: sol@18cc9039 |
 | sol@303ba07b | 2021-03-07 | X    | the spell "New Summon Test" is obviously wrong here, so instead of manipulating the Spell DBC improve the spell script "spell\_q9452\_cast\_net" to directly summon the creature with an appropriate summon type; done: sol@b773b702 |
 | sol@bfb6faa2 | 2021-03-06 | X    | wrong; instead of deleting the reference loot ID from creature 16348 remove item 2088 from reference loot ID 24076 and add the item directly to the loot of creature 831 (see TC version); done: sol@3aafe6c3 |
 | sol@a269c51d | 2021-03-05 | X    | verify deleted loot and compare with TC version; done: sol@e9c3b4d1; don't remove loot for Farmer Kent (2436) and Xandivious (15623) |

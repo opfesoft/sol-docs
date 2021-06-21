@@ -412,13 +412,7 @@
 ### entryorguid
 
 -   EntryOrGuid &gt; 0: entry of the creature / game object / etc.
-
-<!-- -->
-
 -   EntryOrGuid &lt; 0: guid of the creature / game object / etc. (overrides existing SAI for entries)
-
-<!-- -->
-
 -   Depends on source\_type.
 
 ### source\_type
@@ -439,13 +433,7 @@
 ### link
 
 -   Simple event linking;
-
-<!-- -->
-
 -   Example: if id = 0 and link = 1; id 1 will only be able to occur if id = 0 was triggered (id 1 has to use event\_type SMART\_EVENT\_LINK).
-
-<!-- -->
-
 -   Smart\_event to be used.
 
 ### event\_phase\_mask
@@ -480,11 +468,9 @@ If the script is in phase 1 and want to skip to phase 2:
 | SMART\_EVENT\_PHASE\_11          | 1024 | 0x400 | Phase 11 only.              |
 | SMART\_EVENT\_PHASE\_12          | 2048 | 0x800 | Phase 12 only.              |
 
--   Event will only be able to occur if creature/GO is in this phase.
-
-<!-- -->
-
--   Example: If we want an event to only be able to occure in phase 1 and 4, **event\_phase\_mask** = 1+8 = 9
+- Event will only be able to occur if creature/GO is in this phase.
+- Example: If we want an event to only be able to occure in phase 1 and 4, **event\_phase\_mask** = 1+8 = 9
+- The event phase is automatically set to 0 on creature reset (this behaviour can be disabled using SMART_ACTION_SET_EVENT_PHASE_RESET)
 
 ### event\_chance
 
@@ -3019,8 +3005,8 @@ quickChange 1 forces the creature to quickly change its orientation (useful if t
 <tr>
 <td><p>SMART_ACTION_SEND_GOSSIP_MENU</p></td>
 <td><p>98</p></td>
-<td><p><a href="gossip_menu.md#entry">gossip_menu.entry</a></p></td>
-<td><p><a href="gossip_menu.md#text_id">gossip_menu.text_id</a><br />
+<td><p><a href="gossip_menu.md#menuid">gossip_menu.MenuID</a></p></td>
+<td><p><a href="gossip_menu.md#textid">gossip_menu.TextID</a><br />
 (same value as <a href="npc_text.md#id">npc_text.ID</a>)</p></td>
 <td><p><br />
 </p></td>
@@ -3565,9 +3551,9 @@ quickChange 1 forces the creature to quickly change its orientation (useful if t
 </p></td>
 </tr>
 <tr>
-<td><p>SMART_ACTION_SET_EVENT_FLAG_RESET</p></td>
+<td><p>SMART_ACTION_SET_EVENT_PHASE_RESET</p></td>
 <td><p>211</p></td>
-<td><p>0/1</p></td>
+<td><p>0: Keep event phase on creature reset; 1: Event phase will be set to 0 on creature reset (default behaviour)</p></td>
 <td><p><br />
 </p></td>
 <td><p><br />
@@ -4190,7 +4176,7 @@ If the start position distance is far away the circle movement speed will be dec
 <td><p>SMART_TARGET_CLOSEST_CREATURE</p></td>
 <td><p>19</p></td>
 <td><p><a href="creature_template.md#entry">creature_template.entry</a> (0 any)</p></td>
-<td><p>maxDist (Can be from 1-100 yards)</p></td>
+<td><p>maxDist (Can be from 1-100 yards, if 0 then 100 yards will be used)</p></td>
 <td><p>dead? (0/1)</p></td>
 <td><p><br />
 </p></td>
@@ -4208,7 +4194,7 @@ If the start position distance is far away the circle movement speed will be dec
 <td><p>SMART_TARGET_CLOSEST_GAMEOBJECT</p></td>
 <td><p>20</p></td>
 <td><p><a href="gameobject_template.md#entry">gameobject_template.entry</a> (0 any)</p></td>
-<td><p>maxDist (Can be from 1-100 yards)</p></td>
+<td><p>maxDist (Can be from 1-100 yards, if 0 then 100 yards will be used)</p></td>
 <td><p><br />
 </p></td>
 <td><p><br />

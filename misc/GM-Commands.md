@@ -102,7 +102,7 @@ Note: Some commands are working only by selecting a player or a creature. These 
 |explorecheat|3|Syntax: .explorecheat [1\|0]. 1: Set all zones to explored; 0: Set all zones to unexplored|
 |cheat cooldown|2|Syntax: .cheat cooldown [on/off] Enables or disables your character's spell cooldowns.|
 |cheat power|2|Syntax: .cheat power [on/off] Enables or disables your character's spell cost (e.g mana).|
-|face|1|Syntax: .face Face the selected unit.|
+|face|1|Syntax: .face [orientation] Face the selected unit or set the facing to the specified orientation if no unit is selected. |
 |flusharenapoints|3|Syntax: .flusharenapoints Use it to distribute arena points based on arena team ratings, and start a new week.|
 |freeze|1|Syntax: .freeze (#player) "Freezes" #player and disables his chat. When using this without #name it will freeze your target.|
 |gm chat|1|Syntax: .gm chat [on/off] Enable or disable chat GM MODE (show gm badge in messages) or show current state of on/off not provided.|
