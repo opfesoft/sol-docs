@@ -2,18 +2,18 @@ TODOs:
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
-| sol@56495763 | 2021-06-20 |      | verify conditions; add comment if taking over |
+| sol@56495763 | 2021-06-20 | X    | verify conditions; add comment if taking over; update: not needed as there's already a condition concerning "Lieutenant's Insignia" which suffices |
 | sol@b870fe53 | 2021-06-20 |      | verify & adapt to Sol; low prio (Localization: esES, esMX) |
 | sol@64aa901c | 2021-06-20 |      | verify changes; there's at least one bug concerning CONFIG\_START\_HEROIC\_PLAYER\_LEVEL; low prio |
 | sol@ff5e4570 | 2021-06-20 |      | wrong: the gossip options should only be available after the quest "Cache of Mau'ari" is rewarded; also add proper comments |
 | sol@18a02e9c | 2021-06-18 |      | low prio (Localization: zhCN) |
-| sol@ea7f693c | 2021-06-18 |      | take over TC commit 2fb573150d5c08a5a2fa870f886969d25aee5734 instead |
+| sol@ea7f693c | 2021-06-18 | X    | take over TC commit 2fb573150d5c08a5a2fa870f886969d25aee5734 instead; done: sol@80b9fa02 |
 | sol@4811a14b | 2021-06-18 |      | compare changes; check TC implementation |
 | sol@8214873e | 2021-06-18 |      | verify/rework SQL script |
 | sol@137c0137 | 2021-06-18 |      | check if other creatures are using model ID 3680 |
 | sol@206c4055 | 2021-06-18 |      | implement other conditions in order to allow the drop even if "The Swarm Grows" is rewarded (otherwise the player is not able to finish the quest later; although this wasn't the case on retail, it provides a better player experience) |
 | sol@efd575fe | 2021-06-18 |      | verify/rework SQL script; low prio (Dungeon: Scholomance) |
-| sol@f8c098f3 | 2021-06-18 |      | wrong: a loot reference cannot be part of a group, so the update changes nothing; find another solution |
+| sol@f8c098f3 | 2021-06-18 | X    | wrong: a loot reference cannot be part of a group, so the update changes nothing; find another solution; done: sol@f0b1ca77 |
 | sol@3da83cc0 | 2021-06-17 |      | take over if needed |
 | sol@0d96866c | 2021-06-14 |      | does not seem to fix the issue, try to find another solution; low prio as it's just a visual bug |
 | sol@34da0cda | 2021-06-14 |      | verify changes; low prio (Dungeon: Upper Blackrock Spire) |
