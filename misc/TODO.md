@@ -2,36 +2,45 @@ TODOs:
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@0b7e74b0 | 2021-06-26 |      | use SAI to add immunity |
+| sol@118227a2 | 2021-06-25 |      | also remove SmartAI from creature template |
+| sol@0b8d679f | 2021-06-25 |      | verify/rework SQL script |
+| sol@d5bce088 | 2021-06-24 |      | verify/rework SQL script |
+| sol@9bf617be | 2021-06-24 |      | wrong: the quest type is correct, fix the quest itself instead |
+| sol@1b1378c7 | 2021-06-23 |      | take over from TC instead; npc text ID 7786 already contains the correct text, no need to create a new one |
+| sol@569e3399 | 2021-06-23 |      | take over if needed; may cause unforeseen side effects; not really necessary as it is not possible to attack creatures while they are evading |
+| sol@b1c5a6c0 | 2021-06-22 |      | verify/rework SQL script |
+| sol@b2472cae | 2021-06-22 |      | use better description; the localized text also has to be updated |
 | sol@56495763 | 2021-06-20 | X    | verify conditions; add comment if taking over; update: not needed as there's already a condition concerning "Lieutenant's Insignia" which suffices |
 | sol@b870fe53 | 2021-06-20 |      | verify & adapt to Sol; low prio (Localization: esES, esMX) |
 | sol@64aa901c | 2021-06-20 |      | verify changes; there's at least one bug concerning CONFIG\_START\_HEROIC\_PLAYER\_LEVEL; low prio |
-| sol@ff5e4570 | 2021-06-20 |      | wrong: the gossip options should only be available after the quest "Cache of Mau'ari" is rewarded; also add proper comments |
+| sol@ff5e4570 | 2021-06-20 | X    | wrong: the gossip options should only be available after the quest "Cache of Mau'ari" is rewarded; also add proper comments; done: sol@9e612aae |
 | sol@18a02e9c | 2021-06-18 |      | low prio (Localization: zhCN) |
 | sol@ea7f693c | 2021-06-18 | X    | take over TC commit 2fb573150d5c08a5a2fa870f886969d25aee5734 instead; done: sol@80b9fa02 |
-| sol@4811a14b | 2021-06-18 |      | compare changes; check TC implementation |
+| sol@4811a14b | 2021-06-18 | X    | compare changes; check TC implementation; done: sol@3a5ddcb2 |
 | sol@8214873e | 2021-06-18 |      | verify/rework SQL script |
-| sol@137c0137 | 2021-06-18 |      | check if other creatures are using model ID 3680 |
-| sol@206c4055 | 2021-06-18 |      | implement other conditions in order to allow the drop even if "The Swarm Grows" is rewarded (otherwise the player is not able to finish the quest later; although this wasn't the case on retail, it provides a better player experience) |
+| sol@137c0137 | 2021-06-18 | X    | check if other creatures are using model ID 3680; done: sol@43b3d647 |
+| sol@206c4055 | 2021-06-18 | X    | implement other conditions in order to allow the drop even if "The Swarm Grows" is rewarded (otherwise the player is not able to finish the quest later; although this wasn't the case on retail, it provides a better player experience); done: sol@4632de8c |
 | sol@efd575fe | 2021-06-18 |      | verify/rework SQL script; low prio (Dungeon: Scholomance) |
 | sol@f8c098f3 | 2021-06-18 | X    | wrong: a loot reference cannot be part of a group, so the update changes nothing; find another solution; done: sol@f0b1ca77 |
 | sol@3da83cc0 | 2021-06-17 |      | take over if needed |
 | sol@0d96866c | 2021-06-14 |      | does not seem to fix the issue, try to find another solution; low prio as it's just a visual bug |
 | sol@34da0cda | 2021-06-14 |      | verify changes; low prio (Dungeon: Upper Blackrock Spire) |
 | sol@c3bac33e | 2021-06-13 | X    | probably just change the position, not all creatures have to move around randomly; done: sol@12faeaf8 |
-| sol@f54c6364 | 2021-06-13 |      | verify/rework SQL script; use other positions & wander distances |
+| sol@f54c6364 | 2021-06-13 | X    | verify/rework SQL script; use other positions & wander distances; done: sol@60b15a98 (use WP movement instead of random movement) |
 | sol@fe2aa2ec | 2021-06-12 |      | verify spell IDs; remove variables; low prio |
-| sol@c934b306 | 2021-06-12 |      | add WP movement instead of random movement |
-| sol@9170eadc | 2021-06-11 |      | verify creatures; not all creatures have to move around randomly, especially not Goreclaw the Ravenous |
-| sol@85103fd2 | 2021-06-11 |      | verify/rework SQL script |
+| sol@c934b306 | 2021-06-12 | X    | add WP movement instead of random movement; done: sol@cd283a22 |
+| sol@9170eadc | 2021-06-11 | X    | verify creatures; not all creatures have to move around randomly, especially not Goreclaw the Ravenous; added WP movement for Goreclaw and two of the Bloodfen raptors: sol@d8c50ca9 |
+| sol@85103fd2 | 2021-06-11 | X    | verify/rework SQL script; done: sol@62672290 |
 | sol@07ec1ba0 | 2021-06-11 |      | verify/rework SQL script |
-| sol@63359657 | 2021-06-09 |      | verify/rework SQL script |
-| sol@0062a81d | 2021-06-09 |      | verify loot; rework UPDATE statement and remove variables |
-| sol@3381d0d7 | 2021-06-08 |      | verify loot; rework DELETE statement and remove variables |
+| sol@63359657 | 2021-06-09 | X    | verify/rework SQL script; done: sol@82b0982c |
+| sol@0062a81d | 2021-06-09 | X    | verify loot; rework UPDATE statement and remove variables; done: sol@ed27612f |
+| sol@3381d0d7 | 2021-06-08 | X    | verify loot; rework DELETE statement and remove variables; done: sol@beda780d |
 | sol@6dacfc07 | 2021-06-08 | X    | wrong: only save loot to the DB which the player can actually see (is allowed for the player); implement another solution; done: sol@2ac4d6ff |
-| sol@1644e4c0 | 2021.06.07 |      | use a single DELETE statement instead |
+| sol@1644e4c0 | 2021.06.07 | X    | use a single DELETE statement instead; done: sol@f6dbc94a |
 | sol@752038e2 | 2021-06-05 |      | low prio (Localization: zhCN) |
 | sol@c485bab6 | 2021-06-04 |      | don't use SAI, fix GameObjectScript instead |
-| sol@e3fcf1ad | 2021-06-02 |      | verify/rework SQL script |
+| sol@e3fcf1ad | 2021-06-02 | X    | verify/rework SQL script; implemented another solution: sol@d067deae |
 | sol@c90a43eb | 2021-06-02 |      | verify issue; use UPDATE instead of DELETE/INSERT |
 | sol@8747f965 | 2021-06-02 |      | verify/rework SQL script |
 | sol@e7087433 | 2021-06-02 |      | verify/rework SQL script |
@@ -55,7 +64,7 @@ TODOs:
 | sol@3bc7880d | 2021-05-23 |      | wrong: don't just switch the broadcast text IDs, fix the conditions instead |
 | sol@556a7b76 | 2021-05-23 |      | adapt to Sol; low prio (Localization: zhCN) |
 | sol@07527618 | 2021-05-23 |      | don't delete the spawn, use Crazed Dragonhawk instead |
-| sol@b4830948 | 2021-05-23 |      | not working; try to find another solution |
+| sol@b4830948 | 2021-05-23 | X    | not working; try to find another solution; done: sol@37b47c1d |
 | sol@0527c17d | 2021-05-22 |      | verify changes; adapt to Sol |
 | sol@d74832ef | 2021-05-22 |      | verify/rework SQL script |
 | sol@3f6da615 | 2021-05-21 |      | take over if needed |
@@ -147,7 +156,7 @@ TODOs:
 | sol@2a601a16 | 2021-03-28 | X    | verify changes; taken over with a few improvements: sol@146bf661 |
 | sol@01f0020e | 2021-03-27 |      | verify/rework SQL script |
 | sol@b1af0192 | 2021-03-24 |      | verify changes; low prio (Dungeon: Vault of Archavon) |
-| sol@8ba442bd | 2021-03-23 |      | verify changes; low prio (Dungeon: Naxxramas) |
+| sol@8ba442bd | 2021-03-23 |      | verify changes (also see bugfix sol@6745746c); low prio (Dungeon: Naxxramas) |
 | sol@485f7e76 | 2021-03-21 | X    | try to find a less intrusive solution instead of taking over all of the TC refactoring; done: sol@75eb56c6, sol@4114a861 |
 | sol@9f354db7 | 2021-03-21 | X    | verify changes; update: just another TC refactoring without real benefit; won't take over |
 | sol@41ea3394 | 2021-03-20 |      | only take over the Perry Gatner event if there is nothing else to do (the event itself is rather annoying); quest "Stranglethorn Fever" already fixed with commit sol@293d7d38; very low prio |
@@ -293,7 +302,7 @@ TODOs:
 | sol@c4ded889 | 2020-10-26 | X    | verify and rework SQL script; done: sol@f35a4d57 |
 | sol@5ec25278 | 2020-10-25 | X    | verify and rework SQL script; done: sol@71f51551 |
 | sol@d07a34c1 | 2020-10-23 | X    | done: sol@91c47cb4 and sol@c129c06a; AC implementation for AURA\_INTERRUPT\_FLAG\_LEAVE\_COMBAT is at the wrong code place |
-| sol@d5bb6ba1 | 2020-10-21 |      | see also follow-up bugfix sol@b3a967db; could contain several other hidden bugs, so only take over if really needed and double-check the code changes in that case; low prio |
+| sol@d5bb6ba1 | 2020-10-21 |      | see also follow-up bugfixes sol@b3a967db, sol@a9b2ddba; could contain several other hidden bugs, so only take over if really needed and double-check the code changes in that case; low prio |
 | sol@ab5933ef | 2020-10-17 | X    | take over if needed; done: sol@79964075 |
 | sol@24cfa307 | 2020-10-11 | X    | verify and rework SQL script; compare with TC version; low prio (Brewfest) |
 | sol@4cca286a | 2020-10-09 | X    | verify and find a better solution as flying creatures respawn on the ground instead of their actual spawn point; done: sol@afa10355 |
