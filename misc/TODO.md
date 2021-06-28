@@ -2,6 +2,12 @@ TODOs:
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@b8bd24b4 | 2021-06-28 |      | verify/rework SQL script |
+| sol@a23a0c88 | 2021-06-27 |      | verify/rework SQL script |
+| sol@15e44d4d | 2021-06-27 |      | adapt to Sol |
+| sol@c73a5e95 | 2021-06-27 |      | Sol is not affected by the mentioned issue; investigate Deep Freeze nevertheless; low prio |
+| sol@5b82840e | 2021-06-27 |      | use SAI instead; only take over CREATURE\_FLAG\_EXTRA\_NO\_TAUNT |
+| sol@0c22cae7 | 2021-06-26 |      | verify changes; low prio (Stranglethorn Fishing Extravaganza) |
 | sol@0b7e74b0 | 2021-06-26 |      | use SAI to add immunity |
 | sol@118227a2 | 2021-06-25 |      | also remove SmartAI from creature template |
 | sol@0b8d679f | 2021-06-25 |      | verify/rework SQL script |
@@ -41,14 +47,14 @@ TODOs:
 | sol@752038e2 | 2021-06-05 |      | low prio (Localization: zhCN) |
 | sol@c485bab6 | 2021-06-04 |      | don't use SAI, fix GameObjectScript instead |
 | sol@e3fcf1ad | 2021-06-02 | X    | verify/rework SQL script; implemented another solution: sol@d067deae |
-| sol@c90a43eb | 2021-06-02 |      | verify issue; use UPDATE instead of DELETE/INSERT |
+| sol@c90a43eb | 2021-06-02 | X    | verify issue; use UPDATE instead of DELETE/INSERT; done: sol@21983c67 |
 | sol@8747f965 | 2021-06-02 |      | verify/rework SQL script |
 | sol@e7087433 | 2021-06-02 |      | verify/rework SQL script |
-| sol@40a71471 | 2021-06-02 |      | SAI not necessary, update spell script "spell\_q6124\_6129\_apply\_salve" instead |
+| sol@40a71471 | 2021-06-02 | X    | SAI not necessary, update spell script "spell\_q6124\_6129\_apply\_salve" instead; done: sol@878a1678 |
 | sol@ee7d54b7 | 2021-06-01 |      | verify/rework SQL script |
 | sol@a7585d61 | 2021-06-01 |      | verify/rework SQL script |
 | sol@d46a55d9 | 2021-05-31 |      | verify/rework SQL script |
-| sol@11cdb969 | 2021-05-31 |      | verify issue & changes |
+| sol@11cdb969 | 2021-05-31 | X    | verify issue & changes; done: sol@318ca350 |
 | sol@3ac48489 | 2021-05-31 |      | verify/rework SQL script |
 | sol@8dc13a53 | 2021-05-31 | X    | fix the spell script "spell\_gen\_throw\_back" and the spell ID of the throw back spell; done: sol@483c30b9 |
 | sol@cedd6363 | 2021-05-30 | X    | verify changes; update: wrong, won't take over; holy resistance is derived from arcane resistance, so the values should stay in the DB |
@@ -61,9 +67,9 @@ TODOs:
 | sol@d16605d4 | 2021-05-25 |      | verify/rework SQL script; verify quest |
 | sol@3c09156d | 2021-05-25 |      | verify/rework SQL script; verify WP path |
 | sol@ae66ea08 | 2021-05-25 |      | verify/rework SQL script; low prio (Dungeon: Scholomance) |
-| sol@3bc7880d | 2021-05-23 |      | wrong: don't just switch the broadcast text IDs, fix the conditions instead |
+| sol@3bc7880d | 2021-05-23 | X    | wrong: don't just switch the broadcast text IDs, fix the conditions instead; done: sol@f0db5f99 |
 | sol@556a7b76 | 2021-05-23 |      | adapt to Sol; low prio (Localization: zhCN) |
-| sol@07527618 | 2021-05-23 |      | don't delete the spawn, use Crazed Dragonhawk instead |
+| sol@07527618 | 2021-05-23 | X    | don't delete the spawn, use Crazed Dragonhawk instead; done: sol@6e417187 |
 | sol@b4830948 | 2021-05-23 | X    | not working; try to find another solution; done: sol@37b47c1d |
 | sol@0527c17d | 2021-05-22 |      | verify changes; adapt to Sol |
 | sol@d74832ef | 2021-05-22 |      | verify/rework SQL script |
@@ -78,7 +84,7 @@ TODOs:
 | sol@b14ffdb8 | 2021-05-13 |      | verify changes; rework SQL script if replacing the CreatureScript with SAI |
 | sol@61325fd4 | 2021-05-11 |      | verify WP path; set active; rework SQL script |
 | sol@ca74d308 | 2021-05-10 | X    | use a single UPDATE statement using the creature IDs instead; done: sol@9094b20d |
-| sol@44c45aa2 | 2021-05-10 |      | the script contains several bugs (e.g. wrong gameobject & map IDs); also don't change the respawn time for gameobjects which are contained in pools |
+| sol@44c45aa2 | 2021-05-10 | X    | the script contains several bugs (e.g. wrong gameobject & map IDs); also don't change the respawn time for gameobjects which are contained in pools; done: sol@168ab5c6 |
 | sol@54c18cff | 2021-05-10 |      | verify/rework SQL script and check WP path |
 | sol@534ec53b | 2021-05-09 |      | verify/rework SQL script and compare with original CreatureScript |
 | sol@ea6c2321 | 2021-05-09 |      | verify/rework SQL script |
@@ -126,7 +132,6 @@ TODOs:
 | sol@577bee84 | 2021-04-11 | X    | verify/rework loot chances; seems to be wrong that all are equal; perhaps just add money to the loot instead of changing the chances (check for all junkboxes); done: sol@bb7956f0 |
 | sol@372d72fa | 2021-04-11 | X    | verify/rework SQL script; perhaps use summon spell instead of the creature spawns; update: won't take over, instead fixed controlled NPCs to attack if their owner NPC is attacked: sol@5fe208ec |
 | sol@70308572 | 2021-04-11 | X    | only update z position; done: sol@d2ceb8ad |
-| sol@d1fe14ff | 2021-04-11 |      | verify/rework SQL script |
 | sol@44cecc82 | 2021-04-11 | X    | only update z position; done: sol@801a6c1f |
 | sol@b96a6a13 | 2021-04-11 | X    | verify/rework SQL script; perhaps use summon spell instead of the creature spawns; update: won't take over, instead fixed controlled NPCs to attack if their owner NPC is attacked: sol@5fe208ec |
 | sol@d0e9c6ca | 2021-04-08 |      | verify changes |
@@ -176,7 +181,7 @@ TODOs:
 | sol@b514dfb9 | 2021-03-14 | X    | explode visual is not shown; try to find another solution; done: sol@8c3bd5a5 |
 | sol@cfadd5a8 | 2021-03-14 |      | verify and rework SQL script |
 | sol@79504214 | 2021-03-14 | X    | verify and rework SQL script (also remove sneak visual as this is added through the spell); done: sol@70558369 |
-| sol@30b3d74f | 2021-03-11 |      | verify and rework SQL script (perhaps just fix the CreatureScript instead); also don't manipulate the faction template DBC as this is the wrong way to solve the issues (faction is used by multiple creatures and can cause issues with the other ones); use the correct spell to transform to bear form |
+| sol@30b3d74f | 2021-03-11 |      | verify and rework SQL script (also see sol@d1fe14ff; perhaps just fix the CreatureScript instead); also don't manipulate the faction template DBC as this is the wrong way to solve the issues (faction is used by multiple creatures and can cause issues with the other ones); use the correct spell to transform to bear form |
 | sol@7b7dac05 | 2021-03-11 | X    | verify new position; use UPDATE statement; done: sol@0952a39c |
 | sol@57c32ec4 | 2021-03-11 |      | verify and rework SQL script |
 | sol@3846caab | 2021-03-11 |      | verify rare creatures, take over and rework only the missing ones; low prio |
