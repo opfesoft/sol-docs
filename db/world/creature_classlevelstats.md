@@ -150,11 +150,11 @@ Base armor for the creature. This value is multiplied by [creature\_template.Arm
 
 ### attackpower
 
-Base attack power for the creature. This value is multiplied by [creature\_template.attackpower](creature_template.md#attackpower) to determine the creature's final attack power.
+Base attack power for the creature.
 
 ### rangedattackpower
 
-Base ranged attack power for the creature. It is currently unknown what this value is multiplied by to determine the creature's final attack power. Maybe it works the same as attack power and multiplies by [creature\_template.attackpower](creature_template.md#attackpower)?
+Base ranged attack power for the creature.
 
 ### damage\_base
 

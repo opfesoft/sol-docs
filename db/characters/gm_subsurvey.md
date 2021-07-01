@@ -1,3 +1,4 @@
+This table contains the answers to the survey questions. It's linked to `gm_survey`.
 
 Column | Type | Description
 --- | --- | ---

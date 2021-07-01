@@ -1,7 +1,6 @@
 # account
 
-# Table: account**
-**
+**The \`account\` table**
 
 This table holds information on all available accounts.
 

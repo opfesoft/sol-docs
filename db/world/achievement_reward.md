@@ -74,7 +74,7 @@ This table describes the reward that you will receive when you obtain a given ac
 <tr>
 <td><p><a href="#subject">Subject</a></p></td>
 <td><p>varchar(255)</p></td>
-<td><p>signed</p></td>
+<td><p> </p></td>
 <td><p> </p></td>
 <td><p>YES</p></td>
 <td><p>NULL</p></td>
@@ -83,10 +83,10 @@ This table describes the reward that you will receive when you obtain a given ac
 <tr>
 <td><p><a href="#body">Body</a></p></td>
 <td><p>text</p></td>
-<td><p>signed</p></td>
+<td><p> </p></td>
 <td><p> </p></td>
 <td><p>YES</p></td>
-<td><p> </p></td>
+<td><p>NULL</p></td>
 <td><p> </p></td>
 </tr>
 <tr>

@@ -263,7 +263,7 @@ The ID of the area that the creature is spawned on. Useful for debugging and fil
 
 ### spawnMask
 
-Controls under which difficulties the creature is spawned. The values are bit-masked, so you can add them together to combine the affects of two or more values.
+Controls under which difficulties the creature is spawned. The values are bit-masked, so you can add them together to combine the effects of two or more values.
 
 Example:
 

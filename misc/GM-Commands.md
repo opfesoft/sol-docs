@@ -66,6 +66,7 @@ Note: Some commands are working only by selecting a player or a creature. These 
 |debug entervehicle|3|Enter targeted vehicle.|
 |debug hostil|1|Get hostile reference list of the selected unit.|
 |debug itemexpire|3|Syntax: .debug itemexpire $guid. Delete the item with $guid.|
+|debug los|3|`.debug los`|Show information concerning the line of sight status between the GM and the targeted unit.|
 |debug lootrecipient|3|Syntax: .debug lootrecipient. Get loot recipient of the selected creature.|
 |debug send equiperror|3|Syntax: .debug send equiperror #errorid. Test equip error id.|
 |debug Mod32Value|3|Syntax: .debug Mod32Value #field #value Add #value to field #field of your character.|

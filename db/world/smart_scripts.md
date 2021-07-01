@@ -3505,9 +3505,26 @@ quickChange 1 forces the creature to quickly change its orientation (useful if t
 <tr>
 <td><p>SMART_ACTION_ADD_IMMUNITY</p></td>
 <td><p>208</p></td>
-<td><p>type</p></td>
-<td><p>id</p></td>
-<td><p>value</p></td>
+<td><p>type<br />
+0 IMMUNITY_EFFECT (enum SpellEffects)<br />
+1 IMMUNITY_STATE (enum AuraType)<br />
+2 IMMUNITY_SCHOOL (enum SpellSchoolMask)<br />
+3 IMMUNITY_DAMAGE (enum SpellSchoolMask)<br />
+4 IMMUNITY_DISPEL (enum DispelType)<br />
+5 IMMUNITY_MECHANIC (enum Mechanics)<br />
+6 IMMUNITY_ID (NPC is immune to the spell ID specified in "value")<br />
+7 IMMUNITY_ALLOW_ID (NPC is immune to everything except for the spell ID specified in "value")</p></td>
+<td><p>id (normally the spell from which the immunity originates, for script purposes use 0)</p></td>
+<td><p>value<br />
+depends on "type", e.g. for type "IMMUNITY_SCHOOL" or "IMMUNITY_DAMAGE" it's a bit mask which consists of the following values:<br />
+1 SPELL_SCHOOL_MASK_NORMAL<br />
+2 SPELL_SCHOOL_MASK_HOLY<br />
+4 SPELL_SCHOOL_MASK_FIRE<br />
+8 SPELL_SCHOOL_MASK_NATURE<br />
+16 SPELL_SCHOOL_MASK_FROST<br />
+32 SPELL_SCHOOL_MASK_SHADOW<br />
+64 SPELL_SCHOOL_MASK_ARCANE<br />
+See <a href="https://gitlab.com/opfesoft/sol/-/blob/master/src/server/game/Miscellaneous/SharedDefines.h">SharedDefines.h</a> for further values</p></td>
 <td><p><br />
 </p></td>
 <td><p><br />
@@ -3693,7 +3710,24 @@ If the start position distance is far away the circle movement speed will be dec
 </p></td>
 <td><p><br />
 </p></td>
-<td><p>If "health" is greater than 0 set the health on the target(s). Otherwise copy health, either from the first target to the script owner if "copy from target" is set to 1 or from the script owner to all targets if set to 0. Use percentage if "use percentage" is set to 1, otherwise the actual health amount.
+<td><p>If "health" is greater than 0 set the health on the target(s). Otherwise copy health, either from the first target to the script owner if "copy from target" is set to 1 or from the script owner to all targets if set to 0. Use percentage if "use percentage" is set to 1, otherwise the actual health amount.</p></td>
+</tr>
+<tr>
+<td><p>SMART_ACTION_RESPAWN_GO</p></td>
+<td><p>233</p></td>
+<td><p>Despawn time in seconds. If the value is < 5 seconds: 5 is used instead.</p></td>
+<td><p><br />
+</p></td>
+<td><p><br />
+</p></td>
+<td><p><br />
+</p></td>
+<td><p><br />
+</p></td>
+<td><p><br />
+</p></td>
+<td><p>Respawns the targeted gameobjects; only works if the gameobjects are currently despawned; preferably used to spawn gameobjects which start despawned ([gameobject.spawntimesecs](gameobject.md#spawntimesecs) < 0); basically the same as the script command [SCRIPT_COMMAND_RESPAWN_GAMEOBJECT](scripts.md#script_command_respawn_gameobject-9)</p></td>
+</tr>
 </tbody>
 </table>
 

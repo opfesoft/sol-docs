@@ -12,13 +12,13 @@ Disable chat messaging for any character from account of character $playerName (
 
 ## Structure
 
-| Field                       | Type         |  Key | Null | Default | Extra | Comment |
-|-----------------------------|--------------|------|------|---------|-------|---------|
-| [guid](#guid)               | int(10)      |  PRI | NO   | 0       |       |Global Unique Identifier|
-| [mutedate](#mutedate)       | int(10)      |  PRI | NO   | 0       |       |         |
-| [mutetime](#mutetime)       | int(10)      |      | NO   | 0       |       |         |
-| [mutedby](#mutedby)         | varchar(50)  |      | NO   | 0       |       |         |
-| [mutereason](#mutereason)   | varchar(255) |      | NO   | 0       |       |         |
+| Field                       | Type         | Attribute |  Key | Null | Default | Extra | Comment                  |
+|-----------------------------|--------------|-----------|------|------|---------|-------|--------------------------|
+| [guid](#guid)               | int(10)      | unsigned  |  PRI | NO   | 0       |       | Global Unique Identifier |
+| [mutedate](#mutedate)       | int(10)      | unsigned  |  PRI | NO   | 0       |       |                          |
+| [mutetime](#mutetime)       | int(10)      | unsigned  |      | NO   | 0       |       |                          |
+| [mutedby](#mutedby)         | varchar(50)  |           |      | NO   | NULL    |       |                          |
+| [mutereason](#mutereason)   | varchar(255) |           |      | NO   | NULL    |       |                          |
 
 ## Description of the fields
 

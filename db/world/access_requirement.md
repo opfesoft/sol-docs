@@ -149,7 +149,7 @@ This table contains the access requirements to enter an instance.
 <tr>
 <td><p><a href="#quest_failed_text">quest_failed_text</a></p></td>
 <td><p>text</p></td>
-<td><p>signed</p></td>
+<td><p> </p></td>
 <td><p><br />
 </p></td>
 <td><p>YES</p></td>
@@ -162,7 +162,7 @@ This table contains the access requirements to enter an instance.
 <tr>
 <td><p><a href="#comment">comment</a></p></td>
 <td><p>text</p></td>
-<td><p>signed</p></td>
+<td><p> </p></td>
 <td><p><br />
 </p></td>
 <td><p>YES</p></td>

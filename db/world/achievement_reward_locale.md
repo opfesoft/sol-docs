@@ -4,9 +4,8 @@
 
 ## Structure
 
-|                     |              |                |         |          |             |           |             |
+| Field               | Type         | Attributes     | Key     | Null     | Default     | Extra     | Comment     |
 |---------------------|--------------|----------------|---------|----------|-------------|-----------|-------------|
-| **Field**           | **Type**     | **Attributes** | **Key** | **Null** | **Default** | **Extra** | **Comment** |
 | [ID](#id)           | mediumint(8) | unsigned       | PRI     | NO       | 0           |           |             |
 | [Locale](#locale)   | varchar(4)   |                | PRI     | NO       | NULL        |           |             |
 | [Subject](#subject) | text         |                |         | YES      | NULL        |           |             |

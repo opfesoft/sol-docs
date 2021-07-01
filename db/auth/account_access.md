@@ -62,6 +62,17 @@ This table holds security access level for any realm in [realmlist](realmlist.md
 <td><p> </p></td>
 <td><p> </p></td>
 </tr>
+<tr>
+<td><p><a href="#comment">comment</a></p></td>
+<td><p>varchar(255)</p></td>
+<td><p> </p></td>
+<td><p> </p></td>
+<td><p>YES</p></td>
+<td><p> </p></td>
+<td><p> </p></td>
+<td><p> </p></td>
+</tr>
+<tr>
 </tbody>
 </table>
 
@@ -78,3 +89,5 @@ The account security level. Different levels have access to different commands. 
 ### RealmID
 
 The [Realm ID](realmlist.md#id).
+
+### comment

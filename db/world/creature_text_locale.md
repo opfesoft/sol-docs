@@ -18,15 +18,15 @@ This table is used to provide to localized clients with localized string for cre
 
 ### CreatureID
 
-This entry must be the same as [creature\_text.entry](creature_text.md#entry) and then the row will be used to provide localization support for this creature record.
+This entry has to match [creature\_text.CreatureID](creature_text.md#creatureid) to identify the correct creature text entry.
 
 ### GroupID
 
-This entry must be the same as [creature\_text.groupid](creature_text.md#groupid) and then the row will be used to provide localization support for this creature record.
+This entry has to match [creature\_text.GroupID](creature_text.md#groupid) to identify the correct creature text entry.
 
 ### ID
 
-This entry must be the same as [creature\_text.id](creature_text.md#id) and then the row will be used to provide localization support for this creature record.
+This entry has to match [creature\_text.ID](creature_text.md#id) to identify the correct creature text entry.
 
 ### Locale
 
@@ -35,4 +35,4 @@ Can have 8 values: deDE, esES, esMX, frFR, koKR, ruRU, zhCN, zhTW
 
 ### Text
 
-Translated content for [creature\_text.text](creature_text.md#text) field.
+Translated content for [creature\_text.Text](creature_text.md#text) field.

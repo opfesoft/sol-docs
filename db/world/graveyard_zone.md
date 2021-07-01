@@ -11,25 +11,25 @@
 <td><p><strong>Default</strong></p></td>
 </tr>
 <tr>
-<td><p><a href="#id">id</a></p></td>
+<td><p><a href="#id">ID</a></p></td>
 <td><p>mediumint(8)</p></td>
-<td><p>unasigned</p></td>
+<td><p>unsigned</p></td>
 <td><p>PRI</p></td>
 <td><p>NO</p></td>
 <td><p>0</p></td>
 </tr>
 <tr>
-<td><p><a href="#ghost_zone">ghost_zone</a></p></td>
+<td><p><a href="#ghostzone">GhostZone</a></p></td>
 <td><p>mediumint(8)</p></td>
-<td><p>unasigned</p></td>
+<td><p>unsigned</p></td>
 <td><p>PRI</p></td>
 <td><p>NO</p></td>
 <td><p>0</p></td>
 </tr>
 <tr>
-<td><p><a href="#faction">faction</a></p></td>
+<td><p><a href="#faction">Faction</a></p></td>
 <td><p>smallint(5)</p></td>
-<td><p>unasigned</p></td>
+<td><p>unsigned</p></td>
 <td><p></p></td>
 <td><p>NO</p></td>
 <td><p>0</p></td>
@@ -37,7 +37,7 @@
 <tr>
 <td><p>Comment</p></td>
 <td><p>text</p></td>
-<td><p>unasigned</p></td>
+<td><p> </p></td>
 <td><p></p></td>
 <td><p>YES</p></td>
 <td><p>NULL</p></td>
@@ -47,17 +47,17 @@
 
 ## Description of the fields
 
-### id
+### ID
 Graveyard's ID. See [WorldSafeLocs.dbc](../../dbc/WorldSafeLocs.md)
 
-### ghost_zone
+### GhostZone
 Zone's ID of ghost position before teleportation to graveyard. See [AreaTable.dbc](../../dbc/AreaTable.md)
 
-### faction
+### Faction
 Graveyard's team.
 
 0 - Any team accepted
 
 469 - Alliance team only
 
-47 - Horde team only
+67 - Horde team only

@@ -32,7 +32,7 @@ This table contains all of the banned IPs and the date when (or if) the ban will
 <tr>
 <td><p><a href="#ip">ip</a></p></td>
 <td><p>varchar(15)</p></td>
-<td><p>signed</p></td>
+<td><p> </p></td>
 <td><p>PRI</p></td>
 <td><p>NO</p></td>
 <td><p>127.0.0.1</p></td>
@@ -62,17 +62,17 @@ This table contains all of the banned IPs and the date when (or if) the ban will
 <tr>
 <td><p><a href="#bannedby">bannedby</a></p></td>
 <td><p>varchar(50)</p></td>
-<td><p>signed</p></td>
+<td><p> </p></td>
 <td><p> </p></td>
 <td><p>NO</p></td>
-<td><p>Console</p></td>
+<td><p>[Console]</p></td>
 <td><p> </p></td>
 <td><p> </p></td>
 </tr>
 <tr>
 <td><p><a href="#banreason">banreason</a></p></td>
 <td><p>varchar(255)</p></td>
-<td><p>signed</p></td>
+<td><p> </p></td>
 <td><p> </p></td>
 <td><p>NO</p></td>
 <td><p>no reason</p></td>

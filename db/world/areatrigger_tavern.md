@@ -41,7 +41,7 @@ Enable a trigger when player enters a city or tavern. This causes the player to 
 <tr>
 <td><p><a href="#name">name</a></p></td>
 <td><p>text</p></td>
-<td><p>signed</p></td>
+<td><p> </p></td>
 <td><p> </p></td>
 <td><p>YES</p></td>
 <td><p>NULL</p></td>

@@ -72,7 +72,7 @@ This table holds the server's uptime. The core will automatically update the lat
 <tr>
 <td><p><a href="#revision">revision</a></p></td>
 <td><p>varchar(255)</p></td>
-<td><p>signed</p></td>
+<td><p> </p></td>
 <td><p> </p></td>
 <td><p>NO</p></td>
 <td><p>AzerothCore</p></td>

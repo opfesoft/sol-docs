@@ -41,7 +41,7 @@ Allows for an area trigger to be scripted with a core or SAI script.
 <tr>
 <td><p><a href="#scriptname">ScriptName</a></p></td>
 <td><p>char(64)</p></td>
-<td><p>signed</p></td>
+<td><p> </p></td>
 <td><p> </p></td>
 <td><p>NO</p></td>
 <td><p>NULL</p></td>

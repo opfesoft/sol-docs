@@ -127,6 +127,12 @@ A bitmask controlling what events trigger the spell. To combine possible events,
 
 This field controls the times per minute that the spell should proc. If zero, then the value is taken from the DBC entry.
 
+As ppmRate is a rate it will not be guaranteed to proc X amount of times per minute. The ppm is calculated by this formula:
+
+```
+((WeaponSpeed * PPM) / 600.0f);   // result is chance in percent (Probability = SpeedInSec * (PPM / 60))
+```
+
 ### CustomChance
 
 Custom chance for triggering, given in percentage.

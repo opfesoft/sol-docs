@@ -34,7 +34,7 @@ This table sets up information on all available realms. Each row controls a diff
 <tr>
 <td><p><a href="#name">name</a></p></td>
 <td><p>varchar(32)</p></td>
-<td><p>signed</p></td>
+<td><p> </p></td>
 <td><p>UNI</p></td>
 <td><p>NO</p></td>
 <td><p></p></td>
@@ -46,7 +46,7 @@ This table sets up information on all available realms. Each row controls a diff
 <tr>
 <td><p><a href="#address">address</a></p></td>
 <td><p>varchar(255)</p></td>
-<td><p>signed</p></td>
+<td><p> </p></td>
 <td><p><br />
 </p></td>
 <td><p>NO</p></td>
@@ -59,11 +59,24 @@ This table sets up information on all available realms. Each row controls a diff
 <tr>
 <td><a href="#localaddress">localAddress</a></td>
 <td>varchar(255)</td>
-<td>signed</td>
+<td> </td>
 <td><br />
 </td>
 <td>NO</td>
 <td>127.0.0.1</td>
+<td><br />
+</td>
+<td><br />
+</td>
+</tr>
+<tr>
+<td><a href="#localsubnetmask">localSubnetMask</a></td>
+<td>varchar(255)</td>
+<td> </td>
+<td><br />
+</td>
+<td>NO</td>
+<td>255.255.255.0</td>
 <td><br />
 </td>
 <td><br />
@@ -181,6 +194,10 @@ Alternatively you can use a domain name like *example.com.*
 ### localAddress
 
 Mostly 127.0.0.1
+
+### localSubnetMask
+
+Mostly 255.255.255.0
 
 ### port
 

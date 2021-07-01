@@ -2,21 +2,24 @@ TODOs:
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@c6173e88 | 2021-06-30 |      | take over if needed |
+| sol@66cd714a | 2021-06-30 |      | adapt to Sol; low prio (Localization: esES, esMX) |
+| sol@6eb6b0bb | 2021-06-29 |      | low prio (Localization: zhCN) |
 | sol@b8bd24b4 | 2021-06-28 |      | verify/rework SQL script |
 | sol@a23a0c88 | 2021-06-27 |      | verify/rework SQL script |
-| sol@15e44d4d | 2021-06-27 |      | adapt to Sol |
+| sol@15e44d4d | 2021-06-27 | X    | adapt to Sol; done: sol@8323ba07 |
 | sol@c73a5e95 | 2021-06-27 |      | Sol is not affected by the mentioned issue; investigate Deep Freeze nevertheless; low prio |
-| sol@5b82840e | 2021-06-27 |      | use SAI instead; only take over CREATURE\_FLAG\_EXTRA\_NO\_TAUNT |
+| sol@5b82840e | 2021-06-27 | X    | adjust CreatureScript; done: sol@56fc542e |
 | sol@0c22cae7 | 2021-06-26 |      | verify changes; low prio (Stranglethorn Fishing Extravaganza) |
-| sol@0b7e74b0 | 2021-06-26 |      | use SAI to add immunity |
-| sol@118227a2 | 2021-06-25 |      | also remove SmartAI from creature template |
+| sol@0b7e74b0 | 2021-06-26 | X    | use SAI to add immunity; done: sol@b2516561 |
+| sol@118227a2 | 2021-06-25 | X    | also remove SmartAI from creature template; done: sol@8d48d310 |
 | sol@0b8d679f | 2021-06-25 |      | verify/rework SQL script |
 | sol@d5bce088 | 2021-06-24 |      | verify/rework SQL script |
 | sol@9bf617be | 2021-06-24 |      | wrong: the quest type is correct, fix the quest itself instead |
-| sol@1b1378c7 | 2021-06-23 |      | take over from TC instead; npc text ID 7786 already contains the correct text, no need to create a new one |
+| sol@1b1378c7 | 2021-06-23 | X    | take over from TC instead; npc text ID 7786 already contains the correct text, no need to create a new one; done: sol@429b8ce2 |
 | sol@569e3399 | 2021-06-23 |      | take over if needed; may cause unforeseen side effects; not really necessary as it is not possible to attack creatures while they are evading |
 | sol@b1c5a6c0 | 2021-06-22 |      | verify/rework SQL script |
-| sol@b2472cae | 2021-06-22 |      | use better description; the localized text also has to be updated |
+| sol@b2472cae | 2021-06-22 | X    | use better description; the localized text also has to be updated; done: sol@26c53880 |
 | sol@56495763 | 2021-06-20 | X    | verify conditions; add comment if taking over; update: not needed as there's already a condition concerning "Lieutenant's Insignia" which suffices |
 | sol@b870fe53 | 2021-06-20 |      | verify & adapt to Sol; low prio (Localization: esES, esMX) |
 | sol@64aa901c | 2021-06-20 |      | verify changes; there's at least one bug concerning CONFIG\_START\_HEROIC\_PLAYER\_LEVEL; low prio |
@@ -45,7 +48,7 @@ TODOs:
 | sol@6dacfc07 | 2021-06-08 | X    | wrong: only save loot to the DB which the player can actually see (is allowed for the player); implement another solution; done: sol@2ac4d6ff |
 | sol@1644e4c0 | 2021.06.07 | X    | use a single DELETE statement instead; done: sol@f6dbc94a |
 | sol@752038e2 | 2021-06-05 |      | low prio (Localization: zhCN) |
-| sol@c485bab6 | 2021-06-04 |      | don't use SAI, fix GameObjectScript instead |
+| sol@c485bab6 | 2021-06-04 | X    | don't use SAI, fix GameObjectScript instead; done: sol@565d1a3f |
 | sol@e3fcf1ad | 2021-06-02 | X    | verify/rework SQL script; implemented another solution: sol@d067deae |
 | sol@c90a43eb | 2021-06-02 | X    | verify issue; use UPDATE instead of DELETE/INSERT; done: sol@21983c67 |
 | sol@8747f965 | 2021-06-02 |      | verify/rework SQL script |
@@ -149,7 +152,7 @@ TODOs:
 | sol@0bbe5fa4 | 2021-04-01 |      | verify/rework SQL script |
 | sol@9b9e070c | 2021-04-01 |      | verify changes |
 | sol@12165b81 | 2021-04-01 |      | verify/rework SQL script |
-| sol@86f6ec3c | 2021-04-01 |      | verify/rework SQL script (see also AC commit sol@81c07178 |
+| sol@86f6ec3c | 2021-04-01 |      | verify/rework SQL script (see also AC commit sol@81c07178) |
 | sol@4e112a89 | 2021-04-01 |      | verify/rework SQL script |
 | sol@f38e63cc | 2021-04-01 |      | verify/rework SQL script |
 | sol@a9ba546c | 2021-04-01 |      | verify gameobjects & positions |
@@ -183,7 +186,7 @@ TODOs:
 | sol@79504214 | 2021-03-14 | X    | verify and rework SQL script (also remove sneak visual as this is added through the spell); done: sol@70558369 |
 | sol@30b3d74f | 2021-03-11 |      | verify and rework SQL script (also see sol@d1fe14ff; perhaps just fix the CreatureScript instead); also don't manipulate the faction template DBC as this is the wrong way to solve the issues (faction is used by multiple creatures and can cause issues with the other ones); use the correct spell to transform to bear form |
 | sol@7b7dac05 | 2021-03-11 | X    | verify new position; use UPDATE statement; done: sol@0952a39c |
-| sol@57c32ec4 | 2021-03-11 |      | verify and rework SQL script |
+| sol@57c32ec4 | 2021-03-11 | X    | verify and rework SQL script; won't take over, improved the existing SAI instead: sol@c1a09a2c |
 | sol@3846caab | 2021-03-11 |      | verify rare creatures, take over and rework only the missing ones; low prio |
 | sol@646f6657 | 2021-03-10 | X    | try to find a better solution without manipulating Spell DBC and also addressing the other affected mechanical creatures; done: sol@ef11a791 |
 | sol@9e17e139 | 2021-03-09 |      | verify SQL script; low prio (Hallow's End) |
