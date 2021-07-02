@@ -2,6 +2,7 @@ TODOs:
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@7a7d3d69 | 2021-07-01 |      | low prio (Localization: esMX) |
 | sol@c6173e88 | 2021-06-30 |      | take over if needed |
 | sol@66cd714a | 2021-06-30 |      | adapt to Sol; low prio (Localization: esES, esMX) |
 | sol@6eb6b0bb | 2021-06-29 |      | low prio (Localization: zhCN) |
@@ -52,7 +53,7 @@ TODOs:
 | sol@e3fcf1ad | 2021-06-02 | X    | verify/rework SQL script; implemented another solution: sol@d067deae |
 | sol@c90a43eb | 2021-06-02 | X    | verify issue; use UPDATE instead of DELETE/INSERT; done: sol@21983c67 |
 | sol@8747f965 | 2021-06-02 |      | verify/rework SQL script |
-| sol@e7087433 | 2021-06-02 |      | verify/rework SQL script |
+| sol@e7087433 | 2021-06-02 |      | verify/rework SQL script (see also sol@c4185a51); low prio (Dungeon: Wailing Caverns) |
 | sol@40a71471 | 2021-06-02 | X    | SAI not necessary, update spell script "spell\_q6124\_6129\_apply\_salve" instead; done: sol@878a1678 |
 | sol@ee7d54b7 | 2021-06-01 |      | verify/rework SQL script |
 | sol@a7585d61 | 2021-06-01 |      | verify/rework SQL script |

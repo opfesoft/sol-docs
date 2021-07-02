@@ -289,9 +289,7 @@ Allows to define a group of quests of which only one may be chosen and completed
 
 -   **if ExclusiveGroup &lt; 0**
 
-Allows to define a group of quests of which all must be completed and rewarded to start next quest. E.g. if quest 1000 dependent from one of quests 1200, 1201 and 1202 and all this quests have same negative exclusive group then all this quest must be completed and rewarded before quest 1000 can be started.
-
-Note: All quests that use an ExclusiveGroup must also have entries in [pool\_template](pool_template.md) and [pool\_quest](quest_template.md#examples-dealing-with-quests) for examples.
+Allows to define a group of quests of which all must be completed and rewarded to start the next quest. E.g. if quest 1000 requires 1200, 1201 and 1202 and all these quests have the same exclusive group -1200 then all of them have to be completed and rewarded before quest 1000 can be started.
 
 ### RewardMailTemplateID
 
