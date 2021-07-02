@@ -17,7 +17,7 @@ This table is used if quest tracking is enabled via worldserver config, see para
 
 ### id
 
-Quest [id](../world/quest_template.md#id))
+Quest [id](../world/quest_template.md#id)
 
 ### character\_guid
 

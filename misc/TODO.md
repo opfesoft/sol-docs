@@ -186,7 +186,7 @@ TODOs:
 | sol@79504214 | 2021-03-14 | X    | verify and rework SQL script (also remove sneak visual as this is added through the spell); done: sol@70558369 |
 | sol@30b3d74f | 2021-03-11 |      | verify and rework SQL script (also see sol@d1fe14ff; perhaps just fix the CreatureScript instead); also don't manipulate the faction template DBC as this is the wrong way to solve the issues (faction is used by multiple creatures and can cause issues with the other ones); use the correct spell to transform to bear form |
 | sol@7b7dac05 | 2021-03-11 | X    | verify new position; use UPDATE statement; done: sol@0952a39c |
-| sol@57c32ec4 | 2021-03-11 | X    | verify and rework SQL script; won't take over, improved the existing SAI instead: sol@c1a09a2c |
+| sol@57c32ec4 | 2021-03-11 | X    | verify and rework SQL script; won't take over, improved the existing SAI instead: sol@582c6a4e |
 | sol@3846caab | 2021-03-11 |      | verify rare creatures, take over and rework only the missing ones; low prio |
 | sol@646f6657 | 2021-03-10 | X    | try to find a better solution without manipulating Spell DBC and also addressing the other affected mechanical creatures; done: sol@ef11a791 |
 | sol@9e17e139 | 2021-03-09 |      | verify SQL script; low prio (Hallow's End) |

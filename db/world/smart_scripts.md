@@ -3712,22 +3712,6 @@ If the start position distance is far away the circle movement speed will be dec
 </p></td>
 <td><p>If "health" is greater than 0 set the health on the target(s). Otherwise copy health, either from the first target to the script owner if "copy from target" is set to 1 or from the script owner to all targets if set to 0. Use percentage if "use percentage" is set to 1, otherwise the actual health amount.</p></td>
 </tr>
-<tr>
-<td><p>SMART_ACTION_RESPAWN_GO</p></td>
-<td><p>233</p></td>
-<td><p>Despawn time in seconds. If the value is < 5 seconds: 5 is used instead.</p></td>
-<td><p><br />
-</p></td>
-<td><p><br />
-</p></td>
-<td><p><br />
-</p></td>
-<td><p><br />
-</p></td>
-<td><p><br />
-</p></td>
-<td><p>Respawns the targeted gameobjects; only works if the gameobjects are currently despawned; preferably used to spawn gameobjects which start despawned ([gameobject.spawntimesecs](gameobject.md#spawntimesecs) < 0); basically the same as the script command [SCRIPT_COMMAND_RESPAWN_GAMEOBJECT](scripts.md#script_command_respawn_gameobject-9)</p></td>
-</tr>
 </tbody>
 </table>
 
