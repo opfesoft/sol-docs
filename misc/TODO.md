@@ -2,6 +2,11 @@ TODOs:
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@ab5ce3e3 | 2021-07-04 |      | verify changes; low prio (Dungeon: Molten Core) |
+| sol@681e7139 | 2021-07-04 |      | verify/rework SQL script |
+| sol@476dcd3e | 2021-07-04 |      | verify changes; low prio (Dungeon: Molten Core) |
+| sol@0cd03311 | 2021-07-03 |      | low prio (Localization: esES, esMX) |
+| sol@a2e13dd5 | 2021-07-03 |      | low prio (Localization: esES, esMX) |
 | sol@7a7d3d69 | 2021-07-01 |      | low prio (Localization: esMX) |
 | sol@c6173e88 | 2021-06-30 |      | take over if needed |
 | sol@66cd714a | 2021-06-30 |      | adapt to Sol; low prio (Localization: esES, esMX) |
