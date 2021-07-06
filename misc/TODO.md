@@ -2,6 +2,7 @@ TODOs:
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@161b052a | 2021-07-06 |      | verify/rework SQL script |
 | sol@ab5ce3e3 | 2021-07-04 |      | verify changes; low prio (Dungeon: Molten Core) |
 | sol@681e7139 | 2021-07-04 |      | verify/rework SQL script |
 | sol@476dcd3e | 2021-07-04 |      | verify changes; low prio (Dungeon: Molten Core) |
@@ -162,7 +163,7 @@ TODOs:
 | sol@4e112a89 | 2021-04-01 |      | verify/rework SQL script |
 | sol@f38e63cc | 2021-04-01 |      | verify/rework SQL script |
 | sol@a9ba546c | 2021-04-01 |      | verify gameobjects & positions |
-| sol@4c0467c5 | 2021-04-01 |      | verify/rework SQL script |
+| sol@4c0467c5 | 2021-04-01 |      | verify/rework SQL script (also see sol@4c357c60 |
 | sol@10c56336 | 2021-04-01 |      | verify gameobjects & positions |
 | sol@c0aa1b88 | 2021-03-29 |      | verify changes; low prio (Love is in the Air) |
 | sol@9bf2800c | 2021-03-29 |      | verify changes; low prio (Dungeon: Ulduar) |
