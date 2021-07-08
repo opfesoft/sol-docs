@@ -2,6 +2,14 @@ TODOs:
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@3dec029b | 2021-07-07 |      | adapt to Sol; low prio (PvP) |
+| sol@b66314b6 | 2021-07-07 |      | verify/rework SQL script |
+| sol@0eb8a8ed | 2021-07-07 |      | rework SAI for better interaction with Sergeant Kan'ren; remove entries in "waypoint\_data" and "waypoint\_scripts" |
+| sol@3b745b06 | 2021-07-07 |      | take over from TC instead |
+| sol@86860d36 | 2021-07-07 |      | verify/rework SQL script |
+| sol@9cbd67a3 | 2021-07-07 |      | verify/rework SQL script |
+| sol@b062d4a3 | 2021-07-07 |      | take over TC commit 7182f5ddd1eae074ea96ee457a683453a4f4764b instead |
+| sol@d3b2d8a5 | 2021-07-07 |      | take over TC commit 7182f5ddd1eae074ea96ee457a683453a4f4764b instead |
 | sol@161b052a | 2021-07-06 |      | verify/rework SQL script |
 | sol@ab5ce3e3 | 2021-07-04 |      | verify changes; low prio (Dungeon: Molten Core) |
 | sol@681e7139 | 2021-07-04 |      | verify/rework SQL script |

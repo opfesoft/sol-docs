@@ -3691,8 +3691,7 @@ See <a href="https://gitlab.com/opfesoft/sol/-/blob/master/src/server/game/Misce
 <td><p>clockwise (0/1)</p></td>
 <td><p>stepCount</p></td>
 <td><p>centerSelf (0/1)</p></td>
-<td><p><br />
-</p></td>
+<td><p>speed (if 0 use default speed)</p></td>
 <td><p><br />
 </p></td>
 <td><p>Start circle movement using the given radius. If "centerSelf" is set to 1 the specified target creatures will start circling the script owner.<br />
