@@ -2,14 +2,20 @@ TODOs:
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@b2836769 | 2021-07-08 |      | despite the description the creature pool is not associated with Meshlok, but with two other creatures: Cavern Lurker & Cavern Shambler; obviously they are meant to be replaced with Meshlok, which is probably only possible using an InstanceScript; low prio (Dungeon: Maraudon) |
+| sol@06027e32 | 2021-07-08 |      | verify issue; low prio (Dungeon: Utgarde Pinnacle) |
+| sol@f8c8e98a | 2021-07-08 |      | take over if needed |
+| sol@c7d5080b | 2021-07-08 |      | take over from TC instead |
+| sol@6644c651 | 2021-07-08 |      | verify/rework SQL script |
+| sol@5eebf892 | 2021-07-07 |      | verify issue; low prio (Dungeon: Icecrown Citadel) |
 | sol@3dec029b | 2021-07-07 |      | adapt to Sol; low prio (PvP) |
 | sol@b66314b6 | 2021-07-07 |      | verify/rework SQL script |
 | sol@0eb8a8ed | 2021-07-07 |      | rework SAI for better interaction with Sergeant Kan'ren; remove entries in "waypoint\_data" and "waypoint\_scripts" |
 | sol@3b745b06 | 2021-07-07 |      | take over from TC instead |
 | sol@86860d36 | 2021-07-07 |      | verify/rework SQL script |
 | sol@9cbd67a3 | 2021-07-07 |      | verify/rework SQL script |
-| sol@b062d4a3 | 2021-07-07 |      | take over TC commit 7182f5ddd1eae074ea96ee457a683453a4f4764b instead |
-| sol@d3b2d8a5 | 2021-07-07 |      | take over TC commit 7182f5ddd1eae074ea96ee457a683453a4f4764b instead |
+| sol@b062d4a3 | 2021-07-07 | X    | take over TC commit 7182f5ddd1eae074ea96ee457a683453a4f4764b instead; done: sol@af75c29e |
+| sol@d3b2d8a5 | 2021-07-07 | X    | take over TC commit 7182f5ddd1eae074ea96ee457a683453a4f4764b instead; done: sol@af75c29e |
 | sol@161b052a | 2021-07-06 |      | verify/rework SQL script |
 | sol@ab5ce3e3 | 2021-07-04 |      | verify changes; low prio (Dungeon: Molten Core) |
 | sol@681e7139 | 2021-07-04 |      | verify/rework SQL script |
@@ -23,7 +29,7 @@ TODOs:
 | sol@b8bd24b4 | 2021-06-28 |      | verify/rework SQL script |
 | sol@a23a0c88 | 2021-06-27 |      | verify/rework SQL script |
 | sol@15e44d4d | 2021-06-27 | X    | adapt to Sol; done: sol@8323ba07 |
-| sol@c73a5e95 | 2021-06-27 |      | Sol is not affected by the mentioned issue; investigate Deep Freeze nevertheless; low prio |
+| sol@c73a5e95 | 2021-06-27 |      | Sol is not affected by the mentioned issue; investigate Deep Freeze nevertheless; also see sol@eff648b3; low prio |
 | sol@5b82840e | 2021-06-27 | X    | adjust CreatureScript; done: sol@56fc542e |
 | sol@0c22cae7 | 2021-06-26 |      | verify changes; low prio (Stranglethorn Fishing Extravaganza) |
 | sol@0b7e74b0 | 2021-06-26 | X    | use SAI to add immunity; done: sol@b2516561 |
