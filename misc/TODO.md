@@ -2,6 +2,10 @@ TODOs:
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@1fa51e51 | 2021-07-12 |      | verify changes; low prio (Dungeon: Ulduar) |
+| sol@b5d9b3d5 | 2021-07-12 |      | verify issue/changes; rework SQL script |
+| sol@2e8a7498 | 2021-07-10 |      | verify/rework SQL script |
+| sol@a61f7a12 | 2021-07-09 |      | take over if needed |
 | sol@b2836769 | 2021-07-08 |      | despite the description the creature pool is not associated with Meshlok, but with two other creatures: Cavern Lurker & Cavern Shambler; obviously they are meant to be replaced with Meshlok, which is probably only possible using an InstanceScript; low prio (Dungeon: Maraudon) |
 | sol@06027e32 | 2021-07-08 |      | verify issue; low prio (Dungeon: Utgarde Pinnacle) |
 | sol@f8c8e98a | 2021-07-08 |      | take over if needed |
@@ -11,7 +15,7 @@ TODOs:
 | sol@3dec029b | 2021-07-07 |      | adapt to Sol; low prio (PvP) |
 | sol@b66314b6 | 2021-07-07 |      | verify/rework SQL script |
 | sol@0eb8a8ed | 2021-07-07 |      | rework SAI for better interaction with Sergeant Kan'ren; remove entries in "waypoint\_data" and "waypoint\_scripts" |
-| sol@3b745b06 | 2021-07-07 |      | take over from TC instead |
+| sol@3b745b06 | 2021-07-07 | X    | take over from TC instead; done: sol@74d9ab80 |
 | sol@86860d36 | 2021-07-07 |      | verify/rework SQL script |
 | sol@9cbd67a3 | 2021-07-07 |      | verify/rework SQL script |
 | sol@b062d4a3 | 2021-07-07 | X    | take over TC commit 7182f5ddd1eae074ea96ee457a683453a4f4764b instead; done: sol@af75c29e |
@@ -158,7 +162,7 @@ TODOs:
 | sol@70308572 | 2021-04-11 | X    | only update z position; done: sol@d2ceb8ad |
 | sol@44cecc82 | 2021-04-11 | X    | only update z position; done: sol@801a6c1f |
 | sol@b96a6a13 | 2021-04-11 | X    | verify/rework SQL script; perhaps use summon spell instead of the creature spawns; update: won't take over, instead fixed controlled NPCs to attack if their owner NPC is attacked: sol@5fe208ec |
-| sol@d0e9c6ca | 2021-04-08 |      | verify changes |
+| sol@d0e9c6ca | 2021-04-08 | X    | verify changes; update: won't take over, Execute should not always hit the target, it should be affected by parry / dodge |
 | sol@91dfedd0 | 2021-04-07 |      | take over if needed; does not seem to fix anything and the original PR does not contain any information other than that it was copied blindly from TC |
 | sol@88ddc244 | 2021-04-07 |      | take over if needed; does not seem to fix anything and the original PR does not contain any information other than that it was copied blindly from TC |
 | sol@042cec82 | 2021-04-06 |      | take over if needed |
@@ -205,10 +209,10 @@ TODOs:
 | sol@b514dfb9 | 2021-03-14 | X    | explode visual is not shown; try to find another solution; done: sol@8c3bd5a5 |
 | sol@cfadd5a8 | 2021-03-14 |      | verify and rework SQL script |
 | sol@79504214 | 2021-03-14 | X    | verify and rework SQL script (also remove sneak visual as this is added through the spell); done: sol@70558369 |
-| sol@30b3d74f | 2021-03-11 |      | verify and rework SQL script (also see sol@d1fe14ff; perhaps just fix the CreatureScript instead); also don't manipulate the faction template DBC as this is the wrong way to solve the issues (faction is used by multiple creatures and can cause issues with the other ones); use the correct spell to transform to bear form |
+| sol@30b3d74f | 2021-03-11 | X    | verify and rework SQL script (also see sol@d1fe14ff; perhaps just fix the CreatureScript instead); also don't manipulate the faction template DBC as this is the wrong way to solve the issues (faction is used by multiple creatures and can cause issues with the other ones); use the correct spell to transform to bear form; done: sol@f168b101 |
 | sol@7b7dac05 | 2021-03-11 | X    | verify new position; use UPDATE statement; done: sol@0952a39c |
 | sol@57c32ec4 | 2021-03-11 | X    | verify and rework SQL script; won't take over, improved the existing SAI instead: sol@582c6a4e |
-| sol@3846caab | 2021-03-11 |      | verify rare creatures, take over and rework only the missing ones; low prio |
+| sol@3846caab | 2021-03-11 | X    | verify rare creatures, take over and rework only the missing ones and add SAI; update: perhaps implement the rare spawn mechanism using an InstanceScript later, but for now SAI suffices; note: Warder Stilgiss should always spawn despite being a rare mob; done: sol@95675ffb |
 | sol@646f6657 | 2021-03-10 | X    | try to find a better solution without manipulating Spell DBC and also addressing the other affected mechanical creatures; done: sol@ef11a791 |
 | sol@9e17e139 | 2021-03-09 |      | verify SQL script; low prio (Hallow's End) |
 | sol@9d096233 | 2021-03-09 |      | verify SQL script (see also AC commit sol@671c4dc5); low prio (Dungeon: Naxxramas) |
