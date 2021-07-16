@@ -2,6 +2,7 @@ TODOs:
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@fba9e265 | 2021-07-15 |      | verify every creature in this area; not all creatures have to move around; also check some of the already wandering creatures and disable random movement |
 | sol@1fa51e51 | 2021-07-12 |      | verify changes; low prio (Dungeon: Ulduar) |
 | sol@b5d9b3d5 | 2021-07-12 |      | verify issue/changes; rework SQL script |
 | sol@2e8a7498 | 2021-07-10 |      | verify/rework SQL script |
@@ -9,7 +10,7 @@ TODOs:
 | sol@b2836769 | 2021-07-08 |      | despite the description the creature pool is not associated with Meshlok, but with two other creatures: Cavern Lurker & Cavern Shambler; obviously they are meant to be replaced with Meshlok, which is probably only possible using an InstanceScript; low prio (Dungeon: Maraudon) |
 | sol@06027e32 | 2021-07-08 |      | verify issue; low prio (Dungeon: Utgarde Pinnacle) |
 | sol@f8c8e98a | 2021-07-08 |      | take over if needed |
-| sol@c7d5080b | 2021-07-08 |      | take over from TC instead |
+| sol@c7d5080b | 2021-07-08 | X    | take over from TC instead; done: sol@7287e321 |
 | sol@6644c651 | 2021-07-08 |      | verify/rework SQL script |
 | sol@5eebf892 | 2021-07-07 |      | verify issue; low prio (Dungeon: Icecrown Citadel) |
 | sol@3dec029b | 2021-07-07 |      | adapt to Sol; low prio (PvP) |
@@ -205,9 +206,9 @@ TODOs:
 | sol@80f665cd | 2021-03-14 | X    | verify new positions; use UPDATE statement; done: sol@bfef495c |
 | sol@f8b9a273 | 2021-03-14 | X    | verify new positions; use UPDATE statement; done: sol@cd44de32 |
 | sol@3d0192fa | 2021-03-14 | X    | verify changes; update: this is wrong, those creatures are meant as flavor and should not be targetable or killable; correct inhabit type and WP movement was already added with commit sol@88243a8a |
-| sol@dd7027dc | 2021-03-14 |      | verify and rework SQL script |
+| sol@dd7027dc | 2021-03-14 | X    | verify and rework SQL script; done: sol@818ae884 |
 | sol@b514dfb9 | 2021-03-14 | X    | explode visual is not shown; try to find another solution; done: sol@8c3bd5a5 |
-| sol@cfadd5a8 | 2021-03-14 |      | verify and rework SQL script |
+| sol@cfadd5a8 | 2021-03-14 | X    | verify and rework SQL script; done: sol@7a1e2ec2 |
 | sol@79504214 | 2021-03-14 | X    | verify and rework SQL script (also remove sneak visual as this is added through the spell); done: sol@70558369 |
 | sol@30b3d74f | 2021-03-11 | X    | verify and rework SQL script (also see sol@d1fe14ff; perhaps just fix the CreatureScript instead); also don't manipulate the faction template DBC as this is the wrong way to solve the issues (faction is used by multiple creatures and can cause issues with the other ones); use the correct spell to transform to bear form; done: sol@f168b101 |
 | sol@7b7dac05 | 2021-03-11 | X    | verify new position; use UPDATE statement; done: sol@0952a39c |
