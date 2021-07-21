@@ -2,6 +2,8 @@ TODOs:
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@b226df1e | 2021-07-20 |      | verify/rework SQL script |
+| sol@58b0bca0 | 2021-07-18 |      | verify/rework SQL script |
 | sol@fba9e265 | 2021-07-15 |      | verify every creature in this area; not all creatures have to move around; also check some of the already wandering creatures and disable random movement |
 | sol@1fa51e51 | 2021-07-12 |      | verify changes; low prio (Dungeon: Ulduar) |
 | sol@b5d9b3d5 | 2021-07-12 |      | verify issue/changes; rework SQL script |
@@ -77,7 +79,7 @@ TODOs:
 | sol@c485bab6 | 2021-06-04 | X    | don't use SAI, fix GameObjectScript instead; done: sol@565d1a3f |
 | sol@e3fcf1ad | 2021-06-02 | X    | verify/rework SQL script; implemented another solution: sol@d067deae |
 | sol@c90a43eb | 2021-06-02 | X    | verify issue; use UPDATE instead of DELETE/INSERT; done: sol@21983c67 |
-| sol@8747f965 | 2021-06-02 |      | verify/rework SQL script |
+| sol@8747f965 | 2021-06-02 | X    | verify/rework SQL script; done: sol@363333f4 |
 | sol@e7087433 | 2021-06-02 |      | verify/rework SQL script (see also sol@c4185a51); low prio (Dungeon: Wailing Caverns) |
 | sol@40a71471 | 2021-06-02 | X    | SAI not necessary, update spell script "spell\_q6124\_6129\_apply\_salve" instead; done: sol@878a1678 |
 | sol@ee7d54b7 | 2021-06-01 |      | verify/rework SQL script |
@@ -134,7 +136,7 @@ TODOs:
 | sol@5ee7fed0 | 2021-04-30 |      | verify/rework SQL script |
 | sol@6389d2eb | 2021-04-30 |      | verify/rework SQL script |
 | sol@0b87bb0d | 2021-04-30 |      | verify changes; low prio (Dungeon: Deadmines) |
-| sol@0372ddc1 | 2021-04-27 |      | rework SQL script; verify positions |
+| sol@0372ddc1 | 2021-04-27 | X    | rework SQL script; verify positions; done: sol@ccb0d6a3 |
 | sol@28ce1e92 | 2021-04-25 | X    | verify position and use UPDATE instead of DELETE/INSERT; done: sol@3f0f8670 |
 | sol@96e0d2ca | 2021-04-25 |      | verify/rework SQL script; also remove sneak visual effect (UNIT\_FIELD\_BYTES\_1 flag 131072) |
 | sol@8ab6c569 | 2021-04-25 |      | verify/rework SQL script; verify loot |
@@ -169,7 +171,7 @@ TODOs:
 | sol@042cec82 | 2021-04-06 |      | take over if needed |
 | sol@655ccacf | 2021-04-05 |      | don't take over all SQL scripts as there are also several changes to the English localization which seem to be wrong (e.g. quest 5636); low prio (Localization: esES, esMX) |
 | sol@0528e0b4 | 2021-04-05 | X    | verify commit and only take over relevant changes from this TC commit: https://github.com/TrinityCore/TrinityCore/commit/8d19fcbc469e0b37a323c876a15097fbe848d884; done: sol@c30b7e25 |
-| sol@d8c4795e | 2021-04-04 |      | verify gameobjects & positions |
+| sol@d8c4795e | 2021-04-04 | X    | verify gameobjects & positions; done: sol@ccb0d6a3 |
 | sol@26c30996 | 2021-04-04 |      | verify/rework SQL script; low prio (Dungeon: Naxxramas) |
 | sol@7413c17e | 2021-04-04 |      | verify changes & issue (cannot reproduce on Sol); low prio |
 | sol@0d8aa2e8 | 2021-04-03 |      | take over if needed |
@@ -181,24 +183,24 @@ TODOs:
 | sol@86f6ec3c | 2021-04-01 |      | verify/rework SQL script (see also AC commit sol@81c07178) |
 | sol@4e112a89 | 2021-04-01 |      | verify/rework SQL script |
 | sol@f38e63cc | 2021-04-01 |      | verify/rework SQL script |
-| sol@a9ba546c | 2021-04-01 |      | verify gameobjects & positions |
-| sol@4c0467c5 | 2021-04-01 |      | verify/rework SQL script (also see sol@4c357c60 |
-| sol@10c56336 | 2021-04-01 |      | verify gameobjects & positions |
+| sol@a9ba546c | 2021-04-01 | X    | verify gameobjects & positions; done: sol@ccb0d6a3 |
+| sol@4c0467c5 | 2021-04-01 |      | verify/rework SQL script (also see sol@4c357c60); update: contains too many bugs and causes side effects (e.g. using the wrong gameobject 180779 which is actually spawned in Northrend); rework the existing script and use the values accordinig to TC's CreatureScript "npc\_demolitionist\_legoso" |
+| sol@10c56336 | 2021-04-01 | X    | verify gameobjects & positions; done: sol@ccb0d6a3 |
 | sol@c0aa1b88 | 2021-03-29 |      | verify changes; low prio (Love is in the Air) |
 | sol@9bf2800c | 2021-03-29 |      | verify changes; low prio (Dungeon: Ulduar) |
 | sol@7a5e4be7 | 2021-03-28 |      | verify changes; low prio (Dungeon: Utgarde Keep) |
 | sol@2a601a16 | 2021-03-28 | X    | verify changes; taken over with a few improvements: sol@146bf661 |
-| sol@01f0020e | 2021-03-27 |      | verify/rework SQL script |
+| sol@01f0020e | 2021-03-27 | X    | verify/rework SQL script; update: won't take over as it's stated multiple times on wowhead that VanCleef summons his allies twice during the fight; the video linked in the original issue is private, also the "new" classic is not the same as 2010 WotLK |
 | sol@b1af0192 | 2021-03-24 |      | verify changes; low prio (Dungeon: Vault of Archavon) |
 | sol@8ba442bd | 2021-03-23 |      | verify changes (also see bugfix sol@6745746c); low prio (Dungeon: Naxxramas) |
 | sol@485f7e76 | 2021-03-21 | X    | try to find a less intrusive solution instead of taking over all of the TC refactoring; done: sol@75eb56c6, sol@4114a861 |
 | sol@9f354db7 | 2021-03-21 | X    | verify changes; update: just another TC refactoring without real benefit; won't take over |
 | sol@41ea3394 | 2021-03-20 |      | only take over the Perry Gatner event if there is nothing else to do (the event itself is rather annoying); quest "Stranglethorn Fever" already fixed with commit sol@293d7d38; very low prio |
-| sol@3306f925 | 2021-03-20 |      | verify/rework SQL script |
-| sol@156f7966 | 2021-03-20 |      | verify/rework SQL script |
+| sol@3306f925 | 2021-03-20 | X    | verify/rework SQL script; rewrote the whole script: sol@cdecf52f |
+| sol@156f7966 | 2021-03-20 | X    | verify/rework SQL script; rewrote the whole script: sol@ad133e7e |
 | sol@aea4ce30 | 2021-03-20 |      | verify changes; low prio (Dungeon: Ulduar) |
 | sol@2ec26893 | 2021-03-18 | X    | change pool template ID as this one will overwrite "Minerals - Rolands Doom - Duskwood" from AC commit sol@910106a0; done: sol@d012a9c2 |
-| sol@8119bff9 | 2021-03-18 |      | verify and rework SQL script; also check event script 5991 |
+| sol@8119bff9 | 2021-03-18 | X    | verify and rework SQL script; also check event script 5991; done: sol@363333f4 |
 | sol@79420c86 | 2021-03-17 | X    | position the creature in the water nearby; done: sol@80d13a0b |
 | sol@0d19ac43 | 2021-03-17 |      | verify changes; low prio (Dungeon: Ulduar) |
 | sol@252f56c0 | 2021-03-17 |      | verify changes; low prio (Dungeon: Ulduar) |
