@@ -1,10 +1,8 @@
 # warden\_checks
 
-**Table: warden\_checks**
-
 This table contains data related to the use of the anti-cheat tool Warden, which can be enabled in Worldserver.conf
 
- 
+## Structure 
 
 | Field                             | Type        | Attributes        | Key | NULL | Default         | Comment                                   |
 |-----------------------------------|-------------|-------------------|-----|------|-----------------|-------------------------------------------|
@@ -17,11 +15,7 @@ This table contains data related to the use of the anti-cheat tool Warden, which
 | [result](#result)   | varchar(24) | utf8\_general\_ci |     | YES  | NULL            |                                           |
 | [comment](#comment) | varchar(50) | utf8\_general\_ci |     | YES  | NULL            |                                           |
 
- 
-
 ## Description of the fields
-
- 
 
 ### id
 

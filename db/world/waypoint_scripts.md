@@ -1,8 +1,6 @@
 # waypoint\_scripts
 
-###### **Used by [waypoint_data](waypoint_data.md)**
-
-### Information
+**Used by [waypoint_data](waypoint_data.md)**
 
 Waypoint paths directly attached to a creature via [creature_addon.path_id](creature_addon.md#path_id) use the tables [waypoint_data](waypoint_data.md) and [waypoint_scripts](waypoint_scripts.md). They can be added and manipulated using the GM '.wp' commands. See also [Waypoints-Information](../../misc/Waypoints-Information.md) for general information about waypoints.
 

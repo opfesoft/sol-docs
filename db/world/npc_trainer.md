@@ -1,7 +1,5 @@
 # npc\_trainer
 
-**The \`npc\_trainer\` table**
-
 This table contains all the spells that each trainer can teach.
 
 ## Structure

@@ -1,7 +1,5 @@
 # spell\_dbc
 
-**The \`spell\_dbc\` table**
-
 This table contains data regarding serverside spells which are not to be found in Client DBC files.
 
 ## Structure

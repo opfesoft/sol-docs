@@ -1,7 +1,5 @@
 # pool\_gameobject
 
-**The \`pool\_gameobject\` table**
-
 This table contains gameobjects that are tied to a specific pool.
 This table can only contain gameobjects that have a type of GAMEOBJECT\_TYPE\_CHEST, GAMEOBJECT\_TYPE\_GOOBER, GAMEOBJECT\_TYPE\_FISHINGHOLE.
 

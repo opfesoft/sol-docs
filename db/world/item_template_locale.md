@@ -1,7 +1,5 @@
 # item\_template\_locale
 
-**The \`item\_template\_locale\` table**
-
 This table is used to provide to localized clients with localized string for items.
 
 ## Structure

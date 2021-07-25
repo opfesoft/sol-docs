@@ -1,7 +1,5 @@
 # character\_queststatus\_weekly
 
-**The \`character\_queststatus\_weekly\` table**
-
 Holds information on the weekly quest status of every player. The timers reset at the same time the Raids reset.
 
 ## Structure
@@ -55,8 +53,8 @@ Holds information on the weekly quest status of every player. The timers reset a
 
 ### guid
 
-The guid of the character.
+The GUID of the character. See [characters.guid](characters.md#guid)
 
 ### quest
 
-The id of the quest.
+The ID of the quest. [quest\_template.ID](../world/quest_template.md#id)

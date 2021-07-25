@@ -1,7 +1,5 @@
 # arena\_team
 
-**The \`arena\_team\` table**
-
 This table holds the main ArenaTeam information. All created teams or all teams in the process of being created have a record in this table.
 
 ## Structure
@@ -41,7 +39,7 @@ This table holds the main ArenaTeam information. All created teams or all teams 
 <tr>
 <td><p><a href="#name">name</a></p></td>
 <td><p>varchar(24)</p></td>
-<td><p>signed</p></td>
+<td><p> </p></td>
 <td><p> </p></td>
 <td><p>NO</p></td>
 <td><p>NULL</p></td>
@@ -129,7 +127,7 @@ This table holds the main ArenaTeam information. All created teams or all teams 
 <td><p> </p></td>
 </tr>
 <tr>
-<td><p><a href="#backgroundcolor">BackgroundColor</a></p></td>
+<td><p><a href="#backgroundcolor">backgroundColor</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -139,7 +137,7 @@ This table holds the main ArenaTeam information. All created teams or all teams 
 <td><p> </p></td>
 </tr>
 <tr>
-<td><p><a href="#emblemstyle">EmblemStyle</a></p></td>
+<td><p><a href="#emblemstyle">emblemStyle</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -149,7 +147,7 @@ This table holds the main ArenaTeam information. All created teams or all teams 
 <td><p> </p></td>
 </tr>
 <tr>
-<td><p><a href="#emblemcolor">EmblemColor</a></p></td>
+<td><p><a href="#emblemcolor">emblemColor</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -159,7 +157,7 @@ This table holds the main ArenaTeam information. All created teams or all teams 
 <td><p> </p></td>
 </tr>
 <tr>
-<td><p><a href="#borderstyle">BorderStyle</a></p></td>
+<td><p><a href="#borderstyle">borderStyle</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -169,7 +167,7 @@ This table holds the main ArenaTeam information. All created teams or all teams 
 <td><p> </p></td>
 </tr>
 <tr>
-<td><p><a href="#bordercolor">BorderColor</a></p></td>
+<td><p><a href="#bordercolor">borderColor</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -185,7 +183,7 @@ This table holds the main ArenaTeam information. All created teams or all teams 
 
 ### arenaTeamId
 
-The ID of the ArenaTeam. This number is unique to each team and is the main method to identify a team.1
+The ID of the ArenaTeam. This number is unique to each team and is the main method to identify a team.
 
 ### name
 
@@ -229,22 +227,22 @@ Number of games won this **week**.
 
 Rank of teams in the competition by rating.
 
-### BackgroundColor
+### backgroundColor
 
 Team-tabard BackgroundColor (same as guild-tabard)
 
-### EmblemStyle
+### emblemStyle
 
 Team-tabard Emblem (same as guild-tabard)
 
-### EmblemColor
+### emblemColor
 
 Team-tabard EmblemColor (same as guild-tabard)
 
-### BorderStyle
+### borderStyle
 
 Team-tabard Bordertype (same as guild-tabard)
 
-### BorderColor
+### borderColor
 
 Team-tabard BorderColor (same as guild-tabard)

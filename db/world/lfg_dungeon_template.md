@@ -1,10 +1,13 @@
-# lfg_dungeon_template
+# lfg\_dungeon\_template
 
-Column | Type | Description
---- | --- | ---
-DungeonId | int(10) unsigned | 
-Name | varchar(255) | 
-Position_x | float | 
-Position_y | float | 
-Position_z | float | 
-Orientation | float | 
+## Structure
+
+| Field          | Type         | Attributes | Null | Key | Default | Extra | Comment |
+|----------------|--------------|------------|------|-----|---------|-------|---------|
+| dungeonId      | int(10)      | unsigned   | NO   | PRI | 0       |       |         |
+| name           | varchar(255) |            | YES  |     | NULL    |       |         |
+| position\_x    | float        |            | NO   |     | 0       |       |         |
+| position\_y    | float        |            | NO   |     | 0       |       |         |
+| position\_z    | float        |            | NO   |     | 0       |       |         |
+| orientation    | float        |            | NO   |     | 0       |       |         |
+| VerifiedBuild  | smallint(5)  |            | YES  |     | 0       |       |         |

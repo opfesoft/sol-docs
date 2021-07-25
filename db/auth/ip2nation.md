@@ -1,8 +1,5 @@
 # ip2nation
 
-
-**The \`ip2nation\` and \`ip2nationCountries\` tables**
-
 These tables allow to see approximately which country a player might be from when doing **.pinfo &lt;player&gt;** command.
 
 They are not mantained by AzerothCore development team and **they require external data to perform their function**, which can be found at <http://www.ip2nation.com/ip2nation/Download>

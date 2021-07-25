@@ -1,7 +1,5 @@
 # character\_declinedname
 
-**The \`character\_declinedname\` table**
-
 ## Structure
 
 <table>
@@ -28,7 +26,7 @@
 </tr>
 <tr>
 <td><p><a href="#guid">guid</a></p></td>
-<td><p>int(11)</p></td>
+<td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p>PRI</p></td>
 <td><p>NO</p></td>
@@ -39,50 +37,50 @@
 <tr>
 <td><p><a href="#genitive">genitive</a></p></td>
 <td><p>varchar(15)</p></td>
-<td><p>signed</p></td>
+<td><p> </p></td>
 <td><p> </p></td>
 <td><p>NO</p></td>
-<td><p>NULL</p></td>
+<td><p> </p></td>
 <td><p> </p></td>
 <td><p> </p></td>
 </tr>
 <tr>
 <td><p><a href="#dative">dative</a></p></td>
 <td><p>varchar(15)</p></td>
-<td><p>signed</p></td>
+<td><p> </p></td>
 <td><p> </p></td>
 <td><p>NO</p></td>
-<td><p>NULL</p></td>
+<td><p> </p></td>
 <td><p> </p></td>
 <td><p> </p></td>
 </tr>
 <tr>
 <td><p><a href="#accusative">accusative</a></p></td>
 <td><p>varchar(15)</p></td>
-<td><p>signed</p></td>
+<td><p> </p></td>
 <td><p> </p></td>
 <td><p>NO</p></td>
-<td><p>NULL</p></td>
+<td><p> </p></td>
 <td><p> </p></td>
 <td><p> </p></td>
 </tr>
 <tr>
 <td><p><a href="#instrumental">instrumental</a></p></td>
 <td><p>varchar(15)</p></td>
-<td><p>signed</p></td>
+<td><p> </p></td>
 <td><p> </p></td>
 <td><p>NO</p></td>
-<td><p>NULL</p></td>
+<td><p> </p></td>
 <td><p> </p></td>
 <td><p> </p></td>
 </tr>
 <tr>
 <td><p><a href="#prepositional">prepositional</a></p></td>
 <td><p>varchar(15)</p></td>
-<td><p>signed</p></td>
+<td><p> </p></td>
 <td><p> </p></td>
 <td><p>NO</p></td>
-<td><p>NULL</p></td>
+<td><p> </p></td>
 <td><p> </p></td>
 <td><p> </p></td>
 </tr>
@@ -93,7 +91,7 @@
 
 ### guid
 
-`field-no-description|1`
+The character guid. See [characters.guid](characters.md#guid).
 
 ### genitive
 

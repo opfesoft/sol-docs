@@ -1,7 +1,5 @@
 # player\_classlevelstats
 
-**The \`player\_classlevelstats\` table**
-
 This table holds information on the base health and mana of characters when they level up. Each class has different level stats. All of the values in this table signify only the base health and mana of the class at a specific level.
 
 ## Structure

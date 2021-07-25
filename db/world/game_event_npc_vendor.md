@@ -1,7 +1,5 @@
 # game\_event\_npc\_vendor
 
-**The \`game\_event\_npc\_vendor\` table**
-
 This table allows you to change the items a vendor sells, or to create a [vendor list](npc_vendor.md) for an NPC who does not sell items unless an event is active.
 
 ## Structure

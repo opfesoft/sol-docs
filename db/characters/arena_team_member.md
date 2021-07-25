@@ -1,7 +1,5 @@
 # arena\_team\_member
 
-**The \`arena\_team\_member\` table**
-
 This table holds arena info about specific team members. All arena\_team members have a record in this table.
 
 ## Structure
@@ -105,11 +103,15 @@ This table holds arena info about specific team members. All arena\_team members
 
 ### arenaTeamId
 
-ID of arena team. See Team Id
+ID of arena team. See [arena_team.arenaTeamId](arena_team.md#arenateamid)
 
 ### guid
 
-Player's GUID. See characters.guid
+Player's GUID. See [characters.guid](characters.md#guid)
+
+### personalrating
+
+The player's personal arena rating.
 
 ### weekGames
 

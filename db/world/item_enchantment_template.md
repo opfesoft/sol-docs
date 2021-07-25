@@ -1,7 +1,5 @@
 # item\_enchantment\_template
 
-**The \`item\_enchantment\_template\` table**
-
 This table holds enchantment chance information for items that should have either a random property or a random suffix attached to them.
 
 ## Structure

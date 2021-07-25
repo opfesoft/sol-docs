@@ -1,7 +1,5 @@
 # instance\_reset
 
-**The \`instance\_reset\` table**
-
 Date and time when heroic and raid instances will be reset (i.e. instances which have a fix reset interval, which is independent of the time, when some player(s) entered the instance). If Rate.InstanceResetTime is changed in the worldserver config, erase all data in this table and restart the server in order to repopulate it with the updated "resettime".
 
 ## Structure
@@ -65,7 +63,7 @@ Date and time when heroic and raid instances will be reset (i.e. instances which
 
 ### mapid
 
-The map ID the instance is in. See Map.dbc
+The map ID the instance is in. See [Map.dbc](../../dbc/Map.md#content)
 
 ### difficulty
 

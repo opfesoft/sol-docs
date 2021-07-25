@@ -1,10 +1,10 @@
 # item\_template
 
-## Structure
-
 Holds information on every item that exists in the game. All items are created from their template stored in this table.
 
 (See additional information in the *ItemPrototype.h* file.)
+
+## Structure
 
 <table style="width:100%;">
 <colgroup>

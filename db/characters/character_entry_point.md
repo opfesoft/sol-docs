@@ -1,11 +1,16 @@
+# character\_entry\_point
 
-Column | Type | Description
---- | --- | ---
-Guid | int(10) unsigned | 
-JoinX | float | 
-JoinY | float | 
-JoinZ | float | 
-JoinO | float | 
-JoinMapId | int(10) unsigned | 
-TaxiPath | text | 
-MountSpell | int(10) unsigned | 
+This table is used to save the entry point for players in Arenas or Battlegrounds.
+
+## Structure
+
+| Field                                 | Type    | Attributes | Null | Key | Default | Extra | Comment |
+|---------------------------------------|---------|------------|------|-----|---------|-------|---------|
+| [guid](characters.md#guid)            | int(10) | unsigned   | NO   | PRI | 0       |       |         |
+| joinX                                 | float   |            | NO   |     | 0       |       |         |
+| joinY                                 | float   |            | NO   |     | 0       |       |         |
+| joinZ                                 | float   |            | NO   |     | 0       |       |         |
+| joinO                                 | float   |            | NO   |     | 0       |       |         |
+| [joinMapId](../../dbc/Map.md#content) | int(10) | unsigned   | NO   |     | 0       |       |         |
+| taxiPath                              | text    |            | YES  |     | NULL    |       |         |
+| mountSpell                            | int(10) | unsigned   | NO   |     | 0       |       |         |

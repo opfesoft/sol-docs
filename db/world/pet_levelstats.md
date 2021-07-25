@@ -1,7 +1,5 @@
 # pet\_levelstats
 
-**The \`pet\_levelstats\` table**
-
 This table holds information on individual pet base stats based on level.
 
 ## Structure

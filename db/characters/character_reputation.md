@@ -1,7 +1,5 @@
 # character\_reputation
 
-**The \`character\_reputation\` table**
-
 This table holds the reputation information for each character.
 
 ## Structure
@@ -51,7 +49,7 @@ This table holds the reputation information for each character.
 <tr>
 <td><p><a href="#standing">standing</a></p></td>
 <td><p>int(11)</p></td>
-<td><p>signed</p></td>
+<td><p> </p></td>
 <td><p> </p></td>
 <td><p>NO</p></td>
 <td><p>0</p></td>
@@ -75,11 +73,11 @@ This table holds the reputation information for each character.
 
 ### guid
 
-The GUID of the character. See characters.guid
+The GUID of the character. See [characters.guid](characters.md#guid)
 
 ### faction
 
-The faction ID that the character has the given reputation in. See Faction.dbc
+The faction ID that the character has the given reputation in. See [Faction.dbc](../../dbc/Faction.md#content)
 
 ### standing
 

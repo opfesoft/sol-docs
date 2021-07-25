@@ -1,7 +1,5 @@
 # spell\_bonus\_data
 
-**The \`spell\_bonus\_data\` table**
-
 Table used for storing custom damage/healing bonus coefficients.
 
 ## Structure

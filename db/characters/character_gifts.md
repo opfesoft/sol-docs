@@ -1,7 +1,5 @@
 # character\_gifts
 
-**The \`character\_gifts\` table**
-
 This table holds data about wrapped/gift items.
 
 ## Structure
@@ -75,15 +73,15 @@ This table holds data about wrapped/gift items.
 
 ### guid
 
-The GUID of the character. See characters.guid
+The GUID of the character. See [characters.guid](characters.md#guid)
 
 ### item\_guid
 
-The GUID of the item. See item\_instance.guid
+The GUID of the item. See [item\_instance.guid](item_instance.md#guid)
 
 ### entry
 
-The entry of the item. See item\_template.entry
+The entry of the item. See [item\_template.entry](../world/item_template.md#entry)
 
 ### flags
 

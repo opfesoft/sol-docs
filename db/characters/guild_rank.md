@@ -1,7 +1,5 @@
 # guild\_rank
 
-**The \`guild\_rank\` table**
-
 This table holds the information on all of the ranks available in a guild along with their names and what rights a person with that rank has.
 
 ## Structure
@@ -51,10 +49,10 @@ This table holds the information on all of the ranks available in a guild along 
 <tr>
 <td><p><a href="#rname">rname</a></p></td>
 <td><p>varchar(20)</p></td>
-<td><p>signed</p></td>
+<td><p> </p></td>
 <td><p> </p></td>
 <td><p>NO</p></td>
-<td><p>&quot;</p></td>
+<td><p> </p></td>
 <td><p> </p></td>
 <td><p> </p></td>
 </tr>
@@ -85,7 +83,7 @@ This table holds the information on all of the ranks available in a guild along 
 
 ### guildid
 
-The guild ID that the rank is part of. See guild.guildid
+The guild ID that the rank is part of. See [guild.guildid](guild.md#guildid)
 
 ### rid
 

@@ -1,7 +1,5 @@
 # acore\_string\_locale
 
-**The \`acore\_string\_locale\` table**
-
 This table is used to provide localized strings used internally by the server.
 
 NOTE: The % arguments need to stay in the exact same order as they are provided by default in the English translation (see table [acore\_string](acore_string.md)).

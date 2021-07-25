@@ -1,7 +1,5 @@
 # creature\_template\_locale
 
-**The \`creature\_template\_locale\` table**
-
 This table is used to provide to localized clients with localized string for creatures.
 
 ## Structure

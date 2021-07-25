@@ -1,7 +1,5 @@
 # access\_requirement
 
-**The \`access\_requirement\` table**
-
 This table contains the access requirements to enter an instance.
 
 ## Structure

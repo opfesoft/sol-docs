@@ -1,7 +1,5 @@
 # account\_tutorial
 
-**The \`account\_tutorial\` table**
-
 This table is used to store the tutorial state of all the accounts.
 
 ## Structure

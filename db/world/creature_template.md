@@ -82,11 +82,11 @@ This table contains the description of creatures. Each spawned creature is an in
 
 ## Description of the fields
 
-#### entry
+### entry
 
 Creature's unique id.
 
-#### difficulty_entry_x
+### difficulty_entry_x
 
 | name                                                      | entry | difficulty_entry_1 | difficulty_entry_2 | difficulty_entry_3 |
 |-----------------------------------------------------------|-------|----------------------|----------------------|----------------------|
@@ -108,27 +108,27 @@ If you look at the database you will notice a very characteristic pattern which 
 | Raid Creature    | 10man Normal Raid | 25man Normal Raid    | 10man Heroic Raid    | 25man Heroic Raid    |
 | Battleground     | 51- 59            | 60-69                | 70-79                | 80                   |
 
-#### KillCredit1
+### KillCredit1
 
 If this is a kill credit template -- one that is a dummy template that is used when more than one creature can count as a kill in a quest, then this is a link to the first [entry](#entry) of the creature that could be killed to give quest credit.
 
-#### KillCredit2
+### KillCredit2
 
 If this is a kill credit template -- one that is a dummy template that is used when more than one creature can count as a kill in a quest, then this is a link to the second [entry](#entry) of the creature that could be killed to give quest credit. If more than two creatures can be killed and count toward a single objective, an smart or C++ script will be required.
 
-#### modelidx
+### modelidx
 
 A random graphical model that the client applies on this creature. Of course if you specify only one modelid and the rest will be equal to 0, model you have set won't be chosen randomly. This is a [creature_model_info.modelid](creature_model_info.md)
 
-#### name
+### name
 
 Base name of the creature.
 
-#### subname
+### subname
 
 The subname of the creature that appears in &lt;&gt; below the creature's name.
 
-#### IconName
+### IconName
 
 Used to tell the player what kind of NPC this creature is.
 
@@ -152,19 +152,19 @@ Used to tell the player what kind of NPC this creature is.
 
 **Attention!** This is not required to make the NPC function unless you are using scripts or gossip options. Names are case sensitive, If in doubt use an example above.
 
-#### gossip_menu_id
+### gossip_menu_id
 
 The gossip ID of this creature. This field is obtained from sniff (update fields). If you can not sniff this value, and need to make one up, it must be &gt; 50000. This field is the link to [gossip_menu.entry](gossip_menu.md#entry).
 
-#### minlevel
+### minlevel
 
 The minimum level of the creature if the creature has a level range.
 
-#### maxlevel
+### maxlevel
 
 The maximum level of the creature if the creature has a level range. When added to world, a level in chosen in the specified level range.
 
-#### exp
+### exp
 
 The expansion table the creatures health value is taken from. Values are from 0 to 2. See creature_classlevelstats.
 
@@ -174,13 +174,13 @@ The expansion table the creatures health value is taken from. Values are from 0 
 | 1   | The Burning Crusade    |
 | 2   | Wrath of The Lich King |
 
-#### faction
+### faction
 
 The faction of the creature. See [FactionTemplate](../../dbc/FactionTemplate.md). Just because more than one faction has the same name, the inter-faction relationships can be different.
 
 Note: This field also controls the creature family assistance mechanic. Only creatures with the same faction will assist each other.
 
-#### npcflag
+### npcflag
 
 A bitmask that represents what NPC flags the creature has. Each bit controls a different flag and to combine flags, you can add each flag that you want, in effect activating the respective bits.
 
@@ -216,19 +216,19 @@ A bitmask that represents what NPC flags the creature has. Each bit controls a d
 
 So if you want a NPC that is a quest giver(2), a vendor(128) and can repair(4096) you just add specific flags together: 2+128+4096=4226                                                                              
 
-#### speed_walk
+### speed_walk
 
 Controls how fast the creature can walk. For vehicles: increases fly speed.
 
-#### speed_run
+### speed_run
 
 Controls how fast the creature can run. For vehicles: increases ground movement speed.
 
-#### scale
+### scale
 
 If non-zero, this field defines the size of how the model of the creature appears ingame. If zero, it will use default model size taken from the DBC.
 
-#### rank
+### rank
 
 The rank of the creature:
 
@@ -246,7 +246,7 @@ The rank of the creature:
 
 **Note 3:** If you want the creature to show a skull or "??" in the portrait (often with Bosses), set the [type_flags](#type_flags) to 4.
 
-#### dmgschool
+### dmgschool
 
 Creature's melee damage school.
 
@@ -260,15 +260,15 @@ Creature's melee damage school.
 | 5  | SPELL_SCHOOL_SHADOW |
 | 6  | SPELL_SCHOOL_ARCANE |
 
-#### BaseAttackTime
+### BaseAttackTime
 
 This is the base time that determines how long a creature must wait between melee attacks. This time is in milliseconds.
 
-#### RangeAttackTime
+### RangeAttackTime
 
 This is the base time that determines how long a creature must wait between ranged attacks. This time is in milliseconds.
 
-#### unit_class
+### unit_class
 
 This is the creature's class, and it dictates levels of health and mana. Also note that health and mana will change according to [exp](#exp), [HealthModifier](#healthmodifier), and [ManaModifier](#manamodifier). Not setting this value will report a minor warning in the "DB_Errors.log".
 
@@ -279,7 +279,7 @@ This is the creature's class, and it dictates levels of health and mana. Also no
 | 4     | CLASS_ROGUE   | Health only (equal to warrior)                         |
 | 8     | CLASS_MAGE    | health & mana (less health than paladin but more mana) |
 
-#### unit_flags
+### unit_flags
 
 Allows the manual application of unit flags to creatures. Again this is a bitmask field and to apply more than one flag, just add the different numbers. Some possible flags are:
 
@@ -318,7 +318,7 @@ Allows the manual application of unit flags to creatures. Again this is a bitmas
 | 1073741824 | 0x40000000 | UNIT_FLAG_SHEATHE               |                                                                                                            |
 | 2147483648 | 0x80000000 | UNIT_FLAG_UNK_31                |                                                                                                            |
 
-#### unit_flags2
+### unit_flags2
 
 Allows additional application of unit flags to creatures. Again, this is a bitmask field and to apply more than one flag, just add the different numbers. Some possible flags are:
 
@@ -344,7 +344,7 @@ Allows additional application of unit flags to creatures. Again, this is a bitma
 | 131072 | 0x00020000 | UNIT_FLAG2_PLAY_DEATH_ANIM            | Plays special death animation upon death                                    |
 | 262144 | 0x00040000 | UNIT_FLAG2_ALLOW_CHEAT_SPELLS         | allows casting spells with AttributesEx7 & SPELL_ATTR7_IS_CHEAT_SPELL       |
 
-#### dynamicflags
+### dynamicflags
 
 Flags that control visual appearance of the creature.
 
@@ -363,7 +363,7 @@ A few known flags and their use are:
 | 64   | 0x40 | UNIT_DYNFLAG_REFER_A_FRIEND            |                                                                                                     |
 | 128  | 0x80 | UNIT_DYNFLAG_TAPPED_BY_ALL_THREAT_LIST | Lua_UnitIsTappedByAllThreatList                                                                     |
 
-#### family
+### family
 
 The family this creature belongs to.
 
@@ -390,7 +390,7 @@ The family this creature belongs to.
 | 24. | Bat          | 45. | Core Hound     |
 | 25. | Hyena        | 46. | Spirit Beast   |
 
-#### trainer_type
+### trainer_type
 
 If the NPC is a trainer (has the trainer flag), then this field controls what kind of trainer it is. Both this field and the related field must be filled in for a trainer to work correctly.
 
@@ -401,19 +401,19 @@ If the NPC is a trainer (has the trainer flag), then this field controls what ki
 | 2  | TRAINER_TYPE_TRADESKILLS | [trainer_spell](#trainer_spell) | Trains professions  |
 | 3  | TRAINER_TYPE_PETS        | [trainer_class](#trainer_class) | Trains pet skills   |
 
-#### trainer_spell
+### trainer_spell
 
 If the NPC is a trainer that teaches professions ([trainer_type](#trainer_type) = 2), then the player must already know the spell ID specified here to be able to talk to this NPC.
 
-#### trainer_class
+### trainer_class
 
 If the NPC is a class trainer or a pet trainer ([trainer_type](#trainer_type) = 0 or 3), then the player's class must be the same as the value specified here to talk to this trainer. For pet trainers, this value must be 3 (hunter). See [characters.class](../characters/characters.md#class)
 
-#### trainer_race
+### trainer_race
 
 If the NPC is a mount trainer ([trainer_type](#trainer_type) = 1), then the player's race must be the same as the value specified here to talk to this trainer. See [characters.race](../characters/characters.md#race)
 
-#### type
+### type
 
 The type of the creature.
 
@@ -434,7 +434,7 @@ The type of the creature.
 | 12 | Non-Combat Pet |
 | 13 | Gas Cloud      |
 
-#### type_flags
+### type_flags
 
 This field can control whether a mob is minable or herbable or lootable by engineer. If it is either of those three, then the loot given when it is skinned/mined will be stored in the [skinning_loot_template](loot_template.md) table. It also controls, whether this mob can be tamed by a hunter. Other fields have no special meaning on the serverside. The entire field will be send to the client in SMSG_CREATURE_QUERY_RESPONSE
 
@@ -473,19 +473,19 @@ This field can control whether a mob is minable or herbable or lootable by engin
 | 1073741824 | 0x40000000 | CREATURE_TYPE_FLAG_DO_NOT_RENDER_OBJECT_NAME         |                                                                                            |
 | 2147483648 | 0x80000000 | CREATURE_TYPE_FLAG_UNIT_IS_QUEST_BOSS                | Not verified                                                                               |
 
-#### lootid
+### lootid
 
 The ID of the loot template ID that this creature should use to generate loots. See [creature_loot_template.entry](loot_template.md#entry)
 
-#### pickpocketloot
+### pickpocketloot
 
 The ID of the pickpocketing loot template that this creature should use to generate pickpocketing loots. See [pickpocketing_loot_template.entry](loot_template.md#entry)
 
-#### skinloot
+### skinloot
 
 The ID of the skinning loot template that this creature should use to generate skinning loots. See [skinning_loot_template.entry](loot_template.md#entry)
 
-#### resistancex
+### resistancex
 
 | resistancex | school |
 |-------------|--------|
@@ -496,28 +496,28 @@ The ID of the skinning loot template that this creature should use to generate s
 | 5           | Shadow |
 | 6           | Arcane |
 
-#### spellx
+### spellx
 
 Spell ID that can be used for Mind Control of this creature. 
 For vehicle creatures: spell on action bar with position X.
 
-#### PetSpellDataId
+### PetSpellDataId
 
 ID, found in CreatureSpellData.dbc, that displays what spells the pet has in the client.
 
-#### VehicleId
+### VehicleId
 
 Entry of vehicle if creature is/has a vehicle entry. This field determines how the player appears on the vehicle, how the vehicle moves, and whether or not the vehicle action bar is shown. For example, a vehicleID of 292 will make the player invisible, prevent the vehicle from strafing left/right (but will allow forwards/backwards), and will show the vehicle action bar spells (which are defined in [spell1-8](#spellx)). An npc_spellclick_spells entry must be made for this creature entry in order for this to work.
 
-#### mingold
+### mingold
 
 Minimum money that the creature drops when killed, in copper.
 
-#### maxgold
+### maxgold
 
 Maximum money that the creature drops when killed, in copper.
 
-#### AIName
+### AIName
 
 This field is overridden by ScriptName field if both are set.
 
@@ -538,7 +538,7 @@ This field is overridden by ScriptName field if both are set.
 | VehicleAI       | Creature acts as player vehicle.                                                                                    |
 | SmartAI         | Creature uses the "[smart_scripts](smart_scripts.md)" table to specify it's behaviour. |
 
-#### MovementType
+### MovementType
 
 The creature's default movement type.
 
@@ -548,7 +548,7 @@ The creature's default movement type.
 | 1  | Random movement inside the wander_distance radius |
 | 2  | Waypoint movement                                 |
 
-#### InhabitType
+### InhabitType
 
 Controls where the creature can move and attack.
 
@@ -562,27 +562,27 @@ Controls where the creature can move and attack.
 
 **Note:** If your vehicle is a flying vehicle then your accessory **MUST** have it's InhabitType set to (4 - Flying). This being if you set it for both ground and flying it will spawn on the ground if the vehicle is initially spawned on the ground.
 
-#### HoverHeight
+### HoverHeight
 
 Distance above the ground that the creature will hover if it has MOVEMENTFLAG_DISABLE_GRAVITY enabled. Value taken from sniffs.
 
-#### HealthModifier
+### HealthModifier
 
 Used to modify the base Level/Class health of a creature. This field comes from WDB.
 
-#### ManaModifier
+### ManaModifier
 
 Used to modify the base Level/Class mana of a creature. This field comes from WDB.
 
-#### ArmorModifier
+### ArmorModifier
 
 Used to modify the base Level/Class armor of a creature.
 
-#### DamageModifier
+### DamageModifier
 
 Used to modify the base damage of the creature.
 
-#### RacialLeader
+### RacialLeader
 
 A flag with two possible values: '1' or '0' indicating whether the creature is a racial leader or not. Killing racial leaders grants 100 honor.
 
@@ -599,15 +599,15 @@ A flag with two possible values: '1' or '0' indicating whether the creature is a
 | 36648 | Baine Bloodhoof (Leader) |
 | 37764 | Lor'themar Theron        |
 
-#### movementId
+### movementId
 
 We have no idea what this field does. It is passed directly to the client.
 
-#### RegenHealth
+### RegenHealth
 
 Boolean '1' or '0' controlling whether the creature should regenerate it's health or not.
 
-#### mechanic_immune_mask
+### mechanic_immune_mask
 
 This makes the creature immune to specific spell natures. See Spell.dbc at row effect_X_mechanic_id.
 
@@ -649,7 +649,7 @@ Uses references from SpellMechanic.dbc.
 
 To combine immunities just add values. Immune to everything corresponds to the value 2147483647 (0x3FFF FFFF).
 
-#### flags_extra
+### flags_extra
 
 These flags control certain creature specific attributes. Flags can be added together to apply more than one.
 
@@ -690,11 +690,11 @@ These flags control certain creature specific attributes. Flags can be added tog
 | 1073741824 | CREATURE_FLAG_EXTRA_IMMUNITY_KNOCKBACK   | 0x40000000 | creature is immune all knockback effects                                                                                               |
 | 2147483648 | CREATURE_FLAG_EXTRA_UNUSED_32            | 0x80000000 |                                                                                                                                        |
 
-#### ScriptName
+### ScriptName
 
 The name of the script that this creature uses, if any. This ties a script from a scripting engine to this creature.
 
-#### VerifiedBuild
+### VerifiedBuild
 
 This field was used to determine whether a template has been verified from WDB files.
 

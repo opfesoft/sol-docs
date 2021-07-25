@@ -1,6 +1,8 @@
-# spell_mixology
+# spell\_mixology
 
-Column | Type | Description
---- | --- | ---
-Entry | mediumint(8) unsigned | 
-PctMod | float | 
+## Structure
+
+| Field  | Type         | Attributes | Null | Key | Default | Extra | Comment |
+|--------|--------------|------------|------|-----|---------|-------|---------|
+| entry  | mediumint(8) | unsigned   | NO   | PRI | NULL    |       |         |
+| pctMod | float        |            | NO   |     | 30      |       |         |

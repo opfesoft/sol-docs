@@ -1,7 +1,5 @@
 # character\_account\_data
 
-**The \`character\_account\_data\` table**
-
 Contains data about character settings.
 
 ## Structure
@@ -50,7 +48,7 @@ Contains data about character settings.
 </tr>
 <tr>
 <td><p><a href="#time">time</a></p></td>
-<td><p>bigint(10)</p></td>
+<td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
 <td><p>NO</p></td>
@@ -61,7 +59,7 @@ Contains data about character settings.
 <tr>
 <td><p><a href="#data">data</a></p></td>
 <td><p>blob</p></td>
-<td><p>signed</p></td>
+<td><p> </p></td>
 <td><p> </p></td>
 <td><p>NO</p></td>
 <td><p> </p></td>
@@ -75,7 +73,7 @@ Contains data about character settings.
 
 ### guid
 
-The character global unique identifier. See [Characters.guid](characters.md#guid)
+The character global unique identifier. See [characters.guid](characters.md#guid)
 
 ### type
 

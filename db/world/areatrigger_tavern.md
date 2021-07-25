@@ -1,7 +1,5 @@
 # areatrigger\_tavern
 
-**The \`areatrigger\_tavern\` table**
-
 Enable a trigger when player enters a city or tavern. This causes the player to enter a resting state.
 
 ## Structure

@@ -1,7 +1,5 @@
 # pet\_spell\_cooldown
 
-**The \`pet\_spell\_cooldown\` table**
-
 This table holds information on pet spell cooldowns.
 
 ## Structure
@@ -65,7 +63,7 @@ This table holds information on pet spell cooldowns.
 
 ### guid
 
-The GUID of the pet. See character\_pet.id
+The GUID of the pet. See [character\_pet.id](character_pet.md#id)
 
 ### spell
 

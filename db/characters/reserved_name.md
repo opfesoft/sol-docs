@@ -1,4 +1,7 @@
+# reserved\_name
 
-Column | Type | Description
---- | --- | ---
-Name | varchar(12) | 
+## Structure
+
+| Field | Type        | Attributes | Null | Key | Default | Extra | Comment |
+|-------|-------------|------------|------|-----|---------|-------|---------|
+| name  | varchar(12) |            | NO   | PRI |         |       |         |

@@ -1,10 +1,8 @@
 # quest\_offer\_reward
 
-**Table: quest\_offer\_reward**
-
 This table is used for quests offering rewards without any required quest items (no item delivery involved).
 
- 
+## Structure 
 
 | Field                           | Type         | Attributes        | Key | NULL | Default | Comment                                                |
 |---------------------------------|--------------|-------------------|-----|------|---------|--------------------------------------------------------|
@@ -19,8 +17,6 @@ This table is used for quests offering rewards without any required quest items 
 | [EmoteDelay4](#emotedelay4)     | int(10)      | unsigned          |     | NO   | 0       | Emote delay in milliseconds                            |
 | [RewardText](#rewardtext)       | text         | utf8\_general\_ci |     | YES  | NULL    | Quest gossip text, single quest dialogue               |
 | [VerifiedBuild](#verifiedbuild) | smallint(5)  |                   |     | NO   | 0       | Game client Build number or manually set value         |
-
- 
 
 ## Description of the fields
 

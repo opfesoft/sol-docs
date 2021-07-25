@@ -1,7 +1,5 @@
 # character\_achievement
 
-**The \`character\_achievement\` table**
-
 This table holds information on the achievements a character has earned / completed.
 
 ## Structure

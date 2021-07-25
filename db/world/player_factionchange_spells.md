@@ -1,7 +1,5 @@
 # player\_factionchange\_spells
 
-**The \`player\_factionchange\_spells\` table**
-
 Basically all spell changes made when player changes faction.
 
 <table>

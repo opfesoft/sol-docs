@@ -1,7 +1,5 @@
 # character\_stats
 
-**The \`character\_stats\` table**
-
 This table holds information on all the stats regarding the character. Used for external applications such as websites.
 See worldserver.conf: PlayerSave.Stats.\*
 
@@ -346,7 +344,7 @@ See worldserver.conf: PlayerSave.Stats.\*
 
 ### guid
 
-The guid of the character.
+The GUID of the character. See [characters.guid](characters.md#guid)
 
 ### maxhealth
 
@@ -354,15 +352,15 @@ Maximum amount of health that the character has.
 
 ### maxpower
 
-|||
-| -- | ---         |
-| 1  | mana        |
-| 2  | rage        |
-| 3  | focus       |
-| 4  | energy      |
-| 5  | happiness   |
-| 6  | rune        |
-| 7  | runic power |
+| value | power       |
+|-------|-------------|
+| 1     | mana        |
+| 2     | rage        |
+| 3     | focus       |
+| 4     | energy      |
+| 5     | happiness   |
+| 6     | rune        |
+| 7     | runic power |
 
 ### strength
 
@@ -452,4 +450,3 @@ Character's current spellpower.
 
 Character's current resilience value.
 
-confluenceTd

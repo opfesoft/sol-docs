@@ -1,7 +1,5 @@
 # gossip\_menu\_option\_locale
 
-**The \`gossip\_menu\_option\_locale\` table**
-
 ## Structure
 
 |                           |              |                |         |          |             |           |             |

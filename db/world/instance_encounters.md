@@ -1,7 +1,5 @@
 # instance\_encounters
 
-**The \`instance\_encounters\` table**
-
 Definitions of instance encounters. Used by LFG.
 
 ## Structure

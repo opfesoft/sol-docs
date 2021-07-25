@@ -1,7 +1,5 @@
 # gameobject\_questender
 
-**The \`gameobject\_questender\` table**
-
 Holds game object quest taker relations. The game objects in this table should all be of type QUESTGIVER (2).
 
 ## Structure

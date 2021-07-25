@@ -1,14 +1,12 @@
 # quest\_request\_items
 
-**Table: quest\_request\_items**
-
 This table basically handles 3 quest details:
 
 1.  NPC Emote when quest is completed
 2.  NPC Emote when quest is incomplete
 3.  Completion text for quests requiring quest items
 
- 
+## Structure 
 
 | Field                                   | Type         | Attributes        | Key | NULL | Default | Comment                                                |
 |-----------------------------------------|--------------|-------------------|-----|------|---------|--------------------------------------------------------|
@@ -17,8 +15,6 @@ This table basically handles 3 quest details:
 | [EmoteOnIncomplete](#emoteonincomplete) | smallint(5)  | unsigned          |     | NO   | 0       | Quest ender NPC Emote                                  |
 | [CompletionText](#completiontext)       | text         | utf8\_general\_ci |     | YES  | NULL    | Quest completion text                                  |
 | [VerifiedBuild](#verifiedbuild)         | smallint(5)  |                   |     | NO   | 0       | Game client Build number                               |
-
- 
 
 ## Description of the fields
 

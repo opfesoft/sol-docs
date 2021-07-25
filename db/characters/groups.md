@@ -1,7 +1,5 @@
 # groups
 
-**The \`groups\` table**
-
 This table holds basic info about groups.
 
 ## Structure
@@ -179,12 +177,22 @@ This table holds basic info about groups.
 <td><p> </p></td>
 </tr>
 <tr>
-<td><p><a href="#raiddifficulty">raiddifficulty</a></p></td>
+<td><p><a href="#raiddifficulty">raidDifficulty</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
 <td><p>NO</p></td>
 <td><p>0</p></td>
+<td><p> </p></td>
+<td><p> </p></td>
+</tr>
+<tr>
+<td><p><a href="#masterlooterguid">masterLooterGuid</a></p></td>
+<td><p>int(10)</p></td>
+<td><p>unsigned</p></td>
+<td> </td>
+<td><p>NO</p></td>
+<td> </td>
 <td><p> </p></td>
 <td><p> </p></td>
 </tr>
@@ -199,7 +207,7 @@ The ID of the group. This number is unique to each group and is the main method 
 
 ### leaderGuid
 
-The GUID of the character. See characters.guid
+The GUID of the character. See [characters.guid](characters.md#guid)
 
 ### lootMethod
 
@@ -247,16 +255,16 @@ The GUID of the character. See characters.guid
 
 ### looterGuid
 
-Master looter's guid. See characters.guid
-If [lootMethod](#lootmethod) is not 2, then it's group leader's guid.
+Looter's GUID. See [characters.guid](characters.md#guid)
+If [lootMethod](#lootmethod) is not 2, then it's group leader's GUID.
 
 ### lootThreshold
 
-`field-no-description|5`
+Loot item quality threshold.
 
 ### icon1-8
 
-`field-no-description|6`
+Target icons.
 
 ### groupType
 
@@ -309,8 +317,25 @@ If [lootMethod](#lootmethod) is not 2, then it's group leader's guid.
 
 ### difficulty
 
-`field-no-description|8`
+See enum Difficulty:
+
+```
+DUNGEON_DIFFICULTY_NORMAL    = 0,
+DUNGEON_DIFFICULTY_HEROIC    = 1,
+```
 
 ### raiddifficulty
 
-`field-no-description|9`
+See enum Difficulty:
+
+```
+RAID_DIFFICULTY_10MAN_NORMAL = 0,
+RAID_DIFFICULTY_25MAN_NORMAL = 1,
+RAID_DIFFICULTY_10MAN_HEROIC = 2,
+RAID_DIFFICULTY_25MAN_HEROIC = 3,
+```
+
+### masterLooterGuid
+
+Master looter's guid. See [characters.guid](characters.md#guid)
+Used if [lootMethod](#lootmethod) is 2.

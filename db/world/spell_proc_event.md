@@ -1,7 +1,5 @@
 # spell\_proc\_event
 
-**The \`spell\_proc\_event\` table**
-
 This table holds information on what events (or procs) certain spells are activated. All spells in this table must have applied a SPELL_AURA_PROC_TRIGGER_SPELL (42) aura. Any entries in this table will overwrite the existing proc settings in the spell's DBC entry.
 
 ## Structure

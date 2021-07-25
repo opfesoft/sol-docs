@@ -1,8 +1,8 @@
 # playercreateinfo\_action
 
-## Structure
-
 This table holds information on what default actions a brand new character should start out with. Each race-class combination can have a different default starting setup.
+
+## Structure
 
 <table>
 <tbody>

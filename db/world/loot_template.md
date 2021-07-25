@@ -1,7 +1,5 @@
 # loot\_template
 
-# Tables**: \***\_loot\_template
-
 ## General
 
 Well, according to vocabulary the meaning of the word "loot" is good for corpse loot and may be for some gameobjects like chests but quite unfit for fishing "loot". Nevermind. We will use term "loot" here as "a set of items generated on an event for a player" and "loot definition" as "a set of rules for loot generation". And forget about vocabulary for a while.

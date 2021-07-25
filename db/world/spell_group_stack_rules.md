@@ -1,14 +1,13 @@
 # spell\_group\_stack\_rules
 
-**The \`spell\_group\_stack\_rules\` table**
-
 Table defines if auras in one spell\_group can't stack with each other.
 
 Notes: The table doesn't affect persistent area auras stacking or passive auras stacking (they can stack always) or spells belonging to same spell\_rank (they are always subject of SPELL\_GROUP\_STACK\_RULE\_EXCLUSIVE rule)
 
-|                             |              |                |         |          |             |           |             |
+## Structure
+
+| Field                       | Type         | Attributes     | Key     | Null     | Default     | Extra     | Comment     |
 |-----------------------------|--------------|----------------|---------|----------|-------------|-----------|-------------|
-| **Field**                   | **Type**     | **Attributes** | **Key** | **Null** | **Default** | **Extra** | **Comment** |
 | [group\_id](#group_id)      | int(11)      | unsigned       | PRI     | NO       | 0           |           |             |
 | [stack\_rule](#stack_rule)  | tinyint(3)   | signed         |         | NO       | 0           |           |             |
 | [description](#description) | varchar(150) |                |         | NO       |             |           |             |

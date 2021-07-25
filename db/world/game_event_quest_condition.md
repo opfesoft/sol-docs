@@ -1,7 +1,5 @@
 # game\_event\_quest\_condition
 
-**The \`game\_event\_quest\_condition\` table**
-
 This table contains the mapping of a quest in a world event to the condition that it will fulfill. It also contains how much a given quest will add to a condition once that quest is completed by a player.
 
 ## Structure

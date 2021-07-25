@@ -1,7 +1,5 @@
 # guild\_bank\_tab
 
-**The \`guild\_bank\_tab\` table**
-
 This table holds information on all the tabs in use for all guilds that make use of the guild bank.
 
 ## Structure
@@ -51,27 +49,27 @@ This table holds information on all the tabs in use for all guilds that make use
 <tr>
 <td><p><a href="#tabname">TabName</a></p></td>
 <td><p>varchar(16)</p></td>
-<td><p>signed</p></td>
+<td><p> </p></td>
 <td><p> </p></td>
 <td><p>NO</p></td>
-<td><p>&quot;</p></td>
+<td><p> </p></td>
 <td><p> </p></td>
 <td><p> </p></td>
 </tr>
 <tr>
 <td><p><a href="#tabicon">TabIcon</a></p></td>
 <td><p>varchar(100)</p></td>
-<td><p>signed</p></td>
+<td><p> </p></td>
 <td><p> </p></td>
 <td><p>NO</p></td>
-<td><p>&quot;</p></td>
+<td><p> </p></td>
 <td><p> </p></td>
 <td><p> </p></td>
 </tr>
 <tr>
 <td><p><a href="#tabtext">TabText</a></p></td>
 <td><p>varchar(500)</p></td>
-<td><p>signed</p></td>
+<td><p> </p></td>
 <td><p> </p></td>
 <td><p>YES</p></td>
 <td><p>NULL</p></td>
@@ -85,11 +83,11 @@ This table holds information on all the tabs in use for all guilds that make use
 
 ### guildid
 
-The guild ID that the guild bank belongs to.
+The guild ID that the guild bank belongs to. See [guild.guildid](guild.md#guildid)
 
 ### TabId
 
-The tab ID.
+The tab ID. See [guild\_bank\_tab.TabId](guild_bank_tab.md#tabid)
 
 ### TabName
 

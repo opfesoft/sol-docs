@@ -1,7 +1,5 @@
 # waypoint\_data
 
-### Information
-
 This table contains all the path data for creatures that use waypoints and waypoint scripts directly in their creature addon definition. See also [Waypoints-Information](../../misc/Waypoints-Information.md) for general information about waypoints.
 
 ## Structure
@@ -20,7 +18,9 @@ This table contains all the path data for creatures that use waypoints and waypo
 | [action\_chance](#action_chance) | smallint(6)  |              |     | NO   | 100     |
 | [wpguid](#wpguid)                | int(11)      | unsigned     |     | NO   | 0       |
 
-#### id
+## Description of the fields
+
+### id
 
 Unique ID for each path.
 
@@ -30,31 +30,31 @@ Unique ID for each path.
 
 *However, this is only a suggestion when creating your own waypoints. This ID can be anything you want as long as creature\_addon.path\_id is set to the ID you pick here for the creature you are creating a waypoint for.*
 
-#### point
+### point
 
 Unique point ID for each point in a path. Starts at 1 and increases with each path.
 
-#### position\_x
+### position\_x
 
 The X coordinate of the destination waypoint.
 
-#### position\_y
+### position\_y
 
 The Y coordinate of the destination waypoint.
 
-#### position\_z
+### position\_z
 
 The Z coordinate of the destination waypoint.
 
-#### orientation
+### orientation
 
 The orientation of the creature (North = 0.0; South = π (3.14159)). Is only used if a waypoint delay is specified.
 
-#### delay
+### delay
 
 Time to wait (in ms) between each point.
 
-#### move\_type
+### move\_type
 
 |      |     |
 |------|-----|
@@ -62,15 +62,15 @@ Time to wait (in ms) between each point.
 | Run  | 1   |
 | Fly  | 2   |
 
-#### action
+### action
 
 ID of the action to be performed. See [waypoint\_scripts.id](waypoint_scripts.md).
 
-#### action\_chance
+### action\_chance
 
 Percentage of action happening (0-100%).
 
-#### wpguid
+### wpguid
 
 This field is used by the core and is **NOT** to be set by hand.
 

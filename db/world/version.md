@@ -1,7 +1,5 @@
 # version
 
-**The \`version\` table**
-
 Includes information on current core and database version.
 
 ## Structure

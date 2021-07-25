@@ -1,7 +1,5 @@
 # account\_data
 
-**The \`account\_data\` table**
-
 Contains data about client account and settings.
 
 ## Structure
@@ -29,7 +27,7 @@ Contains data about client account and settings.
 <td><p><strong>Comment</strong></p></td>
 </tr>
 <tr>
-<td><p><a href="#account">account</a></p></td>
+<td><p><a href="#accountid">accountId</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p>PRI</p></td>
@@ -61,7 +59,7 @@ Contains data about client account and settings.
 <tr>
 <td><p><a href="#data">data</a></p></td>
 <td><p>blob</p></td>
-<td><p>signed</p></td>
+<td><p> </p></td>
 <td><p> </p></td>
 <td><p>NO</p></td>
 <td><p> </p></td>
@@ -73,7 +71,7 @@ Contains data about client account and settings.
 
 ## Description of the fields
 
-### account
+### accountId
 
 [Account.id](../auth/account.md#id).
 

@@ -1,7 +1,5 @@
 # instance
 
-**The \`instance\` table**
-
 This table holds static information on all current instances that have not yet been reset.
 
 ## Structure
@@ -81,7 +79,7 @@ This table holds static information on all current instances that have not yet b
 <tr>
 <td><p><a href="#data">data</a></p></td>
 <td><p>tinytext</p></td>
-<td><p>signed</p></td>
+<td><p> </p></td>
 <td><p> </p></td>
 <td><p>NO</p></td>
 <td><p> </p></td>
@@ -99,12 +97,12 @@ The instance ID. This number is unique to every instance.
 
 ### map
 
-The map ID the instance is in. See Map.dbc
+The map ID the instance is in. See [Map.dbc](../../dbc/Map.md#content)
 
 ### resettime
 
 The time when the instance will be reset, in Unix time. This field is zero for raid and heroic instances.
-The resettime of raid and heroic instances for every specific group is stored in table instance\_reset.
+The resettime of raid and heroic instances for every specific group is stored in table [instance\_reset](instance_reset.md).
 
 ### difficulty
 
@@ -117,7 +115,7 @@ The difficulty of the current instance.
 
 ### completedEncounters
 
-`field-no-description|5`
+Completed encounter mask, bit indexes are DungeonEncounter.dbc boss numbers.
 
 ### data
 

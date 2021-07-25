@@ -1,7 +1,5 @@
 # mail
 
-**The \`mail\` table**
-
 This table contains main data about all mails in the game.
 
 ## Structure
@@ -51,7 +49,7 @@ This table contains main data about all mails in the game.
 <tr>
 <td><p><a href="#stationery">stationery</a></p></td>
 <td><p>tinyint(3)</p></td>
-<td><p>signed</p></td>
+<td><p>unsigned</p></td>
 <td><p> </p></td>
 <td><p>NO</p></td>
 <td><p>41</p></td>
@@ -60,7 +58,7 @@ This table contains main data about all mails in the game.
 </tr>
 <tr>
 <td><p><a href="#mailtemplateid_x">mailTemplateId</a></p></td>
-<td><p>mediumint(5)</p></td>
+<td><p>smallint(5)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
 <td><p>NO</p></td>
@@ -91,7 +89,7 @@ This table contains main data about all mails in the game.
 <tr>
 <td><p><a href="#subject">subject</a></p></td>
 <td><p>longtext</p></td>
-<td><p>signed</p></td>
+<td><p> </p></td>
 <td><p> </p></td>
 <td><p>YES</p></td>
 <td><p>NULL</p></td>
@@ -101,7 +99,7 @@ This table contains main data about all mails in the game.
 <tr>
 <td><p><a href="#body">body</a></p></td>
 <td><p>longtext</p></td>
-<td><p>signed</p></td>
+<td><p> </p></td>
 <td><p> </p></td>
 <td><p>YES</p></td>
 <td> </td>
@@ -193,10 +191,7 @@ Don't have autoincrement !!!
 This field can contain these values:
 
 -   1 = Test
--   41 = Normal mail layout,
-
-<!-- -->
-
+-   41 = Normal mail layout
 -   61 = GM (Blizzard)
 -   62 = Auction
 -   64 = VAL (???)
@@ -208,15 +203,15 @@ Id from MailTemplate.dbc
 
 ### sender
 
-In this field is entered sender [character.guid](characters.md#guid)
+The sender's GUID, see [character.guid](characters.md#guid)
 
 ### receiver
 
-Here is receiver's [character.guid](characters.md#guid)
+The receiver's GUID, see [character.guid](characters.md#guid)
 
 ### subject
 
-Here is stored mail subject.
+The mail subject.
 
 ### body
 
@@ -226,27 +221,25 @@ The text contained in the mail. Maximum length is 8000 characters.
 
 Default: 0,
 
-When is set to 1, that mail can contain items.
-
-For items look at [mail\_items](mail_items.md) table.
+If set to 1, the mail contains items, see [mail\_items](mail_items.md)
 
 ### expire\_time
 
-Here is timestamp which stores date for auto-return mail to sender.
+The Unix timestamp which stores the date for auto-return mail to sender.
 
 ### deliver\_time
 
-Here is timestamp which stores date of send mail.
+The Unix timestamp which stores the date when the mail was sent.
 
 ### money
 
-The ammout of money in mail, or money to pay when is COD.
+The ammout of money in the mail, or money to pay if COD (cash on delivery).
 
 ### cod
 
-Default: 0 - No COD,
+Default: 0 - No COD
 
-when is set to 1, that field \`money\` stores gold for COD.
+If set to 1, the field \`money\` specifies the amount of money for COD.
 
 ### checked
 
@@ -289,4 +282,3 @@ when is set to 1, that field \`money\` stores gold for COD.
 </tbody>
 </table>
 
-/td

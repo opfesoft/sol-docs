@@ -1,9 +1,12 @@
+# channels\_rights
 
-Column | Type | Description
---- | --- | ---
-Name | varchar(128) | 
-Flags | int(10) unsigned | 
-Speakdelay | int(10) unsigned | 
-Joinmessage | varchar(255) | 
-Delaymessage | varchar(255) | 
-Moderators | text | 
+## Structure
+
+| Field                    | Type         | Attributes | Null | Key | Default | Extra | Comment |
+|--------------------------|--------------|------------|------|-----|---------|-------|---------|
+| [name](channels.md#name) | varchar(128) |            | NO   | PRI | NULL    |       |         |
+| flags                    | int(10)      | unsigned   | NO   |     | NULL    |       |         |
+| speakdelay               | int(10)      | unsigned   | NO   |     | NULL    |       |         |
+| joinmessage              | varchar(255) |            | NO   |     |         |       |         |
+| delaymessage             | varchar(255) |            | NO   |     |         |       |         |
+| moderators               | text         |            | YES  |     | NULL    |       |         |

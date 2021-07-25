@@ -1,7 +1,5 @@
 # points\_of\_interest\_locale
 
-**The \`points\_of\_interest\_locale\` table**
-
 ## Structure
 
 |                                 |              |                |         |          |             |           |             |

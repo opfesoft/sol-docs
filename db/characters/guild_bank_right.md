@@ -1,7 +1,5 @@
 # guild\_bank\_right
 
-**The \`guild\_bank\_right\` table**
-
 This table hold informations regarding the right guild member have to withdraw, deposit etc at the guild bank.
 
 ## Structure
@@ -85,15 +83,15 @@ This table hold informations regarding the right guild member have to withdraw, 
 
 ### guildid
 
-The ID of the guild.
+The ID of the guild. See [guild.guildid](guild.md#guildid)
 
 ### TabId
 
-The ID of the Tab you are setting the permissions for.
+The ID of the Tab you are setting the permissions for. See [guild\_bank\_tab.TabId](guild_bank_tab.md#tabid)
 
 ### rid
 
-The rank you are setting the permissions for.
+The rank you are setting the permissions for. See [guild\_rank.rid](guild_rank.md#rid)
 
 ### gbright
 

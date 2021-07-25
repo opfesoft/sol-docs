@@ -1,7 +1,5 @@
 # npc\_spellclick\_spells
 
-**The \`npc\_spellclick\_spells\` table**
-
 This table holds information about spells to be cast upon receiving CMSG\_SPELLCLICK.
 
 That opcode is sent for quests in which you have to loot creatures, who are already dead at spawning. Examples are [Planning for the Future](http://www.wowhead.com/quest=11960) and [Rifle the bodies](http://www.wowhead.com/quest=11999).

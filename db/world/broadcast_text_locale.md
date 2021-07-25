@@ -1,7 +1,5 @@
 # broadcast\_text\_locale
 
-**The \`broadcast\_text\_locale\` table**
-
 This table will have **localized texts** for \`broadcast\_text\` table. Used in [gossips](gossip_menu_option.md), [creature texts](creature_text.md) and [npc\_text](npc_text.md)s.
 
 Its purpose is (will be) used as a globalized table containing the localized texts as mentionned above.

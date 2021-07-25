@@ -1,7 +1,5 @@
 # guild
 
-**The \`guild\` table**
-
 This table holds the main guild information. All created guilds or all guilds in the process of being created have a record in this table.
 
 ## Structure
@@ -41,10 +39,10 @@ This table holds the main guild information. All created guilds or all guilds in
 <tr>
 <td><p><a href="#name">name</a></p></td>
 <td><p>varchar(24)</p></td>
-<td><p>signed</p></td>
+<td><p> </p></td>
 <td><p> </p></td>
 <td><p>NO</p></td>
-<td><p>&quot;</p></td>
+<td><p> </p></td>
 <td><p> </p></td>
 <td><p> </p></td>
 </tr>
@@ -110,21 +108,21 @@ This table holds the main guild information. All created guilds or all guilds in
 </tr>
 <tr>
 <td><p><a href="#info">info</a></p></td>
-<td><p>text</p></td>
-<td><p>signed</p></td>
+<td><p>varchar(500)</p></td>
+<td><p> </p></td>
 <td><p> </p></td>
 <td><p>NO</p></td>
-<td><p>&quot;</p></td>
+<td><p> </p></td>
 <td><p> </p></td>
 <td><p> </p></td>
 </tr>
 <tr>
 <td><p><a href="#motd">motd</a></p></td>
 <td><p>varchar(128)</p></td>
-<td><p>signed</p></td>
+<td><p> </p></td>
 <td><p> </p></td>
 <td><p>NO</p></td>
-<td><p>&quot;</p></td>
+<td><p> </p></td>
 <td><p> </p></td>
 <td><p> </p></td>
 </tr>
@@ -141,7 +139,7 @@ This table holds the main guild information. All created guilds or all guilds in
 <tr>
 <td><p><a href="#bankmoney">BankMoney</a></p></td>
 <td><p>bigint(20)</p></td>
-<td><p>signed</p></td>
+<td><p>unsigned</p></td>
 <td><p> </p></td>
 <td><p>NO</p></td>
 <td><p>0</p></td>
@@ -163,7 +161,7 @@ The guild name.
 
 ### leaderguid
 
-The GUID of the character who created the guild. See characters.guid
+The GUID of the character who created the guild. See [characters.guid](characters.md#guid)
 
 ### EmblemStyle
 

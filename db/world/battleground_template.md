@@ -1,7 +1,5 @@
 # battleground\_template
 
-**The \`battleground\_template\` table**
-
 Contains information about the different battlegrounds, like how many players are needed to start, how many can be inside the same one, and the locations where each side starts.
 
 ## Structure

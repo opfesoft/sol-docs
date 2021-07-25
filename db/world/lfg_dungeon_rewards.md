@@ -1,7 +1,5 @@
 # lfg\_dungeon\_rewards
 
-**The \`lfg\_dungeon\_encounters\` table**
-
 ## Structure
 
 <table>

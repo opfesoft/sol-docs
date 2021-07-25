@@ -1,7 +1,5 @@
 # gossip\_menu
 
-**The \`gossip\_menu\` table**
-
 This table is used for displaying gossip when a player talks to an NPC with [npcflag](creature_template.md#npcflag) set.
 
 ## Structure

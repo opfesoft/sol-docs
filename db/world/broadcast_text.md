@@ -1,16 +1,8 @@
 # broadcast\_text
 
-**The \`broadcast\_text\` table**
-
- 
-
 This table will have **everything** you need for your scripts' texts, such as: [gossips](gossip_menu_option.md), [creature texts](creature_text.md) and [npc\_text](npc_text.md)s.
 
 Its purpose is (will be) used as a globalized table containing the texts as mentionned above, and things like their sounds, their emotes and the languages in which the texts should be said.
-
- 
-
-All the values are from sniffs (ADBVerified) so, don't add things in it - Kinzcool.
 
 ## Structure
 

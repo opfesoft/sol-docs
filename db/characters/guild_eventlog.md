@@ -1,7 +1,5 @@
 # guild\_eventlog
 
-**The \`guild\_eventlog\` table**
-
 ## Structure
 
 <table>
@@ -28,8 +26,8 @@
 </tr>
 <tr>
 <td><p><a href="#guildid">guildid</a></p></td>
-<td><p>int(11)</p></td>
-<td><p>signed</p></td>
+<td><p>int(10)</p></td>
+<td><p>unsigned</p></td>
 <td><p>PRI</p></td>
 <td><p>NO</p></td>
 <td><p>NULL</p></td>
@@ -38,8 +36,8 @@
 </tr>
 <tr>
 <td><p><a href="#logguid">LogGuid</a></p></td>
-<td><p>int(11)</p></td>
-<td><p>signed</p></td>
+<td><p>int(10)</p></td>
+<td><p>unsigned</p></td>
 <td><p>PRI</p></td>
 <td><p>NO</p></td>
 <td><p>NULL</p></td>
@@ -48,8 +46,8 @@
 </tr>
 <tr>
 <td><p><a href="#eventtype">EventType</a></p></td>
-<td><p>tinyint(1)</p></td>
-<td><p>signed</p></td>
+<td><p>tinyint(3)</p></td>
+<td><p>unsigned</p></td>
 <td><p> </p></td>
 <td><p>NO</p></td>
 <td><p>NULL</p></td>
@@ -58,8 +56,8 @@
 </tr>
 <tr>
 <td><p><a href="#playerguid1">PlayerGuid1</a></p></td>
-<td><p>int(11)</p></td>
-<td><p>signed</p></td>
+<td><p>int(10)</p></td>
+<td><p>unsigned</p></td>
 <td><p> </p></td>
 <td><p>NO</p></td>
 <td><p>NULL</p></td>
@@ -68,8 +66,8 @@
 </tr>
 <tr>
 <td><p><a href="#playerguid2">PlayerGuid2</a></p></td>
-<td><p>int(11)</p></td>
-<td><p>signed</p></td>
+<td><p>int(10)</p></td>
+<td><p>unsigned</p></td>
 <td><p> </p></td>
 <td><p>NO</p></td>
 <td><p>NULL</p></td>
@@ -78,18 +76,18 @@
 </tr>
 <tr>
 <td><p><a href="#newrank">NewRank</a></p></td>
-<td><p>tinyint(2)</p></td>
-<td><p>signed</p></td>
+<td><p>tinyint(3)</p></td>
+<td><p>unsigned</p></td>
 <td><p> </p></td>
 <td><p>NO</p></td>
 <td><p>NULL</p></td>
 <td><p> </p></td>
-<td><p>New rank(in case promotion/demotion)</p></td>
+<td><p>New rank (in case promotion/demotion)</p></td>
 </tr>
 <tr>
 <td><p><a href="#timestamp">TimeStamp</a></p></td>
-<td><p>bigint(20)</p></td>
-<td><p>signed</p></td>
+<td><p>int(10)</p></td>
+<td><p>unsigned</p></td>
 <td><p> </p></td>
 <td><p>NO</p></td>
 <td><p>NULL</p></td>
@@ -103,11 +101,11 @@
 
 ### guildid
 
-`Guild Identificator`
+Guild Identificator, see [guild.guildid](guild.md#guildid)
 
 ### LogGuid
 
-`Log record identificator - auxiliary column`
+Log record identificator - auxiliary column
 
 ### EventType
 
@@ -125,16 +123,16 @@
 
 ### PlayerGuid1
 
-`GUID of Player1`
+GUID of Player 1, see [characters.guid](characters.md#guid)
 
 ### PlayerGuid2
 
-`GUID of Player2`
+GUID of Player 2, see [characters.guid](characters.md#guid)
 
 ### NewRank
 
-`New rank (in case of promotion/demotion)`
+New rank (in case of promotion/demotion), see [guild\_rank.rid](guild_rank.md#rid)
 
 ### TimeStamp
 
-`Event UNIX time`
+Event UNIX time

@@ -1,7 +1,5 @@
 # gm\_ticket
 
-**The \`gm\_tickets\` table**
-
 This table stores all tickets
 
 ## Structure
@@ -83,7 +81,7 @@ This table stores all tickets
 </p></td>
 </tr>
 <tr>
-<td><p><a href="#createtime">createtime</a></p></td>
+<td><p><a href="#createtime">createTime</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><br />
@@ -293,12 +291,13 @@ This table stores all tickets
 The ticket global unique identifier. This number must be unique and is the best way to identify separate tickets.
 
 ### type
+
 Type of ticket. 
 Variables: 0 = open, 1 = closed, 2 = character deleted.
 
 ### playerGuid
 
-Player's GUID. See characters.guid
+Player's GUID. See [characters.guid](characters.md#guid)
 
 ### name
 
@@ -314,7 +313,7 @@ The creation time of the ticket as linux timestamp
 
 ### mapId
 
-Map where ticket has ben created. See Map.dbc
+Map where ticket has ben created. See [Map.dbc](../../dbc/Map.md#content)
 
 ### posX
 
@@ -335,8 +334,8 @@ The time when the ticket was closed or deleted by the issuer as linux timestamp
 ### closedBy
 
 * 0 = Open
-* ~-1 = Closed by Console~ (not implemented on azerothcore yet)
-* &gt; 0 = player who abandoned ticket or GM who closed ticket
+* ~-1 = Closed by Console~ (not supported on azerothcore yet because of datatype in DB)
+* &gt; 0 = player GUID who abandoned ticket or GM who closed ticket
 
 ### assignedTo
 
@@ -374,4 +373,4 @@ Requests further GM interaction on a ticket to which a GM has already responded.
 
 * 0 = Open
 * ~-1 = Resolved by Console~ (not supported on azerothcore yet because of datatype in DB)
-* &gt; 0 = Character guid of the GM who resolved it (by closing the ticket or by completing the ticket)
+* &gt; 0 = Character GUID of the GM who resolved it (by closing the ticket or by completing the ticket)

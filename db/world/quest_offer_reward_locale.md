@@ -1,8 +1,6 @@
 # quest\_offer\_reward\_locale
 
-**The \`quest\_offer\_reward\_locale\` table**
-
-**Structure**
+## Structure
 
 | Field                           | Type        | Attribute | Key | Null | Default | Extra | Comment |
 |---------------------------------|-------------|-----------|-----|------|---------|-------|---------|
@@ -10,6 +8,8 @@
 | [locale](#locale)               | varchar(4)  |           | PRI | NO   | NULL    |       |         |
 | [RewardText](#rewardtext)       | text        |           |     | YES  | NULL    |       |         |
 | [VerifiedBuild](#verifiedbuild) | smallint(6) |           |     | NO   | 0       |       |         |
+
+## Description of the fields
 
 ### ID
 

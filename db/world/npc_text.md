@@ -1,9 +1,8 @@
 # npc\_text
 
+This table contains the texts that are used for gossip. More research needs to be done on this table.
 
 ## Structure
-
-This table contains the texts that are used for gossip. More research needs to be done on this table.
 
 <table style="width:100%;">
 <colgroup>

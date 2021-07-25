@@ -1,7 +1,5 @@
 # guild\_member
 
-**The \`guild\_member\` table**
-
 This table holds information on the members of all guilds, their ranks in the guild, and any notes made by them or by guild officers.
 
 ## Structure
@@ -61,160 +59,20 @@ This table holds information on the members of all guilds, their ranks in the gu
 <tr>
 <td><p><a href="#pnote">pnote</a></p></td>
 <td><p>varchar(31)</p></td>
-<td><p>signed</p></td>
+<td><p> </p></td>
 <td><p> </p></td>
 <td><p>NO</p></td>
-<td><p>&quot;</p></td>
+<td><p> </p></td>
 <td><p> </p></td>
 <td><p> </p></td>
 </tr>
 <tr>
 <td><p><a href="#offnote">offnote</a></p></td>
 <td><p>varchar(31)</p></td>
-<td><p>signed</p></td>
+<td><p> </p></td>
 <td><p> </p></td>
 <td><p>NO</p></td>
-<td><p>&quot;</p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-</tr>
-<tr>
-<td><p><a href="#bankresettimemoney">BankResetTimeMoney</a></p></td>
-<td><p>int(10)</p></td>
-<td><p>unsigned</p></td>
-<td><p> </p></td>
-<td><p>NO</p></td>
-<td><p>0</p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-</tr>
-<tr>
-<td><p><a href="#bankremmoney">BankRemMoney</a></p></td>
-<td><p>int(10)</p></td>
-<td><p>unsigned</p></td>
-<td><p> </p></td>
-<td><p>NO</p></td>
-<td><p>0</p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-</tr>
-<tr>
-<td><p><a href="#bankresettimetab0-5">BankResetTimeTab0</a></p></td>
-<td><p>int(10)</p></td>
-<td><p>unsigned</p></td>
-<td><p> </p></td>
-<td><p>NO</p></td>
-<td><p>0</p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-</tr>
-<tr>
-<td><p><a href="#bankremslotstab0-5">BankRemSlotsTab0</a></p></td>
-<td><p>int(10)</p></td>
-<td><p>unsigned</p></td>
-<td><p> </p></td>
-<td><p>NO</p></td>
-<td><p>0</p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-</tr>
-<tr>
-<td><p><a href="#bankresettimetab0-5">BankResetTimeTab1</a></p></td>
-<td><p>int(10)</p></td>
-<td><p>unsigned</p></td>
-<td><p> </p></td>
-<td><p>NO</p></td>
-<td><p>0</p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-</tr>
-<tr>
-<td><p><a href="#bankremslotstab0-5">BankRemSlotsTab1</a></p></td>
-<td><p>int(10)</p></td>
-<td><p>unsigned</p></td>
-<td><p> </p></td>
-<td><p>NO</p></td>
-<td><p>0</p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-</tr>
-<tr>
-<td><p><a href="#bankresettimetab0-5">BankResetTimeTab2</a></p></td>
-<td><p>int(10)</p></td>
-<td><p>unsigned</p></td>
-<td><p> </p></td>
-<td><p>NO</p></td>
-<td><p>0</p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-</tr>
-<tr>
-<td><p><a href="#bankremslotstab0-5">BankRemSlotsTab2</a></p></td>
-<td><p>int(10)</p></td>
-<td><p>unsigned</p></td>
-<td><p> </p></td>
-<td><p>NO</p></td>
-<td><p>0</p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-</tr>
-<tr>
-<td><p><a href="#bankresettimetab0-5">BankResetTimeTab3</a></p></td>
-<td><p>int(10)</p></td>
-<td><p>unsigned</p></td>
-<td><p> </p></td>
-<td><p>NO</p></td>
-<td><p>0</p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-</tr>
-<tr>
-<td><p><a href="#bankremslotstab0-5">BankRemSlotsTab3</a></p></td>
-<td><p>int(10)</p></td>
-<td><p>unsigned</p></td>
-<td><p> </p></td>
-<td><p>NO</p></td>
-<td><p>0</p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-</tr>
-<tr>
-<td><p><a href="#bankresettimetab0-5">BankResetTimeTab4</a></p></td>
-<td><p>int(10)</p></td>
-<td><p>unsigned</p></td>
-<td><p> </p></td>
-<td><p>NO</p></td>
-<td><p>0</p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-</tr>
-<tr>
-<td><p><a href="#bankremslotstab0-5">BankRemSlotsTab4</a></p></td>
-<td><p>int(10)</p></td>
-<td><p>unsigned</p></td>
-<td><p> </p></td>
-<td><p>NO</p></td>
-<td><p>0</p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-</tr>
-<tr>
-<td><p><a href="#bankresettimetab0-5">BankResetTimeTab5</a></p></td>
-<td><p>int(10)</p></td>
-<td><p>unsigned</p></td>
-<td><p> </p></td>
-<td><p>NO</p></td>
-<td><p>0</p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-</tr>
-<tr>
-<td><p><a href="#bankremslotstab0-5">BankRemSlotsTab5</a></p></td>
-<td><p>int(10)</p></td>
-<td><p>unsigned</p></td>
-<td><p> </p></td>
-<td><p>NO</p></td>
-<td><p>0</p></td>
+<td><p> </p></td>
 <td><p> </p></td>
 <td><p> </p></td>
 </tr>
@@ -225,15 +83,15 @@ This table holds information on the members of all guilds, their ranks in the gu
 
 ### guildid
 
-The ID of the guild that the member is a part of. See guild.guildid
+The ID of the guild that the member is a part of. See [guild.guildid](guild.md#guildid)
 
 ### guid
 
-The GUID of the player. See characters.guid
+The GUID of the player. See [characters.guid](characters.md#guid)
 
 ### rank
 
-The rank that the player has in the guild. See guild\_rank.rid
+The rank that the player has in the guild. See [guild\_rank.rid](guild_rank.md#rid)
 
 ### pnote
 
@@ -243,18 +101,3 @@ The note set by the player that can be read by everyone.
 
 The note set by officers in the guild that can only be read by other officers of the guild.
 
-### BankResetTimeMoney
-
-`field-no-description|6`
-
-### BankRemMoney
-
-`field-no-description|7`
-
-### BankResetTimeTab0-5
-
-`field-no-description|8`
-
-### BankRemSlotsTab0-5
-
-`field-no-description|9`

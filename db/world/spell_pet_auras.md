@@ -1,6 +1,6 @@
 # spell\_pet\_auras
 
-**The \`spell\_pet\_auras\` table**
+## Structure
 
 <table>
 <colgroup>

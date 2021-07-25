@@ -1,7 +1,5 @@
 # character\_homebind
 
-**The \`character\_homebind\` table**
-
 Contains information on the location where characters get teleported when they use their Hearthstone.
 
 ## Structure
@@ -61,7 +59,7 @@ Contains information on the location where characters get teleported when they u
 <tr>
 <td><p><a href="#posx">posX</a></p></td>
 <td><p>float</p></td>
-<td><p>signed</p></td>
+<td><p> </p></td>
 <td><p> </p></td>
 <td><p>NO</p></td>
 <td><p>0</p></td>
@@ -71,7 +69,7 @@ Contains information on the location where characters get teleported when they u
 <tr>
 <td><p><a href="#posy">posY</a></p></td>
 <td><p>float</p></td>
-<td><p>signed</p></td>
+<td><p> </p></td>
 <td><p> </p></td>
 <td><p>NO</p></td>
 <td><p>0</p></td>
@@ -81,7 +79,7 @@ Contains information on the location where characters get teleported when they u
 <tr>
 <td><p><a href="#posz">posZ</a></p></td>
 <td><p>float</p></td>
-<td><p>signed</p></td>
+<td><p> </p></td>
 <td><p> </p></td>
 <td><p>NO</p></td>
 <td><p>0</p></td>
@@ -99,11 +97,11 @@ The GUID of the character. See [characters.guid](characters.md#guid)
 
 ### mapId
 
-The map ID where the character gets teleported to. See Map.dbc column 1
+The map ID where the character gets teleported to. See [Map.dbc](../../dbc/Map.md#content) column 1
 
 ### zoneId
 
-The zone ID where the character gets teleported to. See AreaTable.dbc column 1
+The zone ID where the character gets teleported to. See [AreaTable.dbc](../../dbc/AreaTable.md#content) column 1
 
 ### posX
 

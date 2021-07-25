@@ -1,7 +1,5 @@
 # linked\_respawn
 
-**The \`linked\_respawn\` table**
-
 This table links trash mobs to bosses so that if you kill the boss, the trash do not respawn before the instance is reset.
 Gameobjects can be linked too!
 

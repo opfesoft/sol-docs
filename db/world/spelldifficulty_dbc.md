@@ -1,7 +1,5 @@
 # spelldifficulty\_dbc
 
-**The \`spelldifficulty\_dbc\` table**
-
 This table contains spell data regarding cpp scripts. The id is called in the script, and depending on what version of the dungeon/raid the characters are in, the proper spell ID will be casted by the creature.
 
 ## Structure

@@ -1,7 +1,5 @@
 # character\_equipmentsets
 
-**The \`character\_equipmentsets\` table**
-
 This table holds info about player's equipment manager settings.
 
 ## Structure
@@ -31,7 +29,7 @@ This table holds info about player's equipment manager settings.
 <tr>
 <td><p><a href="#guid">guid</a></p></td>
 <td><p>int(10)</p></td>
-<td><p>signed</p></td>
+<td><p> </p></td>
 <td><p> </p></td>
 <td><p>NO</p></td>
 <td><p>0</p></td>
@@ -41,7 +39,7 @@ This table holds info about player's equipment manager settings.
 <tr>
 <td><p><a href="#setguid">setguid</a></p></td>
 <td><p>bigint(20)</p></td>
-<td><p>signed</p></td>
+<td><p> </p></td>
 <td><p>PRI</p></td>
 <td><p>NO</p></td>
 <td><p> </p></td>
@@ -51,7 +49,7 @@ This table holds info about player's equipment manager settings.
 <tr>
 <td><p><a href="#setindex">setindex</a></p></td>
 <td><p>tinyint(3)</p></td>
-<td><p>signed</p></td>
+<td><p>unsigned</p></td>
 <td><p> </p></td>
 <td><p>NO</p></td>
 <td><p>0</p></td>
@@ -61,20 +59,20 @@ This table holds info about player's equipment manager settings.
 <tr>
 <td><p><a href="#name">name</a></p></td>
 <td><p>varchar(31)</p></td>
-<td><p>signed</p></td>
+<td><p> </p></td>
 <td><p> </p></td>
 <td><p>NO</p></td>
-<td><p>&quot;</p></td>
+<td><p>NULL</p></td>
 <td><p> </p></td>
 <td><p> </p></td>
 </tr>
 <tr>
 <td><p><a href="#iconname">iconname</a></p></td>
 <td><p>varchar(100)</p></td>
-<td><p>signed</p></td>
+<td><p> </p></td>
 <td><p> </p></td>
 <td><p>NO</p></td>
-<td><p>&quot;</p></td>
+<td><p>NULL</p></td>
 <td><p> </p></td>
 <td><p> </p></td>
 </tr>
@@ -285,7 +283,7 @@ This table holds info about player's equipment manager settings.
 
 ### guid
 
-Player's GUID. See characters.guid
+Player's GUID. See [characters.guid](characters.md#guid)
 
 ### setguid
 
@@ -332,4 +330,3 @@ Values taken from item\_instance.guid
 17. Relic
 18. Tabard
 
-/p

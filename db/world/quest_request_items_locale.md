@@ -1,8 +1,6 @@
 # quest\_request\_items\_locale
 
-**The \`quest\_request\_items\_locale\` table**
-
-**Structure**
+## Structure
 
 | Field                             | Type        | Attribute | Key | Null | Default | Extra | Comment |
 |-----------------------------------|-------------|-----------|-----|------|---------|-------|---------|
@@ -10,6 +8,8 @@
 | [locale](#locale)                 | varchar(4)  |           | PRI | NO   |         |       |         |
 | [CompletionText](#completiontext) | text        |           |     | YES  | NULL    |       |         |
 | [VerifiedBuild](#verifiedbuild)   | smallint(6) |           |     | NO   |         |       |         |
+
+## Description of the fields
 
 ### ID
 

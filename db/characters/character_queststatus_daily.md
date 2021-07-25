@@ -1,7 +1,5 @@
 # character\_queststatus\_daily
 
-**The \`character\_queststatus\_daily\` table**
-
 Holds information on the daily quest status of every player. The quest must have type = 87 or the 4096 flag at QuestFlags.
 
 ## Structure
@@ -65,11 +63,11 @@ Holds information on the daily quest status of every player. The quest must have
 
 ### guid
 
-The character GUID. See characters.guid
+The character GUID. See [characters.guid](characters.md#guid)
 
 ### quest
 
-The quest ID of the daily quest. See quest\_template.entry
+The quest ID of the daily quest. See [quest\_template.ID](../world/quest_template.md#id)
 
 ### time
 

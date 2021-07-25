@@ -1,6 +1,6 @@
 # lfg\_data
 
-**The \`lfg\_data\` table**
+This table contains saved data for LFG. This table is constantly in use by the core.
 
 ## Structure
 
@@ -63,12 +63,12 @@
 
 ### guid
 
-`field-no-description|1`
+The GUID for this group.
 
 ### dungeon
 
-`field-no-description|2`
+The dungeon ID from dbc.
 
 ### state
 
-`field-no-description|3`
+The state for this group/dungeon.

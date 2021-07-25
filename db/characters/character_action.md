@@ -1,7 +1,5 @@
 # character\_action
 
-**The \`character\_action\` table**
-
 Contains all the individual button data for each character. A button is any of the places in the GUI where you can place for example a spell, item, or macro as a shortcut.
 
 ## Structure
@@ -85,7 +83,7 @@ Contains all the individual button data for each character. A button is any of t
 
 ### guid
 
-The GUID of the character. See characters.guid
+The GUID of the character. See [characters.guid](characters.md#guid)
 
 ### spec
 

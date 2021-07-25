@@ -1,14 +1,8 @@
 # group\_member
 
-**The \`group\_member\` table**
-
 This table holds info about group members.
 
 ## Structure
-
- 
-
- 
 
 <table>
 <colgroup>

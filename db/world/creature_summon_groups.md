@@ -1,7 +1,5 @@
 # creature\_summon\_groups
 
-**Table: creature\_summon\_groups**
-
 This table holds data about temporary summoned creatures. It is possible to group summons and create boss waves of adds etc.
 
 ## Structure

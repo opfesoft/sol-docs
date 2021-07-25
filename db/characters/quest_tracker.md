@@ -1,8 +1,8 @@
 # quest\_tracker
 
-**The \`quest_tracker\` table**
-
 This table is used if quest tracking is enabled via worldserver config, see parameter "Quests.EnableQuestTracker".
+
+## Structure
 
 | Field                                         | Type         | Attribute | Key | Null | Default | Extra | Comment |
 |-----------------------------------------------|--------------|-----------|-----|------|---------|-------|---------|
@@ -14,6 +14,8 @@ This table is used if quest tracking is enabled via worldserver config, see para
 | [completed\_by\_gm](#completed_by_gm)         | tinyint(1)   |           |     | NO   | 0       |       |         |
 | [core\_hash](#core_hash)                      | varchar(120) |           |     | NO   | 0       |       |         |
 | [core\_revision](#core_revision)              | varchar(120) |           |     | NO   | 0       |       |         |
+
+## Description of the fields
 
 ### id
 

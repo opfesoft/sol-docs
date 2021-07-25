@@ -1,7 +1,5 @@
 # creature\_queststarter
 
-**The \`creature\_queststarter\` table**
-
 Holds NPC quest giver relations on which NPCs start which quests.
 
 ## Structure

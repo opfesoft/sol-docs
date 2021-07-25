@@ -1,7 +1,5 @@
 # pvpstats\_players
 
-**The \`pvpstats\_players\` table**
-
 This table holds datas about BattleGrounds scores. To enable storing this kind of informations, set **Battleground . StoreStatistics . Enable   =   1** in **worldserver.config** file.
 
 ## Structure
@@ -30,7 +28,7 @@ This table holds datas about BattleGrounds scores. To enable storing this kind o
 </tr>
 <tr>
 <td><p><a href="#battleground_id">battleground_id</a></p></td>
-<td><p>bigint</p></td>
+<td><p>bigint(20)</p></td>
 <td><p>unsigned</p></td>
 <td><p>PRI</p></td>
 <td><p>NO</p></td>
@@ -40,7 +38,7 @@ This table holds datas about BattleGrounds scores. To enable storing this kind o
 </tr>
 <tr>
 <td><p><a href="#character_guid">character_guid</a></p></td>
-<td><p>int</p></td>
+<td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p>PRI</p></td>
 <td><p>NO</p></td>
@@ -49,8 +47,8 @@ This table holds datas about BattleGrounds scores. To enable storing this kind o
 <td><p> </p></td>
 </tr>
 <tr>
-<td><p><a href="#win">win</a></p></td>
-<td><p>bit</p></td>
+<td><p><a href="#winner">winner</a></p></td>
+<td><p>bit(1)</p></td>
 <td> </td>
 <td> </td>
 <td> </td>
@@ -60,7 +58,7 @@ This table holds datas about BattleGrounds scores. To enable storing this kind o
 </tr>
 <tr>
 <td><p><a href="#score_">score_killing_blows</a></p></td>
-<td>mediumint</td>
+<td>mediumint(8)</td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
 <td><p>NO</p></td>
@@ -70,7 +68,7 @@ This table holds datas about BattleGrounds scores. To enable storing this kind o
 </tr>
 <tr>
 <td><p><a href="#score_">score_deaths</a></p></td>
-<td>mediumint</td>
+<td>mediumint(8)</td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
 <td><p>NO</p></td>
@@ -80,7 +78,7 @@ This table holds datas about BattleGrounds scores. To enable storing this kind o
 </tr>
 <tr>
 <td><p><a href="#score_">score_honorable_kills</a></p></td>
-<td><p>mediumint</p></td>
+<td><p>mediumint(8)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
 <td><p>NO</p></td>
@@ -90,7 +88,7 @@ This table holds datas about BattleGrounds scores. To enable storing this kind o
 </tr>
 <tr>
 <td><p><a href="#score_">score_bonus_honor</a></p></td>
-<td><p>mediumint</p></td>
+<td><p>mediumint(8)</p></td>
 <td><p>unsigned</p></td>
 <td> </td>
 <td><p>NO</p></td>
@@ -100,7 +98,7 @@ This table holds datas about BattleGrounds scores. To enable storing this kind o
 </tr>
 <tr>
 <td><p><a href="#score_">score_damage_done</a></p></td>
-<td>mediumint</td>
+<td>mediumint(8)</td>
 <td><p>unsigned</p></td>
 <td> </td>
 <td><p>NO</p></td>
@@ -110,7 +108,7 @@ This table holds datas about BattleGrounds scores. To enable storing this kind o
 </tr>
 <tr>
 <td><p><a href="#score_">score_healing_done</a></p></td>
-<td><p>mediumint</p></td>
+<td><p>mediumint(8)</p></td>
 <td><p>unsigned</p></td>
 <td> </td>
 <td><p>NO</p></td>
@@ -120,7 +118,7 @@ This table holds datas about BattleGrounds scores. To enable storing this kind o
 </tr>
 <tr>
 <td><p><a href="#attr_">attr_1</a></p></td>
-<td><p>mediumint</p></td>
+<td><p>mediumint(8)</p></td>
 <td><p>unsigned</p></td>
 <td> </td>
 <td><p>NO</p></td>
@@ -130,7 +128,7 @@ This table holds datas about BattleGrounds scores. To enable storing this kind o
 </tr>
 <tr>
 <td><p><a href="#attr_">attr_2</a></p></td>
-<td><p>mediumint</p></td>
+<td><p>mediumint(8)</p></td>
 <td><p>unsigned</p></td>
 <td> </td>
 <td><p>NO</p></td>
@@ -140,7 +138,7 @@ This table holds datas about BattleGrounds scores. To enable storing this kind o
 </tr>
 <tr>
 <td><p><a href="#attr_">attr_3</a></p></td>
-<td><p>mediumint</p></td>
+<td><p>mediumint(8)</p></td>
 <td><p>unsigned</p></td>
 <td> </td>
 <td><p>NO</p></td>
@@ -150,7 +148,7 @@ This table holds datas about BattleGrounds scores. To enable storing this kind o
 </tr>
 <tr>
 <td><p><a href="#attr_">attr_4</a></p></td>
-<td>mediumint</td>
+<td>mediumint(8)</td>
 <td><p>unsigned</p></td>
 <td> </td>
 <td><p>NO</p></td>
@@ -160,7 +158,7 @@ This table holds datas about BattleGrounds scores. To enable storing this kind o
 </tr>
 <tr>
 <td><p><a href="#attr_">attr_5</a></p></td>
-<td><p>mediumint</p></td>
+<td><p>mediumint(8)</p></td>
 <td><p>unsigned</p></td>
 <td> </td>
 <td><p>NO</p></td>
@@ -175,11 +173,11 @@ This table holds datas about BattleGrounds scores. To enable storing this kind o
 
 ### battleground\_id
 
-Link to pvpstats\_battlegrounds.id
+Link to [pvpstats\_battlegrounds.id](pvpstats_battlegrounds.md#id)
 
 ### character\_guid
 
-Link to characters.guid
+Link to [characters.guid](characters.md#guid)
 
 ### winner
 

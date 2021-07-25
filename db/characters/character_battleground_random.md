@@ -1,7 +1,5 @@
 # character\_battleground\_random
 
-**The \`character\_battleground\_random\` table**
-
 This table stores battlegrounds IDs for random battleground sessions.
 
 ## Structure

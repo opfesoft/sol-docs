@@ -1,7 +1,5 @@
 # character\_pet
 
-**The \`character\_pet\` table**
-
 This table holds the pet data for each pet summoned by anyone in the game.
 
 ## Structure
@@ -121,7 +119,7 @@ This table holds the pet data for each pet summoned by anyone in the game.
 <tr>
 <td><p><a href="#name">name</a></p></td>
 <td><p>varchar(21)</p></td>
-<td><p>signed</p></td>
+<td><p> </p></td>
 <td><p> </p></td>
 <td><p>NO</p></td>
 <td><p>Pet</p></td>
@@ -189,29 +187,9 @@ This table holds the pet data for each pet summoned by anyone in the game.
 <td><p> </p></td>
 </tr>
 <tr>
-<td><p><a href="#resettalents_cost">resettalents_cost</a></p></td>
-<td><p>int(10)</p></td>
-<td><p>unsigned</p></td>
-<td><p> </p></td>
-<td><p>NO</p></td>
-<td><p>0</p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-</tr>
-<tr>
-<td><p><a href="#resettalents_time">resettalents_time</a></p></td>
-<td><p>int(10)</p></td>
-<td><p>unsigned</p></td>
-<td><p> </p></td>
-<td><p>NO</p></td>
-<td><p>0</p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-</tr>
-<tr>
 <td><p><a href="#abdata">abdata</a></p></td>
 <td><p>text</p></td>
-<td><p>signed</p></td>
+<td><p> </p></td>
 <td><p> </p></td>
 <td><p>YES</p></td>
 <td><p>NULL</p></td>
@@ -229,11 +207,11 @@ The special pet ID. This is a unique identifier among all pets.
 
 ### entry
 
-The creature entry of this pet. See creature\_template.entry
+The creature entry of this pet. See [creature\_template.entry](../world/creature_template.md#entry)
 
 ### owner
 
-The GUID of the pet's owner. See characters.guid
+The GUID of the pet's owner. See [characters.guid](characters.md#guid)
 
 ### modelid
 
@@ -290,14 +268,6 @@ The current pet happiness.
 
 The time when the pet was last saved, in Unix time.
 
-### resettalents\_cost
-
-The cost for the character to reset pet's talents, measured in copper.
-
-### resettalents\_time
-
-The date when the talents were reset, in Unix time.
-
 ### abdata
 
-`field-no-description|19`
+Data about pet action bar and action type; ten pairs of action bar entries (from 1 to 10) and action or spell IDs

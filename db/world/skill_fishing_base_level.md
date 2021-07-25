@@ -1,7 +1,5 @@
 # skill\_fishing\_base\_level
 
-**The \`skill\_fishing\_base\_level\` table**
-
 This table controls the minimum skill level required in fishing to fish in a certain area.
 
 ## Structure

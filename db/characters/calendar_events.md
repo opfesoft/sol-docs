@@ -1,12 +1,15 @@
+# calendar\_events
 
-Column | Type | Description
---- | --- | ---
-Id | bigint(20) unsigned | 
-Creator | int(10) unsigned | 
-Title | varchar(255) | 
-Description | varchar(255) | 
-Type | tinyint(1) unsigned | 
-Dungeon | int(10) | 
-Eventtime | int(10) unsigned | 
-Flags | int(10) unsigned | 
-Time2 | int(10) unsigned | 
+## Structure
+
+| Field       | Type         | Attributes | Null | Key | Default | Extra | Comment |
+|-------------|--------------|------------|------|-----|---------|-------|---------|
+| id          | bigint(20)   | unsigned   | NO   | PRI | 0       |       |         |
+| creator     | int(10)      | unsigned   | NO   |     | 0       |       |         |
+| title       | varchar(255) |            | NO   |     |         |       |         |
+| description | varchar(255) |            | NO   |     |         |       |         |
+| type        | tinyint(1)   | unsigned   | NO   |     | 4       |       |         |
+| dungeon     | int(10)      |            | NO   |     | -1      |       |         |
+| eventtime   | int(10)      | unsigned   | NO   |     | 0       |       |         |
+| flags       | int(10)      | unsigned   | NO   |     | 0       |       |         |
+| time2       | int(10)      | unsigned   | NO   |     | 0       |       |         |

@@ -1,7 +1,5 @@
 # creature\_formations
 
-**The \`creature\_formations\` table**
-
 This table allows to group mobs. Members of group will follow others, and attack their targets.
 
 ## Structure
@@ -81,19 +79,21 @@ This table allows to group mobs. Members of group will follow others, and attack
 </tbody>
 </table>
 
-## leaderGUID
+## Description of the fields
+
+### leaderGUID
 
 GUID of group leader
 
-## memberGUID
+### memberGUID
 
 GUID of group member
 
-## dist
+### dist
 
 Maximum distance between group leader and member
 
-## angle
+### angle
 
 Angle between leader and member<br>
 Note: Only degrees are used! Values should be between 0 and 360:
@@ -111,7 +111,7 @@ The core will automatically switch the position of the members if the leader tak
 - 220 degrees becomes 140 degrees (and vice versa)
 - 30 degrees becomes 330 degrees (and vice versa)
 
-## groupAI
+### groupAI
 
 Sets group member behaviours, values are:
 

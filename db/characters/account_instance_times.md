@@ -1,7 +1,5 @@
 # account\_instance\_times
 
-**The \`account\_instance\_times\` table**
-
 This table controls how many instances the account's characters have been in last 1 hour. If there is 5 records per account, the player won't be able to enter another instance.
 
 ## Structure
@@ -69,7 +67,7 @@ Account of the player. See [account.id](../auth/account.md#id).
 
 ### instanceId
 
-This is the instance.id which characters of this account has been past 5 hours.
+This is the [instance.id](instance.md#id) which characters of this account has been past 5 hours.
 
 ### releaseTime
 

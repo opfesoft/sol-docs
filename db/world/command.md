@@ -1,8 +1,6 @@
 # command
 
-<p><strong>The `command` table</strong></p>
-
-<p>Holds help and security information for commands. This table does NOT create new commands, it only sets / overrides security and provides help.</p>
+Holds help and security information for commands. This table does NOT create new commands, it only sets / overrides security and provides help.
 
 ## Structure
 

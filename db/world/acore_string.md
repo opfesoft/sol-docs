@@ -1,7 +1,5 @@
 # acore_string
 
-**The \`acore_string\` table**
-
 This table holds all of the strings used internally by the server. The default language is English, the translated texts are contained in table [acore\_string\_locale](acore_string_locale.md).
 
 NOTE: The % arguments need to stay in the exact same order as they are provided by default in the English translation.

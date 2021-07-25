@@ -1,7 +1,5 @@
 # game\_event\_gameobject
 
-**The \`game\_event\_gameobject\` table**
-
 Contains all gameobjects instances that participate to any game event.
 
 ## Structure

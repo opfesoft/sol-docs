@@ -1,7 +1,5 @@
 # petition
 
-**The \`petition\` table**
-
 This table holds information on all ongoing petitions for a guild or for an arena team.
 
 ## Structure
@@ -51,7 +49,7 @@ This table holds information on all ongoing petitions for a guild or for an aren
 <tr>
 <td><p><a href="#name">name</a></p></td>
 <td><p>varchar(24)</p></td>
-<td><p>signed</p></td>
+<td><p> </p></td>
 <td><p> </p></td>
 <td><p>NO</p></td>
 <td><p> </p></td>
@@ -75,11 +73,11 @@ This table holds information on all ongoing petitions for a guild or for an aren
 
 ### ownerguid
 
-The petition's owner's GUID. See characters.guid
+The petition's owner's GUID. See [characters.guid](characters.md#guid)
 
 ### petitionguid
 
-The GUID of the petition item. See item\_instance.guid
+The GUID of the petition item. See [item\_instance.guid](item_instance.md#guid)
 
 ### name
 

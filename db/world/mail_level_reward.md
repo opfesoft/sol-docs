@@ -1,7 +1,5 @@
 # mail\_level\_reward
 
-**The \`mail\_level\_reward\` table**
-
 On certain levels, you receive a mail with some text.
 
 ## Structure

@@ -1,7 +1,5 @@
 # game\_event\_condition
 
-**The \`game\_event\_condition\` table**
-
 This table contains conditions to meet for the specified game event to be completed. Also contains the world state fields used for reporting the given conditions progress and/or max required value. This table will do absolutely nothing if you have not set the event to be a world event.
 
 ## Structure

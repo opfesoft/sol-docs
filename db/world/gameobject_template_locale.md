@@ -1,7 +1,5 @@
 # gameobject\_template\_locale
 
-**The \`gameobject\_template\_locale\` table**
-
 This table is used to provide to localized clients with localized string for gameobjects.
 
 ## Structure

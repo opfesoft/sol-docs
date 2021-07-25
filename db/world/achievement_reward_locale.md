@@ -1,7 +1,5 @@
 # achievement\_reward\_locale
 
-**The \`achievement\_reward\_locale\` table**
-
 ## Structure
 
 | Field               | Type         | Attributes     | Key     | Null     | Default     | Extra     | Comment     |

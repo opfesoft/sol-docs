@@ -1,7 +1,5 @@
 # character\_queststatus\_rewarded
 
-**The \`character\_queststatus\_rewarded\` table**
-
 This table holds information of **every** rewarded quest to a player.
 
 ## Structure
@@ -65,11 +63,11 @@ This table holds information of **every** rewarded quest to a player.
 
 ### guid
 
-The character GUID. See characters.guid
+The character GUID. See [characters.guid](characters.md#guid)
 
 ### quest
 
-The quest ID of the rewarded quest. See quest\_template.id
+The quest ID of the rewarded quest. See [quest\_template.ID](../world/quest_template.md#id)
 
 ### active
 

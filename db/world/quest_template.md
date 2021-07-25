@@ -1,7 +1,5 @@
 # quest\_template
 
-**Table: quest\_template**
-
 Contains all basic definitions of available quests.
 
 ## Structure

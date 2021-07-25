@@ -1,7 +1,5 @@
 # lag\_reports
 
-**The \`lag\_reports\` table**
-
 This table stores the lag reports made by players in-game (when they click on "Help Request").
 
 ## Structure

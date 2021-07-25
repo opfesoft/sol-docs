@@ -1,7 +1,5 @@
 # gameobject
 
-**The \`gameobject\` table**
-
 This table holds the individual object data on each spawned game object in the world. This data along with the object's template data is read and used to instantiate the objects in the world.
 
 ## Structure

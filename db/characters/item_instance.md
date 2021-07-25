@@ -1,7 +1,5 @@
 # item\_instance
 
-**The \`item\_instance\` table**
-
 This table holds individual item instance information for all items currently equipped in some kind of character bag or bank, in auctionhouses, in guild banks or in mails.
 
 ## Structure

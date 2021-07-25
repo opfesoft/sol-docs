@@ -1,7 +1,5 @@
 # areatrigger\_scripts
 
-**The \`areatrigger\_scripts\` table**
-
 Allows for an area trigger to be scripted with a core or SAI script.
 
 ## Structure

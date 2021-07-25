@@ -1,5 +1,7 @@
 # game_graveyard_zone
 
+## Structure
+
 <table>
 <tbody>
 <tr>

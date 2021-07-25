@@ -1,7 +1,5 @@
 # version\_db\_world
 
-**The \`version\_db\_world\` table**
-
 This table contains the AzerothCore SQL revisions.
 
 ## Structure

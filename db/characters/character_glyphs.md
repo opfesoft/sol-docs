@@ -1,7 +1,5 @@
 # character\_glyphs
 
-**The \`character\_glyphs\` table**
-
 Contains all the individual glyph data for each character.
 
 ## Structure
@@ -39,7 +37,7 @@ Contains all the individual glyph data for each character.
 <td><p> </p></td>
 </tr>
 <tr>
-<td><p><a href="#spec">spec</a></p></td>
+<td><p><a href="#talentgroup">talentGroup</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
 <td><p>PRI</p></td>
@@ -115,11 +113,11 @@ Contains all the individual glyph data for each character.
 
 ### guid
 
-The GUID of the character. See characters.guid
+The GUID of the character. See [characters.guid](characters.md#guid)
 
-### spec
+### talentGroup
 
-spec = 0 is the first spec, spec = 1 is the second spec.
+0 is the first spec, 1 the second
 
 ### glyph1-6
 

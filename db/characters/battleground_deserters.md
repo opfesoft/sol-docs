@@ -1,7 +1,5 @@
 # battleground\_deserters
 
-**The \`battleground\_deserters\` table**
-
 This table holds datas about BattleGrounds deserters. To enable storing this kind of informations, set **Battleground . TrackDeserters . Enable   =   1** in **worldserver.config** file.
 
 ## Structure
@@ -30,7 +28,7 @@ This table holds datas about BattleGrounds deserters. To enable storing this kin
 </tr>
 <tr>
 <td><p><a href="#guid">guid</a></p></td>
-<td><p>int</p></td>
+<td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td> </td>
 <td> </td>
@@ -40,7 +38,7 @@ This table holds datas about BattleGrounds deserters. To enable storing this kin
 </tr>
 <tr>
 <td><p><a href="#type">type</a></p></td>
-<td><p>tinyint</p></td>
+<td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
 <td> </td>
 <td> </td>
@@ -65,7 +63,7 @@ This table holds datas about BattleGrounds deserters. To enable storing this kin
 
 ### guid
 
-Link to characters.guid
+Link to [characters.guid](characters.md#guid)
 
 ### type
 
@@ -81,6 +79,6 @@ Link to characters.guid
 
 ### datetime
 
-date and time of the event
+Date and time of the event
 
  

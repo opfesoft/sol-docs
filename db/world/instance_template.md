@@ -1,7 +1,5 @@
 # instance\_template
 
-**The \`instance\_template\` table**
-
 This table has all the templates for every instance. When a group enters an instance, a new copy of that instance is made from the values in these fields.
 
 If you want to change the spot you will start in when you enter/leave an instance, go to areatrigger\_teleport

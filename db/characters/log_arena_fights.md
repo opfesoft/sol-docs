@@ -1,16 +1,19 @@
+# log\_arena\_fights
 
-Column | Type | Description
---- | --- | ---
-Fight_id | int(10) unsigned | 
-Time | datetime | 
-Type | tinyint(3) unsigned | 
-Duration | int(10) unsigned | 
-Winner | int(10) unsigned | 
-Loser | int(10) unsigned | 
-Winner_tr | smallint(5) unsigned | 
-Winner_mmr | smallint(5) unsigned | 
-Winner_tr_change | smallint(6) | 
-Loser_tr | smallint(5) unsigned | 
-Loser_mmr | smallint(5) unsigned | 
-Loser_tr_change | smallint(6) | 
-CurrOnline | int(10) unsigned | 
+## Structure
+
+| Field              | Type        | Attributes | Null | Key | Default | Extra | Comment |
+|--------------------|-------------|------------|------|-----|---------|-------|---------|
+| fight\_id          | int(10)     | unsigned   | NO   | PRI | NULL    |       |         |
+| time               | datetime    |            | NO   |     | NULL    |       |         |
+| type               | tinyint(3)  | unsigned   | NO   |     | NULL    |       |         |
+| duration           | int(10)     | unsigned   | NO   |     | NULL    |       |         |
+| winner             | int(10)     | unsigned   | NO   |     | NULL    |       |         |
+| loser              | int(10)     | unsigned   | NO   |     | NULL    |       |         |
+| winner\_tr         | smallint(5) | unsigned   | NO   |     | NULL    |       |         |
+| winner\_mmr        | smallint(5) | unsigned   | NO   |     | NULL    |       |         |
+| winner\_tr\_change | smallint(6) |            | NO   |     | NULL    |       |         |
+| loser\_tr          | smallint(5) | unsigned   | NO   |     | NULL    |       |         |
+| loser\_mmr         | smallint(5) | unsigned   | NO   |     | NULL    |       |         |
+| loser\_tr\_change  | smallint(6) |            | NO   |     | NULL    |       |         |
+| currOnline         | int(10)     | unsigned   | NO   |     | NULL    |       |         |

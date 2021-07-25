@@ -1,7 +1,5 @@
 # achievement\_reward
 
-**The \`achievement\_reward\` table**
-
 This table describes the reward that you will receive when you obtain a given achievement.
 
 ## Structure

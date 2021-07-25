@@ -1,7 +1,5 @@
 # holiday\_dates
 
-**The \`holiday\_dates` table**
-
 ## Structure
 
 | Field            | Type    | Attribute | Key | Null | Default | Extra | Comment |

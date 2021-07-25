@@ -1,7 +1,5 @@
 # player\_factionchange\_reputations
 
-**The \`player\_factionchange\_reputations\` table**
-
 Basically all faction/reputation changes made when player changes faction.
 
 <table>

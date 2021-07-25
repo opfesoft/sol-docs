@@ -1,7 +1,5 @@
 # character\_inventory
 
-**The \`character\_inventory\` table**
-
 Contains all the character inventory data, including the bank data.
 
 ## Structure
@@ -32,7 +30,7 @@ Contains all the character inventory data, including the bank data.
 <td><p><a href="#guid">guid</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
-<td><p>Unique</p></td>
+<td><p> </p></td>
 <td><p>NO</p></td>
 <td><p>0</p></td>
 <td><p> </p></td>
@@ -42,7 +40,7 @@ Contains all the character inventory data, including the bank data.
 <td><p><a href="#bag">bag</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
-<td><p>Unique</p></td>
+<td><p> </p></td>
 <td><p>NO</p></td>
 <td><p>0</p></td>
 <td><p> </p></td>
@@ -52,7 +50,7 @@ Contains all the character inventory data, including the bank data.
 <td><p><a href="#slot">slot</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
-<td><p>Unique</p></td>
+<td><p> </p></td>
 <td><p>NO</p></td>
 <td><p>0</p></td>
 <td><p> </p></td>
@@ -75,11 +73,11 @@ Contains all the character inventory data, including the bank data.
 
 ### guid
 
-The GUID of the character. See characters.guid
+The GUID of the character. See [characters.guid](characters.md#guid)
 
 ### bag
 
-If it isn't 0, then it is the bag's item GUID. See item\_instance.guid
+If it isn't 0, then it is the bag's item GUID. See [item\_instance.guid](item_instance.md#guid)
 
 ### slot
 
@@ -204,4 +202,4 @@ If the bag field is zero, then the slot has a range of 0 to 130 and the value st
 
 ### item
 
-The item's GUID. See item\_instance.guid
+The item's GUID. See [item\_instance.guid](item_instance.md#guid)

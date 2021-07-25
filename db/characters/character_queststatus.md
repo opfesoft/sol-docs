@@ -1,7 +1,5 @@
 # character\_queststatus
 
-**The \`character\_queststatus\` table**
-
 Holds information on the quest status of each character.
 
 ## Structure
@@ -93,7 +91,7 @@ Holds information on the quest status of each character.
 </p></td>
 </tr>
 <tr>
-<td><p><a href="#mobcount">mobcount2</a></p></td>
+<td><p><a href="#mobcount1-4">mobcount2</a></p></td>
 <td><p>smallint(5)</p></td>
 <td><p>unsigned</p></td>
 <td><p><br />
@@ -106,7 +104,7 @@ Holds information on the quest status of each character.
 </p></td>
 </tr>
 <tr>
-<td><p><a href="#mobcount">mobcount3</a></p></td>
+<td><p><a href="#mobcount1-4">mobcount3</a></p></td>
 <td><p>smallint(5)</p></td>
 <td><p>unsigned</p></td>
 <td><p><br />
@@ -119,7 +117,7 @@ Holds information on the quest status of each character.
 </p></td>
 </tr>
 <tr>
-<td><p><a href="#mobcount">mobcount4</a></p></td>
+<td><p><a href="#mobcount1-4">mobcount4</a></p></td>
 <td><p>smallint(5)</p></td>
 <td><p>unsigned</p></td>
 <td><p><br />
@@ -132,7 +130,7 @@ Holds information on the quest status of each character.
 </p></td>
 </tr>
 <tr>
-<td><p><a href="#itemcount">itemcount1</a></p></td>
+<td><p><a href="#itemcount1-6">itemcount1</a></p></td>
 <td><p>smallint(5)</p></td>
 <td><p>unsigned</p></td>
 <td><p><br />
@@ -145,7 +143,7 @@ Holds information on the quest status of each character.
 </p></td>
 </tr>
 <tr>
-<td><p><a href="#itemcount">itemcount2</a></p></td>
+<td><p><a href="#itemcount1-6">itemcount2</a></p></td>
 <td><p>smallint(5)</p></td>
 <td><p>unsigned</p></td>
 <td><p><br />
@@ -158,7 +156,7 @@ Holds information on the quest status of each character.
 </p></td>
 </tr>
 <tr>
-<td><p><a href="#itemcount">itemcount3</a></p></td>
+<td><p><a href="#itemcount1-6">itemcount3</a></p></td>
 <td><p>smallint(5)</p></td>
 <td><p>unsigned</p></td>
 <td><p><br />
@@ -171,7 +169,7 @@ Holds information on the quest status of each character.
 </p></td>
 </tr>
 <tr>
-<td><p><a href="#itemcount">itemcount4</a></p></td>
+<td><p><a href="#itemcount1-6">itemcount4</a></p></td>
 <td><p>smallint(5)</p></td>
 <td><p>unsigned</p></td>
 <td><p><br />
@@ -184,30 +182,30 @@ Holds information on the quest status of each character.
 </p></td>
 </tr>
 <tr>
-<td>itemcount5</td>
-<td>smallint(5)</td>
-<td>unsigned</td>
-<td><br />
-</td>
-<td>NO</td>
-<td>0</td>
-<td><br />
-</td>
-<td><br />
-</td>
+<td><p><a href="#itemcount1-6">itemcount5</a></p></td>
+<td><p>smallint(5)</p></td>
+<td><p>unsigned</p></td>
+<td><p><br />
+</p></td>
+<td><p>NO</p></td>
+<td><p>0</p></td>
+<td><p><br />
+</p></td>
+<td><p><br />
+</p></td>
 </tr>
 <tr>
-<td>itemcount6</td>
-<td>smallint(5)</td>
-<td>unsigned</td>
-<td><br />
-</td>
-<td>NO</td>
-<td>0</td>
-<td><br />
-</td>
-<td><br />
-</td>
+<td><p><a href="#itemcount1-6">itemcount6</a></p></td>
+<td><p>smallint(5)</p></td>
+<td><p>unsigned</p></td>
+<td><p><br />
+</p></td>
+<td><p>NO</p></td>
+<td><p>0</p></td>
+<td><p><br />
+</p></td>
+<td><p><br />
+</p></td>
 </tr>
 <tr>
 <td><p><a href="#playercount">playercount</a></p></td>
@@ -229,11 +227,11 @@ Holds information on the quest status of each character.
 
 ### guid
 
-The GUID of the character. See characters.guid
+The GUID of the character. See [characters.guid](characters.md#guid)
 
 ### quest
 
-The quest ID. See quest\_template.entry
+The quest ID. See [quest\_template.ID](../world/quest_template.md#id)
 
 ### status
 
@@ -256,16 +254,16 @@ Boolean 1 or 0 representing if the character has explored what was needed to exp
 
 ### timer
 
-`field-no-description|5`
+The time when the quest was taken, in Unix time.
 
 ### mobcount1-4
 
-Current count of the number of kills or casts on the first creature or gameobject, if any. Corresponds with quest\_template.RequiredNpcOrGoCount
+Current count of the number of kills or casts on the first creature or gameobject, if any. Corresponds with [quest\_template.RequiredNpcOrGoCount](../world/quest_template.md#requirednpcorgocount)
 
 ### itemcount1-6
 
-Current item count for the first item in a delivery quest, if any. Corresponds with quest\_template.RequiredItemCount
+Current item count for the first item in a delivery quest, if any. Corresponds with [quest\_template.RequiredItemCount](../world/quest_template.md#requireditemcount)
 
 ### playercount
 
-Current player slay count. Required in quest\_template.RequiredPlayerKills
+Current player slay count. Required in [quest\_template.RequiredPlayerKills](../world/quest_template.md#requiredplayerkills)

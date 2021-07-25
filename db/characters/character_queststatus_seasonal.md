@@ -1,7 +1,5 @@
 # character\_queststatus\_seasonal
 
-**The \`character\_queststatus\_seasonal\` table**
-
 Holds information on the seasonal quest (quests with ZoneOrSort of -22) status of every player. The quests reset at the end of the corresponding eventEntry.
 
 ## Structure
@@ -65,11 +63,11 @@ Holds information on the seasonal quest (quests with ZoneOrSort of -22) status o
 
 ### guid
 
-The guid of the character.
+The GUID of the character. See [characters.guid](characters.md#guid)
 
 ### quest
 
-The entry of the quest.
+The ID of the quest. See [quest\_template.ID](../world/quest_template.md#id)
 
 ### event
 

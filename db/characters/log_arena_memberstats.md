@@ -1,13 +1,16 @@
+# log\_arena\_memberstats
 
-Column | Type | Description
---- | --- | ---
-Fight_id | int(10) unsigned | 
-Member_id | tinyint(3) unsigned | 
-Name | char(20) | 
-Guid | int(10) unsigned | 
-Team | int(10) unsigned | 
-Account | int(10) unsigned | 
-Ip | char(15) | 
-Damage | int(10) unsigned | 
-Heal | int(10) unsigned | 
-Kblows | int(10) unsigned | 
+## Structure
+
+| Field      | Type       | Attributes | Null | Key | Default | Extra | Comment |
+|------------|------------|------------|------|-----|---------|-------|---------|
+| fight\_id  | int(10)    | unsigned   | NO   | PRI | NULL    |       |         |
+| member\_id | tinyint(3) | unsigned   | NO   | PRI | NULL    |       |         |
+| name       | char(20)   |            | NO   |     | NULL    |       |         |
+| guid       | int(10)    | unsigned   | NO   |     | NULL    |       |         |
+| team       | int(10)    | unsigned   | NO   |     | NULL    |       |         |
+| account    | int(10)    | unsigned   | NO   |     | NULL    |       |         |
+| ip         | char(15)   |            | NO   |     | NULL    |       |         |
+| damage     | int(10)    | unsigned   | NO   |     | NULL    |       |         |
+| heal       | int(10)    | unsigned   | NO   |     | NULL    |       |         |
+| kblows     | int(10)    | unsigned   | NO   |     | NULL    |       |         |

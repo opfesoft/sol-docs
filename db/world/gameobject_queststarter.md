@@ -1,8 +1,5 @@
 # gameobject\_queststarter
 
-
-**The \`gameobject\_queststarter\` table**
-
 Holds game object quest giver relations. The game objects in this table should all be of type QUESTGIVER (2).
 
 ## Structure

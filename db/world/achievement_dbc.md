@@ -1,7 +1,5 @@
 # achievement\_dbc
 
-**The \`achievement\_dbc\` table**
-
 Stores achievement data that is missing in [Achievement.dbc](../../dbc/Achievement.md)
 
 ## Structure

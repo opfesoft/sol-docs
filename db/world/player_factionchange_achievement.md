@@ -1,7 +1,5 @@
 # player\_factionchange\_achievement
 
-**The \`player\_factionchange\_achievement\` table**
-
 Basically all achievement changes made when player changes faction.
 
 <table>

@@ -1,7 +1,5 @@
 # gossip\_menu\_option
 
-**Table: gossip\_menu\_option**
-
 This table holds information about menu options a gossip NPC can have. Examples of options: "Train me!", "I want to unlearn my talents"
 
 ## Structure

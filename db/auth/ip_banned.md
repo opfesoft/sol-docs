@@ -1,8 +1,5 @@
 # ip\_banned
 
-
-**The \`ip\_banned\` table**
-
 This table contains all of the banned IPs and the date when (or if) the ban will expire.
 
 ## Structure

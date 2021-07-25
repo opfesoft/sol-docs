@@ -1,7 +1,5 @@
 # spell\_ranks
 
-**The \`spell\_ranks\` table**
-
 Table used by the core to group different ranks of spells (the gray text seen on ranked spells) into one "spell stem". This partly involves checks for aura stacking (e.g. different levels of the same spell). One spell can not be linked to multiple rank chains (they are "unique").
 
 ## Structure

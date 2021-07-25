@@ -1,8 +1,8 @@
 # npc\_vendor
 
-## Structure
-
 This table holds the vendor data for all NPCs that sell items and currency. The price for each item or currency is in its item template as [BuyPrice](item_template.md#buyprice) or as [ExtendedCost](npc_vendor.md#extendedcost). A vendor can only hold up to 150 items (15 pages), it is hardcoded in the emulator and if changed, the client will crash.
+
+## Structure
 
 <table style="width:100%;">
 <colgroup>

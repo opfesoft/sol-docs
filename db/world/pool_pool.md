@@ -1,7 +1,5 @@
 # pool\_pool
 
-**The \`pool\_pool\` table**
-
 This is the pool of pools table. You can create a pool with a chance of a range of pools in that pool being activated.
 
 ## Structure

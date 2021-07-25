@@ -87,4 +87,4 @@ Spell id. See Spell.dbc
 
 ### Note
 
-Basically a comment of what your query does.
+Optional comment

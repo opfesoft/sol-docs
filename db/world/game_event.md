@@ -1,8 +1,8 @@
 # game\_event
 
-## Structure
-
 This table holds definitions for all game events that are activated or deactivated automatically by the Game Event System in the core.
+
+## Structure
 
 <table>
 <tbody>

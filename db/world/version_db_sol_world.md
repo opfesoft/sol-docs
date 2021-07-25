@@ -1,7 +1,5 @@
 # version\_db\_sol\_world
 
-**The \`version\_db\_sol\_world\` table**
-
 This table contains the Project "Sol" SQL revisions.
 
 ## Structure

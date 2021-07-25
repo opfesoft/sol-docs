@@ -1,7 +1,5 @@
 # version\_db\_auth
 
-**The \`version\_db\_auth\` table**
-
 This table contains the AzerothCore SQL revisions.
 
 ## Structure

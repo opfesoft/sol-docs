@@ -1,7 +1,5 @@
 # achievement\_criteria\_data
 
-**The \`achievement\_criteria\_data\` table**
-
 This table contains the data that a player needs to obtain / complete in order to receive a given achievement.
 
 ## Structure

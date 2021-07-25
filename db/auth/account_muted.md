@@ -1,10 +1,6 @@
 # account\_muted
 
-**The \`account\_muted\` table**
-
-
 This table contains account IDs whose characters are assigned a ban chat (mute).
-
 
 GM-Command: **.mute [$playerName] $timeInMinutes [$reason]**.
 

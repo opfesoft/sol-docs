@@ -1,7 +1,5 @@
 # character\_spell
 
-**The \`character\_spell\` table**
-
 Holds information for each character's spells.
 
 ## Structure
@@ -49,22 +47,12 @@ Holds information for each character's spells.
 <td><p>Spell Identifier</p></td>
 </tr>
 <tr>
-<td><p><a href="#active">active</a></p></td>
+<td><p><a href="#specMask">specMask</a></p></td>
 <td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
 <td><p>NO</p></td>
 <td><p>1</p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-</tr>
-<tr>
-<td><p><a href="#disabled">disabled</a></p></td>
-<td><p>tinyint(3)</p></td>
-<td><p>unsigned</p></td>
-<td><p> </p></td>
-<td><p>NO</p></td>
-<td><p>0</p></td>
 <td><p> </p></td>
 <td><p> </p></td>
 </tr>
@@ -75,16 +63,21 @@ Holds information for each character's spells.
 
 ### guid
 
-The GUID of the character. See characters.guid
+The GUID of the character. See [characters.guid](characters.md#guid)
 
 ### spell
 
 The spell ID. See Spell.dbc column 1
 
-### active
+### specMask
 
-Boolean 1 or 0 signifying whether the spell is active (appears in the spell book).
+Bitmask specifying if the spell is active (appears in the spell book):
 
-### disabled
+0: spell appears in no spec
 
-Boolean flag 0 or 1 when spell is disabled because talent which teaches it has been unlearned. When talent is learned again the spell will be available again.
+1: spell appears in spec 1
+
+2: spell appears in spec 2
+
+255: spell appears always in the spell book
+

@@ -1,7 +1,5 @@
 # reputation\_spillover\_template
 
-**The \`reputation\_spillover\_rate\` table**
-
 ## Structure
 
 <table>

@@ -1,7 +1,5 @@
 # vehicle\_template\_accessory
 
-**The \`vehicle\_template\_accessory\` table**
-
 Records in this table can be overwritten by [vehicle\_accessory](vehicle_accessory.md) table
 
 ## Structure

@@ -1,7 +1,5 @@
 # auctionhouse
 
-**The \`auctionhouse\` table**
-
 Contains all information about the currently ongoing auctions in the auction houses. It controls what items are put up for auction and who put it up, who is the highest bidder, etc.
 
 This table is used by the core while running and not a table that you would usually edit.
@@ -141,15 +139,15 @@ Unique identifier for every auction.
 
 ### auctioneerguid
 
-The GUID of the creature where the auction item was added. See creature.guid
+The GUID of the creature where the auction item was added. See [creature.guid](../world/creature.md#guid)
 
 ### itemguid
 
-The GUID of the item that is up for auction. See item\_instance.guid
+The GUID of the item that is up for auction. See [item\_instance.guid](item_instance.md#guid)
 
 ### itemowner
 
-The GUID of the owner of the item up for auction. See characters.guid
+The GUID of the owner of the item up for auction. See [characters.guid](characters.md#guid)
 
 ### buyoutprice
 
@@ -161,7 +159,7 @@ The time when the auction will end, measured in [Unix time](http://en.wikipedia.
 
 ### buyguid
 
-The GUID of the highest bidder. See characters.guid
+The GUID of the highest bidder. See [characters.guid](characters.md#guid)
 
 ### lastbid
 

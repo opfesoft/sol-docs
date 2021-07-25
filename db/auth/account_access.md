@@ -1,7 +1,5 @@
 # account\_access
 
-**The \`account\_access\` table**
-
 This table holds security access level for any realm in [realmlist](realmlist.md) table.
 
 ## Structure

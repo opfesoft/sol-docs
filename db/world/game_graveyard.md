@@ -1,5 +1,7 @@
 # game_graveyard
 
+## Structure
+
 | Field                       | Type         |  Key | Null | Default |
 |-----------------------------|--------------|------|------|---------|
 | [ID](#id)                   | int(10)      |  PRI | NO   | 0       |

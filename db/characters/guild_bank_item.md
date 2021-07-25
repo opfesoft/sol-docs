@@ -1,7 +1,5 @@
 # guild\_bank\_item
 
-**The \`guild\_bank\_item\` table**
-
 This table holds all item information for items that are stored in the guild bank.
 
 ## Structure
@@ -79,7 +77,7 @@ The guild ID who owns the bank. See [guild.guildid](guild.md#guildid)
 
 ### TabId
 
-The tab ID where the item is currently placed in. See guild\_bank\_tab.TabId
+The tab ID where the item is currently placed in. See [guild\_bank\_tab.TabId](guild_bank_tab.md#tabid)
 
 ### SlotId
 

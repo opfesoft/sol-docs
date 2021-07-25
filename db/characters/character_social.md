@@ -1,7 +1,5 @@
 # character\_social
 
-**The \`character\_social\` table**
-
 Contains data about characters' friends/ignored list.
 
 ## Structure
@@ -61,7 +59,7 @@ Contains data about characters' friends/ignored list.
 <tr>
 <td><p><a href="#note">note</a></p></td>
 <td><p>varchar(48)</p></td>
-<td><p>signed</p></td>
+<td><p> </p></td>
 <td> </td>
 <td><p>NO</p></td>
 <td> </td>
@@ -75,11 +73,11 @@ Contains data about characters' friends/ignored list.
 
 ### guid
 
-The GUID of the character. See character.guid
+The GUID of the character. See [characters.guid](characters.md#guid)
 
 ### friend
 
-The GUID of the friend/ignored. See characters.guid
+The GUID of the friend/ignored. See [characters.guid](characters.md#guid)
 
 ### flags
 

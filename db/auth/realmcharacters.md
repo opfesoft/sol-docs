@@ -1,8 +1,5 @@
 # realmcharacters
 
-
-# Table: realmcharacters
-
 This table holds information on the number of characters each account has for each realm.
 The data in this table is maintained by the core.
 

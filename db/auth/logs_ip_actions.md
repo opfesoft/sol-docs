@@ -1,7 +1,5 @@
 # logs\_ip\_actions
 
-**The \`logs\_ip\_actions\` table**
-
 ## Structure
 
 | Field                              | Type        | Attributes | Key | Null | Default              | Extra           | Comment                       |

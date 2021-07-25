@@ -1,7 +1,5 @@
 # version\_db\_characters
 
-**The \`version\_db\_characters\` table**
-
 This table contains the AzerothCore SQL revisions.
 
 ## Structure

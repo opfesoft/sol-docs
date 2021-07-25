@@ -1,7 +1,5 @@
 # game\_event\_creature\_quest
 
-**The \`game\_event\_creature\_quest\` table**
-
 This table holds information on quests that should only be available when an event is currently taking place.
 
 ## Structure

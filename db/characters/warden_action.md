@@ -1,5 +1,8 @@
+# warden\_action
 
-Column | Type | Description
---- | --- | ---
-WardenId | smallint(5) unsigned | 
-Action | tinyint(3) unsigned | 
+## Structure
+
+| Field    | Type        | Attributes | Null | Key | Default | Extra | Comment |
+|----------|-------------|------------|------|-----|---------|-------|---------|
+| wardenId | smallint(5) | unsigned   | NO   | PRI | NULL    |       |         |
+| action   | tinyint(3)  | unsigned   | YES  |     | NULL    |       |         |

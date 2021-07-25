@@ -1,8 +1,5 @@
 # logs
 
-
-**The \`logs\` table**
-
 This table stores all logs from authserver if database logging in config is enabled.
 
 ## Structure

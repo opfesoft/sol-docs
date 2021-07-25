@@ -1,7 +1,5 @@
 # character\_skills
 
-**The \`character\_skills\` table**
-
 This table holds a listing of all skill for each character.
 
 ## Structure
@@ -75,11 +73,11 @@ This table holds a listing of all skill for each character.
 
 ### guid
 
-A Global Unique Identifier. (The seam in all characters-tables)
+The GUID of the character. See [characters.guid](characters.md#guid)
 
 ### skill
 
-The skill a character own's. A listing of those can be found in here.
+The skill a character owns. A listing of those can be found in here.
 
 ### value
 

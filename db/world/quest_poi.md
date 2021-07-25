@@ -1,7 +1,5 @@
 # quest\_poi
 
-**The \`quest\_poi\` table**
-
 Comes from sniffs.
 
 ## Structure

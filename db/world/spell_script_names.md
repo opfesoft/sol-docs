@@ -1,7 +1,5 @@
 # spell\_script\_names
 
-**The \`spell\_script\_names\` table**
-
 Holds the spell id to ScriptName pairings for use in spell scripts.
 
 ## Structure

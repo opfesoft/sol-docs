@@ -1,7 +1,5 @@
 # game\_event\_condition\_save
 
-**The \`game\_event\_condition\_save\` table**
-
 ## Structure
 
 <table>
@@ -49,7 +47,7 @@
 <tr>
 <td><p><a href="#done">done</a></p></td>
 <td><p>float</p></td>
-<td><p>signed</p></td>
+<td><p> </p></td>
 <td><p> </p></td>
 <td><p>YES</p></td>
 <td><p>0</p></td>
@@ -63,12 +61,12 @@
 
 ### eventEntry
 
-This is a link to the event entry in the game\_event table.
+This is a link to the event entry in the [game\_event](../world/game_event.md#evententry) table.
 
 ### condition\_id
 
-See game\_event\_condition.condition\_id
+See [game\_event\_condition.condition\_id](../world/game_event_condition.md#condition_id)
 
 ### done
 
-Indicates how much has been done. See game\_event\_condition.req\_num
+Indicates how much has been done. See [game\_event\_condition.req\_num](../world/game_event_condition.md#req_num)

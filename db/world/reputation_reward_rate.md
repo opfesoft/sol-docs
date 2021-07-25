@@ -1,7 +1,5 @@
 # reputation\_reward\_rate
 
-**The \`reputation\_reward\_rate\` table**
-
 Holds reputation multipliers for specific factions.
 
 ## Structure

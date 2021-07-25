@@ -1,7 +1,5 @@
 # item\_soulbound\_trade\_data
 
-**The \`item\_soulbound\_trade\_data**
-
 This table stores information about which players can trade soulbound items between each other.
 
 ## Structure
@@ -39,7 +37,7 @@ This table stores information about which players can trade soulbound items betw
 <td><p>Item GUID</p></td>
 </tr>
 <tr>
-<td><p><a href="#alowedplayers">alowedplayers</a></p></td>
+<td><p><a href="#allowedplayers">allowedPlayers</a></p></td>
 <td><p>text</p></td>
 <td><p>signed</p></td>
 <td><p>PRI</p></td>
@@ -55,8 +53,8 @@ This table stores information about which players can trade soulbound items betw
 
 ### itemGuid
 
-The GUID of the item that can be traded. See item\_instance.guid.
+The GUID of the item that can be traded. See [item\_instance.guid](item_instance.md#guid)
 
-### alowedplayers
+### allowedPlayers
 
-GUIDs of players eligible for the trade separated by space. See characters.guid.
+GUIDs of players eligible for the trade separated by space. See [characters.guid](characters.md#guid)

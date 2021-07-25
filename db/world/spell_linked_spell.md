@@ -1,7 +1,5 @@
 # spell\_linked\_spell
 
-**The \`spell\_linked\_spell\` table**
-
 This table provides data for spell linking system, telling it which spells trigger what, and under which conditions.
 
 <table>

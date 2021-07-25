@@ -1,7 +1,5 @@
 # pet\_spell
 
-**The \`pet\_spell\` table**
-
 This table holds information on individual pet spells.
 
 ## Structure
@@ -65,7 +63,7 @@ This table holds information on individual pet spells.
 
 ### guid
 
-The pet GUID. See character\_pet.id
+The pet GUID. See [character\_pet.id](character_pet.md#id)
 
 ### spell
 

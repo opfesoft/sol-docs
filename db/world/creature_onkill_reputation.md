@@ -1,7 +1,5 @@
 # creature\_onkill\_reputation
 
-**The \`creature\_onkill\_reputation\` table**
-
 This table controls the reputation given by creatures when killed by other players.
 
 ## Structure

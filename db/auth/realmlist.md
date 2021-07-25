@@ -1,8 +1,5 @@
 # realmlist
 
-
-**The \`realmlist\` table**
-
 This table sets up information on all available realms. Each row controls a different realm.
 
 ## Structure

@@ -1,7 +1,5 @@
 # character\_pet\_declinedname
 
-**The \`character\_pet\_declinedname\` table**
-
 ## Structure
 
 <table>
@@ -49,7 +47,7 @@
 <tr>
 <td><p><a href="#genitive">genitive</a></p></td>
 <td><p>varchar(12)</p></td>
-<td><p>signed</p></td>
+<td><p> </p></td>
 <td><p> </p></td>
 <td><p>NO</p></td>
 <td><p>NULL</p></td>
@@ -59,7 +57,7 @@
 <tr>
 <td><p><a href="#dative">dative</a></p></td>
 <td><p>varchar(12)</p></td>
-<td><p>signed</p></td>
+<td><p> </p></td>
 <td><p> </p></td>
 <td><p>NO</p></td>
 <td><p>NULL</p></td>
@@ -69,7 +67,7 @@
 <tr>
 <td><p><a href="#accusative">accusative</a></p></td>
 <td><p>varchar(12)</p></td>
-<td><p>signed</p></td>
+<td><p> </p></td>
 <td><p> </p></td>
 <td><p>NO</p></td>
 <td><p>NULL</p></td>
@@ -79,7 +77,7 @@
 <tr>
 <td><p><a href="#instrumental">instrumental</a></p></td>
 <td><p>varchar(12)</p></td>
-<td><p>signed</p></td>
+<td><p> </p></td>
 <td><p> </p></td>
 <td><p>NO</p></td>
 <td><p>NULL</p></td>
@@ -89,7 +87,7 @@
 <tr>
 <td><p><a href="#prepositional">prepositional</a></p></td>
 <td><p>varchar(12)</p></td>
-<td><p>signed</p></td>
+<td><p> </p></td>
 <td><p> </p></td>
 <td><p>NO</p></td>
 <td><p>NULL</p></td>
@@ -103,11 +101,11 @@
 
 ### id
 
-`field-no-description|1`
+Unique pet ID. See [character\_pet.id](character_pet.md#id)
 
 ### owner
 
-`field-no-description|2`
+The GUID of the pet's owner. See [characters.guid](characters.md#guid)
 
 ### genitive
 

@@ -1,8 +1,5 @@
 # account\_banned
 
-
-**The \`account\_banned\` table**
-
 This table lists all of the accounts that have been banned along with the date when (or if) the ban will expire.
 
 ## Structure

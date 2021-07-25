@@ -1,7 +1,5 @@
 # character\_achievement\_progress
 
-**The \`character\_achievement\_progress\` table**
-
 ## Structure
 
 <table>

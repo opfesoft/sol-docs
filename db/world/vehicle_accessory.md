@@ -1,7 +1,5 @@
 # vehicle\_accessory
 
-**The \`vehicle\_accessory\` table**
-
 This table is used to tell the server to spawn an additional NPC with this vehicle.
 
 ## Structure

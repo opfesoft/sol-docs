@@ -1,7 +1,5 @@
 # creature\_equip\_template
 
-## **Table: creature\_equip\_template**
-
 This table contains all the equipment combinations that can be sent for each creature.
 
 ## Structure
@@ -81,9 +79,6 @@ This table contains all the equipment combinations that can be sent for each cre
 </tr>
 </tbody>
 </table>
-
-**
-**
 
 ## Description of the fields
 

@@ -1,10 +1,8 @@
 # recovery\_item
 
-**The \`recovery\_item\` table**
-
 This table is used to save deleted items, see section "ITEM DELETE OPTIONS" in the worldserver config.
 
-**Structure**
+## Structure
 
 | Field                   | Type         | Attributes | Key | Null | Default | Extra           | Comment |
 |-------------------------|--------------|------------|-----|------|---------|-----------------|---------|
@@ -13,7 +11,7 @@ This table is used to save deleted items, see section "ITEM DELETE OPTIONS" in t
 | [ItemEntry](#itementry) | mediumint(8) | unsigned   |     | NO   | 0       |                 |         |
 | [Count](#count)         | int(11)      | unsigned   |     | NO   | 0       |                 |         |
 
-**Description of the fields**
+## Description of the fields
 
 ### Id
 

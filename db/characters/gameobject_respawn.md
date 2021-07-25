@@ -1,7 +1,5 @@
 # gameobject\_respawn
 
-**The \`gameobject\_respawn\` table**
-
 This table holds the re-spawn time when game objects should be re spawned in the world. In case of a server crash, this table holds the re-spawn data so that the game objects don't re-spawn immediately on server restart. How often the re-spawn time is saved for game objects can be controlled in trinitycore.conf at SaveRespawnTimeImmediately. Usually the only objects that despawn and need to be re-spawned are chests and doors.
 
 ## Structure
@@ -49,7 +47,17 @@ This table holds the re-spawn time when game objects should be re spawned in the
 <td><p> </p></td>
 </tr>
 <tr>
-<td><p><a href="#instance">instance</a></p></td>
+<td><p><a href="#mapid">mapId</a></p></td>
+<td><p>smallint(10)</p></td>
+<td><p>unsigned</p></td>
+<td><p> </p></td>
+<td><p>NO</p></td>
+<td><p>0</p></td>
+<td><p> </p></td>
+<td><p> </p></td>
+</tr>
+<tr>
+<td><p><a href="#instanceid">instanceId</a></p></td>
 <td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p>PRI</p></td>
@@ -65,12 +73,16 @@ This table holds the re-spawn time when game objects should be re spawned in the
 
 ### guid
 
-The GUID of the game object. See gameobject.guid
+The GUID of the game object. See [gameobject.guid](../world/gameobject.md#guid)
 
 ### respawntime
 
 The time when the game object should be respawned in Unix time.
 
-### instance
+### mapId
 
-If the game object belonged in an instance, this field holds the instance ID where this game object should be respawned. Each instance is different depending on the group so this field is vital in keeping track of which game objects should be respawned for which players at what time.
+The Map ID. See [Map.dbc](../../dbc/Map.md#content)
+
+### instanceid
+
+If the game object belonged in an instance, this field holds the instance ID where this game object should be respawned. Each instance is different depending on the group so this field is vital in keeping track of which game objects should be respawned for which players at what time. See [instance.id](instance.md#id)

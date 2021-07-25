@@ -1,7 +1,5 @@
 # worldstates
 
-**The \`worldstates\` table**
-
 This table holds data the Core needs to handle variables (like timer for arena point automatic flush).
 
 ## Structure
@@ -20,7 +18,7 @@ This table holds data the Core needs to handle variables (like timer for arena p
 </tr>
 <tr>
 <td><p><a href="#entry">entry</a></p></td>
-<td><p>mediumint(10)</p></td>
+<td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p>PRI</p></td>
 <td><p>NO</p></td>
@@ -45,19 +43,21 @@ This table holds data the Core needs to handle variables (like timer for arena p
 </tr>
 <tr>
 <td><p><a href="#comment">comment</a></p></td>
-<td><p>text</p></td>
-<td><p>signed</p></td>
+<td><p>tinytext</p></td>
+<td><p> </p></td>
 <td><p><br />
 </p></td>
 <td><p>YES</p></td>
-<td><p>_</p></td>
-<td><p>_<br />
-_</p></td>
-<td><p>_<br />
-_</p></td>
+<td><p> </p></td>
+<td><p> <br />
+ </p></td>
+<td><p> <br />
+ </p></td>
 </tr>
 </tbody>
 </table>
+
+## Description of the fields
 
 ### entry
 

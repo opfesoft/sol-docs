@@ -1,8 +1,6 @@
 # mail\_items
 
-**The \`mail\_items\` table**
-
-This table contains data regarding items from item\_instance which are being sent via email.
+This table contains data regarding items from [item\_instance](item_instance.md) which are being sent via in-game mail.
 
 ## Structure
 
@@ -65,12 +63,12 @@ This table contains data regarding items from item\_instance which are being sen
 
 ### mail\_id
 
-Mail ID the item is attached to.
+Mail ID the item is attached to. See [mail.id](mail.md#id)
 
 ### item\_guid
 
-This is the guid of the item from item\_instance.guid.
+This is the GUID of the item from [item\_instance.guid](item_instance.md#guid)
 
 ### receiver
 
-Character guid which should receive this item.
+Character GUID which should receive this item.

@@ -1,8 +1,5 @@
 # uptime
 
-
-**The \`uptime\` table**
-
 This table holds the server's uptime. The core will automatically update the latest entry's value until it crashes and a new record is added.
 
 ## Structure

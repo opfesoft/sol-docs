@@ -1,7 +1,5 @@
 # spell\_enchant\_proc\_data
 
-**The \`spell\_enchant\_proc\` table**
-
 ## Structure
 
 <table>

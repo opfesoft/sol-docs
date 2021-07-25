@@ -1,7 +1,5 @@
 # quest\_template\_locale
 
-**The \`quest\_template\_locale\` table**
-
 This table is used to provide to localized clients with localized string for quest templates.
 
 ## Structure

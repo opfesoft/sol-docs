@@ -1,7 +1,5 @@
 # pvpstats\_battlegrounds
 
-**The \`pvpstats\_battlegrounds\` table**
-
 This table holds datas about BattleGrounds scores. To enable storing this kind of informations, set **Battleground . StoreStatistics . Enable   =   1** in **worldserver.config** file.
 
 ## Structure
@@ -30,7 +28,7 @@ This table holds datas about BattleGrounds scores. To enable storing this kind o
 </tr>
 <tr>
 <td><p><a href="#id">id</a></p></td>
-<td><p>bigint</p></td>
+<td><p>bigint(20)</p></td>
 <td><p>unsigned</p></td>
 <td><p>PRI</p></td>
 <td><p>NO</p></td>
@@ -40,7 +38,7 @@ This table holds datas about BattleGrounds scores. To enable storing this kind o
 </tr>
 <tr>
 <td><p><a href="#winner_faction">winner_faction</a></p></td>
-<td><p>tinyint</p></td>
+<td><p>tinyint(4)</p></td>
 <td> </td>
 <td><p> </p></td>
 <td><p>NO</p></td>
@@ -50,7 +48,7 @@ This table holds datas about BattleGrounds scores. To enable storing this kind o
 </tr>
 <tr>
 <td><p><a href="#bracket_id">bracket_id</a></p></td>
-<td><p>tinyint</p></td>
+<td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
 <td><p>NO</p></td>
@@ -60,7 +58,7 @@ This table holds datas about BattleGrounds scores. To enable storing this kind o
 </tr>
 <tr>
 <td><p><a href="#type">type</a></p></td>
-<td><p>tinyint</p></td>
+<td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
 <td><p>NO</p></td>

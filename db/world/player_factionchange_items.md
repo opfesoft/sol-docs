@@ -1,8 +1,8 @@
 # player\_factionchange\_items
 
-**The \`player\_factionchange\_items\` table**
+Basically all item changes made when a player changes faction.
 
-Basically all item changes made when player changes faction.
+## Structure
 
 <table>
 <colgroup>

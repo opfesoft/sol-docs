@@ -1,7 +1,5 @@
 # creature\_addon
 
-**The \`creature\_addon\` table**
-
 The creature\_addon and creature\_template\_addon tables define different things that are applied on creatures when they are loaded. These "different things" can be for example to have the creature be mounted, to have it emote something, to have it display an aura effect, etc. Through the use of the fields in this table, many things can be changed about the outward visual appearance of the creature. The creature\_template\_addon table affects all creatures with that creature template ID while the creature\_addon table affects individually spawned creatures (so that two creatures using the same template can look different).
 
 NOTE: A creature\_addon record will override a creature\_template\_addon record should they overlap on the same creature.

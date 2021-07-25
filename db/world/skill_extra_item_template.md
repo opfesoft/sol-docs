@@ -1,7 +1,5 @@
 # skill\_extra\_item\_template
 
-**The \`skill\_extra\_item\_template\` table**
-
 This table holds information about when using certain profession spells, you have the chance of creating more than one copy of the item.
 
 ## Structure

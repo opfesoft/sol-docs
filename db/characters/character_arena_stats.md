@@ -1,7 +1,5 @@
 # character\_arena\_stats
 
-**The \`character\_arena\_stats\` table**
-
 This table holds information about character's matchmaker rating in all team types.
 
 ## Structure
@@ -31,7 +29,7 @@ This table holds information about character's matchmaker rating in all team typ
 <tr>
 <td><p><a href="#guid">guid</a></p></td>
 <td><p>int(10)</p></td>
-<td><p>signed</p></td>
+<td><p>unsigned</p></td>
 <td><p>PRI</p></td>
 <td><p>NO</p></td>
 <td><p> </p></td>
@@ -41,7 +39,7 @@ This table holds information about character's matchmaker rating in all team typ
 <tr>
 <td><p><a href="#slot">slot</a></p></td>
 <td><p>tinyint(3)</p></td>
-<td><p>signed</p></td>
+<td><p>unsigned</p></td>
 <td><p>PRI</p></td>
 <td><p>NO</p></td>
 <td><p> </p></td>
@@ -49,10 +47,20 @@ This table holds information about character's matchmaker rating in all team typ
 <td><p> </p></td>
 </tr>
 <tr>
-<td><p><a href="#matchmakerrating">matchmakerRating</a></p></td>
+<td><p><a href="#matchmakerrating">matchMakerRating</a></p></td>
 <td><p>smallint(5)</p></td>
-<td><p>signed</p></td>
+<td><p>unsigned</p></td>
 <td><p> </p></td>
+<td><p>NO</p></td>
+<td><p> </p></td>
+<td><p> </p></td>
+<td><p> </p></td>
+</tr>
+<tr>
+<td><p><a href="#maxmmr">maxMMR</a></p></td>
+<td><p>smallint(5)</p></td>
+<td><p> </p></td>
+<td><p>PRI</p></td>
 <td><p>NO</p></td>
 <td><p> </p></td>
 <td><p> </p></td>
@@ -65,7 +73,7 @@ This table holds information about character's matchmaker rating in all team typ
 
 ### guid
 
-The GUID of the character. See characters.guid
+The GUID of the character. See [characters.guid](characters.md#guid)
 
 ### slot
 
@@ -77,6 +85,10 @@ Arena slot index:
 
 2 - 5v5
 
-### matchmakerRating
+### matchMakerRating
 
 Player's matchmaker rating
+
+### maxMMR
+
+Player's maximum matchmaker rating

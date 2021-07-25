@@ -1,7 +1,5 @@
 # guild\_bank\_eventlog
 
-**The \`guild\_bank\_eventlog\` table**
-
 ## Structure
 
 <table>
@@ -28,7 +26,7 @@
 </tr>
 <tr>
 <td><p><a href="#guildid">guildid</a></p></td>
-<td><p>int(11)</p></td>
+<td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p>PRI</p></td>
 <td><p>NO</p></td>
@@ -38,7 +36,7 @@
 </tr>
 <tr>
 <td><p><a href="#logguid">LogGuid</a></p></td>
-<td><p>int(11)</p></td>
+<td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p>PRI</p></td>
 <td><p>NO</p></td>
@@ -68,7 +66,7 @@
 </tr>
 <tr>
 <td><p><a href="#playerguid">PlayerGuid</a></p></td>
-<td><p>int(11)</p></td>
+<td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
 <td><p>NO</p></td>
@@ -78,7 +76,7 @@
 </tr>
 <tr>
 <td><p><a href="#itemormoney">ItemOrMoney</a></p></td>
-<td><p>int(11)</p></td>
+<td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
 <td><p>NO</p></td>
@@ -88,7 +86,7 @@
 </tr>
 <tr>
 <td><p><a href="#itemstackcount">ItemStackCount</a></p></td>
-<td><p>tinyint(3)</p></td>
+<td><p>smallint(5)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
 <td><p>NO</p></td>
@@ -98,7 +96,7 @@
 </tr>
 <tr>
 <td><p><a href="#desttabid">DestTabId</a></p></td>
-<td><p>tinyint(1)</p></td>
+<td><p>tinyint(3)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
 <td><p>NO</p></td>
@@ -108,7 +106,7 @@
 </tr>
 <tr>
 <td><p><a href="#timestamp">TimeStamp</a></p></td>
-<td><p>bigint(20)</p></td>
+<td><p>int(10)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
 <td><p>NO</p></td>
@@ -123,15 +121,15 @@
 
 ### guildid
 
-`Guild Identificator`
+Guild Identificator, see [guild.guildid](guild.md#guildid)
 
 ### LogGuid
 
-`Log record identificator - auxiliary column`
+Log record identificator - auxiliary column
 
 ### TabId
 
-`Guild bank TabId`
+Source tab ID
 
 ### EventType
 
@@ -155,20 +153,20 @@
 
 ### PlayerGuid
 
-`GUID of the Player`
+GUID of the Player. See [characters.guid](characters.md#guid)
 
 ### ItemOrMoney
 
-`field-no-description|6`
+Either the amount of money or the [item ID](../world/item_template.md#entry).
 
 ### ItemStackCount
 
-`field-no-description|7`
+The stack count of the item.
 
 ### DestTabId
 
-`Destination Tab Id`
+Destination tab ID
 
 ### TimeStamp
 
-`Event UNIX time`
+Event UNIX time

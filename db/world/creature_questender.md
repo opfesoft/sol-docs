@@ -1,7 +1,5 @@
 # creature\_questender
 
-**The \`creature\_questender\` table**
-
 Holds NPC quest ender relations on which NPCs finishes which quests.
 
 ## Structure

@@ -1,7 +1,5 @@
 # npc\_text\_locale
 
-**The \`npc\_text\_locale\` table**
-
 This table is used to provide localized clients with localized string for npc\_texts.
 
 ## Structure

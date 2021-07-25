@@ -1,7 +1,5 @@
 # item\_set\_names\_locale
 
-**The \`item\_set\_names\_locale\` table**
-
 ## Structure
 
 |                                 |              |                |         |          |             |           |             |

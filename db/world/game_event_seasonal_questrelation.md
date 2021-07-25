@@ -1,7 +1,5 @@
 # game\_event\_seasonal\_questrelation
 
-**The \`game\_event\_seasonal\_questrelation\` table**
-
 Holds information on the game event seasonal quest relations to allow for resetting of quests with ZoneOrSort of -22.
 
 ## Structure

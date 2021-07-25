@@ -1,7 +1,5 @@
 # playercreateinfo
 
-**The \`playercreateinfo\` table**
-
 This table holds the start positions of each class-race combinations for all newly created characters.
 
 ## Structure

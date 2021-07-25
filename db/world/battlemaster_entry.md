@@ -1,7 +1,5 @@
 # battlemaster\_entry
 
-**The \`battlemaster\_entry\` table**
-
 Holds information on which NPC can start what battleground or arena.
 
 ## Structure

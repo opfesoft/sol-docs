@@ -1,7 +1,5 @@
 # scripts
 
-# Tables: \*\*\*\_scripts
-
 This table format is used for 3 different tables to control possible scripts activated by different actions:
 
 **[spell\_scripts](spell_scripts.md):** Holds scripts that can be activated by spells with effect SPELL\_EFFECT\_SCRIPT\_EFFECT (77) or SPELL\_EFFECT\_DUMMY(3).

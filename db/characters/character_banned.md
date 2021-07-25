@@ -1,7 +1,5 @@
 # character\_banned
 
-**The \`character\_banned\` table**
-
 This table lists all of the characters that have been banned along with the date when (or if) the ban will expire.
 
 ## Structure
@@ -61,7 +59,7 @@ This table lists all of the characters that have been banned along with the date
 <tr>
 <td><p><a href="#bannedby">bannedby</a></p></td>
 <td><p>varchar(50)</p></td>
-<td><p>signed</p></td>
+<td><p> </p></td>
 <td><p> </p></td>
 <td><p>NO</p></td>
 <td><p> </p></td>
@@ -71,7 +69,7 @@ This table lists all of the characters that have been banned along with the date
 <tr>
 <td><p><a href="#banreason">banreason</a></p></td>
 <td><p>varchar(255)</p></td>
-<td><p>signed</p></td>
+<td><p> </p></td>
 <td><p> </p></td>
 <td><p>NO</p></td>
 <td><p> </p></td>

@@ -1,8 +1,5 @@
 # playercreateinfo\_item
 
-
-**The \`playercreateinfo\_item\` table**
-
 This table is used for any custom items that you might want to give to characters on creation. I used to be used to hold the normal items that characters get as well, but now that info is read from CharStartOutfit.dbc
 
 ## Structure

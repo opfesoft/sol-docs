@@ -1,7 +1,5 @@
 # game\_event\_prerequisite
 
-**The \`game\_event\_prerequisite\` table**
-
 This table contains events that must have been completed to start the given event. You can have more than one event that must be completed before the next will start.
 
 ## Structure

@@ -1,7 +1,5 @@
 # points\_of\_interest
 
-**The \`points\_of\_interest\` table**
-
 ## Structure
 
 <table>

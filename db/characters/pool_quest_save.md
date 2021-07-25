@@ -1,9 +1,5 @@
 # pool\_quest\_save
 
-**The \`pool\_quest\_save\` table**
-
-`table-no-description|0`
-
 ## Structure
 
 <table>

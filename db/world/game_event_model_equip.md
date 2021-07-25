@@ -1,7 +1,5 @@
 # game\_event\_model\_equip
 
-**The \`game\_event\_model\_equip\` table**
-
 Contains all creature instances that need to change display id and/or equipment during defined game events.
 
 ## Structure

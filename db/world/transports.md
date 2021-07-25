@@ -1,12 +1,10 @@
 # transports
 
-**The \`transports\` table**
-
 This table contains all type 15 transports (ships, zeppelins etc.). All other transport types have their frame time read from TransportAnimation.dbc.
 
 **Note:** Transports have their own [map](../../dbc/Map.md)
 
-**Structure**
+## Structure
 
 | Field                   | Type         | Attribute | Key | Null | Default | Extra           | Comment |
 |-------------------------|--------------|-----------|-----|------|---------|-----------------|---------|
@@ -15,7 +13,7 @@ This table contains all type 15 transports (ships, zeppelins etc.). All other tr
 [name](#name)             | text         |           |     | YES  | NULL    |                 |         |
 [ScriptName](#scriptname) | char(64)     |           |     | NO   |         |                 |         |
 
-**Description of the fields**
+## Description of the fields
 
 ### guid
 

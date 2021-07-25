@@ -1,7 +1,5 @@
 # areatrigger\_teleport
 
-**The \`areatrigger\_teleport\` table**
-
 Contains all the teleport triggers definition. This table is used to complete .dbc file information.
 
 ## Structure

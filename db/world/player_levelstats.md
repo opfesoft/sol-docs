@@ -1,7 +1,5 @@
 # player\_levelstats
 
-**The \`player\_levelstats\` table**
-
 This table holds information on what stats are gained by characters when they level up. Each race-class combination has different level stats. All of the values in this table signify only the base stats of the race-class combination at a specific level.
 
 ## Structure

@@ -1,7 +1,5 @@
 # characters (table)
 
-**The \`characters\` table**
-
 This table holds vital static information for each character. This information loaded and used to create the player objects in-game.
 
 ## Structure
@@ -10,7 +8,7 @@ This table holds vital static information for each character. This information l
 |-----------------------------|--------------|------------|-----|------|---------|-------|---------|
 |[guid](#guid)                |int(10)       |unsigned    |PRI  |NO    |0        |Unique |Global Unique Identifier|
 |[account](#account)          |int(10)       |unsigned    |     |NO    |0        |       |Account Identifier|
-|[name](#name)                |varchar(12)   |signed      |     |NO    |NULL     |       ||
+|[name](#name)                |varchar(12)   |            |     |NO    |NULL     |       ||
 |[race](#race)                |tinyint(3)    |unsigned    |     |NO    |0        |       ||
 |[class](#class)              |tinyint(3)    |unsigned    |     |NO    |0        |       ||
 |[gender](#gender)            |tinyint(3)    |unsigned    |     |NO    |0        |       ||
@@ -25,39 +23,38 @@ This table holds vital static information for each character. This information l
 |[bankSlots](#bankSlots)      |tinyint(3)    |unsigned    |     |NO    |0        |       ||
 |[restState](#restState)      |tinyint(3)    |unsigned    |     |NO    |0        |       ||
 |[playerflags](#playerflags)  |int(10)       |unsigned    |     |NO    |0        |       ||
-|[position_x](#position_x)    |float         |signed      |     |NO    |0        |       ||
-|[position_y](#position_y)    |float         |signed      |     |NO    |0        |       ||
-|[position_z](#position_z)    |float         |signed      |     |NO    |0        |       ||
-|[map](#map)    			  |smallint(5)   |signed      |     |NO    |0        |       |Map Identifier|
+|[position_x](#position_x)    |float         |            |     |NO    |0        |       ||
+|[position_y](#position_y)    |float         |            |     |NO    |0        |       ||
+|[position_z](#position_z)    |float         |            |     |NO    |0        |       ||
+|[map](#map)    			  |smallint(5)   |unsigned    |     |NO    |0        |       |Map Identifier|
 |[instance_id](#instance_id)  |int(10)       |unsigned    |     |NO    |0        |       ||
 |[instance_mode_mask](#instance_mode_mask)|tinyint(3)|unsigned| |NO    |0        |       ||
-|[orientation](#orientation)  |float         |signed	  |     |NO    |0        |       ||
-|[taximask](#taximask)        |text          |signed      |     |NO    |0        |       ||
+|[orientation](#orientation)  |float         |      	  |     |NO    |0        |       ||
+|[taximask](#taximask)        |text          |            |     |NO    |0        |       ||
 |[online](#online)            |tinyint(3)    |unsigned    |     |NO    |0        |       ||
 |[cinematic](#cinematic)      |tinyint(3)    |unsigned    |     |NO    |0        |       ||
 |[totaltime](#totaltime)      |int(10)       |unsigned    |     |NO    |0        |       ||
 |[leveltime](#leveltime)      |int(10)       |unsigned    |     |NO    |0        |       ||
 |[logout_time](#logout_time)  |int(10)       |unsigned    |     |NO    |0        |       ||
 |[is_logout_resting](#is_logout_resting)|tinyint(3)|unsigned|   |NO    |0        |       ||
-|[rest_bonus](#rest_bonus)    |float         |signed      |     |NO    |0        |       ||
+|[rest_bonus](#rest_bonus)    |float         |            |     |NO    |0        |       ||
 |[resettalents_cost](#resettalents_cost)|int(10)|unsigned |     |NO    |0        |       ||
 |[resettalents_time](#resettalents_time)|int(10)|unsigned |     |NO    |0        |       ||
-|[trans_x](#trans_x)          |float         |signed      |     |NO    |0        |       ||
-|[trans_y](#trans_y)          |float         |signed      |     |NO    |0        |       ||
-|[trans_z](#trans_z)          |float         |signed      |     |NO    |0        |       ||
-|[trans_o](#trans_o)          |float         |signed      |     |NO    |0        |       ||
+|[trans_x](#trans_x)          |float         |            |     |NO    |0        |       ||
+|[trans_y](#trans_y)          |float         |            |     |NO    |0        |       ||
+|[trans_z](#trans_z)          |float         |            |     |NO    |0        |       ||
+|[trans_o](#trans_o)          |float         |            |     |NO    |0        |       ||
 |[transguid](#transguid)      |mediumint(8)  |unsigned    |     |NO    |0        |       ||
-|[extra_flags](#extra_flags)  |smallint(5)   |unsigned    |     |NO    |0        |       ||
 |[extra_flags](#extra_flags)  |smallint(5)   |unsigned    |     |NO    |0        |       ||
 |[stable_slots](#stable_slots)|tinyint(3)    |unsigned    |     |NO    |0        |       ||
 |[at_login](#at_login)        |smallint(5)   |unsigned    |     |NO    |0        |       ||
 |[zone](#zone)                |smallint(5)   |unsigned    |     |NO    |0        |       ||
 |[death_expire_time](#death_expire_time)|int(10)|unsigned |     |NO    |0        |       ||
-|[taxi_path](#taxi_path)      |text          |signed      |     |YES   |NULL     |       ||
+|[taxi_path](#taxi_path)      |text          |            |     |YES   |NULL     |       ||
 |[arenaPoints](#arenaPoints)  |int(10)       |unsigned    |     |NO    |0        |       ||
-|[totalhonorpoints](#totalhonorpoints)|int(10)|unsigned   |     |NO    |0        |       ||
-|[todayhonorpoints](#todayhonorpoints)|int(10)|unsigned   |     |NO    |0        |       ||
-|[yesterdayhonorpoints](#yesterdayhonorpoints)|int(10)|unsigned ||NO   |0        |       ||
+|[totalHonorPoints](#totalhonorpoints)|int(10)|unsigned   |     |NO    |0        |       ||
+|[todayHonorPoints](#todayhonorpoints)|int(10)|unsigned   |     |NO    |0        |       ||
+|[yesterdayHonorPoints](#yesterdayhonorpoints)|int(10)|unsigned ||NO   |0        |       ||
 |[totalkills](#totalkills)    |int(10)       |unsigned    |     |NO    |0        |       ||
 |[todayKills](#todaykills)    |smallint(5)   |unsigned    |     |NO    |0        |       ||
 |[yesterdayKills](#yesterdayKills)|smallint(5)|unsigned   |     |NO    |0        |       ||
@@ -76,15 +73,15 @@ This table holds vital static information for each character. This information l
 |[latency](#latency)          |mediumint(8)  |unsigned    |     |NO    |0        |       ||
 |[talentGroupsCount](#talentGroupsCount)|tinyint(3)|unsigned|   |NO    |1        |       ||
 |[activeTalentGroup](#activeTalentGroup)|tinyint(3)|unsigned|   |NO    |0        |       ||
-|[exploredzones](#exploredzones)|longtext    |signed      |     |YES   |NULL     |       ||
-|[equipmentcache](#equipmentcache)|longtext  |signed      |     |YES   |NULL     |       ||
-|[ammoid](#ammoid)            |int(10)       |unsigned    |     |NO    |0        |       ||
-|[knownTitles](#knownTitles)  |longtext      |signed      |     |YES   |NULL     |       ||
-|[actionbars](#actionbars)    |longtext      |unsigned    |     |NO    |0        |       ||
-|[grantableLevels](#grantablelevels)|longtext|unsigned    |     |NO    |0        |       ||
-|[creation_date](#creation_date)|timestamp   |signed      |     |NO    |CURRENT_TIMESTAMP|||
+|[exploredZones](#exploredzones)|longtext    |            |     |YES   |NULL     |       ||
+|[equipmentCache](#equipmentcache)|longtext  |            |     |YES   |NULL     |       ||
+|[ammoId](#ammoid)            |int(10)       |unsigned    |     |NO    |0        |       ||
+|[knownTitles](#knownTitles)  |longtext      |            |     |YES   |NULL     |       ||
+|[actionBars](#actionbars)    |longtext      |            |     |NO    |0        |       ||
+|[grantableLevels](#grantablelevels)|longtext|            |     |NO    |0        |       ||
+|[creation_date](#creation_date)|timestamp   |            |     |NO    |CURRENT_TIMESTAMP|||
 |[deleteInfos_Account](#deleteInfos_Account)|int(10)|unsigned|  |YES   |NULL     |       ||
-|[deleteInfos_Name](#deleteInfos_Name)|varchar(12)|unsigned|    |YES   |NULL     |       ||
+|[deleteInfos_Name](#deleteInfos_Name)|varchar(12)|        |    |YES   |NULL     |       ||
 |[deleteDate](#deleteDate)    |int(10)       |unsigned    |     |YES   |NULL     |       ||
   
 ## Description of the fields
@@ -477,7 +474,7 @@ Bitmasks of explored zones (1 bit for explored, 0 bit for unexplored)
 
 ### equipmentCache
 
-Character's equipment and bag cache. `field-no-description|58`
+Character's equipment and bag cache.
 
 ### ammoId
 

@@ -1,7 +1,5 @@
 # pool\_quest
 
-**The \`pool\_quest\` table**
-
 This table contains a list of quests that are tied to a specific pool.
 
 ## Structure

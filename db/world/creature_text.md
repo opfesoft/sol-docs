@@ -1,7 +1,5 @@
 # creature\_text
 
-# Table: creature\_text
-
 **Short Description:**
 
 This table holds all the speech text (whisper, say, yell, emote text in speech bubbles and in the chat window) used within [SMART\_SCRIPTS](smart_scripts.md) table and core scripts.

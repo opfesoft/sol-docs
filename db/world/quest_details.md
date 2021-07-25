@@ -1,10 +1,8 @@
 # quest\_details
 
-**Table: quest\_details**
-
 This table handles Quest NPC emotes with emote delays.
 
- 
+## Structure 
 
 | Field                           | Type         | Attributes | Key | NULL | Default | Comment                                                |
 |---------------------------------|--------------|------------|-----|------|---------|--------------------------------------------------------|
@@ -18,8 +16,6 @@ This table handles Quest NPC emotes with emote delays.
 | [EmoteDelay3](#emotedelay3)     | int(10)      | unsigned   |     | NO   | 0       | Emote delay in milliseconds                            |
 | [EmoteDelay4](#emotedelay4)     | int(10)      | unsigned   |     | NO   | 0       | Emote delay in milliseconds                            |
 | [VerifiedBuild](#verifiedbuild) | smallint(5)  |            |     | NO   | 0       | Game client Build number or manually set value         |
-
- 
 
 ## Description of the fields
 
