@@ -57,4 +57,4 @@ The GUID of the character. See [characters.guid](characters.md#guid)
 
 ### quest
 
-The ID of the quest. [quest\_template.ID](../world/quest_template.md#id)
+The ID of the quest. See [quest\_template.ID](../world/quest_template.md#id)

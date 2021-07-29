@@ -81,13 +81,15 @@ This table holds info about group members.
 
 ## Description of the fields
 
-#### guid
+### guid
 
 GUID of the group. See [groups.guid](groups.md#guid).
 
-#### memberGuid
+### memberGuid
 
 GUID of the character member of the group. See [characters.guid](characters.md#guid).
+
+### memberFlags
 
 <table>
 <colgroup>

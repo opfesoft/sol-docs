@@ -1609,8 +1609,7 @@ This is the probability of the event to occur as a percentage from 0-100. So, if
 <tr>
 <td><p>SMART_ACTION_ACTIVATE_GOBJECT</p></td>
 <td><p>9</p></td>
-<td><p><br />
-</p></td>
+<td><p>Active alternative (0/1)</p></td>
 <td><p><br />
 </p></td>
 <td><p><br />
@@ -2644,6 +2643,7 @@ quickChange 1 forces the creature to quickly change its orientation (useful if t
 <td><p>SMART_ACTION_ADD_AURA</p></td>
 <td><p>75</p></td>
 <td><p>SpellId</p></td>
+<td><p>stacks (if 0 just apply the aura once)</p></td>
 <td><p><br />
 </p></td>
 <td><p><br />
@@ -2652,9 +2652,7 @@ quickChange 1 forces the creature to quickly change its orientation (useful if t
 </p></td>
 <td><p><br />
 </p></td>
-<td><p><br />
-</p></td>
-<td><p>Adds aura to player(s). Use target_type 17 to make AoE aura.</p></td>
+<td><p>Adds aura to unit(s). Use e.g. target_type 17 to make AoE aura.</p></td>
 </tr>
 <tr>
 <td><p>SMART_ACTION_OVERRIDE_SCRIPT_BASE_OBJECT</p></td>

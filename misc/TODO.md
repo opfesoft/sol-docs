@@ -2,6 +2,12 @@ TODOs:
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@1e36a644 | 2021-07-29 |      | verify/rework SQL script |
+| sol@c125f461 | 2021-07-29 |      | won't take over, properly fix the SAI instead incl. the comments; SMART\_ACTION\_FLEE\_FOR\_ASSIST does not use the target, so changing the target type is useless |
+| sol@201b3235 | 2021-07-28 |      | there are other Peacebloom spawns in Redridge Mountains, check the gameobject pool 950 and remove all of them |
+| sol@ecf022e8 | 2021-07-28 |      | verify/rework SQL script |
+| sol@f9125f13 | 2021-07-27 |      | probably not needed at all, the elevators were indeed dangerous on retail, e.g. the ones in the Undercity did kill many players |
+| sol@e37dba8d | 2021-07-26 |      | probably not needed at all, there are many comments in the internet which state that this was changed later to only be a simple zoom |
 | sol@6a5a901a | 2021-07-25 |      | verify/rework SQL script |
 | sol@e40ecbda | 2021-07-24 |      | verify changes; use UPDATE instead of DELETE/INSERT |
 | sol@9343cb51 | 2021-07-24 |      | won't take over, rework SAI instead |
@@ -121,7 +127,7 @@ TODOs:
 | sol@b4830948 | 2021-05-23 | X    | not working; try to find another solution; done: sol@37b47c1d |
 | sol@0527c17d | 2021-05-22 |      | verify changes; adapt to Sol |
 | sol@d74832ef | 2021-05-22 |      | verify/rework SQL script |
-| sol@3f6da615 | 2021-05-21 |      | take over if needed |
+| sol@3f6da615 | 2021-05-21 |      | take over if needed, also see follow-up sol@47f7c46f; update: won't take over, as this does not seem to be correct: only non-spell attacks should have 100% crit on a sitting target; the attack should cause double damage and should be shown as crit in the combat log; the crit must not proc other abilities; implement another solution; very low prio |
 | sol@4fff925b | 2021-05-18 |      | verify/rework SQL script |
 | sol@fc4496ec | 2021-05-18 |      | verify/rework SQL script |
 | sol@16e04439 | 2021-05-18 |      | verify/rework SQL script |
@@ -201,7 +207,7 @@ TODOs:
 | sol@4e112a89 | 2021-04-01 |      | verify/rework SQL script |
 | sol@f38e63cc | 2021-04-01 |      | verify/rework SQL script |
 | sol@a9ba546c | 2021-04-01 | X    | verify gameobjects & positions; done: sol@ccb0d6a3 |
-| sol@4c0467c5 | 2021-04-01 |      | verify/rework SQL script (also see sol@4c357c60); update: contains too many bugs and causes side effects (e.g. using the wrong gameobject 180779 which is actually spawned in Northrend); rework the existing script and use the values according to TC's CreatureScript "npc\_demolitionist\_legoso" |
+| sol@4c0467c5 | 2021-04-01 | X    | verify/rework SQL script (also see sol@4c357c60); update: contains too many bugs and causes side effects (e.g. using the wrong gameobject 180779 which is actually spawned in Northrend); rework the existing script and use the values according to TC's CreatureScript "npc\_demolitionist\_legoso"; completely rewritten: sol@056f733a |
 | sol@10c56336 | 2021-04-01 | X    | verify gameobjects & positions; done: sol@ccb0d6a3 |
 | sol@c0aa1b88 | 2021-03-29 |      | verify changes; low prio (Love is in the Air) |
 | sol@9bf2800c | 2021-03-29 |      | verify changes; low prio (Dungeon: Ulduar) |
