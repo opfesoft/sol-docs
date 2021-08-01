@@ -11,19 +11,19 @@ TODOs:
 | sol@6a5a901a | 2021-07-25 |      | verify/rework SQL script |
 | sol@e40ecbda | 2021-07-24 |      | verify changes; use UPDATE instead of DELETE/INSERT |
 | sol@9343cb51 | 2021-07-24 |      | won't take over, rework SAI instead |
-| sol@b5dfba05 | 2021-07-23 |      | this is wrong for some of the creatures which are kneeling or lying on the ground; some positions should also be updated |
+| sol@b5dfba05 | 2021-07-23 | X    | this is wrong for some of the creatures which are kneeling or lying on the ground; some positions should also be updated; done: sol@5c3a4a66 |
 | sol@1919f945 | 2021-07-23 |      | verify/rework SQL script |
 | sol@d6da679e | 2021-07-23 |      | verify/rework SQL script |
 | sol@79f5139d | 2021-07-23 |      | verify/rework SQL script |
 | sol@bbe1d4bb | 2021-07-23 |      | random movement already enabled, see sol@69c6e694; take over the new spawn points and create an appropriate creature pool (this has been forgotten in the AC commit) |
 | sol@9e1c8b3f | 2021-07-23 |      | verify/rework SQL script |
-| sol@74edb401 | 2021-07-23 |      | verify position |
+| sol@74edb401 | 2021-07-23 | X    | verify position; update: wrong, won't take over; the new position is from Cataclysm, the old one is correct, so keep the old one |
 | sol@e5680dfe | 2021-07-22 |      | verify changes; low prio (Dungeon: Naxxramas) |
 | sol@2a4a2f35 | 2021-07-22 |      | wrong: should be a random world drop from level 40-60 mobs; there are already reference loot tables which deal with patterns, designs etc., but they are not really used anywhere: 24700,24701,24702,24703,24704,24705,24706,24707,24708,24709; try to find a better solution; low prio |
-| sol@7830ff5b | 2021-07-22 |      | wrong: those gameobjects serve as spell focus for Mooncloth, it is not possible to use this spell if the objects are deleted; move them into the ground instead |
-| sol@0c318397 | 2021-07-22 |      | look for a better position as there's another Goldthorn nearby |
+| sol@7830ff5b | 2021-07-22 | X    | wrong: those gameobjects serve as spell focus for Mooncloth, it is not possible to use this spell if the objects are deleted; move them into the ground instead; sol@73cd38ff |
+| sol@0c318397 | 2021-07-22 | X    | look for a better position as there's another Goldthorn nearby; done: sol@9d711c6f |
 | sol@586175ed | 2021-07-22 |      | verify changes; use UPDATE instead of DELETE/INSERT |
-| sol@1cf7f5c8 | 2021-07-22 |      | wrong: the NPC needs 2 gossip menu texts (paladin / non-paladin) and the conditions were not updated; a new menu ID is not necessary, just update text ID 10040 with 10044 for menu ID 8111; also adjust positions of Ambassador Sunsorrow and Champion Cyssa Dawnrose as they float in the air because of the stairs |
+| sol@1cf7f5c8 | 2021-07-22 | X    | wrong: the NPC needs 2 gossip menu texts (paladin / non-paladin) and the conditions were not updated; a new menu ID is not necessary, just update text ID 10040 with 10044 for menu ID 8111; also adjust positions of Ambassador Sunsorrow and Champion Cyssa Dawnrose as they float in the air because of the stairs; done: sol@a616c042 |
 | sol@38f7afea | 2021-07-21 |      | low prio (Localization: zhCN) |
 | sol@b226df1e | 2021-07-20 |      | verify/rework SQL script |
 | sol@58b0bca0 | 2021-07-18 |      | verify/rework SQL script |
