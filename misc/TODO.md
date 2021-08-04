@@ -2,32 +2,45 @@ TODOs:
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@26bf3624 | 2021-08-04 |      | verify/rework SQL script |
+| sol@bf84e72d | 2021-08-04 |      | verify/rework SQL script |
+| sol@d56f27ed | 2021-08-03 |      | verify new position / orientation |
+| sol@b8f6c2a1 | 2021-08-03 |      | verify/rework SQL script |
+| sol@9a820e2d | 2021-08-01 |      | try to implement a solution which touches only the spell script |
+| sol@80ff915f | 2021-08-01 |      | take over if needed; does not seem to fix anything and the original PR does not contain any information other than that it was copied blindly from TC |
+| sol@7f4c5561 | 2021-08-01 |      | take over if needed (the flag is not used anywhere) |
+| sol@87b2cd12 | 2021-07-31 |      | take over if needed; does not seem to fix anything and the original PR does not contain any information other than that it was copied blindly from TC |
+| sol@19bbe2cd | 2021-07-31 |      | verify changes; low prio (Dungeon: Zul'Gurub) |
+| sol@8f5100f3 | 2021-07-30 |      | verify/rework WP path; keep walking speed as he is bigger than the other Satyrs; set active |
+| sol@2e8301b7 | 2021-07-30 |      | Sol is not affected by the mentioned issue, but nevertheless verify/rework both WP paths and set the creatures active |
+| sol@00111e83 | 2021-07-30 |      | wrong: the skinning loot template 100003 is used by many other creatures, so don't change the loot template but pick a correct one or create a new one instead; the loot template is used for other high level creatures as well, those should also be fixed; low prio |
+| sol@2f63e81a | 2021-07-30 |      | take over if needed |
 | sol@1e36a644 | 2021-07-29 |      | verify/rework SQL script |
 | sol@c125f461 | 2021-07-29 |      | won't take over, properly fix the SAI instead incl. the comments; SMART\_ACTION\_FLEE\_FOR\_ASSIST does not use the target, so changing the target type is useless |
-| sol@201b3235 | 2021-07-28 |      | there are other Peacebloom spawns in Redridge Mountains, check the gameobject pool 950 and remove all of them |
+| sol@201b3235 | 2021-07-28 | X    | there are other Peacebloom spawns in Redridge Mountains, check the gameobject pool 950 and remove all of them; done: sol@2452b2ac |
 | sol@ecf022e8 | 2021-07-28 |      | verify/rework SQL script |
 | sol@f9125f13 | 2021-07-27 |      | probably not needed at all, the elevators were indeed dangerous on retail, e.g. the ones in the Undercity did kill many players |
 | sol@e37dba8d | 2021-07-26 |      | probably not needed at all, there are many comments in the internet which state that this was changed later to only be a simple zoom |
 | sol@6a5a901a | 2021-07-25 |      | verify/rework SQL script |
-| sol@e40ecbda | 2021-07-24 |      | verify changes; use UPDATE instead of DELETE/INSERT |
+| sol@e40ecbda | 2021-07-24 | X    | verify changes; use UPDATE instead of DELETE/INSERT; done: sol@65ced8b0 |
 | sol@9343cb51 | 2021-07-24 |      | won't take over, rework SAI instead |
 | sol@b5dfba05 | 2021-07-23 | X    | this is wrong for some of the creatures which are kneeling or lying on the ground; some positions should also be updated; done: sol@5c3a4a66 |
 | sol@1919f945 | 2021-07-23 |      | verify/rework SQL script |
 | sol@d6da679e | 2021-07-23 |      | verify/rework SQL script |
 | sol@79f5139d | 2021-07-23 |      | verify/rework SQL script |
 | sol@bbe1d4bb | 2021-07-23 |      | random movement already enabled, see sol@69c6e694; take over the new spawn points and create an appropriate creature pool (this has been forgotten in the AC commit) |
-| sol@9e1c8b3f | 2021-07-23 |      | verify/rework SQL script |
+| sol@9e1c8b3f | 2021-07-23 | X    | verify/rework SQL script; update: the AC commit will disable WP movement for GUID 93615, which is wrong; done: sol@31df2ed5 |
 | sol@74edb401 | 2021-07-23 | X    | verify position; update: wrong, won't take over; the new position is from Cataclysm, the old one is correct, so keep the old one |
 | sol@e5680dfe | 2021-07-22 |      | verify changes; low prio (Dungeon: Naxxramas) |
 | sol@2a4a2f35 | 2021-07-22 |      | wrong: should be a random world drop from level 40-60 mobs; there are already reference loot tables which deal with patterns, designs etc., but they are not really used anywhere: 24700,24701,24702,24703,24704,24705,24706,24707,24708,24709; try to find a better solution; low prio |
 | sol@7830ff5b | 2021-07-22 | X    | wrong: those gameobjects serve as spell focus for Mooncloth, it is not possible to use this spell if the objects are deleted; move them into the ground instead; sol@73cd38ff |
 | sol@0c318397 | 2021-07-22 | X    | look for a better position as there's another Goldthorn nearby; done: sol@9d711c6f |
-| sol@586175ed | 2021-07-22 |      | verify changes; use UPDATE instead of DELETE/INSERT |
+| sol@586175ed | 2021-07-22 | X    | verify changes; use UPDATE instead of DELETE/INSERT; applied another solution: sol@c5d7d4a0 |
 | sol@1cf7f5c8 | 2021-07-22 | X    | wrong: the NPC needs 2 gossip menu texts (paladin / non-paladin) and the conditions were not updated; a new menu ID is not necessary, just update text ID 10040 with 10044 for menu ID 8111; also adjust positions of Ambassador Sunsorrow and Champion Cyssa Dawnrose as they float in the air because of the stairs; done: sol@a616c042 |
 | sol@38f7afea | 2021-07-21 |      | low prio (Localization: zhCN) |
 | sol@b226df1e | 2021-07-20 |      | verify/rework SQL script |
-| sol@58b0bca0 | 2021-07-18 |      | verify/rework SQL script |
-| sol@fba9e265 | 2021-07-15 |      | verify every creature in this area; not all creatures have to move around; also check some of the already wandering creatures and disable random movement |
+| sol@58b0bca0 | 2021-07-18 | X    | verify/rework SQL script; done: sol@5479fec1 |
+| sol@fba9e265 | 2021-07-15 | X    | verify every creature in this area; not all creatures have to move around; also check some of the already wandering creatures and disable random movement; done: sol@90e01fc8 |
 | sol@1fa51e51 | 2021-07-12 |      | verify changes; low prio (Dungeon: Ulduar) |
 | sol@b5d9b3d5 | 2021-07-12 |      | verify issue/changes; rework SQL script |
 | sol@2e8a7498 | 2021-07-10 |      | verify/rework SQL script |
@@ -222,6 +235,7 @@ TODOs:
 | sol@3306f925 | 2021-03-20 | X    | verify/rework SQL script; rewrote the whole script: sol@cdecf52f |
 | sol@156f7966 | 2021-03-20 | X    | verify/rework SQL script; rewrote the whole script: sol@ad133e7e |
 | sol@aea4ce30 | 2021-03-20 |      | verify changes; low prio (Dungeon: Ulduar) |
+| sol@45790d18 | 2021-03-19 |      | keep as reference; take over single values if needed; don't blindly take over such mass updates |
 | sol@2ec26893 | 2021-03-18 | X    | change pool template ID as this one will overwrite "Minerals - Rolands Doom - Duskwood" from AC commit sol@910106a0; done: sol@d012a9c2 |
 | sol@8119bff9 | 2021-03-18 | X    | verify and rework SQL script; also check event script 5991; done: sol@363333f4 |
 | sol@79420c86 | 2021-03-17 | X    | position the creature in the water nearby; done: sol@80d13a0b |
