@@ -2,11 +2,25 @@ TODOs:
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@50202844 | 2021-08-09 |      | wrong: The trainers should only teach riding to players of the same faction; remove the conditions instead as they were taken from TC 4.3.4 |
+| sol@2b166d1b | 2021-08-08 |      | wrong: Shadow Weaving should not be applied with each tick, only on initial cast; find another solution |
+| sol@80da8284 | 2021-08-08 |      | choose another position |
+| sol@a81a6197 | 2021-08-07 |      | verify changes; low prio (Dungeon: Ahn'kahet) |
+| sol@5b057798 | 2021-08-07 |      | verify issue & changes; low prio (Dungeons) |
+| sol@d3d6d0be | 2021-08-07 |      | take over if needed (probably not worth the effort as this is just a minor issue) |
+| sol@d8c1ccb6 | 2021-08-06 |      | rework the SAI script instead |
+| sol@774abca7 | 2021-08-06 |      | verify changes |
+| sol@6bb5a885 | 2021-08-06 |      | verify/rework SQL script |
+| sol@4aed38d7 | 2021-08-06 |      | verify new spawn; keep old respawn time and idle movement |
+| sol@cda264cf | 2021-08-06 |      | verify new spawns; keep the old respawn time |
+| sol@31e41890 | 2021-08-06 |      | does not work correctly, use FilterTargets instead |
+| sol@32650b61 | 2021-08-05 |      | verify issue and changes |
+| sol@213e53c4 | 2021-08-05 | X    | verify/rework SQL script; update: won't take over, random movement looks much better; also the WP paths in this commit are basically all the same and have far too few points |
 | sol@26bf3624 | 2021-08-04 |      | verify/rework SQL script |
 | sol@bf84e72d | 2021-08-04 |      | verify/rework SQL script |
 | sol@d56f27ed | 2021-08-03 |      | verify new position / orientation |
 | sol@b8f6c2a1 | 2021-08-03 |      | verify/rework SQL script |
-| sol@9a820e2d | 2021-08-01 |      | try to implement a solution which touches only the spell script |
+| sol@9a820e2d | 2021-08-01 | X    | try to implement a solution which touches only the spell script; done: sol@83ca1ea5 |
 | sol@80ff915f | 2021-08-01 |      | take over if needed; does not seem to fix anything and the original PR does not contain any information other than that it was copied blindly from TC |
 | sol@7f4c5561 | 2021-08-01 |      | take over if needed (the flag is not used anywhere) |
 | sol@87b2cd12 | 2021-07-31 |      | take over if needed; does not seem to fix anything and the original PR does not contain any information other than that it was copied blindly from TC |
@@ -28,7 +42,7 @@ TODOs:
 | sol@1919f945 | 2021-07-23 |      | verify/rework SQL script |
 | sol@d6da679e | 2021-07-23 |      | verify/rework SQL script |
 | sol@79f5139d | 2021-07-23 |      | verify/rework SQL script |
-| sol@bbe1d4bb | 2021-07-23 |      | random movement already enabled, see sol@69c6e694; take over the new spawn points and create an appropriate creature pool (this has been forgotten in the AC commit) |
+| sol@bbe1d4bb | 2021-07-23 |      | random movement already enabled, see sol@69c6e694; take over the new spawn points and create an appropriate creature pool (this has been forgotten in the AC commit); update: AC added pooling, see commit sol@96a659c6; only take over pooling, not the respawn time |
 | sol@9e1c8b3f | 2021-07-23 | X    | verify/rework SQL script; update: the AC commit will disable WP movement for GUID 93615, which is wrong; done: sol@31df2ed5 |
 | sol@74edb401 | 2021-07-23 | X    | verify position; update: wrong, won't take over; the new position is from Cataclysm, the old one is correct, so keep the old one |
 | sol@e5680dfe | 2021-07-22 |      | verify changes; low prio (Dungeon: Naxxramas) |
@@ -168,7 +182,7 @@ TODOs:
 | sol@f96c5281 | 2021-05-04 |      | verify & adapt to Sol; low prio (Localization: esES, esMX) |
 | sol@1d919f84 | 2021-05-03 | X    | verify position and use UPDATE instead of DELETE/INSERT; done: sol@a4651f4a |
 | sol@292439ca | 2021-05-03 | X    | use UPDATE instead of DELETE/INSERT for the position; verify path; done: sol@37248ae7 |
-| sol@752595dc | 2021-05-01 |      | try to find another solution without changing the logic in NearestAttackableUnitInObjectRangeCheck |
+| sol@752595dc | 2021-05-01 | X    | try to find another solution without changing the logic in NearestAttackableUnitInObjectRangeCheck; done: sol@886788e0 |
 | sol@5ee7fed0 | 2021-04-30 |      | verify/rework SQL script |
 | sol@6389d2eb | 2021-04-30 |      | verify/rework SQL script |
 | sol@0b87bb0d | 2021-04-30 |      | verify changes; low prio (Dungeon: Deadmines) |

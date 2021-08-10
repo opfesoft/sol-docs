@@ -24,7 +24,7 @@
 
 ## Packages
 
-`sudo apt-get install git cmake make gcc-10 g++-10 ccache libmariadb-dev libssl-dev libbz2-dev libreadline-dev libncurses-dev mariadb-server`
+`sudo apt-get install git cmake make gcc-11 g++-11 ccache libmariadb-dev libssl-dev libbz2-dev libreadline-dev libncurses-dev mariadb-server`
 
 ## ACE installation
 
@@ -60,8 +60,8 @@ INSTALL_PREFIX = $(HOME)/sol-srv/lib/ace
 
 - Install (here gcc 10 is used):
 ```
-export CC='gcc-10'
-export CXX='g++-10'
+export CC='gcc-11'
+export CXX='g++-11'
 cd $ACE_ROOT/ace
 make -j $(($(nproc)+2))
 make install
