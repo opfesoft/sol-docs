@@ -2,6 +2,9 @@ TODOs:
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@300dc161 | 2021-08-11 |      | too generic, this affects all spells with SPELL\_AURA\_HOVER which probably causes several side effects; better find a specific solution for Levitate; low prio as this is just a minor issue |
+| sol@166ccc4f | 2021-08-11 |      | not needed as the wrong AC commit sol@00111e83 was not taken over; only take over the changes concerning Parasitic Serpent, Vagash and Snort the Heckler |
+| sol@b5f91706 | 2021-08-10 |      | keep random movement for some of the spawns; disable random movement for other creatures in the camps |
 | sol@50202844 | 2021-08-09 |      | wrong: The trainers should only teach riding to players of the same faction; remove the conditions instead as they were taken from TC 4.3.4 |
 | sol@2b166d1b | 2021-08-08 |      | wrong: Shadow Weaving should not be applied with each tick, only on initial cast; find another solution |
 | sol@80da8284 | 2021-08-08 |      | choose another position |
@@ -9,23 +12,23 @@ TODOs:
 | sol@5b057798 | 2021-08-07 |      | verify issue & changes; low prio (Dungeons) |
 | sol@d3d6d0be | 2021-08-07 |      | take over if needed (probably not worth the effort as this is just a minor issue) |
 | sol@d8c1ccb6 | 2021-08-06 |      | rework the SAI script instead |
-| sol@774abca7 | 2021-08-06 |      | verify changes |
+| sol@774abca7 | 2021-08-06 | X    | verify changes; update: won't take over, looks awful with random movement |
 | sol@6bb5a885 | 2021-08-06 |      | verify/rework SQL script |
-| sol@4aed38d7 | 2021-08-06 |      | verify new spawn; keep old respawn time and idle movement |
-| sol@cda264cf | 2021-08-06 |      | verify new spawns; keep the old respawn time |
-| sol@31e41890 | 2021-08-06 |      | does not work correctly, use FilterTargets instead |
+| sol@4aed38d7 | 2021-08-06 | X    | verify new spawn; keep old respawn time and idle movement; done: sol@e06016d4 |
+| sol@cda264cf | 2021-08-06 | X    | verify new spawns; keep the old respawn time; update: the new spawns use the wrong map, seems like no one is testing this stuff anymore; done: sol@6972a636 |
+| sol@31e41890 | 2021-08-06 | X    | does not work correctly, use FilterTargets instead; done: sol@d574136d |
 | sol@32650b61 | 2021-08-05 |      | verify issue and changes |
 | sol@213e53c4 | 2021-08-05 | X    | verify/rework SQL script; update: won't take over, random movement looks much better; also the WP paths in this commit are basically all the same and have far too few points |
 | sol@26bf3624 | 2021-08-04 |      | verify/rework SQL script |
 | sol@bf84e72d | 2021-08-04 |      | verify/rework SQL script |
-| sol@d56f27ed | 2021-08-03 |      | verify new position / orientation |
+| sol@d56f27ed | 2021-08-03 | X    | verify new position / orientation; done: sol@4aa498d6 |
 | sol@b8f6c2a1 | 2021-08-03 |      | verify/rework SQL script |
 | sol@9a820e2d | 2021-08-01 | X    | try to implement a solution which touches only the spell script; done: sol@83ca1ea5 |
 | sol@80ff915f | 2021-08-01 |      | take over if needed; does not seem to fix anything and the original PR does not contain any information other than that it was copied blindly from TC |
 | sol@7f4c5561 | 2021-08-01 |      | take over if needed (the flag is not used anywhere) |
 | sol@87b2cd12 | 2021-07-31 |      | take over if needed; does not seem to fix anything and the original PR does not contain any information other than that it was copied blindly from TC |
 | sol@19bbe2cd | 2021-07-31 |      | verify changes; low prio (Dungeon: Zul'Gurub) |
-| sol@8f5100f3 | 2021-07-30 |      | verify/rework WP path; keep walking speed as he is bigger than the other Satyrs; set active |
+| sol@8f5100f3 | 2021-07-30 | X    | verify/rework WP path; keep walking speed as he is bigger than the other Satyrs; set active; update: the WP path has far too few points and some of the points float high above the ground, does not seem to be tested that much; done: sol@4c878298 |
 | sol@2e8301b7 | 2021-07-30 |      | Sol is not affected by the mentioned issue, but nevertheless verify/rework both WP paths and set the creatures active |
 | sol@00111e83 | 2021-07-30 |      | wrong: the skinning loot template 100003 is used by many other creatures, so don't change the loot template but pick a correct one or create a new one instead; the loot template is used for other high level creatures as well, those should also be fixed; low prio |
 | sol@2f63e81a | 2021-07-30 |      | take over if needed |

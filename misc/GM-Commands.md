@@ -162,10 +162,10 @@ Note: Some commands are working only by selecting a player or a creature. These 
 |instance|3|Syntax: .instance $subcommand Type .instance to see the list of possible subcommands or .help instance $subcommand to see info on subcommands|
 |itemmove|2|Syntax: .itemmove #sourceslotid #destinationslotid Move an item from slots #sourceslotid to #destinationslotid in your inventory Not yet implemented|
 |kick|2|Syntax: .kick [$charactername] [$reason] Kick the given character name from the world with or without reason. If no character name is provided then the selected player (except for yourself) will be kicked. If no reason is provided, default is "No Reason".|
-|learn all my talents|3|Syntax: .learn all my talents Learn all talents (and spells with first rank learned as talent) available for his class.|
-|learn all my spells|3|Syntax: .learn all my spells Learn all spells (except talents and spells with first rank learned as talent) available for his class.|
+|learn all my talents|3|Syntax: .learn all my talents Learn all talents available for the targeted player's class. The talent points will reset after login for normal players, GMs keep them.|
+|learn all my spells|3|Syntax: .learn all my spells Learn all spells available for the targeted player's class.|
 |learn all my pettalents|3|Syntax: .learn all my pettalents Learn all talents for your pet available for his creature type (only for hunter pets).|
-|learn all my class|3|Syntax: .learn all my class Learn all spells and talents available for his class.|
+|learn all my class|3|Syntax: .learn all my class Learn all spells and talents available for the targeted player's class. The talent points will reset after login for normal players, GMs keep them.|
 |learn all gm|2|Syntax: .learn all gm Learn all default spells for Game Masters.|
 |learn all lang|1|Syntax: .learn all lang Learn all languages|
 |learn all default|1|Syntax: .learn all default [$playername] Learn for selected/$playername player all default spells for his race/class and spells rewarded by completed quests.|
