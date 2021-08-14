@@ -2,12 +2,14 @@ TODOs:
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@2ef25c63 | 2021-08-13 |      | verify changes; verify the creatures in the area |
+| sol@0345de19 | 2021-08-12 |      | verify/rework SQL script |
 | sol@300dc161 | 2021-08-11 |      | too generic, this affects all spells with SPELL\_AURA\_HOVER which probably causes several side effects; better find a specific solution for Levitate; low prio as this is just a minor issue |
-| sol@166ccc4f | 2021-08-11 |      | not needed as the wrong AC commit sol@00111e83 was not taken over; only take over the changes concerning Parasitic Serpent, Vagash and Snort the Heckler |
-| sol@b5f91706 | 2021-08-10 |      | keep random movement for some of the spawns; disable random movement for other creatures in the camps |
-| sol@50202844 | 2021-08-09 |      | wrong: The trainers should only teach riding to players of the same faction; remove the conditions instead as they were taken from TC 4.3.4 |
+| sol@166ccc4f | 2021-08-11 | X    | not needed as the wrong AC commit sol@00111e83 was not taken over; only take over the changes concerning Parasitic Serpent, Vagash and Snort the Heckler; done: sol@2c7be96a (only took over the changes concerning Parasitic Serpent, the other ones are ok, no need to update them) |
+| sol@b5f91706 | 2021-08-10 | X    | keep random movement for some of the spawns; disable random movement for other creatures in the camps; done: sol@b10a3ed8 |
+| sol@50202844 | 2021-08-09 | X    | wrong: The trainers should only teach riding to players of the same faction; remove the conditions instead as they were taken from TC 4.3.4; update: the conditions are remnants from classic where each faction mount needed a separate riding skill, e.g. "Undead Horsemanship", "Ram Riding" etc.; done: sol@de789b6a |
 | sol@2b166d1b | 2021-08-08 |      | wrong: Shadow Weaving should not be applied with each tick, only on initial cast; find another solution |
-| sol@80da8284 | 2021-08-08 |      | choose another position |
+| sol@80da8284 | 2021-08-08 | X    | choose another position; done: sol@328d27de |
 | sol@a81a6197 | 2021-08-07 |      | verify changes; low prio (Dungeon: Ahn'kahet) |
 | sol@5b057798 | 2021-08-07 |      | verify issue & changes; low prio (Dungeons) |
 | sol@d3d6d0be | 2021-08-07 |      | take over if needed (probably not worth the effort as this is just a minor issue) |
@@ -17,7 +19,7 @@ TODOs:
 | sol@4aed38d7 | 2021-08-06 | X    | verify new spawn; keep old respawn time and idle movement; done: sol@e06016d4 |
 | sol@cda264cf | 2021-08-06 | X    | verify new spawns; keep the old respawn time; update: the new spawns use the wrong map, seems like no one is testing this stuff anymore; done: sol@6972a636 |
 | sol@31e41890 | 2021-08-06 | X    | does not work correctly, use FilterTargets instead; done: sol@d574136d |
-| sol@32650b61 | 2021-08-05 |      | verify issue and changes |
+| sol@32650b61 | 2021-08-05 | X    | verify issue and changes; update: won't take over, Deep Wounds should not proc of ranged weapons (even if this might have been the case on retail); also the solution is too generic and could cause several side effects |
 | sol@213e53c4 | 2021-08-05 | X    | verify/rework SQL script; update: won't take over, random movement looks much better; also the WP paths in this commit are basically all the same and have far too few points |
 | sol@26bf3624 | 2021-08-04 |      | verify/rework SQL script |
 | sol@bf84e72d | 2021-08-04 |      | verify/rework SQL script |
@@ -28,7 +30,7 @@ TODOs:
 | sol@7f4c5561 | 2021-08-01 |      | take over if needed (the flag is not used anywhere) |
 | sol@87b2cd12 | 2021-07-31 |      | take over if needed; does not seem to fix anything and the original PR does not contain any information other than that it was copied blindly from TC |
 | sol@19bbe2cd | 2021-07-31 |      | verify changes; low prio (Dungeon: Zul'Gurub) |
-| sol@8f5100f3 | 2021-07-30 | X    | verify/rework WP path; keep walking speed as he is bigger than the other Satyrs; set active; update: the WP path has far too few points and some of the points float high above the ground, does not seem to be tested that much; done: sol@4c878298 |
+| sol@8f5100f3 | 2021-07-30 | X    | verify/rework WP path; keep walking speed as he is bigger than the other Satyrs; set active; update: the WP path has far too few points and some of the points float high above the ground, does not seem to have been tested that much; done: sol@4c878298 |
 | sol@2e8301b7 | 2021-07-30 |      | Sol is not affected by the mentioned issue, but nevertheless verify/rework both WP paths and set the creatures active |
 | sol@00111e83 | 2021-07-30 |      | wrong: the skinning loot template 100003 is used by many other creatures, so don't change the loot template but pick a correct one or create a new one instead; the loot template is used for other high level creatures as well, those should also be fixed; low prio |
 | sol@2f63e81a | 2021-07-30 |      | take over if needed |
@@ -234,8 +236,8 @@ TODOs:
 | sol@9b9e070c | 2021-04-01 |      | verify changes |
 | sol@12165b81 | 2021-04-01 |      | verify/rework SQL script |
 | sol@86f6ec3c | 2021-04-01 |      | verify/rework SQL script (see also AC commit sol@81c07178) |
-| sol@4e112a89 | 2021-04-01 |      | verify/rework SQL script |
-| sol@f38e63cc | 2021-04-01 |      | verify/rework SQL script |
+| sol@4e112a89 | 2021-04-01 | X    | verify/rework SQL script; implemented another solution: sol@54dee951 |
+| sol@f38e63cc | 2021-04-01 | X    | verify/rework SQL script; implemented another solution: sol@dd0d64d4 |
 | sol@a9ba546c | 2021-04-01 | X    | verify gameobjects & positions; done: sol@ccb0d6a3 |
 | sol@4c0467c5 | 2021-04-01 | X    | verify/rework SQL script (also see sol@4c357c60); update: contains too many bugs and causes side effects (e.g. using the wrong gameobject 180779 which is actually spawned in Northrend); rework the existing script and use the values according to TC's CreatureScript "npc\_demolitionist\_legoso"; completely rewritten: sol@056f733a |
 | sol@10c56336 | 2021-04-01 | X    | verify gameobjects & positions; done: sol@ccb0d6a3 |
