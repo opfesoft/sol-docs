@@ -1818,7 +1818,7 @@ This is the probability of the event to occur as a percentage from 0-100. So, if
 </p></td>
 <td><p><br />
 </p></td>
-<td><p>Set event phase 0-12 (the actual values, no bit mask!)</p></td>
+<td><p>Set event phase 0-12; the event phase is set to 0 on reset of the script owner (e.g. after combat, can be disabled using SMART_ACTION_SET_EVENT_PHASE_RESET)</p></td>
 </tr>
 <tr>
 <td><p>SMART_ACTION_INC_EVENT_PHASE</p></td>
@@ -1833,7 +1833,7 @@ This is the probability of the event to occur as a percentage from 0-100. So, if
 </p></td>
 <td><p><br />
 </p></td>
-<td><p>Set param1 OR param2 (not both). Value 0 has no effect.</p></td>
+<td><p>Set param1 OR param2 (not both); Value 0 has no effect; the event phase is set to 0 on reset (can be disabled using SMART_ACTION_SET_EVENT_PHASE_RESET)</p></td>
 </tr>
 <tr>
 <td><p>SMART_ACTION_EVADE</p></td>
@@ -2466,7 +2466,7 @@ if set to 0 only aggressive / hostile NPCs attack</p></td>
 </p></td>
 <td><p><br />
 </p></td>
-<td><p>If reset is 0 the counter with the specified ID is increased by the given value; if reset is 1 the counter is set to the value.</p></td>
+<td><p>If reset is 0 the counter with the specified ID is increased by the given value; if reset is 1 the counter is set to the value; the counters are cleared on reset of the script owner (e.g. after combat)</p></td>
 </tr>
 <tr>
 <td><p>SMART_ACTION_STORE_TARGET_LIST</p></td>

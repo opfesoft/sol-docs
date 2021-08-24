@@ -2,7 +2,30 @@ TODOs:
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
-| sol@2ef25c63 | 2021-08-13 |      | verify changes; verify the creatures in the area |
+| sol@52b78360 | 2021-08-24 |      | verify/rework SQL script; check every ore location; low prio |
+| sol@c774899e | 2021-08-24 |      | use UPDATE instead of DELETE/INSERT |
+| sol@1e50a902 | 2021-08-24 |      | verify/rework SQL script; use GroupId 1 for entry 11497 |
+| sol@690187cb | 2021-08-22 |      | won't take over, fix CreatureScript instead (bosses use their own AI); low prio (Dungeon: Lower Blackrock Spire) |
+| sol@5f678053 | 2021-08-22 |      | try to find another solution as this one looks awkward; low prio as this is just a minor issue |
+| sol@26cc8c4f | 2021-08-21 |      | use other position |
+| sol@e9f4006e | 2021-08-21 |      | verify changes; low prio (Dungeon: Ulduar) |
+| sol@4cc00f54 | 2021-08-20 |      | won't take over, fix CreatureScript instead (bosses use their own AI); low prio (Dungeon: Lower Blackrock Spire) |
+| sol@31cc968d | 2021-08-20 |      | only take over item 16716 |
+| sol@05d0cdd1 | 2021-08-20 |      | only insert the creature with GUID 3110383; verify position |
+| sol@c6c3aa55 | 2021-08-19 |      | verify issue & changes; low prio (Dungeon: Deadmines) |
+| sol@122fd3ec | 2021-08-19 |      | verify issue & changes |
+| sol@02da6856 | 2021-08-18 |      | verify the actual issue |
+| sol@06bb81fe | 2021-08-18 |      | use other position |
+| sol@f16f8798 | 2021-08-17 |      | use other positions and random movement |
+| sol@0e6284f2 | 2021-08-17 |      | use CONDITION\_QUESTSTATE instead |
+| sol@1e84e062 | 2021-08-17 |      | not needed, just add SPELL\_ATTR3\_NO\_INITIAL\_AGGRO |
+| sol@6b5c3ed0 | 2021-08-17 |      | take over if needed |
+| sol@9b7c6bff | 2021-08-17 |      | wrong: the quest "Gaining Acceptance" is not meant to be repeatable, it should be replaced by "Gaining Even More Acceptance"; currently both quests are visible, this is the only thing which should be fixed |
+| sol@00109650 | 2021-08-16 |      | wrong: fix spell instead of target type; the creature should use "Frostbolt Volley" (8398), not "Frostbolt" (15043) |
+| sol@fcf344b5 | 2021-08-16 |      | verify/rework SQL script |
+| sol@28a76464 | 2021-08-16 |      | verify issue & changes |
+| sol@004af40c | 2021-08-14 |      | take over if needed |
+| sol@2ef25c63 | 2021-08-13 | X    | verify changes; verify the creatures in the area; done: sol@04c09b2f |
 | sol@0345de19 | 2021-08-12 |      | verify/rework SQL script |
 | sol@300dc161 | 2021-08-11 |      | too generic, this affects all spells with SPELL\_AURA\_HOVER which probably causes several side effects; better find a specific solution for Levitate; low prio as this is just a minor issue |
 | sol@166ccc4f | 2021-08-11 | X    | not needed as the wrong AC commit sol@00111e83 was not taken over; only take over the changes concerning Parasitic Serpent, Vagash and Snort the Heckler; done: sol@2c7be96a (only took over the changes concerning Parasitic Serpent, the other ones are ok, no need to update them) |
@@ -13,7 +36,7 @@ TODOs:
 | sol@a81a6197 | 2021-08-07 |      | verify changes; low prio (Dungeon: Ahn'kahet) |
 | sol@5b057798 | 2021-08-07 |      | verify issue & changes; low prio (Dungeons) |
 | sol@d3d6d0be | 2021-08-07 |      | take over if needed (probably not worth the effort as this is just a minor issue) |
-| sol@d8c1ccb6 | 2021-08-06 |      | rework the SAI script instead |
+| sol@d8c1ccb6 | 2021-08-06 | X    | rework the SAI script instead; done: sol@aed32846 |
 | sol@774abca7 | 2021-08-06 | X    | verify changes; update: won't take over, looks awful with random movement |
 | sol@6bb5a885 | 2021-08-06 |      | verify/rework SQL script |
 | sol@4aed38d7 | 2021-08-06 | X    | verify new spawn; keep old respawn time and idle movement; done: sol@e06016d4 |
@@ -231,11 +254,11 @@ TODOs:
 | sol@7413c17e | 2021-04-04 |      | verify changes & issue (cannot reproduce on Sol); low prio |
 | sol@0d8aa2e8 | 2021-04-03 |      | take over if needed |
 | sol@6dc4ca85 | 2021-04-02 |      | verify changes; low prio (Dungeon: Naxxramas) |
-| sol@1b722dfc | 2021-04-02 |      | verify/rework SQL script |
-| sol@0bbe5fa4 | 2021-04-01 |      | verify/rework SQL script |
-| sol@9b9e070c | 2021-04-01 |      | verify changes |
-| sol@12165b81 | 2021-04-01 |      | verify/rework SQL script |
-| sol@86f6ec3c | 2021-04-01 |      | verify/rework SQL script (see also AC commit sol@81c07178) |
+| sol@1b722dfc | 2021-04-02 | x    | verify/rework SQL script; done: sol@16d6e03c |
+| sol@0bbe5fa4 | 2021-04-01 | X    | verify/rework SQL script; implemented another solution: sol@cd296c38 |
+| sol@9b9e070c | 2021-04-01 | X    | verify changes; Sol does not seem to be affected by these issues |
+| sol@12165b81 | 2021-04-01 | X    | verify/rework SQL script; done: sol@a738b2f1 |
+| sol@86f6ec3c | 2021-04-01 | X    | verify/rework SQL script (see also AC commit sol@81c07178); implemented another solution: sol@0d37f7e0 |
 | sol@4e112a89 | 2021-04-01 | X    | verify/rework SQL script; implemented another solution: sol@54dee951 |
 | sol@f38e63cc | 2021-04-01 | X    | verify/rework SQL script; implemented another solution: sol@dd0d64d4 |
 | sol@a9ba546c | 2021-04-01 | X    | verify gameobjects & positions; done: sol@ccb0d6a3 |
