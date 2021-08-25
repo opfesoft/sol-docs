@@ -2,6 +2,14 @@ TODOs:
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@f039ccc3 | 2021-08-25 |      | verify/rework SQL script |
+| sol@015f8802 | 2021-08-25 |      | won't take over, fix CreatureScript instead (bosses use their own AI); low prio (Dungeon: Lower Blackrock Spire) |
+| sol@8c06c1ed | 2021-08-24 |      | verify/rework SQL script |
+| sol@032ca32a | 2021-08-24 |      | does not seem to work, find another solution; low prio (minor issue) |
+| sol@940c30a1 | 2021-08-24 |      | verify changes and check the creatures in the area |
+| sol@ec71301b | 2021-08-24 |      | won't take over; try to find a generic solution as spells like "Rain of Fire" are also affected; low prio as this is just a minor issue |
+| sol@7ed0daa9 | 2021-08-24 |      | verify/rework SQL script |
+| sol@1b7d3708 | 2021-08-24 |      | verify issue & changes; take over if needed |
 | sol@52b78360 | 2021-08-24 |      | verify/rework SQL script; check every ore location; low prio |
 | sol@c774899e | 2021-08-24 |      | use UPDATE instead of DELETE/INSERT |
 | sol@1e50a902 | 2021-08-24 |      | verify/rework SQL script; use GroupId 1 for entry 11497 |
@@ -13,12 +21,12 @@ TODOs:
 | sol@31cc968d | 2021-08-20 |      | only take over item 16716 |
 | sol@05d0cdd1 | 2021-08-20 |      | only insert the creature with GUID 3110383; verify position |
 | sol@c6c3aa55 | 2021-08-19 |      | verify issue & changes; low prio (Dungeon: Deadmines) |
-| sol@122fd3ec | 2021-08-19 |      | verify issue & changes |
+| sol@122fd3ec | 2021-08-19 | X    | verify issue & changes; won't take over: on-use abilities should create threat |
 | sol@02da6856 | 2021-08-18 |      | verify the actual issue |
 | sol@06bb81fe | 2021-08-18 |      | use other position |
 | sol@f16f8798 | 2021-08-17 |      | use other positions and random movement |
 | sol@0e6284f2 | 2021-08-17 |      | use CONDITION\_QUESTSTATE instead |
-| sol@1e84e062 | 2021-08-17 |      | not needed, just add SPELL\_ATTR3\_NO\_INITIAL\_AGGRO |
+| sol@1e84e062 | 2021-08-17 | X    | not needed, just add SPELL\_ATTR3\_NO\_INITIAL\_AGGRO; done: sol@5674a4f9 |
 | sol@6b5c3ed0 | 2021-08-17 |      | take over if needed |
 | sol@9b7c6bff | 2021-08-17 |      | wrong: the quest "Gaining Acceptance" is not meant to be repeatable, it should be replaced by "Gaining Even More Acceptance"; currently both quests are visible, this is the only thing which should be fixed |
 | sol@00109650 | 2021-08-16 |      | wrong: fix spell instead of target type; the creature should use "Frostbolt Volley" (8398), not "Frostbolt" (15043) |
@@ -226,16 +234,16 @@ TODOs:
 | sol@c95d1f72 | 2021-04-23 |      | verify changes; update: find another solution as this one seems to be wrong (removes the check concerning boss encounters) |
 | sol@085be43e | 2021-04-19 |      | verify/rework SQL script |
 | sol@6d0ebdfb | 2021-04-18 |      | wrong; instead of removing the reference from the other creatures remove the item from table "reference\_loot\_template" and add it directly to "creature\_loot\_template"; do the same for Humbert's other items (Pants -> Dun Garok Priest, Chestpiece -> Dun Garok Mountaineer & Tamra Stormpike) |
-| sol@b5409a18 | 2021-04-18 |      | verify SQL script; instead of removing the broadcast text ID fix the broadcast text itself |
+| sol@b5409a18 | 2021-04-18 | X    | verify SQL script; instead of removing the broadcast text ID fix the broadcast text itself; done: sol@c3f52381 |
 | sol@9bf10f90 | 2021-04-18 | X    | verify position and use UPDATE instead of DELETE/INSERT; chose another position: sol@2e739a95 |
 | sol@53a21ff7 | 2021-04-18 |      | verify/rework SQL script |
 | sol@acce0d48 | 2021-04-18 |      | verify/rework SQL script |
-| sol@42dde8c7 | 2021-04-16 |      | verify/rework SQL script |
-| sol@62635ca5 | 2021-04-13 |      | only take over the DELETE statements for the duplicates; no need to change the gameobject IDs, instead updates to "gameobject\_template\_locale" should be used to add localized names |
+| sol@42dde8c7 | 2021-04-16 |      | verify/rework SQL script; update: this SQL script fixes nothing, it just changes the SAI comments; in fact it introduces new bugs because it deletes broadcast text IDs from creature texts; won't take over, rework the existing SAI instead |
+| sol@62635ca5 | 2021-04-13 | X    | only take over the DELETE statements for the duplicates; no need to change the gameobject IDs, instead updates to "gameobject\_template\_locale" should be used to add localized names; done: sol@4bcc98df |
 | sol@41e37f2d | 2021-04-11 | X    | only update z position; enable random movement; done: sol@9f908dac |
 | sol@91d23c70 | 2021-04-11 | X    | only update z position; done: sol@f334662d |
-| sol@d1f4306e | 2021-04-11 |      | change pool template ID as this one will overwrite "Treasures - Teldrassil" from AC commit sol@74f4ba97 |
-| sol@2d020575 | 2021-04-11 |      | verify/rework SQL script |
+| sol@d1f4306e | 2021-04-11 | X    | change pool template ID as this one will overwrite "Treasures - Teldrassil" from AC commit sol@74f4ba97; update: not needed anymore as both chests belong to pool template 11655 (see sol@b45d7101) |
+| sol@2d020575 | 2021-04-11 | X    | verify/rework SQL script; implemented another solution: sol@fe2d140e |
 | sol@40b951fb | 2021-04-11 | X    | only update z position; done: sol@5ecf266c |
 | sol@10954b6d | 2021-04-11 | X    | verify drop chances; done: sol@318db455 |
 | sol@577bee84 | 2021-04-11 | X    | verify/rework loot chances; seems to be wrong that all are equal; perhaps just add money to the loot instead of changing the chances (check for all junkboxes); done: sol@bb7956f0 |
