@@ -2,39 +2,44 @@ TODOs:
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@96addc67 | 2021-08-26 |      | verify/rework SQL script |
+| sol@45218224 | 2021-08-26 |      | take over if needed |
+| sol@f23d42c0 | 2021-08-26 |      | take over if needed |
+| sol@bef68244 | 2021-08-25 |      | verify/rework SQL script |
 | sol@f039ccc3 | 2021-08-25 |      | verify/rework SQL script |
+| sol@a8c0a2cc | 2021-08-25 |      | take over if needed (could probably cause performance issues) |
 | sol@015f8802 | 2021-08-25 |      | won't take over, fix CreatureScript instead (bosses use their own AI); low prio (Dungeon: Lower Blackrock Spire) |
 | sol@8c06c1ed | 2021-08-24 |      | verify/rework SQL script |
 | sol@032ca32a | 2021-08-24 |      | does not seem to work, find another solution; low prio (minor issue) |
 | sol@940c30a1 | 2021-08-24 |      | verify changes and check the creatures in the area |
 | sol@ec71301b | 2021-08-24 |      | won't take over; try to find a generic solution as spells like "Rain of Fire" are also affected; low prio as this is just a minor issue |
-| sol@7ed0daa9 | 2021-08-24 |      | verify/rework SQL script |
+| sol@7ed0daa9 | 2021-08-24 | X    | verify/rework SQL script; update: won't take over, random movement looks much better; also the WP paths in this commit are basically all the same |
 | sol@1b7d3708 | 2021-08-24 |      | verify issue & changes; take over if needed |
 | sol@52b78360 | 2021-08-24 |      | verify/rework SQL script; check every ore location; low prio |
 | sol@c774899e | 2021-08-24 |      | use UPDATE instead of DELETE/INSERT |
 | sol@1e50a902 | 2021-08-24 |      | verify/rework SQL script; use GroupId 1 for entry 11497 |
 | sol@690187cb | 2021-08-22 |      | won't take over, fix CreatureScript instead (bosses use their own AI); low prio (Dungeon: Lower Blackrock Spire) |
 | sol@5f678053 | 2021-08-22 |      | try to find another solution as this one looks awkward; low prio as this is just a minor issue |
-| sol@26cc8c4f | 2021-08-21 |      | use other position |
+| sol@26cc8c4f | 2021-08-21 | X    | use other position; done: sol@fdaed852 |
 | sol@e9f4006e | 2021-08-21 |      | verify changes; low prio (Dungeon: Ulduar) |
 | sol@4cc00f54 | 2021-08-20 |      | won't take over, fix CreatureScript instead (bosses use their own AI); low prio (Dungeon: Lower Blackrock Spire) |
-| sol@31cc968d | 2021-08-20 |      | only take over item 16716 |
-| sol@05d0cdd1 | 2021-08-20 |      | only insert the creature with GUID 3110383; verify position |
+| sol@31cc968d | 2021-08-20 | X    | only take over item 16716; done: sol@c7fcdc55 |
+| sol@05d0cdd1 | 2021-08-20 | X    | only insert the creature with GUID 3110383; verify position; done: sol@ed844681 |
 | sol@c6c3aa55 | 2021-08-19 |      | verify issue & changes; low prio (Dungeon: Deadmines) |
 | sol@122fd3ec | 2021-08-19 | X    | verify issue & changes; won't take over: on-use abilities should create threat |
-| sol@02da6856 | 2021-08-18 |      | verify the actual issue |
-| sol@06bb81fe | 2021-08-18 |      | use other position |
-| sol@f16f8798 | 2021-08-17 |      | use other positions and random movement |
-| sol@0e6284f2 | 2021-08-17 |      | use CONDITION\_QUESTSTATE instead |
+| sol@02da6856 | 2021-08-18 | X    | verify the actual issue; update: keep gossip, even if it was not available on retail |
+| sol@06bb81fe | 2021-08-18 | X    | use other position; done: sol@ea6a5f28 |
+| sol@f16f8798 | 2021-08-17 | X    | use other positions and random movement; done: sol@e00dcdbc |
+| sol@0e6284f2 | 2021-08-17 | X    | use CONDITION\_QUESTSTATE instead; done: sol@3fa719d4 |
 | sol@1e84e062 | 2021-08-17 | X    | not needed, just add SPELL\_ATTR3\_NO\_INITIAL\_AGGRO; done: sol@5674a4f9 |
 | sol@6b5c3ed0 | 2021-08-17 |      | take over if needed |
-| sol@9b7c6bff | 2021-08-17 |      | wrong: the quest "Gaining Acceptance" is not meant to be repeatable, it should be replaced by "Gaining Even More Acceptance"; currently both quests are visible, this is the only thing which should be fixed |
-| sol@00109650 | 2021-08-16 |      | wrong: fix spell instead of target type; the creature should use "Frostbolt Volley" (8398), not "Frostbolt" (15043) |
-| sol@fcf344b5 | 2021-08-16 |      | verify/rework SQL script |
-| sol@28a76464 | 2021-08-16 |      | verify issue & changes |
+| sol@9b7c6bff | 2021-08-17 | X    | wrong: the quest "Gaining Acceptance" is not meant to be repeatable, it should be replaced by "Gaining Even More Acceptance"; currently both quests are visible, this is the only thing which should be fixed; done: sol@3e1cb312 |
+| sol@00109650 | 2021-08-16 | X    | wrong: fix spell instead of target type; the creature should use "Frostbolt Volley" (8398), not "Frostbolt" (15043); done: sol@9e4cda7c |
+| sol@fcf344b5 | 2021-08-16 | X    | verify/rework SQL script; done: sol@17071ba9 |
+| sol@28a76464 | 2021-08-16 | X    | verify issue & changes; won't take over: the part removed here ensures that the boss "Broodlord Lashlayer" is not skipped |
 | sol@004af40c | 2021-08-14 |      | take over if needed |
 | sol@2ef25c63 | 2021-08-13 | X    | verify changes; verify the creatures in the area; done: sol@04c09b2f |
-| sol@0345de19 | 2021-08-12 |      | verify/rework SQL script |
+| sol@0345de19 | 2021-08-12 | X    | verify/rework SQL script; done: sol@0dff0ffa |
 | sol@300dc161 | 2021-08-11 |      | too generic, this affects all spells with SPELL\_AURA\_HOVER which probably causes several side effects; better find a specific solution for Levitate; low prio as this is just a minor issue |
 | sol@166ccc4f | 2021-08-11 | X    | not needed as the wrong AC commit sol@00111e83 was not taken over; only take over the changes concerning Parasitic Serpent, Vagash and Snort the Heckler; done: sol@2c7be96a (only took over the changes concerning Parasitic Serpent, the other ones are ok, no need to update them) |
 | sol@b5f91706 | 2021-08-10 | X    | keep random movement for some of the spawns; disable random movement for other creatures in the camps; done: sol@b10a3ed8 |
