@@ -2,6 +2,8 @@ TODOs:
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@6978d624 | 2021-08-29 |      | verify changes and adapt to Sol; low prio (GM command) |
+| sol@93466e58 | 2021-08-26 |      | verify changes and check the creatures in the area (including the critters) |
 | sol@96addc67 | 2021-08-26 |      | verify/rework SQL script |
 | sol@45218224 | 2021-08-26 |      | take over if needed |
 | sol@f23d42c0 | 2021-08-26 |      | take over if needed |
@@ -9,14 +11,14 @@ TODOs:
 | sol@f039ccc3 | 2021-08-25 |      | verify/rework SQL script |
 | sol@a8c0a2cc | 2021-08-25 |      | take over if needed (could probably cause performance issues) |
 | sol@015f8802 | 2021-08-25 |      | won't take over, fix CreatureScript instead (bosses use their own AI); low prio (Dungeon: Lower Blackrock Spire) |
-| sol@8c06c1ed | 2021-08-24 |      | verify/rework SQL script |
+| sol@8c06c1ed | 2021-08-24 | X    | verify/rework SQL script; implemented another solution and improved the quest "Control": sol@b3a6e620 |
 | sol@032ca32a | 2021-08-24 |      | does not seem to work, find another solution; low prio (minor issue) |
 | sol@940c30a1 | 2021-08-24 |      | verify changes and check the creatures in the area |
 | sol@ec71301b | 2021-08-24 |      | won't take over; try to find a generic solution as spells like "Rain of Fire" are also affected; low prio as this is just a minor issue |
 | sol@7ed0daa9 | 2021-08-24 | X    | verify/rework SQL script; update: won't take over, random movement looks much better; also the WP paths in this commit are basically all the same |
 | sol@1b7d3708 | 2021-08-24 |      | verify issue & changes; take over if needed |
 | sol@52b78360 | 2021-08-24 |      | verify/rework SQL script; check every ore location; low prio |
-| sol@c774899e | 2021-08-24 |      | use UPDATE instead of DELETE/INSERT |
+| sol@c774899e | 2021-08-24 |      | use UPDATE instead of DELETE/INSERT; update: won't take over, take over the TC version instead (see TC commit 513cbd289a9b6ac6c120c5f93a5b18f4cc04693e) |
 | sol@1e50a902 | 2021-08-24 |      | verify/rework SQL script; use GroupId 1 for entry 11497 |
 | sol@690187cb | 2021-08-22 |      | won't take over, fix CreatureScript instead (bosses use their own AI); low prio (Dungeon: Lower Blackrock Spire) |
 | sol@5f678053 | 2021-08-22 |      | try to find another solution as this one looks awkward; low prio as this is just a minor issue |
@@ -236,14 +238,14 @@ TODOs:
 | sol@98364e43 | 2021-04-25 |      | adapt to Sol; low prio (Localization: zhCN) |
 | sol@2e8ef021 | 2021-04-25 |      | verify changes; low prio (Dungeon: Scholomance) |
 | sol@472361a0 | 2021-04-25 |      | verify/rework SQL script |
-| sol@c95d1f72 | 2021-04-23 |      | verify changes; update: find another solution as this one seems to be wrong (removes the check concerning boss encounters) |
+| sol@c95d1f72 | 2021-04-23 | X    | verify changes; update: find another solution as this one seems to be wrong (removes the check concerning boss encounters); update: taken over anyway: sol@5d15e494 |
 | sol@085be43e | 2021-04-19 |      | verify/rework SQL script |
-| sol@6d0ebdfb | 2021-04-18 |      | wrong; instead of removing the reference from the other creatures remove the item from table "reference\_loot\_template" and add it directly to "creature\_loot\_template"; do the same for Humbert's other items (Pants -> Dun Garok Priest, Chestpiece -> Dun Garok Mountaineer & Tamra Stormpike) |
+| sol@6d0ebdfb | 2021-04-18 | X    | wrong; instead of removing the reference from the other creatures remove the item from table "reference\_loot\_template" and add it directly to "creature\_loot\_template"; do the same for Humbert's other items (Pants -> Dun Garok Priest, Chestpiece -> Dun Garok Mountaineer & Tamra Stormpike); done: sol@af3379a9 |
 | sol@b5409a18 | 2021-04-18 | X    | verify SQL script; instead of removing the broadcast text ID fix the broadcast text itself; done: sol@c3f52381 |
 | sol@9bf10f90 | 2021-04-18 | X    | verify position and use UPDATE instead of DELETE/INSERT; chose another position: sol@2e739a95 |
-| sol@53a21ff7 | 2021-04-18 |      | verify/rework SQL script |
-| sol@acce0d48 | 2021-04-18 |      | verify/rework SQL script |
-| sol@42dde8c7 | 2021-04-16 |      | verify/rework SQL script; update: this SQL script fixes nothing, it just changes the SAI comments; in fact it introduces new bugs because it deletes broadcast text IDs from creature texts; won't take over, rework the existing SAI instead |
+| sol@53a21ff7 | 2021-04-18 | X    | verify/rework SQL script; done: sol@73545a89 |
+| sol@acce0d48 | 2021-04-18 | X    | verify/rework SQL script; done: sol@f9a64aa5 |
+| sol@42dde8c7 | 2021-04-16 | X    | verify/rework SQL script; update: this SQL script fixes nothing, it just changes the SAI comments; in fact it introduces new bugs because it deletes broadcast text IDs from creature texts; won't take over, rework the existing SAI instead; done: sol@5c0f9fc9 |
 | sol@62635ca5 | 2021-04-13 | X    | only take over the DELETE statements for the duplicates; no need to change the gameobject IDs, instead updates to "gameobject\_template\_locale" should be used to add localized names; done: sol@4bcc98df |
 | sol@41e37f2d | 2021-04-11 | X    | only update z position; enable random movement; done: sol@9f908dac |
 | sol@91d23c70 | 2021-04-11 | X    | only update z position; done: sol@f334662d |
@@ -374,7 +376,7 @@ TODOs:
 | sol@0264289f | 2020-12-29 | X    | verify SQL script & texts; done: sol@5fd6cb2a |
 | sol@57a4f432 | 2020-12-27 | X    | verify SQL script; done: sol@7f9c41c0 |
 | sol@aec0dbb7 | 2020-12-25 |      | verify CreatureScript; low prio (Dungeon: Ulduar) |
-| sol@d710057a | 2020-12-25 |      | verify and rework SQL script / CreatureScript; low prio (Dungeon: Ulduar) |
+| sol@d710057a | 2020-12-25 |      | verify and rework SQL script / CreatureScript (also see sol@0d9bfdea); low prio (Dungeon: Ulduar) |
 | sol@1f5babf0 | 2020-12-22 |      | take over if needed |
 | sol@dd9d9e0c | 2020-12-15 | X    | verify and rework SQL script (see also AC commit sol@d54a860a); was just taken over from TC without further verification or evaluation (several bugs, script can be simplified and improved at the same time); done: sol@682d0bc1 |
 | sol@086ad6c9 | 2020-12-13 | X    | use the already existing broadcast texts; done: sol@1ea51fe0 |
