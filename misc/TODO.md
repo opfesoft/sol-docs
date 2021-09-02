@@ -2,6 +2,20 @@ TODOs:
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@2f9f9522 | 2021-09-02 |      | take over if needed |
+| sol@dd0b964a | 2021-09-01 |      | verify changes; low prio (Midsummer Fire Festival) |
+| sol@9d17889b | 2021-09-01 |      | verify/rework SQL script; compare with TC version |
+| sol@332e3e1b | 2021-09-01 |      | verify changes; pooling does not work for instanced maps, handle this via InstanceScript (e.g. similar to sol@95675ffb); low prio (Dungeon: Stratholme) |
+| sol@febdb592 | 2021-09-01 |      | won't take over, just set the drop chances to 5% for all creatures; Ur'dan should not drop the key |
+| sol@568fad6d | 2021-09-01 |      | verify/rework SQL script; low prio (Midsummer Fire Festival) |
+| sol@6386acd8 | 2021-09-01 |      | verify/rework SQL script |
+| sol@a0d9cd7f | 2021-09-01 |      | verify/rework SQL script |
+| sol@c27b2391 | 2021-09-01 |      | only enable random movement (increase radius); also decrease walking speed |
+| sol@498faf38 | 2021-09-01 |      | verify changes; low prio (Dungeons) |
+| sol@48e09fda | 2021-08-31 |      | verify/rework SQL script |
+| sol@bfaa32f2 | 2021-08-31 |      | verify changes; low prio (Dungeons) |
+| sol@33b3ea2f | 2021-08-31 |      | verify/rework SQL script; don't remove text id 3297 for the gossip menu, use a condition to show 2598 only if the quest has not been completed yet |
+| sol@bf18c770 | 2021-08-30 |      | verify/rework SQL script |
 | sol@6978d624 | 2021-08-29 |      | verify changes and adapt to Sol; low prio (GM command) |
 | sol@93466e58 | 2021-08-26 |      | verify changes and check the creatures in the area (including the critters) |
 | sol@96addc67 | 2021-08-26 |      | verify/rework SQL script |
@@ -9,7 +23,7 @@ TODOs:
 | sol@f23d42c0 | 2021-08-26 |      | take over if needed |
 | sol@bef68244 | 2021-08-25 |      | verify/rework SQL script |
 | sol@f039ccc3 | 2021-08-25 |      | verify/rework SQL script |
-| sol@a8c0a2cc | 2021-08-25 |      | take over if needed (could probably cause performance issues) |
+| sol@a8c0a2cc | 2021-08-25 |      | take over if needed (could probably cause performance issues; see also bugfix sol@c1119553) |
 | sol@015f8802 | 2021-08-25 |      | won't take over, fix CreatureScript instead (bosses use their own AI); low prio (Dungeon: Lower Blackrock Spire) |
 | sol@8c06c1ed | 2021-08-24 | X    | verify/rework SQL script; implemented another solution and improved the quest "Control": sol@b3a6e620 |
 | sol@032ca32a | 2021-08-24 |      | does not seem to work, find another solution; low prio (minor issue) |
@@ -211,7 +225,7 @@ TODOs:
 | sol@44c45aa2 | 2021-05-10 | X    | the script contains several bugs (e.g. wrong gameobject & map IDs); also don't change the respawn time for gameobjects which are contained in pools; done: sol@168ab5c6 |
 | sol@54c18cff | 2021-05-10 |      | verify/rework SQL script and check WP path |
 | sol@534ec53b | 2021-05-09 |      | verify/rework SQL script and compare with original CreatureScript |
-| sol@ea6c2321 | 2021-05-09 |      | verify/rework SQL script |
+| sol@ea6c2321 | 2021-05-09 |      | verify/rework SQL script; update: this is buggy, double-check the values (see AC commit sol@6f6234ae) |
 | sol@44babc3c | 2021-05-08 |      | implement another solution without copy/paste from TC; low prio as the pools are basically working, they just sometimes spawn 1 object less than specified |
 | sol@42659f06 | 2021-05-07 |      | remove associated WP paths; use wander distance 5 instead of 10 |
 | sol@3e1a2024 | 2021-05-06 | X    | verify creature pool; update: wrong, the pool is working correctly; chance 0 for all pool members means equal chance for all |
@@ -226,20 +240,20 @@ TODOs:
 | sol@1d919f84 | 2021-05-03 | X    | verify position and use UPDATE instead of DELETE/INSERT; done: sol@a4651f4a |
 | sol@292439ca | 2021-05-03 | X    | use UPDATE instead of DELETE/INSERT for the position; verify path; done: sol@37248ae7 |
 | sol@752595dc | 2021-05-01 | X    | try to find another solution without changing the logic in NearestAttackableUnitInObjectRangeCheck; done: sol@886788e0 |
-| sol@5ee7fed0 | 2021-04-30 |      | verify/rework SQL script |
-| sol@6389d2eb | 2021-04-30 |      | verify/rework SQL script |
+| sol@5ee7fed0 | 2021-04-30 | X    | verify/rework SQL script; done: sol@36f8d17b |
+| sol@6389d2eb | 2021-04-30 | X    | verify/rework SQL script; update: this is wrong, won't take over; the script removes gameobjects, inserts the exact same entries and removes these gameobjects from the appropriate pool; it also adds a bad SAI "fix" for an issue which has another root cause |
 | sol@0b87bb0d | 2021-04-30 |      | verify changes; low prio (Dungeon: Deadmines) |
 | sol@0372ddc1 | 2021-04-27 | X    | rework SQL script; verify positions; done: sol@ccb0d6a3 |
 | sol@28ce1e92 | 2021-04-25 | X    | verify position and use UPDATE instead of DELETE/INSERT; done: sol@3f0f8670 |
-| sol@96e0d2ca | 2021-04-25 |      | verify/rework SQL script; also remove sneak visual effect (UNIT\_FIELD\_BYTES\_1 flag 131072) |
-| sol@8ab6c569 | 2021-04-25 |      | verify/rework SQL script; verify loot |
+| sol@96e0d2ca | 2021-04-25 | X    | verify/rework SQL script; also remove sneak visual effect (UNIT\_FIELD\_BYTES\_1 flag 131072); done: sol@1f7cd054 |
+| sol@8ab6c569 | 2021-04-25 | X    | verify/rework SQL script; verify loot; update: this is wrong, won't take over: all reference loot entries have been removed and skinning loot has been added to creature loot; take over creature loot template from TC instead: sol@90ed6260 |
 | sol@620eb8e9 | 2021-04-25 |      | verify changes; low prio (Dungeon: Scholomance) |
-| sol@eaf90b6b | 2021-04-25 |      | verify changes; setting "Attributes" to 8192 (0x00002000) is wrong, correct value is 2097152 (0x00200000); also don't overwrite "Attributes" with a single value, use bitwise OR instead |
+| sol@eaf90b6b | 2021-04-25 | X    | verify changes (also see sol@83183fea, sol@16a57e57); setting "Attributes" to 8192 (0x00002000) is wrong, correct value is 2097152 (0x00200000); also don't overwrite "Attributes" with a single value, use bitwise OR instead; update: won't take over, as there's no proof that it should not be possible to parry, block or dodge Intercept/Charge |
 | sol@98364e43 | 2021-04-25 |      | adapt to Sol; low prio (Localization: zhCN) |
 | sol@2e8ef021 | 2021-04-25 |      | verify changes; low prio (Dungeon: Scholomance) |
-| sol@472361a0 | 2021-04-25 |      | verify/rework SQL script |
+| sol@472361a0 | 2021-04-25 | X    | verify/rework SQL script; done: sol@b426dde1 |
 | sol@c95d1f72 | 2021-04-23 | X    | verify changes; update: find another solution as this one seems to be wrong (removes the check concerning boss encounters); update: taken over anyway: sol@5d15e494 |
-| sol@085be43e | 2021-04-19 |      | verify/rework SQL script |
+| sol@085be43e | 2021-04-19 | X    | verify/rework SQL script; done: sol@e8b31591 |
 | sol@6d0ebdfb | 2021-04-18 | X    | wrong; instead of removing the reference from the other creatures remove the item from table "reference\_loot\_template" and add it directly to "creature\_loot\_template"; do the same for Humbert's other items (Pants -> Dun Garok Priest, Chestpiece -> Dun Garok Mountaineer & Tamra Stormpike); done: sol@af3379a9 |
 | sol@b5409a18 | 2021-04-18 | X    | verify SQL script; instead of removing the broadcast text ID fix the broadcast text itself; done: sol@c3f52381 |
 | sol@9bf10f90 | 2021-04-18 | X    | verify position and use UPDATE instead of DELETE/INSERT; chose another position: sol@2e739a95 |
