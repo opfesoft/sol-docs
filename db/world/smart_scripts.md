@@ -721,7 +721,7 @@ This is the probability of the event to occur as a percentage from 0-100. So, if
 <td><p>RepeatMax</p></td>
 <td><p><br />
 </p></td>
-<td>On Target Health Percentage</td>
+<td>On victim health percentage</td>
 </tr>
 <tr>
 <td><p>SMART_EVENT_VICTIM_CASTING</p></td>

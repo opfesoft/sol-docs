@@ -227,15 +227,15 @@ TODOs:
 | sol@534ec53b | 2021-05-09 |      | verify/rework SQL script and compare with original CreatureScript |
 | sol@ea6c2321 | 2021-05-09 |      | verify/rework SQL script; update: this is buggy, double-check the values (see AC commit sol@6f6234ae) |
 | sol@44babc3c | 2021-05-08 |      | implement another solution without copy/paste from TC; low prio as the pools are basically working, they just sometimes spawn 1 object less than specified |
-| sol@42659f06 | 2021-05-07 |      | remove associated WP paths; use wander distance 5 instead of 10 |
+| sol@42659f06 | 2021-05-07 | X    | remove associated WP paths; use wander distance 5 instead of 10; done: sol@48b734cd |
 | sol@3e1a2024 | 2021-05-06 | X    | verify creature pool; update: wrong, the pool is working correctly; chance 0 for all pool members means equal chance for all |
-| sol@926a3103 | 2021-05-06 |      | don't remove the broadcast text IDs, instead update the broadcast texts themselves |
+| sol@926a3103 | 2021-05-06 | X    | don't remove the broadcast text IDs, instead update the broadcast texts themselves; done: sol@e29ab7ec (replaced "Guild Master & Vendor" with "Guild Master", the other texts seem to be ok) |
 | sol@64461da3 | 2021-05-06 |      | verify & adapt to Sol; low prio (Localization: esES, esMX) |
 | sol@71d5d27e | 2021-05-06 |      | verify changes; low prio (Dungeon: Icecrown Citadel) |
 | sol@058f0c94 | 2021-05-06 |      | verify & adapt to Sol; low prio (Localization: esES, esMX) |
 | sol@37c3e051 | 2021-05-05 |      | verify & adapt to Sol; low prio (Localization: esES, esMX) |
-| sol@ad5ba1a7 | 2021-05-05 |      | verify/rework SQL script |
-| sol@74a54b49 | 2021-05-04 |      | don't remove the broadcast text ID, instead update the broadcast text itself |
+| sol@ad5ba1a7 | 2021-05-05 | X    | verify/rework SQL script; implemented another solution: sol@e2eaf399 |
+| sol@74a54b49 | 2021-05-04 | X    | don't remove the broadcast text ID, instead update the broadcast text itself; done: sol@f04c253c |
 | sol@f96c5281 | 2021-05-04 |      | verify & adapt to Sol; low prio (Localization: esES, esMX) |
 | sol@1d919f84 | 2021-05-03 | X    | verify position and use UPDATE instead of DELETE/INSERT; done: sol@a4651f4a |
 | sol@292439ca | 2021-05-03 | X    | use UPDATE instead of DELETE/INSERT for the position; verify path; done: sol@37248ae7 |
