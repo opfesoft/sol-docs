@@ -2,20 +2,28 @@ TODOs:
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@02b0b29f | 2021-09-06 |      | verify changes; low prio (minor issue) |
+| sol@50991bdc | 2021-09-05 |      | take over if needed; could cause several side effects |
+| sol@f5ef1220 | 2021-09-04 |      | verify changes and check the creatures in the area |
+| sol@6ed71767 | 2021-09-04 |      | keep as reference; take over single values if needed; don't blindly take over such mass updates |
+| sol@d8b3df09 | 2021-09-04 |      | low prio (Localization: zhCN) |
+| sol@49348256 | 2021-09-03 |      | verify changes and check the creatures in the area |
+| sol@392319ab | 2021-09-03 |      | verify quest chain and issue |
+| sol@37c72c17 | 2021-09-03 |      | wrong: just delete the second Healing Wave because the first one already affects the creature itself |
 | sol@2f9f9522 | 2021-09-02 |      | take over if needed |
 | sol@dd0b964a | 2021-09-01 |      | verify changes; low prio (Midsummer Fire Festival) |
 | sol@9d17889b | 2021-09-01 |      | verify/rework SQL script; compare with TC version |
 | sol@332e3e1b | 2021-09-01 |      | verify changes; pooling does not work for instanced maps, handle this via InstanceScript (e.g. similar to sol@95675ffb); low prio (Dungeon: Stratholme) |
-| sol@febdb592 | 2021-09-01 |      | won't take over, just set the drop chances to 5% for all creatures; Ur'dan should not drop the key |
+| sol@febdb592 | 2021-09-01 | X    | won't take over, just set the drop chances to 5% for all creatures; Ur'dan should not drop the key; done: sol@22347fee |
 | sol@568fad6d | 2021-09-01 |      | verify/rework SQL script; low prio (Midsummer Fire Festival) |
 | sol@6386acd8 | 2021-09-01 |      | verify/rework SQL script |
-| sol@a0d9cd7f | 2021-09-01 |      | verify/rework SQL script |
-| sol@c27b2391 | 2021-09-01 |      | only enable random movement (increase radius); also decrease walking speed |
+| sol@a0d9cd7f | 2021-09-01 | X    | verify/rework SQL script; done: sol@c81159a5 |
+| sol@c27b2391 | 2021-09-01 | X    | only enable random movement (increase radius); also decrease walking speed; done: sol@5cf51ed0 |
 | sol@498faf38 | 2021-09-01 |      | verify changes; low prio (Dungeons) |
 | sol@48e09fda | 2021-08-31 |      | verify/rework SQL script |
 | sol@bfaa32f2 | 2021-08-31 |      | verify changes; low prio (Dungeons) |
 | sol@33b3ea2f | 2021-08-31 |      | verify/rework SQL script; don't remove text id 3297 for the gossip menu, use a condition to show 2598 only if the quest has not been completed yet |
-| sol@bf18c770 | 2021-08-30 |      | verify/rework SQL script |
+| sol@bf18c770 | 2021-08-30 | X    | verify/rework SQL script; done: sol@72e90723 |
 | sol@6978d624 | 2021-08-29 |      | verify changes and adapt to Sol; low prio (GM command) |
 | sol@93466e58 | 2021-08-26 |      | verify changes and check the creatures in the area (including the critters) |
 | sol@96addc67 | 2021-08-26 |      | verify/rework SQL script |
@@ -225,7 +233,7 @@ TODOs:
 | sol@44c45aa2 | 2021-05-10 | X    | the script contains several bugs (e.g. wrong gameobject & map IDs); also don't change the respawn time for gameobjects which are contained in pools; done: sol@168ab5c6 |
 | sol@54c18cff | 2021-05-10 |      | verify/rework SQL script and check WP path |
 | sol@534ec53b | 2021-05-09 |      | verify/rework SQL script and compare with original CreatureScript |
-| sol@ea6c2321 | 2021-05-09 |      | verify/rework SQL script; update: this is buggy, double-check the values (see AC commit sol@6f6234ae) |
+| sol@ea6c2321 | 2021-05-09 | X    | verify/rework SQL script; update: this is buggy, double-check the values (see AC commit sol@6f6234ae); done: sol@edf21d96 |
 | sol@44babc3c | 2021-05-08 |      | implement another solution without copy/paste from TC; low prio as the pools are basically working, they just sometimes spawn 1 object less than specified |
 | sol@42659f06 | 2021-05-07 | X    | remove associated WP paths; use wander distance 5 instead of 10; done: sol@48b734cd |
 | sol@3e1a2024 | 2021-05-06 | X    | verify creature pool; update: wrong, the pool is working correctly; chance 0 for all pool members means equal chance for all |
