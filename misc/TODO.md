@@ -2,6 +2,14 @@ TODOs:
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@f07faedc | 2021-09-07 |      | won't take over, rework the SAI instead and add better comments |
+| sol@1f893f97 | 2021-09-07 |      | rework the whole quest: Yeh'kinya's Bramble should only be usable near a Vale Screecher or Rogue Vale Screecher corpse; set Screecher Spirit active so it will disappear even if no player is near; improve SAI and SAI comments |
+| sol@2e41da54 | 2021-09-07 |      | take over if needed |
+| sol@e9be0483 | 2021-09-07 |      | verify issue |
+| sol@8a13fff5 | 2021-09-07 |      | it is not necessary to create a new pool, just adjust the existing one: remove GO GUID 14999 from the spawns and the pool and add GUID 6248 to the pool instead |
+| sol@7d7eac01 | 2021-09-07 |      | verify/rework SQL script; low prio (Midsummer Fire Festival) |
+| sol@55831fab | 2021-09-07 |      | contains wrong GUIDs in the comments; also use pool template ID 507 instead (501-506 are similar pools) |
+| sol@52d9f532 | 2021-09-07 |      | verify/rework SQL script |
 | sol@02b0b29f | 2021-09-06 |      | verify changes; low prio (minor issue) |
 | sol@50991bdc | 2021-09-05 |      | take over if needed; could cause several side effects |
 | sol@f5ef1220 | 2021-09-04 |      | verify changes and check the creatures in the area |
@@ -9,8 +17,8 @@ TODOs:
 | sol@d8b3df09 | 2021-09-04 |      | low prio (Localization: zhCN) |
 | sol@49348256 | 2021-09-03 |      | verify changes and check the creatures in the area |
 | sol@392319ab | 2021-09-03 |      | verify quest chain and issue |
-| sol@37c72c17 | 2021-09-03 |      | wrong: just delete the second Healing Wave because the first one already affects the creature itself |
-| sol@2f9f9522 | 2021-09-02 |      | take over if needed |
+| sol@37c72c17 | 2021-09-03 | X    | wrong: just delete the second Healing Wave because the first one already affects the creature itself; done: sol@dbcdc006 |
+| sol@2f9f9522 | 2021-09-02 |      | take over if needed (also see sol@066d2ef8) |
 | sol@dd0b964a | 2021-09-01 |      | verify changes; low prio (Midsummer Fire Festival) |
 | sol@9d17889b | 2021-09-01 |      | verify/rework SQL script; compare with TC version |
 | sol@332e3e1b | 2021-09-01 |      | verify changes; pooling does not work for instanced maps, handle this via InstanceScript (e.g. similar to sol@95675ffb); low prio (Dungeon: Stratholme) |
@@ -232,7 +240,7 @@ TODOs:
 | sol@ca74d308 | 2021-05-10 | X    | use a single UPDATE statement using the creature IDs instead; done: sol@9094b20d |
 | sol@44c45aa2 | 2021-05-10 | X    | the script contains several bugs (e.g. wrong gameobject & map IDs); also don't change the respawn time for gameobjects which are contained in pools; done: sol@168ab5c6 |
 | sol@54c18cff | 2021-05-10 |      | verify/rework SQL script and check WP path |
-| sol@534ec53b | 2021-05-09 |      | verify/rework SQL script and compare with original CreatureScript |
+| sol@534ec53b | 2021-05-09 | X    | verify/rework SQL script and compare with original CreatureScript; not taken over, improved CreatureScript and WP path instead: sol@a5f4b19c |
 | sol@ea6c2321 | 2021-05-09 | X    | verify/rework SQL script; update: this is buggy, double-check the values (see AC commit sol@6f6234ae); done: sol@edf21d96 |
 | sol@44babc3c | 2021-05-08 |      | implement another solution without copy/paste from TC; low prio as the pools are basically working, they just sometimes spawn 1 object less than specified |
 | sol@42659f06 | 2021-05-07 | X    | remove associated WP paths; use wander distance 5 instead of 10; done: sol@48b734cd |
