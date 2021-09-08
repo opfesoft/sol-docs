@@ -2,6 +2,7 @@ TODOs:
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@8f47a6da | 2021-09-07 |      | contains many bugs, e.g. uses creature ID 15642 (Amani Shadowpriest) instead of 15462 (Spitting Scarab) and decreases(!) reputation for killing mobs which is completely wrong in this case; verify all creature IDs and reputation values |
 | sol@f07faedc | 2021-09-07 |      | won't take over, rework the SAI instead and add better comments |
 | sol@1f893f97 | 2021-09-07 |      | rework the whole quest: Yeh'kinya's Bramble should only be usable near a Vale Screecher or Rogue Vale Screecher corpse; set Screecher Spirit active so it will disappear even if no player is near; improve SAI and SAI comments |
 | sol@2e41da54 | 2021-09-07 |      | take over if needed |
@@ -239,7 +240,7 @@ TODOs:
 | sol@61325fd4 | 2021-05-11 |      | verify WP path; set active; rework SQL script |
 | sol@ca74d308 | 2021-05-10 | X    | use a single UPDATE statement using the creature IDs instead; done: sol@9094b20d |
 | sol@44c45aa2 | 2021-05-10 | X    | the script contains several bugs (e.g. wrong gameobject & map IDs); also don't change the respawn time for gameobjects which are contained in pools; done: sol@168ab5c6 |
-| sol@54c18cff | 2021-05-10 |      | verify/rework SQL script and check WP path |
+| sol@54c18cff | 2021-05-10 | X    | verify/rework SQL script and check WP path; rewrote existing SAI & WP movement: sol@e4e792a7 |
 | sol@534ec53b | 2021-05-09 | X    | verify/rework SQL script and compare with original CreatureScript; not taken over, improved CreatureScript and WP path instead: sol@a5f4b19c |
 | sol@ea6c2321 | 2021-05-09 | X    | verify/rework SQL script; update: this is buggy, double-check the values (see AC commit sol@6f6234ae); done: sol@edf21d96 |
 | sol@44babc3c | 2021-05-08 |      | implement another solution without copy/paste from TC; low prio as the pools are basically working, they just sometimes spawn 1 object less than specified |

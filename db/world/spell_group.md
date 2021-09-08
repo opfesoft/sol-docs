@@ -75,17 +75,18 @@ SpellId from Spell.dbc. If spell is added to spell\_ranks, spell\_id has to be f
 
 ### special\_flag
 
-| Flag                                         | Value  |
-|----------------------------------------------|--------|
-| SPELL_GROUP_SPECIAL_FLAG_NONE                | 0x000  |
-| SPELL_GROUP_SPECIAL_FLAG_ELIXIR_BATTLE       | 0x001  |
-| SPELL_GROUP_SPECIAL_FLAG_ELIXIR_GUARDIAN     | 0x002  |
-| SPELL_GROUP_SPECIAL_FLAG_ELIXIR_UNSTABLE     | 0x004  |
-| SPELL_GROUP_SPECIAL_FLAG_ELIXIR_SHATTRATH    | 0x008  |
-| SPELL_GROUP_SPECIAL_FLAG_FORCED_STRONGEST    | 0x010  |
-| SPELL_GROUP_SPECIAL_FLAG_SKIP_STRONGER_CHECK | 0x020  |
-| SPELL_GROUP_SPECIAL_FLAG_BASE_AMOUNT_CHECK   | 0x040  |
-| SPELL_GROUP_SPECIAL_FLAG_PRIORITY1           | 0x100  |
-| SPELL_GROUP_SPECIAL_FLAG_PRIORITY2           | 0x200  |
-| SPELL_GROUP_SPECIAL_FLAG_PRIORITY3           | 0x400  |
-| SPELL_GROUP_SPECIAL_FLAG_PRIORITY4           | 0x800  |
+| Flag                                               | Value  |
+|----------------------------------------------------|--------|
+| SPELL\_GROUP\_SPECIAL\_FLAG\_NONE                  | 0x000  |
+| SPELL\_GROUP\_SPECIAL\_FLAG\_ELIXIR\_BATTLE        | 0x001  |
+| SPELL\_GROUP\_SPECIAL\_FLAG\_ELIXIR\_GUARDIAN      | 0x002  |
+| SPELL\_GROUP\_SPECIAL\_FLAG\_ELIXIR\_UNSTABLE      | 0x004  |
+| SPELL\_GROUP\_SPECIAL\_FLAG\_ELIXIR\_SHATTRATH     | 0x008  |
+| SPELL\_GROUP\_SPECIAL\_FLAG\_FORCED\_STRONGEST     | 0x010  |
+| SPELL\_GROUP\_SPECIAL\_FLAG\_SKIP\_STRONGER\_CHECK | 0x020  |
+| SPELL\_GROUP\_SPECIAL\_FLAG\_BASE\_AMOUNT\_CHECK   | 0x040  |
+| SPELL\_GROUP\_SPECIAL\_FLAG\_PRIORITY1             | 0x100  |
+| SPELL\_GROUP\_SPECIAL\_FLAG\_PRIORITY2             | 0x200  |
+| SPELL\_GROUP\_SPECIAL\_FLAG\_PRIORITY3             | 0x400  |
+| SPELL\_GROUP\_SPECIAL\_FLAG\_PRIORITY4             | 0x800  |
+
