@@ -2,14 +2,15 @@ TODOs:
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@3de6ee6c | 2021-09-09 |      | verify/rework SQL script |
 | sol@8f47a6da | 2021-09-07 |      | contains many bugs, e.g. uses creature ID 15642 (Amani Shadowpriest) instead of 15462 (Spitting Scarab) and decreases(!) reputation for killing mobs which is completely wrong in this case; verify all creature IDs and reputation values |
 | sol@f07faedc | 2021-09-07 |      | won't take over, rework the SAI instead and add better comments |
 | sol@1f893f97 | 2021-09-07 |      | rework the whole quest: Yeh'kinya's Bramble should only be usable near a Vale Screecher or Rogue Vale Screecher corpse; set Screecher Spirit active so it will disappear even if no player is near; improve SAI and SAI comments |
 | sol@2e41da54 | 2021-09-07 |      | take over if needed |
-| sol@e9be0483 | 2021-09-07 |      | verify issue |
-| sol@8a13fff5 | 2021-09-07 |      | it is not necessary to create a new pool, just adjust the existing one: remove GO GUID 14999 from the spawns and the pool and add GUID 6248 to the pool instead |
+| sol@e9be0483 | 2021-09-07 | X    | verify issue; update: Sol does not seem to be affected by this issue |
+| sol@8a13fff5 | 2021-09-07 | X    | it is not necessary to create a new pool, just adjust the existing one: remove GO GUID 14999 from the spawns and the pool and add GUID 6248 to the pool instead; done: sol@599e5bb4 |
 | sol@7d7eac01 | 2021-09-07 |      | verify/rework SQL script; low prio (Midsummer Fire Festival) |
-| sol@55831fab | 2021-09-07 |      | contains wrong GUIDs in the comments; also use pool template ID 507 instead (501-506 are similar pools) |
+| sol@55831fab | 2021-09-07 | X    | contains wrong GUIDs in the comments; also use pool template ID 507 instead (501-506 are similar pools); done: sol@b50280d3 |
 | sol@52d9f532 | 2021-09-07 |      | verify/rework SQL script |
 | sol@02b0b29f | 2021-09-06 |      | verify changes; low prio (minor issue) |
 | sol@50991bdc | 2021-09-05 |      | take over if needed; could cause several side effects |
@@ -169,7 +170,7 @@ TODOs:
 | sol@d5bce088 | 2021-06-24 |      | verify/rework SQL script |
 | sol@9bf617be | 2021-06-24 |      | wrong: the quest type is correct, fix the quest itself instead |
 | sol@1b1378c7 | 2021-06-23 | X    | take over from TC instead; npc text ID 7786 already contains the correct text, no need to create a new one; done: sol@429b8ce2 |
-| sol@569e3399 | 2021-06-23 |      | take over if needed; may cause unforeseen side effects; not really necessary as it is not possible to attack creatures while they are evading |
+| sol@569e3399 | 2021-06-23 |      | take over if needed; may cause unforeseen side effects; not really necessary as it is not possible to attack creatures while they are evading; update: was reverted by AC with commit sol@efdb64af |
 | sol@b1c5a6c0 | 2021-06-22 |      | verify/rework SQL script |
 | sol@b2472cae | 2021-06-22 | X    | use better description; the localized text also has to be updated; done: sol@26c53880 |
 | sol@56495763 | 2021-06-20 | X    | verify conditions; add comment if taking over; update: not needed as there's already a condition concerning "Lieutenant's Insignia" which suffices |
@@ -236,8 +237,8 @@ TODOs:
 | sol@16a385d1 | 2021-05-14 |      | verify/rework SQL script |
 | sol@88071b7e | 2021-05-14 | X    | verify loot chances; update: if every chance in a group is 0 this means that the chances are equal, so this commit is wrong, won't take over |
 | sol@fe5aedaa | 2021-05-13 |      | verify/rework SQL script |
-| sol@b14ffdb8 | 2021-05-13 |      | verify changes; rework SQL script if replacing the CreatureScript with SAI |
-| sol@61325fd4 | 2021-05-11 |      | verify WP path; set active; rework SQL script |
+| sol@b14ffdb8 | 2021-05-13 | X    | verify changes; rework SQL script if replacing the CreatureScript with SAI; done: sol@0f10aca0 |
+| sol@61325fd4 | 2021-05-11 | X    | verify WP path; set active; rework SQL script; done: sol@9aa4224b |
 | sol@ca74d308 | 2021-05-10 | X    | use a single UPDATE statement using the creature IDs instead; done: sol@9094b20d |
 | sol@44c45aa2 | 2021-05-10 | X    | the script contains several bugs (e.g. wrong gameobject & map IDs); also don't change the respawn time for gameobjects which are contained in pools; done: sol@168ab5c6 |
 | sol@54c18cff | 2021-05-10 | X    | verify/rework SQL script and check WP path; rewrote existing SAI & WP movement: sol@e4e792a7 |
