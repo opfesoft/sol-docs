@@ -2,6 +2,13 @@ TODOs:
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@7406a01a | 2021-09-13 |      | take over parts if needed, also see sol@107658eb |
+| sol@009ba568 | 2021-09-13 |      | verify/rework SQL script |
+| sol@15b34616 | 2021-09-13 |      | verify changes; low prio (Dungeon: Blackrock Depths) |
+| sol@bb343b48 | 2021-09-13 |      | verify/rework SQL script |
+| sol@adab416f | 2021-09-12 |      | verify issue & changes; low prio (Dungeon: Ulduar) |
+| sol@1ae8e7ec | 2021-09-12 |      | wrong: the correct number of dispelled auras is calculated using EffectDieSides and BasePoints; implement another solution |
+| sol@e5b8dbeb | 2021-09-11 |      | verify changes; low prio (PvP) |
 | sol@3de6ee6c | 2021-09-09 |      | verify/rework SQL script |
 | sol@8f47a6da | 2021-09-07 |      | contains many bugs, e.g. uses creature ID 15642 (Amani Shadowpriest) instead of 15462 (Spitting Scarab) and decreases(!) reputation for killing mobs which is completely wrong in this case; verify all creature IDs and reputation values |
 | sol@f07faedc | 2021-09-07 |      | won't take over, rework the SAI instead and add better comments |
@@ -214,7 +221,7 @@ TODOs:
 | sol@3ac48489 | 2021-05-31 |      | verify/rework SQL script |
 | sol@8dc13a53 | 2021-05-31 | X    | fix the spell script "spell\_gen\_throw\_back" and the spell ID of the throw back spell; done: sol@483c30b9 |
 | sol@cedd6363 | 2021-05-30 | X    | verify changes; update: wrong, won't take over; holy resistance is derived from arcane resistance, so the values should stay in the DB |
-| sol@107658eb | 2021-05-30 |      | not working; try to find another solution |
+| sol@107658eb | 2021-05-30 |      | not working; try to find another solution; update: also see sol@7406a01a |
 | sol@a355b4d2 | 2021-05-29 |      | verify issue & changes; update: cannot reproduce on Sol; low prio |
 | sol@f1b43a89 | 2021-05-27 |      | take over if needed |
 | sol@e8181130 | 2021-05-25 |      | verify & adapt to Sol; low prio (Localization: esES, esMX) |
@@ -233,10 +240,10 @@ TODOs:
 | sol@4fff925b | 2021-05-18 |      | verify/rework SQL script |
 | sol@fc4496ec | 2021-05-18 |      | verify/rework SQL script |
 | sol@16e04439 | 2021-05-18 |      | verify/rework SQL script |
-| sol@0ca86925 | 2021-05-15 |      | verify/rework SQL script |
-| sol@16a385d1 | 2021-05-14 |      | verify/rework SQL script |
+| sol@0ca86925 | 2021-05-15 | X    | verify/rework SQL script; done: sol@c892d7f4 (many bugfixes were necessary, does not seem this was tested that much) |
+| sol@16a385d1 | 2021-05-14 | X    | verify/rework SQL script; done: sol@07644142 |
 | sol@88071b7e | 2021-05-14 | X    | verify loot chances; update: if every chance in a group is 0 this means that the chances are equal, so this commit is wrong, won't take over |
-| sol@fe5aedaa | 2021-05-13 |      | verify/rework SQL script |
+| sol@fe5aedaa | 2021-05-13 | X    | verify/rework SQL script; done: sol@72093bf3 |
 | sol@b14ffdb8 | 2021-05-13 | X    | verify changes; rework SQL script if replacing the CreatureScript with SAI; done: sol@0f10aca0 |
 | sol@61325fd4 | 2021-05-11 | X    | verify WP path; set active; rework SQL script; done: sol@9aa4224b |
 | sol@ca74d308 | 2021-05-10 | X    | use a single UPDATE statement using the creature IDs instead; done: sol@9094b20d |

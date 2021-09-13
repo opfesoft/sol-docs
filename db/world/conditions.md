@@ -1072,6 +1072,13 @@ CONDITION_STAND_STATE</p></td>
 <td>Always 0</td>
 <td>Always 0</td>
 </tr>
+<tr>
+<td>CONDITION_HAS_MINION</td>
+<td>152</td>
+<td>creature entry (<a href="creature_template.md#entry">creature_template.entry</a>) - true if the unit has a minion with the specified creature entry and the alive state 1 (alive), 2 (dead) or 0 (both)</td>
+<td>alive state</td>
+<td>Always 0</td>
+</tr>
 </tbody>
 </table>
 
