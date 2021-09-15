@@ -7,7 +7,7 @@ TODOs:
 | sol@15b34616 | 2021-09-13 |      | verify changes; low prio (Dungeon: Blackrock Depths) |
 | sol@bb343b48 | 2021-09-13 |      | verify/rework SQL script |
 | sol@adab416f | 2021-09-12 |      | verify issue & changes; low prio (Dungeon: Ulduar) |
-| sol@1ae8e7ec | 2021-09-12 |      | wrong: the correct number of dispelled auras is calculated using EffectDieSides and BasePoints; implement another solution |
+| sol@1ae8e7ec | 2021-09-12 | X    | wrong: the correct number of dispelled auras is calculated using EffectDieSides and BasePoints; implement another solution; done: sol@9eebf780 |
 | sol@e5b8dbeb | 2021-09-11 |      | verify changes; low prio (PvP) |
 | sol@3de6ee6c | 2021-09-09 |      | verify/rework SQL script |
 | sol@8f47a6da | 2021-09-07 |      | contains many bugs, e.g. uses creature ID 15642 (Amani Shadowpriest) instead of 15462 (Spitting Scarab) and decreases(!) reputation for killing mobs which is completely wrong in this case; verify all creature IDs and reputation values |
