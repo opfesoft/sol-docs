@@ -2,6 +2,14 @@ TODOs:
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@a02b9ef7 | 2021-09-17 |      | verify/rework SQL script |
+| sol@f6f18cb5 | 2021-09-17 |      | verify changes |
+| sol@6632c4bd | 2021-09-17 |      | verify changes; low prio (Dungeon: Blackwing Lair) |
+| sol@5a92947e | 2021-09-16 |      | verify changes; probably not necessary as the pet issue is already fixed, see sol@c4c1acee; low prio (Dungeon: Uldaman) |
+| sol@cb790b0d | 2021-09-16 |      | verify changes; low prio (Dungeon: Trial of the Crusader) |
+| sol@4dc642d5 | 2021-09-16 |      | take over if needed |
+| sol@fd229f75 | 2021-09-16 |      | verify changes; low prio (Dungeon: Blackrock Depths) |
+| sol@f1e9b674 | 2021-09-16 |      | verify/rework SQL script |
 | sol@7406a01a | 2021-09-13 |      | take over parts if needed, also see sol@107658eb |
 | sol@009ba568 | 2021-09-13 |      | verify/rework SQL script |
 | sol@15b34616 | 2021-09-13 |      | verify changes; low prio (Dungeon: Blackrock Depths) |
@@ -216,9 +224,9 @@ TODOs:
 | sol@40a71471 | 2021-06-02 | X    | SAI not necessary, update spell script "spell\_q6124\_6129\_apply\_salve" instead; done: sol@878a1678 |
 | sol@ee7d54b7 | 2021-06-01 |      | verify/rework SQL script |
 | sol@a7585d61 | 2021-06-01 |      | verify/rework SQL script |
-| sol@d46a55d9 | 2021-05-31 |      | verify/rework SQL script |
+| sol@d46a55d9 | 2021-05-31 | X    | verify/rework SQL script; implemented another solution: sol@f6acf6ae |
 | sol@11cdb969 | 2021-05-31 | X    | verify issue & changes; done: sol@318ca350 |
-| sol@3ac48489 | 2021-05-31 |      | verify/rework SQL script |
+| sol@3ac48489 | 2021-05-31 | X    | verify/rework SQL script; update: won't take over as the actual root cause was a bug concerning the assist check for creatures, see sol@37c97766 |
 | sol@8dc13a53 | 2021-05-31 | X    | fix the spell script "spell\_gen\_throw\_back" and the spell ID of the throw back spell; done: sol@483c30b9 |
 | sol@cedd6363 | 2021-05-30 | X    | verify changes; update: wrong, won't take over; holy resistance is derived from arcane resistance, so the values should stay in the DB |
 | sol@107658eb | 2021-05-30 |      | not working; try to find another solution; update: also see sol@7406a01a |
@@ -227,19 +235,19 @@ TODOs:
 | sol@e8181130 | 2021-05-25 |      | verify & adapt to Sol; low prio (Localization: esES, esMX) |
 | sol@537798e4 | 2021-05-25 |      | verify & adapt to Sol; low prio (Localization: esES, esMX) |
 | sol@2d41cd49 | 2021-05-25 | X    | not working correctly because it uses the wrong WorldMapAreaId; look up the correct one; done: sol@d2c97188 |
-| sol@d16605d4 | 2021-05-25 |      | verify/rework SQL script; verify quest |
-| sol@3c09156d | 2021-05-25 |      | verify/rework SQL script; verify WP path |
+| sol@d16605d4 | 2021-05-25 | X    | verify/rework SQL script; verify quest; done: sol@be1a5faa |
+| sol@3c09156d | 2021-05-25 | X    | verify/rework SQL script; verify WP path; done: sol@a6557c0a |
 | sol@ae66ea08 | 2021-05-25 |      | verify/rework SQL script; low prio (Dungeon: Scholomance) |
 | sol@3bc7880d | 2021-05-23 | X    | wrong: don't just switch the broadcast text IDs, fix the conditions instead; done: sol@f0db5f99 |
 | sol@556a7b76 | 2021-05-23 |      | adapt to Sol; low prio (Localization: zhCN) |
 | sol@07527618 | 2021-05-23 | X    | don't delete the spawn, use Crazed Dragonhawk instead; done: sol@6e417187 |
 | sol@b4830948 | 2021-05-23 | X    | not working; try to find another solution; done: sol@37b47c1d |
-| sol@0527c17d | 2021-05-22 |      | verify changes; adapt to Sol |
-| sol@d74832ef | 2021-05-22 |      | verify/rework SQL script |
+| sol@0527c17d | 2021-05-22 | X    | verify changes; adapt to Sol; done: sol@e8f70b8f |
+| sol@d74832ef | 2021-05-22 | X    | verify/rework SQL script; done: sol@c65e0d34 |
 | sol@3f6da615 | 2021-05-21 |      | take over if needed, also see follow-up sol@47f7c46f; update: won't take over, as this does not seem to be correct: only non-spell attacks should have 100% crit on a sitting target; the attack should cause double damage and should be shown as crit in the combat log; the crit must not proc other abilities; implement another solution; very low prio |
-| sol@4fff925b | 2021-05-18 |      | verify/rework SQL script |
-| sol@fc4496ec | 2021-05-18 |      | verify/rework SQL script |
-| sol@16e04439 | 2021-05-18 |      | verify/rework SQL script |
+| sol@4fff925b | 2021-05-18 | X    | verify/rework SQL script; implemented another solution: sol@d3986026 |
+| sol@fc4496ec | 2021-05-18 | X    | verify/rework SQL script; done: sol@6778531e |
+| sol@16e04439 | 2021-05-18 | X    | verify/rework SQL script; done: sol@a4b006f9 |
 | sol@0ca86925 | 2021-05-15 | X    | verify/rework SQL script; done: sol@c892d7f4 (many bugfixes were necessary, does not seem this was tested that much) |
 | sol@16a385d1 | 2021-05-14 | X    | verify/rework SQL script; done: sol@07644142 |
 | sol@88071b7e | 2021-05-14 | X    | verify loot chances; update: if every chance in a group is 0 this means that the chances are equal, so this commit is wrong, won't take over |

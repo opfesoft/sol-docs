@@ -157,6 +157,10 @@ Depending on what command was used, the meaning and use for the following fields
 - source: WorldObject (summoner).
 - datalong: Entry of the summoned creature. See [creature\_template.entry](creature_template.md#entry).
 - datalong2: Despawn time in ms.
+- dataint: [summon type](#summon-types) / check for existence
+  - If > 0: check if the creature already exists within 60y before summoning and use the value as summon type
+  - If < 0: just summon using the absolute value as summon type
+  - If = 0: use summon type TEMPSUMMON\_TIMED\_OR\_DEAD\_DESPAWN, don't check for existence (same as value -1, kept for compatibility)
 - x: Summon target x coordinate.
 - y: Summon target y coordinate.
 - z: Summon target z coordinate.
@@ -285,4 +289,17 @@ Depending on what command was used, the meaning and use for the following fields
 ### guid
 
 Exists only for 'waypoint_scripts' and acts there as primary key; it is set automatically using the [GM command](../../misc/GM-Commands.md) 'wp event add'.
+
+### Summon Types
+
+| Name                                        | Value | Comment                                                                               |
+|---------------------------------------------|-------|---------------------------------------------------------------------------------------|
+| TEMPSUMMON\_TIMED\_OR\_DEAD\_DESPAWN        | 1     | Despawns after a specified time (only out of combat) OR when the creature disappears. |
+| TEMPSUMMON\_TIMED\_OR\_CORPSE\_DESPAWN      | 2     | Despawns after a specified time (only out of combat) OR when the creature dies.       |
+| TEMPSUMMON\_TIMED\_DESPAWN                  | 3     | Despawns after a specified time (no matter if the creature is in combat or not).      |
+| TEMPSUMMON\_TIMED\_DESPAWN\_OUT\_OF\_COMBAT | 4     | Despawns after a specified time after the creature is out of combat.                  |
+| TEMPSUMMON\_CORPSE\_DESPAWN                 | 5     | Despawns instantly after death.                                                       |
+| TEMPSUMMON\_CORPSE\_TIMED\_DESPAWN          | 6     | Despawns after a specified time after death.                                          |
+| TEMPSUMMON\_DEAD\_DESPAWN                   | 7     | Despawns when the creature disappears.                                                |
+| TEMPSUMMON\_MANUAL\_DESPAWN                 | 8     | Despawns when UnSummon() (or Force Despawn action) is called.                         |
 

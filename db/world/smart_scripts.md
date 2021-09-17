@@ -1593,7 +1593,7 @@ This is the probability of the event to occur as a percentage from 0-100. So, if
 <tr>
 <td><p>SMART_ACTION_SET_REACT_STATE</p></td>
 <td><p>8</p></td>
-<td><p><a href="https://gitlab.com/opfesoft/sol/-/blob/master/src/server/game/Entities/Unit/Unit.h#L1100">ReactState</a></p></td>
+<td><p><a href="#react-states">ReactState</a></p></td>
 <td><p><br />
 </p></td>
 <td><p><br />
