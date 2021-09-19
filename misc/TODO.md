@@ -2,6 +2,10 @@ TODOs:
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@f2abf6b5 | 2021-09-18 |      | verify/rework SQL script |
+| sol@36c0d348 | 2021-09-18 |      | verify/rework SQL script |
+| sol@cb70a493 | 2021-09-18 |      | verify/rework SQL script |
+| sol@4fb2dc1f | 2021-09-18 |      | take over if needed |
 | sol@a02b9ef7 | 2021-09-17 |      | verify/rework SQL script |
 | sol@f6f18cb5 | 2021-09-17 |      | verify changes |
 | sol@6632c4bd | 2021-09-17 |      | verify changes; low prio (Dungeon: Blackwing Lair) |
@@ -223,7 +227,7 @@ TODOs:
 | sol@e7087433 | 2021-06-02 |      | verify/rework SQL script (see also sol@c4185a51); low prio (Dungeon: Wailing Caverns) |
 | sol@40a71471 | 2021-06-02 | X    | SAI not necessary, update spell script "spell\_q6124\_6129\_apply\_salve" instead; done: sol@878a1678 |
 | sol@ee7d54b7 | 2021-06-01 |      | verify/rework SQL script |
-| sol@a7585d61 | 2021-06-01 |      | verify/rework SQL script |
+| sol@a7585d61 | 2021-06-01 | X    | verify/rework SQL script; done: sol@5d160109 (many bugfixes were necessary, does not seem this was tested that much) |
 | sol@d46a55d9 | 2021-05-31 | X    | verify/rework SQL script; implemented another solution: sol@f6acf6ae |
 | sol@11cdb969 | 2021-05-31 | X    | verify issue & changes; done: sol@318ca350 |
 | sol@3ac48489 | 2021-05-31 | X    | verify/rework SQL script; update: won't take over as the actual root cause was a bug concerning the assist check for creatures, see sol@37c97766 |

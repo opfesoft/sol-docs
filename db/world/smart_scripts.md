@@ -698,7 +698,7 @@ This is the probability of the event to occur as a percentage from 0-100. So, if
 <td><p>CooldownMin</p></td>
 <td><p>CooldownMax</p></td>
 <td>0/1 Player Only</td>
-<td>On Target In Distance Out of Combat; will trigger the first time after the cooldown has expired</td>
+<td>On Target In Distance Out of Combat</td>
 </tr>
 <tr>
 <td><p>SMART_EVENT_RESPAWN</p></td>
@@ -892,7 +892,7 @@ This is the probability of the event to occur as a percentage from 0-100. So, if
 <td><p>CooldownMin</p></td>
 <td><p>CooldownMax</p></td>
 <td>0/1 Player Only</td>
-<td>On Target In Distance In Combat; will trigger the first time after the cooldown has expired</td>
+<td>On Target In Distance In Combat</td>
 </tr>
 <tr>
 <td><p>SMART_EVENT_PASSENGER_BOARDED</p></td>
