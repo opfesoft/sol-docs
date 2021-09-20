@@ -2,19 +2,24 @@ TODOs:
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@1d5d2de0 | 2021-09-19 |      | verify/rework SQL script |
+| sol@f76d08f3 | 2021-09-19 |      | also remove the parameter "noQuestBonus" as it is not used anymore (always "false") |
+| sol@424f22f8 | 2021-09-19 |      | take over the TC version instead |
+| sol@6673db40 | 2021-09-19 |      | verify/rework SQL script |
+| sol@99b3b0de | 2021-09-19 |      | bugged and obviously wrong: the quests 364 and 3901 clearly address Forsaken and the update statement for quests 3095, 3096, 3097, 3098, 3099 removes all races, even undead; only fix the "Scroll" quests |
 | sol@f2abf6b5 | 2021-09-18 |      | verify/rework SQL script |
 | sol@36c0d348 | 2021-09-18 |      | verify/rework SQL script |
 | sol@cb70a493 | 2021-09-18 |      | verify/rework SQL script |
 | sol@4fb2dc1f | 2021-09-18 |      | take over if needed |
 | sol@a02b9ef7 | 2021-09-17 |      | verify/rework SQL script |
-| sol@f6f18cb5 | 2021-09-17 |      | verify changes |
+| sol@f6f18cb5 | 2021-09-17 | X    | verify changes; update: wrong, won't take over: according to the 2.0.3 patch notes the combo points should not reset until a combo point is applied to a different target; it does not seem that this has been changed until 3.3.5 |
 | sol@6632c4bd | 2021-09-17 |      | verify changes; low prio (Dungeon: Blackwing Lair) |
 | sol@5a92947e | 2021-09-16 |      | verify changes; probably not necessary as the pet issue is already fixed, see sol@c4c1acee; low prio (Dungeon: Uldaman) |
 | sol@cb790b0d | 2021-09-16 |      | verify changes; low prio (Dungeon: Trial of the Crusader) |
 | sol@4dc642d5 | 2021-09-16 |      | take over if needed |
 | sol@fd229f75 | 2021-09-16 |      | verify changes; low prio (Dungeon: Blackrock Depths) |
 | sol@f1e9b674 | 2021-09-16 |      | verify/rework SQL script |
-| sol@7406a01a | 2021-09-13 |      | take over parts if needed, also see sol@107658eb |
+| sol@7406a01a | 2021-09-13 |      | take over parts if needed, also see sol@107658eb and sol@d6118de1 |
 | sol@009ba568 | 2021-09-13 |      | verify/rework SQL script |
 | sol@15b34616 | 2021-09-13 |      | verify changes; low prio (Dungeon: Blackrock Depths) |
 | sol@bb343b48 | 2021-09-13 |      | verify/rework SQL script |
@@ -151,7 +156,7 @@ TODOs:
 | sol@fba9e265 | 2021-07-15 | X    | verify every creature in this area; not all creatures have to move around; also check some of the already wandering creatures and disable random movement; done: sol@90e01fc8 |
 | sol@1fa51e51 | 2021-07-12 |      | verify changes; low prio (Dungeon: Ulduar) |
 | sol@b5d9b3d5 | 2021-07-12 |      | verify issue/changes; rework SQL script |
-| sol@2e8a7498 | 2021-07-10 |      | verify/rework SQL script |
+| sol@2e8a7498 | 2021-07-10 | X    | verify/rework SQL script; implemented another solution, see sol@e4e792a7 & sol@83e97509 |
 | sol@a61f7a12 | 2021-07-09 |      | take over if needed |
 | sol@b2836769 | 2021-07-08 |      | despite the description the creature pool is not associated with Meshlok, but with two other creatures: Cavern Lurker & Cavern Shambler; obviously they are meant to be replaced with Meshlok, which is probably only possible using an InstanceScript; low prio (Dungeon: Maraudon) |
 | sol@06027e32 | 2021-07-08 |      | verify issue; low prio (Dungeon: Utgarde Pinnacle) |
@@ -213,7 +218,7 @@ TODOs:
 | sol@c934b306 | 2021-06-12 | X    | add WP movement instead of random movement; done: sol@cd283a22 |
 | sol@9170eadc | 2021-06-11 | X    | verify creatures; not all creatures have to move around randomly, especially not Goreclaw the Ravenous; added WP movement for Goreclaw and two of the Bloodfen raptors: sol@d8c50ca9 |
 | sol@85103fd2 | 2021-06-11 | X    | verify/rework SQL script; done: sol@62672290 |
-| sol@07ec1ba0 | 2021-06-11 |      | verify/rework SQL script |
+| sol@07ec1ba0 | 2021-06-11 | X    | verify/rework SQL script; done: sol@09de7f9d |
 | sol@63359657 | 2021-06-09 | X    | verify/rework SQL script; done: sol@82b0982c |
 | sol@0062a81d | 2021-06-09 | X    | verify loot; rework UPDATE statement and remove variables; done: sol@ed27612f |
 | sol@3381d0d7 | 2021-06-08 | X    | verify loot; rework DELETE statement and remove variables; done: sol@beda780d |
@@ -226,7 +231,7 @@ TODOs:
 | sol@8747f965 | 2021-06-02 | X    | verify/rework SQL script; done: sol@363333f4 |
 | sol@e7087433 | 2021-06-02 |      | verify/rework SQL script (see also sol@c4185a51); low prio (Dungeon: Wailing Caverns) |
 | sol@40a71471 | 2021-06-02 | X    | SAI not necessary, update spell script "spell\_q6124\_6129\_apply\_salve" instead; done: sol@878a1678 |
-| sol@ee7d54b7 | 2021-06-01 |      | verify/rework SQL script |
+| sol@ee7d54b7 | 2021-06-01 | X    | verify/rework SQL script; done: sol@b966cffc |
 | sol@a7585d61 | 2021-06-01 | X    | verify/rework SQL script; done: sol@5d160109 (many bugfixes were necessary, does not seem this was tested that much) |
 | sol@d46a55d9 | 2021-05-31 | X    | verify/rework SQL script; implemented another solution: sol@f6acf6ae |
 | sol@11cdb969 | 2021-05-31 | X    | verify issue & changes; done: sol@318ca350 |
@@ -336,7 +341,7 @@ TODOs:
 | sol@2a601a16 | 2021-03-28 | X    | verify changes; taken over with a few improvements: sol@146bf661 |
 | sol@01f0020e | 2021-03-27 | X    | verify/rework SQL script; update: won't take over as it's stated multiple times on wowhead that VanCleef summons his allies twice during the fight; the video linked in the original issue is private, also the "new" classic is not the same as 2010 WotLK |
 | sol@b1af0192 | 2021-03-24 |      | verify changes; low prio (Dungeon: Vault of Archavon) |
-| sol@8ba442bd | 2021-03-23 |      | verify changes (also see bugfix sol@6745746c); low prio (Dungeon: Naxxramas) |
+| sol@8ba442bd | 2021-03-23 |      | verify changes (also see bugfixes sol@6745746c, sol@e2dd6b2b); low prio (Dungeon: Naxxramas) |
 | sol@485f7e76 | 2021-03-21 | X    | try to find a less intrusive solution instead of taking over all of the TC refactoring; done: sol@75eb56c6, sol@4114a861 |
 | sol@9f354db7 | 2021-03-21 | X    | verify changes; update: just another TC refactoring without real benefit; won't take over |
 | sol@41ea3394 | 2021-03-20 |      | only take over the Perry Gatner event if there is nothing else to do (the event itself is rather annoying); quest "Stranglethorn Fever" already fixed with commit sol@293d7d38; very low prio |
