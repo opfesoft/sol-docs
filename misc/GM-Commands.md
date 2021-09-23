@@ -94,6 +94,7 @@ Note: Some commands are working only by selecting a player or a creature. These 
 |deserter bg remove|3|Syntax: .deserter bg remove. Removes the bg deserter debuff from your target.|
 |deserter instance add|3|Syntax: .deserter instance add $time. Adds the instance deserter debuff to your target with $time duration.|
 |deserter instance remove|3|Syntax: .deserter instance remove. Removes the instance deserter debuff from your target.|
+|despawn|2|Syntax: .despawn Despawn the targeted creature.|
 |die|3|Syntax: .die Kill the selected player. If no player is selected, it will kill you.|
 |dismount|0|Syntax: .dismount Dismount you, if you are mounted.|
 |distance|3|Syntax: .distance Display the distance from your character to the selected creature.|

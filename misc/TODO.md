@@ -2,6 +2,13 @@ TODOs:
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@048025ce | 2021-09-21 |      | verify changes and check if the SAI scripts could be fixed instead; low prio (Dungeon: Zul'Farrak) |
+| sol@1bf4f54b | 2021-09-20 |      | verify changes; low prio (minor issue) |
+| sol@47bb5cbb | 2021-09-20 |      | verify changes; low prio (Dungeon: Blackrock Depths) |
+| sol@ab599911 | 2021-09-20 |      | verify changes; low prio (minor issue) |
+| sol@69b81721 | 2021-09-20 |      | verify/rework SQL script |
+| sol@f7c0bfc3 | 2021-09-20 |      | verify/rework SQL script; compare with TC version; remove Zeppit spawn |
+| sol@251a2c87 | 2021-09-20 |      | verify/rework SQL script |
 | sol@1d5d2de0 | 2021-09-19 |      | verify/rework SQL script |
 | sol@f76d08f3 | 2021-09-19 |      | also remove the parameter "noQuestBonus" as it is not used anymore (always "false") |
 | sol@424f22f8 | 2021-09-19 |      | take over the TC version instead |
@@ -192,10 +199,10 @@ TODOs:
 | sol@118227a2 | 2021-06-25 | X    | also remove SmartAI from creature template; done: sol@8d48d310 |
 | sol@0b8d679f | 2021-06-25 |      | verify/rework SQL script |
 | sol@d5bce088 | 2021-06-24 |      | verify/rework SQL script |
-| sol@9bf617be | 2021-06-24 |      | wrong: the quest type is correct, fix the quest itself instead |
+| sol@9bf617be | 2021-06-24 | X    | wrong: the quest type is correct, fix the quest itself instead; done: sol@1a58356f |
 | sol@1b1378c7 | 2021-06-23 | X    | take over from TC instead; npc text ID 7786 already contains the correct text, no need to create a new one; done: sol@429b8ce2 |
-| sol@569e3399 | 2021-06-23 |      | take over if needed; may cause unforeseen side effects; not really necessary as it is not possible to attack creatures while they are evading; update: was reverted by AC with commit sol@efdb64af |
-| sol@b1c5a6c0 | 2021-06-22 |      | verify/rework SQL script |
+| sol@569e3399 | 2021-06-23 | X    | take over if needed; may cause unforeseen side effects; not really necessary as it is not possible to attack creatures while they are evading; update: was reverted by AC with commit sol@efdb64af |
+| sol@b1c5a6c0 | 2021-06-22 | X    | verify/rework SQL script; update: the additional emote text added here is wrong, this was just a text on Wowpedia to describe what the NPC is actually doing in-game; done: sol@e7225db4 |
 | sol@b2472cae | 2021-06-22 | X    | use better description; the localized text also has to be updated; done: sol@26c53880 |
 | sol@56495763 | 2021-06-20 | X    | verify conditions; add comment if taking over; update: not needed as there's already a condition concerning "Lieutenant's Insignia" which suffices |
 | sol@b870fe53 | 2021-06-20 |      | verify & adapt to Sol; low prio (Localization: esES, esMX) |
@@ -204,7 +211,7 @@ TODOs:
 | sol@18a02e9c | 2021-06-18 |      | low prio (Localization: zhCN) |
 | sol@ea7f693c | 2021-06-18 | X    | take over TC commit 2fb573150d5c08a5a2fa870f886969d25aee5734 instead; done: sol@80b9fa02 |
 | sol@4811a14b | 2021-06-18 | X    | compare changes; check TC implementation; done: sol@3a5ddcb2 |
-| sol@8214873e | 2021-06-18 |      | verify/rework SQL script |
+| sol@8214873e | 2021-06-18 | X    | verify/rework SQL script; implemented another solution: sol@d2f6f12d |
 | sol@137c0137 | 2021-06-18 | X    | check if other creatures are using model ID 3680; done: sol@43b3d647 |
 | sol@206c4055 | 2021-06-18 | X    | implement other conditions in order to allow the drop even if "The Swarm Grows" is rewarded (otherwise the player is not able to finish the quest later; although this wasn't the case on retail, it provides a better player experience); done: sol@4632de8c |
 | sol@efd575fe | 2021-06-18 |      | verify/rework SQL script; low prio (Dungeon: Scholomance) |

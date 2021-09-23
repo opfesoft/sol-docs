@@ -2735,8 +2735,7 @@ quickChange 1 forces the creature to quickly change its orientation (useful if t
 </p></td>
 <td><p><br />
 </p></td>
-<td><p><br />
-</p></td>
+<td><p>If an action list is already running it is overwritten with the new one. It is not possible to call a timed action list from within a timed action list.</p></td>
 </tr>
 <tr>
 <td><p>SMART_ACTION_SET_NPC_FLAG</p></td>
@@ -2839,7 +2838,7 @@ quickChange 1 forces the creature to quickly change its orientation (useful if t
 <td><p>EntryOrGuid 4 (<a href="#entryorguid">entryorguid</a> * 100 + n)</p></td>
 <td><p>EntryOrGuid 5 (<a href="#entryorguid">entryorguid</a> * 100 + n)</p></td>
 <td><p>EntryOrGuid 6 (<a href="#entryorguid">entryorguid</a> * 100 + n)</p></td>
-<td><p>Will select one entry from the ones provided. 0 is ignored. The timer will update IC and OOC.</p></td>
+<td><p>Will select one entry from the ones provided. 0 is ignored. The timer will update IC and OOC. If an action list is already running it is overwritten with the new one. It is not possible to call a timed action list from within a timed action list.</p></td>
 </tr>
 <tr>
 <td><p>SMART_ACTION_CALL_RANDOM_RANGE_TIMED_ACTIONLIST</p></td>
@@ -2854,7 +2853,7 @@ quickChange 1 forces the creature to quickly change its orientation (useful if t
 </p></td>
 <td><p><br />
 </p></td>
-<td><p>0 is ignored. The timer will update IC and OOC.</p></td>
+<td><p>0 is ignored. The timer will update IC and OOC. If an action list is already running it is overwritten with the new one. It is not possible to call a timed action list from within a timed action list.</p></td>
 </tr>
 <tr>
 <td><p>SMART_ACTION_RANDOM_MOVE</p></td>
@@ -3395,8 +3394,7 @@ quickChange 1 forces the creature to quickly change its orientation (useful if t
 </p></td>
 <td><p><br />
 </p></td>
-<td><p><br />
-</p></td>
+<td><p>Target has to be one or more creatures; move them to the specified position (target x,y,z)</p></td>
 </tr>
 <tr>
 <td><p>SMART_ACTION_SET_GO_STATE</p></td>
