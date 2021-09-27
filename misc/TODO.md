@@ -2,6 +2,13 @@ TODOs:
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@87a4e493 | 2021-09-25 |      | verify issue & changes |
+| sol@e6b1201e | 2021-09-24 |      | not needed, but keep as a reference |
+| sol@0c2dbfea | 2021-09-24 |      | verify/rework SQL script |
+| sol@115f8ce1 | 2021-09-24 |      | verify changes; verify/rework SQL script; low prio (Brewfest) |
+| sol@676bf5c4 | 2021-09-23 |      | Ridge Huntress (GUID: 6947) already fixed (see sol@87262a3a); the other positions are no improvement, one of them still in the ground (btw: vmangos is not a reference for WotLK, and neither is the new Classic or TBC!); fix the positions for the other 2 creatures |
+| sol@0cd88d02 | 2021-09-23 |      | improve SAI script instead |
+| sol@c3259dab | 2021-09-21 |      | verify issue & changes |
 | sol@048025ce | 2021-09-21 |      | verify changes and check if the SAI scripts could be fixed instead; low prio (Dungeon: Zul'Farrak) |
 | sol@1bf4f54b | 2021-09-20 |      | verify changes; low prio (minor issue) |
 | sol@47bb5cbb | 2021-09-20 |      | verify changes; low prio (Dungeon: Blackrock Depths) |
@@ -10,13 +17,13 @@ TODOs:
 | sol@f7c0bfc3 | 2021-09-20 |      | verify/rework SQL script; compare with TC version; remove Zeppit spawn |
 | sol@251a2c87 | 2021-09-20 |      | verify/rework SQL script |
 | sol@1d5d2de0 | 2021-09-19 |      | verify/rework SQL script |
-| sol@f76d08f3 | 2021-09-19 |      | also remove the parameter "noQuestBonus" as it is not used anymore (always "false") |
+| sol@f76d08f3 | 2021-09-19 | X    | also remove the parameter "noQuestBonus" as it is not used anymore (always "false"); done: sol@ae21f04f |
 | sol@424f22f8 | 2021-09-19 |      | take over the TC version instead |
 | sol@6673db40 | 2021-09-19 |      | verify/rework SQL script |
-| sol@99b3b0de | 2021-09-19 |      | bugged and obviously wrong: the quests 364 and 3901 clearly address Forsaken and the update statement for quests 3095, 3096, 3097, 3098, 3099 removes all races, even undead; only fix the "Scroll" quests |
+| sol@99b3b0de | 2021-09-19 | X    | bugged and obviously wrong: the quests 364 and 3901 clearly address Forsaken and the update statement for quests 3095, 3096, 3097, 3098, 3099 removes all races, even undead; only fix the "Scroll" quests; done: sol@2df4a50e |
 | sol@f2abf6b5 | 2021-09-18 |      | verify/rework SQL script |
 | sol@36c0d348 | 2021-09-18 |      | verify/rework SQL script |
-| sol@cb70a493 | 2021-09-18 |      | verify/rework SQL script |
+| sol@6a55feb5 | 2021-09-18 |      | verify/rework SQL script |
 | sol@4fb2dc1f | 2021-09-18 |      | take over if needed |
 | sol@a02b9ef7 | 2021-09-17 |      | verify/rework SQL script |
 | sol@f6f18cb5 | 2021-09-17 | X    | verify changes; update: wrong, won't take over: according to the 2.0.3 patch notes the combo points should not reset until a combo point is applied to a different target; it does not seem that this has been changed until 3.3.5 |

@@ -51,10 +51,10 @@ Holds information on the game event seasonal quest relations to allow for resett
 
 ## Description of the fields
 
-### quest
+### questId
 
 The id of the quest.
 
-### event
+### eventEntry
 
 The eventEntry of the game event that the seasonal quest belongs to.
