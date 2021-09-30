@@ -2,13 +2,15 @@ TODOs:
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@1dd53b17 | 2021-09-27 |      | verify/rework SQL script; verify AuraScript |
+| sol@5f0da005 | 2021-09-27 |      | verify issue & changes |
 | sol@87a4e493 | 2021-09-25 |      | verify issue & changes |
 | sol@e6b1201e | 2021-09-24 |      | not needed, but keep as a reference |
 | sol@0c2dbfea | 2021-09-24 |      | verify/rework SQL script |
 | sol@115f8ce1 | 2021-09-24 |      | verify changes; verify/rework SQL script; low prio (Brewfest) |
 | sol@676bf5c4 | 2021-09-23 |      | Ridge Huntress (GUID: 6947) already fixed (see sol@87262a3a); the other positions are no improvement, one of them still in the ground (btw: vmangos is not a reference for WotLK, and neither is the new Classic or TBC!); fix the positions for the other 2 creatures |
 | sol@0cd88d02 | 2021-09-23 |      | improve SAI script instead |
-| sol@c3259dab | 2021-09-21 |      | verify issue & changes |
+| sol@c3259dab | 2021-09-21 | X    | verify issue & changes; update: cannot reproduce on Sol |
 | sol@048025ce | 2021-09-21 |      | verify changes and check if the SAI scripts could be fixed instead; low prio (Dungeon: Zul'Farrak) |
 | sol@1bf4f54b | 2021-09-20 |      | verify changes; low prio (minor issue) |
 | sol@47bb5cbb | 2021-09-20 |      | verify changes; low prio (Dungeon: Blackrock Depths) |
@@ -116,7 +118,7 @@ TODOs:
 | sol@166ccc4f | 2021-08-11 | X    | not needed as the wrong AC commit sol@00111e83 was not taken over; only take over the changes concerning Parasitic Serpent, Vagash and Snort the Heckler; done: sol@2c7be96a (only took over the changes concerning Parasitic Serpent, the other ones are ok, no need to update them) |
 | sol@b5f91706 | 2021-08-10 | X    | keep random movement for some of the spawns; disable random movement for other creatures in the camps; done: sol@b10a3ed8 |
 | sol@50202844 | 2021-08-09 | X    | wrong: The trainers should only teach riding to players of the same faction; remove the conditions instead as they were taken from TC 4.3.4; update: the conditions are remnants from classic where each faction mount needed a separate riding skill, e.g. "Undead Horsemanship", "Ram Riding" etc.; done: sol@de789b6a |
-| sol@2b166d1b | 2021-08-08 |      | wrong: Shadow Weaving should not be applied with each tick, only on initial cast; find another solution |
+| sol@2b166d1b | 2021-08-08 | X    | wrong: Shadow Weaving should not be applied with each tick, only on initial cast; find another solution; done: sol@374ea18d |
 | sol@80da8284 | 2021-08-08 | X    | choose another position; done: sol@328d27de |
 | sol@a81a6197 | 2021-08-07 |      | verify changes; low prio (Dungeon: Ahn'kahet) |
 | sol@5b057798 | 2021-08-07 |      | verify issue & changes; low prio (Dungeons) |
@@ -180,7 +182,6 @@ TODOs:
 | sol@5eebf892 | 2021-07-07 |      | verify issue; low prio (Dungeon: Icecrown Citadel) |
 | sol@3dec029b | 2021-07-07 |      | adapt to Sol; low prio (PvP) |
 | sol@b66314b6 | 2021-07-07 |      | verify/rework SQL script |
-| sol@0eb8a8ed | 2021-07-07 |      | rework SAI for better interaction with Sergeant Kan'ren; remove entries in "waypoint\_data" and "waypoint\_scripts" |
 | sol@3b745b06 | 2021-07-07 | X    | take over from TC instead; done: sol@74d9ab80 |
 | sol@86860d36 | 2021-07-07 |      | verify/rework SQL script |
 | sol@9cbd67a3 | 2021-07-07 |      | verify/rework SQL script |
@@ -197,15 +198,15 @@ TODOs:
 | sol@66cd714a | 2021-06-30 |      | adapt to Sol; low prio (Localization: esES, esMX) |
 | sol@6eb6b0bb | 2021-06-29 |      | low prio (Localization: zhCN) |
 | sol@b8bd24b4 | 2021-06-28 |      | verify/rework SQL script |
-| sol@a23a0c88 | 2021-06-27 |      | verify/rework SQL script |
+| sol@a23a0c88 | 2021-06-27 | X    | verify/rework SQL script; done: sol@621ea3ca |
 | sol@15e44d4d | 2021-06-27 | X    | adapt to Sol; done: sol@8323ba07 |
 | sol@c73a5e95 | 2021-06-27 |      | Sol is not affected by the mentioned issue; investigate Deep Freeze nevertheless; also see sol@eff648b3; low prio |
 | sol@5b82840e | 2021-06-27 | X    | adjust CreatureScript; done: sol@56fc542e |
 | sol@0c22cae7 | 2021-06-26 |      | verify changes; low prio (Stranglethorn Fishing Extravaganza) |
 | sol@0b7e74b0 | 2021-06-26 | X    | use SAI to add immunity; done: sol@b2516561 |
 | sol@118227a2 | 2021-06-25 | X    | also remove SmartAI from creature template; done: sol@8d48d310 |
-| sol@0b8d679f | 2021-06-25 |      | verify/rework SQL script |
-| sol@d5bce088 | 2021-06-24 |      | verify/rework SQL script |
+| sol@0b8d679f | 2021-06-25 | X    | verify/rework SQL script (also see sol@0eb8a8ed); remove entries in "waypoint\_data" and "waypoint\_scripts"; done: sol@48c4174d |
+| sol@d5bce088 | 2021-06-24 | X    | verify/rework SQL script; done: sol@e8c57908 |
 | sol@9bf617be | 2021-06-24 | X    | wrong: the quest type is correct, fix the quest itself instead; done: sol@1a58356f |
 | sol@1b1378c7 | 2021-06-23 | X    | take over from TC instead; npc text ID 7786 already contains the correct text, no need to create a new one; done: sol@429b8ce2 |
 | sol@569e3399 | 2021-06-23 | X    | take over if needed; may cause unforeseen side effects; not really necessary as it is not possible to attack creatures while they are evading; update: was reverted by AC with commit sol@efdb64af |

@@ -59,40 +59,40 @@ This field controls which family name spells can proc the triggered spell.
 
 ### SpellFamilyMaskX
 
-These fields control which spells' family flags can proc the triggered spell. 
+These fields control which spells' family flags can proc the triggered spell. Sometimes also called "SpellClassMask".
 
 ### procFlags
 
 A bitmask controlling what events trigger the spell. To combine possible events, add the proc bits together.
 
-| Event                                   | Bit        | Comment                                                                            |
-|-----------------------------------------|------------|------------------------------------------------------------------------------------|
-| PROC_FLAG_NONE                          | 0x00000000 |                                                                                    |
-| PROC_FLAG_KILLED                        | 0x00000001 | Killed by agressor                                                                 |
-| PROC_FLAG_KILL_AND_GET_XP               | 0x00000002 | Kill that yields experience or honor                                               |
-| PROC_FLAG_SUCCESSFUL_MELEE_HIT          | 0x00000004 | Successful melee attack                                                            |
-| PROC_FLAG_TAKEN_MELEE_HIT               | 0x00000008 | Taken damage from melee strike hit                                                 |
-| PROC_FLAG_SUCCESSFUL_MELEE_SPELL_HIT    | 0x00000010 | Successful attack by Spell that use melee weapon                                   |
-| PROC_FLAG_TAKEN_MELEE_SPELL_HIT         | 0x00000020 | Taken damage by Spell that use melee weapon                                        |
-| PROC_FLAG_SUCCESSFUL_RANGED_HIT         | 0x00000040 | Successful Ranged attack (all ranged attack deal as spell so newer set :( )        |
-| PROC_FLAG_TAKEN_RANGED_HIT              | 0x00000080 | Taken damage from ranged attack (all ranged attack deal as spell so newer set :( ) |
-| PROC_FLAG_SUCCESSFUL_RANGED_SPELL_HIT   | 0x00000100 | Successful Ranged attack by Spell that use ranged weapon                           |
-| PROC_FLAG_TAKEN_RANGED_SPELL_HIT        | 0x00000200 | Taken damage by Spell that use ranged weapon                                       |
-| PROC_FLAG_SUCCESSFUL_POSITIVE_AOE_HIT   | 0x00000400 | Successful AoE (not 100% sure unused)                                              |
-| PROC_FLAG_TAKEN_POSITIVE_AOE            | 0x00000800 | Taken AoE      (not 100% sure unused)                                              |
-| PROC_FLAG_SUCCESSFUL_AOE_SPELL_HIT      | 0x00001000 | Successful AoE damage spell hit (not 100% sure unused)                             |
-| PROC_FLAG_TAKEN_AOE_SPELL_HIT           | 0x00002000 | Taken AoE damage spell hit      (not 100% sure unused)                             |
-| PROC_FLAG_SUCCESSFUL_POSITIVE_SPELL     | 0x00004000 | Successful cast positive spell (by default only on healing)                        |
-| PROC_FLAG_TAKEN_POSITIVE_SPELL          | 0x00008000 | Taken positive spell hit (by default only on healing)                              |
-| PROC_FLAG_SUCCESSFUL_NEGATIVE_SPELL_HIT | 0x00010000 | Successful negative spell cast (by default only on damage)                         |
-| PROC_FLAG_TAKEN_NEGATIVE_SPELL_HIT      | 0x00020000 | Taken negative spell (by default only on damage)                                   |
-| PROC_FLAG_ON_DO_PERIODIC                | 0x00040000 | Successful do periodic (damage / healing determined from 14-17 flags)              |
-| PROC_FLAG_ON_TAKE_PERIODIC              | 0x00080000 | Taken spell periodic (damage / healing determined from 14-17 flags)                |
-| PROC_FLAG_TAKEN_ANY_DAMAGE              | 0x00100000 | Taken any damage                                                                   |
-| PROC_FLAG_ON_TRAP_ACTIVATION            | 0x00200000 | On trap activation                                                                 |
-| PROC_FLAG_TAKEN_OFFHAND_HIT             | 0x00400000 | Taken off-hand melee attacks(not used)                                             |
-| PROC_FLAG_SUCCESSFUL_OFFHAND_HIT        | 0x00800000 | Successful off-hand melee attacks                                                  |
-| PROC_FLAG_DEATH                         | 0x01000000 | Died in any way                                                                    |
+| Event                                     | Bit        | Comment                                                                            |
+|-------------------------------------------|------------|------------------------------------------------------------------------------------|
+| PROC_FLAG_NONE                            | 0x00000000 |                                                                                    |
+| PROC_FLAG_KILLED                          | 0x00000001 | Killed by agressor                                                                 |
+| PROC_FLAG_KILL                            | 0x00000002 | Kill target (in most cases need XP/Honor reward)                                   |
+| PROC_FLAG_DONE_MELEE_AUTO_ATTACK          | 0x00000004 | Done melee auto attack                                                             |
+| PROC_FLAG_TAKEN_MELEE_AUTO_ATTACK         | 0x00000008 | Taken melee auto attack                                                            |
+| PROC_FLAG_DONE_SPELL_MELEE_DMG_CLASS      | 0x00000010 | Done attack by spell that has dmg class melee                                      |
+| PROC_FLAG_TAKEN_SPELL_MELEE_DMG_CLASS     | 0x00000020 | Taken attack by spell that has dmg class melee                                     |
+| PROC_FLAG_DONE_RANGED_AUTO_ATTACK         | 0x00000040 | Done ranged auto attack                                                            |
+| PROC_FLAG_TAKEN_RANGED_AUTO_ATTACK        | 0x00000080 | Taken ranged auto attack                                                           |
+| PROC_FLAG_DONE_SPELL_RANGED_DMG_CLASS     | 0x00000100 | Done attack by spell that has dmg class ranged                                     |
+| PROC_FLAG_TAKEN_SPELL_RANGED_DMG_CLASS    | 0x00000200 | Taken attack by spell that has dmg class ranged                                    |
+| PROC_FLAG_DONE_SPELL_NONE_DMG_CLASS_POS   | 0x00000400 | Done positive spell that has dmg class none                                        |
+| PROC_FLAG_TAKEN_SPELL_NONE_DMG_CLASS_POS  | 0x00000800 | Taken positive spell that has dmg class none                                       |
+| PROC_FLAG_DONE_SPELL_NONE_DMG_CLASS_NEG   | 0x00001000 | Done negative spell that has dmg class none                                        |
+| PROC_FLAG_TAKEN_SPELL_NONE_DMG_CLASS_NEG  | 0x00002000 | Taken negative spell that has dmg class none                                       |
+| PROC_FLAG_DONE_SPELL_MAGIC_DMG_CLASS_POS  | 0x00004000 | Done positive spell that has dmg class magic                                       |
+| PROC_FLAG_TAKEN_SPELL_MAGIC_DMG_CLASS_POS | 0x00008000 | Taken positive spell that has dmg class magic                                      |
+| PROC_FLAG_DONE_SPELL_MAGIC_DMG_CLASS_NEG  | 0x00010000 | Done negative spell that has dmg class magic                                       |
+| PROC_FLAG_TAKEN_SPELL_MAGIC_DMG_CLASS_NEG | 0x00020000 | Taken negative spell that has dmg class magic                                      |
+| PROC_FLAG_DONE_PERIODIC                   | 0x00040000 | Successful do periodic (damage / healing)                                          |
+| PROC_FLAG_TAKEN_PERIODIC                  | 0x00080000 | Taken spell periodic (damage / healing)                                            |
+| PROC_FLAG_TAKEN_DAMAGE                    | 0x00100000 | Taken any damage                                                                   |
+| PROC_FLAG_DONE_TRAP_ACTIVATION            | 0x00200000 | On trap activation                                                                 |
+| PROC_FLAG_DONE_MAINHAND_ATTACK            | 0x00400000 | Done main-hand melee attacks (spell and autoattack)                                |
+| PROC_FLAG_DONE_OFFHAND_ATTACK             | 0x00800000 | Done off-hand melee attacks (spell and autoattack)                                 |
+| PROC_FLAG_DEATH                           | 0x01000000 | Died in any way                                                                    |
 
 ### procEx
 
@@ -114,9 +114,9 @@ A bitmask controlling what events trigger the spell. To combine possible events,
 | PROC_EX_INTERRUPT           | 0x0001000 | Melee hit result can be Interrupt (not used)                                          |
 | PROC_EX_FULL_BLOCK          | 0x0002000 | Block all attack damage                                                               |
 | PROC_EX_RESERVED2           | 0x0004000 |                                                                                       |
-| PROC_EX_NOT_ACTIVE_SPELL    | 0x0008000 |                                                                                       |
-| PROC_EX_EX_TRIGGER_ALWAYS   | 0x0010000 | If set trigger always ( no matter another flags) used for drop charges                |
-| PROC_EX_EX_ONE_TIME_TRIGGER | 0x0020000 | If set trigger always but only one time                                               |
+| PROC_EX_NOT_ACTIVE_SPELL    | 0x0008000 | Spell mustn't do damage/heal to proc                                                  |
+| PROC_EX_EX_TRIGGER_ALWAYS   | 0x0010000 | If set trigger always (no matter of hit result) used for drop charges                 |
+| PROC_EX_EX_ONE_TIME_TRIGGER | 0x0020000 | If set trigger always but only one time (not implemented yet)                         |
 | PROC_EX_ONLY_ACTIVE_SPELL   | 0x0040000 | Spell has to do damage/heal to proc                                                   |
 | PROC_EX_NO_OVERHEAL         | 0x0080000 | Proc if heal did some work                                                            |
 | PROC_EX_NO_AURA_REFRESH     | 0x0100000 | Proc if aura was not refreshed                                                        |

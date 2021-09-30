@@ -45,15 +45,15 @@ Emote delay in milliseconds
 
 ### EmoteDelay2
 
-Emote delay in milliseconds
+Emote delay in milliseconds; if 0 played directly after Emote1
 
 ### EmoteDelay3
 
-Emote delay in milliseconds
+Emote delay in milliseconds; if 0 played directly after Emote2
 
 ### EmoteDelay4
 
-Emote delay in milliseconds
+Emote delay in milliseconds; if 0 played directly after Emote3
 
 ### VerifiedBuild
 
