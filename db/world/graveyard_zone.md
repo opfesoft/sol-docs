@@ -37,6 +37,14 @@
 <td><p>0</p></td>
 </tr>
 <tr>
+<td><p><a href="#classmask">ClassMask</a></p></td>
+<td><p>smallint(5)</p></td>
+<td><p>unsigned</p></td>
+<td><p></p></td>
+<td><p>NO</p></td>
+<td><p>0</p></td>
+</tr>
+<tr>
 <td><p>Comment</p></td>
 <td><p>text</p></td>
 <td><p> </p></td>
@@ -63,3 +71,6 @@ Graveyard's team.
 469 - Alliance team only
 
 67 - Horde team only
+
+### ClassMask
+Allowed classes. This field is a bitmask, you can combine any class values, see [ChrClasses.dbc](../../dbc/ChrClasses.md). The default is 0 which means all classes are allowed.

@@ -2,13 +2,18 @@ TODOs:
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@ecb92f9d | 2021-10-01 |      | verify changes & loot, compare with TC |
+| sol@77e46769 | 2021-10-01 |      | verify changes; low prio (Dungeon: Uldaman) |
+| sol@0c8fb1ea | 2021-10-01 |      | verify changes; low prio (minor issue) |
+| sol@46e17796 | 2021-10-01 |      | verify/rework SQL script |
+| sol@ac57e6a4 | 2021-10-01 |      | verify/rework SQL script |
 | sol@1dd53b17 | 2021-09-27 |      | verify/rework SQL script; verify AuraScript |
-| sol@5f0da005 | 2021-09-27 |      | verify issue & changes |
-| sol@87a4e493 | 2021-09-25 |      | verify issue & changes |
+| sol@5f0da005 | 2021-09-27 | X    | verify issue & changes; update: won't take over because those are world drops; the new Classic & TBC is also not a reference for WotLK |
+| sol@87a4e493 | 2021-09-25 | X    | verify issue & changes; update: won't take over, cannot reproduce the issue on Sol |
 | sol@e6b1201e | 2021-09-24 |      | not needed, but keep as a reference |
 | sol@0c2dbfea | 2021-09-24 |      | verify/rework SQL script |
 | sol@115f8ce1 | 2021-09-24 |      | verify changes; verify/rework SQL script; low prio (Brewfest) |
-| sol@676bf5c4 | 2021-09-23 |      | Ridge Huntress (GUID: 6947) already fixed (see sol@87262a3a); the other positions are no improvement, one of them still in the ground (btw: vmangos is not a reference for WotLK, and neither is the new Classic or TBC!); fix the positions for the other 2 creatures |
+| sol@676bf5c4 | 2021-09-23 | X    | Ridge Huntress (GUID: 6947) already fixed (see sol@87262a3a); the other positions are no improvement, one of them still in the ground (btw: vmangos is not a reference for WotLK, and neither is the new Classic or TBC!); fix the positions for the other 2 creatures; done: sol@4755d3cf |
 | sol@0cd88d02 | 2021-09-23 |      | improve SAI script instead |
 | sol@c3259dab | 2021-09-21 | X    | verify issue & changes; update: cannot reproduce on Sol |
 | sol@048025ce | 2021-09-21 |      | verify changes and check if the SAI scripts could be fixed instead; low prio (Dungeon: Zul'Farrak) |
@@ -43,7 +48,7 @@ TODOs:
 | sol@1ae8e7ec | 2021-09-12 | X    | wrong: the correct number of dispelled auras is calculated using EffectDieSides and BasePoints; implement another solution; done: sol@9eebf780 |
 | sol@e5b8dbeb | 2021-09-11 |      | verify changes; low prio (PvP) |
 | sol@3de6ee6c | 2021-09-09 |      | verify/rework SQL script |
-| sol@8f47a6da | 2021-09-07 |      | contains many bugs, e.g. uses creature ID 15642 (Amani Shadowpriest) instead of 15462 (Spitting Scarab) and decreases(!) reputation for killing mobs which is completely wrong in this case; verify all creature IDs and reputation values |
+| sol@8f47a6da | 2021-09-07 |      | contains many bugs, e.g. uses creature ID 15642 (Amani Shadowpriest) instead of 15462 (Spitting Scarab) and decreases(!) reputation for killing mobs which is completely wrong in this case; verify all creature IDs and reputation values; update: also see sol@65737d1e |
 | sol@f07faedc | 2021-09-07 |      | won't take over, rework the SAI instead and add better comments |
 | sol@1f893f97 | 2021-09-07 |      | rework the whole quest: Yeh'kinya's Bramble should only be usable near a Vale Screecher or Rogue Vale Screecher corpse; set Screecher Spirit active so it will disappear even if no player is near; improve SAI and SAI comments |
 | sol@2e41da54 | 2021-09-07 |      | take over if needed |
@@ -187,9 +192,9 @@ TODOs:
 | sol@9cbd67a3 | 2021-07-07 |      | verify/rework SQL script |
 | sol@b062d4a3 | 2021-07-07 | X    | take over TC commit 7182f5ddd1eae074ea96ee457a683453a4f4764b instead; done: sol@af75c29e |
 | sol@d3b2d8a5 | 2021-07-07 | X    | take over TC commit 7182f5ddd1eae074ea96ee457a683453a4f4764b instead; done: sol@af75c29e |
-| sol@161b052a | 2021-07-06 |      | verify/rework SQL script |
+| sol@161b052a | 2021-07-06 | X    | verify/rework SQL script; done: sol@f8c3c9ec |
 | sol@ab5ce3e3 | 2021-07-04 |      | verify changes; low prio (Dungeon: Molten Core) |
-| sol@681e7139 | 2021-07-04 |      | verify/rework SQL script |
+| sol@681e7139 | 2021-07-04 | X    | verify/rework SQL script; done: sol@cf0df16e |
 | sol@476dcd3e | 2021-07-04 |      | verify changes; low prio (Dungeon: Molten Core) |
 | sol@0cd03311 | 2021-07-03 |      | low prio (Localization: esES, esMX) |
 | sol@a2e13dd5 | 2021-07-03 |      | low prio (Localization: esES, esMX) |
@@ -197,7 +202,7 @@ TODOs:
 | sol@c6173e88 | 2021-06-30 |      | take over if needed |
 | sol@66cd714a | 2021-06-30 |      | adapt to Sol; low prio (Localization: esES, esMX) |
 | sol@6eb6b0bb | 2021-06-29 |      | low prio (Localization: zhCN) |
-| sol@b8bd24b4 | 2021-06-28 |      | verify/rework SQL script |
+| sol@b8bd24b4 | 2021-06-28 | X    | verify/rework SQL script; taken from TC instead: sol@43cd762e |
 | sol@a23a0c88 | 2021-06-27 | X    | verify/rework SQL script; done: sol@621ea3ca |
 | sol@15e44d4d | 2021-06-27 | X    | adapt to Sol; done: sol@8323ba07 |
 | sol@c73a5e95 | 2021-06-27 |      | Sol is not affected by the mentioned issue; investigate Deep Freeze nevertheless; also see sol@eff648b3; low prio |

@@ -90,7 +90,7 @@ This table holds definitions for all game events that are activated or deactivat
 <td><p>Client side holiday id (from dbc)</p></td>
 </tr>
 <tr>
-<td>holidayStage</td>
+<td><a href="#holidaystage">holidayStage</a></td>
 <td>tinyint(3)</td>
 <td>unsigned</td>
 <td><br />
@@ -99,7 +99,7 @@ This table holds definitions for all game events that are activated or deactivat
 <td>0</td>
 <td><br />
 </td>
-<td>?</td>
+<td>Can be 0, 1 or 2</td>
 </tr>
 <tr>
 <td><p><a href="#description">description</a></p></td>
@@ -165,7 +165,11 @@ This value must be lower than occurrence one or the event will never stop.
 
 ### holiday
 
-Holiday ID from [Holidays DBC file](../../dbc/Holidays.md). This is sent to the client to update the calender.
+Holiday ID from [Holidays DBC file](../../dbc/Holidays.md).
+
+### holidayStage
+
+If value is 1 or 2 the duration, dates etc. are read from [Holidays DBC file](../../dbc/Holidays.md). Entries in [holiday\_dates](holiday_dates.md) will override the dates from the DBC.
 
 ### description
 

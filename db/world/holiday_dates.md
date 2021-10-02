@@ -1,5 +1,7 @@
 # holiday\_dates
 
+This table is used to override the dates in the [Holidays DBC file](../../dbc/Holidays.md). If empty the client will use its own DBC to calculate the dates, if at least one entry is available for a specific Holiday ID the date is sent to the client using opcode "SMSG_CALENDAR_SEND_CALENDAR".
+
 ## Structure
 
 | Field            | Type    | Attribute | Key | Null | Default | Extra | Comment |
