@@ -2,12 +2,60 @@ TODOs:
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
-| sol@ecb92f9d | 2021-10-01 |      | verify changes & loot, compare with TC |
+| sol@dd34d7e1 | 2021-10-10 |      | won't take over, improve event script and SAI for Shy-Rotam instead; also add SAI for Sian-Rotam (see TC version) |
+| sol@bd727915 | 2021-10-10 |      | verify loot; compare with TC |
+| sol@fd7e4ec6 | 2021-10-10 |      | verify loot; compare with TC |
+| sol@f8ac4160 | 2021-10-10 |      | verify position; use UPDATE instead of DELETE/INSERT |
+| sol@1b3c8c53 | 2021-10-10 |      | verify/rework SQL script |
+| sol@d2fd486a | 2021-10-10 |      | verify/rework SQL script |
+| sol@4392da3c | 2021-10-10 |      | wrong: the GO was deleted with AC commit sol@0cccdc4a; check the rotation of this GO after sol@0cccdc4a has been processed |
+| sol@8826d7de | 2021-10-10 |      | verify/rework SQL script; compare with TC version |
+| sol@261cc87e | 2021-10-10 |      | wrong: deletes the existing SAI script; verify the emotes and adjust the existing SAI; low prio (minor issue) |
+| sol@1e3f94fa | 2021-10-10 |      | wrong: deletes the existing SAI script which already included reactions to emotes; verify the emotes and adjust the existing SAI; low prio (minor issue) |
+| sol@d8e89eeb | 2021-10-10 |      | verify loot; compare with TC |
+| sol@3ff389c1 | 2021-10-10 |      | verify loot; compare with TC |
+| sol@44545c65 | 2021-10-10 |      | verify loot; compare with TC |
+| sol@ae3dc6c7 | 2021-10-10 |      | verify/rework SQL script |
+| sol@cc892279 | 2021-10-10 |      | verify/rework SQL script |
+| sol@6f0ca45c | 2021-10-10 |      | fix position instead of deleting the GO |
+| sol@3f541b98 | 2021-10-10 |      | verify/rework SQL script; low prio (minor issue) |
+| sol@e503afd0 | 2021-10-10 |      | fix SQL script (deletes wrong GUID range); verify new NPCs; low prio (Hallow's End) |
+| sol@d9323336 | 2021-10-10 |      | wrong: deletes the existing SAI script which already included reactions to emotes; verify the emotes and adjust the existing SAI; low prio (minor issue) |
+| sol@f96b027f | 2021-10-10 |      | take over if needed |
+| sol@0cccdc4a | 2021-10-10 |      | the GOs are also needed for the "Battle for the Undercity" event; keep the ones with lower GUID and adjust their phasemask accordingly (also see sol@4392da3c); same for GUID 265429 (Wrathgate) |
+| sol@7cf0ed0a | 2021-10-09 |      | verify NPC |
+| sol@00e9cf2c | 2021-10-09 |      | verify/rework SQL script; low prio (Dungeon: Stratholme) |
+| sol@9dea0ac5 | 2021-10-09 |      | verify GOs; low prio (Harvest Festival) |
+| sol@2c7df906 | 2021-10-08 |      | verify loot; compare with TC |
+| sol@49478876 | 2021-10-08 |      | verify changes; low prio (Brewfest) |
+| sol@0afe11c5 | 2021-10-08 |      | verify/rework SQL script; low prio (Brewfest) |
+| sol@668f519f | 2021-10-08 |      | verify/rework SQL script |
+| sol@c6427103 | 2021-10-08 |      | verify loot; compare with TC |
+| sol@2c92e965 | 2021-10-08 |      | verify/rework SQL script |
+| sol@cb9f3cbf | 2021-10-08 |      | delete the GUIDs instead and also remove them from game\_event\_gameobject |
+| sol@8514eaf9 | 2021-10-07 |      | verify changes; low prio (Dungeon: Blackrock Depths) |
+| sol@99cc4285 | 2021-10-07 |      | verify changes, try to find another solution; low prio (minor issue) |
+| sol@a5f5568d | 2021-10-07 |      | verify/rework SQL script |
+| sol@261d25e9 | 2021-10-07 |      | verify/rework SQL script |
+| sol@665760e0 | 2021-10-07 |      | verify/rework SQL script |
+| sol@e7a62102 | 2021-10-07 |      | verify/rework SQL script |
+| sol@248baf33 | 2021-10-07 |      | verify/rework SQL script |
+| sol@c51fb81d | 2021-10-07 |      | verify changes; low prio (Brewfest) |
+| sol@78a2f738 | 2021-10-07 |      | take over if needed |
+| sol@c4ebfb44 | 2021-10-07 |      | verify changes; low prio (Brewfest) |
+| sol@23f55bbd | 2021-10-07 |      | verify/rework SQL script |
+| sol@495ca766 | 2021-10-04 |      | take over if needed |
+| sol@0d1f72a5 | 2021-10-04 |      | take over if needed |
+| sol@de8d0b49 | 2021-10-04 |      | verify issue & changes |
+| sol@cdab63c3 | 2021-10-04 |      | verify/rework SQL script |
+| sol@4f5d7888 | 2021-10-03 |      | verify/rework SQL script |
+| sol@06e50a96 | 2021-10-03 |      | take over if needed (also contains a second PR, see sol@e094c1ae) |
+| sol@ecb92f9d | 2021-10-01 | X    | verify changes & loot, compare with TC; done: sol@f8dba2fc |
 | sol@77e46769 | 2021-10-01 |      | verify changes; low prio (Dungeon: Uldaman) |
 | sol@0c8fb1ea | 2021-10-01 |      | verify changes; low prio (minor issue) |
 | sol@46e17796 | 2021-10-01 |      | verify/rework SQL script |
 | sol@ac57e6a4 | 2021-10-01 |      | verify/rework SQL script |
-| sol@1dd53b17 | 2021-09-27 |      | verify/rework SQL script; verify AuraScript |
+| sol@1dd53b17 | 2021-09-27 | X    | verify/rework SQL script; verify AuraScript; implemented another solution: sol@a7b0e74c |
 | sol@5f0da005 | 2021-09-27 | X    | verify issue & changes; update: won't take over because those are world drops; the new Classic & TBC is also not a reference for WotLK |
 | sol@87a4e493 | 2021-09-25 | X    | verify issue & changes; update: won't take over, cannot reproduce the issue on Sol |
 | sol@e6b1201e | 2021-09-24 |      | not needed, but keep as a reference |
@@ -15,9 +63,9 @@ TODOs:
 | sol@115f8ce1 | 2021-09-24 |      | verify changes; verify/rework SQL script; low prio (Brewfest) |
 | sol@676bf5c4 | 2021-09-23 | X    | Ridge Huntress (GUID: 6947) already fixed (see sol@87262a3a); the other positions are no improvement, one of them still in the ground (btw: vmangos is not a reference for WotLK, and neither is the new Classic or TBC!); fix the positions for the other 2 creatures; done: sol@4755d3cf |
 | sol@0cd88d02 | 2021-09-23 |      | improve SAI script instead |
-| sol@c3259dab | 2021-09-21 | X    | verify issue & changes; update: cannot reproduce on Sol |
+| sol@c3259dab | 2021-09-21 | X    | verify issue & changes; update: cannot reproduce on Sol; update: implemented PROC\_EX\_ONLY\_FIRST\_TICK: sol@6fcd7c50 |
 | sol@048025ce | 2021-09-21 |      | verify changes and check if the SAI scripts could be fixed instead; low prio (Dungeon: Zul'Farrak) |
-| sol@1bf4f54b | 2021-09-20 |      | verify changes; low prio (minor issue) |
+| sol@1bf4f54b | 2021-09-20 |      | verify changes; low prio (minor issue, also see sol@0d411ec2) |
 | sol@47bb5cbb | 2021-09-20 |      | verify changes; low prio (Dungeon: Blackrock Depths) |
 | sol@ab599911 | 2021-09-20 |      | verify changes; low prio (minor issue) |
 | sol@69b81721 | 2021-09-20 |      | verify/rework SQL script |
@@ -40,7 +88,7 @@ TODOs:
 | sol@4dc642d5 | 2021-09-16 |      | take over if needed |
 | sol@fd229f75 | 2021-09-16 |      | verify changes; low prio (Dungeon: Blackrock Depths) |
 | sol@f1e9b674 | 2021-09-16 |      | verify/rework SQL script |
-| sol@7406a01a | 2021-09-13 |      | take over parts if needed, also see sol@107658eb and sol@d6118de1 |
+| sol@7406a01a | 2021-09-13 |      | take over parts if needed, also see sol@107658eb, sol@d6118de1, sol@60fb2c38, sol@3aadaa6d, sol@70257303, sol@89f0c42c, sol@a6a85c0d |
 | sol@009ba568 | 2021-09-13 |      | verify/rework SQL script |
 | sol@15b34616 | 2021-09-13 |      | verify changes; low prio (Dungeon: Blackrock Depths) |
 | sol@bb343b48 | 2021-09-13 |      | verify/rework SQL script |
@@ -137,32 +185,32 @@ TODOs:
 | sol@32650b61 | 2021-08-05 | X    | verify issue and changes; update: won't take over, Deep Wounds should not proc of ranged weapons (even if this might have been the case on retail); also the solution is too generic and could cause several side effects |
 | sol@213e53c4 | 2021-08-05 | X    | verify/rework SQL script; update: won't take over, random movement looks much better; also the WP paths in this commit are basically all the same and have far too few points |
 | sol@26bf3624 | 2021-08-04 |      | verify/rework SQL script |
-| sol@bf84e72d | 2021-08-04 |      | verify/rework SQL script |
+| sol@bf84e72d | 2021-08-04 | X    | verify/rework SQL script; done: sol@acb18e14 (the AC commit contained some serious bugs, e.g. wrong map for the spawns, does not seem to have been tested) |
 | sol@d56f27ed | 2021-08-03 | X    | verify new position / orientation; done: sol@4aa498d6 |
-| sol@b8f6c2a1 | 2021-08-03 |      | verify/rework SQL script |
+| sol@b8f6c2a1 | 2021-08-03 | X    | verify/rework SQL script; done: sol@1745c067 |
 | sol@9a820e2d | 2021-08-01 | X    | try to implement a solution which touches only the spell script; done: sol@83ca1ea5 |
 | sol@80ff915f | 2021-08-01 |      | take over if needed; does not seem to fix anything and the original PR does not contain any information other than that it was copied blindly from TC |
 | sol@7f4c5561 | 2021-08-01 |      | take over if needed (the flag is not used anywhere) |
 | sol@87b2cd12 | 2021-07-31 |      | take over if needed; does not seem to fix anything and the original PR does not contain any information other than that it was copied blindly from TC |
 | sol@19bbe2cd | 2021-07-31 |      | verify changes; low prio (Dungeon: Zul'Gurub) |
 | sol@8f5100f3 | 2021-07-30 | X    | verify/rework WP path; keep walking speed as he is bigger than the other Satyrs; set active; update: the WP path has far too few points and some of the points float high above the ground, does not seem to have been tested that much; done: sol@4c878298 |
-| sol@2e8301b7 | 2021-07-30 |      | Sol is not affected by the mentioned issue, but nevertheless verify/rework both WP paths and set the creatures active |
+| sol@2e8301b7 | 2021-07-30 | X    | Sol is not affected by the mentioned issue, but nevertheless verify/rework both WP paths and set the creatures active; done: sol@0bee4c7c |
 | sol@00111e83 | 2021-07-30 |      | wrong: the skinning loot template 100003 is used by many other creatures, so don't change the loot template but pick a correct one or create a new one instead; the loot template is used for other high level creatures as well, those should also be fixed; low prio |
 | sol@2f63e81a | 2021-07-30 |      | take over if needed |
-| sol@1e36a644 | 2021-07-29 |      | verify/rework SQL script |
-| sol@c125f461 | 2021-07-29 |      | won't take over, properly fix the SAI instead incl. the comments; SMART\_ACTION\_FLEE\_FOR\_ASSIST does not use the target, so changing the target type is useless |
+| sol@1e36a644 | 2021-07-29 | X    | verify/rework SQL script; done: sol@30e98d93 |
+| sol@c125f461 | 2021-07-29 | X    | won't take over, properly fix the SAI instead incl. the comments; SMART\_ACTION\_FLEE\_FOR\_ASSIST does not use the target, so changing the target type is useless; done: sol@32423de3 |
 | sol@201b3235 | 2021-07-28 | X    | there are other Peacebloom spawns in Redridge Mountains, check the gameobject pool 950 and remove all of them; done: sol@2452b2ac |
-| sol@ecf022e8 | 2021-07-28 |      | verify/rework SQL script |
+| sol@ecf022e8 | 2021-07-28 | X    | verify/rework SQL script; done: sol@a5e10561 |
 | sol@f9125f13 | 2021-07-27 |      | probably not needed at all, the elevators were indeed dangerous on retail, e.g. the ones in the Undercity did kill many players |
 | sol@e37dba8d | 2021-07-26 |      | probably not needed at all, there are many comments in the internet which state that this was changed later to only be a simple zoom |
-| sol@6a5a901a | 2021-07-25 |      | verify/rework SQL script |
+| sol@6a5a901a | 2021-07-25 | X    | verify/rework SQL script; update: won't take over, added short WP paths for two of the spawns (not all spawns have to move around): sol@be6dee23 |
 | sol@e40ecbda | 2021-07-24 | X    | verify changes; use UPDATE instead of DELETE/INSERT; done: sol@65ced8b0 |
-| sol@9343cb51 | 2021-07-24 |      | won't take over, rework SAI instead |
+| sol@9343cb51 | 2021-07-24 | X    | won't take over, rework SAI instead; done: sol@e3bc824b |
 | sol@b5dfba05 | 2021-07-23 | X    | this is wrong for some of the creatures which are kneeling or lying on the ground; some positions should also be updated; done: sol@5c3a4a66 |
-| sol@1919f945 | 2021-07-23 |      | verify/rework SQL script |
-| sol@d6da679e | 2021-07-23 |      | verify/rework SQL script |
-| sol@79f5139d | 2021-07-23 |      | verify/rework SQL script |
-| sol@bbe1d4bb | 2021-07-23 |      | random movement already enabled, see sol@69c6e694; take over the new spawn points and create an appropriate creature pool (this has been forgotten in the AC commit); update: AC added pooling, see commit sol@96a659c6; only take over pooling, not the respawn time |
+| sol@1919f945 | 2021-07-23 | X    | verify/rework SQL script; done: sol@192d41b3 |
+| sol@d6da679e | 2021-07-23 | X    | verify/rework SQL script; done: sol@ca94bffe |
+| sol@79f5139d | 2021-07-23 | X    | verify/rework SQL script; done: sol@5789fbef |
+| sol@bbe1d4bb | 2021-07-23 | X    | random movement already enabled, see sol@69c6e694; take over the new spawn points and create an appropriate creature pool (this has been forgotten in the AC commit); update: AC added pooling, see commit sol@96a659c6; only take over pooling, not the respawn time; done: sol@f5fba320 |
 | sol@9e1c8b3f | 2021-07-23 | X    | verify/rework SQL script; update: the AC commit will disable WP movement for GUID 93615, which is wrong; done: sol@31df2ed5 |
 | sol@74edb401 | 2021-07-23 | X    | verify position; update: wrong, won't take over; the new position is from Cataclysm, the old one is correct, so keep the old one |
 | sol@e5680dfe | 2021-07-22 |      | verify changes; low prio (Dungeon: Naxxramas) |
@@ -172,24 +220,24 @@ TODOs:
 | sol@586175ed | 2021-07-22 | X    | verify changes; use UPDATE instead of DELETE/INSERT; applied another solution: sol@c5d7d4a0 |
 | sol@1cf7f5c8 | 2021-07-22 | X    | wrong: the NPC needs 2 gossip menu texts (paladin / non-paladin) and the conditions were not updated; a new menu ID is not necessary, just update text ID 10040 with 10044 for menu ID 8111; also adjust positions of Ambassador Sunsorrow and Champion Cyssa Dawnrose as they float in the air because of the stairs; done: sol@a616c042 |
 | sol@38f7afea | 2021-07-21 |      | low prio (Localization: zhCN) |
-| sol@b226df1e | 2021-07-20 |      | verify/rework SQL script |
+| sol@b226df1e | 2021-07-20 | X    | verify/rework SQL script; done: sol@08afbe51 |
 | sol@58b0bca0 | 2021-07-18 | X    | verify/rework SQL script; done: sol@5479fec1 |
 | sol@fba9e265 | 2021-07-15 | X    | verify every creature in this area; not all creatures have to move around; also check some of the already wandering creatures and disable random movement; done: sol@90e01fc8 |
 | sol@1fa51e51 | 2021-07-12 |      | verify changes; low prio (Dungeon: Ulduar) |
-| sol@b5d9b3d5 | 2021-07-12 |      | verify issue/changes; rework SQL script |
+| sol@b5d9b3d5 | 2021-07-12 | X    | verify issue/changes; rework SQL script; update: won't take over, the quest seems to work fine; just increase the effect radius for Plague Strike to 8 yards: sol@55a28f19 |
 | sol@2e8a7498 | 2021-07-10 | X    | verify/rework SQL script; implemented another solution, see sol@e4e792a7 & sol@83e97509 |
 | sol@a61f7a12 | 2021-07-09 |      | take over if needed |
 | sol@b2836769 | 2021-07-08 |      | despite the description the creature pool is not associated with Meshlok, but with two other creatures: Cavern Lurker & Cavern Shambler; obviously they are meant to be replaced with Meshlok, which is probably only possible using an InstanceScript; low prio (Dungeon: Maraudon) |
 | sol@06027e32 | 2021-07-08 |      | verify issue; low prio (Dungeon: Utgarde Pinnacle) |
 | sol@f8c8e98a | 2021-07-08 |      | take over if needed |
 | sol@c7d5080b | 2021-07-08 | X    | take over from TC instead; done: sol@7287e321 |
-| sol@6644c651 | 2021-07-08 |      | verify/rework SQL script |
+| sol@6644c651 | 2021-07-08 | X    | verify/rework SQL script; implemented another solution: sol@382f5c58 |
 | sol@5eebf892 | 2021-07-07 |      | verify issue; low prio (Dungeon: Icecrown Citadel) |
 | sol@3dec029b | 2021-07-07 |      | adapt to Sol; low prio (PvP) |
-| sol@b66314b6 | 2021-07-07 |      | verify/rework SQL script |
+| sol@b66314b6 | 2021-07-07 | X    | verify/rework SQL script; done: sol@fe86c0cb; note: don't spawn multiple Noxxious Scions because the quest would then become too easy and it also does not match the quest description |
 | sol@3b745b06 | 2021-07-07 | X    | take over from TC instead; done: sol@74d9ab80 |
-| sol@86860d36 | 2021-07-07 |      | verify/rework SQL script |
-| sol@9cbd67a3 | 2021-07-07 |      | verify/rework SQL script |
+| sol@86860d36 | 2021-07-07 | X    | verify/rework SQL script; done: sol@be4436be |
+| sol@9cbd67a3 | 2021-07-07 | X    | verify/rework SQL script; done: sol@a83eb8c4 |
 | sol@b062d4a3 | 2021-07-07 | X    | take over TC commit 7182f5ddd1eae074ea96ee457a683453a4f4764b instead; done: sol@af75c29e |
 | sol@d3b2d8a5 | 2021-07-07 | X    | take over TC commit 7182f5ddd1eae074ea96ee457a683453a4f4764b instead; done: sol@af75c29e |
 | sol@161b052a | 2021-07-06 | X    | verify/rework SQL script; done: sol@f8c3c9ec |

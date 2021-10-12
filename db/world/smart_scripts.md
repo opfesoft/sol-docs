@@ -1609,7 +1609,8 @@ This is the probability of the event to occur as a percentage from 0-100. So, if
 <tr>
 <td><p>SMART_ACTION_ACTIVATE_GOBJECT</p></td>
 <td><p>9</p></td>
-<td><p>Active alternative (0/1)</p></td>
+<td><p><br />
+</p></td>
 <td><p><br />
 </p></td>
 <td><p><br />
@@ -1702,8 +1703,7 @@ This is the probability of the event to occur as a percentage from 0-100. So, if
 </p></td>
 <td><p><br />
 </p></td>
-<td><p><br />
-</p></td>
+<td><p>Complete the specified quest for all targeted players</p></td>
 </tr>
 <tr>
 <td><p>SMART_ACTION_RESERVED_16</p></td>
@@ -1882,8 +1882,7 @@ This is the probability of the event to occur as a percentage from 0-100. So, if
 </p></td>
 <td><p><br />
 </p></td>
-<td><p><br />
-</p></td>
+<td><p>Complete the specified quest for all targeted players and their groups</p></td>
 </tr>
 <tr>
 <td><p>SMART_ACTION_COMBAT_STOP</p></td>

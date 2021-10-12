@@ -285,9 +285,9 @@ Allows the manual application of unit flags to creatures. Again this is a bitmas
 
 | Flag       |            | Name                            | Comments                                                                                                   |
 |------------|------------|---------------------------------|------------------------------------------------------------------------------------------------------------|
-| 1          | 0x00000001 | UNIT_FLAG_SERVER_CONTROLLED     |                                                                                                            |
+| 1          | 0x00000001 | UNIT_FLAG_SERVER_CONTROLLED     | set only when unit movement is controlled by server - by SPLINE/MONSTER_MOVE packets, together with UNIT_FLAG_STUNNED; only set to units controlled by client; client function CGUnit_C::IsClientControlled returns false when set for owner |
 | 2          | 0x00000002 | UNIT_FLAG_NON_ATTACKABLE        |                                                                                                            |
-| 4          | 0x00000004 | UNIT_FLAG_REMOVE_CLIENT_CONTROL |                                                                                                            |
+| 4          | 0x00000004 | UNIT_FLAG_DISABLE_MOVE          |                                                                                                            |
 | 8          | 0x00000008 | UNIT_FLAG_PVP_ATTACKABLE        | Allows to apply PvP rules to attackable state in addition to faction dependent state                       |
 | 16         | 0x00000010 | UNIT_FLAG_RENAME                |                                                                                                            |
 | 32         | 0x00000020 | UNIT_FLAG_PREPARATION           | Don't take reagents for spells with SPELL_ATTR_EX5_NO_REAGENT_WHILE_PREP                                   |
