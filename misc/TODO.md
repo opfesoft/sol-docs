@@ -2,35 +2,42 @@ TODOs:
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@4349f076 | 2021-10-13 |      | verify/rework SQL script |
+| sol@cd03fd4e | 2021-10-13 |      | verify/rework SQL script |
+| sol@13eacaed | 2021-10-12 |      | take over if needed |
+| sol@c8ff0bcc | 2021-10-12 |      | verify changes; low prio (Dungeon: Azjol-Nerub) |
+| sol@a6e564be | 2021-10-12 |      | wrong: deletes the existing SAI script which already included reactions to emotes; verify the emotes and adjust the existing SAI; low prio (minor issue) |
+| sol@cec360b3 | 2021-10-12 |      | verify/rework SQL script |
+| sol@57658d82 | 2021-10-12 |      | take over if needed |
+| sol@0f5c8887 | 2021-10-12 |      | verify/rework SQL script |
 | sol@dd34d7e1 | 2021-10-10 |      | won't take over, improve event script and SAI for Shy-Rotam instead; also add SAI for Sian-Rotam (see TC version) |
-| sol@bd727915 | 2021-10-10 |      | verify loot; compare with TC |
-| sol@fd7e4ec6 | 2021-10-10 |      | verify loot; compare with TC |
-| sol@f8ac4160 | 2021-10-10 |      | verify position; use UPDATE instead of DELETE/INSERT |
+| sol@bd727915 | 2021-10-10 | X    | verify loot; compare with TC; done: sol@ddcd0e52 |
+| sol@fd7e4ec6 | 2021-10-10 | X    | verify loot; compare with TC; done: sol@ddcd0e52 |
+| sol@f8ac4160 | 2021-10-10 | X    | verify position; use UPDATE instead of DELETE/INSERT; done: sol@c7739684 |
 | sol@1b3c8c53 | 2021-10-10 |      | verify/rework SQL script |
 | sol@d2fd486a | 2021-10-10 |      | verify/rework SQL script |
 | sol@4392da3c | 2021-10-10 |      | wrong: the GO was deleted with AC commit sol@0cccdc4a; check the rotation of this GO after sol@0cccdc4a has been processed |
 | sol@8826d7de | 2021-10-10 |      | verify/rework SQL script; compare with TC version |
 | sol@261cc87e | 2021-10-10 |      | wrong: deletes the existing SAI script; verify the emotes and adjust the existing SAI; low prio (minor issue) |
 | sol@1e3f94fa | 2021-10-10 |      | wrong: deletes the existing SAI script which already included reactions to emotes; verify the emotes and adjust the existing SAI; low prio (minor issue) |
-| sol@d8e89eeb | 2021-10-10 |      | verify loot; compare with TC |
-| sol@3ff389c1 | 2021-10-10 |      | verify loot; compare with TC |
-| sol@44545c65 | 2021-10-10 |      | verify loot; compare with TC |
+| sol@d8e89eeb | 2021-10-10 | X    | verify loot; compare with TC; done: sol@ddcd0e52 |
+| sol@3ff389c1 | 2021-10-10 | X    | verify loot; compare with TC; done: sol@ddcd0e52 |
+| sol@44545c65 | 2021-10-10 | X    | verify loot; compare with TC; done: sol@ddcd0e52 |
 | sol@ae3dc6c7 | 2021-10-10 |      | verify/rework SQL script |
 | sol@cc892279 | 2021-10-10 |      | verify/rework SQL script |
-| sol@6f0ca45c | 2021-10-10 |      | fix position instead of deleting the GO |
 | sol@3f541b98 | 2021-10-10 |      | verify/rework SQL script; low prio (minor issue) |
 | sol@e503afd0 | 2021-10-10 |      | fix SQL script (deletes wrong GUID range); verify new NPCs; low prio (Hallow's End) |
 | sol@d9323336 | 2021-10-10 |      | wrong: deletes the existing SAI script which already included reactions to emotes; verify the emotes and adjust the existing SAI; low prio (minor issue) |
 | sol@f96b027f | 2021-10-10 |      | take over if needed |
 | sol@0cccdc4a | 2021-10-10 |      | the GOs are also needed for the "Battle for the Undercity" event; keep the ones with lower GUID and adjust their phasemask accordingly (also see sol@4392da3c); same for GUID 265429 (Wrathgate) |
-| sol@7cf0ed0a | 2021-10-09 |      | verify NPC |
+| sol@7cf0ed0a | 2021-10-09 | X    | verify NPC; update: wrong, won't take over, the gossip option was removed during WotLK and there are more than enough NPCs around selling food and drink |
 | sol@00e9cf2c | 2021-10-09 |      | verify/rework SQL script; low prio (Dungeon: Stratholme) |
 | sol@9dea0ac5 | 2021-10-09 |      | verify GOs; low prio (Harvest Festival) |
-| sol@2c7df906 | 2021-10-08 |      | verify loot; compare with TC |
+| sol@2c7df906 | 2021-10-08 | X    | verify loot; compare with TC; done: sol@98d00d62 |
 | sol@49478876 | 2021-10-08 |      | verify changes; low prio (Brewfest) |
 | sol@0afe11c5 | 2021-10-08 |      | verify/rework SQL script; low prio (Brewfest) |
 | sol@668f519f | 2021-10-08 |      | verify/rework SQL script |
-| sol@c6427103 | 2021-10-08 |      | verify loot; compare with TC |
+| sol@c6427103 | 2021-10-08 | X    | verify loot; compare with TC; done: sol@ddcd0e52 |
 | sol@2c92e965 | 2021-10-08 |      | verify/rework SQL script |
 | sol@cb9f3cbf | 2021-10-08 |      | delete the GUIDs instead and also remove them from game\_event\_gameobject |
 | sol@8514eaf9 | 2021-10-07 |      | verify changes; low prio (Dungeon: Blackrock Depths) |
@@ -85,7 +92,7 @@ TODOs:
 | sol@6632c4bd | 2021-09-17 |      | verify changes; low prio (Dungeon: Blackwing Lair) |
 | sol@5a92947e | 2021-09-16 |      | verify changes; probably not necessary as the pet issue is already fixed, see sol@c4c1acee; low prio (Dungeon: Uldaman) |
 | sol@cb790b0d | 2021-09-16 |      | verify changes; low prio (Dungeon: Trial of the Crusader) |
-| sol@4dc642d5 | 2021-09-16 |      | take over if needed |
+| sol@4dc642d5 | 2021-09-16 |      | take over if needed; also see sol@d464ee70 |
 | sol@fd229f75 | 2021-09-16 |      | verify changes; low prio (Dungeon: Blackrock Depths) |
 | sol@f1e9b674 | 2021-09-16 |      | verify/rework SQL script |
 | sol@7406a01a | 2021-09-13 |      | take over parts if needed, also see sol@107658eb, sol@d6118de1, sol@60fb2c38, sol@3aadaa6d, sol@70257303, sol@89f0c42c, sol@a6a85c0d |
@@ -178,13 +185,13 @@ TODOs:
 | sol@d3d6d0be | 2021-08-07 |      | take over if needed (probably not worth the effort as this is just a minor issue) |
 | sol@d8c1ccb6 | 2021-08-06 | X    | rework the SAI script instead; done: sol@aed32846 |
 | sol@774abca7 | 2021-08-06 | X    | verify changes; update: won't take over, looks awful with random movement |
-| sol@6bb5a885 | 2021-08-06 |      | verify/rework SQL script |
+| sol@6bb5a885 | 2021-08-06 | X    | verify/rework SQL script; implemented another solution: sol@3a80919d |
 | sol@4aed38d7 | 2021-08-06 | X    | verify new spawn; keep old respawn time and idle movement; done: sol@e06016d4 |
 | sol@cda264cf | 2021-08-06 | X    | verify new spawns; keep the old respawn time; update: the new spawns use the wrong map, seems like no one is testing this stuff anymore; done: sol@6972a636 |
 | sol@31e41890 | 2021-08-06 | X    | does not work correctly, use FilterTargets instead; done: sol@d574136d |
 | sol@32650b61 | 2021-08-05 | X    | verify issue and changes; update: won't take over, Deep Wounds should not proc of ranged weapons (even if this might have been the case on retail); also the solution is too generic and could cause several side effects |
 | sol@213e53c4 | 2021-08-05 | X    | verify/rework SQL script; update: won't take over, random movement looks much better; also the WP paths in this commit are basically all the same and have far too few points |
-| sol@26bf3624 | 2021-08-04 |      | verify/rework SQL script |
+| sol@26bf3624 | 2021-08-04 | X    | verify/rework SQL script; done: sol@b2581713 |
 | sol@bf84e72d | 2021-08-04 | X    | verify/rework SQL script; done: sol@acb18e14 (the AC commit contained some serious bugs, e.g. wrong map for the spawns, does not seem to have been tested) |
 | sol@d56f27ed | 2021-08-03 | X    | verify new position / orientation; done: sol@4aa498d6 |
 | sol@b8f6c2a1 | 2021-08-03 | X    | verify/rework SQL script; done: sol@1745c067 |
