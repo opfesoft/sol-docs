@@ -29,6 +29,14 @@
 <td><p>0</p></td>
 </tr>
 <tr>
+<td><p><a href="#ghostarea">GhostArea</a></p></td>
+<td><p>mediumint(8)</p></td>
+<td><p>unsigned</p></td>
+<td><p>PRI</p></td>
+<td><p>NO</p></td>
+<td><p>0</p></td>
+</tr>
+<tr>
 <td><p><a href="#faction">Faction</a></p></td>
 <td><p>smallint(5)</p></td>
 <td><p>unsigned</p></td>
@@ -62,6 +70,9 @@ Graveyard's ID. See [WorldSafeLocs.dbc](../../dbc/WorldSafeLocs.md)
 
 ### GhostZone
 Zone's ID of ghost position before teleportation to graveyard. See [AreaTable.dbc](../../dbc/AreaTable.md)
+
+### GhostArea
+Default is 0. If >0 it will override the lookup for the closest graveyard and return the closest graveyard for the area (subzone) even if another graveyard is closer to the player. See [AreaTable.dbc](../../dbc/AreaTable.md) for subzone values.
 
 ### Faction
 Graveyard's team.

@@ -2,12 +2,23 @@ TODOs:
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@ad320d88 | 2021-10-14 |      | verify/rework SQL script |
+| sol@476d085a | 2021-10-14 |      | take over if needed |
+| sol@c1203874 | 2021-10-14 |      | verify/rework SQL script |
+| sol@4c576ebe | 2021-10-14 |      | verify/rework SQL script |
+| sol@5d73180c | 2021-10-14 |      | take over if needed |
+| sol@3894dfc8 | 2021-10-14 |      | verify changes |
+| sol@a8643f27 | 2021-10-14 |      | verify position; use UPDATE instead of DELETE/INSERT |
+| sol@b8345a2f | 2021-10-14 |      | take over if needed |
+| sol@21e67bae | 2021-10-13 |      | verify/rework SQL script |
+| sol@747a2a4f | 2021-10-13 |      | verify changes; low prio (minor issue) |
+| sol@b5f8b485 | 2021-10-13 |      | take over if needed |
 | sol@4349f076 | 2021-10-13 |      | verify/rework SQL script |
 | sol@cd03fd4e | 2021-10-13 |      | verify/rework SQL script |
 | sol@13eacaed | 2021-10-12 |      | take over if needed |
 | sol@c8ff0bcc | 2021-10-12 |      | verify changes; low prio (Dungeon: Azjol-Nerub) |
 | sol@a6e564be | 2021-10-12 |      | wrong: deletes the existing SAI script which already included reactions to emotes; verify the emotes and adjust the existing SAI; low prio (minor issue) |
-| sol@cec360b3 | 2021-10-12 |      | verify/rework SQL script |
+| sol@cec360b3 | 2021-10-12 | X    | verify/rework SQL script; done: sol@0145f351 |
 | sol@57658d82 | 2021-10-12 |      | take over if needed |
 | sol@0f5c8887 | 2021-10-12 |      | verify/rework SQL script |
 | sol@dd34d7e1 | 2021-10-10 |      | won't take over, improve event script and SAI for Shy-Rotam instead; also add SAI for Sian-Rotam (see TC version) |
@@ -149,9 +160,9 @@ TODOs:
 | sol@ec71301b | 2021-08-24 |      | won't take over; try to find a generic solution as spells like "Rain of Fire" are also affected; low prio as this is just a minor issue |
 | sol@7ed0daa9 | 2021-08-24 | X    | verify/rework SQL script; update: won't take over, random movement looks much better; also the WP paths in this commit are basically all the same |
 | sol@1b7d3708 | 2021-08-24 |      | verify issue & changes; take over if needed |
-| sol@52b78360 | 2021-08-24 |      | verify/rework SQL script; check every ore location; low prio |
-| sol@c774899e | 2021-08-24 |      | use UPDATE instead of DELETE/INSERT; update: won't take over, take over the TC version instead (see TC commit 513cbd289a9b6ac6c120c5f93a5b18f4cc04693e) |
-| sol@1e50a902 | 2021-08-24 |      | verify/rework SQL script; use GroupId 1 for entry 11497 |
+| sol@52b78360 | 2021-08-24 | X    | verify/rework SQL script; check every ore location; low prio; done: sol@3ae3f2fa |
+| sol@c774899e | 2021-08-24 | X    | use UPDATE instead of DELETE/INSERT; update: won't take over, take over the TC version instead (see TC commit 513cbd289a9b6ac6c120c5f93a5b18f4cc04693e); done: sol@016ef950 |
+| sol@1e50a902 | 2021-08-24 | X    | verify/rework SQL script; use GroupId 1 for entry 11497; done: sol@c34de090 |
 | sol@690187cb | 2021-08-22 |      | won't take over, fix CreatureScript instead (bosses use their own AI); low prio (Dungeon: Lower Blackrock Spire) |
 | sol@5f678053 | 2021-08-22 |      | try to find another solution as this one looks awkward; low prio as this is just a minor issue |
 | sol@26cc8c4f | 2021-08-21 | X    | use other position; done: sol@fdaed852 |
