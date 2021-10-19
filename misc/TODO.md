@@ -2,15 +2,29 @@ TODOs:
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@e8a6c4fa | 2021-10-18 |      | verify/rework SQL script, CreatureScripts and SpellScripts |
+| sol@e5321a9b | 2021-10-18 |      | verify/rework SQL script |
+| sol@429823a7 | 2021-10-17 |      | won't take over; there are many other duplicate critters, instead of deleting the duplicates enable random movement for all of them |
+| sol@5fb43be7 | 2021-10-17 |      | take over from TC instead |
+| sol@9aab7e8f | 2021-10-17 |      | use other drop chances and also remove item 9361 from the creature loot table |
+| sol@60f0fb2e | 2021-10-17 |      | low prio (Localization: esES, esMX) |
+| sol@12185d8f | 2021-10-16 |      | verify issue & changes; low prio (Dungeon: Icecrown Citadel) |
+| sol@ba719f0f | 2021-10-16 |      | verify changes; low prio (Hallow's End) |
+| sol@4a2846f7 | 2021-10-16 |      | verify/rework SQL script |
+| sol@191e37ec | 2021-10-16 |      | verify issues & changes |
+| sol@a56f4fe1 | 2021-10-16 |      | verify loot; compare with TC |
+| sol@7a828d3c | 2021-10-15 |      | won't take over, rework SAI instead (use SMART\_ACTION\_ADD\_IMMUNITY) |
+| sol@0d05970e | 2021-10-14 |      | verify changes |
+| sol@8b70222a | 2021-10-14 |      | verify changes; low prio (minor issue) |
 | sol@ad320d88 | 2021-10-14 |      | verify/rework SQL script |
 | sol@476d085a | 2021-10-14 |      | take over if needed |
 | sol@c1203874 | 2021-10-14 |      | verify/rework SQL script |
 | sol@4c576ebe | 2021-10-14 |      | verify/rework SQL script |
 | sol@5d73180c | 2021-10-14 |      | take over if needed |
-| sol@3894dfc8 | 2021-10-14 |      | verify changes |
-| sol@a8643f27 | 2021-10-14 |      | verify position; use UPDATE instead of DELETE/INSERT |
+| sol@3894dfc8 | 2021-10-14 | X    | verify changes; won't take over, not needed; can be accomplished using SMART\_ACTION\_SET\_GO\_STATE or SMART\_ACTION\_GO\_SET\_LOOT\_STATE combined with timers or respawn time of the GO itself |
+| sol@a8643f27 | 2021-10-14 | X    | verify position; use UPDATE instead of DELETE/INSERT; done: sol@297e4ba5 |
 | sol@b8345a2f | 2021-10-14 |      | take over if needed |
-| sol@21e67bae | 2021-10-13 |      | verify/rework SQL script |
+| sol@21e67bae | 2021-10-13 | X    | verify/rework SQL script; done: sol@7e1e0e93 |
 | sol@747a2a4f | 2021-10-13 |      | verify changes; low prio (minor issue) |
 | sol@b5f8b485 | 2021-10-13 |      | take over if needed |
 | sol@4349f076 | 2021-10-13 |      | verify/rework SQL script |
@@ -39,7 +53,7 @@ TODOs:
 | sol@3f541b98 | 2021-10-10 |      | verify/rework SQL script; low prio (minor issue) |
 | sol@e503afd0 | 2021-10-10 |      | fix SQL script (deletes wrong GUID range); verify new NPCs; low prio (Hallow's End) |
 | sol@d9323336 | 2021-10-10 |      | wrong: deletes the existing SAI script which already included reactions to emotes; verify the emotes and adjust the existing SAI; low prio (minor issue) |
-| sol@f96b027f | 2021-10-10 |      | take over if needed |
+| sol@f96b027f | 2021-10-10 |      | take over if needed (also see bugfix sol@db2b380c) |
 | sol@0cccdc4a | 2021-10-10 |      | the GOs are also needed for the "Battle for the Undercity" event; keep the ones with lower GUID and adjust their phasemask accordingly (also see sol@4392da3c); same for GUID 265429 (Wrathgate) |
 | sol@7cf0ed0a | 2021-10-09 | X    | verify NPC; update: wrong, won't take over, the gossip option was removed during WotLK and there are more than enough NPCs around selling food and drink |
 | sol@00e9cf2c | 2021-10-09 |      | verify/rework SQL script; low prio (Dungeon: Stratholme) |
@@ -143,20 +157,20 @@ TODOs:
 | sol@498faf38 | 2021-09-01 |      | verify changes; low prio (Dungeons) |
 | sol@48e09fda | 2021-08-31 |      | verify/rework SQL script |
 | sol@bfaa32f2 | 2021-08-31 |      | verify changes; low prio (Dungeons) |
-| sol@33b3ea2f | 2021-08-31 |      | verify/rework SQL script; don't remove text id 3297 for the gossip menu, use a condition to show 2598 only if the quest has not been completed yet |
+| sol@33b3ea2f | 2021-08-31 | X    | verify/rework SQL script; don't remove text id 3297 for the gossip menu, use a condition to show 2598 only if the quest has not been completed yet; done: sol@c5251554 |
 | sol@bf18c770 | 2021-08-30 | X    | verify/rework SQL script; done: sol@72e90723 |
 | sol@6978d624 | 2021-08-29 |      | verify changes and adapt to Sol; low prio (GM command) |
-| sol@93466e58 | 2021-08-26 |      | verify changes and check the creatures in the area (including the critters) |
-| sol@96addc67 | 2021-08-26 |      | verify/rework SQL script |
+| sol@93466e58 | 2021-08-26 | X    | verify changes and check the creatures in the area (including the critters); done: sol@f1c38f92 |
+| sol@96addc67 | 2021-08-26 | X    | verify/rework SQL script; done: sol@be258dbb |
 | sol@45218224 | 2021-08-26 |      | take over if needed |
 | sol@f23d42c0 | 2021-08-26 |      | take over if needed |
-| sol@bef68244 | 2021-08-25 |      | verify/rework SQL script |
-| sol@f039ccc3 | 2021-08-25 |      | verify/rework SQL script |
+| sol@bef68244 | 2021-08-25 | X    | verify/rework SQL script; done: sol@24d334e0 |
+| sol@f039ccc3 | 2021-08-25 | X    | verify/rework SQL script; done: sol@75afe154 |
 | sol@a8c0a2cc | 2021-08-25 |      | take over if needed (could probably cause performance issues; see also bugfix sol@c1119553) |
 | sol@015f8802 | 2021-08-25 |      | won't take over, fix CreatureScript instead (bosses use their own AI); low prio (Dungeon: Lower Blackrock Spire) |
 | sol@8c06c1ed | 2021-08-24 | X    | verify/rework SQL script; implemented another solution and improved the quest "Control": sol@b3a6e620 |
 | sol@032ca32a | 2021-08-24 |      | does not seem to work, find another solution; low prio (minor issue) |
-| sol@940c30a1 | 2021-08-24 |      | verify changes and check the creatures in the area |
+| sol@940c30a1 | 2021-08-24 | X    | verify changes and check the creatures in the area; done: sol@b1eba7fd |
 | sol@ec71301b | 2021-08-24 |      | won't take over; try to find a generic solution as spells like "Rain of Fire" are also affected; low prio as this is just a minor issue |
 | sol@7ed0daa9 | 2021-08-24 | X    | verify/rework SQL script; update: won't take over, random movement looks much better; also the WP paths in this commit are basically all the same |
 | sol@1b7d3708 | 2021-08-24 |      | verify issue & changes; take over if needed |
