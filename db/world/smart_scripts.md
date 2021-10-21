@@ -2561,7 +2561,7 @@ quickChange 1 forces the creature to quickly change its orientation (useful if t
 <tr>
 <td><p>SMART_ACTION_RESPAWN_TARGET</p></td>
 <td><p>70</p></td>
-<td><p>Respawntime in seconds (only for GO; for creature: 0: respawn only if dead; >0: force respawn even if alive)</p></td>
+<td><p>Despawntime in seconds (only for GOs which start despawned; for creature: 0: respawn only if dead; >0: force respawn even if alive)</p></td>
 <td><p><br />
 </p></td>
 <td><p><br />
@@ -3705,6 +3705,21 @@ If the start position distance is far away the circle movement speed will be dec
 <td><p><br />
 </p></td>
 <td><p>If "health" is greater than 0 set the health on the target(s). Otherwise copy health, either from the first target to the script owner if "copy from target" is set to 1 or from the script owner to all targets if set to 0. Use percentage if "use percentage" is set to 1, otherwise the actual health amount.</p></td>
+</tr>
+<tr>
+<td><p>SMART_ACTION_DESPAWN_GO</p></td>
+<td><p>233</p></td>
+<td><p>respawnTime in s</p></td>
+<td><p>playDespawnAnim (0/1)</p></td>
+<td><p><br />
+</p></td>
+<td><p><br />
+</p></td>
+<td><p><br />
+</p></td>
+<td><p><br />
+</p></td>
+<td><p>Despawns the targeted GOs and respawn after "respawnTime" seconds (important: this overrides [gameobject.spawntimesecs](gameobject.md#spawntimesecs)!). If the GO starts despawned (spawntimesecs is negative) the "respawnTime" value is ignored. If "playDespawnAnim" is 1 the GO is playing its despawn animation.</p></td>
 </tr>
 </tbody>
 </table>

@@ -2,26 +2,34 @@ TODOs:
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@ddb3cb8d | 2021-10-20 |      | verify/rework SQL script; low prio (Hallow's End) |
+| sol@aab110c1 | 2021-10-20 |      | won't take over, rework existing SAI instead |
+| sol@08db8361 | 2021-10-20 |      | verify changes; low prio (PvP) |
+| sol@1fb6830b | 2021-10-20 |      | wrong: the QuestMoneyReward DBC was not part of the WotLK client, it was introduced later (according to wowdev at least with MoP); implement another solution, e.g. XP * 6 copper should suffice |
+| sol@51161bb7 | 2021-10-20 |      | verify/rework SQL script; low prio (Hallow's End) |
+| sol@fb1e750d | 2021-10-20 |      | take over if needed |
+| sol@1ec612e6 | 2021-10-20 |      | take over if needed |
+| sol@15494554 | 2021-10-19 |      | verify/rework SQL script |
 | sol@e8a6c4fa | 2021-10-18 |      | verify/rework SQL script, CreatureScripts and SpellScripts |
 | sol@e5321a9b | 2021-10-18 |      | verify/rework SQL script |
-| sol@429823a7 | 2021-10-17 |      | won't take over; there are many other duplicate critters, instead of deleting the duplicates enable random movement for all of them |
+| sol@429823a7 | 2021-10-17 | X    | won't take over; there are many other duplicate critters, instead of deleting the duplicates enable random movement for all of them; done: sol@f8d54d6d |
 | sol@5fb43be7 | 2021-10-17 |      | take over from TC instead |
 | sol@9aab7e8f | 2021-10-17 |      | use other drop chances and also remove item 9361 from the creature loot table |
 | sol@60f0fb2e | 2021-10-17 |      | low prio (Localization: esES, esMX) |
 | sol@12185d8f | 2021-10-16 |      | verify issue & changes; low prio (Dungeon: Icecrown Citadel) |
 | sol@ba719f0f | 2021-10-16 |      | verify changes; low prio (Hallow's End) |
 | sol@4a2846f7 | 2021-10-16 |      | verify/rework SQL script |
-| sol@191e37ec | 2021-10-16 |      | verify issues & changes |
+| sol@191e37ec | 2021-10-16 | X    | verify issues & changes; update: won't take over: even if this was not the case on retail there's no reason to remove the aura if mounted |
 | sol@a56f4fe1 | 2021-10-16 |      | verify loot; compare with TC |
 | sol@7a828d3c | 2021-10-15 |      | won't take over, rework SAI instead (use SMART\_ACTION\_ADD\_IMMUNITY) |
-| sol@0d05970e | 2021-10-14 |      | verify changes |
+| sol@0d05970e | 2021-10-14 | X    | verify changes; update: won't take over, keep the prerequisite according to the quest text, no matter how this was handled on retail |
 | sol@8b70222a | 2021-10-14 |      | verify changes; low prio (minor issue) |
 | sol@ad320d88 | 2021-10-14 |      | verify/rework SQL script |
 | sol@476d085a | 2021-10-14 |      | take over if needed |
 | sol@c1203874 | 2021-10-14 |      | verify/rework SQL script |
 | sol@4c576ebe | 2021-10-14 |      | verify/rework SQL script |
 | sol@5d73180c | 2021-10-14 |      | take over if needed |
-| sol@3894dfc8 | 2021-10-14 | X    | verify changes; won't take over, not needed; can be accomplished using SMART\_ACTION\_SET\_GO\_STATE or SMART\_ACTION\_GO\_SET\_LOOT\_STATE combined with timers or respawn time of the GO itself |
+| sol@3894dfc8 | 2021-10-14 | X    | verify changes; won't take over, not needed; can be accomplished using SMART\_ACTION\_SET\_GO\_STATE or SMART\_ACTION\_GO\_SET\_LOOT\_STATE combined with timers or respawn time of the GO itself; update: some GOs cannot be despawned this way, so implemented the new SAI action type "SMART\_ACTION\_DESPAWN\_GO", see sol@02025b6c |
 | sol@a8643f27 | 2021-10-14 | X    | verify position; use UPDATE instead of DELETE/INSERT; done: sol@297e4ba5 |
 | sol@b8345a2f | 2021-10-14 |      | take over if needed |
 | sol@21e67bae | 2021-10-13 | X    | verify/rework SQL script; done: sol@7e1e0e93 |
@@ -151,7 +159,7 @@ TODOs:
 | sol@332e3e1b | 2021-09-01 |      | verify changes; pooling does not work for instanced maps, handle this via InstanceScript (e.g. similar to sol@95675ffb); low prio (Dungeon: Stratholme) |
 | sol@febdb592 | 2021-09-01 | X    | won't take over, just set the drop chances to 5% for all creatures; Ur'dan should not drop the key; done: sol@22347fee |
 | sol@568fad6d | 2021-09-01 |      | verify/rework SQL script; low prio (Midsummer Fire Festival) |
-| sol@6386acd8 | 2021-09-01 |      | verify/rework SQL script |
+| sol@6386acd8 | 2021-09-01 | X    | verify/rework SQL script; done: sol@8bb78824 |
 | sol@a0d9cd7f | 2021-09-01 | X    | verify/rework SQL script; done: sol@c81159a5 |
 | sol@c27b2391 | 2021-09-01 | X    | only enable random movement (increase radius); also decrease walking speed; done: sol@5cf51ed0 |
 | sol@498faf38 | 2021-09-01 |      | verify changes; low prio (Dungeons) |
