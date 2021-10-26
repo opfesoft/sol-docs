@@ -2,6 +2,23 @@ TODOs:
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@31dfe4f0 | 2021-10-26 |      | verify/rework SQL script |
+| sol@1f603455 | 2021-10-25 |      | verify issue & changes; low Prio (Hallow's End) |
+| sol@3cddfb84 | 2021-10-24 |      | verify changes; low prio (minor issue) |
+| sol@416e8d2c | 2021-10-24 |      | won't take over, use SAI instead |
+| sol@96441a91 | 2021-10-24 |      | verify changes; low prio (minor issue) |
+| sol@a45abcad | 2021-10-24 |      | take over from TC instead |
+| sol@a98c4122 | 2021-10-24 |      | verify issue & changes; low Prio (Hallow's End) |
+| sol@36aced60 | 2021-10-23 |      | take over if needed (the recipes are largely irrelevant for WotLK and were removed in Cataclysm) |
+| sol@73a55e02 | 2021-10-22 |      | verify changes; adapt to Sol if taking over parts of the CreatureScript, perhaps improve the SAI instead; low prio (Dungeon: Stratholme) |
+| sol@6baf498a | 2021-10-22 |      | won't take over; according to TC issue 15906 the server side spell 30176 has to be implemented which is triggered periodically setting the PvP state; spells 29894 (Alliance) and 29895 (Horde) are used for the slow effect; low prio (PvP) |
+| sol@9bcde70d | 2021-10-22 |      | take over if needed (see TC commit ac62d7156f93bf86f57dbad1f24f14031322fd5a for more information) |
+| sol@5d69ce82 | 2021-10-22 |      | verify loot; compare with TC |
+| sol@c2381a5a | 2021-10-21 |      | won't take over, just set the respawn time of the GOs to 2 minutes, this should suffice |
+| sol@6798b907 | 2021-10-21 |      | verify changes; low prio (Dungeon: Blackrock Depths) |
+| sol@ad73b564 | 2021-10-21 |      | take over if needed |
+| sol@2648157a | 2021-10-21 |      | wrong: deletes the existing SAI script; verify the emotes and adjust the existing SAI; low prio (minor issue) |
+| sol@7591491b | 2021-10-21 |      | wrong: deletes the existing SAI script which already included reactions to emotes; verify the emotes and adjust the existing SAI; low prio (minor issue) |
 | sol@ddb3cb8d | 2021-10-20 |      | verify/rework SQL script; low prio (Hallow's End) |
 | sol@aab110c1 | 2021-10-20 |      | won't take over, rework existing SAI instead |
 | sol@08db8361 | 2021-10-20 |      | verify changes; low prio (PvP) |
@@ -56,7 +73,7 @@ TODOs:
 | sol@d8e89eeb | 2021-10-10 | X    | verify loot; compare with TC; done: sol@ddcd0e52 |
 | sol@3ff389c1 | 2021-10-10 | X    | verify loot; compare with TC; done: sol@ddcd0e52 |
 | sol@44545c65 | 2021-10-10 | X    | verify loot; compare with TC; done: sol@ddcd0e52 |
-| sol@ae3dc6c7 | 2021-10-10 |      | verify/rework SQL script |
+| sol@ae3dc6c7 | 2021-10-10 |      | verify/rework SQL script (also see sol@8605981a) |
 | sol@cc892279 | 2021-10-10 |      | verify/rework SQL script |
 | sol@3f541b98 | 2021-10-10 |      | verify/rework SQL script; low prio (minor issue) |
 | sol@e503afd0 | 2021-10-10 |      | fix SQL script (deletes wrong GUID range); verify new NPCs; low prio (Hallow's End) |
@@ -72,11 +89,11 @@ TODOs:
 | sol@668f519f | 2021-10-08 |      | verify/rework SQL script |
 | sol@c6427103 | 2021-10-08 | X    | verify loot; compare with TC; done: sol@ddcd0e52 |
 | sol@2c92e965 | 2021-10-08 |      | verify/rework SQL script |
-| sol@cb9f3cbf | 2021-10-08 |      | delete the GUIDs instead and also remove them from game\_event\_gameobject |
+| sol@cb9f3cbf | 2021-10-08 | X    | delete the GUIDs instead and also remove them from game\_event\_gameobject; done: sol@b506cc3c |
 | sol@8514eaf9 | 2021-10-07 |      | verify changes; low prio (Dungeon: Blackrock Depths) |
 | sol@99cc4285 | 2021-10-07 |      | verify changes, try to find another solution; low prio (minor issue) |
 | sol@a5f5568d | 2021-10-07 |      | verify/rework SQL script |
-| sol@261d25e9 | 2021-10-07 |      | verify/rework SQL script |
+| sol@261d25e9 | 2021-10-07 |      | verify/rework SQL script (also see bugfix sol@4d1a2b2b |
 | sol@665760e0 | 2021-10-07 |      | verify/rework SQL script |
 | sol@e7a62102 | 2021-10-07 |      | verify/rework SQL script |
 | sol@248baf33 | 2021-10-07 |      | verify/rework SQL script |
@@ -138,31 +155,31 @@ TODOs:
 | sol@3de6ee6c | 2021-09-09 |      | verify/rework SQL script |
 | sol@8f47a6da | 2021-09-07 |      | contains many bugs, e.g. uses creature ID 15642 (Amani Shadowpriest) instead of 15462 (Spitting Scarab) and decreases(!) reputation for killing mobs which is completely wrong in this case; verify all creature IDs and reputation values; update: also see sol@65737d1e |
 | sol@f07faedc | 2021-09-07 |      | won't take over, rework the SAI instead and add better comments |
-| sol@1f893f97 | 2021-09-07 |      | rework the whole quest: Yeh'kinya's Bramble should only be usable near a Vale Screecher or Rogue Vale Screecher corpse; set Screecher Spirit active so it will disappear even if no player is near; improve SAI and SAI comments |
+| sol@1f893f97 | 2021-09-07 | X    | rework the whole quest: Yeh'kinya's Bramble should only be usable near a Vale Screecher or Rogue Vale Screecher corpse; set Screecher Spirit active so it will disappear even if no player is near; improve SAI and SAI comments; done: sol@14bcb1bc |
 | sol@2e41da54 | 2021-09-07 |      | take over if needed |
 | sol@e9be0483 | 2021-09-07 | X    | verify issue; update: Sol does not seem to be affected by this issue |
 | sol@8a13fff5 | 2021-09-07 | X    | it is not necessary to create a new pool, just adjust the existing one: remove GO GUID 14999 from the spawns and the pool and add GUID 6248 to the pool instead; done: sol@599e5bb4 |
 | sol@7d7eac01 | 2021-09-07 |      | verify/rework SQL script; low prio (Midsummer Fire Festival) |
 | sol@55831fab | 2021-09-07 | X    | contains wrong GUIDs in the comments; also use pool template ID 507 instead (501-506 are similar pools); done: sol@b50280d3 |
-| sol@52d9f532 | 2021-09-07 |      | verify/rework SQL script |
+| sol@52d9f532 | 2021-09-07 | X    | verify/rework SQL script; implemented another solution: sol@b336ba97 |
 | sol@02b0b29f | 2021-09-06 |      | verify changes; low prio (minor issue) |
 | sol@50991bdc | 2021-09-05 |      | take over if needed; could cause several side effects |
-| sol@f5ef1220 | 2021-09-04 |      | verify changes and check the creatures in the area |
-| sol@6ed71767 | 2021-09-04 |      | keep as reference; take over single values if needed; don't blindly take over such mass updates |
+| sol@f5ef1220 | 2021-09-04 | X    | verify changes and check the creatures in the area; done: sol@2307963c |
+| sol@6ed71767 | 2021-09-04 |      | keep as reference; take over single values if needed; won't blindly take over such mass updates |
 | sol@d8b3df09 | 2021-09-04 |      | low prio (Localization: zhCN) |
-| sol@49348256 | 2021-09-03 |      | verify changes and check the creatures in the area |
-| sol@392319ab | 2021-09-03 |      | verify quest chain and issue |
+| sol@49348256 | 2021-09-03 | X    | verify changes and check the creatures in the area; done: sol@4de06bf3 |
+| sol@392319ab | 2021-09-03 | X    | verify quest chain and issue; won't take over, improve the whole quest chain instead: sol@61dd64c8 |
 | sol@37c72c17 | 2021-09-03 | X    | wrong: just delete the second Healing Wave because the first one already affects the creature itself; done: sol@dbcdc006 |
 | sol@2f9f9522 | 2021-09-02 |      | take over if needed (also see sol@066d2ef8) |
 | sol@dd0b964a | 2021-09-01 |      | verify changes; low prio (Midsummer Fire Festival) |
-| sol@9d17889b | 2021-09-01 |      | verify/rework SQL script; compare with TC version |
+| sol@9d17889b | 2021-09-01 | X    | verify/rework SQL script; compare with TC version; done: sol@f0b97068 |
 | sol@332e3e1b | 2021-09-01 |      | verify changes; pooling does not work for instanced maps, handle this via InstanceScript (e.g. similar to sol@95675ffb); low prio (Dungeon: Stratholme) |
 | sol@febdb592 | 2021-09-01 | X    | won't take over, just set the drop chances to 5% for all creatures; Ur'dan should not drop the key; done: sol@22347fee |
 | sol@568fad6d | 2021-09-01 |      | verify/rework SQL script; low prio (Midsummer Fire Festival) |
 | sol@6386acd8 | 2021-09-01 | X    | verify/rework SQL script; done: sol@8bb78824 |
 | sol@a0d9cd7f | 2021-09-01 | X    | verify/rework SQL script; done: sol@c81159a5 |
 | sol@c27b2391 | 2021-09-01 | X    | only enable random movement (increase radius); also decrease walking speed; done: sol@5cf51ed0 |
-| sol@498faf38 | 2021-09-01 |      | verify changes; low prio (Dungeons) |
+| sol@498faf38 | 2021-09-01 |      | verify changes (also see sol@1c77d8a9); low prio (Dungeons) |
 | sol@48e09fda | 2021-08-31 |      | verify/rework SQL script |
 | sol@bfaa32f2 | 2021-08-31 |      | verify changes; low prio (Dungeons) |
 | sol@33b3ea2f | 2021-08-31 | X    | verify/rework SQL script; don't remove text id 3297 for the gossip menu, use a condition to show 2598 only if the quest has not been completed yet; done: sol@c5251554 |
@@ -456,7 +473,7 @@ TODOs:
 | sol@3306f925 | 2021-03-20 | X    | verify/rework SQL script; rewrote the whole script: sol@cdecf52f |
 | sol@156f7966 | 2021-03-20 | X    | verify/rework SQL script; rewrote the whole script: sol@ad133e7e |
 | sol@aea4ce30 | 2021-03-20 |      | verify changes; low prio (Dungeon: Ulduar) |
-| sol@45790d18 | 2021-03-19 |      | keep as reference; take over single values if needed; don't blindly take over such mass updates |
+| sol@45790d18 | 2021-03-19 |      | keep as reference; take over single values if needed; won't blindly take over such mass updates |
 | sol@2ec26893 | 2021-03-18 | X    | change pool template ID as this one will overwrite "Minerals - Rolands Doom - Duskwood" from AC commit sol@910106a0; done: sol@d012a9c2 |
 | sol@8119bff9 | 2021-03-18 | X    | verify and rework SQL script; also check event script 5991; done: sol@363333f4 |
 | sol@79420c86 | 2021-03-17 | X    | position the creature in the water nearby; done: sol@80d13a0b |
@@ -596,7 +613,7 @@ TODOs:
 | sol@c4ded889 | 2020-10-26 | X    | verify and rework SQL script; done: sol@f35a4d57 |
 | sol@5ec25278 | 2020-10-25 | X    | verify and rework SQL script; done: sol@71f51551 |
 | sol@d07a34c1 | 2020-10-23 | X    | done: sol@91c47cb4 and sol@c129c06a; AC implementation for AURA\_INTERRUPT\_FLAG\_LEAVE\_COMBAT is at the wrong code place |
-| sol@d5bb6ba1 | 2020-10-21 |      | see also follow-up bugfixes sol@b3a967db, sol@a9b2ddba; could contain several other hidden bugs, so only take over if really needed and double-check the code changes in that case; low prio |
+| sol@d5bb6ba1 | 2020-10-21 |      | take over if needed; see also follow-up bugfixes sol@b3a967db, sol@a9b2ddba, sol@9c0894ab; could contain several other hidden bugs |
 | sol@ab5933ef | 2020-10-17 | X    | take over if needed; done: sol@79964075 |
 | sol@24cfa307 | 2020-10-11 | X    | verify and rework SQL script; compare with TC version; low prio (Brewfest) |
 | sol@4cca286a | 2020-10-09 | X    | verify and find a better solution as flying creatures respawn on the ground instead of their actual spawn point; done: sol@afa10355 |
