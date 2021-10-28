@@ -56,11 +56,12 @@ Time to wait (in ms) between each point.
 
 ### move\_type
 
-|      |     |
-|------|-----|
-| Walk | 0   |
-| Run  | 1   |
-| Fly  | 2   |
+|          |     |
+|----------|-----|
+| Walk     | 0   |
+| Run      | 1   |
+| Land     | 2   |
+| Take-Off | 3   |
 
 ### action
 

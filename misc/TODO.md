@@ -2,27 +2,29 @@ TODOs:
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@12b195e1 | 2021-10-28 |      | verify/rework SQL script / core scripts; also "The Cleaner" should spawn if a second player character is helping; low prio (obsolete quest) |
+| sol@26456132 | 2021-10-26 |      | won't take over, improve the CreatureScript instead |
 | sol@31dfe4f0 | 2021-10-26 |      | verify/rework SQL script |
 | sol@1f603455 | 2021-10-25 |      | verify issue & changes; low Prio (Hallow's End) |
 | sol@3cddfb84 | 2021-10-24 |      | verify changes; low prio (minor issue) |
-| sol@416e8d2c | 2021-10-24 |      | won't take over, use SAI instead |
+| sol@416e8d2c | 2021-10-24 | X    | won't take over, use SAI instead; done: sol@9336ee8a |
 | sol@96441a91 | 2021-10-24 |      | verify changes; low prio (minor issue) |
-| sol@a45abcad | 2021-10-24 |      | take over from TC instead |
+| sol@a45abcad | 2021-10-24 | X    | take over from TC instead; done: sol@579b350f |
 | sol@a98c4122 | 2021-10-24 |      | verify issue & changes; low Prio (Hallow's End) |
 | sol@36aced60 | 2021-10-23 |      | take over if needed (the recipes are largely irrelevant for WotLK and were removed in Cataclysm) |
 | sol@73a55e02 | 2021-10-22 |      | verify changes; adapt to Sol if taking over parts of the CreatureScript, perhaps improve the SAI instead; low prio (Dungeon: Stratholme) |
 | sol@6baf498a | 2021-10-22 |      | won't take over; according to TC issue 15906 the server side spell 30176 has to be implemented which is triggered periodically setting the PvP state; spells 29894 (Alliance) and 29895 (Horde) are used for the slow effect; low prio (PvP) |
 | sol@9bcde70d | 2021-10-22 |      | take over if needed (see TC commit ac62d7156f93bf86f57dbad1f24f14031322fd5a for more information) |
-| sol@5d69ce82 | 2021-10-22 |      | verify loot; compare with TC |
-| sol@c2381a5a | 2021-10-21 |      | won't take over, just set the respawn time of the GOs to 2 minutes, this should suffice |
+| sol@5d69ce82 | 2021-10-22 | X    | verify loot; compare with TC; done: sol@55453d23 |
+| sol@c2381a5a | 2021-10-21 | X    | won't take over, just set the respawn time of the GOs to 2 minutes, this should suffice; done: sol@e5f0e902 |
 | sol@6798b907 | 2021-10-21 |      | verify changes; low prio (Dungeon: Blackrock Depths) |
 | sol@ad73b564 | 2021-10-21 |      | take over if needed |
 | sol@2648157a | 2021-10-21 |      | wrong: deletes the existing SAI script; verify the emotes and adjust the existing SAI; low prio (minor issue) |
 | sol@7591491b | 2021-10-21 |      | wrong: deletes the existing SAI script which already included reactions to emotes; verify the emotes and adjust the existing SAI; low prio (minor issue) |
 | sol@ddb3cb8d | 2021-10-20 |      | verify/rework SQL script; low prio (Hallow's End) |
-| sol@aab110c1 | 2021-10-20 |      | won't take over, rework existing SAI instead |
+| sol@aab110c1 | 2021-10-20 | X    | won't take over, rework existing SAI instead; done: sol@1328f2de |
 | sol@08db8361 | 2021-10-20 |      | verify changes; low prio (PvP) |
-| sol@1fb6830b | 2021-10-20 |      | wrong: the QuestMoneyReward DBC was not part of the WotLK client, it was introduced later (according to wowdev at least with MoP); implement another solution, e.g. XP * 6 copper should suffice |
+| sol@1fb6830b | 2021-10-20 | X    | wrong: the QuestMoneyReward DBC was not part of the WotLK client, it was introduced later (according to wowdev at least with MoP); implement another solution, e.g. XP * 0.6 copper should suffice; done: sol@55d8984d |
 | sol@51161bb7 | 2021-10-20 |      | verify/rework SQL script; low prio (Hallow's End) |
 | sol@fb1e750d | 2021-10-20 |      | take over if needed |
 | sol@1ec612e6 | 2021-10-20 |      | take over if needed |
@@ -153,8 +155,8 @@ TODOs:
 | sol@1ae8e7ec | 2021-09-12 | X    | wrong: the correct number of dispelled auras is calculated using EffectDieSides and BasePoints; implement another solution; done: sol@9eebf780 |
 | sol@e5b8dbeb | 2021-09-11 |      | verify changes; low prio (PvP) |
 | sol@3de6ee6c | 2021-09-09 |      | verify/rework SQL script |
-| sol@8f47a6da | 2021-09-07 |      | contains many bugs, e.g. uses creature ID 15642 (Amani Shadowpriest) instead of 15462 (Spitting Scarab) and decreases(!) reputation for killing mobs which is completely wrong in this case; verify all creature IDs and reputation values; update: also see sol@65737d1e |
-| sol@f07faedc | 2021-09-07 |      | won't take over, rework the SAI instead and add better comments |
+| sol@8f47a6da | 2021-09-07 | X    | contains many bugs, e.g. uses creature ID 15642 (Amani Shadowpriest) instead of 15462 (Spitting Scarab) and decreases(!) reputation for killing mobs which is completely wrong in this case; verify all creature IDs and reputation values; update: also see sol@65737d1e; done: sol@083660c9 |
+| sol@f07faedc | 2021-09-07 | X    | won't take over, rework the SAI instead and add better comments; done: sol@83d8b3be |
 | sol@1f893f97 | 2021-09-07 | X    | rework the whole quest: Yeh'kinya's Bramble should only be usable near a Vale Screecher or Rogue Vale Screecher corpse; set Screecher Spirit active so it will disappear even if no player is near; improve SAI and SAI comments; done: sol@14bcb1bc |
 | sol@2e41da54 | 2021-09-07 |      | take over if needed |
 | sol@e9be0483 | 2021-09-07 | X    | verify issue; update: Sol does not seem to be affected by this issue |

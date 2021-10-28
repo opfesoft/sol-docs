@@ -679,17 +679,9 @@ According to the Level, the basic experience with index *RewardXPDifficulty* is 
 
 This field also controls the XP given as the XP is calculated from the value in this field by the following formula. If the quest is repeatable, XP will be given only once. The total XP that a character will receive is also affected by the level difference between the character's level and the quest's level.
 
-The formula for calculating XP from the value in this field:
-**QuestLevel &gt;= 65:** XP = RewMoneyMaxLevel / 6.0
-**QuestLevel h1. 64:** XP = RewMoneyMaxLevel / 4.8
-**QuestLevel 63:** XP = RewMoneyMaxLevel / 3.6
-**QuestLevel h1. 62:** XP = RewMoneyMaxLevel / 2.4
-**QuestLevel 61:** XP = RewMoneyMaxLevel / 1.2
-**QuestLevel &lt;= 60:** XP = RewMoneyMaxLevel / 0.6
-
 ### RewardMoney
 
-Money earned by completing the quest (if value &gt; 0) or money requirement to complete the quest (if value &lt; 0) .
+Money earned by completing the quest (if value &gt; 0) or money requirement to complete the quest (if value &lt; 0). If &gt; 0 and [QuestLevel](#questlevel) is -1 this field is ignored and the player receives money depending on the player level.
 
 ### RewardBonusMoney
 
