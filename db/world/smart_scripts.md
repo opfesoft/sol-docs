@@ -2418,7 +2418,7 @@ if set to 0 only aggressive / hostile NPCs attack</p></td>
 </p></td>
 <td><p><br />
 </p></td>
-<td><p>Only works for creatures with inhabit air.</p></td>
+<td><p>Only works for creatures with inhabit air or the flag "CREATURE_FLAG_EXTRA_NO_MOVE_FLAGS_UPDATE"</p></td>
 </tr>
 <tr>
 <td><p>SMART_ACTION_SET_SWIM</p></td>

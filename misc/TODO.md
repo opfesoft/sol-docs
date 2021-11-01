@@ -2,6 +2,20 @@ TODOs:
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@9fe49d8f | 2021-11-01 |      | low prio (Localization: esES, esMX) |
+| sol@ee0bc7d5 | 2021-11-01 |      | verify changes; try to improve SAI instead; low prio (Scholomance) |
+| sol@6f7d53da | 2021-10-31 |      | verify issues & changes |
+| sol@b6ad5bf8 | 2021-10-31 |      | won't take over, improve SAI instead |
+| sol@4925bfa3 | 2021-10-31 |      | verify/rework SQL script |
+| sol@b7665c45 | 2021-10-31 |      | verify/rework SQL script |
+| sol@901198bf | 2021-10-30 |      | verify/rework SQL script |
+| sol@dbfecc5b | 2021-10-30 |      | take over from TC instead |
+| sol@e761b81a | 2021-10-30 |      | verify/rework SQL script; low Prio (Hallow's End) |
+| sol@9ef0aa88 | 2021-10-30 |      | verify/rework SQL script (also see sol@e3fd9c78); low prio (Day of the Dead) |
+| sol@72160100 | 2021-10-30 |      | verify/rework SQL script |
+| sol@5e231bae | 2021-10-29 |      | verify loot; compare with TC |
+| sol@7f69acd4 | 2021-10-29 |      | take over if needed |
+| sol@a7cc26e2 | 2021-10-29 |      | take over if needed |
 | sol@12b195e1 | 2021-10-28 |      | verify/rework SQL script / core scripts; also "The Cleaner" should spawn if a second player character is helping; low prio (obsolete quest) |
 | sol@26456132 | 2021-10-26 |      | won't take over, improve the CreatureScript instead |
 | sol@31dfe4f0 | 2021-10-26 |      | verify/rework SQL script |
@@ -154,7 +168,7 @@ TODOs:
 | sol@adab416f | 2021-09-12 |      | verify issue & changes; low prio (Dungeon: Ulduar) |
 | sol@1ae8e7ec | 2021-09-12 | X    | wrong: the correct number of dispelled auras is calculated using EffectDieSides and BasePoints; implement another solution; done: sol@9eebf780 |
 | sol@e5b8dbeb | 2021-09-11 |      | verify changes; low prio (PvP) |
-| sol@3de6ee6c | 2021-09-09 |      | verify/rework SQL script |
+| sol@3de6ee6c | 2021-09-09 | X    | verify/rework SQL script; done: sol@6a22c9af |
 | sol@8f47a6da | 2021-09-07 | X    | contains many bugs, e.g. uses creature ID 15642 (Amani Shadowpriest) instead of 15462 (Spitting Scarab) and decreases(!) reputation for killing mobs which is completely wrong in this case; verify all creature IDs and reputation values; update: also see sol@65737d1e; done: sol@083660c9 |
 | sol@f07faedc | 2021-09-07 | X    | won't take over, rework the SAI instead and add better comments; done: sol@83d8b3be |
 | sol@1f893f97 | 2021-09-07 | X    | rework the whole quest: Yeh'kinya's Bramble should only be usable near a Vale Screecher or Rogue Vale Screecher corpse; set Screecher Spirit active so it will disappear even if no player is near; improve SAI and SAI comments; done: sol@14bcb1bc |

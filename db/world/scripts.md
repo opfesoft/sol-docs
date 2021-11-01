@@ -301,5 +301,5 @@ Exists only for 'waypoint_scripts' and acts there as primary key; it is set auto
 | TEMPSUMMON\_CORPSE\_DESPAWN                 | 5     | Despawns instantly after death.                                                       |
 | TEMPSUMMON\_CORPSE\_TIMED\_DESPAWN          | 6     | Despawns after a specified time after death.                                          |
 | TEMPSUMMON\_DEAD\_DESPAWN                   | 7     | Despawns when the creature disappears.                                                |
-| TEMPSUMMON\_MANUAL\_DESPAWN                 | 8     | Despawns when UnSummon() (or Force Despawn action) is called.                         |
+| TEMPSUMMON\_MANUAL\_DESPAWN                 | 8     | Despawns when UnSummon() is called or other script actions are used, e.g. SMART_ACTION_FORCE_DESPAWN or SCRIPT_COMMAND_DESPAWN_CREATURE. |
 

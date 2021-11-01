@@ -209,17 +209,17 @@ Orientation the summoned creature will get when spawned
 <tr>
 <td><p>1</p></td>
 <td><p>TEMPSUMMON_TIMED_OR_DEAD_DESPAWN</p></td>
-<td><p>Despawns after a specified time OR when the creature disappears</p></td>
+<td><p>Despawns after a specified time (only out of combat) OR when the creature disappears</p></td>
 </tr>
 <tr>
 <td><p>2</p></td>
 <td><p>TEMPSUMMON_TIMED_OR_CORPSE_DESPAWN</p></td>
-<td><p>Despawns after a specified time OR when the creature dies</p></td>
+<td><p>Despawns after a specified time (only out of combat) OR when the creature dies</p></td>
 </tr>
 <tr>
 <td><p>3</p></td>
 <td><p>TEMPSUMMON_TIMED_DESPAWN</p></td>
-<td><p>Despawns after a specified time</p></td>
+<td><p>Despawns after a specified time (no matter if the creature is in combat or not)</p></td>
 </tr>
 <tr>
 <td><p>4</p></td>
@@ -244,7 +244,7 @@ Orientation the summoned creature will get when spawned
 <tr>
 <td><p>8</p></td>
 <td><p>TEMPSUMMON_MANUAL_DESPAWN</p></td>
-<td><p>Despawns when UnSummon() is called</p></td>
+<td><p>Despawns when UnSummon() is called or other script actions are used, e.g. SMART_ACTION_FORCE_DESPAWN or SCRIPT_COMMAND_DESPAWN_CREATURE</p></td>
 </tr>
 </tbody>
 </table>

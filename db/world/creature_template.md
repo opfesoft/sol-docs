@@ -666,7 +666,7 @@ These flags control certain creature specific attributes. Flags can be added tog
 | 64         | CREATURE_FLAG_EXTRA_NO_XP_AT_KILL        | 0x00000040 | creature kill does not give XP                                                                                                         |
 | 128        | CREATURE_FLAG_EXTRA_TRIGGER              | 0x00000080 | creature is trigger-NPC (invisible to players only)                                                                                    |
 | 256        | CREATURE_FLAG_EXTRA_NO_TAUNT             | 0x00000100 | creature is immune to taunt-auras and "attack me"-effects                                                                              |
-| 512        | CREATURE_FLAG_EXTRA_UNUSED_10            | 0x00000200 |                                                                                                                                        |
+| 512        | CREATURE_FLAG_EXTRA_NO_MOVE_FLAGS_UPDATE | 0x00000200 | creature won't update movement flags (use scripts to change those flags)                                                               |
 | 1024       | CREATURE_FLAG_EXTRA_GHOST_VISIBILITY     | 0x00000400 | creature will be only visible for dead players                                                                                         |
 | 2048       | CREATURE_FLAG_EXTRA_UNUSED_12            | 0x00000800 |                                                                                                                                        |
 | 4096       | CREATURE_FLAG_EXTRA_UNUSED_13            | 0x00001000 |                                                                                                                                        |
