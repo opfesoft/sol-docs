@@ -1258,6 +1258,7 @@ This is the probability of the event to occur as a percentage from 0-100. So, if
 <tr>
 <td><p>SMART_EVENT_GOSSIP_HELLO</p></td>
 <td><p>64</p></td>
+<td><p>filter (0/1/2)</p></td>
 <td><p><br />
 </p></td>
 <td><p><br />
@@ -1266,9 +1267,7 @@ This is the probability of the event to occur as a percentage from 0-100. So, if
 </p></td>
 <td><p><br />
 </p></td>
-<td><p><br />
-</p></td>
-<td>On Right-Click Creature/Gameobject that have gossip enabled.</td>
+<td>On Right-Click Creature/Gameobject that have gossip enabled. The parameter "filter" is only used for GOs: execute action according to the value: 0: always, 1: only on GossipHello, 2: only on ReportUse</td>
 </tr>
 <tr>
 <td><p>SMART_EVENT_FOLLOW_COMPLETED</p></td>
@@ -1445,6 +1444,19 @@ This is the probability of the event to occur as a percentage from 0-100. So, if
 <td><p><br />
 </p></td>
 <td>If the value of specified counterID is equal to a specified value</td>
+</tr>
+<tr>
+<td>SMART_EVENT_FOLLOW_TARGET_LOST</td>
+<td>231</td>
+<td>range (0: unlimited, just check if target exists on the map)</td>
+<td>heartbeat in ms (if 0 use 5000)</td>
+<td><p><br />
+</p></td>
+<td><p><br />
+</p></td>
+<td><p><br />
+</p></td>
+<td>On follow target out of range or not on the map anymore; heartbeat determines how often the check is made (default every 5 seconds)</td>
 </tr>
 </tbody>
 </table>
@@ -2235,7 +2247,7 @@ if set to 0 only aggressive / hostile NPCs attack</p></td>
 </p></td>
 <td><p><br />
 </p></td>
-<td><p>If a creature or GO is set active it will stay active even if no player is near. Take care, though, as it needs additional ressources (CPU/RAM) to keep them active (other objects/creatures nearby stay active). If a creature dies/despawns the active state is automatically turned off; it can be turned on again using the event SMART_EVENT_DEATH if the corpse should also stay active, e.g. to trigger actions via SMART_EVENT_CORPSE_REMOVED. If the active state is turned on using the events SMART_EVENT_RESPAWN, SMART_EVENT_DEATH and SMART_EVENT_CORPSE_REMOVED the creature will stay active forever.</p></td>
+<td><p>If a creature or GO is set active it will stay active even if no player is near. Take care, though, as it needs additional ressources (CPU/RAM) to keep them active (other objects/creatures nearby stay active). If a creature dies the active state is automatically turned off; it can be turned on again using the event SMART_EVENT_DEATH if the corpse should also stay active, e.g. to trigger actions via SMART_EVENT_CORPSE_REMOVED. If the active state is turned on using the events SMART_EVENT_RESPAWN and SMART_EVENT_DEATH the creature will stay active forever.</p></td>
 </tr>
 <tr>
 <td><p>SMART_ACTION_ATTACK_START</p></td>

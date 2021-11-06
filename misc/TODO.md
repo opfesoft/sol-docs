@@ -2,6 +2,14 @@ TODOs:
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@b2ce4913 | 2021-11-03 |      | verify changes; low prio (Dungeon: Zul'Gurub) |
+| sol@6da6cfdd | 2021-11-03 |      | verify changes; low prio (Dungeon: Upper Blackrock Spire) |
+| sol@c5891b0b | 2021-11-03 |      | take over TC commit 1f0210bfe5546f39c1eb930853da800ce6846c70 instead |
+| sol@9d6cbf93 | 2021-11-03 |      | verify changes; low prio (Dungeon: Zul'Gurub) |
+| sol@a22ab430 | 2021-11-02 |      | verify loot; compare with TC |
+| sol@1ed0a67e | 2021-11-02 |      | verify changes; low prio (Dungeon: Upper Blackrock Spire) |
+| sol@20eff9eb | 2021-11-02 |      | won't take over, implement CREATURE\_TYPE\_FLAG\_INTERACT\_ONLY\_WITH\_CREATOR and use SAI with conditions instead |
+| sol@2da923e7 | 2021-11-02 |      | verify changes; low prio (Dungeon: Molten Core) |
 | sol@9fe49d8f | 2021-11-01 |      | low prio (Localization: esES, esMX) |
 | sol@ee0bc7d5 | 2021-11-01 |      | verify changes; try to improve SAI instead; low prio (Scholomance) |
 | sol@6f7d53da | 2021-10-31 |      | verify issues & changes |
@@ -119,7 +127,7 @@ TODOs:
 | sol@23f55bbd | 2021-10-07 |      | verify/rework SQL script |
 | sol@495ca766 | 2021-10-04 |      | take over if needed |
 | sol@0d1f72a5 | 2021-10-04 |      | take over if needed |
-| sol@de8d0b49 | 2021-10-04 |      | verify issue & changes |
+| sol@de8d0b49 | 2021-10-04 | X    | verify issue & changes; done: sol@203fecc3 |
 | sol@cdab63c3 | 2021-10-04 |      | verify/rework SQL script |
 | sol@4f5d7888 | 2021-10-03 |      | verify/rework SQL script |
 | sol@06e50a96 | 2021-10-03 |      | take over if needed (also contains a second PR, see sol@e094c1ae) |
@@ -162,7 +170,7 @@ TODOs:
 | sol@fd229f75 | 2021-09-16 |      | verify changes; low prio (Dungeon: Blackrock Depths) |
 | sol@f1e9b674 | 2021-09-16 |      | verify/rework SQL script |
 | sol@7406a01a | 2021-09-13 |      | take over parts if needed, also see sol@107658eb, sol@d6118de1, sol@60fb2c38, sol@3aadaa6d, sol@70257303, sol@89f0c42c, sol@a6a85c0d |
-| sol@009ba568 | 2021-09-13 |      | verify/rework SQL script |
+| sol@009ba568 | 2021-09-13 | X    | verify/rework SQL script; done: sol@b17eef44 |
 | sol@15b34616 | 2021-09-13 |      | verify changes; low prio (Dungeon: Blackrock Depths) |
 | sol@bb343b48 | 2021-09-13 |      | verify/rework SQL script |
 | sol@adab416f | 2021-09-12 |      | verify issue & changes; low prio (Dungeon: Ulduar) |
