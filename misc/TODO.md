@@ -2,24 +2,52 @@ TODOs:
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@c3a0214b | 2021-11-10 |      | won't take over; instead delete the entries and implement another solution (the hats should be a rare world drop from humanoid creatures); low prio (Event: Feast of Winter Veil) |
+| sol@28a496bf | 2021-11-09 |      | verify changes; low prio (Dungeon: Icecrown Citadel) |
+| sol@40740ada | 2021-11-09 |      | verify changes; low prio (Dungeon: Lower Blackrock Spire) |
+| sol@c8cd2c59 | 2021-11-09 |      | verify changes; low prio (Dungeon: Lower Blackrock Spire) |
+| sol@6dab5a32 | 2021-11-09 |      | verify changes; low prio (Dungeon: Lower Blackrock Spire) |
+| sol@f090d23d | 2021-11-09 |      | verify changes; low prio (Dungeon: Upper Blackrock Spire) |
+| sol@6a7fcca7 | 2021-11-08 |      | verify/rework SQL script; low prio (Event: Hallow's End) |
+| sol@b2a4360d | 2021-11-08 |      | verify/rework SQL script |
+| sol@32c28b62 | 2021-11-08 |      | verify loot; compare with TC |
+| sol@85fe4ace | 2021-11-07 |      | verify/rework SQL script; low prio (Event: Hallow's End) |
+| sol@cb07d1fc | 2021-11-07 |      | verify changes; low prio (Dungeon: Upper Blackrock Spire) |
+| sol@430fa147 | 2021-11-07 |      | take over if needed |
+| sol@e547f5c2 | 2021-11-07 |      | verify changes; low prio (Dungeon: Lower Blackrock Spire) |
+| sol@0958f2f1 | 2021-11-06 |      | verify/rework SQL script; won't take over the changes concerning react state 3 as this was only a workaround used by TC |
+| sol@93bbff4c | 2021-11-06 |      | verify changes |
+| sol@926e18cf | 2021-11-06 |      | verify/rework SQL script; also check movement of the creatures |
+| sol@477de5dc | 2021-11-06 |      | verify changes; low prio (Dungeon: Upper Blackrock Spire) |
+| sol@52362231 | 2021-11-06 |      | verify/rework SQL script / core script |
+| sol@6deaa132 | 2021-11-05 |      | verify/rework SQL script |
+| sol@a82d8a69 | 2021-11-05 |      | verify/rework SQL script; the equip update for creature ID 4667 is wrong, it already has the correct weapon; also ready weapons for the NPCs using WP movement |
+| sol@f63f9ce0 | 2021-11-05 |      | verify/rework SQL script |
+| sol@3ce64b0f | 2021-11-05 |      | take over if needed |
+| sol@74dc9b09 | 2021-11-05 |      | verify/rework SQL script; low prio (Event: Hallow's End) |
+| sol@d80f7d46 | 2021-11-05 |      | take over if needed |
+| sol@99485195 | 2021-11-05 |      | verify changes; low prio (Dungeon: Lower Blackrock Spire) |
+| sol@366fd465 | 2021-11-05 |      | verify/rework SQL script / core script |
+| sol@10ec5a80 | 2021-11-05 |      | verify/rework SQL script |
+| sol@122c9355 | 2021-11-04 |      | verify changes; low prio (Dungeon: Upper Blackrock Spire) |
 | sol@b2ce4913 | 2021-11-03 |      | verify changes; low prio (Dungeon: Zul'Gurub) |
-| sol@6da6cfdd | 2021-11-03 |      | verify changes; low prio (Dungeon: Upper Blackrock Spire) |
+| sol@6da6cfdd | 2021-11-03 |      | verify changes (also see sol@16489b56, sol@99131575, sol@7a8493b7); low prio (Dungeon: Upper Blackrock Spire) |
 | sol@c5891b0b | 2021-11-03 |      | take over TC commit 1f0210bfe5546f39c1eb930853da800ce6846c70 instead |
 | sol@9d6cbf93 | 2021-11-03 |      | verify changes; low prio (Dungeon: Zul'Gurub) |
 | sol@a22ab430 | 2021-11-02 |      | verify loot; compare with TC |
-| sol@1ed0a67e | 2021-11-02 |      | verify changes; low prio (Dungeon: Upper Blackrock Spire) |
+| sol@1ed0a67e | 2021-11-02 |      | verify changes (also see sol@5d1a7a4d, sol@3e82e8a0); low prio (Dungeon: Upper Blackrock Spire) |
 | sol@20eff9eb | 2021-11-02 |      | won't take over, implement CREATURE\_TYPE\_FLAG\_INTERACT\_ONLY\_WITH\_CREATOR and use SAI with conditions instead |
-| sol@2da923e7 | 2021-11-02 |      | verify changes; low prio (Dungeon: Molten Core) |
+| sol@2da923e7 | 2021-11-02 |      | verify changes (also see sol@bbd547fc, sol@a743f423, sol@18b2f3fd); low prio (Dungeon: Molten Core) |
 | sol@9fe49d8f | 2021-11-01 |      | low prio (Localization: esES, esMX) |
-| sol@ee0bc7d5 | 2021-11-01 |      | verify changes; try to improve SAI instead; low prio (Scholomance) |
-| sol@6f7d53da | 2021-10-31 |      | verify issues & changes |
+| sol@ee0bc7d5 | 2021-11-01 |      | verify changes; try to improve SAI instead; low prio (Dungeon: Scholomance) |
+| sol@6f7d53da | 2021-10-31 | X    | verify issues & changes; update: won't take over, the current values already seem to be correct |
 | sol@b6ad5bf8 | 2021-10-31 |      | won't take over, improve SAI instead |
 | sol@4925bfa3 | 2021-10-31 |      | verify/rework SQL script |
 | sol@b7665c45 | 2021-10-31 |      | verify/rework SQL script |
 | sol@901198bf | 2021-10-30 |      | verify/rework SQL script |
 | sol@dbfecc5b | 2021-10-30 |      | take over from TC instead |
-| sol@e761b81a | 2021-10-30 |      | verify/rework SQL script; low Prio (Hallow's End) |
-| sol@9ef0aa88 | 2021-10-30 |      | verify/rework SQL script (also see sol@e3fd9c78); low prio (Day of the Dead) |
+| sol@e761b81a | 2021-10-30 |      | verify/rework SQL script; low prio (Event: Hallow's End) |
+| sol@9ef0aa88 | 2021-10-30 |      | verify/rework SQL script (also see sol@e3fd9c78); low prio (Event: Day of the Dead) |
 | sol@72160100 | 2021-10-30 |      | verify/rework SQL script |
 | sol@5e231bae | 2021-10-29 |      | verify loot; compare with TC |
 | sol@7f69acd4 | 2021-10-29 |      | take over if needed |
@@ -27,15 +55,15 @@ TODOs:
 | sol@12b195e1 | 2021-10-28 |      | verify/rework SQL script / core scripts; also "The Cleaner" should spawn if a second player character is helping; low prio (obsolete quest) |
 | sol@26456132 | 2021-10-26 |      | won't take over, improve the CreatureScript instead |
 | sol@31dfe4f0 | 2021-10-26 |      | verify/rework SQL script |
-| sol@1f603455 | 2021-10-25 |      | verify issue & changes; low Prio (Hallow's End) |
+| sol@1f603455 | 2021-10-25 |      | verify issue & changes; low prio (Event: Hallow's End) |
 | sol@3cddfb84 | 2021-10-24 |      | verify changes; low prio (minor issue) |
 | sol@416e8d2c | 2021-10-24 | X    | won't take over, use SAI instead; done: sol@9336ee8a |
 | sol@96441a91 | 2021-10-24 |      | verify changes; low prio (minor issue) |
 | sol@a45abcad | 2021-10-24 | X    | take over from TC instead; done: sol@579b350f |
-| sol@a98c4122 | 2021-10-24 |      | verify issue & changes; low Prio (Hallow's End) |
+| sol@a98c4122 | 2021-10-24 |      | verify issue & changes; low prio (Event: Hallow's End) |
 | sol@36aced60 | 2021-10-23 |      | take over if needed (the recipes are largely irrelevant for WotLK and were removed in Cataclysm) |
 | sol@73a55e02 | 2021-10-22 |      | verify changes; adapt to Sol if taking over parts of the CreatureScript, perhaps improve the SAI instead; low prio (Dungeon: Stratholme) |
-| sol@6baf498a | 2021-10-22 |      | won't take over; according to TC issue 15906 the server side spell 30176 has to be implemented which is triggered periodically setting the PvP state; spells 29894 (Alliance) and 29895 (Horde) are used for the slow effect; low prio (PvP) |
+| sol@6baf498a | 2021-10-22 |      | won't take over; according to TC issue 15906 the server side spell 30176 has to be implemented which is triggered periodically setting the PvP state; spells 29894 (Alliance) and 29895 (Horde) are used for the slow effect; low prio (PvP); also see sol@babb7d6c |
 | sol@9bcde70d | 2021-10-22 |      | take over if needed (see TC commit ac62d7156f93bf86f57dbad1f24f14031322fd5a for more information) |
 | sol@5d69ce82 | 2021-10-22 | X    | verify loot; compare with TC; done: sol@55453d23 |
 | sol@c2381a5a | 2021-10-21 | X    | won't take over, just set the respawn time of the GOs to 2 minutes, this should suffice; done: sol@e5f0e902 |
@@ -43,11 +71,11 @@ TODOs:
 | sol@ad73b564 | 2021-10-21 |      | take over if needed |
 | sol@2648157a | 2021-10-21 |      | wrong: deletes the existing SAI script; verify the emotes and adjust the existing SAI; low prio (minor issue) |
 | sol@7591491b | 2021-10-21 |      | wrong: deletes the existing SAI script which already included reactions to emotes; verify the emotes and adjust the existing SAI; low prio (minor issue) |
-| sol@ddb3cb8d | 2021-10-20 |      | verify/rework SQL script; low prio (Hallow's End) |
+| sol@ddb3cb8d | 2021-10-20 |      | verify/rework SQL script; low prio (Event: Hallow's End) |
 | sol@aab110c1 | 2021-10-20 | X    | won't take over, rework existing SAI instead; done: sol@1328f2de |
 | sol@08db8361 | 2021-10-20 |      | verify changes; low prio (PvP) |
 | sol@1fb6830b | 2021-10-20 | X    | wrong: the QuestMoneyReward DBC was not part of the WotLK client, it was introduced later (according to wowdev at least with MoP); implement another solution, e.g. XP * 0.6 copper should suffice; done: sol@55d8984d |
-| sol@51161bb7 | 2021-10-20 |      | verify/rework SQL script; low prio (Hallow's End) |
+| sol@51161bb7 | 2021-10-20 |      | verify/rework SQL script; low prio (Event: Hallow's End) |
 | sol@fb1e750d | 2021-10-20 |      | take over if needed |
 | sol@1ec612e6 | 2021-10-20 |      | take over if needed |
 | sol@15494554 | 2021-10-19 |      | verify/rework SQL script |
@@ -58,7 +86,7 @@ TODOs:
 | sol@9aab7e8f | 2021-10-17 |      | use other drop chances and also remove item 9361 from the creature loot table |
 | sol@60f0fb2e | 2021-10-17 |      | low prio (Localization: esES, esMX) |
 | sol@12185d8f | 2021-10-16 |      | verify issue & changes; low prio (Dungeon: Icecrown Citadel) |
-| sol@ba719f0f | 2021-10-16 |      | verify changes; low prio (Hallow's End) |
+| sol@ba719f0f | 2021-10-16 |      | verify changes; low prio (Event: Hallow's End) |
 | sol@4a2846f7 | 2021-10-16 |      | verify/rework SQL script |
 | sol@191e37ec | 2021-10-16 | X    | verify issues & changes; update: won't take over: even if this was not the case on retail there's no reason to remove the aura if mounted |
 | sol@a56f4fe1 | 2021-10-16 |      | verify loot; compare with TC |
@@ -100,16 +128,16 @@ TODOs:
 | sol@ae3dc6c7 | 2021-10-10 |      | verify/rework SQL script (also see sol@8605981a) |
 | sol@cc892279 | 2021-10-10 |      | verify/rework SQL script |
 | sol@3f541b98 | 2021-10-10 |      | verify/rework SQL script; low prio (minor issue) |
-| sol@e503afd0 | 2021-10-10 |      | fix SQL script (deletes wrong GUID range); verify new NPCs; low prio (Hallow's End) |
+| sol@e503afd0 | 2021-10-10 |      | fix SQL script (deletes wrong GUID range); verify new NPCs; low prio (Event: Hallow's End) |
 | sol@d9323336 | 2021-10-10 |      | wrong: deletes the existing SAI script which already included reactions to emotes; verify the emotes and adjust the existing SAI; low prio (minor issue) |
 | sol@f96b027f | 2021-10-10 |      | take over if needed (also see bugfix sol@db2b380c) |
 | sol@0cccdc4a | 2021-10-10 |      | the GOs are also needed for the "Battle for the Undercity" event; keep the ones with lower GUID and adjust their phasemask accordingly (also see sol@4392da3c); same for GUID 265429 (Wrathgate) |
 | sol@7cf0ed0a | 2021-10-09 | X    | verify NPC; update: wrong, won't take over, the gossip option was removed during WotLK and there are more than enough NPCs around selling food and drink |
 | sol@00e9cf2c | 2021-10-09 |      | verify/rework SQL script; low prio (Dungeon: Stratholme) |
-| sol@9dea0ac5 | 2021-10-09 |      | verify GOs; low prio (Harvest Festival) |
+| sol@9dea0ac5 | 2021-10-09 |      | verify GOs; low prio (Event: Harvest Festival) |
 | sol@2c7df906 | 2021-10-08 | X    | verify loot; compare with TC; done: sol@98d00d62 |
-| sol@49478876 | 2021-10-08 |      | verify changes; low prio (Brewfest) |
-| sol@0afe11c5 | 2021-10-08 |      | verify/rework SQL script; low prio (Brewfest) |
+| sol@49478876 | 2021-10-08 |      | verify changes; low prio (Event: Brewfest) |
+| sol@0afe11c5 | 2021-10-08 |      | verify/rework SQL script; low prio (Event: Brewfest) |
 | sol@668f519f | 2021-10-08 |      | verify/rework SQL script |
 | sol@c6427103 | 2021-10-08 | X    | verify loot; compare with TC; done: sol@ddcd0e52 |
 | sol@2c92e965 | 2021-10-08 |      | verify/rework SQL script |
@@ -121,9 +149,9 @@ TODOs:
 | sol@665760e0 | 2021-10-07 |      | verify/rework SQL script |
 | sol@e7a62102 | 2021-10-07 |      | verify/rework SQL script |
 | sol@248baf33 | 2021-10-07 |      | verify/rework SQL script |
-| sol@c51fb81d | 2021-10-07 |      | verify changes; low prio (Brewfest) |
+| sol@c51fb81d | 2021-10-07 |      | verify changes; low prio (Event: Brewfest) |
 | sol@78a2f738 | 2021-10-07 |      | take over if needed |
-| sol@c4ebfb44 | 2021-10-07 |      | verify changes; low prio (Brewfest) |
+| sol@c4ebfb44 | 2021-10-07 |      | verify changes; low prio (Event: Brewfest) |
 | sol@23f55bbd | 2021-10-07 |      | verify/rework SQL script |
 | sol@495ca766 | 2021-10-04 |      | take over if needed |
 | sol@0d1f72a5 | 2021-10-04 |      | take over if needed |
@@ -141,7 +169,7 @@ TODOs:
 | sol@87a4e493 | 2021-09-25 | X    | verify issue & changes; update: won't take over, cannot reproduce the issue on Sol |
 | sol@e6b1201e | 2021-09-24 |      | not needed, but keep as a reference |
 | sol@0c2dbfea | 2021-09-24 |      | verify/rework SQL script |
-| sol@115f8ce1 | 2021-09-24 |      | verify changes; verify/rework SQL script; low prio (Brewfest) |
+| sol@115f8ce1 | 2021-09-24 |      | verify changes; verify/rework SQL script; low prio (Event: Brewfest) |
 | sol@676bf5c4 | 2021-09-23 | X    | Ridge Huntress (GUID: 6947) already fixed (see sol@87262a3a); the other positions are no improvement, one of them still in the ground (btw: vmangos is not a reference for WotLK, and neither is the new Classic or TBC!); fix the positions for the other 2 creatures; done: sol@4755d3cf |
 | sol@0cd88d02 | 2021-09-23 |      | improve SAI script instead |
 | sol@c3259dab | 2021-09-21 | X    | verify issue & changes; update: cannot reproduce on Sol; update: implemented PROC\_EX\_ONLY\_FIRST\_TICK: sol@6fcd7c50 |
@@ -159,16 +187,16 @@ TODOs:
 | sol@99b3b0de | 2021-09-19 | X    | bugged and obviously wrong: the quests 364 and 3901 clearly address Forsaken and the update statement for quests 3095, 3096, 3097, 3098, 3099 removes all races, even undead; only fix the "Scroll" quests; done: sol@2df4a50e |
 | sol@f2abf6b5 | 2021-09-18 |      | verify/rework SQL script |
 | sol@36c0d348 | 2021-09-18 |      | verify/rework SQL script |
-| sol@6a55feb5 | 2021-09-18 |      | verify/rework SQL script |
+| sol@6a55feb5 | 2021-09-18 | X    | verify/rework SQL script; done: sol@614f983a |
 | sol@4fb2dc1f | 2021-09-18 |      | take over if needed |
-| sol@a02b9ef7 | 2021-09-17 |      | verify/rework SQL script |
+| sol@a02b9ef7 | 2021-09-17 | X    | verify/rework SQL script; done: sol@f7252917 |
 | sol@f6f18cb5 | 2021-09-17 | X    | verify changes; update: wrong, won't take over: according to the 2.0.3 patch notes the combo points should not reset until a combo point is applied to a different target; it does not seem that this has been changed until 3.3.5 |
 | sol@6632c4bd | 2021-09-17 |      | verify changes; low prio (Dungeon: Blackwing Lair) |
 | sol@5a92947e | 2021-09-16 |      | verify changes; probably not necessary as the pet issue is already fixed, see sol@c4c1acee; low prio (Dungeon: Uldaman) |
 | sol@cb790b0d | 2021-09-16 |      | verify changes; low prio (Dungeon: Trial of the Crusader) |
 | sol@4dc642d5 | 2021-09-16 |      | take over if needed; also see sol@d464ee70 |
 | sol@fd229f75 | 2021-09-16 |      | verify changes; low prio (Dungeon: Blackrock Depths) |
-| sol@f1e9b674 | 2021-09-16 |      | verify/rework SQL script |
+| sol@f1e9b674 | 2021-09-16 | X    | verify/rework SQL script; done: sol@fbf5c469 |
 | sol@7406a01a | 2021-09-13 |      | take over parts if needed, also see sol@107658eb, sol@d6118de1, sol@60fb2c38, sol@3aadaa6d, sol@70257303, sol@89f0c42c, sol@a6a85c0d |
 | sol@009ba568 | 2021-09-13 | X    | verify/rework SQL script; done: sol@b17eef44 |
 | sol@15b34616 | 2021-09-13 |      | verify changes; low prio (Dungeon: Blackrock Depths) |
@@ -183,10 +211,10 @@ TODOs:
 | sol@2e41da54 | 2021-09-07 |      | take over if needed |
 | sol@e9be0483 | 2021-09-07 | X    | verify issue; update: Sol does not seem to be affected by this issue |
 | sol@8a13fff5 | 2021-09-07 | X    | it is not necessary to create a new pool, just adjust the existing one: remove GO GUID 14999 from the spawns and the pool and add GUID 6248 to the pool instead; done: sol@599e5bb4 |
-| sol@7d7eac01 | 2021-09-07 |      | verify/rework SQL script; low prio (Midsummer Fire Festival) |
+| sol@7d7eac01 | 2021-09-07 |      | verify/rework SQL script; low prio (Event: Midsummer Fire Festival) |
 | sol@55831fab | 2021-09-07 | X    | contains wrong GUIDs in the comments; also use pool template ID 507 instead (501-506 are similar pools); done: sol@b50280d3 |
 | sol@52d9f532 | 2021-09-07 | X    | verify/rework SQL script; implemented another solution: sol@b336ba97 |
-| sol@02b0b29f | 2021-09-06 |      | verify changes; low prio (minor issue) |
+| sol@02b0b29f | 2021-09-06 |      | verify changes (also see sol@987ee3da); low prio (minor issue) |
 | sol@50991bdc | 2021-09-05 |      | take over if needed; could cause several side effects |
 | sol@f5ef1220 | 2021-09-04 | X    | verify changes and check the creatures in the area; done: sol@2307963c |
 | sol@6ed71767 | 2021-09-04 |      | keep as reference; take over single values if needed; won't blindly take over such mass updates |
@@ -195,15 +223,15 @@ TODOs:
 | sol@392319ab | 2021-09-03 | X    | verify quest chain and issue; won't take over, improve the whole quest chain instead: sol@61dd64c8 |
 | sol@37c72c17 | 2021-09-03 | X    | wrong: just delete the second Healing Wave because the first one already affects the creature itself; done: sol@dbcdc006 |
 | sol@2f9f9522 | 2021-09-02 |      | take over if needed (also see sol@066d2ef8) |
-| sol@dd0b964a | 2021-09-01 |      | verify changes; low prio (Midsummer Fire Festival) |
+| sol@dd0b964a | 2021-09-01 |      | verify changes; low prio (Event: Midsummer Fire Festival) |
 | sol@9d17889b | 2021-09-01 | X    | verify/rework SQL script; compare with TC version; done: sol@f0b97068 |
 | sol@332e3e1b | 2021-09-01 |      | verify changes; pooling does not work for instanced maps, handle this via InstanceScript (e.g. similar to sol@95675ffb); low prio (Dungeon: Stratholme) |
 | sol@febdb592 | 2021-09-01 | X    | won't take over, just set the drop chances to 5% for all creatures; Ur'dan should not drop the key; done: sol@22347fee |
-| sol@568fad6d | 2021-09-01 |      | verify/rework SQL script; low prio (Midsummer Fire Festival) |
+| sol@568fad6d | 2021-09-01 |      | verify/rework SQL script; low prio (Event: Midsummer Fire Festival) |
 | sol@6386acd8 | 2021-09-01 | X    | verify/rework SQL script; done: sol@8bb78824 |
 | sol@a0d9cd7f | 2021-09-01 | X    | verify/rework SQL script; done: sol@c81159a5 |
 | sol@c27b2391 | 2021-09-01 | X    | only enable random movement (increase radius); also decrease walking speed; done: sol@5cf51ed0 |
-| sol@498faf38 | 2021-09-01 |      | verify changes (also see sol@1c77d8a9); low prio (Dungeons) |
+| sol@498faf38 | 2021-09-01 |      | verify changes (also see sol@1c77d8a9, sol@53a7a295); low prio (RDF) |
 | sol@48e09fda | 2021-08-31 |      | verify/rework SQL script |
 | sol@bfaa32f2 | 2021-08-31 |      | verify changes; low prio (Dungeons) |
 | sol@33b3ea2f | 2021-08-31 | X    | verify/rework SQL script; don't remove text id 3297 for the gossip menu, use a condition to show 2598 only if the quest has not been completed yet; done: sol@c5251554 |
@@ -254,7 +282,7 @@ TODOs:
 | sol@50202844 | 2021-08-09 | X    | wrong: The trainers should only teach riding to players of the same faction; remove the conditions instead as they were taken from TC 4.3.4; update: the conditions are remnants from classic where each faction mount needed a separate riding skill, e.g. "Undead Horsemanship", "Ram Riding" etc.; done: sol@de789b6a |
 | sol@2b166d1b | 2021-08-08 | X    | wrong: Shadow Weaving should not be applied with each tick, only on initial cast; find another solution; done: sol@374ea18d |
 | sol@80da8284 | 2021-08-08 | X    | choose another position; done: sol@328d27de |
-| sol@a81a6197 | 2021-08-07 |      | verify changes; low prio (Dungeon: Ahn'kahet) |
+| sol@a81a6197 | 2021-08-07 |      | verify changes (also see sol@8b475407); low prio (Dungeon: Ahn'kahet) |
 | sol@5b057798 | 2021-08-07 |      | verify issue & changes; low prio (Dungeons) |
 | sol@d3d6d0be | 2021-08-07 |      | take over if needed (probably not worth the effort as this is just a minor issue) |
 | sol@d8c1ccb6 | 2021-08-06 | X    | rework the SAI script instead; done: sol@aed32846 |
@@ -336,7 +364,7 @@ TODOs:
 | sol@15e44d4d | 2021-06-27 | X    | adapt to Sol; done: sol@8323ba07 |
 | sol@c73a5e95 | 2021-06-27 |      | Sol is not affected by the mentioned issue; investigate Deep Freeze nevertheless; also see sol@eff648b3; low prio |
 | sol@5b82840e | 2021-06-27 | X    | adjust CreatureScript; done: sol@56fc542e |
-| sol@0c22cae7 | 2021-06-26 |      | verify changes; low prio (Stranglethorn Fishing Extravaganza) |
+| sol@0c22cae7 | 2021-06-26 |      | verify changes; low prio (Event: Stranglethorn Fishing Extravaganza) |
 | sol@0b7e74b0 | 2021-06-26 | X    | use SAI to add immunity; done: sol@b2516561 |
 | sol@118227a2 | 2021-06-25 | X    | also remove SmartAI from creature template; done: sol@8d48d310 |
 | sol@0b8d679f | 2021-06-25 | X    | verify/rework SQL script (also see sol@0eb8a8ed); remove entries in "waypoint\_data" and "waypoint\_scripts"; done: sol@48c4174d |
@@ -484,7 +512,7 @@ TODOs:
 | sol@a9ba546c | 2021-04-01 | X    | verify gameobjects & positions; done: sol@ccb0d6a3 |
 | sol@4c0467c5 | 2021-04-01 | X    | verify/rework SQL script (also see sol@4c357c60); update: contains too many bugs and causes side effects (e.g. using the wrong gameobject 180779 which is actually spawned in Northrend); rework the existing script and use the values according to TC's CreatureScript "npc\_demolitionist\_legoso"; completely rewritten: sol@056f733a |
 | sol@10c56336 | 2021-04-01 | X    | verify gameobjects & positions; done: sol@ccb0d6a3 |
-| sol@c0aa1b88 | 2021-03-29 |      | verify changes; low prio (Love is in the Air) |
+| sol@c0aa1b88 | 2021-03-29 |      | verify changes; low prio (Event: Love is in the Air) |
 | sol@9bf2800c | 2021-03-29 |      | verify changes; low prio (Dungeon: Ulduar) |
 | sol@7a5e4be7 | 2021-03-28 |      | verify changes; low prio (Dungeon: Utgarde Keep) |
 | sol@2a601a16 | 2021-03-28 | X    | verify changes; taken over with a few improvements: sol@146bf661 |
@@ -516,7 +544,7 @@ TODOs:
 | sol@57c32ec4 | 2021-03-11 | X    | verify and rework SQL script; won't take over, improved the existing SAI instead: sol@582c6a4e |
 | sol@3846caab | 2021-03-11 | X    | verify rare creatures, take over and rework only the missing ones and add SAI; update: perhaps implement the rare spawn mechanism using an InstanceScript later, but for now SAI suffices; note: Warder Stilgiss should always spawn despite being a rare mob; done: sol@95675ffb |
 | sol@646f6657 | 2021-03-10 | X    | try to find a better solution without manipulating Spell DBC and also addressing the other affected mechanical creatures; done: sol@ef11a791 |
-| sol@9e17e139 | 2021-03-09 |      | verify SQL script; low prio (Hallow's End) |
+| sol@9e17e139 | 2021-03-09 |      | verify SQL script; low prio (Event: Hallow's End) |
 | sol@9d096233 | 2021-03-09 |      | verify SQL script (see also AC commit sol@671c4dc5); low prio (Dungeon: Naxxramas) |
 | sol@1e90722a | 2021-03-07 | X    | verify and rework SQL script (see also AC commit sol@bfdfe361); done: sol@8bbe5cc2, sol@f8aac25b, sol@641905b3, sol@7d01d98f |
 | sol@53d73416 | 2021-03-07 | X    | broadcast text ID already fixed with commit sol@3e648f34, but the quest does not seem to be working correctly; compare with "official" walkthrough; done: sol@dd4748fd |
@@ -539,10 +567,10 @@ TODOs:
 | sol@0f1633c9 | 2021-02-08 | X    | find a better position; done: sol@9549ab5f |
 | sol@d9024111 | 2021-02-07 | X    | verify changes; update: won't take over; according to the 4.2.0 patch notes the Clearcasting buff was increased from 8 to 15 seconds, so 8 seconds is the correct value |
 | sol@6e1fb0d5 | 2021-02-03 | X    | take over if needed (additional AC commit: sol@bfcc3c6f); update: "spell\_school\_immune\_mask" won't be taken over; immunities should be handled via scripts |
-| sol@c628cd77 | 2021-02-03 |      | verify SQL script; low prio (Lunar Festival) |
+| sol@c628cd77 | 2021-02-03 |      | verify SQL script; low prio (Event: Lunar Festival) |
 | sol@f65cfb6f | 2021-02-02 | X    | verify and rework SQL script; done: sol@5805ce04 |
-| sol@911ac12e | 2021-02-01 |      | verify SQL script; low prio (Lunar Festival) |
-| sol@9c239d17 | 2021-02-01 |      | verify SQL script; low prio (Lunar Festival) |
+| sol@911ac12e | 2021-02-01 |      | verify SQL script; low prio (Event: Lunar Festival) |
+| sol@9c239d17 | 2021-02-01 |      | verify SQL script; low prio (Event: Lunar Festival) |
 | sol@c8f43d85 | 2021-02-01 |      | try to find a better solution for some of the changes if nothing else is left to do (also see bugfixes sol@e7bfbe76, sol@522eb9a7, sol@695a7402, sol@b2f6a36c, sol@1d5cc1fb ....); very low prio as it's not really needed and could cause many unexpected bugs / performance issues; the only interesting changes concerning creature movement are circling the player and going backwards if too close to the player; update: if ever implementing mob fanning use an additional field in creature\_addon to control this behaviour as not all NPCs showed this on retail; also add a config parameter to disable this entirely as it will reduce performance |
 | sol@fcad2b56 | 2021-01-31 | X    | only take over name changes for attributes which are actually used in the code; done: sol@c9bae62c |
 | sol@6ef73413 | 2021-01-31 |      | verify CreatureScript (and bugfix sol@1a137dad); low prio (Dungeon: Blackwing Lair) |
@@ -577,7 +605,7 @@ TODOs:
 | sol@469d5a8b | 2021-01-02 | X    | verify and rework SQL script; done: sol@e27e4857 |
 | sol@1e5e20ab | 2021-01-02 | X    | taken over: sol@039be9ea |
 | sol@f366db28 | 2021-01-01 | X    | verify GOs and their associated quests before changing the respawn time; done: sol@a85ca098 |
-| sol@106684fb | 2020-12-31 |      | verify SQL script & quest; low prio (Brewfest) |
+| sol@106684fb | 2020-12-31 |      | verify SQL script & quest; low prio (Event: Brewfest) |
 | sol@0264289f | 2020-12-29 | X    | verify SQL script & texts; done: sol@5fd6cb2a |
 | sol@57a4f432 | 2020-12-27 | X    | verify SQL script; done: sol@7f9c41c0 |
 | sol@aec0dbb7 | 2020-12-25 |      | verify CreatureScript; low prio (Dungeon: Ulduar) |
@@ -639,7 +667,7 @@ TODOs:
 | sol@d07a34c1 | 2020-10-23 | X    | done: sol@91c47cb4 and sol@c129c06a; AC implementation for AURA\_INTERRUPT\_FLAG\_LEAVE\_COMBAT is at the wrong code place |
 | sol@d5bb6ba1 | 2020-10-21 |      | take over if needed; see also follow-up bugfixes sol@b3a967db, sol@a9b2ddba, sol@9c0894ab; could contain several other hidden bugs |
 | sol@ab5933ef | 2020-10-17 | X    | take over if needed; done: sol@79964075 |
-| sol@24cfa307 | 2020-10-11 | X    | verify and rework SQL script; compare with TC version; low prio (Brewfest) |
+| sol@24cfa307 | 2020-10-11 | X    | verify and rework SQL script; compare with TC version; low prio (Event: Brewfest) |
 | sol@4cca286a | 2020-10-09 | X    | verify and find a better solution as flying creatures respawn on the ground instead of their actual spawn point; done: sol@afa10355 |
 | sol@3368e0f8 | 2020-10-08 | X    | verify new creature positions; done: sol@1644948e |
 | sol@22f8195c | 2020-10-07 | X    | verify changes and new creature ID; done: sol@733de7ef |
@@ -648,7 +676,7 @@ TODOs:
 | sol@3e81beac | 2020-09-28 | X    | verify and collect the SAI in a separate commit; done: sol@0fc62baf |
 | sol@72025003 | 2020-09-12 | X    | SAI was just taken over from TC without further verification (it is only a small part of the scripts implementing the whole quest chain); Prince Sandoval is not attackable because UNIT\_FLAG\_IMMUNE\_TO\_PC is set; implement a better solution by taking over the TC scripts, verify, rework and adapt them to Sol and get rid of the CreatureScript "npc\_battle\_at\_valhalas"; done: sol@5c12a0bb |
 | sol@cc3c2ada | 2020-09-04 | X    | verify and collect the SAI in a separate commit; done: sol@0fc62baf |
-| sol@29f2c2ae | 2020-09-02 |      | create appropriate SAI scripts using SMART\_ACTION\_MUSIC; low prio (Brewfest) |
+| sol@29f2c2ae | 2020-09-02 |      | create appropriate SAI scripts using SMART\_ACTION\_MUSIC; low prio (Event: Brewfest) |
 | sol@a07c2b39 | 2020-09-01 | X    | verify and rework SAI; done: sol@97ab5224 |
 | sol@34d9998c | 2020-08-31 | X    | verify and rework SAI; done, script seems to be ok: sol@824a2fcf |
 | sol@5fd404de | 2020-08-29 | X    | verify and rework SAI; done: sol@9d5d1a41 |
