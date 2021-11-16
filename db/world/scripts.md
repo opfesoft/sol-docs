@@ -49,9 +49,9 @@ Delay in seconds before this current step of the script activates. 0 = instant. 
 
 The type of action performed by the script after [delay](#delay) seconds have passed. The value of this field affects what other fields also need to be set. The following commands can be used:
 
-| Command | Name                                                               | Description                                                              |
-|---------|--------------------------------------------------------------------|--------------------------------------------------------------------------|
-| 0       | [TALK](#script_command_talk-0)                                    | Creature say/whisper/yell/textemote.                                     |
+| Command | Name                                                              | Description                                                              |
+|---------|-------------------------------------------------------------------|--------------------------------------------------------------------------|
+| 0       | [TALK](#script_command_talk-0)                                    | Creature/player say/whisper/yell/textemote.                              |
 | 1       | [EMOTE](#script_command_emote-1)                                  | Play emote on creature.                                                  |
 | 2       | [FIELD\_SET](#script_command_field_set-2)                         | Change the value at an index for the player.                             |
 | 3       | [MOVE\_TO](#script_command_move_to-3)                             | Relocate creature to a destination.                                      |
@@ -87,7 +87,7 @@ Depending on what command was used, the meaning and use for the following fields
 
 #### \*SCRIPT\_COMMAND\_TALK = 0
 
-- source: Creature.
+- source: Creature (datalong2 0) or Player (datalong2 1).
 - target: any/Player (for whisper).
 - datalong: 0=say, 1=yell, 2=text emote, 3=boss emote, 4=whisper 5=boss whisper
 - dataint: reference to [broadcast\_text.id](broadcast_text.md#id)

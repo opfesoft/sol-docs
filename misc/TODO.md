@@ -2,21 +2,32 @@ TODOs:
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
-| sol@c3a0214b | 2021-11-10 |      | won't take over; instead delete the entries and implement another solution (the hats should be a rare world drop from humanoid creatures); low prio (Event: Feast of Winter Veil) |
-| sol@28a496bf | 2021-11-09 |      | verify changes; low prio (Dungeon: Icecrown Citadel) |
+| sol@70fbaefa | 2021-11-15 |      | wrong, the movement generators are working correctly: the spell is not interruptible by movement and is actually meant to be used as flavor if OOC, not as combat spell; fix SAI instead |
+| sol@faf0c0fd | 2021-11-15 |      | verify/rework SQL script; low prio (Dungeon: Lower Blackrock Spire) |
+| sol@3b89a7e0 | 2021-11-14 |      | verify/rework SQL script / core script |
+| sol@9ea9bb02 | 2021-11-14 |      | also fix SAI (see TC version); low prio (Dungeon: Upper Blackrock Spire) |
+| sol@9000a930 | 2021-11-13 |      | verify changes; low prio (Dungeon: Upper Blackrock Spire) |
+| sol@260b9272 | 2021-11-12 |      | won't take over; set UNIT\_FLAG2\_DISABLE\_TURN for the barrels; low prio (Event: Pilgrim's Bounty) |
+| sol@436c6090 | 2021-11-12 |      | verify changes; low prio (Event: Pilgrim's Bounty) |
+| sol@3240d27d | 2021-11-12 |      | verify changes; low prio (Holiday Events) |
+| sol@7201d884 | 2021-11-12 |      | verify changes; low prio (Dungeon: Lower Blackrock Spire) |
+| sol@5f2d86ce | 2021-11-12 |      | verify changes; low prio (Dungeon: Upper Blackrock Spire) |
+| sol@adbad6fb | 2021-11-12 |      | verify changes; low prio (Dungeon: Dire Maul) |
+| sol@c3a0214b | 2021-11-10 |      | won't take over; instead delete the entries and implement another solution (the hats should be a rare world drop from humanoid creatures); low prio (Event: Feast of Winter Veil); update: deleted from loot: sol@14289315 |
+| sol@28a496bf | 2021-11-09 | X    | verify changes; low prio (Dungeon: Icecrown Citadel); update: wrong, won't take over: there already exists the spell script "spell\_icc\_dark\_reckoning", this commit adds a duplicate script |
 | sol@40740ada | 2021-11-09 |      | verify changes; low prio (Dungeon: Lower Blackrock Spire) |
 | sol@c8cd2c59 | 2021-11-09 |      | verify changes; low prio (Dungeon: Lower Blackrock Spire) |
 | sol@6dab5a32 | 2021-11-09 |      | verify changes; low prio (Dungeon: Lower Blackrock Spire) |
 | sol@f090d23d | 2021-11-09 |      | verify changes; low prio (Dungeon: Upper Blackrock Spire) |
 | sol@6a7fcca7 | 2021-11-08 |      | verify/rework SQL script; low prio (Event: Hallow's End) |
 | sol@b2a4360d | 2021-11-08 |      | verify/rework SQL script |
-| sol@32c28b62 | 2021-11-08 |      | verify loot; compare with TC |
+| sol@32c28b62 | 2021-11-08 | X    | verify loot; compare with TC; done: sol@1ce8f243 |
 | sol@85fe4ace | 2021-11-07 |      | verify/rework SQL script; low prio (Event: Hallow's End) |
 | sol@cb07d1fc | 2021-11-07 |      | verify changes; low prio (Dungeon: Upper Blackrock Spire) |
 | sol@430fa147 | 2021-11-07 |      | take over if needed |
 | sol@e547f5c2 | 2021-11-07 |      | verify changes; low prio (Dungeon: Lower Blackrock Spire) |
 | sol@0958f2f1 | 2021-11-06 |      | verify/rework SQL script; won't take over the changes concerning react state 3 as this was only a workaround used by TC |
-| sol@93bbff4c | 2021-11-06 |      | verify changes |
+| sol@93bbff4c | 2021-11-06 | X    | verify changes; update: won't take over, should always be handled via SAI |
 | sol@926e18cf | 2021-11-06 |      | verify/rework SQL script; also check movement of the creatures |
 | sol@477de5dc | 2021-11-06 |      | verify changes; low prio (Dungeon: Upper Blackrock Spire) |
 | sol@52362231 | 2021-11-06 |      | verify/rework SQL script / core script |
@@ -31,12 +42,12 @@ TODOs:
 | sol@10ec5a80 | 2021-11-05 |      | verify/rework SQL script |
 | sol@122c9355 | 2021-11-04 |      | verify changes; low prio (Dungeon: Upper Blackrock Spire) |
 | sol@b2ce4913 | 2021-11-03 |      | verify changes; low prio (Dungeon: Zul'Gurub) |
-| sol@6da6cfdd | 2021-11-03 |      | verify changes (also see sol@16489b56, sol@99131575, sol@7a8493b7); low prio (Dungeon: Upper Blackrock Spire) |
+| sol@6da6cfdd | 2021-11-03 |      | verify changes (also see sol@16489b56, sol@99131575, sol@7a8493b7, sol@dd944c6f); low prio (Dungeon: Upper Blackrock Spire) |
 | sol@c5891b0b | 2021-11-03 |      | take over TC commit 1f0210bfe5546f39c1eb930853da800ce6846c70 instead |
 | sol@9d6cbf93 | 2021-11-03 |      | verify changes; low prio (Dungeon: Zul'Gurub) |
-| sol@a22ab430 | 2021-11-02 |      | verify loot; compare with TC |
-| sol@1ed0a67e | 2021-11-02 |      | verify changes (also see sol@5d1a7a4d, sol@3e82e8a0); low prio (Dungeon: Upper Blackrock Spire) |
-| sol@20eff9eb | 2021-11-02 |      | won't take over, implement CREATURE\_TYPE\_FLAG\_INTERACT\_ONLY\_WITH\_CREATOR and use SAI with conditions instead |
+| sol@a22ab430 | 2021-11-02 | X    | verify loot; compare with TC; done: sol@9423294a |
+| sol@1ed0a67e | 2021-11-02 |      | verify changes (also see sol@5d1a7a4d, sol@3e82e8a0, sol@069d537b, sol@12faaaad); low prio (Dungeon: Upper Blackrock Spire) |
+| sol@20eff9eb | 2021-11-02 | X    | won't take over, implement CREATURE\_TYPE\_FLAG\_INTERACT\_ONLY\_WITH\_CREATOR and use SAI with conditions instead; done: sol@2c94b7b2 |
 | sol@2da923e7 | 2021-11-02 |      | verify changes (also see sol@bbd547fc, sol@a743f423, sol@18b2f3fd); low prio (Dungeon: Molten Core) |
 | sol@9fe49d8f | 2021-11-01 |      | low prio (Localization: esES, esMX) |
 | sol@ee0bc7d5 | 2021-11-01 |      | verify changes; try to improve SAI instead; low prio (Dungeon: Scholomance) |
@@ -49,7 +60,7 @@ TODOs:
 | sol@e761b81a | 2021-10-30 |      | verify/rework SQL script; low prio (Event: Hallow's End) |
 | sol@9ef0aa88 | 2021-10-30 |      | verify/rework SQL script (also see sol@e3fd9c78); low prio (Event: Day of the Dead) |
 | sol@72160100 | 2021-10-30 |      | verify/rework SQL script |
-| sol@5e231bae | 2021-10-29 |      | verify loot; compare with TC |
+| sol@5e231bae | 2021-10-29 | X    | verify loot; compare with TC; done: sol@7894f12f |
 | sol@7f69acd4 | 2021-10-29 |      | take over if needed |
 | sol@a7cc26e2 | 2021-10-29 |      | take over if needed |
 | sol@12b195e1 | 2021-10-28 |      | verify/rework SQL script / core scripts; also "The Cleaner" should spawn if a second player character is helping; low prio (obsolete quest) |
@@ -179,14 +190,14 @@ TODOs:
 | sol@ab599911 | 2021-09-20 |      | verify changes; low prio (minor issue) |
 | sol@69b81721 | 2021-09-20 |      | verify/rework SQL script |
 | sol@f7c0bfc3 | 2021-09-20 |      | verify/rework SQL script; compare with TC version; remove Zeppit spawn |
-| sol@251a2c87 | 2021-09-20 |      | verify/rework SQL script |
-| sol@1d5d2de0 | 2021-09-19 |      | verify/rework SQL script |
+| sol@251a2c87 | 2021-09-20 | X    | verify/rework SQL script; done: sol@822c6a47 |
+| sol@1d5d2de0 | 2021-09-19 | X    | verify/rework SQL script; done: sol@95ac6320 |
 | sol@f76d08f3 | 2021-09-19 | X    | also remove the parameter "noQuestBonus" as it is not used anymore (always "false"); done: sol@ae21f04f |
-| sol@424f22f8 | 2021-09-19 |      | take over the TC version instead |
-| sol@6673db40 | 2021-09-19 |      | verify/rework SQL script |
+| sol@424f22f8 | 2021-09-19 | X    | take over the TC version instead; done: sol@6043c9ed |
+| sol@6673db40 | 2021-09-19 | X    | verify/rework SQL script; done: sol@20528a42 |
 | sol@99b3b0de | 2021-09-19 | X    | bugged and obviously wrong: the quests 364 and 3901 clearly address Forsaken and the update statement for quests 3095, 3096, 3097, 3098, 3099 removes all races, even undead; only fix the "Scroll" quests; done: sol@2df4a50e |
-| sol@f2abf6b5 | 2021-09-18 |      | verify/rework SQL script |
-| sol@36c0d348 | 2021-09-18 |      | verify/rework SQL script |
+| sol@f2abf6b5 | 2021-09-18 | X    | verify/rework SQL script; done: sol@d545813a |
+| sol@36c0d348 | 2021-09-18 | X    | verify/rework SQL script; done: sol@ee680def |
 | sol@6a55feb5 | 2021-09-18 | X    | verify/rework SQL script; done: sol@614f983a |
 | sol@4fb2dc1f | 2021-09-18 |      | take over if needed |
 | sol@a02b9ef7 | 2021-09-17 | X    | verify/rework SQL script; done: sol@f7252917 |

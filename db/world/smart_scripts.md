@@ -3733,6 +3733,20 @@ If the start position distance is far away the circle movement speed will be dec
 </p></td>
 <td><p>Despawns the targeted GOs and respawn after "respawnTime" seconds (important: this overrides [gameobject.spawntimesecs](gameobject.md#spawntimesecs)!). If the GO starts despawned (spawntimesecs is negative) the "respawnTime" value is ignored. If "playDespawnAnim" is 1 the GO is playing its despawn animation.</p></td>
 </tr>
+<tr>
+<td><p>SMART_ACTION_CUSTOM_TALK</p></td>
+<td><p>234</p></td>
+<td><p>[broadcast_text.id](broadcast_text.md#id)</p></td>
+<td><p>talkType (0: say, 1: yell, 2: text emote, 3: boss emote, 4: whisper, 5: boss whisper)</p></td>
+<td><p>talker (0: action target, 1: self, 2: invoker)</p></td>
+<td><p>talkTarget (0: action target, 1: self, 2: invoker)</p></td>
+<td><p><br />
+</p></td>
+<td><p><br />
+</p></td>
+<td><p><br />
+</p></td>
+</tr>
 </tbody>
 </table>
 
