@@ -425,7 +425,7 @@ Note: Some commands are working only by selecting a player or a creature. These 
 |ticket viewid|1|Usage: .ticket viewid $ticketid. Returns details about specified ticket. Ticket must be open and not deleted.|
 |ticket viewname|1|Usage: .ticket viewname $creatorname. Returns details about specified ticket. Ticket must be open and not deleted.|
 |ticket|1|Syntax: .ticket $subcommand Type .ticket to see the list of possible subcommands or .help ticket $subcommand to see info on subcommands|
-|unaura|3|Syntax: .unaura #spellid Remove aura due to spell #spellid from the selected Unit. If using "all" as #spellid all auras will be removed.|
+|unaura|3|Syntax: .unaura #spellid Remove aura due to spell #spellid from the selected Unit. If using "all" as #spellid all auras will be removed. If using "debuffs" as #spellid all debuffs will be removed.|
 |unbindsight|3|Syntax: .unbindsight Removes bound vision. Cannot be used while currently possessing a target.|
 |unfreeze|1|Syntax: .unfreeze (#player) "Unfreezes" #player and enables his chat again. When using this without #name it will unfreeze your target.|
 |unlearn|3|Syntax: .unlearn #spell [all] Unlearn for selected player a spell #spell. If 'all' provided then all ranks unlearned.|

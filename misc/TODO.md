@@ -2,7 +2,13 @@ TODOs:
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
-| sol@70fbaefa | 2021-11-15 |      | wrong, the movement generators are working correctly: the spell is not interruptible by movement and is actually meant to be used as flavor if OOC, not as combat spell; fix SAI instead |
+| sol@1aef7372 | 2021-11-19 |      | use UPDATE instead of DELETE/INSERT; adjust loot chances |
+| sol@8a570f48 | 2021-11-19 |      | verify changes; low prio (Dungeon: Scholomance) |
+| sol@00dc369c | 2021-11-18 |      | verify changes; low prio (Dungeon: Upper Blackrock Spire) |
+| sol@e8fb51ee | 2021-11-18 |      | verify/rework SQL script (also see bugfix sol@03c470d8) |
+| sol@6a2d817d | 2021-11-16 |      | verify changes; low prio (Dungeon: Zul'Gurub) |
+| sol@2da37697 | 2021-11-16 |      | verify/rework SQL script |
+| sol@70fbaefa | 2021-11-15 | X    | wrong, the movement generators are working correctly: the spell is not interruptible by movement and is actually meant to be used as flavor if OOC, not as combat spell; fix SAI instead; done: sol@9e8bed32, sol@79fb5b4d |
 | sol@faf0c0fd | 2021-11-15 |      | verify/rework SQL script; low prio (Dungeon: Lower Blackrock Spire) |
 | sol@3b89a7e0 | 2021-11-14 |      | verify/rework SQL script / core script |
 | sol@9ea9bb02 | 2021-11-14 |      | also fix SAI (see TC version); low prio (Dungeon: Upper Blackrock Spire) |
@@ -10,7 +16,7 @@ TODOs:
 | sol@260b9272 | 2021-11-12 |      | won't take over; set UNIT\_FLAG2\_DISABLE\_TURN for the barrels; low prio (Event: Pilgrim's Bounty) |
 | sol@436c6090 | 2021-11-12 |      | verify changes; low prio (Event: Pilgrim's Bounty) |
 | sol@3240d27d | 2021-11-12 |      | verify changes; low prio (Holiday Events) |
-| sol@7201d884 | 2021-11-12 |      | verify changes; low prio (Dungeon: Lower Blackrock Spire) |
+| sol@7201d884 | 2021-11-12 |      | verify changes (also see sol@a86f1b82); low prio (Dungeon: Lower Blackrock Spire) |
 | sol@5f2d86ce | 2021-11-12 |      | verify changes; low prio (Dungeon: Upper Blackrock Spire) |
 | sol@adbad6fb | 2021-11-12 |      | verify changes; low prio (Dungeon: Dire Maul) |
 | sol@c3a0214b | 2021-11-10 |      | won't take over; instead delete the entries and implement another solution (the hats should be a rare world drop from humanoid creatures); low prio (Event: Feast of Winter Veil); update: deleted from loot: sol@14289315 |
@@ -42,13 +48,13 @@ TODOs:
 | sol@10ec5a80 | 2021-11-05 |      | verify/rework SQL script |
 | sol@122c9355 | 2021-11-04 |      | verify changes; low prio (Dungeon: Upper Blackrock Spire) |
 | sol@b2ce4913 | 2021-11-03 |      | verify changes; low prio (Dungeon: Zul'Gurub) |
-| sol@6da6cfdd | 2021-11-03 |      | verify changes (also see sol@16489b56, sol@99131575, sol@7a8493b7, sol@dd944c6f); low prio (Dungeon: Upper Blackrock Spire) |
+| sol@6da6cfdd | 2021-11-03 |      | verify changes (also see sol@16489b56, sol@99131575, sol@7a8493b7, sol@dd944c6f, sol@e6045112, sol@62f93f9d); low prio (Dungeon: Upper Blackrock Spire) |
 | sol@c5891b0b | 2021-11-03 |      | take over TC commit 1f0210bfe5546f39c1eb930853da800ce6846c70 instead |
 | sol@9d6cbf93 | 2021-11-03 |      | verify changes; low prio (Dungeon: Zul'Gurub) |
 | sol@a22ab430 | 2021-11-02 | X    | verify loot; compare with TC; done: sol@9423294a |
 | sol@1ed0a67e | 2021-11-02 |      | verify changes (also see sol@5d1a7a4d, sol@3e82e8a0, sol@069d537b, sol@12faaaad); low prio (Dungeon: Upper Blackrock Spire) |
 | sol@20eff9eb | 2021-11-02 | X    | won't take over, implement CREATURE\_TYPE\_FLAG\_INTERACT\_ONLY\_WITH\_CREATOR and use SAI with conditions instead; done: sol@2c94b7b2 |
-| sol@2da923e7 | 2021-11-02 |      | verify changes (also see sol@bbd547fc, sol@a743f423, sol@18b2f3fd); low prio (Dungeon: Molten Core) |
+| sol@2da923e7 | 2021-11-02 |      | verify changes (also see sol@bbd547fc, sol@a743f423, sol@18b2f3fd, sol@2713080b); low prio (Dungeon: Molten Core) |
 | sol@9fe49d8f | 2021-11-01 |      | low prio (Localization: esES, esMX) |
 | sol@ee0bc7d5 | 2021-11-01 |      | verify changes; try to improve SAI instead; low prio (Dungeon: Scholomance) |
 | sol@6f7d53da | 2021-10-31 | X    | verify issues & changes; update: won't take over, the current values already seem to be correct |
@@ -188,8 +194,8 @@ TODOs:
 | sol@1bf4f54b | 2021-09-20 |      | verify changes; low prio (minor issue, also see sol@0d411ec2) |
 | sol@47bb5cbb | 2021-09-20 |      | verify changes; low prio (Dungeon: Blackrock Depths) |
 | sol@ab599911 | 2021-09-20 |      | verify changes; low prio (minor issue) |
-| sol@69b81721 | 2021-09-20 |      | verify/rework SQL script |
-| sol@f7c0bfc3 | 2021-09-20 |      | verify/rework SQL script; compare with TC version; remove Zeppit spawn |
+| sol@69b81721 | 2021-09-20 | X    | verify/rework SQL script; done: sol@69cad6c8 |
+| sol@f7c0bfc3 | 2021-09-20 | X    | verify/rework SQL script; compare with TC version; remove Zeppit spawn; done: sol@158cb90f |
 | sol@251a2c87 | 2021-09-20 | X    | verify/rework SQL script; done: sol@822c6a47 |
 | sol@1d5d2de0 | 2021-09-19 | X    | verify/rework SQL script; done: sol@95ac6320 |
 | sol@f76d08f3 | 2021-09-19 | X    | also remove the parameter "noQuestBonus" as it is not used anymore (always "false"); done: sol@ae21f04f |

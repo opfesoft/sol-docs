@@ -28,12 +28,12 @@
 
 ## ACE installation
 
-Example for ACE 7.0.4, installation in "~/sol-srv/lib/ace":
+Example for ACE 7.0.5, installation in "~/sol-srv/lib/ace":
 
 - Get package:
 ```
-curl -L 'https://github.com/DOCGroup/ACE_TAO/releases/download/ACE%2BTAO-7_0_4/ACE+TAO-7.0.4.tar.gz' >ACE+TAO-7.0.4.tar.gz
-tar -xzf ACE+TAO-7.0.4.tar.gz
+curl -L 'https://github.com/DOCGroup/ACE_TAO/releases/download/ACE%2BTAO-7_0_5/ACE+TAO-7.0.5.tar.gz' >ACE+TAO-7.0.5.tar.gz
+tar -xzf ACE+TAO-7.0.5.tar.gz
 ```
 
 - Set `ACE_ROOT`:
@@ -58,7 +58,7 @@ include $(ACE_ROOT)/include/makeinclude/platform_linux.GNU
 INSTALL_PREFIX = $(HOME)/sol-srv/lib/ace
 ```
 
-- Install (here gcc 10 is used):
+- Install (here gcc 11 is used):
 ```
 export CC='gcc-11'
 export CXX='g++-11'
