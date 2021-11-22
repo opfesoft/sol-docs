@@ -2,6 +2,20 @@ TODOs:
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@2eb42288 | 2021-11-21 |      | verify changes; low prio (Dungeon: Molten Core) |
+| sol@7c19c964 | 2021-11-21 |      | verify changes; low prio (Dungeon: Molten Core) |
+| sol@edf7b543 | 2021-11-21 |      | verify changes; low prio (Dungeon: Molten Core) |
+| sol@dc9c3a5f | 2021-11-21 |      | take over if needed |
+| sol@4099c380 | 2021-11-21 |      | verify changes; low prio (Dungeon: Molten Core) |
+| sol@8364bdb6 | 2021-11-21 |      | verify/rework SQL script; also fix POI for quest "Deeprun Rat Roundup" |
+| sol@a9176355 | 2021-11-21 |      | won't take over; improve/rework existing SAI (also check WP path) |
+| sol@af4b472e | 2021-11-21 |      | won't take over, improve existing SAI instead (replace SMART\_EVENT\_HEALTH\_PCT with SMART\_EVENT\_FRIENDLY\_HEALTH\_PCT) |
+| sol@92b3617f | 2021-11-21 |      | verify changes; low prio (Event: Brewfest) |
+| sol@faa4035d | 2021-11-21 |      | take over if needed; could cause side effects |
+| sol@f9021aa1 | 2021-11-21 |      | verify/rework SQL script |
+| sol@518d5d0e | 2021-11-21 |      | verify/rework SQL script |
+| sol@67d5452c | 2021-11-20 |      | take over if needed |
+| sol@0f7091c7 | 2021-11-20 |      | verify changes; adapt to Sol; low prio (minor issue) |
 | sol@1aef7372 | 2021-11-19 |      | use UPDATE instead of DELETE/INSERT; adjust loot chances |
 | sol@8a570f48 | 2021-11-19 |      | verify changes; low prio (Dungeon: Scholomance) |
 | sol@00dc369c | 2021-11-18 |      | verify changes; low prio (Dungeon: Upper Blackrock Spire) |
@@ -188,7 +202,7 @@ TODOs:
 | sol@0c2dbfea | 2021-09-24 |      | verify/rework SQL script |
 | sol@115f8ce1 | 2021-09-24 |      | verify changes; verify/rework SQL script; low prio (Event: Brewfest) |
 | sol@676bf5c4 | 2021-09-23 | X    | Ridge Huntress (GUID: 6947) already fixed (see sol@87262a3a); the other positions are no improvement, one of them still in the ground (btw: vmangos is not a reference for WotLK, and neither is the new Classic or TBC!); fix the positions for the other 2 creatures; done: sol@4755d3cf |
-| sol@0cd88d02 | 2021-09-23 |      | improve SAI script instead |
+| sol@0cd88d02 | 2021-09-23 | X    | improve SAI script instead; done: sol@83b71865 |
 | sol@c3259dab | 2021-09-21 | X    | verify issue & changes; update: cannot reproduce on Sol; update: implemented PROC\_EX\_ONLY\_FIRST\_TICK: sol@6fcd7c50 |
 | sol@048025ce | 2021-09-21 |      | verify changes and check if the SAI scripts could be fixed instead; low prio (Dungeon: Zul'Farrak) |
 | sol@1bf4f54b | 2021-09-20 |      | verify changes; low prio (minor issue, also see sol@0d411ec2) |
