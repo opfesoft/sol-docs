@@ -2,6 +2,7 @@ TODOs:
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@647c9160 | 2021-11-21 |      | take over if needed |
 | sol@2eb42288 | 2021-11-21 |      | verify changes; low prio (Dungeon: Molten Core) |
 | sol@7c19c964 | 2021-11-21 |      | verify changes; low prio (Dungeon: Molten Core) |
 | sol@edf7b543 | 2021-11-21 |      | verify changes; low prio (Dungeon: Molten Core) |
@@ -188,18 +189,18 @@ TODOs:
 | sol@0d1f72a5 | 2021-10-04 |      | take over if needed |
 | sol@de8d0b49 | 2021-10-04 | X    | verify issue & changes; done: sol@203fecc3 |
 | sol@cdab63c3 | 2021-10-04 |      | verify/rework SQL script |
-| sol@4f5d7888 | 2021-10-03 |      | verify/rework SQL script |
+| sol@4f5d7888 | 2021-10-03 | X    | verify/rework SQL script; done: sol@666a2760 |
 | sol@06e50a96 | 2021-10-03 |      | take over if needed (also contains a second PR, see sol@e094c1ae) |
 | sol@ecb92f9d | 2021-10-01 | X    | verify changes & loot, compare with TC; done: sol@f8dba2fc |
 | sol@77e46769 | 2021-10-01 |      | verify changes; low prio (Dungeon: Uldaman) |
 | sol@0c8fb1ea | 2021-10-01 |      | verify changes; low prio (minor issue) |
-| sol@46e17796 | 2021-10-01 |      | verify/rework SQL script |
-| sol@ac57e6a4 | 2021-10-01 |      | verify/rework SQL script |
+| sol@46e17796 | 2021-10-01 | X    | verify/rework SQL script; done: sol@1e9a4659 |
+| sol@ac57e6a4 | 2021-10-01 | X    | verify/rework SQL script; done: sol@38ec9c41 |
 | sol@1dd53b17 | 2021-09-27 | X    | verify/rework SQL script; verify AuraScript; implemented another solution: sol@a7b0e74c |
 | sol@5f0da005 | 2021-09-27 | X    | verify issue & changes; update: won't take over because those are world drops; the new Classic & TBC is also not a reference for WotLK |
 | sol@87a4e493 | 2021-09-25 | X    | verify issue & changes; update: won't take over, cannot reproduce the issue on Sol |
 | sol@e6b1201e | 2021-09-24 |      | not needed, but keep as a reference |
-| sol@0c2dbfea | 2021-09-24 |      | verify/rework SQL script |
+| sol@0c2dbfea | 2021-09-24 | X    | verify/rework SQL script; done: sol@c31d93c9 |
 | sol@115f8ce1 | 2021-09-24 |      | verify changes; verify/rework SQL script; low prio (Event: Brewfest) |
 | sol@676bf5c4 | 2021-09-23 | X    | Ridge Huntress (GUID: 6947) already fixed (see sol@87262a3a); the other positions are no improvement, one of them still in the ground (btw: vmangos is not a reference for WotLK, and neither is the new Classic or TBC!); fix the positions for the other 2 creatures; done: sol@4755d3cf |
 | sol@0cd88d02 | 2021-09-23 | X    | improve SAI script instead; done: sol@83b71865 |

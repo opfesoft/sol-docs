@@ -1346,7 +1346,7 @@ This is the probability of the event to occur as a percentage from 0-100. So, if
 <tr>
 <td><p>SMART_EVENT_GO_STATE_CHANGED</p></td>
 <td><p>70</p></td>
-<td><p>State (0 - Active, 1 - Ready, 2 - Active alternative)</p></td>
+<td><p>State (0 - GO_STATE_ACTIVE, 1 - GO_STATE_READY, 2 - GO_STATE_ACTIVE_ALTERNATIVE)</p></td>
 <td><p><br />
 </p></td>
 <td><p><br />
@@ -2477,7 +2477,7 @@ if set to 0 only aggressive / hostile NPCs attack</p></td>
 </p></td>
 <td><p><br />
 </p></td>
-<td><p>If reset is 0 the counter with the specified ID is increased by the given value; if reset is 1 the counter is set to the value; the counters are cleared on reset of the script owner (e.g. after combat)</p></td>
+<td><p>If reset is 0 the counter with the specified ID is increased by the given value; if reset is 1 the counter is set to the value; the counters are cleared on reset of the script owner (e.g. after combat, can be disabled using SMART_ACTION_SET_COUNTER_RESET)</p></td>
 </tr>
 <tr>
 <td><p>SMART_ACTION_STORE_TARGET_LIST</p></td>
@@ -3410,7 +3410,7 @@ quickChange 1 forces the creature to quickly change its orientation (useful if t
 <tr>
 <td><p>SMART_ACTION_SET_GO_STATE</p></td>
 <td><p>202</p></td>
-<td><p>state</p></td>
+<td><p>State (0 - GO_STATE_ACTIVE, 1 - GO_STATE_READY, 2 - GO_STATE_ACTIVE_ALTERNATIVE)</p></td>
 <td><p><br />
 </p></td>
 <td><p><br />
@@ -3731,7 +3731,7 @@ If the start position distance is far away the circle movement speed will be dec
 </p></td>
 <td><p><br />
 </p></td>
-<td><p>Despawns the targeted GOs and respawn after "respawnTime" seconds (important: this overrides [gameobject.spawntimesecs](gameobject.md#spawntimesecs)!). If the GO starts despawned (spawntimesecs is negative) the "respawnTime" value is ignored. If "playDespawnAnim" is 1 the GO is playing its despawn animation.</p></td>
+<td><p>Despawns the targeted GOs and respawn after "respawnTime" seconds (important: if >0 this overrides [gameobject.spawntimesecs](gameobject.md#spawntimesecs)!). If the GO starts despawned (spawntimesecs is negative) the "respawnTime" value is ignored. If "playDespawnAnim" is 1 the GO is playing its despawn animation.</p></td>
 </tr>
 <tr>
 <td><p>SMART_ACTION_CUSTOM_TALK</p></td>
@@ -3740,6 +3740,23 @@ If the start position distance is far away the circle movement speed will be dec
 <td><p>talkType (0: say, 1: yell, 2: text emote, 3: boss emote, 4: whisper, 5: boss whisper)</p></td>
 <td><p>talker (0: action target, 1: self, 2: invoker)</p></td>
 <td><p>talkTarget (0: action target, 1: self, 2: invoker)</p></td>
+<td><p><br />
+</p></td>
+<td><p><br />
+</p></td>
+<td><p><br />
+</p></td>
+</tr>
+<tr>
+<td><p>SMART_ACTION_SET_COUNTER_RESET</p></td>
+<td><p>235</p></td>
+<td><p>0: Keep counters on creature reset; 1: Counters will be cleared on creature reset (default behaviour)</p></td>
+<td><p><br />
+</p></td>
+<td><p><br />
+</p></td>
+<td><p><br />
+</p></td>
 <td><p><br />
 </p></td>
 <td><p><br />
