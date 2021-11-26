@@ -2,6 +2,10 @@ TODOs:
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@06a81758 | 2021-11-26 |      | verify changes; low prio (Dungeon: Molten Core) |
+| sol@f0776954 | 2021-11-26 |      | verify changes; low prio (Dungeon: Molten Core) |
+| sol@d25992da | 2021-11-26 |      | verify changes; low prio (Dungeon: Molten Core) |
+| sol@a220b54a | 2021-11-25 |      | verify/rework SQL script |
 | sol@647c9160 | 2021-11-21 |      | take over if needed |
 | sol@2eb42288 | 2021-11-21 |      | verify changes; low prio (Dungeon: Molten Core) |
 | sol@7c19c964 | 2021-11-21 |      | verify changes; low prio (Dungeon: Molten Core) |
@@ -177,18 +181,18 @@ TODOs:
 | sol@8514eaf9 | 2021-10-07 |      | verify changes; low prio (Dungeon: Blackrock Depths) |
 | sol@99cc4285 | 2021-10-07 |      | verify changes, try to find another solution; low prio (minor issue) |
 | sol@a5f5568d | 2021-10-07 |      | verify/rework SQL script |
-| sol@261d25e9 | 2021-10-07 |      | verify/rework SQL script (also see bugfix sol@4d1a2b2b |
+| sol@261d25e9 | 2021-10-07 |      | verify/rework SQL script (also see bugfix sol@4d1a2b2b) |
 | sol@665760e0 | 2021-10-07 |      | verify/rework SQL script |
-| sol@e7a62102 | 2021-10-07 |      | verify/rework SQL script |
-| sol@248baf33 | 2021-10-07 |      | verify/rework SQL script |
+| sol@e7a62102 | 2021-10-07 | X    | verify/rework SQL script; done: sol@7f0b2989 |
+| sol@248baf33 | 2021-10-07 | X    | verify/rework SQL script; done: sol@1b83fbe3 |
 | sol@c51fb81d | 2021-10-07 |      | verify changes; low prio (Event: Brewfest) |
 | sol@78a2f738 | 2021-10-07 |      | take over if needed |
 | sol@c4ebfb44 | 2021-10-07 |      | verify changes; low prio (Event: Brewfest) |
-| sol@23f55bbd | 2021-10-07 |      | verify/rework SQL script |
+| sol@23f55bbd | 2021-10-07 | X    | verify/rework SQL script; done: sol@69dd72e3 |
 | sol@495ca766 | 2021-10-04 |      | take over if needed |
 | sol@0d1f72a5 | 2021-10-04 |      | take over if needed |
 | sol@de8d0b49 | 2021-10-04 | X    | verify issue & changes; done: sol@203fecc3 |
-| sol@cdab63c3 | 2021-10-04 |      | verify/rework SQL script |
+| sol@cdab63c3 | 2021-10-04 | X    | verify/rework SQL script; update: was already fixed, see sol@ed4b00ca |
 | sol@4f5d7888 | 2021-10-03 | X    | verify/rework SQL script; done: sol@666a2760 |
 | sol@06e50a96 | 2021-10-03 |      | take over if needed (also contains a second PR, see sol@e094c1ae) |
 | sol@ecb92f9d | 2021-10-01 | X    | verify changes & loot, compare with TC; done: sol@f8dba2fc |
