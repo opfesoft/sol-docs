@@ -2820,7 +2820,7 @@ quickChange 1 forces the creature to quickly change its orientation (useful if t
 <td><p>85</p></td>
 <td><p>SpellID</p></td>
 <td><p><a href="#cast-flags">castFlags</a></p></td>
-<td><p>triggeredFlags</p></td>
+<td><p>limitTargets (0 = all targets)</p></td>
 <td><p><br />
 </p></td>
 <td><p><br />

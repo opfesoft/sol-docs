@@ -2,6 +2,14 @@ TODOs:
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@8668a03e | 2021-12-01 |      | take over if needed |
+| sol@79c0beeb | 2021-11-30 |      | take over if needed |
+| sol@94367fc1 | 2021-11-30 |      | keep as reference; take over single values if needed; won't blindly take over such mass updates |
+| sol@5d544f60 | 2021-11-29 |      | won't take over, does not seem to be the correct way to fix this issue; try to find another solution; low prio (minor issue) |
+| sol@2af15c84 | 2021-11-29 |      | keep as reference; take over single values if needed; won't blindly take over such mass updates |
+| sol@0b551a05 | 2021-11-29 |      | take over if needed |
+| sol@456b1a08 | 2021-11-29 |      | verify changes; low prio (Dungeon: Temple of Ahn'Qiraj) |
+| sol@d6679060 | 2021-11-28 |      | won't take over, rework SAI instead (see TC version of both Urok Ogre Magus & Urok Enforcer); use SMART\_EVENT\_RANGE for Arcane Bolt; low prio (Dungeon: Lower Blackrock Spire) |
 | sol@06a81758 | 2021-11-26 |      | verify changes; low prio (Dungeon: Molten Core) |
 | sol@f0776954 | 2021-11-26 |      | verify changes; low prio (Dungeon: Molten Core) |
 | sol@d25992da | 2021-11-26 |      | verify changes; low prio (Dungeon: Molten Core) |
@@ -9,7 +17,7 @@ TODOs:
 | sol@647c9160 | 2021-11-21 |      | take over if needed |
 | sol@2eb42288 | 2021-11-21 |      | verify changes; low prio (Dungeon: Molten Core) |
 | sol@7c19c964 | 2021-11-21 |      | verify changes; low prio (Dungeon: Molten Core) |
-| sol@edf7b543 | 2021-11-21 |      | verify changes; low prio (Dungeon: Molten Core) |
+| sol@edf7b543 | 2021-11-21 |      | verify changes (also see sol@910ebc22); low prio (Dungeon: Molten Core) |
 | sol@dc9c3a5f | 2021-11-21 |      | take over if needed |
 | sol@4099c380 | 2021-11-21 |      | verify changes; low prio (Dungeon: Molten Core) |
 | sol@8364bdb6 | 2021-11-21 |      | verify/rework SQL script; also fix POI for quest "Deeprun Rat Roundup" |
@@ -18,7 +26,7 @@ TODOs:
 | sol@92b3617f | 2021-11-21 |      | verify changes; low prio (Event: Brewfest) |
 | sol@faa4035d | 2021-11-21 |      | take over if needed; could cause side effects |
 | sol@f9021aa1 | 2021-11-21 |      | verify/rework SQL script |
-| sol@518d5d0e | 2021-11-21 |      | verify/rework SQL script |
+| sol@518d5d0e | 2021-11-21 | X    | verify/rework SQL script; implemented another solution: sol@153868d9 |
 | sol@67d5452c | 2021-11-20 |      | take over if needed |
 | sol@0f7091c7 | 2021-11-20 |      | verify changes; adapt to Sol; low prio (minor issue) |
 | sol@1aef7372 | 2021-11-19 |      | use UPDATE instead of DELETE/INSERT; adjust loot chances |
@@ -67,7 +75,7 @@ TODOs:
 | sol@10ec5a80 | 2021-11-05 |      | verify/rework SQL script |
 | sol@122c9355 | 2021-11-04 |      | verify changes; low prio (Dungeon: Upper Blackrock Spire) |
 | sol@b2ce4913 | 2021-11-03 |      | verify changes; low prio (Dungeon: Zul'Gurub) |
-| sol@6da6cfdd | 2021-11-03 |      | verify changes (also see sol@16489b56, sol@99131575, sol@7a8493b7, sol@dd944c6f, sol@e6045112, sol@62f93f9d); low prio (Dungeon: Upper Blackrock Spire) |
+| sol@6da6cfdd | 2021-11-03 |      | verify changes (also see sol@16489b56, sol@99131575, sol@7a8493b7, sol@dd944c6f, sol@e6045112, sol@62f93f9d, sol@228d7e4c); low prio (Dungeon: Upper Blackrock Spire) |
 | sol@c5891b0b | 2021-11-03 |      | take over TC commit 1f0210bfe5546f39c1eb930853da800ce6846c70 instead |
 | sol@9d6cbf93 | 2021-11-03 |      | verify changes; low prio (Dungeon: Zul'Gurub) |
 | sol@a22ab430 | 2021-11-02 | X    | verify loot; compare with TC; done: sol@9423294a |
@@ -174,15 +182,15 @@ TODOs:
 | sol@2c7df906 | 2021-10-08 | X    | verify loot; compare with TC; done: sol@98d00d62 |
 | sol@49478876 | 2021-10-08 |      | verify changes; low prio (Event: Brewfest) |
 | sol@0afe11c5 | 2021-10-08 |      | verify/rework SQL script; low prio (Event: Brewfest) |
-| sol@668f519f | 2021-10-08 |      | verify/rework SQL script |
+| sol@668f519f | 2021-10-08 | X    | verify/rework SQL script; done: sol@4329d2ae |
 | sol@c6427103 | 2021-10-08 | X    | verify loot; compare with TC; done: sol@ddcd0e52 |
-| sol@2c92e965 | 2021-10-08 |      | verify/rework SQL script |
+| sol@2c92e965 | 2021-10-08 | X    | verify/rework SQL script; done: sol@9d4ef701 |
 | sol@cb9f3cbf | 2021-10-08 | X    | delete the GUIDs instead and also remove them from game\_event\_gameobject; done: sol@b506cc3c |
 | sol@8514eaf9 | 2021-10-07 |      | verify changes; low prio (Dungeon: Blackrock Depths) |
 | sol@99cc4285 | 2021-10-07 |      | verify changes, try to find another solution; low prio (minor issue) |
-| sol@a5f5568d | 2021-10-07 |      | verify/rework SQL script |
-| sol@261d25e9 | 2021-10-07 |      | verify/rework SQL script (also see bugfix sol@4d1a2b2b) |
-| sol@665760e0 | 2021-10-07 |      | verify/rework SQL script |
+| sol@a5f5568d | 2021-10-07 | X    | verify/rework SQL script; implemented another solution: sol@153868d9 |
+| sol@261d25e9 | 2021-10-07 | X    | verify/rework SQL script (also see bugfix sol@4d1a2b2b); done: sol@e4a97a18 |
+| sol@665760e0 | 2021-10-07 | X    | verify/rework SQL script; done: sol@395edc91 |
 | sol@e7a62102 | 2021-10-07 | X    | verify/rework SQL script; done: sol@7f0b2989 |
 | sol@248baf33 | 2021-10-07 | X    | verify/rework SQL script; done: sol@1b83fbe3 |
 | sol@c51fb81d | 2021-10-07 |      | verify changes; low prio (Event: Brewfest) |
@@ -236,7 +244,7 @@ TODOs:
 | sol@7406a01a | 2021-09-13 |      | take over parts if needed, also see sol@107658eb, sol@d6118de1, sol@60fb2c38, sol@3aadaa6d, sol@70257303, sol@89f0c42c, sol@a6a85c0d |
 | sol@009ba568 | 2021-09-13 | X    | verify/rework SQL script; done: sol@b17eef44 |
 | sol@15b34616 | 2021-09-13 |      | verify changes; low prio (Dungeon: Blackrock Depths) |
-| sol@bb343b48 | 2021-09-13 |      | verify/rework SQL script |
+| sol@bb343b48 | 2021-09-13 | X    | verify/rework SQL script; done: sol@1e6f21dc |
 | sol@adab416f | 2021-09-12 |      | verify issue & changes; low prio (Dungeon: Ulduar) |
 | sol@1ae8e7ec | 2021-09-12 | X    | wrong: the correct number of dispelled auras is calculated using EffectDieSides and BasePoints; implement another solution; done: sol@9eebf780 |
 | sol@e5b8dbeb | 2021-09-11 |      | verify changes; low prio (PvP) |
@@ -268,7 +276,7 @@ TODOs:
 | sol@a0d9cd7f | 2021-09-01 | X    | verify/rework SQL script; done: sol@c81159a5 |
 | sol@c27b2391 | 2021-09-01 | X    | only enable random movement (increase radius); also decrease walking speed; done: sol@5cf51ed0 |
 | sol@498faf38 | 2021-09-01 |      | verify changes (also see sol@1c77d8a9, sol@53a7a295); low prio (RDF) |
-| sol@48e09fda | 2021-08-31 |      | verify/rework SQL script |
+| sol@48e09fda | 2021-08-31 | X    | verify/rework SQL script; done: sol@ab1ef85f |
 | sol@bfaa32f2 | 2021-08-31 |      | verify changes; low prio (Dungeons) |
 | sol@33b3ea2f | 2021-08-31 | X    | verify/rework SQL script; don't remove text id 3297 for the gossip menu, use a condition to show 2598 only if the quest has not been completed yet; done: sol@c5251554 |
 | sol@bf18c770 | 2021-08-30 | X    | verify/rework SQL script; done: sol@72e90723 |
@@ -451,7 +459,7 @@ TODOs:
 | sol@3ac48489 | 2021-05-31 | X    | verify/rework SQL script; update: won't take over as the actual root cause was a bug concerning the assist check for creatures, see sol@37c97766 |
 | sol@8dc13a53 | 2021-05-31 | X    | fix the spell script "spell\_gen\_throw\_back" and the spell ID of the throw back spell; done: sol@483c30b9 |
 | sol@cedd6363 | 2021-05-30 | X    | verify changes; update: wrong, won't take over; holy resistance is derived from arcane resistance, so the values should stay in the DB |
-| sol@107658eb | 2021-05-30 |      | not working; try to find another solution; update: also see sol@7406a01a |
+| sol@107658eb | 2021-05-30 |      | not working; try to find another solution; update: also see sol@7406a01a; low prio (minor issue) |
 | sol@a355b4d2 | 2021-05-29 |      | verify issue & changes; update: cannot reproduce on Sol; low prio |
 | sol@f1b43a89 | 2021-05-27 |      | take over if needed |
 | sol@e8181130 | 2021-05-25 |      | verify & adapt to Sol; low prio (Localization: esES, esMX) |
@@ -538,7 +546,7 @@ TODOs:
 | sol@7413c17e | 2021-04-04 |      | verify changes & issue (cannot reproduce on Sol); low prio |
 | sol@0d8aa2e8 | 2021-04-03 |      | take over if needed |
 | sol@6dc4ca85 | 2021-04-02 |      | verify changes; low prio (Dungeon: Naxxramas) |
-| sol@1b722dfc | 2021-04-02 | x    | verify/rework SQL script; done: sol@16d6e03c |
+| sol@1b722dfc | 2021-04-02 | X    | verify/rework SQL script; done: sol@16d6e03c |
 | sol@0bbe5fa4 | 2021-04-01 | X    | verify/rework SQL script; implemented another solution: sol@cd296c38 |
 | sol@9b9e070c | 2021-04-01 | X    | verify changes; Sol does not seem to be affected by these issues |
 | sol@12165b81 | 2021-04-01 | X    | verify/rework SQL script; done: sol@a738b2f1 |

@@ -120,6 +120,7 @@ A bitmask controlling what events trigger the spell. To combine possible events,
 | PROC_EX_ONLY_ACTIVE_SPELL   | 0x0040000 | Spell has to do damage/heal to proc                                                   |
 | PROC_EX_NO_OVERHEAL         | 0x0080000 | Proc if heal did some work                                                            |
 | PROC_EX_NO_AURA_REFRESH     | 0x0100000 | Proc if aura was not refreshed                                                        |
+| PROC_EX_ONLY_FIRST_TICK     | 0x0200000 | Proc only on first tick (in case of periodic spells)                                  |
 
 ### ppmRate
 
