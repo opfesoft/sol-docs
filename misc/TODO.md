@@ -2,6 +2,14 @@ TODOs:
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@728aa460 | 2021-12-03 |      | verify changes, rework SAI instead; low prio (Dungeon: Stratholme) |
+| sol@5d2f4cf0 | 2021-12-03 |      | won't take over, rework CreatureScript |
+| sol@7df43c36 | 2021-12-03 |      | verify changes, rework SAI instead; low prio (Dungeon: Lower Blackrock Spire) |
+| sol@18f3f748 | 2021-12-03 |      | verify/rework SQL script |
+| sol@bd2193f7 | 2021-12-02 |      | verify/rework SQL script |
+| sol@4c010968 | 2021-12-02 |      | verify changes; low prio (Dungeon: Upper Blackrock Spire) |
+| sol@41437acc | 2021-12-02 |      | verify changes; low prio (Event: Brewfest) |
+| sol@d6e8697e | 2021-12-02 |      | verify changes; low prio (Dungeon: Blackfathom Deeps) |
 | sol@8668a03e | 2021-12-01 |      | take over if needed |
 | sol@79c0beeb | 2021-11-30 |      | take over if needed |
 | sol@94367fc1 | 2021-11-30 |      | keep as reference; take over single values if needed; won't blindly take over such mass updates |
@@ -162,7 +170,7 @@ TODOs:
 | sol@f8ac4160 | 2021-10-10 | X    | verify position; use UPDATE instead of DELETE/INSERT; done: sol@c7739684 |
 | sol@1b3c8c53 | 2021-10-10 |      | verify/rework SQL script |
 | sol@d2fd486a | 2021-10-10 |      | verify/rework SQL script |
-| sol@4392da3c | 2021-10-10 |      | wrong: the GO was deleted with AC commit sol@0cccdc4a; check the rotation of this GO after sol@0cccdc4a has been processed |
+| sol@4392da3c | 2021-10-10 | X    | wrong: the GO was deleted with AC commit sol@0cccdc4a; check the rotation of this GO after sol@0cccdc4a has been processed; update: won't take over |
 | sol@8826d7de | 2021-10-10 |      | verify/rework SQL script; compare with TC version |
 | sol@261cc87e | 2021-10-10 |      | wrong: deletes the existing SAI script; verify the emotes and adjust the existing SAI; low prio (minor issue) |
 | sol@1e3f94fa | 2021-10-10 |      | wrong: deletes the existing SAI script which already included reactions to emotes; verify the emotes and adjust the existing SAI; low prio (minor issue) |
@@ -170,12 +178,12 @@ TODOs:
 | sol@3ff389c1 | 2021-10-10 | X    | verify loot; compare with TC; done: sol@ddcd0e52 |
 | sol@44545c65 | 2021-10-10 | X    | verify loot; compare with TC; done: sol@ddcd0e52 |
 | sol@ae3dc6c7 | 2021-10-10 |      | verify/rework SQL script (also see sol@8605981a) |
-| sol@cc892279 | 2021-10-10 |      | verify/rework SQL script |
+| sol@cc892279 | 2021-10-10 | X    | verify/rework SQL script; done: sol@3ce83ddb |
 | sol@3f541b98 | 2021-10-10 |      | verify/rework SQL script; low prio (minor issue) |
 | sol@e503afd0 | 2021-10-10 |      | fix SQL script (deletes wrong GUID range); verify new NPCs; low prio (Event: Hallow's End) |
 | sol@d9323336 | 2021-10-10 |      | wrong: deletes the existing SAI script which already included reactions to emotes; verify the emotes and adjust the existing SAI; low prio (minor issue) |
 | sol@f96b027f | 2021-10-10 |      | take over if needed (also see bugfix sol@db2b380c) |
-| sol@0cccdc4a | 2021-10-10 |      | the GOs are also needed for the "Battle for the Undercity" event; keep the ones with lower GUID and adjust their phasemask accordingly (also see sol@4392da3c); same for GUID 265429 (Wrathgate) |
+| sol@0cccdc4a | 2021-10-10 | X    | the GOs are also needed for the "Battle for the Undercity" event; keep the ones with lower GUID and adjust their phasemask accordingly (also see sol@4392da3c); same for GUID 265429 (Wrathgate); done: sol@8310991a |
 | sol@7cf0ed0a | 2021-10-09 | X    | verify NPC; update: wrong, won't take over, the gossip option was removed during WotLK and there are more than enough NPCs around selling food and drink |
 | sol@00e9cf2c | 2021-10-09 |      | verify/rework SQL script; low prio (Dungeon: Stratholme) |
 | sol@9dea0ac5 | 2021-10-09 |      | verify GOs; low prio (Event: Harvest Festival) |
