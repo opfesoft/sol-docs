@@ -290,7 +290,7 @@ Allows to define a group of quests of which all must be completed and rewarded t
 
 ### RewardMailTemplateID
 
-If the quest gives as a reward an item from a possible list of items, the ID here corresponds to the proper loot template in [quest\_mail\_loot\_template](loot_template.md). According to the rules in that loot template, items "looted" will be sent by mail at the completion of the quest.
+The ID has to match an entry in MailTemplate.dbc which contains the mail text. If the quest gives as a reward an item from a possible list of items, the ID here corresponds to the proper loot template in [mail\_loot\_template](loot_template.md). According to the rules in that loot template, items "looted" will be sent by mail at the completion of the quest.
 
 ### RewardMailDelay
 

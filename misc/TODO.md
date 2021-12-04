@@ -2,6 +2,11 @@ TODOs:
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@ac876213 | 2021-12-04 |      | verify changes; low prio (Dungeon: Upper Blackrock Spire) |
+| sol@1500453f | 2021-12-03 |      | take over if needed |
+| sol@6c3e54b8 | 2021-12-03 |      | verify/rework SQL script |
+| sol@9cc6a9ae | 2021-12-03 |      | verify changes, rework SAI instead; low prio (Dungeon: Dire Maul) |
+| sol@1d9eea19 | 2021-12-03 |      | verify changes, rework SAI instead; low prio (Dungeon: Scholomance) |
 | sol@728aa460 | 2021-12-03 |      | verify changes, rework SAI instead; low prio (Dungeon: Stratholme) |
 | sol@5d2f4cf0 | 2021-12-03 |      | won't take over, rework CreatureScript |
 | sol@7df43c36 | 2021-12-03 |      | verify changes, rework SAI instead; low prio (Dungeon: Lower Blackrock Spire) |
@@ -177,7 +182,7 @@ TODOs:
 | sol@d8e89eeb | 2021-10-10 | X    | verify loot; compare with TC; done: sol@ddcd0e52 |
 | sol@3ff389c1 | 2021-10-10 | X    | verify loot; compare with TC; done: sol@ddcd0e52 |
 | sol@44545c65 | 2021-10-10 | X    | verify loot; compare with TC; done: sol@ddcd0e52 |
-| sol@ae3dc6c7 | 2021-10-10 |      | verify/rework SQL script (also see sol@8605981a) |
+| sol@ae3dc6c7 | 2021-10-10 | X    | verify/rework SQL script (also see sol@8605981a); done: sol@5bb24579 |
 | sol@cc892279 | 2021-10-10 | X    | verify/rework SQL script; done: sol@3ce83ddb |
 | sol@3f541b98 | 2021-10-10 |      | verify/rework SQL script; low prio (minor issue) |
 | sol@e503afd0 | 2021-10-10 |      | fix SQL script (deletes wrong GUID range); verify new NPCs; low prio (Event: Hallow's End) |
