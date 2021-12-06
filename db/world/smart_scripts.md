@@ -3764,6 +3764,23 @@ If the start position distance is far away the circle movement speed will be dec
 <td><p><br />
 </p></td>
 </tr>
+<tr>
+<td><p>SMART_ACTION_CALL_EVENT_SCRIPT</p></td>
+<td><p>236</p></td>
+<td><p>[event_scripts](event_scripts.md) ID</p></td>
+<td><p><br />
+</p></td>
+<td><p><br />
+</p></td>
+<td><p><br />
+</p></td>
+<td><p><br />
+</p></td>
+<td><p><br />
+</p></td>
+<td><p><br />
+</p></td>
+</tr>
 </tbody>
 </table>
 

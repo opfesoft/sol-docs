@@ -2,21 +2,25 @@ TODOs:
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@c6a1c2c9 | 2021-12-06 |      | verify/rework SQL script; low prio (Event: Feast of Winter Veil) |
+| sol@6f0c53d1 | 2021-12-05 |      | verify changes; low prio (Event: Feast of Winter Veil) |
+| sol@6778faf3 | 2021-12-05 |      | won't take over, remove SAI instead and fix the NPC (should appear dead) |
+| sol@c92721df | 2021-12-05 |      | verify/rework SQL script |
+| sol@16bdc3da | 2021-12-05 |      | verify changes; low prio (Event: Feast of Winter Veil) |
+| sol@d6fc2a1d | 2021-12-05 |      | verify/rework SQL script; also check old SAI and conditions |
 | sol@ac876213 | 2021-12-04 |      | verify changes; low prio (Dungeon: Upper Blackrock Spire) |
 | sol@1500453f | 2021-12-03 |      | take over if needed |
-| sol@6c3e54b8 | 2021-12-03 |      | verify/rework SQL script |
 | sol@9cc6a9ae | 2021-12-03 |      | verify changes, rework SAI instead; low prio (Dungeon: Dire Maul) |
 | sol@1d9eea19 | 2021-12-03 |      | verify changes, rework SAI instead; low prio (Dungeon: Scholomance) |
 | sol@728aa460 | 2021-12-03 |      | verify changes, rework SAI instead; low prio (Dungeon: Stratholme) |
 | sol@5d2f4cf0 | 2021-12-03 |      | won't take over, rework CreatureScript |
 | sol@7df43c36 | 2021-12-03 |      | verify changes, rework SAI instead; low prio (Dungeon: Lower Blackrock Spire) |
 | sol@18f3f748 | 2021-12-03 |      | verify/rework SQL script |
-| sol@bd2193f7 | 2021-12-02 |      | verify/rework SQL script |
 | sol@4c010968 | 2021-12-02 |      | verify changes; low prio (Dungeon: Upper Blackrock Spire) |
 | sol@41437acc | 2021-12-02 |      | verify changes; low prio (Event: Brewfest) |
 | sol@d6e8697e | 2021-12-02 |      | verify changes; low prio (Dungeon: Blackfathom Deeps) |
 | sol@8668a03e | 2021-12-01 |      | take over if needed |
-| sol@79c0beeb | 2021-11-30 |      | take over if needed |
+| sol@79c0beeb | 2021-11-30 |      | take over if needed (also see sol@9c178acd) |
 | sol@94367fc1 | 2021-11-30 |      | keep as reference; take over single values if needed; won't blindly take over such mass updates |
 | sol@5d544f60 | 2021-11-29 |      | won't take over, does not seem to be the correct way to fix this issue; try to find another solution; low prio (minor issue) |
 | sol@2af15c84 | 2021-11-29 |      | keep as reference; take over single values if needed; won't blindly take over such mass updates |
@@ -76,7 +80,7 @@ TODOs:
 | sol@93bbff4c | 2021-11-06 | X    | verify changes; update: won't take over, should always be handled via SAI |
 | sol@926e18cf | 2021-11-06 |      | verify/rework SQL script; also check movement of the creatures |
 | sol@477de5dc | 2021-11-06 |      | verify changes; low prio (Dungeon: Upper Blackrock Spire) |
-| sol@52362231 | 2021-11-06 |      | verify/rework SQL script / core script |
+| sol@52362231 | 2021-11-06 |      | verify/rework SQL script / core script (also see sol@bd2193f7, sol@6c3e54b8, sol@92d64639, sol@5b166b1e) |
 | sol@6deaa132 | 2021-11-05 |      | verify/rework SQL script |
 | sol@a82d8a69 | 2021-11-05 |      | verify/rework SQL script; the equip update for creature ID 4667 is wrong, it already has the correct weapon; also ready weapons for the NPCs using WP movement |
 | sol@f63f9ce0 | 2021-11-05 |      | verify/rework SQL script |
@@ -173,8 +177,8 @@ TODOs:
 | sol@bd727915 | 2021-10-10 | X    | verify loot; compare with TC; done: sol@ddcd0e52 |
 | sol@fd7e4ec6 | 2021-10-10 | X    | verify loot; compare with TC; done: sol@ddcd0e52 |
 | sol@f8ac4160 | 2021-10-10 | X    | verify position; use UPDATE instead of DELETE/INSERT; done: sol@c7739684 |
-| sol@1b3c8c53 | 2021-10-10 |      | verify/rework SQL script |
-| sol@d2fd486a | 2021-10-10 |      | verify/rework SQL script |
+| sol@1b3c8c53 | 2021-10-10 | X    | verify/rework SQL script; done: sol@5970c337 |
+| sol@d2fd486a | 2021-10-10 | X    | verify/rework SQL script; done: sol@0b53fbf3 |
 | sol@4392da3c | 2021-10-10 | X    | wrong: the GO was deleted with AC commit sol@0cccdc4a; check the rotation of this GO after sol@0cccdc4a has been processed; update: won't take over |
 | sol@8826d7de | 2021-10-10 |      | verify/rework SQL script; compare with TC version |
 | sol@261cc87e | 2021-10-10 |      | wrong: deletes the existing SAI script; verify the emotes and adjust the existing SAI; low prio (minor issue) |
