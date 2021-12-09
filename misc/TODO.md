@@ -2,14 +2,28 @@ TODOs:
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@0300cef1 | 2021-12-09 |      | verify solution; low prio (minor issue) |
+| sol@438fce93 | 2021-12-09 |      | verify/rework SQL script; compare with TC version |
+| sol@2ba68d65 | 2021-12-09 |      | keep as reference; take over single values if needed; won't blindly take over such mass updates |
+| sol@2ce3d792 | 2021-12-09 |      | verify/rework SQL script; low prio (Dungeon: Zul'Aman) |
+| sol@6c1846ad | 2021-12-08 |      | verify changes; low prio (Event: Brewfest) |
+| sol@e8481791 | 2021-12-08 |      | take over if needed (see TC commit 18d07e6c4e9bda7af75f9a71179f19bc8672d345) |
+| sol@36a2b878 | 2021-12-08 |      | won't take over, use "distance" parameter instead |
+| sol@948e827d | 2021-12-07 |      | verify/rework SQL script; low prio (various events) |
+| sol@34fdb867 | 2021-12-07 |      | verify/rework SQL script |
+| sol@e8d254f2 | 2021-12-07 |      | verify/rework SQL script; low prio (Event: Feast of Winter Veil) |
+| sol@46f3af24 | 2021-12-07 |      | does not fix anything, take over TC commit 5eaaa3aca094ad8a082ba50a5d7a09a10e9b12d8 instead |
+| sol@098b6ada | 2021-12-07 |      | verify/rework SQL script; compare with TC version |
+| sol@3e6f0e58 | 2021-12-07 |      | verify/rework SQL script; compare with TC version |
+| sol@bb6b7f2f | 2021-12-07 |      | take over if needed |
 | sol@c6a1c2c9 | 2021-12-06 |      | verify/rework SQL script; low prio (Event: Feast of Winter Veil) |
 | sol@6f0c53d1 | 2021-12-05 |      | verify changes; low prio (Event: Feast of Winter Veil) |
-| sol@6778faf3 | 2021-12-05 |      | won't take over, remove SAI instead and fix the NPC (should appear dead) |
+| sol@6778faf3 | 2021-12-05 | X    | won't take over, remove SAI instead and fix the NPC (should appear dead); done: sol@cee900a4 |
 | sol@c92721df | 2021-12-05 |      | verify/rework SQL script |
 | sol@16bdc3da | 2021-12-05 |      | verify changes; low prio (Event: Feast of Winter Veil) |
 | sol@d6fc2a1d | 2021-12-05 |      | verify/rework SQL script; also check old SAI and conditions |
 | sol@ac876213 | 2021-12-04 |      | verify changes; low prio (Dungeon: Upper Blackrock Spire) |
-| sol@1500453f | 2021-12-03 |      | take over if needed |
+| sol@1500453f | 2021-12-03 |      | take over if needed (also see sol@fa1c2eca) |
 | sol@9cc6a9ae | 2021-12-03 |      | verify changes, rework SAI instead; low prio (Dungeon: Dire Maul) |
 | sol@1d9eea19 | 2021-12-03 |      | verify changes, rework SAI instead; low prio (Dungeon: Scholomance) |
 | sol@728aa460 | 2021-12-03 |      | verify changes, rework SAI instead; low prio (Dungeon: Stratholme) |
@@ -29,12 +43,11 @@ TODOs:
 | sol@d6679060 | 2021-11-28 |      | won't take over, rework SAI instead (see TC version of both Urok Ogre Magus & Urok Enforcer); use SMART\_EVENT\_RANGE for Arcane Bolt; low prio (Dungeon: Lower Blackrock Spire) |
 | sol@06a81758 | 2021-11-26 |      | verify changes; low prio (Dungeon: Molten Core) |
 | sol@f0776954 | 2021-11-26 |      | verify changes; low prio (Dungeon: Molten Core) |
-| sol@d25992da | 2021-11-26 |      | verify changes; low prio (Dungeon: Molten Core) |
 | sol@a220b54a | 2021-11-25 |      | verify/rework SQL script |
 | sol@647c9160 | 2021-11-21 |      | take over if needed |
 | sol@2eb42288 | 2021-11-21 |      | verify changes; low prio (Dungeon: Molten Core) |
-| sol@7c19c964 | 2021-11-21 |      | verify changes; low prio (Dungeon: Molten Core) |
-| sol@edf7b543 | 2021-11-21 |      | verify changes (also see sol@910ebc22); low prio (Dungeon: Molten Core) |
+| sol@7c19c964 | 2021-11-21 |      | verify changes (also see sol@d25992da, sol@f56953f9); low prio (Dungeon: Molten Core) |
+| sol@edf7b543 | 2021-11-21 |      | verify changes (also see sol@910ebc22, sol@4982c4ee, sol@8ae8db52); low prio (Dungeon: Molten Core) |
 | sol@dc9c3a5f | 2021-11-21 |      | take over if needed |
 | sol@4099c380 | 2021-11-21 |      | verify changes; low prio (Dungeon: Molten Core) |
 | sol@8364bdb6 | 2021-11-21 |      | verify/rework SQL script; also fix POI for quest "Deeprun Rat Roundup" |
@@ -166,14 +179,14 @@ TODOs:
 | sol@747a2a4f | 2021-10-13 |      | verify changes; low prio (minor issue) |
 | sol@b5f8b485 | 2021-10-13 |      | take over if needed |
 | sol@4349f076 | 2021-10-13 |      | verify/rework SQL script |
-| sol@cd03fd4e | 2021-10-13 |      | verify/rework SQL script |
+| sol@cd03fd4e | 2021-10-13 | X    | verify/rework SQL script; done: sol@8cdbaa93 |
 | sol@13eacaed | 2021-10-12 |      | take over if needed |
 | sol@c8ff0bcc | 2021-10-12 |      | verify changes; low prio (Dungeon: Azjol-Nerub) |
 | sol@a6e564be | 2021-10-12 |      | wrong: deletes the existing SAI script which already included reactions to emotes; verify the emotes and adjust the existing SAI; low prio (minor issue) |
 | sol@cec360b3 | 2021-10-12 | X    | verify/rework SQL script; done: sol@0145f351 |
 | sol@57658d82 | 2021-10-12 |      | take over if needed |
-| sol@0f5c8887 | 2021-10-12 |      | verify/rework SQL script |
-| sol@dd34d7e1 | 2021-10-10 |      | won't take over, improve event script and SAI for Shy-Rotam instead; also add SAI for Sian-Rotam (see TC version) |
+| sol@0f5c8887 | 2021-10-12 | X    | verify/rework SQL script; done: sol@8e766856 |
+| sol@dd34d7e1 | 2021-10-10 | X    | won't take over, improve event script and SAI for Shy-Rotam instead; also add SAI for Sian-Rotam (see TC version); done: sol@fd681d5a |
 | sol@bd727915 | 2021-10-10 | X    | verify loot; compare with TC; done: sol@ddcd0e52 |
 | sol@fd7e4ec6 | 2021-10-10 | X    | verify loot; compare with TC; done: sol@ddcd0e52 |
 | sol@f8ac4160 | 2021-10-10 | X    | verify position; use UPDATE instead of DELETE/INSERT; done: sol@c7739684 |
