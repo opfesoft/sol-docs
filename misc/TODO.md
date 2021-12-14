@@ -2,6 +2,18 @@ TODOs:
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@31a4cd14 | 2021-12-13 |      | verify/rework SQL script |
+| sol@0a0013aa | 2021-12-13 |      | take over if needed |
+| sol@2b86d4ba | 2021-12-13 |      | verify/rework SQL script |
+| sol@8c8ac2be | 2021-12-12 |      | verify loot; compare with TC |
+| sol@b1303e0e | 2021-12-12 |      | verify changes; low prio (minor issue) |
+| sol@4e93671b | 2021-12-12 |      | verify changes; low prio (minor issue) |
+| sol@10ce7a74 | 2021-12-11 |      | verify/rework SQL script / core script |
+| sol@abcd9218 | 2021-12-11 |      | verify/rework SQL script; low prio (Event: Feast of Winter Veil) |
+| sol@09c3fea5 | 2021-12-11 |      | won't take over; take over SAI from TC instead |
+| sol@488b0d45 | 2021-12-11 |      | verify/rework SQL script |
+| sol@678e50fa | 2021-12-10 |      | verify/rework SQL script |
+| sol@52d8e1b6 | 2021-12-10 |      | verify changes; low prio (PvP) |
 | sol@0300cef1 | 2021-12-09 |      | verify solution; low prio (minor issue) |
 | sol@438fce93 | 2021-12-09 |      | verify/rework SQL script; compare with TC version |
 | sol@2ba68d65 | 2021-12-09 |      | keep as reference; take over single values if needed; won't blindly take over such mass updates |
@@ -10,7 +22,7 @@ TODOs:
 | sol@e8481791 | 2021-12-08 |      | take over if needed (see TC commit 18d07e6c4e9bda7af75f9a71179f19bc8672d345) |
 | sol@36a2b878 | 2021-12-08 |      | won't take over, use "distance" parameter instead |
 | sol@948e827d | 2021-12-07 |      | verify/rework SQL script; low prio (various events) |
-| sol@34fdb867 | 2021-12-07 |      | verify/rework SQL script |
+| sol@34fdb867 | 2021-12-07 |      | verify/rework SQL script (also see sol@c60acb2c) |
 | sol@e8d254f2 | 2021-12-07 |      | verify/rework SQL script; low prio (Event: Feast of Winter Veil) |
 | sol@46f3af24 | 2021-12-07 |      | does not fix anything, take over TC commit 5eaaa3aca094ad8a082ba50a5d7a09a10e9b12d8 instead |
 | sol@098b6ada | 2021-12-07 |      | verify/rework SQL script; compare with TC version |
@@ -47,7 +59,7 @@ TODOs:
 | sol@647c9160 | 2021-11-21 |      | take over if needed |
 | sol@2eb42288 | 2021-11-21 |      | verify changes; low prio (Dungeon: Molten Core) |
 | sol@7c19c964 | 2021-11-21 |      | verify changes (also see sol@d25992da, sol@f56953f9); low prio (Dungeon: Molten Core) |
-| sol@edf7b543 | 2021-11-21 |      | verify changes (also see sol@910ebc22, sol@4982c4ee, sol@8ae8db52); low prio (Dungeon: Molten Core) |
+| sol@edf7b543 | 2021-11-21 |      | verify changes (also see sol@910ebc22, sol@4982c4ee, sol@8ae8db52, sol@e2a32bb7); low prio (Dungeon: Molten Core) |
 | sol@dc9c3a5f | 2021-11-21 |      | take over if needed |
 | sol@4099c380 | 2021-11-21 |      | verify changes; low prio (Dungeon: Molten Core) |
 | sol@8364bdb6 | 2021-11-21 |      | verify/rework SQL script; also fix POI for quest "Deeprun Rat Roundup" |
@@ -170,15 +182,15 @@ TODOs:
 | sol@ad320d88 | 2021-10-14 |      | verify/rework SQL script |
 | sol@476d085a | 2021-10-14 |      | take over if needed |
 | sol@c1203874 | 2021-10-14 |      | verify/rework SQL script |
-| sol@4c576ebe | 2021-10-14 |      | verify/rework SQL script |
+| sol@4c576ebe | 2021-10-14 | X    | verify/rework SQL script; done: sol@ee30045f |
 | sol@5d73180c | 2021-10-14 |      | take over if needed |
 | sol@3894dfc8 | 2021-10-14 | X    | verify changes; won't take over, not needed; can be accomplished using SMART\_ACTION\_SET\_GO\_STATE or SMART\_ACTION\_GO\_SET\_LOOT\_STATE combined with timers or respawn time of the GO itself; update: some GOs cannot be despawned this way, so implemented the new SAI action type "SMART\_ACTION\_DESPAWN\_GO", see sol@02025b6c |
 | sol@a8643f27 | 2021-10-14 | X    | verify position; use UPDATE instead of DELETE/INSERT; done: sol@297e4ba5 |
 | sol@b8345a2f | 2021-10-14 |      | take over if needed |
 | sol@21e67bae | 2021-10-13 | X    | verify/rework SQL script; done: sol@7e1e0e93 |
-| sol@747a2a4f | 2021-10-13 |      | verify changes; low prio (minor issue) |
+| sol@747a2a4f | 2021-10-13 | X    | verify changes; low prio (minor issue); update: not needed anymore, see sol@fd4d88d1 |
 | sol@b5f8b485 | 2021-10-13 |      | take over if needed |
-| sol@4349f076 | 2021-10-13 |      | verify/rework SQL script |
+| sol@4349f076 | 2021-10-13 | X    | verify/rework SQL script; done: sol@7f4869fd |
 | sol@cd03fd4e | 2021-10-13 | X    | verify/rework SQL script; done: sol@8cdbaa93 |
 | sol@13eacaed | 2021-10-12 |      | take over if needed |
 | sol@c8ff0bcc | 2021-10-12 |      | verify changes; low prio (Dungeon: Azjol-Nerub) |
@@ -271,7 +283,7 @@ TODOs:
 | sol@4dc642d5 | 2021-09-16 |      | take over if needed; also see sol@d464ee70 |
 | sol@fd229f75 | 2021-09-16 |      | verify changes; low prio (Dungeon: Blackrock Depths) |
 | sol@f1e9b674 | 2021-09-16 | X    | verify/rework SQL script; done: sol@fbf5c469 |
-| sol@7406a01a | 2021-09-13 |      | take over parts if needed, also see sol@107658eb, sol@d6118de1, sol@60fb2c38, sol@3aadaa6d, sol@70257303, sol@89f0c42c, sol@a6a85c0d |
+| sol@7406a01a | 2021-09-13 |      | take over parts if needed, also see sol@107658eb, sol@d6118de1, sol@60fb2c38, sol@3aadaa6d, sol@70257303, sol@89f0c42c, sol@a6a85c0d, sol@4e70e604 |
 | sol@009ba568 | 2021-09-13 | X    | verify/rework SQL script; done: sol@b17eef44 |
 | sol@15b34616 | 2021-09-13 |      | verify changes; low prio (Dungeon: Blackrock Depths) |
 | sol@bb343b48 | 2021-09-13 | X    | verify/rework SQL script; done: sol@1e6f21dc |
