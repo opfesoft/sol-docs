@@ -2,6 +2,8 @@ TODOs:
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@1cc9ea83 | 2021-12-15 |      | take over if needed |
+| sol@5c8acadf | 2021-12-14 |      | take over if needed |
 | sol@31a4cd14 | 2021-12-13 |      | verify/rework SQL script |
 | sol@0a0013aa | 2021-12-13 |      | take over if needed |
 | sol@2b86d4ba | 2021-12-13 |      | verify/rework SQL script |
@@ -181,7 +183,7 @@ TODOs:
 | sol@8b70222a | 2021-10-14 |      | verify changes; low prio (minor issue) |
 | sol@ad320d88 | 2021-10-14 |      | verify/rework SQL script |
 | sol@476d085a | 2021-10-14 |      | take over if needed |
-| sol@c1203874 | 2021-10-14 |      | verify/rework SQL script |
+| sol@c1203874 | 2021-10-14 | X    | verify/rework SQL script; update: not needed anymore, see sol@54f053ad |
 | sol@4c576ebe | 2021-10-14 | X    | verify/rework SQL script; done: sol@ee30045f |
 | sol@5d73180c | 2021-10-14 |      | take over if needed |
 | sol@3894dfc8 | 2021-10-14 | X    | verify changes; won't take over, not needed; can be accomplished using SMART\_ACTION\_SET\_GO\_STATE or SMART\_ACTION\_GO\_SET\_LOOT\_STATE combined with timers or respawn time of the GO itself; update: some GOs cannot be despawned this way, so implemented the new SAI action type "SMART\_ACTION\_DESPAWN\_GO", see sol@02025b6c |
