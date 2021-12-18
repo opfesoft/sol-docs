@@ -2,18 +2,34 @@ TODOs:
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@6d999eb8 | 2021-12-18 |      | verify/rework SQL script |
+| sol@5ed82f8e | 2021-12-17 |      | verify/rework SQL script; won't take over the updated spawn points, just check the WP paths; use SAI instead of CreatureScript |
+| sol@955b7928 | 2021-12-17 |      | verify/rework SQL script; won't take over the updated spawn points, just check the WP paths |
+| sol@3b8e3eb6 | 2021-12-17 |      | verify changes (note: generic change to GameObject::Update, could cause side effects; find another solution); low prio (Event: Day of the Dead) |
+| sol@63004048 | 2021-12-17 |      | verify/rework SQL script; compare with TC; SAI looks awkward, rework; also rework SAI for Darnassian Huntress |
+| sol@4a2b5f32 | 2021-12-17 |      | verify/rework SQL script; compare with TC, perhaps just check the WP paths |
+| sol@55f60135 | 2021-12-17 |      | verify/rework SQL script |
+| sol@0dd59e66 | 2021-12-17 |      | take over if needed |
+| sol@866a6303 | 2021-12-17 |      | verify spell IDs; add spell 62528 to the delete statement; adapt to Sol |
+| sol@4994d194 | 2021-12-17 |      | verify/rework SQL script; seems to contain a few bugs, e.g. the update to quest\_poi for quests 14352 and 14353 won't work because the entries do not exist; also add deletes before inserts |
+| sol@89a1b5c9 | 2021-12-16 |      | take over if needed |
+| sol@fdbf5ab7 | 2021-12-16 |      | verify/rework SQL script; won't take over the updated spawn points, just check the WP paths and random movement |
+| sol@653eb9d7 | 2021-12-16 |      | verify/rework SQL script; low prio (Holiday Events) |
+| sol@cac26552 | 2021-12-16 |      | verify changes; low prio (PvP) |
+| sol@9b3b6113 | 2021-12-16 |      | verify changes; low prio (Dungeon: Blackrock Depths) |
+| sol@0f83d52f | 2021-12-16 |      | take over if needed (the recipes are largely irrelevant for WotLK) |
 | sol@1cc9ea83 | 2021-12-15 |      | take over if needed |
 | sol@5c8acadf | 2021-12-14 |      | take over if needed |
 | sol@31a4cd14 | 2021-12-13 |      | verify/rework SQL script |
 | sol@0a0013aa | 2021-12-13 |      | take over if needed |
-| sol@2b86d4ba | 2021-12-13 |      | verify/rework SQL script |
+| sol@2b86d4ba | 2021-12-13 |      | verify/rework SQL script; update: won't delete the creatures (no reason to do this), just check the added creatures/gameobjects and the WP paths |
 | sol@8c8ac2be | 2021-12-12 |      | verify loot; compare with TC |
 | sol@b1303e0e | 2021-12-12 |      | verify changes; low prio (minor issue) |
 | sol@4e93671b | 2021-12-12 |      | verify changes; low prio (minor issue) |
 | sol@10ce7a74 | 2021-12-11 |      | verify/rework SQL script / core script |
 | sol@abcd9218 | 2021-12-11 |      | verify/rework SQL script; low prio (Event: Feast of Winter Veil) |
 | sol@09c3fea5 | 2021-12-11 |      | won't take over; take over SAI from TC instead |
-| sol@488b0d45 | 2021-12-11 |      | verify/rework SQL script |
+| sol@488b0d45 | 2021-12-11 |      | verify/rework SQL script; update: seems to contain several bugs, e.g. waypoints/spawn points inside environment etc.; just check the WP paths, won't take over the updated spawn points |
 | sol@678e50fa | 2021-12-10 |      | verify/rework SQL script |
 | sol@52d8e1b6 | 2021-12-10 |      | verify changes; low prio (PvP) |
 | sol@0300cef1 | 2021-12-09 |      | verify solution; low prio (minor issue) |
@@ -107,7 +123,7 @@ TODOs:
 | sol@93bbff4c | 2021-11-06 | X    | verify changes; update: won't take over, should always be handled via SAI |
 | sol@926e18cf | 2021-11-06 |      | verify/rework SQL script; also check movement of the creatures |
 | sol@477de5dc | 2021-11-06 |      | verify changes; low prio (Dungeon: Upper Blackrock Spire) |
-| sol@52362231 | 2021-11-06 |      | verify/rework SQL script / core script (also see sol@bd2193f7, sol@6c3e54b8, sol@92d64639, sol@5b166b1e) |
+| sol@52362231 | 2021-11-06 |      | verify/rework SQL script / core script (also see sol@bd2193f7, sol@6c3e54b8, sol@92d64639, sol@5b166b1e, sol@5a98712e) |
 | sol@6deaa132 | 2021-11-05 |      | verify/rework SQL script |
 | sol@a82d8a69 | 2021-11-05 |      | verify/rework SQL script; the equip update for creature ID 4667 is wrong, it already has the correct weapon; also ready weapons for the NPCs using WP movement |
 | sol@f63f9ce0 | 2021-11-05 |      | verify/rework SQL script |
@@ -178,10 +194,10 @@ TODOs:
 | sol@4a2846f7 | 2021-10-16 |      | verify/rework SQL script |
 | sol@191e37ec | 2021-10-16 | X    | verify issues & changes; update: won't take over: even if this was not the case on retail there's no reason to remove the aura if mounted |
 | sol@a56f4fe1 | 2021-10-16 |      | verify loot; compare with TC |
-| sol@7a828d3c | 2021-10-15 |      | won't take over, rework SAI instead (use SMART\_ACTION\_ADD\_IMMUNITY) |
+| sol@7a828d3c | 2021-10-15 | X    | won't take over, rework SAI instead (use SMART\_ACTION\_ADD\_IMMUNITY); done: sol@7234740a |
 | sol@0d05970e | 2021-10-14 | X    | verify changes; update: won't take over, keep the prerequisite according to the quest text, no matter how this was handled on retail |
 | sol@8b70222a | 2021-10-14 |      | verify changes; low prio (minor issue) |
-| sol@ad320d88 | 2021-10-14 |      | verify/rework SQL script |
+| sol@ad320d88 | 2021-10-14 | X    | verify/rework SQL script; implemented another solution: sol@37e074bc |
 | sol@476d085a | 2021-10-14 |      | take over if needed |
 | sol@c1203874 | 2021-10-14 | X    | verify/rework SQL script; update: not needed anymore, see sol@54f053ad |
 | sol@4c576ebe | 2021-10-14 | X    | verify/rework SQL script; done: sol@ee30045f |
