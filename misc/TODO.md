@@ -2,7 +2,13 @@ TODOs:
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
-| sol@6d999eb8 | 2021-12-18 |      | verify/rework SQL script |
+| sol@f7ff583b | 2021-12-19 |      | adapt to Sol; also remove from the check for yet unsupported action types and add to the handled ones (shows once more that nobody is testing this stuff thoroughly before merging) |
+| sol@4beb2d8a | 2021-12-19 |      | verify/rework SQL script; check the WP paths |
+| sol@1d8160a9 | 2021-12-19 |      | verify/rework SQL script; won't take over the updated spawn points, just check the WP paths |
+| sol@bfb20a53 | 2021-12-19 |      | verify/rework SQL script; won't take over the updated spawn points, just check the WP paths |
+| sol@78504d34 | 2021-12-19 |      | verify/rework SQL script; won't take over the updated spawn points, just check the WP paths |
+| sol@074ace8f | 2021-12-19 |      | verify/rework SQL script; compare with TC |
+| sol@6d999eb8 | 2021-12-18 |      | verify/rework SQL script (also see sol@659f0d93 |
 | sol@5ed82f8e | 2021-12-17 |      | verify/rework SQL script; won't take over the updated spawn points, just check the WP paths; use SAI instead of CreatureScript |
 | sol@955b7928 | 2021-12-17 |      | verify/rework SQL script; won't take over the updated spawn points, just check the WP paths |
 | sol@3b8e3eb6 | 2021-12-17 |      | verify changes (note: generic change to GameObject::Update, could cause side effects; find another solution); low prio (Event: Day of the Dead) |
@@ -10,7 +16,7 @@ TODOs:
 | sol@4a2b5f32 | 2021-12-17 |      | verify/rework SQL script; compare with TC, perhaps just check the WP paths |
 | sol@55f60135 | 2021-12-17 |      | verify/rework SQL script |
 | sol@0dd59e66 | 2021-12-17 |      | take over if needed |
-| sol@866a6303 | 2021-12-17 |      | verify spell IDs; add spell 62528 to the delete statement; adapt to Sol |
+| sol@866a6303 | 2021-12-17 | X    | verify spell IDs; add spell 62528 to the delete statement; adapt to Sol; update: won't take over, the spells are already scripted |
 | sol@4994d194 | 2021-12-17 |      | verify/rework SQL script; seems to contain a few bugs, e.g. the update to quest\_poi for quests 14352 and 14353 won't work because the entries do not exist; also add deletes before inserts |
 | sol@89a1b5c9 | 2021-12-16 |      | take over if needed |
 | sol@fdbf5ab7 | 2021-12-16 |      | verify/rework SQL script; won't take over the updated spawn points, just check the WP paths and random movement |
@@ -58,7 +64,7 @@ TODOs:
 | sol@1d9eea19 | 2021-12-03 |      | verify changes, rework SAI instead; low prio (Dungeon: Scholomance) |
 | sol@728aa460 | 2021-12-03 |      | verify changes, rework SAI instead; low prio (Dungeon: Stratholme) |
 | sol@5d2f4cf0 | 2021-12-03 |      | won't take over, rework CreatureScript |
-| sol@7df43c36 | 2021-12-03 |      | verify changes, rework SAI instead; low prio (Dungeon: Lower Blackrock Spire) |
+| sol@7df43c36 | 2021-12-03 |      | verify changes, rework SAI instead (also see sol@9265d346); low prio (Dungeon: Lower Blackrock Spire) |
 | sol@18f3f748 | 2021-12-03 |      | verify/rework SQL script |
 | sol@4c010968 | 2021-12-02 |      | verify changes; low prio (Dungeon: Upper Blackrock Spire) |
 | sol@41437acc | 2021-12-02 |      | verify changes; low prio (Event: Brewfest) |
@@ -123,7 +129,7 @@ TODOs:
 | sol@93bbff4c | 2021-11-06 | X    | verify changes; update: won't take over, should always be handled via SAI |
 | sol@926e18cf | 2021-11-06 |      | verify/rework SQL script; also check movement of the creatures |
 | sol@477de5dc | 2021-11-06 |      | verify changes; low prio (Dungeon: Upper Blackrock Spire) |
-| sol@52362231 | 2021-11-06 |      | verify/rework SQL script / core script (also see sol@bd2193f7, sol@6c3e54b8, sol@92d64639, sol@5b166b1e, sol@5a98712e) |
+| sol@52362231 | 2021-11-06 |      | verify/rework SQL script / core script (also see sol@bd2193f7, sol@6c3e54b8, sol@92d64639, sol@5b166b1e, sol@5a98712e, sol@c70cc855) |
 | sol@6deaa132 | 2021-11-05 |      | verify/rework SQL script |
 | sol@a82d8a69 | 2021-11-05 |      | verify/rework SQL script; the equip update for creature ID 4667 is wrong, it already has the correct weapon; also ready weapons for the NPCs using WP movement |
 | sol@f63f9ce0 | 2021-11-05 |      | verify/rework SQL script |
