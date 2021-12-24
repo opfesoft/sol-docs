@@ -2,6 +2,8 @@ TODOs:
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@bc87362f | 2021-12-23 |      | verify/rework SQL script; won't take over the updated spawn points, just check the WP paths and random movement |
+| sol@5b6e6c3d | 2021-12-23 |      | verify/rework SQL script; won't take over the updated spawn points, just check the WP paths and random movement |
 | sol@f7ff583b | 2021-12-19 |      | adapt to Sol; also remove from the check for yet unsupported action types and add to the handled ones (shows once more that nobody is testing this stuff thoroughly before merging) |
 | sol@4beb2d8a | 2021-12-19 |      | verify/rework SQL script; check the WP paths |
 | sol@1d8160a9 | 2021-12-19 |      | verify/rework SQL script; won't take over the updated spawn points, just check the WP paths |
@@ -83,7 +85,7 @@ TODOs:
 | sol@647c9160 | 2021-11-21 |      | take over if needed |
 | sol@2eb42288 | 2021-11-21 |      | verify changes; low prio (Dungeon: Molten Core) |
 | sol@7c19c964 | 2021-11-21 |      | verify changes (also see sol@d25992da, sol@f56953f9); low prio (Dungeon: Molten Core) |
-| sol@edf7b543 | 2021-11-21 |      | verify changes (also see sol@910ebc22, sol@4982c4ee, sol@8ae8db52, sol@e2a32bb7); low prio (Dungeon: Molten Core) |
+| sol@edf7b543 | 2021-11-21 |      | verify changes (also see sol@910ebc22, sol@4982c4ee, sol@8ae8db52, sol@e2a32bb7, sol@9c4f1035); low prio (Dungeon: Molten Core) |
 | sol@dc9c3a5f | 2021-11-21 |      | take over if needed |
 | sol@4099c380 | 2021-11-21 |      | verify changes; low prio (Dungeon: Molten Core) |
 | sol@8364bdb6 | 2021-11-21 |      | verify/rework SQL script; also fix POI for quest "Deeprun Rat Roundup" |
@@ -129,7 +131,7 @@ TODOs:
 | sol@93bbff4c | 2021-11-06 | X    | verify changes; update: won't take over, should always be handled via SAI |
 | sol@926e18cf | 2021-11-06 |      | verify/rework SQL script; also check movement of the creatures |
 | sol@477de5dc | 2021-11-06 |      | verify changes; low prio (Dungeon: Upper Blackrock Spire) |
-| sol@52362231 | 2021-11-06 |      | verify/rework SQL script / core script (also see sol@bd2193f7, sol@6c3e54b8, sol@92d64639, sol@5b166b1e, sol@5a98712e, sol@c70cc855) |
+| sol@52362231 | 2021-11-06 |      | verify/rework SQL script / core script (also see sol@bd2193f7, sol@6c3e54b8, sol@92d64639, sol@5b166b1e, sol@5a98712e, sol@c70cc855, sol@21a59683) |
 | sol@6deaa132 | 2021-11-05 |      | verify/rework SQL script |
 | sol@a82d8a69 | 2021-11-05 |      | verify/rework SQL script; the equip update for creature ID 4667 is wrong, it already has the correct weapon; also ready weapons for the NPCs using WP movement |
 | sol@f63f9ce0 | 2021-11-05 |      | verify/rework SQL script |
@@ -192,14 +194,14 @@ TODOs:
 | sol@e8a6c4fa | 2021-10-18 |      | verify/rework SQL script, CreatureScripts and SpellScripts |
 | sol@e5321a9b | 2021-10-18 |      | verify/rework SQL script |
 | sol@429823a7 | 2021-10-17 | X    | won't take over; there are many other duplicate critters, instead of deleting the duplicates enable random movement for all of them; done: sol@f8d54d6d |
-| sol@5fb43be7 | 2021-10-17 |      | take over from TC instead |
-| sol@9aab7e8f | 2021-10-17 |      | use other drop chances and also remove item 9361 from the creature loot table |
+| sol@5fb43be7 | 2021-10-17 | X    | take over from TC instead; done: sol@1c59bef0 |
+| sol@9aab7e8f | 2021-10-17 | X    | use other drop chances and also remove item 9361 from the creature loot table; done: sol@86b0f29e |
 | sol@60f0fb2e | 2021-10-17 |      | low prio (Localization: esES, esMX) |
 | sol@12185d8f | 2021-10-16 |      | verify issue & changes; low prio (Dungeon: Icecrown Citadel) |
 | sol@ba719f0f | 2021-10-16 |      | verify changes; low prio (Event: Hallow's End) |
-| sol@4a2846f7 | 2021-10-16 |      | verify/rework SQL script |
+| sol@4a2846f7 | 2021-10-16 | X    | verify/rework SQL script; done: sol@d2b05cdf |
 | sol@191e37ec | 2021-10-16 | X    | verify issues & changes; update: won't take over: even if this was not the case on retail there's no reason to remove the aura if mounted |
-| sol@a56f4fe1 | 2021-10-16 |      | verify loot; compare with TC |
+| sol@a56f4fe1 | 2021-10-16 | X    | verify loot; compare with TC; done: sol@4819e36a |
 | sol@7a828d3c | 2021-10-15 | X    | won't take over, rework SAI instead (use SMART\_ACTION\_ADD\_IMMUNITY); done: sol@7234740a |
 | sol@0d05970e | 2021-10-14 | X    | verify changes; update: won't take over, keep the prerequisite according to the quest text, no matter how this was handled on retail |
 | sol@8b70222a | 2021-10-14 |      | verify changes; low prio (minor issue) |
@@ -472,7 +474,7 @@ TODOs:
 | sol@b8bd24b4 | 2021-06-28 | X    | verify/rework SQL script; taken from TC instead: sol@43cd762e |
 | sol@a23a0c88 | 2021-06-27 | X    | verify/rework SQL script; done: sol@621ea3ca |
 | sol@15e44d4d | 2021-06-27 | X    | adapt to Sol; done: sol@8323ba07 |
-| sol@c73a5e95 | 2021-06-27 |      | Sol is not affected by the mentioned issue; investigate Deep Freeze nevertheless; also see sol@eff648b3; low prio |
+| sol@c73a5e95 | 2021-06-27 |      | Sol is not affected by the mentioned issue; investigate Deep Freeze nevertheless; also see sol@eff648b3 and sol@3ca99c56; low prio |
 | sol@5b82840e | 2021-06-27 | X    | adjust CreatureScript; done: sol@56fc542e |
 | sol@0c22cae7 | 2021-06-26 |      | verify changes; low prio (Event: Stranglethorn Fishing Extravaganza) |
 | sol@0b7e74b0 | 2021-06-26 | X    | use SAI to add immunity; done: sol@b2516561 |
