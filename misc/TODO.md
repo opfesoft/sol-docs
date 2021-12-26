@@ -2,9 +2,11 @@ TODOs:
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@a3c58d91 | 2021-12-25 |      | verify/rework SQL script |
+| sol@5abfe273 | 2021-12-25 |      | use SAI instead |
 | sol@bc87362f | 2021-12-23 |      | verify/rework SQL script; won't take over the updated spawn points, just check the WP paths and random movement |
 | sol@5b6e6c3d | 2021-12-23 |      | verify/rework SQL script; won't take over the updated spawn points, just check the WP paths and random movement |
-| sol@f7ff583b | 2021-12-19 |      | adapt to Sol; also remove from the check for yet unsupported action types and add to the handled ones (shows once more that nobody is testing this stuff thoroughly before merging) |
+| sol@f7ff583b | 2021-12-19 | X    | adapt to Sol; also remove from the check for yet unsupported action types and add to the handled ones (shows once more that nobody is testing this stuff thoroughly before merging); done: sol@baae4066 |
 | sol@4beb2d8a | 2021-12-19 |      | verify/rework SQL script; check the WP paths |
 | sol@1d8160a9 | 2021-12-19 |      | verify/rework SQL script; won't take over the updated spawn points, just check the WP paths |
 | sol@bfb20a53 | 2021-12-19 |      | verify/rework SQL script; won't take over the updated spawn points, just check the WP paths |

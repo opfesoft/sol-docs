@@ -3292,6 +3292,22 @@ quickChange 1 forces the creature to quickly change its orientation (useful if t
 </p></td>
 </tr>
 <tr>
+<td><p>SMART_ACTION_DISABLE_EVADE</p></td>
+<td><p>117</p></td>
+<td><p>0/1 (1 = disabled, 0 = enabled)</p></td>
+<td><p><br />
+</p></td>
+<td><p><br />
+</p></td>
+<td><p><br />
+</p></td>
+<td><p><br />
+</p></td>
+<td><p><br />
+</p></td>
+<td><p>Take care if using this action. Disabling evasion is dangerous (e.g. the creature won't reset anymore).</p></td>
+</tr>
+<tr>
 <td><p>SMART_ACTION_SET_SIGHT_DIST</p></td>
 <td><p>121</p></td>
 <td><p>SightDistance</p></td>
