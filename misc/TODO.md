@@ -2,6 +2,15 @@ TODOs:
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@ddddb108 | 2021-12-30 |      | verify/rework SQL script; check the WP paths |
+| sol@e5b5413a | 2021-12-30 |      | verify/rework SQL script |
+| sol@bbf08c1a | 2021-12-30 |      | take over if needed (seems to be the same as TEMPSUMMON\_TIMED\_OR\_DEAD\_DESPAWN) |
+| sol@5a1bdb1f | 2021-12-29 |      | keep as reference, won't take over; this will overwrite many fixed issues of the past (note: it is perfectly valid to edit the broadcast\_text table, e.g. to fix typos or other text issues which were part of retail at the time) |
+| sol@d148300b | 2021-12-28 |      | verify/rework SQL script |
+| sol@10eb1870 | 2021-12-28 |      | verify WP paths |
+| sol@13075696 | 2021-12-27 |      | won't take over (the quest clearly states that the quest item drops from Strashaz naga, don't care about sniffs); add the quest loot to Strashaz Myrmidon & Tidelord Rrurgaz and set chance to 20 for all creatures |
+| sol@93b6835e | 2021-12-27 |      | verify/rework SQL script; check the WP paths |
+| sol@288e91d5 | 2021-12-27 |      | verify/rework SQL script; check spawn points for currently low populated area; check the WP paths and random movement |
 | sol@a3c58d91 | 2021-12-25 |      | verify/rework SQL script |
 | sol@5abfe273 | 2021-12-25 |      | use SAI instead |
 | sol@bc87362f | 2021-12-23 |      | verify/rework SQL script; won't take over the updated spawn points, just check the WP paths and random movement |
@@ -133,7 +142,7 @@ TODOs:
 | sol@93bbff4c | 2021-11-06 | X    | verify changes; update: won't take over, should always be handled via SAI |
 | sol@926e18cf | 2021-11-06 |      | verify/rework SQL script; also check movement of the creatures |
 | sol@477de5dc | 2021-11-06 |      | verify changes; low prio (Dungeon: Upper Blackrock Spire) |
-| sol@52362231 | 2021-11-06 |      | verify/rework SQL script / core script (also see sol@bd2193f7, sol@6c3e54b8, sol@92d64639, sol@5b166b1e, sol@5a98712e, sol@c70cc855, sol@21a59683) |
+| sol@52362231 | 2021-11-06 |      | verify/rework SQL script / core script (also see sol@bd2193f7, sol@6c3e54b8, sol@92d64639, sol@5b166b1e, sol@5a98712e, sol@c70cc855, sol@21a59683, sol@3412c3e2, sol@1df8a47e, sol@1a75b3ef) |
 | sol@6deaa132 | 2021-11-05 |      | verify/rework SQL script |
 | sol@a82d8a69 | 2021-11-05 |      | verify/rework SQL script; the equip update for creature ID 4667 is wrong, it already has the correct weapon; also ready weapons for the NPCs using WP movement |
 | sol@f63f9ce0 | 2021-11-05 |      | verify/rework SQL script |
@@ -156,19 +165,19 @@ TODOs:
 | sol@ee0bc7d5 | 2021-11-01 |      | verify changes; try to improve SAI instead; low prio (Dungeon: Scholomance) |
 | sol@6f7d53da | 2021-10-31 | X    | verify issues & changes; update: won't take over, the current values already seem to be correct |
 | sol@b6ad5bf8 | 2021-10-31 |      | won't take over, improve SAI instead |
-| sol@4925bfa3 | 2021-10-31 |      | verify/rework SQL script |
-| sol@b7665c45 | 2021-10-31 |      | verify/rework SQL script |
-| sol@901198bf | 2021-10-30 |      | verify/rework SQL script |
-| sol@dbfecc5b | 2021-10-30 |      | take over from TC instead |
+| sol@4925bfa3 | 2021-10-31 | X    | verify/rework SQL script; done: sol@0abec879 |
+| sol@b7665c45 | 2021-10-31 | X    | verify/rework SQL script; done: sol@8e0ee187 |
+| sol@901198bf | 2021-10-30 | X    | verify/rework SQL script; done: sol@db9e9f9e |
+| sol@dbfecc5b | 2021-10-30 | X    | take over from TC instead; done: sol@77d9a3d0 |
 | sol@e761b81a | 2021-10-30 |      | verify/rework SQL script; low prio (Event: Hallow's End) |
 | sol@9ef0aa88 | 2021-10-30 |      | verify/rework SQL script (also see sol@e3fd9c78); low prio (Event: Day of the Dead) |
-| sol@72160100 | 2021-10-30 |      | verify/rework SQL script |
+| sol@72160100 | 2021-10-30 | X    | verify/rework SQL script; done: sol@f1dc822a |
 | sol@5e231bae | 2021-10-29 | X    | verify loot; compare with TC; done: sol@7894f12f |
 | sol@7f69acd4 | 2021-10-29 |      | take over if needed |
 | sol@a7cc26e2 | 2021-10-29 |      | take over if needed |
 | sol@12b195e1 | 2021-10-28 |      | verify/rework SQL script / core scripts; also "The Cleaner" should spawn if a second player character is helping; low prio (obsolete quest) |
-| sol@26456132 | 2021-10-26 |      | won't take over, improve the CreatureScript instead |
-| sol@31dfe4f0 | 2021-10-26 |      | verify/rework SQL script |
+| sol@26456132 | 2021-10-26 | X    | won't take over, improve the CreatureScript instead; done: sol@ccc95eb8 |
+| sol@31dfe4f0 | 2021-10-26 | X    | verify/rework SQL script; won't take over, the existing script was just using the wrong event type to trigger the timed action list (20 instead of 19); improved the existing SAI: sol@97f9f4fd |
 | sol@1f603455 | 2021-10-25 |      | verify issue & changes; low prio (Event: Hallow's End) |
 | sol@3cddfb84 | 2021-10-24 |      | verify changes; low prio (minor issue) |
 | sol@416e8d2c | 2021-10-24 | X    | won't take over, use SAI instead; done: sol@9336ee8a |
@@ -192,9 +201,9 @@ TODOs:
 | sol@51161bb7 | 2021-10-20 |      | verify/rework SQL script; low prio (Event: Hallow's End) |
 | sol@fb1e750d | 2021-10-20 |      | take over if needed |
 | sol@1ec612e6 | 2021-10-20 |      | take over if needed |
-| sol@15494554 | 2021-10-19 |      | verify/rework SQL script |
-| sol@e8a6c4fa | 2021-10-18 |      | verify/rework SQL script, CreatureScripts and SpellScripts |
-| sol@e5321a9b | 2021-10-18 |      | verify/rework SQL script |
+| sol@15494554 | 2021-10-19 | X    | verify/rework SQL script; improved the creature script instead: sol@58a6592c |
+| sol@e8a6c4fa | 2021-10-18 |      | verify/rework SQL script, CreatureScripts and SpellScripts; low prio (PvP) |
+| sol@e5321a9b | 2021-10-18 | X    | verify/rework SQL script; done: sol@99973f2e, sol@6d51d63a |
 | sol@429823a7 | 2021-10-17 | X    | won't take over; there are many other duplicate critters, instead of deleting the duplicates enable random movement for all of them; done: sol@f8d54d6d |
 | sol@5fb43be7 | 2021-10-17 | X    | take over from TC instead; done: sol@1c59bef0 |
 | sol@9aab7e8f | 2021-10-17 | X    | use other drop chances and also remove item 9361 from the creature loot table; done: sol@86b0f29e |
