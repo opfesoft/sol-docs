@@ -2,13 +2,38 @@ TODOs:
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@8fd757a1 | 2022-01-04 |      | take over if needed |
+| sol@9faec8ef | 2022-01-04 |      | take over if needed |
+| sol@3247bfe9 | 2022-01-03 |      | verify/rework SQL script |
+| sol@23deac6e | 2022-01-03 |      | verify loot; compare with TC |
+| sol@3297a4fb | 2022-01-03 |      | verify changes; low prio (Event: Midsummer Fire Festival) |
+| sol@c1a73433 | 2022-01-03 |      | verify/rework SQL script |
+| sol@573a39cf | 2022-01-03 |      | use quest\_template\_addon instead of conditions |
+| sol@d8712455 | 2022-01-03 |      | verify changes; low prio (minor issue) |
+| sol@67f86884 | 2022-01-03 |      | use UPDATE instead of DELETE/INSERT |
+| sol@2f7ccbe9 | 2022-01-03 |      | verify/rework SQL script; check the WP paths |
+| sol@91108f2f | 2022-01-03 |      | verify/rework SQL script; check the WP paths |
+| sol@c650cda4 | 2022-01-03 |      | verify/rework SQL script; won't delete the creatures (no reason to do this), just check the WP paths |
+| sol@70743d4c | 2022-01-03 |      | verify/rework SQL script; check the WP paths |
+| sol@f03b87f7 | 2022-01-03 |      | verify/rework SQL script; won't take over the updated spawn points, just check the WP paths; use SAI instead of CreatureScript |
+| sol@e2b81754 | 2022-01-03 |      | verify/rework SQL script; check the WP paths |
+| sol@a8d93ad8 | 2022-01-03 |      | verify/rework SQL script; check the WP paths |
+| sol@002e62d6 | 2022-01-03 |      | take over if needed |
+| sol@3925118d | 2022-01-03 |      | keep as reference; take over single values if needed; won't blindly take over such mass updates |
+| sol@1ef12abc | 2022-01-03 |      | verify/rework SQL script; won't delete the creatures (no reason to do this), just check the WP paths (note: this update is not imported into the AC DB because sql\_rev 1640126290282588522 already exists) |
+| sol@8a5b9634 | 2022-01-03 |      | take over if needed |
+| sol@8216318f | 2022-01-01 |      | take over if needed |
+| sol@a0c49591 | 2021-12-31 |      | take over from TC instead |
+| sol@a3b22654 | 2021-12-31 |      | verify/rework SQL script |
+| sol@ec7c6831 | 2021-12-31 |      | verify WP paths |
+| sol@19b98c5e | 2021-12-31 |      | verify/rework SQL script |
 | sol@ddddb108 | 2021-12-30 |      | verify/rework SQL script; check the WP paths |
 | sol@e5b5413a | 2021-12-30 |      | verify/rework SQL script |
 | sol@bbf08c1a | 2021-12-30 |      | take over if needed (seems to be the same as TEMPSUMMON\_TIMED\_OR\_DEAD\_DESPAWN) |
 | sol@5a1bdb1f | 2021-12-29 |      | keep as reference, won't take over; this will overwrite many fixed issues of the past (note: it is perfectly valid to edit the broadcast\_text table, e.g. to fix typos or other text issues which were part of retail at the time) |
 | sol@d148300b | 2021-12-28 |      | verify/rework SQL script |
 | sol@10eb1870 | 2021-12-28 |      | verify WP paths |
-| sol@13075696 | 2021-12-27 |      | won't take over (the quest clearly states that the quest item drops from Strashaz naga, don't care about sniffs); add the quest loot to Strashaz Myrmidon & Tidelord Rrurgaz and set chance to 20 for all creatures |
+| sol@13075696 | 2021-12-27 | X    | won't take over (the quest clearly states that the quest item drops from Strashaz naga, don't care about sniffs); add the quest loot to Strashaz Myrmidon & Tidelord Rrurgaz and set chance to 20 for all creatures; done: sol@e30e9c3e |
 | sol@93b6835e | 2021-12-27 |      | verify/rework SQL script; check the WP paths |
 | sol@288e91d5 | 2021-12-27 |      | verify/rework SQL script; check spawn points for currently low populated area; check the WP paths and random movement |
 | sol@a3c58d91 | 2021-12-25 |      | verify/rework SQL script |
@@ -39,7 +64,7 @@ TODOs:
 | sol@0f83d52f | 2021-12-16 |      | take over if needed (the recipes are largely irrelevant for WotLK) |
 | sol@1cc9ea83 | 2021-12-15 |      | take over if needed |
 | sol@5c8acadf | 2021-12-14 |      | take over if needed |
-| sol@31a4cd14 | 2021-12-13 |      | verify/rework SQL script |
+| sol@31a4cd14 | 2021-12-13 |      | verify/rework SQL script (also see sol@702accbf) |
 | sol@0a0013aa | 2021-12-13 |      | take over if needed |
 | sol@2b86d4ba | 2021-12-13 |      | verify/rework SQL script; update: won't delete the creatures (no reason to do this), just check the added creatures/gameobjects and the WP paths |
 | sol@8c8ac2be | 2021-12-12 |      | verify loot; compare with TC |
@@ -164,7 +189,7 @@ TODOs:
 | sol@9fe49d8f | 2021-11-01 |      | low prio (Localization: esES, esMX) |
 | sol@ee0bc7d5 | 2021-11-01 |      | verify changes; try to improve SAI instead; low prio (Dungeon: Scholomance) |
 | sol@6f7d53da | 2021-10-31 | X    | verify issues & changes; update: won't take over, the current values already seem to be correct |
-| sol@b6ad5bf8 | 2021-10-31 |      | won't take over, improve SAI instead |
+| sol@b6ad5bf8 | 2021-10-31 | X    | won't take over, improve SAI instead; done: sol@df185369, sol@17f52933 |
 | sol@4925bfa3 | 2021-10-31 | X    | verify/rework SQL script; done: sol@0abec879 |
 | sol@b7665c45 | 2021-10-31 | X    | verify/rework SQL script; done: sol@8e0ee187 |
 | sol@901198bf | 2021-10-30 | X    | verify/rework SQL script; done: sol@db9e9f9e |
