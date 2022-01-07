@@ -100,7 +100,7 @@ Zero value of **Chance** is allowed for [grouped entries](#groupid) only.
 
 ### QuestRequired
 
- Informs the core that the item should be shown only to characters having appropriate quest. This means that even if item is dropped, in order to see it in the loot the player must have at least one [quest](quest_template.md) that has the [item ID](#item) in its [RequiredItemId](quest_template.md#requireditemid) fields or in its [RequiredSourceItemId](quest_template.md#requiredsourceitemid) fields. The player must also have less copies of the item than [RequiredItemCount](quest_template.md#requireditemcount) or [RequiredSourceItemCount](quest_template.md#requiredsourceitemcount).
+ Informs the core that the item should be shown only to characters having appropriate quest. This means that even if item is dropped, in order to see it in the loot the player must have at least one [quest](quest_template.md) that has the [item ID](#item) in its [RequiredItemId](quest_template.md#requireditemid) fields. The player must also have less copies of the item than [RequiredItemCount](quest_template.md#requireditemcount).
 
 ### LootMode
 

@@ -705,7 +705,7 @@ The language of the text in game. Refer to [Languages.dbc](../../dbc/Languages.m
 
 ### Probability0
 
-The percent-chance (probability) that the NPC will say either text0\_0 or text0\_1 depending on the NPCs gender.
+The percent-chance (probability) that the NPC will say either text0\_0 or text0\_1 depending on the NPCs gender. Has to be between 0 and 1. If the probabilities for all texts are 1 the client chooses a text randomly, otherwise all probabilities have to sum up to 1.
 
 ### em0\_0
 
@@ -749,7 +749,8 @@ The language of the text in game. Refer to [Languages.dbc](../../dbc/Languages.m
 
 ### Probability1
 
-The percent-chance (probability) that the NPC will say either text1\_0 or text1\_1 depending on the NPCs gender.
+The percent-chance (probability) that the NPC will say either text1\_0 or text1\_1 depending on the NPCs gender. Has to be between 0 and 1. If the probabilities for all texts are 1 the client chooses a text randomly, otherwise all probab
+ilities have to sum up to 1.
 
 ### em1\_0
 
@@ -793,7 +794,8 @@ The language of the text in game. Refer to [Languages.dbc](../../dbc/Languages.m
 
 ### Probability2
 
-The percent-chance (probability) that the NPC will say either text2\_0 or text2\_1 depending on the NPCs gender.
+The percent-chance (probability) that the NPC will say either text2\_0 or text2\_1 depending on the NPCs gender. Has to be between 0 and 1. If the probabilities for all texts are 1 the client chooses a text randomly, otherwise all probab
+ilities have to sum up to 1.
 
 ### em2\_0
 
@@ -837,7 +839,8 @@ The language of the text in game. Refer to [Languages.dbc](../../dbc/Languages.m
 
 ### Probability3
 
-The percent-chance (probability) that the NPC will say either text3\_0 or text3\_1 depending on the NPCs gender.
+The percent-chance (probability) that the NPC will say either text3\_0 or text3\_1 depending on the NPCs gender. Has to be between 0 and 1. If the probabilities for all texts are 1 the client chooses a text randomly, otherwise all probab
+ilities have to sum up to 1.
 
 ### em3\_0
 
@@ -881,7 +884,8 @@ The language of the text in game. Refer to [Languages.dbc](../../dbc/Languages.m
 
 ### Probability4
 
-The percent-chance (probability) that the NPC will say either text4\_0 or text4\_1 depending on the NPCs gender.
+The percent-chance (probability) that the NPC will say either text4\_0 or text4\_1 depending on the NPCs gender. Has to be between 0 and 1. If the probabilities for all texts are 1 the client chooses a text randomly, otherwise all probab
+ilities have to sum up to 1.
 
 ### em4\_0
 
@@ -925,7 +929,8 @@ The language of the text in game. Refer to [Languages.dbc](../../dbc/Languages.m
 
 ### Probability5
 
-The percent-chance (probability) that the NPC will say either text5\_0 or text5\_1 depending on the NPCs gender.
+The percent-chance (probability) that the NPC will say either text5\_0 or text5\_1 depending on the NPCs gender. Has to be between 0 and 1. If the probabilities for all texts are 1 the client chooses a text randomly, otherwise all probab
+ilities have to sum up to 1.
 
 ### em5\_0
 
@@ -969,7 +974,8 @@ The language of the text in game. Refer to [Languages.dbc](../../dbc/Languages.m
 
 ### Probability6
 
-The percent-chance (probability) that the NPC will say either text6\_0 or text6\_1 depending on the NPCs gender.
+The percent-chance (probability) that the NPC will say either text6\_0 or text6\_1 depending on the NPCs gender. Has to be between 0 and 1. If the probabilities for all texts are 1 the client chooses a text randomly, otherwise all probab
+ilities have to sum up to 1.
 
 ### em6\_0
 
@@ -1013,7 +1019,8 @@ The language of the text in game. Refer to [Languages.dbc](../../dbc/Languages.m
 
 ### Probability7
 
-The percent-chance (probability) that the NPC will say either text7\_0 or text7\_1 depending on the NPCs gender.
+The percent-chance (probability) that the NPC will say either text7\_0 or text7\_1 depending on the NPCs gender. Has to be between 0 and 1. If the probabilities for all texts are 1 the client chooses a text randomly, otherwise all probab
+ilities have to sum up to 1.
 
 ### em7\_0
 
