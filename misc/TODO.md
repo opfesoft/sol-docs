@@ -2,14 +2,16 @@ TODOs:
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@6a696bff | 2022-01-07 |      | verify/rework SQL script; check the WP paths; low prio (minor issue) |
+| sol@2c6a6920 | 2022-01-07 |      | verify changes; low prio (minor issue) |
 | sol@2e6213d5 | 2022-01-07 |      | take over if needed |
 | sol@2e622e27 | 2022-01-07 |      | verify/rework SQL script; check the WP paths; low prio (minor issue) |
 | sol@5a8b4556 | 2022-01-07 |      | verify/rework SQL script; check the WP paths; low prio (minor issue) |
 | sol@fdcaa8e1 | 2022-01-07 |      | verify/rework SQL script; check the WP paths; low prio (minor issue) |
 | sol@66e6d331 | 2022-01-06 |      | take over if needed (does not seem to fix anything) |
-| sol@73d5772c | 2022-01-06 |      | verify/rework SQL script; check the WP paths; use SAI instead of creature script; low prio (minor issue) |
+| sol@73d5772c | 2022-01-06 |      | verify/rework SQL script; check the WP paths; use SAI instead of creature script |
 | sol@49b3bac2 | 2022-01-06 |      | verify/rework SQL script; check the WP paths; low prio (minor issue) |
-| sol@b2a4dda4 | 2022-01-06 |      | verify/rework SQL script |
+| sol@b2a4dda4 | 2022-01-06 | X    | verify/rework SQL script; update: won't take over, the texts are working correctly; also the author of the commit does not seem to understand how the probability actually works |
 | sol@c377c62c | 2022-01-06 |      | take over if needed (updating the SAI is not needed because the spell uses implicit target via conditions) |
 | sol@89aa2a00 | 2022-01-06 |      | verify/rework SQL script |
 | sol@5aad087d | 2022-01-06 |      | just update the z position |
@@ -20,7 +22,7 @@ TODOs:
 | sol@2bc373b4 | 2022-01-05 |      | take over if needed |
 | sol@86f1b87f | 2022-01-05 |      | take over if needed (also see sol@911e8b4d) |
 | sol@11debfe6 | 2022-01-04 |      | verify/rework SQL script; won't take over the updated spawn points; won't delete the creatures (no reason to do this), just check the WP paths; low prio (minor issue) |
-| sol@6561e9d2 | 2022-01-04 |      | verify/rework SQL script; won't take over the updated spawn points; won't delete the creatures (no reason to do this), just check the WP paths; low prio (minor issue) |
+| sol@6561e9d2 | 2022-01-04 | X    | verify/rework SQL script; won't take over the updated spawn points; won't delete the creatures (no reason to do this), just check the WP paths; low prio (minor issue); update: won't take over any of this stuff, especially replacing random movement with 2-point paths is just awful (once again, don't care about sniffs) |
 | sol@8fd757a1 | 2022-01-04 |      | take over if needed |
 | sol@9faec8ef | 2022-01-04 |      | take over if needed |
 | sol@3247bfe9 | 2022-01-03 |      | verify/rework SQL script |
@@ -139,7 +141,7 @@ TODOs:
 | sol@a220b54a | 2021-11-25 |      | verify/rework SQL script |
 | sol@647c9160 | 2021-11-21 |      | take over if needed |
 | sol@2eb42288 | 2021-11-21 |      | verify changes; low prio (Dungeon: Molten Core) |
-| sol@7c19c964 | 2021-11-21 |      | verify changes (also see sol@d25992da, sol@f56953f9); low prio (Dungeon: Molten Core) |
+| sol@7c19c964 | 2021-11-21 |      | verify changes (also see sol@d25992da, sol@f56953f9, sol@0e29319d, sol@2eac8fd6); low prio (Dungeon: Molten Core) |
 | sol@edf7b543 | 2021-11-21 |      | verify changes (also see sol@910ebc22, sol@4982c4ee, sol@8ae8db52, sol@e2a32bb7, sol@9c4f1035); low prio (Dungeon: Molten Core) |
 | sol@dc9c3a5f | 2021-11-21 |      | take over if needed |
 | sol@4099c380 | 2021-11-21 |      | verify changes; low prio (Dungeon: Molten Core) |
@@ -188,8 +190,8 @@ TODOs:
 | sol@477de5dc | 2021-11-06 |      | verify changes; low prio (Dungeon: Upper Blackrock Spire) |
 | sol@52362231 | 2021-11-06 |      | verify/rework SQL script / core script (also see sol@bd2193f7, sol@6c3e54b8, sol@92d64639, sol@5b166b1e, sol@5a98712e, sol@c70cc855, sol@21a59683, sol@3412c3e2, sol@1df8a47e, sol@1a75b3ef) |
 | sol@6deaa132 | 2021-11-05 |      | verify/rework SQL script |
-| sol@a82d8a69 | 2021-11-05 |      | verify/rework SQL script; the equip update for creature ID 4667 is wrong, it already has the correct weapon; also ready weapons for the NPCs using WP movement |
-| sol@f63f9ce0 | 2021-11-05 |      | verify/rework SQL script |
+| sol@a82d8a69 | 2021-11-05 | X    | verify/rework SQL script; the equip update for creature ID 4667 is wrong, it already has the correct weapon; also ready weapons for the NPCs using WP movement; done: sol@aa2184c5 |
+| sol@f63f9ce0 | 2021-11-05 | X    | verify/rework SQL script; done: sol@5e8a8596 |
 | sol@3ce64b0f | 2021-11-05 |      | take over if needed |
 | sol@74dc9b09 | 2021-11-05 |      | verify/rework SQL script; low prio (Event: Hallow's End) |
 | sol@d80f7d46 | 2021-11-05 |      | take over if needed |
