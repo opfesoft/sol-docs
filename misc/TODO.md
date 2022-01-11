@@ -2,6 +2,10 @@ TODOs:
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@2fd8b00d | 2022-01-11 |      | this can be used as an alternative concerning pools in instanced maps (pools don't work correctly there); implement another solution: don't change the creature table, add a new table instead to be more flexible and ensure backward compatibility |
+| sol@f1d4266e | 2022-01-10 |      | won't take over as there are over 1400 entries in the "creature" table with custom model IDs; removing "modelid" from table "creature" will cause a lot of issues which will take much time to fix; just keep this commit as a reference |
+| sol@6b6a074a | 2022-01-10 |      | verify/rework SQL script; check pools; low prio (minor issue) |
+| sol@ae795fbc | 2022-01-10 |      | verify/rework SQL script; check the WP paths; low prio (minor issue) |
 | sol@6a696bff | 2022-01-07 |      | verify/rework SQL script; check the WP paths; low prio (minor issue) |
 | sol@2c6a6920 | 2022-01-07 |      | verify changes; low prio (minor issue) |
 | sol@2e6213d5 | 2022-01-07 |      | take over if needed |
@@ -92,7 +96,7 @@ TODOs:
 | sol@b1303e0e | 2021-12-12 |      | verify changes; low prio (minor issue) |
 | sol@4e93671b | 2021-12-12 |      | verify changes; low prio (minor issue) |
 | sol@10ce7a74 | 2021-12-11 |      | verify/rework SQL script / core script |
-| sol@abcd9218 | 2021-12-11 |      | verify/rework SQL script; low prio (Event: Feast of Winter Veil) |
+| sol@abcd9218 | 2021-12-11 |      | verify/rework SQL script (also see sol@cceb7a4d); low prio (Event: Feast of Winter Veil) |
 | sol@09c3fea5 | 2021-12-11 |      | won't take over; take over SAI from TC instead |
 | sol@488b0d45 | 2021-12-11 |      | verify/rework SQL script; update: seems to contain several bugs, e.g. waypoints/spawn points inside environment etc.; just check the WP paths, won't take over the updated spawn points; low prio (minor issue) |
 | sol@678e50fa | 2021-12-10 |      | verify/rework SQL script |
@@ -154,7 +158,7 @@ TODOs:
 | sol@518d5d0e | 2021-11-21 | X    | verify/rework SQL script; implemented another solution: sol@153868d9 |
 | sol@67d5452c | 2021-11-20 |      | take over if needed |
 | sol@0f7091c7 | 2021-11-20 |      | verify changes; adapt to Sol; low prio (minor issue) |
-| sol@1aef7372 | 2021-11-19 |      | use UPDATE instead of DELETE/INSERT; adjust loot chances |
+| sol@1aef7372 | 2021-11-19 | X    | use UPDATE instead of DELETE/INSERT; adjust loot chances; update: only removed "QuestRequired", see sol@e663f764 |
 | sol@8a570f48 | 2021-11-19 |      | verify changes; low prio (Dungeon: Scholomance) |
 | sol@00dc369c | 2021-11-18 |      | verify changes; low prio (Dungeon: Upper Blackrock Spire) |
 | sol@e8fb51ee | 2021-11-18 |      | verify/rework SQL script (also see bugfix sol@03c470d8) |
@@ -188,8 +192,8 @@ TODOs:
 | sol@93bbff4c | 2021-11-06 | X    | verify changes; update: won't take over, should always be handled via SAI |
 | sol@926e18cf | 2021-11-06 |      | verify/rework SQL script; also check movement of the creatures |
 | sol@477de5dc | 2021-11-06 |      | verify changes; low prio (Dungeon: Upper Blackrock Spire) |
-| sol@52362231 | 2021-11-06 |      | verify/rework SQL script / core script (also see sol@bd2193f7, sol@6c3e54b8, sol@92d64639, sol@5b166b1e, sol@5a98712e, sol@c70cc855, sol@21a59683, sol@3412c3e2, sol@1df8a47e, sol@1a75b3ef) |
-| sol@6deaa132 | 2021-11-05 |      | verify/rework SQL script |
+| sol@52362231 | 2021-11-06 | X    | verify/rework SQL script / core script (also see sol@bd2193f7, sol@6c3e54b8, sol@92d64639, sol@5b166b1e, sol@5a98712e, sol@c70cc855, sol@21a59683, sol@3412c3e2, sol@1df8a47e, sol@1a75b3ef); done: sol@954fde10 |
+| sol@6deaa132 | 2021-11-05 | X    | verify/rework SQL script; done: sol@46534d25 |
 | sol@a82d8a69 | 2021-11-05 | X    | verify/rework SQL script; the equip update for creature ID 4667 is wrong, it already has the correct weapon; also ready weapons for the NPCs using WP movement; done: sol@aa2184c5 |
 | sol@f63f9ce0 | 2021-11-05 | X    | verify/rework SQL script; done: sol@5e8a8596 |
 | sol@3ce64b0f | 2021-11-05 |      | take over if needed |
