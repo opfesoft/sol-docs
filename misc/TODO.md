@@ -2,7 +2,11 @@ TODOs:
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
-| sol@2fd8b00d | 2022-01-11 |      | this can be used as an alternative concerning pools in instanced maps (pools don't work correctly there); implement another solution: don't change the creature table, add a new table instead to be more flexible and ensure backward compatibility |
+| sol@1b5baa45 | 2022-01-12 |      | take over if needed |
+| sol@dd89bdfb | 2022-01-11 |      | verify/rework SQL script; won't take over the updated spawn points; just check the WP paths and probably the multiple creature IDs (use new table "creature\_id\_chance", see sol@58b56d3b); low prio (minor issue) |
+| sol@65330af5 | 2022-01-11 |      | verify GUIDs; use new table "creature\_id\_chance", see sol@58b56d3b; low prio (minor issue) |
+| sol@f89f0301 | 2022-01-11 |      | won't take over, fix linked\_respawn instead; low prio (Dungeon: Molten Core) |
+| sol@2fd8b00d | 2022-01-11 | X    | this can be used as an alternative concerning pools in instanced maps (pools don't work correctly there); implement another solution: don't change the creature table, add a new table instead to be more flexible and ensure backward compatibility; done: sol@58b56d3b |
 | sol@f1d4266e | 2022-01-10 |      | won't take over as there are over 1400 entries in the "creature" table with custom model IDs; removing "modelid" from table "creature" will cause a lot of issues which will take much time to fix; just keep this commit as a reference |
 | sol@6b6a074a | 2022-01-10 |      | verify/rework SQL script; check pools; low prio (minor issue) |
 | sol@ae795fbc | 2022-01-10 |      | verify/rework SQL script; check the WP paths; low prio (minor issue) |
@@ -47,7 +51,7 @@ TODOs:
 | sol@3925118d | 2022-01-03 |      | keep as reference; take over single values if needed; won't blindly take over such mass updates |
 | sol@1ef12abc | 2022-01-03 |      | verify/rework SQL script; won't delete the creatures (no reason to do this), just check the WP paths (note: this update is not imported into the AC DB because sql\_rev 1640126290282588522 already exists); low prio (minor issue) |
 | sol@8a5b9634 | 2022-01-03 |      | take over if needed |
-| sol@8216318f | 2022-01-01 |      | take over if needed |
+| sol@8216318f | 2022-01-01 |      | won't take over, fix linked\_respawn instead; low prio (Dungeon: Molten Core) |
 | sol@a0c49591 | 2021-12-31 | X    | take over from TC instead; update: won't take over, the quest should be disabled: sol@410d1fce |
 | sol@a3b22654 | 2021-12-31 |      | verify/rework SQL script |
 | sol@ec7c6831 | 2021-12-31 |      | verify/rework SQL script; verify WP paths; low prio (minor issue) |
