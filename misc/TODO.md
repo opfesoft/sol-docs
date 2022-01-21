@@ -2,6 +2,26 @@ TODOs:
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@92887b15 | 2022-01-19 |      | verify/rework SQL script |
+| sol@090f9f8c | 2022-01-19 |      | verify/rework SQL script; low prio (Dungeon: Blackwing Lair) |
+| sol@c233e5af | 2022-01-19 |      | verify/rework SQL script; check the WP paths and additional spawns; low prio (minor issue) |
+| sol@ef9b60d0 | 2022-01-19 |      | verify/rework SQL script; check the WP paths; low prio (minor issue) |
+| sol@6e97b5c2 | 2022-01-18 |      | verify creature IDs (use "creature\_id\_chance"); low prio (minor issue) |
+| sol@e64cd13f | 2022-01-18 |      | verify/rework SQL script; check the WP paths; low prio (minor issue) |
+| sol@3f41c2c6 | 2022-01-18 |      | verify/rework SQL script; won't take over the updated spawn points; just check the WP path; low prio (minor issue) |
+| sol@fe489920 | 2022-01-17 |      | take over if needed |
+| sol@0f2c092d | 2022-01-17 |      | verify changes; low prio (minor issue) |
+| sol@b74fb81b | 2022-01-16 |      | verify changes; low prio (Dungeon: Blackwing Lair) |
+| sol@3cc3afbd | 2022-01-16 |      | verify/rework SQL script; low prio (Dungeon: Molten Core) |
+| sol@83bde5b3 | 2022-01-15 |      | verify/rework SQL script; check gameobject pools & positions; low prio (minor issue) |
+| sol@e71171f9 | 2022-01-15 |      | verify/rework SQL script; won't take over the updated spawn points, just check the WP paths; low prio (minor issue) |
+| sol@f5419a45 | 2022-01-15 |      | verify/rework SQL script (also see sol@03a72cfc); check the WP paths; verify creature IDs (use "creature\_id\_chance"); low prio (minor issue) |
+| sol@c6934b06 | 2022-01-14 |      | verify/rework SQL script (also see sol@03a72cfc); low prio (Dungeon: Lower Blackrock Spire) |
+| sol@7de3c2df | 2022-01-14 |      | verify changes; compare with TC; low prio (Event: Feast of Winter Veil) |
+| sol@d65101f8 | 2022-01-14 |      | verify/rework SQL script; verify loot; compare with TC |
+| sol@ba633544 | 2022-01-13 |      | wrong, won't take over: has to be checked in "CanRewardQuest" |
+| sol@4c695c76 | 2022-01-13 |      | verify/rework SQL script; check the WP paths; low prio (minor issue) |
+| sol@df4b6215 | 2022-01-13 |      | take over if needed |
 | sol@1b5baa45 | 2022-01-12 |      | take over if needed |
 | sol@dd89bdfb | 2022-01-11 |      | verify/rework SQL script; won't take over the updated spawn points; just check the WP paths and probably the multiple creature IDs (use new table "creature\_id\_chance", see sol@d65c4ae5); low prio (minor issue) |
 | sol@65330af5 | 2022-01-11 |      | verify GUIDs; use new table "creature\_id\_chance", see sol@d65c4ae5; low prio (minor issue) |
@@ -89,7 +109,7 @@ TODOs:
 | sol@fdbf5ab7 | 2021-12-16 |      | verify/rework SQL script; won't take over the updated spawn points, just check the WP paths and random movement; low prio (minor issue) |
 | sol@653eb9d7 | 2021-12-16 |      | verify/rework SQL script; low prio (Holiday Events) |
 | sol@cac26552 | 2021-12-16 |      | verify changes; low prio (PvP) |
-| sol@9b3b6113 | 2021-12-16 |      | verify changes; low prio (Dungeon: Blackrock Depths) |
+| sol@9b3b6113 | 2021-12-16 |      | verify changes (also see sol@124ea8a1); low prio (Dungeon: Blackrock Depths) |
 | sol@0f83d52f | 2021-12-16 |      | take over if needed (the recipes are largely irrelevant for WotLK) |
 | sol@1cc9ea83 | 2021-12-15 |      | take over if needed |
 | sol@5c8acadf | 2021-12-14 |      | take over if needed |
@@ -150,7 +170,7 @@ TODOs:
 | sol@647c9160 | 2021-11-21 |      | take over if needed |
 | sol@2eb42288 | 2021-11-21 |      | verify changes; low prio (Dungeon: Molten Core) |
 | sol@7c19c964 | 2021-11-21 |      | verify changes (also see sol@d25992da, sol@f56953f9, sol@0e29319d, sol@2eac8fd6); low prio (Dungeon: Molten Core) |
-| sol@edf7b543 | 2021-11-21 |      | verify changes (also see sol@910ebc22, sol@4982c4ee, sol@8ae8db52, sol@e2a32bb7, sol@9c4f1035); low prio (Dungeon: Molten Core) |
+| sol@edf7b543 | 2021-11-21 |      | verify changes (also see sol@910ebc22, sol@4982c4ee, sol@8ae8db52, sol@e2a32bb7, sol@9c4f1035, sol@19954304); low prio (Dungeon: Molten Core) |
 | sol@dc9c3a5f | 2021-11-21 |      | take over if needed |
 | sol@4099c380 | 2021-11-21 |      | verify changes; low prio (Dungeon: Molten Core) |
 | sol@8364bdb6 | 2021-11-21 |      | verify/rework SQL script; also fix POI for quest "Deeprun Rat Roundup" |
@@ -513,7 +533,7 @@ TODOs:
 | sol@b5d9b3d5 | 2021-07-12 | X    | verify issue/changes; rework SQL script; update: won't take over, the quest seems to work fine; just increase the effect radius for Plague Strike to 8 yards: sol@55a28f19 |
 | sol@2e8a7498 | 2021-07-10 | X    | verify/rework SQL script; implemented another solution, see sol@e4e792a7 & sol@83e97509 |
 | sol@a61f7a12 | 2021-07-09 |      | take over if needed |
-| sol@b2836769 | 2021-07-08 |      | despite the description the creature pool is not associated with Meshlok, but with two other creatures: Cavern Lurker & Cavern Shambler; obviously they are meant to be replaced with Meshlok, which is probably only possible using an InstanceScript; low prio (Dungeon: Maraudon) |
+| sol@b2836769 | 2021-07-08 | X    | despite the description the creature pool is not associated with Meshlok, but with two other creatures: Cavern Lurker & Cavern Shambler; obviously they are meant to be replaced with Meshlok, which is probably only possible using an InstanceScript; low prio (Dungeon: Maraudon); done: sol@fe38d03d |
 | sol@06027e32 | 2021-07-08 |      | verify issue; low prio (Dungeon: Utgarde Pinnacle) |
 | sol@f8c8e98a | 2021-07-08 |      | take over if needed |
 | sol@c7d5080b | 2021-07-08 | X    | take over from TC instead; done: sol@7287e321 |
@@ -746,11 +766,11 @@ TODOs:
 | sol@6e1fb0d5 | 2021-02-03 | X    | take over if needed (additional AC commit: sol@bfcc3c6f); update: "spell\_school\_immune\_mask" won't be taken over; immunities should be handled via scripts |
 | sol@c628cd77 | 2021-02-03 |      | verify SQL script; low prio (Event: Lunar Festival) |
 | sol@f65cfb6f | 2021-02-02 | X    | verify and rework SQL script; done: sol@5805ce04 |
-| sol@911ac12e | 2021-02-01 |      | verify SQL script; low prio (Event: Lunar Festival) |
+| sol@911ac12e | 2021-02-01 |      | verify SQL script (also see sol@fc5bca04); low prio (Event: Lunar Festival) |
 | sol@9c239d17 | 2021-02-01 |      | verify SQL script; low prio (Event: Lunar Festival) |
 | sol@c8f43d85 | 2021-02-01 |      | try to find a better solution for some of the changes if nothing else is left to do (also see bugfixes sol@e7bfbe76, sol@522eb9a7, sol@695a7402, sol@b2f6a36c, sol@1d5cc1fb ....); very low prio as it's not really needed and could cause many unexpected bugs / performance issues; the only interesting changes concerning creature movement are circling the player and going backwards if too close to the player; update: if ever implementing mob fanning use an additional field in creature\_addon to control this behaviour as not all NPCs showed this on retail; also add a config parameter to disable this entirely as it will reduce performance |
 | sol@fcad2b56 | 2021-01-31 | X    | only take over name changes for attributes which are actually used in the code; done: sol@c9bae62c |
-| sol@6ef73413 | 2021-01-31 |      | verify CreatureScript (and bugfix sol@1a137dad); low prio (Dungeon: Blackwing Lair) |
+| sol@6ef73413 | 2021-01-31 |      | verify CreatureScript (also see sol@1a137dad, sol@8d78f4b8, sol@707685d6); low prio (Dungeon: Blackwing Lair) |
 | sol@d60fbc8e | 2021-01-27 | X    | verify and rework SQL script; done: sol@139c9572 |
 | sol@d0c5bee5 | 2021-01-24 | X    | compare with TC version; done: sol@1eb9e027 |
 | sol@0a8a7ef1 | 2021-01-22 |      | perhaps take over if nothing else is left to do; not really needed as this was also not the case on retail at the time; low prio |
