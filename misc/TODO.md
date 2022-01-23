@@ -2,6 +2,13 @@ TODOs:
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@ac0129a0 | 2022-01-23 |      | verify changes; low prio (minor issue) |
+| sol@3fa222e7 | 2022-01-22 |      | verify/rework SQL script; check the WP paths; low prio (minor issue) |
+| sol@ce5fc6eb | 2022-01-22 |      | verify changes; low prio (Dungeon: Stratholme) |
+| sol@e2f91ebc | 2022-01-22 |      | verify/rework SQL script; check the WP paths; low prio (minor issue) |
+| sol@cf5ee62b | 2022-01-22 |      | verify/rework SQL script; low prio (Dungeon: Upper Blackrock Spire) |
+| sol@fcee2c4f | 2022-01-21 |      | verify changes; low prio (Dungeon: Blackwing Lair) |
+| sol@32a3fdac | 2022-01-21 |      | verify/rework SQL script |
 | sol@92887b15 | 2022-01-19 |      | verify/rework SQL script |
 | sol@090f9f8c | 2022-01-19 |      | verify/rework SQL script; low prio (Dungeon: Blackwing Lair) |
 | sol@c233e5af | 2022-01-19 |      | verify/rework SQL script; check the WP paths and additional spawns; low prio (minor issue) |
@@ -18,8 +25,8 @@ TODOs:
 | sol@f5419a45 | 2022-01-15 |      | verify/rework SQL script (also see sol@03a72cfc); check the WP paths; verify creature IDs (use "creature\_id\_chance"); low prio (minor issue) |
 | sol@c6934b06 | 2022-01-14 |      | verify/rework SQL script (also see sol@03a72cfc); low prio (Dungeon: Lower Blackrock Spire) |
 | sol@7de3c2df | 2022-01-14 |      | verify changes; compare with TC; low prio (Event: Feast of Winter Veil) |
-| sol@d65101f8 | 2022-01-14 |      | verify/rework SQL script; verify loot; compare with TC |
-| sol@ba633544 | 2022-01-13 |      | wrong, won't take over: has to be checked in "CanRewardQuest" |
+| sol@d65101f8 | 2022-01-14 | X    | verify/rework SQL script; verify loot; compare with TC; done: sol@5e64c186 |
+| sol@ba633544 | 2022-01-13 | X    | wrong, won't take over: has to be checked in "CanRewardQuest"; done: sol@e677729d |
 | sol@4c695c76 | 2022-01-13 |      | verify/rework SQL script; check the WP paths; low prio (minor issue) |
 | sol@df4b6215 | 2022-01-13 |      | take over if needed |
 | sol@1b5baa45 | 2022-01-12 |      | take over if needed |
@@ -212,9 +219,9 @@ TODOs:
 | sol@cb07d1fc | 2021-11-07 |      | verify changes; low prio (Dungeon: Upper Blackrock Spire) |
 | sol@430fa147 | 2021-11-07 |      | take over if needed |
 | sol@e547f5c2 | 2021-11-07 |      | verify changes; low prio (Dungeon: Lower Blackrock Spire) |
-| sol@0958f2f1 | 2021-11-06 |      | verify/rework SQL script; won't take over the changes concerning react state 3 as this was only a workaround used by TC |
+| sol@0958f2f1 | 2021-11-06 | X    | verify/rework SQL script; won't take over the changes concerning react state 3 as this was only a workaround used by TC; done: sol@b4b95c0e |
 | sol@93bbff4c | 2021-11-06 | X    | verify changes; update: won't take over, should always be handled via SAI |
-| sol@926e18cf | 2021-11-06 |      | verify/rework SQL script; also check movement of the creatures |
+| sol@926e18cf | 2021-11-06 | X    | verify/rework SQL script; also check movement of the creatures; done: sol@cab6580b |
 | sol@477de5dc | 2021-11-06 |      | verify changes; low prio (Dungeon: Upper Blackrock Spire) |
 | sol@52362231 | 2021-11-06 | X    | verify/rework SQL script / core script (also see sol@bd2193f7, sol@6c3e54b8, sol@92d64639, sol@5b166b1e, sol@5a98712e, sol@c70cc855, sol@21a59683, sol@3412c3e2, sol@1df8a47e, sol@1a75b3ef); done: sol@954fde10 |
 | sol@6deaa132 | 2021-11-05 | X    | verify/rework SQL script; done: sol@46534d25 |

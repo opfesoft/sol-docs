@@ -27,8 +27,7 @@ Chance to roll this creature GUID. Has to be greater than 0 and less than or equ
 ### Additional notes
 
 - This is meant to apply the creature ID of a single rare mob to a bunch of creature GUIDs.
-- This will override any GUIDs specified in [creature\_id\_chance](creature_id_chance.md).
 - Don't mix creature GUIDs from instanced with non-instanced maps or multiple instanced maps, this will not work correctly.
 - It is possible to mix GUIDs from multiple non-instanced maps.
 - The creature ID is applied before the creature is created and will also override ZoneScript::GetCreatureEntry (take care if using this for instanced maps).
-- Concerning instanced maps the creature ID is only applied once during creation of the instance, not on respawn.
+- Concerning instanced maps the creature ID is only applied once during creation of the instance, not on respawn. This will also override any GUIDs specified in [creature\_id\_chance](creature_id_chance.md).
