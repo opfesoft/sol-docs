@@ -2,6 +2,10 @@ TODOs:
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@7857b830 | 2022-01-25 |      | verify/rework SQL script; low prio (Dungeon: Molten Core) |
+| sol@902f33a6 | 2022-01-24 |      | won't take over, find another solution instead (probably via spell script); low prio (minor issue) |
+| sol@75fc2d1b | 2022-01-24 |      | take over if needed |
+| sol@95a867d4 | 2022-01-24 |      | verify/rework SQL script; check the WP paths and additional spawns; low prio (minor issue) |
 | sol@ac0129a0 | 2022-01-23 |      | verify changes; low prio (minor issue) |
 | sol@3fa222e7 | 2022-01-22 |      | verify/rework SQL script; check the WP paths; low prio (minor issue) |
 | sol@ce5fc6eb | 2022-01-22 |      | verify changes; low prio (Dungeon: Stratholme) |
@@ -176,7 +180,7 @@ TODOs:
 | sol@a220b54a | 2021-11-25 |      | verify/rework SQL script |
 | sol@647c9160 | 2021-11-21 |      | take over if needed |
 | sol@2eb42288 | 2021-11-21 |      | verify changes; low prio (Dungeon: Molten Core) |
-| sol@7c19c964 | 2021-11-21 |      | verify changes (also see sol@d25992da, sol@f56953f9, sol@0e29319d, sol@2eac8fd6); low prio (Dungeon: Molten Core) |
+| sol@7c19c964 | 2021-11-21 |      | verify changes (also see sol@d25992da, sol@f56953f9, sol@0e29319d, sol@2eac8fd6, sol@5fc76c8c); low prio (Dungeon: Molten Core) |
 | sol@edf7b543 | 2021-11-21 |      | verify changes (also see sol@910ebc22, sol@4982c4ee, sol@8ae8db52, sol@e2a32bb7, sol@9c4f1035, sol@19954304); low prio (Dungeon: Molten Core) |
 | sol@dc9c3a5f | 2021-11-21 |      | take over if needed |
 | sol@4099c380 | 2021-11-21 |      | verify changes; low prio (Dungeon: Molten Core) |
@@ -197,7 +201,7 @@ TODOs:
 | sol@2da37697 | 2021-11-16 |      | verify/rework SQL script |
 | sol@70fbaefa | 2021-11-15 | X    | wrong, the movement generators are working correctly: the spell is not interruptible by movement and is actually meant to be used as flavor if OOC, not as combat spell; fix SAI instead; done: sol@9e8bed32, sol@79fb5b4d |
 | sol@faf0c0fd | 2021-11-15 |      | verify/rework SQL script; low prio (Dungeon: Lower Blackrock Spire) |
-| sol@3b89a7e0 | 2021-11-14 |      | verify/rework SQL script / core script |
+| sol@3b89a7e0 | 2021-11-14 | X    | verify/rework SQL script / core script; implemented another solution: sol@2e67fc8e, sol@8579a4fe |
 | sol@9ea9bb02 | 2021-11-14 |      | also fix SAI (see TC version); low prio (Dungeon: Upper Blackrock Spire) |
 | sol@9000a930 | 2021-11-13 |      | verify changes; low prio (Dungeon: Upper Blackrock Spire) |
 | sol@260b9272 | 2021-11-12 |      | won't take over; set UNIT\_FLAG2\_DISABLE\_TURN for the barrels; low prio (Event: Pilgrim's Bounty) |
@@ -213,7 +217,7 @@ TODOs:
 | sol@6dab5a32 | 2021-11-09 |      | verify changes; low prio (Dungeon: Lower Blackrock Spire) |
 | sol@f090d23d | 2021-11-09 |      | verify changes; low prio (Dungeon: Upper Blackrock Spire) |
 | sol@6a7fcca7 | 2021-11-08 |      | verify/rework SQL script; low prio (Event: Hallow's End) |
-| sol@b2a4360d | 2021-11-08 |      | verify/rework SQL script |
+| sol@b2a4360d | 2021-11-08 | X    | verify/rework SQL script; done: sol@bb182757 |
 | sol@32c28b62 | 2021-11-08 | X    | verify loot; compare with TC; done: sol@1ce8f243 |
 | sol@85fe4ace | 2021-11-07 |      | verify/rework SQL script; low prio (Event: Hallow's End) |
 | sol@cb07d1fc | 2021-11-07 |      | verify changes; low prio (Dungeon: Upper Blackrock Spire) |

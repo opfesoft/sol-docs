@@ -1547,13 +1547,15 @@ This is the probability of the event to occur as a percentage from 0-100. So, if
 <td><p>SoundId</p></td>
 <td><p>onlySelf (1: only sends the sound to targeted players, 0: sends the sound to everyone in visibility range of the target)</p></td>
 <td><p>distance (1: the sound fades with increasing distance to the target, 0: the sound is played at full volume no matter the distance)</p></td>
+<td><p>type</p></td>
 <td><p><br />
 </p></td>
 <td><p><br />
 </p></td>
-<td><p><br />
-</p></td>
-<td><p>Play Sound</p></td>
+<td><p>Play Sound. Type can be one of these values:<br />
+0: Play sound for the specified target(s)<br />
+1: Play sound for all players in the entire zone<br />
+2: Play sound for all players in the area</p></td>
 </tr>
 <tr>
 <td><p>SMART_ACTION_PLAY_EMOTE</p></td>
