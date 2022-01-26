@@ -357,7 +357,9 @@ The orientation of the creatures spawn point. (North = 0.0; South = pi (3.14159)
 
 The respawn time, in seconds, of the creature.
 
-### wander_distance
+Using a negative value will result in the creature starting out by being dead until a script will respawn it.
+
+### wander\_distance
 
 The maximum distance that the creature may wander from its spawn point. If greater than 0 its [MovementType](#movementtype) has to be 1.
 

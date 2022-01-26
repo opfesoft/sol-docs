@@ -196,9 +196,9 @@ TODOs:
 | sol@1aef7372 | 2021-11-19 | X    | use UPDATE instead of DELETE/INSERT; adjust loot chances; update: only removed "QuestRequired", see sol@e663f764 |
 | sol@8a570f48 | 2021-11-19 |      | verify changes; low prio (Dungeon: Scholomance) |
 | sol@00dc369c | 2021-11-18 |      | verify changes; low prio (Dungeon: Upper Blackrock Spire) |
-| sol@e8fb51ee | 2021-11-18 |      | verify/rework SQL script (also see bugfix sol@03c470d8) |
+| sol@e8fb51ee | 2021-11-18 | X    | verify/rework SQL script (also see bugfix sol@03c470d8); done: sol@3590cfed |
 | sol@6a2d817d | 2021-11-16 |      | verify changes; low prio (Dungeon: Zul'Gurub) |
-| sol@2da37697 | 2021-11-16 |      | verify/rework SQL script |
+| sol@2da37697 | 2021-11-16 | X    | verify/rework SQL script; done: sol@e42dd848 |
 | sol@70fbaefa | 2021-11-15 | X    | wrong, the movement generators are working correctly: the spell is not interruptible by movement and is actually meant to be used as flavor if OOC, not as combat spell; fix SAI instead; done: sol@9e8bed32, sol@79fb5b4d |
 | sol@faf0c0fd | 2021-11-15 |      | verify/rework SQL script; low prio (Dungeon: Lower Blackrock Spire) |
 | sol@3b89a7e0 | 2021-11-14 | X    | verify/rework SQL script / core script; implemented another solution: sol@2e67fc8e, sol@8579a4fe |
