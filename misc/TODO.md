@@ -2,6 +2,27 @@ TODOs:
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@8f8fbd95 | 2022-01-31 |      | won't take over, use SPELL\_GROUP\_SPECIAL\_FLAG\_FORCED\_STRONGEST instead |
+| sol@61cb63e9 | 2022-01-30 |      | verify/rework SQL script; check random movement & WP paths; low prio (minor issue) |
+| sol@d9e1cf40 | 2022-01-30 |      | take over if needed |
+| sol@5577ea3f | 2022-01-30 |      | take over if needed |
+| sol@9036e3b9 | 2022-01-29 |      | verify/rework SQL script |
+| sol@ebda2973 | 2022-01-29 |      | take over if needed |
+| sol@1ec6ea1c | 2022-01-29 |      | take over if needed |
+| sol@1bbaeed6 | 2022-01-29 |      | verify/rework SQL script |
+| sol@9fadfa64 | 2022-01-28 |      | take over if needed |
+| sol@b468d1ae | 2022-01-28 |      | verify/rework SQL script; verify loot; compare with TC |
+| sol@fbb50210 | 2022-01-28 |      | take over if needed |
+| sol@674b168a | 2022-01-28 |      | completely wrong, won't take over: pausing the thread causes delays for all objects (players, creatures etc.) updated by the current thread; find another solution; low prio (minor issue); update: reverted by AC commit sol@8f249a3d |
+| sol@b085ee61 | 2022-01-28 |      | completely wrong, won't take over: pausing the thread causes delays for all objects (players, creatures etc.) updated by the current thread; find another solution; low prio (minor issue); update: reverted by AC commit sol@8f249a3d |
+| sol@82076755 | 2022-01-28 |      | Omen should not regenerate health but despawn if it takes too long to take him down; fix creature script; low prio (Event: Lunar Festival) |
+| sol@7abc3bb0 | 2022-01-28 |      | verify/rework SQL script; verify loot; compare with TC |
+| sol@79d4efd1 | 2022-01-27 |      | won't take over, create a proper creature formation and WP path |
+| sol@fa9c2ed2 | 2022-01-27 |      | won't take over, just check the random movement in the area; low prio (minor issue) |
+| sol@5a4dad8e | 2022-01-27 |      | won't take over, just check the random movement in the area; low prio (minor issue) |
+| sol@3e552df7 | 2022-01-27 |      | verify changes; low prio (Dungeon: Maraudon) |
+| sol@1ddf5d8d | 2022-01-27 |      | verify changes; low prio (Dungeon: Molten Core) |
+| sol@01ea7e7a | 2022-01-26 |      | won't take over, add a creature pool instead |
 | sol@7857b830 | 2022-01-25 |      | verify/rework SQL script; low prio (Dungeon: Molten Core) |
 | sol@902f33a6 | 2022-01-24 |      | won't take over, find another solution instead (probably via spell script); low prio (minor issue) |
 | sol@75fc2d1b | 2022-01-24 |      | take over if needed |
@@ -54,14 +75,14 @@ TODOs:
 | sol@c377c62c | 2022-01-06 |      | take over if needed (updating the SAI is not needed because the spell uses implicit target via conditions) |
 | sol@89aa2a00 | 2022-01-06 |      | verify/rework SQL script |
 | sol@5aad087d | 2022-01-06 |      | just update the z position |
-| sol@890f6ad7 | 2022-01-06 |      | verify/rework SQL script; won't take over the updated spawn points; won't delete the creatures (no reason to do this), just check the WP paths and the GO spawn; low prio (minor issue) |
+| sol@890f6ad7 | 2022-01-06 |      | verify/rework SQL script; won't take over the updated spawn points; won't delete the creatures (no reason to do this, probably create a pool), just check the WP paths and the GO spawn; low prio (minor issue) |
 | sol@0dae1579 | 2022-01-06 |      | verify/rework SQL script |
 | sol@88c75d56 | 2022-01-05 |      | verify/rework SQL script; won't take over the updated spawn points, just check the WP paths; low prio (minor issue) |
 | sol@6f98d327 | 2022-01-05 |      | verify/rework SQL script; use SAI instead of creature script (also see sol@7354b14f); low prio (minor issue, actually not needed at all) |
 | sol@2bc373b4 | 2022-01-05 |      | take over if needed |
 | sol@86f1b87f | 2022-01-05 |      | take over if needed (also see sol@911e8b4d) |
-| sol@11debfe6 | 2022-01-04 |      | verify/rework SQL script; won't take over the updated spawn points; won't delete the creatures (no reason to do this), just check the WP paths; low prio (minor issue) |
-| sol@6561e9d2 | 2022-01-04 | X    | verify/rework SQL script; won't take over the updated spawn points; won't delete the creatures (no reason to do this), just check the WP paths; low prio (minor issue); update: won't take over any of this stuff, especially replacing random movement with 2-point paths is just awful (once again, don't care about sniffs) |
+| sol@11debfe6 | 2022-01-04 |      | verify/rework SQL script; won't take over the updated spawn points; won't delete the creatures (no reason to do this, probably create a pool), just check the WP paths; low prio (minor issue) |
+| sol@6561e9d2 | 2022-01-04 | X    | verify/rework SQL script; won't take over the updated spawn points; won't delete the creatures (no reason to do this, probably create a pool), just check the WP paths; low prio (minor issue); update: won't take over any of this stuff, especially replacing random movement with 2-point paths is just awful (once again, don't care about sniffs) |
 | sol@8fd757a1 | 2022-01-04 |      | take over if needed |
 | sol@9faec8ef | 2022-01-04 |      | take over if needed |
 | sol@3247bfe9 | 2022-01-03 |      | verify/rework SQL script |
@@ -73,14 +94,14 @@ TODOs:
 | sol@67f86884 | 2022-01-03 | X    | use UPDATE instead of DELETE/INSERT; done: sol@91a80396 |
 | sol@2f7ccbe9 | 2022-01-03 |      | verify/rework SQL script; check the WP paths; low prio (minor issue) |
 | sol@91108f2f | 2022-01-03 |      | verify/rework SQL script; check the WP paths; low prio (minor issue) |
-| sol@c650cda4 | 2022-01-03 |      | verify/rework SQL script; won't delete the creatures (no reason to do this), just check the WP paths; low prio (minor issue) |
+| sol@c650cda4 | 2022-01-03 |      | verify/rework SQL script; won't delete the creatures (no reason to do this, probably create a pool), just check the WP paths; low prio (minor issue) |
 | sol@70743d4c | 2022-01-03 |      | verify/rework SQL script; check the WP paths; low prio (minor issue) |
 | sol@f03b87f7 | 2022-01-03 |      | verify/rework SQL script; won't take over the updated spawn points, just check the WP paths; use SAI instead of CreatureScript; low prio (minor issue) |
 | sol@e2b81754 | 2022-01-03 |      | verify/rework SQL script; check the WP paths; low prio (minor issue) |
 | sol@a8d93ad8 | 2022-01-03 |      | verify/rework SQL script; check the WP paths; auras seem to be wrong, won't take over; low prio (minor issue) |
 | sol@002e62d6 | 2022-01-03 |      | take over if needed |
 | sol@3925118d | 2022-01-03 |      | keep as reference; take over single values if needed; won't blindly take over such mass updates |
-| sol@1ef12abc | 2022-01-03 |      | verify/rework SQL script; won't delete the creatures (no reason to do this), just check the WP paths (note: this update is not imported into the AC DB because sql\_rev 1640126290282588522 already exists); low prio (minor issue) |
+| sol@1ef12abc | 2022-01-03 |      | verify/rework SQL script; won't delete the creatures (no reason to do this, probably create a pool), just check the WP paths (note: this update is not imported into the AC DB because sql\_rev 1640126290282588522 already exists); low prio (minor issue) |
 | sol@8a5b9634 | 2022-01-03 |      | take over if needed |
 | sol@8216318f | 2022-01-01 |      | won't take over, fix linked\_respawn instead; low prio (Dungeon: Molten Core) |
 | sol@a0c49591 | 2021-12-31 | X    | take over from TC instead; update: won't take over, the quest should be disabled: sol@410d1fce |
@@ -126,7 +147,7 @@ TODOs:
 | sol@5c8acadf | 2021-12-14 |      | take over if needed |
 | sol@31a4cd14 | 2021-12-13 |      | verify/rework SQL script (also see sol@702accbf) |
 | sol@0a0013aa | 2021-12-13 |      | take over if needed |
-| sol@2b86d4ba | 2021-12-13 |      | verify/rework SQL script; update: won't delete the creatures (no reason to do this), just check the added creatures/gameobjects and the WP paths; low prio (minor issue) |
+| sol@2b86d4ba | 2021-12-13 |      | verify/rework SQL script; update: won't delete the creatures (no reason to do this, probably create a pool), just check the added creatures/gameobjects and the WP paths; low prio (minor issue) |
 | sol@8c8ac2be | 2021-12-12 |      | verify loot; compare with TC |
 | sol@b1303e0e | 2021-12-12 |      | verify changes; low prio (minor issue) |
 | sol@4e93671b | 2021-12-12 |      | verify changes; low prio (minor issue) |

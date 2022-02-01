@@ -14,7 +14,7 @@ Side note: Because SmartAI is derived from CreatureAI both use the same movement
 
 - ```.wp add``` [waypoint_data.id](../db/world/waypoint_data.md#id): Add a new point for the specified path id. It is recommended to use creature GUID * 10 or GUID * 100 as path id, but it can be any random number.
 - ```.wp reload``` [waypoint_data.id](../db/world/waypoint_data.md#id): Reload the specified path id (for new paths has to be executed before ```.wp load```).
-- ```.wp load``` [waypoint_data.id](../db/world/waypoint_data.md#id): Load the specified path id for the selected creature.
+- ```.wp load``` [waypoint_data.id](../db/world/waypoint_data.md#id): Load the specified path id for the selected creature and start WP movement.
 - ```.wp unload```: Unload the path of the selected creature.
 - ```.wp show on``` [waypoint_data.id](../db/world/waypoint_data.md#id): Show all waypoints of the specified path (GM on is required to actually see them). If no path id is specified shows the waypoints of the selected creature.
 - ```.wp show off```: Hide all visual waypoints.
@@ -25,7 +25,8 @@ Side note: Because SmartAI is derived from CreatureAI both use the same movement
   - ```delay```: Change the [delay](../db/world/waypoint_data.md#delay) of the selected waypoint.
   - ```action```: Change the [action](../db/world/scripts.md#id) of the selected waypoint.
   - ```action_chance```: Change the [action_chance](../db/world/waypoint_data.md#action_chance) of the selected waypoint.
-  - ```move_type```: Change the [move_type](../db/world/waypoint_data.md#move_type) of the selected waypoint (0: walk, 1: run, 2: fly).
+  - ```move_type```: Change the [move_type](../db/world/waypoint_data.md#move_type) of the selected waypoint (0: walk, 1: run, 2: land, 3: take-off).
+  - ```pathfinding```: Change the [pathfinding](waypoint_data.md#pathfinding) to reach the selected waypoint (0: formation members only (default), 1: patrolling creature only, 2: none, 3: formation members and patrolling creature).
   - ```orientation```: Change the [orientation](../db/world/waypoint_data.md#orientation) of the selected waypoint. If "player" is specified as value the current orientation of the player is used instead.
 - ```.wp event```: Modify the waypoint [actions](../db/world/scripts.md#id), options:
   - ```add``` [guid](../db/world/scripts.md#guid): Add a new action with the specified GUID (not to be confused with the creature GUID!). If no GUID is specified a new one is generated automatically.

@@ -1671,7 +1671,7 @@ This is the probability of the event to occur as a percentage from 0-100. So, if
 <td><p>attackScriptOwner (0/1)</p></td>
 <td><p><br />
 </p></td>
-<td><p>Summon Unit; attackInvoker 1: attack target; attackInvoker 2: attack actual invoker; if an entity is specified as target and also coordinates are set (target x,y,z) those coordinates are handled as offset from the target's position</p></td>
+<td><p>Summon Unit; attackInvoker 1: attack target; attackInvoker 2: attack actual invoker; if an entity is specified as target and also coordinates are set (target x,y,z) those coordinates are handled as offset from the target's position (the z offset is set to terrain height if not specified)</p></td>
 </tr>
 <tr>
 <td><p>SMART_ACTION_THREAT_SINGLE_PCT</p></td>
@@ -3797,6 +3797,36 @@ If the start position distance is far away the circle movement speed will be dec
 </p></td>
 <td><p><br />
 </p></td>
+</tr>
+<tr>
+<td><p>SMART_ACTION_CREATURE_FORMATION</p></td>
+<td><p>237</p></td>
+<td><p>[creature_formations.groupAI](creature_formations.md#groupai)</p></td>
+<td><p>leave formation (0/1)</p></td>
+<td><p><br />
+</p></td>
+<td><p><br />
+</p></td>
+<td><p><br />
+</p></td>
+<td><p><br />
+</p></td>
+<td><p>Add the creature to the target's [creature formation](creature_formations.md). If the creature formation does not exist, create a new one with the target as leader. If multiple targets are specified, only the first one is picked. Use target z as distance and target o as angle. The default movement type is set to "idle", keep this in mind if leaving the formation.</p></td>
+</tr>
+<tr>
+<td><p>SMART_ACTION_LOAD_WP_PATH</p></td>
+<td><p>238</p></td>
+<td><p>[waypoint_data.id](waypoint_data.md#id)</p></td>
+<td><p>unload path (0/1)</p></td>
+<td><p><br />
+</p></td>
+<td><p><br />
+</p></td>
+<td><p><br />
+</p></td>
+<td><p><br />
+</p></td>
+<td><p>Start WP movement using [waypoint_data](waypoint_data.md) which is better suited for formations than SMART_ACTION_FOLLOW. The default movement type is set to "idle", keep this in mind if unloading the path.</p></td>
 </tr>
 </tbody>
 </table>

@@ -14,6 +14,7 @@ This table contains all the path data for creatures that use waypoints and waypo
 | [orientation](#orientation)      | float        |              |     | NO   | 0       |
 | [delay](#delay)                  | int(10)      | unsigned     |     | NO   | 0       |
 | [move\_type](#move_type)         | int(11)      |              |     | NO   | 0       |
+| [pathfinding](#pathfinding)      | tinyint(3)   | unsigned     |     | NO   | 0       |
 | [action](#action)                | int(11)      |              |     | NO   | 0       |
 | [action\_chance](#action_chance) | smallint(6)  |              |     | NO   | 100     |
 | [wpguid](#wpguid)                | int(11)      | unsigned     |     | NO   | 0       |
@@ -63,6 +64,17 @@ Time to wait (in ms) between each point.
 | Land     | 2   |
 | Take-Off | 3   |
 
+### pathfinding
+
+Specifies if pathfinding should be used to reach the destination waypoint.
+
+| Value       | Comment                                                                               |
+|-------------|---------------------------------------------------------------------------------------|
+| 0 (default) | Use pathfinding for formation members only                                            |
+| 1           | Use pathfinding to reach the destination waypoint only, not for the formation members |
+| 2           | Do not use pathfinding at all                                                         |
+| 3           | Use pathfinding to reach the destination waypoint and for the formation members       |
+
 ### action
 
 ID of the action to be performed. See [waypoint\_scripts.id](waypoint_scripts.md).
@@ -84,3 +96,9 @@ This field holds the GUID of the waypoint visual when you enable the visual mode
 | 20160 | 1     | -4998       | -1167       | 501657      | 0           | 10000 | 0          | 0      | 100            | 0      |
 | 20160 | 2     | -4958.38    | -1199.34    | 501659      | 0           | 0     | 0          | 0      | 100            | 0      |
 
+### Additional notes
+
+- By default the movement does not use pathfinding to move from one waypoint to another (see [pathfinding](#pathfinding) above)
+- The decision to not use pathfinding by default was made for the following reasons:
+  - Using a precalculated path increases performance (no need to calculate additional points between two waypoints).
+  - The path creator can control exactly where the creature moves and guide it around obstacles in another way than automatic pathfinding does.

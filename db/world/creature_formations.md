@@ -83,11 +83,11 @@ This table allows to group mobs. Members of group will follow others, and attack
 
 ### leaderGUID
 
-GUID of group leader
+[GUID](creature.md#guid) of group leader
 
 ### memberGUID
 
-GUID of group member
+[GUID](creature.md#guid) of group member
 
 ### dist
 
@@ -122,3 +122,7 @@ Sets group member behaviours, values are:
 | >1    | Group members will assist all group members                      |
 | 5     | Group members won't follow the leader                            |
 
+### Additional notes
+
+- Formations are currently only moved via random and waypoint movement generators (see table "[waypoint\_data](waypoint_data.md)" for the latter).
+- By default the formation members use pathfinding to reach the next point, this can be disabled for waypoint movement using [waypoint\_data.pathfinding](waypoint_data.md#pathfinding).
