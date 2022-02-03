@@ -26,7 +26,7 @@ Side note: Because SmartAI is derived from CreatureAI both use the same movement
   - ```action```: Change the [action](../db/world/scripts.md#id) of the selected waypoint.
   - ```action_chance```: Change the [action_chance](../db/world/waypoint_data.md#action_chance) of the selected waypoint.
   - ```move_type```: Change the [move_type](../db/world/waypoint_data.md#move_type) of the selected waypoint (0: walk, 1: run, 2: land, 3: take-off).
-  - ```pathfinding```: Change the [pathfinding](waypoint_data.md#pathfinding) to reach the selected waypoint (0: formation members only (default), 1: patrolling creature only, 2: none, 3: formation members and patrolling creature).
+  - ```pathfinding```: Change the [pathfinding](../db/world/waypoint_data.md#pathfinding) to reach the selected waypoint (0: formation members only (default), 1: patrolling creature only, 2: none, 3: formation members and patrolling creature).
   - ```orientation```: Change the [orientation](../db/world/waypoint_data.md#orientation) of the selected waypoint. If "player" is specified as value the current orientation of the player is used instead.
 - ```.wp event```: Modify the waypoint [actions](../db/world/scripts.md#id), options:
   - ```add``` [guid](../db/world/scripts.md#guid): Add a new action with the specified GUID (not to be confused with the creature GUID!). If no GUID is specified a new one is generated automatically.

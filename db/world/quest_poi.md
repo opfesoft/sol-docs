@@ -137,11 +137,11 @@ if -1 than position of npc where you can complete quest
 
 ### MapID
 
-The Map id from [Map.dbc](../../dbc/Map.md)
+The Map id from [Map.dbc](../../dbc/Map.md).
 
 ### WorldMapAreaId
 
-The ID from WorldMapArea.dbc.
+The ID from [WorldMapArea.dbc](../../dbc/WorldMapArea.md).
 
 ### Floor
 

@@ -2,7 +2,7 @@ TODOs:
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
-| sol@8f8fbd95 | 2022-01-31 |      | won't take over, use SPELL\_GROUP\_SPECIAL\_FLAG\_FORCED\_STRONGEST instead |
+| sol@8f8fbd95 | 2022-01-31 |      | won't take over, use SPELL\_GROUP\_SPECIAL\_FLAG\_FORCED\_STRONGEST instead; done: sol@23e233c8 |
 | sol@61cb63e9 | 2022-01-30 |      | verify/rework SQL script; check random movement & WP paths; low prio (minor issue) |
 | sol@d9e1cf40 | 2022-01-30 |      | take over if needed |
 | sol@5577ea3f | 2022-01-30 |      | take over if needed |
@@ -22,7 +22,7 @@ TODOs:
 | sol@5a4dad8e | 2022-01-27 |      | won't take over, just check the random movement in the area; low prio (minor issue) |
 | sol@3e552df7 | 2022-01-27 |      | verify changes; low prio (Dungeon: Maraudon) |
 | sol@1ddf5d8d | 2022-01-27 |      | verify changes; low prio (Dungeon: Molten Core) |
-| sol@01ea7e7a | 2022-01-26 |      | won't take over, add a creature pool instead |
+| sol@01ea7e7a | 2022-01-26 | X    | won't take over, add a creature pool instead; done: sol@ebba8bf9 |
 | sol@7857b830 | 2022-01-25 |      | verify/rework SQL script; low prio (Dungeon: Molten Core) |
 | sol@902f33a6 | 2022-01-24 |      | won't take over, find another solution instead (probably via spell script); low prio (minor issue) |
 | sol@75fc2d1b | 2022-01-24 |      | take over if needed |
@@ -205,12 +205,12 @@ TODOs:
 | sol@edf7b543 | 2021-11-21 |      | verify changes (also see sol@910ebc22, sol@4982c4ee, sol@8ae8db52, sol@e2a32bb7, sol@9c4f1035, sol@19954304); low prio (Dungeon: Molten Core) |
 | sol@dc9c3a5f | 2021-11-21 |      | take over if needed |
 | sol@4099c380 | 2021-11-21 |      | verify changes; low prio (Dungeon: Molten Core) |
-| sol@8364bdb6 | 2021-11-21 |      | verify/rework SQL script; also fix POI for quest "Deeprun Rat Roundup" |
-| sol@a9176355 | 2021-11-21 |      | won't take over; improve/rework existing SAI (also check WP path) |
-| sol@af4b472e | 2021-11-21 |      | won't take over, improve existing SAI instead (replace SMART\_EVENT\_HEALTH\_PCT with SMART\_EVENT\_FRIENDLY\_HEALTH\_PCT) |
+| sol@8364bdb6 | 2021-11-21 | X    | verify/rework SQL script; also fix POI for quest "Deeprun Rat Roundup"; done: sol@280c6447 |
+| sol@a9176355 | 2021-11-21 | X    | won't take over; improve/rework existing SAI (also check WP path); done: sol@799b6379 |
+| sol@af4b472e | 2021-11-21 | X    | won't take over, improve existing SAI instead (replace SMART\_EVENT\_HEALTH\_PCT with SMART\_EVENT\_FRIENDLY\_HEALTH\_PCT); done: sol@a7f20cb6 |
 | sol@92b3617f | 2021-11-21 |      | verify changes; low prio (Event: Brewfest) |
-| sol@faa4035d | 2021-11-21 |      | take over if needed; could cause side effects |
-| sol@f9021aa1 | 2021-11-21 |      | verify/rework SQL script |
+| sol@faa4035d | 2021-11-21 | X    | take over if needed; could cause side effects; update: not needed, was reverted by AC commit sol@dfa28e4f |
+| sol@f9021aa1 | 2021-11-21 | X    | verify/rework SQL script; done: sol@23da4fd4 |
 | sol@518d5d0e | 2021-11-21 | X    | verify/rework SQL script; implemented another solution: sol@153868d9 |
 | sol@67d5452c | 2021-11-20 |      | take over if needed |
 | sol@0f7091c7 | 2021-11-20 |      | verify changes; adapt to Sol; low prio (minor issue) |
