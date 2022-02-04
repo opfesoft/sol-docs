@@ -1206,10 +1206,8 @@ This is the probability of the event to occur as a percentage from 0-100. So, if
 <td><p>InitialMax</p></td>
 <td><p>RepeatMin</p></td>
 <td><p>RepeatMax</p></td>
-<td><p><br />
-</p></td>
-<td><p><br />
-</p></td>
+<td><p>spawnedGOonly (0/1)</p></td>
+<td><p>If "spawnedGOonly" is set and the script owner is a gameobject the event is only triggered if the GO is currently spawned.</p></td>
 </tr>
 <tr>
 <td><p>SMART_EVENT_LINK</p></td>
@@ -3827,6 +3825,22 @@ If the start position distance is far away the circle movement speed will be dec
 <td><p><br />
 </p></td>
 <td><p>Start WP movement using [waypoint_data](waypoint_data.md) which is better suited for formations than SMART_ACTION_FOLLOW. The default movement type is set to "idle", keep this in mind if unloading the path.</p></td>
+</tr>
+<tr>
+<td><p>SMART_ACTION_STOP_WP_PATH</p></td>
+<td><p>239</p></td>
+<td><p>duration in ms</p></td>
+<td><p><br />
+</p></td>
+<td><p><br />
+</p></td>
+<td><p><br />
+</p></td>
+<td><p><br />
+</p></td>
+<td><p><br />
+</p></td>
+<td><p>Stop WP movement using [waypoint_data](waypoint_data.md) for the specified duration.</p></td>
 </tr>
 </tbody>
 </table>

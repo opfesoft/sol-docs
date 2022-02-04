@@ -2,7 +2,10 @@ TODOs:
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
-| sol@8f8fbd95 | 2022-01-31 |      | won't take over, use SPELL\_GROUP\_SPECIAL\_FLAG\_FORCED\_STRONGEST instead; done: sol@23e233c8 |
+| sol@6c17f872 | 2022-02-03 |      | duplicate quest IDs, verify quests |
+| sol@3d3fd352 | 2022-02-03 |      | verify/rework SQL script |
+| sol@26267e0c | 2022-02-03 |      | verify/rework SQL script |
+| sol@8f8fbd95 | 2022-01-31 | X    | won't take over, use SPELL\_GROUP\_SPECIAL\_FLAG\_FORCED\_STRONGEST instead; done: sol@23e233c8 |
 | sol@61cb63e9 | 2022-01-30 |      | verify/rework SQL script; check random movement & WP paths; low prio (minor issue) |
 | sol@d9e1cf40 | 2022-01-30 |      | take over if needed |
 | sol@5577ea3f | 2022-01-30 |      | take over if needed |
@@ -201,7 +204,7 @@ TODOs:
 | sol@a220b54a | 2021-11-25 |      | verify/rework SQL script |
 | sol@647c9160 | 2021-11-21 |      | take over if needed |
 | sol@2eb42288 | 2021-11-21 |      | verify changes; low prio (Dungeon: Molten Core) |
-| sol@7c19c964 | 2021-11-21 |      | verify changes (also see sol@d25992da, sol@f56953f9, sol@0e29319d, sol@2eac8fd6, sol@5fc76c8c); low prio (Dungeon: Molten Core) |
+| sol@7c19c964 | 2021-11-21 |      | verify changes (also see sol@d25992da, sol@f56953f9, sol@0e29319d, sol@2eac8fd6, sol@5fc76c8c, sol@40d233a9); low prio (Dungeon: Molten Core) |
 | sol@edf7b543 | 2021-11-21 |      | verify changes (also see sol@910ebc22, sol@4982c4ee, sol@8ae8db52, sol@e2a32bb7, sol@9c4f1035, sol@19954304); low prio (Dungeon: Molten Core) |
 | sol@dc9c3a5f | 2021-11-21 |      | take over if needed |
 | sol@4099c380 | 2021-11-21 |      | verify changes; low prio (Dungeon: Molten Core) |
@@ -422,7 +425,7 @@ TODOs:
 | sol@f6f18cb5 | 2021-09-17 | X    | verify changes; update: wrong, won't take over: according to the 2.0.3 patch notes the combo points should not reset until a combo point is applied to a different target; it does not seem that this has been changed until 3.3.5 |
 | sol@6632c4bd | 2021-09-17 |      | verify changes; low prio (Dungeon: Blackwing Lair) |
 | sol@5a92947e | 2021-09-16 |      | verify changes; probably not necessary as the pet issue is already fixed, see sol@c4c1acee; low prio (Dungeon: Uldaman) |
-| sol@cb790b0d | 2021-09-16 |      | verify changes; low prio (Dungeon: Trial of the Crusader) |
+| sol@cb790b0d | 2021-09-16 |      | verify changes (also see sol@32ec57ee but not take over, just check the gossip of the NPCs); low prio (Dungeon: Trial of the Crusader) |
 | sol@4dc642d5 | 2021-09-16 |      | take over if needed; also see sol@d464ee70 |
 | sol@fd229f75 | 2021-09-16 |      | verify changes; low prio (Dungeon: Blackrock Depths) |
 | sol@f1e9b674 | 2021-09-16 | X    | verify/rework SQL script; done: sol@fbf5c469 |
