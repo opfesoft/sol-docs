@@ -2,7 +2,12 @@ TODOs:
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
-| sol@6c17f872 | 2022-02-03 |      | duplicate quest IDs, verify quests |
+| sol@4d4e7e68 | 2022-02-04 |      | verify/rework SQL script |
+| sol@efce657d | 2022-02-04 |      | verify changes; low prio (Dungeon: Blackwing Lair) |
+| sol@1c6660c1 | 2022-02-04 |      | verify/rework SQL script |
+| sol@1dbbed0c | 2022-02-04 |      | verify/rework SQL script |
+| sol@e85e556d | 2022-02-04 |      | take over if needed |
+| sol@6c17f872 | 2022-02-03 | X    | duplicate quest IDs, verify quests; done: sol@249c9bf8 |
 | sol@3d3fd352 | 2022-02-03 |      | verify/rework SQL script |
 | sol@26267e0c | 2022-02-03 |      | verify/rework SQL script |
 | sol@8f8fbd95 | 2022-01-31 | X    | won't take over, use SPELL\_GROUP\_SPECIAL\_FLAG\_FORCED\_STRONGEST instead; done: sol@23e233c8 |
@@ -805,7 +810,7 @@ TODOs:
 | sol@9c239d17 | 2021-02-01 |      | verify SQL script; low prio (Event: Lunar Festival) |
 | sol@c8f43d85 | 2021-02-01 |      | try to find a better solution for some of the changes if nothing else is left to do (also see bugfixes sol@e7bfbe76, sol@522eb9a7, sol@695a7402, sol@b2f6a36c, sol@1d5cc1fb ....); very low prio as it's not really needed and could cause many unexpected bugs / performance issues; the only interesting changes concerning creature movement are circling the player and going backwards if too close to the player; update: if ever implementing mob fanning use an additional field in creature\_addon to control this behaviour as not all NPCs showed this on retail; also add a config parameter to disable this entirely as it will reduce performance |
 | sol@fcad2b56 | 2021-01-31 | X    | only take over name changes for attributes which are actually used in the code; done: sol@c9bae62c |
-| sol@6ef73413 | 2021-01-31 |      | verify CreatureScript (also see sol@1a137dad, sol@8d78f4b8, sol@707685d6); low prio (Dungeon: Blackwing Lair) |
+| sol@6ef73413 | 2021-01-31 |      | verify CreatureScript (also see sol@1a137dad, sol@8d78f4b8, sol@707685d6, sol@549a1a0d); low prio (Dungeon: Blackwing Lair) |
 | sol@d60fbc8e | 2021-01-27 | X    | verify and rework SQL script; done: sol@139c9572 |
 | sol@d0c5bee5 | 2021-01-24 | X    | compare with TC version; done: sol@1eb9e027 |
 | sol@0a8a7ef1 | 2021-01-22 |      | perhaps take over if nothing else is left to do; not really needed as this was also not the case on retail at the time; low prio |
