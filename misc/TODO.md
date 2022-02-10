@@ -2,6 +2,10 @@ TODOs:
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@520f0c6a | 2022-02-10 |      | verify/rework scripts; check the WP paths; low prio (World Boss) |
+| sol@336967b3 | 2022-02-09 |      | won't take over, just fix the logic error concerning spell 28845 in Unit::HandleProcTriggerSpell |
+| sol@f6be03d2 | 2022-02-08 |      | verify/rework SQL script; low prio (Dungeon: Blackwing Lair) |
+| sol@47f70535 | 2022-02-07 |      | verify/rework SQL script; low prio (Dungeon: Blackwing Lair) |
 | sol@4d4e7e68 | 2022-02-04 |      | verify/rework SQL script |
 | sol@efce657d | 2022-02-04 |      | verify changes; low prio (Dungeon: Blackwing Lair) |
 | sol@1c6660c1 | 2022-02-04 |      | verify/rework SQL script |
@@ -192,7 +196,7 @@ TODOs:
 | sol@728aa460 | 2021-12-03 |      | verify changes, rework SAI instead; low prio (Dungeon: Stratholme) |
 | sol@5d2f4cf0 | 2021-12-03 |      | won't take over, rework CreatureScript |
 | sol@7df43c36 | 2021-12-03 |      | verify changes, rework SAI instead (also see sol@9265d346); low prio (Dungeon: Lower Blackrock Spire) |
-| sol@18f3f748 | 2021-12-03 |      | verify/rework SQL script |
+| sol@18f3f748 | 2021-12-03 |      | verify/rework SQL script; check the WP paths; low prio (minor issue) |
 | sol@4c010968 | 2021-12-02 |      | verify changes; low prio (Dungeon: Upper Blackrock Spire) |
 | sol@41437acc | 2021-12-02 |      | verify changes; low prio (Event: Brewfest) |
 | sol@d6e8697e | 2021-12-02 |      | verify changes; low prio (Dungeon: Blackfathom Deeps) |
@@ -202,15 +206,15 @@ TODOs:
 | sol@5d544f60 | 2021-11-29 |      | won't take over, does not seem to be the correct way to fix this issue; try to find another solution; low prio (minor issue) |
 | sol@2af15c84 | 2021-11-29 |      | keep as reference; take over single values if needed; won't blindly take over such mass updates |
 | sol@0b551a05 | 2021-11-29 |      | take over if needed |
-| sol@456b1a08 | 2021-11-29 |      | verify changes; low prio (Dungeon: Temple of Ahn'Qiraj) |
+| sol@456b1a08 | 2021-11-29 |      | verify changes; also fix Ouro (the creature script is not working correctly); low prio (Dungeon: Temple of Ahn'Qiraj) |
 | sol@d6679060 | 2021-11-28 |      | won't take over, rework SAI instead (see TC version of both Urok Ogre Magus & Urok Enforcer); use SMART\_EVENT\_RANGE for Arcane Bolt; low prio (Dungeon: Lower Blackrock Spire) |
 | sol@06a81758 | 2021-11-26 |      | verify changes; low prio (Dungeon: Molten Core) |
 | sol@f0776954 | 2021-11-26 |      | verify changes; low prio (Dungeon: Molten Core) |
-| sol@a220b54a | 2021-11-25 |      | verify/rework SQL script |
+| sol@a220b54a | 2021-11-25 | X    | verify/rework SQL script; update: won't take over, this was just blindly copied from TC commit 4a05a082fd671099463049552170ddbeaff6a257 without any further checks; the existing solution works well enough, just the SAI of the triggers need a few improvements: sol@fd8275a5 |
 | sol@647c9160 | 2021-11-21 |      | take over if needed |
 | sol@2eb42288 | 2021-11-21 |      | verify changes; low prio (Dungeon: Molten Core) |
 | sol@7c19c964 | 2021-11-21 |      | verify changes (also see sol@d25992da, sol@f56953f9, sol@0e29319d, sol@2eac8fd6, sol@5fc76c8c, sol@40d233a9); low prio (Dungeon: Molten Core) |
-| sol@edf7b543 | 2021-11-21 |      | verify changes (also see sol@910ebc22, sol@4982c4ee, sol@8ae8db52, sol@e2a32bb7, sol@9c4f1035, sol@19954304); low prio (Dungeon: Molten Core) |
+| sol@edf7b543 | 2021-11-21 |      | verify changes (also see sol@910ebc22, sol@4982c4ee, sol@8ae8db52, sol@e2a32bb7, sol@9c4f1035, sol@19954304, sol@87f76587); low prio (Dungeon: Molten Core) |
 | sol@dc9c3a5f | 2021-11-21 |      | take over if needed |
 | sol@4099c380 | 2021-11-21 |      | verify changes; low prio (Dungeon: Molten Core) |
 | sol@8364bdb6 | 2021-11-21 | X    | verify/rework SQL script; also fix POI for quest "Deeprun Rat Roundup"; done: sol@280c6447 |
@@ -810,7 +814,7 @@ TODOs:
 | sol@9c239d17 | 2021-02-01 |      | verify SQL script; low prio (Event: Lunar Festival) |
 | sol@c8f43d85 | 2021-02-01 |      | try to find a better solution for some of the changes if nothing else is left to do (also see bugfixes sol@e7bfbe76, sol@522eb9a7, sol@695a7402, sol@b2f6a36c, sol@1d5cc1fb ....); very low prio as it's not really needed and could cause many unexpected bugs / performance issues; the only interesting changes concerning creature movement are circling the player and going backwards if too close to the player; update: if ever implementing mob fanning use an additional field in creature\_addon to control this behaviour as not all NPCs showed this on retail; also add a config parameter to disable this entirely as it will reduce performance |
 | sol@fcad2b56 | 2021-01-31 | X    | only take over name changes for attributes which are actually used in the code; done: sol@c9bae62c |
-| sol@6ef73413 | 2021-01-31 |      | verify CreatureScript (also see sol@1a137dad, sol@8d78f4b8, sol@707685d6, sol@549a1a0d); low prio (Dungeon: Blackwing Lair) |
+| sol@6ef73413 | 2021-01-31 |      | verify CreatureScript (also see sol@1a137dad, sol@8d78f4b8, sol@707685d6, sol@549a1a0d, sol@d0336ea4); low prio (Dungeon: Blackwing Lair) |
 | sol@d60fbc8e | 2021-01-27 | X    | verify and rework SQL script; done: sol@139c9572 |
 | sol@d0c5bee5 | 2021-01-24 | X    | compare with TC version; done: sol@1eb9e027 |
 | sol@0a8a7ef1 | 2021-01-22 |      | perhaps take over if nothing else is left to do; not really needed as this was also not the case on retail at the time; low prio |
