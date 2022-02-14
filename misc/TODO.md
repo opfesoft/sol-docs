@@ -2,8 +2,18 @@ TODOs:
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
-| sol@520f0c6a | 2022-02-10 |      | verify/rework scripts; check the WP paths; low prio (World Boss) |
-| sol@336967b3 | 2022-02-09 |      | won't take over, just fix the logic error concerning spell 28845 in Unit::HandleProcTriggerSpell |
+| sol@85af9384 | 2022-02-12 |      | verify/rework SQL script; low prio (Dungeon: Dire Maul) |
+| sol@b971d16d | 2022-02-12 |      | verify changes; low prio (Dungeon: Blackwing Lair) |
+| sol@89deb60d | 2022-02-12 |      | won't take over, extend Spell::CheckCast instead (see Player::CastItemUseSpell); low prio (minor issue) |
+| sol@61125a1b | 2022-02-12 |      | verify changes; low prio (Dungeon: Blackwing Lair) |
+| sol@cf5dae9d | 2022-02-11 |      | verify/rework SQL script |
+| sol@2933a535 | 2022-02-11 |      | verify changes; low prio (Dungeon: Blackwing Lair) |
+| sol@0d4e28e6 | 2022-02-11 |      | verify/rework SQL script; low prio (Dungeon: Blackwing Lair) |
+| sol@c9ac48e8 | 2022-02-11 |      | verify/rework scripts; low prio (Event: Love is in the Air) |
+| sol@bffe8381 | 2022-02-10 |      | won't take over, rework creature script instead |
+| sol@0fa4a90a | 2022-02-10 |      | won't take over, just fix the logic error concerning "Aura of Despair" |
+| sol@520f0c6a | 2022-02-10 |      | verify/rework scripts (also see sol@e1711e28); check the WP paths; low prio (World Boss) |
+| sol@336967b3 | 2022-02-09 | X    | won't take over, just fix the logic error concerning spell 28845 in Unit::HandleProcTriggerSpell; done: sol@44ee29b4 |
 | sol@f6be03d2 | 2022-02-08 |      | verify/rework SQL script; low prio (Dungeon: Blackwing Lair) |
 | sol@47f70535 | 2022-02-07 |      | verify/rework SQL script; low prio (Dungeon: Blackwing Lair) |
 | sol@4d4e7e68 | 2022-02-04 |      | verify/rework SQL script |
@@ -188,13 +198,13 @@ TODOs:
 | sol@6778faf3 | 2021-12-05 | X    | won't take over, remove SAI instead and fix the NPC (should appear dead); done: sol@cee900a4 |
 | sol@c92721df | 2021-12-05 |      | verify/rework SQL script |
 | sol@16bdc3da | 2021-12-05 |      | verify changes; low prio (Event: Feast of Winter Veil) |
-| sol@d6fc2a1d | 2021-12-05 |      | verify/rework SQL script; also check old SAI and conditions |
+| sol@d6fc2a1d | 2021-12-05 | X    | verify/rework SQL script; also check old SAI and conditions; done: sol@806ab34b |
 | sol@ac876213 | 2021-12-04 |      | verify changes; low prio (Dungeon: Upper Blackrock Spire) |
 | sol@1500453f | 2021-12-03 |      | take over if needed (also see sol@fa1c2eca) |
 | sol@9cc6a9ae | 2021-12-03 |      | verify changes, rework SAI instead; low prio (Dungeon: Dire Maul) |
 | sol@1d9eea19 | 2021-12-03 |      | verify changes, rework SAI instead; low prio (Dungeon: Scholomance) |
 | sol@728aa460 | 2021-12-03 |      | verify changes, rework SAI instead; low prio (Dungeon: Stratholme) |
-| sol@5d2f4cf0 | 2021-12-03 |      | won't take over, rework CreatureScript |
+| sol@5d2f4cf0 | 2021-12-03 | X    | won't take over, rework CreatureScript; done: sol@5a4e254b |
 | sol@7df43c36 | 2021-12-03 |      | verify changes, rework SAI instead (also see sol@9265d346); low prio (Dungeon: Lower Blackrock Spire) |
 | sol@18f3f748 | 2021-12-03 |      | verify/rework SQL script; check the WP paths; low prio (minor issue) |
 | sol@4c010968 | 2021-12-02 |      | verify changes; low prio (Dungeon: Upper Blackrock Spire) |
@@ -207,7 +217,7 @@ TODOs:
 | sol@2af15c84 | 2021-11-29 |      | keep as reference; take over single values if needed; won't blindly take over such mass updates |
 | sol@0b551a05 | 2021-11-29 |      | take over if needed |
 | sol@456b1a08 | 2021-11-29 |      | verify changes; also fix Ouro (the creature script is not working correctly); low prio (Dungeon: Temple of Ahn'Qiraj) |
-| sol@d6679060 | 2021-11-28 |      | won't take over, rework SAI instead (see TC version of both Urok Ogre Magus & Urok Enforcer); use SMART\_EVENT\_RANGE for Arcane Bolt; low prio (Dungeon: Lower Blackrock Spire) |
+| sol@d6679060 | 2021-11-28 | X    | won't take over, rework SAI instead (see TC version of both Urok Ogre Magus & Urok Enforcer); use SMART\_EVENT\_RANGE for Arcane Bolt; low prio (Dungeon: Lower Blackrock Spire); done: sol@f18da4bd |
 | sol@06a81758 | 2021-11-26 |      | verify changes; low prio (Dungeon: Molten Core) |
 | sol@f0776954 | 2021-11-26 |      | verify changes; low prio (Dungeon: Molten Core) |
 | sol@a220b54a | 2021-11-25 | X    | verify/rework SQL script; update: won't take over, this was just blindly copied from TC commit 4a05a082fd671099463049552170ddbeaff6a257 without any further checks; the existing solution works well enough, just the SAI of the triggers need a few improvements: sol@fd8275a5 |
@@ -253,7 +263,7 @@ TODOs:
 | sol@b2a4360d | 2021-11-08 | X    | verify/rework SQL script; done: sol@bb182757 |
 | sol@32c28b62 | 2021-11-08 | X    | verify loot; compare with TC; done: sol@1ce8f243 |
 | sol@85fe4ace | 2021-11-07 |      | verify/rework SQL script; low prio (Event: Hallow's End) |
-| sol@cb07d1fc | 2021-11-07 |      | verify changes; low prio (Dungeon: Upper Blackrock Spire) |
+| sol@cb07d1fc | 2021-11-07 |      | verify changes (also see sol@8e04e47b); low prio (Dungeon: Upper Blackrock Spire) |
 | sol@430fa147 | 2021-11-07 |      | take over if needed |
 | sol@e547f5c2 | 2021-11-07 |      | verify changes; low prio (Dungeon: Lower Blackrock Spire) |
 | sol@0958f2f1 | 2021-11-06 | X    | verify/rework SQL script; won't take over the changes concerning react state 3 as this was only a workaround used by TC; done: sol@b4b95c0e |

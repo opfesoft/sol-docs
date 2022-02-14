@@ -120,7 +120,7 @@ cp -r dbc maps vmaps mmaps ~/sol-srv/data
 
 - Create tables:
 ```
-mysql
+mariadb
 create database auth;
 create database characters;
 create database world;
@@ -131,17 +131,17 @@ exit
 ```
 cd ~/sol
 bash ~/sol/apps/db_assembler/db_assembler.sh 1
-mysql -e "SET GLOBAL max_allowed_packet=128*1024*1024;"
+mariadb -e "SET GLOBAL max_allowed_packet=128*1024*1024;"
 cd local/sql
-mysql --default-character-set=utf8 auth       <auth_base.sql
-mysql --default-character-set=utf8 auth       <auth_updates.sql
-mysql --default-character-set=utf8 auth       <auth_custom.sql
-mysql --default-character-set=utf8 characters <characters_base.sql
-mysql --default-character-set=utf8 characters <characters_updates.sql
-mysql --default-character-set=utf8 characters <characters_custom.sql
-mysql --default-character-set=utf8 world      <world_base.sql
-mysql --default-character-set=utf8 world      <world_updates.sql
-mysql --default-character-set=utf8 world      <world_custom.sql
+mariadb --default-character-set=utf8 auth       <auth_base.sql
+mariadb --default-character-set=utf8 auth       <auth_updates.sql
+mariadb --default-character-set=utf8 auth       <auth_custom.sql
+mariadb --default-character-set=utf8 characters <characters_base.sql
+mariadb --default-character-set=utf8 characters <characters_updates.sql
+mariadb --default-character-set=utf8 characters <characters_custom.sql
+mariadb --default-character-set=utf8 world      <world_base.sql
+mariadb --default-character-set=utf8 world      <world_updates.sql
+mariadb --default-character-set=utf8 world      <world_custom.sql
 ```
 
 ### Configuration
