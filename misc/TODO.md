@@ -2,6 +2,15 @@ TODOs:
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@277df8a8 | 2022-02-15 |      | verify/rework SQL script; low prio (Dungeon: Blackwing Lair) |
+| sol@0fea133f | 2022-02-15 |      | verify changes; low prio (Dungeon: Blackwing Lair) |
+| sol@d3e04459 | 2022-02-14 |      | verify changes; low prio (Dungeon: Blackwing Lair) |
+| sol@b5b48914 | 2022-02-14 |      | verify changes; low prio (Dungeon: Blackwing Lair) |
+| sol@8409e9f7 | 2022-02-14 |      | verify/rework SQL script |
+| sol@6daaffa9 | 2022-02-14 |      | verify changes; low prio (Dungeon: Blackwing Lair) |
+| sol@d9fcd9de | 2022-02-14 |      | verify/rework scripts; low prio (Event: Love is in the Air) |
+| sol@825d4f91 | 2022-02-14 |      | won't take over, choose another position and enable random movement; also fix z position for a nearby Ghostpaw Runner |
+| sol@a3254370 | 2022-02-14 |      | fix GO position/orientation; ensure that Lar'korwi attacks at once |
 | sol@85af9384 | 2022-02-12 |      | verify/rework SQL script; low prio (Dungeon: Dire Maul) |
 | sol@b971d16d | 2022-02-12 |      | verify changes; low prio (Dungeon: Blackwing Lair) |
 | sol@89deb60d | 2022-02-12 |      | won't take over, extend Spell::CheckCast instead (see Player::CastItemUseSpell); low prio (minor issue) |
@@ -11,7 +20,7 @@ TODOs:
 | sol@0d4e28e6 | 2022-02-11 |      | verify/rework SQL script; low prio (Dungeon: Blackwing Lair) |
 | sol@c9ac48e8 | 2022-02-11 |      | verify/rework scripts; low prio (Event: Love is in the Air) |
 | sol@bffe8381 | 2022-02-10 |      | won't take over, rework creature script instead |
-| sol@0fa4a90a | 2022-02-10 |      | won't take over, just fix the logic error concerning "Aura of Despair" |
+| sol@0fa4a90a | 2022-02-10 | X    | won't take over, just fix the logic error concerning "Aura of Despair"; done: sol@9749f2e0 |
 | sol@520f0c6a | 2022-02-10 |      | verify/rework scripts (also see sol@e1711e28); check the WP paths; low prio (World Boss) |
 | sol@336967b3 | 2022-02-09 | X    | won't take over, just fix the logic error concerning spell 28845 in Unit::HandleProcTriggerSpell; done: sol@44ee29b4 |
 | sol@f6be03d2 | 2022-02-08 |      | verify/rework SQL script; low prio (Dungeon: Blackwing Lair) |
@@ -189,14 +198,14 @@ TODOs:
 | sol@948e827d | 2021-12-07 |      | verify/rework SQL script; low prio (various events) |
 | sol@34fdb867 | 2021-12-07 |      | verify/rework SQL script (also see sol@c60acb2c) |
 | sol@e8d254f2 | 2021-12-07 |      | verify/rework SQL script; low prio (Event: Feast of Winter Veil) |
-| sol@46f3af24 | 2021-12-07 |      | does not fix anything, take over TC commit 5eaaa3aca094ad8a082ba50a5d7a09a10e9b12d8 instead |
-| sol@098b6ada | 2021-12-07 |      | verify/rework SQL script; compare with TC version |
-| sol@3e6f0e58 | 2021-12-07 |      | verify/rework SQL script; compare with TC version |
+| sol@46f3af24 | 2021-12-07 | X    | does not fix anything, take over TC commit 5eaaa3aca094ad8a082ba50a5d7a09a10e9b12d8 instead; done: sol@79c9e95c |
+| sol@098b6ada | 2021-12-07 | X    | verify/rework SQL script; compare with TC version; done: sol@3ee978bb |
+| sol@3e6f0e58 | 2021-12-07 | X    | verify/rework SQL script; compare with TC version; done: sol@4d2d79b5 |
 | sol@bb6b7f2f | 2021-12-07 |      | take over if needed |
 | sol@c6a1c2c9 | 2021-12-06 |      | verify/rework SQL script; low prio (Event: Feast of Winter Veil) |
 | sol@6f0c53d1 | 2021-12-05 |      | verify changes; low prio (Event: Feast of Winter Veil) |
 | sol@6778faf3 | 2021-12-05 | X    | won't take over, remove SAI instead and fix the NPC (should appear dead); done: sol@cee900a4 |
-| sol@c92721df | 2021-12-05 |      | verify/rework SQL script |
+| sol@c92721df | 2021-12-05 | X    | verify/rework SQL script; done: sol@36b0a852 |
 | sol@16bdc3da | 2021-12-05 |      | verify changes; low prio (Event: Feast of Winter Veil) |
 | sol@d6fc2a1d | 2021-12-05 | X    | verify/rework SQL script; also check old SAI and conditions; done: sol@806ab34b |
 | sol@ac876213 | 2021-12-04 |      | verify changes; low prio (Dungeon: Upper Blackrock Spire) |
