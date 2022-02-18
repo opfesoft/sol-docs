@@ -1344,7 +1344,7 @@ This is the probability of the event to occur as a percentage from 0-100. So, if
 <tr>
 <td><p>SMART_EVENT_GO_STATE_CHANGED</p></td>
 <td><p>70</p></td>
-<td><p>State (0 - GO_STATE_ACTIVE, 1 - GO_STATE_READY, 2 - GO_STATE_ACTIVE_ALTERNATIVE)</p></td>
+<td><p>State (0 - GO_NOT_READY, 1 - GO_READY, 2 - GO_ACTIVATED, 3 - GO_JUST_DEACTIVATED)</p></td>
 <td><p><br />
 </p></td>
 <td><p><br />
@@ -1665,11 +1665,10 @@ This is the probability of the event to occur as a percentage from 0-100. So, if
 <td><p>creature_template.entry</p></td>
 <td><p><a href="#summon-types">Summon type</a></p></td>
 <td><p>duration in ms</p></td>
-<td><p>attackInvoker (0/1/2)</p></td>
-<td><p>attackScriptOwner (0/1)</p></td>
-<td><p><br />
-</p></td>
-<td><p>Summon Unit; attackInvoker 1: attack target; attackInvoker 2: attack actual invoker; if an entity is specified as target and also coordinates are set (target x,y,z) those coordinates are handled as offset from the target's position (the z offset is set to terrain height if not specified)</p></td>
+<td><p>attackType (0/1/2/3)</p></td>
+<td><p>randomMinDist</p></td>
+<td><p>randomMaxDist</p></td>
+<td><p>Summon creature; attackType 1: attack target, 2: attack invoker, 3: attack script owner; if an entity is specified as target and also coordinates are set (target x,y,z) those coordinates are handled as offset from the target's position (the z offset is set to terrain height if not specified); if randomMaxDist is specified, calculate a random point within randomMinDist and randomMaxDist from the target to summon the creature</p></td>
 </tr>
 <tr>
 <td><p>SMART_ACTION_THREAT_SINGLE_PCT</p></td>
@@ -2263,7 +2262,7 @@ if set to 0 only aggressive / hostile NPCs attack</p></td>
 </p></td>
 <td><p><br />
 </p></td>
-<td><p>Allows basic melee swings to creature.</p></td>
+<td><p>Start attacking the target. If more than one target exists attack a random one.</p></td>
 </tr>
 <tr>
 <td><p>SMART_ACTION_SUMMON_GO</p></td>

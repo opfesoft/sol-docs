@@ -2,6 +2,11 @@ TODOs:
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@a49ca466 | 2022-02-18 |      | use proper column names for INSERT; adjust chances to drop an item 100% (it's 98% in this commit) |
+| sol@1366838a | 2022-02-17 |      | won't take over, create a creature script hook instead and rework creature script "npc\_nat\_pagle" |
+| sol@fa02edb0 | 2022-02-16 |      | verify changes; low prio (PvP) |
+| sol@abccbcb4 | 2022-02-16 |      | verify changes; low prio (Dungeon: Blackwing Lair) |
+| sol@d2ec0f5d | 2022-02-15 |      | verify changes; low prio (PvP) |
 | sol@277df8a8 | 2022-02-15 |      | verify/rework SQL script; low prio (Dungeon: Blackwing Lair) |
 | sol@0fea133f | 2022-02-15 |      | verify changes; low prio (Dungeon: Blackwing Lair) |
 | sol@d3e04459 | 2022-02-14 |      | verify changes; low prio (Dungeon: Blackwing Lair) |
@@ -9,8 +14,8 @@ TODOs:
 | sol@8409e9f7 | 2022-02-14 |      | verify/rework SQL script |
 | sol@6daaffa9 | 2022-02-14 |      | verify changes; low prio (Dungeon: Blackwing Lair) |
 | sol@d9fcd9de | 2022-02-14 |      | verify/rework scripts; low prio (Event: Love is in the Air) |
-| sol@825d4f91 | 2022-02-14 |      | won't take over, choose another position and enable random movement; also fix z position for a nearby Ghostpaw Runner |
-| sol@a3254370 | 2022-02-14 |      | fix GO position/orientation; ensure that Lar'korwi attacks at once |
+| sol@825d4f91 | 2022-02-14 | X    | won't take over, choose another position and enable random movement; also fix z position for a nearby Ghostpaw Runner; done: sol@aeac0f0b |
+| sol@a3254370 | 2022-02-14 | X    | fix GO position/orientation; ensure that Lar'korwi attacks at once; done: sol@fdaa2094 |
 | sol@85af9384 | 2022-02-12 |      | verify/rework SQL script; low prio (Dungeon: Dire Maul) |
 | sol@b971d16d | 2022-02-12 |      | verify changes; low prio (Dungeon: Blackwing Lair) |
 | sol@89deb60d | 2022-02-12 |      | won't take over, extend Spell::CheckCast instead (see Player::CastItemUseSpell); low prio (minor issue) |
@@ -184,19 +189,19 @@ TODOs:
 | sol@4e93671b | 2021-12-12 |      | verify changes; low prio (minor issue) |
 | sol@10ce7a74 | 2021-12-11 |      | verify/rework SQL script / core script |
 | sol@abcd9218 | 2021-12-11 |      | verify/rework SQL script (also see sol@cceb7a4d); low prio (Event: Feast of Winter Veil) |
-| sol@09c3fea5 | 2021-12-11 |      | won't take over; take over SAI from TC instead |
+| sol@09c3fea5 | 2021-12-11 | X    | won't take over; take over SAI from TC instead; implemented another solution: sol@854d902d |
 | sol@488b0d45 | 2021-12-11 |      | verify/rework SQL script; update: seems to contain several bugs, e.g. waypoints/spawn points inside environment etc.; just check the WP paths, won't take over the updated spawn points; low prio (minor issue) |
-| sol@678e50fa | 2021-12-10 |      | verify/rework SQL script |
+| sol@678e50fa | 2021-12-10 | X    | verify/rework SQL script; done: sol@a56d9a57 |
 | sol@52d8e1b6 | 2021-12-10 |      | verify changes; low prio (PvP) |
 | sol@0300cef1 | 2021-12-09 |      | verify solution; low prio (minor issue) |
-| sol@438fce93 | 2021-12-09 |      | verify/rework SQL script; compare with TC version |
+| sol@438fce93 | 2021-12-09 | X    | verify/rework SQL script; compare with TC version; done: sol@ec2c7078 |
 | sol@2ba68d65 | 2021-12-09 |      | keep as reference; take over single values if needed; won't blindly take over such mass updates |
 | sol@2ce3d792 | 2021-12-09 |      | verify/rework SQL script; low prio (Dungeon: Zul'Aman) |
 | sol@6c1846ad | 2021-12-08 |      | verify changes; low prio (Event: Brewfest) |
 | sol@e8481791 | 2021-12-08 |      | take over if needed (see TC commit 18d07e6c4e9bda7af75f9a71179f19bc8672d345) |
-| sol@36a2b878 | 2021-12-08 |      | won't take over, use "distance" parameter instead |
+| sol@36a2b878 | 2021-12-08 | X    | won't take over, use "distance" parameter instead; done: sol@100aa8ca |
 | sol@948e827d | 2021-12-07 |      | verify/rework SQL script; low prio (various events) |
-| sol@34fdb867 | 2021-12-07 |      | verify/rework SQL script (also see sol@c60acb2c) |
+| sol@34fdb867 | 2021-12-07 | X    | verify/rework SQL script (also see sol@c60acb2c); done: sol@80aaf89b |
 | sol@e8d254f2 | 2021-12-07 |      | verify/rework SQL script; low prio (Event: Feast of Winter Veil) |
 | sol@46f3af24 | 2021-12-07 | X    | does not fix anything, take over TC commit 5eaaa3aca094ad8a082ba50a5d7a09a10e9b12d8 instead; done: sol@79c9e95c |
 | sol@098b6ada | 2021-12-07 | X    | verify/rework SQL script; compare with TC version; done: sol@3ee978bb |
