@@ -2,9 +2,12 @@ TODOs:
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@ca333d55 | 2022-02-26 |      | verify/rework SQL script; check the WP paths; low prio (Cosmetic) |
+| sol@35820d78 | 2022-02-25 |      | verify/rework SQL script |
+| sol@5c1f5906 | 2022-02-25 |      | verify/rework SQL script |
 | sol@d8c83c6f | 2022-02-24 |      | verify/rework SQL script; check the WP paths and additional spawns; low prio (Cosmetic) |
 | sol@2736de74 | 2022-02-24 |      | low prio (Localization: zhCN) |
-| sol@15395a25 | 2022-02-22 |      | verify/rework SQL script; verify quests & additional changes to quest texts; low prio (Cosmetic) |
+| sol@15395a25 | 2022-02-22 | X    | verify/rework SQL script; verify quests & additional changes to quest texts; low prio (Cosmetic); update: only took over a few changes concerning quest template addons and one NPC, see sol@14c90934; took over all quest emotes directly from the TC DB, see sol@5bacedc0, sol@811c2ed7 and sol@a300cc3b |
 | sol@ccc9bb66 | 2022-02-22 |      | verify changes; low prio (PvP) |
 | sol@a244e0cf | 2022-02-19 |      | verify/rework SQL script |
 | sol@80ad5063 | 2022-02-19 |      | verify/rework SQL script; check the WP paths; low prio (Cosmetic) |
@@ -35,7 +38,7 @@ TODOs:
 | sol@c9ac48e8 | 2022-02-11 |      | verify/rework scripts; low prio (Event: Love is in the Air) |
 | sol@bffe8381 | 2022-02-10 |      | won't take over, rework creature script instead |
 | sol@0fa4a90a | 2022-02-10 | X    | won't take over, just fix the logic error concerning "Aura of Despair"; done: sol@9749f2e0 |
-| sol@520f0c6a | 2022-02-10 |      | verify/rework scripts (also see sol@e1711e28, sol@25c824e8, sol@9a67c0f0, sol@33b01834); check the WP paths; low prio (World Boss) |
+| sol@520f0c6a | 2022-02-10 |      | verify/rework scripts (also see sol@e1711e28, sol@25c824e8, sol@9a67c0f0, sol@33b01834, sol@cb7f3d50); check the WP paths; low prio (World Boss) |
 | sol@336967b3 | 2022-02-09 | X    | won't take over, just fix the logic error concerning spell 28845 in Unit::HandleProcTriggerSpell; done: sol@44ee29b4 |
 | sol@f6be03d2 | 2022-02-08 |      | verify/rework SQL script; low prio (Dungeon: Blackwing Lair) |
 | sol@47f70535 | 2022-02-07 |      | verify/rework SQL script; low prio (Dungeon: Blackwing Lair) |
