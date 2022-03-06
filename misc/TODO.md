@@ -2,6 +2,16 @@ TODOs:
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@8303aab5 | 2022-03-03 |      | also fix the other typos in the text |
+| sol@e4d3f57d | 2022-03-03 |      | verify changes; low prio (Dungeon: Blackwing Lair) |
+| sol@df8a1e6c | 2022-03-03 |      | verify/rework SQL script; check the WP paths; low prio (Cosmetic) |
+| sol@4b77dcdd | 2022-03-02 |      | verify changes; low prio (Dungeon: Blackwing Lair) |
+| sol@b891046d | 2022-03-02 |      | verify/rework SQL script |
+| sol@958c730b | 2022-03-02 |      | verify/rework SQL script |
+| sol@bdcbeee1 | 2022-03-01 |      | verify/rework SQL script; low prio (Dungeon: Blackrock Depths) |
+| sol@a2b2b260 | 2022-03-01 |      | verify changes; low prio (Dungeon: Ulduar) |
+| sol@00719619 | 2022-03-01 |      | verify/rework SQL script (also see sol@b761da7d); low prio (Dungeon: Blackwing Lair) |
+| sol@313c413e | 2022-03-01 |      | wrong, won't take over: With patch 3.1.0 neither the quest "Triage" nor the books are necessary anymore, so the gossip texts are obsolete; remove them from the gossip menu instead (same for Horde, see gossip menu ID 5856) |
 | sol@ca333d55 | 2022-02-26 |      | verify/rework SQL script; check the WP paths; low prio (Cosmetic) |
 | sol@35820d78 | 2022-02-25 |      | verify/rework SQL script |
 | sol@5c1f5906 | 2022-02-25 |      | verify/rework SQL script |
@@ -157,7 +167,7 @@ TODOs:
 | sol@ec7c6831 | 2021-12-31 |      | verify/rework SQL script; verify WP paths; low prio (Cosmetic) |
 | sol@19b98c5e | 2021-12-31 |      | verify/rework SQL script |
 | sol@ddddb108 | 2021-12-30 |      | verify/rework SQL script; check the WP paths; low prio (Cosmetic) |
-| sol@e5b5413a | 2021-12-30 |      | verify/rework SQL script |
+| sol@e5b5413a | 2021-12-30 | X    | verify/rework SQL script; done: sol@eb8a4c7e |
 | sol@bbf08c1a | 2021-12-30 |      | take over if needed (seems to be the same as TEMPSUMMON\_TIMED\_OR\_DEAD\_DESPAWN) |
 | sol@5a1bdb1f | 2021-12-29 |      | keep as reference, won't take over; this will overwrite many fixed issues of the past (note: it is perfectly valid to edit the broadcast\_text table, e.g. to fix typos or other text issues which were part of retail at the time) |
 | sol@d148300b | 2021-12-28 | X    | verify/rework SQL script; done: sol@2480cd8c |

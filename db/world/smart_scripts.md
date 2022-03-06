@@ -2326,6 +2326,7 @@ if set to 0 only aggressive / hostile NPCs attack</p></td>
 <td><p>SMART_ACTION_WP_PAUSE</p></td>
 <td><p>54</p></td>
 <td><p>time (in ms)</p></td>
+<td><p>onlyOOC (0/1)</p></td>
 <td><p><br />
 </p></td>
 <td><p><br />
@@ -2334,9 +2335,7 @@ if set to 0 only aggressive / hostile NPCs attack</p></td>
 </p></td>
 <td><p><br />
 </p></td>
-<td><p><br />
-</p></td>
-<td><p>Creature pauses its Waypoint Movement for given time.</p></td>
+<td><p>Creature pauses its Waypoint Movement for given time. If onlyOOC is set the pause timer is only updated if the creature is OOC.</p></td>
 </tr>
 <tr>
 <td><p>SMART_ACTION_WP_STOP</p></td>
@@ -2535,8 +2534,7 @@ quickChange 1 forces the creature to quickly change its orientation (useful if t
 <td><p>RepeatMin(only if it repeats)</p></td>
 <td><p>RepeatMax(only if it repeats)</p></td>
 <td><p>chance</p></td>
-<td><p><br />
-</p></td>
+<td><p>It is possible to create multiple timed events with the same ID, but to remove all of them it is necessary to call SMART_ACTION_REMOVE_TIMED_EVENT multiple times. Important: The timer will persist even after respawn.</p></td>
 </tr>
 <tr>
 <td><p>SMART_ACTION_PLAYMOVIE</p></td>
@@ -2566,7 +2564,7 @@ quickChange 1 forces the creature to quickly change its orientation (useful if t
 </p></td>
 <td><p><br />
 </p></td>
-<td><p>PointId is called by SMART_EVENT_MOVEMENTINFORM. Continue this action with the TARGET_TYPE column. Use any target_type, and use target_x, target_y, target_z as the coordinates; if an entity is specified as target and also coordinates are set (target x,y,z) those coordinates are handled as offset from the target's position</p></td>
+<td><p>PointId is called by SMART_EVENT_MOVEMENTINFORM. Continue this action with the TARGET_TYPE column. Use any target_type, and use target_x, target_y, target_z as the coordinates; if an entity is specified as target and also coordinates are set (target x,y,z) those coordinates are handled as offset from the target's position. If ContactDistance > 0 and also target_o is set use target_o as distance, otherwise just use ContactDistance.</p></td>
 </tr>
 <tr>
 <td><p>SMART_ACTION_RESPAWN_TARGET</p></td>
@@ -3287,6 +3285,23 @@ quickChange 1 forces the creature to quickly change its orientation (useful if t
 <td><p>soundId4</p></td>
 <td><p>onlySelf (1: only sends the sound to targeted players, 0: sends the sound to everyone in visibility range of the target)</p></td>
 <td><p>distance (1: the sound fades with increasing distance to the target, 0: the sound is played at full volume no matter the distance)</p></td>
+<td><p><br />
+</p></td>
+</tr>
+<tr>
+<td><p>SMART_ACTION_SET_CORPSE_DELAY</p></td>
+<td><p>116</p></td>
+<td><p>delay</p></td>
+<td><p><br />
+</p></td>
+<td><p><br />
+</p></td>
+<td><p><br />
+</p></td>
+<td><p><br />
+</p></td>
+<td><p><br />
+</p></td>
 <td><p><br />
 </p></td>
 </tr>
@@ -4155,6 +4170,7 @@ If the start position distance is far away the circle movement speed will be dec
 <td><p><a href="creature.md#guid">creature.guid</a></p></td>
 <td><p><a href="creature_template.md#entry">creature_template.entry</a></p></td>
 <td><p>getFromHashMap (0/1, this does not work in instances!)</p></td>
+<td><p>alive state (1 alive, 2 dead, 0 both)</p></td>
 <td><p><br />
 </p></td>
 <td><p><br />
@@ -4163,9 +4179,7 @@ If the start position distance is far away the circle movement speed will be dec
 </p></td>
 <td><p><br />
 </p></td>
-<td><p><br />
-</p></td>
-<td><p>Creature with specified GUID and/or specified creature template ID.</p></td>
+<td><p>Creature with specified GUID and/or specified creature template ID and the specified alive state.</p></td>
 </tr>
 <tr>
 <td><p>SMART_TARGET_CREATURE_DISTANCE</p></td>
