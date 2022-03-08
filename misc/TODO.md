@@ -2,6 +2,27 @@ TODOs:
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@a7aecd12 | 2022-03-07 |      | also update npcflag of the affected creatures (quest\_greeting is only used if UNIT\_NPC\_FLAG\_GOSSIP is not set and UNIT\_NPC\_FLAG\_QUESTGIVER is set) |
+| sol@e4f88ba9 | 2022-03-07 |      | low prio (Localization: esES, esMX) |
+| sol@d8358321 | 2022-03-07 |      | verify changes; low prio (Dungeon: Onyxia's Lair) |
+| sol@f6971730 | 2022-03-06 |      | verify/rework SQL script; check the WP paths; low prio (Cosmetic) |
+| sol@25949567 | 2022-03-06 |      | low prio (Localization: esES, esMX) |
+| sol@95fc46d1 | 2022-03-06 |      | verify/rework SQL script; check the WP path & creature formation; low prio (Cosmetic) |
+| sol@623c3f19 | 2022-03-06 |      | verify/rework SQL script; check the WP paths; low prio (Cosmetic) |
+| sol@b03078f8 | 2022-03-06 |      | verify/rework SQL script; check the WP path; low prio (Cosmetic) |
+| sol@9ac35d30 | 2022-03-06 |      | verify/rework SQL script; check the WP path; low prio (Cosmetic) |
+| sol@a216c4e7 | 2022-03-06 |      | verify/rework SQL script; check the WP paths; low prio (Cosmetic) |
+| sol@4f0b6da6 | 2022-03-06 |      | verify/rework SQL script; check the WP path; low prio (Cosmetic) |
+| sol@b3673737 | 2022-03-06 |      | verify/rework SQL script; check the WP path; low prio (Cosmetic) |
+| sol@512d7000 | 2022-03-06 |      | verify/rework SQL script; check the WP path; low prio (Cosmetic) |
+| sol@41cc053c | 2022-03-06 |      | verify changes; low prio (Dungeon: Blackwing Lair) |
+| sol@dc579642 | 2022-03-06 |      | verify/rework SQL script; check the WP path; low prio (Cosmetic) |
+| sol@1392cee3 | 2022-03-06 |      | verify changes; low prio (Dungeon: Blackwing Lair) |
+| sol@a74e57fb | 2022-03-06 |      | verify changes; low prio (Dungeon: Blackwing Lair) |
+| sol@d927ce6f | 2022-03-06 |      | adapt to Sol; only take over absolutely necessary changes (e.g. won't take over the reload command) |
+| sol@fda8b723 | 2022-03-06 |      | verify/rework SQL script |
+| sol@9f6a3602 | 2022-03-06 |      | verify/rework SQL script |
+| sol@a571e50d | 2022-03-06 |      | verify/rework SQL script; low prio (Dungeon: Blackwing Lair) |
 | sol@8303aab5 | 2022-03-03 |      | also fix the other typos in the text |
 | sol@e4d3f57d | 2022-03-03 |      | verify changes; low prio (Dungeon: Blackwing Lair) |
 | sol@df8a1e6c | 2022-03-03 |      | verify/rework SQL script; check the WP paths; low prio (Cosmetic) |
@@ -86,7 +107,7 @@ TODOs:
 | sol@75fc2d1b | 2022-01-24 |      | take over if needed |
 | sol@95a867d4 | 2022-01-24 |      | verify/rework SQL script; check the WP paths and additional spawns; low prio (Cosmetic) |
 | sol@ac0129a0 | 2022-01-23 |      | verify changes; low prio (minor issue) |
-| sol@3fa222e7 | 2022-01-22 |      | verify/rework SQL script; check the WP paths; low prio (Cosmetic) |
+| sol@3fa222e7 | 2022-01-22 |      | verify/rework SQL script; check the WP paths; low prio (Cosmetic); update: WP paths for Fel Reaver Sentries improved and corpse delay / respawn adjusted, see sol@14c6708b |
 | sol@ce5fc6eb | 2022-01-22 |      | verify changes; low prio (Dungeon: Stratholme) |
 | sol@e2f91ebc | 2022-01-22 |      | verify/rework SQL script; check the WP paths; low prio (Cosmetic) |
 | sol@cf5ee62b | 2022-01-22 |      | verify/rework SQL script; low prio (Dungeon: Upper Blackrock Spire) |
