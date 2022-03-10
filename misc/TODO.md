@@ -2,7 +2,18 @@ TODOs:
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
-| sol@a7aecd12 | 2022-03-07 |      | also update npcflag of the affected creatures (quest\_greeting is only used if UNIT\_NPC\_FLAG\_GOSSIP is not set and UNIT\_NPC\_FLAG\_QUESTGIVER is set) |
+| sol@a022919c | 2022-03-10 |      | verify changes; low prio (Dungeon: Blackwing Lair) |
+| sol@94647d85 | 2022-03-10 |      | verify/rework SQL script; low prio (Dungeon: Blackwing Lair) |
+| sol@81939be1 | 2022-03-10 |      | verify/rework SQL script; low prio (Dungeon: Blackwing Lair) |
+| sol@707968ee | 2022-03-09 |      | verify changes; low prio (Dungeon: Blackwing Lair) |
+| sol@21539f0c | 2022-03-09 |      | low prio (Localization: zhTW) |
+| sol@37d92f8d | 2022-03-09 |      | verify changes; low prio (Dungeon: Ulduar) |
+| sol@085ed12a | 2022-03-08 |      | low prio (Localization: esES, esMX) |
+| sol@95b94d85 | 2022-03-08 |      | low prio (Localization: ruRU) |
+| sol@3cab4f46 | 2022-03-08 |      | verify/rework SQL script; low prio (Dungeon: Blackwing Lair) |
+| sol@f2f0b742 | 2022-03-08 |      | verify/rework SQL script |
+| sol@a0d9d59b | 2022-03-08 |      | verify changes; low prio (Dungeon: Blackwing Lair) |
+| sol@a7aecd12 | 2022-03-07 | X    | also update npcflag of the affected creatures (quest\_greeting is only used if UNIT\_NPC\_FLAG\_GOSSIP is not set and UNIT\_NPC\_FLAG\_QUESTGIVER is set); done: sol@b5a8944d |
 | sol@e4f88ba9 | 2022-03-07 |      | low prio (Localization: esES, esMX) |
 | sol@d8358321 | 2022-03-07 |      | verify changes; low prio (Dungeon: Onyxia's Lair) |
 | sol@f6971730 | 2022-03-06 |      | verify/rework SQL script; check the WP paths; low prio (Cosmetic) |
@@ -19,7 +30,7 @@ TODOs:
 | sol@dc579642 | 2022-03-06 |      | verify/rework SQL script; check the WP path; low prio (Cosmetic) |
 | sol@1392cee3 | 2022-03-06 |      | verify changes; low prio (Dungeon: Blackwing Lair) |
 | sol@a74e57fb | 2022-03-06 |      | verify changes; low prio (Dungeon: Blackwing Lair) |
-| sol@d927ce6f | 2022-03-06 |      | adapt to Sol; only take over absolutely necessary changes (e.g. won't take over the reload command) |
+| sol@d927ce6f | 2022-03-06 | X    | adapt to Sol; only take over absolutely necessary changes (e.g. won't take over the reload command); done: sol@b5a8944d |
 | sol@fda8b723 | 2022-03-06 |      | verify/rework SQL script |
 | sol@9f6a3602 | 2022-03-06 |      | verify/rework SQL script |
 | sol@a571e50d | 2022-03-06 |      | verify/rework SQL script; low prio (Dungeon: Blackwing Lair) |
@@ -881,7 +892,7 @@ TODOs:
 | sol@9c239d17 | 2021-02-01 |      | verify SQL script; low prio (Event: Lunar Festival) |
 | sol@c8f43d85 | 2021-02-01 |      | try to find a better solution for some of the changes if nothing else is left to do (also see bugfixes sol@e7bfbe76, sol@522eb9a7, sol@695a7402, sol@b2f6a36c, sol@1d5cc1fb ....); very low prio as it's not really needed and could cause many unexpected bugs / performance issues; the only interesting changes concerning creature movement are circling the player and going backwards if too close to the player; update: if ever implementing mob fanning use an additional field in creature\_addon to control this behaviour as not all NPCs showed this on retail; also add a config parameter to disable this entirely as it will reduce performance |
 | sol@fcad2b56 | 2021-01-31 | X    | only take over name changes for attributes which are actually used in the code; done: sol@c9bae62c |
-| sol@6ef73413 | 2021-01-31 |      | verify CreatureScript (also see sol@1a137dad, sol@8d78f4b8, sol@707685d6, sol@549a1a0d, sol@d0336ea4); low prio (Dungeon: Blackwing Lair) |
+| sol@6ef73413 | 2021-01-31 |      | verify CreatureScript (also see sol@1a137dad, sol@8d78f4b8, sol@707685d6, sol@549a1a0d, sol@d0336ea4, sol@6e35325a); low prio (Dungeon: Blackwing Lair) |
 | sol@d60fbc8e | 2021-01-27 | X    | verify and rework SQL script; done: sol@139c9572 |
 | sol@d0c5bee5 | 2021-01-24 | X    | compare with TC version; done: sol@1eb9e027 |
 | sol@0a8a7ef1 | 2021-01-22 |      | perhaps take over if nothing else is left to do; not really needed as this was also not the case on retail at the time; low prio |
