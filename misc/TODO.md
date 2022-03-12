@@ -2,6 +2,13 @@ TODOs:
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@0dad08b5 | 2022-03-12 |      | low prio (Localization: ruRU) |
+| sol@33bdacf4 | 2022-03-12 |      | low prio (Localization: ruRU) |
+| sol@ea6a70ba | 2022-03-12 |      | verify changes; low prio (Dungeon: Temple of Atal'Hakkar) |
+| sol@d0743019 | 2022-03-12 |      | verify changes; low prio (Dungeon: Ulduar) |
+| sol@9e7f7f9a | 2022-03-12 |      | verify changes; low prio (Dungeon: Blackwing Lair) |
+| sol@45c22975 | 2022-03-11 |      | verify changes; low prio (Dungeon: Zul'Gurub) |
+| sol@fa55eab6 | 2022-03-11 |      | verify changes; low prio (Dungeon: Blackwing Lair) |
 | sol@a022919c | 2022-03-10 |      | verify changes; low prio (Dungeon: Blackwing Lair) |
 | sol@94647d85 | 2022-03-10 |      | verify/rework SQL script; low prio (Dungeon: Blackwing Lair) |
 | sol@81939be1 | 2022-03-10 |      | verify/rework SQL script; low prio (Dungeon: Blackwing Lair) |
@@ -42,11 +49,11 @@ TODOs:
 | sol@958c730b | 2022-03-02 |      | verify/rework SQL script |
 | sol@bdcbeee1 | 2022-03-01 |      | verify/rework SQL script; low prio (Dungeon: Blackrock Depths) |
 | sol@a2b2b260 | 2022-03-01 |      | verify changes; low prio (Dungeon: Ulduar) |
-| sol@00719619 | 2022-03-01 |      | verify/rework SQL script (also see sol@b761da7d); low prio (Dungeon: Blackwing Lair) |
-| sol@313c413e | 2022-03-01 |      | wrong, won't take over: With patch 3.1.0 neither the quest "Triage" nor the books are necessary anymore, so the gossip texts are obsolete; remove them from the gossip menu instead (same for Horde, see gossip menu ID 5856) |
+| sol@00719619 | 2022-03-01 |      | verify/rework SQL script (also see sol@b761da7d, sol@b0bc3302); low prio (Dungeon: Blackwing Lair) |
+| sol@313c413e | 2022-03-01 | X    | wrong, won't take over: With patch 3.1.0 neither the quest "Triage" nor the books are necessary anymore, so the gossip texts are obsolete; remove them from the gossip menu instead (same for Horde, see gossip menu ID 5856); done: sol@796ec647 |
 | sol@ca333d55 | 2022-02-26 |      | verify/rework SQL script; check the WP paths; low prio (Cosmetic) |
 | sol@35820d78 | 2022-02-25 |      | verify/rework SQL script |
-| sol@5c1f5906 | 2022-02-25 |      | verify/rework SQL script |
+| sol@5c1f5906 | 2022-02-25 | X    | verify/rework SQL script; update: won't take over, she's not a demon trainer anymore |
 | sol@d8c83c6f | 2022-02-24 |      | verify/rework SQL script; check the WP paths and additional spawns; low prio (Cosmetic) |
 | sol@2736de74 | 2022-02-24 |      | low prio (Localization: zhCN) |
 | sol@15395a25 | 2022-02-22 | X    | verify/rework SQL script; verify quests & additional changes to quest texts; low prio (Cosmetic); update: only took over a few changes concerning quest template addons and one NPC, see sol@14c90934; took over all quest emotes directly from the TC DB, see sol@5bacedc0, sol@811c2ed7 and sol@a300cc3b |
@@ -77,7 +84,7 @@ TODOs:
 | sol@cf5dae9d | 2022-02-11 |      | verify/rework SQL script |
 | sol@2933a535 | 2022-02-11 |      | verify changes; low prio (Dungeon: Blackwing Lair) |
 | sol@0d4e28e6 | 2022-02-11 |      | verify/rework SQL script; low prio (Dungeon: Blackwing Lair) |
-| sol@c9ac48e8 | 2022-02-11 |      | verify/rework scripts; low prio (Event: Love is in the Air) |
+| sol@c9ac48e8 | 2022-02-11 |      | verify/rework scripts (also see sol@a6c93f1c); low prio (Event: Love is in the Air) |
 | sol@bffe8381 | 2022-02-10 |      | won't take over, rework creature script instead |
 | sol@0fa4a90a | 2022-02-10 | X    | won't take over, just fix the logic error concerning "Aura of Despair"; done: sol@9749f2e0 |
 | sol@520f0c6a | 2022-02-10 |      | verify/rework scripts (also see sol@e1711e28, sol@25c824e8, sol@9a67c0f0, sol@33b01834, sol@cb7f3d50); check the WP paths; low prio (World Boss) |
@@ -155,7 +162,7 @@ TODOs:
 | sol@6a696bff | 2022-01-07 |      | verify/rework SQL script; check the WP paths; low prio (Cosmetic) |
 | sol@2c6a6920 | 2022-01-07 |      | verify changes; low prio (minor issue) |
 | sol@2e6213d5 | 2022-01-07 |      | take over if needed |
-| sol@2e622e27 | 2022-01-07 |      | verify/rework SQL script; check the WP paths; low prio (Cosmetic) |
+| sol@2e622e27 | 2022-01-07 |      | verify/rework SQL script; check the WP paths; low prio (Cosmetic); update: Improved WP paths for Stonard Scout/Explorer/Grunt and Noboru the Cudgel, see sol@7007d9ae, sol@f879f66d |
 | sol@5a8b4556 | 2022-01-07 |      | verify/rework SQL script; check the WP paths; low prio (Cosmetic) |
 | sol@fdcaa8e1 | 2022-01-07 |      | verify/rework SQL script; check the WP paths; low prio (Cosmetic) |
 | sol@66e6d331 | 2022-01-06 |      | take over if needed (does not seem to fix anything) |
@@ -212,7 +219,7 @@ TODOs:
 | sol@bc87362f | 2021-12-23 |      | verify/rework SQL script (also see sol@585f3f24); won't take over the updated spawn points, just check the WP paths and random movement; low prio (Cosmetic) |
 | sol@5b6e6c3d | 2021-12-23 |      | verify/rework SQL script; won't take over the updated spawn points, just check the WP paths and random movement; low prio (Cosmetic) |
 | sol@f7ff583b | 2021-12-19 | X    | adapt to Sol; also remove from the check for yet unsupported action types and add to the handled ones (shows once more that nobody is testing this stuff thoroughly before merging); done: sol@baae4066 |
-| sol@4beb2d8a | 2021-12-19 |      | verify/rework SQL script; check the WP paths; low prio (Cosmetic) |
+| sol@4beb2d8a | 2021-12-19 |      | verify/rework SQL script; check the WP paths; low prio (Cosmetic); update: took over emotes/equipment, see sol@6369dce3 |
 | sol@1d8160a9 | 2021-12-19 |      | verify/rework SQL script; won't take over the updated spawn points, just check the WP paths; low prio (Cosmetic) |
 | sol@bfb20a53 | 2021-12-19 |      | verify/rework SQL script (also see sol@585f3f24); won't take over the updated spawn points, just check the WP paths; low prio (Cosmetic) |
 | sol@78504d34 | 2021-12-19 |      | verify/rework SQL script (also see sol@585f3f24); won't take over the updated spawn points, just check the WP paths; low prio (Cosmetic) |

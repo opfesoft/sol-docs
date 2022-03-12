@@ -1,6 +1,6 @@
 # quest\_greeting
 
-This table holds greeting texts shown for quest giver NPCs or gameobjects. Concerning NPCs they are only shown if UNIT\_NPC\_FLAG\_QUESTGIVER is set and UNIT\_NPC\_FLAG\_GOSSIP is *not set* (see [creature\_template.npcflag](creature_template.md#npcflag)).
+This table holds greeting texts shown for quest giver NPCs or gameobjects. Concerning NPCs they are only shown if UNIT\_NPC\_FLAG\_QUESTGIVER is set and UNIT\_NPC\_FLAG\_GOSSIP is **not set** (see [creature\_template.npcflag](creature_template.md#npcflag)).
 
 ## Structure
 
