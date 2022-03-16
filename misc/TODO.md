@@ -2,6 +2,14 @@ TODOs:
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@6c60dc38 | 2022-03-15 |      | verify changes; low prio (minor issue) |
+| sol@33635cbb | 2022-03-14 |      | verify changes; low prio (Dungeon: Zul'Gurub) |
+| sol@dccc2909 | 2022-03-14 |      | verify changes; low prio (Dungeon: Zul'Gurub) |
+| sol@3ac05215 | 2022-03-14 |      | verify changes; low prio (Dungeon: Molten Core) |
+| sol@80e1b829 | 2022-03-14 |      | low prio (Localization: zhTW) |
+| sol@4806769b | 2022-03-14 |      | verify/rework SQL script; low prio (minor issue) |
+| sol@7decab3c | 2022-03-13 |      | verify changes; low prio (Dungeon: Blackwing Lair) |
+| sol@d61ebd75 | 2022-03-12 |      | verify/rework SQL script; low prio (minor issue) |
 | sol@0dad08b5 | 2022-03-12 |      | low prio (Localization: ruRU) |
 | sol@33bdacf4 | 2022-03-12 |      | low prio (Localization: ruRU) |
 | sol@ea6a70ba | 2022-03-12 |      | verify changes; low prio (Dungeon: Temple of Atal'Hakkar) |
@@ -902,7 +910,7 @@ TODOs:
 | sol@6ef73413 | 2021-01-31 |      | verify CreatureScript (also see sol@1a137dad, sol@8d78f4b8, sol@707685d6, sol@549a1a0d, sol@d0336ea4, sol@6e35325a); low prio (Dungeon: Blackwing Lair) |
 | sol@d60fbc8e | 2021-01-27 | X    | verify and rework SQL script; done: sol@139c9572 |
 | sol@d0c5bee5 | 2021-01-24 | X    | compare with TC version; done: sol@1eb9e027 |
-| sol@0a8a7ef1 | 2021-01-22 |      | perhaps take over if nothing else is left to do; not really needed as this was also not the case on retail at the time; low prio |
+| sol@0a8a7ef1 | 2021-01-22 |      | perhaps take over if nothing else is left to do; not really needed as this was also not the case on retail at the time (also see sol@7ad65752, sol@54c62f9b); low prio |
 | sol@f9b836ef | 2021-01-22 | X    | wrong, has to update coordinates in quest\_poi\_points; done: sol@0e6eac8d |
 | sol@42244612 | 2021-01-19 | X    | verify and rework SQL script; done: sol@54cb8ce2 |
 | sol@eddde219 | 2021-01-18 | X    | take over if needed; update: "INHABIT\_ROOT" won't be taken over; rooting creatures should be handled via scripts, not via inhabit type (often UNIT\_FLAG2\_DISABLE\_TURN is also needed); only fix the issue mentioned in the PR: Webbed Crusader; done: sol@aebf05e9 |
