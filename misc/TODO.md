@@ -2,6 +2,22 @@ TODOs:
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@199d2159 | 2022-03-18 |      | won't take over, rework SAI instead |
+| sol@b0e6bae8 | 2022-03-18 |      | low prio (Localization: zhTW) |
+| sol@16f89e13 | 2022-03-18 |      | low prio (Localization: esES, esMX) |
+| sol@ce7b6c5a | 2022-03-18 |      | low prio (Localization: esES, esMX) |
+| sol@5cc54993 | 2022-03-18 |      | verify/rework SQL script |
+| sol@9d4cc721 | 2022-03-18 |      | verify/rework SQL script; check the WP paths; low prio (Cosmetic) |
+| sol@c2b70e39 | 2022-03-18 |      | verify changes; low prio (Event: Love is in the Air) |
+| sol@55ef7ce5 | 2022-03-18 |      | verify/rework SQL script; low prio (Dungeon: Stratholme) |
+| sol@f2ab17f5 | 2022-03-18 |      | verify/rework SQL script; check the WP paths; low prio (Cosmetic) |
+| sol@87441c7a | 2022-03-18 |      | low prio (Localization: zhTW) |
+| sol@c0dd59b4 | 2022-03-18 |      | low prio (Localization: zhTW) |
+| sol@43e3f5d6 | 2022-03-18 |      | low prio (Localization: zhTW) |
+| sol@e17eba2f | 2022-03-18 |      | low prio (Localization: zhTW) |
+| sol@b0fb722c | 2022-03-18 |      | low prio (Localization: zhTW) |
+| sol@75bddc55 | 2022-03-18 |      | low prio (Localization: zhTW) |
+| sol@ab59c83d | 2022-03-18 |      | low prio (Localization: zhTW) |
 | sol@6c60dc38 | 2022-03-15 |      | verify changes; low prio (minor issue) |
 | sol@33635cbb | 2022-03-14 |      | verify changes; low prio (Dungeon: Zul'Gurub) |
 | sol@dccc2909 | 2022-03-14 |      | verify changes; low prio (Dungeon: Zul'Gurub) |
@@ -584,7 +600,7 @@ TODOs:
 | sol@940c30a1 | 2021-08-24 | X    | verify changes and check the creatures in the area; done: sol@b1eba7fd |
 | sol@ec71301b | 2021-08-24 |      | won't take over; try to find a generic solution as spells like "Rain of Fire" are also affected; low prio as this is just a minor issue |
 | sol@7ed0daa9 | 2021-08-24 | X    | verify/rework SQL script; update: won't take over, random movement looks much better; also the WP paths in this commit are basically all the same |
-| sol@1b7d3708 | 2021-08-24 |      | verify issue & changes; take over if needed |
+| sol@1b7d3708 | 2021-08-24 |      | verify issue & changes; take over if needed; update: see also commit concerning boss chests: sol@68891ccd |
 | sol@52b78360 | 2021-08-24 | X    | verify/rework SQL script; check every ore location; low prio; done: sol@3ae3f2fa |
 | sol@c774899e | 2021-08-24 | X    | use UPDATE instead of DELETE/INSERT; update: won't take over, take over the TC version instead (see TC commit 513cbd289a9b6ac6c120c5f93a5b18f4cc04693e); done: sol@016ef950 |
 | sol@1e50a902 | 2021-08-24 | X    | verify/rework SQL script; use GroupId 1 for entry 11497; done: sol@c34de090 |

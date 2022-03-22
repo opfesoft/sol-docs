@@ -130,7 +130,7 @@ exit
 - Assemble and import data:
 ```
 cd ~/sol
-bash ~/sol/apps/db_assembler/db_assembler.sh 1
+bash ~/sol/bash/db_assembler.sh 1
 mariadb -e "SET GLOBAL max_allowed_packet=128*1024*1024;"
 cd local/sql
 mariadb --default-character-set=utf8 auth       <auth_base.sql
