@@ -3291,7 +3291,7 @@ quickChange 1 forces the creature to quickly change its orientation (useful if t
 <tr>
 <td><p>SMART_ACTION_SET_CORPSE_DELAY</p></td>
 <td><p>116</p></td>
-<td><p>delay</p></td>
+<td><p>delay (in seconds)</p></td>
 <td><p><br />
 </p></td>
 <td><p><br />

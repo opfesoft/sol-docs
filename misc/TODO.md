@@ -2,14 +2,18 @@ TODOs:
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@6cc185b2 | 2022-03-23 |      | verify/rework SQL script; low prio (Dungeon: Molten Core) |
+| sol@c7a77653 | 2022-03-23 |      | use UPDATE instead of DELETE/INSERT |
+| sol@b0bcfc18 | 2022-03-21 |      | take over from TC instead |
+| sol@8358a5d6 | 2022-03-21 |      | verify changes; low prio (Dungeon: Onyxia's Lair) |
 | sol@199d2159 | 2022-03-18 |      | won't take over, rework SAI instead |
 | sol@b0e6bae8 | 2022-03-18 |      | low prio (Localization: zhTW) |
 | sol@16f89e13 | 2022-03-18 |      | low prio (Localization: esES, esMX) |
 | sol@ce7b6c5a | 2022-03-18 |      | low prio (Localization: esES, esMX) |
-| sol@5cc54993 | 2022-03-18 |      | verify/rework SQL script |
+| sol@5cc54993 | 2022-03-18 | X    | verify/rework SQL script; update: wrong, won't take over; AC removed the flag UNIT\_NPC\_FLAG\_GOSSIP via commit dd15fa706d6aa2f841b0a521fd9ebd03fdb0f97f which is wrong (NPCs may have the flag set even if no gossip menu ID is specified because the gossip menu is created using CreatureScript) |
 | sol@9d4cc721 | 2022-03-18 |      | verify/rework SQL script; check the WP paths; low prio (Cosmetic) |
 | sol@c2b70e39 | 2022-03-18 |      | verify changes; low prio (Event: Love is in the Air) |
-| sol@55ef7ce5 | 2022-03-18 |      | verify/rework SQL script; low prio (Dungeon: Stratholme) |
+| sol@55ef7ce5 | 2022-03-18 | X    | verify/rework SQL script; low prio (Dungeon: Stratholme); update: wrong, won't take over: This update leads to 2 SAI entries having the same ID. The issue itself was wrong: After using the blaster it has to be used again on the freed souls |
 | sol@f2ab17f5 | 2022-03-18 |      | verify/rework SQL script; check the WP paths; low prio (Cosmetic) |
 | sol@87441c7a | 2022-03-18 |      | low prio (Localization: zhTW) |
 | sol@c0dd59b4 | 2022-03-18 |      | low prio (Localization: zhTW) |
@@ -180,7 +184,7 @@ TODOs:
 | sol@65330af5 | 2022-01-11 |      | verify GUIDs; use new table "creature\_id\_chance", see sol@d65c4ae5; low prio (Cosmetic) |
 | sol@f89f0301 | 2022-01-11 |      | won't take over, fix linked\_respawn instead; low prio (Dungeon: Molten Core) |
 | sol@2fd8b00d | 2022-01-11 | X    | this can be used as an alternative concerning pools in instanced maps (pools don't work correctly there); implement another solution: don't change the creature table, add a new table instead to be more flexible and ensure backward compatibility; done: sol@d65c4ae5 |
-| sol@f1d4266e | 2022-01-10 |      | won't take over as there are over 1400 entries in the "creature" table with custom model IDs; removing "modelid" from table "creature" will cause a lot of issues which will take much time to fix; just keep this commit as a reference |
+| sol@f1d4266e | 2022-01-10 |      | not needed, won't take over; there are over 1400 entries in the "creature" table with custom model IDs; removing "modelid" from table "creature" will cause a lot of issues which will take much time to fix; just keep this commit as a reference |
 | sol@6b6a074a | 2022-01-10 |      | verify/rework SQL script; check pools; low prio (Cosmetic) |
 | sol@ae795fbc | 2022-01-10 |      | verify/rework SQL script; check the WP paths; low prio (Cosmetic) |
 | sol@6a696bff | 2022-01-07 |      | verify/rework SQL script; check the WP paths; low prio (Cosmetic) |
@@ -190,7 +194,7 @@ TODOs:
 | sol@5a8b4556 | 2022-01-07 |      | verify/rework SQL script; check the WP paths; low prio (Cosmetic) |
 | sol@fdcaa8e1 | 2022-01-07 |      | verify/rework SQL script; check the WP paths; low prio (Cosmetic) |
 | sol@66e6d331 | 2022-01-06 |      | take over if needed (does not seem to fix anything) |
-| sol@73d5772c | 2022-01-06 |      | verify/rework SQL script; check the WP paths; use SAI instead of creature script |
+| sol@73d5772c | 2022-01-06 |      | verify/rework SQL script; check the WP paths; use SAI instead of creature script; low prio (Cosmetic) |
 | sol@49b3bac2 | 2022-01-06 |      | verify/rework SQL script; check the WP paths; low prio (Cosmetic) |
 | sol@b2a4dda4 | 2022-01-06 | X    | verify/rework SQL script; update: won't take over, the texts are working correctly; also the author of the commit does not seem to understand how the probability actually works |
 | sol@c377c62c | 2022-01-06 |      | take over if needed (updating the SAI is not needed because the spell uses implicit target via conditions) |
@@ -226,13 +230,13 @@ TODOs:
 | sol@8a5b9634 | 2022-01-03 |      | take over if needed |
 | sol@8216318f | 2022-01-01 |      | won't take over, fix linked\_respawn instead; low prio (Dungeon: Molten Core) |
 | sol@a0c49591 | 2021-12-31 | X    | take over from TC instead; update: won't take over, the quest should be disabled: sol@410d1fce |
-| sol@a3b22654 | 2021-12-31 |      | verify/rework SQL script |
+| sol@a3b22654 | 2021-12-31 | X    | verify/rework SQL script; done: sol@5b7729ef |
 | sol@ec7c6831 | 2021-12-31 |      | verify/rework SQL script; verify WP paths; low prio (Cosmetic) |
-| sol@19b98c5e | 2021-12-31 |      | verify/rework SQL script |
+| sol@19b98c5e | 2021-12-31 | X    | verify/rework SQL script; done: sol@0c979974 |
 | sol@ddddb108 | 2021-12-30 |      | verify/rework SQL script; check the WP paths; low prio (Cosmetic) |
 | sol@e5b5413a | 2021-12-30 | X    | verify/rework SQL script; done: sol@eb8a4c7e |
 | sol@bbf08c1a | 2021-12-30 |      | take over if needed (seems to be the same as TEMPSUMMON\_TIMED\_OR\_DEAD\_DESPAWN) |
-| sol@5a1bdb1f | 2021-12-29 |      | keep as reference, won't take over; this will overwrite many fixed issues of the past (note: it is perfectly valid to edit the broadcast\_text table, e.g. to fix typos or other text issues which were part of retail at the time) |
+| sol@5a1bdb1f | 2021-12-29 |      | not needed, just keep as a reference; this will overwrite many fixed issues of the past (note: it is perfectly valid to edit the broadcast\_text table, e.g. to fix typos or other text issues which were part of retail at the time) |
 | sol@d148300b | 2021-12-28 | X    | verify/rework SQL script; done: sol@2480cd8c |
 | sol@10eb1870 | 2021-12-28 |      | verify/rework SQL script; verify WP paths; low prio (Cosmetic) |
 | sol@13075696 | 2021-12-27 | X    | won't take over (the quest clearly states that the quest item drops from Strashaz naga, don't care about sniffs); add the quest loot to Strashaz Myrmidon & Tidelord Rrurgaz and set chance to 20 for all creatures; done: sol@e30e9c3e |
