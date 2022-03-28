@@ -141,7 +141,7 @@ The faction ID of the faction that the player will gain or lose points in. See F
 
 ### MaxStanding
 
-The maximum standing that the creature will award reputation until. If the player achieves this standing or any other standing higher than this, the creature will not award any reputation.
+The maximum standing that the creature will award reputation until. If the player achieves a standing higher than this, the creature will not award any reputation.
 
 <table>
 <colgroup>

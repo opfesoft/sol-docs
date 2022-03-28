@@ -39,4 +39,4 @@ Can have 8 values: deDE, esES, esMX, frFR, koKR, ruRU, zhCN, zhTW
 
 ### Text
 
-Translated content for corresponding field [npc\_text.text0 \_0](npc_text.md#text0_0) - [npc\_text-text7\_1](npc_text.md#text7_1) field.
+Translated content for corresponding field [npc\_text.textX \_0](npc_text.md#textx_0) and [npc\_text-textX\_1](npc_text.md#textx_1) field.
