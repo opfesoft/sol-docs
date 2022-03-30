@@ -2,20 +2,21 @@ TODOs:
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@cb6d579d | 2022-03-28 |      | verify/rework SQL script |
 | sol@337d7e77 | 2022-03-27 |      | just take over (and rework) a few useful changes; low prio (Cosmetic) |
 | sol@1e1754a6 | 2022-03-27 |      | just take over (and rework) a few useful changes, e.g. concerning removal of Reginald Windsor or the Adam and Billy duplicates |
-| sol@dfa2198d | 2022-03-27 |      | won't take over, properly disable player interaction during execution of the timed action list; rework SAI for 17214 & 17215 |
+| sol@dfa2198d | 2022-03-27 | X    | won't take over, properly disable player interaction during execution of the timed action list; rework SAI for 17214 & 17215; done: sol@099ff51b |
 | sol@c171dadf | 2022-03-27 |      | verify/rework SQL script; low prio (Dungeon: Blackwing Lair) |
 | sol@540b5fca | 2022-03-27 |      | verify changes; low prio (Dungeon: Blackwing Lair) |
 | sol@3a69d36a | 2022-03-27 |      | verify changes; low prio (Dungeon: Blackwing Lair) |
 | sol@63f17d3c | 2022-03-27 |      | low prio (Localization: ruRU) |
 | sol@ae30154d | 2022-03-27 |      | low prio (Localization: ruRU) |
 | sol@ea55c15a | 2022-03-27 |      | verify changes; low prio (PvP) |
-| sol@c6dcf778 | 2022-03-27 |      | rework creature script "npc\_stone\_watcher\_of\_norgannon" instead |
+| sol@c6dcf778 | 2022-03-27 | X    | rework creature script "npc\_stone\_watcher\_of\_norgannon" instead; done: sol@5abd343f (removed the creature script) |
 | sol@69616e5d | 2022-03-27 |      | verify changes; low prio (Dungeon: Ulduar) |
 | sol@5b50f04c | 2022-03-27 |      | verify changes; low prio (Dungeon: Ulduar) |
 | sol@546c4f89 | 2022-03-27 |      | verify changes; low prio (PvP) |
-| sol@62dfeeef | 2022-03-27 |      | verify/rework SQL script |
+| sol@62dfeeef | 2022-03-27 | X    | verify/rework SQL script; done: sol@578dc54e |
 | sol@df89bbaf | 2022-03-27 |      | verify/rework SQL script; low prio (Dungeon: Ulduar) |
 | sol@2fd47728 | 2022-03-27 |      | verify/rework SQL script; check the WP paths; low prio (Cosmetic) |
 | sol@fe3dad21 | 2022-03-27 |      | verify/rework SQL script; low prio (Dungeon: Blackwing Lair) |
@@ -31,7 +32,7 @@ TODOs:
 | sol@c7a77653 | 2022-03-23 | X    | use UPDATE instead of DELETE/INSERT; done: sol@843a1c32 |
 | sol@b0bcfc18 | 2022-03-21 | X    | take over from TC instead; done: sol@3cd0e155 |
 | sol@8358a5d6 | 2022-03-21 |      | verify changes; low prio (Dungeon: Onyxia's Lair) |
-| sol@199d2159 | 2022-03-18 |      | won't take over, rework SAI instead |
+| sol@199d2159 | 2022-03-18 | X    | won't take over, rework SAI instead; done: sol@bec285e0 |
 | sol@b0e6bae8 | 2022-03-18 |      | low prio (Localization: zhTW) |
 | sol@16f89e13 | 2022-03-18 |      | low prio (Localization: esES, esMX) |
 | sol@ce7b6c5a | 2022-03-18 |      | low prio (Localization: esES, esMX) |
@@ -71,7 +72,7 @@ TODOs:
 | sol@085ed12a | 2022-03-08 |      | low prio (Localization: esES, esMX) |
 | sol@95b94d85 | 2022-03-08 |      | low prio (Localization: ruRU) |
 | sol@3cab4f46 | 2022-03-08 |      | verify/rework SQL script; low prio (Dungeon: Blackwing Lair) |
-| sol@f2f0b742 | 2022-03-08 |      | verify/rework SQL script |
+| sol@f2f0b742 | 2022-03-08 | X    | verify/rework SQL script; update: already fixed, see sol@3e61589b |
 | sol@a0d9d59b | 2022-03-08 |      | verify changes; low prio (Dungeon: Blackwing Lair) |
 | sol@a7aecd12 | 2022-03-07 | X    | also update npcflag of the affected creatures (quest\_greeting is only used if UNIT\_NPC\_FLAG\_GOSSIP is not set and UNIT\_NPC\_FLAG\_QUESTGIVER is set); done: sol@b5a8944d |
 | sol@e4f88ba9 | 2022-03-07 |      | low prio (Localization: esES, esMX) |
@@ -91,27 +92,27 @@ TODOs:
 | sol@1392cee3 | 2022-03-06 |      | verify changes; low prio (Dungeon: Blackwing Lair) |
 | sol@a74e57fb | 2022-03-06 |      | verify changes; low prio (Dungeon: Blackwing Lair) |
 | sol@d927ce6f | 2022-03-06 | X    | adapt to Sol; only take over absolutely necessary changes (e.g. won't take over the reload command); done: sol@b5a8944d |
-| sol@fda8b723 | 2022-03-06 |      | verify/rework SQL script |
-| sol@9f6a3602 | 2022-03-06 |      | verify/rework SQL script |
+| sol@fda8b723 | 2022-03-06 | X    | verify/rework SQL script; done: sol@a3074773 |
+| sol@9f6a3602 | 2022-03-06 | X    | verify/rework SQL script; done: sol@02728d29 |
 | sol@a571e50d | 2022-03-06 |      | verify/rework SQL script; low prio (Dungeon: Blackwing Lair) |
-| sol@8303aab5 | 2022-03-03 |      | also fix the other typos in the text |
+| sol@8303aab5 | 2022-03-03 | X    | also fix the other typos in the text; done: sol@cce66519 |
 | sol@e4d3f57d | 2022-03-03 |      | verify changes; low prio (Dungeon: Blackwing Lair) |
 | sol@df8a1e6c | 2022-03-03 |      | verify/rework SQL script; check the WP paths; low prio (Cosmetic) |
 | sol@4b77dcdd | 2022-03-02 |      | verify changes; low prio (Dungeon: Blackwing Lair) |
-| sol@b891046d | 2022-03-02 |      | verify/rework SQL script |
-| sol@958c730b | 2022-03-02 |      | verify/rework SQL script |
+| sol@b891046d | 2022-03-02 | X    | verify/rework SQL script; done: sol@8e43878a |
+| sol@958c730b | 2022-03-02 | X    | verify/rework SQL script; done: sol@a818ed3e |
 | sol@bdcbeee1 | 2022-03-01 |      | verify/rework SQL script; low prio (Dungeon: Blackrock Depths) |
 | sol@a2b2b260 | 2022-03-01 |      | verify changes; low prio (Dungeon: Ulduar) |
 | sol@00719619 | 2022-03-01 |      | verify/rework SQL script (also see sol@b761da7d, sol@b0bc3302); low prio (Dungeon: Blackwing Lair) |
 | sol@313c413e | 2022-03-01 | X    | wrong, won't take over: With patch 3.1.0 neither the quest "Triage" nor the books are necessary anymore, so the gossip texts are obsolete; remove them from the gossip menu instead (same for Horde, see gossip menu ID 5856); done: sol@796ec647 |
 | sol@ca333d55 | 2022-02-26 |      | verify/rework SQL script; check the WP paths; low prio (Cosmetic) |
-| sol@35820d78 | 2022-02-25 |      | verify/rework SQL script |
+| sol@35820d78 | 2022-02-25 | X    | verify/rework SQL script; done: sol@ed1bc581 |
 | sol@5c1f5906 | 2022-02-25 | X    | verify/rework SQL script; update: won't take over, she's not a demon trainer anymore |
 | sol@d8c83c6f | 2022-02-24 |      | verify/rework SQL script; check the WP paths and additional spawns; low prio (Cosmetic) |
 | sol@2736de74 | 2022-02-24 |      | low prio (Localization: zhCN) |
 | sol@15395a25 | 2022-02-22 | X    | verify/rework SQL script; verify quests & additional changes to quest texts; low prio (Cosmetic); update: only took over a few changes concerning quest template addons and one NPC, see sol@14c90934; took over all quest emotes directly from the TC DB, see sol@5bacedc0, sol@811c2ed7 and sol@a300cc3b |
 | sol@ccc9bb66 | 2022-02-22 |      | verify changes; low prio (PvP) |
-| sol@a244e0cf | 2022-02-19 |      | verify/rework SQL script |
+| sol@a244e0cf | 2022-02-19 | X    | verify/rework SQL script; done: sol@3d57294b |
 | sol@80ad5063 | 2022-02-19 |      | verify/rework SQL script; check the WP paths; low prio (Cosmetic) |
 | sol@18dacba0 | 2022-02-18 |      | verify/rework SQL script; check the WP paths; verify creature IDs (use "creature\_id\_chance"); low prio (Cosmetic) |
 | sol@d7ae312a | 2022-02-18 |      | verify changes; low prio (Dungeon: Zul'Aman) |
@@ -125,7 +126,7 @@ TODOs:
 | sol@0fea133f | 2022-02-15 |      | verify changes; low prio (Dungeon: Blackwing Lair) |
 | sol@d3e04459 | 2022-02-14 |      | verify changes; low prio (Dungeon: Blackwing Lair) |
 | sol@b5b48914 | 2022-02-14 |      | verify changes; low prio (Dungeon: Blackwing Lair) |
-| sol@8409e9f7 | 2022-02-14 |      | verify/rework SQL script |
+| sol@8409e9f7 | 2022-02-14 | X    | verify/rework SQL script; done: sol@b2960cf5 |
 | sol@6daaffa9 | 2022-02-14 |      | verify changes; low prio (Dungeon: Blackwing Lair) |
 | sol@d9fcd9de | 2022-02-14 |      | verify/rework scripts; low prio (Event: Love is in the Air) |
 | sol@825d4f91 | 2022-02-14 | X    | won't take over, choose another position and enable random movement; also fix z position for a nearby Ghostpaw Runner; done: sol@aeac0f0b |
@@ -134,39 +135,39 @@ TODOs:
 | sol@b971d16d | 2022-02-12 |      | verify changes; low prio (Dungeon: Blackwing Lair) |
 | sol@89deb60d | 2022-02-12 |      | won't take over, extend Spell::CheckCast instead (see Player::CastItemUseSpell); low prio (minor issue) |
 | sol@61125a1b | 2022-02-12 |      | verify changes; low prio (Dungeon: Blackwing Lair) |
-| sol@cf5dae9d | 2022-02-11 |      | verify/rework SQL script |
+| sol@cf5dae9d | 2022-02-11 | X    | verify/rework SQL script; update: not needed as this is actually a quest greeting (see sol@b5a8944d) |
 | sol@2933a535 | 2022-02-11 |      | verify changes; low prio (Dungeon: Blackwing Lair) |
 | sol@0d4e28e6 | 2022-02-11 |      | verify/rework SQL script; low prio (Dungeon: Blackwing Lair) |
 | sol@c9ac48e8 | 2022-02-11 |      | verify/rework scripts (also see sol@a6c93f1c); low prio (Event: Love is in the Air) |
-| sol@bffe8381 | 2022-02-10 |      | won't take over, rework creature script instead |
+| sol@bffe8381 | 2022-02-10 | X    | won't take over, rework creature script instead; done: sol@915932d2 |
 | sol@0fa4a90a | 2022-02-10 | X    | won't take over, just fix the logic error concerning "Aura of Despair"; done: sol@9749f2e0 |
 | sol@520f0c6a | 2022-02-10 |      | verify/rework scripts (also see sol@e1711e28, sol@25c824e8, sol@9a67c0f0, sol@33b01834, sol@cb7f3d50); check the WP paths; low prio (World Boss) |
 | sol@336967b3 | 2022-02-09 | X    | won't take over, just fix the logic error concerning spell 28845 in Unit::HandleProcTriggerSpell; done: sol@44ee29b4 |
 | sol@f6be03d2 | 2022-02-08 |      | verify/rework SQL script; low prio (Dungeon: Blackwing Lair) |
 | sol@47f70535 | 2022-02-07 |      | verify/rework SQL script; low prio (Dungeon: Blackwing Lair) |
-| sol@4d4e7e68 | 2022-02-04 |      | verify/rework SQL script |
+| sol@4d4e7e68 | 2022-02-04 | X    | verify/rework SQL script; done: sol@29f192dc |
 | sol@efce657d | 2022-02-04 |      | verify changes; low prio (Dungeon: Blackwing Lair) |
-| sol@1c6660c1 | 2022-02-04 |      | verify/rework SQL script |
-| sol@1dbbed0c | 2022-02-04 |      | verify/rework SQL script |
+| sol@1c6660c1 | 2022-02-04 | X    | verify/rework SQL script; done: sol@6eeeb38b |
+| sol@1dbbed0c | 2022-02-04 | X    | verify/rework SQL script; done: sol@631e176c |
 | sol@e85e556d | 2022-02-04 |      | take over if needed |
 | sol@6c17f872 | 2022-02-03 | X    | duplicate quest IDs, verify quests; done: sol@249c9bf8 |
-| sol@3d3fd352 | 2022-02-03 |      | verify/rework SQL script |
-| sol@26267e0c | 2022-02-03 |      | verify/rework SQL script |
+| sol@3d3fd352 | 2022-02-03 | X    | verify/rework SQL script; done: sol@946d8cfc |
+| sol@26267e0c | 2022-02-03 | X    | verify/rework SQL script; update: not needed as this is actually a quest greeting (see sol@b5a8944d) |
 | sol@8f8fbd95 | 2022-01-31 | X    | won't take over, use SPELL\_GROUP\_SPECIAL\_FLAG\_FORCED\_STRONGEST instead; done: sol@23e233c8 |
 | sol@61cb63e9 | 2022-01-30 |      | verify/rework SQL script (also see sol@585f3f24); check random movement & WP paths; low prio (Cosmetic) |
 | sol@d9e1cf40 | 2022-01-30 |      | take over if needed |
 | sol@5577ea3f | 2022-01-30 |      | take over if needed |
-| sol@9036e3b9 | 2022-01-29 |      | verify/rework SQL script |
+| sol@9036e3b9 | 2022-01-29 | X    | verify/rework SQL script; done: sol@610d9251 |
 | sol@ebda2973 | 2022-01-29 |      | take over if needed |
 | sol@1ec6ea1c | 2022-01-29 |      | take over if needed |
-| sol@1bbaeed6 | 2022-01-29 |      | verify/rework SQL script |
+| sol@1bbaeed6 | 2022-01-29 | X    | verify/rework SQL script; done: sol@d7bd106a |
 | sol@9fadfa64 | 2022-01-28 |      | take over if needed |
-| sol@b468d1ae | 2022-01-28 |      | verify/rework SQL script; verify loot; compare with TC |
+| sol@b468d1ae | 2022-01-28 | X    | verify/rework SQL script; verify loot; compare with TC; done: sol@cf058e95 |
 | sol@fbb50210 | 2022-01-28 |      | take over if needed |
 | sol@674b168a | 2022-01-28 |      | completely wrong, won't take over: pausing the thread causes delays for all objects (players, creatures etc.) updated by the current thread; find another solution; low prio (minor issue); update: reverted by AC commit sol@8f249a3d |
 | sol@b085ee61 | 2022-01-28 |      | completely wrong, won't take over: pausing the thread causes delays for all objects (players, creatures etc.) updated by the current thread; find another solution; low prio (minor issue); update: reverted by AC commit sol@8f249a3d |
 | sol@82076755 | 2022-01-28 |      | Omen should not regenerate health but despawn if it takes too long to take him down; fix creature script; low prio (Event: Lunar Festival) |
-| sol@7abc3bb0 | 2022-01-28 |      | verify/rework SQL script (also see sol@35929315); verify loot; compare with TC |
+| sol@7abc3bb0 | 2022-01-28 | X    | verify/rework SQL script (also see sol@35929315); verify loot; compare with TC; done: sol@5d223a4b |
 | sol@79d4efd1 | 2022-01-27 | X    | won't take over, create a proper creature formation and WP path; done: sol@ae3c85ec |
 | sol@fa9c2ed2 | 2022-01-27 |      | won't take over, just check the random movement in the area; low prio (Cosmetic) |
 | sol@5a4dad8e | 2022-01-27 |      | won't take over, just check the random movement in the area; low prio (Cosmetic) |
@@ -594,7 +595,7 @@ TODOs:
 | sol@55831fab | 2021-09-07 | X    | contains wrong GUIDs in the comments; also use pool template ID 507 instead (501-506 are similar pools); done: sol@b50280d3 |
 | sol@52d9f532 | 2021-09-07 | X    | verify/rework SQL script; implemented another solution: sol@b336ba97 |
 | sol@02b0b29f | 2021-09-06 |      | verify changes (also see sol@987ee3da); low prio (minor issue) |
-| sol@50991bdc | 2021-09-05 |      | take over if needed; could cause several side effects |
+| sol@50991bdc | 2021-09-05 |      | won't take over, could cause several side effects; update: use another solution: add additional attributes to TempSummon to specify if it should be kept alive if the owner dies and if so also change the summon type and lifetime; default should be to despawn at once, like it was before, but it can be changed using SAI or CreatureScript (won't use summon properties as proposed in TC discussions, too restrictive) |
 | sol@f5ef1220 | 2021-09-04 | X    | verify changes and check the creatures in the area; done: sol@2307963c |
 | sol@6ed71767 | 2021-09-04 |      | keep as reference; take over single values if needed; won't blindly take over such mass updates |
 | sol@d8b3df09 | 2021-09-04 |      | low prio (Localization: zhCN) |
