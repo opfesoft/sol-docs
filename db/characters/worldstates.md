@@ -262,8 +262,8 @@ WORLDSTATE\_SI\_EASTERN\_PLAGUELANDS = 2282, // The Scourge infestation grows in
 WORLDSTATE\_SI\_TANARIS = 2283, // It seems the army of the Scourge has come to Tanaris. A significant number of their necropolises and other forces have been dispatched there.$B$BNumber of Necropolises remaining: $2283W  
 WORLDSTATE\_SI\_WINTERSPRING = 2284, // Indeed, the hills of Winterspring are currently attempting to withstand a renewed Scourge assault. Your assistance would help them greatly.$B$BNumber of Necropolises remaining: $2284W  
 WORLDSTATE\_SI\_UNK = 2285, // saved world state is: $2285W // ???  
-SI\_GATHERED\_A = 2313, // ally silityst gathered  
-SI\_GATHERED\_H = 2314, // horde silityst gathered  
+SI\_GATHERED\_A = 2313, // ally silithyst gathered
+SI\_GATHERED\_H = 2314, // horde silithyst gathered
 SI\_SILITHYST\_MAX = 2317, // max silithyst  
 AQ\_SANDWORM\_N = 2322,  
 AQ\_SANDWORM\_S = 2323,  
@@ -446,12 +446,12 @@ BATTELGROUND\_RUINS\_OF\_LORDAERNON\_SHOW = 3002, // 9 show // default value 1 /
 QUEST\_BREAK\_THE\_BLOCKADE\_MINUTES\_AWAY = 3078, // Our stolen zeppelin's less than $3078w minutes away. // Break the Blockade quest=11153  
 EYE\_OF\_THE\_STORM\_09 = 3085, // default value 379 // ???  
 QUEST\_BREAK\_THE\_BLOCKADE\_DWARFS\_ACTIVATED = 3094, // There are $3094W activated dwarves!  
-QUEST\_BREAK\_THE\_BLOCKADE\_TOTAL\_INJURED = 3096, // We did it boys! Now back to the Grim Guzzler and we'll drink to the $3096W that were injuredl! // RETREAT!! We've already lost $3096W and we can't afford to lose any more!!  
+QUEST\_BREAK\_THE\_BLOCKADE\_TOTAL\_INJURED = 3096, // We did it boys! Now back to the Grim Guzzler and we'll drink to the $3096W that were injured! // RETREAT!! We've already lost $3096W and we can't afford to lose any more!!
 BG\_AV\_Alliance\_Score = 3127,  
 BG\_AV\_Horde\_Score = 3128,  
 BG\_AV\_SHOW\_H\_SCORE = 3133,  
 BG\_AV\_SHOW\_A\_SCORE = 3134,  
-QUEST\_UNK\_01\_TOTAL\_CASUALTIES = 3151, // RETREAT!! We've taken a beating and had $3151W casualties! We can't keep taking these losses! FALL BACK!! // We did it boys! Now back to the Grim Guzzler and we'll drink to the $3151W that were injuredl!  
+QUEST\_UNK\_01\_TOTAL\_CASUALTIES = 3151, // RETREAT!! We've taken a beating and had $3151W casualties! We can't keep taking these losses! FALL BACK!! // We did it boys! Now back to the Grim Guzzler and we'll drink to the $3151W that were injured!
 ARENA\_SEASON\_IN\_PROGRESS = 3191, // CONFIG\_ARENA\_SEASON\_IN\_PROGRESS // Arena season in progress, 0 - end of season //SendInitWorldStates  
   
 QUEST\_DISCOVERING\_PERCENT\_RAZORTHORN\_ROOTS = 3223, // Good day to you, $c.$b$bThere's much to be done to assist in the effort here. Sadly, there's very little I can do for you until I get all of my supplies.$b$bI've now got $3223w percent of the razorthorn roots I need to get started. Any assistance you provide will be well worth the effort, I assure you. // The alchemy lab is not quite yet ready, $n. Mar'nah says that she is $3223w percent done with its assembly, however.$B$BIf you would   like to help her with that, you will find her inside the inn at the Sun's Reach Harbor. // quest=11522 <http://www.wowhead.com/quest=11520/discovering-your-roots>  

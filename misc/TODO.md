@@ -2,9 +2,37 @@ TODOs:
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@32009468 | 2022-04-03 |      | verify changes; low prio (Dungeon: Blackwing Lair) |
+| sol@b58ffb4f | 2022-04-03 |      | verify changes; low prio (Dungeon: Blackwing Lair) |
+| sol@36e884dc | 2022-04-02 |      | verify changes; low prio (Dungeon: Blackwing Lair) |
+| sol@ce0e008f | 2022-04-02 |      | verify/rework SQL script; low prio (Dungeon: Blackwing Lair) |
+| sol@b0c3b8f8 | 2022-04-02 |      | low prio (Localization: ruRU) |
+| sol@93f3160d | 2022-04-02 |      | low prio (Localization: esES, esMX) |
+| sol@99d24e02 | 2022-04-02 |      | low prio (Localization: ruRU) |
+| sol@15a01cf5 | 2022-04-02 |      | low prio (Localization: ruRU) |
+| sol@fe26cfc2 | 2022-04-02 |      | low prio (Localization: ruRU) |
+| sol@d536d211 | 2022-04-02 |      | low prio (Localization: ruRU) |
+| sol@d24adb4b | 2022-04-02 |      | low prio (Localization: ruRU) |
+| sol@b2faa409 | 2022-04-02 |      | low prio (Localization: ruRU) |
+| sol@d4d1a3f7 | 2022-04-02 |      | low prio (Localization: ruRU) |
+| sol@87a837e4 | 2022-04-02 |      | low prio (Localization: ruRU) |
+| sol@19cbbd2a | 2022-04-02 |      | low prio (Localization: esES, esMX) |
+| sol@353f5185 | 2022-04-02 |      | verify changes; low prio (Dungeon: Blackwing Lair) |
+| sol@58bfc196 | 2022-04-01 |      | low prio (Localization: ruRU) |
+| sol@7d574680 | 2022-04-01 |      | low prio (Localization: ruRU) |
+| sol@cd32ac5a | 2022-04-01 |      | verify/rework SQL script |
+| sol@45577d30 | 2022-04-01 |      | low prio (Localization: ruRU) |
+| sol@126ba680 | 2022-04-01 |      | low prio (Localization: ruRU) |
+| sol@e528db7d | 2022-04-01 |      | low prio (Localization: ruRU) |
+| sol@bde7943b | 2022-04-01 |      | only take over the missing names; low prio (Localization) |
+| sol@76227539 | 2022-04-01 |      | verify changes; low prio (Dungeon: Ulduar) |
+| sol@57fee981 | 2022-04-01 |      | low prio (Localization: ruRU) |
+| sol@43709f01 | 2022-04-01 |      | verify/rework SQL script; low prio (Dungeon: Ulduar) |
+| sol@4521dcb5 | 2022-04-01 |      | verify changes; low prio (PvP) |
+| sol@e139ed1c | 2022-03-30 |      | verify changes; low prio (Dungeon: Icecrown Citadel) |
 | sol@cb6d579d | 2022-03-28 |      | verify/rework SQL script |
-| sol@337d7e77 | 2022-03-27 |      | just take over (and rework) a few useful changes; low prio (Cosmetic) |
-| sol@1e1754a6 | 2022-03-27 |      | just take over (and rework) a few useful changes, e.g. concerning removal of Reginald Windsor or the Adam and Billy duplicates |
+| sol@337d7e77 | 2022-03-27 | X    | just take over (and rework) a few useful changes; low prio (Cosmetic); done: sol@32ddd427, sol@553a9e88, sol@6aec47ab |
+| sol@1e1754a6 | 2022-03-27 | X    | just take over (and rework) a few useful changes, e.g. concerning removal of Reginald Windsor or the Adam and Billy duplicates; done: sol@82c0d5f0, sol@5ebd1240, sol@02602ab7, sol@c6fc2604 |
 | sol@dfa2198d | 2022-03-27 | X    | won't take over, properly disable player interaction during execution of the timed action list; rework SAI for 17214 & 17215; done: sol@099ff51b |
 | sol@c171dadf | 2022-03-27 |      | verify/rework SQL script; low prio (Dungeon: Blackwing Lair) |
 | sol@540b5fca | 2022-03-27 |      | verify changes; low prio (Dungeon: Blackwing Lair) |
