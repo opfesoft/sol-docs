@@ -2,6 +2,10 @@ TODOs:
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@48fccc85 | 2022-04-06 |      | verify changes; low prio (Dungeon: Trial of the Crusader) |
+| sol@8426da6e | 2022-04-05 |      | verify changes; low prio (Dungeon: Ulduar) |
+| sol@95ee81ae | 2022-04-05 |      | verify changes; low prio (Dungeon: Blackwing Lair) |
+| sol@5df8fd9a | 2022-04-05 |      | verify changes; low prio (Dungeon: Blackwing Lair) |
 | sol@32009468 | 2022-04-03 |      | verify changes; low prio (Dungeon: Blackwing Lair) |
 | sol@b58ffb4f | 2022-04-03 |      | verify changes; low prio (Dungeon: Blackwing Lair) |
 | sol@36e884dc | 2022-04-02 |      | verify changes; low prio (Dungeon: Blackwing Lair) |
@@ -20,7 +24,7 @@ TODOs:
 | sol@353f5185 | 2022-04-02 |      | verify changes; low prio (Dungeon: Blackwing Lair) |
 | sol@58bfc196 | 2022-04-01 |      | low prio (Localization: ruRU) |
 | sol@7d574680 | 2022-04-01 |      | low prio (Localization: ruRU) |
-| sol@cd32ac5a | 2022-04-01 |      | verify/rework SQL script |
+| sol@cd32ac5a | 2022-04-01 | X    | verify/rework SQL script; done: sol@cfa8b522 |
 | sol@45577d30 | 2022-04-01 |      | low prio (Localization: ruRU) |
 | sol@126ba680 | 2022-04-01 |      | low prio (Localization: ruRU) |
 | sol@e528db7d | 2022-04-01 |      | low prio (Localization: ruRU) |
@@ -30,7 +34,7 @@ TODOs:
 | sol@43709f01 | 2022-04-01 |      | verify/rework SQL script; low prio (Dungeon: Ulduar) |
 | sol@4521dcb5 | 2022-04-01 |      | verify changes; low prio (PvP) |
 | sol@e139ed1c | 2022-03-30 |      | verify changes; low prio (Dungeon: Icecrown Citadel) |
-| sol@cb6d579d | 2022-03-28 |      | verify/rework SQL script |
+| sol@cb6d579d | 2022-03-28 | X    | verify/rework SQL script; done: sol@45ed47be (contained a few bugs, does not seem to have been thoroughly tested) |
 | sol@337d7e77 | 2022-03-27 | X    | just take over (and rework) a few useful changes; low prio (Cosmetic); done: sol@32ddd427, sol@553a9e88, sol@6aec47ab |
 | sol@1e1754a6 | 2022-03-27 | X    | just take over (and rework) a few useful changes, e.g. concerning removal of Reginald Windsor or the Adam and Billy duplicates; done: sol@82c0d5f0, sol@5ebd1240, sol@02602ab7, sol@c6fc2604 |
 | sol@dfa2198d | 2022-03-27 | X    | won't take over, properly disable player interaction during execution of the timed action list; rework SAI for 17214 & 17215; done: sol@099ff51b |
@@ -248,7 +252,7 @@ TODOs:
 | sol@5a8b4556 | 2022-01-07 |      | verify/rework SQL script; check the WP paths; low prio (Cosmetic) |
 | sol@fdcaa8e1 | 2022-01-07 |      | verify/rework SQL script; check the WP paths; low prio (Cosmetic) |
 | sol@66e6d331 | 2022-01-06 |      | take over if needed (does not seem to fix anything) |
-| sol@73d5772c | 2022-01-06 |      | verify/rework SQL script; check the WP paths; use SAI instead of creature script; low prio (Cosmetic) |
+| sol@73d5772c | 2022-01-06 | X    | verify/rework SQL script; check the WP paths; use SAI instead of creature script; low prio (Cosmetic); done: sol@c17ebdfb |
 | sol@49b3bac2 | 2022-01-06 |      | verify/rework SQL script; check the WP paths; low prio (Cosmetic) |
 | sol@b2a4dda4 | 2022-01-06 | X    | verify/rework SQL script; update: won't take over, the texts are working correctly; also the author of the commit does not seem to understand how the probability actually works |
 | sol@c377c62c | 2022-01-06 |      | take over if needed (updating the SAI is not needed because the spell uses implicit target via conditions) |
@@ -623,7 +627,7 @@ TODOs:
 | sol@55831fab | 2021-09-07 | X    | contains wrong GUIDs in the comments; also use pool template ID 507 instead (501-506 are similar pools); done: sol@b50280d3 |
 | sol@52d9f532 | 2021-09-07 | X    | verify/rework SQL script; implemented another solution: sol@b336ba97 |
 | sol@02b0b29f | 2021-09-06 |      | verify changes (also see sol@987ee3da); low prio (minor issue) |
-| sol@50991bdc | 2021-09-05 |      | won't take over, could cause several side effects; update: use another solution: add additional attributes to TempSummon to specify if it should be kept alive if the owner dies and if so also change the summon type and lifetime; default should be to despawn at once, like it was before, but it can be changed using SAI or CreatureScript (won't use summon properties as proposed in TC discussions, too restrictive) |
+| sol@50991bdc | 2021-09-05 | X    | won't take over, could cause several side effects; update: use another solution: add additional attributes to TempSummon to specify if it should be kept alive if the owner dies and if so also change the summon type and lifetime; default should be to despawn at once, like it was before, but it can be changed using SAI or CreatureScript (won't use summon properties as proposed in TC discussions, too restrictive); done: sol@85fa3590 |
 | sol@f5ef1220 | 2021-09-04 | X    | verify changes and check the creatures in the area; done: sol@2307963c |
 | sol@6ed71767 | 2021-09-04 |      | keep as reference; take over single values if needed; won't blindly take over such mass updates |
 | sol@d8b3df09 | 2021-09-04 |      | low prio (Localization: zhCN) |

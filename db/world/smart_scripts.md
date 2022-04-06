@@ -3856,6 +3856,20 @@ If the start position distance is far away the circle movement speed will be dec
 </p></td>
 <td><p>Stop WP movement using [waypoint_data](waypoint_data.md) for the specified duration.</p></td>
 </tr>
+<tr>
+<td><p>SMART_ACTION_SET_OWNER_DEATH_DESPAWN</p></td>
+<td><p>240</p></td>
+<td><p>disable (0/1)</p></td>
+<td><p><a href="#summon-types">Summon type</a></p></td>
+<td><p>duration in ms</p></td>
+<td><p><br />
+</p></td>
+<td><p><br />
+</p></td>
+<td><p><br />
+</p></td>
+<td><p>If "disable" is set to 1 prevent the despawn of minions if their owner dies. If summon type is 0, use 4 as default (TEMPSUMMON_TIMED_DESPAWN_OUT_OF_COMBAT). If duration is 0 use 5000 as default.</p></td>
+</tr>
 </tbody>
 </table>
 
