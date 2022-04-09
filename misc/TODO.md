@@ -2,6 +2,15 @@ TODOs:
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@1cce3676 | 2022-04-07 |      | verify changes; low prio (Dungeon: Blackwing Lair) |
+| sol@9858773a | 2022-04-07 |      | verify changes; low prio (Dungeon: Utgarde Pinnacle) |
+| sol@4dcab1f7 | 2022-04-07 |      | verify changes; low prio (Dungeon: Blackwing Lair) |
+| sol@c0473117 | 2022-04-07 |      | verify changes; low prio (Dungeon: Blackwing Lair) |
+| sol@28906248 | 2022-04-07 |      | verify changes; low prio (Dungeon: Blackwing Lair) |
+| sol@d9ca2cf7 | 2022-04-07 |      | verify/rework SQL script; low prio (Dungeon: Blackwing Lair) |
+| sol@3f5119de | 2022-04-07 |      | verify/rework SQL script; low prio (Dungeon: Blackwing Lair) |
+| sol@14463eb6 | 2022-04-07 |      | low prio (Localization: ruRU) |
+| sol@bd9b320a | 2022-04-07 |      | verify changes; low prio (Dungeon: Blackwing Lair) |
 | sol@48fccc85 | 2022-04-06 |      | verify changes; low prio (Dungeon: Trial of the Crusader) |
 | sol@8426da6e | 2022-04-05 |      | verify changes; low prio (Dungeon: Ulduar) |
 | sol@95ee81ae | 2022-04-05 |      | verify changes; low prio (Dungeon: Blackwing Lair) |
