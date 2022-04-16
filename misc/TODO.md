@@ -2,6 +2,21 @@ TODOs:
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@3d609bfd | 2022-04-15 |      | verify changes; low prio (Dungeon: Blackwing Lair) |
+| sol@a7d91afe | 2022-04-15 |      | verify/rework SQL script |
+| sol@17e14376 | 2022-04-15 |      | verify/rework SQL script & src changes |
+| sol@2f5a5dff | 2022-04-14 |      | verify changes; low prio (Dungeon: Blackwing Lair) |
+| sol@edd21199 | 2022-04-14 |      | use UPDATE instead of DELETE/INSERT |
+| sol@6a931b6b | 2022-04-13 |      | verify changes; low prio (Dungeon: Blackwing Lair) |
+| sol@1b1e29be | 2022-04-12 |      | verify changes; low prio (Dungeon: Blackwing Lair) |
+| sol@44145a62 | 2022-04-11 |      | low prio (Localization: zhCN) |
+| sol@ab990647 | 2022-04-11 |      | verify changes; low prio (Dungeon: Blackwing Lair) |
+| sol@f124ae14 | 2022-04-11 |      | verify changes; low prio (Dungeon: Blackwing Lair) |
+| sol@1ee058df | 2022-04-11 |      | verify changes; low prio (Dungeon: Blackwing Lair) |
+| sol@0039449e | 2022-04-11 |      | low prio (Localization: zhCN) |
+| sol@7e03a76f | 2022-04-11 |      | verify changes; low prio (Dungeon: Blackwing Lair) |
+| sol@e39a25b3 | 2022-04-11 |      | verify changes; low prio (Dungeon: Blackwing Lair) |
+| sol@47790c97 | 2022-04-10 |      | verify changes; low prio (Dungeon: Blackwing Lair) |
 | sol@1cce3676 | 2022-04-07 |      | verify changes; low prio (Dungeon: Blackwing Lair) |
 | sol@9858773a | 2022-04-07 |      | verify changes; low prio (Dungeon: Utgarde Pinnacle) |
 | sol@4dcab1f7 | 2022-04-07 |      | verify changes; low prio (Dungeon: Blackwing Lair) |
