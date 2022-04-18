@@ -2,6 +2,9 @@ TODOs:
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@f9a76d99 | 2022-04-17 |      | verify changes; low prio (Dungeon: Blackwing Lair) |
+| sol@e4df8f49 | 2022-04-17 |      | verify changes; low prio (Dungeon: Icecrown Citadel) |
+| sol@ca95a986 | 2022-04-16 |      | verify changes; low prio (Dungeon: Blackwing Lair) |
 | sol@3d609bfd | 2022-04-15 |      | verify changes; low prio (Dungeon: Blackwing Lair) |
 | sol@a7d91afe | 2022-04-15 |      | verify/rework SQL script |
 | sol@17e14376 | 2022-04-15 |      | verify/rework SQL script & src changes |
