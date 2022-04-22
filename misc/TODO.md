@@ -2,14 +2,22 @@ TODOs:
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@f1372309 | 2022-04-21 |      | verify changes; low prio (Dungeon: Blackwing Lair) |
+| sol@343732ee | 2022-04-20 |      | verify changes; low prio (Dungeon: Blackwing Lair) |
+| sol@33a70dbe | 2022-04-19 |      | verify changes; low prio (Dungeon: Blackwing Lair) |
+| sol@16d9d29a | 2022-04-18 |      | won't take over as this is actually a quest greeting, but improve/add SAI for both NPCs (see TC) |
+| sol@858c72bd | 2022-04-18 |      | low prio (Localization: frFR) |
+| sol@7e09072c | 2022-04-18 |      | low prio (Localization: esES, esMX) |
+| sol@cb5c045a | 2022-04-18 |      | verify/rework SQL script |
+| sol@7b352b76 | 2022-04-18 |      | take over if needed |
 | sol@f9a76d99 | 2022-04-17 |      | verify changes; low prio (Dungeon: Blackwing Lair) |
 | sol@e4df8f49 | 2022-04-17 |      | verify changes; low prio (Dungeon: Icecrown Citadel) |
 | sol@ca95a986 | 2022-04-16 |      | verify changes; low prio (Dungeon: Blackwing Lair) |
 | sol@3d609bfd | 2022-04-15 |      | verify changes; low prio (Dungeon: Blackwing Lair) |
-| sol@a7d91afe | 2022-04-15 |      | verify/rework SQL script |
-| sol@17e14376 | 2022-04-15 |      | verify/rework SQL script & src changes |
+| sol@a7d91afe | 2022-04-15 | X    | verify/rework SQL script; reworked the SAI & WP path: sol@bd322204 |
+| sol@17e14376 | 2022-04-15 | X    | verify/rework SQL script & src changes; done: sol@12471190, sol@31661d00, sol@b367aec9, sol@fb41ecd3, sol@6854485f, sol@e8154930, sol@b489e669 |
 | sol@2f5a5dff | 2022-04-14 |      | verify changes; low prio (Dungeon: Blackwing Lair) |
-| sol@edd21199 | 2022-04-14 |      | use UPDATE instead of DELETE/INSERT |
+| sol@edd21199 | 2022-04-14 | X    | use UPDATE instead of DELETE/INSERT; done: sol@1b3fda9d |
 | sol@6a931b6b | 2022-04-13 |      | verify changes; low prio (Dungeon: Blackwing Lair) |
 | sol@1b1e29be | 2022-04-12 |      | verify changes; low prio (Dungeon: Blackwing Lair) |
 | sol@44145a62 | 2022-04-11 |      | low prio (Localization: zhCN) |
@@ -200,7 +208,7 @@ TODOs:
 | sol@c9ac48e8 | 2022-02-11 |      | verify/rework scripts (also see sol@a6c93f1c); low prio (Event: Love is in the Air) |
 | sol@bffe8381 | 2022-02-10 | X    | won't take over, rework creature script instead; done: sol@915932d2 |
 | sol@0fa4a90a | 2022-02-10 | X    | won't take over, just fix the logic error concerning "Aura of Despair"; done: sol@9749f2e0 |
-| sol@520f0c6a | 2022-02-10 |      | verify/rework scripts (also see sol@e1711e28, sol@25c824e8, sol@9a67c0f0, sol@33b01834, sol@cb7f3d50); check the WP paths; low prio (World Boss) |
+| sol@520f0c6a | 2022-02-10 |      | verify/rework scripts (also see sol@e1711e28, sol@25c824e8, sol@9a67c0f0, sol@33b01834, sol@cb7f3d50, sol@47e0c0d8); check the WP paths; low prio (World Boss) |
 | sol@336967b3 | 2022-02-09 | X    | won't take over, just fix the logic error concerning spell 28845 in Unit::HandleProcTriggerSpell; done: sol@44ee29b4 |
 | sol@f6be03d2 | 2022-02-08 |      | verify/rework SQL script; low prio (Dungeon: Blackwing Lair) |
 | sol@47f70535 | 2022-02-07 |      | verify/rework SQL script; low prio (Dungeon: Blackwing Lair) |

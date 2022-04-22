@@ -2052,7 +2052,7 @@ Important note: Ensure that the home position is saved regularly while following
 </p></td>
 <td><p><br />
 </p></td>
-<td><p>Updates creature_template to given entry</p></td>
+<td><p>Updates creature_template to given entry (the AI will stay the same, but stats, creature texts etc. are taken from the new entry)</p></td>
 </tr>
 <tr>
 <td><p>SMART_ACTION_DIE</p></td>

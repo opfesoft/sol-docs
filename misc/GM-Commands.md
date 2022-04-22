@@ -158,6 +158,8 @@ Note: Some commands are working only by selecting a player or a creature. These 
 |modify talentpoints|1|Syntax: .modify talentpoints #amount Set free talent points for selected character or character's pet. It will be reset to default expected at next levelup/login/quest reward.|
 |instance getbossstate|1|Syntax: .instance getbossstate $bossId [$Name]. Gets the current EncounterState for the provided boss id. If no character name is provided, the current map will be used as target.|
 |instance setbossstate|1|Syntax: .instance setbossstate $bossId $encounterState [$Name]. Sets the EncounterState for the given boss id to a new value. EncounterStates range from 0 to 5. If no character name is provided, the current map will be used as target.|
+|instance getdata|1|Syntax: .instance getdata $field [$Name]. Get the current data for the instance $field. If no character name is provided, the current map will be used as target.|
+|instance setdata|1|Syntax: .instance setdata $field $data [$Name]. Set $data for the instance $field. If no character name is provided, the current map will be used as target.|
 |instance listbinds|3|Syntax: .instance listbinds Lists the binds of the selected player.|
 |instance savedata|3|Syntax: .instance savedata Save the InstanceData for the current player's map to the DB.|
 |instance stats|3|Syntax: .instance stats Shows statistics about instances.|
