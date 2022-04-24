@@ -2,13 +2,24 @@ TODOs:
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@e6ddf520 | 2022-04-24 |      | low prio (Localization: esES, esMX, frFR) |
+| sol@ef6c97e9 | 2022-04-24 |      | verify changes; low prio (Dungeon: Blackwing Lair) |
+| sol@88555b65 | 2022-04-24 |      | verify changes; low prio (Dungeon: Blackwing Lair) |
+| sol@a57aecbf | 2022-04-24 |      | verify changes; low prio (Dungeon: Blackwing Lair) |
+| sol@c695d9b4 | 2022-04-24 |      | verify changes; low prio (Dungeon: Blackwing Lair) |
+| sol@53bfc548 | 2022-04-24 |      | verify changes; low prio (Dungeon: Blackwing Lair) |
+| sol@3c97c7dd | 2022-04-23 |      | low prio (Localization: frFR, ruRU) |
+| sol@a980988a | 2022-04-23 |      | use UPDATE instead of DELETE/INSERT |
+| sol@08305d73 | 2022-04-23 |      | the gossip menu ID is irrelevant in this case because gossip is handled via creature script "npc\_experience" (it causes no harm to add the gossip ID, though); remove the hard-coded texts from the creature script |
+| sol@6a95d72b | 2022-04-23 |      | verify/rework SQL script; compare with TC; part of this already done, see sol@3e1cb312 |
+| sol@1de5f34b | 2022-04-23 |      | verify/rework SQL script |
 | sol@f1372309 | 2022-04-21 |      | verify changes; low prio (Dungeon: Blackwing Lair) |
 | sol@343732ee | 2022-04-20 |      | verify changes; low prio (Dungeon: Blackwing Lair) |
 | sol@33a70dbe | 2022-04-19 |      | verify changes; low prio (Dungeon: Blackwing Lair) |
 | sol@16d9d29a | 2022-04-18 |      | won't take over as this is actually a quest greeting, but improve/add SAI for both NPCs (see TC) |
 | sol@858c72bd | 2022-04-18 |      | low prio (Localization: frFR) |
 | sol@7e09072c | 2022-04-18 |      | low prio (Localization: esES, esMX) |
-| sol@cb5c045a | 2022-04-18 |      | verify/rework SQL script |
+| sol@cb5c045a | 2022-04-18 | X    | verify/rework SQL script; done: sol@43042db6 |
 | sol@7b352b76 | 2022-04-18 |      | take over if needed |
 | sol@f9a76d99 | 2022-04-17 |      | verify changes; low prio (Dungeon: Blackwing Lair) |
 | sol@e4df8f49 | 2022-04-17 |      | verify changes; low prio (Dungeon: Icecrown Citadel) |
