@@ -2,6 +2,7 @@ TODOs: common, [dungeon](TODO_dungeon.md), [event](TODO_event.md), [pvp](TODO_pv
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@116deced | 2022-05-01 |      | won't take over, take over SAI for Prince Thunderaan from TC instead and add an additonal entry to set the corpse delay |
 | sol@14f10bdf | 2022-04-25 |      | use UPDATE instead of DELETE/INSERT for the loot; take over condition from TC |
 | sol@a980988a | 2022-04-23 |      | use UPDATE instead of DELETE/INSERT |
 | sol@08305d73 | 2022-04-23 | X    | the gossip menu ID is irrelevant in this case because gossip is handled via creature script "npc\_experience" (it causes no harm to add the gossip ID, though); remove the hard-coded texts from the creature script; done: sol@5527e1ad |
@@ -227,7 +228,7 @@ TODOs: common, [dungeon](TODO_dungeon.md), [event](TODO_event.md), [pvp](TODO_pv
 | sol@d6fc2a1d | 2021-12-05 | X    | verify/rework SQL script; also check old SAI and conditions; done: sol@806ab34b |
 | sol@1500453f | 2021-12-03 |      | take over if needed (also see sol@fa1c2eca) |
 | sol@5d2f4cf0 | 2021-12-03 | X    | won't take over, rework CreatureScript; done: sol@5a4e254b |
-| sol@18f3f748 | 2021-12-03 |      | verify/rework SQL script; check the WP paths; low prio (Cosmetic) |
+| sol@18f3f748 | 2021-12-03 | X    | verify/rework SQL script; check the WP paths; low prio (Cosmetic); done: sol@3d46cd92 |
 | sol@8668a03e | 2021-12-01 |      | take over if needed |
 | sol@79c0beeb | 2021-11-30 |      | take over if needed (also see sol@9c178acd) |
 | sol@94367fc1 | 2021-11-30 |      | keep as reference; take over single values if needed; won't blindly take over such mass updates |

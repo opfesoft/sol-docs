@@ -2,6 +2,13 @@ TODOs: [common](TODO.md), dungeon, [event](TODO_event.md), [pvp](TODO_pvp.md), [
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@e7531fa2 | 2022-05-03 |      | verify changes (Temple of Ahn'Qiraj) |
+| sol@12a0c6f1 | 2022-05-03 |      | verify changes (Blackwing Lair) |
+| sol@3c851c05 | 2022-05-03 |      | verify changes (Blackwing Lair) |
+| sol@0363b959 | 2022-05-03 |      | verify changes (Zul'Gurub) |
+| sol@4e977d9a | 2022-05-03 |      | verify changes (Blackwing Lair) |
+| sol@0ffa270c | 2022-05-02 |      | verify changes (Temple of Ahn'Qiraj) |
+| sol@bbd760cc | 2022-04-30 |      | verify changes (Icecrown Citadel) |
 | sol@54ebdfcf | 2022-04-25 |      | verify changes (Blackwing Lair) |
 | sol@ef6c97e9 | 2022-04-24 |      | verify changes (Blackwing Lair) |
 | sol@88555b65 | 2022-04-24 |      | verify changes (Blackwing Lair) |
@@ -49,7 +56,7 @@ TODOs: [common](TODO.md), dungeon, [event](TODO_event.md), [pvp](TODO_pvp.md), [
 | sol@3a69d36a | 2022-03-27 |      | verify changes (Blackwing Lair) |
 | sol@69616e5d | 2022-03-27 |      | verify changes (Ulduar) |
 | sol@5b50f04c | 2022-03-27 |      | verify changes (Ulduar) |
-| sol@df89bbaf | 2022-03-27 |      | verify/rework SQL script (Ulduar) |
+| sol@df89bbaf | 2022-03-27 | X    | verify/rework SQL script (Ulduar); done: sol@078f9fb0 |
 | sol@fe3dad21 | 2022-03-27 |      | verify/rework SQL script (Blackwing Lair) |
 | sol@58f7e0e9 | 2022-03-27 |      | verify/rework SQL script (Blackwing Lair) |
 | sol@f5d01baa | 2022-03-27 |      | verify/rework SQL script (Blackwing Lair) |

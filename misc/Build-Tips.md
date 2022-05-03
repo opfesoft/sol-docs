@@ -134,7 +134,6 @@ exit
 ```
 cd ~/sol
 bash ~/sol/bash/db_assembler.sh 1
-mariadb -e "SET GLOBAL max_allowed_packet=128*1024*1024;"
 cd local/sql
 mariadb --default-character-set=utf8 auth       <auth_base.sql
 mariadb --default-character-set=utf8 auth       <auth_updates.sql

@@ -4540,8 +4540,8 @@ If the start position distance is far away the circle movement speed will be dec
 <td><p><br />
 </p></td>
 <td><p>Target units identified by the specified seat bit mask; 0 means all seats;<br />
-combine bits 1 (seat 1), 2 (seat 2), 4 (seat 3), 8 (seat 4) etc. if targeting multiple seats, example:<br />
-seat mask 9 means seat 1 and 4 (bit 1 + 8)</p></td>
+combine bits 1 (seat 0), 2 (seat 1), 4 (seat 2), 8 (seat 3) etc. if targeting multiple seats, example:<br />
+seat mask 9 means seat 0 and 3 (bit 1 + 8)</p></td>
 </tr>
 </tbody>
 </table>

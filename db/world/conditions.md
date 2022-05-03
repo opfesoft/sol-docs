@@ -990,7 +990,7 @@ CONDITION_HP_PCT</td>
 CONDITION_IN_WATER</td>
 <td><br />
 40</td>
-<td>Always 0 - Use NegativeCondition and the following settings: NegativeCondition = 0 if target needs to be on land; NegativeCondition = 1 if target needs to be in water</td>
+<td>Always 0 - Use NegativeCondition and the following settings: NegativeCondition = 1 if target needs to be on land; NegativeCondition = 0 if target needs to be in water</td>
 <td>Always 0</td>
 <td>Always 0</td>
 </tr>
