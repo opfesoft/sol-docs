@@ -2,6 +2,13 @@ TODOs: common, [dungeon](TODO_dungeon.md), [event](TODO_event.md), [pvp](TODO_pv
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@0bb78923 | 2022-05-08 |      | verify/rework SQL script |
+| sol@9402bd81 | 2022-05-08 |      | fix typos and use correct syntax for strings based on character gender |
+| sol@2391f454 | 2022-05-07 |      | wrong, breaks the phase for talking to King Jokkum; find another solution |
+| sol@bea3a323 | 2022-05-06 |      | verify/rework SQL script; compare with TC |
+| sol@40c7750a | 2022-05-05 |      | verify/rework SQL script |
+| sol@6a58d1ee | 2022-05-05 |      | won't take over (Sol is not affected by this issue), but the whole event needs to be reworked; low prio (obsolete quest) |
+| sol@c57dab35 | 2022-05-04 |      | verify/rework SQL script |
 | sol@116deced | 2022-05-01 |      | won't take over, take over SAI for Prince Thunderaan from TC instead and add an additonal entry to set the corpse delay |
 | sol@14f10bdf | 2022-04-25 |      | use UPDATE instead of DELETE/INSERT for the loot; take over condition from TC |
 | sol@a980988a | 2022-04-23 |      | use UPDATE instead of DELETE/INSERT |

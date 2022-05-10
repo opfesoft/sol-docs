@@ -54,7 +54,8 @@
 <td><p><a href="#link">link</a></p></td>
 <td><p>smallint(5)</p></td>
 <td><p>unsigned</p></td>
-<td><p>PRI</p></td>
+<td><p><br />
+</p></td>
 <td><p>NO</p></td>
 <td><p>0</p></td>
 <td><p><br />
@@ -4542,6 +4543,26 @@ If the start position distance is far away the circle movement speed will be dec
 <td><p>Target units identified by the specified seat bit mask; 0 means all seats;<br />
 combine bits 1 (seat 0), 2 (seat 1), 4 (seat 2), 8 (seat 3) etc. if targeting multiple seats, example:<br />
 seat mask 9 means seat 0 and 3 (bit 1 + 8)</p></td>
+</tr>
+<tr>
+<td>SMART_TARGET_CREATURE_FORMATION</td>
+<td>231</td>
+<td>memberType (0 - members only, 1 - leader only, 2 - leader and members)</td>
+<td><p><br />
+</p></td>
+<td><p><br />
+</p></td>
+<td><p><br />
+</p></td>
+<td><p><br />
+</p></td>
+<td><p><br />
+</p></td>
+<td><p><br />
+</p></td>
+<td><p><br />
+</p></td>
+<td><p>Target alive members of the [creature formation](creature_formations.md).</p></td>
 </tr>
 </tbody>
 </table>

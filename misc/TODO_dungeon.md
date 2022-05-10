@@ -2,6 +2,17 @@ TODOs: [common](TODO.md), dungeon, [event](TODO_event.md), [pvp](TODO_pvp.md), [
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@edcb9ff3 | 2022-05-09 |      | verify changes (Ulduar) |
+| sol@6e9d4708 | 2022-05-08 |      | verify changes (Ulduar) |
+| sol@9b98ec22 | 2022-05-08 |      | verify changes (Zul'Gurub) |
+| sol@9144cab2 | 2022-05-08 |      | verify changes (Ulduar) |
+| sol@7b01b27b | 2022-05-08 |      | verify changes (Ulduar) |
+| sol@8f485cb5 | 2022-05-08 |      | verify changes (Ulduar) |
+| sol@4df92b55 | 2022-05-08 |      | verify changes (Ulduar) |
+| sol@6ca5938d | 2022-05-03 |      | verify changes (Temple of Ahn'Qiraj) |
+| sol@c38b6762 | 2022-05-08 |      | verify changes (Molten Core) |
+| sol@ac8a6b43 | 2022-05-07 |      | verify changes (Utgarde Pinnacle) |
+| sol@56955f79 | 2022-05-06 |      | verify changes (Ulduar) |
 | sol@e7531fa2 | 2022-05-03 |      | verify changes (Temple of Ahn'Qiraj) |
 | sol@12a0c6f1 | 2022-05-03 |      | verify changes (Blackwing Lair) |
 | sol@3c851c05 | 2022-05-03 |      | verify changes (Blackwing Lair) |

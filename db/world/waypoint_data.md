@@ -11,7 +11,7 @@ This table contains all the path data for creatures that use waypoints and waypo
 | [position\_x](#position_x)       | float        |              |     | NO   | 0       |
 | [position\_y](#position_y)       | float        |              |     | NO   | 0       |
 | [position\_z](#position_z)       | float        |              |     | NO   | 0       |
-| [orientation](#orientation)      | float        |              |     | NO   | 0       |
+| [orientation](#orientation)      | float        |              |     | YES  | NULL    |
 | [delay](#delay)                  | int(10)      | unsigned     |     | NO   | 0       |
 | [move\_type](#move_type)         | int(11)      |              |     | NO   | 0       |
 | [pathfinding](#pathfinding)      | tinyint(3)   | unsigned     |     | NO   | 0       |
@@ -49,11 +49,11 @@ The Z coordinate of the destination waypoint.
 
 ### orientation
 
-The orientation of the creature (North = 0.0; South = π (3.14159)). Is only used if a waypoint delay is specified.
+The orientation of the creature: north = 0.0, south = 3.14159 (π), max value = 6.28318 (2π). Has to be NULL if delay is 0. Must not be < 0.
 
 ### delay
 
-Time to wait (in ms) between each point.
+Time to wait (in ms) between each point. If orientation is not NULL delay has to be > 0.
 
 ### move\_type
 
