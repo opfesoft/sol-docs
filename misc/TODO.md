@@ -2,16 +2,18 @@ TODOs: common, [dungeon](TODO_dungeon.md), [event](TODO_event.md), [pvp](TODO_pv
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
-| sol@0bb78923 | 2022-05-08 |      | verify/rework SQL script |
-| sol@9402bd81 | 2022-05-08 |      | fix typos and use correct syntax for strings based on character gender |
-| sol@2391f454 | 2022-05-07 |      | wrong, breaks the phase for talking to King Jokkum; find another solution |
-| sol@bea3a323 | 2022-05-06 |      | verify/rework SQL script; compare with TC |
+| sol@aab3348e | 2022-05-17 |      | just take over (and rework) a few useful changes; low prio (Cosmetic) |
+| sol@d3cb7b36 | 2022-05-11 |      | verify/rework SQL script; actually not needed at all as the quests were removed with patch 3.2.2 |
+| sol@0bb78923 | 2022-05-08 | X    | verify/rework SQL script; done: sol@b91d55ee |
+| sol@9402bd81 | 2022-05-08 | X    | fix typos and use correct syntax for strings based on character gender; done: sol@e71b8c96 |
+| sol@2391f454 | 2022-05-07 | X    | wrong, breaks the phase for talking to King Jokkum; find another solution; done: sol@c74796f9 |
+| sol@bea3a323 | 2022-05-06 | X    | verify/rework SQL script; compare with TC; implemented another solution: sol@e1d4bfe6 |
 | sol@40c7750a | 2022-05-05 |      | verify/rework SQL script |
 | sol@6a58d1ee | 2022-05-05 |      | won't take over (Sol is not affected by this issue), but the whole event needs to be reworked; low prio (obsolete quest) |
-| sol@c57dab35 | 2022-05-04 |      | verify/rework SQL script |
-| sol@116deced | 2022-05-01 |      | won't take over, take over SAI for Prince Thunderaan from TC instead and add an additonal entry to set the corpse delay |
-| sol@14f10bdf | 2022-04-25 |      | use UPDATE instead of DELETE/INSERT for the loot; take over condition from TC |
-| sol@a980988a | 2022-04-23 |      | use UPDATE instead of DELETE/INSERT |
+| sol@c57dab35 | 2022-05-04 | X    | verify/rework SQL script; took over from TC instead: sol@47310302 |
+| sol@116deced | 2022-05-01 | X    | won't take over, take over SAI for Prince Thunderaan from TC instead and add an additonal entry to set the corpse delay; implemented another solution: sol@216676bb |
+| sol@14f10bdf | 2022-04-25 | X    | use UPDATE instead of DELETE/INSERT for the loot; take over condition from TC; implemented another solution: sol@5b27d36b |
+| sol@a980988a | 2022-04-23 | X    | use UPDATE instead of DELETE/INSERT; done: sol@9471a839 |
 | sol@08305d73 | 2022-04-23 | X    | the gossip menu ID is irrelevant in this case because gossip is handled via creature script "npc\_experience" (it causes no harm to add the gossip ID, though); remove the hard-coded texts from the creature script; done: sol@5527e1ad |
 | sol@6a95d72b | 2022-04-23 | X    | verify/rework SQL script; compare with TC; part of this already done, see sol@3e1cb312; done: sol@b669ab20 |
 | sol@1de5f34b | 2022-04-23 | X    | verify/rework SQL script; done: sol@2770a8c6 |

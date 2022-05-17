@@ -2,6 +2,7 @@ TODOs: [common](TODO.md), dungeon, [event](TODO_event.md), [pvp](TODO_pvp.md), [
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@203450e9 | 2022-05-11 |      | verify changes (Blackwing Lair) |
 | sol@edcb9ff3 | 2022-05-09 |      | verify changes (Ulduar) |
 | sol@6e9d4708 | 2022-05-08 |      | verify changes (Ulduar) |
 | sol@9b98ec22 | 2022-05-08 |      | verify changes (Zul'Gurub) |

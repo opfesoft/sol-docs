@@ -39,7 +39,7 @@ For **waypoint\_scripts**, it is the [action](waypoint_data.md#action) ID.
 
 ### effIndex
 
-The effect index of the spell that this script is to be applied to.
+The effect index of the spell that this script is to be applied to (values 0-2).
 
 ### delay
 
@@ -235,7 +235,7 @@ Depending on what command was used, the meaning and use for the following fields
 
 - source: if present, used as a search center.
 - datalong: entry of searched creature, if source exists, guid of the creature otherwise.
-        \*\*datalong2: ID of the script from \*\_scripts table.
+- datalong2: ID of the script from \*\_scripts table.
 - dataint:
   - 3 - use spell\_scripts table;
   - 5 - use event\_scripts table;
