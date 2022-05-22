@@ -2,6 +2,12 @@ TODOs: [common](TODO.md), dungeon, [event](TODO_event.md), [pvp](TODO_pvp.md), [
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@ee596047 | 2022-05-21 |      | verify changes (Blackrock Depths) |
+| sol@fbbb287c | 2022-05-21 |      | verify changes (Ulduar) |
+| sol@75c65ce9 | 2022-05-21 |      | verify changes (Ulduar) |
+| sol@d94f8b59 | 2022-05-19 |      | verify changes (Ulduar) |
+| sol@8935f9a8 | 2022-05-17 |      | verify changes (Black Temple) |
+| sol@9f0bc13a | 2022-05-17 |      | won't take over, rework SAI for Crystal Fang & Spire Spiderling instead (the latter should only despawn on evade if it was summoned); also use creature\_id\_chance and an additional Spire Spider spawn (Lower Blackrock Spire) |
 | sol@203450e9 | 2022-05-11 |      | verify changes (Blackwing Lair) |
 | sol@edcb9ff3 | 2022-05-09 |      | verify changes (Ulduar) |
 | sol@6e9d4708 | 2022-05-08 |      | verify changes (Ulduar) |

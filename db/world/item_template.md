@@ -2182,182 +2182,40 @@ The quality of the item.
 
 Bitmask field that contains flags that the item has on it. As all other such fields, just add the flags together to combine them. Possible flags are listed below.
 
-<table>
-<colgroup>
-<col width="33%" />
-<col width="33%" />
-<col width="33%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>Flag</p></th>
-<th> </th>
-<th><p>Comments</p></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><p>1</p></td>
-<td>0x01</td>
-<td><p>UNK1</p></td>
-</tr>
-<tr>
-<td><p>2</p></td>
-<td>0x02</td>
-<td><p>Conjured item</p></td>
-</tr>
-<tr>
-<td><p>4</p></td>
-<td>0x04</td>
-<td><p>Openable (can be opened by right-click)</p></td>
-</tr>
-<tr>
-<td><p>8</p></td>
-<td>0x08</td>
-<td><p>Makes green &quot;Heroic&quot; text appear on item</p></td>
-</tr>
-<tr>
-<td><p>16</p></td>
-<td>0x010</td>
-<td><p>Deprecated Item</p></td>
-</tr>
-<tr>
-<td><p>32</p></td>
-<td>0x020</td>
-<td><p>Item can not be destroyed, except by using spell (item can be reagent for spell)</p></td>
-</tr>
-<tr>
-<td><p>64</p></td>
-<td>0x040</td>
-<td><p>UNK2</p></td>
-</tr>
-<tr>
-<td>128</td>
-<td>0x080</td>
-<td>No default 30 seconds cooldown when equipped (for "On use" items)</td>
-</tr>
-<tr>
-<td>256</td>
-<td>0x0100</td>
-<td>UNK3</td>
-</tr>
-<tr>
-<td><p>512</p></td>
-<td>0x0200</td>
-<td><p>Wrapper : Item can wrap other items</p></td>
-</tr>
-<tr>
-<td><p>1024</p></td>
-<td>0x0400</td>
-<td><p>UNK4</p></td>
-</tr>
-<tr>
-<td><p>2048</p></td>
-<td>0x0800</td>
-<td><p>Item is party loot and can be looted by all</p></td>
-</tr>
-<tr>
-<td><p>4096</p></td>
-<td>0x01000</td>
-<td><p>Item is refundable</p></td>
-</tr>
-<tr>
-<td><p>8192</p></td>
-<td>0x02000</td>
-<td><p>Charter (Arena or Guild)</p></td>
-</tr>
-<tr>
-<td>16384</td>
-<td>0x04000</td>
-<td>UNK5 // comment in code : Only readable items have this (but not all)</td>
-</tr>
-<tr>
-<td><p>32768</p></td>
-<td>0x08000</td>
-<td><p>UNK6</p></td>
-</tr>
-<tr>
-<td>65536</td>
-<td>0x010000</td>
-<td>UNK7</td>
-</tr>
-<tr>
-<td>131072</td>
-<td>0x020000</td>
-<td>UNK8</td>
-</tr>
-<tr>
-<td>262144</td>
-<td>0x040000</td>
-<td><p>Item can be prospected</p></td>
-</tr>
-<tr>
-<td><p>524288</p></td>
-<td>0x080000</td>
-<td><p>Unique equipped (player can only have one equipped at the same time but as many as he wants in his bags, if maxcount = 1, it will still display Unique-Equipped)</p></td>
-</tr>
-<tr>
-<td>1048576</td>
-<td>0x0100000</td>
-<td>UNK9</td>
-</tr>
-<tr>
-<td>2097152</td>
-<td>0x0200000</td>
-<td>Item can be used during arena match</td>
-</tr>
-<tr>
-<td><p>4194304</p></td>
-<td>0x0400000</td>
-<td><p>Throwable (for tooltip ingame)</p></td>
-</tr>
-<tr>
-<td><p>8388608</p></td>
-<td>0x0800000</td>
-<td><p>Item can be used in shapeshift forms</p></td>
-</tr>
-<tr>
-<td>16777216</td>
-<td>0x01000000</td>
-<td>UNK10</td>
-</tr>
-<tr>
-<td>33554432</td>
-<td>0x02000000</td>
-<td>Profession recipes: can only be looted if you meet requirements and don't already know it</td>
-</tr>
-<tr>
-<td>67108864</td>
-<td>0x04000000</td>
-<td>Item cannot be used in arena</td>
-</tr>
-<tr>
-<td><p>134217728</p></td>
-<td>0x08000000</td>
-<td><p>Bind to Account (Requires to set Bonding > 0)</p></td>
-</tr>
-<tr>
-<td><p>268435456</p></td>
-<td>0x010000000</td>
-<td><p>Spell is cast with triggered flag</p></td>
-</tr>
-<tr>
-<td><p>536870912</p></td>
-<td>0x020000000</td>
-<td><p>Millable</p></td>
-</tr>
-<tr>
-<td>1073741824</td>
-<td>0x040000000</td>
-<td>UNK11</td>
-</tr>
-<tr>
-<td><p>2147483648</p></td>
-<td>0x080000000</td>
-<td><p>Bind on Pickup tradeable (only few quest items have this flag and it doesn't seem to bind at all)</p></td>
-</tr>
-</tbody>
-</table>
+| Flag       |            | Name                                        | Comments                                                                                                   |
+|------------|------------|---------------------------------------------|------------------------------------------------------------------------------------------------------------|
+| 1          | 0x00000001 | ITEM_FLAG_NO_PICKUP                         |                                                                                                            |
+| 2          | 0x00000002 | ITEM_FLAG_CONJURED                          | Conjured item                                                                                              |
+| 4          | 0x00000004 | ITEM_FLAG_HAS_LOOT                          | Item can be right clicked to open for loot                                                                 |
+| 8          | 0x00000008 | ITEM_FLAG_HEROIC_TOOLTIP                    | Makes green "Heroic" text appear on item                                                                   |
+| 16         | 0x00000010 | ITEM_FLAG_DEPRECATED                        | Cannot equip or use                                                                                        |
+| 32         | 0x00000020 | ITEM_FLAG_NO_USER_DESTROY                   | Item can not be destroyed, except by using spell (item can be reagent for spell)                           |
+| 64         | 0x00000040 | ITEM_FLAG_PLAYERCAST                        | Item's spells are castable by players                                                                      |
+| 128        | 0x00000080 | ITEM_FLAG_NO_EQUIP_COOLDOWN                 | No default 30 seconds cooldown when equipped                                                               |
+| 256        | 0x00000100 | ITEM_FLAG_MULTI_LOOT_QUEST                  |                                                                                                            |
+| 512        | 0x00000200 | ITEM_FLAG_IS_WRAPPER                        | Item can wrap other items                                                                                  |
+| 1024       | 0x00000400 | ITEM_FLAG_USES_RESOURCES                    |                                                                                                            |
+| 2048       | 0x00000800 | ITEM_FLAG_MULTI_DROP                        | Looting this item does not remove it from available loot                                                   |
+| 4096       | 0x00001000 | ITEM_FLAG_ITEM_PURCHASE_RECORD              | Item can be returned to vendor for its original cost (extended cost)                                       |
+| 8192       | 0x00002000 | ITEM_FLAG_PETITION                          | Item is guild or arena charter                                                                             |
+| 16384      | 0x00004000 | ITEM_FLAG_HAS_TEXT                          | Only readable items have this (but not all)                                                                |
+| 32768      | 0x00008000 | ITEM_FLAG_NO_DISENCHANT                     |                                                                                                            |
+| 65536      | 0x00010000 | ITEM_FLAG_REAL_DURATION                     |                                                                                                            |
+| 131072     | 0x00020000 | ITEM_FLAG_NO_CREATOR                        |                                                                                                            |
+| 262144     | 0x00040000 | ITEM_FLAG_IS_PROSPECTABLE                   | Item can be prospected                                                                                     |
+| 524288     | 0x00080000 | ITEM_FLAG_UNIQUE_EQUIPPABLE                 | You can only equip one of these                                                                            |
+| 1048576    | 0x00100000 | ITEM_FLAG_IGNORE_FOR_AURAS                  |                                                                                                            |
+| 2097152    | 0x00200000 | ITEM_FLAG_IGNORE_DEFAULT_ARENA_RESTRICTIONS | Item can be used during arena match                                                                        |
+| 4194304    | 0x00400000 | ITEM_FLAG_NO_DURABILITY_LOSS                | Some Thrown weapons have it (and only Thrown) but not all                                                  |
+| 8388608    | 0x00800000 | ITEM_FLAG_USE_WHEN_SHAPESHIFTED             | Item can be used in shapeshift forms                                                                       |
+| 16777216   | 0x01000000 | ITEM_FLAG_HAS_QUEST_GLOW                    |                                                                                                            |
+| 33554432   | 0x02000000 | ITEM_FLAG_HIDE_UNUSABLE_RECIPE              | Profession recipes: can only be looted if you meet requirements and don't already know it                  |
+| 67108864   | 0x04000000 | ITEM_FLAG_NOT_USEABLE_IN_ARENA              | Item cannot be used in arena                                                                               |
+| 134217728  | 0x08000000 | ITEM_FLAG_IS_BOUND_TO_ACCOUNT               | Item binds to account and can be sent only to your own characters                                          |
+| 268435456  | 0x10000000 | ITEM_FLAG_NO_REAGENT_COST                   | Spell is cast ignoring reagents                                                                            |
+| 536870912  | 0x20000000 | ITEM_FLAG_IS_MILLABLE                       | Item can be milled                                                                                         |
+| 1073741824 | 0x40000000 | ITEM_FLAG_REPORT_TO_GUILD_CHAT              |                                                                                                            |
+| 2147483648 | 0x80000000 | ITEM_FLAG_NO_PROGRESSIVE_LOOT               |                                                                                                            |
 
 ### FlagsExtra
 

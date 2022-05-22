@@ -678,7 +678,7 @@ These flags control certain creature specific attributes. Flags can be added tog
 | 262144     | CREATURE_FLAG_EXTRA_NO_SKILLGAIN         | 0x00040000 | creature won't increase weapon skills                                                                                                  |
 | 524288     | CREATURE_FLAG_EXTRA_TAUNT_DIMINISH       | 0x00080000 | creature taunt is subject to diminishing returns                                                                                       |
 | 1048576    | CREATURE_FLAG_EXTRA_ALL_DIMINISH         | 0x00100000 | creature is subject to all diminishing returns                                                                                         |
-| 2097152    | CREATURE_FLAG_EXTRA_UNUSED_22            | 0x00200000 |                                                                                                                                        |
+| 2097152    | CREATURE_FLAG_EXTRA_NO_PLAYER_DAMAGE_REQ | 0x00200000 | creature does not need to take player damage for kill credit                                                                           |
 | 4194304    | CREATURE_FLAG_EXTRA_AVOID_AOE            | 0x00400000 | creature is ignored by aoe attacks                                                                                                     |
 | 8388608    | CREATURE_FLAG_EXTRA_NO_DODGE             | 0x00800000 | creature cannot dodge                                                                                                                  |
 | 16777216   | CREATURE_FLAG_EXTRA_UNUSED_25            | 0x01000000 |                                                                                                                                        |

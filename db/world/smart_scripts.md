@@ -2321,7 +2321,7 @@ if set to 0 only aggressive / hostile NPCs attack</p></td>
 <td><p><a href="quest_template.md#id">quest_template.id</a></p></td>
 <td><p>despawntime</p></td>
 <td><p><a href="#react-states">reactState</a></p></td>
-<td><p>Creature starts Waypoint Movement. Use <a href="waypoints.md#entry">waypoints</a> table to create movement. Uses the target as escort if it is a player.</p></td>
+<td><p>Creature starts Waypoint Movement. Use <a href="waypoints.md#entry">waypoints</a> table to create movement. Uses the target as escort if it consists of players (stored in the reserved target list SMART_ESCORT_TARGETS).</p></td>
 </tr>
 <tr>
 <td><p>SMART_ACTION_WP_PAUSE</p></td>
@@ -2490,7 +2490,7 @@ if set to 0 only aggressive / hostile NPCs attack</p></td>
 </p></td>
 <td><p><br />
 </p></td>
-<td><p>Stores the targets in a list with the specified "varID". If "varID range" is set each of the targets will be stored in a separate "varID", beginning with "varID" until (and including) "varID range".</p></td>
+<td><p>Stores the targets in a list with the specified "varID". If "varID range" is set each of the targets will be stored in a separate "varID", beginning with "varID" until (and including) "varID range". The ID 16777215 reserved for SMART_ESCORT_TARGETS (see SMART_ACTION_WP_START)  and not allowed to be used here.</p></td>
 </tr>
 <tr>
 <td><p>SMART_ACTION_WP_RESUME</p></td>
@@ -4232,7 +4232,7 @@ If the start position distance is far away the circle movement speed will be dec
 </p></td>
 <td><p><br />
 </p></td>
-<td><p>Uses pre-stored target(list)</p></td>
+<td><p>Uses pre-stored target(list). Can also be ID 16777215 which is reserved for SMART_ESCORT_TARGETS (see SMART_ACTION_WP_START).</p></td>
 </tr>
 <tr>
 <td><p>SMART_TARGET_GAMEOBJECT_RANGE</p></td>
