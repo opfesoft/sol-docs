@@ -2,6 +2,10 @@ TODOs: common, [dungeon](TODO_dungeon.md), [event](TODO_event.md), [pvp](TODO_pv
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@bc101780 | 2022-05-25 |      | verify/rework SQL script |
+| sol@7ef53bcd | 2022-05-25 |      | won't take over, just add a new entry for creature ID 7446 and set drop chance to 50% for all affected creatures |
+| sol@34943f1f | 2022-05-23 |      | verify/rework SQL script |
+| sol@e0a0e883 | 2022-05-23 |      | won't take over (Sol is not affected by this issue), but the SAI & WP path needs to be reworked |
 | sol@1b852b4a | 2022-05-21 |      | verify changes |
 | sol@634b2e10 | 2022-05-21 |      | verify changes |
 | sol@dafba27b | 2022-05-21 |      | won't take over, remove the talk action instead (the creature should not talk at all) |

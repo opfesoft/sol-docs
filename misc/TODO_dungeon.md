@@ -2,6 +2,10 @@ TODOs: [common](TODO.md), dungeon, [event](TODO_event.md), [pvp](TODO_pvp.md), [
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@a6a2ca8e | 2022-05-24 |      | take over if needed (or perhaps implement another solution, e.g. change GO states according to instance data) |
+| sol@46d0b32d | 2022-05-23 |      | won't take over, just update the appropriate SAI entries (Stratholme) |
+| sol@1f59431d | 2022-05-23 |      | verify changes (Blackwing Lair) |
+| sol@b6d79ac8 | 2022-05-23 |      | verify changes (Zul'Gurub) |
 | sol@ee596047 | 2022-05-21 |      | verify changes (Blackrock Depths) |
 | sol@fbbb287c | 2022-05-21 |      | verify changes (Ulduar) |
 | sol@75c65ce9 | 2022-05-21 |      | verify changes (Ulduar) |
