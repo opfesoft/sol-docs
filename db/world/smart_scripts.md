@@ -900,10 +900,8 @@ This is the probability of the event to occur as a percentage from 0-100. So, if
 <td><p>27</p></td>
 <td><p>CooldownMin</p></td>
 <td><p>CooldownMax</p></td>
-<td><p><br />
-</p></td>
-<td><p><br />
-</p></td>
+<td><p>seatId (0: all seats; 1: seat 0; 2: seat 1 etc.)</p></td>
+<td><p>playerOnly (0/1)</p></td>
 <td><p><br />
 </p></td>
 <td><p><br />
@@ -914,10 +912,8 @@ This is the probability of the event to occur as a percentage from 0-100. So, if
 <td><p>28</p></td>
 <td><p>CooldownMin</p></td>
 <td><p>CooldownMax</p></td>
-<td><p><br />
-</p></td>
-<td><p><br />
-</p></td>
+<td><p>seatId (0: all seats; 1: seat 0; 2: seat 1 etc.)</p></td>
+<td><p>playerOnly (0/1)</p></td>
 <td><p><br />
 </p></td>
 <td><p><br />

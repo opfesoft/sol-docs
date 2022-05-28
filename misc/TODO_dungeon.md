@@ -2,8 +2,9 @@ TODOs: [common](TODO.md), dungeon, [event](TODO_event.md), [pvp](TODO_pvp.md), [
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@f471febb | 2022-05-26 |      | won't take over, just update the text range (the text itself is perfectly fine) (Zul'Gurub) |
 | sol@a6a2ca8e | 2022-05-24 |      | take over if needed (or perhaps implement another solution, e.g. change GO states according to instance data) |
-| sol@46d0b32d | 2022-05-23 |      | won't take over, just update the appropriate SAI entries (Stratholme) |
+| sol@46d0b32d | 2022-05-23 | X    | won't take over, just update the appropriate SAI entries (Stratholme); done: sol@4351d145 |
 | sol@1f59431d | 2022-05-23 |      | verify changes (Blackwing Lair) |
 | sol@b6d79ac8 | 2022-05-23 |      | verify changes (Zul'Gurub) |
 | sol@ee596047 | 2022-05-21 |      | verify changes (Blackrock Depths) |
@@ -11,7 +12,7 @@ TODOs: [common](TODO.md), dungeon, [event](TODO_event.md), [pvp](TODO_pvp.md), [
 | sol@75c65ce9 | 2022-05-21 |      | verify changes (Ulduar) |
 | sol@d94f8b59 | 2022-05-19 |      | verify changes (Ulduar) |
 | sol@8935f9a8 | 2022-05-17 |      | verify changes (Black Temple) |
-| sol@9f0bc13a | 2022-05-17 |      | won't take over, rework SAI for Crystal Fang & Spire Spiderling instead (the latter should only despawn on evade if it was summoned); also use creature\_id\_chance and an additional Spire Spider spawn (Lower Blackrock Spire) |
+| sol@9f0bc13a | 2022-05-17 | X    | won't take over, rework SAI for Crystal Fang & Spire Spiderling instead (the latter should only despawn on evade if it was summoned); also use creature\_id\_chance and an additional Spire Spider spawn (Lower Blackrock Spire); done: sol@85602326 |
 | sol@203450e9 | 2022-05-11 |      | verify changes (Blackwing Lair) |
 | sol@edcb9ff3 | 2022-05-09 |      | verify changes (Ulduar) |
 | sol@6e9d4708 | 2022-05-08 |      | verify changes (Ulduar) |

@@ -2,17 +2,18 @@ TODOs: common, [dungeon](TODO_dungeon.md), [event](TODO_event.md), [pvp](TODO_pv
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
-| sol@bc101780 | 2022-05-25 |      | verify/rework SQL script |
-| sol@7ef53bcd | 2022-05-25 |      | won't take over, just add a new entry for creature ID 7446 and set drop chance to 50% for all affected creatures |
-| sol@34943f1f | 2022-05-23 |      | verify/rework SQL script |
-| sol@e0a0e883 | 2022-05-23 |      | won't take over (Sol is not affected by this issue), but the SAI & WP path needs to be reworked |
-| sol@1b852b4a | 2022-05-21 |      | verify changes |
-| sol@634b2e10 | 2022-05-21 |      | verify changes |
-| sol@dafba27b | 2022-05-21 |      | won't take over, remove the talk action instead (the creature should not talk at all) |
-| sol@5dea6b6d | 2022-05-17 |      | verify/rework SQL script |
-| sol@1cc015b5 | 2022-05-17 |      | won't take over, take over SAI for Warden Nork Bloodfrenzy & Valiance Keep Officer from TC instead |
-| sol@691d1d8e | 2022-05-17 |      | also take over the broadcast text IDs from TC |
-| sol@aab3348e | 2022-05-17 |      | just take over (and rework) a few useful changes; low prio (Cosmetic) |
+| sol@fbd5e981 | 2022-05-27 |      | verify changes (probably rework "ban" commands); low prio |
+| sol@bc101780 | 2022-05-25 | X    | verify/rework SQL script; done: sol@02d9b215 |
+| sol@7ef53bcd | 2022-05-25 | X    | won't take over, just add a new entry for creature ID 7446 and set drop chance to 50% for all affected creatures; done: sol@8647c7a6 |
+| sol@34943f1f | 2022-05-23 | X    | verify/rework SQL script; done: sol@1855e88e |
+| sol@e0a0e883 | 2022-05-23 | X    | won't take over (Sol is not affected by this issue), but the SAI & WP path needs to be reworked; done: sol@9d12c070 |
+| sol@1b852b4a | 2022-05-21 | X    | verify changes; done: sol@d4ec5aee |
+| sol@634b2e10 | 2022-05-21 | X    | verify changes; done: sol@96b474e6 |
+| sol@dafba27b | 2022-05-21 | X    | won't take over, remove the talk action instead (the creature should not talk at all); done: sol@36f04676 |
+| sol@5dea6b6d | 2022-05-17 | X    | verify/rework SQL script; done: sol@7aa5de20 |
+| sol@1cc015b5 | 2022-05-17 | X    | won't take over, take over SAI for Warden Nork Bloodfrenzy & Valiance Keep Officer from TC instead; implemented another solution: sol@021c3f36 |
+| sol@691d1d8e | 2022-05-17 | X    | also take over the broadcast text IDs from TC; done: sol@3d33fdfe |
+| sol@aab3348e | 2022-05-17 | X    | just take over (and rework) a few useful changes; low prio (Cosmetic); done: sol@a08c5e16 |
 | sol@d3cb7b36 | 2022-05-11 |      | verify/rework SQL script; actually not needed at all as the quests were removed with patch 3.2.2 |
 | sol@0bb78923 | 2022-05-08 | X    | verify/rework SQL script; done: sol@b91d55ee |
 | sol@9402bd81 | 2022-05-08 | X    | fix typos and use correct syntax for strings based on character gender; done: sol@e71b8c96 |
