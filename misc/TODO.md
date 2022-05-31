@@ -2,6 +2,8 @@ TODOs: common, [dungeon](TODO_dungeon.md), [event](TODO_event.md), [pvp](TODO_pv
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@86ea1998 | 2022-05-30 |      | verify changes; split into multiple commits |
+| sol@1aca5a9b | 2022-05-29 |      | verify/rework SQL script |
 | sol@fbd5e981 | 2022-05-27 |      | verify changes (probably rework "ban" commands); low prio |
 | sol@bc101780 | 2022-05-25 | X    | verify/rework SQL script; done: sol@02d9b215 |
 | sol@7ef53bcd | 2022-05-25 | X    | won't take over, just add a new entry for creature ID 7446 and set drop chance to 50% for all affected creatures; done: sol@8647c7a6 |

@@ -10,8 +10,9 @@ Table created and content moved from gameobject\_template in commit bd4bf0a
 | [entry](#entry)     | mediumint(8) | unsigned       | PRI     | NO       | 0           |           |             |
 | [faction](#faction) | smallint(5)  | unsigned       |         | NO       | 0           |           |             |
 | [flags](#flags)     | int(10)      | unsigned       |         | NO       | 0           |           |             |
-| mingold             | mediumint(8) | unsigned       |         | NO       | 0           |           |             |
-| maxgold             | mediumint(8) | unsigned       |         | NO       | 0           |           |             |
+| [mingold](#mingold) | mediumint(8) | unsigned       |         | NO       | 0           |           |             |
+| [maxgold](#maxgold) | mediumint(8) | unsigned       |         | NO       | 0           |           |             |
+| [isLarge](#islarge) | tinyint(1)   | unsigned       |         | NO       | 0           |           |             |
 
 ## Description of the fields
 
@@ -46,3 +47,13 @@ Minimum money, in copper, that the gameobject can drop when accessed / used.
 ### maxgold
 
 Maximum money, in copper, that the gameobject can drop when accessed / used.
+
+### isLarge
+
+This field controls the visibility distance for gameobjects:
+
+0 = Normal, default visibility distance for the gameobject
+
+1 = Large, maximum visibility distance (250 yards)
+
+If set, this will override the "large" data field used by some [gameobjects](gameobject_template.md).

@@ -2,13 +2,18 @@ TODOs: [common](TODO.md), dungeon, [event](TODO_event.md), [pvp](TODO_pvp.md), [
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@a8eb0ef7 | 2022-05-30 |      | verify/rework SQL script (Zul'Gurub) |
+| sol@f85b62a7 | 2022-05-30 |      | verify changes (Zul'Gurub) |
+| sol@be877a4e | 2022-05-30 |      | verify changes (Zul'Gurub) |
+| sol@a0da7417 | 2022-05-30 |      | verify changes (Blackwing Lair) |
+| sol@1e79b10b | 2022-05-30 |      | verify changes (Zul'Gurub) |
 | sol@f471febb | 2022-05-26 |      | won't take over, just update the text range (the text itself is perfectly fine) (Zul'Gurub) |
 | sol@a6a2ca8e | 2022-05-24 |      | take over if needed (or perhaps implement another solution, e.g. change GO states according to instance data) |
 | sol@46d0b32d | 2022-05-23 | X    | won't take over, just update the appropriate SAI entries (Stratholme); done: sol@4351d145 |
 | sol@1f59431d | 2022-05-23 |      | verify changes (Blackwing Lair) |
 | sol@b6d79ac8 | 2022-05-23 |      | verify changes (Zul'Gurub) |
 | sol@ee596047 | 2022-05-21 |      | verify changes (Blackrock Depths) |
-| sol@fbbb287c | 2022-05-21 |      | verify changes (Ulduar) |
+| sol@fbbb287c | 2022-05-21 |      | verify changes (also see sol@75a27c02) (Ulduar) |
 | sol@75c65ce9 | 2022-05-21 |      | verify changes (Ulduar) |
 | sol@d94f8b59 | 2022-05-19 |      | verify changes (Ulduar) |
 | sol@8935f9a8 | 2022-05-17 |      | verify changes (Black Temple) |
