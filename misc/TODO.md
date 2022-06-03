@@ -2,8 +2,10 @@ TODOs: common, [dungeon](TODO_dungeon.md), [event](TODO_event.md), [pvp](TODO_pv
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@c027e907 | 2022-06-02 |      | verify/rework SQL script |
+| sol@cca4b90c | 2022-06-02 |      | verify/rework SQL script |
 | sol@86ea1998 | 2022-05-30 |      | verify changes; split into multiple commits |
-| sol@1aca5a9b | 2022-05-29 |      | verify/rework SQL script |
+| sol@1aca5a9b | 2022-05-29 | X    | verify/rework SQL script; done: sol@fa2dee69 |
 | sol@fbd5e981 | 2022-05-27 |      | verify changes (probably rework "ban" commands); low prio |
 | sol@bc101780 | 2022-05-25 | X    | verify/rework SQL script; done: sol@02d9b215 |
 | sol@7ef53bcd | 2022-05-25 | X    | won't take over, just add a new entry for creature ID 7446 and set drop chance to 50% for all affected creatures; done: sol@8647c7a6 |
@@ -53,7 +55,7 @@ TODOs: common, [dungeon](TODO_dungeon.md), [event](TODO_event.md), [pvp](TODO_pv
 | sol@f2ab17f5 | 2022-03-18 |      | verify/rework SQL script; check the WP paths; low prio (Cosmetic) |
 | sol@6c60dc38 | 2022-03-15 |      | verify changes; low prio (minor issue) |
 | sol@4806769b | 2022-03-14 |      | verify/rework SQL script; low prio (minor issue) |
-| sol@d61ebd75 | 2022-03-12 |      | verify/rework SQL script; low prio (minor issue) |
+| sol@d61ebd75 | 2022-03-12 | X    | verify/rework SQL script; low prio (minor issue); done: sol@bb5c8b71 |
 | sol@f2f0b742 | 2022-03-08 | X    | verify/rework SQL script; update: already fixed, see sol@3e61589b |
 | sol@a7aecd12 | 2022-03-07 | X    | also update npcflag of the affected creatures (quest\_greeting is only used if UNIT\_NPC\_FLAG\_GOSSIP is not set and UNIT\_NPC\_FLAG\_QUESTGIVER is set); done: sol@b5a8944d |
 | sol@f6971730 | 2022-03-06 |      | verify/rework SQL script; check the WP paths; low prio (Cosmetic) |
