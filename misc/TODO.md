@@ -2,9 +2,11 @@ TODOs: common, [dungeon](TODO_dungeon.md), [event](TODO_event.md), [pvp](TODO_pv
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@f28c678c | 2022-06-06 |      | verify changes |
+| sol@08118e16 | 2022-06-04 |      | verify/rework SQL script; check the WP paths; low prio (Cosmetic) |
 | sol@c027e907 | 2022-06-02 |      | verify/rework SQL script |
 | sol@cca4b90c | 2022-06-02 |      | verify/rework SQL script |
-| sol@86ea1998 | 2022-05-30 |      | verify changes; split into multiple commits |
+| sol@86ea1998 | 2022-05-30 |      | verify changes; split into multiple commits; done: sol@dec2ab76 |
 | sol@1aca5a9b | 2022-05-29 | X    | verify/rework SQL script; done: sol@fa2dee69 |
 | sol@fbd5e981 | 2022-05-27 |      | verify changes (probably rework "ban" commands); low prio |
 | sol@bc101780 | 2022-05-25 | X    | verify/rework SQL script; done: sol@02d9b215 |

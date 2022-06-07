@@ -2,6 +2,14 @@ TODOs: [common](TODO.md), dungeon, [event](TODO_event.md), [pvp](TODO_pvp.md), [
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@70f38913 | 2022-06-06 |      | verify changes (Zul'Gurub) |
+| sol@41b0fa02 | 2022-06-06 |      | verify changes (Zul'Gurub) |
+| sol@75858bd7 | 2022-06-06 |      | verify changes (Ulduar) |
+| sol@ffda31fc | 2022-06-06 |      | verify changes (Zul'Gurub) |
+| sol@5c7e7afa | 2022-06-06 |      | verify changes (Zul'Gurub) |
+| sol@156b1eb9 | 2022-06-06 |      | verify changes (Ulduar) |
+| sol@7549eb59 | 2022-06-06 |      | verify changes (Scarlet Monastery: Cathedral) |
+| sol@5454c047 | 2022-06-06 |      | verify changes (Zul'Gurub) |
 | sol@8e0b1ca2 | 2022-06-03 |      | verify changes (Zul'Gurub) |
 | sol@a8eb0ef7 | 2022-05-30 |      | verify/rework SQL script (Zul'Gurub) |
 | sol@f85b62a7 | 2022-05-30 |      | verify changes (Zul'Gurub) |
