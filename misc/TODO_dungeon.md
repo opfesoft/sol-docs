@@ -2,6 +2,14 @@ TODOs: [common](TODO.md), dungeon, [event](TODO_event.md), [pvp](TODO_pvp.md), [
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@f9368ed0 | 2022-06-14 |      | verify changes (Zul'Gurub) |
+| sol@d5221ae4 | 2022-06-14 |      | verify changes (Zul'Gurub) |
+| sol@21705d76 | 2022-06-14 |      | verify changes (Zul'Gurub) |
+| sol@7e703393 | 2022-06-13 |      | verify changes (Zul'Gurub) |
+| sol@d236dc9d | 2022-06-13 |      | verify changes (Zul'Gurub) |
+| sol@3b0cd43d | 2022-06-13 |      | verify changes (Zul'Gurub) |
+| sol@9dd4123f | 2022-06-09 |      | improve GO script instead (Zul'Gurub) |
+| sol@e9512086 | 2022-06-09 |      | verify changes (Zul'Gurub) |
 | sol@70f38913 | 2022-06-06 |      | verify changes (Zul'Gurub) |
 | sol@41b0fa02 | 2022-06-06 |      | verify changes (Zul'Gurub) |
 | sol@75858bd7 | 2022-06-06 |      | verify changes (Ulduar) |
@@ -157,7 +165,7 @@ TODOs: [common](TODO.md), dungeon, [event](TODO_event.md), [pvp](TODO_pvp.md), [
 | sol@c6934b06 | 2022-01-14 |      | verify/rework SQL script (also see sol@03a72cfc, sol@d891259f) (Lower Blackrock Spire) |
 | sol@f89f0301 | 2022-01-11 |      | won't take over, fix linked\_respawn instead (Molten Core) |
 | sol@8216318f | 2022-01-01 |      | won't take over, fix linked\_respawn instead (Molten Core) |
-| sol@9b3b6113 | 2021-12-16 |      | verify changes (also see sol@124ea8a1) (Blackrock Depths) |
+| sol@9b3b6113 | 2021-12-16 |      | verify changes (also see sol@124ea8a1, sol@d3b381c2) (Blackrock Depths) |
 | sol@2ce3d792 | 2021-12-09 |      | verify/rework SQL script (Zul'Aman) |
 | sol@ac876213 | 2021-12-04 |      | verify changes (Upper Blackrock Spire) |
 | sol@9cc6a9ae | 2021-12-03 |      | verify changes, rework SAI instead (Dire Maul) |

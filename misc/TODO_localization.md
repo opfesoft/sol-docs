@@ -2,6 +2,7 @@ TODOs: [common](TODO.md), [dungeon](TODO_dungeon.md), [event](TODO_event.md), [p
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@41a04c5e | 2022-06-11 |      | verify/rework SQL script (zhCN) |
 | sol@84ccf508 | 2022-05-25 |      | verify/rework SQL script (zhCN) |
 | sol@0718e950 | 2022-05-11 |      | verify/rework SQL script (zhCN) |
 | sol@e6ddf520 | 2022-04-24 |      | verify/rework SQL script (esES, esMX, frFR) |

@@ -2,11 +2,16 @@ TODOs: common, [dungeon](TODO_dungeon.md), [event](TODO_event.md), [pvp](TODO_pv
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
-| sol@f28c678c | 2022-06-06 |      | verify changes |
+| sol@396fd35e | 2022-06-14 |      | not needed, but keep as a reference (can also be accomplished using scripts) |
+| sol@b273da1a | 2022-06-13 |      | verify changes; low prio (World Boss) |
+| sol@491f7338 | 2022-06-12 |      | verify changes; low prio (World Boss) |
+| sol@9aa3fef4 | 2022-06-08 |      | verify changes |
+| sol@9a475ed4 | 2022-06-08 |      | verify/rework SQL script; check the WP paths; low prio (Cosmetic) |
+| sol@f28c678c | 2022-06-06 | X    | verify changes; implemented another solution: sol@b003587b |
 | sol@08118e16 | 2022-06-04 |      | verify/rework SQL script; check the WP paths; low prio (Cosmetic) |
 | sol@c027e907 | 2022-06-02 |      | verify/rework SQL script |
-| sol@cca4b90c | 2022-06-02 |      | verify/rework SQL script |
-| sol@86ea1998 | 2022-05-30 |      | verify changes; split into multiple commits; done: sol@dec2ab76 |
+| sol@cca4b90c | 2022-06-02 | X    | verify/rework SQL script; done: sol@1bde0bdd |
+| sol@86ea1998 | 2022-05-30 | X    | verify changes; split into multiple commits; done: sol@dec2ab76, sol@fd32848c, sol@9859bded, sol@215aebdc, sol@e51d5df6, sol@81b3fc2c, sol@cc01f591 |
 | sol@1aca5a9b | 2022-05-29 | X    | verify/rework SQL script; done: sol@fa2dee69 |
 | sol@fbd5e981 | 2022-05-27 |      | verify changes (probably rework "ban" commands); low prio |
 | sol@bc101780 | 2022-05-25 | X    | verify/rework SQL script; done: sol@02d9b215 |

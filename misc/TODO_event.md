@@ -9,7 +9,7 @@ TODOs: [common](TODO.md), [dungeon](TODO_dungeon.md), event, [pvp](TODO_pvp.md),
 | sol@82076755 | 2022-01-28 |      | Omen should not regenerate health but despawn if it takes too long to take him down; fix creature script (Lunar Festival) |
 | sol@7de3c2df | 2022-01-14 |      | verify changes; compare with TC (Feast of Winter Veil) |
 | sol@3297a4fb | 2022-01-03 |      | verify changes (Midsummer Fire Festival) |
-| sol@3b8e3eb6 | 2021-12-17 |      | verify changes (note: generic change to GameObject::Update, could cause side effects; find another solution) (Day of the Dead) |
+| sol@3b8e3eb6 | 2021-12-17 | X    | verify changes (note: generic change to GameObject::Update, could cause side effects; find another solution) (Day of the Dead); done: sol@ff795de0 |
 | sol@653eb9d7 | 2021-12-16 |      | verify/rework SQL script |
 | sol@abcd9218 | 2021-12-11 |      | verify/rework SQL script (also see sol@cceb7a4d) (Feast of Winter Veil) |
 | sol@6c1846ad | 2021-12-08 |      | verify changes (Brewfest) |
@@ -51,5 +51,5 @@ TODOs: [common](TODO.md), [dungeon](TODO_dungeon.md), event, [pvp](TODO_pvp.md),
 | sol@911ac12e | 2021-02-01 |      | verify SQL script (also see sol@fc5bca04) (Lunar Festival) |
 | sol@9c239d17 | 2021-02-01 |      | verify SQL script (Lunar Festival) |
 | sol@106684fb | 2020-12-31 |      | verify SQL script & quest (Brewfest) |
-| sol@24cfa307 | 2020-10-11 | X    | verify and rework SQL script; compare with TC version (Brewfest) |
+| sol@24cfa307 | 2020-10-11 |      | verify and rework SQL script; compare with TC version (Brewfest) |
 | sol@29f2c2ae | 2020-09-02 |      | create appropriate SAI scripts using SMART\_ACTION\_MUSIC (Brewfest) |
