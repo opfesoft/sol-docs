@@ -2,14 +2,23 @@ TODOs: common, [dungeon](TODO_dungeon.md), [event](TODO_event.md), [pvp](TODO_pv
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@39c0f1a7 | 2022-06-18 |      | verify changes; low prio (minor issue) |
+| sol@91575f07 | 2022-06-18 |      | keep as reference; take over single GOs/pools if needed; won't blindly take over such mass updates |
+| sol@24f065c3 | 2022-06-18 |      | verify/rework SQL script |
+| sol@b0add000 | 2022-06-18 |      | verify changes; split into multiple commits; also fix SAI/gossip of the associated NPCs |
+| sol@0c546fd9 | 2022-06-18 |      | won't take over, rework SAI instead (talk on aggro, see TC version) |
+| sol@45ba1464 | 2022-06-18 |      | won't take over, remove the loot instead and ensure that the GO is activated even if it has no loot (see TC commit a26304478d9505713dfadb9b04a3bda4cef57545) |
+| sol@b8990d4a | 2022-06-17 |      | won't take over (Sol is not affected by this issue), but the SAI needs to be reworked (talk on aggro, see TC version) |
+| sol@386bade2 | 2022-06-16 |      | verify changes; low prio (World Boss) |
+| sol@b5122ab0 | 2022-06-15 |      | verify changes; low prio (World Boss) |
 | sol@396fd35e | 2022-06-14 |      | not needed, but keep as a reference (can also be accomplished using scripts) |
 | sol@b273da1a | 2022-06-13 |      | verify changes; low prio (World Boss) |
 | sol@491f7338 | 2022-06-12 |      | verify changes; low prio (World Boss) |
-| sol@9aa3fef4 | 2022-06-08 |      | verify changes |
+| sol@9aa3fef4 | 2022-06-08 | X    | verify changes; done: sol@9f5e2e10 |
 | sol@9a475ed4 | 2022-06-08 |      | verify/rework SQL script; check the WP paths; low prio (Cosmetic) |
 | sol@f28c678c | 2022-06-06 | X    | verify changes; implemented another solution: sol@b003587b |
 | sol@08118e16 | 2022-06-04 |      | verify/rework SQL script; check the WP paths; low prio (Cosmetic) |
-| sol@c027e907 | 2022-06-02 |      | verify/rework SQL script |
+| sol@c027e907 | 2022-06-02 | X    | verify/rework SQL script; update: won't take over, Sol is not affected by the issue |
 | sol@cca4b90c | 2022-06-02 | X    | verify/rework SQL script; done: sol@1bde0bdd |
 | sol@86ea1998 | 2022-05-30 | X    | verify changes; split into multiple commits; done: sol@dec2ab76, sol@fd32848c, sol@9859bded, sol@215aebdc, sol@e51d5df6, sol@81b3fc2c, sol@cc01f591 |
 | sol@1aca5a9b | 2022-05-29 | X    | verify/rework SQL script; done: sol@fa2dee69 |
@@ -101,7 +110,7 @@ TODOs: common, [dungeon](TODO_dungeon.md), [event](TODO_event.md), [pvp](TODO_pv
 | sol@cf5dae9d | 2022-02-11 | X    | verify/rework SQL script; update: not needed as this is actually a quest greeting (see sol@b5a8944d) |
 | sol@bffe8381 | 2022-02-10 | X    | won't take over, rework creature script instead; done: sol@915932d2 |
 | sol@0fa4a90a | 2022-02-10 | X    | won't take over, just fix the logic error concerning "Aura of Despair"; done: sol@9749f2e0 |
-| sol@520f0c6a | 2022-02-10 |      | verify/rework scripts (also see sol@e1711e28, sol@25c824e8, sol@9a67c0f0, sol@33b01834, sol@cb7f3d50, sol@47e0c0d8); check the WP paths; low prio (World Boss) |
+| sol@520f0c6a | 2022-02-10 |      | verify/rework scripts (also see sol@e1711e28, sol@25c824e8, sol@9a67c0f0, sol@33b01834, sol@cb7f3d50, sol@47e0c0d8, sol@c40fa650); check the WP paths; low prio (World Boss) |
 | sol@336967b3 | 2022-02-09 | X    | won't take over, just fix the logic error concerning spell 28845 in Unit::HandleProcTriggerSpell; done: sol@44ee29b4 |
 | sol@4d4e7e68 | 2022-02-04 | X    | verify/rework SQL script; done: sol@29f192dc |
 | sol@1c6660c1 | 2022-02-04 | X    | verify/rework SQL script; done: sol@6eeeb38b |

@@ -2,6 +2,17 @@ TODOs: [common](TODO.md), dungeon, [event](TODO_event.md), [pvp](TODO_pvp.md), [
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@2db5f9a2 | 2022-06-19 |      | verify changes (Zul'Gurub) |
+| sol@82cfd1b8 | 2022-06-18 |      | verify changes (Zul'Gurub) |
+| sol@4265ef02 | 2022-06-18 |      | verify changes (Zul'Gurub) |
+| sol@06a879da | 2022-06-18 |      | verify changes (Temple of Ahn'Qiraj) |
+| sol@84295280 | 2022-06-16 |      | verify/rework SQL script (Zul'Gurub) |
+| sol@235d2b6c | 2022-06-16 |      | verify changes (Zul'Gurub) |
+| sol@59eab6aa | 2022-06-16 |      | verify changes (Zul'Gurub) |
+| sol@117a18c9 | 2022-06-16 |      | verify changes (Zul'Gurub) |
+| sol@ee6ad8d7 | 2022-06-16 |      | verify changes (Molten Core) |
+| sol@830fd3f6 | 2022-06-14 |      | verify/rework SQL script (Zul'Gurub) |
+| sol@987d49f9 | 2022-06-14 |      | verify changes (Temple of Ahn'Qiraj) |
 | sol@f9368ed0 | 2022-06-14 |      | verify changes (Zul'Gurub) |
 | sol@d5221ae4 | 2022-06-14 |      | verify changes (Zul'Gurub) |
 | sol@21705d76 | 2022-06-14 |      | verify changes (Zul'Gurub) |
