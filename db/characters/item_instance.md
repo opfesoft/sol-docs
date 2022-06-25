@@ -1,6 +1,6 @@
 # item\_instance
 
-This table holds individual item instance information for all items currently equipped in some kind of character bag or bank, in auctionhouses, in guild banks or in mails.
+This table holds individual item instance information for all items currently equipped in some kind of character bag or bank, in auction houses, in guild banks or in mails.
 
 ## Structure
 
@@ -37,7 +37,7 @@ This table holds individual item instance information for all items currently eq
 <td><p> </p></td>
 </tr>
 <tr>
-<td><p><a href="#itemenry">itemEntry</a></p></td>
+<td><p><a href="#itementry">itemEntry</a></p></td>
 <td><p>mediumint(8)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
@@ -108,7 +108,7 @@ This table holds individual item instance information for all items currently eq
 </tr>
 <tr>
 <td><p><a href="#flags">flags</a></p></td>
-<td><p>mediunint(8)</p></td>
+<td><p>mediumint(8)</p></td>
 <td><p>unsigned</p></td>
 <td><p> </p></td>
 <td><p>NO</p></td>
@@ -175,7 +175,7 @@ This table holds individual item instance information for all items currently eq
 
 The GUID of the item. This number is unique for each item instance.
 
-### itemEnry
+### itemEntry
 
 [Item](../world/item_template.md#entry) entry.
 

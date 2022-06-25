@@ -2,10 +2,11 @@ TODOs: common, [dungeon](TODO_dungeon.md), [event](TODO_event.md), [pvp](TODO_pv
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@a7076291 | 2022-06-22 |      | won't take over; should show "fizzled" if the spell fails, also the chance calculation seems very odd; find another solution |
 | sol@39c0f1a7 | 2022-06-18 |      | verify changes; low prio (minor issue) |
 | sol@91575f07 | 2022-06-18 |      | keep as reference; take over single GOs/pools if needed; won't blindly take over such mass updates |
 | sol@24f065c3 | 2022-06-18 |      | verify/rework SQL script |
-| sol@b0add000 | 2022-06-18 |      | verify changes; split into multiple commits; also fix SAI/gossip of the associated NPCs |
+| sol@b0add000 | 2022-06-18 | X    | verify changes; split into multiple commits; also fix SAI/gossip of the associated NPCs; this commit also contains several bugs, e.g. a quest reward for "There Is No Hope" which was actually added in Cataclysm because the quest chain ended there; done: sol@70bedc35, sol@9dd6f153, sol@7e36b0f2, sol@a371c43d, sol@2c855eb9, sol@13e7a3e1, sol@acd20cbb |
 | sol@0c546fd9 | 2022-06-18 |      | won't take over, rework SAI instead (talk on aggro, see TC version) |
 | sol@45ba1464 | 2022-06-18 |      | won't take over, remove the loot instead and ensure that the GO is activated even if it has no loot (see TC commit a26304478d9505713dfadb9b04a3bda4cef57545) |
 | sol@b8990d4a | 2022-06-17 |      | won't take over (Sol is not affected by this issue), but the SAI needs to be reworked (talk on aggro, see TC version) |

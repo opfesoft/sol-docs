@@ -2,11 +2,13 @@ TODOs: [common](TODO.md), dungeon, [event](TODO_event.md), [pvp](TODO_pvp.md), [
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@07a6c174 | 2022-06-24 |      | verify changes (Forge of Souls) |
+| sol@c96a4ba2 | 2022-06-22 |      | verify changes (Zul'Gurub) |
 | sol@2db5f9a2 | 2022-06-19 |      | verify changes (Zul'Gurub) |
 | sol@82cfd1b8 | 2022-06-18 |      | verify changes (Zul'Gurub) |
 | sol@4265ef02 | 2022-06-18 |      | verify changes (Zul'Gurub) |
 | sol@06a879da | 2022-06-18 |      | verify changes (Temple of Ahn'Qiraj) |
-| sol@84295280 | 2022-06-16 |      | verify/rework SQL script (Zul'Gurub) |
+| sol@84295280 | 2022-06-16 |      | verify/rework SQL script (also see sol@379f91fe) (Zul'Gurub) |
 | sol@235d2b6c | 2022-06-16 |      | verify changes (Zul'Gurub) |
 | sol@59eab6aa | 2022-06-16 |      | verify changes (Zul'Gurub) |
 | sol@117a18c9 | 2022-06-16 |      | verify changes (Zul'Gurub) |
@@ -80,7 +82,7 @@ TODOs: [common](TODO.md), dungeon, [event](TODO_event.md), [pvp](TODO_pvp.md), [
 | sol@3d609bfd | 2022-04-15 |      | verify changes (Blackwing Lair) |
 | sol@2f5a5dff | 2022-04-14 |      | verify changes (Blackwing Lair) |
 | sol@6a931b6b | 2022-04-13 |      | verify changes (Blackwing Lair) |
-| sol@1b1e29be | 2022-04-12 |      | verify changes (Blackwing Lair) |
+| sol@1b1e29be | 2022-04-12 |      | verify changes (also see sol@38889324) (Blackwing Lair) |
 | sol@ab990647 | 2022-04-11 |      | verify changes (Blackwing Lair) |
 | sol@f124ae14 | 2022-04-11 |      | verify changes (Blackwing Lair) |
 | sol@1ee058df | 2022-04-11 |      | verify changes (Blackwing Lair) |

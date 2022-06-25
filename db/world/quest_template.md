@@ -669,7 +669,7 @@ Examples:
 
 ### RewardNextQuest
 
-The quest entry from a **creature** or **gameobject** that ends a quest and starts a new one. The result is, that if you end the quest, the new quest instantly appears from the quest giver.
+The quest entry from a **creature** or **gameobject** that ends a quest and starts a new one. The result is, that if you end the quest, the new quest instantly appears from the quest giver if it is available to the player.
 
 See the [examples section](#examples-dealing-with-quests) for examples.
 
@@ -982,7 +982,7 @@ Single, stand-alone quest with no prerequisites
 ```
 
 ``` cpp
-entry = questA        PrevQuestId = 0        NextQuestId = 0        ExclusiveGroup = 0        NextQuestInChain = 0
+entry = questA        PrevQuestId = 0        NextQuestId = 0        ExclusiveGroup = 0        RewardNextQuest = 0
 ```
 
 ### Prequest
@@ -994,7 +994,7 @@ When this quest require another quest to be rewarded
 ```
 
 ``` cpp
-entry = questA        PrevQuestId = questX   NextQuestId = 0        ExclusiveGroup = 0        NextQuestInChain = 0
+entry = questA        PrevQuestId = questX   NextQuestId = 0        ExclusiveGroup = 0        RewardNextQuest = 0
 ```
 
 ### Chain of quests
@@ -1012,10 +1012,10 @@ Player get quests in a strict chain that must be completed in a specific order.
 ```
 
 ``` cpp
-entry = questA      PrevQuestId = 0          NextQuestId = 0       ExclusiveGroup = 0       NextQuestInChain = questB
-entry = questB      PrevQuestId = questA     NextQuestId = 0       ExclusiveGroup = 0       NextQuestInChain = questC
-entry = questC      PrevQuestId = questB     NextQuestId = 0       ExclusiveGroup = 0       NextQuestInChain = questD
-entry = questD      PrevQuestId = questC     NextQuestId = 0       ExclusiveGroup = 0       NextQuestInChain = 0
+entry = questA      PrevQuestId = 0          NextQuestId = 0       ExclusiveGroup = 0       RewardNextQuest = questB
+entry = questB      PrevQuestId = questA     NextQuestId = 0       ExclusiveGroup = 0       RewardNextQuest = questC
+entry = questC      PrevQuestId = questB     NextQuestId = 0       ExclusiveGroup = 0       RewardNextQuest = questD
+entry = questD      PrevQuestId = questC     NextQuestId = 0       ExclusiveGroup = 0       RewardNextQuest = 0
 ```
 
 ### Chain of quests with multiple start quests.
@@ -1031,11 +1031,11 @@ Player should only be allowed to complete one of three possible
 ```
 
 ``` cpp
-entry = questA      PrevQuestId = 0        NextQuestId = questD    ExclusiveGroup = questA    NextQuestInChain = questD    
-entry = questB      PrevQuestId = 0        NextQuestId = questD    ExclusiveGroup = questA    NextQuestInChain = questD
-entry = questC      PrevQuestId = 0        NextQuestId = questD    ExclusiveGroup = questA    NextQuestInChain = questD
-entry = questD      PrevQuestId = 0        NextQuestId = 0         ExclusiveGroup = 0         NextQuestInChain = questE
-entry = questE      PrevQuestId = questD   NextQuestId = 0         ExclusiveGroup = 0         NextQuestInChain = 0
+entry = questA      PrevQuestId = 0        NextQuestId = questD    ExclusiveGroup = questA    RewardNextQuest = questD
+entry = questB      PrevQuestId = 0        NextQuestId = questD    ExclusiveGroup = questA    RewardNextQuest = questD
+entry = questC      PrevQuestId = 0        NextQuestId = questD    ExclusiveGroup = questA    RewardNextQuest = questD
+entry = questD      PrevQuestId = 0        NextQuestId = 0         ExclusiveGroup = 0         RewardNextQuest = questE
+entry = questE      PrevQuestId = questD   NextQuestId = 0         ExclusiveGroup = 0         RewardNextQuest = 0
 ```
 
 ### Chain of quests with multiple start quests.
@@ -1051,11 +1051,11 @@ Player must complete all three initial quests before D becomes available
 ```
 
 ``` cpp
-entry = questA      PrevQuestId = 0        NextQuestId = questD   ExclusiveGroup = -questA    NextQuestInChain = questD
-entry = questB      PrevQuestId = 0        NextQuestId = questD   ExclusiveGroup = -questA    NextQuestInChain = questD
-entry = questC      PrevQuestId = 0        NextQuestId = questD   ExclusiveGroup = -questA    NextQuestInChain = questD
-entry = questD      PrevQuestId = 0        NextQuestId = 0        ExclusiveGroup = 0          NextQuestInChain = questE
-entry = questE      PrevQuestId = questD   NextQuestId = 0        ExclusiveGroup = 0          NextQuestInChain = 0
+entry = questA      PrevQuestId = 0        NextQuestId = questD   ExclusiveGroup = -questA    RewardNextQuest = questD
+entry = questB      PrevQuestId = 0        NextQuestId = questD   ExclusiveGroup = -questA    RewardNextQuest = questD
+entry = questC      PrevQuestId = 0        NextQuestId = questD   ExclusiveGroup = -questA    RewardNextQuest = questD
+entry = questD      PrevQuestId = 0        NextQuestId = 0        ExclusiveGroup = 0          RewardNextQuest = questE
+entry = questE      PrevQuestId = questD   NextQuestId = 0        ExclusiveGroup = 0          RewardNextQuest = 0
 ```
 
 ### Quests with split and a child quest
@@ -1071,11 +1071,11 @@ Completing A unlocks B and C that can be done at the same time. They both need t
 ```
 
 ``` cpp
-entry = questA       PrevQuestId = 0        NextQuestId = 0        ExclusiveGroup = 0         NextQuestInChain = 0
-entry = questB       PrevQuestId = questA   NextQuestId = questD   ExclusiveGroup = -questB   NextQuestInChain = 0
-entry = questC       PrevQuestId = questA   NextQuestId = questD   ExclusiveGroup = -questB   NextQuestInChain = 0
-entry = questX       PrevQuestId = -questC  NextQuestId = 0        ExclusiveGroup = 0         NextQuestInChain = 0
-entry = questD       PrevQuestId = 0        NextQuestId = 0        ExclusiveGroup = 0         NextQuestInChain = 0
+entry = questA       PrevQuestId = 0        NextQuestId = 0        ExclusiveGroup = 0         RewardNextQuest = 0
+entry = questB       PrevQuestId = questA   NextQuestId = questD   ExclusiveGroup = -questB   RewardNextQuest = 0
+entry = questC       PrevQuestId = questA   NextQuestId = questD   ExclusiveGroup = -questB   RewardNextQuest = 0
+entry = questX       PrevQuestId = -questC  NextQuestId = 0        ExclusiveGroup = 0         RewardNextQuest = 0
+entry = questD       PrevQuestId = 0        NextQuestId = 0        ExclusiveGroup = 0         RewardNextQuest = 0
 ```
 
 ### Multiple quest chains, leading to one final quest
@@ -1093,15 +1093,15 @@ Player may complete (not required to) X, but has to complete all three quest cha
 ```
 
 ``` cpp
-PrevQuestId = 0        NextQuestId = 0         ExclusiveGroup = 0          NextQuestInChain = questC    entry = questX
-PrevQuestId = 0        NextQuestId = 0         ExclusiveGroup = 0          NextQuestInChain = questB    entry = questA
-PrevQuestId = questA   NextQuestId = questG    ExclusiveGroup = -questB    NextQuestInChain = 0         entry = questB
-PrevQuestId = 0        NextQuestId = 0         ExclusiveGroup = 0          NextQuestInChain = questD    entry = questC
-PrevQuestId = questC   NextQuestId = questG    ExclusiveGroup = -questB    NextQuestInChain = 0         entry = questD
-PrevQuestId = 0        NextQuestId = 0         ExclusiveGroup = 0          NextQuestInChain = questF    entry = questE
-PrevQuestId = questE   NextQuestId = questG    ExclusiveGroup = -questB    NextQuestInChain = 0         entry = questF
+PrevQuestId = 0        NextQuestId = 0         ExclusiveGroup = 0          RewardNextQuest = questC    entry = questX
+PrevQuestId = 0        NextQuestId = 0         ExclusiveGroup = 0          RewardNextQuest = questB    entry = questA
+PrevQuestId = questA   NextQuestId = questG    ExclusiveGroup = -questB    RewardNextQuest = 0         entry = questB
+PrevQuestId = 0        NextQuestId = 0         ExclusiveGroup = 0          RewardNextQuest = questD    entry = questC
+PrevQuestId = questC   NextQuestId = questG    ExclusiveGroup = -questB    RewardNextQuest = 0         entry = questD
+PrevQuestId = 0        NextQuestId = 0         ExclusiveGroup = 0          RewardNextQuest = questF    entry = questE
+PrevQuestId = questE   NextQuestId = questG    ExclusiveGroup = -questB    RewardNextQuest = 0         entry = questF
 
-PrevQuestId = 0        NextQuestId = 0         ExclusiveGroup = 0          NextQuestInChain = 0         entry = questG
+PrevQuestId = 0        NextQuestId = 0         ExclusiveGroup = 0          RewardNextQuest = 0         entry = questG
 ```
 
 ### Complicated
@@ -1123,20 +1123,20 @@ Player must first complete A, then B to unlock the chain from C to E. Three othe
 ```
 
 ``` cpp
-PrevQuestId = 0        NextQuestId = 0         ExclusiveGroup = 0          NextQuestInChain = questB    entry = questA
-PrevQuestId = questA   NextQuestId = 0         ExclusiveGroup = 0          NextQuestInChain = 0         entry = questB
+PrevQuestId = 0        NextQuestId = 0         ExclusiveGroup = 0          RewardNextQuest = questB    entry = questA
+PrevQuestId = questA   NextQuestId = 0         ExclusiveGroup = 0          RewardNextQuest = 0         entry = questB
 
-PrevQuestId = questB   NextQuestId = 0         ExclusiveGroup = 0          NextQuestInChain = questD    entry = questC
-PrevQuestId = questC   NextQuestId = 0         ExclusiveGroup = 0          NextQuestInChain = questE    entry = questD
-PrevQuestId = questD   NextQuestId = questJ    ExclusiveGroup = -questE    NextQuestInChain = 0         entry = questE
+PrevQuestId = questB   NextQuestId = 0         ExclusiveGroup = 0          RewardNextQuest = questD    entry = questC
+PrevQuestId = questC   NextQuestId = 0         ExclusiveGroup = 0          RewardNextQuest = questE    entry = questD
+PrevQuestId = questD   NextQuestId = questJ    ExclusiveGroup = -questE    RewardNextQuest = 0         entry = questE
 
-PrevQuestId = questB   NextQuestId = questI    ExclusiveGroup = -questF    NextQuestInChain = 0         entry = questF
-PrevQuestId = questB   NextQuestId = questI    ExclusiveGroup = -questF    NextQuestInChain = 0         entry = questG
-PrevQuestId = questB   NextQuestId = questI    ExclusiveGroup = -questF    NextQuestInChain = 0         entry = questH
+PrevQuestId = questB   NextQuestId = questI    ExclusiveGroup = -questF    RewardNextQuest = 0         entry = questF
+PrevQuestId = questB   NextQuestId = questI    ExclusiveGroup = -questF    RewardNextQuest = 0         entry = questG
+PrevQuestId = questB   NextQuestId = questI    ExclusiveGroup = -questF    RewardNextQuest = 0         entry = questH
 
-PrevQuestId = 0        NextQuestId = questJ    ExclusiveGroup = -questE    NextQuestInChain = 0         entry = questI
+PrevQuestId = 0        NextQuestId = questJ    ExclusiveGroup = -questE    RewardNextQuest = 0         entry = questI
 
-PrevQuestId = 0        NextQuestId = 0         ExclusiveGroup = 0          NextQuestInChain = 0         entry = questJ
+PrevQuestId = 0        NextQuestId = 0         ExclusiveGroup = 0          RewardNextQuest = 0         entry = questJ
 ```
 
 ### Impossible - many quests may unlock many
@@ -1158,20 +1158,20 @@ Player can choose between two alternative chains (Chain A or B, but not both cha
 ```
 
 ``` cpp
-PrevQuestId = 0        NextQuestId = 0         ExclusiveGroup = 0          NextQuestInChain = questA2   entry = questA1
-PrevQuestId = questA1  NextQuestId = 0         ExclusiveGroup = 0          NextQuestInChain = 0         entry = questA2
+PrevQuestId = 0        NextQuestId = 0         ExclusiveGroup = 0          RewardNextQuest = questA2   entry = questA1
+PrevQuestId = questA1  NextQuestId = 0         ExclusiveGroup = 0          RewardNextQuest = 0         entry = questA2
 
-PrevQuestId = 0        NextQuestId = 0         ExclusiveGroup = 0          NextQuestInChain = questB2   entry = questB1
-PrevQuestId = questB1  NextQuestId = 0         ExclusiveGroup = 0          NextQuestInChain = 0         entry = questB2
+PrevQuestId = 0        NextQuestId = 0         ExclusiveGroup = 0          RewardNextQuest = questB2   entry = questB1
+PrevQuestId = questB1  NextQuestId = 0         ExclusiveGroup = 0          RewardNextQuest = 0         entry = questB2
 
-PrevQuestId = 0        NextQuestId = questF    ExclusiveGroup = -questC    NextQuestInChain = 0         entry = questC
-PrevQuestId = 0        NextQuestId = questF    ExclusiveGroup = -questC    NextQuestInChain = 0         entry = questD
-PrevQuestId = 0        NextQuestId = questF    ExclusiveGroup = -questC    NextQuestInChain = 0         entry = questE
+PrevQuestId = 0        NextQuestId = questF    ExclusiveGroup = -questC    RewardNextQuest = 0         entry = questC
+PrevQuestId = 0        NextQuestId = questF    ExclusiveGroup = -questC    RewardNextQuest = 0         entry = questD
+PrevQuestId = 0        NextQuestId = questF    ExclusiveGroup = -questC    RewardNextQuest = 0         entry = questE
 
-PrevQuestId = 0        NextQuestId = 0         ExclusiveGroup = 0          NextQuestInChain = 0         entry = questF
+PrevQuestId = 0        NextQuestId = 0         ExclusiveGroup = 0          RewardNextQuest = 0         entry = questF
 
-PrevQuestId = questF   NextQuestId = 0         ExclusiveGroup = 0          NextQuestInChain = 0         entry = questA3
-PrevQuestId = questF   NextQuestId = 0         ExclusiveGroup = 0          NextQuestInChain = 0         entry = questB3
+PrevQuestId = questF   NextQuestId = 0         ExclusiveGroup = 0          RewardNextQuest = 0         entry = questA3
+PrevQuestId = questF   NextQuestId = 0         ExclusiveGroup = 0          RewardNextQuest = 0         entry = questB3
 ```
 
 Note:
