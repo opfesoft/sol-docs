@@ -2,6 +2,8 @@ TODOs: [common](TODO.md), [dungeon](TODO_dungeon.md), event, [pvp](TODO_pvp.md),
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@e1e4c6cd | 2022-07-02 |      | verify changes (Midsummer Fire Festival) |
+| sol@7df342b4 | 2022-07-01 |      | verify changes (Midsummer Fire Festival) |
 | sol@f32aa099 | 2022-05-08 |      | verify changes (Midsummer Fire Festival) |
 | sol@c2b70e39 | 2022-03-18 |      | verify changes (Love is in the Air) |
 | sol@d9fcd9de | 2022-02-14 |      | verify/rework scripts (Love is in the Air) |

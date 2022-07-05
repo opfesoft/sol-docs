@@ -2,14 +2,22 @@ TODOs: common, [dungeon](TODO_dungeon.md), [event](TODO_event.md), [pvp](TODO_pv
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
-| sol@a7076291 | 2022-06-22 |      | won't take over; should show "fizzled" if the spell fails, also the chance calculation seems very odd; find another solution |
+| sol@1c3faed4 | 2022-07-03 |      | won't take over (Sol is not affected by this issue and the script contains bugs, e.g. Heb'Jin should not be summoned, he's a permanent spawn); the already existing SAI needs to be reworked |
+| sol@b76b6c4e | 2022-07-03 |      | won't take over, rework SAI instead (there are 2 different creature IDs with SAI: 31773 & 32442!) |
+| sol@5282ef7f | 2022-07-02 |      | won't take over, adjust the changes applied by commit sol@1a6d73522 (AC commit sol@a935e517) instead; also clean up the obsolete quest credit SAI actions and the SAI conditions |
+| sol@3edb5822 | 2022-06-29 |      | verify/rework SQL script |
+| sol@fd33487e | 2022-06-29 |      | creature 237 already done (see sol@b90f725a); use similar time intervals for 238 and fix the creature texts |
+| sol@f11feeae | 2022-06-28 |      | verify/rework SQL script |
+| sol@8d7e82e0 | 2022-06-28 |      | verify/rework SQL script |
+| sol@5939242e | 2022-06-28 |      | verify/rework SQL script |
+| sol@a7076291 | 2022-06-22 | X    | won't take over; should show "fizzled" if the spell fails, also the chance calculation seems very odd; find another solution; done: sol@0e7c6e60 |
 | sol@39c0f1a7 | 2022-06-18 |      | verify changes; low prio (minor issue) |
 | sol@91575f07 | 2022-06-18 |      | keep as reference; take over single GOs/pools if needed; won't blindly take over such mass updates |
-| sol@24f065c3 | 2022-06-18 |      | verify/rework SQL script |
+| sol@24f065c3 | 2022-06-18 | X    | verify/rework SQL script; done: sol@4fb68130 |
 | sol@b0add000 | 2022-06-18 | X    | verify changes; split into multiple commits; also fix SAI/gossip of the associated NPCs; this commit also contains several bugs, e.g. a quest reward for "There Is No Hope" which was actually added in Cataclysm because the quest chain ended there; done: sol@70bedc35, sol@9dd6f153, sol@7e36b0f2, sol@a371c43d, sol@2c855eb9, sol@13e7a3e1, sol@acd20cbb |
-| sol@0c546fd9 | 2022-06-18 |      | won't take over, rework SAI instead (talk on aggro, see TC version) |
-| sol@45ba1464 | 2022-06-18 |      | won't take over, remove the loot instead and ensure that the GO is activated even if it has no loot (see TC commit a26304478d9505713dfadb9b04a3bda4cef57545) |
-| sol@b8990d4a | 2022-06-17 |      | won't take over (Sol is not affected by this issue), but the SAI needs to be reworked (talk on aggro, see TC version) |
+| sol@0c546fd9 | 2022-06-18 | X    | won't take over, rework SAI instead (talk on aggro, see TC version); done: sol@3de5c2ce |
+| sol@45ba1464 | 2022-06-18 | X    | won't take over, remove the loot instead and ensure that the GO is activated even if it has no loot (see TC commit a26304478d9505713dfadb9b04a3bda4cef57545); done: sol@04b5327b |
+| sol@b8990d4a | 2022-06-17 | X    | won't take over (Sol is not affected by this issue), but the SAI needs to be reworked (talk on aggro, see TC version); done: sol@c7fff4dc |
 | sol@386bade2 | 2022-06-16 |      | verify changes; low prio (World Boss) |
 | sol@b5122ab0 | 2022-06-15 |      | verify changes; low prio (World Boss) |
 | sol@396fd35e | 2022-06-14 |      | not needed, but keep as a reference (can also be accomplished using scripts) |
@@ -324,7 +332,7 @@ TODOs: common, [dungeon](TODO_dungeon.md), [event](TODO_event.md), [pvp](TODO_pv
 | sol@31dfe4f0 | 2021-10-26 | X    | verify/rework SQL script; won't take over, the existing script was just using the wrong event type to trigger the timed action list (20 instead of 19); improved the existing SAI: sol@97f9f4fd |
 | sol@3cddfb84 | 2021-10-24 |      | verify changes; low prio (minor issue) |
 | sol@416e8d2c | 2021-10-24 | X    | won't take over, use SAI instead; done: sol@9336ee8a |
-| sol@96441a91 | 2021-10-24 |      | verify changes; low prio (minor issue) |
+| sol@96441a91 | 2021-10-24 |      | verify changes (also see sol@8c1b7293); low prio (minor issue) |
 | sol@a45abcad | 2021-10-24 | X    | take over from TC instead; done: sol@579b350f |
 | sol@36aced60 | 2021-10-23 |      | take over if needed (the recipes are largely irrelevant for WotLK and were removed in Cataclysm) |
 | sol@9bcde70d | 2021-10-22 |      | take over if needed (see TC commit ac62d7156f93bf86f57dbad1f24f14031322fd5a for more information) |

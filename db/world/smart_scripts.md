@@ -3338,7 +3338,7 @@ quickChange 1 forces the creature to quickly change its orientation (useful if t
 <tr>
 <td><p>SMART_ACTION_FLEE</p></td>
 <td><p>122</p></td>
-<td><p>FleeTime</p></td>
+<td><p>FleeTime (ms)</p></td>
 <td><p><br />
 </p></td>
 <td><p><br />

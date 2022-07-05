@@ -2,6 +2,16 @@ TODOs: [common](TODO.md), dungeon, [event](TODO_event.md), [pvp](TODO_pvp.md), [
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@8de594e0 | 2022-07-02 |      | verify changes (Azjol-Nerub) |
+| sol@452686d2 | 2022-06-28 |      | verify/rework SQL script (Zul'Gurub) |
+| sol@a9256dd7 | 2022-06-27 |      | verify changes (Zul'Gurub) |
+| sol@bd07d875 | 2022-06-26 |      | verify changes (Zul'Gurub) |
+| sol@ea24a7b2 | 2022-06-26 |      | verify changes (Zul'Gurub) |
+| sol@67e69546 | 2022-06-26 |      | verify changes (Zul'Gurub) |
+| sol@64a0cbba | 2022-06-26 |      | verify changes (Zul'Gurub) |
+| sol@afe48578 | 2022-06-26 |      | verify changes (Obsidian Sanctum) |
+| sol@980f09ef | 2022-06-26 |      | verify changes (Zul'Gurub) |
+| sol@46789d5d | 2022-06-26 |      | verify changes (Blackwing Lair) |
 | sol@07a6c174 | 2022-06-24 |      | verify changes (Forge of Souls) |
 | sol@c96a4ba2 | 2022-06-22 |      | verify changes (Zul'Gurub) |
 | sol@2db5f9a2 | 2022-06-19 |      | verify changes (Zul'Gurub) |
@@ -11,13 +21,13 @@ TODOs: [common](TODO.md), dungeon, [event](TODO_event.md), [pvp](TODO_pvp.md), [
 | sol@84295280 | 2022-06-16 |      | verify/rework SQL script (also see sol@379f91fe) (Zul'Gurub) |
 | sol@235d2b6c | 2022-06-16 |      | verify changes (Zul'Gurub) |
 | sol@59eab6aa | 2022-06-16 |      | verify changes (Zul'Gurub) |
-| sol@117a18c9 | 2022-06-16 |      | verify changes (Zul'Gurub) |
+| sol@117a18c9 | 2022-06-16 |      | verify changes (also see sol@33fef6fb) (Zul'Gurub) |
 | sol@ee6ad8d7 | 2022-06-16 |      | verify changes (Molten Core) |
 | sol@830fd3f6 | 2022-06-14 |      | verify/rework SQL script (Zul'Gurub) |
 | sol@987d49f9 | 2022-06-14 |      | verify changes (Temple of Ahn'Qiraj) |
 | sol@f9368ed0 | 2022-06-14 |      | verify changes (Zul'Gurub) |
 | sol@d5221ae4 | 2022-06-14 |      | verify changes (Zul'Gurub) |
-| sol@21705d76 | 2022-06-14 |      | verify changes (Zul'Gurub) |
+| sol@21705d76 | 2022-06-14 |      | verify changes (also see sol@298b08c9) (Zul'Gurub) |
 | sol@7e703393 | 2022-06-13 |      | verify changes (Zul'Gurub) |
 | sol@d236dc9d | 2022-06-13 |      | verify changes (Zul'Gurub) |
 | sol@3b0cd43d | 2022-06-13 |      | verify changes (Zul'Gurub) |
@@ -27,10 +37,10 @@ TODOs: [common](TODO.md), dungeon, [event](TODO_event.md), [pvp](TODO_pvp.md), [
 | sol@41b0fa02 | 2022-06-06 |      | verify changes (Zul'Gurub) |
 | sol@75858bd7 | 2022-06-06 |      | verify changes (Ulduar) |
 | sol@ffda31fc | 2022-06-06 |      | verify changes (Zul'Gurub) |
-| sol@5c7e7afa | 2022-06-06 |      | verify changes (Zul'Gurub) |
+| sol@5c7e7afa | 2022-06-06 |      | verify changes (also see sol@16f29833) (Zul'Gurub) |
 | sol@156b1eb9 | 2022-06-06 |      | verify changes (Ulduar) |
 | sol@7549eb59 | 2022-06-06 |      | verify changes (Scarlet Monastery: Cathedral) |
-| sol@5454c047 | 2022-06-06 |      | verify changes (Zul'Gurub) |
+| sol@5454c047 | 2022-06-06 |      | verify changes (also see sol@4cbe846d) (Zul'Gurub) |
 | sol@8e0b1ca2 | 2022-06-03 |      | verify changes (Zul'Gurub) |
 | sol@a8eb0ef7 | 2022-05-30 |      | verify/rework SQL script (Zul'Gurub) |
 | sol@f85b62a7 | 2022-05-30 |      | verify changes (Zul'Gurub) |
