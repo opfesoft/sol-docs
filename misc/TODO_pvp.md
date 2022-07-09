@@ -18,5 +18,5 @@ TODOs: [common](TODO.md), [dungeon](TODO_dungeon.md), [event](TODO_event.md), pv
 | sol@6baf498a | 2021-10-22 |      | won't take over; according to TC issue 15906 the server side spell 30176 has to be implemented which is triggered periodically setting the PvP state; spells 29894 (Alliance) and 29895 (Horde) are used for the slow effect; also see sol@babb7d6c |
 | sol@08db8361 | 2021-10-20 |      | verify changes |
 | sol@e8a6c4fa | 2021-10-18 |      | verify/rework SQL script, CreatureScripts and SpellScripts |
-| sol@e5b8dbeb | 2021-09-11 |      | verify changes |
+| sol@e5b8dbeb | 2021-09-11 | X    | verify changes; done: sol@d2bbc801 |
 | sol@3dec029b | 2021-07-07 |      | adapt to Sol |

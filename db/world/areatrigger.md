@@ -41,7 +41,7 @@ This table contains trigger points for events in certain coordinates in the maps
 </p></td>
 </tr>
 <tr>
-<td><p><a href="#x">x</a></p></td>
+<td><p><a href="#x-y-and-z">x</a></p></td>
 <td><p>float</p></td>
 <td><p></p></td>
 <td><p><br />
@@ -54,7 +54,7 @@ This table contains trigger points for events in certain coordinates in the maps
 </p></td>
 </tr>
 <tr>
-<td><p><a href="#y">y</a></p></td>
+<td><p><a href="#x-y-and-z">y</a></p></td>
 <td><p>float</p></td>
 <td><p></p></td>
 <td><p><br />
@@ -67,7 +67,7 @@ This table contains trigger points for events in certain coordinates in the maps
 </p></td>
 </tr>
 <tr>
-<td><a href="#z">z</a></td>
+<td><a href="#x-y-and-z">z</a></td>
 <td>float</td>
 <td></td>
 <td><br />
@@ -93,7 +93,7 @@ This table contains trigger points for events in certain coordinates in the maps
 </p></td>
 </tr>
 <tr>
-<td><p><a href="#length">length</a></p></td>
+<td><p><a href="#length-width-height-and-orientation">length</a></p></td>
 <td><p>float</p></td>
 <td><p></p></td>
 <td><p><br />
@@ -106,7 +106,7 @@ This table contains trigger points for events in certain coordinates in the maps
 </p></td>
 </tr>
 <tr>
-<td><p><a href="#width">width</a></p></td>
+<td><p><a href="#length-width-height-and-orientation">width</a></p></td>
 <td><p>float</p></td>
 <td><p></p></td>
 <td><p><br />
@@ -119,7 +119,7 @@ This table contains trigger points for events in certain coordinates in the maps
 </p></td>
 </tr>
 <tr>
-<td><p><a href="#height">height</a></p></td>
+<td><p><a href="#length-width-height-and-orientation">height</a></p></td>
 <td><p>float</p></td>
 <td><p></p></td>
 <td><p><br />
@@ -132,7 +132,7 @@ This table contains trigger points for events in certain coordinates in the maps
 </p></td>
 </tr>
 <tr>
-<td><p><a href="#orientation">orientation</a></p></td>
+<td><p><a href="#length-width-height-and-orientation">orientation</a></p></td>
 <td><p>float</p></td>
 <td><p></p></td>
 <td><p><br />
@@ -155,7 +155,7 @@ This is just a automatic counter that assigns a value to each trigger to list it
 
 ### Map
 
-This field recall a certain map based on the ID (for example, ID 30 recalls Elwynn Forest)
+The ID of the [map](../../dbc/Map.md) that the creature is spawned on.
 
 ### X, Y and Z
 

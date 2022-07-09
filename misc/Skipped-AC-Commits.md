@@ -146,7 +146,6 @@ Skipped AC commits (just as a reminder and documentation; not counting the pendi
 | sol@ece33e4c | 2020-06-04 | not needed, see [comment](#dmg_boss) below; TODO: verify and collect the SAI in a separate commit |
 | sol@6c727805 | 2020-06-04 | not needed, see [comment](#dmg_boss) below |
 | sol@c208a121 | 2020-06-03 | CI |
-| sol@5a0a12c6 | 2020-06-02 | could be dangerous because some scripted spells could cause issues if used in the wrong context (even crashing the server) |
 | sol@3526d3af | 2020-06-02 | CI |
 | sol@7c0cc3cf | 2020-06-02 | not needed, see sol@206577b8 |
 | sol@5fb235ff | 2020-06-01 | Sol doesn't support Eluna |

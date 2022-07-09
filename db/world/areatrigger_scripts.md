@@ -53,7 +53,7 @@ Allows for an area trigger to be scripted with a core or SAI script.
 
 ### entry
 
-This is the trigger identifier from [AreaTrigger.dbc](../../dbc/AreaTrigger.md)
+[areatrigger.entry](areatrigger.md#entry)
 
 ### ScriptName
 

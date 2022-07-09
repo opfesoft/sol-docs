@@ -74,6 +74,7 @@ Note: Some commands are working only by selecting a player or a creature. These 
 |debug play cinematic|1|Syntax: .debug play cinematic #cinematicid Play cinematic #cinematicid for you. You stay at place while your mind fly.|
 |debug play movie|1|Syntax: .debug play movie #movieid Play movie #movieid for you.|
 |debug play sound|1|Syntax: .debug play sound #soundid Play sound with #soundid. Sound will be play only for you. Other players do not hear this. Warning: client may have more 5000 sounds...|
+|debug play visual|1|Syntax: .debug play visual #visualid. Play spell visual with #visualid. #visualid refers to the ID from SpellVisualKit.dbc|
 |debug send buyerror|3|Syntax: .debug send buyerror #errorid. Test buy error id.|
 |debug send channelnotify|3|Syntax: .debug send channelnotify #notifytype. Send #notifytype to the channel "test".|
 |debug send chatmmessage|3|Syntax: .debug send chatmmessage #msgtype. Send a message "testtest" of type #msgtype.|
