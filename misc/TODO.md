@@ -8,8 +8,8 @@ TODOs: common, [dungeon](TODO_dungeon.md), [event](TODO_event.md), [pvp](TODO_pv
 | sol@3edb5822 | 2022-06-29 |      | verify/rework SQL script |
 | sol@fd33487e | 2022-06-29 |      | creature 237 already done (see sol@b90f725a); use similar time intervals for 238 and fix the creature texts |
 | sol@f11feeae | 2022-06-28 |      | verify/rework SQL script |
-| sol@8d7e82e0 | 2022-06-28 |      | verify/rework SQL script |
-| sol@5939242e | 2022-06-28 |      | verify/rework SQL script |
+| sol@8d7e82e0 | 2022-06-28 | X    | verify/rework SQL script; not needed, Sol is not affected by this issue |
+| sol@5939242e | 2022-06-28 | X    | verify/rework SQL script; not needed, Sol is not affected by this issue |
 | sol@a7076291 | 2022-06-22 | X    | won't take over; should show "fizzled" if the spell fails, also the chance calculation seems very odd; find another solution; done: sol@0e7c6e60 |
 | sol@39c0f1a7 | 2022-06-18 |      | verify changes; low prio (minor issue) |
 | sol@91575f07 | 2022-06-18 |      | keep as reference; take over single GOs/pools if needed; won't blindly take over such mass updates |

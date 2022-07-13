@@ -1931,7 +1931,7 @@ This is the probability of the event to occur as a percentage from 0-100. So, if
 <td><p>29</p></td>
 <td><p>Distance</p></td>
 <td><p>Angle</p></td>
-<td><p>End NPC<a href="creature_template.md#entry">creature_template.entry</a></p></td>
+<td><p>End NPC <a href="creature_template.md#entry">creature_template.entry</a></p></td>
 <td><p>credit</p></td>
 <td><p>creditType (0 monsterkill, 1 event)</p></td>
 <td><p>aliveState End NPC (0: alive, 1: dead)</p></td>

@@ -26,14 +26,38 @@
 
 `sudo apt-get install git cmake make gcc-11 g++-11 ccache libmariadb-dev libssl-dev libbz2-dev libreadline-dev libncurses-dev mariadb-server`
 
-## ACE installation
+## Jemalloc installation
 
-Example for ACE 7.0.7, installation in "~/sol-srv/lib/ace":
+Example for jemalloc 5.3.0, installation in "~/sol-srv/lib/jemalloc":
 
 - Get package:
 ```
-curl -L 'https://github.com/DOCGroup/ACE_TAO/releases/download/ACE%2BTAO-7_0_7/ACE+TAO-7.0.7.tar.gz' >ACE+TAO-7.0.7.tar.gz
-tar -xzf ACE+TAO-7.0.7.tar.gz
+curl -L 'curl -L 'https://github.com/jemalloc/jemalloc/releases/download/5.3.0/jemalloc-5.3.0.tar.bz2' >jemalloc-5.3.0.tar.bz2
+tar -xjf jemalloc-5.3.0.tar.bz2
+```
+
+- Install (here gcc 11 is used):
+```
+export CC='gcc-11'
+export CXX='g++-11'
+cd jemalloc-5.3.0
+./configure --prefix=${HOME}/sol-srv/lib/jemalloc
+make -j $(($(nproc)+2))
+make install
+```
+
+Further information: http://jemalloc.net/
+
+New releases: https://github.com/jemalloc/jemalloc/releases
+
+## ACE installation
+
+Example for ACE 7.0.8, installation in "~/sol-srv/lib/ace":
+
+- Get package:
+```
+curl -L 'https://github.com/DOCGroup/ACE_TAO/releases/download/ACE%2BTAO-7_0_8/ACE+TAO-7.0.8.tar.gz' >ACE+TAO-7.0.8.tar.gz
+tar -xzf ACE+TAO-7.0.8.tar.gz
 ```
 
 - Set `ACE_ROOT`:
