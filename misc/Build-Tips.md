@@ -32,7 +32,7 @@ Example for jemalloc 5.3.0, installation in "~/sol-srv/lib/jemalloc":
 
 - Get package:
 ```
-curl -L 'curl -L 'https://github.com/jemalloc/jemalloc/releases/download/5.3.0/jemalloc-5.3.0.tar.bz2' >jemalloc-5.3.0.tar.bz2
+curl -L 'https://github.com/jemalloc/jemalloc/releases/download/5.3.0/jemalloc-5.3.0.tar.bz2' >jemalloc-5.3.0.tar.bz2
 tar -xjf jemalloc-5.3.0.tar.bz2
 ```
 
