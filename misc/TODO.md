@@ -5,13 +5,13 @@ TODOs: common, [dungeon](TODO_dungeon.md), [event](TODO_event.md), [pvp](TODO_pv
 | sol@654ad10b | 2022-07-12 |      | verify changes; low prio (World Boss) |
 | sol@4d85488e | 2022-07-10 |      | verify/rework SQL script; check the WP paths; low prio (Cosmetic) |
 | sol@40e28f24 | 2022-07-10 |      | verify/rework SQL script; check the WP paths; low prio (Cosmetic) |
-| sol@5930eed6 | 2022-07-10 |      | won't take over, fix the broadcast texts instead (contains values from MoP) |
+| sol@5930eed6 | 2022-07-10 | X    | won't take over, fix the broadcast texts instead (contains values from MoP); done: sol@41c6cf91 |
 | sol@1c3faed4 | 2022-07-03 |      | won't take over (Sol is not affected by this issue and the script contains bugs, e.g. Heb'Jin should not be summoned, he's a permanent spawn); the already existing SAI needs to be reworked |
 | sol@b76b6c4e | 2022-07-03 |      | won't take over, rework SAI instead (there are 2 different creature IDs with SAI: 31773 & 32442!) |
 | sol@5282ef7f | 2022-07-02 | X    | won't take over, adjust the changes applied by commit sol@1a6d73522 (AC commit sol@a935e517) instead; also clean up the obsolete quest credit SAI actions and the SAI conditions; done: sol@5a35dddc |
-| sol@3edb5822 | 2022-06-29 |      | verify/rework SQL script |
-| sol@fd33487e | 2022-06-29 |      | creature 237 already done (see sol@b90f725a); use similar time intervals for 238 and fix the creature texts |
-| sol@f11feeae | 2022-06-28 |      | verify/rework SQL script |
+| sol@3edb5822 | 2022-06-29 | X    | verify/rework SQL script; sol@95ac3cb3 |
+| sol@fd33487e | 2022-06-29 | X    | creature 237 already done (see sol@b90f725a); use similar time intervals for 238 and fix the creature texts; done: sol@96843890 |
+| sol@f11feeae | 2022-06-28 | X    | verify/rework SQL script; not needed, just remove the obsolete spawns: sol@8e5c0027 |
 | sol@8d7e82e0 | 2022-06-28 | X    | verify/rework SQL script; not needed, Sol is not affected by this issue |
 | sol@5939242e | 2022-06-28 | X    | verify/rework SQL script; not needed, Sol is not affected by this issue |
 | sol@a7076291 | 2022-06-22 | X    | won't take over; should show "fizzled" if the spell fails, also the chance calculation seems very odd; find another solution; done: sol@0e7c6e60 |
