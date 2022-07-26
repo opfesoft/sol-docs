@@ -2,6 +2,16 @@ TODOs: common, [dungeon](TODO_dungeon.md), [event](TODO_event.md), [pvp](TODO_pv
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@c19d6b74 | 2022-07-25 |      | verify changes; low prio (minor issue) |
+| sol@7aea91fc | 2022-07-25 |      | won't take over, find another solution (also affects Water Shield & Earth Shield); low prio (minor issue) |
+| sol@d9dde933 | 2022-07-24 |      | verify/rework SQL script |
+| sol@c057b539 | 2022-07-24 |      | verify/rework SQL script; compare with TC version |
+| sol@22b6c35d | 2022-07-23 |      | won't take over, just delete ID 1 |
+| sol@758eee99 | 2022-07-20 |      | use UPDATE instead of DELETE/INSERT |
+| sol@0b24dddb | 2022-07-20 |      | verify/rework SQL script; compare with TC version |
+| sol@153871e9 | 2022-07-20 |      | won't take over (Sol is not affected by this issue), but the SAI needs to be reworked (see TC version) |
+| sol@6cef7305 | 2022-07-20 |      | verify/rework SQL script |
+| sol@37cc3ffa | 2022-07-20 |      | only take over the creature formation |
 | sol@654ad10b | 2022-07-12 |      | verify changes; low prio (World Boss) |
 | sol@4d85488e | 2022-07-10 |      | verify/rework SQL script; check the WP paths; low prio (Cosmetic) |
 | sol@40e28f24 | 2022-07-10 |      | verify/rework SQL script; check the WP paths; low prio (Cosmetic) |
@@ -150,7 +160,7 @@ TODOs: common, [dungeon](TODO_dungeon.md), [event](TODO_event.md), [pvp](TODO_pv
 | sol@fa9c2ed2 | 2022-01-27 |      | won't take over, just check the random movement in the area; low prio (Cosmetic) |
 | sol@5a4dad8e | 2022-01-27 |      | won't take over, just check the random movement in the area; low prio (Cosmetic) |
 | sol@01ea7e7a | 2022-01-26 | X    | won't take over, add a creature pool instead; done: sol@ebba8bf9 |
-| sol@902f33a6 | 2022-01-24 |      | won't take over, find another solution instead (probably via spell script); low prio (minor issue) |
+| sol@902f33a6 | 2022-01-24 | X    | won't take over, find another solution instead (probably via spell script); also see sol@79f34b2b; low prio (minor issue); done: sol@e862a676 |
 | sol@75fc2d1b | 2022-01-24 |      | take over if needed |
 | sol@95a867d4 | 2022-01-24 |      | verify/rework SQL script; check the WP paths and additional spawns; low prio (Cosmetic) |
 | sol@ac0129a0 | 2022-01-23 |      | verify changes; low prio (minor issue) |
