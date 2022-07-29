@@ -2,10 +2,15 @@ TODOs: [common](TODO.md), dungeon, [event](TODO_event.md), [pvp](TODO_pvp.md), [
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
-| sol@278845f7 | 2022-07-26 |      | verify changes (Ruins of Ahn'Qiraj) |
+| sol@5024e380 | 2022-07-27 |      | verify/rework SQL script (Zul'Gurub) |
+| sol@37ce61e1 | 2022-07-27 |      | verify/rework SQL script (Ruins of Ahn'Qiraj) |
+| sol@3385cd0f | 2022-07-27 |      | verify/rework SQL script (Ruins of Ahn'Qiraj) |
+| sol@9bfe8c5c | 2022-07-26 |      | verify/rework SQL script (Shadowfang Keep) |
+| sol@d0561c56 | 2022-07-26 |      | verify changes (Temple of Ahn'Qiraj) |
+| sol@278845f7 | 2022-07-26 |      | verify changes (also see sol@ce487f2a) (Ruins of Ahn'Qiraj) |
 | sol@a498584a | 2022-07-25 |      | verify changes (Ruins of Ahn'Qiraj) |
-| sol@60e70ac8 | 2022-07-25 |      | verify changes (also see sol@b1136c7c) (Ruins of Ahn'Qiraj) |
-| sol@2a7b5685 | 2022-07-25 |      | verify changes (also see sol@6e659a16, sol@fdb18e02) (Ruins of Ahn'Qiraj) |
+| sol@60e70ac8 | 2022-07-25 |      | verify changes (also see sol@b1136c7c, sol@07c04355) (Ruins of Ahn'Qiraj) |
+| sol@2a7b5685 | 2022-07-25 |      | verify changes (also see sol@6e659a16, sol@fdb18e02, sol@18b7b6c2) (Ruins of Ahn'Qiraj) |
 | sol@3564d019 | 2022-07-25 |      | verify/rework SQL script (Ruins of Ahn'Qiraj) |
 | sol@5b142671 | 2022-07-25 |      | verify changes (Ruins of Ahn'Qiraj) |
 | sol@e3c7b522 | 2022-07-25 |      | won't take over, just disable UNIT\_FLAG2\_REGENERATE\_POWER in creature\_template (don't care about sniffs) (Ruins of Ahn'Qiraj) |

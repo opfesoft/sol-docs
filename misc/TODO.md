@@ -2,21 +2,22 @@ TODOs: common, [dungeon](TODO_dungeon.md), [event](TODO_event.md), [pvp](TODO_pv
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@8f386e83 | 2022-07-26 |      | verify/rework SQL script; check the WP paths; low prio (Cosmetic) |
 | sol@c19d6b74 | 2022-07-25 |      | verify changes; low prio (minor issue) |
-| sol@7aea91fc | 2022-07-25 |      | won't take over, find another solution (also affects Water Shield & Earth Shield); low prio (minor issue) |
+| sol@7aea91fc | 2022-07-25 | X    | won't take over, find another solution (also affects Water Shield & Earth Shield); low prio (minor issue); can be handled using conditions: sol@05a8a40b |
 | sol@d9dde933 | 2022-07-24 |      | verify/rework SQL script |
-| sol@c057b539 | 2022-07-24 |      | verify/rework SQL script; compare with TC version |
-| sol@22b6c35d | 2022-07-23 |      | won't take over, just delete ID 1 |
-| sol@758eee99 | 2022-07-20 |      | use UPDATE instead of DELETE/INSERT |
-| sol@0b24dddb | 2022-07-20 |      | verify/rework SQL script; compare with TC version |
+| sol@c057b539 | 2022-07-24 | X    | verify/rework SQL script; compare with TC version; done: sol@40f5a26d |
+| sol@22b6c35d | 2022-07-23 | X    | won't take over, just delete ID 1; improved SAI instead: sol@de1a132b |
+| sol@758eee99 | 2022-07-20 | X    | use UPDATE instead of DELETE/INSERT; done: sol@59bb8498 |
+| sol@0b24dddb | 2022-07-20 | X    | verify/rework SQL script; compare with TC version; done: sol@2366b857 |
 | sol@153871e9 | 2022-07-20 |      | won't take over (Sol is not affected by this issue), but the SAI needs to be reworked (see TC version) |
 | sol@6cef7305 | 2022-07-20 |      | verify/rework SQL script |
-| sol@37cc3ffa | 2022-07-20 |      | only take over the creature formation |
+| sol@37cc3ffa | 2022-07-20 | X    | only take over the creature formation; done: sol@8ed899d9 |
 | sol@654ad10b | 2022-07-12 |      | verify changes; low prio (World Boss) |
 | sol@4d85488e | 2022-07-10 |      | verify/rework SQL script; check the WP paths; low prio (Cosmetic) |
 | sol@40e28f24 | 2022-07-10 |      | verify/rework SQL script; check the WP paths; low prio (Cosmetic) |
 | sol@5930eed6 | 2022-07-10 | X    | won't take over, fix the broadcast texts instead (contains values from MoP); done: sol@41c6cf91 |
-| sol@1c3faed4 | 2022-07-03 |      | won't take over (Sol is not affected by this issue and the script contains bugs, e.g. Heb'Jin should not be summoned, he's a permanent spawn); the already existing SAI needs to be reworked |
+| sol@1c3faed4 | 2022-07-03 | X    | won't take over (Sol is not affected by this issue and the script contains bugs, e.g. Heb'Jin should not be summoned, he's a permanent spawn); the already existing SAI needs to be reworked; done: sol@7dbb0afe |
 | sol@b76b6c4e | 2022-07-03 | X    | won't take over, rework SAI instead (there are 2 different creature IDs with SAI: 31773 & 32442!); done: sol@d82afb25 |
 | sol@5282ef7f | 2022-07-02 | X    | won't take over, adjust the changes applied by commit sol@1a6d73522 (AC commit sol@a935e517) instead; also clean up the obsolete quest credit SAI actions and the SAI conditions; done: sol@5a35dddc |
 | sol@3edb5822 | 2022-06-29 | X    | verify/rework SQL script; sol@95ac3cb3 |
