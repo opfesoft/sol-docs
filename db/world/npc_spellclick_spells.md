@@ -94,7 +94,7 @@ You can use that table for the actual value:
 
 | Caster   | Target  | cast\_flags value |
 |----------|---------|-------------------|
-| Creature | Clickee | 0                 |
+| Clickee  | Clickee | 0                 |
 | Clicker  | Clickee | 1                 |
 | Clickee  | Clicker | 2                 |
 | Clicker  | Clicker | 3                 |

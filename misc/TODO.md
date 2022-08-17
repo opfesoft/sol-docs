@@ -2,6 +2,19 @@ TODOs: common, [dungeon](TODO_dungeon.md), [event](TODO_event.md), [pvp](TODO_pv
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@46e0b87e | 2022-08-15 |      | verify/rework SQL script; low prio (obsolete quest chain) |
+| sol@986cb213 | 2022-08-15 |      | verify/rework SQL script |
+| sol@523d4fbb | 2022-08-15 |      | verify changes; low prio (World Boss) |
+| sol@accaec8f | 2022-08-14 |      | verify/rework SQL script |
+| sol@572a680c | 2022-08-02 |      | verify changes (also see sol@1c6eab58); low prio (Cosmetic) |
+| sol@a4cd022c | 2022-08-01 |      | verify/rework SQL script |
+| sol@9f030e09 | 2022-08-01 |      | won't take over; adjust movement/position (perhaps use WP paths); set Occulus large; add flag CREATURE\_FLAG\_EXTRA\_CIVILIAN for Tick, Occulus and Chronalis |
+| sol@7327a55b | 2022-08-01 |      | not working, find another solution |
+| sol@4549a770 | 2022-08-01 |      | verify/rework SQL script |
+| sol@728f0216 | 2022-08-01 |      | verify/rework SQL script |
+| sol@92b6d3b7 | 2022-08-01 |      | there are several other mushrooms nearby with wrong position, check these GUIDs: 16415,16416,16417,16418,16419,16420,16421,16422,16423,16424,16425,16426,16429,16430,16431,16433,16434,16435,16437,16438,16442,16443,16445,16447,16448,33858,46364,46365,46366,63149,64898,64899,86138,86139,86140,87460 |
+| sol@4444410f | 2022-07-31 |      | verify/rework SQL script |
+| sol@62ffa757 | 2022-07-29 |      | verify changes; low prio (World Boss) |
 | sol@8f386e83 | 2022-07-26 |      | verify/rework SQL script; check the WP paths; low prio (Cosmetic) |
 | sol@c19d6b74 | 2022-07-25 |      | verify changes; low prio (minor issue) |
 | sol@7aea91fc | 2022-07-25 | X    | won't take over, find another solution (also affects Water Shield & Earth Shield); low prio (minor issue); can be handled using conditions: sol@05a8a40b |
@@ -342,7 +355,7 @@ TODOs: common, [dungeon](TODO_dungeon.md), [event](TODO_event.md), [pvp](TODO_pv
 | sol@5e231bae | 2021-10-29 | X    | verify loot; compare with TC; done: sol@7894f12f |
 | sol@7f69acd4 | 2021-10-29 |      | take over if needed |
 | sol@a7cc26e2 | 2021-10-29 |      | take over if needed |
-| sol@12b195e1 | 2021-10-28 |      | verify/rework SQL script / core scripts; also "The Cleaner" should spawn if a second player character is helping; low prio (obsolete quest) |
+| sol@12b195e1 | 2021-10-28 |      | verify/rework SQL script / core scripts (also see sol@4952e603); also "The Cleaner" should spawn if a second player character is helping; low prio (obsolete quest) |
 | sol@26456132 | 2021-10-26 | X    | won't take over, improve the CreatureScript instead; done: sol@ccc95eb8 |
 | sol@31dfe4f0 | 2021-10-26 | X    | verify/rework SQL script; won't take over, the existing script was just using the wrong event type to trigger the timed action list (20 instead of 19); improved the existing SAI: sol@97f9f4fd |
 | sol@3cddfb84 | 2021-10-24 |      | verify changes; low prio (minor issue) |

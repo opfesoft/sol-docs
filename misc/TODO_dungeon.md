@@ -2,14 +2,35 @@ TODOs: [common](TODO.md), dungeon, [event](TODO_event.md), [pvp](TODO_pvp.md), [
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@415ceefa | 2022-08-14 |      | verify changes (Ruins of Ahn'Qiraj) |
+| sol@f0e608ed | 2022-08-14 |      | verify/rework SQL script (Ruins of Ahn'Qiraj) |
+| sol@c0084988 | 2022-08-14 |      | verify/rework SQL script (Ruins of Ahn'Qiraj) |
+| sol@37e9fac5 | 2022-08-14 |      | verify changes (Temple of Ahn'Qiraj) |
+| sol@eb4f1338 | 2022-08-14 |      | verify changes (Temple of Ahn'Qiraj) |
+| sol@7174e5b1 | 2022-08-12 |      | verify changes (Ruins of Ahn'Qiraj) |
+| sol@fb785f6a | 2022-08-10 |      | verify changes (Temple of Ahn'Qiraj) |
+| sol@1455be34 | 2022-08-10 |      | verify changes (Temple of Ahn'Qiraj) |
+| sol@f0afe611 | 2022-08-10 |      | verify changes (Temple of Ahn'Qiraj) |
+| sol@4165dc41 | 2022-08-08 |      | verify changes (Ruins of Ahn'Qiraj) |
+| sol@d627e196 | 2022-08-07 |      | verify changes (also see sol@8841d3a0) (Blackwing Lair) |
+| sol@337800fc | 2022-08-07 |      | verify/rework SQL script (Ruins of Ahn'Qiraj) |
+| sol@71d2adf5 | 2022-08-07 |      | verify/rework SQL script (Ruins of Ahn'Qiraj) |
+| sol@440865e3 | 2022-08-06 |      | verify changes (Ruins of Ahn'Qiraj) |
+| sol@0f36736d | 2022-08-03 |      | verify changes (Trial of the Crusader) |
+| sol@da4bb947 | 2022-08-01 |      | verify/rework SQL script (Ruins of Ahn'Qiraj) |
+| sol@ec35f991 | 2022-08-01 |      | verify/rework SQL script (Zul'Gurub) |
+| sol@232f5ae8 | 2022-08-01 |      | verify/rework SQL script (Zul'Gurub) |
+| sol@40ce2706 | 2022-08-01 |      | verify/rework SQL script (Zul'Gurub) |
+| sol@66521eeb | 2022-08-01 |      | verify/rework SQL script (Zul'Gurub) |
+| sol@c4900f9b | 2022-07-31 |      | verify/rework SQL script (Zul'Gurub) |
 | sol@5024e380 | 2022-07-27 |      | verify/rework SQL script (Zul'Gurub) |
 | sol@37ce61e1 | 2022-07-27 |      | verify/rework SQL script (Ruins of Ahn'Qiraj) |
 | sol@3385cd0f | 2022-07-27 |      | verify/rework SQL script (Ruins of Ahn'Qiraj) |
 | sol@9bfe8c5c | 2022-07-26 |      | verify/rework SQL script (Shadowfang Keep) |
 | sol@d0561c56 | 2022-07-26 |      | verify changes (Temple of Ahn'Qiraj) |
-| sol@278845f7 | 2022-07-26 |      | verify changes (also see sol@ce487f2a) (Ruins of Ahn'Qiraj) |
+| sol@278845f7 | 2022-07-26 |      | verify changes (also see sol@351ef2b7, sol@e6dd5d3e, sol@ce487f2a, sol@32c68abf, sol@4fa0d6b0) (Ruins of Ahn'Qiraj) |
 | sol@a498584a | 2022-07-25 |      | verify changes (Ruins of Ahn'Qiraj) |
-| sol@60e70ac8 | 2022-07-25 |      | verify changes (also see sol@b1136c7c, sol@07c04355) (Ruins of Ahn'Qiraj) |
+| sol@60e70ac8 | 2022-07-25 |      | verify changes (also see sol@b1136c7c, sol@07c04355, sol@3a4459ee, sol@750f7ee8, sol@ffa58395) (Ruins of Ahn'Qiraj) |
 | sol@2a7b5685 | 2022-07-25 |      | verify changes (also see sol@6e659a16, sol@fdb18e02, sol@18b7b6c2) (Ruins of Ahn'Qiraj) |
 | sol@3564d019 | 2022-07-25 |      | verify/rework SQL script (Ruins of Ahn'Qiraj) |
 | sol@5b142671 | 2022-07-25 |      | verify changes (Ruins of Ahn'Qiraj) |
@@ -18,11 +39,11 @@ TODOs: [common](TODO.md), dungeon, [event](TODO_event.md), [pvp](TODO_pvp.md), [
 | sol@a8ae153f | 2022-07-25 |      | verify/rework SQL script (Ruins of Ahn'Qiraj) |
 | sol@8f2ca7c6 | 2022-07-25 |      | verify/rework SQL script (Ruins of Ahn'Qiraj) |
 | sol@35194434 | 2022-07-25 |      | verify changes (Zul'Gurub) |
-| sol@577ae14b | 2022-07-24 |      | verify changes (Ruins of Ahn'Qiraj) |
+| sol@577ae14b | 2022-07-24 |      | verify changes (also see sol@dda3177d, sol@b1691e60) (Ruins of Ahn'Qiraj) |
 | sol@8809ec55 | 2022-07-24 |      | verify changes (also see sol@f2369214) (Ruins of Ahn'Qiraj) |
 | sol@984f039f | 2022-07-24 |      | verify/rework SQL script (Zul'Gurub) |
 | sol@801e68b1 | 2022-07-24 |      | verify changes (Zul'Gurub) |
-| sol@bcdeaa41 | 2022-07-20 |      | verify/rework SQL script (Ruins of Ahn'Qiraj) |
+| sol@bcdeaa41 | 2022-07-20 |      | verify/rework SQL script (also see sol@8a3e43c6, sol@2820b7ef) (Ruins of Ahn'Qiraj) |
 | sol@e8f271ca | 2022-07-20 |      | verify changes (Ruins of Ahn'Qiraj) |
 | sol@d42a74a9 | 2022-07-20 |      | verify changes (Temple of Ahn'Qiraj) |
 | sol@5c3656a6 | 2022-07-20 |      | verify changes (Temple of Ahn'Qiraj) |
@@ -31,8 +52,7 @@ TODOs: [common](TODO.md), dungeon, [event](TODO_event.md), [pvp](TODO_pvp.md), [
 | sol@619a6526 | 2022-07-20 |      | verify/rework SQL script (Zul'Gurub) |
 | sol@42c3474a | 2022-07-20 |      | verify/rework SQL script (Molten Core) |
 | sol@43d5876d | 2022-07-20 |      | verify changes (Temple of Ahn'Qiraj) |
-| sol@dc302524 | 2022-07-19 |      | verify/rework SQL script (Zul'Gurub) |
-| sol@700dfde2 | 2022-07-19 |      | verify changes (Zul'Gurub) |
+| sol@dc302524 | 2022-07-19 |      | verify/rework SQL script (also see sol@b535136b) (Zul'Gurub) |
 | sol@9aeb2363 | 2022-07-19 |      | verify changes (also see sol@b77fbf61) (Zul'Gurub) |
 | sol@afddf979 | 2022-07-12 |      | verify/rework SQL script (Zul'Gurub) |
 | sol@9c09857b | 2022-07-09 |      | verify changes (Zul'Gurub) |
@@ -45,7 +65,7 @@ TODOs: [common](TODO.md), dungeon, [event](TODO_event.md), [pvp](TODO_pvp.md), [
 | sol@8de594e0 | 2022-07-02 |      | verify changes (Azjol-Nerub) |
 | sol@452686d2 | 2022-06-28 |      | verify/rework SQL script (Zul'Gurub) |
 | sol@bd07d875 | 2022-06-26 |      | verify changes (Zul'Gurub) |
-| sol@ea24a7b2 | 2022-06-26 |      | verify changes (Zul'Gurub) |
+| sol@ea24a7b2 | 2022-06-26 |      | verify changes (also see sol@700dfde2, sol@cee21c02) (Zul'Gurub) |
 | sol@67e69546 | 2022-06-26 |      | verify changes (Zul'Gurub) |
 | sol@64a0cbba | 2022-06-26 |      | verify changes (also see sol@a9256dd7, sol@346150c9, sol@330c1ac2, sol@c17eed97, sol@bafac466) (Zul'Gurub) |
 | sol@afe48578 | 2022-06-26 |      | verify changes (Obsidian Sanctum) |
@@ -64,7 +84,7 @@ TODOs: [common](TODO.md), dungeon, [event](TODO_event.md), [pvp](TODO_pvp.md), [
 | sol@ee6ad8d7 | 2022-06-16 |      | verify changes (Molten Core) |
 | sol@830fd3f6 | 2022-06-14 |      | verify/rework SQL script (Zul'Gurub) |
 | sol@987d49f9 | 2022-06-14 |      | verify changes (Temple of Ahn'Qiraj) |
-| sol@f9368ed0 | 2022-06-14 |      | verify changes (Zul'Gurub) |
+| sol@f9368ed0 | 2022-06-14 |      | verify changes (also see sol@775172c5, sol@c1257b36) (Zul'Gurub) |
 | sol@d5221ae4 | 2022-06-14 |      | verify changes (also see sol@1078ad72) (Zul'Gurub) |
 | sol@21705d76 | 2022-06-14 |      | verify changes (also see sol@298b08c9) (Zul'Gurub) |
 | sol@7e703393 | 2022-06-13 |      | verify changes (Zul'Gurub) |
@@ -105,12 +125,12 @@ TODOs: [common](TODO.md), dungeon, [event](TODO_event.md), [pvp](TODO_pvp.md), [
 | sol@7b01b27b | 2022-05-08 |      | verify changes (Ulduar) |
 | sol@8f485cb5 | 2022-05-08 |      | verify changes (Ulduar) |
 | sol@4df92b55 | 2022-05-08 |      | verify changes (Ulduar) |
-| sol@6ca5938d | 2022-05-03 |      | verify changes (Temple of Ahn'Qiraj) |
+| sol@6ca5938d | 2022-05-03 |      | verify changes (also see sol@f0c881f0) (Temple of Ahn'Qiraj) |
 | sol@c38b6762 | 2022-05-08 |      | verify changes (Molten Core) |
 | sol@ac8a6b43 | 2022-05-07 |      | verify changes (Utgarde Pinnacle) |
 | sol@56955f79 | 2022-05-06 |      | verify changes (Ulduar) |
 | sol@e7531fa2 | 2022-05-03 |      | verify changes (Temple of Ahn'Qiraj) |
-| sol@12a0c6f1 | 2022-05-03 |      | verify changes (Blackwing Lair) |
+| sol@12a0c6f1 | 2022-05-03 |      | verify changes (also see sol@a8c4a16a) (Blackwing Lair) |
 | sol@3c851c05 | 2022-05-03 |      | verify changes (Blackwing Lair) |
 | sol@0363b959 | 2022-05-03 |      | verify changes (Zul'Gurub) |
 | sol@4e977d9a | 2022-05-03 |      | verify changes (Blackwing Lair) |
@@ -170,7 +190,7 @@ TODOs: [common](TODO.md), dungeon, [event](TODO_event.md), [pvp](TODO_pvp.md), [
 | sol@463c49ec | 2022-03-27 |      | verify/rework SQL script (Blackwing Lair) |
 | sol@2ddf2303 | 2022-03-27 |      | verify changes (Blackwing Lair) |
 | sol@69a3904b | 2022-03-27 |      | verify changes (Blackwing Lair) |
-| sol@7377c96c | 2022-03-23 |      | verify changes (Blackwing Lair) |
+| sol@7377c96c | 2022-03-23 |      | verify changes (also see sol@56d8899b) (Blackwing Lair) |
 | sol@6cc185b2 | 2022-03-23 |      | verify/rework SQL script (also see sol@3bc1c1cd) (Molten Core) |
 | sol@8358a5d6 | 2022-03-21 |      | verify changes (Onyxia's Lair) |
 | sol@55ef7ce5 | 2022-03-18 | X    | verify/rework SQL script (Stratholme); update: wrong, won't take over: This update leads to 2 SAI entries having the same ID. The issue itself was wrong: After using the blaster it has to be used again on the freed souls |
@@ -236,7 +256,7 @@ TODOs: [common](TODO.md), dungeon, [event](TODO_event.md), [pvp](TODO_pvp.md), [
 | sol@7df43c36 | 2021-12-03 |      | verify changes, rework SAI instead (also see sol@9265d346) (Lower Blackrock Spire) |
 | sol@4c010968 | 2021-12-02 |      | verify changes (Upper Blackrock Spire) |
 | sol@d6e8697e | 2021-12-02 |      | verify changes (Blackfathom Deeps) |
-| sol@456b1a08 | 2021-11-29 |      | verify changes; also fix Ouro (the creature script is not working correctly) (Temple of Ahn'Qiraj) |
+| sol@456b1a08 | 2021-11-29 |      | verify changes; also fix Ouro (the creature script is not working correctly, see sol@cb887bbc) (Temple of Ahn'Qiraj) |
 | sol@d6679060 | 2021-11-28 | X    | won't take over, rework SAI instead (see TC version of both Urok Ogre Magus & Urok Enforcer); use SMART\_EVENT\_RANGE for Arcane Bolt (Lower Blackrock Spire); done: sol@f18da4bd |
 | sol@06a81758 | 2021-11-26 |      | verify changes (Molten Core) |
 | sol@f0776954 | 2021-11-26 |      | verify changes (Molten Core) |
