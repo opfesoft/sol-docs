@@ -2,6 +2,7 @@ TODOs: common, [dungeon](TODO_dungeon.md), [event](TODO_event.md), [pvp](TODO_pv
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@2a297dfe | 2022-08-16 |      | verify/rework SQL script (also see sol@3cfdc7e6); low prio (obsolete quests) |
 | sol@46e0b87e | 2022-08-15 |      | verify/rework SQL script; low prio (obsolete quest chain) |
 | sol@986cb213 | 2022-08-15 |      | verify/rework SQL script |
 | sol@523d4fbb | 2022-08-15 |      | verify changes; low prio (World Boss) |
@@ -9,7 +10,7 @@ TODOs: common, [dungeon](TODO_dungeon.md), [event](TODO_event.md), [pvp](TODO_pv
 | sol@572a680c | 2022-08-02 |      | verify changes (also see sol@1c6eab58); low prio (Cosmetic) |
 | sol@a4cd022c | 2022-08-01 |      | verify/rework SQL script |
 | sol@9f030e09 | 2022-08-01 |      | won't take over; adjust movement/position (perhaps use WP paths); set Occulus large; add flag CREATURE\_FLAG\_EXTRA\_CIVILIAN for Tick, Occulus and Chronalis |
-| sol@7327a55b | 2022-08-01 |      | not working, find another solution |
+| sol@7327a55b | 2022-08-01 | X    | not working, find another solution; done: sol@e0e9d8fe |
 | sol@4549a770 | 2022-08-01 |      | verify/rework SQL script |
 | sol@728f0216 | 2022-08-01 |      | verify/rework SQL script |
 | sol@92b6d3b7 | 2022-08-01 |      | there are several other mushrooms nearby with wrong position, check these GUIDs: 16415,16416,16417,16418,16419,16420,16421,16422,16423,16424,16425,16426,16429,16430,16431,16433,16434,16435,16437,16438,16442,16443,16445,16447,16448,33858,46364,46365,46366,63149,64898,64899,86138,86139,86140,87460 |
@@ -24,7 +25,7 @@ TODOs: common, [dungeon](TODO_dungeon.md), [event](TODO_event.md), [pvp](TODO_pv
 | sol@758eee99 | 2022-07-20 | X    | use UPDATE instead of DELETE/INSERT; done: sol@59bb8498 |
 | sol@0b24dddb | 2022-07-20 | X    | verify/rework SQL script; compare with TC version; done: sol@2366b857 |
 | sol@153871e9 | 2022-07-20 |      | won't take over (Sol is not affected by this issue), but the SAI needs to be reworked (see TC version) |
-| sol@6cef7305 | 2022-07-20 |      | verify/rework SQL script |
+| sol@6cef7305 | 2022-07-20 | X    | verify/rework SQL script; done: sol@63874cd5 |
 | sol@37cc3ffa | 2022-07-20 | X    | only take over the creature formation; done: sol@8ed899d9 |
 | sol@654ad10b | 2022-07-12 |      | verify changes; low prio (World Boss) |
 | sol@4d85488e | 2022-07-10 |      | verify/rework SQL script; check the WP paths; low prio (Cosmetic) |

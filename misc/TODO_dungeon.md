@@ -28,7 +28,7 @@ TODOs: [common](TODO.md), dungeon, [event](TODO_event.md), [pvp](TODO_pvp.md), [
 | sol@3385cd0f | 2022-07-27 |      | verify/rework SQL script (Ruins of Ahn'Qiraj) |
 | sol@9bfe8c5c | 2022-07-26 |      | verify/rework SQL script (Shadowfang Keep) |
 | sol@d0561c56 | 2022-07-26 |      | verify changes (Temple of Ahn'Qiraj) |
-| sol@278845f7 | 2022-07-26 |      | verify changes (also see sol@351ef2b7, sol@e6dd5d3e, sol@ce487f2a, sol@32c68abf, sol@4fa0d6b0) (Ruins of Ahn'Qiraj) |
+| sol@278845f7 | 2022-07-26 |      | verify changes (also see sol@351ef2b7, sol@e6dd5d3e, sol@ce487f2a, sol@32c68abf, sol@4fa0d6b0, sol@d4b3de77) (Ruins of Ahn'Qiraj) |
 | sol@a498584a | 2022-07-25 |      | verify changes (Ruins of Ahn'Qiraj) |
 | sol@60e70ac8 | 2022-07-25 |      | verify changes (also see sol@b1136c7c, sol@07c04355, sol@3a4459ee, sol@750f7ee8, sol@ffa58395) (Ruins of Ahn'Qiraj) |
 | sol@2a7b5685 | 2022-07-25 |      | verify changes (also see sol@6e659a16, sol@fdb18e02, sol@18b7b6c2) (Ruins of Ahn'Qiraj) |
@@ -40,7 +40,7 @@ TODOs: [common](TODO.md), dungeon, [event](TODO_event.md), [pvp](TODO_pvp.md), [
 | sol@8f2ca7c6 | 2022-07-25 |      | verify/rework SQL script (Ruins of Ahn'Qiraj) |
 | sol@35194434 | 2022-07-25 |      | verify changes (Zul'Gurub) |
 | sol@577ae14b | 2022-07-24 |      | verify changes (also see sol@dda3177d, sol@b1691e60) (Ruins of Ahn'Qiraj) |
-| sol@8809ec55 | 2022-07-24 |      | verify changes (also see sol@f2369214) (Ruins of Ahn'Qiraj) |
+| sol@8809ec55 | 2022-07-24 |      | verify changes (also see sol@f2369214, sol@560a74e7) (Ruins of Ahn'Qiraj) |
 | sol@984f039f | 2022-07-24 |      | verify/rework SQL script (Zul'Gurub) |
 | sol@801e68b1 | 2022-07-24 |      | verify changes (Zul'Gurub) |
 | sol@bcdeaa41 | 2022-07-20 |      | verify/rework SQL script (also see sol@8a3e43c6, sol@2820b7ef) (Ruins of Ahn'Qiraj) |
@@ -341,7 +341,7 @@ TODOs: [common](TODO.md), dungeon, [event](TODO_event.md), [pvp](TODO_pvp.md), [
 | sol@9d096233 | 2021-03-09 |      | verify SQL script (see also AC commit sol@671c4dc5) (Naxxramas) |
 | sol@dbd78936 | 2021-02-24 |      | verify and rework SQL script (Gnomeregan) |
 | sol@ae2bd072 | 2021-02-24 |      | verify and rework SQL script (Gnomeregan) |
-| sol@6ef73413 | 2021-01-31 |      | verify CreatureScript (also see sol@1a137dad, sol@8d78f4b8, sol@707685d6, sol@549a1a0d, sol@d0336ea4, sol@6e35325a) (Blackwing Lair) |
+| sol@6ef73413 | 2021-01-31 |      | verify CreatureScript (also see sol@1a137dad, sol@8d78f4b8, sol@707685d6, sol@549a1a0d, sol@d0336ea4, sol@6e35325a, sol@b2e449fd) (Blackwing Lair) |
 | sol@b9375fff | 2021-01-12 |      | verify and rework SQL script & code changes (The Oculus) |
 | sol@aec0dbb7 | 2020-12-25 |      | verify CreatureScript (Ulduar) |
 | sol@d710057a | 2020-12-25 |      | verify and rework SQL script / CreatureScript (also see sol@0d9bfdea) (Ulduar) |
