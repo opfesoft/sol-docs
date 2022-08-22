@@ -2,6 +2,9 @@ TODOs: common, [dungeon](TODO_dungeon.md), [event](TODO_event.md), [pvp](TODO_pv
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@dc4bef94 | 2022-08-21 |      | verify changes; low prio (World Boss) |
+| sol@241cbac4 | 2022-08-21 |      | won't take over as Sol uses another solution (see sol@2e67fc8e); adjust SAI -6867 & -1140 |
+| sol@233e95e7 | 2022-08-21 |      | won't take over, but replace the WP movement with random movement |
 | sol@2a297dfe | 2022-08-16 |      | verify/rework SQL script (also see sol@3cfdc7e6); low prio (obsolete quests) |
 | sol@46e0b87e | 2022-08-15 |      | verify/rework SQL script; low prio (obsolete quest chain) |
 | sol@986cb213 | 2022-08-15 |      | verify/rework SQL script |
@@ -24,7 +27,7 @@ TODOs: common, [dungeon](TODO_dungeon.md), [event](TODO_event.md), [pvp](TODO_pv
 | sol@22b6c35d | 2022-07-23 | X    | won't take over, just delete ID 1; improved SAI instead: sol@de1a132b |
 | sol@758eee99 | 2022-07-20 | X    | use UPDATE instead of DELETE/INSERT; done: sol@59bb8498 |
 | sol@0b24dddb | 2022-07-20 | X    | verify/rework SQL script; compare with TC version; done: sol@2366b857 |
-| sol@153871e9 | 2022-07-20 |      | won't take over (Sol is not affected by this issue), but the SAI needs to be reworked (see TC version) |
+| sol@153871e9 | 2022-07-20 | X    | won't take over (Sol is not affected by this issue), but the SAI needs to be reworked (see TC version); done: sol@19cbb211 |
 | sol@6cef7305 | 2022-07-20 | X    | verify/rework SQL script; done: sol@63874cd5 |
 | sol@37cc3ffa | 2022-07-20 | X    | only take over the creature formation; done: sol@8ed899d9 |
 | sol@654ad10b | 2022-07-12 |      | verify changes; low prio (World Boss) |
