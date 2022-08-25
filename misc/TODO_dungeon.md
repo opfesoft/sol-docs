@@ -2,9 +2,13 @@ TODOs: [common](TODO.md), dungeon, [event](TODO_event.md), [pvp](TODO_pvp.md), [
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@0ed4a5e7 | 2022-08-25 |      | verify/rework SQL script (Blackwing Lair) |
+| sol@7ec6a9d5 | 2022-08-23 |      | verify/rework SQL script (Ruins of Ahn'Qiraj) |
+| sol@dabd75f9 | 2022-08-23 |      | verify changes (Temple of Ahn'Qiraj) |
+| sol@43f3d3a5 | 2022-08-23 |      | verify/rework SQL script (Temple of Ahn'Qiraj) |
 | sol@9d16705d | 2022-08-21 |      | verify changes (Temple of Ahn'Qiraj) |
 | sol@80565d81 | 2022-08-21 |      | verify/rework SQL script (Temple of Ahn'Qiraj) |
-| sol@759cb4e9 | 2022-08-21 |      | verify changes (Temple of Ahn'Qiraj) |
+| sol@759cb4e9 | 2022-08-21 |      | verify changes (also see sol@b1f53e19) (Temple of Ahn'Qiraj) |
 | sol@24f538a6 | 2022-08-21 |      | verify changes (Temple of Ahn'Qiraj) |
 | sol@787f0ae2 | 2022-08-21 |      | verify changes (Temple of Ahn'Qiraj) |
 | sol@e623e9ef | 2022-08-21 |      | verify changes (Ruins of Ahn'Qiraj) |
@@ -24,7 +28,7 @@ TODOs: [common](TODO.md), dungeon, [event](TODO_event.md), [pvp](TODO_pvp.md), [
 | sol@d627e196 | 2022-08-07 |      | verify changes (also see sol@8841d3a0) (Blackwing Lair) |
 | sol@337800fc | 2022-08-07 |      | verify/rework SQL script (Ruins of Ahn'Qiraj) |
 | sol@71d2adf5 | 2022-08-07 |      | verify/rework SQL script (Ruins of Ahn'Qiraj) |
-| sol@440865e3 | 2022-08-06 |      | verify changes (also see sol@76f976fd) (Ruins of Ahn'Qiraj) |
+| sol@440865e3 | 2022-08-06 |      | verify changes (also see sol@76f976fd, sol@f4e5b0a8) (Ruins of Ahn'Qiraj) |
 | sol@0f36736d | 2022-08-03 |      | verify changes (Trial of the Crusader) |
 | sol@da4bb947 | 2022-08-01 |      | verify/rework SQL script (Ruins of Ahn'Qiraj) |
 | sol@ec35f991 | 2022-08-01 |      | verify/rework SQL script (Zul'Gurub) |
@@ -37,9 +41,9 @@ TODOs: [common](TODO.md), dungeon, [event](TODO_event.md), [pvp](TODO_pvp.md), [
 | sol@3385cd0f | 2022-07-27 |      | verify/rework SQL script (Ruins of Ahn'Qiraj) |
 | sol@9bfe8c5c | 2022-07-26 |      | verify/rework SQL script (Shadowfang Keep) |
 | sol@d0561c56 | 2022-07-26 |      | verify changes (Temple of Ahn'Qiraj) |
-| sol@278845f7 | 2022-07-26 |      | verify changes (also see sol@351ef2b7, sol@e6dd5d3e, sol@ce487f2a, sol@32c68abf, sol@4fa0d6b0, sol@d4b3de77, sol@b78cbef5, sol@ba6fc095) (Ruins of Ahn'Qiraj) |
+| sol@278845f7 | 2022-07-26 |      | verify changes (also see sol@351ef2b7, sol@e6dd5d3e, sol@ce487f2a, sol@32c68abf, sol@4fa0d6b0, sol@d4b3de77, sol@b78cbef5, sol@ba6fc095, sol@eced31f4) (Ruins of Ahn'Qiraj) |
 | sol@a498584a | 2022-07-25 |      | verify changes (Ruins of Ahn'Qiraj) |
-| sol@60e70ac8 | 2022-07-25 |      | verify changes (also see sol@b1136c7c, sol@07c04355, sol@3a4459ee, sol@750f7ee8, sol@ffa58395, sol@cf2523bb, sol@1a1fe18a) (Ruins of Ahn'Qiraj) |
+| sol@60e70ac8 | 2022-07-25 |      | verify changes (also see sol@b1136c7c, sol@07c04355, sol@3a4459ee, sol@750f7ee8, sol@ffa58395, sol@cf2523bb, sol@1a1fe18a, sol@5fca6acd) (Ruins of Ahn'Qiraj) |
 | sol@2a7b5685 | 2022-07-25 |      | verify changes (also see sol@6e659a16, sol@fdb18e02, sol@18b7b6c2) (Ruins of Ahn'Qiraj) |
 | sol@3564d019 | 2022-07-25 |      | verify/rework SQL script (Ruins of Ahn'Qiraj) |
 | sol@5b142671 | 2022-07-25 |      | verify changes (Ruins of Ahn'Qiraj) |
@@ -49,7 +53,7 @@ TODOs: [common](TODO.md), dungeon, [event](TODO_event.md), [pvp](TODO_pvp.md), [
 | sol@8f2ca7c6 | 2022-07-25 |      | verify/rework SQL script (Ruins of Ahn'Qiraj) |
 | sol@35194434 | 2022-07-25 |      | verify changes (Zul'Gurub) |
 | sol@577ae14b | 2022-07-24 |      | verify changes (also see sol@dda3177d, sol@b1691e60) (Ruins of Ahn'Qiraj) |
-| sol@8809ec55 | 2022-07-24 |      | verify changes (also see sol@f2369214, sol@560a74e7, sol@fc1657c9, sol@a98e475f) (Ruins of Ahn'Qiraj) |
+| sol@8809ec55 | 2022-07-24 |      | verify changes (also see sol@f2369214, sol@560a74e7, sol@fc1657c9, sol@a98e475f, sol@119a2356) (Ruins of Ahn'Qiraj) |
 | sol@984f039f | 2022-07-24 |      | verify/rework SQL script (Zul'Gurub) |
 | sol@801e68b1 | 2022-07-24 |      | verify changes (Zul'Gurub) |
 | sol@bcdeaa41 | 2022-07-20 |      | verify/rework SQL script (also see sol@8a3e43c6, sol@2820b7ef) (Ruins of Ahn'Qiraj) |

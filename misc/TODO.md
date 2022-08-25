@@ -17,12 +17,12 @@ TODOs: common, [dungeon](TODO_dungeon.md), [event](TODO_event.md), [pvp](TODO_pv
 | sol@4549a770 | 2022-08-01 |      | verify/rework SQL script |
 | sol@728f0216 | 2022-08-01 |      | verify/rework SQL script |
 | sol@92b6d3b7 | 2022-08-01 |      | there are several other mushrooms nearby with wrong position, check these GUIDs: 16415,16416,16417,16418,16419,16420,16421,16422,16423,16424,16425,16426,16429,16430,16431,16433,16434,16435,16437,16438,16442,16443,16445,16447,16448,33858,46364,46365,46366,63149,64898,64899,86138,86139,86140,87460 |
-| sol@4444410f | 2022-07-31 |      | verify/rework SQL script |
+| sol@4444410f | 2022-07-31 | X    | verify/rework SQL script; done: sol@ee8ea869 |
 | sol@62ffa757 | 2022-07-29 |      | verify changes; low prio (World Boss) |
 | sol@8f386e83 | 2022-07-26 |      | verify/rework SQL script; check the WP paths; low prio (Cosmetic) |
 | sol@c19d6b74 | 2022-07-25 |      | verify changes; low prio (minor issue) |
 | sol@7aea91fc | 2022-07-25 | X    | won't take over, find another solution (also affects Water Shield & Earth Shield); low prio (minor issue); can be handled using conditions: sol@05a8a40b |
-| sol@d9dde933 | 2022-07-24 |      | verify/rework SQL script |
+| sol@d9dde933 | 2022-07-24 | X    | verify/rework SQL script; done: sol@d0ad7d3c |
 | sol@c057b539 | 2022-07-24 | X    | verify/rework SQL script; compare with TC version; done: sol@40f5a26d |
 | sol@22b6c35d | 2022-07-23 | X    | won't take over, just delete ID 1; improved SAI instead: sol@de1a132b |
 | sol@758eee99 | 2022-07-20 | X    | use UPDATE instead of DELETE/INSERT; done: sol@59bb8498 |
