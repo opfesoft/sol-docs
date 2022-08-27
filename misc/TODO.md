@@ -14,8 +14,8 @@ TODOs: common, [dungeon](TODO_dungeon.md), [event](TODO_event.md), [pvp](TODO_pv
 | sol@a4cd022c | 2022-08-01 |      | verify/rework SQL script |
 | sol@9f030e09 | 2022-08-01 |      | won't take over; adjust movement/position (perhaps use WP paths); set Occulus large; add flag CREATURE\_FLAG\_EXTRA\_CIVILIAN for Tick, Occulus and Chronalis |
 | sol@7327a55b | 2022-08-01 | X    | not working, find another solution; done: sol@e0e9d8fe |
-| sol@4549a770 | 2022-08-01 |      | verify/rework SQL script |
-| sol@728f0216 | 2022-08-01 |      | verify/rework SQL script |
+| sol@4549a770 | 2022-08-01 | X    | verify/rework SQL script; done: sol@574cbd8e |
+| sol@728f0216 | 2022-08-01 | X    | verify/rework SQL script; done: sol@b1dedb10 |
 | sol@92b6d3b7 | 2022-08-01 |      | there are several other mushrooms nearby with wrong position, check these GUIDs: 16415,16416,16417,16418,16419,16420,16421,16422,16423,16424,16425,16426,16429,16430,16431,16433,16434,16435,16437,16438,16442,16443,16445,16447,16448,33858,46364,46365,46366,63149,64898,64899,86138,86139,86140,87460 |
 | sol@4444410f | 2022-07-31 | X    | verify/rework SQL script; done: sol@ee8ea869 |
 | sol@62ffa757 | 2022-07-29 |      | verify changes; low prio (World Boss) |
