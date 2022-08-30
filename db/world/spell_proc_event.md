@@ -96,31 +96,31 @@ A bitmask controlling what events trigger the spell. To combine possible events,
 
 ### procEx
 
-| Flag     | Name                        | Bit       | Comment                                                                               |
-|----------|-----------------------------|-----------|---------------------------------------------------------------------------------------|
-| 0        | PROC_EX_NONE                | 0x0000000 | If none can trigger on Hit/Crit only (passive spells MUST defined by SpellFamily flag) |
-| 1        | PROC_EX_NORMAL_HIT          | 0x0000001 | If set only from normal hit (only damage spells)                                      |
-| 2        | PROC_EX_CRITICAL_HIT        | 0x0000002 |                                                                                       |
-| 4        | PROC_EX_MISS                | 0x0000004 |                                                                                       |
-| 8        | PROC_EX_RESIST              | 0x0000008 |                                                                                       |
-| 16       | PROC_EX_DODGE               | 0x0000010 |                                                                                       |
-| 32       | PROC_EX_PARRY               | 0x0000020 |                                                                                       |
-| 64       | PROC_EX_BLOCK               | 0x0000040 |                                                                                       |
-| 128      | PROC_EX_EVADE               | 0x0000080 |                                                                                       |
-| 256      | PROC_EX_IMMUNE              | 0x0000100 |                                                                                       |
-| 512      | PROC_EX_DEFLECT             | 0x0000200 |                                                                                       |
-| 1024     | PROC_EX_ABSORB              | 0x0000400 |                                                                                       |
-| 2048     | PROC_EX_REFLECT             | 0x0000800 |                                                                                       |
-| 4096     | PROC_EX_INTERRUPT           | 0x0001000 | Melee hit result can be Interrupt (not used)                                          |
-| 8192     | PROC_EX_FULL_BLOCK          | 0x0002000 | Block all attack damage                                                               |
-| 16384    | PROC_EX_RESERVED2           | 0x0004000 |                                                                                       |
-| 32768    | PROC_EX_NOT_ACTIVE_SPELL    | 0x0008000 | Spell mustn't do damage/heal to proc                                                  |
-| 65536    | PROC_EX_EX_TRIGGER_ALWAYS   | 0x0010000 | If set trigger always (no matter of hit result) used for drop charges                 |
-| 131072   | PROC_EX_ONLY_ON_PLAYER_CAST | 0x0020000 | If set trigger only once on player cast (ignores all other procEx-flags)              |
-| 262144   | PROC_EX_ONLY_ACTIVE_SPELL   | 0x0040000 | Spell has to do damage/heal to proc                                                   |
-| 524288   | PROC_EX_NO_OVERHEAL         | 0x0080000 | Proc if heal did some work                                                            |
-| 1048576  | PROC_EX_NO_AURA_REFRESH     | 0x0100000 | Proc if aura was not refreshed                                                        |
-| 2097152  | PROC_EX_ONLY_FIRST_TICK     | 0x0200000 | Proc only on first tick (in case of periodic spells)                                  |
+| Flag     | Name                            | Bit       | Comment                                                                               |
+|----------|---------------------------------|-----------|---------------------------------------------------------------------------------------|
+| 0        | PROC_EX_NONE                    | 0x0000000 | If none can trigger on Hit/Crit only (passive spells MUST defined by SpellFamily flag) |
+| 1        | PROC_EX_NORMAL_HIT              | 0x0000001 | If set only from normal hit (only damage spells)                                      |
+| 2        | PROC_EX_CRITICAL_HIT            | 0x0000002 |                                                                                       |
+| 4        | PROC_EX_MISS                    | 0x0000004 |                                                                                       |
+| 8        | PROC_EX_RESIST                  | 0x0000008 |                                                                                       |
+| 16       | PROC_EX_DODGE                   | 0x0000010 |                                                                                       |
+| 32       | PROC_EX_PARRY                   | 0x0000020 |                                                                                       |
+| 64       | PROC_EX_BLOCK                   | 0x0000040 |                                                                                       |
+| 128      | PROC_EX_EVADE                   | 0x0000080 |                                                                                       |
+| 256      | PROC_EX_IMMUNE                  | 0x0000100 |                                                                                       |
+| 512      | PROC_EX_DEFLECT                 | 0x0000200 |                                                                                       |
+| 1024     | PROC_EX_ABSORB                  | 0x0000400 |                                                                                       |
+| 2048     | PROC_EX_REFLECT                 | 0x0000800 |                                                                                       |
+| 4096     | PROC_EX_INTERRUPT               | 0x0001000 | Melee hit result can be Interrupt (not used)                                          |
+| 8192     | PROC_EX_FULL_BLOCK              | 0x0002000 | Block all attack damage                                                               |
+| 16384    | PROC_EX_ONLY_ON_PLAYER_PRE_CAST | 0x0004000 | If set trigger only once on player cast (before the actual cast; ignores all other procEx-flags) |
+| 32768    | PROC_EX_NOT_ACTIVE_SPELL        | 0x0008000 | Spell mustn't do damage/heal to proc                                                  |
+| 65536    | PROC_EX_EX_TRIGGER_ALWAYS       | 0x0010000 | If set trigger always (no matter of hit result) used for drop charges                 |
+| 131072   | PROC_EX_ONLY_ON_PLAYER_CAST     | 0x0020000 | If set trigger only once on player cast (after the actual cast; ignores all other procEx-flags) |
+| 262144   | PROC_EX_ONLY_ACTIVE_SPELL       | 0x0040000 | Spell has to do damage/heal to proc                                                   |
+| 524288   | PROC_EX_NO_OVERHEAL             | 0x0080000 | Proc if heal did some work                                                            |
+| 1048576  | PROC_EX_NO_AURA_REFRESH         | 0x0100000 | Proc if aura was not refreshed                                                        |
+| 2097152  | PROC_EX_ONLY_FIRST_TICK         | 0x0200000 | Proc only on first tick (in case of periodic spells)                                  |
 
 ### ppmRate
 
