@@ -1,7 +1,9 @@
-TODOs: [common](TODO.md), dungeon, [event](TODO_event.md), [pvp](TODO_pvp.md), [localization](TODO_localization.md)
+TODOs: [common](TODO.md), low prio: dungeon, [event](TODO_event.md), [pvp](TODO_pvp.md), [localization](TODO_localization.md)
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@03266f0d | 2022-08-31 |      | verify/rework SQL script (Temple of Ahn'Qiraj) |
+| sol@0c2ada49 | 2022-08-30 |      | verify/rework SQL script (Temple of Ahn'Qiraj) |
 | sol@674382ca | 2022-08-27 |      | verify changes (Temple of Ahn'Qiraj) |
 | sol@0a9ff22a | 2022-08-27 |      | verify/rework SQL script (Zul'Gurub) |
 | sol@022a90cf | 2022-08-27 |      | verify changes (Temple of Ahn'Qiraj) |
@@ -35,7 +37,7 @@ TODOs: [common](TODO.md), dungeon, [event](TODO_event.md), [pvp](TODO_pvp.md), [
 | sol@d627e196 | 2022-08-07 |      | verify changes (also see sol@8841d3a0) (Blackwing Lair) |
 | sol@337800fc | 2022-08-07 |      | verify/rework SQL script (Ruins of Ahn'Qiraj) |
 | sol@71d2adf5 | 2022-08-07 |      | verify/rework SQL script (Ruins of Ahn'Qiraj) |
-| sol@440865e3 | 2022-08-06 |      | verify changes (also see sol@76f976fd, sol@f4e5b0a8) (Ruins of Ahn'Qiraj) |
+| sol@440865e3 | 2022-08-06 |      | verify changes (also see sol@76f976fd, sol@f4e5b0a8, sol@748d925a) (Ruins of Ahn'Qiraj) |
 | sol@0f36736d | 2022-08-03 |      | verify changes (Trial of the Crusader) |
 | sol@da4bb947 | 2022-08-01 |      | verify/rework SQL script (Ruins of Ahn'Qiraj) |
 | sol@ec35f991 | 2022-08-01 |      | verify/rework SQL script (Zul'Gurub) |

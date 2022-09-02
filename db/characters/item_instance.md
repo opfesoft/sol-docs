@@ -201,7 +201,7 @@ Current number of item copies in the stack.
 
 ### charges
 
-`The number of charges for each of the five possible spellcharges on an item,  specified via five space separated integers.`
+The number of charges for each of the five possible spellcharges on an item, specified via five space separated integers.
 
 ### flags
 
@@ -209,7 +209,37 @@ Current number of item copies in the stack.
 
 ### enchantments
 
-Enchantments from SpellItemEnchantment.dbc
+This field consists of 36 values separated by blanks. Each number is part of a 3-tuple representing an enchantment applied to the item:
+
+1. ID in SpellItemEnchantment.dbc
+2. Duration of the enchantment (optional)
+3. Charges (optional)
+
+Each of the 12 3-tuples represents a different slot for the enchantment:
+
+1. PERM_ENCHANTMENT_SLOT
+  Permanent enchantment on the item (part of the item itself).
+
+2. TEMP_ENCHANTMENT_SLOT
+  Temporary enchantments, e.g. Rogue poisons, fishing bait etc.
+
+3. SOCK_ENCHANTMENT_SLOT
+4. SOCK_ENCHANTMENT_SLOT_2
+5. SOCK_ENCHANTMENT_SLOT_3
+  The three slots above are related to gem sockets.
+
+6. BONUS_ENCHANTMENT_SLOT
+  Socket bonus.
+
+7. PRISMATIC_ENCHANTMENT_SLOT
+  Prismatic socket (blacksmithing).
+
+8. PROP_ENCHANTMENT_SLOT_0
+9. PROP_ENCHANTMENT_SLOT_1
+10. PROP_ENCHANTMENT_SLOT_2
+11. PROP_ENCHANTMENT_SLOT_3
+12. PROP_ENCHANTMENT_SLOT_4
+  The five slots above relate to random enchantments some items receive on creation. These slots depend either on [item_template.randomproperty](../world/item_template.md#randomproperty) or [item_template.randomsuffix](../world/item_template.md#randomsuffix).
 
 ### randomPropertyId
 

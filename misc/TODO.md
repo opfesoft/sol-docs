@@ -1,9 +1,10 @@
-TODOs: common, [dungeon](TODO_dungeon.md), [event](TODO_event.md), [pvp](TODO_pvp.md), [localization](TODO_localization.md)
+TODOs: common, low prio: [dungeon](TODO_dungeon.md), [event](TODO_event.md), [pvp](TODO_pvp.md), [localization](TODO_localization.md)
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@6ba468e1 | 2022-08-30 |      | verify/rework SQL script; low prio (obsolete quest encounter) |
 | sol@84c7db5a | 2022-08-29 |      | verify/rework SQL script; low prio (obsolete quests) |
-| sol@82894ba2 | 2022-08-27 |      | verify/rework SQL script (also increase speed of the query by using a list for "Entry") |
+| sol@82894ba2 | 2022-08-27 | X    | verify/rework SQL script (also increase speed of the query by using a list for "Entry"); done: sol@8da17e9c |
 | sol@dc4bef94 | 2022-08-21 |      | verify changes; low prio (World Boss) |
 | sol@241cbac4 | 2022-08-21 | X    | won't take over as Sol uses another solution (see sol@2e67fc8e); adjust SAI -6867 & -1140; done: sol@e703db63 |
 | sol@233e95e7 | 2022-08-21 | X    | won't take over, but replace the WP movement with random movement; done: sol@3cdacd64 |

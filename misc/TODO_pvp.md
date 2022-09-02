@@ -1,7 +1,8 @@
-TODOs: [common](TODO.md), [dungeon](TODO_dungeon.md), [event](TODO_event.md), pvp, [localization](TODO_localization.md)
+TODOs: [common](TODO.md), low prio: [dungeon](TODO_dungeon.md), [event](TODO_event.md), pvp, [localization](TODO_localization.md)
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@406f2bcd | 2022-08-31 |      | verify changes |
 | sol@07706880 | 2022-06-13 |      | verify/rework SQL script; seems to be incomplete, as the comment mentions 58 items, but only 48 are deleted and 42 inserted |
 | sol@8e7c4fa2 | 2022-06-13 |      | verify changes |
 | sol@db41a013 | 2022-06-13 |      | verify changes |
