@@ -24,7 +24,31 @@
 
 ## Packages
 
-`sudo apt-get install git cmake make gcc-11 g++-11 ccache libmariadb-dev libssl-dev libbz2-dev libreadline-dev libncurses-dev mariadb-server`
+`sudo apt-get install git cmake make gcc-11 g++-11 ccache libmariadb-dev libbz2-dev libreadline-dev libncurses-dev mariadb-server perl`
+
+## OpenSSL installation
+
+Example for OpenSSL 3.0.5, installation in "~/sol-srv/lib/openssl":
+
+- Get package:
+```
+curl -L 'https://github.com/openssl/openssl/archive/refs/tags/openssl-3.0.5.tar.gz' >openssl-3.0.5.tar.gz
+tar -xzf openssl-3.0.5.tar.gz
+```
+
+- Install (here gcc 11 is used):
+```
+export CC='gcc-11'
+export CXX='g++-11'
+cd openssl-openssl-3.0.5
+./config --prefix=${HOME}/sol-srv/lib/openssl --openssldir=${HOME}/sol-srv/lib/openssl -static
+make -j $(($(nproc)+2))
+make install
+```
+
+Further information: https://www.openssl.org/
+
+New releases: https://github.com/openssl/openssl/tags
 
 ## Jemalloc installation
 
@@ -62,7 +86,7 @@ tar -xzf ACE+TAO-7.0.8.tar.gz
 
 - Set `ACE_ROOT`:
 ```
-export ACE_ROOT=$HOME/ACE_wrappers
+export ACE_ROOT=${HOME}/ACE_wrappers
 ```
 
 - `vi $ACE_ROOT/ace/config.h`

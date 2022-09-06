@@ -2,6 +2,7 @@ TODOs: [common](TODO.md), low prio: dungeon, [event](TODO_event.md), [pvp](TODO_
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@390451a7 | 2022-09-06 |      | verify/rework SQL script (Temple of Ahn'Qiraj) |
 | sol@9e7aae74 | 2022-09-03 |      | verify changes (Temple of Ahn'Qiraj) |
 | sol@b790038a | 2022-09-03 |      | verify/rework SQL script (Blackrock Depths) |
 | sol@cb5e5fb0 | 2022-09-03 |      | verify/rework SQL script (Temple of Ahn'Qiraj) |
@@ -29,7 +30,7 @@ TODOs: [common](TODO.md), low prio: dungeon, [event](TODO_event.md), [pvp](TODO_
 | sol@24f538a6 | 2022-08-21 |      | verify changes (Temple of Ahn'Qiraj) |
 | sol@787f0ae2 | 2022-08-21 |      | verify changes (Temple of Ahn'Qiraj) |
 | sol@e623e9ef | 2022-08-21 |      | verify changes (Ruins of Ahn'Qiraj) |
-| sol@c65d4bbe | 2022-08-21 |      | verify changes (also see sol@2ed6848d, sol@ba364025) (Ruins of Ahn'Qiraj) |
+| sol@c65d4bbe | 2022-08-21 |      | verify changes (also see sol@2ed6848d, sol@ba364025, sol@138fc875) (Ruins of Ahn'Qiraj) |
 | sol@555aa817 | 2022-08-21 |      | verify/rework SQL script (Ruins of Ahn'Qiraj) |
 | sol@ecdaf523 | 2022-08-19 |      | verify/rework SQL script (Dire Maul) |
 | sol@415ceefa | 2022-08-14 |      | verify changes (Ruins of Ahn'Qiraj) |

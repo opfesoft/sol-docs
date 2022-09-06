@@ -2,6 +2,7 @@ TODOs: common, low prio: [dungeon](TODO_dungeon.md), [event](TODO_event.md), [pv
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@ede3c95f | 2022-09-06 |      | verify/rework SQL script; low prio (obsolete quests) |
 | sol@6ba468e1 | 2022-08-30 |      | verify/rework SQL script; low prio (obsolete quest encounter) |
 | sol@84c7db5a | 2022-08-29 |      | verify/rework SQL script; low prio (obsolete quests) |
 | sol@82894ba2 | 2022-08-27 | X    | verify/rework SQL script (also increase speed of the query by using a list for "Entry"); done: sol@8da17e9c |
