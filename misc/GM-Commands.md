@@ -185,7 +185,6 @@ Note: Some commands are working only by selecting a player or a creature. These 
 |list item|3|Syntax: .list item #item_id [#max_count] Output items with item id #item_id found in all character inventories, mails, auctions, and guild banks. Output item guids, item owner guid, owner account and owner name (guild name and guid in case guild bank). Will be output maximum #max_count items. If #max_count not provided use 10 as default value.|
 |list gobject|3|Syntax: .list gobject #gameobject_id [#max_count] Output gameobjects with gameobject id #gameobject_id found in world. Output gameobject guids and coordinates sorted by distance from character. Will be output maximum #max_count gameobject. If #max_count not provided use 10 as default value.|
 |list|3|Syntax: .list $subcommand Type .list to see the list of possible subcommands or .help list $subcommand to see info on subcommands|
-|wp reload|3|Syntax: .wp reload $pathid Load path changes ingame - IMPORTANT: must be applied first for new paths before .wp load #pathid|
 |reload spell_group|3|Syntax: .reload spell_group Reload spell_group table.|
 |lookup area|1|Syntax: .lookup area $namepart Looks up an area by $namepart, and returns all matches with their area ID's.|
 |lookup creature|3|Syntax: .lookup creature $namepart Looks up a creature by $namepart, and returns all matches with their creature ID's.|
@@ -438,11 +437,13 @@ Note: Some commands are working only by selecting a player or a creature. These 
 |cheat|2|Syntax: .cheat $subcommand Type .cheat to see the list of possible subcommands or .help cheat $subcommand to see info on subcommands|
 |wchange|3|Syntax: .wchange #weathertype #status Set current weather to #weathertype with an intensity of #status. #weathertype can be 1 for rain, 2 for snow, and 3 for sand. #status can be 0 for disabled, and 1 for enabled.|
 |whispers|1|Syntax: .whispers on\off Enable/disable accepting whispers by GM from players. By default use worldserver.conf setting.|
-|wp event|2|Syntax: .wp event $subcommand Type .path event to see the list of possible subcommands or .help path event $subcommand to see info on subcommands.|
-|wp load|2|Syntax: .wp load $pathid Load pathid number for selected creature. Creature must have no waypoint data.|
-|wp modify||Syntax: .wp modify $option; Options: "action" - Changes the value action; "action_chance" - Changes the value action_chance; "del" - Deletes a selected waypoint; "delay" - Changes the value delay; "move" - Moves a selected waypoint; "move_type" - Changes the value move_type; "orientation" - Changes the value orientation (if the value is "player" takes the player's orientation)|
+|wp event|3|Syntax: .wp event $subcommand Type .path event to see the list of possible subcommands or .help path event $subcommand to see info on subcommands.|
+|wp go|3|Syntax: .wp go $pathid $point Teleport the player to the specified waypoint (has to be on the same map!).|
+|wp load|3|Syntax: .wp load $pathid Load pathid number for selected creature. Creature must have no waypoint data.|
+|wp modify|3|Syntax: .wp modify $option; Options: "action" - Changes the value action; "action_chance" - Changes the value action_chance; "del" - Deletes a selected waypoint; "delay" - Changes the value delay; "move" - Moves a selected waypoint; "move_type" - Changes the value move_type; "orientation" - Changes the value orientation (if the value is "player" takes the player's orientation)|
+|wp reload|3|Syntax: .wp reload $pathid Load path changes ingame - IMPORTANT: must be applied first for new paths before .wp load #pathid|
 |wp show|2|Syntax: .wp show $optionOptions:on $pathid (or selected creature with loaded path) - Show visual waypoints (Note: You must have GM on to see the waypoints)off Hide the visual waypoints.info Shows info for selected waypoint.first Shows visual the first waypoint.last Shows visual the last waypoint.|
-|wp unload|2|Syntax: .wp unload Unload path for selected creature.|
+|wp unload|3|Syntax: .wp unload Unload path for selected creature.|
 |account addon|1|Syntax: .account addon #addon Set expansion addon level allowed. Addon values: 0 - normal, 1 - tbc, 2 - wotlk.|
 |titles remove|2|Syntax: .titles remove #title Remove title #title (id or shift-link) from known titles list for selected player.|
 |titles current|2|Syntax: .titles current #title Set title #title (id or shift-link) as current selected titl for selected player. If title not in known title list for player then it will be added to list.|

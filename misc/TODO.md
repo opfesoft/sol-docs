@@ -2,6 +2,13 @@ TODOs: common, low prio: [dungeon](TODO_dungeon.md), [event](TODO_event.md), [pv
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@701361d8 | 2022-09-07 |      | won't take over, update quest\_template\_addon instead |
+| sol@045ade23 | 2022-09-07 |      | verify/rework SQL script |
+| sol@b601471d | 2022-09-06 |      | verify/rework SQL script |
+| sol@b96ad3a2 | 2022-09-06 |      | verify/rework SQL script; check the WP paths; low prio (Cosmetic) |
+| sol@d5ac35c4 | 2022-09-06 |      | verify/rework SQL script; low prio (RDF) |
+| sol@b1e83118 | 2022-09-06 |      | verify/rework SQL script |
+| sol@3f64c375 | 2022-09-06 |      | verify/rework SQL script; low prio (obsolete quests) |
 | sol@ede3c95f | 2022-09-06 |      | verify/rework SQL script; low prio (obsolete quests) |
 | sol@6ba468e1 | 2022-08-30 |      | verify/rework SQL script; low prio (obsolete quest encounter) |
 | sol@84c7db5a | 2022-08-29 |      | verify/rework SQL script; low prio (obsolete quests) |

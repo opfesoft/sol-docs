@@ -2,6 +2,7 @@ TODOs: [common](TODO.md), low prio: [dungeon](TODO_dungeon.md), event, [pvp](TOD
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@0ae93c1c | 2022-09-07 |      | verify changes (Feast of Winter Veil) |
 | sol@e1e4c6cd | 2022-07-02 |      | verify changes (Midsummer Fire Festival) |
 | sol@7df342b4 | 2022-07-01 |      | verify changes (Midsummer Fire Festival) |
 | sol@f32aa099 | 2022-05-08 |      | verify changes (Midsummer Fire Festival) |

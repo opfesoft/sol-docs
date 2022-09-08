@@ -2,6 +2,13 @@ TODOs: [common](TODO.md), low prio: dungeon, [event](TODO_event.md), [pvp](TODO_
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@ebe4d0a1 | 2022-09-08 |      | verify/rework SQL script (Ruins of Ahn'Qiraj) |
+| sol@87bc6670 | 2022-09-08 |      | verify/rework SQL script (Ruins/Temple of Ahn'Qiraj) |
+| sol@e13dfb8d | 2022-09-07 |      | verify/rework SQL script (Temple of Ahn'Qiraj) |
+| sol@fa825ec4 | 2022-09-07 |      | verify changes (Temple of Ahn'Qiraj) |
+| sol@980a328c | 2022-09-07 |      | verify/rework SQL script (Temple of Ahn'Qiraj) |
+| sol@dc33e8d9 | 2022-09-06 |      | verify/rework SQL script (Temple of Ahn'Qiraj) |
+| sol@3953aeda | 2022-09-06 |      | verify/rework SQL script (Ruins/Temple of Ahn'Qiraj) |
 | sol@390451a7 | 2022-09-06 |      | verify/rework SQL script (Temple of Ahn'Qiraj) |
 | sol@9e7aae74 | 2022-09-03 |      | verify changes (Temple of Ahn'Qiraj) |
 | sol@b790038a | 2022-09-03 |      | verify/rework SQL script (Blackrock Depths) |
@@ -37,7 +44,7 @@ TODOs: [common](TODO.md), low prio: dungeon, [event](TODO_event.md), [pvp](TODO_
 | sol@f0e608ed | 2022-08-14 |      | verify/rework SQL script (Ruins of Ahn'Qiraj) |
 | sol@c0084988 | 2022-08-14 |      | verify/rework SQL script (Ruins of Ahn'Qiraj) |
 | sol@37e9fac5 | 2022-08-14 |      | verify changes (Temple of Ahn'Qiraj) |
-| sol@eb4f1338 | 2022-08-14 |      | verify changes (Temple of Ahn'Qiraj) |
+| sol@eb4f1338 | 2022-08-14 |      | verify changes (also see sol@99c0fa3f) (Temple of Ahn'Qiraj) |
 | sol@7174e5b1 | 2022-08-12 |      | verify changes (Ruins of Ahn'Qiraj) |
 | sol@fb785f6a | 2022-08-10 |      | verify changes (Temple of Ahn'Qiraj) |
 | sol@1455be34 | 2022-08-10 |      | verify changes (Temple of Ahn'Qiraj) |
@@ -62,7 +69,7 @@ TODOs: [common](TODO.md), low prio: dungeon, [event](TODO_event.md), [pvp](TODO_
 | sol@278845f7 | 2022-07-26 |      | verify changes (also see sol@351ef2b7, sol@e6dd5d3e, sol@ce487f2a, sol@32c68abf, sol@4fa0d6b0, sol@d4b3de77, sol@b78cbef5, sol@ba6fc095, sol@eced31f4, sol@2de08a87) (Ruins of Ahn'Qiraj) |
 | sol@a498584a | 2022-07-25 |      | verify changes (Ruins of Ahn'Qiraj) |
 | sol@60e70ac8 | 2022-07-25 |      | verify changes (also see sol@b1136c7c, sol@07c04355, sol@3a4459ee, sol@750f7ee8, sol@ffa58395, sol@cf2523bb, sol@1a1fe18a, sol@5fca6acd, sol@9c539757) (Ruins of Ahn'Qiraj) |
-| sol@2a7b5685 | 2022-07-25 |      | verify changes (also see sol@6e659a16, sol@fdb18e02, sol@18b7b6c2) (Ruins of Ahn'Qiraj) |
+| sol@2a7b5685 | 2022-07-25 |      | verify changes (also see sol@6e659a16, sol@fdb18e02, sol@18b7b6c2, sol@85f1f697) (Ruins of Ahn'Qiraj) |
 | sol@3564d019 | 2022-07-25 |      | verify/rework SQL script (Ruins of Ahn'Qiraj) |
 | sol@5b142671 | 2022-07-25 |      | verify changes (Ruins of Ahn'Qiraj) |
 | sol@e3c7b522 | 2022-07-25 |      | won't take over, just disable UNIT\_FLAG2\_REGENERATE\_POWER in creature\_template (don't care about sniffs) (Ruins of Ahn'Qiraj) |

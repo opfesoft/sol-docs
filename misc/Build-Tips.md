@@ -20,7 +20,8 @@
 <br>
 
 - latest MariaDB
-  - see https://downloads.mariadb.org/mariadb/repositories/
+  - https://downloads.mariadb.org/mariadb/repositories/
+  - https://mariadb.org/mariadb/all-releases/
 
 ## Packages
 
