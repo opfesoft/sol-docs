@@ -2,6 +2,7 @@ TODOs: [common](TODO.md), low prio: dungeon, [event](TODO_event.md), [pvp](TODO_
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@331fab95 | 2022-09-08 |      | verify/rework SQL script (Ruins of Ahn'Qiraj) |
 | sol@ebe4d0a1 | 2022-09-08 |      | verify/rework SQL script (Ruins of Ahn'Qiraj) |
 | sol@87bc6670 | 2022-09-08 |      | verify/rework SQL script (Ruins/Temple of Ahn'Qiraj) |
 | sol@e13dfb8d | 2022-09-07 |      | verify/rework SQL script (Temple of Ahn'Qiraj) |

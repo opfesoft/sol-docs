@@ -2,7 +2,7 @@ TODOs: common, low prio: [dungeon](TODO_dungeon.md), [event](TODO_event.md), [pv
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
-| sol@701361d8 | 2022-09-07 |      | won't take over, update quest\_template\_addon instead |
+| sol@701361d8 | 2022-09-07 | X    | won't take over, update quest\_template\_addon instead; done: sol@cdc62c1a |
 | sol@045ade23 | 2022-09-07 |      | verify/rework SQL script |
 | sol@b601471d | 2022-09-06 |      | verify/rework SQL script |
 | sol@b96ad3a2 | 2022-09-06 |      | verify/rework SQL script; check the WP paths; low prio (Cosmetic) |
@@ -291,7 +291,7 @@ TODOs: common, low prio: [dungeon](TODO_dungeon.md), [event](TODO_event.md), [pv
 | sol@866a6303 | 2021-12-17 | X    | verify spell IDs; add spell 62528 to the delete statement; adapt to Sol; update: won't take over, the spells are already scripted |
 | sol@4994d194 | 2021-12-17 | X    | verify/rework SQL script; done: sol@0a14faf9 |
 | sol@89a1b5c9 | 2021-12-16 |      | take over if needed |
-| sol@fdbf5ab7 | 2021-12-16 |      | verify/rework SQL script; won't take over the updated spawn points, just check the WP paths and random movement; low prio (Cosmetic) |
+| sol@fdbf5ab7 | 2021-12-16 | X    | verify/rework SQL script; won't take over the updated spawn points, just check the WP paths and random movement; low prio (Cosmetic); done: sol@484de9ec, sol@7c5d2c97, sol@f8b48a98 |
 | sol@0f83d52f | 2021-12-16 |      | take over if needed (the recipes are largely irrelevant for WotLK) |
 | sol@1cc9ea83 | 2021-12-15 |      | take over if needed |
 | sol@5c8acadf | 2021-12-14 |      | take over if needed |
@@ -303,7 +303,7 @@ TODOs: common, low prio: [dungeon](TODO_dungeon.md), [event](TODO_event.md), [pv
 | sol@4e93671b | 2021-12-12 |      | verify changes; low prio (minor issue) |
 | sol@10ce7a74 | 2021-12-11 | X    | verify/rework SQL script / core script; done: sol@93d712d5 |
 | sol@09c3fea5 | 2021-12-11 | X    | won't take over; take over SAI from TC instead; implemented another solution: sol@854d902d |
-| sol@488b0d45 | 2021-12-11 |      | verify/rework SQL script; update: seems to contain several bugs, e.g. waypoints/spawn points inside environment etc.; just check the WP paths, won't take over the updated spawn points; low prio (Cosmetic) |
+| sol@488b0d45 | 2021-12-11 | X    | verify/rework SQL script; update: seems to contain several bugs, e.g. waypoints/spawn points inside environment etc.; just check the WP paths, won't take over the updated spawn points; low prio (Cosmetic); done: sol@4faddb24 |
 | sol@678e50fa | 2021-12-10 | X    | verify/rework SQL script; done: sol@a56d9a57 |
 | sol@0300cef1 | 2021-12-09 |      | verify solution; low prio (minor issue) |
 | sol@438fce93 | 2021-12-09 | X    | verify/rework SQL script; compare with TC version; done: sol@ec2c7078 |
