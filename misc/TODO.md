@@ -2,6 +2,10 @@ TODOs: common, low prio: [dungeon](TODO_dungeon.md), [event](TODO_event.md), [pv
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@2032cb69 | 2022-09-14 |      | verify/rework SQL script; low prio (obsolete quests) |
+| sol@cd337dbe | 2022-09-13 |      | does not seem to work correctly, find another solution (probably just a missing spell\_proc\_event entry) |
+| sol@da4ee153 | 2022-09-13 |      | verify/rework SQL script |
+| sol@c7b7f3d9 | 2022-09-13 |      | verify/rework SQL script |
 | sol@2ef8d2e1 | 2022-09-12 |      | adapt to Sol; low prio (minor issue) |
 | sol@701361d8 | 2022-09-07 | X    | won't take over, update quest\_template\_addon instead; done: sol@cdc62c1a |
 | sol@045ade23 | 2022-09-07 |      | verify/rework SQL script |
@@ -298,7 +302,7 @@ TODOs: common, low prio: [dungeon](TODO_dungeon.md), [event](TODO_event.md), [pv
 | sol@5c8acadf | 2021-12-14 |      | take over if needed |
 | sol@31a4cd14 | 2021-12-13 | X    | verify/rework SQL script (also see sol@702accbf); done: sol@2050f101 |
 | sol@0a0013aa | 2021-12-13 |      | take over if needed |
-| sol@2b86d4ba | 2021-12-13 |      | verify/rework SQL script; update: won't delete the creatures (no reason to do this, probably create a pool), just check the added creatures/gameobjects and the WP paths; low prio (Cosmetic) |
+| sol@2b86d4ba | 2021-12-13 | X    | verify/rework SQL script; update: won't delete the creatures (no reason to do this, probably create a pool), just check the added creatures/gameobjects and the WP paths; low prio (Cosmetic); done: sol@b75650be, sol@0958452a, sol@50b5ef46, sol@1a4ec18a, sol@f0b6eebd, sol@2095aa0e, sol@f3d8095f |
 | sol@8c8ac2be | 2021-12-12 | X    | verify loot; compare with TC; done: sol@b3d66d4a |
 | sol@b1303e0e | 2021-12-12 |      | verify changes; low prio (minor issue) |
 | sol@4e93671b | 2021-12-12 |      | verify changes; low prio (minor issue) |

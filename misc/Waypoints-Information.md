@@ -43,6 +43,8 @@ Side note: Because SmartAI is derived from CreatureAI both use the same movement
     - ```posy``` [posy](../db/world/scripts.md#otherfields): Set the posy for this script.
     - ```posz``` [posz](../db/world/scripts.md#otherfields): Set the posz for this script.
     - ```orientation``` [orientation](../db/world/scripts.md#otherfields): Set the orientation for this script.
+- ```.wp go``` [waypoint_data.id](../db/world/waypoint_data.md#id) [waypoint_data.point](../db/world/waypoint_data.md#point): Teleport to the specified point.
+- ```.wp stop``` duration: Stop WP movement for the specified duration (milliseconds; can also be used to decrease the current WP duration).
 
 ### Example for path creation using GM '.wp' commands
 
