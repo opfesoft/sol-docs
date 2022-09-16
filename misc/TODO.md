@@ -2,13 +2,14 @@ TODOs: common, low prio: [dungeon](TODO_dungeon.md), [event](TODO_event.md), [pv
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@9bb6c63d | 2022-09-15 |      | verify/rework SQL script |
 | sol@2032cb69 | 2022-09-14 |      | verify/rework SQL script; low prio (obsolete quests) |
-| sol@cd337dbe | 2022-09-13 |      | does not seem to work correctly, find another solution (probably just a missing spell\_proc\_event entry) |
+| sol@cd337dbe | 2022-09-13 | X    | does not seem to work correctly, find another solution (probably just a missing spell\_proc\_event entry); done: sol@d73421a9 |
 | sol@da4ee153 | 2022-09-13 |      | verify/rework SQL script |
 | sol@c7b7f3d9 | 2022-09-13 |      | verify/rework SQL script |
 | sol@2ef8d2e1 | 2022-09-12 |      | adapt to Sol; low prio (minor issue) |
 | sol@701361d8 | 2022-09-07 | X    | won't take over, update quest\_template\_addon instead; done: sol@cdc62c1a |
-| sol@045ade23 | 2022-09-07 |      | verify/rework SQL script |
+| sol@045ade23 | 2022-09-07 | X    | verify/rework SQL script; done: sol@3335e950 |
 | sol@b601471d | 2022-09-06 |      | verify/rework SQL script |
 | sol@b96ad3a2 | 2022-09-06 |      | verify/rework SQL script; check the WP paths; low prio (Cosmetic) |
 | sol@d5ac35c4 | 2022-09-06 |      | verify/rework SQL script; low prio (RDF) |
