@@ -2,6 +2,11 @@ TODOs: [common](TODO.md), low prio: dungeon, [event](TODO_event.md), [pvp](TODO_
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@f50c4bf3 | 2022-09-19 |      | verify changes (needs sol@76f976fd) (Blackwing Lair) |
+| sol@11cfcc84 | 2022-09-19 |      | verify changes (Temple of Ahn'Qiraj) |
+| sol@0f84e3ed | 2022-09-19 |      | verify changes (Lower Blackrock Spire) |
+| sol@23c3b184 | 2022-09-19 |      | verify changes (Temple of Ahn'Qiraj) |
+| sol@2682697d | 2022-09-17 |      | verify changes (Temple of Ahn'Qiraj) |
 | sol@216d569e | 2022-09-14 |      | verify changes (Temple of Ahn'Qiraj) |
 | sol@59f74753 | 2022-09-14 |      | verify changes (Temple of Ahn'Qiraj) |
 | sol@a1f44f98 | 2022-09-14 |      | verify changes (Temple of Ahn'Qiraj) |
@@ -72,7 +77,7 @@ TODOs: [common](TODO.md), low prio: dungeon, [event](TODO_event.md), [pvp](TODO_
 | sol@3385cd0f | 2022-07-27 |      | verify/rework SQL script (Ruins of Ahn'Qiraj) |
 | sol@9bfe8c5c | 2022-07-26 |      | verify/rework SQL script (Shadowfang Keep) |
 | sol@d0561c56 | 2022-07-26 |      | verify changes (Temple of Ahn'Qiraj) |
-| sol@278845f7 | 2022-07-26 |      | verify changes (also see sol@351ef2b7, sol@e6dd5d3e, sol@ce487f2a, sol@32c68abf, sol@4fa0d6b0, sol@d4b3de77, sol@b78cbef5, sol@ba6fc095, sol@eced31f4, sol@2de08a87) (Ruins of Ahn'Qiraj) |
+| sol@278845f7 | 2022-07-26 |      | verify changes (also see sol@351ef2b7, sol@e6dd5d3e, sol@ce487f2a, sol@32c68abf, sol@4fa0d6b0, sol@d4b3de77, sol@b78cbef5, sol@ba6fc095, sol@eced31f4, sol@2de08a87, sol@65924ca3) (Ruins of Ahn'Qiraj) |
 | sol@a498584a | 2022-07-25 |      | verify changes (Ruins of Ahn'Qiraj) |
 | sol@60e70ac8 | 2022-07-25 |      | verify changes (also see sol@b1136c7c, sol@07c04355, sol@3a4459ee, sol@750f7ee8, sol@ffa58395, sol@cf2523bb, sol@1a1fe18a, sol@5fca6acd, sol@9c539757) (Ruins of Ahn'Qiraj) |
 | sol@2a7b5685 | 2022-07-25 |      | verify changes (also see sol@6e659a16, sol@fdb18e02, sol@18b7b6c2, sol@85f1f697) (Ruins of Ahn'Qiraj) |

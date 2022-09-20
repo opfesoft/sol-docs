@@ -12,5 +12,6 @@ This table is used to save the entry point for players in Arenas or Battleground
 | joinZ                                 | float   |            | NO   |     | 0       |       |         |
 | joinO                                 | float   |            | NO   |     | 0       |       |         |
 | [joinMapId](../../dbc/Map.md#content) | int(10) | unsigned   | NO   |     | 0       |       |         |
-| taxiPath                              | text    |            | YES  |     | NULL    |       |         |
+| taxiPath0                             | int(10) | unsigned   | NO   |     | 0       |       |         |
+| taxiPath1                             | int(10) | unsigned   | NO   |     | 0       |       |         |
 | mountSpell                            | int(10) | unsigned   | NO   |     | 0       |       |         |

@@ -2,18 +2,21 @@ TODOs: common, low prio: [dungeon](TODO_dungeon.md), [event](TODO_event.md), [pv
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@4adabdb0 | 2022-09-19 |      | verify/rework SQL script |
+| sol@90e9ed40 | 2022-09-19 |      | verify/rework SQL script |
+| sol@1ddd884d | 2022-09-17 |      | verify changes; probably just take over the values into the DB |
 | sol@9bb6c63d | 2022-09-15 |      | verify/rework SQL script |
 | sol@2032cb69 | 2022-09-14 |      | verify/rework SQL script; low prio (obsolete quests) |
 | sol@cd337dbe | 2022-09-13 | X    | does not seem to work correctly, find another solution (probably just a missing spell\_proc\_event entry); done: sol@d73421a9 |
 | sol@da4ee153 | 2022-09-13 |      | verify/rework SQL script |
-| sol@c7b7f3d9 | 2022-09-13 |      | verify/rework SQL script |
+| sol@c7b7f3d9 | 2022-09-13 | X    | verify/rework SQL script; done: sol@f8e446e1 |
 | sol@2ef8d2e1 | 2022-09-12 |      | adapt to Sol; low prio (minor issue) |
 | sol@701361d8 | 2022-09-07 | X    | won't take over, update quest\_template\_addon instead; done: sol@cdc62c1a |
 | sol@045ade23 | 2022-09-07 | X    | verify/rework SQL script; done: sol@3335e950 |
-| sol@b601471d | 2022-09-06 |      | verify/rework SQL script |
+| sol@b601471d | 2022-09-06 | X    | verify/rework SQL script; done: sol@d6d8b675 |
 | sol@b96ad3a2 | 2022-09-06 |      | verify/rework SQL script; check the WP paths; low prio (Cosmetic) |
 | sol@d5ac35c4 | 2022-09-06 |      | verify/rework SQL script; low prio (RDF) |
-| sol@b1e83118 | 2022-09-06 |      | verify/rework SQL script |
+| sol@b1e83118 | 2022-09-06 | X    | verify/rework SQL script; won't take over, Sol is not affected by this issue |
 | sol@3f64c375 | 2022-09-06 |      | verify/rework SQL script; low prio (obsolete quests) |
 | sol@ede3c95f | 2022-09-06 |      | verify/rework SQL script; low prio (obsolete quests) |
 | sol@6ba468e1 | 2022-08-30 |      | verify/rework SQL script; low prio (obsolete quest encounter) |
@@ -27,7 +30,7 @@ TODOs: common, low prio: [dungeon](TODO_dungeon.md), [event](TODO_event.md), [pv
 | sol@986cb213 | 2022-08-15 | X    | verify/rework SQL script; done: sol@35637c63 |
 | sol@523d4fbb | 2022-08-15 |      | verify changes; low prio (World Boss) |
 | sol@accaec8f | 2022-08-14 | X    | verify/rework SQL script; done: sol@6ededfd5 |
-| sol@572a680c | 2022-08-02 |      | verify changes (also see sol@1c6eab58); low prio (Cosmetic) |
+| sol@572a680c | 2022-08-02 | X    | verify changes (also see sol@1c6eab58); low prio (Cosmetic); done: sol@af50fe15 |
 | sol@a4cd022c | 2022-08-01 | X    | verify/rework SQL script; done: sol@6991c29a |
 | sol@9f030e09 | 2022-08-01 | X    | won't take over; adjust movement/position (perhaps use WP paths); set Occulus large; add flag CREATURE\_FLAG\_EXTRA\_CIVILIAN for Tick, Occulus and Chronalis; done: sol@1a2b5c19 |
 | sol@7327a55b | 2022-08-01 | X    | not working, find another solution; done: sol@e0e9d8fe |
