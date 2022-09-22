@@ -2,6 +2,9 @@ TODOs: [common](TODO.md), low prio: dungeon, [event](TODO_event.md), [pvp](TODO_
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@337c308d | 2022-09-21 |      | verify changes (Temple of Ahn'Qiraj) |
+| sol@c79edad2 | 2022-09-21 |      | verify changes (Upper Blackrock Spire) |
+| sol@e3f9ad1e | 2022-09-21 |      | verify changes (Naxxramas) |
 | sol@f50c4bf3 | 2022-09-19 |      | verify changes (needs sol@76f976fd) (Blackwing Lair) |
 | sol@11cfcc84 | 2022-09-19 |      | verify changes (Temple of Ahn'Qiraj) |
 | sol@0f84e3ed | 2022-09-19 |      | verify changes (Lower Blackrock Spire) |
@@ -55,7 +58,7 @@ TODOs: [common](TODO.md), low prio: dungeon, [event](TODO_event.md), [pvp](TODO_
 | sol@f0e608ed | 2022-08-14 |      | verify/rework SQL script (Ruins of Ahn'Qiraj) |
 | sol@c0084988 | 2022-08-14 |      | verify/rework SQL script (Ruins of Ahn'Qiraj) |
 | sol@37e9fac5 | 2022-08-14 |      | verify changes (Temple of Ahn'Qiraj) |
-| sol@eb4f1338 | 2022-08-14 |      | verify changes (also see sol@99c0fa3f) (Temple of Ahn'Qiraj) |
+| sol@eb4f1338 | 2022-08-14 |      | verify changes (also see sol@99c0fa3f, sol@9819b2d7) (Temple of Ahn'Qiraj) |
 | sol@7174e5b1 | 2022-08-12 |      | verify changes (Ruins of Ahn'Qiraj) |
 | sol@fb785f6a | 2022-08-10 |      | verify changes (Temple of Ahn'Qiraj) |
 | sol@1455be34 | 2022-08-10 |      | verify changes (Temple of Ahn'Qiraj) |
@@ -104,7 +107,7 @@ TODOs: [common](TODO.md), low prio: dungeon, [event](TODO_event.md), [pvp](TODO_
 | sol@dc302524 | 2022-07-19 |      | verify/rework SQL script (also see sol@b535136b) (Zul'Gurub) |
 | sol@9aeb2363 | 2022-07-19 |      | verify changes (also see sol@b77fbf61) (Zul'Gurub) |
 | sol@afddf979 | 2022-07-12 |      | verify/rework SQL script (Zul'Gurub) |
-| sol@9c09857b | 2022-07-09 |      | verify changes (Zul'Gurub) |
+| sol@9c09857b | 2022-07-09 |      | verify changes (also see sol@4be7bbe6) (Zul'Gurub) |
 | sol@5786efe8 | 2022-07-09 |      | verify/rework SQL script (Zul'Gurub) |
 | sol@dfe28a75 | 2022-07-09 |      | verify changes (Zul'Gurub) |
 | sol@4753cbfa | 2022-07-09 |      | verify/rework SQL script (Zul'Gurub) |
