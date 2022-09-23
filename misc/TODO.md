@@ -2,17 +2,18 @@ TODOs: common, low prio: [dungeon](TODO_dungeon.md), [event](TODO_event.md), [pv
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@01ff8398 | 2022-09-22 |      | keep as reference; take over single values if needed; won't blindly take over such mass updates (don't care about sniffs) |
 | sol@043aa7cb | 2022-09-22 |      | verify creature IDs (use "creature\_id\_chance"); low prio (Cosmetic) |
 | sol@9844580c | 2022-09-21 |      | keep as reference; take over single values if needed; won't blindly take over such mass updates (don't care about sniffs) |
 | sol@e87e56a0 | 2022-09-21 |      | keep as reference; take over single values if needed; won't blindly take over such mass updates (don't care about sniffs) |
 | sol@e273d6f4 | 2022-09-21 |      | verify changes |
 | sol@f75aceb9 | 2022-09-21 |      | verify changes & issue; low prio (minor issue) |
-| sol@6a357da2 | 2022-09-21 |      | adapt to Sol; change the name of the config option (DK is a hero class, not a heroic class); change the behaviour if "StartPlayerMoney" is also set |
+| sol@6a357da2 | 2022-09-21 | X    | adapt to Sol; change the name of the config option (DK is a hero class, not a heroic class); change the behaviour if "StartPlayerMoney" is also set; done: sol@c48146a2 |
 | sol@4adabdb0 | 2022-09-19 |      | verify/rework SQL script |
-| sol@90e9ed40 | 2022-09-19 |      | verify/rework SQL script |
+| sol@90e9ed40 | 2022-09-19 | X    | verify/rework SQL script; done: sol@b6911471 |
 | sol@1ddd884d | 2022-09-17 | X    | verify changes; probably just take over the values into the DB; done: sol@490708f5 |
 | sol@9bb6c63d | 2022-09-15 |      | verify/rework SQL script |
-| sol@2032cb69 | 2022-09-14 |      | verify/rework SQL script; low prio (obsolete quests) |
+| sol@2032cb69 | 2022-09-14 |      | verify/rework SQL script (also see sol@8fc055e4); low prio (obsolete quests) |
 | sol@cd337dbe | 2022-09-13 | X    | does not seem to work correctly, find another solution (probably just a missing spell\_proc\_event entry); done: sol@d73421a9 |
 | sol@da4ee153 | 2022-09-13 |      | verify/rework SQL script |
 | sol@c7b7f3d9 | 2022-09-13 | X    | verify/rework SQL script; done: sol@f8e446e1 |

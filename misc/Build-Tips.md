@@ -130,14 +130,14 @@ New releases: https://github.com/DOCGroup/ACE_TAO/releases
 
 ### Clone repositories:
 ```
-git clone https://gitlab.com/opfesoft/sol.git                 ~/sol
-git clone https://gitlab.com/opfesoft/mod-ah-bot.git          ~/sol/modules/mod-ah-bot
-git clone https://gitlab.com/opfesoft/mod-autobalance.git     ~/sol/modules/mod-autobalance
-git clone https://gitlab.com/opfesoft/mod-morphsummon.git     ~/sol/modules/mod-morphsummon
-git clone https://gitlab.com/opfesoft/mod-npc-beastmaster.git ~/sol/modules/mod-npc-beastmaster
-git clone https://gitlab.com/opfesoft/mod-stoabrogga.git      ~/sol/modules/mod-stoabrogga
-git clone https://gitlab.com/opfesoft/mod-transmog.git        ~/sol/modules/mod-transmog
-git clone https://gitlab.com/opfesoft/mod-weapon-visual.git   ~/sol/modules/mod-weapon-visual
+git clone --depth 1 --branch master https://gitlab.com/opfesoft/sol.git/                 ~/sol
+git clone --depth 1 --branch master https://gitlab.com/opfesoft/mod-ah-bot.git/          ~/sol/modules/mod-ah-bot
+git clone --depth 1 --branch master https://gitlab.com/opfesoft/mod-autobalance.git/     ~/sol/modules/mod-autobalance
+git clone --depth 1 --branch master https://gitlab.com/opfesoft/mod-morphsummon.git/     ~/sol/modules/mod-morphsummon
+git clone --depth 1 --branch master https://gitlab.com/opfesoft/mod-npc-beastmaster.git/ ~/sol/modules/mod-npc-beastmaster
+git clone --depth 1 --branch master https://gitlab.com/opfesoft/mod-stoabrogga.git/      ~/sol/modules/mod-stoabrogga
+git clone --depth 1 --branch master https://gitlab.com/opfesoft/mod-transmog.git/        ~/sol/modules/mod-transmog
+git clone --depth 1 --branch master https://gitlab.com/opfesoft/mod-weapon-visual.git/   ~/sol/modules/mod-weapon-visual
 ```
 
 ### Build and install server components:
