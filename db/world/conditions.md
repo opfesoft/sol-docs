@@ -796,7 +796,7 @@ Player level (1-80 in 3.3.5)</td>
 <td>30</td>
 <td>Gameobject entry from <a href="gameobject_template.md#entry">gameobject_template.entry</a></td>
 <td>Distance in yards</td>
-<td>Always 0</td>
+<td>spawnedOnly (0/1)</td>
 </tr>
 <tr>
 <td><br />
