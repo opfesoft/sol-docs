@@ -2,6 +2,11 @@ TODOs: [common](TODO.md), low prio: [dungeon](TODO_dungeon.md), event, [pvp](TOD
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@24c60ec3 | 2022-09-26 |      | verify changes (Brewfest) |
+| sol@ddcf0e79 | 2022-09-25 |      | verify changes (Brewfest) |
+| sol@654ab0cc | 2022-09-25 |      | verify/rework SQL script (Brewfest) |
+| sol@daf064c4 | 2022-09-25 |      | verify/rework SQL script (Brewfest) |
+| sol@14f0eb1b | 2022-09-24 |      | verify changes (Brewfest) |
 | sol@0ae93c1c | 2022-09-07 |      | verify changes (Feast of Winter Veil) |
 | sol@e1e4c6cd | 2022-07-02 |      | verify changes (Midsummer Fire Festival) |
 | sol@7df342b4 | 2022-07-01 |      | verify changes (Midsummer Fire Festival) |

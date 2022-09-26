@@ -2,6 +2,7 @@ TODOs: common, low prio: [dungeon](TODO_dungeon.md), [event](TODO_event.md), [pv
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@91daa6cb | 2022-09-25 |      | won't take over, does not work correctly; find another solution |
 | sol@01ff8398 | 2022-09-22 |      | keep as reference; take over single values if needed; won't blindly take over such mass updates (don't care about sniffs) |
 | sol@043aa7cb | 2022-09-22 |      | verify creature IDs (use "creature\_id\_chance"); low prio (Cosmetic) |
 | sol@9844580c | 2022-09-21 |      | keep as reference; take over single values if needed; won't blindly take over such mass updates (don't care about sniffs) |
@@ -13,9 +14,9 @@ TODOs: common, low prio: [dungeon](TODO_dungeon.md), [event](TODO_event.md), [pv
 | sol@90e9ed40 | 2022-09-19 | X    | verify/rework SQL script; done: sol@b6911471 |
 | sol@1ddd884d | 2022-09-17 | X    | verify changes; probably just take over the values into the DB; done: sol@490708f5 |
 | sol@9bb6c63d | 2022-09-15 |      | verify/rework SQL script |
-| sol@2032cb69 | 2022-09-14 |      | verify/rework SQL script (also see sol@8fc055e4); low prio (obsolete quests) |
+| sol@2032cb69 | 2022-09-14 |      | verify/rework SQL script (also see sol@8fc055e4, sol@2e92d1e9); low prio (obsolete quests) |
 | sol@cd337dbe | 2022-09-13 | X    | does not seem to work correctly, find another solution (probably just a missing spell\_proc\_event entry); done: sol@d73421a9 |
-| sol@da4ee153 | 2022-09-13 |      | verify/rework SQL script |
+| sol@da4ee153 | 2022-09-13 | X    | verify/rework SQL script; done: sol@6bd1fcb7 |
 | sol@c7b7f3d9 | 2022-09-13 | X    | verify/rework SQL script; done: sol@f8e446e1 |
 | sol@2ef8d2e1 | 2022-09-12 |      | adapt to Sol; low prio (minor issue) |
 | sol@701361d8 | 2022-09-07 | X    | won't take over, update quest\_template\_addon instead; done: sol@cdc62c1a |
@@ -301,7 +302,7 @@ TODOs: common, low prio: [dungeon](TODO_dungeon.md), [event](TODO_event.md), [pv
 | sol@5ed82f8e | 2021-12-17 |      | verify/rework SQL script (also see sol@585f3f24); won't take over the updated spawn points, just check the WP paths; use SAI instead of CreatureScript; low prio (Cosmetic) |
 | sol@955b7928 | 2021-12-17 |      | verify/rework SQL script (also see sol@585f3f24); won't take over the updated spawn points, just check the WP paths; low prio (Cosmetic) |
 | sol@63004048 | 2021-12-17 | X    | verify/rework SQL script (also see sol@585f3f24); compare with TC; SAI looks awkward, rework; also rework SAI for Darnassian Huntress; done: sol@44d19360 |
-| sol@4a2b5f32 | 2021-12-17 |      | verify/rework SQL script; compare with TC, perhaps just check the WP paths; low prio (Cosmetic) |
+| sol@4a2b5f32 | 2021-12-17 | X    | verify/rework SQL script; compare with TC, perhaps just check the WP paths; low prio (Cosmetic); done: sol@e7fef948 |
 | sol@55f60135 | 2021-12-17 | X    | verify/rework SQL script; done: sol@293e61f3 |
 | sol@0dd59e66 | 2021-12-17 |      | take over if needed |
 | sol@866a6303 | 2021-12-17 | X    | verify spell IDs; add spell 62528 to the delete statement; adapt to Sol; update: won't take over, the spells are already scripted |
