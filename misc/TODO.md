@@ -2,7 +2,7 @@ TODOs: common, low prio: [dungeon](TODO_dungeon.md), [event](TODO_event.md), [pv
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
-| sol@91daa6cb | 2022-09-25 |      | won't take over, does not work correctly; find another solution |
+| sol@91daa6cb | 2022-09-25 | X    | won't take over, does not work correctly; find another solution; done: sol@e2fa9f3b |
 | sol@01ff8398 | 2022-09-22 |      | keep as reference; take over single values if needed; won't blindly take over such mass updates (don't care about sniffs) |
 | sol@043aa7cb | 2022-09-22 |      | verify creature IDs (use "creature\_id\_chance"); low prio (Cosmetic) |
 | sol@9844580c | 2022-09-21 |      | keep as reference; take over single values if needed; won't blindly take over such mass updates (don't care about sniffs) |
@@ -10,7 +10,7 @@ TODOs: common, low prio: [dungeon](TODO_dungeon.md), [event](TODO_event.md), [pv
 | sol@e273d6f4 | 2022-09-21 | X    | verify changes; done: sol@fc01410f |
 | sol@f75aceb9 | 2022-09-21 |      | verify changes & issue; low prio (minor issue) |
 | sol@6a357da2 | 2022-09-21 | X    | adapt to Sol; change the name of the config option (DK is a hero class, not a heroic class); change the behaviour if "StartPlayerMoney" is also set; done: sol@c48146a2 |
-| sol@4adabdb0 | 2022-09-19 |      | verify/rework SQL script |
+| sol@4adabdb0 | 2022-09-19 | X    | verify/rework SQL script; done: sol@c1bba7c7 |
 | sol@90e9ed40 | 2022-09-19 | X    | verify/rework SQL script; done: sol@b6911471 |
 | sol@1ddd884d | 2022-09-17 | X    | verify changes; probably just take over the values into the DB; done: sol@490708f5 |
 | sol@9bb6c63d | 2022-09-15 |      | verify/rework SQL script |
