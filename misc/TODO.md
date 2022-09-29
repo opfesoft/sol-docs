@@ -2,6 +2,7 @@ TODOs: common, low prio: [dungeon](TODO_dungeon.md), [event](TODO_event.md), [pv
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@81d20888 | 2022-09-28 |      | verify/rework SQL script; low prio (obsolete quests) |
 | sol@91daa6cb | 2022-09-25 | X    | won't take over, does not work correctly; find another solution; done: sol@e2fa9f3b |
 | sol@01ff8398 | 2022-09-22 |      | keep as reference; take over single values if needed; won't blindly take over such mass updates (don't care about sniffs) |
 | sol@043aa7cb | 2022-09-22 |      | verify creature IDs (use "creature\_id\_chance"); low prio (Cosmetic) |
@@ -300,7 +301,7 @@ TODOs: common, low prio: [dungeon](TODO_dungeon.md), [event](TODO_event.md), [pv
 | sol@074ace8f | 2021-12-19 | X    | verify/rework SQL script; compare with TC; done: sol@365e998d |
 | sol@6d999eb8 | 2021-12-18 | X    | verify/rework SQL script (also see sol@659f0d93); done: sol@df4395d1 |
 | sol@5ed82f8e | 2021-12-17 |      | verify/rework SQL script (also see sol@585f3f24); won't take over the updated spawn points, just check the WP paths; use SAI instead of CreatureScript; low prio (Cosmetic) |
-| sol@955b7928 | 2021-12-17 |      | verify/rework SQL script (also see sol@585f3f24); won't take over the updated spawn points, just check the WP paths; low prio (Cosmetic) |
+| sol@955b7928 | 2021-12-17 | X    | verify/rework SQL script (also see sol@585f3f24); won't take over the updated spawn points, just check the WP paths; low prio (Cosmetic); done: sol@09fca973 |
 | sol@63004048 | 2021-12-17 | X    | verify/rework SQL script (also see sol@585f3f24); compare with TC; SAI looks awkward, rework; also rework SAI for Darnassian Huntress; done: sol@44d19360 |
 | sol@4a2b5f32 | 2021-12-17 | X    | verify/rework SQL script; compare with TC, perhaps just check the WP paths; low prio (Cosmetic); done: sol@e7fef948 |
 | sol@55f60135 | 2021-12-17 | X    | verify/rework SQL script; done: sol@293e61f3 |
