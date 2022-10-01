@@ -181,7 +181,7 @@ TODOs: [common](TODO.md), low prio: dungeon, [event](TODO_event.md), [pvp](TODO_
 | sol@7b01b27b | 2022-05-08 |      | verify changes (Ulduar) |
 | sol@8f485cb5 | 2022-05-08 |      | verify changes (Ulduar) |
 | sol@4df92b55 | 2022-05-08 |      | verify changes (Ulduar) |
-| sol@6ca5938d | 2022-05-03 |      | verify changes (also see sol@f0c881f0) (Temple of Ahn'Qiraj) |
+| sol@6ca5938d | 2022-05-03 |      | verify changes (also see sol@f0c881f0, sol@fc9bf266) (Temple of Ahn'Qiraj) |
 | sol@c38b6762 | 2022-05-08 |      | verify changes (Molten Core) |
 | sol@ac8a6b43 | 2022-05-07 |      | verify changes (Utgarde Pinnacle) |
 | sol@56955f79 | 2022-05-06 |      | verify changes (Ulduar) |

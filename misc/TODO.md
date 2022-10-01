@@ -23,7 +23,7 @@ TODOs: common, low prio: [dungeon](TODO_dungeon.md), [event](TODO_event.md), [pv
 | sol@701361d8 | 2022-09-07 | X    | won't take over, update quest\_template\_addon instead; done: sol@cdc62c1a |
 | sol@045ade23 | 2022-09-07 | X    | verify/rework SQL script; done: sol@3335e950 |
 | sol@b601471d | 2022-09-06 | X    | verify/rework SQL script; done: sol@d6d8b675 |
-| sol@b96ad3a2 | 2022-09-06 |      | verify/rework SQL script; check the WP paths; low prio (Cosmetic) |
+| sol@b96ad3a2 | 2022-09-06 | X    | verify/rework SQL script; check the WP paths; low prio (Cosmetic); done: sol@11b6ddce |
 | sol@d5ac35c4 | 2022-09-06 |      | verify/rework SQL script; low prio (RDF) |
 | sol@b1e83118 | 2022-09-06 | X    | verify/rework SQL script; won't take over, Sol is not affected by this issue |
 | sol@3f64c375 | 2022-09-06 |      | verify/rework SQL script; low prio (obsolete quests) |
