@@ -50,7 +50,7 @@ TODOs: [common](TODO.md), low prio: dungeon, [event](TODO_event.md), [pvp](TODO_
 | sol@7ec6a9d5 | 2022-08-23 |      | verify/rework SQL script (Ruins of Ahn'Qiraj) |
 | sol@dabd75f9 | 2022-08-23 |      | verify changes (Temple of Ahn'Qiraj) |
 | sol@43f3d3a5 | 2022-08-23 |      | verify/rework SQL script (Temple of Ahn'Qiraj) |
-| sol@9d16705d | 2022-08-21 |      | verify changes (also see sol@e01ec753) (Temple of Ahn'Qiraj) |
+| sol@9d16705d | 2022-08-21 |      | verify changes (also see sol@e01ec753, sol@00eea376) (Temple of Ahn'Qiraj) |
 | sol@80565d81 | 2022-08-21 |      | verify/rework SQL script (Temple of Ahn'Qiraj) |
 | sol@759cb4e9 | 2022-08-21 |      | verify changes (also see sol@b1f53e19) (Temple of Ahn'Qiraj) |
 | sol@24f538a6 | 2022-08-21 |      | verify changes (Temple of Ahn'Qiraj) |

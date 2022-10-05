@@ -3,7 +3,7 @@ TODOs: common, low prio: [dungeon](TODO_dungeon.md), [event](TODO_event.md), [pv
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
 | sol@10c5cc1b | 2022-10-01 |      | verify/rework SQL script |
-| sol@fa002503 | 2022-10-01 |      | verify changes |
+| sol@fa002503 | 2022-10-01 | X    | verify changes; done: sol@fc0c6f54 |
 | sol@81d20888 | 2022-09-28 |      | verify/rework SQL script; low prio (obsolete quests) |
 | sol@91daa6cb | 2022-09-25 | X    | won't take over, does not work correctly; find another solution; done: sol@e2fa9f3b |
 | sol@01ff8398 | 2022-09-22 |      | keep as reference; take over single values if needed; won't blindly take over such mass updates (don't care about sniffs) |
