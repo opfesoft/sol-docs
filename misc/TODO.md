@@ -2,7 +2,8 @@ TODOs: common, low prio: [dungeon](TODO_dungeon.md), [event](TODO_event.md), [pv
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
-| sol@10c5cc1b | 2022-10-01 |      | verify/rework SQL script |
+| sol@c34cb0c5 | 2022-10-06 |      | verify/rework SQL script |
+| sol@10c5cc1b | 2022-10-01 | X    | verify/rework SQL script; won't take over: item 20797 already has 100% drop chance, won't reduce the chance for item 20482 |
 | sol@fa002503 | 2022-10-01 | X    | verify changes; done: sol@fc0c6f54 |
 | sol@81d20888 | 2022-09-28 |      | verify/rework SQL script; low prio (obsolete quests) |
 | sol@91daa6cb | 2022-09-25 | X    | won't take over, does not work correctly; find another solution; done: sol@e2fa9f3b |
@@ -16,7 +17,7 @@ TODOs: common, low prio: [dungeon](TODO_dungeon.md), [event](TODO_event.md), [pv
 | sol@4adabdb0 | 2022-09-19 | X    | verify/rework SQL script; done: sol@c1bba7c7 |
 | sol@90e9ed40 | 2022-09-19 | X    | verify/rework SQL script; done: sol@b6911471 |
 | sol@1ddd884d | 2022-09-17 | X    | verify changes; probably just take over the values into the DB; done: sol@490708f5 |
-| sol@9bb6c63d | 2022-09-15 |      | verify/rework SQL script |
+| sol@9bb6c63d | 2022-09-15 | X    | verify/rework SQL script; done: sol@1d74ee72 |
 | sol@2032cb69 | 2022-09-14 |      | verify/rework SQL script (also see sol@8fc055e4, sol@2e92d1e9); low prio (obsolete quests) |
 | sol@cd337dbe | 2022-09-13 | X    | does not seem to work correctly, find another solution (probably just a missing spell\_proc\_event entry); done: sol@d73421a9 |
 | sol@da4ee153 | 2022-09-13 | X    | verify/rework SQL script; done: sol@6bd1fcb7 |

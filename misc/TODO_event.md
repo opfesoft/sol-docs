@@ -2,6 +2,7 @@ TODOs: [common](TODO.md), low prio: [dungeon](TODO_dungeon.md), event, [pvp](TOD
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@78a383f4 | 2022-10-06 |      | verify changes (Brewfest) |
 | sol@b9770685 | 2022-10-01 |      | verify changes (Brewfest) |
 | sol@24c60ec3 | 2022-09-26 |      | verify changes (Brewfest) |
 | sol@ddcf0e79 | 2022-09-25 |      | verify changes (Brewfest) |
