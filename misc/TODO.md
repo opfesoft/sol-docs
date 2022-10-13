@@ -2,6 +2,12 @@ TODOs: common, low prio: [dungeon](TODO_dungeon.md), [event](TODO_event.md), [pv
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@2e6f6e26 | 2022-10-12 |      | verify changes; adapt to Sol |
+| sol@171d5d4b | 2022-10-11 |      | verify/rework SQL script; check the auras and only take over valid updates |
+| sol@077fbaee | 2022-10-11 |      | verify/rework SQL script |
+| sol@e390087e | 2022-10-08 |      | verify changes; take over if needed |
+| sol@a4ddc22a | 2022-10-07 |      | adapt to Sol (use "creature\_id\_chance"); low prio (Cosmetic) |
+| sol@e30f0ada | 2022-10-07 |      | verify/rework SQL script; use another pool template entry; low prio (Cosmetic) |
 | sol@c34cb0c5 | 2022-10-06 |      | verify/rework SQL script |
 | sol@10c5cc1b | 2022-10-01 | X    | verify/rework SQL script; won't take over: item 20797 already has 100% drop chance, won't reduce the chance for item 20482 |
 | sol@fa002503 | 2022-10-01 | X    | verify changes; done: sol@fc0c6f54 |
@@ -626,7 +632,7 @@ TODOs: common, low prio: [dungeon](TODO_dungeon.md), [event](TODO_event.md), [pv
 | sol@b5d9b3d5 | 2021-07-12 | X    | verify issue/changes; rework SQL script; update: won't take over, the quest seems to work fine; just increase the effect radius for Plague Strike to 8 yards: sol@55a28f19 |
 | sol@2e8a7498 | 2021-07-10 | X    | verify/rework SQL script; implemented another solution, see sol@e4e792a7 & sol@83e97509 |
 | sol@a61f7a12 | 2021-07-09 |      | take over if needed |
-| sol@f8c8e98a | 2021-07-08 |      | take over if needed |
+| sol@f8c8e98a | 2021-07-08 |      | use creature addon instead of creature template; adjust only aggro radius, won't change any other calculations; keep 20y as default |
 | sol@c7d5080b | 2021-07-08 | X    | take over from TC instead; done: sol@7287e321 |
 | sol@6644c651 | 2021-07-08 | X    | verify/rework SQL script; implemented another solution: sol@382f5c58 |
 | sol@b66314b6 | 2021-07-07 | X    | verify/rework SQL script; done: sol@fe86c0cb; note: don't spawn multiple Noxxious Scions because the quest would then become too easy and it also does not match the quest description |
