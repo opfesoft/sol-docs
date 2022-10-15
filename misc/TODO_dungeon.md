@@ -2,6 +2,7 @@ TODOs: [common](TODO.md), low prio: dungeon, [event](TODO_event.md), [pvp](TODO_
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@b4419512 | 2022-10-14 |      | verify changes (Icecrown Citadel) |
 | sol@d60842a1 | 2022-10-11 |      | won't take over, use creature\_guid\_chance instead |
 | sol@a11417d3 | 2022-10-11 |      | verify/rework SQL script (Temple of Ahn'Qiraj) |
 | sol@349bc72f | 2022-10-11 |      | verify/rework SQL script (Temple of Ahn'Qiraj) |
@@ -18,7 +19,7 @@ TODOs: [common](TODO.md), low prio: dungeon, [event](TODO_event.md), [pvp](TODO_
 | sol@f50c4bf3 | 2022-09-19 |      | verify changes (needs sol@76f976fd) (Blackwing Lair) |
 | sol@11cfcc84 | 2022-09-19 |      | verify changes (Temple of Ahn'Qiraj) |
 | sol@0f84e3ed | 2022-09-19 |      | verify changes (Lower Blackrock Spire) |
-| sol@23c3b184 | 2022-09-19 |      | verify changes (Temple of Ahn'Qiraj) |
+| sol@23c3b184 | 2022-09-19 |      | verify changes (also see sol@b3e20ea7) (Temple of Ahn'Qiraj) |
 | sol@2682697d | 2022-09-17 |      | verify changes (also see sol@26017b64, sol@811ef478, sol@f5c7883d, sol@436d7afd) (Temple of Ahn'Qiraj) |
 | sol@216d569e | 2022-09-14 |      | verify changes (Temple of Ahn'Qiraj) |
 | sol@59f74753 | 2022-09-14 |      | verify changes (Temple of Ahn'Qiraj) |
@@ -55,7 +56,7 @@ TODOs: [common](TODO.md), low prio: dungeon, [event](TODO_event.md), [pvp](TODO_
 | sol@7ec6a9d5 | 2022-08-23 |      | verify/rework SQL script (Ruins of Ahn'Qiraj) |
 | sol@dabd75f9 | 2022-08-23 |      | verify changes (Temple of Ahn'Qiraj) |
 | sol@43f3d3a5 | 2022-08-23 |      | verify/rework SQL script (Temple of Ahn'Qiraj) |
-| sol@9d16705d | 2022-08-21 |      | verify changes (also see sol@e01ec753, sol@00eea376) (Temple of Ahn'Qiraj) |
+| sol@9d16705d | 2022-08-21 |      | verify changes (also see sol@e01ec753, sol@00eea376, sol@2bc6a814) (Temple of Ahn'Qiraj) |
 | sol@80565d81 | 2022-08-21 |      | verify/rework SQL script (Temple of Ahn'Qiraj) |
 | sol@759cb4e9 | 2022-08-21 |      | verify changes (also see sol@b1f53e19) (Temple of Ahn'Qiraj) |
 | sol@24f538a6 | 2022-08-21 |      | verify changes (Temple of Ahn'Qiraj) |
@@ -67,10 +68,10 @@ TODOs: [common](TODO.md), low prio: dungeon, [event](TODO_event.md), [pvp](TODO_
 | sol@415ceefa | 2022-08-14 |      | verify changes (Ruins of Ahn'Qiraj) |
 | sol@f0e608ed | 2022-08-14 |      | verify/rework SQL script (Ruins of Ahn'Qiraj) |
 | sol@c0084988 | 2022-08-14 |      | verify/rework SQL script (Ruins of Ahn'Qiraj) |
-| sol@37e9fac5 | 2022-08-14 |      | verify changes (also see sol@4e3207db) (Temple of Ahn'Qiraj) |
+| sol@37e9fac5 | 2022-08-14 |      | verify changes (also see sol@4e3207db, sol@108ebeae) (Temple of Ahn'Qiraj) |
 | sol@eb4f1338 | 2022-08-14 |      | verify changes (also see sol@99c0fa3f, sol@9819b2d7, sol@b5b8960b, sol@6fbfbc5f, sol@29ea8a2e) (Temple of Ahn'Qiraj) |
 | sol@7174e5b1 | 2022-08-12 |      | verify changes (Ruins of Ahn'Qiraj) |
-| sol@fb785f6a | 2022-08-10 |      | verify changes (also see sol@c4ec30ae) (Temple of Ahn'Qiraj) |
+| sol@fb785f6a | 2022-08-10 |      | verify changes (also see sol@c4ec30ae, sol@96ff7599) (Temple of Ahn'Qiraj) |
 | sol@1455be34 | 2022-08-10 |      | verify changes (Temple of Ahn'Qiraj) |
 | sol@f0afe611 | 2022-08-10 |      | verify changes (Temple of Ahn'Qiraj) |
 | sol@4165dc41 | 2022-08-08 |      | verify changes (Ruins of Ahn'Qiraj) |
@@ -318,7 +319,7 @@ TODOs: [common](TODO.md), low prio: dungeon, [event](TODO_event.md), [pvp](TODO_
 | sol@7df43c36 | 2021-12-03 |      | verify changes, rework SAI instead (also see sol@9265d346) (Lower Blackrock Spire) |
 | sol@4c010968 | 2021-12-02 |      | verify changes (Upper Blackrock Spire) |
 | sol@d6e8697e | 2021-12-02 |      | verify changes (Blackfathom Deeps) |
-| sol@456b1a08 | 2021-11-29 |      | verify changes; also fix Ouro (the creature script is not working correctly, see sol@cb887bbc, sol@63acc112, sol@9983c5a6) (Temple of Ahn'Qiraj) |
+| sol@456b1a08 | 2021-11-29 |      | verify changes; also fix Ouro (the creature script is not working correctly, see sol@cb887bbc, sol@63acc112, sol@9983c5a6, sol@2c426829) (Temple of Ahn'Qiraj) |
 | sol@d6679060 | 2021-11-28 | X    | won't take over, rework SAI instead (see TC version of both Urok Ogre Magus & Urok Enforcer); use SMART\_EVENT\_RANGE for Arcane Bolt (Lower Blackrock Spire); done: sol@f18da4bd |
 | sol@06a81758 | 2021-11-26 |      | verify changes (Molten Core) |
 | sol@f0776954 | 2021-11-26 |      | verify changes (Molten Core) |

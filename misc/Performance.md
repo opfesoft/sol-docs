@@ -11,13 +11,24 @@ It is recommended to use at least 16 GB as the server will gradually cache the w
 
 ## Waypoint movement and performance
 
-### Low RAM
+### Low RAM / Very Low CPU
+
+Set the worldserver parameter "SetAllCreaturesWithWaypointMovementActive" to 0. Creatures with waypoint movement will only move if players are near.
+
+### Low RAM / Low CPU
 
 Default behaviour without further configuration:
 
-- Creatures only follow their waypoint path if they are in reach of a player.
-- Some special creatures (e.g. the Fel Reavers in Hellfire Peninsula) start their waypoint movement when they are loaded (this happens when the grid is activated by a player); they then continue on their path perpetually until the server is restarted.
+Creatures follow their waypoint path if they are near a player. They will also move at random time intervals (approximately every 5 minutes) for 5s if no player is near (see worldserver parameters "SetAllCreaturesWithWaypointMovementActive" and "WaypointMovementActiveTimer"). This means that they will move around very slowly.
 
-### High RAM (recommended setting)
+### Low RAM / Medium CPU
 
-Set the worldserver parameter "PreloadAllNonInstancedMapGrids" to 1. Sol added SAI scripts to set the most important creatures active (e.g. several rare mobs, specific city guards or the giant wandering creatures like the Fel Reavers). SAI is executed after the grid is loaded, so using this setting causes all those creatures to start their movement on server startup. This setting provides a good player experience.
+Decrease the worldserver parameter "SetAllCreaturesWithWaypointMovementActive" below 1000. Creatures with waypoint movement will now move more often which causes more CPU usage.
+
+### High RAM / Medium CPU (recommended setting)
+
+Set the worldserver parameter "PreloadAllNonInstancedMapGrids" to 1 and "SetAllCreaturesWithWaypointMovementActive" to 300. This will load all grids for all non-instanced maps and move creatures with waypoint movement approximately every 30s. This setting provides a good player experience.
+
+### High RAM / High CPU
+
+Set the worldserver parameters "PreloadAllNonInstancedMapGrids" to 1 and "SetAllCreaturesWithWaypointMovementActive" to 1. This will load all grids for all non-instanced maps and the creatures will move around constantly.
