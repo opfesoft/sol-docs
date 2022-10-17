@@ -1,7 +1,8 @@
-TODOs: [common](TODO.md), low prio: dungeon, [event](TODO_event.md), [pvp](TODO_pvp.md), [localization](TODO_localization.md)
+TODOs: [common](TODO.md), low prio: dungeon, [event](TODO_event.md), [pvp](TODO_pvp.md), [localization](TODO_localization.md), [pooling](TODO_pooling.md)
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@2af95abc | 2022-10-17 |      | verify changes (Temple of Ahn'Qiraj) |
 | sol@b4419512 | 2022-10-14 |      | verify changes (Icecrown Citadel) |
 | sol@d60842a1 | 2022-10-11 |      | won't take over, use creature\_guid\_chance instead |
 | sol@a11417d3 | 2022-10-11 |      | verify/rework SQL script (Temple of Ahn'Qiraj) |
@@ -10,7 +11,7 @@ TODOs: [common](TODO.md), low prio: dungeon, [event](TODO_event.md), [pvp](TODO_
 | sol@20515ec1 | 2022-10-07 |      | verify/rework SQL script (Temple of Ahn'Qiraj) |
 | sol@3b541f28 | 2022-10-01 |      | verify changes (needs sol@54ebdfcf) (Temple of Ahn'Qiraj) |
 | sol@5525f214 | 2022-09-28 |      | verify changes (Temple of Ahn'Qiraj) |
-| sol@48e80af4 | 2022-09-28 |      | verify/rework SQL script (Temple of Ahn'Qiraj) |
+| sol@48e80af4 | 2022-09-28 |      | verify/rework SQL script (also see sol@0c848d83) (Temple of Ahn'Qiraj) |
 | sol@7765d64a | 2022-09-28 |      | verify/rework SQL script (Blackwing Lair) |
 | sol@dd4fa389 | 2022-09-25 |      | verify changes (Molten Core) |
 | sol@337c308d | 2022-09-21 |      | verify changes (Temple of Ahn'Qiraj) |
@@ -20,17 +21,17 @@ TODOs: [common](TODO.md), low prio: dungeon, [event](TODO_event.md), [pvp](TODO_
 | sol@11cfcc84 | 2022-09-19 |      | verify changes (Temple of Ahn'Qiraj) |
 | sol@0f84e3ed | 2022-09-19 |      | verify changes (Lower Blackrock Spire) |
 | sol@23c3b184 | 2022-09-19 |      | verify changes (also see sol@b3e20ea7) (Temple of Ahn'Qiraj) |
-| sol@2682697d | 2022-09-17 |      | verify changes (also see sol@26017b64, sol@811ef478, sol@f5c7883d, sol@436d7afd) (Temple of Ahn'Qiraj) |
+| sol@2682697d | 2022-09-17 |      | verify changes (also see sol@26017b64, sol@811ef478, sol@f5c7883d, sol@436d7afd, sol@6263a0a8, sol@33cba08f, sol@572a4325) (Temple of Ahn'Qiraj) |
 | sol@216d569e | 2022-09-14 |      | verify changes (Temple of Ahn'Qiraj) |
 | sol@59f74753 | 2022-09-14 |      | verify changes (Temple of Ahn'Qiraj) |
 | sol@a1f44f98 | 2022-09-14 |      | verify changes (Temple of Ahn'Qiraj) |
-| sol@c0c4ef39 | 2022-09-14 |      | verify changes (also see sol@7d6bcf1b) (Temple of Ahn'Qiraj) |
+| sol@c0c4ef39 | 2022-09-14 |      | verify changes (also see sol@7d6bcf1b, sol@8d26ce6b) (Temple of Ahn'Qiraj) |
 | sol@77295cd7 | 2022-09-13 |      | verify/rework SQL script (Stratholme) |
 | sol@331fab95 | 2022-09-08 |      | verify/rework SQL script (Ruins of Ahn'Qiraj) |
 | sol@ebe4d0a1 | 2022-09-08 |      | verify/rework SQL script (Ruins of Ahn'Qiraj) |
 | sol@87bc6670 | 2022-09-08 |      | verify/rework SQL script (Ruins/Temple of Ahn'Qiraj) |
 | sol@e13dfb8d | 2022-09-07 |      | verify/rework SQL script (also see sol@6a4dbb74) (Temple of Ahn'Qiraj) |
-| sol@fa825ec4 | 2022-09-07 |      | verify changes (also see sol@4e69f8e1, sol@0cb13b12) (Temple of Ahn'Qiraj) |
+| sol@fa825ec4 | 2022-09-07 |      | verify changes (also see sol@4e69f8e1, sol@0cb13b12, sol@018a825e) (Temple of Ahn'Qiraj) |
 | sol@980a328c | 2022-09-07 |      | verify/rework SQL script (Temple of Ahn'Qiraj) |
 | sol@dc33e8d9 | 2022-09-06 |      | verify/rework SQL script (Temple of Ahn'Qiraj) |
 | sol@3953aeda | 2022-09-06 |      | verify/rework SQL script (Ruins/Temple of Ahn'Qiraj) |
@@ -68,8 +69,8 @@ TODOs: [common](TODO.md), low prio: dungeon, [event](TODO_event.md), [pvp](TODO_
 | sol@415ceefa | 2022-08-14 |      | verify changes (Ruins of Ahn'Qiraj) |
 | sol@f0e608ed | 2022-08-14 |      | verify/rework SQL script (Ruins of Ahn'Qiraj) |
 | sol@c0084988 | 2022-08-14 |      | verify/rework SQL script (Ruins of Ahn'Qiraj) |
-| sol@37e9fac5 | 2022-08-14 |      | verify changes (also see sol@4e3207db, sol@108ebeae) (Temple of Ahn'Qiraj) |
-| sol@eb4f1338 | 2022-08-14 |      | verify changes (also see sol@99c0fa3f, sol@9819b2d7, sol@b5b8960b, sol@6fbfbc5f, sol@29ea8a2e) (Temple of Ahn'Qiraj) |
+| sol@37e9fac5 | 2022-08-14 |      | verify changes (also see sol@4e3207db, sol@108ebeae, sol@a949f812) (Temple of Ahn'Qiraj) |
+| sol@eb4f1338 | 2022-08-14 |      | verify changes (also see sol@99c0fa3f, sol@9819b2d7, sol@b5b8960b, sol@6fbfbc5f, sol@29ea8a2e, sol@63ac0fd5) (Temple of Ahn'Qiraj) |
 | sol@7174e5b1 | 2022-08-12 |      | verify changes (Ruins of Ahn'Qiraj) |
 | sol@fb785f6a | 2022-08-10 |      | verify changes (also see sol@c4ec30ae, sol@96ff7599) (Temple of Ahn'Qiraj) |
 | sol@1455be34 | 2022-08-10 |      | verify changes (Temple of Ahn'Qiraj) |

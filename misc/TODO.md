@@ -1,19 +1,20 @@
-TODOs: common, low prio: [dungeon](TODO_dungeon.md), [event](TODO_event.md), [pvp](TODO_pvp.md), [localization](TODO_localization.md)
+TODOs: common, low prio: [dungeon](TODO_dungeon.md), [event](TODO_event.md), [pvp](TODO_pvp.md), [localization](TODO_localization.md), [pooling](TODO_pooling.md)
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@9ac3b52d | 2022-10-15 |      | verify changes; adapt to Sol |
+| sol@d4030db5 | 2022-10-15 |      | verify/rework SQL script; low prio (World Boss) |
+| sol@068a4fcf | 2022-10-15 |      | verify/rework SQL script |
 | sol@2e6f6e26 | 2022-10-12 |      | verify changes; adapt to Sol |
 | sol@171d5d4b | 2022-10-11 |      | verify/rework SQL script; check the auras and only take over valid updates |
 | sol@077fbaee | 2022-10-11 |      | verify/rework SQL script |
-| sol@e390087e | 2022-10-08 |      | verify changes; take over if needed |
+| sol@e390087e | 2022-10-08 |      | verify changes (also see sol@25275541); take over if needed |
 | sol@a4ddc22a | 2022-10-07 |      | adapt to Sol (use "creature\_id\_chance"); low prio (Cosmetic) |
-| sol@e30f0ada | 2022-10-07 |      | verify/rework SQL script; use another pool template entry; low prio (Cosmetic) |
 | sol@c34cb0c5 | 2022-10-06 |      | verify/rework SQL script |
 | sol@10c5cc1b | 2022-10-01 | X    | verify/rework SQL script; won't take over: item 20797 already has 100% drop chance, won't reduce the chance for item 20482 |
 | sol@fa002503 | 2022-10-01 | X    | verify changes; done: sol@fc0c6f54 |
 | sol@81d20888 | 2022-09-28 |      | verify/rework SQL script; low prio (obsolete quests) |
 | sol@91daa6cb | 2022-09-25 | X    | won't take over, does not work correctly; find another solution; done: sol@e2fa9f3b |
-| sol@01ff8398 | 2022-09-22 |      | keep as reference; take over single values if needed; won't blindly take over such mass updates (don't care about sniffs) |
 | sol@043aa7cb | 2022-09-22 |      | verify creature IDs (use "creature\_id\_chance"); low prio (Cosmetic) |
 | sol@9844580c | 2022-09-21 |      | keep as reference; take over single values if needed; won't blindly take over such mass updates (don't care about sniffs) |
 | sol@e87e56a0 | 2022-09-21 |      | keep as reference; take over single values if needed; won't blindly take over such mass updates (don't care about sniffs) |
@@ -82,7 +83,6 @@ TODOs: common, low prio: [dungeon](TODO_dungeon.md), [event](TODO_event.md), [pv
 | sol@5939242e | 2022-06-28 | X    | verify/rework SQL script; not needed, Sol is not affected by this issue |
 | sol@a7076291 | 2022-06-22 | X    | won't take over; should show "fizzled" if the spell fails, also the chance calculation seems very odd; find another solution; done: sol@0e7c6e60 |
 | sol@39c0f1a7 | 2022-06-18 |      | verify changes; low prio (minor issue) |
-| sol@91575f07 | 2022-06-18 |      | keep as reference; take over single GOs/pools if needed; won't blindly take over such mass updates |
 | sol@24f065c3 | 2022-06-18 | X    | verify/rework SQL script; done: sol@4fb68130 |
 | sol@b0add000 | 2022-06-18 | X    | verify changes; split into multiple commits; also fix SAI/gossip of the associated NPCs; this commit also contains several bugs, e.g. a quest reward for "There Is No Hope" which was actually added in Cataclysm because the quest chain ended there; done: sol@70bedc35, sol@9dd6f153, sol@7e36b0f2, sol@a371c43d, sol@2c855eb9, sol@13e7a3e1, sol@acd20cbb |
 | sol@0c546fd9 | 2022-06-18 | X    | won't take over, rework SAI instead (talk on aggro, see TC version); done: sol@3de5c2ce |
@@ -231,7 +231,6 @@ TODOs: common, low prio: [dungeon](TODO_dungeon.md), [event](TODO_event.md), [pv
 | sol@3f41c2c6 | 2022-01-18 |      | verify/rework SQL script; won't take over the updated spawn points; just check the WP path; low prio (Cosmetic) |
 | sol@fe489920 | 2022-01-17 |      | take over if needed |
 | sol@0f2c092d | 2022-01-17 |      | verify changes; low prio (minor issue) |
-| sol@83bde5b3 | 2022-01-15 |      | verify/rework SQL script; check gameobject pools & positions; low prio (Cosmetic) |
 | sol@e71171f9 | 2022-01-15 |      | verify/rework SQL script; won't take over the updated spawn points, just check the WP paths; low prio (Cosmetic) |
 | sol@f5419a45 | 2022-01-15 |      | verify/rework SQL script (also see sol@03a72cfc); check the WP paths; verify creature IDs (use "creature\_id\_chance"); low prio (Cosmetic) |
 | sol@d65101f8 | 2022-01-14 | X    | verify/rework SQL script; verify loot; compare with TC; done: sol@5e64c186 |
@@ -243,7 +242,6 @@ TODOs: common, low prio: [dungeon](TODO_dungeon.md), [event](TODO_event.md), [pv
 | sol@65330af5 | 2022-01-11 |      | verify GUIDs; use new table "creature\_id\_chance", see sol@d65c4ae5; low prio (Cosmetic) |
 | sol@2fd8b00d | 2022-01-11 | X    | this can be used as an alternative concerning pools in instanced maps (pools don't work correctly there); implement another solution: don't change the creature table, add a new table instead to be more flexible and ensure backward compatibility; done: sol@d65c4ae5 |
 | sol@f1d4266e | 2022-01-10 |      | not needed, won't take over; there are over 1400 entries in the "creature" table with custom model IDs; removing "modelid" from table "creature" will cause a lot of issues which will take much time to fix; just keep this commit as a reference |
-| sol@6b6a074a | 2022-01-10 |      | verify/rework SQL script; check pools; low prio (Cosmetic) |
 | sol@ae795fbc | 2022-01-10 |      | verify/rework SQL script; check the WP paths; low prio (Cosmetic) |
 | sol@6a696bff | 2022-01-07 |      | verify/rework SQL script; check the WP paths; low prio (Cosmetic) |
 | sol@2c6a6920 | 2022-01-07 |      | verify changes; low prio (minor issue) |
@@ -306,7 +304,7 @@ TODOs: common, low prio: [dungeon](TODO_dungeon.md), [event](TODO_event.md), [pv
 | sol@4beb2d8a | 2021-12-19 |      | verify/rework SQL script; check the WP paths; low prio (Cosmetic); update: took over emotes/equipment, see sol@6369dce3 |
 | sol@1d8160a9 | 2021-12-19 |      | verify/rework SQL script; won't take over the updated spawn points, just check the WP paths; low prio (Cosmetic) |
 | sol@bfb20a53 | 2021-12-19 |      | verify/rework SQL script (also see sol@585f3f24); won't take over the updated spawn points, just check the WP paths; low prio (Cosmetic) |
-| sol@78504d34 | 2021-12-19 |      | verify/rework SQL script (also see sol@585f3f24); won't take over the updated spawn points, just check the WP paths; low prio (Cosmetic) |
+| sol@78504d34 | 2021-12-19 | X    | verify/rework SQL script (also see sol@585f3f24); won't take over the updated spawn points, just check the WP paths; low prio (Cosmetic); done: sol@98493e5c |
 | sol@074ace8f | 2021-12-19 | X    | verify/rework SQL script; compare with TC; done: sol@365e998d |
 | sol@6d999eb8 | 2021-12-18 | X    | verify/rework SQL script (also see sol@659f0d93); done: sol@df4395d1 |
 | sol@5ed82f8e | 2021-12-17 | X    | verify/rework SQL script (also see sol@585f3f24); won't take over the updated spawn points, just check the WP paths; use SAI instead of CreatureScript; low prio (Cosmetic); done: sol@213c991e |
@@ -350,9 +348,7 @@ TODOs: common, low prio: [dungeon](TODO_dungeon.md), [event](TODO_event.md), [pv
 | sol@18f3f748 | 2021-12-03 | X    | verify/rework SQL script; check the WP paths; low prio (Cosmetic); done: sol@3d46cd92 |
 | sol@8668a03e | 2021-12-01 |      | take over if needed |
 | sol@79c0beeb | 2021-11-30 |      | take over if needed (also see sol@9c178acd) |
-| sol@94367fc1 | 2021-11-30 |      | keep as reference; take over single values if needed; won't blindly take over such mass updates |
 | sol@5d544f60 | 2021-11-29 |      | won't take over, does not seem to be the correct way to fix this issue; try to find another solution; low prio (minor issue) |
-| sol@2af15c84 | 2021-11-29 |      | keep as reference; take over single values if needed; won't blindly take over such mass updates |
 | sol@0b551a05 | 2021-11-29 |      | take over if needed |
 | sol@a220b54a | 2021-11-25 | X    | verify/rework SQL script; update: won't take over, this was just blindly copied from TC commit 4a05a082fd671099463049552170ddbeaff6a257 without any further checks; the existing solution works well enough, just the SAI of the triggers need a few improvements: sol@fd8275a5 |
 | sol@647c9160 | 2021-11-21 |      | take over if needed |
