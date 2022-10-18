@@ -86,6 +86,16 @@ Contains information on the location where characters get teleported when they u
 <td><p> </p></td>
 <td><p> </p></td>
 </tr>
+<tr>
+<td><p><a href="#poso">posO</a></p></td>
+<td><p>float</p></td>
+<td><p> </p></td>
+<td><p> </p></td>
+<td><p>NO</p></td>
+<td><p>0</p></td>
+<td><p> </p></td>
+<td><p> </p></td>
+</tr>
 </tbody>
 </table>
 
@@ -114,3 +124,7 @@ The Y position where the character gets teleported to.
 ### posZ
 
 The Z position where the character gets teleported to.
+
+### posO
+
+The orientation applied after the character has been teleported.

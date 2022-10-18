@@ -5,7 +5,7 @@ TODOs: common, low prio: [dungeon](TODO_dungeon.md), [event](TODO_event.md), [pv
 | sol@9ac3b52d | 2022-10-15 |      | verify changes; adapt to Sol |
 | sol@d4030db5 | 2022-10-15 |      | verify/rework SQL script; low prio (World Boss) |
 | sol@068a4fcf | 2022-10-15 |      | verify/rework SQL script |
-| sol@2e6f6e26 | 2022-10-12 |      | verify changes; adapt to Sol |
+| sol@2e6f6e26 | 2022-10-12 | X    | verify changes; adapt to Sol; done: sol@4e4143f5 |
 | sol@171d5d4b | 2022-10-11 |      | verify/rework SQL script; check the auras and only take over valid updates |
 | sol@077fbaee | 2022-10-11 |      | verify/rework SQL script |
 | sol@e390087e | 2022-10-08 |      | verify changes (also see sol@25275541); take over if needed |
@@ -628,7 +628,7 @@ TODOs: common, low prio: [dungeon](TODO_dungeon.md), [event](TODO_event.md), [pv
 | sol@b5d9b3d5 | 2021-07-12 | X    | verify issue/changes; rework SQL script; update: won't take over, the quest seems to work fine; just increase the effect radius for Plague Strike to 8 yards: sol@55a28f19 |
 | sol@2e8a7498 | 2021-07-10 | X    | verify/rework SQL script; implemented another solution, see sol@e4e792a7 & sol@83e97509 |
 | sol@a61f7a12 | 2021-07-09 |      | take over if needed |
-| sol@f8c8e98a | 2021-07-08 |      | use creature addon instead of creature template; adjust only aggro radius, won't change any other calculations; keep 20y as default |
+| sol@f8c8e98a | 2021-07-08 |      | take over if needed; use creature addon instead of creature template; adjust only aggro radius, won't change any other calculations; keep 20y as default |
 | sol@c7d5080b | 2021-07-08 | X    | take over from TC instead; done: sol@7287e321 |
 | sol@6644c651 | 2021-07-08 | X    | verify/rework SQL script; implemented another solution: sol@382f5c58 |
 | sol@b66314b6 | 2021-07-07 | X    | verify/rework SQL script; done: sol@fe86c0cb; note: don't spawn multiple Noxxious Scions because the quest would then become too easy and it also does not match the quest description |
