@@ -2,7 +2,8 @@ TODOs: common, low prio: [dungeon](TODO_dungeon.md), [event](TODO_event.md), [pv
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
-| sol@9ac3b52d | 2022-10-15 |      | verify changes; adapt to Sol |
+| sol@28d19132 | 2022-10-20 |      | verify changes; adapt to Sol; low prio (minor issue) |
+| sol@9ac3b52d | 2022-10-15 | X    | verify changes; adapt to Sol; implemented another solution: sol@c0782e27 |
 | sol@d4030db5 | 2022-10-15 |      | verify/rework SQL script; low prio (World Boss) |
 | sol@068a4fcf | 2022-10-15 |      | verify/rework SQL script |
 | sol@2e6f6e26 | 2022-10-12 | X    | verify changes; adapt to Sol; done: sol@4e4143f5 |
