@@ -2,16 +2,17 @@ TODOs: common, low prio: [dungeon](TODO_dungeon.md), [event](TODO_event.md), [pv
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@e2b866de | 2022-10-23 |      | verify changes |
 | sol@28d19132 | 2022-10-20 |      | verify changes; adapt to Sol; low prio (minor issue) |
 | sol@9ac3b52d | 2022-10-15 | X    | verify changes; adapt to Sol; implemented another solution: sol@c0782e27 |
 | sol@d4030db5 | 2022-10-15 |      | verify/rework SQL script; low prio (World Boss) |
 | sol@068a4fcf | 2022-10-15 |      | verify/rework SQL script |
 | sol@2e6f6e26 | 2022-10-12 | X    | verify changes; adapt to Sol; done: sol@4e4143f5 |
 | sol@171d5d4b | 2022-10-11 |      | verify/rework SQL script; check the auras and only take over valid updates |
-| sol@077fbaee | 2022-10-11 |      | verify/rework SQL script |
+| sol@077fbaee | 2022-10-11 | X    | verify/rework SQL script; done: sol@ae2960b2 |
 | sol@e390087e | 2022-10-08 |      | verify changes (also see sol@25275541); take over if needed |
 | sol@a4ddc22a | 2022-10-07 |      | adapt to Sol (use "creature\_id\_chance"); low prio (Cosmetic) |
-| sol@c34cb0c5 | 2022-10-06 |      | verify/rework SQL script |
+| sol@c34cb0c5 | 2022-10-06 | X    | verify/rework SQL script; won't take over (buggy); implemented another solution: sol@1aaf8464 |
 | sol@10c5cc1b | 2022-10-01 | X    | verify/rework SQL script; won't take over: item 20797 already has 100% drop chance, won't reduce the chance for item 20482 |
 | sol@fa002503 | 2022-10-01 | X    | verify changes; done: sol@fc0c6f54 |
 | sol@81d20888 | 2022-09-28 |      | verify/rework SQL script; low prio (obsolete quests) |
