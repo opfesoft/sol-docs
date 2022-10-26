@@ -2,11 +2,11 @@ TODOs: common, low prio: [dungeon](TODO_dungeon.md), [event](TODO_event.md), [pv
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
-| sol@e2b866de | 2022-10-23 |      | verify changes |
-| sol@28d19132 | 2022-10-20 |      | verify changes; adapt to Sol; low prio (minor issue) |
+| sol@e2b866de | 2022-10-23 | X    | verify changes; update: won't take over, Deep Wounds should only proc off melee physical spells |
+| sol@28d19132 | 2022-10-20 |      | verify changes (also see sol@c54d56c7); adapt to Sol; low prio (minor issue) |
 | sol@9ac3b52d | 2022-10-15 | X    | verify changes; adapt to Sol; implemented another solution: sol@c0782e27 |
 | sol@d4030db5 | 2022-10-15 |      | verify/rework SQL script; low prio (World Boss) |
-| sol@068a4fcf | 2022-10-15 |      | verify/rework SQL script |
+| sol@068a4fcf | 2022-10-15 | X    | verify/rework SQL script; done: sol@91b817c6 |
 | sol@2e6f6e26 | 2022-10-12 | X    | verify changes; adapt to Sol; done: sol@4e4143f5 |
 | sol@171d5d4b | 2022-10-11 |      | verify/rework SQL script; check the auras and only take over valid updates |
 | sol@077fbaee | 2022-10-11 | X    | verify/rework SQL script; done: sol@ae2960b2 |
