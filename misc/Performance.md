@@ -19,16 +19,16 @@ Set the worldserver parameter "SetAllCreaturesWithWaypointMovementActive" to 0. 
 
 Default behaviour without further configuration:
 
-Creatures follow their waypoint path if they are near a player. They will also move at random time intervals (approximately every 5 minutes) for 5s if no player is near (see worldserver parameters "SetAllCreaturesWithWaypointMovementActive" and "WaypointMovementActiveTimer"). This means that they will move around very slowly.
+Creatures follow their waypoint path if they are near a player. They will also move at random time intervals (approximately every 5 minutes) for ca. 5s if no player is near (see worldserver parameters "SetAllCreaturesWithWaypointMovementActive" and "WaypointMovementActiveTimer"). This means that they will move around very slowly.
 
 ### Low RAM / Medium CPU
 
-Decrease the worldserver parameter "SetAllCreaturesWithWaypointMovementActive" below 1000. Creatures with waypoint movement will now move more often which causes more CPU usage.
+Decrease the worldserver parameter "SetAllCreaturesWithWaypointMovementActive" below 100. Creatures with waypoint movement will now move more often which causes more CPU usage.
 
 ### High RAM / Medium CPU (recommended setting)
 
-Set the worldserver parameter "PreloadAllNonInstancedMapGrids" to 1 and "SetAllCreaturesWithWaypointMovementActive" to 300. This will load all grids for all non-instanced maps and move creatures with waypoint movement approximately every 30s. This setting provides a good player experience.
+Set the worldserver parameter "PreloadAllNonInstancedMapGrids" to 1 and "SetAllCreaturesWithWaypointMovementActive" to 30. This will load all grids for all non-instanced maps and move creatures with waypoint movement approximately every 30s. This setting provides a good player experience.
 
 ### High RAM / High CPU
 
-Set the worldserver parameters "PreloadAllNonInstancedMapGrids" to 1 and "SetAllCreaturesWithWaypointMovementActive" to 1. This will load all grids for all non-instanced maps and the creatures will move around constantly.
+Set the worldserver parameters "PreloadAllNonInstancedMapGrids" to 1 and "SetAllCreaturesWithWaypointMovementActive" to 1. This will load all grids for all non-instanced maps and the creatures will move around (almost) continuously.
