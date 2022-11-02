@@ -2,7 +2,11 @@ TODOs: common, low prio: [dungeon](TODO_dungeon.md), [event](TODO_event.md), [pv
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
-| sol@e162b815 | 2022-10-26 |      | verify/rework SQL script |
+| sol@e0758cba | 2022-11-01 |      | verify/rework SQL script |
+| sol@3da4d303 | 2022-10-29 |      | verify changes; low prio (minor issue) |
+| sol@f3820bd3 | 2022-10-29 |      | verify changes; low prio (minor issue) |
+| sol@eb3f80ce | 2022-10-29 |      | verify changes; low prio (minor issue) |
+| sol@e162b815 | 2022-10-26 | X    | verify/rework SQL script; update: won't take over, should not have ICD, only DR |
 | sol@e2b866de | 2022-10-23 | X    | verify changes; update: won't take over, Deep Wounds should only proc off melee physical spells |
 | sol@28d19132 | 2022-10-20 |      | verify changes (also see sol@c54d56c7); adapt to Sol; low prio (minor issue) |
 | sol@9ac3b52d | 2022-10-15 | X    | verify changes; adapt to Sol; implemented another solution: sol@c0782e27 |
@@ -11,7 +15,7 @@ TODOs: common, low prio: [dungeon](TODO_dungeon.md), [event](TODO_event.md), [pv
 | sol@2e6f6e26 | 2022-10-12 | X    | verify changes; adapt to Sol; done: sol@4e4143f5 |
 | sol@171d5d4b | 2022-10-11 | X    | verify/rework SQL script; check the auras and only take over valid updates; done: sol@88cd59bb |
 | sol@077fbaee | 2022-10-11 | X    | verify/rework SQL script; done: sol@ae2960b2 |
-| sol@e390087e | 2022-10-08 |      | verify changes (also see sol@25275541); take over if needed |
+| sol@e390087e | 2022-10-08 |      | verify changes (also see sol@25275541, sol@4ac43741); take over if needed |
 | sol@a4ddc22a | 2022-10-07 |      | adapt to Sol (use "creature\_id\_chance"); low prio (Cosmetic) |
 | sol@c34cb0c5 | 2022-10-06 | X    | verify/rework SQL script; won't take over (buggy); implemented another solution: sol@1aaf8464 |
 | sol@10c5cc1b | 2022-10-01 | X    | verify/rework SQL script; won't take over: item 20797 already has 100% drop chance, won't reduce the chance for item 20482 |
@@ -192,7 +196,7 @@ TODOs: common, low prio: [dungeon](TODO_dungeon.md), [event](TODO_event.md), [pv
 | sol@cf5dae9d | 2022-02-11 | X    | verify/rework SQL script; update: not needed as this is actually a quest greeting (see sol@b5a8944d) |
 | sol@bffe8381 | 2022-02-10 | X    | won't take over, rework creature script instead; done: sol@915932d2 |
 | sol@0fa4a90a | 2022-02-10 | X    | won't take over, just fix the logic error concerning "Aura of Despair"; done: sol@9749f2e0 |
-| sol@520f0c6a | 2022-02-10 |      | verify/rework scripts (also see sol@e1711e28, sol@25c824e8, sol@9a67c0f0, sol@33b01834, sol@cb7f3d50, sol@47e0c0d8, sol@c40fa650); check the WP paths; low prio (World Boss) |
+| sol@520f0c6a | 2022-02-10 |      | verify/rework scripts (also see sol@e1711e28, sol@25c824e8, sol@9a67c0f0, sol@33b01834, sol@cb7f3d50, sol@47e0c0d8, sol@c40fa650, sol@ad417a05); check the WP paths; low prio (World Boss) |
 | sol@336967b3 | 2022-02-09 | X    | won't take over, just fix the logic error concerning spell 28845 in Unit::HandleProcTriggerSpell; done: sol@44ee29b4 |
 | sol@4d4e7e68 | 2022-02-04 | X    | verify/rework SQL script; done: sol@29f192dc |
 | sol@1c6660c1 | 2022-02-04 | X    | verify/rework SQL script; done: sol@6eeeb38b |

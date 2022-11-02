@@ -1079,6 +1079,13 @@ CONDITION_STAND_STATE</p></td>
 <td>alive state</td>
 <td>Always 0</td>
 </tr>
+<tr>
+<td>CONDITION_UNIT_HAS_FLAG</td>
+<td>153</td>
+<td>flag type (0: <a href="creature_template.md#unit_flags">unit_flag mask</a>, 1: <a href="creature_template.md#unit_flags2">unit_flags2 mask</a>, 2: <a href="creature_template.md#npcflag">npcflag mask</a></td>
+<td>flag mask</td>
+<td>Always 0</td>
+</tr>
 </tbody>
 </table>
 

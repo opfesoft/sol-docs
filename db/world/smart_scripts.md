@@ -3841,8 +3841,7 @@ If the start position distance is far away the circle movement speed will be dec
 <td><p>SMART_ACTION_STOP_WP_PATH</p></td>
 <td><p>239</p></td>
 <td><p>duration in ms</p></td>
-<td><p><br />
-</p></td>
+<td><p>resetLastPlayerInteraction (0/1)</p></td>
 <td><p><br />
 </p></td>
 <td><p><br />

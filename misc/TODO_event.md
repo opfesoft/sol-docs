@@ -2,6 +2,8 @@ TODOs: [common](TODO.md), low prio: [dungeon](TODO_dungeon.md), event, [pvp](TOD
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@346061ed | 2022-11-01 |      | verify/rework SQL script (Day of the Dead) |
+| sol@441ab452 | 2022-10-29 |      | verify/rework SQL script (Hallow's End) |
 | sol@ae8ef160 | 2022-10-23 |      | verify/rework SQL script (Hallow's End) |
 | sol@dbd78559 | 2022-10-23 |      | verify changes (Hallow's End) |
 | sol@da0b8b46 | 2022-10-22 |      | verify/rework SQL script (Hallow's End) |

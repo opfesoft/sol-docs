@@ -141,7 +141,6 @@ Note: Some commands are working only by selecting a player or a creature. These 
 |gobject|2|Syntax: .gobject $subcommand Type .gobject to see the list of possible subcommands or .help gobject $subcommand to see info on subcommands|
 |summon|1|Syntax: .summon [$charactername] Teleport the given character to you. Character can be offline.|
 |gps|1|Syntax: .gps [$name\$shift-link] Display the position information for a selected character or creature (also if player name $name provided then for named player, or if creature/gameobject shift-link provided then pointed creature/gameobject if it loaded). Position information includes X, Y, Z, and orientation, map Id and zone Id|
-|group join|2|Syntax: .group join $AnyCharacterNameFromGroup [$CharacterName]. Adds to group of player $AnyCharacterNameFromGroup player $CharacterName (or selected).|
 |groupsummon|1|Syntax: .groupsummon [$charactername] Teleport the given character and his group to you. Teleported only online characters but original selected group member can be offline.|
 |guid|2|Syntax: .guid Display the GUID for the selected character.|
 |guild create|2|Syntax: .guild create [$GuildLeaderName] "$GuildName" Create a guild named $GuildName with the player $GuildLeaderName (or selected) as leader. Guild name must in quotes.|
@@ -496,7 +495,9 @@ Note: Some commands are working only by selecting a player or a creature. These 
 |ticket reset|3|Syntax: .ticket reset Removes all closed tickets and resets the counter, if no pending open tickets are existing.|
 |reload waypoint_data|3|Syntax: .reload waypoint_data will reload waypoint_data table.|
 |group|3|Syntax: .group $subcommand Type .group to see the list of possible subcommands or .help group $subcommand to see info on subcommands|
+|group join|2|Syntax: .group join $AnyCharacterNameFromGroup [$CharacterName]. Adds to group of player $AnyCharacterNameFromGroup player $CharacterName (or selected).|
 |group leader|3|Syntax: .group leader [$characterName] Sets the given character as his group's leader.|
+|group list|3|Syntax: .group list [$CharacterName] Lists all the members of the group/party the player is in.|
 |group disband|3|Syntax: .group disband [$characterName] Disbands the given character's group.|
 |group remove|3|Syntax: .group remove [$characterName] Removes the given character from his group.|
 |debug moveflags|3|Syntax: .debug moveflags [$newMoveFlags [$newMoveFlags2]] No params given will output the current moveflags of the target|

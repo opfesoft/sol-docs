@@ -2,6 +2,9 @@ TODOs: [common](TODO.md), low prio: dungeon, [event](TODO_event.md), [pvp](TODO_
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@4416da1a | 2022-11-01 |      | verify/rework SQL script (Blood Furnace) |
+| sol@c9d60bdb | 2022-11-01 |      | verify/rework SQL script (Hellfire Ramparts) |
+| sol@751bc4ff | 2022-10-29 |      | verify changes (Molten Core) |
 | sol@e4ecb086 | 2022-10-25 |      | verify changes (Zul'Gurub) |
 | sol@2af95abc | 2022-10-17 |      | verify changes (Temple of Ahn'Qiraj) |
 | sol@b4419512 | 2022-10-14 |      | verify changes (Icecrown Citadel) |
@@ -32,7 +35,7 @@ TODOs: [common](TODO.md), low prio: dungeon, [event](TODO_event.md), [pvp](TODO_
 | sol@ebe4d0a1 | 2022-09-08 |      | verify/rework SQL script (Ruins of Ahn'Qiraj) |
 | sol@87bc6670 | 2022-09-08 |      | verify/rework SQL script (Ruins/Temple of Ahn'Qiraj) |
 | sol@e13dfb8d | 2022-09-07 |      | verify/rework SQL script (also see sol@6a4dbb74) (Temple of Ahn'Qiraj) |
-| sol@fa825ec4 | 2022-09-07 |      | verify changes (also see sol@4e69f8e1, sol@0cb13b12, sol@018a825e, sol@2dddc091, sol@be133a1d) (Temple of Ahn'Qiraj) |
+| sol@fa825ec4 | 2022-09-07 |      | verify changes (also see sol@4e69f8e1, sol@0cb13b12, sol@018a825e, sol@2dddc091, sol@be133a1d, sol@003f574b) (Temple of Ahn'Qiraj) |
 | sol@980a328c | 2022-09-07 |      | verify/rework SQL script (Temple of Ahn'Qiraj) |
 | sol@dc33e8d9 | 2022-09-06 |      | verify/rework SQL script (Temple of Ahn'Qiraj) |
 | sol@3953aeda | 2022-09-06 |      | verify/rework SQL script (Ruins/Temple of Ahn'Qiraj) |
@@ -71,7 +74,7 @@ TODOs: [common](TODO.md), low prio: dungeon, [event](TODO_event.md), [pvp](TODO_
 | sol@f0e608ed | 2022-08-14 |      | verify/rework SQL script (Ruins of Ahn'Qiraj) |
 | sol@c0084988 | 2022-08-14 |      | verify/rework SQL script (Ruins of Ahn'Qiraj) |
 | sol@37e9fac5 | 2022-08-14 |      | verify changes (also see sol@4e3207db, sol@108ebeae, sol@a949f812) (Temple of Ahn'Qiraj) |
-| sol@eb4f1338 | 2022-08-14 |      | verify changes (also see sol@99c0fa3f, sol@9819b2d7, sol@b5b8960b, sol@6fbfbc5f, sol@29ea8a2e, sol@63ac0fd5, sol@b0c09a35, sol@848b3dab) (Temple of Ahn'Qiraj) |
+| sol@eb4f1338 | 2022-08-14 |      | verify changes (also see sol@99c0fa3f, sol@9819b2d7, sol@b5b8960b, sol@6fbfbc5f, sol@29ea8a2e, sol@63ac0fd5, sol@b0c09a35, sol@848b3dab, sol@df3e3b16) (Temple of Ahn'Qiraj) |
 | sol@7174e5b1 | 2022-08-12 |      | verify changes (Ruins of Ahn'Qiraj) |
 | sol@fb785f6a | 2022-08-10 |      | verify changes (also see sol@c4ec30ae, sol@96ff7599) (Temple of Ahn'Qiraj) |
 | sol@1455be34 | 2022-08-10 |      | verify changes (Temple of Ahn'Qiraj) |
@@ -321,7 +324,7 @@ TODOs: [common](TODO.md), low prio: dungeon, [event](TODO_event.md), [pvp](TODO_
 | sol@7df43c36 | 2021-12-03 |      | verify changes, rework SAI instead (also see sol@9265d346) (Lower Blackrock Spire) |
 | sol@4c010968 | 2021-12-02 |      | verify changes (Upper Blackrock Spire) |
 | sol@d6e8697e | 2021-12-02 |      | verify changes (Blackfathom Deeps) |
-| sol@456b1a08 | 2021-11-29 |      | verify changes; also fix Ouro (the creature script is not working correctly, see sol@cb887bbc, sol@63acc112, sol@9983c5a6, sol@2c426829) (Temple of Ahn'Qiraj) |
+| sol@456b1a08 | 2021-11-29 |      | verify changes; also fix Ouro (the creature script is not working correctly, see sol@cb887bbc, sol@63acc112, sol@9983c5a6, sol@2c426829, sol@c06f296a, sol@0b745022) (Temple of Ahn'Qiraj) |
 | sol@d6679060 | 2021-11-28 | X    | won't take over, rework SAI instead (see TC version of both Urok Ogre Magus & Urok Enforcer); use SMART\_EVENT\_RANGE for Arcane Bolt (Lower Blackrock Spire); done: sol@f18da4bd |
 | sol@06a81758 | 2021-11-26 |      | verify changes (Molten Core) |
 | sol@f0776954 | 2021-11-26 |      | verify changes (Molten Core) |
