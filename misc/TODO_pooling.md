@@ -2,6 +2,15 @@ TODOs: [common](TODO.md), low prio: [dungeon](TODO_dungeon.md), [event](TODO_eve
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@11f24c72 | 2022-11-03 |      | verify/rework SQL script; verify pools & spawn locations |
+| sol@060a5d7b | 2022-11-03 |      | verify/rework SQL script; verify pools & spawn locations |
+| sol@7a0f93f6 | 2022-11-03 |      | verify/rework SQL script; verify pools & spawn locations |
+| sol@db4718ec | 2022-11-03 |      | verify/rework SQL script; verify pools & spawn locations |
+| sol@63b9bc3c | 2022-11-03 |      | verify/rework SQL script; verify pools & spawn locations |
+| sol@817e9cb8 | 2022-11-03 |      | verify/rework SQL script; verify pools & spawn locations |
+| sol@84b6a7a7 | 2022-11-03 |      | verify/rework SQL script; verify pools & spawn locations |
+| sol@cd88c363 | 2022-11-02 |      | verify/rework SQL script; verify pools, spawn locations & WP paths |
+| sol@403563f7 | 2022-11-02 |      | verify/rework SQL script; verify pools & spawn locations |
 | sol@b8025848 | 2022-11-01 |      | verify/rework SQL script; verify pools & spawn locations |
 | sol@cac62b93 | 2022-10-20 |      | verify/rework SQL script; verify pools & spawn locations |
 | sol@256b291f | 2022-10-15 |      | verify/rework SQL script; verify pools & spawn locations |
