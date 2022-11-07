@@ -2,10 +2,13 @@ TODOs: common, low prio: [dungeon](TODO_dungeon.md), [event](TODO_event.md), [pv
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@d693378a | 2022-11-06 |      | verify/rework SQL script |
+| sol@f3677971 | 2022-11-05 |      | verify/rework SQL script |
+| sol@c7074433 | 2022-11-05 |      | verify/rework SQL script |
 | sol@9b6450e9 | 2022-11-03 |      | verify/rework SQL script |
 | sol@e0758cba | 2022-11-01 |      | verify/rework SQL script |
 | sol@3da4d303 | 2022-10-29 |      | verify changes; low prio (minor issue) |
-| sol@f3820bd3 | 2022-10-29 |      | verify changes; low prio (minor issue) |
+| sol@f3820bd3 | 2022-10-29 |      | verify changes (also see sol@c3d511e3); low prio (minor issue) |
 | sol@eb3f80ce | 2022-10-29 |      | verify changes; low prio (minor issue) |
 | sol@e162b815 | 2022-10-26 | X    | verify/rework SQL script; update: won't take over, should not have ICD, only DR |
 | sol@e2b866de | 2022-10-23 | X    | verify changes; update: won't take over, Deep Wounds should only proc off melee physical spells |
@@ -311,7 +314,7 @@ TODOs: common, low prio: [dungeon](TODO_dungeon.md), [event](TODO_event.md), [pv
 | sol@f7ff583b | 2021-12-19 | X    | adapt to Sol; also remove from the check for yet unsupported action types and add to the handled ones (shows once more that nobody is testing this stuff thoroughly before merging); done: sol@baae4066 |
 | sol@4beb2d8a | 2021-12-19 |      | verify/rework SQL script; check the WP paths; low prio (Cosmetic); update: took over emotes/equipment, see sol@6369dce3 |
 | sol@1d8160a9 | 2021-12-19 |      | verify/rework SQL script; won't take over the updated spawn points, just check the WP paths; low prio (Cosmetic) |
-| sol@bfb20a53 | 2021-12-19 |      | verify/rework SQL script (also see sol@585f3f24); won't take over the updated spawn points, just check the WP paths; low prio (Cosmetic) |
+| sol@bfb20a53 | 2021-12-19 | X    | verify/rework SQL script (also see sol@585f3f24); won't take over the updated spawn points, just check the WP paths; low prio (Cosmetic); done: sol@26b4a406 |
 | sol@78504d34 | 2021-12-19 | X    | verify/rework SQL script (also see sol@585f3f24); won't take over the updated spawn points, just check the WP paths; low prio (Cosmetic); done: sol@98493e5c |
 | sol@074ace8f | 2021-12-19 | X    | verify/rework SQL script; compare with TC; done: sol@365e998d |
 | sol@6d999eb8 | 2021-12-18 | X    | verify/rework SQL script (also see sol@659f0d93); done: sol@df4395d1 |
