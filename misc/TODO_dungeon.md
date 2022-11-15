@@ -2,8 +2,14 @@ TODOs: [common](TODO.md), low prio: dungeon, [event](TODO_event.md), [pvp](TODO_
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@7222699f | 2022-11-12 |      | verify changes (Trial of the Crusader) |
+| sol@51d712be | 2022-11-12 |      | verify/rework SQL script (Upper Blackrock Spire) |
+| sol@c0ddc54d | 2022-11-12 |      | verify/rework SQL script (Temple of Atal'Hakkar) |
+| sol@f6f6cb3b | 2022-11-12 |      | verify changes (needs sol@76f976fd) (Hellfire Ramparts) |
+| sol@b47afce8 | 2022-11-12 |      | verify/rework SQL script (Hellfire Ramparts) |
+| sol@015f8355 | 2022-11-12 |      | verify/rework SQL script (Blood Furnace) |
 | sol@5c88f926 | 2022-11-04 |      | verify changes (Temple of Ahn'Qiraj) |
-| sol@4416da1a | 2022-11-01 |      | verify/rework SQL script (Blood Furnace) |
+| sol@4416da1a | 2022-11-01 |      | verify/rework SQL script (also see sol@4df1c448) (Blood Furnace) |
 | sol@c9d60bdb | 2022-11-01 |      | verify/rework SQL script (Hellfire Ramparts) |
 | sol@751bc4ff | 2022-10-29 |      | verify changes (Molten Core) |
 | sol@e4ecb086 | 2022-10-25 |      | verify changes (Zul'Gurub) |
@@ -26,7 +32,7 @@ TODOs: [common](TODO.md), low prio: dungeon, [event](TODO_event.md), [pvp](TODO_
 | sol@11cfcc84 | 2022-09-19 |      | verify changes (Temple of Ahn'Qiraj) |
 | sol@0f84e3ed | 2022-09-19 |      | verify changes (Lower Blackrock Spire) |
 | sol@23c3b184 | 2022-09-19 |      | verify changes (also see sol@b3e20ea7) (Temple of Ahn'Qiraj) |
-| sol@2682697d | 2022-09-17 |      | verify changes (also see sol@26017b64, sol@811ef478, sol@f5c7883d, sol@436d7afd, sol@6263a0a8, sol@33cba08f, sol@572a4325, sol@b35c907c, sol@77044670, sol@bfa68b08, sol@9d93a7e4, sol@6cb85d2f) (Temple of Ahn'Qiraj) |
+| sol@2682697d | 2022-09-17 |      | verify changes (also see sol@26017b64, sol@811ef478, sol@f5c7883d, sol@436d7afd, sol@6263a0a8, sol@33cba08f, sol@572a4325, sol@b35c907c, sol@77044670, sol@bfa68b08, sol@9d93a7e4, sol@6cb85d2f, sol@ff5983cb) (Temple of Ahn'Qiraj) |
 | sol@216d569e | 2022-09-14 |      | verify changes (Temple of Ahn'Qiraj) |
 | sol@59f74753 | 2022-09-14 |      | verify changes (Temple of Ahn'Qiraj) |
 | sol@a1f44f98 | 2022-09-14 |      | verify changes (Temple of Ahn'Qiraj) |
@@ -149,7 +155,7 @@ TODOs: [common](TODO.md), low prio: dungeon, [event](TODO_event.md), [pvp](TODO_
 | sol@84295280 | 2022-06-16 |      | verify/rework SQL script (also see sol@379f91fe) (Zul'Gurub) |
 | sol@235d2b6c | 2022-06-16 |      | verify changes (also see sol@a9e872bd) (Zul'Gurub) |
 | sol@59eab6aa | 2022-06-16 |      | verify changes (Zul'Gurub) |
-| sol@117a18c9 | 2022-06-16 |      | verify changes (also see sol@33fef6fb) (Zul'Gurub) |
+| sol@117a18c9 | 2022-06-16 |      | verify changes (also see sol@33fef6fb, sol@5cf7d3d1) (Zul'Gurub) |
 | sol@ee6ad8d7 | 2022-06-16 |      | verify changes (Molten Core) |
 | sol@830fd3f6 | 2022-06-14 |      | verify/rework SQL script (Zul'Gurub) |
 | sol@987d49f9 | 2022-06-14 |      | verify changes (Temple of Ahn'Qiraj) |
