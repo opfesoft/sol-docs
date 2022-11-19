@@ -2,13 +2,13 @@ TODOs: common, low prio: [dungeon](TODO_dungeon.md), [event](TODO_event.md), [pv
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
-| sol@aded28c3 | 2022-11-12 |      | verify/rework SQL script |
-| sol@1e14159b | 2022-11-12 |      | verify/rework SQL script; check all GO IDs 142702-142714 and the rotation of the bottles |
-| sol@f5a17d2b | 2022-11-12 |      | won't take over, adjust position for GO GUID 26086, remove GUID 27550 & 27551, set respawn to 25s for GUID 26086 & 26087 |
-| sol@5a497247 | 2022-11-12 |      | verify/rework SQL script |
-| sol@d693378a | 2022-11-06 |      | verify/rework SQL script |
-| sol@f3677971 | 2022-11-05 |      | verify/rework SQL script |
-| sol@c7074433 | 2022-11-05 |      | verify/rework SQL script |
+| sol@aded28c3 | 2022-11-12 | X    | verify/rework SQL script; done: sol@d91f2ca3 |
+| sol@1e14159b | 2022-11-12 | X    | verify/rework SQL script; check all GO IDs 142702-142714 and the rotation of the bottles; done: sol@0d72088e |
+| sol@f5a17d2b | 2022-11-12 | X    | won't take over, adjust position for GO GUID 26086, remove GUID 27550 & 27551, set respawn to 25s for GUID 26086 & 26087; done: sol@07e20164 |
+| sol@5a497247 | 2022-11-12 | X    | verify/rework SQL script; done: sol@769ee3d9 |
+| sol@d693378a | 2022-11-06 | X    | verify/rework SQL script; done: sol@930ebb3e |
+| sol@f3677971 | 2022-11-05 | X    | verify/rework SQL script; done: sol@516245c8 |
+| sol@c7074433 | 2022-11-05 | X    | verify/rework SQL script; done: sol@8eacd9ad |
 | sol@9b6450e9 | 2022-11-03 | X    | verify/rework SQL script; taken from TC instead: sol@9f4904f6 |
 | sol@e0758cba | 2022-11-01 | X    | verify/rework SQL script; done: sol@a9990dd0 |
 | sol@3da4d303 | 2022-10-29 |      | verify changes; low prio (minor issue) |

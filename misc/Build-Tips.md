@@ -29,19 +29,19 @@
 
 ## OpenSSL installation
 
-Example for OpenSSL 3.0.6, installation in "~/sol-srv/lib/openssl":
+Example for OpenSSL 3.0.7, installation in "~/sol-srv/lib/openssl":
 
 - Get package:
 ```
-curl -L 'https://github.com/openssl/openssl/archive/refs/tags/openssl-3.0.6.tar.gz' >openssl-3.0.6.tar.gz
-tar -xzf openssl-3.0.6.tar.gz
+curl -L 'https://github.com/openssl/openssl/archive/refs/tags/openssl-3.0.7.tar.gz' >openssl-3.0.7.tar.gz
+tar -xzf openssl-3.0.7.tar.gz
 ```
 
 - Install (here gcc 11 is used):
 ```
 export CC='gcc-11'
 export CXX='g++-11'
-cd openssl-openssl-3.0.6
+cd openssl-openssl-3.0.7
 ./config --prefix=${HOME}/sol-srv/lib/openssl --openssldir=${HOME}/sol-srv/lib/openssl -static
 make -j $(($(nproc)+2))
 make install_sw
@@ -77,12 +77,12 @@ New releases: https://github.com/jemalloc/jemalloc/releases
 
 ## ACE installation
 
-Example for ACE 7.0.9, installation in "~/sol-srv/lib/ace":
+Example for ACE 7.0.10, installation in "~/sol-srv/lib/ace":
 
 - Get package:
 ```
-curl -L 'https://github.com/DOCGroup/ACE_TAO/releases/download/ACE%2BTAO-7_0_9/ACE+TAO-7.0.9.tar.gz' >ACE+TAO-7.0.9.tar.gz
-tar -xzf ACE+TAO-7.0.9.tar.gz
+curl -L 'https://github.com/DOCGroup/ACE_TAO/releases/download/ACE%2BTAO-7_0_10/ACE+TAO-7.0.10.tar.gz' >ACE+TAO-7.0.10.tar.gz
+tar -xzf ACE+TAO-7.0.10.tar.gz
 ```
 
 - Set `ACE_ROOT`:
