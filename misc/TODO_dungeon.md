@@ -2,6 +2,11 @@ TODOs: [common](TODO.md), low prio: dungeon, [event](TODO_event.md), [pvp](TODO_
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@ae22b005 | 2022-11-21 |      | verify/rework SQL script (Auchenai Crypts) |
+| sol@6f57cf1f | 2022-11-21 |      | verify/rework SQL script (Underbog) |
+| sol@35a2453b | 2022-11-21 |      | verify/rework SQL script (Hellfire Ramparts) |
+| sol@90d819b5 | 2022-11-21 |      | verify/rework SQL script (Slave Pens) |
+| sol@39d11da1 | 2022-11-21 |      | verify/rework SQL script (Mana-Tombs) |
 | sol@7222699f | 2022-11-12 |      | verify changes (Trial of the Crusader) |
 | sol@51d712be | 2022-11-12 |      | verify/rework SQL script (Upper Blackrock Spire) |
 | sol@c0ddc54d | 2022-11-12 |      | verify/rework SQL script (Temple of Atal'Hakkar) |
@@ -32,7 +37,7 @@ TODOs: [common](TODO.md), low prio: dungeon, [event](TODO_event.md), [pvp](TODO_
 | sol@11cfcc84 | 2022-09-19 |      | verify changes (Temple of Ahn'Qiraj) |
 | sol@0f84e3ed | 2022-09-19 |      | verify changes (Lower Blackrock Spire) |
 | sol@23c3b184 | 2022-09-19 |      | verify changes (also see sol@b3e20ea7) (Temple of Ahn'Qiraj) |
-| sol@2682697d | 2022-09-17 |      | verify changes (also see sol@26017b64, sol@811ef478, sol@f5c7883d, sol@436d7afd, sol@6263a0a8, sol@33cba08f, sol@572a4325, sol@b35c907c, sol@77044670, sol@bfa68b08, sol@9d93a7e4, sol@6cb85d2f, sol@ff5983cb, sol@afebbb81) (Temple of Ahn'Qiraj) |
+| sol@2682697d | 2022-09-17 |      | verify changes (also see sol@26017b64, sol@811ef478, sol@f5c7883d, sol@436d7afd, sol@6263a0a8, sol@33cba08f, sol@572a4325, sol@b35c907c, sol@77044670, sol@bfa68b08, sol@9d93a7e4, sol@6cb85d2f, sol@ff5983cb, sol@afebbb81, sol@42c4c293, sol@888f9bb0) (Temple of Ahn'Qiraj) |
 | sol@216d569e | 2022-09-14 |      | verify changes (Temple of Ahn'Qiraj) |
 | sol@59f74753 | 2022-09-14 |      | verify changes (Temple of Ahn'Qiraj) |
 | sol@a1f44f98 | 2022-09-14 |      | verify changes (Temple of Ahn'Qiraj) |

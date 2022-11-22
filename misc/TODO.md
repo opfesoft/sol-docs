@@ -2,6 +2,15 @@ TODOs: common, low prio: [dungeon](TODO_dungeon.md), [event](TODO_event.md), [pv
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@3d93d849 | 2022-11-21 |      | verify/rework SQL script |
+| sol@e6aef88a | 2022-11-21 |      | verify changes |
+| sol@651bafa4 | 2022-11-21 |      | verify/rework SQL script |
+| sol@702c7d17 | 2022-11-21 |      | verify/rework SQL script |
+| sol@d9fafed8 | 2022-11-21 |      | verify/rework SQL script |
+| sol@c791e208 | 2022-11-21 |      | uses the wrong table, won't take over; also remove loot ID from creature template |
+| sol@00a80775 | 2022-11-21 |      | won't take over, find another solution |
+| sol@8f697bda | 2022-11-21 |      | verify issue & changes; take over if needed |
+| sol@cb475290 | 2022-11-21 |      | verify/rework SQL script; add emote to creature\_addon instead |
 | sol@aded28c3 | 2022-11-12 | X    | verify/rework SQL script; done: sol@d91f2ca3 |
 | sol@1e14159b | 2022-11-12 | X    | verify/rework SQL script; check all GO IDs 142702-142714 and the rotation of the bottles; done: sol@0d72088e |
 | sol@f5a17d2b | 2022-11-12 | X    | won't take over, adjust position for GO GUID 26086, remove GUID 27550 & 27551, set respawn to 25s for GUID 26086 & 26087; done: sol@07e20164 |
@@ -316,7 +325,7 @@ TODOs: common, low prio: [dungeon](TODO_dungeon.md), [event](TODO_event.md), [pv
 | sol@bc87362f | 2021-12-23 |      | verify/rework SQL script (also see sol@585f3f24); won't take over the updated spawn points, just check the WP paths and random movement; low prio (Cosmetic) |
 | sol@5b6e6c3d | 2021-12-23 |      | verify/rework SQL script; won't take over the updated spawn points, just check the WP paths and random movement; low prio (Cosmetic) |
 | sol@f7ff583b | 2021-12-19 | X    | adapt to Sol; also remove from the check for yet unsupported action types and add to the handled ones (shows once more that nobody is testing this stuff thoroughly before merging); done: sol@baae4066 |
-| sol@4beb2d8a | 2021-12-19 |      | verify/rework SQL script; check the WP paths; low prio (Cosmetic); update: took over emotes/equipment, see sol@6369dce3 |
+| sol@4beb2d8a | 2021-12-19 | X    | verify/rework SQL script; check the WP paths; low prio (Cosmetic); update: took over emotes/equipment, see sol@6369dce3; done: sol@0dd744a7 |
 | sol@1d8160a9 | 2021-12-19 | X    | verify/rework SQL script; won't take over the updated spawn points, just check the WP paths; low prio (Cosmetic); done: sol@7105944d |
 | sol@bfb20a53 | 2021-12-19 | X    | verify/rework SQL script (also see sol@585f3f24); won't take over the updated spawn points, just check the WP paths; low prio (Cosmetic); done: sol@26b4a406 |
 | sol@78504d34 | 2021-12-19 | X    | verify/rework SQL script (also see sol@585f3f24); won't take over the updated spawn points, just check the WP paths; low prio (Cosmetic); done: sol@98493e5c |

@@ -2,6 +2,10 @@ TODOs: [common](TODO.md), low prio: [dungeon](TODO_dungeon.md), [event](TODO_eve
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@40aa2e6d | 2022-11-21 |      | verify/rework SQL script (esES, esMX) |
+| sol@178ed568 | 2022-11-21 |      | verify/rework SQL script (esES, esMX) |
+| sol@98c59af0 | 2022-11-21 |      | verify/rework SQL script (esES, esMX) |
+| sol@8a75019f | 2022-11-21 |      | verify/rework SQL script (esES, esMX) |
 | sol@f87d6c25 | 2022-11-15 |      | verify/rework SQL script (esES, esMX) |
 | sol@f0ba4893 | 2022-11-12 |      | verify/rework SQL script (esES, esMX) |
 | sol@4b3e8357 | 2022-09-21 |      | verify/rework SQL script (zhCN) |
