@@ -474,11 +474,10 @@ This will show or hide spells in vehicle spell bar.</td>
 <td>CONDITION_SOURCE_TYPE_NPC_VENDOR</td>
 <td>23</td>
 <td>vendor entry (<a href="npc_vendor.md#entry">npc_vendor.entry</a>)</td>
-<td>item entry (<a href="npc_vendor.md#item">npc_vendor.item</a>)</td>
+<td>item entry (<a href="npc_vendor.md#item">npc_vendor.item</a>) or 0</td>
 <td>Always 0</td>
 <td>Always 0</td>
-<td><br />
-</td>
+<td>If the item entry is 0 the vendor itself is affected (vendor icon and gossip option).</td>
 </tr>
 <tr>
 <td>CONDITION_SOURCE_TYPE_SPELL_PROC</td>

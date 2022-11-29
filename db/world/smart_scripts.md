@@ -1453,6 +1453,21 @@ This is the probability of the event to occur as a percentage from 0-100. So, if
 </p></td>
 <td>On follow target out of range or not on the map anymore; heartbeat determines how often the check is made (default every 5 seconds)</td>
 </tr>
+<tr>
+<td>SMART_EVENT_KILL_DELAY_STARTED</td>
+<td>232</td>
+<td><p><br />
+</p></td>
+<td><p><br />
+</p></td>
+<td><p><br />
+</p></td>
+<td><p><br />
+</p></td>
+<td><p><br />
+</p></td>
+<td>On kill delay started (see SMART_ACTION_SET_KILL_DELAY).</td>
+</tr>
 </tbody>
 </table>
 
@@ -3865,6 +3880,23 @@ If the start position distance is far away the circle movement speed will be dec
 <td><p><br />
 </p></td>
 <td><p>If "disable" is set to 1 prevent the despawn of minions if their owner dies. If summon type is 0, use 4 as default (TEMPSUMMON_TIMED_DESPAWN_OUT_OF_COMBAT). If duration is 0 use 5000 as default.</p></td>
+</tr>
+<tr>
+<td><p>SMART_ACTION_SET_KILL_DELAY</p></td>
+<td><p>241</p></td>
+<td><p>delay (in seconds)</p></td>
+<td><p><br />
+</p></td>
+<td><p><br />
+</p></td>
+<td><p><br />
+</p></td>
+<td><p><br />
+</p></td>
+<td><p><br />
+</p></td>
+<td><p>Can be used to delay the kill of a creature, e.g. to show spell visuals before the creature dies. Use SMART_EVENT_KILL_DELAY_STARTED to trigger actions, for example to disable combat using SMART_ACTION_AUTO_ATTACK and SMART_ACTION_ALLOW_COMBAT_MOVEMENT.
+</p></td>
 </tr>
 </tbody>
 </table>

@@ -8,9 +8,9 @@ TODOs: common, low prio: [dungeon](TODO_dungeon.md), [event](TODO_event.md), [pv
 | sol@702c7d17 | 2022-11-21 |      | verify/rework SQL script |
 | sol@d9fafed8 | 2022-11-21 |      | verify/rework SQL script |
 | sol@c791e208 | 2022-11-21 |      | uses the wrong table, won't take over; also remove loot ID from creature template |
-| sol@00a80775 | 2022-11-21 |      | won't take over, find another solution |
+| sol@00a80775 | 2022-11-21 | X    | won't take over, find another solution; done: sol@01eb9d46 |
 | sol@8f697bda | 2022-11-21 |      | verify issue & changes; take over if needed |
-| sol@cb475290 | 2022-11-21 |      | verify/rework SQL script; add emote to creature\_addon instead |
+| sol@cb475290 | 2022-11-21 | X    | verify/rework SQL script; add emote to creature\_addon instead; done: sol@4d085521 |
 | sol@aded28c3 | 2022-11-12 | X    | verify/rework SQL script; done: sol@d91f2ca3 |
 | sol@1e14159b | 2022-11-12 | X    | verify/rework SQL script; check all GO IDs 142702-142714 and the rotation of the bottles; done: sol@0d72088e |
 | sol@f5a17d2b | 2022-11-12 | X    | won't take over, adjust position for GO GUID 26086, remove GUID 27550 & 27551, set respawn to 25s for GUID 26086 & 26087; done: sol@07e20164 |
@@ -233,8 +233,8 @@ TODOs: common, low prio: [dungeon](TODO_dungeon.md), [event](TODO_event.md), [pv
 | sol@9fadfa64 | 2022-01-28 |      | take over if needed |
 | sol@b468d1ae | 2022-01-28 | X    | verify/rework SQL script; verify loot; compare with TC; done: sol@cf058e95 |
 | sol@fbb50210 | 2022-01-28 |      | take over if needed |
-| sol@674b168a | 2022-01-28 |      | completely wrong, won't take over: pausing the thread causes delays for all objects (players, creatures etc.) updated by the current thread; find another solution; low prio (minor issue); update: reverted by AC commit sol@8f249a3d |
-| sol@b085ee61 | 2022-01-28 |      | completely wrong, won't take over: pausing the thread causes delays for all objects (players, creatures etc.) updated by the current thread; find another solution; low prio (minor issue); update: reverted by AC commit sol@8f249a3d |
+| sol@674b168a | 2022-01-28 | X    | completely wrong, won't take over: pausing the thread causes delays for all objects (players, creatures etc.) updated by the current thread; find another solution; low prio (minor issue); update: reverted by AC commit sol@8f249a3d; implemented another solution: sol@94276b0e |
+| sol@b085ee61 | 2022-01-28 | X    | completely wrong, won't take over: pausing the thread causes delays for all objects (players, creatures etc.) updated by the current thread; find another solution; low prio (minor issue); update: reverted by AC commit sol@8f249a3d; implemented another solution: sol@94276b0e |
 | sol@7abc3bb0 | 2022-01-28 | X    | verify/rework SQL script (also see sol@35929315); verify loot; compare with TC; done: sol@5d223a4b |
 | sol@79d4efd1 | 2022-01-27 | X    | won't take over, create a proper creature formation and WP path; done: sol@ae3c85ec |
 | sol@fa9c2ed2 | 2022-01-27 |      | won't take over, just check the random movement in the area; low prio (Cosmetic) |
