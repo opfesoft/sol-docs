@@ -2,12 +2,15 @@ TODOs: common, low prio: [dungeon](TODO_dungeon.md), [event](TODO_event.md), [pv
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@190bdcb4 | 2022-12-02 |      | verify/rework SQL script |
+| sol@b45a35e4 | 2022-12-02 |      | use SAI instead |
+| sol@f827bb7e | 2022-12-02 |      | verify/rework SQL script |
 | sol@3d93d849 | 2022-11-21 | X    | verify/rework SQL script; done: sol@cb2d145f |
 | sol@e6aef88a | 2022-11-21 |      | verify changes |
-| sol@651bafa4 | 2022-11-21 |      | verify/rework SQL script |
+| sol@651bafa4 | 2022-11-21 | X    | verify/rework SQL script; done: sol@7ada191b |
 | sol@702c7d17 | 2022-11-21 |      | verify/rework SQL script |
-| sol@d9fafed8 | 2022-11-21 |      | verify/rework SQL script |
-| sol@c791e208 | 2022-11-21 |      | uses the wrong table, won't take over; also remove loot ID from creature template |
+| sol@d9fafed8 | 2022-11-21 | X    | verify/rework SQL script; done: sol@d008bf22 |
+| sol@c791e208 | 2022-11-21 | X    | uses the wrong table, won't take over; also remove loot ID from creature template; done: sol@3e23c208 |
 | sol@00a80775 | 2022-11-21 | X    | won't take over, find another solution; done: sol@01eb9d46 |
 | sol@8f697bda | 2022-11-21 |      | verify issue & changes; take over if needed |
 | sol@cb475290 | 2022-11-21 | X    | verify/rework SQL script; add emote to creature\_addon instead; done: sol@4d085521 |

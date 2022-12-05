@@ -3,7 +3,7 @@ TODOs: [common](TODO.md), low prio: dungeon, [event](TODO_event.md), [pvp](TODO_
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
 | sol@ae22b005 | 2022-11-21 |      | verify/rework SQL script (Auchenai Crypts) |
-| sol@6f57cf1f | 2022-11-21 |      | verify/rework SQL script (Underbog) |
+| sol@6f57cf1f | 2022-11-21 |      | verify/rework SQL script (also see sol@c7142539) (Underbog) |
 | sol@35a2453b | 2022-11-21 |      | verify/rework SQL script (Hellfire Ramparts) |
 | sol@90d819b5 | 2022-11-21 |      | verify/rework SQL script (Slave Pens) |
 | sol@39d11da1 | 2022-11-21 |      | verify/rework SQL script (Mana-Tombs) |
