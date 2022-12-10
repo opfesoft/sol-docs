@@ -2,6 +2,23 @@ TODOs: common, low prio: [dungeon](TODO_dungeon.md), [event](TODO_event.md), [pv
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@82f4d46f | 2022-12-06 |      | verify/rework SQL script |
+| sol@3a942390 | 2022-12-06 |      | verify/rework SQL script |
+| sol@003bd936 | 2022-12-06 |      | verify changes; low prio (minor issue) |
+| sol@d32daab9 | 2022-12-06 |      | won't take over, not needed, just reduce the respawn timers |
+| sol@868053d4 | 2022-12-06 |      | verify changes; low prio (minor issue) |
+| sol@1466a100 | 2022-12-06 |      | verify/rework SQL script; low prio (obsolete quests) |
+| sol@e000060e | 2022-12-06 |      | verify/rework SQL script |
+| sol@67adf3c9 | 2022-12-06 |      | adapt to Sol |
+| sol@0271f47a | 2022-12-06 |      | verify/rework SQL script |
+| sol@422e6bba | 2022-12-06 |      | verify/rework SQL script |
+| sol@2a211cfd | 2022-12-06 |      | verify/rework SQL script |
+| sol@f4d409d5 | 2022-12-06 |      | won't take over, verify/rework TC commit dd6541e3168b55b3d63b0c7a1bdaa3eb368ea281 instead |
+| sol@1b3c2984 | 2022-12-06 |      | won't take over; set faction 35 instead for creature IDs 18161 & 18162 |
+| sol@a3a91e6a | 2022-12-06 |      | verify/rework SQL script |
+| sol@7845ae68 | 2022-12-06 |      | only take over changes concerning the bookshelves; use SAI to root them |
+| sol@18fbe69c | 2022-12-06 |      | wrong emote, use 233 instead |
+| sol@b8616c05 | 2022-12-06 |      | verify/rework SQL script |
 | sol@190bdcb4 | 2022-12-02 |      | verify/rework SQL script |
 | sol@b45a35e4 | 2022-12-02 |      | use SAI instead |
 | sol@f827bb7e | 2022-12-02 |      | verify/rework SQL script |
