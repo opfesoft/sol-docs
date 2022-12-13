@@ -2,14 +2,17 @@ TODOs: common, low prio: [dungeon](TODO_dungeon.md), [event](TODO_event.md), [pv
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@48609892 | 2022-12-12 |      | verify changes |
+| sol@72b446fb | 2022-12-11 |      | verify/rework SQL script & spell script |
+| sol@0a2a4c7f | 2022-12-11 |      | verify/rework SQL script |
 | sol@82f4d46f | 2022-12-06 |      | verify/rework SQL script |
-| sol@3a942390 | 2022-12-06 |      | verify/rework SQL script |
+| sol@3a942390 | 2022-12-06 | X    | verify/rework SQL script; update: wrong, won't take over; reward was switched from item 3609 to 33792 in patch 2.3.0 |
 | sol@003bd936 | 2022-12-06 |      | verify changes; low prio (minor issue) |
-| sol@d32daab9 | 2022-12-06 |      | won't take over, not needed, just reduce the respawn timers |
+| sol@d32daab9 | 2022-12-06 | X    | won't take over, not needed, just reduce the respawn timers; done: sol@7d9c3d07 |
 | sol@868053d4 | 2022-12-06 |      | verify changes; low prio (minor issue) |
 | sol@1466a100 | 2022-12-06 |      | verify/rework SQL script; low prio (obsolete quests) |
 | sol@e000060e | 2022-12-06 |      | verify/rework SQL script |
-| sol@67adf3c9 | 2022-12-06 |      | adapt to Sol |
+| sol@67adf3c9 | 2022-12-06 | X    | adapt to Sol; done: sol@5100874e |
 | sol@0271f47a | 2022-12-06 |      | verify/rework SQL script |
 | sol@422e6bba | 2022-12-06 |      | verify/rework SQL script |
 | sol@2a211cfd | 2022-12-06 |      | verify/rework SQL script |

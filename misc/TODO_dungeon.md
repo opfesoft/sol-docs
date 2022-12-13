@@ -2,6 +2,9 @@ TODOs: [common](TODO.md), low prio: dungeon, [event](TODO_event.md), [pvp](TODO_
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@b615ccd9 | 2022-12-11 |      | won't take over, can be solved using SAI (Slave Pens) |
+| sol@189afd14 | 2022-12-11 |      | verify changes (Opening the Dark Portal) |
+| sol@c5e9a680 | 2022-12-11 |      | verify/rework SQL script (Underbog) |
 | sol@0b4b578b | 2022-12-06 |      | verify changes (Karazhan) |
 | sol@38a3774c | 2022-12-06 |      | verify changes (Blood Furnace) |
 | sol@08ff2f27 | 2022-12-06 |      | verify changes (Blackwing Lair) |
@@ -14,7 +17,7 @@ TODOs: [common](TODO.md), low prio: dungeon, [event](TODO_event.md), [pvp](TODO_
 | sol@090b923c | 2022-12-06 |      | verify/rework SQL script (Hellfire Ramparts) |
 | sol@5d991315 | 2022-12-06 |      | verify/rework SQL script (Blood Furnace) |
 | sol@ae22b005 | 2022-11-21 |      | verify/rework SQL script (Auchenai Crypts) |
-| sol@6f57cf1f | 2022-11-21 |      | verify/rework SQL script (also see sol@c7142539) (Underbog) |
+| sol@6f57cf1f | 2022-11-21 |      | verify/rework SQL script (also see sol@c7142539, sol@f4ccf150) (Underbog) |
 | sol@35a2453b | 2022-11-21 |      | verify/rework SQL script (Hellfire Ramparts) |
 | sol@90d819b5 | 2022-11-21 |      | verify/rework SQL script (Slave Pens) |
 | sol@39d11da1 | 2022-11-21 |      | verify/rework SQL script (Mana-Tombs) |
