@@ -6,6 +6,7 @@ TODOs: [common](TODO.md), low prio: dungeon, [event](TODO_event.md), [pvp](TODO_
 | sol@189afd14 | 2022-12-11 |      | verify changes (Opening the Dark Portal) |
 | sol@c5e9a680 | 2022-12-11 |      | verify/rework SQL script (Underbog) |
 | sol@0b4b578b | 2022-12-06 |      | verify changes (Karazhan) |
+| sol@82f4d46f | 2022-12-06 |      | verify/rework SQL script (Temple of Ahn'Qiraj) |
 | sol@38a3774c | 2022-12-06 |      | verify changes (Blood Furnace) |
 | sol@08ff2f27 | 2022-12-06 |      | verify changes (Blackwing Lair) |
 | sol@21bd9ab5 | 2022-12-06 |      | verify/rework SQL script (Auchenai Crypts) |

@@ -3898,6 +3898,23 @@ If the start position distance is far away the circle movement speed will be dec
 <td><p>Can be used to delay the kill of a creature, e.g. to show spell visuals before the creature dies. Use SMART_EVENT_KILL_DELAY_STARTED to trigger actions, for example to disable combat using SMART_ACTION_AUTO_ATTACK and SMART_ACTION_ALLOW_COMBAT_MOVEMENT.
 </p></td>
 </tr>
+<tr>
+<td><p>SMART_ACTION_SCALE</p></td>
+<td><p>242</p></td>
+<td><p>percent</p></td>
+<td><p><br />
+</p></td>
+<td><p><br />
+</p></td>
+<td><p><br />
+</p></td>
+<td><p><br />
+</p></td>
+<td><p><br />
+</p></td>
+<td><p>Scale the targeted unit or gameobject. If 0 percent is used the scaling is reset (either 100% or to the value specified in [creature_template.scale](creature_template.md#scale) or [gameobject_template.size](gameobject_template.md#size)).
+</p></td>
+</tr>
 </tbody>
 </table>
 

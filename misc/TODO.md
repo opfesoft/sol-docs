@@ -2,10 +2,10 @@ TODOs: common, low prio: [dungeon](TODO_dungeon.md), [event](TODO_event.md), [pv
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
-| sol@48609892 | 2022-12-12 |      | verify changes |
+| sol@81d05068 | 2022-12-13 |      | verify/rework SQL script; also adjust the position of the nearby Moonglade Warden |
+| sol@48609892 | 2022-12-12 | X    | verify changes; update: won't take over, already working correctly |
 | sol@72b446fb | 2022-12-11 |      | verify/rework SQL script & spell script |
 | sol@0a2a4c7f | 2022-12-11 |      | verify/rework SQL script |
-| sol@82f4d46f | 2022-12-06 |      | verify/rework SQL script |
 | sol@3a942390 | 2022-12-06 | X    | verify/rework SQL script; update: wrong, won't take over; reward was switched from item 3609 to 33792 in patch 2.3.0 |
 | sol@003bd936 | 2022-12-06 |      | verify changes; low prio (minor issue) |
 | sol@d32daab9 | 2022-12-06 | X    | won't take over, not needed, just reduce the respawn timers; done: sol@7d9c3d07 |
