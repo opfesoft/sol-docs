@@ -239,10 +239,15 @@ cp ~/sol-srv/etc/npc_beastmaster.conf.dist ~/sol-srv/etc/npc_beastmaster.conf
 cp ~/sol-srv/etc/transmog.conf.dist ~/sol-srv/etc/transmog.conf
 ```
 
-If using the customizations from mod-stoabrogga:
+- Stoabrogga's configuration files (needs customizations from mod-stoabrogga):
 ```
-cp ~/sol/modules/mod-stoabrogga/custom_module_configs/morphsummon.conf ~/sol-srv/etc/morphsummon.conf
-cp ~/sol/modules/mod-stoabrogga/custom_module_configs/npc_beastmaster.conf ~/sol-srv/etc/npc_beastmaster.conf
+cp ~/sol/modules/mod-stoabrogga/custom_configs/authserver.conf ~/sol-srv/etc/authserver.conf
+cp ~/sol/modules/mod-stoabrogga/custom_configs/worldserver.conf ~/sol-srv/etc/worldserver.conf
+cp ~/sol/modules/mod-stoabrogga/custom_configs/morphsummon.conf ~/sol-srv/etc/morphsummon.conf
+cp ~/sol/modules/mod-stoabrogga/custom_configs/npc_beastmaster.conf ~/sol-srv/etc/npc_beastmaster.conf
+cp ~/sol/modules/mod-stoabrogga/custom_configs/AutoBalance.conf ~/sol-srv/etc/AutoBalance.conf
+cp ~/sol/modules/mod-stoabrogga/custom_configs/mod_ahbot.conf ~/sol-srv/etc/mod_ahbot.conf
+cp ~/sol/modules/mod-stoabrogga/custom_configs/transmog.conf ~/sol-srv/etc/transmog.conf
 ```
 
 Change the `*.conf` files as needed.

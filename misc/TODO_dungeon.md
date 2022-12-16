@@ -2,7 +2,8 @@ TODOs: [common](TODO.md), low prio: dungeon, [event](TODO_event.md), [pvp](TODO_
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
-| sol@b615ccd9 | 2022-12-11 |      | won't take over, can be solved using SAI (Slave Pens) |
+| sol@f2b5838d | 2022-12-15 |      | verify/rework SQL script (Hellfire Ramparts, Blood Furnace, Underbog, Slave Pens, Mana-Tombs) |
+| sol@b615ccd9 | 2022-12-11 | X    | won't take over, can be solved using SAI (Slave Pens); done: sol@f4616123 |
 | sol@189afd14 | 2022-12-11 |      | verify changes (Opening the Dark Portal) |
 | sol@c5e9a680 | 2022-12-11 |      | verify/rework SQL script (Underbog) |
 | sol@0b4b578b | 2022-12-06 |      | verify changes (Karazhan) |

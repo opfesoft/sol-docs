@@ -2,7 +2,8 @@ TODOs: common, low prio: [dungeon](TODO_dungeon.md), [event](TODO_event.md), [pv
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
-| sol@81d05068 | 2022-12-13 |      | verify/rework SQL script; also adjust the position of the nearby Moonglade Warden |
+| sol@52704611 | 2022-12-15 |      | verify/rework SQL script |
+| sol@81d05068 | 2022-12-13 | X    | verify/rework SQL script; also adjust the position of the nearby Moonglade Warden; done: sol@b0f2b5e0 |
 | sol@48609892 | 2022-12-12 | X    | verify changes; update: won't take over, already working correctly |
 | sol@72b446fb | 2022-12-11 |      | verify/rework SQL script & spell script |
 | sol@0a2a4c7f | 2022-12-11 |      | verify/rework SQL script |
