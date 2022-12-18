@@ -2,7 +2,7 @@ TODOs: common, low prio: [dungeon](TODO_dungeon.md), [event](TODO_event.md), [pv
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
-| sol@52704611 | 2022-12-15 |      | verify/rework SQL script |
+| sol@52704611 | 2022-12-15 | X    | verify/rework SQL script; update: won't take over, Sol is not affected by this issue |
 | sol@81d05068 | 2022-12-13 | X    | verify/rework SQL script; also adjust the position of the nearby Moonglade Warden; done: sol@b0f2b5e0 |
 | sol@48609892 | 2022-12-12 | X    | verify changes; update: won't take over, already working correctly |
 | sol@72b446fb | 2022-12-11 |      | verify/rework SQL script & spell script |
@@ -20,16 +20,16 @@ TODOs: common, low prio: [dungeon](TODO_dungeon.md), [event](TODO_event.md), [pv
 | sol@f4d409d5 | 2022-12-06 |      | won't take over, verify/rework TC commit dd6541e3168b55b3d63b0c7a1bdaa3eb368ea281 instead |
 | sol@1b3c2984 | 2022-12-06 |      | won't take over; set faction 35 instead for creature IDs 18161 & 18162 |
 | sol@a3a91e6a | 2022-12-06 |      | verify/rework SQL script |
-| sol@7845ae68 | 2022-12-06 |      | only take over changes concerning the bookshelves; use SAI to root them |
-| sol@18fbe69c | 2022-12-06 |      | wrong emote, use 233 instead |
-| sol@b8616c05 | 2022-12-06 |      | verify/rework SQL script |
-| sol@190bdcb4 | 2022-12-02 |      | verify/rework SQL script |
-| sol@b45a35e4 | 2022-12-02 |      | use SAI instead |
-| sol@f827bb7e | 2022-12-02 |      | verify/rework SQL script |
+| sol@7845ae68 | 2022-12-06 | X    | only take over changes concerning the bookshelves; use SAI to root them; done: sol@b2049d96 |
+| sol@18fbe69c | 2022-12-06 | X    | wrong emote, use 233 instead; done: sol@ce7aac2b |
+| sol@b8616c05 | 2022-12-06 | X    | verify/rework SQL script; done: sol@6cdb4a59 |
+| sol@190bdcb4 | 2022-12-02 | X    | verify/rework SQL script; done: sol@6abe0aa0 |
+| sol@b45a35e4 | 2022-12-02 | X    | use SAI instead; done: sol@f9fe2a47 |
+| sol@f827bb7e | 2022-12-02 | X    | verify/rework SQL script; done: sol@19015753 |
 | sol@3d93d849 | 2022-11-21 | X    | verify/rework SQL script; done: sol@cb2d145f |
-| sol@e6aef88a | 2022-11-21 |      | verify changes |
+| sol@e6aef88a | 2022-11-21 | X    | verify changes; done: sol@1f59a26e |
 | sol@651bafa4 | 2022-11-21 | X    | verify/rework SQL script; done: sol@7ada191b |
-| sol@702c7d17 | 2022-11-21 |      | verify/rework SQL script |
+| sol@702c7d17 | 2022-11-21 | X    | verify/rework SQL script; done: sol@b8b086b1 |
 | sol@d9fafed8 | 2022-11-21 | X    | verify/rework SQL script; done: sol@d008bf22 |
 | sol@c791e208 | 2022-11-21 | X    | uses the wrong table, won't take over; also remove loot ID from creature template; done: sol@3e23c208 |
 | sol@00a80775 | 2022-11-21 | X    | won't take over, find another solution; done: sol@01eb9d46 |
