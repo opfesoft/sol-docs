@@ -19,7 +19,7 @@ TODOs: [common](TODO.md), low prio: dungeon, [event](TODO_event.md), [pvp](TODO_
 | sol@090b923c | 2022-12-06 |      | verify/rework SQL script (Hellfire Ramparts) |
 | sol@5d991315 | 2022-12-06 |      | verify/rework SQL script (Blood Furnace) |
 | sol@ae22b005 | 2022-11-21 |      | verify/rework SQL script (Auchenai Crypts) |
-| sol@6f57cf1f | 2022-11-21 |      | verify/rework SQL script (also see sol@c7142539, sol@f4ccf150) (Underbog) |
+| sol@6f57cf1f | 2022-11-21 |      | verify/rework SQL script (also see sol@c7142539, sol@f4ccf150, sol@35941483) (Underbog) |
 | sol@35a2453b | 2022-11-21 |      | verify/rework SQL script (Hellfire Ramparts) |
 | sol@90d819b5 | 2022-11-21 |      | verify/rework SQL script (Slave Pens) |
 | sol@39d11da1 | 2022-11-21 |      | verify/rework SQL script (Mana-Tombs) |

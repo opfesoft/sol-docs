@@ -77,12 +77,12 @@ New releases: https://github.com/jemalloc/jemalloc/releases
 
 ## ACE installation
 
-Example for ACE 7.0.10, installation in "~/sol-srv/lib/ace":
+Example for ACE 7.0.11, installation in "~/sol-srv/lib/ace":
 
 - Get package:
 ```
-curl -L 'https://github.com/DOCGroup/ACE_TAO/releases/download/ACE%2BTAO-7_0_10/ACE+TAO-7.0.10.tar.gz' >ACE+TAO-7.0.10.tar.gz
-tar -xzf ACE+TAO-7.0.10.tar.gz
+curl -L 'https://github.com/DOCGroup/ACE_TAO/releases/download/ACE%2BTAO-7_0_11/ACE+TAO-7.0.11.tar.gz' >ACE+TAO-7.0.11.tar.gz
+tar -xzf ACE+TAO-7.0.11.tar.gz
 ```
 
 - Set `ACE_ROOT`:
