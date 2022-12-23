@@ -80,6 +80,7 @@ The type of action performed by the script after [delay](#delay) seconds have pa
 | 34      | [PLAYMOVIE](#script_command_playmovie-34)                         | Plays movie.                                                             |
 | 35      | [MOVEMENT](#script_command_movement-35)                           | Change movement type.                                                    |
 | 50      | [DESPAWN\_CREATURE](#script_command_despawn_creature-50)          | Forces the closest creature with the specified creature entry to despawn.|
+| 51      | [SET\_DATA\_CREATURE](#script_command_set_data_creature-51)       | Set data for the closest creature with the specified creature entry.     |
 
 ### OtherFields
 
@@ -276,19 +277,27 @@ Depending on what command was used, the meaning and use for the following fields
 
 - source: Creature.
 - datalong: MovementType.
-- datalong2: MovementDistance (e.g. wander_distance for MovementType 1).
+- datalong2: MovementDistance (e.g. wander\_distance for MovementType 1).
 - dataint: pathid (for MovementType 2, see [waypoint\_data.id](waypoint_data.md#id)).
 
 #### \*SCRIPT\_COMMAND\_DESPAWN\_CREATURE = 50
 
-- source: Unit.
+- source: WorldObject.
 - datalong: [creature\_template.entry](creature_template.md#entry)
 - datalong2: Despawn delay.
 - x: Search range for creature entry
 
+#### \*SCRIPT\_COMMAND\_SET\_DATA\_CREATURE = 51
+
+- source: WorldObject.
+- datalong: ID
+- datalong2: Value
+- dataint: [creature\_template.entry](creature_template.md#entry)
+- x: Search range for creature entry
+
 ### guid
 
-Exists only for 'waypoint_scripts' and acts there as primary key; it is set automatically using the [GM command](../../misc/GM-Commands.md) 'wp event add'.
+Exists only for 'waypoint\_scripts' and acts there as primary key; it is set automatically using the [GM command](../../misc/GM-Commands.md) 'wp event add'.
 
 ### Summon Types
 
@@ -301,5 +310,5 @@ Exists only for 'waypoint_scripts' and acts there as primary key; it is set auto
 | TEMPSUMMON\_CORPSE\_DESPAWN                 | 5     | Despawns instantly after death.                                                       |
 | TEMPSUMMON\_CORPSE\_TIMED\_DESPAWN          | 6     | Despawns after a specified time after death.                                          |
 | TEMPSUMMON\_DEAD\_DESPAWN                   | 7     | Despawns when the creature disappears.                                                |
-| TEMPSUMMON\_MANUAL\_DESPAWN                 | 8     | Despawns when UnSummon() is called or other script actions are used, e.g. SMART_ACTION_FORCE_DESPAWN or SCRIPT_COMMAND_DESPAWN_CREATURE. |
+| TEMPSUMMON\_MANUAL\_DESPAWN                 | 8     | Despawns when UnSummon() is called or other script actions are used, e.g. SMART\_ACTION\_FORCE\_DESPAWN or SCRIPT\_COMMAND\_DESPAWN\_CREATURE. |
 
