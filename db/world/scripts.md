@@ -207,13 +207,15 @@ Depending on what command was used, the meaning and use for the following fields
 #### \*SCRIPT\_COMMAND\_PLAY\_SOUND = 16
 
 - source: WorldObject.
-- target: none (datalong2 & 1 0) or Player (datalong2 & 1 != 0).
+- target: none (datalong2 & 1 == 0) or Player (datalong2 & 1 != 0).
 - datalong: Sound ID.
 - datalong2:
   - 0 - play direct sound to everyone.
   - 1 - play direct sound to target (must be Player).
   - 2 - play sound with distance dependency to anyone.
   - 3 - play sound with distance dependency to target (must be Player).
+- dataint: if >0 use the closest creature with this entry as sound source.
+- x: Search range for creature entry (dataint)
 
 #### \*SCRIPT\_COMMAND\_CREATE\_ITEM = 17
 
