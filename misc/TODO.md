@@ -2,18 +2,21 @@ TODOs: common, low prio: [dungeon](TODO_dungeon.md), [event](TODO_event.md), [pv
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
-| sol@04edd74f | 2022-12-22 |      | won't take over, find another position |
-| sol@c158d4bd | 2022-12-22 |      | won't take over, find another position |
+| sol@a946e408 | 2022-12-25 |      | verify/rework SQL script; check the WP paths; low prio (Cosmetic) |
+| sol@2d477b1b | 2022-12-25 |      | verify/rework SQL script |
+| sol@0c1b967f | 2022-12-25 |      | won't take over, use the same solution as for the zeppelins (see sol@c07b92be); also keep event script 19030 (the AC commit overwrites this script) |
+| sol@c7f9f9bc | 2022-12-25 |      | verify changes; low prio (minor issue) |
+| sol@04edd74f | 2022-12-22 | X    | won't take over, find another position; done: sol@7f59b2ea |
+| sol@c158d4bd | 2022-12-22 | X    | won't take over, find another position; done: sol@87a7b194 |
 | sol@962cefdc | 2022-12-22 |      | verify changes; could cause unexpected bugs, probably find another solution; low prio (minor issue) |
-| sol@94e45ca9 | 2022-12-22 |      | verify/rework SQL script |
-| sol@cd539edb | 2022-12-22 |      | verify/rework SQL script |
+| sol@94e45ca9 | 2022-12-22 | X    | verify/rework SQL script; done: sol@bfa201b9 |
 | sol@408a7cfc | 2022-12-20 |      | verify/rework SQL script concerning creatures 18689 & 18684 |
 | sol@909dfe4b | 2022-12-20 |      | verify/rework SQL script; check the WP paths; low prio (Cosmetic) |
 | sol@52704611 | 2022-12-15 | X    | verify/rework SQL script; update: won't take over, Sol is not affected by this issue |
 | sol@81d05068 | 2022-12-13 | X    | verify/rework SQL script; also adjust the position of the nearby Moonglade Warden; done: sol@b0f2b5e0 |
 | sol@48609892 | 2022-12-12 | X    | verify changes; update: won't take over, already working correctly |
-| sol@72b446fb | 2022-12-11 |      | verify/rework SQL script & spell script |
-| sol@0a2a4c7f | 2022-12-11 |      | verify/rework SQL script |
+| sol@72b446fb | 2022-12-11 | X    | verify/rework SQL script & spell script; done: sol@4a345163 |
+| sol@0a2a4c7f | 2022-12-11 |      | verify/rework SQL script (also see sol@bf6e1ac4) |
 | sol@3a942390 | 2022-12-06 | X    | verify/rework SQL script; update: wrong, won't take over; reward was switched from item 3609 to 33792 in patch 2.3.0 |
 | sol@003bd936 | 2022-12-06 |      | verify changes; low prio (minor issue) |
 | sol@d32daab9 | 2022-12-06 | X    | won't take over, not needed, just reduce the respawn timers; done: sol@7d9c3d07 |
