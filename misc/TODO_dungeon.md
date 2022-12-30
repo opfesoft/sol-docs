@@ -2,6 +2,7 @@ TODOs: [common](TODO.md), low prio: dungeon, [event](TODO_event.md), [pvp](TODO_
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@233d2845 | 2022-12-27 |      | verify changes (Blackwing Lair) |
 | sol@cd539edb | 2022-12-22 |      | verify/rework SQL script (Hellfire Ramparts) |
 | sol@f2b5838d | 2022-12-15 |      | verify/rework SQL script (Hellfire Ramparts, Blood Furnace, Underbog, Slave Pens, Mana-Tombs) |
 | sol@b615ccd9 | 2022-12-11 | X    | won't take over, can be solved using SAI (Slave Pens); done: sol@f4616123 |
