@@ -2,6 +2,8 @@ TODOs: common, low prio: [dungeon](TODO_dungeon.md), [event](TODO_event.md), [pv
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@43b42b1b | 2022-12-31 |      | verify/rework SQL script; check the WP paths; low prio (Cosmetic) |
+| sol@7729684b | 2022-12-30 |      | won't take over, find another position |
 | sol@dcf73d5e | 2022-12-29 |      | verify/rework SQL script (only for creature ID 17137) |
 | sol@3da3dada | 2022-12-28 |      | verify/rework SQL script |
 | sol@00570aac | 2022-12-28 |      | verify/rework SQL script |

@@ -2,6 +2,7 @@ TODOs: [common](TODO.md), low prio: dungeon, [event](TODO_event.md), [pvp](TODO_
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@ae80d310 | 2022-12-30 |      | verify/rework SQL script (Vault of Archavon) |
 | sol@233d2845 | 2022-12-27 |      | verify changes (Blackwing Lair) |
 | sol@cd539edb | 2022-12-22 |      | verify/rework SQL script (Hellfire Ramparts) |
 | sol@f2b5838d | 2022-12-15 |      | verify/rework SQL script (Hellfire Ramparts, Blood Furnace, Underbog, Slave Pens, Mana-Tombs) |
