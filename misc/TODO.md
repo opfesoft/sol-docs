@@ -8,7 +8,7 @@ TODOs: common, low prio: [dungeon](TODO_dungeon.md), [event](TODO_event.md), [pv
 | sol@3da3dada | 2022-12-28 |      | verify/rework SQL script |
 | sol@00570aac | 2022-12-28 |      | verify/rework SQL script |
 | sol@63459587 | 2022-12-28 |      | verify changes; low prio (minor issue) |
-| sol@ba796bee | 2022-12-27 |      | verify changes; also remove obsolete comments and spell IDs |
+| sol@ba796bee | 2022-12-27 | X    | verify changes; also remove obsolete comments and spell IDs; implemented another solution: sol@d0cd1cd9 |
 | sol@a946e408 | 2022-12-25 |      | verify/rework SQL script; check the WP paths; low prio (Cosmetic) |
 | sol@2d477b1b | 2022-12-25 |      | verify/rework SQL script |
 | sol@0c1b967f | 2022-12-25 | X    | won't take over, use the same solution as for the zeppelins (see sol@c07b92be); also keep event script 19030 (the AC commit overwrites this script); done: sol@600ee999 |
