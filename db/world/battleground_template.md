@@ -312,6 +312,10 @@ The location where the horde players get teleported to when the battleground fir
 
 The orientation of the horde players upon teleport into the battleground. North is 0, south is Pi (3.14159).
 
+### StartMaxDist
+
+If >0 checks the distance from the start location for all players during preparation. If the distance is greater the player is teleported back to the start location.
+
 ### Weight
 
 Determines what battleground(s) will be more frequently chosen when using Random Battleground.

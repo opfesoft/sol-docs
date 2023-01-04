@@ -2,6 +2,8 @@ TODOs: common, low prio: [dungeon](TODO_dungeon.md), [event](TODO_event.md), [pv
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@ada13bc8 | 2023-01-02 |      | verify/rework SQL script |
+| sol@9e18b863 | 2023-01-02 |      | verify changes; low prio (minor issue) |
 | sol@43b42b1b | 2022-12-31 |      | verify/rework SQL script; check the WP paths; low prio (Cosmetic) |
 | sol@7729684b | 2022-12-30 |      | won't take over, find another position |
 | sol@dcf73d5e | 2022-12-29 |      | verify/rework SQL script (only for creature ID 17137) |
@@ -23,11 +25,11 @@ TODOs: common, low prio: [dungeon](TODO_dungeon.md), [event](TODO_event.md), [pv
 | sol@81d05068 | 2022-12-13 | X    | verify/rework SQL script; also adjust the position of the nearby Moonglade Warden; done: sol@b0f2b5e0 |
 | sol@48609892 | 2022-12-12 | X    | verify changes; update: won't take over, already working correctly |
 | sol@72b446fb | 2022-12-11 | X    | verify/rework SQL script & spell script; done: sol@4a345163 |
-| sol@0a2a4c7f | 2022-12-11 |      | verify/rework SQL script (also see sol@bf6e1ac4) |
+| sol@0a2a4c7f | 2022-12-11 | X    | verify/rework SQL script (also see sol@bf6e1ac4); done: sol@a5021ce1 |
 | sol@3a942390 | 2022-12-06 | X    | verify/rework SQL script; update: wrong, won't take over; reward was switched from item 3609 to 33792 in patch 2.3.0 |
 | sol@003bd936 | 2022-12-06 |      | verify changes; low prio (minor issue) |
 | sol@d32daab9 | 2022-12-06 | X    | won't take over, not needed, just reduce the respawn timers; done: sol@7d9c3d07 |
-| sol@868053d4 | 2022-12-06 |      | verify changes; low prio (minor issue) |
+| sol@868053d4 | 2022-12-06 |      | verify changes (also see sol@e35078a1); low prio (minor issue) |
 | sol@1466a100 | 2022-12-06 |      | verify/rework SQL script; low prio (obsolete quests) |
 | sol@e000060e | 2022-12-06 | X    | verify/rework SQL script; done: sol@c7929367 |
 | sol@67adf3c9 | 2022-12-06 | X    | adapt to Sol; done: sol@5100874e |

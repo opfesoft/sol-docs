@@ -2,6 +2,7 @@ TODOs: [common](TODO.md), low prio: dungeon, [event](TODO_event.md), [pvp](TODO_
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@b7e002eb | 2023-01-02 |      | verify changes (also see sol@9e18b863) (Underbog) |
 | sol@84489966 | 2023-01-01 |      | verify changes (also see sol@a9bc936b, sol@fe3487f0, sol@e7a865ce) (Underbog) |
 | sol@ae80d310 | 2022-12-30 |      | verify/rework SQL script (Vault of Archavon) |
 | sol@233d2845 | 2022-12-27 |      | verify changes (Blackwing Lair) |
@@ -434,7 +435,7 @@ TODOs: [common](TODO.md), low prio: dungeon, [event](TODO_event.md), [pvp](TODO_
 | sol@9bf2800c | 2021-03-29 |      | verify changes (Ulduar) |
 | sol@7a5e4be7 | 2021-03-28 |      | verify changes (Utgarde Keep) |
 | sol@b1af0192 | 2021-03-24 |      | verify changes (Vault of Archavon) |
-| sol@8ba442bd | 2021-03-23 |      | verify changes (also see bugfixes sol@6745746c, sol@e2dd6b2b) (Naxxramas) |
+| sol@8ba442bd | 2021-03-23 |      | verify changes (also see bugfixes sol@6745746c, sol@e2dd6b2b, sol@f057ef6b) (Naxxramas) |
 | sol@aea4ce30 | 2021-03-20 |      | verify changes (Ulduar) |
 | sol@0d19ac43 | 2021-03-17 |      | verify changes (Ulduar) |
 | sol@252f56c0 | 2021-03-17 |      | verify changes (Ulduar) |
