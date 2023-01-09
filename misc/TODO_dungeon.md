@@ -2,6 +2,14 @@ TODOs: [common](TODO.md), low prio: dungeon, [event](TODO_event.md), [pvp](TODO_
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@dbeffd14 | 2023-01-07 |      | verify changes (Zul'Aman) |
+| sol@312c1eac | 2023-01-07 |      | verify changes (Underbog) |
+| sol@8cb88cce | 2023-01-07 |      | verify changes (Underbog) |
+| sol@4b31a4df | 2023-01-05 |      | verify changes (Karazhan) |
+| sol@25971eed | 2023-01-05 |      | verify/rework SQL script (Escape from Durnholde Keep) |
+| sol@f162af54 | 2023-01-05 |      | verify/rework SQL script (Escape from Durnholde Keep) |
+| sol@9d667658 | 2023-01-04 |      | verify/rework SQL script (Escape from Durnholde Keep) |
+| sol@b4080ed0 | 2023-01-04 |      | verify changes (Blackrock Depths) |
 | sol@b7e002eb | 2023-01-02 |      | verify changes (also see sol@9e18b863) (Underbog) |
 | sol@84489966 | 2023-01-01 |      | verify changes (also see sol@a9bc936b, sol@fe3487f0, sol@e7a865ce) (Underbog) |
 | sol@ae80d310 | 2022-12-30 |      | verify/rework SQL script (Vault of Archavon) |
@@ -17,7 +25,7 @@ TODOs: [common](TODO.md), low prio: dungeon, [event](TODO_event.md), [pvp](TODO_
 | sol@08ff2f27 | 2022-12-06 |      | verify changes (Blackwing Lair) |
 | sol@21bd9ab5 | 2022-12-06 |      | verify/rework SQL script (Auchenai Crypts) |
 | sol@975fd878 | 2022-12-06 |      | verify/rework SQL script (Slave Pens & Steamvault) |
-| sol@ac65434f | 2022-12-06 |      | verify changes (Hellfire Ramparts) |
+| sol@ac65434f | 2022-12-06 |      | verify changes (also see sol@9798ccd8) (Hellfire Ramparts) |
 | sol@b7f81ab3 | 2022-12-06 |      | verify changes (Hellfire Ramparts) |
 | sol@c30f621c | 2022-12-06 |      | verify/rework SQL script; also check the SAI condition (this has been forgotten in the AC commit) (Blood Furnace) |
 | sol@9f2b3c9f | 2022-12-06 |      | verify/rework SQL script (Auchenai Crypts) |
@@ -311,7 +319,7 @@ TODOs: [common](TODO.md), low prio: dungeon, [event](TODO_event.md), [pvp](TODO_
 | sol@37d92f8d | 2022-03-09 |      | verify changes (Ulduar) |
 | sol@3cab4f46 | 2022-03-08 |      | verify/rework SQL script (Blackwing Lair) |
 | sol@a0d9d59b | 2022-03-08 |      | verify changes (Blackwing Lair) |
-| sol@d8358321 | 2022-03-07 |      | verify changes (Onyxia's Lair) |
+| sol@d8358321 | 2022-03-07 |      | verify changes (also see sol@171b05a7) (Onyxia's Lair) |
 | sol@41cc053c | 2022-03-06 |      | verify changes (Blackwing Lair) |
 | sol@1392cee3 | 2022-03-06 |      | verify changes (Blackwing Lair) |
 | sol@a74e57fb | 2022-03-06 |      | verify changes (Blackwing Lair) |

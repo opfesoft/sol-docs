@@ -2,8 +2,13 @@ TODOs: common, low prio: [dungeon](TODO_dungeon.md), [event](TODO_event.md), [pv
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
-| sol@ada13bc8 | 2023-01-02 |      | verify/rework SQL script |
-| sol@9e18b863 | 2023-01-02 |      | verify changes; low prio (minor issue) |
+| sol@6788c7ea | 2023-01-07 |      | won't take over, verify/rework TC commit 4d338b1d4d6ddf449e52c38f6cb9cdeb9cbf32fe instead |
+| sol@1b2c1600 | 2023-01-06 |      | verify/rework SQL script |
+| sol@6889ed4f | 2023-01-05 |      | verify changes; low prio (minor issue) |
+| sol@14f3b444 | 2023-01-05 |      | take over if needed |
+| sol@1c523bd6 | 2023-01-04 |      | take over if needed |
+| sol@ada13bc8 | 2023-01-02 | X    | verify/rework SQL script; done: sol@f7a857a4 |
+| sol@9e18b863 | 2023-01-02 |      | verify changes (also see sol@8d2dda24, sol@ed2997ab); low prio (minor issue) |
 | sol@43b42b1b | 2022-12-31 |      | verify/rework SQL script; check the WP paths; low prio (Cosmetic) |
 | sol@7729684b | 2022-12-30 |      | won't take over, find another position |
 | sol@dcf73d5e | 2022-12-29 |      | verify/rework SQL script (only for creature ID 17137) |
@@ -19,7 +24,7 @@ TODOs: common, low prio: [dungeon](TODO_dungeon.md), [event](TODO_event.md), [pv
 | sol@c158d4bd | 2022-12-22 | X    | won't take over, find another position; done: sol@87a7b194 |
 | sol@962cefdc | 2022-12-22 |      | verify changes; could cause unexpected bugs, probably find another solution; low prio (minor issue) |
 | sol@94e45ca9 | 2022-12-22 | X    | verify/rework SQL script; done: sol@bfa201b9 |
-| sol@408a7cfc | 2022-12-20 |      | verify/rework SQL script concerning creatures 18689 & 18684 |
+| sol@408a7cfc | 2022-12-20 | X    | verify/rework SQL script concerning creatures 18689 & 18684; done: sol@56a67013, sol@a83d6462 |
 | sol@909dfe4b | 2022-12-20 |      | verify/rework SQL script; check the WP paths; low prio (Cosmetic) |
 | sol@52704611 | 2022-12-15 | X    | verify/rework SQL script; update: won't take over, Sol is not affected by this issue |
 | sol@81d05068 | 2022-12-13 | X    | verify/rework SQL script; also adjust the position of the nearby Moonglade Warden; done: sol@b0f2b5e0 |

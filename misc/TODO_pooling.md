@@ -2,6 +2,7 @@ TODOs: [common](TODO.md), low prio: [dungeon](TODO_dungeon.md), [event](TODO_eve
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@2ec522be | 2023-01-04 |      | verify/rework SQL script; verify pools & spawn locations |
 | sol@a899fbba | 2022-12-06 |      | verify/rework SQL script; verify pools & spawn locations |
 | sol@496a877a | 2022-12-02 |      | verify/rework SQL script; verify pools & spawn locations |
 | sol@26a76487 | 2022-11-12 |      | verify changes |
