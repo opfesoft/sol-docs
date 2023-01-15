@@ -2,6 +2,7 @@ TODOs: common, low prio: [dungeon](TODO_dungeon.md), [event](TODO_event.md), [pv
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@fced6226 | 2023-01-14 |      | add items 31331 & 34622 to loot 29569 and reference 29569 (perhaps use another ID) to all junkboxes |
 | sol@6788c7ea | 2023-01-07 |      | won't take over, verify/rework TC commit 4d338b1d4d6ddf449e52c38f6cb9cdeb9cbf32fe instead |
 | sol@1b2c1600 | 2023-01-06 |      | verify/rework SQL script |
 | sol@6889ed4f | 2023-01-05 |      | verify changes; low prio (minor issue) |
