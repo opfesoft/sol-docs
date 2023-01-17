@@ -2,6 +2,11 @@ TODOs: common, low prio: [dungeon](TODO_dungeon.md), [event](TODO_event.md), [pv
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@b7c7d3c4 | 2023-01-16 |      | verify/rework SQL script |
+| sol@70830fd9 | 2023-01-16 |      | verify/rework SQL script |
+| sol@82f2d4e0 | 2023-01-16 |      | verify/rework SQL script |
+| sol@12f4a28b | 2023-01-15 |      | won't work reliably with multiple DB threads, find another solution |
+| sol@14885e3e | 2023-01-15 |      | take over if needed |
 | sol@fced6226 | 2023-01-14 |      | add items 31331 & 34622 to loot 29569 and reference 29569 (perhaps use another ID) to all junkboxes |
 | sol@6788c7ea | 2023-01-07 |      | won't take over, verify/rework TC commit 4d338b1d4d6ddf449e52c38f6cb9cdeb9cbf32fe instead |
 | sol@1b2c1600 | 2023-01-06 |      | verify/rework SQL script |
@@ -18,7 +23,7 @@ TODOs: common, low prio: [dungeon](TODO_dungeon.md), [event](TODO_event.md), [pv
 | sol@63459587 | 2022-12-28 |      | verify changes; low prio (minor issue) |
 | sol@ba796bee | 2022-12-27 | X    | verify changes; also remove obsolete comments and spell IDs; implemented another solution: sol@d0cd1cd9 |
 | sol@a946e408 | 2022-12-25 |      | verify/rework SQL script; check the WP paths; low prio (Cosmetic) |
-| sol@2d477b1b | 2022-12-25 |      | verify/rework SQL script |
+| sol@2d477b1b | 2022-12-25 | X    | verify/rework SQL script; done: sol@e89017ed |
 | sol@0c1b967f | 2022-12-25 | X    | won't take over, use the same solution as for the zeppelins (see sol@c07b92be); also keep event script 19030 (the AC commit overwrites this script); done: sol@600ee999 |
 | sol@c7f9f9bc | 2022-12-25 |      | verify changes; low prio (minor issue) |
 | sol@04edd74f | 2022-12-22 | X    | won't take over, find another position; done: sol@7f59b2ea |

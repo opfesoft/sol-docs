@@ -2,6 +2,10 @@ TODOs: [common](TODO.md), low prio: dungeon, [event](TODO_event.md), [pvp](TODO_
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@5a538872 | 2023-01-16 |      | verify/rework SQL script (Escape from Durnholde Keep) |
+| sol@cf151de5 | 2023-01-16 |      | verify/rework SQL script (Escape from Durnholde Keep) |
+| sol@95ae8d3f | 2023-01-16 |      | verify/rework SQL script (Underbog) |
+| sol@1a2d1c22 | 2023-01-16 |      | verify changes (Sethekk Halls) |
 | sol@9cdf7362 | 2023-01-14 |      | verify/rework SQL script (Escape from Durnholde Keep) |
 | sol@dbeffd14 | 2023-01-07 |      | verify changes (Zul'Aman) |
 | sol@312c1eac | 2023-01-07 |      | verify changes (Underbog) |
@@ -33,7 +37,7 @@ TODOs: [common](TODO.md), low prio: dungeon, [event](TODO_event.md), [pvp](TODO_
 | sol@090b923c | 2022-12-06 |      | verify/rework SQL script (Hellfire Ramparts) |
 | sol@5d991315 | 2022-12-06 |      | verify/rework SQL script (Blood Furnace) |
 | sol@ae22b005 | 2022-11-21 |      | verify/rework SQL script (Auchenai Crypts) |
-| sol@6f57cf1f | 2022-11-21 |      | verify/rework SQL script (also see sol@c7142539, sol@f4ccf150, sol@35941483) (Underbog) |
+| sol@6f57cf1f | 2022-11-21 |      | verify/rework SQL script (also see sol@c7142539, sol@f4ccf150, sol@35941483, sol@edcfe8ff) (Underbog) |
 | sol@35a2453b | 2022-11-21 |      | verify/rework SQL script (Hellfire Ramparts) |
 | sol@90d819b5 | 2022-11-21 |      | verify/rework SQL script (also see sol@85711bcd) (Slave Pens) |
 | sol@39d11da1 | 2022-11-21 |      | verify/rework SQL script (Mana-Tombs) |

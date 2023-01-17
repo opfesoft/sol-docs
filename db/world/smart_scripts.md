@@ -3826,7 +3826,7 @@ If the start position distance is far away the circle movement speed will be dec
 <td><p>SMART_ACTION_CREATURE_FORMATION</p></td>
 <td><p>237</p></td>
 <td><p>[creature_formations.groupAI](creature_formations.md#groupai)</p></td>
-<td><p>leave formation (0/1)</p></td>
+<td><p>update formation (0: create, 1: leave, 2: update formation info)</p></td>
 <td><p><br />
 </p></td>
 <td><p><br />
