@@ -18,7 +18,7 @@ TODOs: [common](TODO.md), low prio: dungeon, [event](TODO_event.md), [pvp](TODO_
 | sol@b7e002eb | 2023-01-02 |      | verify changes (also see sol@9e18b863) (Underbog) |
 | sol@84489966 | 2023-01-01 |      | verify changes (also see sol@a9bc936b, sol@fe3487f0, sol@e7a865ce) (Underbog) |
 | sol@ae80d310 | 2022-12-30 |      | verify/rework SQL script (Vault of Archavon) |
-| sol@233d2845 | 2022-12-27 |      | verify changes (Blackwing Lair) |
+| sol@233d2845 | 2022-12-27 |      | verify changes (also see sol@1de52e55) (Blackwing Lair) |
 | sol@cd539edb | 2022-12-22 |      | verify/rework SQL script (Hellfire Ramparts) |
 | sol@f2b5838d | 2022-12-15 |      | verify/rework SQL script (Hellfire Ramparts, Blood Furnace, Underbog, Slave Pens, Mana-Tombs) |
 | sol@b615ccd9 | 2022-12-11 | X    | won't take over, can be solved using SAI (Slave Pens); done: sol@f4616123 |

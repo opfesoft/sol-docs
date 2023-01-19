@@ -5,7 +5,7 @@ TODOs: common, low prio: [dungeon](TODO_dungeon.md), [event](TODO_event.md), [pv
 | sol@b7c7d3c4 | 2023-01-16 |      | verify/rework SQL script |
 | sol@70830fd9 | 2023-01-16 |      | verify/rework SQL script |
 | sol@82f2d4e0 | 2023-01-16 |      | verify/rework SQL script |
-| sol@12f4a28b | 2023-01-15 |      | won't work reliably with multiple DB threads, find another solution |
+| sol@12f4a28b | 2023-01-15 | X    | won't work reliably with multiple DB threads, find another solution; done: sol@cfe01c40 |
 | sol@14885e3e | 2023-01-15 |      | take over if needed |
 | sol@fced6226 | 2023-01-14 |      | add items 31331 & 34622 to loot 29569 and reference 29569 (perhaps use another ID) to all junkboxes |
 | sol@6788c7ea | 2023-01-07 |      | won't take over, verify/rework TC commit 4d338b1d4d6ddf449e52c38f6cb9cdeb9cbf32fe instead |
