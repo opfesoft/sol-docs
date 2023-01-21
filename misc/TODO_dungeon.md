@@ -6,7 +6,7 @@ TODOs: [common](TODO.md), low prio: dungeon, [event](TODO_event.md), [pvp](TODO_
 | sol@cf151de5 | 2023-01-16 |      | verify/rework SQL script (Escape from Durnholde Keep) |
 | sol@95ae8d3f | 2023-01-16 |      | verify/rework SQL script (Underbog) |
 | sol@1a2d1c22 | 2023-01-16 |      | verify changes (Sethekk Halls) |
-| sol@9cdf7362 | 2023-01-14 |      | verify/rework SQL script (Escape from Durnholde Keep) |
+| sol@9cdf7362 | 2023-01-14 |      | verify/rework SQL script (also see sol@9db2bf96) (Escape from Durnholde Keep) |
 | sol@dbeffd14 | 2023-01-07 |      | verify changes (Zul'Aman) |
 | sol@312c1eac | 2023-01-07 |      | verify changes (Underbog) |
 | sol@8cb88cce | 2023-01-07 |      | verify changes (Underbog) |
@@ -358,7 +358,7 @@ TODOs: [common](TODO.md), low prio: dungeon, [event](TODO_event.md), [pvp](TODO_
 | sol@090f9f8c | 2022-01-19 |      | verify/rework SQL script (Blackwing Lair) |
 | sol@b74fb81b | 2022-01-16 |      | verify changes (Blackwing Lair) |
 | sol@3cc3afbd | 2022-01-16 |      | verify/rework SQL script (Molten Core) |
-| sol@c6934b06 | 2022-01-14 |      | verify/rework SQL script (also see sol@03a72cfc, sol@d891259f) (Lower Blackrock Spire) |
+| sol@c6934b06 | 2022-01-14 |      | verify/rework SQL script (also see sol@03a72cfc, sol@d891259f, sol@320468af) (Lower Blackrock Spire) |
 | sol@f89f0301 | 2022-01-11 |      | won't take over, fix linked\_respawn instead (Molten Core) |
 | sol@8216318f | 2022-01-01 |      | won't take over, fix linked\_respawn instead (Molten Core) |
 | sol@9b3b6113 | 2021-12-16 |      | verify changes (also see sol@124ea8a1, sol@d3b381c2) (Blackrock Depths) |

@@ -2,24 +2,25 @@ TODOs: common, low prio: [dungeon](TODO_dungeon.md), [event](TODO_event.md), [pv
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@7dec2e59 | 2023-01-21 |      | verify/rework SQL script |
 | sol@b7c7d3c4 | 2023-01-16 |      | verify/rework SQL script |
 | sol@70830fd9 | 2023-01-16 |      | verify/rework SQL script |
 | sol@82f2d4e0 | 2023-01-16 |      | verify/rework SQL script |
 | sol@12f4a28b | 2023-01-15 | X    | won't work reliably with multiple DB threads, find another solution; done: sol@cfe01c40 |
 | sol@14885e3e | 2023-01-15 |      | take over if needed |
 | sol@fced6226 | 2023-01-14 |      | add items 31331 & 34622 to loot 29569 and reference 29569 (perhaps use another ID) to all junkboxes |
-| sol@6788c7ea | 2023-01-07 |      | won't take over, verify/rework TC commit 4d338b1d4d6ddf449e52c38f6cb9cdeb9cbf32fe instead |
-| sol@1b2c1600 | 2023-01-06 |      | verify/rework SQL script |
+| sol@6788c7ea | 2023-01-07 | X    | won't take over, verify/rework TC commit 4d338b1d4d6ddf449e52c38f6cb9cdeb9cbf32fe instead; done: sol@8ff14953 |
+| sol@1b2c1600 | 2023-01-06 | X    | verify/rework SQL script; done: sol@21cf79c9 |
 | sol@6889ed4f | 2023-01-05 |      | verify changes; low prio (minor issue) |
 | sol@14f3b444 | 2023-01-05 |      | take over if needed |
 | sol@1c523bd6 | 2023-01-04 |      | take over if needed |
 | sol@ada13bc8 | 2023-01-02 | X    | verify/rework SQL script; done: sol@f7a857a4 |
 | sol@9e18b863 | 2023-01-02 |      | verify changes (also see sol@8d2dda24, sol@ed2997ab); low prio (minor issue) |
 | sol@43b42b1b | 2022-12-31 |      | verify/rework SQL script; check the WP paths; low prio (Cosmetic) |
-| sol@7729684b | 2022-12-30 |      | won't take over, find another position |
-| sol@dcf73d5e | 2022-12-29 |      | verify/rework SQL script (only for creature ID 17137) |
-| sol@3da3dada | 2022-12-28 |      | verify/rework SQL script |
-| sol@00570aac | 2022-12-28 |      | verify/rework SQL script |
+| sol@7729684b | 2022-12-30 | X    | won't take over, find another position; done: sol@e1c6061c |
+| sol@dcf73d5e | 2022-12-29 | X    | verify/rework SQL script (only for creature ID 17137); done: sol@62988c94 |
+| sol@3da3dada | 2022-12-28 | X    | verify/rework SQL script; update: already fixed, see sol@69dd72e3 |
+| sol@00570aac | 2022-12-28 | X    | verify/rework SQL script; done: sol@61f193d5 |
 | sol@63459587 | 2022-12-28 |      | verify changes; low prio (minor issue) |
 | sol@ba796bee | 2022-12-27 | X    | verify changes; also remove obsolete comments and spell IDs; implemented another solution: sol@d0cd1cd9 |
 | sol@a946e408 | 2022-12-25 |      | verify/rework SQL script; check the WP paths; low prio (Cosmetic) |
