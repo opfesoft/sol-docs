@@ -5,7 +5,7 @@ TODOs: [common](TODO.md), low prio: dungeon, [event](TODO_event.md), [pvp](TODO_
 | sol@5a538872 | 2023-01-16 |      | verify/rework SQL script (Escape from Durnholde Keep) |
 | sol@cf151de5 | 2023-01-16 |      | verify/rework SQL script (Escape from Durnholde Keep) |
 | sol@95ae8d3f | 2023-01-16 |      | verify/rework SQL script (Underbog) |
-| sol@1a2d1c22 | 2023-01-16 |      | verify changes (Sethekk Halls) |
+| sol@1a2d1c22 | 2023-01-16 |      | verify changes (also see sol@71de46df) (Sethekk Halls) |
 | sol@9cdf7362 | 2023-01-14 |      | verify/rework SQL script (also see sol@9db2bf96) (Escape from Durnholde Keep) |
 | sol@dbeffd14 | 2023-01-07 |      | verify changes (Zul'Aman) |
 | sol@312c1eac | 2023-01-07 |      | verify changes (Underbog) |
