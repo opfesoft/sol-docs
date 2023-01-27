@@ -2,6 +2,9 @@ TODOs: [common](TODO.md), low prio: dungeon, [event](TODO_event.md), [pvp](TODO_
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@ff8374ac | 2023-01-25 |      | verify/rework SQL script (Escape from Durnholde Keep) |
+| sol@13aca320 | 2023-01-25 |      | verify/rework SQL script (Escape from Durnholde Keep) |
+| sol@fdfb866c | 2023-01-25 |      | verify/rework SQL script (Escape from Durnholde Keep) |
 | sol@5a538872 | 2023-01-16 |      | verify/rework SQL script (Escape from Durnholde Keep) |
 | sol@cf151de5 | 2023-01-16 |      | verify/rework SQL script (Escape from Durnholde Keep) |
 | sol@95ae8d3f | 2023-01-16 |      | verify/rework SQL script (Underbog) |
