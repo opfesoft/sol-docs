@@ -2,6 +2,9 @@ TODOs: common, low prio: [dungeon](TODO_dungeon.md), [event](TODO_event.md), [pv
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@97b26c4e | 2023-01-28 |      | wrong, won't take over; loot reference 24065 is correct, just reduce the chance |
+| sol@9ce8b8cf | 2023-01-28 |      | verify changes; low prio (minor issue) |
+| sol@7f7a2f5a | 2023-01-28 |      | wrong, won't take over; not all critters should run away; fleeing has to be scripted for specific critters only; low prio (minor issue) |
 | sol@f2317ac0 | 2023-01-24 |      | verify/rework SQL script; verify positions; adapt to Sol |
 | sol@7dec2e59 | 2023-01-21 | X    | verify/rework SQL script; done: sol@f5b5c581 |
 | sol@b7c7d3c4 | 2023-01-16 | X    | verify/rework SQL script; done: sol@d0485a52 |
@@ -587,7 +590,7 @@ TODOs: common, low prio: [dungeon](TODO_dungeon.md), [event](TODO_event.md), [pv
 | sol@4fb2dc1f | 2021-09-18 |      | take over if needed |
 | sol@a02b9ef7 | 2021-09-17 | X    | verify/rework SQL script; done: sol@f7252917 |
 | sol@f6f18cb5 | 2021-09-17 | X    | verify changes; update: wrong, won't take over: according to the 2.0.3 patch notes the combo points should not reset until a combo point is applied to a different target; it does not seem that this has been changed until 3.3.5 |
-| sol@4dc642d5 | 2021-09-16 |      | take over if needed; also see sol@d464ee70 |
+| sol@4dc642d5 | 2021-09-16 |      | take over if needed; also see sol@d464ee70, sol@f59ee4ef |
 | sol@f1e9b674 | 2021-09-16 | X    | verify/rework SQL script; done: sol@fbf5c469 |
 | sol@7406a01a | 2021-09-13 |      | take over parts if needed, also see sol@107658eb, sol@d6118de1, sol@60fb2c38, sol@3aadaa6d, sol@70257303, sol@89f0c42c, sol@a6a85c0d, sol@4e70e604 |
 | sol@009ba568 | 2021-09-13 | X    | verify/rework SQL script; done: sol@b17eef44 |

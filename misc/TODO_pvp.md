@@ -2,6 +2,8 @@ TODOs: [common](TODO.md), low prio: [dungeon](TODO_dungeon.md), [event](TODO_eve
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@160d3141 | 2023-01-28 |      | verify changes |
+| sol@d25ca1f9 | 2023-01-28 |      | verify changes |
 | sol@bd536a03 | 2022-09-21 |      | verify changes |
 | sol@814a8695 | 2022-09-21 |      | verify/rework SQL script |
 | sol@406f2bcd | 2022-08-31 |      | verify changes |

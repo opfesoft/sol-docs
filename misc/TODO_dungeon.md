@@ -2,6 +2,9 @@ TODOs: [common](TODO.md), low prio: dungeon, [event](TODO_event.md), [pvp](TODO_
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@6ae8ffa8 | 2023-01-28 |      | verify changes (Gruul's Lair) |
+| sol@ae2e3a4e | 2023-01-28 |      | verify changes (Magtheridon's Lair) |
+| sol@131e69d6 | 2023-01-28 |      | should not exceed 250, choose another value (Temple of Ahn'Qiraj) |
 | sol@ff8374ac | 2023-01-25 |      | verify/rework SQL script (Escape from Durnholde Keep) |
 | sol@13aca320 | 2023-01-25 |      | verify/rework SQL script (Escape from Durnholde Keep) |
 | sol@fdfb866c | 2023-01-25 |      | verify/rework SQL script (Escape from Durnholde Keep) |
