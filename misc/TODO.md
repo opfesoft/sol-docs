@@ -2,6 +2,9 @@ TODOs: common, low prio: [dungeon](TODO_dungeon.md), [event](TODO_event.md), [pv
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@58f0f862 | 2023-01-31 |      | keep as reference; take over single values if needed; won't blindly take over such mass updates (don't care about sniffs) |
+| sol@086f4d10 | 2023-01-31 |      | verify/rework SQL script (also see Sol commit sol@6abe0aa0) |
+| sol@3e18f981 | 2023-01-31 |      | verify/rework SQL script |
 | sol@97b26c4e | 2023-01-28 |      | wrong, won't take over; loot reference 24065 is correct, just reduce the chance |
 | sol@9ce8b8cf | 2023-01-28 |      | verify changes; low prio (minor issue) |
 | sol@7f7a2f5a | 2023-01-28 |      | wrong, won't take over; not all critters should run away; fleeing has to be scripted for specific critters only; low prio (minor issue) |

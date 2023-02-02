@@ -2,6 +2,11 @@ TODOs: [common](TODO.md), low prio: dungeon, [event](TODO_event.md), [pvp](TODO_
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@439c3947 | 2023-02-01 |      | verify changes (Karazhan) |
+| sol@579a1c0f | 2023-01-31 |      | verify changes (Karazhan) |
+| sol@263c5e12 | 2023-01-31 |      | verify changes (Blood Furnace) |
+| sol@5fb83d8d | 2023-01-31 |      | verify/rework SQL script (Mana-Tombs) |
+| sol@0cccb7d9 | 2023-01-31 |      | verify/rework SQL script (Pit of Saron) |
 | sol@6ae8ffa8 | 2023-01-28 |      | verify changes (Gruul's Lair) |
 | sol@ae2e3a4e | 2023-01-28 |      | verify changes (Magtheridon's Lair) |
 | sol@131e69d6 | 2023-01-28 |      | should not exceed 250, choose another value (Temple of Ahn'Qiraj) |
