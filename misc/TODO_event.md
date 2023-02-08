@@ -2,6 +2,7 @@ TODOs: [common](TODO.md), low prio: [dungeon](TODO_dungeon.md), event, [pvp](TOD
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@f3f2364b | 2023-02-08 |      | verify changes (Love is in the Air) |
 | sol@fdc73508 | 2022-12-25 |      | verify/rework SQL script (Feast of Winter Veil) |
 | sol@d3339aee | 2022-12-25 |      | verify/rework SQL script (Feast of Winter Veil) |
 | sol@e2bf207a | 2022-12-06 |      | verify changes (Brewfest) |

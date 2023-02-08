@@ -2,6 +2,7 @@ TODOs: common, low prio: [dungeon](TODO_dungeon.md), [event](TODO_event.md), [pv
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@1bc727c9 | 2023-02-04 |      | verify/rework SQL script |
 | sol@58f0f862 | 2023-01-31 |      | keep as reference; take over single values if needed; won't blindly take over such mass updates (don't care about sniffs) |
 | sol@086f4d10 | 2023-01-31 |      | verify/rework SQL script (also see Sol commit sol@6abe0aa0) |
 | sol@3e18f981 | 2023-01-31 |      | verify/rework SQL script |
@@ -593,7 +594,7 @@ TODOs: common, low prio: [dungeon](TODO_dungeon.md), [event](TODO_event.md), [pv
 | sol@4fb2dc1f | 2021-09-18 |      | take over if needed |
 | sol@a02b9ef7 | 2021-09-17 | X    | verify/rework SQL script; done: sol@f7252917 |
 | sol@f6f18cb5 | 2021-09-17 | X    | verify changes; update: wrong, won't take over: according to the 2.0.3 patch notes the combo points should not reset until a combo point is applied to a different target; it does not seem that this has been changed until 3.3.5 |
-| sol@4dc642d5 | 2021-09-16 |      | take over if needed; also see sol@d464ee70, sol@f59ee4ef |
+| sol@4dc642d5 | 2021-09-16 |      | take over if needed; also see sol@d464ee70, sol@f59ee4ef, sol@8aa331b4 |
 | sol@f1e9b674 | 2021-09-16 | X    | verify/rework SQL script; done: sol@fbf5c469 |
 | sol@7406a01a | 2021-09-13 |      | take over parts if needed, also see sol@107658eb, sol@d6118de1, sol@60fb2c38, sol@3aadaa6d, sol@70257303, sol@89f0c42c, sol@a6a85c0d, sol@4e70e604 |
 | sol@009ba568 | 2021-09-13 | X    | verify/rework SQL script; done: sol@b17eef44 |

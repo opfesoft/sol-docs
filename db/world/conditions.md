@@ -466,7 +466,8 @@ This will show or hide spells in vehicle spell bar.</td>
 <td>EntryOrGuid (<a href="smart_scripts.md#entryorguid">smart_scripts.entryorguid</a>)</td>
 <td>SourceType (<a href="smart_scripts.md#source_type">smart_scripts.source_type</a>)</td>
 <td>0 = Invoker<br />
-1 = Object</td>
+1 = Object<br />
+2 = Victim</td>
 <td><br />
 </td>
 </tr>
@@ -1238,6 +1239,7 @@ Note: it will show or hide spells in vehicle spell bar.
     -   ConditionTarget:
         -   0 - Invoker
         -   1 - Object
+        -   2 - Victim
 
 \***CONDITION\_SOURCE\_TYPE\_NPC\_VENDOR = 23**
 
