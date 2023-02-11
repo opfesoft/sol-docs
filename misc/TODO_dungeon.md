@@ -2,6 +2,15 @@ TODOs: [common](TODO.md), low prio: dungeon, [event](TODO_event.md), [pvp](TODO_
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@f4dbb044 | 2023-02-11 |      | verify changes (Opening the Dark Portal) |
+| sol@3bd988d1 | 2023-02-11 |      | verify changes (Opening the Dark Portal) |
+| sol@f4d861c2 | 2023-02-11 |      | verify/rework SQL script (Karazhan) |
+| sol@da6e21f7 | 2023-02-11 |      | verify changes (Karazhan) |
+| sol@102f7680 | 2023-02-11 |      | verify changes (Botanica) |
+| sol@f496535c | 2023-02-11 |      | verify changes (Opening the Dark Portal) |
+| sol@41d270a4 | 2023-02-11 |      | verify changes (Karazhan) |
+| sol@15731486 | 2023-02-11 |      | verify changes (Azjol-Nerub) |
+| sol@fbaa48e2 | 2023-02-11 |      | verify changes (Underbog) |
 | sol@3eaf1452 | 2023-02-06 |      | verify/rework SQL script (Opening the Dark Portal) |
 | sol@ac4828b7 | 2023-02-06 |      | verify/rework SQL script (Opening the Dark Portal) |
 | sol@32587b76 | 2023-02-05 |      | take over if needed |

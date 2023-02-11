@@ -2,6 +2,11 @@ TODOs: common, low prio: [dungeon](TODO_dungeon.md), [event](TODO_event.md), [pv
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@8927d0cb | 2023-02-11 |      | verify/rework SQL script |
+| sol@636d9a79 | 2023-02-11 |      | verify/rework SQL script |
+| sol@2a29acac | 2023-02-11 |      | verify/rework SQL script |
+| sol@4ec8af5b | 2023-02-10 |      | verify/rework SQL script; also see TC commit 23f904afb498704f75bc124effaf72a945e773ce |
+| sol@13b23397 | 2023-02-10 |      | verify/rework SQL script; also see TC commit 48bd5633cd076d8819d62adf1ad39557fb22734d |
 | sol@1bc727c9 | 2023-02-04 |      | verify/rework SQL script |
 | sol@58f0f862 | 2023-01-31 |      | keep as reference; take over single values if needed; won't blindly take over such mass updates (don't care about sniffs) |
 | sol@086f4d10 | 2023-01-31 |      | verify/rework SQL script (also see Sol commit sol@6abe0aa0) |
@@ -9,7 +14,7 @@ TODOs: common, low prio: [dungeon](TODO_dungeon.md), [event](TODO_event.md), [pv
 | sol@97b26c4e | 2023-01-28 |      | wrong, won't take over; loot reference 24065 is correct, just reduce the chance |
 | sol@9ce8b8cf | 2023-01-28 |      | verify changes; low prio (minor issue) |
 | sol@7f7a2f5a | 2023-01-28 |      | wrong, won't take over; not all critters should run away; fleeing has to be scripted for specific critters only; low prio (minor issue) |
-| sol@f2317ac0 | 2023-01-24 |      | verify/rework SQL script; verify positions; adapt to Sol |
+| sol@f2317ac0 | 2023-01-24 | X    | verify/rework SQL script; verify positions; adapt to Sol; done: sol@c23fa78d |
 | sol@7dec2e59 | 2023-01-21 | X    | verify/rework SQL script; done: sol@f5b5c581 |
 | sol@b7c7d3c4 | 2023-01-16 | X    | verify/rework SQL script; done: sol@d0485a52 |
 | sol@70830fd9 | 2023-01-16 | X    | verify/rework SQL script; done: sol@52e213e3 |
