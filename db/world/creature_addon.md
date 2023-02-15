@@ -197,3 +197,4 @@ List of useful aura entries (examples):
 -   '18950' - Makes the creature detect other invisible units (players or creatures).
 -   '16380 18950' - Both auras above
 
+Important: Do not use temporary auras for spawned creatures, this will lead to a warning in the server log.

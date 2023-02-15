@@ -3884,7 +3884,7 @@ If the start position distance is far away the circle movement speed will be dec
 <tr>
 <td><p>SMART_ACTION_SET_KILL_DELAY</p></td>
 <td><p>241</p></td>
-<td><p>delay (in seconds)</p></td>
+<td><p>delay (in ms)</p></td>
 <td><p><br />
 </p></td>
 <td><p><br />

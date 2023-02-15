@@ -2,6 +2,17 @@ TODOs: [common](TODO.md), low prio: dungeon, [event](TODO_event.md), [pvp](TODO_
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@25c77a59 | 2023-02-14 |      | verify changes (Ulduar) |
+| sol@3b178666 | 2023-02-12 |      | verify changes (Karazhan) |
+| sol@2da4f1ab | 2023-02-12 |      | verify changes (Hellfire Ramparts) |
+| sol@af8a927d | 2023-02-12 |      | verify changes (Ulduar) |
+| sol@f33da284 | 2023-02-12 |      | verify changes (Arcatraz) |
+| sol@98d158ba | 2023-02-12 |      | verify/rework SQL script (Shattered Halls) |
+| sol@44dba5a8 | 2023-02-12 |      | verify/rework SQL script (Shattered Halls) |
+| sol@3d9a5599 | 2023-02-12 |      | verify changes (Gruul's Lair) |
+| sol@c3c10aa1 | 2023-02-12 |      | verify/rework SQL script (Botanica) |
+| sol@48ce9575 | 2023-02-12 |      | verify changes (Opening the Dark Portal) |
+| sol@d29c523a | 2023-02-12 |      | verify/rework SQL script (Mechanar) |
 | sol@f4dbb044 | 2023-02-11 |      | verify changes (Opening the Dark Portal) |
 | sol@3bd988d1 | 2023-02-11 |      | verify changes (Opening the Dark Portal) |
 | sol@f4d861c2 | 2023-02-11 |      | verify/rework SQL script (Karazhan) |
@@ -21,7 +32,7 @@ TODOs: [common](TODO.md), low prio: dungeon, [event](TODO_event.md), [pvp](TODO_
 | sol@439c3947 | 2023-02-01 |      | verify changes (Karazhan) |
 | sol@579a1c0f | 2023-01-31 |      | verify changes (Karazhan) |
 | sol@263c5e12 | 2023-01-31 |      | verify changes (Blood Furnace) |
-| sol@5fb83d8d | 2023-01-31 |      | verify/rework SQL script (Mana-Tombs) |
+| sol@5fb83d8d | 2023-01-31 |      | verify/rework SQL script (also see sol@2595e0c2) (Mana-Tombs) |
 | sol@0cccb7d9 | 2023-01-31 |      | verify/rework SQL script (Pit of Saron) |
 | sol@6ae8ffa8 | 2023-01-28 |      | verify changes (Gruul's Lair) |
 | sol@ae2e3a4e | 2023-01-28 |      | verify changes (Magtheridon's Lair) |
@@ -93,12 +104,12 @@ TODOs: [common](TODO.md), low prio: dungeon, [event](TODO_event.md), [pvp](TODO_
 | sol@dd4fa389 | 2022-09-25 |      | verify changes (Molten Core) |
 | sol@337c308d | 2022-09-21 |      | verify changes (also see sol@3c8a148b) (Temple of Ahn'Qiraj) |
 | sol@c79edad2 | 2022-09-21 |      | verify changes (Upper Blackrock Spire) |
-| sol@e3f9ad1e | 2022-09-21 |      | verify changes (Naxxramas) |
+| sol@e3f9ad1e | 2022-09-21 |      | verify changes (also see sol@590ab7c6) (Naxxramas) |
 | sol@f50c4bf3 | 2022-09-19 |      | verify changes (needs sol@76f976fd) (Blackwing Lair) |
 | sol@11cfcc84 | 2022-09-19 |      | verify changes (Temple of Ahn'Qiraj) |
 | sol@0f84e3ed | 2022-09-19 |      | verify changes (Lower Blackrock Spire) |
 | sol@23c3b184 | 2022-09-19 |      | verify changes (also see sol@b3e20ea7) (Temple of Ahn'Qiraj) |
-| sol@2682697d | 2022-09-17 |      | verify changes (also see sol@26017b64, sol@811ef478, sol@f5c7883d, sol@436d7afd, sol@6263a0a8, sol@33cba08f, sol@572a4325, sol@b35c907c, sol@77044670, sol@bfa68b08, sol@9d93a7e4, sol@6cb85d2f, sol@ff5983cb, sol@afebbb81, sol@42c4c293, sol@888f9bb0, sol@55957fbb, sol@608a80a0, sol@c08a5ba3) (Temple of Ahn'Qiraj) |
+| sol@2682697d | 2022-09-17 |      | verify changes (also see sol@26017b64, sol@811ef478, sol@f5c7883d, sol@436d7afd, sol@6263a0a8, sol@33cba08f, sol@572a4325, sol@b35c907c, sol@77044670, sol@bfa68b08, sol@9d93a7e4, sol@6cb85d2f, sol@ff5983cb, sol@afebbb81, sol@42c4c293, sol@888f9bb0, sol@55957fbb, sol@608a80a0, sol@c08a5ba3, sol@1edd29f2) (Temple of Ahn'Qiraj) |
 | sol@216d569e | 2022-09-14 |      | verify changes (Temple of Ahn'Qiraj) |
 | sol@59f74753 | 2022-09-14 |      | verify changes (Temple of Ahn'Qiraj) |
 | sol@a1f44f98 | 2022-09-14 |      | verify changes (Temple of Ahn'Qiraj) |

@@ -2,11 +2,16 @@ TODOs: common, low prio: [dungeon](TODO_dungeon.md), [event](TODO_event.md), [pv
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@1694eec2 | 2023-02-12 |      | verify/rework SQL script |
+| sol@9f149b80 | 2023-02-12 |      | verify/rework SQL script |
+| sol@f6b7d2b8 | 2023-02-12 |      | verify/rework SQL script; also see TC commit e4d8e044a0c994e548adb3b674830d315b35333f |
+| sol@1251939d | 2023-02-12 |      | won't take over, rework the existing SAI scripts |
+| sol@5a9aeada | 2023-02-12 |      | take over if needed |
 | sol@8927d0cb | 2023-02-11 |      | verify/rework SQL script |
 | sol@636d9a79 | 2023-02-11 |      | verify/rework SQL script |
 | sol@2a29acac | 2023-02-11 |      | verify/rework SQL script |
 | sol@4ec8af5b | 2023-02-10 |      | verify/rework SQL script; also see TC commit 23f904afb498704f75bc124effaf72a945e773ce |
-| sol@13b23397 | 2023-02-10 |      | verify/rework SQL script; also see TC commit 48bd5633cd076d8819d62adf1ad39557fb22734d |
+| sol@13b23397 | 2023-02-10 | X    | verify/rework SQL script; also see TC commit 48bd5633cd076d8819d62adf1ad39557fb22734d; done: sol@188a710c |
 | sol@1bc727c9 | 2023-02-04 |      | verify/rework SQL script |
 | sol@58f0f862 | 2023-01-31 |      | keep as reference; take over single values if needed; won't blindly take over such mass updates (don't care about sniffs) |
 | sol@086f4d10 | 2023-01-31 |      | verify/rework SQL script (also see Sol commit sol@6abe0aa0) |
