@@ -1,4 +1,4 @@
-TODOs: [common](TODO.md), low prio: [dungeon](TODO_dungeon.md), [event](TODO_event.md), [pvp](TODO_pvp.md), [localization](TODO_localization.md), pooling
+TODOs: [common](TODO.md), low prio: [cosmetic](TODO_cosmetic.md), [dungeon](TODO_dungeon.md), [event](TODO_event.md), [pvp](TODO_pvp.md), [localization](TODO_localization.md), pooling
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|

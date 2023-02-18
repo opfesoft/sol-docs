@@ -6,6 +6,10 @@
   (for more information, see: [https://wowwiki.fandom.com/wiki/CVar\_timingMethod](https://wowwiki.fandom.com/wiki/CVar_timingMethod), citation [below](#cvar-timingmethod))
 - Prevent occasional camera height jumps:<br>
   This can happen near shallow water, e.g. near the pool in Valley of Honor, Orgrimmar. To prevent this turn off "Options -> Interface -> Camera -> Water Collision" (it is recommended to turn off everything which automatically repositions the camera).
+- Increase visibility distance of landscape:<br>
+  Add the following lines to "WTF/config.wtf":<br>
+  `SET farclip "1277"`<br>
+  `SET horizonFarclipScale "6"`<br>
 
 ## CVar timingMethod
 

@@ -1,7 +1,9 @@
-TODOs: common, low prio: [dungeon](TODO_dungeon.md), [event](TODO_event.md), [pvp](TODO_pvp.md), [localization](TODO_localization.md), [pooling](TODO_pooling.md)
+TODOs: common, low prio: [cosmetic](TODO_cosmetic.md), [dungeon](TODO_dungeon.md), [event](TODO_event.md), [pvp](TODO_pvp.md), [localization](TODO_localization.md), [pooling](TODO_pooling.md)
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@f25c90da | 2023-02-17 |      | verify/rework SQL script (also see sol@1e4e663a) |
+| sol@cb18f73c | 2023-02-17 |      | verify/rework SQL script (also see creature ID 19527) |
 | sol@1694eec2 | 2023-02-12 |      | verify/rework SQL script |
 | sol@9f149b80 | 2023-02-12 |      | verify/rework SQL script |
 | sol@f6b7d2b8 | 2023-02-12 |      | verify/rework SQL script; also see TC commit e4d8e044a0c994e548adb3b674830d315b35333f |
@@ -34,14 +36,12 @@ TODOs: common, low prio: [dungeon](TODO_dungeon.md), [event](TODO_event.md), [pv
 | sol@1c523bd6 | 2023-01-04 |      | take over if needed |
 | sol@ada13bc8 | 2023-01-02 | X    | verify/rework SQL script; done: sol@f7a857a4 |
 | sol@9e18b863 | 2023-01-02 |      | verify changes (also see sol@8d2dda24, sol@ed2997ab); low prio (minor issue) |
-| sol@43b42b1b | 2022-12-31 |      | verify/rework SQL script; check the WP paths; low prio (Cosmetic) |
 | sol@7729684b | 2022-12-30 | X    | won't take over, find another position; done: sol@e1c6061c |
 | sol@dcf73d5e | 2022-12-29 | X    | verify/rework SQL script (only for creature ID 17137); done: sol@62988c94 |
 | sol@3da3dada | 2022-12-28 | X    | verify/rework SQL script; update: already fixed, see sol@69dd72e3 |
 | sol@00570aac | 2022-12-28 | X    | verify/rework SQL script; done: sol@61f193d5 |
 | sol@63459587 | 2022-12-28 |      | verify changes; low prio (minor issue) |
 | sol@ba796bee | 2022-12-27 | X    | verify changes; also remove obsolete comments and spell IDs; implemented another solution: sol@d0cd1cd9 |
-| sol@a946e408 | 2022-12-25 |      | verify/rework SQL script; check the WP paths; low prio (Cosmetic) |
 | sol@2d477b1b | 2022-12-25 | X    | verify/rework SQL script; done: sol@e89017ed |
 | sol@0c1b967f | 2022-12-25 | X    | won't take over, use the same solution as for the zeppelins (see sol@c07b92be); also keep event script 19030 (the AC commit overwrites this script); done: sol@600ee999 |
 | sol@c7f9f9bc | 2022-12-25 |      | verify changes; low prio (minor issue) |
@@ -50,7 +50,6 @@ TODOs: common, low prio: [dungeon](TODO_dungeon.md), [event](TODO_event.md), [pv
 | sol@962cefdc | 2022-12-22 |      | verify changes; could cause unexpected bugs, probably find another solution; low prio (minor issue) |
 | sol@94e45ca9 | 2022-12-22 | X    | verify/rework SQL script; done: sol@bfa201b9 |
 | sol@408a7cfc | 2022-12-20 | X    | verify/rework SQL script concerning creatures 18689 & 18684; done: sol@56a67013, sol@a83d6462 |
-| sol@909dfe4b | 2022-12-20 |      | verify/rework SQL script; check the WP paths; low prio (Cosmetic) |
 | sol@52704611 | 2022-12-15 | X    | verify/rework SQL script; update: won't take over, Sol is not affected by this issue |
 | sol@81d05068 | 2022-12-13 | X    | verify/rework SQL script; also adjust the position of the nearby Moonglade Warden; done: sol@b0f2b5e0 |
 | sol@48609892 | 2022-12-12 | X    | verify changes; update: won't take over, already working correctly |
@@ -106,13 +105,11 @@ TODOs: common, low prio: [dungeon](TODO_dungeon.md), [event](TODO_event.md), [pv
 | sol@171d5d4b | 2022-10-11 | X    | verify/rework SQL script; check the auras and only take over valid updates; done: sol@88cd59bb |
 | sol@077fbaee | 2022-10-11 | X    | verify/rework SQL script; done: sol@ae2960b2 |
 | sol@e390087e | 2022-10-08 |      | verify changes (also see sol@25275541, sol@4ac43741); take over if needed |
-| sol@a4ddc22a | 2022-10-07 |      | adapt to Sol (use "creature\_id\_chance"); low prio (Cosmetic) |
 | sol@c34cb0c5 | 2022-10-06 | X    | verify/rework SQL script; won't take over (buggy); implemented another solution: sol@1aaf8464 |
 | sol@10c5cc1b | 2022-10-01 | X    | verify/rework SQL script; won't take over: item 20797 already has 100% drop chance, won't reduce the chance for item 20482 |
 | sol@fa002503 | 2022-10-01 | X    | verify changes; done: sol@fc0c6f54 |
 | sol@81d20888 | 2022-09-28 |      | verify/rework SQL script; low prio (obsolete quests) |
 | sol@91daa6cb | 2022-09-25 | X    | won't take over, does not work correctly; find another solution; done: sol@e2fa9f3b |
-| sol@043aa7cb | 2022-09-22 |      | verify creature IDs (use "creature\_id\_chance"); low prio (Cosmetic) |
 | sol@9844580c | 2022-09-21 |      | keep as reference; take over single values if needed; won't blindly take over such mass updates (don't care about sniffs) |
 | sol@e87e56a0 | 2022-09-21 |      | keep as reference; take over single values if needed; won't blindly take over such mass updates (don't care about sniffs) |
 | sol@e273d6f4 | 2022-09-21 | X    | verify changes; done: sol@fc01410f |
@@ -130,7 +127,6 @@ TODOs: common, low prio: [dungeon](TODO_dungeon.md), [event](TODO_event.md), [pv
 | sol@701361d8 | 2022-09-07 | X    | won't take over, update quest\_template\_addon instead; done: sol@cdc62c1a |
 | sol@045ade23 | 2022-09-07 | X    | verify/rework SQL script; done: sol@3335e950 |
 | sol@b601471d | 2022-09-06 | X    | verify/rework SQL script; done: sol@d6d8b675 |
-| sol@b96ad3a2 | 2022-09-06 | X    | verify/rework SQL script; check the WP paths; low prio (Cosmetic); done: sol@11b6ddce |
 | sol@d5ac35c4 | 2022-09-06 |      | verify/rework SQL script; low prio (RDF) |
 | sol@b1e83118 | 2022-09-06 | X    | verify/rework SQL script; won't take over, Sol is not affected by this issue |
 | sol@3f64c375 | 2022-09-06 |      | verify/rework SQL script; low prio (obsolete quests) |
@@ -146,7 +142,6 @@ TODOs: common, low prio: [dungeon](TODO_dungeon.md), [event](TODO_event.md), [pv
 | sol@986cb213 | 2022-08-15 | X    | verify/rework SQL script; done: sol@35637c63 |
 | sol@523d4fbb | 2022-08-15 |      | verify changes; low prio (World Boss) |
 | sol@accaec8f | 2022-08-14 | X    | verify/rework SQL script; done: sol@6ededfd5 |
-| sol@572a680c | 2022-08-02 | X    | verify changes (also see sol@1c6eab58); low prio (Cosmetic); done: sol@af50fe15 |
 | sol@a4cd022c | 2022-08-01 | X    | verify/rework SQL script; done: sol@6991c29a |
 | sol@9f030e09 | 2022-08-01 | X    | won't take over; adjust movement/position (perhaps use WP paths); set Occulus large; add flag CREATURE\_FLAG\_EXTRA\_CIVILIAN for Tick, Occulus and Chronalis; done: sol@1a2b5c19 |
 | sol@7327a55b | 2022-08-01 | X    | not working, find another solution; done: sol@e0e9d8fe |
@@ -155,7 +150,6 @@ TODOs: common, low prio: [dungeon](TODO_dungeon.md), [event](TODO_event.md), [pv
 | sol@92b6d3b7 | 2022-08-01 | X    | there are several other mushrooms nearby with wrong position, check these GUIDs: 16415,16416,16417,16418,16419,16420,16421,16422,16423,16424,16425,16426,16429,16430,16431,16433,16434,16435,16437,16438,16442,16443,16445,16447,16448,33858,46364,46365,46366,63149,64898,64899,86138,86139,86140,87460; done: sol@313239e1 |
 | sol@4444410f | 2022-07-31 | X    | verify/rework SQL script; done: sol@ee8ea869 |
 | sol@62ffa757 | 2022-07-29 |      | verify changes; low prio (World Boss) |
-| sol@8f386e83 | 2022-07-26 |      | verify/rework SQL script; check the WP paths; low prio (Cosmetic) |
 | sol@c19d6b74 | 2022-07-25 |      | verify changes; low prio (minor issue) |
 | sol@7aea91fc | 2022-07-25 | X    | won't take over, find another solution (also affects Water Shield & Earth Shield); low prio (minor issue); can be handled using conditions: sol@05a8a40b |
 | sol@d9dde933 | 2022-07-24 | X    | verify/rework SQL script; done: sol@d0ad7d3c |
@@ -167,8 +161,6 @@ TODOs: common, low prio: [dungeon](TODO_dungeon.md), [event](TODO_event.md), [pv
 | sol@6cef7305 | 2022-07-20 | X    | verify/rework SQL script; done: sol@63874cd5 |
 | sol@37cc3ffa | 2022-07-20 | X    | only take over the creature formation; done: sol@8ed899d9 |
 | sol@654ad10b | 2022-07-12 |      | verify changes; low prio (World Boss) |
-| sol@4d85488e | 2022-07-10 |      | verify/rework SQL script; check the WP paths; low prio (Cosmetic) |
-| sol@40e28f24 | 2022-07-10 |      | verify/rework SQL script; check the WP paths; low prio (Cosmetic) |
 | sol@5930eed6 | 2022-07-10 | X    | won't take over, fix the broadcast texts instead (contains values from MoP); done: sol@41c6cf91 |
 | sol@1c3faed4 | 2022-07-03 | X    | won't take over (Sol is not affected by this issue and the script contains bugs, e.g. Heb'Jin should not be summoned, he's a permanent spawn); the already existing SAI needs to be reworked; done: sol@7dbb0afe |
 | sol@b76b6c4e | 2022-07-03 | X    | won't take over, rework SAI instead (there are 2 different creature IDs with SAI: 31773 & 32442!); done: sol@d82afb25 |
@@ -191,9 +183,7 @@ TODOs: common, low prio: [dungeon](TODO_dungeon.md), [event](TODO_event.md), [pv
 | sol@b273da1a | 2022-06-13 |      | verify changes; low prio (World Boss) |
 | sol@491f7338 | 2022-06-12 |      | verify changes; low prio (World Boss) |
 | sol@9aa3fef4 | 2022-06-08 | X    | verify changes; done: sol@9f5e2e10 |
-| sol@9a475ed4 | 2022-06-08 |      | verify/rework SQL script; check the WP paths; low prio (Cosmetic) |
 | sol@f28c678c | 2022-06-06 | X    | verify changes; implemented another solution: sol@b003587b |
-| sol@08118e16 | 2022-06-04 |      | verify/rework SQL script; check the WP paths; low prio (Cosmetic) |
 | sol@c027e907 | 2022-06-02 | X    | verify/rework SQL script; update: won't take over, Sol is not affected by the issue |
 | sol@cca4b90c | 2022-06-02 | X    | verify/rework SQL script; done: sol@1bde0bdd |
 | sol@86ea1998 | 2022-05-30 | X    | verify changes; split into multiple commits; done: sol@dec2ab76, sol@fd32848c, sol@9859bded, sol@215aebdc, sol@e51d5df6, sol@81b3fc2c, sol@cc01f591 |
@@ -209,7 +199,6 @@ TODOs: common, low prio: [dungeon](TODO_dungeon.md), [event](TODO_event.md), [pv
 | sol@5dea6b6d | 2022-05-17 | X    | verify/rework SQL script; done: sol@7aa5de20 |
 | sol@1cc015b5 | 2022-05-17 | X    | won't take over, take over SAI for Warden Nork Bloodfrenzy & Valiance Keep Officer from TC instead; implemented another solution: sol@021c3f36 |
 | sol@691d1d8e | 2022-05-17 | X    | also take over the broadcast text IDs from TC; done: sol@3d33fdfe |
-| sol@aab3348e | 2022-05-17 | X    | just take over (and rework) a few useful changes; low prio (Cosmetic); done: sol@a08c5e16 |
 | sol@d3cb7b36 | 2022-05-11 |      | verify/rework SQL script; actually not needed at all as the quests were removed with patch 3.2.2 |
 | sol@0bb78923 | 2022-05-08 | X    | verify/rework SQL script; done: sol@b91d55ee |
 | sol@9402bd81 | 2022-05-08 | X    | fix typos and use correct syntax for strings based on character gender; done: sol@e71b8c96 |
@@ -232,51 +221,30 @@ TODOs: common, low prio: [dungeon](TODO_dungeon.md), [event](TODO_event.md), [pv
 | sol@edd21199 | 2022-04-14 | X    | use UPDATE instead of DELETE/INSERT; done: sol@1b3fda9d |
 | sol@cd32ac5a | 2022-04-01 | X    | verify/rework SQL script; done: sol@cfa8b522 |
 | sol@cb6d579d | 2022-03-28 | X    | verify/rework SQL script; done: sol@45ed47be (contained a few bugs, does not seem to have been thoroughly tested) |
-| sol@337d7e77 | 2022-03-27 | X    | just take over (and rework) a few useful changes; low prio (Cosmetic); done: sol@32ddd427, sol@553a9e88, sol@6aec47ab |
 | sol@1e1754a6 | 2022-03-27 | X    | just take over (and rework) a few useful changes, e.g. concerning removal of Reginald Windsor or the Adam and Billy duplicates; done: sol@82c0d5f0, sol@5ebd1240, sol@02602ab7, sol@c6fc2604 |
 | sol@dfa2198d | 2022-03-27 | X    | won't take over, properly disable player interaction during execution of the timed action list; rework SAI for 17214 & 17215; done: sol@099ff51b |
 | sol@c6dcf778 | 2022-03-27 | X    | rework creature script "npc\_stone\_watcher\_of\_norgannon" instead; done: sol@5abd343f (removed the creature script) |
 | sol@62dfeeef | 2022-03-27 | X    | verify/rework SQL script; done: sol@578dc54e |
-| sol@2fd47728 | 2022-03-27 |      | verify/rework SQL script; check the WP paths; low prio (Cosmetic) |
 | sol@f0eb6d36 | 2022-03-25 |      | verify changes; low prio (minor issue) |
 | sol@c7a77653 | 2022-03-23 | X    | use UPDATE instead of DELETE/INSERT; done: sol@843a1c32 |
 | sol@b0bcfc18 | 2022-03-21 | X    | take over from TC instead; done: sol@3cd0e155 |
 | sol@199d2159 | 2022-03-18 | X    | won't take over, rework SAI instead; done: sol@bec285e0 |
 | sol@5cc54993 | 2022-03-18 | X    | verify/rework SQL script; update: wrong, won't take over; AC removed the flag UNIT\_NPC\_FLAG\_GOSSIP via commit dd15fa706d6aa2f841b0a521fd9ebd03fdb0f97f which is wrong (NPCs may have the flag set even if no gossip menu ID is specified because the gossip menu is created using CreatureScript) |
-| sol@9d4cc721 | 2022-03-18 |      | verify/rework SQL script; check the WP paths; low prio (Cosmetic) |
-| sol@f2ab17f5 | 2022-03-18 |      | verify/rework SQL script; check the WP paths; low prio (Cosmetic) |
 | sol@6c60dc38 | 2022-03-15 |      | verify changes; low prio (minor issue) |
 | sol@4806769b | 2022-03-14 |      | verify/rework SQL script; low prio (minor issue) |
 | sol@d61ebd75 | 2022-03-12 | X    | verify/rework SQL script; low prio (minor issue); done: sol@bb5c8b71 |
 | sol@f2f0b742 | 2022-03-08 | X    | verify/rework SQL script; update: already fixed, see sol@3e61589b |
 | sol@a7aecd12 | 2022-03-07 | X    | also update npcflag of the affected creatures (quest\_greeting is only used if UNIT\_NPC\_FLAG\_GOSSIP is not set and UNIT\_NPC\_FLAG\_QUESTGIVER is set); done: sol@b5a8944d |
-| sol@f6971730 | 2022-03-06 |      | verify/rework SQL script; check the WP paths; low prio (Cosmetic) |
-| sol@95fc46d1 | 2022-03-06 |      | verify/rework SQL script; check the WP path & creature formation; low prio (Cosmetic) |
-| sol@623c3f19 | 2022-03-06 |      | verify/rework SQL script; check the WP paths; low prio (Cosmetic) |
-| sol@b03078f8 | 2022-03-06 |      | verify/rework SQL script; check the WP path; low prio (Cosmetic) |
-| sol@9ac35d30 | 2022-03-06 |      | verify/rework SQL script; check the WP path; low prio (Cosmetic) |
-| sol@a216c4e7 | 2022-03-06 |      | verify/rework SQL script; check the WP paths; low prio (Cosmetic) |
-| sol@4f0b6da6 | 2022-03-06 |      | verify/rework SQL script; check the WP path; low prio (Cosmetic) |
-| sol@b3673737 | 2022-03-06 |      | verify/rework SQL script; check the WP path; low prio (Cosmetic) |
-| sol@512d7000 | 2022-03-06 |      | verify/rework SQL script; check the WP path; low prio (Cosmetic) |
-| sol@dc579642 | 2022-03-06 |      | verify/rework SQL script; check the WP path; low prio (Cosmetic) |
 | sol@d927ce6f | 2022-03-06 | X    | adapt to Sol; only take over absolutely necessary changes (e.g. won't take over the reload command); done: sol@b5a8944d |
 | sol@fda8b723 | 2022-03-06 | X    | verify/rework SQL script; done: sol@a3074773 |
 | sol@9f6a3602 | 2022-03-06 | X    | verify/rework SQL script; done: sol@02728d29 |
 | sol@8303aab5 | 2022-03-03 | X    | also fix the other typos in the text; done: sol@cce66519 |
-| sol@df8a1e6c | 2022-03-03 |      | verify/rework SQL script; check the WP paths; low prio (Cosmetic) |
 | sol@b891046d | 2022-03-02 | X    | verify/rework SQL script; done: sol@8e43878a |
 | sol@958c730b | 2022-03-02 | X    | verify/rework SQL script; done: sol@a818ed3e |
 | sol@313c413e | 2022-03-01 | X    | wrong, won't take over: With patch 3.1.0 neither the quest "Triage" nor the books are necessary anymore, so the gossip texts are obsolete; remove them from the gossip menu instead (same for Horde, see gossip menu ID 5856); done: sol@796ec647 |
-| sol@ca333d55 | 2022-02-26 |      | verify/rework SQL script; check the WP paths; low prio (Cosmetic) |
 | sol@35820d78 | 2022-02-25 | X    | verify/rework SQL script; done: sol@ed1bc581 |
 | sol@5c1f5906 | 2022-02-25 | X    | verify/rework SQL script; update: won't take over, she's not a demon trainer anymore |
-| sol@d8c83c6f | 2022-02-24 |      | verify/rework SQL script; check the WP paths and additional spawns; low prio (Cosmetic) |
-| sol@15395a25 | 2022-02-22 | X    | verify/rework SQL script; verify quests & additional changes to quest texts; low prio (Cosmetic); update: only took over a few changes concerning quest template addons and one NPC, see sol@14c90934; took over all quest emotes directly from the TC DB, see sol@5bacedc0, sol@811c2ed7 and sol@a300cc3b |
 | sol@a244e0cf | 2022-02-19 | X    | verify/rework SQL script; done: sol@3d57294b |
-| sol@80ad5063 | 2022-02-19 |      | verify/rework SQL script; check the WP paths; low prio (Cosmetic) |
-| sol@18dacba0 | 2022-02-18 |      | verify/rework SQL script; check the WP paths; verify creature IDs (use "creature\_id\_chance"); low prio (Cosmetic) |
-| sol@b46b60cc | 2022-02-18 |      | verify/rework SQL script (also see sol@a1728321); check the WP paths; low prio (Cosmetic) |
 | sol@a49ca466 | 2022-02-18 | X    | use proper column names for INSERT; adjust chances to drop an item 100% (it's 98% in this commit); done: sol@e9ea58e1 |
 | sol@1366838a | 2022-02-17 | X    | won't take over, create a creature script hook instead and rework creature script "npc\_nat\_pagle"; done: sol@f4d5f4e3 |
 | sol@8409e9f7 | 2022-02-14 | X    | verify/rework SQL script; done: sol@b2960cf5 |
@@ -296,7 +264,6 @@ TODOs: common, low prio: [dungeon](TODO_dungeon.md), [event](TODO_event.md), [pv
 | sol@3d3fd352 | 2022-02-03 | X    | verify/rework SQL script; done: sol@946d8cfc |
 | sol@26267e0c | 2022-02-03 | X    | verify/rework SQL script; update: not needed as this is actually a quest greeting (see sol@b5a8944d) |
 | sol@8f8fbd95 | 2022-01-31 | X    | won't take over, use SPELL\_GROUP\_SPECIAL\_FLAG\_FORCED\_STRONGEST instead; done: sol@23e233c8 |
-| sol@61cb63e9 | 2022-01-30 |      | verify/rework SQL script (also see sol@585f3f24); check random movement & WP paths; low prio (Cosmetic) |
 | sol@d9e1cf40 | 2022-01-30 |      | take over if needed |
 | sol@5577ea3f | 2022-01-30 |      | take over if needed |
 | sol@9036e3b9 | 2022-01-29 | X    | verify/rework SQL script; done: sol@610d9251 |
@@ -310,57 +277,30 @@ TODOs: common, low prio: [dungeon](TODO_dungeon.md), [event](TODO_event.md), [pv
 | sol@b085ee61 | 2022-01-28 | X    | completely wrong, won't take over: pausing the thread causes delays for all objects (players, creatures etc.) updated by the current thread; find another solution; low prio (minor issue); update: reverted by AC commit sol@8f249a3d; implemented another solution: sol@94276b0e |
 | sol@7abc3bb0 | 2022-01-28 | X    | verify/rework SQL script (also see sol@35929315); verify loot; compare with TC; done: sol@5d223a4b |
 | sol@79d4efd1 | 2022-01-27 | X    | won't take over, create a proper creature formation and WP path; done: sol@ae3c85ec |
-| sol@fa9c2ed2 | 2022-01-27 |      | won't take over, just check the random movement in the area; low prio (Cosmetic) |
-| sol@5a4dad8e | 2022-01-27 |      | won't take over, just check the random movement in the area; low prio (Cosmetic) |
 | sol@01ea7e7a | 2022-01-26 | X    | won't take over, add a creature pool instead; done: sol@ebba8bf9 |
 | sol@902f33a6 | 2022-01-24 | X    | won't take over, find another solution instead (probably via spell script); also see sol@79f34b2b; low prio (minor issue); done: sol@e862a676 |
 | sol@75fc2d1b | 2022-01-24 |      | take over if needed |
-| sol@95a867d4 | 2022-01-24 |      | verify/rework SQL script; check the WP paths and additional spawns; low prio (Cosmetic) |
 | sol@ac0129a0 | 2022-01-23 |      | verify changes; low prio (minor issue) |
-| sol@3fa222e7 | 2022-01-22 |      | verify/rework SQL script; check the WP paths; low prio (Cosmetic); update: WP paths for Fel Reaver Sentries improved and corpse delay / respawn adjusted, see sol@14c6708b |
-| sol@e2f91ebc | 2022-01-22 |      | verify/rework SQL script; check the WP paths; low prio (Cosmetic) |
 | sol@32a3fdac | 2022-01-21 | X    | verify/rework SQL script; done: sol@e89430a0 (based on the TC version) |
 | sol@92887b15 | 2022-01-19 | X    | verify/rework SQL script; done: sol@3e61589b (implemented another solution as both the TC version and the AC version are incomplete and buggy) |
-| sol@c233e5af | 2022-01-19 |      | verify/rework SQL script; check the WP paths and additional spawns; low prio (Cosmetic) |
-| sol@ef9b60d0 | 2022-01-19 |      | verify/rework SQL script; check the WP paths; low prio (Cosmetic) |
-| sol@6e97b5c2 | 2022-01-18 |      | verify creature IDs (use "creature\_id\_chance"); low prio (Cosmetic) |
-| sol@e64cd13f | 2022-01-18 |      | verify/rework SQL script; check the WP paths; low prio (Cosmetic) |
-| sol@3f41c2c6 | 2022-01-18 |      | verify/rework SQL script; won't take over the updated spawn points; just check the WP path; low prio (Cosmetic) |
 | sol@fe489920 | 2022-01-17 |      | take over if needed |
 | sol@0f2c092d | 2022-01-17 |      | verify changes; low prio (minor issue) |
-| sol@e71171f9 | 2022-01-15 |      | verify/rework SQL script; won't take over the updated spawn points, just check the WP paths; low prio (Cosmetic) |
-| sol@f5419a45 | 2022-01-15 |      | verify/rework SQL script (also see sol@03a72cfc); check the WP paths; verify creature IDs (use "creature\_id\_chance"); low prio (Cosmetic) |
 | sol@d65101f8 | 2022-01-14 | X    | verify/rework SQL script; verify loot; compare with TC; done: sol@5e64c186 |
 | sol@ba633544 | 2022-01-13 | X    | wrong, won't take over: has to be checked in "CanRewardQuest"; done: sol@e677729d |
-| sol@4c695c76 | 2022-01-13 |      | verify/rework SQL script; check the WP paths; low prio (Cosmetic) |
 | sol@df4b6215 | 2022-01-13 |      | take over if needed |
 | sol@1b5baa45 | 2022-01-12 |      | take over if needed |
-| sol@dd89bdfb | 2022-01-11 |      | verify/rework SQL script; won't take over the updated spawn points; just check the WP paths and probably the multiple creature IDs (use new table "creature\_id\_chance", see sol@d65c4ae5); low prio (Cosmetic) |
-| sol@65330af5 | 2022-01-11 |      | verify GUIDs; use new table "creature\_id\_chance", see sol@d65c4ae5; low prio (Cosmetic) |
 | sol@2fd8b00d | 2022-01-11 | X    | this can be used as an alternative concerning pools in instanced maps (pools don't work correctly there); implement another solution: don't change the creature table, add a new table instead to be more flexible and ensure backward compatibility; done: sol@d65c4ae5 |
 | sol@f1d4266e | 2022-01-10 |      | not needed, won't take over; there are over 1400 entries in the "creature" table with custom model IDs; removing "modelid" from table "creature" will cause a lot of issues which will take much time to fix; just keep this commit as a reference |
-| sol@ae795fbc | 2022-01-10 |      | verify/rework SQL script; check the WP paths; low prio (Cosmetic) |
-| sol@6a696bff | 2022-01-07 |      | verify/rework SQL script; check the WP paths; low prio (Cosmetic) |
 | sol@2c6a6920 | 2022-01-07 |      | verify changes; low prio (minor issue) |
 | sol@2e6213d5 | 2022-01-07 |      | take over if needed |
-| sol@2e622e27 | 2022-01-07 |      | verify/rework SQL script; check the WP paths; low prio (Cosmetic); update: Improved WP paths for Stonard Scout/Explorer/Grunt and Noboru the Cudgel, see sol@7007d9ae, sol@f879f66d |
-| sol@5a8b4556 | 2022-01-07 |      | verify/rework SQL script; check the WP paths; low prio (Cosmetic) |
-| sol@fdcaa8e1 | 2022-01-07 |      | verify/rework SQL script; check the WP paths; low prio (Cosmetic) |
 | sol@66e6d331 | 2022-01-06 |      | take over if needed (does not seem to fix anything) |
-| sol@73d5772c | 2022-01-06 | X    | verify/rework SQL script; check the WP paths; use SAI instead of creature script; low prio (Cosmetic); done: sol@c17ebdfb |
-| sol@49b3bac2 | 2022-01-06 |      | verify/rework SQL script; check the WP paths; low prio (Cosmetic) |
 | sol@b2a4dda4 | 2022-01-06 | X    | verify/rework SQL script; update: won't take over, the texts are working correctly; also the author of the commit does not seem to understand how the probability actually works |
 | sol@c377c62c | 2022-01-06 |      | take over if needed (updating the SAI is not needed because the spell uses implicit target via conditions) |
 | sol@89aa2a00 | 2022-01-06 | X    | verify/rework SQL script; done: sol@ab48aa89 |
 | sol@5aad087d | 2022-01-06 | X    | just update the z position; done: sol@5ee9b6bc |
-| sol@890f6ad7 | 2022-01-06 |      | verify/rework SQL script; won't take over the updated spawn points; won't delete the creatures (no reason to do this, probably create a pool), just check the WP paths and the GO spawn; low prio (Cosmetic) |
 | sol@0dae1579 | 2022-01-06 | X    | verify/rework SQL script; done: sol@d840310b (based on the TC version as the AC version is too awkward) |
-| sol@88c75d56 | 2022-01-05 |      | verify/rework SQL script; won't take over the updated spawn points, just check the WP paths; low prio (Cosmetic) |
-| sol@6f98d327 | 2022-01-05 |      | verify/rework SQL script; use SAI instead of creature script (also see sol@7354b14f); low prio (Cosmetic, actually not needed at all) |
 | sol@2bc373b4 | 2022-01-05 |      | take over if needed |
 | sol@86f1b87f | 2022-01-05 |      | take over if needed (also see sol@911e8b4d) |
-| sol@11debfe6 | 2022-01-04 |      | verify/rework SQL script; won't take over the updated spawn points; won't delete the creatures (no reason to do this, probably create a pool), just check the WP paths; low prio (Cosmetic) |
-| sol@6561e9d2 | 2022-01-04 | X    | verify/rework SQL script; won't take over the updated spawn points; won't delete the creatures (no reason to do this, probably create a pool), just check the WP paths; low prio (Cosmetic); update: won't take over any of this stuff, especially replacing random movement with 2-point paths is just awful (once again, don't care about sniffs) |
 | sol@8fd757a1 | 2022-01-04 |      | take over if needed |
 | sol@9faec8ef | 2022-01-04 |      | take over if needed |
 | sol@3247bfe9 | 2022-01-03 | X    | verify/rework SQL script; done: sol@8841699d |
@@ -369,63 +309,39 @@ TODOs: common, low prio: [dungeon](TODO_dungeon.md), [event](TODO_event.md), [pv
 | sol@573a39cf | 2022-01-03 | X    | use quest\_template\_addon instead of conditions; update: sadly, it is not possible to have multiple pre-quests, so conditions are necessary: sol@746b8e24 |
 | sol@d8712455 | 2022-01-03 |      | verify changes; low prio (minor issue) |
 | sol@67f86884 | 2022-01-03 | X    | use UPDATE instead of DELETE/INSERT; done: sol@91a80396 |
-| sol@2f7ccbe9 | 2022-01-03 |      | verify/rework SQL script; check the WP paths; low prio (Cosmetic) |
-| sol@91108f2f | 2022-01-03 |      | verify/rework SQL script; check the WP paths; low prio (Cosmetic) |
-| sol@c650cda4 | 2022-01-03 |      | verify/rework SQL script; won't delete the creatures (no reason to do this, probably create a pool), just check the WP paths; low prio (Cosmetic) |
-| sol@70743d4c | 2022-01-03 |      | verify/rework SQL script; check the WP paths; low prio (Cosmetic) |
-| sol@f03b87f7 | 2022-01-03 |      | verify/rework SQL script (also see sol@585f3f24); won't take over the updated spawn points, just check the WP paths; use SAI instead of CreatureScript; low prio (Cosmetic) |
-| sol@e2b81754 | 2022-01-03 |      | verify/rework SQL script; check the WP paths; low prio (Cosmetic) |
-| sol@a8d93ad8 | 2022-01-03 |      | verify/rework SQL script; check the WP paths; auras seem to be wrong, won't take over; low prio (Cosmetic) |
 | sol@002e62d6 | 2022-01-03 |      | take over if needed |
 | sol@3925118d | 2022-01-03 |      | keep as reference; take over single values if needed; won't blindly take over such mass updates |
-| sol@1ef12abc | 2022-01-03 |      | verify/rework SQL script; won't delete the creatures (no reason to do this, probably create a pool), just check the WP paths (note: this update is not imported into the AC DB because sql\_rev 1640126290282588522 already exists); low prio (Cosmetic) |
 | sol@8a5b9634 | 2022-01-03 |      | take over if needed |
 | sol@a0c49591 | 2021-12-31 | X    | take over from TC instead; update: won't take over, the quest should be disabled: sol@410d1fce |
 | sol@a3b22654 | 2021-12-31 | X    | verify/rework SQL script; done: sol@5b7729ef |
-| sol@ec7c6831 | 2021-12-31 |      | verify/rework SQL script; verify WP paths; low prio (Cosmetic) |
 | sol@19b98c5e | 2021-12-31 | X    | verify/rework SQL script; done: sol@0c979974 |
-| sol@ddddb108 | 2021-12-30 |      | verify/rework SQL script; check the WP paths; low prio (Cosmetic) |
 | sol@e5b5413a | 2021-12-30 | X    | verify/rework SQL script; done: sol@eb8a4c7e |
 | sol@bbf08c1a | 2021-12-30 |      | take over if needed (seems to be the same as TEMPSUMMON\_TIMED\_OR\_DEAD\_DESPAWN) |
 | sol@5a1bdb1f | 2021-12-29 |      | not needed, just keep as a reference; this will overwrite many fixed issues of the past (note: it is perfectly valid to edit the broadcast\_text table, e.g. to fix typos or other text issues which were part of retail at the time) |
 | sol@d148300b | 2021-12-28 | X    | verify/rework SQL script; done: sol@2480cd8c |
-| sol@10eb1870 | 2021-12-28 |      | verify/rework SQL script; verify WP paths; low prio (Cosmetic) |
 | sol@13075696 | 2021-12-27 | X    | won't take over (the quest clearly states that the quest item drops from Strashaz naga, don't care about sniffs); add the quest loot to Strashaz Myrmidon & Tidelord Rrurgaz and set chance to 20 for all creatures; done: sol@e30e9c3e |
-| sol@93b6835e | 2021-12-27 |      | verify/rework SQL script; check the WP paths; low prio (Cosmetic) |
 | sol@288e91d5 | 2021-12-27 | X    | verify/rework SQL script (also see sol@585f3f24); check spawn points for currently low populated area; check the WP paths and random movement; update: won't take over, implemented another solution: sol@2480cd8c |
 | sol@a3c58d91 | 2021-12-25 | X    | verify/rework SQL script; done: sol@f69f76a0 |
 | sol@5abfe273 | 2021-12-25 | X    | use SAI instead; done: sol@6ccbc479 |
-| sol@bc87362f | 2021-12-23 |      | verify/rework SQL script (also see sol@585f3f24); won't take over the updated spawn points, just check the WP paths and random movement; low prio (Cosmetic) |
-| sol@5b6e6c3d | 2021-12-23 |      | verify/rework SQL script; won't take over the updated spawn points, just check the WP paths and random movement; low prio (Cosmetic) |
 | sol@f7ff583b | 2021-12-19 | X    | adapt to Sol; also remove from the check for yet unsupported action types and add to the handled ones (shows once more that nobody is testing this stuff thoroughly before merging); done: sol@baae4066 |
-| sol@4beb2d8a | 2021-12-19 | X    | verify/rework SQL script; check the WP paths; low prio (Cosmetic); update: took over emotes/equipment, see sol@6369dce3; done: sol@0dd744a7 |
-| sol@1d8160a9 | 2021-12-19 | X    | verify/rework SQL script; won't take over the updated spawn points, just check the WP paths; low prio (Cosmetic); done: sol@7105944d |
-| sol@bfb20a53 | 2021-12-19 | X    | verify/rework SQL script (also see sol@585f3f24); won't take over the updated spawn points, just check the WP paths; low prio (Cosmetic); done: sol@26b4a406 |
-| sol@78504d34 | 2021-12-19 | X    | verify/rework SQL script (also see sol@585f3f24); won't take over the updated spawn points, just check the WP paths; low prio (Cosmetic); done: sol@98493e5c |
 | sol@074ace8f | 2021-12-19 | X    | verify/rework SQL script; compare with TC; done: sol@365e998d |
 | sol@6d999eb8 | 2021-12-18 | X    | verify/rework SQL script (also see sol@659f0d93); done: sol@df4395d1 |
-| sol@5ed82f8e | 2021-12-17 | X    | verify/rework SQL script (also see sol@585f3f24); won't take over the updated spawn points, just check the WP paths; use SAI instead of CreatureScript; low prio (Cosmetic); done: sol@213c991e |
-| sol@955b7928 | 2021-12-17 | X    | verify/rework SQL script (also see sol@585f3f24); won't take over the updated spawn points, just check the WP paths; low prio (Cosmetic); done: sol@09fca973 |
 | sol@63004048 | 2021-12-17 | X    | verify/rework SQL script (also see sol@585f3f24); compare with TC; SAI looks awkward, rework; also rework SAI for Darnassian Huntress; done: sol@44d19360 |
-| sol@4a2b5f32 | 2021-12-17 | X    | verify/rework SQL script; compare with TC, perhaps just check the WP paths; low prio (Cosmetic); done: sol@e7fef948 |
 | sol@55f60135 | 2021-12-17 | X    | verify/rework SQL script; done: sol@293e61f3 |
 | sol@0dd59e66 | 2021-12-17 |      | take over if needed |
 | sol@866a6303 | 2021-12-17 | X    | verify spell IDs; add spell 62528 to the delete statement; adapt to Sol; update: won't take over, the spells are already scripted |
 | sol@4994d194 | 2021-12-17 | X    | verify/rework SQL script; done: sol@0a14faf9 |
 | sol@89a1b5c9 | 2021-12-16 |      | take over if needed |
-| sol@fdbf5ab7 | 2021-12-16 | X    | verify/rework SQL script; won't take over the updated spawn points, just check the WP paths and random movement; low prio (Cosmetic); done: sol@484de9ec, sol@7c5d2c97, sol@f8b48a98 |
 | sol@0f83d52f | 2021-12-16 |      | take over if needed (the recipes are largely irrelevant for WotLK) |
 | sol@1cc9ea83 | 2021-12-15 |      | take over if needed |
 | sol@5c8acadf | 2021-12-14 |      | take over if needed |
 | sol@31a4cd14 | 2021-12-13 | X    | verify/rework SQL script (also see sol@702accbf); done: sol@2050f101 |
 | sol@0a0013aa | 2021-12-13 |      | take over if needed |
-| sol@2b86d4ba | 2021-12-13 | X    | verify/rework SQL script; update: won't delete the creatures (no reason to do this, probably create a pool), just check the added creatures/gameobjects and the WP paths; low prio (Cosmetic); done: sol@b75650be, sol@0958452a, sol@50b5ef46, sol@1a4ec18a, sol@f0b6eebd, sol@2095aa0e, sol@f3d8095f |
 | sol@8c8ac2be | 2021-12-12 | X    | verify loot; compare with TC; done: sol@b3d66d4a |
 | sol@b1303e0e | 2021-12-12 |      | verify changes; low prio (minor issue) |
 | sol@4e93671b | 2021-12-12 |      | verify changes; low prio (minor issue) |
 | sol@10ce7a74 | 2021-12-11 | X    | verify/rework SQL script / core script; done: sol@93d712d5 |
 | sol@09c3fea5 | 2021-12-11 | X    | won't take over; take over SAI from TC instead; implemented another solution: sol@854d902d |
-| sol@488b0d45 | 2021-12-11 | X    | verify/rework SQL script; update: seems to contain several bugs, e.g. waypoints/spawn points inside environment etc.; just check the WP paths, won't take over the updated spawn points; low prio (Cosmetic); done: sol@4faddb24 |
 | sol@678e50fa | 2021-12-10 | X    | verify/rework SQL script; done: sol@a56d9a57 |
 | sol@0300cef1 | 2021-12-09 |      | verify solution; low prio (minor issue) |
 | sol@438fce93 | 2021-12-09 | X    | verify/rework SQL script; compare with TC version; done: sol@ec2c7078 |
@@ -442,7 +358,6 @@ TODOs: common, low prio: [dungeon](TODO_dungeon.md), [event](TODO_event.md), [pv
 | sol@d6fc2a1d | 2021-12-05 | X    | verify/rework SQL script; also check old SAI and conditions; done: sol@806ab34b |
 | sol@1500453f | 2021-12-03 |      | take over if needed (also see sol@fa1c2eca) |
 | sol@5d2f4cf0 | 2021-12-03 | X    | won't take over, rework CreatureScript; done: sol@5a4e254b |
-| sol@18f3f748 | 2021-12-03 | X    | verify/rework SQL script; check the WP paths; low prio (Cosmetic); done: sol@3d46cd92 |
 | sol@8668a03e | 2021-12-01 |      | take over if needed |
 | sol@79c0beeb | 2021-11-30 |      | take over if needed (also see sol@9c178acd) |
 | sol@5d544f60 | 2021-11-29 |      | won't take over, does not seem to be the correct way to fix this issue; try to find another solution; low prio (minor issue) |
@@ -502,8 +417,6 @@ TODOs: common, low prio: [dungeon](TODO_dungeon.md), [event](TODO_event.md), [pv
 | sol@5d69ce82 | 2021-10-22 | X    | verify loot; compare with TC; done: sol@55453d23 |
 | sol@c2381a5a | 2021-10-21 | X    | won't take over, just set the respawn time of the GOs to 2 minutes, this should suffice; done: sol@e5f0e902 |
 | sol@ad73b564 | 2021-10-21 |      | take over if needed |
-| sol@2648157a | 2021-10-21 |      | wrong: deletes the existing SAI script; verify the emotes and adjust the existing SAI; low prio (Cosmetic) |
-| sol@7591491b | 2021-10-21 |      | wrong: deletes the existing SAI script which already included reactions to emotes; verify the emotes and adjust the existing SAI; low prio (Cosmetic) |
 | sol@aab110c1 | 2021-10-20 | X    | won't take over, rework existing SAI instead; done: sol@1328f2de |
 | sol@1fb6830b | 2021-10-20 | X    | wrong: the QuestMoneyReward DBC was not part of the WotLK client, it was introduced later (according to wowdev at least with MoP); implement another solution, e.g. XP * 0.6 copper should suffice; done: sol@55d8984d |
 | sol@fb1e750d | 2021-10-20 |      | take over if needed |
@@ -533,7 +446,6 @@ TODOs: common, low prio: [dungeon](TODO_dungeon.md), [event](TODO_event.md), [pv
 | sol@4349f076 | 2021-10-13 | X    | verify/rework SQL script; done: sol@7f4869fd |
 | sol@cd03fd4e | 2021-10-13 | X    | verify/rework SQL script; done: sol@8cdbaa93 |
 | sol@13eacaed | 2021-10-12 |      | take over if needed |
-| sol@a6e564be | 2021-10-12 |      | wrong: deletes the existing SAI script which already included reactions to emotes; verify the emotes and adjust the existing SAI; low prio (Cosmetic) |
 | sol@cec360b3 | 2021-10-12 | X    | verify/rework SQL script; done: sol@0145f351 |
 | sol@57658d82 | 2021-10-12 |      | take over if needed |
 | sol@0f5c8887 | 2021-10-12 | X    | verify/rework SQL script; done: sol@8e766856 |
@@ -545,15 +457,11 @@ TODOs: common, low prio: [dungeon](TODO_dungeon.md), [event](TODO_event.md), [pv
 | sol@d2fd486a | 2021-10-10 | X    | verify/rework SQL script; done: sol@0b53fbf3 |
 | sol@4392da3c | 2021-10-10 | X    | wrong: the GO was deleted with AC commit sol@0cccdc4a; check the rotation of this GO after sol@0cccdc4a has been processed; update: won't take over |
 | sol@8826d7de | 2021-10-10 | X    | verify/rework SQL script; compare with TC version; done: sol@7bfc2501 |
-| sol@261cc87e | 2021-10-10 |      | wrong: deletes the existing SAI script; verify the emotes and adjust the existing SAI; low prio (Cosmetic) |
-| sol@1e3f94fa | 2021-10-10 |      | wrong: deletes the existing SAI script which already included reactions to emotes; verify the emotes and adjust the existing SAI; low prio (Cosmetic) |
 | sol@d8e89eeb | 2021-10-10 | X    | verify loot; compare with TC; done: sol@ddcd0e52 |
 | sol@3ff389c1 | 2021-10-10 | X    | verify loot; compare with TC; done: sol@ddcd0e52 |
 | sol@44545c65 | 2021-10-10 | X    | verify loot; compare with TC; done: sol@ddcd0e52 |
 | sol@ae3dc6c7 | 2021-10-10 | X    | verify/rework SQL script (also see sol@8605981a); done: sol@5bb24579 |
 | sol@cc892279 | 2021-10-10 | X    | verify/rework SQL script; done: sol@3ce83ddb |
-| sol@3f541b98 | 2021-10-10 |      | verify/rework SQL script; low prio (Cosmetic) |
-| sol@d9323336 | 2021-10-10 |      | wrong: deletes the existing SAI script which already included reactions to emotes; verify the emotes and adjust the existing SAI; low prio (Cosmetic) |
 | sol@f96b027f | 2021-10-10 |      | take over if needed (also see bugfix sol@db2b380c) |
 | sol@0cccdc4a | 2021-10-10 | X    | the GOs are also needed for the "Battle for the Undercity" event; keep the ones with lower GUID and adjust their phasemask accordingly (also see sol@4392da3c); same for GUID 265429 (Wrathgate); done: sol@8310991a |
 | sol@7cf0ed0a | 2021-10-09 | X    | verify NPC; update: wrong, won't take over, the gossip option was removed during WotLK and there are more than enough NPCs around selling food and drink |

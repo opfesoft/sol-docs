@@ -1,7 +1,11 @@
-TODOs: [common](TODO.md), low prio: dungeon, [event](TODO_event.md), [pvp](TODO_pvp.md), [localization](TODO_localization.md), [pooling](TODO_pooling.md)
+TODOs: [common](TODO.md), low prio: [cosmetic](TODO_cosmetic.md), dungeon, [event](TODO_event.md), [pvp](TODO_pvp.md), [localization](TODO_localization.md), [pooling](TODO_pooling.md)
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@e8b76f26 | 2023-02-18 |      | verify changes (Opening the Dark Portal) |
+| sol@df6dcd88 | 2023-02-16 |      | verify changes (Gruul's Lair) |
+| sol@c41980b7 | 2023-02-16 |      | verify changes (Gruul's Lair) |
+| sol@b8a7e9f5 | 2023-02-15 |      | verify/rework SQL script (Escape from Durnholde Keep) |
 | sol@25c77a59 | 2023-02-14 |      | verify changes (Ulduar) |
 | sol@3b178666 | 2023-02-12 |      | verify changes (Karazhan) |
 | sol@2da4f1ab | 2023-02-12 |      | verify changes (Hellfire Ramparts) |
