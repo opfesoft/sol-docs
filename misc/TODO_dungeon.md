@@ -2,6 +2,14 @@ TODOs: [common](TODO.md), low prio: [cosmetic](TODO_cosmetic.md), dungeon, [even
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@a76c0769 | 2023-02-19 |      | verify changes (Scholomance) |
+| sol@6e7aec3b | 2023-02-19 |      | verify changes (Opening the Dark Portal) |
+| sol@d7071e87 | 2023-02-19 |      | verify/rework SQL script (Shadowfang Keep) |
+| sol@c3a8d261 | 2023-02-19 |      | verify/rework SQL script (Escape from Durnholde Keep) |
+| sol@e750aedb | 2023-02-19 |      | verify/rework SQL script (Mana-Tombs) |
+| sol@65471801 | 2023-02-18 |      | verify changes (Sethekk Halls) |
+| sol@c2208318 | 2023-02-18 |      | verify changes (Sethekk Halls) |
+| sol@333de4c0 | 2023-02-18 |      | verify/rework SQL script (also see sol@62d8743d) (Sethekk Halls) |
 | sol@e8b76f26 | 2023-02-18 |      | verify changes (Opening the Dark Portal) |
 | sol@df6dcd88 | 2023-02-16 |      | verify changes (Gruul's Lair) |
 | sol@c41980b7 | 2023-02-16 |      | verify changes (Gruul's Lair) |

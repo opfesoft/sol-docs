@@ -2,6 +2,9 @@ TODOs: common, low prio: [cosmetic](TODO_cosmetic.md), [dungeon](TODO_dungeon.md
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@de2d8e0d | 2023-02-23 |      | won't take over, rework all involved SAI scripts |
+| sol@fff0e171 | 2023-02-23 |      | verify changes; low prio (minor issue) |
+| sol@cefbf944 | 2023-02-19 |      | verify/rework SQL script |
 | sol@f25c90da | 2023-02-17 |      | verify/rework SQL script (also see sol@1e4e663a) |
 | sol@cb18f73c | 2023-02-17 |      | verify/rework SQL script (also see creature ID 19527) |
 | sol@1694eec2 | 2023-02-12 |      | verify/rework SQL script |
