@@ -2,6 +2,9 @@ TODOs: [common](TODO.md), low prio: [cosmetic](TODO_cosmetic.md), dungeon, [even
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@e5c0c722 | 2023-02-27 |      | verify changes (Karazhan) |
+| sol@7e3ae700 | 2023-02-27 |      | verify changes (Maraudon) |
+| sol@90bc88d4 | 2023-02-27 |      | verify/rework SQL script (Karazhan) |
 | sol@a76c0769 | 2023-02-19 |      | verify changes (Scholomance) |
 | sol@6e7aec3b | 2023-02-19 |      | verify changes (Opening the Dark Portal) |
 | sol@d7071e87 | 2023-02-19 |      | verify/rework SQL script (Shadowfang Keep) |

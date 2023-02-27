@@ -2,6 +2,8 @@ TODOs: common, low prio: [cosmetic](TODO_cosmetic.md), [dungeon](TODO_dungeon.md
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@f4a6f8ea | 2023-02-27 |      | verify/rework SQL script |
+| sol@5673855e | 2023-02-27 |      | won't take over, just set unit flags 768 |
 | sol@de2d8e0d | 2023-02-23 |      | won't take over, rework all involved SAI scripts |
 | sol@fff0e171 | 2023-02-23 |      | verify changes; low prio (minor issue) |
 | sol@cefbf944 | 2023-02-19 |      | verify/rework SQL script |
@@ -15,13 +17,12 @@ TODOs: common, low prio: [cosmetic](TODO_cosmetic.md), [dungeon](TODO_dungeon.md
 | sol@8927d0cb | 2023-02-11 |      | verify/rework SQL script |
 | sol@636d9a79 | 2023-02-11 |      | verify/rework SQL script |
 | sol@2a29acac | 2023-02-11 |      | verify/rework SQL script |
-| sol@4ec8af5b | 2023-02-10 |      | verify/rework SQL script; also see TC commit 23f904afb498704f75bc124effaf72a945e773ce |
+| sol@4ec8af5b | 2023-02-10 | X    | verify/rework SQL script; also see TC commit 3ab64796ab43d866e462fe264d5c5312d8ea8abd; done: sol@522dbd2d |
 | sol@13b23397 | 2023-02-10 | X    | verify/rework SQL script; also see TC commit 48bd5633cd076d8819d62adf1ad39557fb22734d; done: sol@188a710c |
-| sol@1bc727c9 | 2023-02-04 |      | verify/rework SQL script |
 | sol@58f0f862 | 2023-01-31 |      | keep as reference; take over single values if needed; won't blindly take over such mass updates (don't care about sniffs) |
-| sol@086f4d10 | 2023-01-31 |      | verify/rework SQL script (also see Sol commit sol@6abe0aa0) |
-| sol@3e18f981 | 2023-01-31 |      | verify/rework SQL script |
-| sol@97b26c4e | 2023-01-28 |      | wrong, won't take over; loot reference 24065 is correct, just reduce the chance |
+| sol@086f4d10 | 2023-01-31 | X    | verify/rework SQL script (also see Sol commit sol@6abe0aa0); done: sol@2087d0f3 |
+| sol@3e18f981 | 2023-01-31 | X    | verify/rework SQL script; done: sol@a63c86a3 |
+| sol@97b26c4e | 2023-01-28 | X    | wrong, won't take over; loot reference 24065 is correct, just reduce the chance; done: sol@cd0f39c8 |
 | sol@9ce8b8cf | 2023-01-28 |      | verify changes; low prio (minor issue) |
 | sol@7f7a2f5a | 2023-01-28 |      | wrong, won't take over; not all critters should run away; fleeing has to be scripted for specific critters only; low prio (minor issue) |
 | sol@f2317ac0 | 2023-01-24 | X    | verify/rework SQL script; verify positions; adapt to Sol; done: sol@c23fa78d |
