@@ -23,7 +23,7 @@ TODOs: [common](TODO.md), low prio: cosmetic, [dungeon](TODO_dungeon.md), [event
 | sol@b3df45c5 | 2023-02-16 |      | verify/rework SQL script (also see sol@f84848a9); check the WP paths |
 | sol@43b42b1b | 2022-12-31 |      | verify/rework SQL script; check the WP paths |
 | sol@a946e408 | 2022-12-25 |      | verify/rework SQL script; check the WP paths |
-| sol@909dfe4b | 2022-12-20 |      | verify/rework SQL script; check the WP paths |
+| sol@909dfe4b | 2022-12-20 | X    | verify/rework SQL script; check the WP paths; done: sol@22e508ae, sol@09aa9993, sol@21e9ed55, sol@7cfab626, sol@43eea0bf |
 | sol@a4ddc22a | 2022-10-07 |      | adapt to Sol (use "creature\_id\_chance") |
 | sol@043aa7cb | 2022-09-22 |      | verify creature IDs (use "creature\_id\_chance") |
 | sol@b96ad3a2 | 2022-09-06 | X    | verify/rework SQL script; check the WP paths; done: sol@11b6ddce |

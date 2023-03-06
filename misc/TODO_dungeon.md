@@ -2,6 +2,14 @@ TODOs: [common](TODO.md), low prio: [cosmetic](TODO_cosmetic.md), dungeon, [even
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@ef0b2092 | 2023-03-06 |      | verify changes (Opening the Dark Portal) |
+| sol@a5b4aecd | 2023-03-05 |      | verify changes (Botanica) |
+| sol@6e61f384 | 2023-03-04 |      | verify changes (Pit of Saron) |
+| sol@321195f4 | 2023-03-04 |      | verify changes (Escape from Durnholde Keep) |
+| sol@ea19c7f8 | 2023-03-04 |      | verify changes (Halls of Reflection) |
+| sol@2e9bdd83 | 2023-03-04 |      | verify/rework SQL script (Shadow Labyrinth, Sethekk Halls, Mana-Tombs) |
+| sol@3261dfb4 | 2023-03-04 |      | verify/rework SQL script (Sethekk Halls) |
+| sol@b546c682 | 2023-03-04 |      | verify changes (also see sol@7d970d05) (Botanica) |
 | sol@e5c0c722 | 2023-02-27 |      | verify changes (Karazhan) |
 | sol@7e3ae700 | 2023-02-27 |      | verify changes (Maraudon) |
 | sol@90bc88d4 | 2023-02-27 |      | verify/rework SQL script (Karazhan) |
@@ -81,7 +89,7 @@ TODOs: [common](TODO.md), low prio: [cosmetic](TODO_cosmetic.md), dungeon, [even
 | sol@82f4d46f | 2022-12-06 |      | verify/rework SQL script (Temple of Ahn'Qiraj) |
 | sol@38a3774c | 2022-12-06 |      | verify changes (Blood Furnace) |
 | sol@08ff2f27 | 2022-12-06 |      | verify changes (Blackwing Lair) |
-| sol@21bd9ab5 | 2022-12-06 |      | verify/rework SQL script (Auchenai Crypts) |
+| sol@21bd9ab5 | 2022-12-06 |      | verify/rework SQL script (also see sol@5cc5b352) (Auchenai Crypts) |
 | sol@975fd878 | 2022-12-06 |      | verify/rework SQL script (Slave Pens & Steamvault) |
 | sol@ac65434f | 2022-12-06 |      | verify changes (also see sol@9798ccd8) (Hellfire Ramparts) |
 | sol@b7f81ab3 | 2022-12-06 |      | verify changes (Hellfire Ramparts) |
