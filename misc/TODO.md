@@ -2,11 +2,16 @@ TODOs: common, low prio: [cosmetic](TODO_cosmetic.md), [dungeon](TODO_dungeon.md
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@4141ec1e | 2023-03-07 |      | verify/rework SQL script; only take over the actual update (id 0) |
+| sol@e7bb9ee2 | 2023-03-07 |      | verify/rework SQL script |
+| sol@a0cdf85e | 2023-03-07 |      | verify/rework SQL script |
+| sol@a08c793c | 2023-03-07 |      | verify/rework SQL script |
+| sol@3c37ea1a | 2023-03-07 |      | verify/rework SQL script |
 | sol@f4bff8b4 | 2023-03-05 |      | verify/rework SQL script |
 | sol@8cbe63f1 | 2023-03-05 |      | verify/rework SQL script |
 | sol@81d831fa | 2023-03-05 |      | take over if needed |
 | sol@3a3c9b69 | 2023-03-04 |      | only take over 3rd creature text |
-| sol@9eb4b3a3 | 2023-03-04 |      | take over if needed; maybe just use one table and add a "type" column to distinguish between "reserved" and "profanity" |
+| sol@9eb4b3a3 | 2023-03-04 |      | take over if needed (also see sol@5a9aeada); maybe just use one table and add a "type" column to distinguish between "reserved" and "profanity" |
 | sol@23fbdd0f | 2023-03-04 |      | verify changes |
 | sol@0b7fc7cc | 2023-03-01 |      | verify/rework SQL script |
 | sol@4d6e3c13 | 2023-03-01 |      | verify/rework SQL script |
@@ -17,13 +22,12 @@ TODOs: common, low prio: [cosmetic](TODO_cosmetic.md), [dungeon](TODO_dungeon.md
 | sol@de2d8e0d | 2023-02-23 |      | won't take over, rework all involved SAI scripts |
 | sol@fff0e171 | 2023-02-23 |      | verify changes (also see sol@428f8e0a); low prio (minor issue) |
 | sol@cefbf944 | 2023-02-19 |      | verify/rework SQL script |
-| sol@f25c90da | 2023-02-17 |      | verify/rework SQL script (also see sol@1e4e663a, sol@2f28c8e9) |
+| sol@f25c90da | 2023-02-17 | X    | verify/rework SQL script (also see sol@1e4e663a, sol@2f28c8e9); done: sol@3e0d67ce |
 | sol@cb18f73c | 2023-02-17 |      | verify/rework SQL script (also see creature ID 19527) |
 | sol@1694eec2 | 2023-02-12 |      | verify/rework SQL script |
 | sol@9f149b80 | 2023-02-12 |      | verify/rework SQL script |
 | sol@f6b7d2b8 | 2023-02-12 |      | verify/rework SQL script; also see TC commit e4d8e044a0c994e548adb3b674830d315b35333f |
 | sol@1251939d | 2023-02-12 | X    | won't take over, rework the existing SAI scripts; done: sol@e66d2978 |
-| sol@5a9aeada | 2023-02-12 |      | take over if needed |
 | sol@8927d0cb | 2023-02-11 |      | verify/rework SQL script |
 | sol@636d9a79 | 2023-02-11 |      | verify/rework SQL script |
 | sol@2a29acac | 2023-02-11 | X    | verify/rework SQL script; done: sol@64f88dad |

@@ -26,7 +26,7 @@ TODOs: [common](TODO.md), low prio: [cosmetic](TODO_cosmetic.md), [dungeon](TODO
 | sol@f32aa099 | 2022-05-08 |      | verify changes (Midsummer Fire Festival) |
 | sol@c2b70e39 | 2022-03-18 |      | verify changes (Love is in the Air) |
 | sol@d9fcd9de | 2022-02-14 |      | verify/rework scripts (Love is in the Air) |
-| sol@c9ac48e8 | 2022-02-11 |      | verify/rework scripts (also see sol@a6c93f1c) (Love is in the Air) |
+| sol@c9ac48e8 | 2022-02-11 |      | verify/rework scripts (also see sol@a6c93f1c, sol@3ebf4288) (Love is in the Air) |
 | sol@82076755 | 2022-01-28 |      | Omen should not regenerate health but despawn if it takes too long to take him down; fix creature script (Lunar Festival) |
 | sol@7de3c2df | 2022-01-14 |      | verify changes; compare with TC (Feast of Winter Veil) |
 | sol@3297a4fb | 2022-01-03 |      | verify changes (Midsummer Fire Festival) |

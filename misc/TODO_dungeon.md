@@ -2,10 +2,10 @@ TODOs: [common](TODO.md), low prio: [cosmetic](TODO_cosmetic.md), dungeon, [even
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
-| sol@ef0b2092 | 2023-03-06 |      | verify changes (Opening the Dark Portal) |
+| sol@ef0b2092 | 2023-03-06 |      | verify changes (also see sol@527f4628) (Opening the Dark Portal) |
 | sol@a5b4aecd | 2023-03-05 |      | verify changes (Botanica) |
 | sol@6e61f384 | 2023-03-04 |      | verify changes (Pit of Saron) |
-| sol@321195f4 | 2023-03-04 |      | verify changes (Escape from Durnholde Keep) |
+| sol@321195f4 | 2023-03-04 |      | verify changes (also see sol@74137279) (Escape from Durnholde Keep) |
 | sol@ea19c7f8 | 2023-03-04 |      | verify changes (Halls of Reflection) |
 | sol@2e9bdd83 | 2023-03-04 |      | verify/rework SQL script (Shadow Labyrinth, Sethekk Halls, Mana-Tombs) |
 | sol@3261dfb4 | 2023-03-04 |      | verify/rework SQL script (Sethekk Halls) |

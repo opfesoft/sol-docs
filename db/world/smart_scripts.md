@@ -2147,7 +2147,7 @@ if set to 0 only aggressive / hostile NPCs attack</p></td>
 </p></td>
 <td><p><br />
 </p></td>
-<td><p>Despawn the target after the specified time in ms if it is a creature. If the target is a gameobject it is deleted at once, the timer is ignored in this case. If despawnMinionId > 0 despawns all minions of the target with the specified creature_template.entry.</p></td>
+<td><p>Despawn the target after the specified time in ms if it is a creature (this overrides any previous despawn action). If the target is a gameobject it is deleted at once, the timer is ignored in this case. If despawnMinionId > 0 despawns all minions of the target with the specified creature_template.entry.</p></td>
 </tr>
 <tr>
 <td><p>SMART_ACTION_SET_INVINCIBILITY_HP_LEVEL</p></td>
