@@ -2,6 +2,9 @@ TODOs: [common](TODO.md), low prio: [cosmetic](TODO_cosmetic.md), [dungeon](TODO
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@465c5b12 | 2023-03-18 |      | verify changes |
+| sol@307d0987 | 2023-03-17 |      | verify changes |
+| sol@175c961c | 2023-03-16 |      | verify changes |
 | sol@160d3141 | 2023-01-28 |      | verify changes |
 | sol@d25ca1f9 | 2023-01-28 |      | verify changes |
 | sol@bd536a03 | 2022-09-21 |      | verify changes |

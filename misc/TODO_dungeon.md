@@ -2,7 +2,18 @@ TODOs: [common](TODO.md), low prio: [cosmetic](TODO_cosmetic.md), dungeon, [even
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
-| sol@ef0b2092 | 2023-03-06 |      | verify changes (also see sol@527f4628) (Opening the Dark Portal) |
+| sol@f5421722 | 2023-03-19 |      | use SAI instead (Sethekk Halls) |
+| sol@7207be20 | 2023-03-16 |      | verify and rework SQL script (Gnomeregan) |
+| sol@f0be1aa9 | 2023-03-15 |      | verify/rework SQL script (Botanica) |
+| sol@b21f98d6 | 2023-03-15 |      | verify changes (Karazhan) |
+| sol@1f82bcf1 | 2023-03-14 |      | verify/rework SQL script (Opening the Dark Portal) |
+| sol@5890f8f7 | 2023-03-13 |      | verify/rework SQL script (Mechanar) |
+| sol@6270c6ab | 2023-03-13 |      | verify changes (Ulduar) |
+| sol@761c8dff | 2023-03-12 |      | verify changes (Opening the Dark Portal) |
+| sol@6e612f5a | 2023-03-11 |      | verify/rework SQL script (also see sol@6415b2ae) (Opening the Dark Portal) |
+| sol@c1c87706 | 2023-03-11 |      | verify changes (Opening the Dark Portal) |
+| sol@e1d9dbf3 | 2023-03-11 |      | verify/rework SQL script (Slave Pens) |
+| sol@ef0b2092 | 2023-03-06 |      | verify changes (also see sol@527f4628, sol@1155c406, sol@e2eb9fb8) (Opening the Dark Portal) |
 | sol@a5b4aecd | 2023-03-05 |      | verify changes (Botanica) |
 | sol@6e61f384 | 2023-03-04 |      | verify changes (Pit of Saron) |
 | sol@321195f4 | 2023-03-04 |      | verify changes (also see sol@74137279) (Escape from Durnholde Keep) |
@@ -14,7 +25,7 @@ TODOs: [common](TODO.md), low prio: [cosmetic](TODO_cosmetic.md), dungeon, [even
 | sol@7e3ae700 | 2023-02-27 |      | verify changes (Maraudon) |
 | sol@90bc88d4 | 2023-02-27 |      | verify/rework SQL script (Karazhan) |
 | sol@a76c0769 | 2023-02-19 |      | verify changes (Scholomance) |
-| sol@6e7aec3b | 2023-02-19 |      | verify changes (Opening the Dark Portal) |
+| sol@6e7aec3b | 2023-02-19 |      | verify changes (also see sol@67d02d4f) (Opening the Dark Portal) |
 | sol@d7071e87 | 2023-02-19 |      | verify/rework SQL script (Shadowfang Keep) |
 | sol@c3a8d261 | 2023-02-19 |      | verify/rework SQL script (Escape from Durnholde Keep) |
 | sol@e750aedb | 2023-02-19 |      | verify/rework SQL script (Mana-Tombs) |
@@ -66,7 +77,7 @@ TODOs: [common](TODO.md), low prio: [cosmetic](TODO_cosmetic.md), dungeon, [even
 | sol@5a538872 | 2023-01-16 |      | verify/rework SQL script (Escape from Durnholde Keep) |
 | sol@cf151de5 | 2023-01-16 |      | verify/rework SQL script (Escape from Durnholde Keep) |
 | sol@95ae8d3f | 2023-01-16 |      | verify/rework SQL script (Underbog) |
-| sol@1a2d1c22 | 2023-01-16 |      | verify changes (also see sol@71de46df) (Sethekk Halls) |
+| sol@1a2d1c22 | 2023-01-16 |      | verify changes (also see sol@71de46df, sol@4613d31f, sol@dfb37da2) (Sethekk Halls) |
 | sol@9cdf7362 | 2023-01-14 |      | verify/rework SQL script (also see sol@9db2bf96) (Escape from Durnholde Keep) |
 | sol@dbeffd14 | 2023-01-07 |      | verify changes (Zul'Aman) |
 | sol@312c1eac | 2023-01-07 |      | verify changes (Underbog) |

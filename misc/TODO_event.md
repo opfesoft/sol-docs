@@ -2,6 +2,8 @@ TODOs: [common](TODO.md), low prio: [cosmetic](TODO_cosmetic.md), [dungeon](TODO
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@6e39ffa6 | 2023-03-16 |      | verify changes (Hallow's End) |
+| sol@3f25a709 | 2023-03-12 |      | verify changes (Love is in the Air) |
 | sol@f3f2364b | 2023-02-08 |      | verify changes (Love is in the Air) |
 | sol@1bc727c9 | 2023-02-04 |      | verify/rework SQL script |
 | sol@fdc73508 | 2022-12-25 |      | verify/rework SQL script (Feast of Winter Veil) |

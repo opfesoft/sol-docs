@@ -12,7 +12,7 @@ TODOs: [common](TODO.md), low prio: cosmetic, [dungeon](TODO_dungeon.md), [event
 | sol@83471c65 | 2023-02-17 |      | verify/rework SQL script; check the WP paths |
 | sol@30198bf2 | 2023-02-17 |      | verify/rework SQL script; check the WP paths |
 | sol@f1084645 | 2023-02-17 |      | verify/rework SQL script; check the WP paths |
-| sol@405d1818 | 2023-02-17 |      | verify/rework SQL script; check the WP paths |
+| sol@405d1818 | 2023-02-17 |      | verify/rework SQL script (also see sol@37bc07cd); check the WP paths |
 | sol@f7f187c1 | 2023-02-17 |      | verify/rework SQL script |
 | sol@5a813c2d | 2023-02-17 |      | verify/rework SQL script; check the WP paths |
 | sol@b3b760ab | 2023-02-17 |      | verify/rework SQL script; check the WP paths |

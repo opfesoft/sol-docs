@@ -2,6 +2,20 @@ TODOs: common, low prio: [cosmetic](TODO_cosmetic.md), [dungeon](TODO_dungeon.md
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@59fbb1da | 2023-03-17 |      | verify/rework SQL script; also check the original TC commit 3f08cda3a4d21b1218911d0ac7e2cacb10f7aad4 |
+| sol@aa3e2e05 | 2023-03-16 |      | wrong, won't take over; this was already fixed with AC commit sol@990dbfe2 (Sol commit sol@90bb813a); probably a regression caused by AC commit sol@572a680c (Sol commit sol@af50fe15); find another solution |
+| sol@b2e823c6 | 2023-03-15 |      | verify/rework SQL script |
+| sol@6131a804 | 2023-03-15 |      | verify/rework SQL script; use OOC LOS instead of the area trigger |
+| sol@04ad054c | 2023-03-15 |      | verify/rework SQL script |
+| sol@d4a74c0a | 2023-03-15 |      | verify/rework SQL script; use OOC LOS instead of the area trigger; remove DK condition (no need to exclude DKs) |
+| sol@005dcdbf | 2023-03-15 |      | verify/rework SQL script; use OOC LOS instead of the area trigger |
+| sol@7827b089 | 2023-03-15 |      | verify/rework SQL script |
+| sol@f123f455 | 2023-03-15 |      | verify/rework SQL script |
+| sol@b5a655c8 | 2023-03-12 |      | won't take over, verify/rework TC commits 7db70bf40b1595f58a08536a36f74f18e8405758 & 7822f058b0ee997d4c114b60ec9ea5ddc2cc2874 instead |
+| sol@d336d1c9 | 2023-03-11 |      | verify/rework SQL script (spell ID 5164 is missing) |
+| sol@145a5a64 | 2023-03-11 |      | won't take over, verify/rework TC commit 049cba3ace198ec74a2014e233b33aafbf749a53 instead |
+| sol@9e64a479 | 2023-03-11 |      | verify/rework SQL script |
+| sol@159ec2bd | 2023-03-09 |      | verify/rework SQL script; reduce to 1 spawn at a time; use another pool template ID; adjust position for some of the spawns |
 | sol@4141ec1e | 2023-03-07 |      | verify/rework SQL script; only take over the actual update (id 0) |
 | sol@e7bb9ee2 | 2023-03-07 |      | verify/rework SQL script |
 | sol@a0cdf85e | 2023-03-07 |      | verify/rework SQL script |
@@ -13,10 +27,10 @@ TODOs: common, low prio: [cosmetic](TODO_cosmetic.md), [dungeon](TODO_dungeon.md
 | sol@3a3c9b69 | 2023-03-04 |      | only take over 3rd creature text |
 | sol@9eb4b3a3 | 2023-03-04 |      | take over if needed (also see sol@5a9aeada); maybe just use one table and add a "type" column to distinguish between "reserved" and "profanity" |
 | sol@23fbdd0f | 2023-03-04 |      | verify changes |
-| sol@0b7fc7cc | 2023-03-01 |      | verify/rework SQL script |
+| sol@0b7fc7cc | 2023-03-01 |      | verify/rework SQL script (also see sol@0834b9c2) |
 | sol@4d6e3c13 | 2023-03-01 |      | verify/rework SQL script |
 | sol@412ada54 | 2023-03-01 |      | verify/rework SQL script |
-| sol@7032f2bd | 2023-03-01 |      | verify/rework SQL script (also see sol@d6152df5); quest is working on Sol, but SAI would be better |
+| sol@7032f2bd | 2023-03-01 | X    | verify/rework SQL script (also see sol@d6152df5); quest is working on Sol, but SAI would be better; done: sol@8b1539f1 |
 | sol@f4a6f8ea | 2023-02-27 |      | verify/rework SQL script |
 | sol@5673855e | 2023-02-27 |      | won't take over, just set unit flags 768 |
 | sol@de2d8e0d | 2023-02-23 |      | won't take over, rework all involved SAI scripts |
@@ -430,7 +444,7 @@ TODOs: common, low prio: [cosmetic](TODO_cosmetic.md), [dungeon](TODO_dungeon.md
 | sol@416e8d2c | 2021-10-24 | X    | won't take over, use SAI instead; done: sol@9336ee8a |
 | sol@96441a91 | 2021-10-24 |      | verify changes (also see sol@8c1b7293); low prio (minor issue) |
 | sol@a45abcad | 2021-10-24 | X    | take over from TC instead; done: sol@579b350f |
-| sol@36aced60 | 2021-10-23 |      | take over if needed (the recipes are largely irrelevant for WotLK and were removed in Cataclysm) |
+| sol@36aced60 | 2021-10-23 |      | take over if needed (also see sol@6a66b36a) (the recipes are largely irrelevant for WotLK and were removed in Cataclysm) |
 | sol@9bcde70d | 2021-10-22 |      | take over if needed (see TC commit ac62d7156f93bf86f57dbad1f24f14031322fd5a for more information) |
 | sol@5d69ce82 | 2021-10-22 | X    | verify loot; compare with TC; done: sol@55453d23 |
 | sol@c2381a5a | 2021-10-21 | X    | won't take over, just set the respawn time of the GOs to 2 minutes, this should suffice; done: sol@e5f0e902 |

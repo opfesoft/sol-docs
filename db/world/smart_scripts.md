@@ -2582,6 +2582,7 @@ quickChange 1 forces the creature to quickly change its orientation (useful if t
 <td><p>SMART_ACTION_RESPAWN_TARGET</p></td>
 <td><p>70</p></td>
 <td><p>Despawntime in seconds (only for GOs which start despawned; for creature: 0: respawn only if dead; >0: force respawn even if alive)</p></td>
+<td><p>saveRespawnTime (creatures only; 0: ignore, just respawn target; 1/2: just enable/disable save respawn time, target is not respawned)</p></td>
 <td><p><br />
 </p></td>
 <td><p><br />
@@ -2590,10 +2591,7 @@ quickChange 1 forces the creature to quickly change its orientation (useful if t
 </p></td>
 <td><p><br />
 </p></td>
-<td><p><br />
-</p></td>
-<td><p><br />
-</p></td>
+<td><p>The respawn time is not saved for normal creatures, only elite, boss etc.</p></td>
 </tr>
 <tr>
 <td><p>SMART_ACTION_EQUIP</p></td>
