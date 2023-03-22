@@ -2,6 +2,8 @@ TODOs: common, low prio: [cosmetic](TODO_cosmetic.md), [dungeon](TODO_dungeon.md
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@9ef069b0 | 2023-03-20 |      | verify/rework SQL script; also adjust position, WP path and remove the WP script (use SAI for the conversation) |
+| sol@ce40ed62 | 2023-03-20 |      | take over if needed |
 | sol@59fbb1da | 2023-03-17 |      | verify/rework SQL script; also check the original TC commit 3f08cda3a4d21b1218911d0ac7e2cacb10f7aad4 |
 | sol@aa3e2e05 | 2023-03-16 |      | wrong, won't take over; this was already fixed with AC commit sol@990dbfe2 (Sol commit sol@90bb813a); probably a regression caused by AC commit sol@572a680c (Sol commit sol@af50fe15); find another solution |
 | sol@b2e823c6 | 2023-03-15 |      | verify/rework SQL script |
@@ -11,7 +13,7 @@ TODOs: common, low prio: [cosmetic](TODO_cosmetic.md), [dungeon](TODO_dungeon.md
 | sol@005dcdbf | 2023-03-15 |      | verify/rework SQL script; use OOC LOS instead of the area trigger |
 | sol@7827b089 | 2023-03-15 |      | verify/rework SQL script |
 | sol@f123f455 | 2023-03-15 |      | verify/rework SQL script |
-| sol@b5a655c8 | 2023-03-12 |      | won't take over, verify/rework TC commits 7db70bf40b1595f58a08536a36f74f18e8405758 & 7822f058b0ee997d4c114b60ec9ea5ddc2cc2874 instead |
+| sol@b5a655c8 | 2023-03-12 |      | won't take over, verify/rework TC commits 7db70bf40b1595f58a08536a36f74f18e8405758 & 7822f058b0ee997d4c114b60ec9ea5ddc2cc2874 instead (also see sol@d6c7e9f6) |
 | sol@d336d1c9 | 2023-03-11 |      | verify/rework SQL script (spell ID 5164 is missing) |
 | sol@145a5a64 | 2023-03-11 |      | won't take over, verify/rework TC commit 049cba3ace198ec74a2014e233b33aafbf749a53 instead |
 | sol@9e64a479 | 2023-03-11 |      | verify/rework SQL script |

@@ -3,19 +3,21 @@
 ## Add APT repositories
 
 - latest cmake
-  - `sudo apt-get install apt-transport-https curl gnupg gnupg2`
-  - `curl -L https://apt.kitware.com/keys/kitware-archive-latest.asc | sudo apt-key add -`
+  - `sudo apt-get install curl gpg`
+  - `curl 'https://apt.kitware.com/keys/kitware-archive-latest.asc' | gpg --dearmor -o /usr/share/keyrings/kitware-archive-keyring.gpg`
   - `vi /etc/apt/sources.list.d/kitware.list`
-    - Ubuntu 18.04: `deb https://apt.kitware.com/ubuntu/ bionic main`
-    - Ubuntu 20.04: `deb https://apt.kitware.com/ubuntu/ focal main`
+    - Ubuntu 20.04: `deb [signed-by=/usr/share/keyrings/kitware-archive-keyring.gpg] https://apt.kitware.com/ubuntu/ focal main`
+    - Ubuntu 22.04: `deb [signed-by=/usr/share/keyrings/kitware-archive-keyring.gpg] https://apt.kitware.com/ubuntu/ jammy main`
+  - `rm /usr/share/keyrings/kitware-archive-keyring.gpg`
+  - `apt-get install kitware-archive-keyring`
 
 <br>
 
 - latest gcc
-  - `apt-key adv --keyserver keyserver.ubuntu.com --recv 60C317803A41BA51845E371A1E9377A2BA9EF27F`
-  - `vi /etc/apt/sources.list.d/test.list`
-    - Ubuntu 18.04: `deb http://ppa.launchpad.net/ubuntu-toolchain-r/test/ubuntu bionic main`
-    - Ubuntu 20.04: `deb http://ppa.launchpad.net/ubuntu-toolchain-r/test/ubuntu focal main`
+  - `gpg -k && gpg --no-default-keyring --keyring /usr/share/keyrings/toolchain-test-keyring.gpg --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys 60C317803A41BA51845E371A1E9377A2BA9EF27F`
+  - `vi /etc/apt/sources.list.d/toolchain-test.list`
+    - Ubuntu 20.04: `deb [signed-by=/usr/share/keyrings/toolchain-test-keyring.gpg] https://ppa.launchpadcontent.net/ubuntu-toolchain-r/test/ubuntu focal main`
+    - Ubuntu 22.04: `deb [signed-by=/usr/share/keyrings/toolchain-test-keyring.gpg] https://ppa.launchpadcontent.net/ubuntu-toolchain-r/test/ubuntu jammy main`
 
 <br>
 
@@ -25,7 +27,7 @@
 
 ## Packages
 
-`sudo apt-get install git cmake make gcc-11 g++-11 ccache libmariadb-dev libbz2-dev libreadline-dev libncurses-dev mariadb-server perl`
+`sudo apt-get install git cmake make gcc-12 g++-12 ccache libmariadb-dev libbz2-dev libreadline-dev libncurses-dev mariadb-server perl bzip2`
 
 ## OpenSSL installation
 
@@ -37,10 +39,10 @@ curl -L 'https://github.com/openssl/openssl/archive/refs/tags/openssl-3.1.0.tar.
 tar -xzf openssl-3.1.0.tar.gz
 ```
 
-- Install (here gcc 11 is used):
+- Install (here gcc 12 is used):
 ```
-export CC='gcc-11'
-export CXX='g++-11'
+export CC='gcc-12'
+export CXX='g++-12'
 cd openssl-openssl-3.1.0
 ./config --prefix=${HOME}/sol-srv/lib/openssl --openssldir=${HOME}/sol-srv/lib/openssl -static
 make -j $(($(nproc)+2))
@@ -61,10 +63,10 @@ curl -L 'https://github.com/jemalloc/jemalloc/releases/download/5.3.0/jemalloc-5
 tar -xjf jemalloc-5.3.0.tar.bz2
 ```
 
-- Install (here gcc 11 is used):
+- Install (here gcc 12 is used):
 ```
-export CC='gcc-11'
-export CXX='g++-11'
+export CC='gcc-12'
+export CXX='g++-12'
 cd jemalloc-5.3.0
 ./configure --prefix=${HOME}/sol-srv/lib/jemalloc
 make -j $(($(nproc)+2))
@@ -107,10 +109,10 @@ include $(ACE_ROOT)/include/makeinclude/platform_linux.GNU
 INSTALL_PREFIX = $(HOME)/sol-srv/lib/ace
 ```
 
-- Install (here gcc 11 is used):
+- Install (here gcc 12 is used):
 ```
-export CC='gcc-11'
-export CXX='g++-11'
+export CC='gcc-12'
+export CXX='g++-12'
 cd $ACE_ROOT/ace
 make -j $(($(nproc)+2))
 make install
@@ -150,7 +152,7 @@ ccache -M 16G
 ```
 cd ~/sol
 mkdir build; cd build
-cmake ../ -DCMAKE_C_COMPILER_LAUNCHER=ccache -DCMAKE_CXX_COMPILER_LAUNCHER=ccache -DCMAKE_C_COMPILER="gcc-11" -DCMAKE_CXX_COMPILER="g++-11" -DWITH_WARNINGS=1 -DCMAKE_C_FLAGS="-Werror" -DCMAKE_CXX_FLAGS="-Werror" -DCMAKE_INSTALL_PREFIX=~/sol-srv/ -DTOOLS=1 -DSCRIPTS=1
+cmake ../ -DCMAKE_C_COMPILER_LAUNCHER=ccache -DCMAKE_CXX_COMPILER_LAUNCHER=ccache -DCMAKE_C_COMPILER="gcc-12" -DCMAKE_CXX_COMPILER="g++-12" -DWITH_WARNINGS=1 -DCMAKE_C_FLAGS="-Werror" -DCMAKE_CXX_FLAGS="-Werror" -DCMAKE_INSTALL_PREFIX=~/sol-srv/ -DTOOLS=1 -DSCRIPTS=1
 make -j $(($(nproc)+2))
 make install
 ```

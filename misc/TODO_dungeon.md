@@ -2,6 +2,18 @@ TODOs: [common](TODO.md), low prio: [cosmetic](TODO_cosmetic.md), dungeon, [even
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@8b8883d2 | 2023-03-22 |      | verify/rework SQL script (Escape from Durnholde Keep) |
+| sol@e3e321bf | 2023-03-22 |      | verify/rework SQL script (Arcatraz, Mechanar) |
+| sol@80ac0c95 | 2023-03-21 |      | verify changes (Naxxramas) |
+| sol@4512907c | 2023-03-21 |      | verify/rework SQL script (Mechanar) |
+| sol@04d360bb | 2023-03-21 |      | verify/rework SQL script (Arcatraz) |
+| sol@97039001 | 2023-03-20 |      | verify/rework SQL script (Arcatraz) |
+| sol@7b72d6fa | 2023-03-20 |      | verify/rework SQL script (Mechanar) |
+| sol@00dbf481 | 2023-03-20 |      | verify/rework SQL script (Arcatraz) |
+| sol@0c2d2e04 | 2023-03-20 |      | verify/rework SQL script (Underbog) |
+| sol@05fb5cac | 2023-03-20 |      | verify changes (Mechanar) |
+| sol@8f3a215b | 2023-03-19 |      | verify changes (Mechanar) |
+| sol@7b3b22a2 | 2023-03-19 |      | verify changes (Icecrown Citadel) |
 | sol@f5421722 | 2023-03-19 |      | use SAI instead (Sethekk Halls) |
 | sol@7207be20 | 2023-03-16 |      | verify and rework SQL script (Gnomeregan) |
 | sol@f0be1aa9 | 2023-03-15 |      | verify/rework SQL script (Botanica) |
@@ -13,7 +25,7 @@ TODOs: [common](TODO.md), low prio: [cosmetic](TODO_cosmetic.md), dungeon, [even
 | sol@6e612f5a | 2023-03-11 |      | verify/rework SQL script (also see sol@6415b2ae) (Opening the Dark Portal) |
 | sol@c1c87706 | 2023-03-11 |      | verify changes (Opening the Dark Portal) |
 | sol@e1d9dbf3 | 2023-03-11 |      | verify/rework SQL script (Slave Pens) |
-| sol@ef0b2092 | 2023-03-06 |      | verify changes (also see sol@527f4628, sol@1155c406, sol@e2eb9fb8) (Opening the Dark Portal) |
+| sol@ef0b2092 | 2023-03-06 |      | verify changes (also see sol@527f4628, sol@1155c406, sol@e2eb9fb8, sol@684bb179) (Opening the Dark Portal) |
 | sol@a5b4aecd | 2023-03-05 |      | verify changes (Botanica) |
 | sol@6e61f384 | 2023-03-04 |      | verify changes (Pit of Saron) |
 | sol@321195f4 | 2023-03-04 |      | verify changes (also see sol@74137279) (Escape from Durnholde Keep) |
