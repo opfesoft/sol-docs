@@ -5,7 +5,7 @@ TODOs: common, low prio: [cosmetic](TODO_cosmetic.md), [dungeon](TODO_dungeon.md
 | sol@9ef069b0 | 2023-03-20 |      | verify/rework SQL script; also adjust position, WP path and remove the WP script (use SAI for the conversation) |
 | sol@ce40ed62 | 2023-03-20 |      | take over if needed |
 | sol@59fbb1da | 2023-03-17 |      | verify/rework SQL script; also check the original TC commit 3f08cda3a4d21b1218911d0ac7e2cacb10f7aad4 |
-| sol@aa3e2e05 | 2023-03-16 |      | wrong, won't take over; this was already fixed with AC commit sol@990dbfe2 (Sol commit sol@90bb813a); probably a regression caused by AC commit sol@572a680c (Sol commit sol@af50fe15); find another solution |
+| sol@aa3e2e05 | 2023-03-16 | X    | wrong, won't take over; this was already fixed with AC commit sol@990dbfe2 (Sol commit sol@90bb813a); probably a regression caused by AC commit sol@572a680c (Sol commit sol@af50fe15); find another solution; done: sol@ed858ae7 |
 | sol@b2e823c6 | 2023-03-15 |      | verify/rework SQL script |
 | sol@6131a804 | 2023-03-15 |      | verify/rework SQL script; use OOC LOS instead of the area trigger |
 | sol@04ad054c | 2023-03-15 |      | verify/rework SQL script |
@@ -45,7 +45,7 @@ TODOs: common, low prio: [cosmetic](TODO_cosmetic.md), [dungeon](TODO_dungeon.md
 | sol@f6b7d2b8 | 2023-02-12 |      | verify/rework SQL script; also see TC commit e4d8e044a0c994e548adb3b674830d315b35333f |
 | sol@1251939d | 2023-02-12 | X    | won't take over, rework the existing SAI scripts; done: sol@e66d2978 |
 | sol@8927d0cb | 2023-02-11 |      | verify/rework SQL script |
-| sol@636d9a79 | 2023-02-11 |      | verify/rework SQL script |
+| sol@636d9a79 | 2023-02-11 | X    | verify/rework SQL script; done: sol@4dbe5a37 |
 | sol@2a29acac | 2023-02-11 | X    | verify/rework SQL script; done: sol@64f88dad |
 | sol@4ec8af5b | 2023-02-10 | X    | verify/rework SQL script; also see TC commit 3ab64796ab43d866e462fe264d5c5312d8ea8abd; done: sol@522dbd2d |
 | sol@13b23397 | 2023-02-10 | X    | verify/rework SQL script; also see TC commit 48bd5633cd076d8819d62adf1ad39557fb22734d; done: sol@188a710c |
@@ -335,7 +335,7 @@ TODOs: common, low prio: [cosmetic](TODO_cosmetic.md), [dungeon](TODO_dungeon.md
 | sol@0dae1579 | 2022-01-06 | X    | verify/rework SQL script; done: sol@d840310b (based on the TC version as the AC version is too awkward) |
 | sol@2bc373b4 | 2022-01-05 |      | take over if needed |
 | sol@86f1b87f | 2022-01-05 |      | take over if needed (also see sol@911e8b4d) |
-| sol@8fd757a1 | 2022-01-04 |      | take over if needed |
+| sol@8fd757a1 | 2022-01-04 | X    | take over if needed; update: won't take over, action type 202 already provides the same functionality |
 | sol@9faec8ef | 2022-01-04 |      | take over if needed |
 | sol@3247bfe9 | 2022-01-03 | X    | verify/rework SQL script; done: sol@8841699d |
 | sol@23deac6e | 2022-01-03 | X    | verify loot; compare with TC; done: sol@b11709e5 |

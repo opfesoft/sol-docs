@@ -3427,8 +3427,7 @@ quickChange 1 forces the creature to quickly change its orientation (useful if t
 </p></td>
 <td><p><br />
 </p></td>
-<td><p><br />
-</p></td>
+<td><p>Remove all GOs associated with the targeted unit(s).</p></td>
 </tr>
 <tr>
 <td><p>SMART_ACTION_MOVE_TO_POS_TARGET</p></td>

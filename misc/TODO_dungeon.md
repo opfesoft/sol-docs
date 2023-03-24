@@ -2,6 +2,9 @@ TODOs: [common](TODO.md), low prio: [cosmetic](TODO_cosmetic.md), dungeon, [even
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@970aca64 | 2023-03-23 |      | verify changes (Utgarde Keep) |
+| sol@5ab1da77 | 2023-03-23 |      | verify/rework SQL script (Steamvault) |
+| sol@10c5ca69 | 2023-03-23 |      | verify changes (Mechanar) |
 | sol@8b8883d2 | 2023-03-22 |      | verify/rework SQL script (Escape from Durnholde Keep) |
 | sol@e3e321bf | 2023-03-22 |      | verify/rework SQL script (Arcatraz, Mechanar) |
 | sol@80ac0c95 | 2023-03-21 |      | verify changes (Naxxramas) |
@@ -11,7 +14,7 @@ TODOs: [common](TODO.md), low prio: [cosmetic](TODO_cosmetic.md), dungeon, [even
 | sol@7b72d6fa | 2023-03-20 |      | verify/rework SQL script (Mechanar) |
 | sol@00dbf481 | 2023-03-20 |      | verify/rework SQL script (Arcatraz) |
 | sol@0c2d2e04 | 2023-03-20 |      | verify/rework SQL script (Underbog) |
-| sol@05fb5cac | 2023-03-20 |      | verify changes (Mechanar) |
+| sol@05fb5cac | 2023-03-20 |      | verify changes (also see sol@989584b1) (Mechanar) |
 | sol@8f3a215b | 2023-03-19 |      | verify changes (Mechanar) |
 | sol@7b3b22a2 | 2023-03-19 |      | verify changes (Icecrown Citadel) |
 | sol@f5421722 | 2023-03-19 |      | use SAI instead (Sethekk Halls) |
