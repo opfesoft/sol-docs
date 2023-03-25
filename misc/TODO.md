@@ -2,6 +2,9 @@ TODOs: common, low prio: [cosmetic](TODO_cosmetic.md), [dungeon](TODO_dungeon.md
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@ac45b552 | 2023-03-24 |      | verify/rework SQL script |
+| sol@1d969fe8 | 2023-03-24 |      | verify/rework SQL script |
+| sol@593c16f8 | 2023-03-24 |      | verify/rework SQL script |
 | sol@9ef069b0 | 2023-03-20 |      | verify/rework SQL script; also adjust position, WP path and remove the WP script (use SAI for the conversation) |
 | sol@ce40ed62 | 2023-03-20 |      | take over if needed |
 | sol@59fbb1da | 2023-03-17 |      | verify/rework SQL script; also check the original TC commit 3f08cda3a4d21b1218911d0ac7e2cacb10f7aad4 |
@@ -44,7 +47,7 @@ TODOs: common, low prio: [cosmetic](TODO_cosmetic.md), [dungeon](TODO_dungeon.md
 | sol@9f149b80 | 2023-02-12 |      | verify/rework SQL script |
 | sol@f6b7d2b8 | 2023-02-12 |      | verify/rework SQL script; also see TC commit e4d8e044a0c994e548adb3b674830d315b35333f |
 | sol@1251939d | 2023-02-12 | X    | won't take over, rework the existing SAI scripts; done: sol@e66d2978 |
-| sol@8927d0cb | 2023-02-11 |      | verify/rework SQL script |
+| sol@8927d0cb | 2023-02-11 | X    | verify/rework SQL script; done: sol@eab96997 |
 | sol@636d9a79 | 2023-02-11 | X    | verify/rework SQL script; done: sol@4dbe5a37 |
 | sol@2a29acac | 2023-02-11 | X    | verify/rework SQL script; done: sol@64f88dad |
 | sol@4ec8af5b | 2023-02-10 | X    | verify/rework SQL script; also see TC commit 3ab64796ab43d866e462fe264d5c5312d8ea8abd; done: sol@522dbd2d |

@@ -2,6 +2,9 @@ TODOs: [common](TODO.md), low prio: [cosmetic](TODO_cosmetic.md), dungeon, [even
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@dd43ea48 | 2023-03-25 |      | verify changes (Icecrown Citadel) |
+| sol@da62ff12 | 2023-03-24 |      | verify/rework SQL script (Karazhan) |
+| sol@825d0dc2 | 2023-03-24 |      | verify changes (Icecrown Citadel) |
 | sol@970aca64 | 2023-03-23 |      | verify changes (Utgarde Keep) |
 | sol@5ab1da77 | 2023-03-23 |      | verify/rework SQL script (Steamvault) |
 | sol@10c5ca69 | 2023-03-23 |      | verify changes (Mechanar) |
