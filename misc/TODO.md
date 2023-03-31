@@ -2,6 +2,10 @@ TODOs: common, low prio: [cosmetic](TODO_cosmetic.md), [dungeon](TODO_dungeon.md
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@65111353 | 2023-03-31 |      | keep as reference; take over single values if needed; won't blindly take over such mass updates |
+| sol@1fdf2546 | 2023-03-30 |      | verify/rework SQL script |
+| sol@d4f8134b | 2023-03-29 |      | won't take over, does not work correctly; find another solution |
+| sol@7035e875 | 2023-03-29 |      | won't take over, could cause bugs or allow exploits; find another solution |
 | sol@ac45b552 | 2023-03-24 |      | verify/rework SQL script |
 | sol@1d969fe8 | 2023-03-24 |      | verify/rework SQL script |
 | sol@593c16f8 | 2023-03-24 |      | verify/rework SQL script |
@@ -45,7 +49,7 @@ TODOs: common, low prio: [cosmetic](TODO_cosmetic.md), [dungeon](TODO_dungeon.md
 | sol@cb18f73c | 2023-02-17 |      | verify/rework SQL script (also see creature ID 19527) |
 | sol@1694eec2 | 2023-02-12 |      | verify/rework SQL script |
 | sol@9f149b80 | 2023-02-12 |      | verify/rework SQL script |
-| sol@f6b7d2b8 | 2023-02-12 |      | verify/rework SQL script; also see TC commit e4d8e044a0c994e548adb3b674830d315b35333f |
+| sol@f6b7d2b8 | 2023-02-12 | X    | verify/rework SQL script; also see TC commit e4d8e044a0c994e548adb3b674830d315b35333f; done: sol@53ff7e24 |
 | sol@1251939d | 2023-02-12 | X    | won't take over, rework the existing SAI scripts; done: sol@e66d2978 |
 | sol@8927d0cb | 2023-02-11 | X    | verify/rework SQL script; done: sol@eab96997 |
 | sol@636d9a79 | 2023-02-11 | X    | verify/rework SQL script; done: sol@4dbe5a37 |
