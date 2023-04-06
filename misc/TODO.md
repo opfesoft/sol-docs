@@ -2,10 +2,25 @@ TODOs: common, low prio: [cosmetic](TODO_cosmetic.md), [dungeon](TODO_dungeon.md
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@4e04dc6d | 2023-04-04 |      | verify/rework SQL script |
+| sol@8c9b4f1f | 2023-04-04 |      | verify/rework SQL script |
+| sol@1ba36b8d | 2023-04-04 |      | verify/rework SQL script |
+| sol@c028d074 | 2023-04-04 |      | verify/rework SQL script |
+| sol@dc6238d3 | 2023-04-04 |      | verify/rework SQL script |
+| sol@8926a1e6 | 2023-04-04 |      | verify/rework SQL script |
+| sol@4833dd01 | 2023-04-04 |      | verify/rework SQL script |
+| sol@15635860 | 2023-04-04 |      | verify/rework SQL script |
+| sol@6099915c | 2023-04-04 |      | verify/rework SQL script |
+| sol@72a55abf | 2023-04-02 |      | verify/rework SQL script |
+| sol@0fec0bdf | 2023-04-02 |      | verify/rework SQL script |
+| sol@4b1c84b8 | 2023-04-02 |      | verify/rework SQL script |
+| sol@d029ffe3 | 2023-04-02 |      | fix spell\_proc\_event entry (see sol@d73421a9) |
+| sol@dcb709a0 | 2023-04-02 |      | won't take over; compare with latest TC DB |
+| sol@4d24c412 | 2023-04-02 |      | caused by sol@65111353; rework SAI nevertheless (check TC version); low prio (Sol is not affected by this issue) |
 | sol@65111353 | 2023-03-31 |      | keep as reference; take over single values if needed; won't blindly take over such mass updates |
 | sol@1fdf2546 | 2023-03-30 |      | verify/rework SQL script |
-| sol@d4f8134b | 2023-03-29 |      | won't take over, does not work correctly; find another solution |
-| sol@7035e875 | 2023-03-29 |      | won't take over, could cause bugs or allow exploits; find another solution |
+| sol@d4f8134b | 2023-03-29 | X    | won't take over, does not work correctly; find another solution; done: sol@89781e55 |
+| sol@7035e875 | 2023-03-29 | X    | won't take over, could cause bugs or allow exploits; find another solution; done: sol@ecdecb09 |
 | sol@ac45b552 | 2023-03-24 |      | verify/rework SQL script |
 | sol@1d969fe8 | 2023-03-24 |      | verify/rework SQL script |
 | sol@593c16f8 | 2023-03-24 |      | verify/rework SQL script |
@@ -47,8 +62,8 @@ TODOs: common, low prio: [cosmetic](TODO_cosmetic.md), [dungeon](TODO_dungeon.md
 | sol@cefbf944 | 2023-02-19 |      | verify/rework SQL script |
 | sol@f25c90da | 2023-02-17 | X    | verify/rework SQL script (also see sol@1e4e663a, sol@2f28c8e9); done: sol@3e0d67ce |
 | sol@cb18f73c | 2023-02-17 |      | verify/rework SQL script (also see creature ID 19527) |
-| sol@1694eec2 | 2023-02-12 |      | verify/rework SQL script |
-| sol@9f149b80 | 2023-02-12 |      | verify/rework SQL script |
+| sol@1694eec2 | 2023-02-12 | X    | verify/rework SQL script; done: sol@ccc70ee0 |
+| sol@9f149b80 | 2023-02-12 | X    | verify/rework SQL script; done: sol@6cd83120 |
 | sol@f6b7d2b8 | 2023-02-12 | X    | verify/rework SQL script; also see TC commit e4d8e044a0c994e548adb3b674830d315b35333f; done: sol@53ff7e24 |
 | sol@1251939d | 2023-02-12 | X    | won't take over, rework the existing SAI scripts; done: sol@e66d2978 |
 | sol@8927d0cb | 2023-02-11 | X    | verify/rework SQL script; done: sol@eab96997 |

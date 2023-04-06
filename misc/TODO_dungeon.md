@@ -2,6 +2,15 @@ TODOs: [common](TODO.md), low prio: [cosmetic](TODO_cosmetic.md), dungeon, [even
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@331e6164 | 2023-04-04 |      | verify/rework SQL script (Steamvault) |
+| sol@ce066a47 | 2023-04-04 |      | verify changes (Slave Pens) |
+| sol@37374bbf | 2023-04-04 |      | verify/rework SQL script (Steamvault, Shadow Labyrinth) |
+| sol@ea1eed73 | 2023-04-03 |      | verify changes (also see sol@28c770a5) (Icecrown Citadel) |
+| sol@a8a3c4ed | 2023-04-02 |      | verify changes (Violet Hold) |
+| sol@e6fb7ff8 | 2023-04-02 |      | verify changes (Karazhan) |
+| sol@3fd2c2a6 | 2023-04-02 |      | verify/rework SQL script (Steamvault) |
+| sol@126424e9 | 2023-04-02 |      | verify/rework SQL script (Arcatraz) |
+| sol@97e475ae | 2023-04-01 |      | verify/rework SQL script (Arcatraz) |
 | sol@b7c947e4 | 2023-03-31 |      | verify/rework SQL script (Uldaman) |
 | sol@a4b0f85a | 2023-03-31 |      | verify/rework SQL script (Arcatraz) |
 | sol@66acaef6 | 2023-03-31 |      | verify changes (Arcatraz) |
@@ -29,10 +38,10 @@ TODOs: [common](TODO.md), low prio: [cosmetic](TODO_cosmetic.md), dungeon, [even
 | sol@e3e321bf | 2023-03-22 |      | verify/rework SQL script (Arcatraz, Mechanar) |
 | sol@80ac0c95 | 2023-03-21 |      | verify changes (Naxxramas) |
 | sol@4512907c | 2023-03-21 |      | verify/rework SQL script (also see sol@ca26ef87) (Mechanar) |
-| sol@04d360bb | 2023-03-21 |      | verify/rework SQL script (also see sol@85a8320e) (Arcatraz) |
+| sol@04d360bb | 2023-03-21 |      | verify/rework SQL script (also see sol@85a8320e, sol@10dab22f, sol@9f50dbc6) (Arcatraz) |
 | sol@97039001 | 2023-03-20 |      | verify/rework SQL script (Arcatraz) |
 | sol@7b72d6fa | 2023-03-20 |      | verify/rework SQL script (Mechanar) |
-| sol@00dbf481 | 2023-03-20 |      | verify/rework SQL script (Arcatraz) |
+| sol@00dbf481 | 2023-03-20 |      | verify/rework SQL script (also see sol@9eb539a5) (Arcatraz) |
 | sol@0c2d2e04 | 2023-03-20 |      | verify/rework SQL script (Underbog) |
 | sol@05fb5cac | 2023-03-20 |      | verify changes (also see sol@989584b1) (Mechanar) |
 | sol@8f3a215b | 2023-03-19 |      | verify changes (also see sol@3c056273, sol@18c69643) (Mechanar) |
@@ -65,7 +74,7 @@ TODOs: [common](TODO.md), low prio: [cosmetic](TODO_cosmetic.md), dungeon, [even
 | sol@c3a8d261 | 2023-02-19 |      | verify/rework SQL script (Escape from Durnholde Keep) |
 | sol@e750aedb | 2023-02-19 |      | verify/rework SQL script (Mana-Tombs) |
 | sol@65471801 | 2023-02-18 |      | verify changes (Sethekk Halls) |
-| sol@c2208318 | 2023-02-18 |      | verify changes (also see sol@43336a84) (Sethekk Halls) |
+| sol@c2208318 | 2023-02-18 |      | verify changes (also see sol@43336a84, sol@c0253d91) (Sethekk Halls) |
 | sol@333de4c0 | 2023-02-18 |      | verify/rework SQL script (also see sol@62d8743d) (Sethekk Halls) |
 | sol@e8b76f26 | 2023-02-18 |      | verify changes (Opening the Dark Portal) |
 | sol@df6dcd88 | 2023-02-16 |      | verify changes (Gruul's Lair) |
@@ -508,7 +517,7 @@ TODOs: [common](TODO.md), low prio: [cosmetic](TODO_cosmetic.md), dungeon, [even
 | sol@6da6cfdd | 2021-11-03 |      | verify changes (also see sol@16489b56, sol@99131575, sol@7a8493b7, sol@dd944c6f, sol@e6045112, sol@62f93f9d, sol@228d7e4c) (Upper Blackrock Spire) |
 | sol@9d6cbf93 | 2021-11-03 |      | verify changes (Zul'Gurub) |
 | sol@1ed0a67e | 2021-11-02 |      | verify changes (also see sol@5d1a7a4d, sol@3e82e8a0, sol@069d537b, sol@12faaaad) (Upper Blackrock Spire) |
-| sol@2da923e7 | 2021-11-02 |      | verify changes (also see sol@bbd547fc, sol@a743f423, sol@18b2f3fd, sol@2713080b) (Molten Core) |
+| sol@2da923e7 | 2021-11-02 |      | verify changes (also see sol@bbd547fc, sol@a743f423, sol@18b2f3fd, sol@2713080b, sol@817cb2d6) (Molten Core) |
 | sol@ee0bc7d5 | 2021-11-01 |      | verify changes; try to improve SAI instead (Scholomance) |
 | sol@73a55e02 | 2021-10-22 |      | verify changes; adapt to Sol if taking over parts of the CreatureScript, perhaps improve the SAI instead (Stratholme) |
 | sol@6798b907 | 2021-10-21 |      | verify changes (Blackrock Depths) |
