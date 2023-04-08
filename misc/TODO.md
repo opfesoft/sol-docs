@@ -61,7 +61,7 @@ TODOs: common, low prio: [cosmetic](TODO_cosmetic.md), [dungeon](TODO_dungeon.md
 | sol@fff0e171 | 2023-02-23 |      | verify changes (also see sol@428f8e0a); low prio (minor issue) |
 | sol@cefbf944 | 2023-02-19 |      | verify/rework SQL script |
 | sol@f25c90da | 2023-02-17 | X    | verify/rework SQL script (also see sol@1e4e663a, sol@2f28c8e9); done: sol@3e0d67ce |
-| sol@cb18f73c | 2023-02-17 |      | verify/rework SQL script (also see creature ID 19527) |
+| sol@cb18f73c | 2023-02-17 | X    | verify/rework SQL script (also see creature ID 19527); done: sol@446b7035 |
 | sol@1694eec2 | 2023-02-12 | X    | verify/rework SQL script; done: sol@ccc70ee0 |
 | sol@9f149b80 | 2023-02-12 | X    | verify/rework SQL script; done: sol@6cd83120 |
 | sol@f6b7d2b8 | 2023-02-12 | X    | verify/rework SQL script; also see TC commit e4d8e044a0c994e548adb3b674830d315b35333f; done: sol@53ff7e24 |

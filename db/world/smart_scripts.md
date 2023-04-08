@@ -674,7 +674,7 @@ This is the probability of the event to occur as a percentage from 0-100. So, if
 <td><p>SMART_EVENT_SPELLHIT</p></td>
 <td><p>8</p></td>
 <td><p>SpellID</p></td>
-<td><p>School</p></td>
+<td><p>[School](#spell-schools)</p></td>
 <td><p>CooldownMin</p></td>
 <td><p>CooldownMax</p></td>
 <td><p><br />
@@ -953,7 +953,7 @@ This is the probability of the event to occur as a percentage from 0-100. So, if
 <td><p>SMART_EVENT_SPELLHIT_TARGET</p></td>
 <td><p>31</p></td>
 <td><p>SpellId</p></td>
-<td><p>School</p></td>
+<td><p>[School](#spell-schools)</p></td>
 <td><p>RepeatMin</p></td>
 <td><p>RepeatMax</p></td>
 <td><p><br />
@@ -3553,23 +3553,15 @@ quickChange 1 forces the creature to quickly change its orientation (useful if t
 <td><p>type<br />
 0 IMMUNITY_EFFECT (enum SpellEffects)<br />
 1 IMMUNITY_STATE (enum AuraType)<br />
-2 IMMUNITY_SCHOOL (enum SpellSchoolMask)<br />
-3 IMMUNITY_DAMAGE (enum SpellSchoolMask)<br />
+2 IMMUNITY_SCHOOL (enum [SpellSchoolMask](#spell-schools))<br />
+3 IMMUNITY_DAMAGE (enum [SpellSchoolMask](#spell-schools))<br />
 4 IMMUNITY_DISPEL (enum DispelType)<br />
 5 IMMUNITY_MECHANIC (enum Mechanics)<br />
 6 IMMUNITY_ID (NPC is immune to the spell ID specified in "value")<br />
 7 IMMUNITY_ALLOW_ID (NPC is immune to everything except for the spell ID specified in "value")</p></td>
 <td><p>id (normally the spell from which the immunity originates, for script purposes use 0)</p></td>
 <td><p>value<br />
-depends on "type", e.g. for type "IMMUNITY_SCHOOL" or "IMMUNITY_DAMAGE" it's a bit mask which consists of the following values:<br />
-1 SPELL_SCHOOL_MASK_NORMAL<br />
-2 SPELL_SCHOOL_MASK_HOLY<br />
-4 SPELL_SCHOOL_MASK_FIRE<br />
-8 SPELL_SCHOOL_MASK_NATURE<br />
-16 SPELL_SCHOOL_MASK_FROST<br />
-32 SPELL_SCHOOL_MASK_SHADOW<br />
-64 SPELL_SCHOOL_MASK_ARCANE<br />
-See <a href="https://gitlab.com/opfesoft/sol/-/blob/master/src/server/game/Miscellaneous/SharedDefines.h">SharedDefines.h</a> for further values</p></td>
+depends on "type", e.g. for type "IMMUNITY_SCHOOL" or "IMMUNITY_DAMAGE" it's a bit mask, see [Spell Schools](#spell-schools) below or [SharedDefines.h](https://gitlab.com/opfesoft/sol/-/blob/master/src/server/game/Miscellaneous/SharedDefines.h).</p></td>
 <td><p><br />
 </p></td>
 <td><p><br />
@@ -4661,6 +4653,18 @@ INSERT INTO `areatrigger_scripts` (`entry`, `ScriptName`) VALUES (y, 'SmartTrigg
 | TEMPSUMMON\_CORPSE\_TIMED\_DESPAWN          | 6     | Despawns after a specified time after death.                                          |
 | TEMPSUMMON\_DEAD\_DESPAWN                   | 7     | Despawns when the creature disappears.                                                |
 | TEMPSUMMON\_MANUAL\_DESPAWN                 | 8     | Despawns when UnSummon() (or Force Despawn action) is called.                         |
+
+### Spell Schools
+
+| School ID | Bit | Name     |
+|-----------|-----|----------|
+| 0         | 1   | Physical |
+| 1         | 2   | Holy     |
+| 2         | 4   | Fire     |
+| 3         | 8   | Nature   |
+| 4         | 16  | Frost    |
+| 5         | 32  | Shadow   |
+| 6         | 64  | Arcane   |
 
 ### Invoker:
 
