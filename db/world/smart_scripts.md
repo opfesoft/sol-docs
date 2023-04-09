@@ -674,7 +674,7 @@ This is the probability of the event to occur as a percentage from 0-100. So, if
 <td><p>SMART_EVENT_SPELLHIT</p></td>
 <td><p>8</p></td>
 <td><p>SpellID</p></td>
-<td><p>[School](#spell-schools)</p></td>
+<td><p>[SpellSchoolMask](#spell-schools)</p></td>
 <td><p>CooldownMin</p></td>
 <td><p>CooldownMax</p></td>
 <td><p><br />
@@ -953,7 +953,7 @@ This is the probability of the event to occur as a percentage from 0-100. So, if
 <td><p>SMART_EVENT_SPELLHIT_TARGET</p></td>
 <td><p>31</p></td>
 <td><p>SpellId</p></td>
-<td><p>[School](#spell-schools)</p></td>
+<td><p>[SpellSchoolMask](#spell-schools)</p></td>
 <td><p>RepeatMin</p></td>
 <td><p>RepeatMax</p></td>
 <td><p><br />
@@ -4656,15 +4656,15 @@ INSERT INTO `areatrigger_scripts` (`entry`, `ScriptName`) VALUES (y, 'SmartTrigg
 
 ### Spell Schools
 
-| School ID | Bit | Name     |
-|-----------|-----|----------|
-| 0         | 1   | Physical |
-| 1         | 2   | Holy     |
-| 2         | 4   | Fire     |
-| 3         | 8   | Nature   |
-| 4         | 16  | Frost    |
-| 5         | 32  | Shadow   |
-| 6         | 64  | Arcane   |
+| Bit | Name     |
+|-----|----------|
+| 1   | Physical |
+| 2   | Holy     |
+| 4   | Fire     |
+| 8   | Nature   |
+| 16  | Frost    |
+| 32  | Shadow   |
+| 64  | Arcane   |
 
 ### Invoker:
 

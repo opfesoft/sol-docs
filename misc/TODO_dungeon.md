@@ -2,6 +2,10 @@ TODOs: [common](TODO.md), low prio: [cosmetic](TODO_cosmetic.md), dungeon, [even
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@54d85a5f | 2023-04-09 |      | verify/rework SQL script (Blood Furnace) |
+| sol@816b85b8 | 2023-04-09 |      | verify/rework SQL script (Shattered Halls) |
+| sol@a695d009 | 2023-04-09 |      | verify changes (also see sol@85e2e5c7) (Steamvault) |
+| sol@5139d28e | 2023-04-08 |      | verify/rework SQL script (Shattered Halls) |
 | sol@d851e79a | 2023-04-06 |      | verify changes (Shadow Labyrinth) |
 | sol@57874f9d | 2023-04-06 |      | verify changes (Steamvault) |
 | sol@86a45372 | 2023-04-05 |      | verify/rework SQL script (Dire Maul) |
