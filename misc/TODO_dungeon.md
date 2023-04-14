@@ -2,12 +2,16 @@ TODOs: [common](TODO.md), low prio: [cosmetic](TODO_cosmetic.md), dungeon, [even
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@421f0644 | 2023-04-09 |      | verify changes (Azjol-Nerub) |
+| sol@65347bc8 | 2023-04-09 |      | won't take over, caused by AC commit sol@f2b5838d (Sol is not affected by this issue); use separate loot tables for each dungeon and difficulty (Blood Furnace) |
+| sol@619c9384 | 2023-04-09 |      | verify changes (Trial of the Champion) |
+| sol@155bacb8 | 2023-04-09 |      | verify changes (Shadow Labyrinth) |
 | sol@54d85a5f | 2023-04-09 |      | verify/rework SQL script (Blood Furnace) |
 | sol@816b85b8 | 2023-04-09 |      | verify/rework SQL script (Shattered Halls) |
 | sol@a695d009 | 2023-04-09 |      | verify changes (also see sol@85e2e5c7) (Steamvault) |
 | sol@5139d28e | 2023-04-08 |      | verify/rework SQL script (Shattered Halls) |
 | sol@d851e79a | 2023-04-06 |      | verify changes (Shadow Labyrinth) |
-| sol@57874f9d | 2023-04-06 |      | verify changes (Steamvault) |
+| sol@57874f9d | 2023-04-06 |      | verify changes (also see sol@78384368) (Steamvault) |
 | sol@86a45372 | 2023-04-05 |      | verify/rework SQL script (Dire Maul) |
 | sol@328405e4 | 2023-04-05 |      | verify changes (also see sol@34eafefb) (Arcatraz) |
 | sol@331e6164 | 2023-04-04 |      | verify/rework SQL script (Steamvault) |
@@ -28,7 +32,7 @@ TODOs: [common](TODO.md), low prio: [cosmetic](TODO_cosmetic.md), dungeon, [even
 | sol@1c09af40 | 2023-03-29 |      | verify/rework SQL script (Shadow Labyrinth) |
 | sol@fa249abb | 2023-03-29 |      | verify changes (Steamvault) |
 | sol@8e697633 | 2023-03-29 |      | verify changes (also see sol@c8c042d3) (Icecrown Citadel) |
-| sol@d87a9dc5 | 2023-03-29 |      | verify changes (Steamvault) |
+| sol@d87a9dc5 | 2023-03-29 |      | verify changes (also see sol@9c6a5614) (Steamvault) |
 | sol@80b7784b | 2023-03-28 |      | verify/rework SQL script (Steamvault) |
 | sol@b57c729f | 2023-03-28 |      | verify/rework SQL script (Mechanar) |
 | sol@b29c9be3 | 2023-03-28 |      | verify/rework SQL script (Steamvault) |
@@ -82,7 +86,7 @@ TODOs: [common](TODO.md), low prio: [cosmetic](TODO_cosmetic.md), dungeon, [even
 | sol@c3a8d261 | 2023-02-19 |      | verify/rework SQL script (Escape from Durnholde Keep) |
 | sol@e750aedb | 2023-02-19 |      | verify/rework SQL script (Mana-Tombs) |
 | sol@65471801 | 2023-02-18 |      | verify changes (Sethekk Halls) |
-| sol@c2208318 | 2023-02-18 |      | verify changes (also see sol@43336a84, sol@c0253d91, sol@6ee42fcf) (Sethekk Halls) |
+| sol@c2208318 | 2023-02-18 |      | verify changes (also see sol@43336a84, sol@c0253d91, sol@6ee42fcf, sol@d47e9383) (Sethekk Halls) |
 | sol@333de4c0 | 2023-02-18 |      | verify/rework SQL script (also see sol@62d8743d) (Sethekk Halls) |
 | sol@e8b76f26 | 2023-02-18 |      | verify changes (Opening the Dark Portal) |
 | sol@df6dcd88 | 2023-02-16 |      | verify changes (Gruul's Lair) |
@@ -144,7 +148,7 @@ TODOs: [common](TODO.md), low prio: [cosmetic](TODO_cosmetic.md), dungeon, [even
 | sol@ae80d310 | 2022-12-30 |      | verify/rework SQL script (Vault of Archavon) |
 | sol@233d2845 | 2022-12-27 |      | verify changes (also see sol@1de52e55) (Blackwing Lair) |
 | sol@cd539edb | 2022-12-22 |      | verify/rework SQL script (Hellfire Ramparts) |
-| sol@f2b5838d | 2022-12-15 |      | verify/rework SQL script (Hellfire Ramparts, Blood Furnace, Underbog, Slave Pens, Mana-Tombs) |
+| sol@f2b5838d | 2022-12-15 |      | won't take over, using loot tables for multiple dungeons can cause bugs (see sol@65347bc8); check the existing loot tables and create separate loot tables for each dungeon and difficulty (Hellfire Ramparts, Blood Furnace, Underbog, Slave Pens, Mana-Tombs) |
 | sol@b615ccd9 | 2022-12-11 | X    | won't take over, can be solved using SAI (Slave Pens); done: sol@f4616123 |
 | sol@189afd14 | 2022-12-11 |      | verify changes (Opening the Dark Portal) |
 | sol@c5e9a680 | 2022-12-11 |      | verify/rework SQL script (Underbog) |
@@ -165,7 +169,7 @@ TODOs: [common](TODO.md), low prio: [cosmetic](TODO_cosmetic.md), dungeon, [even
 | sol@35a2453b | 2022-11-21 |      | verify/rework SQL script (Hellfire Ramparts) |
 | sol@90d819b5 | 2022-11-21 |      | verify/rework SQL script (also see sol@85711bcd) (Slave Pens) |
 | sol@39d11da1 | 2022-11-21 |      | verify/rework SQL script (Mana-Tombs) |
-| sol@7222699f | 2022-11-12 |      | verify changes (Trial of the Crusader) |
+| sol@7222699f | 2022-11-12 |      | verify changes (Trial of the Champion, Trial of the Crusader) |
 | sol@51d712be | 2022-11-12 |      | verify/rework SQL script (Upper Blackrock Spire) |
 | sol@c0ddc54d | 2022-11-12 |      | verify/rework SQL script (Temple of Atal'Hakkar) |
 | sol@f6f6cb3b | 2022-11-12 |      | verify changes (needs sol@76f976fd) (Hellfire Ramparts) |
@@ -224,7 +228,7 @@ TODOs: [common](TODO.md), low prio: [cosmetic](TODO_cosmetic.md), dungeon, [even
 | sol@0a9ff22a | 2022-08-27 |      | verify/rework SQL script (Zul'Gurub) |
 | sol@022a90cf | 2022-08-27 |      | verify changes (Temple of Ahn'Qiraj) |
 | sol@d1e7fc24 | 2022-08-27 |      | verify changes (Temple of Ahn'Qiraj) |
-| sol@f7de5235 | 2022-08-27 |      | verify changes (Trial of the Crusader) |
+| sol@f7de5235 | 2022-08-27 |      | verify changes (Trial of the Champion) |
 | sol@0f0beb01 | 2022-08-27 |      | verify changes (Temple of Ahn'Qiraj) |
 | sol@3826d0c9 | 2022-08-26 |      | verify/rework SQL script (Ruins of Ahn'Qiraj) |
 | sol@0ed4a5e7 | 2022-08-25 |      | verify/rework SQL script (Blackwing Lair) |
@@ -404,7 +408,7 @@ TODOs: [common](TODO.md), low prio: [cosmetic](TODO_cosmetic.md), dungeon, [even
 | sol@d9ca2cf7 | 2022-04-07 |      | verify/rework SQL script (Blackwing Lair) |
 | sol@3f5119de | 2022-04-07 |      | verify/rework SQL script (Blackwing Lair) |
 | sol@bd9b320a | 2022-04-07 |      | verify changes (Blackwing Lair) |
-| sol@48fccc85 | 2022-04-06 |      | verify changes (Trial of the Crusader) |
+| sol@48fccc85 | 2022-04-06 |      | verify changes (Trial of the Champion) |
 | sol@8426da6e | 2022-04-05 |      | verify changes (Ulduar) |
 | sol@95ee81ae | 2022-04-05 |      | verify changes (Blackwing Lair) |
 | sol@5df8fd9a | 2022-04-05 |      | verify changes (Blackwing Lair) |

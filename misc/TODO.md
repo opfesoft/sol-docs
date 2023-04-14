@@ -2,6 +2,10 @@ TODOs: common, low prio: [cosmetic](TODO_cosmetic.md), [dungeon](TODO_dungeon.md
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@a8a30112 | 2023-04-12 |      | verify changes; low prio (minor issue) |
+| sol@ea82506a | 2023-04-12 |      | verify changes |
+| sol@55b9c247 | 2023-04-09 |      | verify changes; low prio (minor issue) |
+| sol@971e2f53 | 2023-04-09 |      | verify/rework SQL script / spell script |
 | sol@32eb3c31 | 2023-04-09 |      | verify/rework SQL script |
 | sol@4e04dc6d | 2023-04-04 |      | verify/rework SQL script |
 | sol@8c9b4f1f | 2023-04-04 |      | verify/rework SQL script |
@@ -54,10 +58,10 @@ TODOs: common, low prio: [cosmetic](TODO_cosmetic.md), [dungeon](TODO_dungeon.md
 | sol@23fbdd0f | 2023-03-04 |      | verify changes |
 | sol@0b7fc7cc | 2023-03-01 |      | verify/rework SQL script (also see sol@0834b9c2) |
 | sol@4d6e3c13 | 2023-03-01 |      | verify/rework SQL script |
-| sol@412ada54 | 2023-03-01 |      | verify/rework SQL script |
+| sol@412ada54 | 2023-03-01 | X    | verify/rework SQL script; done: sol@ccdcd26b |
 | sol@7032f2bd | 2023-03-01 | X    | verify/rework SQL script (also see sol@d6152df5); quest is working on Sol, but SAI would be better; done: sol@8b1539f1 |
-| sol@f4a6f8ea | 2023-02-27 |      | verify/rework SQL script |
-| sol@5673855e | 2023-02-27 |      | won't take over, just set unit flags 768 |
+| sol@f4a6f8ea | 2023-02-27 | X    | verify/rework SQL script; done: sol@4596a8ac |
+| sol@5673855e | 2023-02-27 | X    | won't take over, just set unit flags 768; done: sol@9fa8e719 |
 | sol@de2d8e0d | 2023-02-23 | X    | won't take over, rework all involved SAI scripts; done: sol@d3632467 |
 | sol@fff0e171 | 2023-02-23 |      | verify changes (also see sol@428f8e0a); low prio (minor issue) |
 | sol@cefbf944 | 2023-02-19 | X    | verify/rework SQL script; done: sol@9cb398a1 |
