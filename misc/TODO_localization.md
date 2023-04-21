@@ -2,6 +2,7 @@ TODOs: [common](TODO.md), low prio: [cosmetic](TODO_cosmetic.md), [dungeon](TODO
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@cfe9ce71 | 2023-04-19 |      | verify/rework SQL script (zhCN) |
 | sol@f31f10fd | 2023-02-17 |      | verify/rework SQL script (esES, esMX) |
 | sol@2e6c28c4 | 2023-02-11 |      | verify changes (also see sol@66f4feb1) |
 | sol@93c9040a | 2023-01-28 |      | verify/rework SQL script (esES, esMX) |

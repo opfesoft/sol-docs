@@ -2,6 +2,14 @@ TODOs: common, low prio: [cosmetic](TODO_cosmetic.md), [dungeon](TODO_dungeon.md
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@a22ed030 | 2023-04-19 |      | verify/rework SQL script |
+| sol@9fe478e9 | 2023-04-19 |      | verify/rework SQL script |
+| sol@a71aaaf4 | 2023-04-19 |      | verify/rework SQL script |
+| sol@d7eca37a | 2023-04-19 |      | verify/rework SQL script |
+| sol@7c157f6f | 2023-04-19 |      | verify/rework SQL script |
+| sol@66b37dd5 | 2023-04-19 |      | verify/rework SQL script |
+| sol@c5bded11 | 2023-04-19 |      | won't take over, rework existing SAI instead |
+| sol@9a5c4dfc | 2023-04-17 |      | wrong, won't take over; the GOs should not disappear, only the creatures within (ID 21737); also add several of the missing creatures |
 | sol@a8a30112 | 2023-04-12 |      | verify changes; low prio (minor issue) |
 | sol@ea82506a | 2023-04-12 |      | verify changes |
 | sol@55b9c247 | 2023-04-09 |      | verify changes; low prio (minor issue) |
@@ -19,7 +27,7 @@ TODOs: common, low prio: [cosmetic](TODO_cosmetic.md), [dungeon](TODO_dungeon.md
 | sol@72a55abf | 2023-04-02 |      | verify/rework SQL script |
 | sol@0fec0bdf | 2023-04-02 |      | verify/rework SQL script |
 | sol@4b1c84b8 | 2023-04-02 |      | verify/rework SQL script |
-| sol@d029ffe3 | 2023-04-02 |      | fix spell\_proc\_event entry (see sol@d73421a9) |
+| sol@d029ffe3 | 2023-04-02 | X    | fix spell\_proc\_event entry (see sol@d73421a9); done: sol@7af1abed |
 | sol@dcb709a0 | 2023-04-02 |      | won't take over; compare with latest TC DB |
 | sol@4d24c412 | 2023-04-02 |      | caused by sol@65111353; rework SAI nevertheless (check TC version); low prio (Sol is not affected by this issue) |
 | sol@65111353 | 2023-03-31 |      | keep as reference; take over single values if needed; won't blindly take over such mass updates |
@@ -57,13 +65,13 @@ TODOs: common, low prio: [cosmetic](TODO_cosmetic.md), [dungeon](TODO_dungeon.md
 | sol@9eb4b3a3 | 2023-03-04 |      | take over if needed (also see sol@5a9aeada); maybe just use one table and add a "type" column to distinguish between "reserved" and "profanity" |
 | sol@23fbdd0f | 2023-03-04 |      | verify changes |
 | sol@0b7fc7cc | 2023-03-01 |      | verify/rework SQL script (also see sol@0834b9c2) |
-| sol@4d6e3c13 | 2023-03-01 |      | verify/rework SQL script |
+| sol@4d6e3c13 | 2023-03-01 | X    | verify/rework SQL script; done: sol@6b59cb82 |
 | sol@412ada54 | 2023-03-01 | X    | verify/rework SQL script; done: sol@ccdcd26b |
 | sol@7032f2bd | 2023-03-01 | X    | verify/rework SQL script (also see sol@d6152df5); quest is working on Sol, but SAI would be better; done: sol@8b1539f1 |
 | sol@f4a6f8ea | 2023-02-27 | X    | verify/rework SQL script; done: sol@4596a8ac |
 | sol@5673855e | 2023-02-27 | X    | won't take over, just set unit flags 768; done: sol@9fa8e719 |
 | sol@de2d8e0d | 2023-02-23 | X    | won't take over, rework all involved SAI scripts; done: sol@d3632467 |
-| sol@fff0e171 | 2023-02-23 |      | verify changes (also see sol@428f8e0a); low prio (minor issue) |
+| sol@fff0e171 | 2023-02-23 |      | verify changes (also see sol@428f8e0a, sol@20885578)); low prio (minor issue) |
 | sol@cefbf944 | 2023-02-19 | X    | verify/rework SQL script; done: sol@9cb398a1 |
 | sol@f25c90da | 2023-02-17 | X    | verify/rework SQL script (also see sol@1e4e663a, sol@2f28c8e9); done: sol@3e0d67ce |
 | sol@cb18f73c | 2023-02-17 | X    | verify/rework SQL script (also see creature ID 19527); done: sol@446b7035 |

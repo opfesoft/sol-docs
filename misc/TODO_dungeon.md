@@ -2,6 +2,14 @@ TODOs: [common](TODO.md), low prio: [cosmetic](TODO_cosmetic.md), dungeon, [even
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@58d1419a | 2023-04-21 |      | verify changes (Shadow Labyrinth) |
+| sol@197b053e | 2023-04-21 |      | verify changes (Shadow Labyrinth) |
+| sol@a2e8409b | 2023-04-19 |      | verify changes (Shadow Labyrinth) |
+| sol@0268ec0c | 2023-04-19 |      | verify/rework SQL script (Shattered Halls, Botanica, Shadow Labyrinth) |
+| sol@e38b0702 | 2023-04-18 |      | verify changes (also see sol@4bb002f6) (Shadow Labyrinth) |
+| sol@dda048d6 | 2023-04-18 |      | verify changes (also see sol@b4ff3da8) (Shadow Labyrinth) |
+| sol@5dcea531 | 2023-04-17 |      | verify changes (also see sol@af1e878f) (Shadow Labyrinth) |
+| sol@8cb7bfd9 | 2023-04-15 |      | verify changes (Gruul's Lair) |
 | sol@421f0644 | 2023-04-09 |      | verify changes (Azjol-Nerub) |
 | sol@65347bc8 | 2023-04-09 |      | won't take over, caused by AC commit sol@f2b5838d (Sol is not affected by this issue); use separate loot tables for each dungeon and difficulty (Blood Furnace) |
 | sol@619c9384 | 2023-04-09 |      | verify changes (Trial of the Champion) |
@@ -29,7 +37,7 @@ TODOs: [common](TODO.md), low prio: [cosmetic](TODO_cosmetic.md), dungeon, [even
 | sol@ea047f2c | 2023-03-30 |      | verify changes (Mechanar) |
 | sol@d030260d | 2023-03-29 |      | verify changes (also see sol@41fc1a62) (Arcatraz) |
 | sol@7f186cce | 2023-03-29 |      | verify changes (Arcatraz) |
-| sol@1c09af40 | 2023-03-29 |      | verify/rework SQL script (Shadow Labyrinth) |
+| sol@1c09af40 | 2023-03-29 |      | verify/rework SQL script (also see sol@bee5703e, sol@3dc96990) (Shadow Labyrinth) |
 | sol@fa249abb | 2023-03-29 |      | verify changes (Steamvault) |
 | sol@8e697633 | 2023-03-29 |      | verify changes (also see sol@c8c042d3) (Icecrown Citadel) |
 | sol@d87a9dc5 | 2023-03-29 |      | verify changes (also see sol@9c6a5614) (Steamvault) |
@@ -44,7 +52,7 @@ TODOs: [common](TODO.md), low prio: [cosmetic](TODO_cosmetic.md), dungeon, [even
 | sol@da62ff12 | 2023-03-24 |      | verify/rework SQL script (Karazhan) |
 | sol@825d0dc2 | 2023-03-24 |      | verify changes (Icecrown Citadel) |
 | sol@970aca64 | 2023-03-23 |      | verify changes (Utgarde Keep) |
-| sol@5ab1da77 | 2023-03-23 |      | verify/rework SQL script (Steamvault) |
+| sol@5ab1da77 | 2023-03-23 |      | verify/rework SQL script (also see sol@09f000e3) (Steamvault) |
 | sol@10c5ca69 | 2023-03-23 |      | verify changes (Mechanar) |
 | sol@8b8883d2 | 2023-03-22 |      | verify/rework SQL script (Escape from Durnholde Keep) |
 | sol@e3e321bf | 2023-03-22 |      | verify/rework SQL script (Arcatraz, Mechanar) |
@@ -172,7 +180,7 @@ TODOs: [common](TODO.md), low prio: [cosmetic](TODO_cosmetic.md), dungeon, [even
 | sol@7222699f | 2022-11-12 |      | verify changes (Trial of the Champion, Trial of the Crusader) |
 | sol@51d712be | 2022-11-12 |      | verify/rework SQL script (Upper Blackrock Spire) |
 | sol@c0ddc54d | 2022-11-12 |      | verify/rework SQL script (Temple of Atal'Hakkar) |
-| sol@f6f6cb3b | 2022-11-12 |      | verify changes (needs sol@76f976fd) (Hellfire Ramparts) |
+| sol@f6f6cb3b | 2022-11-12 |      | verify changes (needs sol@76f976fd, sol@b86cf114) (Hellfire Ramparts) |
 | sol@b47afce8 | 2022-11-12 |      | verify/rework SQL script (Hellfire Ramparts) |
 | sol@015f8355 | 2022-11-12 |      | verify/rework SQL script (Blood Furnace) |
 | sol@5c88f926 | 2022-11-04 |      | verify changes (Temple of Ahn'Qiraj) |
@@ -195,7 +203,7 @@ TODOs: [common](TODO.md), low prio: [cosmetic](TODO_cosmetic.md), dungeon, [even
 | sol@337c308d | 2022-09-21 |      | verify changes (also see sol@3c8a148b) (Temple of Ahn'Qiraj) |
 | sol@c79edad2 | 2022-09-21 |      | verify changes (Upper Blackrock Spire) |
 | sol@e3f9ad1e | 2022-09-21 |      | verify changes (also see sol@590ab7c6) (Naxxramas) |
-| sol@f50c4bf3 | 2022-09-19 |      | verify changes (needs sol@76f976fd) (Blackwing Lair) |
+| sol@f50c4bf3 | 2022-09-19 |      | verify changes (needs sol@76f976fd, sol@b86cf114) (Blackwing Lair) |
 | sol@11cfcc84 | 2022-09-19 |      | verify changes (Temple of Ahn'Qiraj) |
 | sol@0f84e3ed | 2022-09-19 |      | verify changes (Lower Blackrock Spire) |
 | sol@23c3b184 | 2022-09-19 |      | verify changes (also see sol@b3e20ea7) (Temple of Ahn'Qiraj) |
@@ -257,7 +265,7 @@ TODOs: [common](TODO.md), low prio: [cosmetic](TODO_cosmetic.md), dungeon, [even
 | sol@d627e196 | 2022-08-07 |      | verify changes (also see sol@8841d3a0) (Blackwing Lair) |
 | sol@337800fc | 2022-08-07 |      | verify/rework SQL script (Ruins of Ahn'Qiraj) |
 | sol@71d2adf5 | 2022-08-07 |      | verify/rework SQL script (Ruins of Ahn'Qiraj) |
-| sol@440865e3 | 2022-08-06 |      | verify changes (also see sol@76f976fd, sol@f4e5b0a8, sol@748d925a) (Ruins of Ahn'Qiraj) |
+| sol@440865e3 | 2022-08-06 |      | verify changes (also see sol@76f976fd, sol@b86cf114, sol@f4e5b0a8, sol@748d925a) (Ruins of Ahn'Qiraj) |
 | sol@0f36736d | 2022-08-03 |      | verify changes (Trial of the Crusader) |
 | sol@da4bb947 | 2022-08-01 |      | verify/rework SQL script (Ruins of Ahn'Qiraj) |
 | sol@ec35f991 | 2022-08-01 |      | verify/rework SQL script (Zul'Gurub) |

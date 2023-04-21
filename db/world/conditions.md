@@ -785,9 +785,9 @@ Player level (1-80 in 3.3.5)</td>
 <td>Always 0</td>
 </tr>
 <tr>
-<td>CONDITION_NEAR_CREATURE</td>
+<td>CONDITION_NEAR_UNIT</td>
 <td>29</td>
-<td>Creature entry from <a href="creature_template.md#entry">creature_template.entry</a></td>
+<td>Creature entry from <a href="creature_template.md#entry">creature_template.entry</a> or 0 to check for a nearby player</td>
 <td>Distance in yards</td>
 <td>Alive=0 / Dead=1</td>
 </tr>
