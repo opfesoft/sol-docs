@@ -3904,6 +3904,23 @@ If the start position distance is far away the circle movement speed will be dec
 <td><p>Scale the targeted unit or gameobject. If 0 percent is used the scaling is reset (either 100% or to the value specified in [creature_template.scale](creature_template.md#scale) or [gameobject_template.size](gameobject_template.md#size)).
 </p></td>
 </tr>
+<tr>
+<td><p>SMART_ACTION_SET_LOOT_DISABLED</p></td>
+<td><p>243</p></td>
+<td><p>0/1</p></td>
+<td><p><br />
+</p></td>
+<td><p><br />
+</p></td>
+<td><p><br />
+</p></td>
+<td><p><br />
+</p></td>
+<td><p><br />
+</p></td>
+<td><p>Disable loot; currently only implemented for GOs.
+</p></td>
+</tr>
 </tbody>
 </table>
 
@@ -4717,8 +4734,6 @@ SMART\_EVENT\_REWARD\_QUEST
 SMART\_EVENT\_FOLLOW\_COMPLETED
 
 SMART\_EVENT\_ON\_SPELLCLICK
-
-SMART\_EVENT\_GO\_LOOT\_STATE\_CHANGED
 
 SMART\_EVENT\_AREATRIGGER\_ONTRIGGER
 

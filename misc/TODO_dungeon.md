@@ -2,13 +2,15 @@ TODOs: [common](TODO.md), low prio: [cosmetic](TODO_cosmetic.md), dungeon, [even
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@8a0a2f7f | 2023-04-26 |      | verify/rework SQL script (Shattered Halls) |
+| sol@6e7493e8 | 2023-04-23 |      | verify changes (Shadow Labyrinth) |
+| sol@3dc7a89a | 2023-04-22 |      | verify/rework SQL script (also see sol@c3948567) (Shattered Halls) |
 | sol@58d1419a | 2023-04-21 |      | verify changes (Shadow Labyrinth) |
 | sol@197b053e | 2023-04-21 |      | verify changes (Shadow Labyrinth) |
 | sol@a2e8409b | 2023-04-19 |      | verify changes (Shadow Labyrinth) |
 | sol@0268ec0c | 2023-04-19 |      | verify/rework SQL script (Shattered Halls, Botanica, Shadow Labyrinth) |
 | sol@e38b0702 | 2023-04-18 |      | verify changes (also see sol@4bb002f6) (Shadow Labyrinth) |
-| sol@dda048d6 | 2023-04-18 |      | verify changes (also see sol@b4ff3da8) (Shadow Labyrinth) |
-| sol@5dcea531 | 2023-04-17 |      | verify changes (also see sol@af1e878f) (Shadow Labyrinth) |
+| sol@dda048d6 | 2023-04-18 |      | verify changes (also see sol@b4ff3da8, sol@fc7d2aed) (Shadow Labyrinth) |
 | sol@8cb7bfd9 | 2023-04-15 |      | verify changes (Gruul's Lair) |
 | sol@421f0644 | 2023-04-09 |      | verify changes (Azjol-Nerub) |
 | sol@65347bc8 | 2023-04-09 |      | won't take over, caused by AC commit sol@f2b5838d (Sol is not affected by this issue); use separate loot tables for each dungeon and difficulty (Blood Furnace) |
@@ -18,7 +20,7 @@ TODOs: [common](TODO.md), low prio: [cosmetic](TODO_cosmetic.md), dungeon, [even
 | sol@816b85b8 | 2023-04-09 |      | verify/rework SQL script (Shattered Halls) |
 | sol@a695d009 | 2023-04-09 |      | verify changes (also see sol@85e2e5c7) (Steamvault) |
 | sol@5139d28e | 2023-04-08 |      | verify/rework SQL script (Shattered Halls) |
-| sol@d851e79a | 2023-04-06 |      | verify changes (Shadow Labyrinth) |
+| sol@d851e79a | 2023-04-06 |      | verify changes (also see sol@5dcea531, sol@af1e878f, sol@ca2d9cb1, sol@ace0cee1, sol@ef46c6c3) (Shadow Labyrinth) |
 | sol@57874f9d | 2023-04-06 |      | verify changes (also see sol@78384368) (Steamvault) |
 | sol@86a45372 | 2023-04-05 |      | verify/rework SQL script (Dire Maul) |
 | sol@328405e4 | 2023-04-05 |      | verify changes (also see sol@34eafefb) (Arcatraz) |
@@ -580,7 +582,7 @@ TODOs: [common](TODO.md), low prio: [cosmetic](TODO_cosmetic.md), dungeon, [even
 | sol@620eb8e9 | 2021-04-25 |      | verify changes (Scholomance) |
 | sol@2e8ef021 | 2021-04-25 |      | verify changes (Scholomance) |
 | sol@26c30996 | 2021-04-04 |      | verify/rework SQL script (Naxxramas) |
-| sol@6dc4ca85 | 2021-04-02 |      | verify changes (Naxxramas) |
+| sol@6dc4ca85 | 2021-04-02 |      | verify changes (also see sol@953b9aa8) (Naxxramas) |
 | sol@9bf2800c | 2021-03-29 |      | verify changes (Ulduar) |
 | sol@7a5e4be7 | 2021-03-28 |      | verify changes (Utgarde Keep) |
 | sol@b1af0192 | 2021-03-24 |      | verify changes (Vault of Archavon) |

@@ -2,6 +2,7 @@ TODOs: [common](TODO.md), low prio: cosmetic, [dungeon](TODO_dungeon.md), [event
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@72f111dd | 2023-04-21 |      | verify/rework SQL script; use SAI instead of creature script |
 | sol@62447a2a | 2023-02-19 |      | verify/rework SQL script; check the WP paths (only creature IDs 18681 & 18682) |
 | sol@3a6e8adb | 2023-02-19 |      | only take over RP event (see SAI -25065 & 1976700) |
 | sol@098a21f9 | 2023-02-18 |      | verify/rework SQL script; check the WP path |
