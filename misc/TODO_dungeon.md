@@ -2,6 +2,11 @@ TODOs: [common](TODO.md), low prio: [cosmetic](TODO_cosmetic.md), dungeon, [even
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@3f40d942 | 2023-04-29 |      | verify/rework SQL script (Hellfire Ramparts) |
+| sol@71ea6ab3 | 2023-04-29 |      | verify/rework SQL script (Hellfire Ramparts) |
+| sol@13754189 | 2023-04-29 |      | verify/rework SQL script (Auchenai Crypts) |
+| sol@fa59b301 | 2023-04-27 |      | verify changes (Icecrown Citadel) |
+| sol@212776d8 | 2023-04-26 |      | verify/rework SQL script (Shadow Labyrinth) |
 | sol@8a0a2f7f | 2023-04-26 |      | verify/rework SQL script (Shattered Halls) |
 | sol@6e7493e8 | 2023-04-23 |      | verify changes (Shadow Labyrinth) |
 | sol@3dc7a89a | 2023-04-22 |      | verify/rework SQL script (also see sol@c3948567) (Shattered Halls) |
@@ -20,7 +25,7 @@ TODOs: [common](TODO.md), low prio: [cosmetic](TODO_cosmetic.md), dungeon, [even
 | sol@816b85b8 | 2023-04-09 |      | verify/rework SQL script (Shattered Halls) |
 | sol@a695d009 | 2023-04-09 |      | verify changes (also see sol@85e2e5c7) (Steamvault) |
 | sol@5139d28e | 2023-04-08 |      | verify/rework SQL script (Shattered Halls) |
-| sol@d851e79a | 2023-04-06 |      | verify changes (also see sol@5dcea531, sol@af1e878f, sol@ca2d9cb1, sol@ace0cee1, sol@ef46c6c3) (Shadow Labyrinth) |
+| sol@d851e79a | 2023-04-06 |      | verify changes (also see sol@5dcea531, sol@af1e878f, sol@ca2d9cb1, sol@ace0cee1, sol@ef46c6c3, sol@2e98e7c4) (Shadow Labyrinth) |
 | sol@57874f9d | 2023-04-06 |      | verify changes (also see sol@78384368) (Steamvault) |
 | sol@86a45372 | 2023-04-05 |      | verify/rework SQL script (Dire Maul) |
 | sol@328405e4 | 2023-04-05 |      | verify changes (also see sol@34eafefb) (Arcatraz) |
@@ -377,7 +382,7 @@ TODOs: [common](TODO.md), low prio: [cosmetic](TODO_cosmetic.md), dungeon, [even
 | sol@7b01b27b | 2022-05-08 |      | verify changes (Ulduar) |
 | sol@8f485cb5 | 2022-05-08 |      | verify changes (Ulduar) |
 | sol@4df92b55 | 2022-05-08 |      | verify changes (Ulduar) |
-| sol@6ca5938d | 2022-05-03 |      | verify changes (also see sol@f0c881f0, sol@fc9bf266) (Temple of Ahn'Qiraj) |
+| sol@6ca5938d | 2022-05-03 |      | verify changes (also see sol@f0c881f0, sol@fc9bf266, sol@de06f432) (Temple of Ahn'Qiraj) |
 | sol@c38b6762 | 2022-05-08 |      | verify changes (Molten Core) |
 | sol@ac8a6b43 | 2022-05-07 |      | verify changes (Utgarde Pinnacle) |
 | sol@56955f79 | 2022-05-06 |      | verify changes (Ulduar) |

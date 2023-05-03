@@ -2,12 +2,14 @@ TODOs: common, low prio: [cosmetic](TODO_cosmetic.md), [dungeon](TODO_dungeon.md
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@7af40c8d | 2023-04-29 |      | verify/rework SQL script (also see sol@a07467d6); compare with latest TC DB |
+| sol@a238e5e2 | 2023-04-29 |      | won't take over, could cause bugs; find another solution; low prio (minor issue) |
 | sol@76e58206 | 2023-04-23 |      | keep as reference; take over single values if needed; won't blindly take over such mass updates (don't care about sniffs) |
 | sol@e387c07f | 2023-04-23 |      | keep as reference; take over single values if needed; won't blindly take over such mass updates (don't care about sniffs) |
 | sol@828ba39a | 2023-04-23 |      | keep as reference; take over single values if needed; won't blindly take over such mass updates (don't care about sniffs) |
 | sol@41c51319 | 2023-04-23 |      | verify/rework SQL script |
 | sol@abd29910 | 2023-04-22 |      | verify/rework SQL script |
-| sol@7dc58cb1 | 2023-04-22 |      | verify/rework SQL script |
+| sol@7dc58cb1 | 2023-04-22 | X    | verify/rework SQL script; update: won't take over, should only be available via fishing |
 | sol@790417b1 | 2023-04-22 |      | verify changes; low prio (minor issue) |
 | sol@a22ed030 | 2023-04-19 |      | verify/rework SQL script |
 | sol@9fe478e9 | 2023-04-19 |      | verify/rework SQL script |
@@ -70,7 +72,7 @@ TODOs: common, low prio: [cosmetic](TODO_cosmetic.md), [dungeon](TODO_dungeon.md
 | sol@81d831fa | 2023-03-05 |      | take over if needed |
 | sol@3a3c9b69 | 2023-03-04 |      | only take over 3rd creature text |
 | sol@9eb4b3a3 | 2023-03-04 |      | take over if needed (also see sol@5a9aeada); maybe just use one table and add a "type" column to distinguish between "reserved" and "profanity" |
-| sol@23fbdd0f | 2023-03-04 |      | verify changes |
+| sol@23fbdd0f | 2023-03-04 | X    | verify changes; update: use spell\_linked\_spell to apply immunity instead of the aura script: sol@93f4c713 |
 | sol@0b7fc7cc | 2023-03-01 | X    | verify/rework SQL script (also see sol@0834b9c2); done: sol@516e302f |
 | sol@4d6e3c13 | 2023-03-01 | X    | verify/rework SQL script; done: sol@6b59cb82 |
 | sol@412ada54 | 2023-03-01 | X    | verify/rework SQL script; done: sol@ccdcd26b |
