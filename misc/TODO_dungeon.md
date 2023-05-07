@@ -2,6 +2,7 @@ TODOs: [common](TODO.md), low prio: [cosmetic](TODO_cosmetic.md), dungeon, [even
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@bb6009ad | 2023-05-03 |      | verify/rework SQL script (Botanica) |
 | sol@3f40d942 | 2023-04-29 |      | verify/rework SQL script (Hellfire Ramparts) |
 | sol@71ea6ab3 | 2023-04-29 |      | verify/rework SQL script (Hellfire Ramparts) |
 | sol@13754189 | 2023-04-29 |      | verify/rework SQL script (Auchenai Crypts) |
