@@ -2,6 +2,8 @@ TODOs: common, low prio: [cosmetic](TODO_cosmetic.md), [dungeon](TODO_dungeon.md
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@3aedf2fb | 2023-05-10 |      | verify/rework SQL script & spell changes |
+| sol@4e39626f | 2023-05-10 |      | verify/rework SQL script |
 | sol@a957445b | 2023-05-03 |      | verify/rework SQL script |
 | sol@7af40c8d | 2023-04-29 |      | verify/rework SQL script (also see sol@a07467d6); compare with latest TC DB |
 | sol@a238e5e2 | 2023-04-29 |      | won't take over, could cause bugs (also see sol@3dbdea5e, sol@d282cce4); find another solution; low prio (minor issue) |
@@ -66,9 +68,9 @@ TODOs: common, low prio: [cosmetic](TODO_cosmetic.md), [dungeon](TODO_dungeon.md
 | sol@4141ec1e | 2023-03-07 |      | verify/rework SQL script; only take over the actual update (id 0) |
 | sol@e7bb9ee2 | 2023-03-07 |      | verify/rework SQL script |
 | sol@a0cdf85e | 2023-03-07 |      | verify/rework SQL script |
-| sol@a08c793c | 2023-03-07 |      | verify/rework SQL script |
-| sol@3c37ea1a | 2023-03-07 |      | verify/rework SQL script |
-| sol@f4bff8b4 | 2023-03-05 |      | verify/rework SQL script |
+| sol@a08c793c | 2023-03-07 | X    | verify/rework SQL script; done: sol@98c95bb2 |
+| sol@3c37ea1a | 2023-03-07 | X    | verify/rework SQL script; done: sol@0edca96c |
+| sol@f4bff8b4 | 2023-03-05 | X    | verify/rework SQL script; done: sol@21347094 |
 | sol@8cbe63f1 | 2023-03-05 | X    | verify/rework SQL script; done: sol@e86266b9 |
 | sol@81d831fa | 2023-03-05 |      | take over if needed |
 | sol@3a3c9b69 | 2023-03-04 | X    | only take over 3rd creature text; done: sol@a0b19af2 |

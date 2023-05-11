@@ -2,6 +2,10 @@ TODOs: [common](TODO.md), low prio: [cosmetic](TODO_cosmetic.md), dungeon, [even
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@fec16927 | 2023-05-10 |      | verify/rework SQL script (Blood Furnace) |
+| sol@df4dd14b | 2023-05-10 |      | verify/rework SQL script (Underbog) |
+| sol@a34a942e | 2023-05-09 |      | verify/rework SQL script (Slave Pens) |
+| sol@a82065c3 | 2023-05-09 |      | verify/rework SQL script (Magtheridon's Lair) |
 | sol@bb6009ad | 2023-05-03 |      | verify/rework SQL script (Botanica) |
 | sol@3f40d942 | 2023-04-29 |      | verify/rework SQL script (Hellfire Ramparts) |
 | sol@71ea6ab3 | 2023-04-29 |      | verify/rework SQL script (Hellfire Ramparts) |
@@ -16,7 +20,7 @@ TODOs: [common](TODO.md), low prio: [cosmetic](TODO_cosmetic.md), dungeon, [even
 | sol@a2e8409b | 2023-04-19 |      | verify changes (Shadow Labyrinth) |
 | sol@0268ec0c | 2023-04-19 |      | verify/rework SQL script (Shattered Halls, Botanica, Shadow Labyrinth) |
 | sol@e38b0702 | 2023-04-18 |      | verify changes (also see sol@4bb002f6) (Shadow Labyrinth) |
-| sol@dda048d6 | 2023-04-18 |      | verify changes (also see sol@b4ff3da8, sol@fc7d2aed) (Shadow Labyrinth) |
+| sol@dda048d6 | 2023-04-18 |      | verify changes (also see sol@b4ff3da8, sol@fc7d2aed, sol@da2dafa6) (Shadow Labyrinth) |
 | sol@8cb7bfd9 | 2023-04-15 |      | verify changes (Gruul's Lair) |
 | sol@421f0644 | 2023-04-09 |      | verify changes (Azjol-Nerub) |
 | sol@65347bc8 | 2023-04-09 |      | won't take over, caused by AC commit sol@f2b5838d (Sol is not affected by this issue); use separate loot tables for each dungeon and difficulty (Blood Furnace) |
