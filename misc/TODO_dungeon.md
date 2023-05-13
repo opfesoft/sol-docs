@@ -2,6 +2,9 @@ TODOs: [common](TODO.md), low prio: [cosmetic](TODO_cosmetic.md), dungeon, [even
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@2a1d706a | 2023-05-12 |      | verify changes (Underbog) |
+| sol@79954c34 | 2023-05-12 |      | won't take over, keep SAI, but check creature scripts (Sethekk Halls, Mana-Tombs) |
+| sol@11eab9c3 | 2023-05-12 |      | won't take over, keep SAI, but check creature scripts (Slave Pens) |
 | sol@fec16927 | 2023-05-10 |      | verify/rework SQL script (Blood Furnace) |
 | sol@df4dd14b | 2023-05-10 |      | verify/rework SQL script (Underbog) |
 | sol@a34a942e | 2023-05-09 |      | verify/rework SQL script (Slave Pens) |

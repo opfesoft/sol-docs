@@ -63,11 +63,11 @@ TODOs: common, low prio: [cosmetic](TODO_cosmetic.md), [dungeon](TODO_dungeon.md
 | sol@b5a655c8 | 2023-03-12 |      | won't take over, verify/rework TC commits 7db70bf40b1595f58a08536a36f74f18e8405758 & 7822f058b0ee997d4c114b60ec9ea5ddc2cc2874 instead (also see sol@d6c7e9f6) |
 | sol@d336d1c9 | 2023-03-11 |      | verify/rework SQL script (spell ID 5164 is missing) |
 | sol@145a5a64 | 2023-03-11 |      | won't take over, verify/rework TC commit 049cba3ace198ec74a2014e233b33aafbf749a53 instead |
-| sol@9e64a479 | 2023-03-11 |      | verify/rework SQL script |
-| sol@159ec2bd | 2023-03-09 |      | verify/rework SQL script; reduce to 1 spawn at a time; use another pool template ID; adjust position for some of the spawns |
-| sol@4141ec1e | 2023-03-07 |      | verify/rework SQL script; only take over the actual update (id 0) |
-| sol@e7bb9ee2 | 2023-03-07 |      | verify/rework SQL script |
-| sol@a0cdf85e | 2023-03-07 |      | verify/rework SQL script |
+| sol@9e64a479 | 2023-03-11 | X    | verify/rework SQL script; done: sol@c93fa5e2 |
+| sol@159ec2bd | 2023-03-09 | X    | verify/rework SQL script; reduce to 1 spawn at a time; use another pool template ID; adjust position for some of the spawns; done: sol@3b443fa3 |
+| sol@4141ec1e | 2023-03-07 | X    | verify/rework SQL script; done: sol@0fdb2027 |
+| sol@e7bb9ee2 | 2023-03-07 | X    | verify/rework SQL script; done: sol@964c60d6 |
+| sol@a0cdf85e | 2023-03-07 | X    | verify/rework SQL script; done: sol@dd1fe819 |
 | sol@a08c793c | 2023-03-07 | X    | verify/rework SQL script; done: sol@98c95bb2 |
 | sol@3c37ea1a | 2023-03-07 | X    | verify/rework SQL script; done: sol@0edca96c |
 | sol@f4bff8b4 | 2023-03-05 | X    | verify/rework SQL script; done: sol@21347094 |
