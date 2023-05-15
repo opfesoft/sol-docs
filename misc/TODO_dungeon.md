@@ -2,6 +2,13 @@ TODOs: [common](TODO.md), low prio: [cosmetic](TODO_cosmetic.md), dungeon, [even
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@3c401ad4 | 2023-05-13 |      | verify changes (Halls of Reflection) |
+| sol@ea3e6e8f | 2023-05-13 |      | verify changes (Deadmines) |
+| sol@09c40a8c | 2023-05-13 |      | verify changes (Violet Hold) |
+| sol@8d6392d6 | 2023-05-13 |      | won't take over, keep SAI, but check creature scripts (Underbog) |
+| sol@da101c26 | 2023-05-13 |      | verify/rework SQL script (Auchenai Crypts) |
+| sol@c99dd070 | 2023-05-13 |      | verify/rework SQL script (Karazhan) |
+| sol@154fa624 | 2023-05-13 |      | verify changes (Shattered Halls) |
 | sol@2a1d706a | 2023-05-12 |      | verify changes (Underbog) |
 | sol@79954c34 | 2023-05-12 |      | won't take over, keep SAI, but check creature scripts (Sethekk Halls, Mana-Tombs) |
 | sol@11eab9c3 | 2023-05-12 |      | won't take over, keep SAI, but check creature scripts (Slave Pens) |
@@ -17,7 +24,7 @@ TODOs: [common](TODO.md), low prio: [cosmetic](TODO_cosmetic.md), dungeon, [even
 | sol@212776d8 | 2023-04-26 |      | verify/rework SQL script (Shadow Labyrinth) |
 | sol@8a0a2f7f | 2023-04-26 |      | verify/rework SQL script (Shattered Halls) |
 | sol@6e7493e8 | 2023-04-23 |      | verify changes (Shadow Labyrinth) |
-| sol@3dc7a89a | 2023-04-22 |      | verify/rework SQL script (also see sol@c3948567) (Shattered Halls) |
+| sol@3dc7a89a | 2023-04-22 |      | verify/rework SQL script (also see sol@c3948567, sol@7e258bbd) (Shattered Halls) |
 | sol@58d1419a | 2023-04-21 |      | verify changes (Shadow Labyrinth) |
 | sol@197b053e | 2023-04-21 |      | verify changes (Shadow Labyrinth) |
 | sol@a2e8409b | 2023-04-19 |      | verify changes (Shadow Labyrinth) |
@@ -79,7 +86,7 @@ TODOs: [common](TODO.md), low prio: [cosmetic](TODO_cosmetic.md), dungeon, [even
 | sol@00dbf481 | 2023-03-20 |      | verify/rework SQL script (also see sol@9eb539a5, sol@af05a8ba) (Arcatraz) |
 | sol@0c2d2e04 | 2023-03-20 |      | verify/rework SQL script (Underbog) |
 | sol@05fb5cac | 2023-03-20 |      | verify changes (also see sol@989584b1) (Mechanar) |
-| sol@8f3a215b | 2023-03-19 |      | verify changes (also see sol@3c056273, sol@18c69643) (Mechanar) |
+| sol@8f3a215b | 2023-03-19 |      | verify changes (also see sol@3c056273, sol@18c69643, sol@eca5f79d) (Mechanar) |
 | sol@7b3b22a2 | 2023-03-19 |      | verify changes (also see sol@f5e450e2, sol@5e7f7c49, sol@37f0b709) (Icecrown Citadel) |
 | sol@f5421722 | 2023-03-19 |      | use SAI instead (Sethekk Halls) |
 | sol@7207be20 | 2023-03-16 |      | verify and rework SQL script (Gnomeregan) |
@@ -266,7 +273,7 @@ TODOs: [common](TODO.md), low prio: [cosmetic](TODO_cosmetic.md), dungeon, [even
 | sol@e623e9ef | 2022-08-21 |      | verify changes (Ruins of Ahn'Qiraj) |
 | sol@c65d4bbe | 2022-08-21 |      | verify changes (also see sol@2ed6848d, sol@ba364025, sol@138fc875) (Ruins of Ahn'Qiraj) |
 | sol@555aa817 | 2022-08-21 |      | verify/rework SQL script (Ruins of Ahn'Qiraj) |
-| sol@ecdaf523 | 2022-08-19 |      | verify/rework SQL script (Dire Maul) |
+| sol@ecdaf523 | 2022-08-19 | X    | verify/rework SQL script (Dire Maul); update: reverted by AC commit sol@0ce44c3a |
 | sol@415ceefa | 2022-08-14 |      | verify changes (Ruins of Ahn'Qiraj) |
 | sol@f0e608ed | 2022-08-14 |      | verify/rework SQL script (Ruins of Ahn'Qiraj) |
 | sol@c0084988 | 2022-08-14 |      | verify/rework SQL script (Ruins of Ahn'Qiraj) |
@@ -512,7 +519,7 @@ TODOs: [common](TODO.md), low prio: [cosmetic](TODO_cosmetic.md), dungeon, [even
 | sol@c6934b06 | 2022-01-14 |      | verify/rework SQL script (also see sol@03a72cfc, sol@d891259f, sol@320468af) (Lower Blackrock Spire) |
 | sol@f89f0301 | 2022-01-11 |      | won't take over, fix linked\_respawn instead (Molten Core) |
 | sol@8216318f | 2022-01-01 |      | won't take over, fix linked\_respawn instead (Molten Core) |
-| sol@9b3b6113 | 2021-12-16 |      | verify changes (also see sol@124ea8a1, sol@d3b381c2) (Blackrock Depths) |
+| sol@9b3b6113 | 2021-12-16 |      | verify changes (also see sol@124ea8a1, sol@d3b381c2, sol@83a53d0b) (Blackrock Depths) |
 | sol@2ce3d792 | 2021-12-09 |      | verify/rework SQL script (Zul'Aman) |
 | sol@ac876213 | 2021-12-04 |      | verify changes (Upper Blackrock Spire) |
 | sol@9cc6a9ae | 2021-12-03 |      | verify changes, rework SAI instead (Dire Maul) |

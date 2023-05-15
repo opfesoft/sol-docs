@@ -2,11 +2,21 @@ TODOs: common, low prio: [cosmetic](TODO_cosmetic.md), [dungeon](TODO_dungeon.md
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@d059babe | 2023-05-15 |      | verify/rework SQL script |
+| sol@5f7e817c | 2023-05-14 |      | verify/rework SQL script |
+| sol@0ff2b6e6 | 2023-05-14 |      | verify/rework SQL script |
+| sol@7e99adcb | 2023-05-14 |      | verify/rework SQL script |
+| sol@cdfaffc1 | 2023-05-14 |      | verify/rework SQL script |
+| sol@3cf170a5 | 2023-05-14 |      | verify/rework SQL script |
+| sol@3ae80f3d | 2023-05-14 |      | verify/rework SQL script |
+| sol@692da905 | 2023-05-13 |      | verify/rework SQL script |
+| sol@dfa5da00 | 2023-05-13 |      | won't take over, fix duration of spell 18097 instead |
+| sol@2745a98e | 2023-05-13 |      | verify changes |
 | sol@3aedf2fb | 2023-05-10 |      | verify/rework SQL script & spell changes |
 | sol@4e39626f | 2023-05-10 |      | verify/rework SQL script |
 | sol@a957445b | 2023-05-03 |      | verify/rework SQL script |
 | sol@7af40c8d | 2023-04-29 |      | verify/rework SQL script (also see sol@a07467d6); compare with latest TC DB |
-| sol@a238e5e2 | 2023-04-29 |      | won't take over, could cause bugs (also see sol@3dbdea5e, sol@d282cce4); find another solution; low prio (minor issue) |
+| sol@a238e5e2 | 2023-04-29 |      | won't take over, could cause bugs (also see sol@3dbdea5e, sol@d282cce4); find another solution; low prio (minor issue); update: reverted by AC commit sol@64c7c99b |
 | sol@76e58206 | 2023-04-23 |      | keep as reference; take over single values if needed; won't blindly take over such mass updates (don't care about sniffs) |
 | sol@e387c07f | 2023-04-23 |      | keep as reference; take over single values if needed; won't blindly take over such mass updates (don't care about sniffs) |
 | sol@828ba39a | 2023-04-23 |      | keep as reference; take over single values if needed; won't blindly take over such mass updates (don't care about sniffs) |
@@ -60,8 +70,8 @@ TODOs: common, low prio: [cosmetic](TODO_cosmetic.md), [dungeon](TODO_dungeon.md
 | sol@005dcdbf | 2023-03-15 |      | verify/rework SQL script; use OOC LOS instead of the area trigger |
 | sol@7827b089 | 2023-03-15 |      | verify/rework SQL script |
 | sol@f123f455 | 2023-03-15 |      | verify/rework SQL script |
-| sol@b5a655c8 | 2023-03-12 |      | won't take over, verify/rework TC commits 7db70bf40b1595f58a08536a36f74f18e8405758 & 7822f058b0ee997d4c114b60ec9ea5ddc2cc2874 instead (also see sol@d6c7e9f6) |
-| sol@d336d1c9 | 2023-03-11 |      | verify/rework SQL script (spell ID 5164 is missing) |
+| sol@b5a655c8 | 2023-03-12 |      | won't take over, verify/rework TC commits 7db70bf40b1595f58a08536a36f74f18e8405758 & 7822f058b0ee997d4c114b60ec9ea5ddc2cc2874 instead (also see sol@d6c7e9f6, sol@73e61e32) |
+| sol@d336d1c9 | 2023-03-11 | X    | verify/rework SQL script; done: sol@f56e792f |
 | sol@145a5a64 | 2023-03-11 |      | won't take over, verify/rework TC commit 049cba3ace198ec74a2014e233b33aafbf749a53 instead |
 | sol@9e64a479 | 2023-03-11 | X    | verify/rework SQL script; done: sol@c93fa5e2 |
 | sol@159ec2bd | 2023-03-09 | X    | verify/rework SQL script; reduce to 1 spawn at a time; use another pool template ID; adjust position for some of the spawns; done: sol@3b443fa3 |
