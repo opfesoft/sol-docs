@@ -11,7 +11,7 @@ TODOs: common, low prio: [cosmetic](TODO_cosmetic.md), [dungeon](TODO_dungeon.md
 | sol@3ae80f3d | 2023-05-14 |      | verify/rework SQL script |
 | sol@692da905 | 2023-05-13 |      | verify/rework SQL script |
 | sol@dfa5da00 | 2023-05-13 |      | won't take over, fix duration of spell 18097 instead |
-| sol@2745a98e | 2023-05-13 |      | verify changes |
+| sol@2745a98e | 2023-05-13 | X    | verify changes; update: wrong, won't take over |
 | sol@3aedf2fb | 2023-05-10 |      | verify/rework SQL script & spell changes |
 | sol@4e39626f | 2023-05-10 |      | verify/rework SQL script |
 | sol@a957445b | 2023-05-03 |      | verify/rework SQL script |
@@ -70,9 +70,9 @@ TODOs: common, low prio: [cosmetic](TODO_cosmetic.md), [dungeon](TODO_dungeon.md
 | sol@005dcdbf | 2023-03-15 |      | verify/rework SQL script; use OOC LOS instead of the area trigger |
 | sol@7827b089 | 2023-03-15 |      | verify/rework SQL script |
 | sol@f123f455 | 2023-03-15 |      | verify/rework SQL script |
-| sol@b5a655c8 | 2023-03-12 |      | won't take over, verify/rework TC commits 7db70bf40b1595f58a08536a36f74f18e8405758 & 7822f058b0ee997d4c114b60ec9ea5ddc2cc2874 instead (also see sol@d6c7e9f6, sol@73e61e32) |
+| sol@b5a655c8 | 2023-03-12 | X    | won't take over, verify/rework TC commits 7db70bf40b1595f58a08536a36f74f18e8405758 & 7822f058b0ee997d4c114b60ec9ea5ddc2cc2874 instead (also see sol@d6c7e9f6, sol@73e61e32); done: sol@54f75eae, sol@fb72b93d, sol@491dc874 |
 | sol@d336d1c9 | 2023-03-11 | X    | verify/rework SQL script; done: sol@f56e792f |
-| sol@145a5a64 | 2023-03-11 |      | won't take over, verify/rework TC commit 049cba3ace198ec74a2014e233b33aafbf749a53 instead |
+| sol@145a5a64 | 2023-03-11 | X    | won't take over, verify/rework TC commit 049cba3ace198ec74a2014e233b33aafbf749a53 instead; done: sol@600ab27c |
 | sol@9e64a479 | 2023-03-11 | X    | verify/rework SQL script; done: sol@c93fa5e2 |
 | sol@159ec2bd | 2023-03-09 | X    | verify/rework SQL script; reduce to 1 spawn at a time; use another pool template ID; adjust position for some of the spawns; done: sol@3b443fa3 |
 | sol@4141ec1e | 2023-03-07 | X    | verify/rework SQL script; done: sol@0fdb2027 |
