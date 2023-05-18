@@ -10,7 +10,7 @@ TODOs: common, low prio: [cosmetic](TODO_cosmetic.md), [dungeon](TODO_dungeon.md
 | sol@3cf170a5 | 2023-05-14 |      | verify/rework SQL script |
 | sol@3ae80f3d | 2023-05-14 |      | verify/rework SQL script |
 | sol@692da905 | 2023-05-13 |      | verify/rework SQL script |
-| sol@dfa5da00 | 2023-05-13 |      | won't take over, fix duration of spell 18097 instead |
+| sol@dfa5da00 | 2023-05-13 | X    | won't take over, fix duration of spell 18097 instead; done: sol@42b1b674 |
 | sol@2745a98e | 2023-05-13 | X    | verify changes; update: wrong, won't take over |
 | sol@3aedf2fb | 2023-05-10 |      | verify/rework SQL script & spell changes |
 | sol@4e39626f | 2023-05-10 |      | verify/rework SQL script |

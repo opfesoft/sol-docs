@@ -774,7 +774,7 @@ This is the probability of the event to occur as a percentage from 0-100. So, if
 <tr>
 <td><p>SMART_EVENT_SUMMONED_UNIT</p></td>
 <td><p>17</p></td>
-<td><p><a href="creature_template.md#entry">creature_template.entry</a>CreatureId</p> (0 all)</p></td>
+<td><p><a href="creature_template.md#entry">creature_template.entry</a></p> (0 all)</p></td>
 <td><p>CooldownMin</p></td>
 <td><p>CooldownMax</p></td>
 <td><p><br />
