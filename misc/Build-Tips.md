@@ -27,7 +27,7 @@
 
 ## Packages
 
-`sudo apt-get install git cmake make gcc-12 g++-12 ccache libmariadb-dev libbz2-dev libreadline-dev libncurses-dev mariadb-server perl bzip2`
+`sudo apt-get install git cmake make gcc-13 g++-13 ccache libmariadb-dev libbz2-dev libreadline-dev libncurses-dev mariadb-server perl bzip2`
 
 ## OpenSSL installation
 
@@ -39,10 +39,10 @@ curl -L 'https://github.com/openssl/openssl/archive/refs/tags/openssl-3.1.0.tar.
 tar -xzf openssl-3.1.0.tar.gz
 ```
 
-- Install (here gcc 12 is used):
+- Install (here gcc 13 is used):
 ```
-export CC='gcc-12'
-export CXX='g++-12'
+export CC='gcc-13'
+export CXX='g++-13'
 cd openssl-openssl-3.1.0
 ./config --prefix=${HOME}/sol-srv/lib/openssl --openssldir=${HOME}/sol-srv/lib/openssl -static
 make -j $(($(nproc)+2))
@@ -63,10 +63,10 @@ curl -L 'https://github.com/jemalloc/jemalloc/releases/download/5.3.0/jemalloc-5
 tar -xjf jemalloc-5.3.0.tar.bz2
 ```
 
-- Install (here gcc 12 is used):
+- Install (here gcc 13 is used):
 ```
-export CC='gcc-12'
-export CXX='g++-12'
+export CC='gcc-13'
+export CXX='g++-13'
 cd jemalloc-5.3.0
 ./configure --prefix=${HOME}/sol-srv/lib/jemalloc
 make -j $(($(nproc)+2))
@@ -76,6 +76,32 @@ make install
 Further information: http://jemalloc.net/
 
 New releases: https://github.com/jemalloc/jemalloc/releases
+
+## fmt installation
+
+Example for fmt 9.1.0, installation in "~/sol-srv/lib/fmt":
+
+- Get package:
+```
+curl -L 'https://github.com/fmtlib/fmt/releases/download/9.1.0/fmt-9.1.0.zip' >fmt-9.1.0.zip
+unzip fmt-9.1.0.zip
+```
+
+- Install (here gcc 13 is used):
+```
+export CC='gcc-13'
+export CXX='g++-13'
+cd fmt-9.1.0
+mkdir build
+cd build
+cmake .. --install-prefix=${HOME}/sol-srv/lib/fmt
+make -j $(($(nproc)+2))
+make install
+```
+
+Further information: https://fmt.dev/
+
+New releases: https://github.com/fmtlib/fmt/releases
 
 ## ACE installation
 
@@ -109,10 +135,10 @@ include $(ACE_ROOT)/include/makeinclude/platform_linux.GNU
 INSTALL_PREFIX = $(HOME)/sol-srv/lib/ace
 ```
 
-- Install (here gcc 12 is used):
+- Install (here gcc 13 is used):
 ```
-export CC='gcc-12'
-export CXX='g++-12'
+export CC='gcc-13'
+export CXX='g++-13'
 cd $ACE_ROOT/ace
 make -j $(($(nproc)+2))
 make install
@@ -152,7 +178,7 @@ ccache -M 16G
 ```
 cd ~/sol
 mkdir build; cd build
-cmake ../ -DCMAKE_C_COMPILER_LAUNCHER=ccache -DCMAKE_CXX_COMPILER_LAUNCHER=ccache -DCMAKE_C_COMPILER="gcc-12" -DCMAKE_CXX_COMPILER="g++-12" -DWITH_WARNINGS=1 -DCMAKE_C_FLAGS="-Werror" -DCMAKE_CXX_FLAGS="-Werror" -DCMAKE_INSTALL_PREFIX=~/sol-srv/ -DTOOLS=1 -DSCRIPTS=1
+cmake ../ -DCMAKE_C_COMPILER_LAUNCHER=ccache -DCMAKE_CXX_COMPILER_LAUNCHER=ccache -DCMAKE_C_COMPILER="gcc-13" -DCMAKE_CXX_COMPILER="g++-13" -DWITH_WARNINGS=1 -DCMAKE_C_FLAGS="-Werror" -DCMAKE_CXX_FLAGS="-Werror" -DCMAKE_INSTALL_PREFIX=~/sol-srv/ -DTOOLS=1 -DSCRIPTS=1
 make -j $(($(nproc)+2))
 make install
 ```

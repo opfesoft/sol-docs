@@ -2,13 +2,15 @@ TODOs: [common](TODO.md), low prio: [cosmetic](TODO_cosmetic.md), dungeon, [even
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@bf91a2d0 | 2023-05-20 |      | verify/rework SQL script (Hellfire Ramparts, Underbog, Slave Pens) |
+| sol@c5f20318 | 2023-05-20 |      | verify changes (Blood Furnace) |
 | sol@3c401ad4 | 2023-05-13 |      | verify changes (Halls of Reflection) |
 | sol@ea3e6e8f | 2023-05-13 |      | verify changes (Deadmines) |
 | sol@09c40a8c | 2023-05-13 |      | verify changes (Violet Hold) |
 | sol@8d6392d6 | 2023-05-13 |      | won't take over, keep SAI, but check creature scripts (Underbog) |
 | sol@da101c26 | 2023-05-13 |      | verify/rework SQL script (Auchenai Crypts) |
 | sol@c99dd070 | 2023-05-13 |      | verify/rework SQL script (Karazhan) |
-| sol@154fa624 | 2023-05-13 |      | verify changes (Shattered Halls) |
+| sol@154fa624 | 2023-05-13 |      | verify changes (also see sol@67be37de) (Shattered Halls) |
 | sol@2a1d706a | 2023-05-12 |      | verify changes (Underbog) |
 | sol@79954c34 | 2023-05-12 |      | won't take over, keep SAI, but check creature scripts (Sethekk Halls, Mana-Tombs) |
 | sol@11eab9c3 | 2023-05-12 |      | won't take over, keep SAI, but check creature scripts (Slave Pens) |
@@ -24,7 +26,7 @@ TODOs: [common](TODO.md), low prio: [cosmetic](TODO_cosmetic.md), dungeon, [even
 | sol@212776d8 | 2023-04-26 |      | verify/rework SQL script (Shadow Labyrinth) |
 | sol@8a0a2f7f | 2023-04-26 |      | verify/rework SQL script (Shattered Halls) |
 | sol@6e7493e8 | 2023-04-23 |      | verify changes (Shadow Labyrinth) |
-| sol@3dc7a89a | 2023-04-22 |      | verify/rework SQL script (also see sol@c3948567, sol@7e258bbd) (Shattered Halls) |
+| sol@3dc7a89a | 2023-04-22 |      | verify/rework SQL script (also see sol@c3948567, sol@7e258bbd, sol@6a73c38e) (Shattered Halls) |
 | sol@58d1419a | 2023-04-21 |      | verify changes (Shadow Labyrinth) |
 | sol@197b053e | 2023-04-21 |      | verify changes (Shadow Labyrinth) |
 | sol@a2e8409b | 2023-04-19 |      | verify changes (Shadow Labyrinth) |
@@ -39,7 +41,7 @@ TODOs: [common](TODO.md), low prio: [cosmetic](TODO_cosmetic.md), dungeon, [even
 | sol@54d85a5f | 2023-04-09 |      | verify/rework SQL script (Blood Furnace) |
 | sol@816b85b8 | 2023-04-09 |      | verify/rework SQL script (Shattered Halls) |
 | sol@a695d009 | 2023-04-09 |      | verify changes (also see sol@85e2e5c7) (Steamvault) |
-| sol@5139d28e | 2023-04-08 |      | verify/rework SQL script (Shattered Halls) |
+| sol@5139d28e | 2023-04-08 |      | verify/rework SQL script (also see sol@f06ab047) (Shattered Halls) |
 | sol@d851e79a | 2023-04-06 |      | verify changes (also see sol@5dcea531, sol@af1e878f, sol@ca2d9cb1, sol@ace0cee1, sol@ef46c6c3, sol@2e98e7c4) (Shadow Labyrinth) |
 | sol@57874f9d | 2023-04-06 |      | verify changes (also see sol@78384368) (Steamvault) |
 | sol@86a45372 | 2023-04-05 |      | verify/rework SQL script (Dire Maul) |

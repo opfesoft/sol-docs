@@ -69,7 +69,7 @@ TODOs: common, low prio: [cosmetic](TODO_cosmetic.md), [dungeon](TODO_dungeon.md
 | sol@d4a74c0a | 2023-03-15 |      | verify/rework SQL script; use OOC LOS instead of the area trigger; remove DK condition (no need to exclude DKs) |
 | sol@005dcdbf | 2023-03-15 |      | verify/rework SQL script; use OOC LOS instead of the area trigger |
 | sol@7827b089 | 2023-03-15 |      | verify/rework SQL script |
-| sol@f123f455 | 2023-03-15 |      | verify/rework SQL script |
+| sol@f123f455 | 2023-03-15 | X    | verify/rework SQL script; done: sol@d2acd492 |
 | sol@b5a655c8 | 2023-03-12 | X    | won't take over, verify/rework TC commits 7db70bf40b1595f58a08536a36f74f18e8405758 & 7822f058b0ee997d4c114b60ec9ea5ddc2cc2874 instead (also see sol@d6c7e9f6, sol@73e61e32); done: sol@54f75eae, sol@fb72b93d, sol@491dc874 |
 | sol@d336d1c9 | 2023-03-11 | X    | verify/rework SQL script; done: sol@f56e792f |
 | sol@145a5a64 | 2023-03-11 | X    | won't take over, verify/rework TC commit 049cba3ace198ec74a2014e233b33aafbf749a53 instead; done: sol@600ab27c |
