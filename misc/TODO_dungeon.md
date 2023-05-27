@@ -2,6 +2,9 @@ TODOs: [common](TODO.md), low prio: [cosmetic](TODO_cosmetic.md), dungeon, [even
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@20a5f021 | 2023-05-24 |      | verify/rework SQL script (Blood Furnace) |
+| sol@e2574c2a | 2023-05-24 |      | verify/rework SQL script (Upper Blackrock Spire) |
+| sol@a56a400a | 2023-05-23 |      | verify changes (Shattered Halls) |
 | sol@bf91a2d0 | 2023-05-20 |      | verify/rework SQL script (Hellfire Ramparts, Underbog, Slave Pens) |
 | sol@c5f20318 | 2023-05-20 |      | verify changes (Blood Furnace) |
 | sol@3c401ad4 | 2023-05-13 |      | verify changes (Halls of Reflection) |
