@@ -2,6 +2,12 @@ TODOs: common, low prio: [cosmetic](TODO_cosmetic.md), [dungeon](TODO_dungeon.md
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@0b926d00 | 2023-06-02 |      | keep current position, but enable random movement; add a spawn for the new position and create a pool |
+| sol@c8ab8f00 | 2023-06-02 |      | verify/rework SQL script |
+| sol@7d2513c9 | 2023-06-02 |      | verify/rework SQL script |
+| sol@369ee4be | 2023-06-02 |      | verify/rework SQL script |
+| sol@a2abc79c | 2023-06-02 |      | verify/rework SQL script |
+| sol@b5ef9ee3 | 2023-05-29 |      | won't take over, use SAI instead |
 | sol@30f47582 | 2023-05-24 |      | verify changes; low prio (minor issue) |
 | sol@d059babe | 2023-05-15 |      | verify/rework SQL script |
 | sol@5f7e817c | 2023-05-14 |      | verify/rework SQL script |
@@ -64,9 +70,9 @@ TODOs: common, low prio: [cosmetic](TODO_cosmetic.md), [dungeon](TODO_dungeon.md
 | sol@ce40ed62 | 2023-03-20 |      | take over if needed |
 | sol@59fbb1da | 2023-03-17 |      | verify/rework SQL script; also check the original TC commit 3f08cda3a4d21b1218911d0ac7e2cacb10f7aad4 |
 | sol@aa3e2e05 | 2023-03-16 | X    | wrong, won't take over; this was already fixed with AC commit sol@990dbfe2 (Sol commit sol@90bb813a); probably a regression caused by AC commit sol@572a680c (Sol commit sol@af50fe15); find another solution; done: sol@ed858ae7 |
-| sol@b2e823c6 | 2023-03-15 |      | verify/rework SQL script |
-| sol@6131a804 | 2023-03-15 |      | verify/rework SQL script; use OOC LOS instead of the area trigger |
-| sol@04ad054c | 2023-03-15 |      | verify/rework SQL script |
+| sol@b2e823c6 | 2023-03-15 | X    | verify/rework SQL script; done: sol@e2b46026, sol@6b929ecf |
+| sol@6131a804 | 2023-03-15 | X    | verify/rework SQL script; use OOC LOS instead of the area trigger; done: sol@96077ae6 |
+| sol@04ad054c | 2023-03-15 | X    | verify/rework SQL script; done: sol@a56b6a67 |
 | sol@d4a74c0a | 2023-03-15 | X    | verify/rework SQL script; use OOC LOS instead of the area trigger; remove DK condition (no need to exclude DKs); done: sol@3e510df2 |
 | sol@005dcdbf | 2023-03-15 | X    | verify/rework SQL script; use OOC LOS instead of the area trigger; done: sol@85b5042e |
 | sol@7827b089 | 2023-03-15 | X    | verify/rework SQL script; done: sol@a009fb4a |

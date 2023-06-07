@@ -673,7 +673,7 @@ This is the probability of the event to occur as a percentage from 0-100. So, if
 <tr>
 <td><p>SMART_EVENT_SPELLHIT</p></td>
 <td><p>8</p></td>
-<td><p>SpellID</p></td>
+<td><p>SpellID (0: any)</p></td>
 <td><p>[SpellSchoolMask](#spell-schools)</p></td>
 <td><p>CooldownMin</p></td>
 <td><p>CooldownMax</p></td>
@@ -952,10 +952,10 @@ This is the probability of the event to occur as a percentage from 0-100. So, if
 <tr>
 <td><p>SMART_EVENT_SPELLHIT_TARGET</p></td>
 <td><p>31</p></td>
-<td><p>SpellId</p></td>
+<td><p>SpellId (0: any)</p></td>
 <td><p>[SpellSchoolMask](#spell-schools)</p></td>
-<td><p>RepeatMin</p></td>
-<td><p>RepeatMax</p></td>
+<td><p>CooldownMin</p></td>
+<td><p>CooldownMax</p></td>
 <td><p><br />
 </p></td>
 <td>On Target Spell Hit</td>
@@ -964,7 +964,7 @@ This is the probability of the event to occur as a percentage from 0-100. So, if
 <td><p>SMART_EVENT_DAMAGED</p></td>
 <td><p>32</p></td>
 <td><p>MinDmg</p></td>
-<td><p>MaxDmg</p></td>
+<td><p>MaxDmg (if 0 any damage which is greater than MinDmg)</p></td>
 <td><p>RepeatMin</p></td>
 <td><p>RepeatMax</p></td>
 <td><p><br />
@@ -975,7 +975,7 @@ This is the probability of the event to occur as a percentage from 0-100. So, if
 <td><p>SMART_EVENT_DAMAGED_TARGET</p></td>
 <td><p>33</p></td>
 <td><p>MinDmg</p></td>
-<td><p>MaxDmg</p></td>
+<td><p>MaxDmg (if 0 any damage which is greater than MinDmg)</p></td>
 <td><p>RepeatMin</p></td>
 <td><p>RepeatMax</p></td>
 <td><p><br />
@@ -1107,7 +1107,7 @@ This is the probability of the event to occur as a percentage from 0-100. So, if
 <td><p>SMART_EVENT_RECEIVE_HEAL</p></td>
 <td><p>53</p></td>
 <td><p>MinHeal</p></td>
-<td><p>MaxHeal</p></td>
+<td><p>MaxHeal (if 0 any heal which is greater than MinHeal)</p></td>
 <td><p>CooldownMin</p></td>
 <td><p>CooldownMax</p></td>
 <td><p><br />
@@ -1467,6 +1467,50 @@ This is the probability of the event to occur as a percentage from 0-100. So, if
 <td><p><br />
 </p></td>
 <td>On kill delay started (see SMART_ACTION_SET_KILL_DELAY).</td>
+</tr>
+<tr>
+<td><p>SMART_EVENT_SPELL_CAST</p></td>
+<td><p>233</p></td>
+<td><p>SpellID (0: any)</p></td>
+<td><p>[SpellSchoolMask](#spell-schools)</p></td>
+<td><p>CooldownMin</p></td>
+<td><p>CooldownMax</p></td>
+<td><p><br />
+</p></td>
+<td>On creature spell casting finished.</td>
+</tr>
+<tr>
+<td><p>SMART_EVENT_SPELL_FAILED</p></td>
+<td><p>234</p></td>
+<td><p>SpellID (0: any)</p></td>
+<td><p>[SpellSchoolMask](#spell-schools)</p></td>
+<td><p>CooldownMin</p></td>
+<td><p>CooldownMax</p></td>
+<td><p><br />
+</p></td>
+<td>On creature spell casting failed.</td>
+</tr>
+<tr>
+<td><p>SMART_EVENT_SPELL_START</p></td>
+<td><p>235</p></td>
+<td><p>SpellID (0: any)</p></td>
+<td><p>[SpellSchoolMask](#spell-schools)</p></td>
+<td><p>CooldownMin</p></td>
+<td><p>CooldownMax</p></td>
+<td><p><br />
+</p></td>
+<td>On creature spell casting started.</td>
+</tr>
+<tr>
+<td><p>SMART_EVENT_CHANNEL_FINISHED</p></td>
+<td><p>236</p></td>
+<td><p>SpellID (0: any)</p></td>
+<td><p>[SpellSchoolMask](#spell-schools)</p></td>
+<td><p>CooldownMin</p></td>
+<td><p>CooldownMax</p></td>
+<td><p><br />
+</p></td>
+<td>On creature spell channeling finished.</td>
 </tr>
 </tbody>
 </table>
@@ -2636,8 +2680,7 @@ quickChange 1 forces the creature to quickly change its orientation (useful if t
 </p></td>
 <td><p><br />
 </p></td>
-<td><p><br />
-</p></td>
+<td>It is not necessary to create the timed event beforehand.</td>
 </tr>
 <tr>
 <td><p>SMART_ACTION_REMOVE_TIMED_EVENT</p></td>
@@ -3397,7 +3440,7 @@ quickChange 1 forces the creature to quickly change its orientation (useful if t
 </p></td>
 </tr>
 <tr>
-<td><p>SMART_ACTION_TRIGGER_RANDOM_TIMED_EVENT</p></td>
+<td><p>SMART_ACTION_TRIGGER_RANDOM_RANGE_TIMED_EVENT</p></td>
 <td><p>125</p></td>
 <td><p>id min range</p></td>
 <td><p>id max range</p></td>
@@ -3409,8 +3452,7 @@ quickChange 1 forces the creature to quickly change its orientation (useful if t
 </p></td>
 <td><p><br />
 </p></td>
-<td><p><br />
-</p></td>
+<td>It is not necessary to create the timed events beforehand.</td>
 </tr>
 <tr>
 <td><p>SMART_ACTION_REMOVE_ALL_GAMEOBJECTS</p></td>
@@ -3920,6 +3962,17 @@ If the start position distance is far away the circle movement speed will be dec
 </p></td>
 <td><p>Disable loot; currently only implemented for GOs.
 </p></td>
+</tr>
+<tr>
+<td><p>SMART_ACTION_TRIGGER_RANDOM_TIMED_EVENT</p></td>
+<td><p>244</p></td>
+<td><p>id1</p></td>
+<td><p>id2</p></td>
+<td><p>id3</p></td>
+<td><p>id4</p></td>
+<td><p>id5</p></td>
+<td><p>id6</p></td>
+<td>It is not necessary to create the timed events beforehand.</td>
 </tr>
 </tbody>
 </table>

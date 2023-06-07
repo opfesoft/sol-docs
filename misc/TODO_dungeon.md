@@ -2,9 +2,17 @@ TODOs: [common](TODO.md), low prio: [cosmetic](TODO_cosmetic.md), dungeon, [even
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@76c9bade | 2023-06-07 |      | verify/rework SQL script (Shattered Halls) |
+| sol@3e19b5e6 | 2023-06-05 |      | verify changes concerning boss mechanic (Underbog) |
+| sol@3564027f | 2023-06-05 |      | verify/rework SQL script (Uldaman) |
+| sol@a696227e | 2023-06-01 |      | verify changes (Upper Blackrock Spire) |
+| sol@99521bfd | 2023-06-01 |      | verify/rework SQL script (Zul'Farrak) |
+| sol@d204eccd | 2023-06-01 |      | won't take over, use SMART\_ACTION\_SET\_KILL\_DELAY instead (Mechanar) |
+| sol@90cc6022 | 2023-06-01 |      | won't take over, use SMART\_EVENT\_DAMAGED instead (Shadowfang Keep) |
+| sol@97f30370 | 2023-05-28 |      | verify changes (Shattered Halls) |
 | sol@20a5f021 | 2023-05-24 |      | verify/rework SQL script (Blood Furnace) |
 | sol@e2574c2a | 2023-05-24 |      | verify/rework SQL script (Upper Blackrock Spire) |
-| sol@a56a400a | 2023-05-23 |      | verify changes (Shattered Halls) |
+| sol@a56a400a | 2023-05-23 |      | verify changes (also see sol@0755f8cd) (Shattered Halls) |
 | sol@bf91a2d0 | 2023-05-20 |      | verify/rework SQL script (Hellfire Ramparts, Underbog, Slave Pens) |
 | sol@c5f20318 | 2023-05-20 |      | verify changes (Blood Furnace) |
 | sol@3c401ad4 | 2023-05-13 |      | verify changes (Halls of Reflection) |
@@ -29,7 +37,7 @@ TODOs: [common](TODO.md), low prio: [cosmetic](TODO_cosmetic.md), dungeon, [even
 | sol@212776d8 | 2023-04-26 |      | verify/rework SQL script (Shadow Labyrinth) |
 | sol@8a0a2f7f | 2023-04-26 |      | verify/rework SQL script (Shattered Halls) |
 | sol@6e7493e8 | 2023-04-23 |      | verify changes (Shadow Labyrinth) |
-| sol@3dc7a89a | 2023-04-22 |      | verify/rework SQL script (also see sol@c3948567, sol@7e258bbd, sol@6a73c38e) (Shattered Halls) |
+| sol@3dc7a89a | 2023-04-22 |      | verify/rework SQL script (also see sol@c3948567, sol@7e258bbd, sol@6a73c38e, sol@0c3c6df3, sol@8077c8bf, sol@cd248ef6, sol@ce788f68, sol@1e49eef4, sol@40eb5da6, sol@9d6398e6, sol@45bf1699) (Shattered Halls) |
 | sol@58d1419a | 2023-04-21 |      | verify changes (Shadow Labyrinth) |
 | sol@197b053e | 2023-04-21 |      | verify changes (Shadow Labyrinth) |
 | sol@a2e8409b | 2023-04-19 |      | verify changes (Shadow Labyrinth) |
@@ -44,7 +52,7 @@ TODOs: [common](TODO.md), low prio: [cosmetic](TODO_cosmetic.md), dungeon, [even
 | sol@54d85a5f | 2023-04-09 |      | verify/rework SQL script (Blood Furnace) |
 | sol@816b85b8 | 2023-04-09 |      | verify/rework SQL script (Shattered Halls) |
 | sol@a695d009 | 2023-04-09 |      | verify changes (also see sol@85e2e5c7) (Steamvault) |
-| sol@5139d28e | 2023-04-08 |      | verify/rework SQL script (also see sol@f06ab047) (Shattered Halls) |
+| sol@5139d28e | 2023-04-08 |      | verify/rework SQL script (also see sol@f06ab047, sol@7a37d515) (Shattered Halls) |
 | sol@d851e79a | 2023-04-06 |      | verify changes (also see sol@5dcea531, sol@af1e878f, sol@ca2d9cb1, sol@ace0cee1, sol@ef46c6c3, sol@2e98e7c4) (Shadow Labyrinth) |
 | sol@57874f9d | 2023-04-06 |      | verify changes (also see sol@78384368) (Steamvault) |
 | sol@86a45372 | 2023-04-05 |      | verify/rework SQL script (Dire Maul) |
@@ -90,10 +98,10 @@ TODOs: [common](TODO.md), low prio: [cosmetic](TODO_cosmetic.md), dungeon, [even
 | sol@7b72d6fa | 2023-03-20 |      | verify/rework SQL script (Mechanar) |
 | sol@00dbf481 | 2023-03-20 |      | verify/rework SQL script (also see sol@9eb539a5, sol@af05a8ba) (Arcatraz) |
 | sol@0c2d2e04 | 2023-03-20 |      | verify/rework SQL script (Underbog) |
-| sol@05fb5cac | 2023-03-20 |      | verify changes (also see sol@989584b1) (Mechanar) |
+| sol@05fb5cac | 2023-03-20 |      | verify changes (also see sol@989584b1, sol@d4150b8e) (Mechanar) |
 | sol@8f3a215b | 2023-03-19 |      | verify changes (also see sol@3c056273, sol@18c69643, sol@eca5f79d) (Mechanar) |
 | sol@7b3b22a2 | 2023-03-19 |      | verify changes (also see sol@f5e450e2, sol@5e7f7c49, sol@37f0b709) (Icecrown Citadel) |
-| sol@f5421722 | 2023-03-19 |      | use SAI instead (Sethekk Halls) |
+| sol@f5421722 | 2023-03-19 |      | use SAI instead (also see sol@78070b10) (Sethekk Halls) |
 | sol@7207be20 | 2023-03-16 |      | verify and rework SQL script (Gnomeregan) |
 | sol@f0be1aa9 | 2023-03-15 |      | verify/rework SQL script (Botanica) |
 | sol@b21f98d6 | 2023-03-15 |      | verify changes (Karazhan) |
@@ -121,7 +129,7 @@ TODOs: [common](TODO.md), low prio: [cosmetic](TODO_cosmetic.md), dungeon, [even
 | sol@c3a8d261 | 2023-02-19 |      | verify/rework SQL script (Escape from Durnholde Keep) |
 | sol@e750aedb | 2023-02-19 |      | verify/rework SQL script (Mana-Tombs) |
 | sol@65471801 | 2023-02-18 |      | verify changes (Sethekk Halls) |
-| sol@c2208318 | 2023-02-18 |      | verify changes (also see sol@43336a84, sol@c0253d91, sol@6ee42fcf, sol@d47e9383) (Sethekk Halls) |
+| sol@c2208318 | 2023-02-18 |      | verify changes (also see sol@43336a84, sol@c0253d91, sol@6ee42fcf, sol@d47e9383, sol@746aa5b4) (Sethekk Halls) |
 | sol@333de4c0 | 2023-02-18 |      | verify/rework SQL script (also see sol@62d8743d) (Sethekk Halls) |
 | sol@e8b76f26 | 2023-02-18 |      | verify changes (Opening the Dark Portal) |
 | sol@df6dcd88 | 2023-02-16 |      | verify changes (Gruul's Lair) |
