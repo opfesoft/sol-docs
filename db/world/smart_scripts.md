@@ -2438,23 +2438,6 @@ if set to 0 only aggressive / hostile NPCs attack</p></td>
 <td><p>Removes item(s) from player.</p></td>
 </tr>
 <tr>
-<td><p>SMART_ACTION_INSTALL_AI_TEMPLATE</p></td>
-<td><p>58</p></td>
-<td><p>TemplateID (see <a href="#predefined-sai-templates">Predefined SAI templates</a> below)</p></td>
-<td><p><br />
-</p></td>
-<td><p><br />
-</p></td>
-<td><p><br />
-</p></td>
-<td><p><br />
-</p></td>
-<td><p><br />
-</p></td>
-<td><p><br />
-</p></td>
-</tr>
-<tr>
 <td><p>SMART_ACTION_SET_RUN</p></td>
 <td><p>59</p></td>
 <td><p>0 = Off / 1 = On</p></td>
@@ -3973,102 +3956,6 @@ If the start position distance is far away the circle movement speed will be dec
 <td><p>id5</p></td>
 <td><p>id6</p></td>
 <td>It is not necessary to create the timed events beforehand.</td>
-</tr>
-</tbody>
-</table>
-
-### Predefined SAI templates
-
-<table>
-<thead>
-<tr class="header">
-<th><p>Description Name</p></th>
-<th><p>Value (Param1)</p></th>
-<th><p>Param2</p></th>
-<th><p>Param3</p></th>
-<th><p>Param4</p></th>
-<th><p>Param5</p></th>
-<th><p>Param6</p></th>
-<th><p>Comment</p></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><p>SMARTAI_TEMPLATE_BASIC</p></td>
-<td><p>0</p></td>
-<td><p><br />
-</p></td>
-<td><p><br />
-</p></td>
-<td><p><br />
-</p></td>
-<td><p><br />
-</p></td>
-<td><p><br />
-</p></td>
-<td><p><br />
-</p></td>
-</tr>
-<tr>
-<td><p>SMARTAI_TEMPLATE_CASTER</p></td>
-<td><p>1</p></td>
-<td><p>spellid</p></td>
-<td><p>repeatMin</p></td>
-<td><p>repeatMax</p></td>
-<td><p>range</p></td>
-<td><p>manaPCT</p></td>
-<td><p>+JOIN: target_param1 as castFlag</p></td>
-</tr>
-<tr>
-<td><p>SMARTAI_TEMPLATE_TURRET</p></td>
-<td><p>2</p></td>
-<td><p>spellid</p></td>
-<td><p>repeatMin</p></td>
-<td><p>repeatMax</p></td>
-<td><p>range</p></td>
-<td><p>manaPCT</p></td>
-<td><p>+JOIN: target_param1 as castflag</p></td>
-</tr>
-<tr>
-<td><p>SMARTAI_TEMPLATE_PASSIVE</p></td>
-<td><p>3</p></td>
-<td><p><br />
-</p></td>
-<td><p><br />
-</p></td>
-<td><p><br />
-</p></td>
-<td><p><br />
-</p></td>
-<td><p><br />
-</p></td>
-<td><p><br />
-</p></td>
-</tr>
-<tr>
-<td><p>SMARTAI_TEMPLATE_CAGED_GO_PART</p></td>
-<td><p>4</p></td>
-<td><p>creatureID</p></td>
-<td><p>give credit at point end (0/1)</p></td>
-<td><p><br />
-</p></td>
-<td><p><br />
-</p></td>
-<td><p><br />
-</p></td>
-<td><p><br />
-</p></td>
-</tr>
-<tr>
-<td><p>SMARTAI_TEMPLATE_CAGED_NPC_PART</p></td>
-<td><p>5</p></td>
-<td><p>gameObjectID</p></td>
-<td><p>despawntime</p></td>
-<td><p>run (0/1)</p></td>
-<td><p>dist</p></td>
-<td><p>TextGroupID</p></td>
-<td><p><br />
-</p></td>
 </tr>
 </tbody>
 </table>
