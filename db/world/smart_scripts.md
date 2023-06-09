@@ -1235,22 +1235,6 @@ This is the probability of the event to occur as a percentage from 0-100. So, if
 <td>On gossip clicked (<a href="gossip_menu_option.md">gossip_menu_option</a>).</td>
 </tr>
 <tr>
-<td><p>SMART_EVENT_JUST_CREATED</p></td>
-<td><p>63</p></td>
-<td><p><br />
-</p></td>
-<td><p><br />
-</p></td>
-<td><p><br />
-</p></td>
-<td><p><br />
-</p></td>
-<td><p><br />
-</p></td>
-<td><p><br />
-</p></td>
-</tr>
-<tr>
 <td><p>SMART_EVENT_GOSSIP_HELLO</p></td>
 <td><p>64</p></td>
 <td><p>filter (0/1/2)</p></td>

@@ -2,13 +2,15 @@ TODOs: [common](TODO.md), low prio: [cosmetic](TODO_cosmetic.md), dungeon, [even
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@327135ef | 2023-06-09 |      | won't take over, use SAI instead (Slave Pens) |
+| sol@a13601bb | 2023-06-09 |      | verify changes (Karazhan) |
 | sol@76c9bade | 2023-06-07 |      | verify/rework SQL script (Shattered Halls) |
 | sol@3e19b5e6 | 2023-06-05 |      | verify changes concerning boss mechanic (Underbog) |
 | sol@3564027f | 2023-06-05 |      | verify/rework SQL script (Uldaman) |
 | sol@a696227e | 2023-06-01 |      | verify changes (Upper Blackrock Spire) |
 | sol@99521bfd | 2023-06-01 |      | verify/rework SQL script (Zul'Farrak) |
 | sol@d204eccd | 2023-06-01 |      | won't take over, use SMART\_ACTION\_SET\_KILL\_DELAY instead (Mechanar) |
-| sol@90cc6022 | 2023-06-01 |      | won't take over, use SMART\_EVENT\_DAMAGED instead (Shadowfang Keep) |
+| sol@90cc6022 | 2023-06-01 | X    | won't take over, use SMART\_EVENT\_DAMAGED instead (Shadowfang Keep); done: sol@4b7d9ef1 |
 | sol@97f30370 | 2023-05-28 |      | verify changes (Shattered Halls) |
 | sol@20a5f021 | 2023-05-24 |      | verify/rework SQL script (Blood Furnace) |
 | sol@e2574c2a | 2023-05-24 |      | verify/rework SQL script (Upper Blackrock Spire) |

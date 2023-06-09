@@ -2,6 +2,7 @@ TODOs: common, low prio: [cosmetic](TODO_cosmetic.md), [dungeon](TODO_dungeon.md
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@21764359 | 2023-06-09 |      | wrong, won't take over; set duration index 36 for spell 13139 instead |
 | sol@0b926d00 | 2023-06-02 |      | keep current position, but enable random movement; add a spawn for the new position and create a pool |
 | sol@c8ab8f00 | 2023-06-02 |      | verify/rework SQL script |
 | sol@7d2513c9 | 2023-06-02 |      | verify/rework SQL script |
@@ -66,9 +67,9 @@ TODOs: common, low prio: [cosmetic](TODO_cosmetic.md), [dungeon](TODO_dungeon.md
 | sol@ac45b552 | 2023-03-24 |      | verify/rework SQL script |
 | sol@1d969fe8 | 2023-03-24 |      | verify/rework SQL script |
 | sol@593c16f8 | 2023-03-24 |      | verify/rework SQL script |
-| sol@9ef069b0 | 2023-03-20 |      | verify/rework SQL script; also adjust position, WP path and remove the WP script (use SAI for the conversation) |
+| sol@9ef069b0 | 2023-03-20 | X    | verify/rework SQL script; also adjust position, WP path and remove the WP script (use SAI for the conversation); done: sol@246510fd |
 | sol@ce40ed62 | 2023-03-20 |      | take over if needed |
-| sol@59fbb1da | 2023-03-17 |      | verify/rework SQL script; also check the original TC commit 3f08cda3a4d21b1218911d0ac7e2cacb10f7aad4 |
+| sol@59fbb1da | 2023-03-17 | X    | verify/rework SQL script; also check the original TC commit 3f08cda3a4d21b1218911d0ac7e2cacb10f7aad4; done: sol@3a457764 |
 | sol@aa3e2e05 | 2023-03-16 | X    | wrong, won't take over; this was already fixed with AC commit sol@990dbfe2 (Sol commit sol@90bb813a); probably a regression caused by AC commit sol@572a680c (Sol commit sol@af50fe15); find another solution; done: sol@ed858ae7 |
 | sol@b2e823c6 | 2023-03-15 | X    | verify/rework SQL script; done: sol@e2b46026, sol@6b929ecf |
 | sol@6131a804 | 2023-03-15 | X    | verify/rework SQL script; use OOC LOS instead of the area trigger; done: sol@96077ae6 |
