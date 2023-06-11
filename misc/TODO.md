@@ -51,22 +51,22 @@ TODOs: common, low prio: [cosmetic](TODO_cosmetic.md), [dungeon](TODO_dungeon.md
 | sol@c028d074 | 2023-04-04 |      | verify/rework SQL script |
 | sol@dc6238d3 | 2023-04-04 |      | verify/rework SQL script |
 | sol@8926a1e6 | 2023-04-04 |      | verify/rework SQL script |
-| sol@4833dd01 | 2023-04-04 |      | verify/rework SQL script |
-| sol@15635860 | 2023-04-04 |      | verify/rework SQL script |
-| sol@6099915c | 2023-04-04 |      | verify/rework SQL script |
-| sol@72a55abf | 2023-04-02 |      | verify/rework SQL script |
-| sol@0fec0bdf | 2023-04-02 |      | verify/rework SQL script |
-| sol@4b1c84b8 | 2023-04-02 |      | verify/rework SQL script |
+| sol@4833dd01 | 2023-04-04 | X    | verify/rework SQL script; done: sol@1c90ad99 |
+| sol@15635860 | 2023-04-04 | X    | verify/rework SQL script; done: sol@84012224 |
+| sol@6099915c | 2023-04-04 | X    | verify/rework SQL script; done: sol@97188f4e |
+| sol@72a55abf | 2023-04-02 | X    | verify/rework SQL script; done: sol@ffb50576 |
+| sol@0fec0bdf | 2023-04-02 | X    | verify/rework SQL script; already done, see sol@3aafe6c3 |
+| sol@4b1c84b8 | 2023-04-02 | X    | verify/rework SQL script; done: sol@09d634f0 |
 | sol@d029ffe3 | 2023-04-02 | X    | fix spell\_proc\_event entry (see sol@d73421a9); done: sol@7af1abed |
-| sol@dcb709a0 | 2023-04-02 |      | won't take over; compare with latest TC DB |
+| sol@dcb709a0 | 2023-04-02 | X    | won't take over; compare with latest TC DB; done: sol@c59aebf6 |
 | sol@4d24c412 | 2023-04-02 |      | caused by sol@65111353; rework SAI nevertheless (check TC version); low prio (Sol is not affected by this issue) |
 | sol@65111353 | 2023-03-31 |      | keep as reference; take over single values if needed; won't blindly take over such mass updates |
-| sol@1fdf2546 | 2023-03-30 |      | verify/rework SQL script |
+| sol@1fdf2546 | 2023-03-30 | X    | verify/rework SQL script; done: sol@31cafefa |
 | sol@d4f8134b | 2023-03-29 | X    | won't take over, does not work correctly; find another solution; done: sol@89781e55 |
 | sol@7035e875 | 2023-03-29 | X    | won't take over, could cause bugs or allow exploits; find another solution; done: sol@ecdecb09 |
-| sol@ac45b552 | 2023-03-24 |      | verify/rework SQL script |
-| sol@1d969fe8 | 2023-03-24 |      | verify/rework SQL script |
-| sol@593c16f8 | 2023-03-24 |      | verify/rework SQL script |
+| sol@ac45b552 | 2023-03-24 | X    | verify/rework SQL script; done: sol@0eaecba1 |
+| sol@1d969fe8 | 2023-03-24 | X    | verify/rework SQL script; obsolete, see sol@fec16927 |
+| sol@593c16f8 | 2023-03-24 | X    | verify/rework SQL script; done: sol@e0ddfa98 |
 | sol@9ef069b0 | 2023-03-20 | X    | verify/rework SQL script; also adjust position, WP path and remove the WP script (use SAI for the conversation); done: sol@246510fd |
 | sol@ce40ed62 | 2023-03-20 |      | take over if needed |
 | sol@59fbb1da | 2023-03-17 | X    | verify/rework SQL script; also check the original TC commit 3f08cda3a4d21b1218911d0ac7e2cacb10f7aad4; done: sol@3a457764 |

@@ -2,6 +2,7 @@ TODOs: [common](TODO.md), low prio: [cosmetic](TODO_cosmetic.md), dungeon, [even
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@828aebbd | 2023-06-11 |      | verify/rework SQL script (Opening the Dark Portal) |
 | sol@327135ef | 2023-06-09 |      | won't take over, use SAI instead (Slave Pens) |
 | sol@a13601bb | 2023-06-09 |      | verify changes (Karazhan) |
 | sol@76c9bade | 2023-06-07 |      | verify/rework SQL script (Shattered Halls) |
@@ -24,7 +25,7 @@ TODOs: [common](TODO.md), low prio: [cosmetic](TODO_cosmetic.md), dungeon, [even
 | sol@da101c26 | 2023-05-13 |      | verify/rework SQL script (Auchenai Crypts) |
 | sol@c99dd070 | 2023-05-13 |      | verify/rework SQL script (Karazhan) |
 | sol@154fa624 | 2023-05-13 |      | verify changes (also see sol@67be37de) (Shattered Halls) |
-| sol@2a1d706a | 2023-05-12 |      | verify changes (Underbog) |
+| sol@2a1d706a | 2023-05-12 |      | verify changes (also see sol@65607c11) (Underbog) |
 | sol@79954c34 | 2023-05-12 |      | won't take over, keep SAI, but check creature scripts (Sethekk Halls, Mana-Tombs) |
 | sol@11eab9c3 | 2023-05-12 |      | won't take over, keep SAI, but check creature scripts (Slave Pens) |
 | sol@fec16927 | 2023-05-10 |      | verify/rework SQL script (Blood Furnace) |
@@ -55,7 +56,7 @@ TODOs: [common](TODO.md), low prio: [cosmetic](TODO_cosmetic.md), dungeon, [even
 | sol@816b85b8 | 2023-04-09 |      | verify/rework SQL script (Shattered Halls) |
 | sol@a695d009 | 2023-04-09 |      | verify changes (also see sol@85e2e5c7) (Steamvault) |
 | sol@5139d28e | 2023-04-08 |      | verify/rework SQL script (also see sol@f06ab047, sol@7a37d515) (Shattered Halls) |
-| sol@d851e79a | 2023-04-06 |      | verify changes (also see sol@5dcea531, sol@af1e878f, sol@ca2d9cb1, sol@ace0cee1, sol@ef46c6c3, sol@2e98e7c4) (Shadow Labyrinth) |
+| sol@d851e79a | 2023-04-06 |      | verify changes (also see sol@5dcea531, sol@af1e878f, sol@ca2d9cb1, sol@ace0cee1, sol@ef46c6c3, sol@2e98e7c4, sol@0fb49282) (Shadow Labyrinth) |
 | sol@57874f9d | 2023-04-06 |      | verify changes (also see sol@78384368) (Steamvault) |
 | sol@86a45372 | 2023-04-05 |      | verify/rework SQL script (Dire Maul) |
 | sol@328405e4 | 2023-04-05 |      | verify changes (also see sol@34eafefb) (Arcatraz) |
@@ -201,7 +202,7 @@ TODOs: [common](TODO.md), low prio: [cosmetic](TODO_cosmetic.md), dungeon, [even
 | sol@82f4d46f | 2022-12-06 |      | verify/rework SQL script (Temple of Ahn'Qiraj) |
 | sol@38a3774c | 2022-12-06 |      | verify changes (Blood Furnace) |
 | sol@08ff2f27 | 2022-12-06 |      | verify changes (Blackwing Lair) |
-| sol@21bd9ab5 | 2022-12-06 |      | verify/rework SQL script (also see sol@5cc5b352) (Auchenai Crypts) |
+| sol@21bd9ab5 | 2022-12-06 |      | verify/rework SQL script (also see sol@5cc5b352, sol@5eedd803) (Auchenai Crypts) |
 | sol@975fd878 | 2022-12-06 |      | verify/rework SQL script (Slave Pens & Steamvault) |
 | sol@ac65434f | 2022-12-06 |      | verify changes (also see sol@9798ccd8) (Hellfire Ramparts) |
 | sol@b7f81ab3 | 2022-12-06 |      | verify changes (Hellfire Ramparts) |
