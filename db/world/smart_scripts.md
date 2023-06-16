@@ -2795,8 +2795,7 @@ quickChange 1 forces the creature to quickly change its orientation (useful if t
 </p></td>
 <td><p><br />
 </p></td>
-<td><p><br />
-</p></td>
+<td>If value 0 is used the NPC flags are reset to the value specified in the creature template</td>
 </tr>
 <tr>
 <td><p>SMART_ACTION_REMOVE_NPC_FLAG</p></td>
@@ -2812,8 +2811,7 @@ quickChange 1 forces the creature to quickly change its orientation (useful if t
 </p></td>
 <td><p><br />
 </p></td>
-<td><p><br />
-</p></td>
+<td>If value 0 is used all NPC flags are removed</td>
 </tr>
 <tr>
 <td><p>SMART_ACTION_SIMPLE_TALK</p></td>

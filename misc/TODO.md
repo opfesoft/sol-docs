@@ -2,7 +2,7 @@ TODOs: common, low prio: [cosmetic](TODO_cosmetic.md), [dungeon](TODO_dungeon.md
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
-| sol@21764359 | 2023-06-09 |      | wrong, won't take over; set duration index 36 for spell 13139 instead |
+| sol@21764359 | 2023-06-09 | X    | wrong, won't take over; set duration index 36 for spell 13139 instead; done: sol@e8eabe0a |
 | sol@0b926d00 | 2023-06-02 |      | keep current position, but enable random movement; add a spawn for the new position and create a pool |
 | sol@c8ab8f00 | 2023-06-02 |      | verify/rework SQL script |
 | sol@7d2513c9 | 2023-06-02 |      | verify/rework SQL script |
@@ -44,13 +44,13 @@ TODOs: common, low prio: [cosmetic](TODO_cosmetic.md), [dungeon](TODO_dungeon.md
 | sol@ea82506a | 2023-04-12 |      | verify changes |
 | sol@55b9c247 | 2023-04-09 |      | verify changes; low prio (minor issue) |
 | sol@971e2f53 | 2023-04-09 |      | verify/rework SQL script / spell script |
-| sol@32eb3c31 | 2023-04-09 |      | verify/rework SQL script |
-| sol@4e04dc6d | 2023-04-04 |      | verify/rework SQL script |
-| sol@8c9b4f1f | 2023-04-04 |      | verify/rework SQL script |
-| sol@1ba36b8d | 2023-04-04 |      | verify/rework SQL script |
-| sol@c028d074 | 2023-04-04 |      | verify/rework SQL script |
-| sol@dc6238d3 | 2023-04-04 |      | verify/rework SQL script |
-| sol@8926a1e6 | 2023-04-04 |      | verify/rework SQL script |
+| sol@32eb3c31 | 2023-04-09 | X    | verify/rework SQL script; done: sol@37ba02a2 |
+| sol@4e04dc6d | 2023-04-04 | X    | verify/rework SQL script; done: sol@6d60874e |
+| sol@8c9b4f1f | 2023-04-04 | X    | verify/rework SQL script; done: sol@dfe7bace |
+| sol@1ba36b8d | 2023-04-04 | X    | verify/rework SQL script; wrong, won't take over, set UNIT\_STAND\_STATE\_SLEEP instead: sol@047f1b0d |
+| sol@c028d074 | 2023-04-04 | X    | verify/rework SQL script; done: sol@c5da5458 |
+| sol@dc6238d3 | 2023-04-04 | X    | verify/rework SQL script; done: sol@4c687aad |
+| sol@8926a1e6 | 2023-04-04 | X    | verify/rework SQL script; done: sol@54d2dc0d |
 | sol@4833dd01 | 2023-04-04 | X    | verify/rework SQL script; done: sol@1c90ad99 |
 | sol@15635860 | 2023-04-04 | X    | verify/rework SQL script; done: sol@84012224 |
 | sol@6099915c | 2023-04-04 | X    | verify/rework SQL script; done: sol@97188f4e |

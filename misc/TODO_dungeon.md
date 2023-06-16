@@ -55,7 +55,7 @@ TODOs: [common](TODO.md), low prio: [cosmetic](TODO_cosmetic.md), dungeon, [even
 | sol@54d85a5f | 2023-04-09 |      | verify/rework SQL script (Blood Furnace) |
 | sol@816b85b8 | 2023-04-09 |      | verify/rework SQL script (Shattered Halls) |
 | sol@a695d009 | 2023-04-09 |      | verify changes (also see sol@85e2e5c7) (Steamvault) |
-| sol@5139d28e | 2023-04-08 |      | verify/rework SQL script (also see sol@f06ab047, sol@7a37d515) (Shattered Halls) |
+| sol@5139d28e | 2023-04-08 |      | verify/rework SQL script (also see sol@f06ab047, sol@7a37d515, sol@de1f3a1c) (Shattered Halls) |
 | sol@d851e79a | 2023-04-06 |      | verify changes (also see sol@5dcea531, sol@af1e878f, sol@ca2d9cb1, sol@ace0cee1, sol@ef46c6c3, sol@2e98e7c4, sol@0fb49282) (Shadow Labyrinth) |
 | sol@57874f9d | 2023-04-06 |      | verify changes (also see sol@78384368) (Steamvault) |
 | sol@86a45372 | 2023-04-05 |      | verify/rework SQL script (Dire Maul) |
@@ -171,7 +171,7 @@ TODOs: [common](TODO.md), low prio: [cosmetic](TODO_cosmetic.md), dungeon, [even
 | sol@5fb83d8d | 2023-01-31 |      | verify/rework SQL script (also see sol@2595e0c2) (Mana-Tombs) |
 | sol@0cccb7d9 | 2023-01-31 |      | verify/rework SQL script (Pit of Saron) |
 | sol@6ae8ffa8 | 2023-01-28 |      | verify changes (Gruul's Lair) |
-| sol@ae2e3a4e | 2023-01-28 |      | verify changes (Magtheridon's Lair) |
+| sol@ae2e3a4e | 2023-01-28 |      | verify changes (also see sol@a10c183e) (Magtheridon's Lair) |
 | sol@131e69d6 | 2023-01-28 |      | should not exceed 250, choose another value (Temple of Ahn'Qiraj) |
 | sol@ff8374ac | 2023-01-25 |      | verify/rework SQL script (Escape from Durnholde Keep) |
 | sol@13aca320 | 2023-01-25 |      | verify/rework SQL script (Escape from Durnholde Keep) |
