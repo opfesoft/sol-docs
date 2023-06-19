@@ -2,6 +2,7 @@ TODOs: common, low prio: [cosmetic](TODO_cosmetic.md), [dungeon](TODO_dungeon.md
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@78c639df | 2023-06-17 |      | verify/rework SQL script |
 | sol@21764359 | 2023-06-09 | X    | wrong, won't take over; set duration index 36 for spell 13139 instead; done: sol@e8eabe0a |
 | sol@0b926d00 | 2023-06-02 |      | keep current position, but enable random movement; add a spawn for the new position and create a pool |
 | sol@c8ab8f00 | 2023-06-02 |      | verify/rework SQL script |
@@ -43,7 +44,7 @@ TODOs: common, low prio: [cosmetic](TODO_cosmetic.md), [dungeon](TODO_dungeon.md
 | sol@a8a30112 | 2023-04-12 |      | verify changes; low prio (minor issue) |
 | sol@ea82506a | 2023-04-12 |      | verify changes |
 | sol@55b9c247 | 2023-04-09 |      | verify changes; low prio (minor issue) |
-| sol@971e2f53 | 2023-04-09 |      | verify/rework SQL script / spell script |
+| sol@971e2f53 | 2023-04-09 | X    | verify/rework SQL script / spell script; done: sol@2ddeaa0a |
 | sol@32eb3c31 | 2023-04-09 | X    | verify/rework SQL script; done: sol@37ba02a2 |
 | sol@4e04dc6d | 2023-04-04 | X    | verify/rework SQL script; done: sol@6d60874e |
 | sol@8c9b4f1f | 2023-04-04 | X    | verify/rework SQL script; done: sol@dfe7bace |

@@ -291,7 +291,7 @@ Allows the manual application of unit flags to creatures. Again this is a bitmas
 | 8          | 0x00000008 | UNIT_FLAG_PVP_ATTACKABLE        | Allows to apply PvP rules to attackable state in addition to faction dependent state                       |
 | 16         | 0x00000010 | UNIT_FLAG_RENAME                |                                                                                                            |
 | 32         | 0x00000020 | UNIT_FLAG_PREPARATION           | Don't take reagents for spells with SPELL_ATTR_EX5_NO_REAGENT_WHILE_PREP                                   |
-| 64         | 0x00000040 | UNIT_FLAG_UNK_6                 | not sure what it does, but it is needed to cast nontriggered spells in smart_scripts                       |
+| 64         | 0x00000040 | UNIT_FLAG_UNK_6                 |                                                                                                            |
 | 128        | 0x00000080 | UNIT_FLAG_NOT_ATTACKABLE_1      | UNIT_FLAG_PVP_ATTACKABLE|UNIT_FLAG_NOT_ATTACKABLE_1 is NON_PVP_ATTACKABLE                                  |
 | 256        | 0x00000100 | UNIT_FLAG_IMMUNE_TO_PC          | disables combat/assistance with PlayerCharacters (PC)                                                      |
 | 512        | 0x00000200 | UNIT_FLAG_IMMUNE_TO_NPC         | disables combat/assistance with NonPlayerCharacters (NPC)                                                  |
@@ -314,7 +314,7 @@ Allows the manual application of unit flags to creatures. Again this is a bitmas
 | 67108864   | 0x04000000 | UNIT_FLAG_SKINNABLE             | Skinnable                                                                                                  |
 | 134217728  | 0x08000000 | UNIT_FLAG_MOUNT                 | The client seems to handle it perfectly. Also used when making custom mounts.                              |
 | 268435456  | 0x10000000 | UNIT_FLAG_UNK_28                | (PreventKneelingWhenLooting from UnitFlags.cs in WPP)                                                      |
-| 536870912  | 0x20000000 | UNIT_FLAG_UNK_29                | Used in Feign Death spell or NPC will play dead. (PreventEmotes)                                           |
+| 536870912  | 0x20000000 | UNIT_FLAG_SUPPRESS_CHAT_EMOTES  | Prevent automatically playing emotes from parsing chat text, for example "lol" in /say, ending message with ? or !, or using /yell. Used in Feign Death spell or NPC will play dead. |
 | 1073741824 | 0x40000000 | UNIT_FLAG_SHEATHE               |                                                                                                            |
 | 2147483648 | 0x80000000 | UNIT_FLAG_UNK_31                |                                                                                                            |
 
