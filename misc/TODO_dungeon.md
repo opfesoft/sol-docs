@@ -58,7 +58,7 @@ TODOs: [common](TODO.md), low prio: [cosmetic](TODO_cosmetic.md), dungeon, [even
 | sol@816b85b8 | 2023-04-09 |      | verify/rework SQL script (Shattered Halls) |
 | sol@a695d009 | 2023-04-09 |      | verify changes (also see sol@85e2e5c7) (Steamvault) |
 | sol@5139d28e | 2023-04-08 |      | verify/rework SQL script (also see sol@f06ab047, sol@7a37d515, sol@de1f3a1c, sol@3dc7a89a, sol@c3948567, sol@7e258bbd, sol@6a73c38e, sol@0c3c6df3, sol@8077c8bf, sol@cd248ef6, sol@ce788f68, sol@1e49eef4, sol@40eb5da6, sol@9d6398e6, sol@45bf1699) (Shattered Halls) |
-| sol@d851e79a | 2023-04-06 |      | verify changes (also see sol@5dcea531, sol@af1e878f, sol@ca2d9cb1, sol@ace0cee1, sol@ef46c6c3, sol@2e98e7c4, sol@0fb49282) (Shadow Labyrinth) |
+| sol@d851e79a | 2023-04-06 |      | verify changes (also see sol@5dcea531, sol@af1e878f, sol@ca2d9cb1, sol@ace0cee1, sol@ef46c6c3, sol@2e98e7c4, sol@0fb49282, sol@a62143e5) (Shadow Labyrinth) |
 | sol@57874f9d | 2023-04-06 |      | verify changes (also see sol@78384368) (Steamvault) |
 | sol@86a45372 | 2023-04-05 |      | verify/rework SQL script (Dire Maul) |
 | sol@328405e4 | 2023-04-05 |      | verify changes (also see sol@34eafefb) (Arcatraz) |
@@ -206,7 +206,7 @@ TODOs: [common](TODO.md), low prio: [cosmetic](TODO_cosmetic.md), dungeon, [even
 | sol@08ff2f27 | 2022-12-06 |      | verify changes (Blackwing Lair) |
 | sol@21bd9ab5 | 2022-12-06 |      | verify/rework SQL script (also see sol@5cc5b352, sol@5eedd803) (Auchenai Crypts) |
 | sol@975fd878 | 2022-12-06 |      | verify/rework SQL script (Slave Pens & Steamvault) |
-| sol@ac65434f | 2022-12-06 |      | verify changes (also see sol@9798ccd8) (Hellfire Ramparts) |
+| sol@ac65434f | 2022-12-06 |      | verify changes (also see sol@9798ccd8, sol@fb7164be) (Hellfire Ramparts) |
 | sol@b7f81ab3 | 2022-12-06 |      | verify changes (Hellfire Ramparts) |
 | sol@c30f621c | 2022-12-06 |      | verify/rework SQL script; also check the SAI condition (this has been forgotten in the AC commit) (Blood Furnace) |
 | sol@9f2b3c9f | 2022-12-06 |      | verify/rework SQL script (Auchenai Crypts) |

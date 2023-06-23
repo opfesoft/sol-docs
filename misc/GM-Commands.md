@@ -61,7 +61,7 @@ Note: Some commands are working only by selecting a player or a creature. These 
 |debug getitemstate|3|Syntax: .debug getitemstate [unchanged\|changed\|new\|removed\|queue\|check_all]. Get specified item state of the items of the selected player.|
 |debug getitemvalue|3|Syntax: .debug getitemvalue $guid $index. Get value from item with $guid at $index.|
 |debug setitemvalue|3|Syntax: .debug getitemvalue $guid $index $value. Set $value for item with $guid at $index.|
-|debug getvalue|3|Syntax: .debug $field [1\|0]: 1: get uint32 value of $field of the selected unit; 0: get float value of $field of the selected unit (e.g. 74 for stand state, UNIT_FIELD_BYTES_1) |
+|debug getvalue|3|Syntax: .debug $field [1\|0]: 1: get uint32 value of $field of the selected unit; 0: get float value of $field of the selected unit (e.g. 74 for stand state, UNIT_FIELD_BYTES_1, 59 for UNIT_FIELD_FLAGS, 60 for UNIT_FIELD_FLAGS_2) |
 |debug setvalue|3|Syntax: .debug $field $value [1\|0]: 1: set uint32 $value for $field of the selected unit; 0: set float $value for $field of the selected unit|
 |debug entervehicle|3|Enter targeted vehicle.|
 |debug hostil|1|Get hostile reference list of the selected unit.|
