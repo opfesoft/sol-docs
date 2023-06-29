@@ -2,6 +2,8 @@ TODOs: common, low prio: [cosmetic](TODO_cosmetic.md), [dungeon](TODO_dungeon.md
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@7ec04d14 | 2023-06-27 |      | take over if needed |
+| sol@7c5bcecf | 2023-06-23 |      | verify/rework SQL script |
 | sol@9a854e8d | 2023-06-21 |      | verify/rework SQL script |
 | sol@21764359 | 2023-06-09 | X    | wrong, won't take over; set duration index 36 for spell 13139 instead; done: sol@e8eabe0a |
 | sol@0b926d00 | 2023-06-02 |      | keep current position, but enable random movement; add a spawn for the new position and create a pool |
@@ -39,8 +41,8 @@ TODOs: common, low prio: [cosmetic](TODO_cosmetic.md), [dungeon](TODO_dungeon.md
 | sol@d7eca37a | 2023-04-19 |      | verify/rework SQL script |
 | sol@7c157f6f | 2023-04-19 |      | verify/rework SQL script |
 | sol@66b37dd5 | 2023-04-19 |      | verify/rework SQL script |
-| sol@c5bded11 | 2023-04-19 |      | won't take over, rework existing SAI instead |
-| sol@9a5c4dfc | 2023-04-17 |      | wrong, won't take over; the GOs should not disappear, only the creatures within (ID 21737); also add several of the missing creatures |
+| sol@c5bded11 | 2023-04-19 | X    | won't take over, rework existing SAI instead; done: sol@7cbb16dd |
+| sol@9a5c4dfc | 2023-04-17 | X    | wrong, won't take over; the GOs should not disappear, only the creatures within (ID 21737); also add several of the missing creatures; done: sol@7cf0b394 |
 | sol@a8a30112 | 2023-04-12 |      | verify changes; low prio (minor issue) |
 | sol@ea82506a | 2023-04-12 | X    | verify changes; done: sol@6df5f024, sol@d4c4864c |
 | sol@55b9c247 | 2023-04-09 |      | verify changes; low prio (minor issue) |

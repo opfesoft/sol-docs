@@ -2,6 +2,8 @@ TODOs: [common](TODO.md), low prio: [cosmetic](TODO_cosmetic.md), [dungeon](TODO
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@c0bbb524 | 2023-06-24 |      | verify changes (also see sol@65ebbec8) (Midsummer Fire Festival) |
+| sol@b45773ec | 2023-06-24 |      | verify changes (also see sol@d172b3a7, sol@5e0cfa22, sol@7cd575db) (Midsummer Fire Festival) |
 | sol@3a8aae99 | 2023-06-22 |      | verify changes (Midsummer Fire Festival) |
 | sol@a36e8a36 | 2023-06-17 |      | verify SQL script (Lunar Festival) |
 | sol@2cf134ad | 2023-04-19 |      | verify/rework SQL script (Hallow's End) |

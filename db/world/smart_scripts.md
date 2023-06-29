@@ -1978,7 +1978,7 @@ This is the probability of the event to occur as a percentage from 0-100. So, if
 <td><p>credit</p></td>
 <td><p>creditType (0 monsterkill, 1 event)</p></td>
 <td><p>aliveState End NPC (0: alive, 1: dead)</p></td>
-<td><p>Follow the target; stop following if target is SMART_TARGET_NONE; angle is counter-clockwise, 0 means in front of the target; if lower or equal to 6 use as radian, otherwise use as degrees; as only integer values are allowed if specified as radian the degrees would be as follows:<br />
+<td><p>Follow the target; stop following if target is SMART_TARGET_NONE or SMART_TARGET_SELF; angle is counter-clockwise, 0 means in front of the target; if lower or equal to 6 use as radian, otherwise use as degrees; as only integer values are allowed if specified as radian the degrees would be as follows:<br />
 1: ca. 57.3 degrees<br />
 2: ca. 114.6 degrees<br />
 3: ca. 171.9 degrees<br />
@@ -2762,7 +2762,7 @@ quickChange 1 forces the creature to quickly change its orientation (useful if t
 </p></td>
 <td><p><br />
 </p></td>
-<td><p>If an action list is already running it is overwritten with the new one. It is not possible to call a timed action list from within a timed action list.</p></td>
+<td><p>If an action list is already running it is overwritten with the new one. It is not possible to call a timed action list from within a timed action list. A running action list is cancelled on death.</p></td>
 </tr>
 <tr>
 <td><p>SMART_ACTION_SET_NPC_FLAG</p></td>

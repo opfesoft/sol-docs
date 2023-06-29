@@ -2,6 +2,8 @@ TODOs: [common](TODO.md), low prio: [cosmetic](TODO_cosmetic.md), dungeon, [even
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@d1f3e606 | 2023-06-25 |      | verify changes (Auchenai Crypts) |
+| sol@facbebdf | 2023-06-24 |      | verify changes (Mechanar) |
 | sol@7ae4b85c | 2023-06-18 |      | verify changes (Hellfire Ramparts) |
 | sol@5b36dfa2 | 2023-06-18 |      | verify timers (Gruul's Lair) |
 | sol@801dcf80 | 2023-06-17 |      | verify/rework SQL script (Zul'Farrak) |
@@ -25,7 +27,7 @@ TODOs: [common](TODO.md), low prio: [cosmetic](TODO_cosmetic.md), dungeon, [even
 | sol@ea3e6e8f | 2023-05-13 |      | verify changes (Deadmines) |
 | sol@09c40a8c | 2023-05-13 |      | verify changes (Violet Hold) |
 | sol@8d6392d6 | 2023-05-13 |      | won't take over, keep SAI, but check creature scripts (Underbog) |
-| sol@da101c26 | 2023-05-13 |      | verify/rework SQL script (Auchenai Crypts) |
+| sol@da101c26 | 2023-05-13 |      | verify/rework SQL script (also see sol@bf8ba689) (Auchenai Crypts) |
 | sol@c99dd070 | 2023-05-13 |      | verify/rework SQL script (Karazhan) |
 | sol@154fa624 | 2023-05-13 |      | verify changes (also see sol@67be37de) (Shattered Halls) |
 | sol@2a1d706a | 2023-05-12 |      | verify changes (also see sol@65607c11) (Underbog) |
