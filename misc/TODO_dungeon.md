@@ -2,6 +2,7 @@ TODOs: [common](TODO.md), low prio: [cosmetic](TODO_cosmetic.md), dungeon, [even
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@71df7282 | 2023-06-30 |      | verify/rework SQL script (Auchenai Crypts) |
 | sol@d1f3e606 | 2023-06-25 |      | verify changes (Auchenai Crypts) |
 | sol@facbebdf | 2023-06-24 |      | verify changes (Mechanar) |
 | sol@7ae4b85c | 2023-06-18 |      | verify changes (Hellfire Ramparts) |
@@ -26,7 +27,7 @@ TODOs: [common](TODO.md), low prio: [cosmetic](TODO_cosmetic.md), dungeon, [even
 | sol@3c401ad4 | 2023-05-13 |      | verify changes (Halls of Reflection) |
 | sol@ea3e6e8f | 2023-05-13 |      | verify changes (Deadmines) |
 | sol@09c40a8c | 2023-05-13 |      | verify changes (Violet Hold) |
-| sol@8d6392d6 | 2023-05-13 |      | won't take over, keep SAI, but check creature scripts (Underbog) |
+| sol@8d6392d6 | 2023-05-13 |      | won't take over, keep SAI, but check creature scripts (also see sol@cd01453b) (Underbog) |
 | sol@da101c26 | 2023-05-13 |      | verify/rework SQL script (also see sol@bf8ba689) (Auchenai Crypts) |
 | sol@c99dd070 | 2023-05-13 |      | verify/rework SQL script (Karazhan) |
 | sol@154fa624 | 2023-05-13 |      | verify changes (also see sol@67be37de) (Shattered Halls) |
@@ -61,7 +62,7 @@ TODOs: [common](TODO.md), low prio: [cosmetic](TODO_cosmetic.md), dungeon, [even
 | sol@a695d009 | 2023-04-09 |      | verify changes (also see sol@85e2e5c7) (Steamvault) |
 | sol@5139d28e | 2023-04-08 |      | verify/rework SQL script (also see sol@f06ab047, sol@7a37d515, sol@de1f3a1c, sol@3dc7a89a, sol@c3948567, sol@7e258bbd, sol@6a73c38e, sol@0c3c6df3, sol@8077c8bf, sol@cd248ef6, sol@ce788f68, sol@1e49eef4, sol@40eb5da6, sol@9d6398e6, sol@45bf1699) (Shattered Halls) |
 | sol@d851e79a | 2023-04-06 |      | verify changes (also see sol@5dcea531, sol@af1e878f, sol@ca2d9cb1, sol@ace0cee1, sol@ef46c6c3, sol@2e98e7c4, sol@0fb49282, sol@a62143e5) (Shadow Labyrinth) |
-| sol@57874f9d | 2023-04-06 |      | verify changes (also see sol@78384368) (Steamvault) |
+| sol@57874f9d | 2023-04-06 |      | verify changes (also see sol@78384368, sol@f8cb2ada) (Steamvault) |
 | sol@86a45372 | 2023-04-05 |      | verify/rework SQL script (Dire Maul) |
 | sol@328405e4 | 2023-04-05 |      | verify changes (also see sol@34eafefb) (Arcatraz) |
 | sol@331e6164 | 2023-04-04 |      | verify/rework SQL script (Steamvault) |

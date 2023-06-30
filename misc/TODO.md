@@ -3,7 +3,7 @@ TODOs: common, low prio: [cosmetic](TODO_cosmetic.md), [dungeon](TODO_dungeon.md
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
 | sol@7ec04d14 | 2023-06-27 |      | take over if needed |
-| sol@7c5bcecf | 2023-06-23 |      | verify/rework SQL script |
+| sol@7c5bcecf | 2023-06-23 | X    | verify/rework SQL script; update: wrong, won't take over; the creatures are part of a creature formation |
 | sol@9a854e8d | 2023-06-21 |      | verify/rework SQL script |
 | sol@21764359 | 2023-06-09 | X    | wrong, won't take over; set duration index 36 for spell 13139 instead; done: sol@e8eabe0a |
 | sol@0b926d00 | 2023-06-02 |      | keep current position, but enable random movement; add a spawn for the new position and create a pool |
