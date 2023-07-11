@@ -2,11 +2,14 @@ TODOs: [common](TODO.md), low prio: [cosmetic](TODO_cosmetic.md), dungeon, [even
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@89959a19 | 2023-07-11 |      | verify/rework SQL script (Escape from Durnholde Keep, Mana-Tombs, Underbog, Slave Pens, Blood Furnace, Hellfire Ramparts) |
+| sol@65d6baeb | 2023-07-10 |      | verify/rework SQL script (Underbog) |
+| sol@772f5cfe | 2023-07-09 |      | verify/rework SQL script (Gnomeregan) |
 | sol@71df7282 | 2023-06-30 |      | verify/rework SQL script (Auchenai Crypts) |
 | sol@d1f3e606 | 2023-06-25 |      | verify changes (Auchenai Crypts) |
 | sol@facbebdf | 2023-06-24 |      | verify changes (Mechanar) |
 | sol@7ae4b85c | 2023-06-18 |      | verify changes (Hellfire Ramparts) |
-| sol@5b36dfa2 | 2023-06-18 |      | verify timers (Gruul's Lair) |
+| sol@5b36dfa2 | 2023-06-18 |      | verify timers (also see sol@fe52a5c9) (Gruul's Lair) |
 | sol@801dcf80 | 2023-06-17 |      | verify/rework SQL script (Zul'Farrak) |
 | sol@828aebbd | 2023-06-11 |      | verify/rework SQL script (Opening the Dark Portal) |
 | sol@327135ef | 2023-06-09 |      | won't take over, use SAI instead (Slave Pens) |
@@ -61,7 +64,7 @@ TODOs: [common](TODO.md), low prio: [cosmetic](TODO_cosmetic.md), dungeon, [even
 | sol@816b85b8 | 2023-04-09 |      | verify/rework SQL script (Shattered Halls) |
 | sol@a695d009 | 2023-04-09 |      | verify changes (also see sol@85e2e5c7) (Steamvault) |
 | sol@5139d28e | 2023-04-08 |      | verify/rework SQL script (also see sol@f06ab047, sol@7a37d515, sol@de1f3a1c, sol@3dc7a89a, sol@c3948567, sol@7e258bbd, sol@6a73c38e, sol@0c3c6df3, sol@8077c8bf, sol@cd248ef6, sol@ce788f68, sol@1e49eef4, sol@40eb5da6, sol@9d6398e6, sol@45bf1699) (Shattered Halls) |
-| sol@d851e79a | 2023-04-06 |      | verify changes (also see sol@5dcea531, sol@af1e878f, sol@ca2d9cb1, sol@ace0cee1, sol@ef46c6c3, sol@2e98e7c4, sol@0fb49282, sol@a62143e5) (Shadow Labyrinth) |
+| sol@d851e79a | 2023-04-06 |      | verify changes (also see sol@5dcea531, sol@af1e878f, sol@ca2d9cb1, sol@ace0cee1, sol@ef46c6c3, sol@2e98e7c4, sol@0fb49282, sol@a62143e5, sol@b17e29fb) (Shadow Labyrinth) |
 | sol@57874f9d | 2023-04-06 |      | verify changes (also see sol@78384368, sol@f8cb2ada) (Steamvault) |
 | sol@86a45372 | 2023-04-05 |      | verify/rework SQL script (Dire Maul) |
 | sol@328405e4 | 2023-04-05 |      | verify changes (also see sol@34eafefb) (Arcatraz) |
@@ -110,7 +113,7 @@ TODOs: [common](TODO.md), low prio: [cosmetic](TODO_cosmetic.md), dungeon, [even
 | sol@8f3a215b | 2023-03-19 |      | verify changes (also see sol@3c056273, sol@18c69643, sol@eca5f79d) (Mechanar) |
 | sol@7b3b22a2 | 2023-03-19 |      | verify changes (also see sol@f5e450e2, sol@5e7f7c49, sol@37f0b709) (Icecrown Citadel) |
 | sol@f5421722 | 2023-03-19 |      | use SAI instead (also see sol@78070b10) (Sethekk Halls) |
-| sol@7207be20 | 2023-03-16 |      | verify and rework SQL script (Gnomeregan) |
+| sol@7207be20 | 2023-03-16 |      | verify/rework SQL script (Gnomeregan) |
 | sol@f0be1aa9 | 2023-03-15 |      | verify/rework SQL script (Botanica) |
 | sol@b21f98d6 | 2023-03-15 |      | verify changes (Karazhan) |
 | sol@1f82bcf1 | 2023-03-14 |      | verify/rework SQL script (Opening the Dark Portal) |
@@ -176,7 +179,7 @@ TODOs: [common](TODO.md), low prio: [cosmetic](TODO_cosmetic.md), dungeon, [even
 | sol@5fb83d8d | 2023-01-31 |      | verify/rework SQL script (also see sol@2595e0c2) (Mana-Tombs) |
 | sol@0cccb7d9 | 2023-01-31 |      | verify/rework SQL script (Pit of Saron) |
 | sol@6ae8ffa8 | 2023-01-28 |      | verify changes (Gruul's Lair) |
-| sol@ae2e3a4e | 2023-01-28 |      | verify changes (also see sol@a10c183e) (Magtheridon's Lair) |
+| sol@ae2e3a4e | 2023-01-28 |      | verify changes (also see sol@a10c183e, sol@e2942946, sol@5850079a, sol@fd169fbd, sol@09541e3b) (Magtheridon's Lair) |
 | sol@131e69d6 | 2023-01-28 |      | should not exceed 250, choose another value (Temple of Ahn'Qiraj) |
 | sol@ff8374ac | 2023-01-25 |      | verify/rework SQL script (Escape from Durnholde Keep) |
 | sol@13aca320 | 2023-01-25 |      | verify/rework SQL script (Escape from Durnholde Keep) |
@@ -209,7 +212,7 @@ TODOs: [common](TODO.md), low prio: [cosmetic](TODO_cosmetic.md), dungeon, [even
 | sol@08ff2f27 | 2022-12-06 |      | verify changes (Blackwing Lair) |
 | sol@21bd9ab5 | 2022-12-06 |      | verify/rework SQL script (also see sol@5cc5b352, sol@5eedd803) (Auchenai Crypts) |
 | sol@975fd878 | 2022-12-06 |      | verify/rework SQL script (Slave Pens & Steamvault) |
-| sol@ac65434f | 2022-12-06 |      | verify changes (also see sol@9798ccd8, sol@fb7164be) (Hellfire Ramparts) |
+| sol@ac65434f | 2022-12-06 |      | verify changes (also see sol@9798ccd8, sol@fb7164be, sol@fd474c8b) (Hellfire Ramparts) |
 | sol@b7f81ab3 | 2022-12-06 |      | verify changes (Hellfire Ramparts) |
 | sol@c30f621c | 2022-12-06 |      | verify/rework SQL script; also check the SAI condition (this has been forgotten in the AC commit) (Blood Furnace) |
 | sol@9f2b3c9f | 2022-12-06 |      | verify/rework SQL script (Auchenai Crypts) |
@@ -632,10 +635,10 @@ TODOs: [common](TODO.md), low prio: [cosmetic](TODO_cosmetic.md), dungeon, [even
 | sol@0d19ac43 | 2021-03-17 |      | verify changes (Ulduar) |
 | sol@252f56c0 | 2021-03-17 |      | verify changes (Ulduar) |
 | sol@9d096233 | 2021-03-09 |      | verify SQL script (see also AC commit sol@671c4dc5) (Naxxramas) |
-| sol@dbd78936 | 2021-02-24 |      | verify and rework SQL script (Gnomeregan) |
-| sol@ae2bd072 | 2021-02-24 |      | verify and rework SQL script (Gnomeregan) |
+| sol@dbd78936 | 2021-02-24 |      | verify/rework SQL script (Gnomeregan) |
+| sol@ae2bd072 | 2021-02-24 |      | verify/rework SQL script (Gnomeregan) |
 | sol@6ef73413 | 2021-01-31 |      | verify CreatureScript (also see sol@1a137dad, sol@8d78f4b8, sol@707685d6, sol@549a1a0d, sol@d0336ea4, sol@6e35325a, sol@b2e449fd) (Blackwing Lair) |
-| sol@b9375fff | 2021-01-12 |      | verify and rework SQL script & code changes (The Oculus) |
+| sol@b9375fff | 2021-01-12 |      | verify/rework SQL script & code changes (The Oculus) |
 | sol@aec0dbb7 | 2020-12-25 |      | verify CreatureScript (Ulduar) |
-| sol@d710057a | 2020-12-25 |      | verify and rework SQL script / CreatureScript (also see sol@0d9bfdea) (Ulduar) |
+| sol@d710057a | 2020-12-25 |      | verify/rework SQL script / CreatureScript (also see sol@0d9bfdea) (Ulduar) |
 | sol@01fa6257 | 2020-11-28 |      | verify changes and take over if needed (Obsidian Sanctum) |

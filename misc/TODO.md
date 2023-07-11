@@ -2,6 +2,10 @@ TODOs: common, low prio: [cosmetic](TODO_cosmetic.md), [dungeon](TODO_dungeon.md
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@1673915f | 2023-07-09 |      | verify changes |
+| sol@02f44539 | 2023-07-08 |      | verify/rework SQL script |
+| sol@c4d94c80 | 2023-07-08 |      | verify/rework SQL script |
+| sol@54f8386d | 2023-07-02 |      | take over if needed (also see sol@6a410efa, sol@9d7e4721, sol@893a9bee) |
 | sol@7ec04d14 | 2023-06-27 |      | take over if needed |
 | sol@7c5bcecf | 2023-06-23 | X    | verify/rework SQL script; update: wrong, won't take over; the creatures are part of a creature formation |
 | sol@9a854e8d | 2023-06-21 |      | verify/rework SQL script |
@@ -39,8 +43,8 @@ TODOs: common, low prio: [cosmetic](TODO_cosmetic.md), [dungeon](TODO_dungeon.md
 | sol@9fe478e9 | 2023-04-19 |      | verify/rework SQL script |
 | sol@a71aaaf4 | 2023-04-19 |      | verify/rework SQL script |
 | sol@d7eca37a | 2023-04-19 |      | verify/rework SQL script |
-| sol@7c157f6f | 2023-04-19 |      | verify/rework SQL script |
-| sol@66b37dd5 | 2023-04-19 |      | verify/rework SQL script |
+| sol@7c157f6f | 2023-04-19 | X    | verify/rework SQL script; done: sol@b605262f |
+| sol@66b37dd5 | 2023-04-19 | X    | verify/rework SQL script; done: sol@cb00b0c5 |
 | sol@c5bded11 | 2023-04-19 | X    | won't take over, rework existing SAI instead; done: sol@7cbb16dd |
 | sol@9a5c4dfc | 2023-04-17 | X    | wrong, won't take over; the GOs should not disappear, only the creatures within (ID 21737); also add several of the missing creatures; done: sol@7cf0b394 |
 | sol@a8a30112 | 2023-04-12 |      | verify changes; low prio (minor issue) |

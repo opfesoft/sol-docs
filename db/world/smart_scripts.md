@@ -3729,16 +3729,17 @@ depends on "type", e.g. for type "IMMUNITY_SCHOOL" or "IMMUNITY_DAMAGE" it's a b
 2: Play music for all players in the area</p></td>
 </tr>
 <tr>
-<td><p>SMART_ACTION_CIRCLE_MOVE</p></td>
+<td><p>SMART_ACTION_CYCLIC_MOVE</p></td>
 <td><p>231</p></td>
-<td><p>radius</p></td>
-<td><p>clockwise (0/1)</p></td>
-<td><p>stepCount</p></td>
-<td><p>centerSelf (0/1)</p></td>
+<td><p>type (0 stop cyclic movement, 1 circle clockwise, 2 circle counterclockwise, >2 <a href="waypoints.md#entry">waypoints.entry</a>)</p></td>
+<td><p>stepCount (only for circle)</p></td>
+<td><p>centerSelf (only for circle)</p></td>
 <td><p>speed (if 0 use default speed)</p></td>
 <td><p><br />
 </p></td>
-<td><p>Start circle movement using the given radius. If "centerSelf" is set to 1 the specified target creatures will start circling the script owner.<br />
+<td><p><br />
+</p></td>
+<td><p>Start cyclic movement using a circle with target_o as radius or a <a href="waypoints.md#entry">waypoints.entry</a>. If "centerSelf" is set to 1 the specified target creatures will start circling the script owner.<br />
 If the start position distance is far away the circle movement speed will be decreased following the second circle (this is the behaviour of the client which is reflected by the server)</p></td>
 </tr>
 <tr>
