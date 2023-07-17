@@ -2,6 +2,8 @@ TODOs: [common](TODO.md), low prio: [cosmetic](TODO_cosmetic.md), dungeon, [even
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@3860d273 | 2023-07-16 |      | verify changes (Karazhan) |
+| sol@5719ff45 | 2023-07-11 |      | verify/rework SQL script (also see sol@9b5933ac) (Gruul's Lair) |
 | sol@89959a19 | 2023-07-11 |      | verify/rework SQL script (Escape from Durnholde Keep, Mana-Tombs, Underbog, Slave Pens, Blood Furnace, Hellfire Ramparts) |
 | sol@65d6baeb | 2023-07-10 |      | verify/rework SQL script (Underbog) |
 | sol@772f5cfe | 2023-07-09 |      | verify/rework SQL script (Gnomeregan) |
@@ -9,7 +11,7 @@ TODOs: [common](TODO.md), low prio: [cosmetic](TODO_cosmetic.md), dungeon, [even
 | sol@d1f3e606 | 2023-06-25 |      | verify changes (Auchenai Crypts) |
 | sol@facbebdf | 2023-06-24 |      | verify changes (Mechanar) |
 | sol@7ae4b85c | 2023-06-18 |      | verify changes (Hellfire Ramparts) |
-| sol@5b36dfa2 | 2023-06-18 |      | verify timers (also see sol@fe52a5c9) (Gruul's Lair) |
+| sol@5b36dfa2 | 2023-06-18 |      | verify timers (also see sol@fe52a5c9, sol@e4d64ec3) (Gruul's Lair) |
 | sol@801dcf80 | 2023-06-17 |      | verify/rework SQL script (Zul'Farrak) |
 | sol@828aebbd | 2023-06-11 |      | verify/rework SQL script (Opening the Dark Portal) |
 | sol@327135ef | 2023-06-09 |      | won't take over, use SAI instead (Slave Pens) |
@@ -54,7 +56,7 @@ TODOs: [common](TODO.md), low prio: [cosmetic](TODO_cosmetic.md), dungeon, [even
 | sol@a2e8409b | 2023-04-19 |      | verify changes (Shadow Labyrinth) |
 | sol@0268ec0c | 2023-04-19 |      | verify/rework SQL script (Shattered Halls, Botanica, Shadow Labyrinth) |
 | sol@e38b0702 | 2023-04-18 |      | verify changes (also see sol@4bb002f6) (Shadow Labyrinth) |
-| sol@dda048d6 | 2023-04-18 |      | verify changes (also see sol@b4ff3da8, sol@fc7d2aed, sol@da2dafa6) (Shadow Labyrinth) |
+| sol@dda048d6 | 2023-04-18 |      | verify changes (also see sol@b4ff3da8, sol@fc7d2aed, sol@da2dafa6, sol@68a93bcc) (Shadow Labyrinth) |
 | sol@8cb7bfd9 | 2023-04-15 |      | verify changes (Gruul's Lair) |
 | sol@421f0644 | 2023-04-09 |      | verify changes (Azjol-Nerub) |
 | sol@65347bc8 | 2023-04-09 |      | won't take over, caused by AC commit sol@f2b5838d (Sol is not affected by this issue); use separate loot tables for each dungeon and difficulty (Blood Furnace) |
@@ -139,7 +141,7 @@ TODOs: [common](TODO.md), low prio: [cosmetic](TODO_cosmetic.md), dungeon, [even
 | sol@d7071e87 | 2023-02-19 |      | verify/rework SQL script (Shadowfang Keep) |
 | sol@c3a8d261 | 2023-02-19 |      | verify/rework SQL script (Escape from Durnholde Keep) |
 | sol@e750aedb | 2023-02-19 |      | verify/rework SQL script (Mana-Tombs) |
-| sol@65471801 | 2023-02-18 |      | verify changes (Sethekk Halls) |
+| sol@65471801 | 2023-02-18 |      | verify changes (also see sol@be5ad1e6) (Sethekk Halls) |
 | sol@c2208318 | 2023-02-18 |      | verify changes (also see sol@43336a84, sol@c0253d91, sol@6ee42fcf, sol@d47e9383, sol@746aa5b4) (Sethekk Halls) |
 | sol@333de4c0 | 2023-02-18 |      | verify/rework SQL script (also see sol@62d8743d) (Sethekk Halls) |
 | sol@e8b76f26 | 2023-02-18 |      | verify changes (Opening the Dark Portal) |
@@ -179,7 +181,7 @@ TODOs: [common](TODO.md), low prio: [cosmetic](TODO_cosmetic.md), dungeon, [even
 | sol@5fb83d8d | 2023-01-31 |      | verify/rework SQL script (also see sol@2595e0c2) (Mana-Tombs) |
 | sol@0cccb7d9 | 2023-01-31 |      | verify/rework SQL script (Pit of Saron) |
 | sol@6ae8ffa8 | 2023-01-28 |      | verify changes (Gruul's Lair) |
-| sol@ae2e3a4e | 2023-01-28 |      | verify changes (also see sol@a10c183e, sol@e2942946, sol@5850079a, sol@fd169fbd, sol@09541e3b) (Magtheridon's Lair) |
+| sol@ae2e3a4e | 2023-01-28 |      | verify changes (also see sol@a10c183e, sol@e2942946, sol@5850079a, sol@fd169fbd, sol@09541e3b, sol@a8964a6e, sol@5aa44033) (Magtheridon's Lair) |
 | sol@131e69d6 | 2023-01-28 |      | should not exceed 250, choose another value (Temple of Ahn'Qiraj) |
 | sol@ff8374ac | 2023-01-25 |      | verify/rework SQL script (Escape from Durnholde Keep) |
 | sol@13aca320 | 2023-01-25 |      | verify/rework SQL script (Escape from Durnholde Keep) |
@@ -379,7 +381,7 @@ TODOs: [common](TODO.md), low prio: [cosmetic](TODO_cosmetic.md), dungeon, [even
 | sol@117a18c9 | 2022-06-16 |      | verify changes (also see sol@33fef6fb, sol@5cf7d3d1) (Zul'Gurub) |
 | sol@ee6ad8d7 | 2022-06-16 |      | verify changes (Molten Core) |
 | sol@830fd3f6 | 2022-06-14 |      | verify/rework SQL script (Zul'Gurub) |
-| sol@987d49f9 | 2022-06-14 |      | verify changes (Temple of Ahn'Qiraj) |
+| sol@987d49f9 | 2022-06-14 |      | verify changes (also see sol@e5f0f978) (Temple of Ahn'Qiraj) |
 | sol@f9368ed0 | 2022-06-14 |      | verify changes (also see sol@775172c5, sol@c1257b36) (Zul'Gurub) |
 | sol@d5221ae4 | 2022-06-14 |      | verify changes (also see sol@1078ad72) (Zul'Gurub) |
 | sol@21705d76 | 2022-06-14 |      | verify changes (also see sol@298b08c9) (Zul'Gurub) |

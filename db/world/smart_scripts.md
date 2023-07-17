@@ -1496,6 +1496,21 @@ This is the probability of the event to occur as a percentage from 0-100. So, if
 </p></td>
 <td>On creature spell channeling finished.</td>
 </tr>
+<tr>
+<td><p>SMART_EVENT_FLEE_FINISHED</p></td>
+<td><p>237</p></td>
+<td><p><br />
+</p></td>
+<td><p><br />
+</p></td>
+<td><p><br />
+</p></td>
+<td><p><br />
+</p></td>
+<td><p><br />
+</p></td>
+<td>On creature finishes fleeing (e.g. caused by spell, SMART_ACTION_FLEE_FOR_ASSIST or SMART_ACTION_FLEE).</td>
+</tr>
 </tbody>
 </table>
 
@@ -1906,11 +1921,9 @@ This is the probability of the event to occur as a percentage from 0-100. So, if
 <tr>
 <td><p>SMART_ACTION_FLEE_FOR_ASSIST</p></td>
 <td><p>25</p></td>
-<td><p>0/1 (If you want the fleeing NPC to say attempts to flee text on flee, use 1 on param1. For no message use 0.)</p></td>
-<td><p><br />
-</p></td>
-<td><p><br />
-</p></td>
+<td><p>talk (If you want the fleeing NPC to say "attempts to flee" text on flee, use 1 on param1. For no message use 0. If >1 subtract 2 and use the result as <a href="creature_text.md#groupid">creature_text.GroupID</a>.)</p></td>
+<td><p>radius (0: use default)</p></td>
+<td><p>call assist radius (0: use default)</p></td>
 <td><p><br />
 </p></td>
 <td><p><br />
