@@ -1921,7 +1921,7 @@ This is the probability of the event to occur as a percentage from 0-100. So, if
 <tr>
 <td><p>SMART_ACTION_FLEE_FOR_ASSIST</p></td>
 <td><p>25</p></td>
-<td><p>talk (If you want the fleeing NPC to say "attempts to flee" text on flee, use 1 on param1. For no message use 0. If >1 subtract 2 and use the result as <a href="creature_text.md#groupid">creature_text.GroupID</a>.)</p></td>
+<td><p>talk</p></td>
 <td><p>radius (0: use default)</p></td>
 <td><p>call assist radius (0: use default)</p></td>
 <td><p><br />
@@ -1930,7 +1930,7 @@ This is the probability of the event to occur as a percentage from 0-100. So, if
 </p></td>
 <td><p><br />
 </p></td>
-<td><p>If you want the fleeing NPC to say '%s attempts to run away in fear' on flee, use 1 on param1. 0 for no message.</p></td>
+<td><p>If you want the fleeing NPC to say '%s attempts to run away in fear', use 1 as "talk" parameter, 0 for no message. If >1 subtract 2 and use the result as <a href="creature_text.md#groupid">creature_text.GroupID</a>.</p></td>
 </tr>
 <tr>
 <td><p>SMART_ACTION_CALL_GROUPEVENTHAPPENS</p></td>
@@ -2897,17 +2897,15 @@ quickChange 1 forces the creature to quickly change its orientation (useful if t
 <td><p>SMART_ACTION_RANDOM_MOVE</p></td>
 <td><p>89</p></td>
 <td><p>Radius</p></td>
+<td><p>MinMoveTime</p></td>
+<td><p>MaxMoveTime</p></td>
 <td><p><br />
 </p></td>
 <td><p><br />
 </p></td>
 <td><p><br />
 </p></td>
-<td><p><br />
-</p></td>
-<td><p><br />
-</p></td>
-<td><p>Enables random movement for the targeted creatures using the specified radius. If radius is 0 disables random movement. The target will use walk speed if not explicitly overridden using SMART_ACTION_SET_RUN.</p></td>
+<td><p>Enables random movement for the targeted creatures using the specified radius. If radius is 0 disables random movement. The target will use walk speed if not explicitly overridden using SMART_ACTION_SET_RUN. If MinMoveTime is set and less than or equal MaxMoveTime the creature is forced to stop for the specified time at each random point.</p></td>
 </tr>
 <tr>
 <td><p>SMART_ACTION_SET_UNIT_FIELD_BYTES_1</p></td>

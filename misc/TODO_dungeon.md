@@ -2,6 +2,8 @@ TODOs: [common](TODO.md), low prio: [cosmetic](TODO_cosmetic.md), dungeon, [even
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@cc6454b2 | 2023-07-18 |      | verify changes (Karazhan) |
+| sol@89e7fb30 | 2023-07-18 |      | verify changes (Karazhan) |
 | sol@3860d273 | 2023-07-16 |      | verify changes (Karazhan) |
 | sol@5719ff45 | 2023-07-11 |      | verify/rework SQL script (also see sol@9b5933ac) (Gruul's Lair) |
 | sol@89959a19 | 2023-07-11 |      | verify/rework SQL script (Escape from Durnholde Keep, Mana-Tombs, Underbog, Slave Pens, Blood Furnace, Hellfire Ramparts) |
@@ -255,7 +257,7 @@ TODOs: [common](TODO.md), low prio: [cosmetic](TODO_cosmetic.md), dungeon, [even
 | sol@11cfcc84 | 2022-09-19 |      | verify changes (Temple of Ahn'Qiraj) |
 | sol@0f84e3ed | 2022-09-19 |      | verify changes (Lower Blackrock Spire) |
 | sol@23c3b184 | 2022-09-19 |      | verify changes (also see sol@b3e20ea7) (Temple of Ahn'Qiraj) |
-| sol@2682697d | 2022-09-17 |      | verify changes (also see sol@26017b64, sol@811ef478, sol@f5c7883d, sol@436d7afd, sol@6263a0a8, sol@33cba08f, sol@572a4325, sol@b35c907c, sol@77044670, sol@bfa68b08, sol@9d93a7e4, sol@6cb85d2f, sol@ff5983cb, sol@afebbb81, sol@42c4c293, sol@888f9bb0, sol@55957fbb, sol@608a80a0, sol@c08a5ba3, sol@1edd29f2) (Temple of Ahn'Qiraj) |
+| sol@2682697d | 2022-09-17 |      | verify changes (also see sol@26017b64, sol@811ef478, sol@f5c7883d, sol@436d7afd, sol@6263a0a8, sol@33cba08f, sol@572a4325, sol@b35c907c, sol@77044670, sol@bfa68b08, sol@9d93a7e4, sol@6cb85d2f, sol@ff5983cb, sol@afebbb81, sol@42c4c293, sol@888f9bb0, sol@55957fbb, sol@608a80a0, sol@c08a5ba3, sol@1edd29f2, sol@b55ebc18) (Temple of Ahn'Qiraj) |
 | sol@216d569e | 2022-09-14 |      | verify changes (Temple of Ahn'Qiraj) |
 | sol@59f74753 | 2022-09-14 |      | verify changes (Temple of Ahn'Qiraj) |
 | sol@a1f44f98 | 2022-09-14 |      | verify changes (Temple of Ahn'Qiraj) |

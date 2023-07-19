@@ -2,10 +2,11 @@ TODOs: common, low prio: [cosmetic](TODO_cosmetic.md), [dungeon](TODO_dungeon.md
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@08ed1fb4 | 2023-07-18 |      | only take over the spell update, not the creature script; use SAI instead (similar to creature ID 23258) |
 | sol@dbc39a28 | 2023-07-17 |      | won't take over; add new column "procFlags" to table "spell\_enchant\_proc\_data" and handle the same way as "spell\_proc\_event"; low prio (minor issue) |
 | sol@e18da096 | 2023-07-16 |      | verify/rework SQL script; low prio (minor issue) |
 | sol@9861eeec | 2023-07-15 |      | verify/rework SQL script; low prio (minor issue) |
-| sol@8c074256 | 2023-07-15 |      | wrong, won't take over; should have 18s internal cooldown; combine with sol@e5b28a07 |
+| sol@8c074256 | 2023-07-15 |      | wrong, won't take over; should have 18s internal cooldown; combine with sol@e5b28a07, sol@c6c2abf2, sol@710f3fe7, sol@9ccdb1dc, sol@1a967dc3, sol@75fc7a43 |
 | sol@eb3b5062 | 2023-07-15 |      | verify/rework SQL script |
 | sol@fb2e8527 | 2023-07-15 |      | won't take over, rework SAI instead (similar to other sand worms, see sol@9d9bc9d3) |
 | sol@1673915f | 2023-07-09 |      | verify changes |
