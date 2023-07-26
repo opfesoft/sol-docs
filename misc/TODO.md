@@ -47,8 +47,8 @@ TODOs: common, low prio: [cosmetic](TODO_cosmetic.md), [dungeon](TODO_dungeon.md
 | sol@abd29910c9db13b18655f6ce98e263fd596f4d94 | 2023-04-22 |      | verify/rework SQL script |
 | sol@7dc58cb159b78d74d00ae825d4f7e4b4806a5534 | 2023-04-22 | X    | verify/rework SQL script; update: won't take over, should only be available via fishing |
 | sol@790417b1b1fb000e2028aea5f1030c01e6e317fd | 2023-04-22 |      | verify changes; low prio (minor issue) |
-| sol@a22ed030f3780f7a7d0510dec7e926fe38cecdd2 | 2023-04-19 |      | verify/rework SQL script |
-| sol@9fe478e991b5a91a6052f408ec73a8e003436271 | 2023-04-19 |      | verify/rework SQL script |
+| sol@a22ed030f3780f7a7d0510dec7e926fe38cecdd2 | 2023-04-19 | X    | verify/rework SQL script; done: sol@e754fade97c4e4ece6a2a234d17c620c67d1aae7 |
+| sol@9fe478e991b5a91a6052f408ec73a8e003436271 | 2023-04-19 | X    | verify/rework SQL script; done: sol@c598ad8ae0c1d1e15597928d7fca36fb4e0adf12 |
 | sol@a71aaaf4d39150fdf4fd76a804cba80fd699a500 | 2023-04-19 | X    | verify/rework SQL script; done: sol@847bf6818aeb65f9e9e72ca26ee2710bcba369b4 |
 | sol@d7eca37a6fda30e1e80d38338ed1a03519e1284b | 2023-04-19 | X    | verify/rework SQL script; done: sol@745c41dbaf64b43c24c381e92f245ab7f44d7104 |
 | sol@7c157f6f06ecb6ea0c944462f35adfbfae6a4fb4 | 2023-04-19 | X    | verify/rework SQL script; done: sol@b605262f0bfca870004dca7d92ae3c6ec1ef041b |
