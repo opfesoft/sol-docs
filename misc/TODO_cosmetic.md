@@ -92,7 +92,7 @@ TODOs: [common](TODO.md), low prio: cosmetic, [dungeon](TODO_dungeon.md), [event
 | sol@c650cda4ea0456f2e73c0569ab0a949dc9c4ccfd | 2022-01-03 |      | verify/rework SQL script; won't delete the creatures (no reason to do this, probably create a pool), just check the WP paths |
 | sol@70743d4c5732eb3c402fcbf07bc18feb6ff88176 | 2022-01-03 |      | verify/rework SQL script; check the WP paths |
 | sol@f03b87f7e1a77af9eedef88507683d7406a91b87 | 2022-01-03 |      | verify/rework SQL script (also see sol@585f3f245cd0a0360bd510b5bfd9377fc5625779); won't take over the updated spawn points, just check the WP paths; use SAI instead of CreatureScript |
-| sol@e2b8175471899c8a8fcd0ef95c3fe0d97ea7150e | 2022-01-03 |      | verify/rework SQL script; check the WP paths |
+| sol@e2b8175471899c8a8fcd0ef95c3fe0d97ea7150e | 2022-01-03 |      | verify/rework SQL script (also see sol@a572369ed41f48193e1bc98ccb4243668cdeb2b6); check the WP paths |
 | sol@a8d93ad85d875fa86d70b1596fa329f3422d8fd4 | 2022-01-03 |      | verify/rework SQL script; check the WP paths; auras seem to be wrong, won't take over |
 | sol@1ef12abc375595f5942b5d63b8393fb77d5f3391 | 2022-01-03 |      | verify/rework SQL script; won't delete the creatures (no reason to do this, probably create a pool), just check the WP paths (note: this update is not imported into the AC DB because sql\_rev 1640126290282588522 already exists) |
 | sol@ec7c68314d6be96c25a45b75fd5eee6250692318 | 2021-12-31 |      | verify/rework SQL script; verify WP paths |
