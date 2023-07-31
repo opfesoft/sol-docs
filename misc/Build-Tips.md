@@ -77,32 +77,6 @@ Further information: http://jemalloc.net/
 
 New releases: https://github.com/jemalloc/jemalloc/releases
 
-## fmt installation
-
-Example for fmt 9.1.0, installation in "~/sol-srv/lib/fmt":
-
-- Get package:
-```
-curl -L 'https://github.com/fmtlib/fmt/releases/download/9.1.0/fmt-9.1.0.zip' >fmt-9.1.0.zip
-unzip fmt-9.1.0.zip
-```
-
-- Install (here gcc 13 is used):
-```
-export CC='gcc-13'
-export CXX='g++-13'
-cd fmt-9.1.0
-mkdir build
-cd build
-cmake .. --install-prefix=${HOME}/sol-srv/lib/fmt
-make -j $(($(nproc)+2))
-make install
-```
-
-Further information: https://fmt.dev/
-
-New releases: https://github.com/fmtlib/fmt/releases
-
 ## ACE installation
 
 Example for ACE 7.1.1, installation in "~/sol-srv/lib/ace":
