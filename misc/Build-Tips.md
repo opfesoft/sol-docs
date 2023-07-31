@@ -53,30 +53,6 @@ Further information: https://www.openssl.org/
 
 New releases: https://github.com/openssl/openssl/tags
 
-## Jemalloc installation
-
-Example for jemalloc 5.3.0, installation in "~/sol-srv/lib/jemalloc":
-
-- Get package:
-```
-curl -L 'https://github.com/jemalloc/jemalloc/releases/download/5.3.0/jemalloc-5.3.0.tar.bz2' >jemalloc-5.3.0.tar.bz2
-tar -xjf jemalloc-5.3.0.tar.bz2
-```
-
-- Install (here gcc 13 is used):
-```
-export CC='gcc-13'
-export CXX='g++-13'
-cd jemalloc-5.3.0
-./configure --prefix=${HOME}/sol-srv/lib/jemalloc
-make -j $(($(nproc)+2))
-make install
-```
-
-Further information: http://jemalloc.net/
-
-New releases: https://github.com/jemalloc/jemalloc/releases
-
 ## ACE installation
 
 Example for ACE 7.1.1, installation in "~/sol-srv/lib/ace":
