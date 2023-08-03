@@ -2,6 +2,8 @@ TODOs: common, low prio: [cosmetic](TODO_cosmetic.md), [dungeon](TODO_dungeon.md
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@52aa18f8bdf1b80b3f9ccf0c1dbc771e8936dee0 | 2023-07-30 |      | take over SMART\_ACTION\_PLAY\_SPELL\_VISUAL if needed |
+| sol@66daf97144311fb34c2e4b9e390040c3ecdcb0c3 | 2023-07-29 |      | verify changes |
 | sol@ca5d76567d430269f195479500c229b6620eb316 | 2023-07-27 |      | wrong, won't take over, fix SAI instead (cast Backstab if behind target) |
 | sol@cfa41d5f3933e9a5a0ba1aff8ec54846559510a2 | 2023-07-27 |      | verify/rework SQL script |
 | sol@e1f869e75648835f9544add97a3781283601a685 | 2023-07-27 |      | won't take over, use SAI instead (set active, enable random movement, force despawn after 3 min.) |
@@ -38,10 +40,10 @@ TODOs: common, low prio: [cosmetic](TODO_cosmetic.md), [dungeon](TODO_dungeon.md
 | sol@692da9055ad257214f73b245d92a2b9440b9b2de | 2023-05-13 |      | verify/rework SQL script |
 | sol@dfa5da00b1253a944884d86796577dddcc799255 | 2023-05-13 | X    | won't take over, fix duration of spell 18097 instead; done: sol@42b1b6746e7a5dccc44fd170002f52cdf435ebaf |
 | sol@2745a98ed1003da9141b93608cc57c249b5bb30a | 2023-05-13 | X    | verify changes; update: wrong, won't take over |
-| sol@3aedf2fbf8b12a1e14d79d8236f5f8cd6f9bfb0d | 2023-05-10 |      | verify/rework SQL script & spell changes |
-| sol@4e39626fede3e5058c1ed74126274ed4e4a8310e | 2023-05-10 |      | verify/rework SQL script |
-| sol@a957445ba84273c5330286f7fc3d1f5c9e1290d7 | 2023-05-03 |      | verify/rework SQL script |
-| sol@7af40c8dbeb76856c6d8cc1a423fc700fcee16bd | 2023-04-29 |      | verify/rework SQL script (also see sol@a07467d65f8e6b3988ebad6c19ca35dea292fa38); compare with latest TC DB |
+| sol@3aedf2fbf8b12a1e14d79d8236f5f8cd6f9bfb0d | 2023-05-10 | X    | verify/rework SQL script & spell changes; done: sol@2212d5479a192e81accf3734e8cd099eb0c9b8b7 |
+| sol@4e39626fede3e5058c1ed74126274ed4e4a8310e | 2023-05-10 | X    | verify/rework SQL script; done: sol@022444fb06b867ddada60f8931269fd5eee86757 |
+| sol@a957445ba84273c5330286f7fc3d1f5c9e1290d7 | 2023-05-03 | X    | verify/rework SQL script; done: sol@335ef0fd44bef9c912772bf7a1120a85c7b65a33 |
+| sol@7af40c8dbeb76856c6d8cc1a423fc700fcee16bd | 2023-04-29 | X    | verify/rework SQL script (also see sol@a07467d65f8e6b3988ebad6c19ca35dea292fa38); compare with latest TC DB; done: sol@e842871f5c010a38668ecd85f1a4b44851601a87 |
 | sol@a238e5e27bfa7b0fd2f6aab19d0722c61eaf81c5 | 2023-04-29 |      | won't take over, could cause bugs (also see sol@3dbdea5e2853399d9b62989a279e562ce966cdd4, sol@d282cce4af69110fa035954b3c81258a1e560b5e); find another solution; low prio (minor issue); update: reverted by AC commit sol@64c7c99bda36e503c8057dd4d8802082202d6844 |
 | sol@76e58206e0594026a00643990597c10bbf8400c3 | 2023-04-23 |      | keep as reference; take over single values if needed; won't blindly take over such mass updates (don't care about sniffs) |
 | sol@e387c07fdb2287dbd8b9e716c2ed262945b36184 | 2023-04-23 |      | keep as reference; take over single values if needed; won't blindly take over such mass updates (don't care about sniffs) |
@@ -371,7 +373,7 @@ TODOs: common, low prio: [cosmetic](TODO_cosmetic.md), [dungeon](TODO_dungeon.md
 | sol@cf5dae9d981515a5044fefbe60c64bb9cbcd5f72 | 2022-02-11 | X    | verify/rework SQL script; update: not needed as this is actually a quest greeting (see sol@b5a8944d6585f7e0d0459ff89e7b7e08e8ab7f94) |
 | sol@bffe8381636deca19f85d2ff8755b2fd95f1ef0c | 2022-02-10 | X    | won't take over, rework creature script instead; done: sol@915932d2c5d4fe0d642665f00e3eb24cd168209d |
 | sol@0fa4a90aa8f07919989fdc15b638e99237fd6c2d | 2022-02-10 | X    | won't take over, just fix the logic error concerning "Aura of Despair"; done: sol@9749f2e0f66b97633364a9e8cb50c0b262481682 |
-| sol@520f0c6a502da2f3165471acc5e3976530b9efa1 | 2022-02-10 |      | verify/rework scripts (also see sol@e1711e28f79ea7c00968ac486a5207d9b252c232, sol@25c824e8d848774f377ac11e45743d3ad5779ca1, sol@9a67c0f0b0a54910eebd98c7d9fe3517a8802b42, sol@33b01834404c51ce74e2b47c7d3a9e2710af396e, sol@cb7f3d50edbf20f95d5aa2191648d90aa10e53db, sol@47e0c0d88bdf69288ba38dcee074fa51f0760a72, sol@c40fa6509d1e19c5d1fb3e51e45d08520070216d, sol@ad417a056452654a1fcc3eb19cc8d53412766474); check the WP paths; low prio (World Boss) |
+| sol@520f0c6a502da2f3165471acc5e3976530b9efa1 | 2022-02-10 |      | verify/rework scripts (also see sol@e1711e28f79ea7c00968ac486a5207d9b252c232, sol@25c824e8d848774f377ac11e45743d3ad5779ca1, sol@9a67c0f0b0a54910eebd98c7d9fe3517a8802b42, sol@33b01834404c51ce74e2b47c7d3a9e2710af396e, sol@cb7f3d50edbf20f95d5aa2191648d90aa10e53db, sol@47e0c0d88bdf69288ba38dcee074fa51f0760a72, sol@c40fa6509d1e19c5d1fb3e51e45d08520070216d, sol@ad417a056452654a1fcc3eb19cc8d53412766474, sol@d4e97a25f42dde4f76515eb7304be6acda4ecfc3); check the WP paths; low prio (World Boss) |
 | sol@336967b324ae7c8b25f50fa391069604479a24fb | 2022-02-09 | X    | won't take over, just fix the logic error concerning spell 28845 in Unit::HandleProcTriggerSpell; done: sol@44ee29b4ed6bb96ac3f83f1a8e890cd0b1209d73 |
 | sol@4d4e7e6841b47ff673e1e4d0640b240c28b875b5 | 2022-02-04 | X    | verify/rework SQL script; done: sol@29f192dc954d088f40e465fadccc0612c6c21da9 |
 | sol@1c6660c1bc3debf2c7133044d794002ff1c81fca | 2022-02-04 | X    | verify/rework SQL script; done: sol@6eeeb38b788ee8df780f4ff0dfb4559b91cead81 |
