@@ -31,13 +31,13 @@ TODOs: common, low prio: [cosmetic](TODO_cosmetic.md), [dungeon](TODO_dungeon.md
 | sol@b5ef9ee3de14980877493a34b1dbec61a7027d3d | 2023-05-29 |      | won't take over, use SAI instead |
 | sol@30f475829a831230e4308e40eac62c712819250e | 2023-05-24 |      | verify changes; low prio (minor issue) |
 | sol@d059babed81cf684290a566351d12fd57397bd55 | 2023-05-15 |      | verify/rework SQL script |
-| sol@5f7e817ca6c50cb83112cdaa00fc53db98a8f8d5 | 2023-05-14 |      | verify/rework SQL script |
-| sol@0ff2b6e69093d35ccaa901a007b43118eeb5e0dc | 2023-05-14 |      | verify/rework SQL script |
-| sol@7e99adcb31701f337b6e7a7786b847ddb62ea493 | 2023-05-14 |      | verify/rework SQL script |
-| sol@cdfaffc1e06d7dd00adb80f867589bd26aa4c741 | 2023-05-14 |      | verify/rework SQL script |
-| sol@3cf170a5ff763059bb4a5ad386abd1cf0f00a15a | 2023-05-14 |      | verify/rework SQL script |
-| sol@3ae80f3db4d5407765c6377b79ce16e28f7ac2f3 | 2023-05-14 |      | verify/rework SQL script |
-| sol@692da9055ad257214f73b245d92a2b9440b9b2de | 2023-05-13 |      | verify/rework SQL script |
+| sol@5f7e817ca6c50cb83112cdaa00fc53db98a8f8d5 | 2023-05-14 | X    | verify/rework SQL script; done: sol@2388f28a7fb60597ac8735b2dd34f529fae41e89 |
+| sol@0ff2b6e69093d35ccaa901a007b43118eeb5e0dc | 2023-05-14 | X    | verify/rework SQL script; done: sol@a549a2efcc2622175c262bcb9bd0cf8714061e25 |
+| sol@7e99adcb31701f337b6e7a7786b847ddb62ea493 | 2023-05-14 | X    | verify/rework SQL script; done: sol@aa6f8df8d91670cfc1f55e5c918433e4770d39a7 |
+| sol@cdfaffc1e06d7dd00adb80f867589bd26aa4c741 | 2023-05-14 | X    | verify/rework SQL script; done: sol@81989ad8af86e13ec3b4625991202c57e66c4f17 |
+| sol@3cf170a5ff763059bb4a5ad386abd1cf0f00a15a | 2023-05-14 | X    | verify/rework SQL script; done: sol@b92a9697711b8cbee34fc947c288a0430d10d2ac |
+| sol@3ae80f3db4d5407765c6377b79ce16e28f7ac2f3 | 2023-05-14 | X    | verify/rework SQL script; update: won't take over, part of Scourge Invasion |
+| sol@692da9055ad257214f73b245d92a2b9440b9b2de | 2023-05-13 | X    | verify/rework SQL script; done: sol@2719042816df0c4c277fa2f11094ee176f9b9605 |
 | sol@dfa5da00b1253a944884d86796577dddcc799255 | 2023-05-13 | X    | won't take over, fix duration of spell 18097 instead; done: sol@42b1b6746e7a5dccc44fd170002f52cdf435ebaf |
 | sol@2745a98ed1003da9141b93608cc57c249b5bb30a | 2023-05-13 | X    | verify changes; update: wrong, won't take over |
 | sol@3aedf2fbf8b12a1e14d79d8236f5f8cd6f9bfb0d | 2023-05-10 | X    | verify/rework SQL script & spell changes; done: sol@2212d5479a192e81accf3734e8cd099eb0c9b8b7 |

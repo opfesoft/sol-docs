@@ -2,6 +2,7 @@ TODOs: [common](TODO.md), low prio: [cosmetic](TODO_cosmetic.md), dungeon, [even
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@ac8d0b2f652a4e583aa4dd15d34f16465f8c2450 | 2023-08-03 |      | verify/rework SQL script (Karazhan) |
 | sol@69ce84d4bcdc25e6debb06c3d30a1beac6af3e25 | 2023-08-02 |      | verify/rework SQL script (Karazhan) |
 | sol@98ed01b9fe8965e62840cb1e820cf4d122937cd3 | 2023-07-27 |      | verify/rework SQL script (Karazhan) |
 | sol@90e23cbc66701ac9c163041927e6f6e17f2c72f2 | 2023-07-27 |      | verify changes (Battle for Mount Hyjal) |
