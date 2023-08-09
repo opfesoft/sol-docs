@@ -31,11 +31,11 @@ TODOs: common, low prio: [cosmetic](TODO_cosmetic.md), [dungeon](TODO_dungeon.md
 | sol@7c5bcecf581d3820055e1b0399ba5979038c4487 | 2023-06-23 | X    | verify/rework SQL script; update: wrong, won't take over; the creatures are part of a creature formation |
 | sol@9a854e8da182efe5bb28b32b6c0ed9046bc32285 | 2023-06-21 |      | verify/rework SQL script |
 | sol@2176435938328d3f366c98994fed55c0c3b857fb | 2023-06-09 | X    | wrong, won't take over; set duration index 36 for spell 13139 instead; done: sol@e8eabe0a2372890a52a46ef12d3e5800ceed2392 |
-| sol@0b926d00e33c12da865f3ba1a2d390cc314b1c24 | 2023-06-02 |      | keep current position, but enable random movement; add a spawn for the new position and create a pool |
-| sol@c8ab8f00e7a5580114068a8b148521c79db951a0 | 2023-06-02 |      | verify/rework SQL script |
-| sol@7d2513c9d8bef98c44d86a9693fd6dde3708be36 | 2023-06-02 |      | verify/rework SQL script |
-| sol@369ee4beaf6f200c2af3a646fab265a1663cc8da | 2023-06-02 |      | verify/rework SQL script |
-| sol@a2abc79cdf9872fb2c99add94e40faa7f6ab4bc3 | 2023-06-02 |      | verify/rework SQL script |
+| sol@0b926d00e33c12da865f3ba1a2d390cc314b1c24 | 2023-06-02 | X    | keep current position, but enable random movement; add a spawn for the new position and create a pool; sol@89f9832237c2c3b41edf1929dfd07b96ba286791 |
+| sol@c8ab8f00e7a5580114068a8b148521c79db951a0 | 2023-06-02 | X    | verify/rework SQL script; done: sol@7ffacd862b0ae3b7cefd939ff629789e80eb0cbc |
+| sol@7d2513c9d8bef98c44d86a9693fd6dde3708be36 | 2023-06-02 | X    | verify/rework SQL script; done: sol@226c5fe0d4df4679d53c360afc89e8c4eb05ab2e |
+| sol@369ee4beaf6f200c2af3a646fab265a1663cc8da | 2023-06-02 | X    | verify/rework SQL script; done: sol@2db5a46ef12eedefe698ddb6a577e47508f78b45 |
+| sol@a2abc79cdf9872fb2c99add94e40faa7f6ab4bc3 | 2023-06-02 | X    | verify/rework SQL script; done: sol@abab7366e18853c444f4f8768646e28b25682a8b |
 | sol@b5ef9ee3de14980877493a34b1dbec61a7027d3d | 2023-05-29 | X    | won't take over, use SAI instead; done: sol@b6ca0c992d7c093aa028c4efaffe65d28ee356b7 |
 | sol@30f475829a831230e4308e40eac62c712819250e | 2023-05-24 |      | verify changes; low prio (minor issue) |
 | sol@d059babed81cf684290a566351d12fd57397bd55 | 2023-05-15 | X    | verify/rework SQL script; done: sol@8d36ab5a3e0452a1e7ac1425ffda8cbb29e61f6f |
