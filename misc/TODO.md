@@ -2,6 +2,9 @@ TODOs: common, low prio: [cosmetic](TODO_cosmetic.md), [dungeon](TODO_dungeon.md
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@b1e8eda0b02de2483a3d3cc4a76dc447dc97ffb6 | 2023-08-12 |      | verify/rework SQL script |
+| sol@c256d8da55214dac7610e7abea8023e9747a3f70 | 2023-08-11 |      | won't take over, use SMART\_EVENT\_CHANNEL\_FINISHED instead |
+| sol@1f3282368201265bfd09ac24c2d316f8c9c345b0 | 2023-08-11 |      | verify/rework SQL script |
 | sol@0276b141a84487a0d9ee57c2b9f82541b666c566 | 2023-08-06 |      | take over if needed |
 | sol@e08ceb3d8d96e75458d53a5dd00e0018bb25a096 | 2023-08-06 |      | verify changes |
 | sol@c803455071882648f9f183d780b822635f56d723 | 2023-08-06 |      | verify/rework SQL script |
@@ -20,16 +23,16 @@ TODOs: common, low prio: [cosmetic](TODO_cosmetic.md), [dungeon](TODO_dungeon.md
 | sol@dbc39a28172deeff284a8e2aa7eab33bf37411cb | 2023-07-17 |      | won't take over; add new column "procFlags" to table "spell\_enchant\_proc\_data" and handle the same way as "spell\_proc\_event"; low prio (minor issue) |
 | sol@e18da09612bedd24cb6ebfd84170a89181d2f9ea | 2023-07-16 |      | verify/rework SQL script; low prio (minor issue) |
 | sol@9861eeec86699d90879b8d59b89d0f2681041e79 | 2023-07-15 |      | verify/rework SQL script; low prio (minor issue) |
-| sol@8c0742568d034ef330a8f1577aad967bb0681e6a | 2023-07-15 |      | wrong, won't take over; should have 18s internal cooldown; combine with sol@e5b28a07a70cd5b8b49354aaae4f543cee72f79c, sol@c6c2abf20ba185e72311542b2b47d50832342372, sol@710f3fe7b12c29be2acec5ec5dd549d793c68b8d, sol@9ccdb1dcdf737ebdf6af601e0b08498ea61d86ea, sol@1a967dc3da4a30b80cce201206bf2c582dd80ed3, sol@75fc7a437f59babe641a8161b69e4efb8208acb5, sol@f35708f0714b9e78d5a29491ebcb7ed43eab0509, sol@1501c7d3574d435af1618b7ef0d5aac44929fc04, sol@bd4ed57291eee21e00909e110867f1a4b7865d39 |
+| sol@8c0742568d034ef330a8f1577aad967bb0681e6a | 2023-07-15 | X    | wrong, won't take over; should have 18s internal cooldown; combine with sol@e5b28a07a70cd5b8b49354aaae4f543cee72f79c, sol@c6c2abf20ba185e72311542b2b47d50832342372, sol@710f3fe7b12c29be2acec5ec5dd549d793c68b8d, sol@9ccdb1dcdf737ebdf6af601e0b08498ea61d86ea, sol@1a967dc3da4a30b80cce201206bf2c582dd80ed3, sol@75fc7a437f59babe641a8161b69e4efb8208acb5, sol@f35708f0714b9e78d5a29491ebcb7ed43eab0509, sol@1501c7d3574d435af1618b7ef0d5aac44929fc04, sol@bd4ed57291eee21e00909e110867f1a4b7865d39; done: sol@db7b68c1f8feee248ed7a73d55e497da4e8a7171 |
 | sol@eb3b506274af398e7f84751b442d4690d67fdba5 | 2023-07-15 |      | verify/rework SQL script |
-| sol@fb2e8527f38105b3cf93843ada1b61a4b0a381d7 | 2023-07-15 |      | won't take over, rework SAI instead (similar to other sand worms, see sol@9d9bc9d3cb5127451864b750dc5d9426e1c75099) |
-| sol@1673915f96a3a70cd8558b800512ed787064495a | 2023-07-09 |      | verify changes |
-| sol@02f44539c0845c71e0a7b6d8f157d1ba9991f391 | 2023-07-08 |      | verify/rework SQL script |
-| sol@c4d94c80f38a162a783dda62708afaad71a820d6 | 2023-07-08 |      | verify/rework SQL script |
+| sol@fb2e8527f38105b3cf93843ada1b61a4b0a381d7 | 2023-07-15 | X    | won't take over, rework SAI instead (similar to other sand worms, see sol@9d9bc9d3cb5127451864b750dc5d9426e1c75099); done: sol@a0ece00368631683411efea89e620ee69f5d04b0 |
+| sol@1673915f96a3a70cd8558b800512ed787064495a | 2023-07-09 | X    | verify changes; done: sol@f69284adb122176b46cca5fd90bbb984d52fe772 |
+| sol@02f44539c0845c71e0a7b6d8f157d1ba9991f391 | 2023-07-08 | X    | verify/rework SQL script; done: sol@751ce6fe204522436a532db892789a03fd64605a |
+| sol@c4d94c80f38a162a783dda62708afaad71a820d6 | 2023-07-08 | X    | verify/rework SQL script; done: sol@8e2fb2c0ec4c1c7caf837d27a63feca430da5e08 |
 | sol@54f8386d99db2686968b2a893c39fd8f226bbd1f | 2023-07-02 |      | take over if needed (also see sol@6a410efa3622ee522cacfb68a26c3d56d1604605, sol@9d7e4721607828ad18bb9bfe190c669d3ec1d935, sol@893a9beeacc4554f9ac85755b40520a9b8e6d411) |
 | sol@7ec04d1408f47f3ed7c6f1e899350bd69d29d284 | 2023-06-27 |      | take over if needed |
 | sol@7c5bcecf581d3820055e1b0399ba5979038c4487 | 2023-06-23 | X    | verify/rework SQL script; update: wrong, won't take over; the creatures are part of a creature formation |
-| sol@9a854e8da182efe5bb28b32b6c0ed9046bc32285 | 2023-06-21 |      | verify/rework SQL script |
+| sol@9a854e8da182efe5bb28b32b6c0ed9046bc32285 | 2023-06-21 | X    | verify/rework SQL script; done: sol@ce35303b9cada2baaffc1cda58b0c2774d930fe9 |
 | sol@2176435938328d3f366c98994fed55c0c3b857fb | 2023-06-09 | X    | wrong, won't take over; set duration index 36 for spell 13139 instead; done: sol@e8eabe0a2372890a52a46ef12d3e5800ceed2392 |
 | sol@0b926d00e33c12da865f3ba1a2d390cc314b1c24 | 2023-06-02 | X    | keep current position, but enable random movement; add a spawn for the new position and create a pool; sol@89f9832237c2c3b41edf1929dfd07b96ba286791 |
 | sol@c8ab8f00e7a5580114068a8b148521c79db951a0 | 2023-06-02 | X    | verify/rework SQL script; done: sol@7ffacd862b0ae3b7cefd939ff629789e80eb0cbc |
