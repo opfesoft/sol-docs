@@ -19,12 +19,12 @@ TODOs: common, low prio: [cosmetic](TODO_cosmetic.md), [dungeon](TODO_dungeon.md
 | sol@cfa41d5f3933e9a5a0ba1aff8ec54846559510a2 | 2023-07-27 |      | verify/rework SQL script |
 | sol@e1f869e75648835f9544add97a3781283601a685 | 2023-07-27 |      | won't take over, use SAI instead (set active, enable random movement, force despawn after 3 min.) |
 | sol@076534852bbac37fce40e6e5cf46f021abbf034e | 2023-07-22 |      | verify/rework SQL script |
-| sol@08ed1fb47a21b21a986e3602550150fdc9940439 | 2023-07-18 |      | only take over the spell update, not the creature script; use SAI instead (similar to creature ID 23258) |
+| sol@08ed1fb47a21b21a986e3602550150fdc9940439 | 2023-07-18 | X    | only take over the spell update, not the creature script; use SAI instead (similar to creature ID 23258); done: sol@587af1de8015306034354740ad9452349864a630 |
 | sol@dbc39a28172deeff284a8e2aa7eab33bf37411cb | 2023-07-17 |      | won't take over; add new column "procFlags" to table "spell\_enchant\_proc\_data" and handle the same way as "spell\_proc\_event"; low prio (minor issue) |
 | sol@e18da09612bedd24cb6ebfd84170a89181d2f9ea | 2023-07-16 |      | verify/rework SQL script; low prio (minor issue) |
 | sol@9861eeec86699d90879b8d59b89d0f2681041e79 | 2023-07-15 |      | verify/rework SQL script; low prio (minor issue) |
 | sol@8c0742568d034ef330a8f1577aad967bb0681e6a | 2023-07-15 | X    | wrong, won't take over; should have 18s internal cooldown; combine with sol@e5b28a07a70cd5b8b49354aaae4f543cee72f79c, sol@c6c2abf20ba185e72311542b2b47d50832342372, sol@710f3fe7b12c29be2acec5ec5dd549d793c68b8d, sol@9ccdb1dcdf737ebdf6af601e0b08498ea61d86ea, sol@1a967dc3da4a30b80cce201206bf2c582dd80ed3, sol@75fc7a437f59babe641a8161b69e4efb8208acb5, sol@f35708f0714b9e78d5a29491ebcb7ed43eab0509, sol@1501c7d3574d435af1618b7ef0d5aac44929fc04, sol@bd4ed57291eee21e00909e110867f1a4b7865d39; done: sol@db7b68c1f8feee248ed7a73d55e497da4e8a7171 |
-| sol@eb3b506274af398e7f84751b442d4690d67fdba5 | 2023-07-15 |      | verify/rework SQL script |
+| sol@eb3b506274af398e7f84751b442d4690d67fdba5 | 2023-07-15 | X    | verify/rework SQL script; done: sol@7643fdf7fb75ef5ddd872680aa6d8211aa34eb32 |
 | sol@fb2e8527f38105b3cf93843ada1b61a4b0a381d7 | 2023-07-15 | X    | won't take over, rework SAI instead (similar to other sand worms, see sol@9d9bc9d3cb5127451864b750dc5d9426e1c75099); done: sol@a0ece00368631683411efea89e620ee69f5d04b0 |
 | sol@1673915f96a3a70cd8558b800512ed787064495a | 2023-07-09 | X    | verify changes; done: sol@f69284adb122176b46cca5fd90bbb984d52fe772 |
 | sol@02f44539c0845c71e0a7b6d8f157d1ba9991f391 | 2023-07-08 | X    | verify/rework SQL script; done: sol@751ce6fe204522436a532db892789a03fd64605a |

@@ -3024,7 +3024,7 @@ quickChange 1 forces the creature to quickly change its orientation (useful if t
 <tr>
 <td><p>SMART_ACTION_JUMP_TO_POS</p></td>
 <td><p>97</p></td>
-<td><p>Speed XY</p></td>
+<td><p>Speed XY (if 0 calculate automatically)</p></td>
 <td><p>Speed Z</p></td>
 <td><p>selfJump (0/1)</p></td>
 <td><p><br />
