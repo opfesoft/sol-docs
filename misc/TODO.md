@@ -2,6 +2,8 @@ TODOs: common, low prio: [cosmetic](TODO_cosmetic.md), [dungeon](TODO_dungeon.md
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@6c049fcaa3a55f595f5cd006efa644659a752c0b | 2023-08-19 |      | verify/rework SQL script |
+| sol@edc92b42822cbb33cf283011588647cf36474585 | 2023-08-19 |      | only take over condition; use spell\_scripts |
 | sol@b1e8eda0b02de2483a3d3cc4a76dc447dc97ffb6 | 2023-08-12 |      | verify/rework SQL script |
 | sol@c256d8da55214dac7610e7abea8023e9747a3f70 | 2023-08-11 |      | won't take over, use SMART\_EVENT\_CHANNEL\_FINISHED instead |
 | sol@1f3282368201265bfd09ac24c2d316f8c9c345b0 | 2023-08-11 |      | verify/rework SQL script |
@@ -15,10 +17,10 @@ TODOs: common, low prio: [cosmetic](TODO_cosmetic.md), [dungeon](TODO_dungeon.md
 | sol@e8507435ffb4fb53694bc39b29c7a8ada80f6458 | 2023-08-06 |      | verify/rework SQL script |
 | sol@52aa18f8bdf1b80b3f9ccf0c1dbc771e8936dee0 | 2023-07-30 |      | take over SMART\_ACTION\_PLAY\_SPELL\_VISUAL if needed |
 | sol@66daf97144311fb34c2e4b9e390040c3ecdcb0c3 | 2023-07-29 |      | verify changes |
-| sol@ca5d76567d430269f195479500c229b6620eb316 | 2023-07-27 |      | wrong, won't take over, fix SAI instead (cast Backstab if behind target) |
-| sol@cfa41d5f3933e9a5a0ba1aff8ec54846559510a2 | 2023-07-27 |      | verify/rework SQL script |
-| sol@e1f869e75648835f9544add97a3781283601a685 | 2023-07-27 |      | won't take over, use SAI instead (set active, enable random movement, force despawn after 3 min.) |
-| sol@076534852bbac37fce40e6e5cf46f021abbf034e | 2023-07-22 |      | verify/rework SQL script |
+| sol@ca5d76567d430269f195479500c229b6620eb316 | 2023-07-27 | X    | wrong, won't take over, fix SAI instead (cast Backstab if behind target); done: sol@bcf237ca73fc92a233fd5e160046d8f12a8f872e |
+| sol@cfa41d5f3933e9a5a0ba1aff8ec54846559510a2 | 2023-07-27 | X    | verify/rework SQL script; done: sol@4da6fba320c4a968df8e0ce8a85a100c6fe8a19b |
+| sol@e1f869e75648835f9544add97a3781283601a685 | 2023-07-27 | X    | won't take over, use SAI instead (set active, enable random movement, force despawn after 3 min.); done: sol@54254c33028c082ae18797c04352df84eb756a84 |
+| sol@076534852bbac37fce40e6e5cf46f021abbf034e | 2023-07-22 | X    | verify/rework SQL script; done: sol@a47f319147a66a6dbf21045d3484f92d2c0924db |
 | sol@08ed1fb47a21b21a986e3602550150fdc9940439 | 2023-07-18 | X    | only take over the spell update, not the creature script; use SAI instead (similar to creature ID 23258); done: sol@587af1de8015306034354740ad9452349864a630 |
 | sol@dbc39a28172deeff284a8e2aa7eab33bf37411cb | 2023-07-17 |      | won't take over; add new column "procFlags" to table "spell\_enchant\_proc\_data" and handle the same way as "spell\_proc\_event"; low prio (minor issue) |
 | sol@e18da09612bedd24cb6ebfd84170a89181d2f9ea | 2023-07-16 |      | verify/rework SQL script; low prio (minor issue) |
