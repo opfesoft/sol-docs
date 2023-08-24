@@ -2,6 +2,7 @@ TODOs: [common](TODO.md), low prio: [cosmetic](TODO_cosmetic.md), dungeon, [even
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@80a8f6d47a8a48869de197ed95c23b80c0999476 | 2023-08-20 |      | verify changes (Escape from Durnholde Keep) |
 | sol@4b844980bade32b619f3b753caa7f9f75aa036eb | 2023-08-14 |      | verify/rework SQL script (Karazhan) |
 | sol@7d4cbb11782037357ebf6dafcbb64393dcdba707 | 2023-08-14 |      | verify/rework SQL script (Stratholme) |
 | sol@b643b2cc0efa515a483c45086f0b104620dd437e | 2023-08-13 |      | verify/rework SQL script (Karazhan) |
@@ -82,7 +83,7 @@ TODOs: [common](TODO.md), low prio: [cosmetic](TODO_cosmetic.md), dungeon, [even
 | sol@d851e79a9044fdc2be8b6b235db1a6169d358303 | 2023-04-06 |      | verify changes (also see sol@5dcea531b5fb00c6364686bb771e23a4a9fd54db, sol@af1e878fcc9920b42684f2c308516fcfd673a115, sol@ca2d9cb1b02f87e99c405dcdd4c70056c5076492, sol@ace0cee18cb3f6c955f2b3f8dfc2031c790da3ea, sol@ef46c6c370245503a568b7a01065170ac07e25dc, sol@2e98e7c42aa406cde4bd7012d4660d82f814d256, sol@0fb492828510291228f46c06a5194a250bcf33d7, sol@a62143e540987dcb32ca83516ef9aaa157eb14b7, sol@b17e29fbdd20c5922ec7f13ff8ef5b81ddebfcd1) (Shadow Labyrinth) |
 | sol@57874f9d40474e06ba45fdc08a89a534a9eaca73 | 2023-04-06 |      | verify changes (also see sol@78384368ba57c78732cd043f3c96c9a8415dde92, sol@f8cb2ada20a43ac101158489531615b73e641e36) (Steamvault) |
 | sol@86a45372fd753e8984cae8df11f7fefac76365da | 2023-04-05 |      | verify/rework SQL script (Dire Maul) |
-| sol@328405e4a7bbf11ea6a905c7719a51c36f4833f5 | 2023-04-05 |      | verify changes (also see sol@34eafefb6fb28142aa6adb21b6b9d99e7a8af313) (Arcatraz) |
+| sol@328405e4a7bbf11ea6a905c7719a51c36f4833f5 | 2023-04-05 |      | verify changes (also see sol@34eafefb6fb28142aa6adb21b6b9d99e7a8af313, sol@f24fb955754a72a70169cda2ae03a80c3a428ef0) (Arcatraz) |
 | sol@331e61649d42e8c8062a3bd96aa71d6f5f076c49 | 2023-04-04 |      | verify/rework SQL script (Steamvault) |
 | sol@ce066a478133854cdd23522d10e9eafca748e80e | 2023-04-04 |      | verify changes (Slave Pens) |
 | sol@37374bbfe9bf57ca74a882a9bfd303d35d0d31e4 | 2023-04-04 |      | verify/rework SQL script (Steamvault, Shadow Labyrinth) |
