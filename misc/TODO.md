@@ -2,6 +2,8 @@ TODOs: common, low prio: [cosmetic](TODO_cosmetic.md), [dungeon](TODO_dungeon.md
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@122b7a8eb01e94d58b0a189479f2b2aeb4d7f0db | 2023-08-25 |      | won't take over, just relocate a few mobs to reduce the group size; also enable random movement and take over the WP path for GUID 43911 and add a new one for GUID 43910 |
+| sol@1702287967bae4b7d4ec2a644aaf82b64102bce9 | 2023-08-24 |      | verify/rework SQL script |
 | sol@59db3b40ebb8b1cc6bf8b6c8b4cae32403c61bfe | 2023-08-23 |      | verify/rework SQL script |
 | sol@e42f43784c8a267700426a8a48584729d23e9a0a | 2023-08-22 |      | take over if needed |
 | sol@6c049fcaa3a55f595f5cd006efa644659a752c0b | 2023-08-19 |      | verify/rework SQL script |
@@ -11,12 +13,12 @@ TODOs: common, low prio: [cosmetic](TODO_cosmetic.md), [dungeon](TODO_dungeon.md
 | sol@1f3282368201265bfd09ac24c2d316f8c9c345b0 | 2023-08-11 |      | verify/rework SQL script |
 | sol@0276b141a84487a0d9ee57c2b9f82541b666c566 | 2023-08-06 |      | take over if needed |
 | sol@e08ceb3d8d96e75458d53a5dd00e0018bb25a096 | 2023-08-06 | X    | verify changes; done: sol@69012b2897ec8736f71fe57a0bf30b3f1302539e |
-| sol@c803455071882648f9f183d780b822635f56d723 | 2023-08-06 |      | verify/rework SQL script |
+| sol@c803455071882648f9f183d780b822635f56d723 | 2023-08-06 | X    | verify/rework SQL script; done: sol@5ef54c2cb4132754bbb5cb15d848b9e1f257744a |
 | sol@c50c818cfdb6ae32ec58feb50b72a50a1ff19869 | 2023-08-06 |      | verify/rework SQL script |
 | sol@23a420acbb7c250da9d56f9e2baed0b8dc22ae4f | 2023-08-06 |      | won't take over, use SAI instead |
-| sol@c3c6ce9d7a19817c8a5cb6aec9d65714fa76682f | 2023-08-06 |      | verify changes |
+| sol@c3c6ce9d7a19817c8a5cb6aec9d65714fa76682f | 2023-08-06 | X    | verify changes; done: sol@548de1a1311cb085fe1263cb34512a3cd645537c |
 | sol@c3acf75618d74852300fef6c5e193ac130eca0bf | 2023-08-06 |      | take over if needed |
-| sol@e8507435ffb4fb53694bc39b29c7a8ada80f6458 | 2023-08-06 |      | verify/rework SQL script |
+| sol@e8507435ffb4fb53694bc39b29c7a8ada80f6458 | 2023-08-06 | X    | verify/rework SQL script; done: sol@ef1c13f50f6c9d4f7e8d9fe722cbb690d1d08c92 |
 | sol@52aa18f8bdf1b80b3f9ccf0c1dbc771e8936dee0 | 2023-07-30 |      | take over SMART\_ACTION\_PLAY\_SPELL\_VISUAL if needed |
 | sol@66daf97144311fb34c2e4b9e390040c3ecdcb0c3 | 2023-07-29 | X    | verify changes; done: sol@9d6ec881318b889eb845959e22f2f3fdc42f0412 |
 | sol@ca5d76567d430269f195479500c229b6620eb316 | 2023-07-27 | X    | wrong, won't take over, fix SAI instead (cast Backstab if behind target); done: sol@bcf237ca73fc92a233fd5e160046d8f12a8f872e |
