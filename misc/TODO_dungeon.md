@@ -2,6 +2,7 @@ TODOs: [common](TODO.md), low prio: [cosmetic](TODO_cosmetic.md), dungeon, [even
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@3ce2627c05e485806434ec9d95426e7c5bd4951e | 2023-08-27 |      | verify changes (Karazhan) |
 | sol@2aee8bb1c3cf5b5d8872bffb8b904499bbc16aa4 | 2023-08-25 |      | verify changes (Karazhan) |
 | sol@80a8f6d47a8a48869de197ed95c23b80c0999476 | 2023-08-20 |      | verify changes (Escape from Durnholde Keep) |
 | sol@4b844980bade32b619f3b753caa7f9f75aa036eb | 2023-08-14 |      | verify/rework SQL script (Karazhan) |
