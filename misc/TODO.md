@@ -9,12 +9,12 @@ TODOs: common, low prio: [cosmetic](TODO_cosmetic.md), [dungeon](TODO_dungeon.md
 | sol@6c049fcaa3a55f595f5cd006efa644659a752c0b | 2023-08-19 |      | verify/rework SQL script |
 | sol@edc92b42822cbb33cf283011588647cf36474585 | 2023-08-19 |      | only take over condition; use spell\_scripts; also see sol@957ccdb8453f9136cd2ae7c5ede453b5a126964a |
 | sol@b1e8eda0b02de2483a3d3cc4a76dc447dc97ffb6 | 2023-08-12 |      | verify/rework SQL script |
-| sol@c256d8da55214dac7610e7abea8023e9747a3f70 | 2023-08-11 |      | won't take over, use SMART\_EVENT\_CHANNEL\_FINISHED instead |
-| sol@1f3282368201265bfd09ac24c2d316f8c9c345b0 | 2023-08-11 |      | verify/rework SQL script |
+| sol@c256d8da55214dac7610e7abea8023e9747a3f70 | 2023-08-11 | X    | won't take over, use SMART\_EVENT\_CHANNEL\_FINISHED instead; done: sol@2dbae40f8676ccc836a1f0412694b310546d22af |
+| sol@1f3282368201265bfd09ac24c2d316f8c9c345b0 | 2023-08-11 | X    | verify/rework SQL script; done: sol@b99f5320e29028b24630d084f18d082ef7fad2ab |
 | sol@0276b141a84487a0d9ee57c2b9f82541b666c566 | 2023-08-06 |      | take over if needed |
 | sol@e08ceb3d8d96e75458d53a5dd00e0018bb25a096 | 2023-08-06 | X    | verify changes; done: sol@69012b2897ec8736f71fe57a0bf30b3f1302539e |
 | sol@c803455071882648f9f183d780b822635f56d723 | 2023-08-06 | X    | verify/rework SQL script; done: sol@5ef54c2cb4132754bbb5cb15d848b9e1f257744a |
-| sol@c50c818cfdb6ae32ec58feb50b72a50a1ff19869 | 2023-08-06 |      | verify/rework SQL script |
+| sol@c50c818cfdb6ae32ec58feb50b72a50a1ff19869 | 2023-08-06 | X    | verify/rework SQL script; done: sol@932aebe1a0ddc61f6cae4f26d5e062806caeaba2 |
 | sol@23a420acbb7c250da9d56f9e2baed0b8dc22ae4f | 2023-08-06 | X    | won't take over, use SAI instead; done: sol@f72a47586c6a80c7ec3bbd7d166f494c812cfd8e |
 | sol@c3c6ce9d7a19817c8a5cb6aec9d65714fa76682f | 2023-08-06 | X    | verify changes; done: sol@548de1a1311cb085fe1263cb34512a3cd645537c |
 | sol@c3acf75618d74852300fef6c5e193ac130eca0bf | 2023-08-06 |      | take over if needed |

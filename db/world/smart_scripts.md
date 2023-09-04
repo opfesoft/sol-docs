@@ -679,7 +679,7 @@ This is the probability of the event to occur as a percentage from 0-100. So, if
 <td><p>CooldownMax</p></td>
 <td><p><br />
 </p></td>
-<td>On Creature/Gameobject Spell Hit</td>
+<td>On creature/gameobject spell hit. For channeled spells this is triggered on channel start, use SMART_EVENT_CHANNEL_FINISHED_TARGET to handle the event after channeling is finished.</td>
 </tr>
 <tr>
 <td><p>SMART_EVENT_RANGE</p></td>
@@ -1510,6 +1510,17 @@ This is the probability of the event to occur as a percentage from 0-100. So, if
 <td><p><br />
 </p></td>
 <td>On creature finishes fleeing (e.g. caused by spell, SMART_ACTION_FLEE_FOR_ASSIST or SMART_ACTION_FLEE).</td>
+</tr>
+<tr>
+<td><p>SMART_EVENT_CHANNEL_FINISHED_TARGET</p></td>
+<td><p>238</p></td>
+<td><p>SpellID (0: any)</p></td>
+<td><p>[SpellSchoolMask](#spell-schools)</p></td>
+<td><p>CooldownMin</p></td>
+<td><p>CooldownMax</p></td>
+<td><p><br />
+</p></td>
+<td>On spell channeling finished on this creature as target (caster is used as invoker here).</td>
 </tr>
 </tbody>
 </table>
@@ -4561,7 +4572,7 @@ Commenting on SAI uses a template which is the following: (with an example)
 
 **Quick notes:**
 
--   Always update *creature\_template*,*gameobject\_template* or *areatrigger\_scripts* with:
+-   Always update creature\_template, gameobject\_template or areatrigger\_scripts with:
 
 ```sql
 UPDATE `creature_template` SET `AIName` = 'SmartAI' WHERE `entry` = y;
@@ -4571,9 +4582,9 @@ UPDATE `gameobject_template` SET `AIName` = 'SmartGameObjectAI' WHERE `entry` = 
 INSERT INTO `areatrigger_scripts` (`entry`, `ScriptName`) VALUES (y, 'SmartTrigger');
 ```
 
--   If the creature or GO is inside a dungeon, set *event\_flags* accordingly to the instance difficulty (heroic, 25 man, etc.).
+-   If the creature or GO is inside a dungeon, set event\_flags accordingly to the instance difficulty (heroic, 25 man, etc.).
 
-**In case of doubt about an *Event*, *Action\_or \_Target,\_check source code (\_src/server/game/AI/SmartScripts* files; mainly \*SmartScript.cpp**)
+In case of doubt about an Event, Action or Target, check source code (src/server/game/AI/SmartScripts files; mainly SmartScript.cpp)
 
 ### Cast Flags
 
@@ -4618,14 +4629,6 @@ INSERT INTO `areatrigger_scripts` (`entry`, `ScriptName`) VALUES (y, 'SmartTrigg
 | 64  | Arcane   |
 
 ### Invoker:
-
-<table>
-<thead>
-<tr class="header">
-<th><p>// white list of events that actually have an invoker passed to them</p></th>
-</tr>
-</thead>
-</table>
 
 Actions like SMART\_ACTION\_INVOKER\_CAST and targets like SMART\_TARGET\_ACTION\_INVOKER will work only if the event is in this list:
 
@@ -4705,3 +4708,4 @@ SMART\_EVENT\_TRANSPORT\_ADDCREATURE
 
 SMART\_EVENT\_DATA\_SET
 
+SMART\_EVENT\_CHANNEL\_FINISHED\_TARGET
