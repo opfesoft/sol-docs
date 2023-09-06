@@ -2,6 +2,7 @@ TODOs: [common](TODO.md), low prio: cosmetic, [dungeon](TODO_dungeon.md), [event
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@becf376b6915b86bede148ce0a0cb3ed81a1d81b | 2023-09-04 |      | verify/rework SQL script; use waypoint\_data instead |
 | sol@60adbf5b8273fa5a110fd3f06a3b659f63dcc805 | 2023-05-13 |      | verify/rework SQL script |
 | sol@602cfcf4f1adc12d8120f36ac3b2f2cee468f217 | 2023-05-12 |      | verify/rework SQL script |
 | sol@453bd777d75be787b027e5368a7d3e83ea8e9509 | 2023-05-10 |      | verify/rework SQL script; check the WP paths |

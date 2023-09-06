@@ -3,12 +3,12 @@ TODOs: common, low prio: [cosmetic](TODO_cosmetic.md), [dungeon](TODO_dungeon.md
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
 | sol@122b7a8eb01e94d58b0a189479f2b2aeb4d7f0db | 2023-08-25 | X    | won't take over, just relocate a few mobs to reduce the group size; also enable random movement and take over the WP path for GUID 43911 and add a new one for GUID 43910; done: sol@ae36138748733dadb09374851d8ddce3bebfc0b5 |
-| sol@1702287967bae4b7d4ec2a644aaf82b64102bce9 | 2023-08-24 |      | verify/rework SQL script |
-| sol@59db3b40ebb8b1cc6bf8b6c8b4cae32403c61bfe | 2023-08-23 |      | verify/rework SQL script |
+| sol@1702287967bae4b7d4ec2a644aaf82b64102bce9 | 2023-08-24 | X    | verify/rework SQL script; done: sol@9efd84b368e7b4491cde2a96c39ccb3c41aac05f |
+| sol@59db3b40ebb8b1cc6bf8b6c8b4cae32403c61bfe | 2023-08-23 | X    | verify/rework SQL script; done: sol@9728b9fa73f385870a86f5d61a861e060148970e |
 | sol@e42f43784c8a267700426a8a48584729d23e9a0a | 2023-08-22 |      | take over if needed |
-| sol@6c049fcaa3a55f595f5cd006efa644659a752c0b | 2023-08-19 |      | verify/rework SQL script |
-| sol@edc92b42822cbb33cf283011588647cf36474585 | 2023-08-19 |      | only take over condition; use spell\_scripts; also see sol@957ccdb8453f9136cd2ae7c5ede453b5a126964a |
-| sol@b1e8eda0b02de2483a3d3cc4a76dc447dc97ffb6 | 2023-08-12 |      | verify/rework SQL script |
+| sol@6c049fcaa3a55f595f5cd006efa644659a752c0b | 2023-08-19 | X    | verify/rework SQL script; done: sol@dc75d42e1c36ce808e579eaeadad536cdb9d16ac |
+| sol@edc92b42822cbb33cf283011588647cf36474585 | 2023-08-19 | X    | only take over condition; use spell\_scripts; also see sol@957ccdb8453f9136cd2ae7c5ede453b5a126964a; done: sol@914583786ebcfec2b89224f71022e67ff3d68f80 |
+| sol@b1e8eda0b02de2483a3d3cc4a76dc447dc97ffb6 | 2023-08-12 | X    | verify/rework SQL script; done: sol@cf9d37ff13881f52423ce07d29217ef0d53d800d |
 | sol@c256d8da55214dac7610e7abea8023e9747a3f70 | 2023-08-11 | X    | won't take over, use SMART\_EVENT\_CHANNEL\_FINISHED instead; done: sol@2dbae40f8676ccc836a1f0412694b310546d22af |
 | sol@1f3282368201265bfd09ac24c2d316f8c9c345b0 | 2023-08-11 | X    | verify/rework SQL script; done: sol@b99f5320e29028b24630d084f18d082ef7fad2ab |
 | sol@0276b141a84487a0d9ee57c2b9f82541b666c566 | 2023-08-06 |      | take over if needed |
