@@ -2,6 +2,9 @@ TODOs: common, low prio: [cosmetic](TODO_cosmetic.md), [dungeon](TODO_dungeon.md
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@9b4f8b02402722d615bc2f6e2c3c1e8f6044d5a9 | 2023-09-17 |      | verify/rework SQL script |
+| sol@7d59378b6bb8547b0756632ce00af095e8ff446c | 2023-09-17 |      | verify/rework SQL script |
+| sol@71de2e5c263e16905f548427c1c8e899bb6c09a3 | 2023-09-17 |      | take over if needed |
 | sol@8ba8f0fe9e275dbc7c4a5f63b46d6749b532ec52 | 2023-09-14 |      | take over if needed |
 | sol@e4225831324e49d4442afb24920757ee8939d80e | 2023-09-10 |      | take over parts if needed (most of the stuff can be handled using conditions) |
 | sol@122b7a8eb01e94d58b0a189479f2b2aeb4d7f0db | 2023-08-25 | X    | won't take over, just relocate a few mobs to reduce the group size; also enable random movement and take over the WP path for GUID 43911 and add a new one for GUID 43910; done: sol@ae36138748733dadb09374851d8ddce3bebfc0b5 |
