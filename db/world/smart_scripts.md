@@ -2399,7 +2399,7 @@ if set to 0 only aggressive / hostile NPCs attack</p></td>
 </p></td>
 <td><p><br />
 </p></td>
-<td><p>Creature pauses its Waypoint Movement for given time. If onlyOOC is set the pause timer is only updated if the creature is OOC.</p></td>
+<td><p>Creature pauses its waypoint movement for the given time. If onlyOOC is set the pause timer is only updated if the creature is OOC. If the movement is already paused the pause timer is updated.</p></td>
 </tr>
 <tr>
 <td><p>SMART_ACTION_WP_STOP</p></td>
@@ -2660,7 +2660,7 @@ quickChange 1 forces the creature to quickly change its orientation (useful if t
 <tr>
 <td><p>SMART_ACTION_TRIGGER_TIMED_EVENT</p></td>
 <td><p>73</p></td>
-<td><p>id(&gt;1)</p></td>
+<td><p>id</p></td>
 <td><p><br />
 </p></td>
 <td><p><br />
@@ -2676,7 +2676,7 @@ quickChange 1 forces the creature to quickly change its orientation (useful if t
 <tr>
 <td><p>SMART_ACTION_REMOVE_TIMED_EVENT</p></td>
 <td><p>74</p></td>
-<td><p>id(&gt;1)</p></td>
+<td><p>id</p></td>
 <td><p><br />
 </p></td>
 <td><p><br />
