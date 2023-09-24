@@ -126,8 +126,8 @@ This table holds information on all available accounts.
 </tr>
 <tr>
 <td><p><a href="#joindate">joindate</a></p></td>
-<td><p>timestamp</p></td>
-<td><p>signed</p></td>
+<td><p>datetime</p></td>
+<td><p></p></td>
 <td><p><br />
 </p></td>
 <td><p>NO</p></td>
@@ -179,12 +179,12 @@ This table holds information on all available accounts.
 </tr>
 <tr>
 <td><p><a href="#last_login">last_login</a></p></td>
-<td><p>timestamp</p></td>
-<td><p>signed</p></td>
+<td><p>datetime</p></td>
+<td><p></p></td>
 <td><p><br />
 </p></td>
-<td><p>NO</p></td>
-<td><p>0000-00-00 00:00:00</p></td>
+<td><p>YES</p></td>
+<td><p>NULL</p></td>
 <td><p><br />
 </p></td>
 <td><p><br />

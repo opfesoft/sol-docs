@@ -2,6 +2,7 @@ TODOs: [common](TODO.md), low prio: [cosmetic](TODO_cosmetic.md), dungeon, [even
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@586cc1ee0f9b13bf7168037a28122061a9beffd9 | 2023-09-20 |      | verify/rework SQL script (Serpentshrine Cavern) |
 | sol@74353a3c8370928f21bcc3ef94adc2e41e2110e9 | 2023-09-20 |      | verify changes (Karazhan) |
 | sol@5b3c5740fb84c9fff55fe2d5f7c6e89b92f9fc9f | 2023-09-18 |      | verify changes (Karazhan) |
 | sol@9ac71a4e2a8c9252eed683a111922fc67890837d | 2023-09-17 |      | verify changes (Magisters' Terrace) |
@@ -28,9 +29,9 @@ TODOs: [common](TODO.md), low prio: [cosmetic](TODO_cosmetic.md), dungeon, [even
 | sol@98ed01b9fe8965e62840cb1e820cf4d122937cd3 | 2023-07-27 |      | verify/rework SQL script (Karazhan) |
 | sol@90e23cbc66701ac9c163041927e6f6e17f2c72f2 | 2023-07-27 |      | verify changes (Battle for Mount Hyjal) |
 | sol@fcf7ceea42b0bfcd7a0c5cdc06a08f6c77faf204 | 2023-07-27 |      | verify changes (also see sol@5abfbdff427190421873f7e076597d6c8b6d012e) (Karazhan) |
-| sol@750e0b4c23881c584df7d154800e937cd62f06eb | 2023-07-27 |      | verify changes (also see sol@9b438731fd2ef60dbb399a089c40282455222c5d) (Karazhan) |
+| sol@750e0b4c23881c584df7d154800e937cd62f06eb | 2023-07-27 |      | verify changes (also see sol@9b438731fd2ef60dbb399a089c40282455222c5d, sol@fb1d356af98d7399f462055ab31d8e17847ad416) (Karazhan) |
 | sol@cc6454b2efbbdd9db2159ade285d8c756e8c33f8 | 2023-07-18 |      | verify changes (also see sol@0c90bfcf70c3ff60364c6b0df97aef23f8781efa) (Karazhan) |
-| sol@89e7fb301a6bc2d0decda25e25f23b59fe09f931 | 2023-07-18 |      | verify changes (also see sol@cdc06e1703a3ba54135727c5fadfc588891867d9, sol@d18368ad601ab422e755e6f888acf1437c4cf55a, sol@52744e60320ce95e3d168d9639245c118739b00f, sol@89d0db3a93f991b9ebf5cfa0f34d236da7028938, sol@3cfb1d3bf627c50208ac32bb1db60d1b8673bb3f) (Karazhan) |
+| sol@89e7fb301a6bc2d0decda25e25f23b59fe09f931 | 2023-07-18 |      | verify changes (also see sol@cdc06e1703a3ba54135727c5fadfc588891867d9, sol@d18368ad601ab422e755e6f888acf1437c4cf55a, sol@52744e60320ce95e3d168d9639245c118739b00f, sol@89d0db3a93f991b9ebf5cfa0f34d236da7028938, sol@3cfb1d3bf627c50208ac32bb1db60d1b8673bb3f, sol@5b899eb65d9c234a3c6dfe1c2544e1f382ab7c50) (Karazhan) |
 | sol@3860d273b4118b76aac9aa475aac1f949f8a3c06 | 2023-07-16 |      | verify changes (Karazhan) |
 | sol@5719ff45cf079c04139f650aebac59cab0f6aaff | 2023-07-11 |      | verify/rework SQL script (also see sol@9b5933ac5f12d42ec76aa346081eb12074d1de06) (Gruul's Lair) |
 | sol@89959a193f5cae0e96901e3a3360cfa83d4d099e | 2023-07-11 |      | verify/rework SQL script (Escape from Durnholde Keep, Mana-Tombs, Underbog, Slave Pens, Blood Furnace, Hellfire Ramparts) |

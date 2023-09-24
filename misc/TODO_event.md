@@ -30,7 +30,7 @@ TODOs: [common](TODO.md), low prio: [cosmetic](TODO_cosmetic.md), [dungeon](TODO
 | sol@daf064c4c3199984db2e67ee033e9f924bea8f19 | 2022-09-25 |      | verify/rework SQL script (Brewfest) |
 | sol@14f0eb1ba6e0c96e35f7b6cc675555f0168e3c73 | 2022-09-24 |      | verify changes (Brewfest) |
 | sol@0ae93c1c944e11a193801ee9e30320c8ebb80351 | 2022-09-07 |      | verify changes (Feast of Winter Veil) |
-| sol@e1e4c6cddc44971054c61df1a884ac7c795c8b73 | 2022-07-02 |      | verify changes (Midsummer Fire Festival) |
+| sol@e1e4c6cddc44971054c61df1a884ac7c795c8b73 | 2022-07-02 |      | verify changes (also see sol@58f8fe6426d3c9465359599fac11af094c1fc980) (Midsummer Fire Festival) |
 | sol@7df342b41c81d6a412a07fa902cc324e8bae9711 | 2022-07-01 |      | verify changes (Midsummer Fire Festival) |
 | sol@f32aa0992c6e575e58a9d63eadbf9cc6aef25b3f | 2022-05-08 |      | verify changes (Midsummer Fire Festival) |
 | sol@c2b70e3927f16a50dfb19a7156914f5ea5635bfb | 2022-03-18 |      | verify changes (Love is in the Air) |

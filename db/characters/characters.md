@@ -79,7 +79,7 @@ This table holds vital static information for each character. This information l
 |[knownTitles](#knownTitles)  |longtext      |            |     |YES   |NULL     |       ||
 |[actionBars](#actionbars)    |longtext      |            |     |NO    |0        |       ||
 |[grantableLevels](#grantablelevels)|longtext|            |     |NO    |0        |       ||
-|[creation_date](#creation_date)|timestamp   |            |     |NO    |CURRENT_TIMESTAMP|||
+|[creation_date](#creation_date)|datetime    |            |     |NO    |CURRENT_TIMESTAMP|||
 |[deleteInfos_Account](#deleteInfos_Account)|int(10)|unsigned|  |YES   |NULL     |       ||
 |[deleteInfos_Name](#deleteInfos_Name)|varchar(12)|        |    |YES   |NULL     |       ||
 |[deleteDate](#deleteDate)    |int(10)       |unsigned    |     |YES   |NULL     |       ||

@@ -1588,7 +1588,7 @@ This is the probability of the event to occur as a percentage from 0-100. So, if
 </p></td>
 <td><p><br />
 </p></td>
-<td><p>Sets faction to creature.</p></td>
+<td><p>Sets a faction for creature. The faction is automatically reset on respawn.</p></td>
 </tr>
 <tr>
 <td><p>SMART_ACTION_MORPH_TO_ENTRY_OR_MODEL</p></td>
@@ -2802,8 +2802,7 @@ quickChange 1 forces the creature to quickly change its orientation (useful if t
 </p></td>
 <td><p><br />
 </p></td>
-<td><p><br />
-</p></td>
+<td><p>Set NPC flags, overwriting the existing value. The NPC flags are reset automatically on respawn.</p></td>
 </tr>
 <tr>
 <td><p>SMART_ACTION_ADD_NPC_FLAG</p></td>
@@ -2819,7 +2818,7 @@ quickChange 1 forces the creature to quickly change its orientation (useful if t
 </p></td>
 <td><p><br />
 </p></td>
-<td>If value 0 is used the NPC flags are reset to the value specified in the creature template</td>
+<td>Add NPC flags to the existing value. If value 0 is used the NPC flags are reset to the value specified in the creature template. The NPC flags are reset automatically on respawn.</td>
 </tr>
 <tr>
 <td><p>SMART_ACTION_REMOVE_NPC_FLAG</p></td>
@@ -2835,7 +2834,7 @@ quickChange 1 forces the creature to quickly change its orientation (useful if t
 </p></td>
 <td><p><br />
 </p></td>
-<td>If value 0 is used all NPC flags are removed</td>
+<td>Remove NPC flags from the existing value. If value 0 is used all NPC flags are removed. The NPC flags are reset automatically on respawn.</td>
 </tr>
 <tr>
 <td><p>SMART_ACTION_SIMPLE_TALK</p></td>
