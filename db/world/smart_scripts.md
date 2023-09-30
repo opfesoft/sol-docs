@@ -4160,8 +4160,8 @@ If the start position distance is far away the circle movement speed will be dec
 <td><p>SMART_TARGET_CREATURE_RANGE</p></td>
 <td><p>9</p></td>
 <td><p><a href="creature_template.md#entry">creature_template.entry</a> (0 any)</p></td>
-<td><p>minDist</p></td>
-<td><p>maxDist</p></td>
+<td><p>minDist2D</p></td>
+<td><p>maxDist2D</p></td>
 <td><p>alive state (1 alive, 2 dead, 0 both)</p></td>
 <td><p><br />
 </p></td>
@@ -4194,7 +4194,7 @@ If the start position distance is far away the circle movement speed will be dec
 <td><p>SMART_TARGET_CREATURE_DISTANCE</p></td>
 <td><p>11</p></td>
 <td><p><a href="creature_template.md#entry">creature_template.entry</a> (0 any)</p></td>
-<td><p>maxDist</p></td>
+<td><p>maxDist2D</p></td>
 <td><p>alive state (1 alive, 2 dead, 0 both)</p></td>
 <td><p><br />
 </p></td>
@@ -4232,8 +4232,8 @@ If the start position distance is far away the circle movement speed will be dec
 <td><p>SMART_TARGET_GAMEOBJECT_RANGE</p></td>
 <td><p>13</p></td>
 <td><p><a href="gameobject_template.md#entry">gameobject_template.entry</a> (0 any)</p></td>
-<td><p>minDist</p></td>
-<td><p>maxDist</p></td>
+<td><p>minDist2D</p></td>
+<td><p>maxDist2D</p></td>
 <td><p><br />
 </p></td>
 <td><p><br />
@@ -4268,7 +4268,7 @@ If the start position distance is far away the circle movement speed will be dec
 <td><p>SMART_TARGET_GAMEOBJECT_DISTANCE</p></td>
 <td><p>15</p></td>
 <td><p><a href="gameobject_template.md#entry">gameobject_template.entry</a> (0 any)</p></td>
-<td><p>maxDist</p></td>
+<td><p>maxDist2D</p></td>
 <td><p><br />
 </p></td>
 <td><p><br />
@@ -4307,8 +4307,8 @@ If the start position distance is far away the circle movement speed will be dec
 <tr>
 <td><p>SMART_TARGET_PLAYER_RANGE</p></td>
 <td><p>17</p></td>
-<td><p>minDist</p></td>
-<td><p>maxDist</p></td>
+<td><p>minDist2D</p></td>
+<td><p>maxDist2D</p></td>
 <td><p>maxCount</p></td>
 <td><p><br />
 </p></td>
@@ -4325,7 +4325,7 @@ If the start position distance is far away the circle movement speed will be dec
 <tr>
 <td><p>SMART_TARGET_PLAYER_DISTANCE</p></td>
 <td><p>18</p></td>
-<td><p>maxDist</p></td>
+<td><p>maxDist2D</p></td>
 <td><p><br />
 </p></td>
 <td><p><br />
@@ -4346,7 +4346,7 @@ If the start position distance is far away the circle movement speed will be dec
 <td><p>SMART_TARGET_CLOSEST_CREATURE</p></td>
 <td><p>19</p></td>
 <td><p><a href="creature_template.md#entry">creature_template.entry</a> (0 any)</p></td>
-<td><p>maxDist (Can be from 1-100 yards, if 0 then 100 yards will be used)</p></td>
+<td><p>maxDist3D (Can be from 1-100 yards, if 0 then 100 yards will be used)</p></td>
 <td><p>dead? (0/1)</p></td>
 <td><p><br />
 </p></td>
@@ -4364,7 +4364,7 @@ If the start position distance is far away the circle movement speed will be dec
 <td><p>SMART_TARGET_CLOSEST_GAMEOBJECT</p></td>
 <td><p>20</p></td>
 <td><p><a href="gameobject_template.md#entry">gameobject_template.entry</a> (0 any)</p></td>
-<td><p>maxDist (Can be from 1-100 yards, if 0 then 100 yards will be used)</p></td>
+<td><p>maxDist3D (Can be from 1-100 yards, if 0 then 100 yards will be used)</p></td>
 <td><p><br />
 </p></td>
 <td><p><br />
@@ -4382,7 +4382,7 @@ If the start position distance is far away the circle movement speed will be dec
 <tr>
 <td><p>SMART_TARGET_CLOSEST_PLAYER</p></td>
 <td><p>21</p></td>
-<td><p>maxDist</p></td>
+<td><p>maxDist3D</p></td>
 <td><p><br />
 </p></td>
 <td><p><br />
@@ -4463,7 +4463,7 @@ If the start position distance is far away the circle movement speed will be dec
 <tr>
 <td>SMART_TARGET_CLOSEST_ENEMY</td>
 <td>25</td>
-<td>maxDist</td>
+<td>maxDist3D</td>
 <td>playerOnly (0/1)</td>
 <td><p><br />
 </p></td>
@@ -4482,7 +4482,7 @@ If the start position distance is far away the circle movement speed will be dec
 <tr>
 <td>SMART_TARGET_CLOSEST_FRIENDLY</td>
 <td>26</td>
-<td>maxDist</td>
+<td>maxDist3D</td>
 <td>playerOnly (0/1)</td>
 <td><p><br />
 </p></td>
