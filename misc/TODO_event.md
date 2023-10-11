@@ -2,6 +2,7 @@ TODOs: [common](TODO.md), low prio: [cosmetic](TODO_cosmetic.md), [dungeon](TODO
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@7e1bfa2884677ddf337ea04584203a6671d25080 | 2023-10-10 |      | verify/rework scripts (Love is in the Air) |
 | sol@de50ce3305ee3e61cc62f01c2dfdf4d7ec3b56bc | 2023-10-01 |      | verify changes (Midsummer Fire Festival) |
 | sol@e2e393502c981ac08be312bd5a51da04517ab091 | 2023-09-24 |      | verify changes (Midsummer Fire Festival) |
 | sol@6990a1d2a43b085cccf83a1cfe23c03675a69c88 | 2023-09-24 |      | verify changes (Brewfest) |

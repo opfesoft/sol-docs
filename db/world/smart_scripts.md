@@ -1705,6 +1705,7 @@ This is the probability of the event to occur as a percentage from 0-100. So, if
 <tr>
 <td><p>SMART_ACTION_ACTIVATE_GOBJECT</p></td>
 <td><p>9</p></td>
+<td><p>use instead of activate (0/1)</p></td>
 <td><p><br />
 </p></td>
 <td><p><br />
@@ -1715,9 +1716,7 @@ This is the probability of the event to occur as a percentage from 0-100. So, if
 </p></td>
 <td><p><br />
 </p></td>
-<td><p><br />
-</p></td>
-<td><p>Activate Object</p></td>
+<td><p>Activate object. If "use" is 1 the GO is used by the creature (e.g. sitting on a chair).</p></td>
 </tr>
 <tr>
 <td><p>SMART_ACTION_RANDOM_EMOTE</p></td>
@@ -2938,23 +2937,21 @@ quickChange 1 forces the creature to quickly change its orientation (useful if t
 <tr>
 <td><p>SMART_ACTION_SET_UNIT_FIELD_BYTES_1</p></td>
 <td><p>90</p></td>
-<td><p><a href="https://gitlab.com/opfesoft/sol/-/blob/master/src/server/game/Entities/Unit/Unit.h#L138">Value</a></p></td>
+<td><p><a href="https://gitlab.com/opfesoft/sol/-/blob/master/src/server/game/Entities/Unit/Unit.h#L138">Flag/Value</a></p></td>
 <td><p><a href="https://gitlab.com/opfesoft/sol/-/blob/master/src/server/game/Entities/Unit/Unit.h#L138">Type</a></p></td>
+<td><p>setValue (0/1)</p></td>
 <td><p><br />
 </p></td>
 <td><p><br />
 </p></td>
 <td><p><br />
 </p></td>
-<td><p><br />
-</p></td>
-<td><p><br />
-</p></td>
+<td><p>If "setValue" is 1 set the byte value instead of the flag.</p></td>
 </tr>
 <tr>
 <td><p>SMART_ACTION_REMOVE_UNIT_FIELD_BYTES_1</p></td>
 <td><p>91</p></td>
-<td><p><a href="https://gitlab.com/opfesoft/sol/-/blob/master/src/server/game/Entities/Unit/Unit.h#L138">Value</a></p></td>
+<td><p><a href="https://gitlab.com/opfesoft/sol/-/blob/master/src/server/game/Entities/Unit/Unit.h#L138">Flag</a></p></td>
 <td><p><a href="https://gitlab.com/opfesoft/sol/-/blob/master/src/server/game/Entities/Unit/Unit.h#L138">Type</a></p></td>
 <td><p><br />
 </p></td>

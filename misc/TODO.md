@@ -2,13 +2,25 @@ TODOs: common, low prio: [cosmetic](TODO_cosmetic.md), [dungeon](TODO_dungeon.md
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@b91e10f44386aceea4198916e2bc9e686ae93b9e | 2023-10-10 |      | verify/rework SQL script |
+| sol@214948bafbeb0cf36ea14267e3d9d5d86609b128 | 2023-10-10 |      | verify/rework SQL script |
+| sol@a9456f9123157f474e927bdfdfeb76cf9e870017 | 2023-10-10 |      | verify/rework SQL script |
+| sol@96d0675624f3cb23e40215eebaefd60a70dd6756 | 2023-10-10 |      | verify/rework SQL script |
+| sol@82ae20af1d66a79d17a4a35b0c4fe25c247df3e2 | 2023-10-10 |      | verify/rework SQL script |
+| sol@088b85d220f821d4546887ece74cfd92d470e545 | 2023-10-10 |      | verify/rework SQL script |
+| sol@c2f03441c87329b6f8467cd2a3c0d9ac3328034f | 2023-10-10 |      | verify IDs (at least one of them is wrong: 181282); low prio (minor issue) |
+| sol@aa0c94c83fef339b90db3e99e1356c96f4790198 | 2023-10-10 |      | verify/rework SQL script |
+| sol@4e5077ed8062b77f77899f27356dd5beba27df96 | 2023-10-08 |      | verify changes |
+| sol@44b0ee8917bd68aa34d2bfd0b55c4376e036ce2e | 2023-10-08 |      | verify/rework SQL script |
+| sol@5d836cd48c3a8e8dd1633df8ddef993eaaf7464d | 2023-10-08 |      | verify/rework SQL script |
+| sol@1ad1ba07c89a168cbfd444e51e066d024c971ac3 | 2023-10-08 |      | verify/rework SQL script |
 | sol@7140c0aa6456cdbf2b174c10ed8ee6669dd9ee93 | 2023-09-25 |      | verify/rework SQL script |
 | sol@e02554a2321a708d9450f4461e476325fe6639de | 2023-09-20 |      | verify/rework SQL script |
 | sol@ea0500df6585a2995c94640fd39944fa70ed6ece | 2023-09-20 |      | verify/rework SQL script |
 | sol@7169215a88c49d8be3969575f1fdada9837d189e | 2023-09-20 |      | verify/rework SQL script |
 | sol@190dc93d7e922ae29c7cfc4c172411ec0eadc877 | 2023-09-20 | X    | won't take over, contains bugs, find another solution; done: sol@da6b115b5d046f0c621b02de005f347f37ec66e9 |
-| sol@9b4f8b02402722d615bc2f6e2c3c1e8f6044d5a9 | 2023-09-17 |      | verify/rework SQL script |
-| sol@7d59378b6bb8547b0756632ce00af095e8ff446c | 2023-09-17 |      | verify/rework SQL script |
+| sol@9b4f8b02402722d615bc2f6e2c3c1e8f6044d5a9 | 2023-09-17 | X    | verify/rework SQL script; done: sol@ffa3a4f932c4245181797e185a25bcad45dcace4 |
+| sol@7d59378b6bb8547b0756632ce00af095e8ff446c | 2023-09-17 | X    | verify/rework SQL script; done: sol@18fc489a72f69529a2517fcb67a66d8ba781a47f |
 | sol@71de2e5c263e16905f548427c1c8e899bb6c09a3 | 2023-09-17 |      | take over if needed |
 | sol@8ba8f0fe9e275dbc7c4a5f63b46d6749b532ec52 | 2023-09-14 |      | take over if needed |
 | sol@e4225831324e49d4442afb24920757ee8939d80e | 2023-09-10 |      | take over parts if needed (most of the stuff can be handled using conditions) |

@@ -136,7 +136,7 @@ For creature\_template\_addon, this field signifies the [creature\_template.entr
 
 ### path\_id
 
-If a creature has waypoint pathed movement, this field hold the waypoint\_data.id for the path the creature is to follow.
+If a creature uses waypoint movement (MovementType 2), this field must contain a valid [waypoint\_data.id](waypoint_data.md#id).
 
 ### mount
 
