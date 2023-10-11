@@ -1705,6 +1705,7 @@ This is the probability of the event to occur as a percentage from 0-100. So, if
 <tr>
 <td><p>SMART_ACTION_ACTIVATE_GOBJECT</p></td>
 <td><p>9</p></td>
+<td><p>alternative (0/1)</p></td>
 <td><p>use instead of activate (0/1)</p></td>
 <td><p><br />
 </p></td>
@@ -1714,9 +1715,7 @@ This is the probability of the event to occur as a percentage from 0-100. So, if
 </p></td>
 <td><p><br />
 </p></td>
-<td><p><br />
-</p></td>
-<td><p>Activate object. If "use" is 1 the GO is used by the creature (e.g. sitting on a chair).</p></td>
+<td><p>Activate object. If "use" is 1 the GO is used by the creature (e.g. sitting on a chair). If "alternative" is 1 set GO_STATE_ACTIVE_ALTERNATIVE instead of GO_STATE_ACTIVE (only if "use" is 0).</p></td>
 </tr>
 <tr>
 <td><p>SMART_ACTION_RANDOM_EMOTE</p></td>
