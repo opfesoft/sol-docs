@@ -17,8 +17,8 @@ TODOs: common, low prio: [cosmetic](TODO_cosmetic.md), [dungeon](TODO_dungeon.md
 | sol@1ad1ba07c89a168cbfd444e51e066d024c971ac3 | 2023-10-08 |      | verify/rework SQL script |
 | sol@7140c0aa6456cdbf2b174c10ed8ee6669dd9ee93 | 2023-09-25 |      | verify/rework SQL script |
 | sol@e02554a2321a708d9450f4461e476325fe6639de | 2023-09-20 |      | verify/rework SQL script |
-| sol@ea0500df6585a2995c94640fd39944fa70ed6ece | 2023-09-20 |      | verify/rework SQL script |
-| sol@7169215a88c49d8be3969575f1fdada9837d189e | 2023-09-20 |      | verify/rework SQL script |
+| sol@ea0500df6585a2995c94640fd39944fa70ed6ece | 2023-09-20 | X    | verify/rework SQL script; done: sol@aa904af2053c6e1afb3baccb9ab5e46d9370627d |
+| sol@7169215a88c49d8be3969575f1fdada9837d189e | 2023-09-20 | X    | verify/rework SQL script; done: sol@bad1d3824524e87ca0447ebb19f33fcbccf7665b |
 | sol@190dc93d7e922ae29c7cfc4c172411ec0eadc877 | 2023-09-20 | X    | won't take over, contains bugs, find another solution; done: sol@da6b115b5d046f0c621b02de005f347f37ec66e9 |
 | sol@9b4f8b02402722d615bc2f6e2c3c1e8f6044d5a9 | 2023-09-17 | X    | verify/rework SQL script; done: sol@ffa3a4f932c4245181797e185a25bcad45dcace4 |
 | sol@7d59378b6bb8547b0756632ce00af095e8ff446c | 2023-09-17 | X    | verify/rework SQL script; done: sol@18fc489a72f69529a2517fcb67a66d8ba781a47f |
@@ -853,7 +853,7 @@ TODOs: common, low prio: [cosmetic](TODO_cosmetic.md), [dungeon](TODO_dungeon.md
 | sol@3ac48489f67521ec13a5eeda1f50cd14fb9397ea | 2021-05-31 | X    | verify/rework SQL script; update: won't take over as the actual root cause was a bug concerning the assist check for creatures, see sol@37c9776678f5f7a8dffca2d1e4444e7ae1fa2bd5 |
 | sol@8dc13a5338080d86f24c0d5d18790f6b422a511b | 2021-05-31 | X    | fix the spell script "spell\_gen\_throw\_back" and the spell ID of the throw back spell; done: sol@483c30b9236c7efbb0a33ccbf8a82cd46ac7e05a |
 | sol@cedd63633817026a3ab0056e4cd91380edf617b6 | 2021-05-30 | X    | verify changes; update: wrong, won't take over; holy resistance is derived from arcane resistance, so the values should stay in the DB |
-| sol@107658ebbcf43e2c398b373acd1b26321e20a633 | 2021-05-30 |      | not working; try to find another solution; update: also see sol@7406a01ac303ef1ee68b698b9c4ebf2c6b1666a2; low prio (minor issue) |
+| sol@107658ebbcf43e2c398b373acd1b26321e20a633 | 2021-05-30 | X    | not working; try to find another solution; update: also see sol@7406a01ac303ef1ee68b698b9c4ebf2c6b1666a2; low prio (minor issue); done: sol@885fbde4611879b549214cc9ec6bff88f4e61656 |
 | sol@a355b4d27c197c8945b71a8eaad8fff00990e3b5 | 2021-05-29 |      | verify issue & changes; update: cannot reproduce on Sol; low prio |
 | sol@f1b43a897613bbe969693253adf57fcb1b21584e | 2021-05-27 |      | take over if needed |
 | sol@2d41cd49f11c81369e9f372c191008d6c6bf7a10 | 2021-05-25 | X    | not working correctly because it uses the wrong WorldMapAreaId; look up the correct one; done: sol@d2c971881bb0ca318aaa7eab9efb680694178f96 |

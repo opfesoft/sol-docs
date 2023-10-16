@@ -2575,18 +2575,14 @@ if set to 0 only aggressive / hostile NPCs attack</p></td>
 <td><p>SMART_ACTION_SET_ORIENTATION</p></td>
 <td><p>66</p></td>
 <td><p>quickChange</p></td>
-<td><p><br />
-</p></td>
-<td><p><br />
-</p></td>
-<td><p><br />
-</p></td>
-<td><p><br />
-</p></td>
-<td><p><br />
-</p></td>
+<td><p>targetType</p></td>
+<td><p>targetParam1</p></td>
+<td><p>targetParam2</p></td>
+<td><p>targetParam3</p></td>
+<td><p>targetParam4</p></td>
 <td><p>Depends on the script target. If SMART_TARGET_SELF, facing will be the same as in HomePosition, For SMART_TARGET_POSITION you need to set target_o : 0 = North, West = 1.5, South = 3, East = 4.5<br><br>
-quickChange 1 forces the creature to quickly change its orientation (useful if this smart action is combined with SMART_ACTION_WP_PAUSE)</p></td>
+quickChange 1 forces the creature to quickly change its orientation (useful if this smart action is combined with SMART_ACTION_WP_PAUSE)<br><br>
+If targetType >0 the action is executed for each selected target instead of the script owner.</p></td>
 </tr>
 <tr>
 <td><p>SMART_ACTION_CREATE_TIMED_EVENT</p></td>
