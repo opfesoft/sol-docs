@@ -40,7 +40,7 @@ ID from [Faction.dbc](Faction.md).
 
 ### Title
 
-Also known ans summon type.
+Also known as summon type.
 
 | ID    | Name                                        |
 | ----- | ------------------------------------------- |

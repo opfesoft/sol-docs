@@ -2,6 +2,21 @@ TODOs: common, low prio: [cosmetic](TODO_cosmetic.md), [dungeon](TODO_dungeon.md
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@1262bbd237fb424e3ba53950513bcd65ab3ef378 | 2023-10-22 |      | verify changes |
+| sol@945d7c6afef52bfdc677d3b06b1b4c27e5d86ef1 | 2023-10-22 |      | verify changes |
+| sol@968bc8d47b23b2d3e0cbe8658e6d5c90340bbef6 | 2023-10-22 |      | won't take over, just enable rotation (also for the other signposts nearby) |
+| sol@3228d7d762fd3490d8b0dbf72a8a5df2ff75199a | 2023-10-21 |      | verify/rework SQL script |
+| sol@228f6635c0acba196bf1225033f17cdf70bf4357 | 2023-10-21 |      | verify changes |
+| sol@359985dd4ca277f8dd2d22db814f789664227c0b | 2023-10-21 |      | take over if needed; support all GO states (just use GO state + 1 for the parameter) |
+| sol@e3592f7de7bcf8893061ebc1284ce0436b95be40 | 2023-10-20 |      | verify changes |
+| sol@6bb16b0c7d6bc780f2f0bb8678f0f5f20167af05 | 2023-10-20 |      | remove the flag only for GUID 66696; adjust all associated scripts to be able to handle the missing NPC; low prio (minor issue) |
+| sol@1b2593d763d692017f73487b6b2daaa72a702523 | 2023-10-20 |      | won't take over, fix rep requirements in quest\_template\_addon instead (also for the follow-up quests) |
+| sol@c7324f30662d389949ff376e3c0012368a6a3523 | 2023-10-19 |      | take over if needed |
+| sol@a39175bc3b700ab1c9d4812ba0cefa3cc6744670 | 2023-10-19 |      | won't take over, only fix the aura script |
+| sol@8e12029456c5e8113b5a8e3eb1e7cc308874fa50 | 2023-10-17 |      | verify/rework SQL script |
+| sol@fc5be2f98eca9fe5e2867563916dcf816e929d8f | 2023-10-16 |      | verify/rework SQL script |
+| sol@e30718db363cb1948f79a8d2be2fd8a6dfcd3b03 | 2023-10-16 |      | verify changes |
+| sol@314cabd66747409659f0771b6ead3eaf63f0a651 | 2023-10-15 |      | verify/rework SQL script |
 | sol@7d6a578892a6be892248d989eeb96284b0014b6c | 2023-10-12 |      | verify/rework SQL script |
 | sol@b91e10f44386aceea4198916e2bc9e686ae93b9e | 2023-10-10 |      | verify/rework SQL script |
 | sol@214948bafbeb0cf36ea14267e3d9d5d86609b128 | 2023-10-10 |      | verify/rework SQL script |
@@ -15,8 +30,8 @@ TODOs: common, low prio: [cosmetic](TODO_cosmetic.md), [dungeon](TODO_dungeon.md
 | sol@44b0ee8917bd68aa34d2bfd0b55c4376e036ce2e | 2023-10-08 |      | verify/rework SQL script |
 | sol@5d836cd48c3a8e8dd1633df8ddef993eaaf7464d | 2023-10-08 |      | verify/rework SQL script |
 | sol@1ad1ba07c89a168cbfd444e51e066d024c971ac3 | 2023-10-08 |      | verify/rework SQL script |
-| sol@7140c0aa6456cdbf2b174c10ed8ee6669dd9ee93 | 2023-09-25 |      | verify/rework SQL script |
-| sol@e02554a2321a708d9450f4461e476325fe6639de | 2023-09-20 |      | verify/rework SQL script |
+| sol@7140c0aa6456cdbf2b174c10ed8ee6669dd9ee93 | 2023-09-25 | X    | verify/rework SQL script; done: sol@85c399b5ed812da4cb01f909986da5a923380680 |
+| sol@e02554a2321a708d9450f4461e476325fe6639de | 2023-09-20 | X    | verify/rework SQL script; done: sol@e09ae68d3c743590b1ce7564ddac5d4c34b697cf |
 | sol@ea0500df6585a2995c94640fd39944fa70ed6ece | 2023-09-20 | X    | verify/rework SQL script; done: sol@aa904af2053c6e1afb3baccb9ab5e46d9370627d |
 | sol@7169215a88c49d8be3969575f1fdada9837d189e | 2023-09-20 | X    | verify/rework SQL script; done: sol@bad1d3824524e87ca0447ebb19f33fcbccf7665b |
 | sol@190dc93d7e922ae29c7cfc4c172411ec0eadc877 | 2023-09-20 | X    | won't take over, contains bugs, find another solution; done: sol@da6b115b5d046f0c621b02de005f347f37ec66e9 |

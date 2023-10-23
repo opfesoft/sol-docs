@@ -2,6 +2,12 @@ TODOs: [common](TODO.md), low prio: [cosmetic](TODO_cosmetic.md), [dungeon](TODO
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@d9094187066188c0d9de00b091aeaa0b0fce865b | 2023-10-22 |      | keep as reference; take over single values if needed; won't blindly take over such mass updates (don't care about sniffs) (Midsummer Fire Festival) |
+| sol@de6ece24629ac2dcee028b7997cb37c093a41cf9 | 2023-10-20 |      | verify changes (Midsummer Fire Festival) |
+| sol@eafb5a4f755818626f5ff01e3c8f27e3f030890c | 2023-10-18 |      | verify/rework SQL script (Midsummer Fire Festival) |
+| sol@630b90a63340c80080c6c0e45b2908096fb5e092 | 2023-10-18 |      | verify changes (Midsummer Fire Festival) |
+| sol@ad667289733e7d4737912eb7249ae2ad31e97c29 | 2023-10-17 |      | verify changes (Brewfest) |
+| sol@1b29f2fb64e2fe29ce07ae932e1637261b393d96 | 2023-10-17 |      | verify changes (Midsummer Fire Festival) |
 | sol@7e1bfa2884677ddf337ea04584203a6671d25080 | 2023-10-10 |      | verify/rework scripts (Love is in the Air) |
 | sol@de50ce3305ee3e61cc62f01c2dfdf4d7ec3b56bc | 2023-10-01 |      | verify changes (Midsummer Fire Festival) |
 | sol@e2e393502c981ac08be312bd5a51da04517ab091 | 2023-09-24 |      | verify changes (Midsummer Fire Festival) |
