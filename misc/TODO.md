@@ -28,8 +28,8 @@ TODOs: common, low prio: [cosmetic](TODO_cosmetic.md), [dungeon](TODO_dungeon.md
 | sol@c2f03441c87329b6f8467cd2a3c0d9ac3328034f | 2023-10-10 |      | verify IDs (at least one of them is wrong: 181282); low prio (minor issue) |
 | sol@aa0c94c83fef339b90db3e99e1356c96f4790198 | 2023-10-10 |      | verify/rework SQL script |
 | sol@4e5077ed8062b77f77899f27356dd5beba27df96 | 2023-10-08 |      | verify changes |
-| sol@44b0ee8917bd68aa34d2bfd0b55c4376e036ce2e | 2023-10-08 |      | verify/rework SQL script |
-| sol@5d836cd48c3a8e8dd1633df8ddef993eaaf7464d | 2023-10-08 |      | verify/rework SQL script |
+| sol@44b0ee8917bd68aa34d2bfd0b55c4376e036ce2e | 2023-10-08 | X    | verify/rework SQL script; done: sol@fa446db74792e237e861c6600fe9b2e155cc35d9 |
+| sol@5d836cd48c3a8e8dd1633df8ddef993eaaf7464d | 2023-10-08 | X    | verify/rework SQL script; done: sol@a78a8457a389a6775165c828849adbfb82e7fa9a |
 | sol@1ad1ba07c89a168cbfd444e51e066d024c971ac3 | 2023-10-08 | X    | verify/rework SQL script; done: sol@ff2ff964cd857cacea16b8003f2a6ad6d88bb008 |
 | sol@7140c0aa6456cdbf2b174c10ed8ee6669dd9ee93 | 2023-09-25 | X    | verify/rework SQL script; done: sol@85c399b5ed812da4cb01f909986da5a923380680 |
 | sol@e02554a2321a708d9450f4461e476325fe6639de | 2023-09-20 | X    | verify/rework SQL script; done: sol@e09ae68d3c743590b1ce7564ddac5d4c34b697cf |
