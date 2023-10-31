@@ -31,19 +31,19 @@
 
 ## OpenSSL installation
 
-Example for OpenSSL 3.1.3, installation in "~/sol-srv/lib/openssl":
+Example for OpenSSL 3.1.4, installation in "~/sol-srv/lib/openssl":
 
 - Get package:
 ```
-curl -L 'https://github.com/openssl/openssl/archive/refs/tags/openssl-3.1.3.tar.gz' >openssl-3.1.3.tar.gz
-tar -xzf openssl-3.1.3.tar.gz
+curl -L 'https://github.com/openssl/openssl/archive/refs/tags/openssl-3.1.4.tar.gz' >openssl-3.1.4.tar.gz
+tar -xzf openssl-3.1.4.tar.gz
 ```
 
 - Install (here gcc 13 is used):
 ```
 export CC='gcc-13'
 export CXX='g++-13'
-cd openssl-openssl-3.1.3
+cd openssl-openssl-3.1.4
 ./config --prefix=${HOME}/sol-srv/lib/openssl --openssldir=${HOME}/sol-srv/lib/openssl -static
 make -j $(($(nproc)+2))
 make install_sw
@@ -55,12 +55,12 @@ New releases: https://github.com/openssl/openssl/tags
 
 ## ACE installation
 
-Example for ACE 7.1.1, installation in "~/sol-srv/lib/ace":
+Example for ACE 7.1.2, installation in "~/sol-srv/lib/ace":
 
 - Get package:
 ```
-curl -L 'https://github.com/DOCGroup/ACE_TAO/releases/download/ACE%2BTAO-7_1_1/ACE+TAO-7.1.1.tar.gz' >ACE+TAO-7.1.1.tar.gz
-tar -xzf ACE+TAO-7.1.1.tar.gz
+curl -L 'https://github.com/DOCGroup/ACE_TAO/releases/download/ACE%2BTAO-7_1_2/ACE+TAO-7.1.2.tar.gz' >ACE+TAO-7.1.2.tar.gz
+tar -xzf ACE+TAO-7.1.2.tar.gz
 ```
 
 - Set `ACE_ROOT`:
@@ -81,8 +81,9 @@ add
 add
 
 ```
-include $(ACE_ROOT)/include/makeinclude/platform_linux.GNU
+c++std=c++17
 INSTALL_PREFIX = $(HOME)/sol-srv/lib/ace
+include $(ACE_ROOT)/include/makeinclude/platform_linux.GNU
 ```
 
 - Install (here gcc 13 is used):

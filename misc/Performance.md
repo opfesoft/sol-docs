@@ -1,6 +1,7 @@
 ## RAM Requirements
 
 Minimum: 8GB
+
 Recommended: 16GB
 
 ## Waypoint movement and performance
