@@ -25,8 +25,8 @@ TODOs: common, low prio: [cosmetic](TODO_cosmetic.md), [dungeon](TODO_dungeon.md
 | sol@b91e10f44386aceea4198916e2bc9e686ae93b9e | 2023-10-10 |      | verify/rework SQL script |
 | sol@214948bafbeb0cf36ea14267e3d9d5d86609b128 | 2023-10-10 |      | verify/rework SQL script |
 | sol@a9456f9123157f474e927bdfdfeb76cf9e870017 | 2023-10-10 |      | verify/rework SQL script |
-| sol@96d0675624f3cb23e40215eebaefd60a70dd6756 | 2023-10-10 |      | verify/rework SQL script |
-| sol@82ae20af1d66a79d17a4a35b0c4fe25c247df3e2 | 2023-10-10 |      | verify/rework SQL script |
+| sol@96d0675624f3cb23e40215eebaefd60a70dd6756 | 2023-10-10 | X    | verify/rework SQL script; done: sol@9e440fa9f5e1ffcef06fc729aca3df202eba81d5 |
+| sol@82ae20af1d66a79d17a4a35b0c4fe25c247df3e2 | 2023-10-10 | X    | verify/rework SQL script; done: sol@b87f4cd09283d9cc3c71ee6afcb9ba45bcfa833d |
 | sol@088b85d220f821d4546887ece74cfd92d470e545 | 2023-10-10 | X    | verify/rework SQL script; done: sol@034565364a9eb5dc2deb9bcfed0e1c34ef820d8c |
 | sol@c2f03441c87329b6f8467cd2a3c0d9ac3328034f | 2023-10-10 |      | verify IDs (at least one of them is wrong: 181282); low prio (minor issue) |
 | sol@aa0c94c83fef339b90db3e99e1356c96f4790198 | 2023-10-10 | X    | verify/rework SQL script; done: sol@121bde301665ef92a8d5003a68ce9067e4668c2b |
