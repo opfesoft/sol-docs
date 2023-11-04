@@ -2,6 +2,10 @@ TODOs: common, low prio: [cosmetic](TODO_cosmetic.md), [dungeon](TODO_dungeon.md
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@17a40ff927b189c0c4abbf113620db765c426e2a | 2023-11-02 |      | verify/rework SQL script |
+| sol@9c09ddc3df0c7decc38b1e658e27a7c38b912c09 | 2023-11-02 |      | verify/rework SQL script (Desperate Defense already fixed, see 5351f38c4c043a7051398b52e10af2bb9c4d10f6) |
+| sol@bc688c2a51827030f50fae84b5ca92edd272f129 | 2023-11-02 |      | verify changes |
+| sol@9e10d1852e9fb4139d433dd59047dacda85ea464 | 2023-11-02 |      | verify/rework SQL script |
 | sol@13e00925538be38f7f9f854e66d484c7e6661580 | 2023-10-29 |      | verify/rework SQL script |
 | sol@0679789120c1622100735581b35914033a925120 | 2023-10-29 |      | verify changes |
 | sol@b2e492d2e24b531a25bd8399977309b7eff3884a | 2023-10-29 |      | verify/rework SQL script |
@@ -24,7 +28,7 @@ TODOs: common, low prio: [cosmetic](TODO_cosmetic.md), [dungeon](TODO_dungeon.md
 | sol@7d6a578892a6be892248d989eeb96284b0014b6c | 2023-10-12 |      | verify/rework SQL script |
 | sol@b91e10f44386aceea4198916e2bc9e686ae93b9e | 2023-10-10 |      | verify/rework SQL script |
 | sol@214948bafbeb0cf36ea14267e3d9d5d86609b128 | 2023-10-10 |      | verify/rework SQL script |
-| sol@a9456f9123157f474e927bdfdfeb76cf9e870017 | 2023-10-10 |      | verify/rework SQL script |
+| sol@a9456f9123157f474e927bdfdfeb76cf9e870017 | 2023-10-10 | X    | verify/rework SQL script; done: sol@73f8bcc56b33c271fc27108dd14181ee549a5978 |
 | sol@96d0675624f3cb23e40215eebaefd60a70dd6756 | 2023-10-10 | X    | verify/rework SQL script; done: sol@9e440fa9f5e1ffcef06fc729aca3df202eba81d5 |
 | sol@82ae20af1d66a79d17a4a35b0c4fe25c247df3e2 | 2023-10-10 | X    | verify/rework SQL script; done: sol@b87f4cd09283d9cc3c71ee6afcb9ba45bcfa833d |
 | sol@088b85d220f821d4546887ece74cfd92d470e545 | 2023-10-10 | X    | verify/rework SQL script; done: sol@034565364a9eb5dc2deb9bcfed0e1c34ef820d8c |
