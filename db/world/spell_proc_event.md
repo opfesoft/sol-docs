@@ -99,7 +99,7 @@ A bitmask controlling what events trigger the spell. To combine possible events,
 | Flag     | Name                            | Bit       | Comment                                                                               |
 |----------|---------------------------------|-----------|---------------------------------------------------------------------------------------|
 | 0        | PROC_EX_NONE                    | 0x0000000 | If none can trigger on Hit/Crit only (passive spells MUST defined by SpellFamily flag) |
-| 1        | PROC_EX_NORMAL_HIT              | 0x0000001 | If set only from normal hit (only damage spells)                                      |
+| 1        | PROC_EX_NORMAL_HIT              | 0x0000001 | If set only from normal hit (only damage spells); also includes partial blocks        |
 | 2        | PROC_EX_CRITICAL_HIT            | 0x0000002 |                                                                                       |
 | 4        | PROC_EX_MISS                    | 0x0000004 |                                                                                       |
 | 8        | PROC_EX_RESIST                  | 0x0000008 |                                                                                       |

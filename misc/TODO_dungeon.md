@@ -156,7 +156,7 @@ TODOs: [common](TODO.md), low prio: [cosmetic](TODO_cosmetic.md), dungeon, [even
 | sol@e3e321bf2ab9148de9e18efac2c18fa2aafe3933 | 2023-03-22 |      | verify/rework SQL script (Arcatraz, Mechanar) |
 | sol@80ac0c958db4dd964c1d22ec29b7ec45f1078dac | 2023-03-21 |      | verify changes (Naxxramas) |
 | sol@4512907c3cd78ce4a933a2a4ddb0a1288e4b53f0 | 2023-03-21 |      | verify/rework SQL script (also see sol@ca26ef87f5443a7f53da8790de5e30df711d8bc3) (Mechanar) |
-| sol@04d360bb81707b613ea9d440ff7cfc812ed65ddb | 2023-03-21 |      | verify/rework SQL script (also see sol@85a8320efe20e4e9a1cb0c14bf85c1056ab00ceb, sol@10dab22f3411c9b967a330ca64d7a684bf9de0f1, sol@9f50dbc6d39201bb8c77c7bd92722f1fd9f2c7cd) (Arcatraz) |
+| sol@04d360bb81707b613ea9d440ff7cfc812ed65ddb | 2023-03-21 |      | verify/rework SQL script (also see sol@85a8320efe20e4e9a1cb0c14bf85c1056ab00ceb, sol@10dab22f3411c9b967a330ca64d7a684bf9de0f1, sol@9f50dbc6d39201bb8c77c7bd92722f1fd9f2c7cd, sol@9184256afdc82d8d48444d84174520afbf662f0d) (Arcatraz) |
 | sol@9703900182d1b1331555fba778dc96f992da2e22 | 2023-03-20 |      | verify/rework SQL script (Arcatraz) |
 | sol@7b72d6fa9318cd54508579aa76b06d71162930bc | 2023-03-20 |      | verify/rework SQL script (Mechanar) |
 | sol@00dbf481143c294a3da1bb1447a0b38e63232755 | 2023-03-20 |      | verify/rework SQL script (also see sol@9eb539a5af165820ae8b75ce21834fa698cf96c1, sol@af05a8ba6a43c8ac52144ac8dafa28d5d1e2e188) (Arcatraz) |
