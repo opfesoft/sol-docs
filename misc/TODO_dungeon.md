@@ -2,6 +2,12 @@ TODOs: [common](TODO.md), low prio: [cosmetic](TODO_cosmetic.md), dungeon, [even
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@3c8adc71cdbd178453f597649abe75b5bfc700d3 | 2022-11-12 |      | verify changes (Zul'Gurub) |
+| sol@e1aa26f92d0e54c98b781e82f5050634d53df286 | 2023-11-11 |      | verify changes (Serpentshrine Cavern) |
+| sol@32ff556a99358a92f912d6f6d569492f82eac48d | 2023-11-11 |      | verify changes (Serpentshrine Cavern) |
+| sol@203536526cf1d025d6216c24594746b8b8081222 | 2022-11-11 |      | verify changes (The Eye) |
+| sol@2ac6d8669469087c48f4e38fabf4ab3f0e67302c | 2023-11-11 |      | verify/rework SQL script (Serpentshrine Cavern) |
+| sol@896e7c56563f163bc81d7f1b30add8fa26ad306e | 2022-11-11 |      | verify changes (Zul'Gurub) |
 | sol@632b55faa5598ea0770b2ffeae8e007a44769d90 | 2023-10-25 |      | verify changes (Icecrown Citadel) |
 | sol@d2a3683210a1c3242df2b582022375d95c65aba6 | 2023-10-25 |      | verify/rework SQL script (Karazhan) |
 | sol@4e41a02be2dc9b9dafbda44019c596d50c19b7cb | 2023-10-22 |      | verify changes (Karazhan) |
@@ -16,7 +22,7 @@ TODOs: [common](TODO.md), low prio: [cosmetic](TODO_cosmetic.md), dungeon, [even
 | sol@91c6bdd540b1825da1035b8e3cdfcc4d92a8f5c2 | 2023-10-07 |      | verify changes (Upper Blackrock Spire) |
 | sol@003398a8945a32708a01dee4d504304f52ff370e | 2023-10-01 |      | verify/rework SQL script (Serpentshrine Cavern) |
 | sol@62c6b158e59a0eb29f860f0f1b7f7a2f672754e2 | 2023-10-01 |      | verify changes (Serpentshrine Cavern) |
-| sol@57f5c6fb0c80465cd343f2cd7418e81a03fbd275 | 2023-10-01 |      | verify changes (Serpentshrine Cavern) |
+| sol@57f5c6fb0c80465cd343f2cd7418e81a03fbd275 | 2023-10-01 |      | verify changes (also see sol@8f81a08455ab0f7f6b251ec0628814e047512a05) (Serpentshrine Cavern) |
 | sol@c17a6c0a0e14f00952f798137873825eb4122ef8 | 2023-10-01 |      | verify changes (Karazhan) |
 | sol@4b85e3ed98c674fbb165bc9a5c24a6514cbb7d0d | 2023-09-27 |      | verify changes (also see sol@bf5878f8dcf44fe3b5b854c7a220699c4461727b) (Serpentshrine Cavern) |
 | sol@8d7461eb2cbeb92f534e32723eb088afe2504283 | 2023-09-27 |      | verify changes (Serpentshrine Cavern) |

@@ -4038,7 +4038,13 @@ If the start position distance is far away the circle movement speed will be dec
 <tr>
 <td><p>SMART_TARGET_VICTIM</p></td>
 <td><p>2</p></td>
-<td><p><br />
+<td><p>>maxDist3D</p></td>
+<td><p>restrictType - bitmask:<br />
+1 - player only<br />
+2 - threat list size <= restrictValue<br />
+4 - threat list size >= restrictValue</p></td>
+<td><p>powerType</p></td>
+<td><p>restrictValue</p></td>
 </p></td>
 <td><p><br />
 </p></td>
@@ -4048,20 +4054,15 @@ If the start position distance is far away the circle movement speed will be dec
 </p></td>
 <td><p><br />
 </p></td>
-<td><p><br />
-</p></td>
-<td><p><br />
-</p></td>
-<td><p><br />
-</p></td>
-<td><p>Our current target. (ie: highest aggro)</p></td>
+<td><p>Our current target. (ie: highest aggro). Power type: 1 - Mana, 2 - Rage, 3 - Focus, 4 - Energy, 5 - Happiness, 6 - Rune, 7 - Runic Power</p></td>
 </tr>
 <tr>
 <td><p>SMART_TARGET_HOSTILE_SECOND_AGGRO</p></td>
 <td><p>3</p></td>
-<td><p>maxDist</p></td>
-<td><p>playerOnly (0/1)</p></td>
+<td><p>maxDist3D</p></td>
+<td><p>restrictType (see above)</p></td>
 <td><p>powerType</p></td>
+<td><p>restrictValue</p></td>
 <td><p><br />
 </p></td>
 <td><p><br />
@@ -4070,18 +4071,15 @@ If the start position distance is far away the circle movement speed will be dec
 </p></td>
 <td><p><br />
 </p></td>
-<td><p><br />
-</p></td>
-<td><p>Second highest aggro. Power type: 1 - Mana, 2 - Rage, 3 - Focus, 4 - Energy, 5 - Happiness, 6 - Rune, 7 - Runic Power</p></td>
+<td><p>Second highest aggro. Power type: see above</p></td>
 </tr>
 <tr>
 <td><p>SMART_TARGET_HOSTILE_LAST_AGGRO</p></td>
 <td><p>4</p></td>
-<td><p>maxDist</p></td>
-<td><p>playerOnly (0/1)</p></td>
+<td><p>maxDist3D</p></td>
+<td><p>restrictType (see above)</p></td>
 <td><p>powerType</p></td>
-<td><p><br />
-</p></td>
+<td><p>restrictValue</p></td>
 <td><p><br />
 </p></td>
 <td><p><br />
@@ -4095,11 +4093,10 @@ If the start position distance is far away the circle movement speed will be dec
 <tr>
 <td><p>SMART_TARGET_HOSTILE_RANDOM</p></td>
 <td><p>5</p></td>
-<td><p>maxDist</p></td>
-<td><p>playerOnly (0/1)</p></td>
+<td><p>maxDist3D</p></td>
+<td><p>restrictType (see above)</p></td>
 <td><p>powerType</p></td>
-<td><p><br />
-</p></td>
+<td><p>restrictValue</p></td>
 <td><p><br />
 </p></td>
 <td><p><br />
@@ -4113,10 +4110,10 @@ If the start position distance is far away the circle movement speed will be dec
 <tr>
 <td><p>SMART_TARGET_HOSTILE_RANDOM_NOT_TOP</p></td>
 <td><p>6</p></td>
-<td><p>maxDist</p></td>
-<td><p>playerOnly (0/1)</p></td>
+<td><p>maxDist3D</p></td>
+<td><p>restrictType (see above)</p></td>
 <td><p>powerType</p></td>
-<td><p><br />
+<td><p>restrictValue</p></td>
 </p></td>
 <td><p><br />
 </p></td>

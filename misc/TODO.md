@@ -2,7 +2,10 @@ TODOs: common, low prio: [cosmetic](TODO_cosmetic.md), [dungeon](TODO_dungeon.md
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
-| sol@8af077bc3372d87fa059519a0479caefd6274841 | 2023-11-08 |      | verify/rework SQL script; extend SMART\_TARGET\_VICTIM to accept number of units on the threat list and probably also maxDist, playerOnly & powerType |
+| sol@db274846c22e60280557c4d81d482dbea77b300a | 2023-11-11 |      | verify/rework SQL script |
+| sol@7265231290fe2998d2e1fdb7ed21e90e78e830fc | 2023-11-09 |      | verify/rework SQL script |
+| sol@6ab4947e40d0e6870b1e4d9ea4dadd4e4c7437ad | 2023-11-08 |      | verify changes (also include sol@f3a5bad1d6559bb732c554e6b9a107cf8b7cd4b4, sol@9fe6bef6c05420c819e8eb849b5040f3f8c49b26, sol@ee2eae7c1b7fa10b8e112a34521995ea6bd83846 |
+| sol@8af077bc3372d87fa059519a0479caefd6274841 | 2023-11-08 | X    | verify/rework SQL script; extend SMART\_TARGET\_VICTIM to accept number of units on the threat list and probably also maxDist, playerOnly & powerType; done: sol@15b67d98e33ef92f644fa7dd14cbe95a3439a965 |
 | sol@7d75456f8ef20d842fc5fe42e3322bc6c84521d7 | 2023-11-05 |      | verify/rework SQL script |
 | sol@17a40ff927b189c0c4abbf113620db765c426e2a | 2023-11-02 | X    | verify/rework SQL script; update: won't take over, Sol is not affected by this issue |
 | sol@9c09ddc3df0c7decc38b1e658e27a7c38b912c09 | 2023-11-02 |      | verify/rework SQL script (Desperate Defense already fixed, see 5351f38c4c043a7051398b52e10af2bb9c4d10f6) |
@@ -49,7 +52,7 @@ TODOs: common, low prio: [cosmetic](TODO_cosmetic.md), [dungeon](TODO_dungeon.md
 | sol@7d59378b6bb8547b0756632ce00af095e8ff446c | 2023-09-17 | X    | verify/rework SQL script; done: sol@18fc489a72f69529a2517fcb67a66d8ba781a47f |
 | sol@71de2e5c263e16905f548427c1c8e899bb6c09a3 | 2023-09-17 |      | take over if needed |
 | sol@8ba8f0fe9e275dbc7c4a5f63b46d6749b532ec52 | 2023-09-14 |      | take over if needed |
-| sol@e4225831324e49d4442afb24920757ee8939d80e | 2023-09-10 |      | take over parts if needed (most of the stuff can be handled using conditions) |
+| sol@e4225831324e49d4442afb24920757ee8939d80e | 2023-09-10 |      | take over parts if needed; update: SMART\_ACTION\_SET\_ORIENTATION\_TARGET not needed anymore, see sol@202b7f60ae48114fd451eb70215c5b2eaf3e11ca; SMARTCAST\_TARGET\_POWER\_MANA not needed anymore, see sol@16810fb2f4a8431b85de924fe32f389cca88e34a; HOSTILE\_RANDOM aura parameter not needed, use conditions instead |
 | sol@122b7a8eb01e94d58b0a189479f2b2aeb4d7f0db | 2023-08-25 | X    | won't take over, just relocate a few mobs to reduce the group size; also enable random movement and take over the WP path for GUID 43911 and add a new one for GUID 43910; done: sol@ae36138748733dadb09374851d8ddce3bebfc0b5 |
 | sol@1702287967bae4b7d4ec2a644aaf82b64102bce9 | 2023-08-24 | X    | verify/rework SQL script; done: sol@9efd84b368e7b4491cde2a96c39ccb3c41aac05f |
 | sol@59db3b40ebb8b1cc6bf8b6c8b4cae32403c61bfe | 2023-08-23 | X    | verify/rework SQL script; done: sol@9728b9fa73f385870a86f5d61a861e060148970e |
@@ -59,7 +62,7 @@ TODOs: common, low prio: [cosmetic](TODO_cosmetic.md), [dungeon](TODO_dungeon.md
 | sol@b1e8eda0b02de2483a3d3cc4a76dc447dc97ffb6 | 2023-08-12 | X    | verify/rework SQL script; done: sol@cf9d37ff13881f52423ce07d29217ef0d53d800d |
 | sol@c256d8da55214dac7610e7abea8023e9747a3f70 | 2023-08-11 | X    | won't take over, use SMART\_EVENT\_CHANNEL\_FINISHED instead; done: sol@2dbae40f8676ccc836a1f0412694b310546d22af |
 | sol@1f3282368201265bfd09ac24c2d316f8c9c345b0 | 2023-08-11 | X    | verify/rework SQL script; done: sol@b99f5320e29028b24630d084f18d082ef7fad2ab |
-| sol@0276b141a84487a0d9ee57c2b9f82541b666c566 | 2023-08-06 |      | take over if needed |
+| sol@0276b141a84487a0d9ee57c2b9f82541b666c566 | 2023-08-06 | X    | take over if needed; update: not needed anymore, see sol@16810fb2f4a8431b85de924fe32f389cca88e34a |
 | sol@e08ceb3d8d96e75458d53a5dd00e0018bb25a096 | 2023-08-06 | X    | verify changes; done: sol@69012b2897ec8736f71fe57a0bf30b3f1302539e |
 | sol@c803455071882648f9f183d780b822635f56d723 | 2023-08-06 | X    | verify/rework SQL script; done: sol@5ef54c2cb4132754bbb5cb15d848b9e1f257744a |
 | sol@c50c818cfdb6ae32ec58feb50b72a50a1ff19869 | 2023-08-06 | X    | verify/rework SQL script; done: sol@932aebe1a0ddc61f6cae4f26d5e062806caeaba2 |
