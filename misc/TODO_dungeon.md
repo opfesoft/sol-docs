@@ -2,12 +2,13 @@ TODOs: [common](TODO.md), low prio: [cosmetic](TODO_cosmetic.md), dungeon, [even
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
-| sol@3c8adc71cdbd178453f597649abe75b5bfc700d3 | 2022-11-12 |      | verify changes (Zul'Gurub) |
+| sol@1c1606a7e4351a02c32174018b146370db546829 | 2023-11-12 |      | only take over sleep state; handle sit through SMART\_ACTION\_ACTIVATE\_GOBJECT "use" (The Culling of Stratholme) |
+| sol@3c8adc71cdbd178453f597649abe75b5bfc700d3 | 2023-11-12 |      | verify changes (Zul'Gurub) |
 | sol@e1aa26f92d0e54c98b781e82f5050634d53df286 | 2023-11-11 |      | verify changes (Serpentshrine Cavern) |
 | sol@32ff556a99358a92f912d6f6d569492f82eac48d | 2023-11-11 |      | verify changes (Serpentshrine Cavern) |
-| sol@203536526cf1d025d6216c24594746b8b8081222 | 2022-11-11 |      | verify changes (The Eye) |
+| sol@203536526cf1d025d6216c24594746b8b8081222 | 2023-11-11 |      | verify changes (The Eye) |
 | sol@2ac6d8669469087c48f4e38fabf4ab3f0e67302c | 2023-11-11 |      | verify/rework SQL script (Serpentshrine Cavern) |
-| sol@896e7c56563f163bc81d7f1b30add8fa26ad306e | 2022-11-11 |      | verify changes (Zul'Gurub) |
+| sol@896e7c56563f163bc81d7f1b30add8fa26ad306e | 2023-11-11 |      | verify changes (Zul'Gurub) |
 | sol@632b55faa5598ea0770b2ffeae8e007a44769d90 | 2023-10-25 |      | verify changes (Icecrown Citadel) |
 | sol@d2a3683210a1c3242df2b582022375d95c65aba6 | 2023-10-25 |      | verify/rework SQL script (Karazhan) |
 | sol@4e41a02be2dc9b9dafbda44019c596d50c19b7cb | 2023-10-22 |      | verify changes (Karazhan) |
