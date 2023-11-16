@@ -2,13 +2,15 @@ TODOs: common, low prio: [cosmetic](TODO_cosmetic.md), [dungeon](TODO_dungeon.md
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@9b6a67807ddae7b5b4f6ce44f26c563d742b8652 | 2023-11-16 |      | verify/rework SQL script |
+| sol@1bf4d24fd264b51e432b09860df0ecf64422b3e0 | 2023-11-14 |      | verify/rework SQL script |
 | sol@d065733ca33a4593bd983c6ea9c2da756a532da0 | 2023-11-12 |      | verify/rework SQL script |
 | sol@6486f727403c3abe635f5b3816f44922db29c98a | 2023-11-12 |      | verify changes |
 | sol@ae5bf57dbaa3db4367689aedc84dd3336edcf27b | 2023-11-12 |      | won't take over, use GetItemByPos instead |
 | sol@1d3d3bebb8c855c760c74a40edf294904428b52c | 2023-11-12 |      | verify/rework SQL script |
 | sol@98d42e5748fbbb298b12773eb7018af02e8fb720 | 2023-11-12 |      | verify/rework SQL script |
 | sol@67811a6369b27d0ce770a34756f89c871cf19f0f | 2023-11-12 |      | won't take over, use CONDITION\_SOURCE\_TYPE\_SPELL instead; also fix SAI for creature ID 17226 |
-| sol@8eef2688680a0e8805bb7cd05dc88f8ef985b215 | 2023-11-12 |      | verify/rework SQL script |
+| sol@8eef2688680a0e8805bb7cd05dc88f8ef985b215 | 2023-11-12 |      | verify/rework SQL script (also see sol@aae5a1919f0d8207982a3513338e8f5a5c48b1bd) |
 | sol@db274846c22e60280557c4d81d482dbea77b300a | 2023-11-11 |      | verify/rework SQL script |
 | sol@7265231290fe2998d2e1fdb7ed21e90e78e830fc | 2023-11-09 |      | verify/rework SQL script |
 | sol@6ab4947e40d0e6870b1e4d9ea4dadd4e4c7437ad | 2023-11-08 | X    | verify changes (also include sol@f3a5bad1d6559bb732c554e6b9a107cf8b7cd4b4, sol@9fe6bef6c05420c819e8eb849b5040f3f8c49b26, sol@ee2eae7c1b7fa10b8e112a34521995ea6bd83846); done: sol@622cd289f7318572088ba4793c0ad5db18b7e1fb |
@@ -37,8 +39,8 @@ TODOs: common, low prio: [cosmetic](TODO_cosmetic.md), [dungeon](TODO_dungeon.md
 | sol@fc5be2f98eca9fe5e2867563916dcf816e929d8f | 2023-10-16 |      | verify/rework SQL script |
 | sol@e30718db363cb1948f79a8d2be2fd8a6dfcd3b03 | 2023-10-16 | X    | verify changes; done: sol@91c6785fa5037bdff93fb4259be1cb00b28d7c08 |
 | sol@314cabd66747409659f0771b6ead3eaf63f0a651 | 2023-10-15 |      | verify/rework SQL script |
-| sol@7d6a578892a6be892248d989eeb96284b0014b6c | 2023-10-12 |      | verify/rework SQL script |
-| sol@b91e10f44386aceea4198916e2bc9e686ae93b9e | 2023-10-10 |      | verify/rework SQL script; update: wrong, won't take over; only GUID 18587 should stay energized all the time |
+| sol@7d6a578892a6be892248d989eeb96284b0014b6c | 2023-10-12 | X    | verify/rework SQL script; done: sol@2c4c10f9ee169af9df2df3e2c0e9f734edc2a5c4 |
+| sol@b91e10f44386aceea4198916e2bc9e686ae93b9e | 2023-10-10 | X    | verify/rework SQL script; update: wrong, won't take over; only GUID 18587 should stay energized all the time; done: sol@cf06b1dafe7efc07aacdb0cef20d91024bb6fc87 |
 | sol@214948bafbeb0cf36ea14267e3d9d5d86609b128 | 2023-10-10 | X    | verify/rework SQL script; done: sol@1873877e6b01da6e1180a86ac0822a7feab6d096 |
 | sol@a9456f9123157f474e927bdfdfeb76cf9e870017 | 2023-10-10 | X    | verify/rework SQL script; done: sol@73f8bcc56b33c271fc27108dd14181ee549a5978 |
 | sol@96d0675624f3cb23e40215eebaefd60a70dd6756 | 2023-10-10 | X    | verify/rework SQL script; done: sol@9e440fa9f5e1ffcef06fc729aca3df202eba81d5 |
