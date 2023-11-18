@@ -2,14 +2,16 @@ TODOs: common, low prio: [cosmetic](TODO_cosmetic.md), [dungeon](TODO_dungeon.md
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@69c1ed2e99ee924b0aa5c5783db36455534acf85 | 2023-11-16 |      | SPELL\_ATTR0\_CU\_SINGLE\_AURA\_STACK |
+| sol@1d836eddd37535136e9c8c57dd6409fa41ae945f | 2023-11-16 |      | verify/rework SQL script |
 | sol@9b6a67807ddae7b5b4f6ce44f26c563d742b8652 | 2023-11-16 |      | verify/rework SQL script |
 | sol@1bf4d24fd264b51e432b09860df0ecf64422b3e0 | 2023-11-14 |      | verify/rework SQL script |
 | sol@d065733ca33a4593bd983c6ea9c2da756a532da0 | 2023-11-12 |      | verify/rework SQL script |
 | sol@6486f727403c3abe635f5b3816f44922db29c98a | 2023-11-12 |      | verify changes |
-| sol@ae5bf57dbaa3db4367689aedc84dd3336edcf27b | 2023-11-12 |      | won't take over, use GetItemByPos instead |
+| sol@ae5bf57dbaa3db4367689aedc84dd3336edcf27b | 2023-11-12 | X    | won't take over, use GetItemByPos instead; done: sol@c677cb5f147213c8b728d19a5cdf4fa44d2847da |
 | sol@1d3d3bebb8c855c760c74a40edf294904428b52c | 2023-11-12 |      | verify/rework SQL script |
 | sol@98d42e5748fbbb298b12773eb7018af02e8fb720 | 2023-11-12 |      | verify/rework SQL script |
-| sol@67811a6369b27d0ce770a34756f89c871cf19f0f | 2023-11-12 |      | won't take over, use CONDITION\_SOURCE\_TYPE\_SPELL instead; also fix SAI for creature ID 17226 |
+| sol@67811a6369b27d0ce770a34756f89c871cf19f0f | 2023-11-12 | X    | won't take over, use CONDITION\_SOURCE\_TYPE\_SPELL instead; also fix SAI for creature ID 17226; done: sol@7804f0ddf985388a444101d8c27d32424ff5f942 |
 | sol@8eef2688680a0e8805bb7cd05dc88f8ef985b215 | 2023-11-12 |      | verify/rework SQL script (also see sol@aae5a1919f0d8207982a3513338e8f5a5c48b1bd) |
 | sol@db274846c22e60280557c4d81d482dbea77b300a | 2023-11-11 |      | verify/rework SQL script |
 | sol@7265231290fe2998d2e1fdb7ed21e90e78e830fc | 2023-11-09 |      | verify/rework SQL script |

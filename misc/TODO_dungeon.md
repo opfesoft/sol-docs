@@ -2,6 +2,8 @@ TODOs: [common](TODO.md), low prio: [cosmetic](TODO_cosmetic.md), dungeon, [even
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@10500596ea97e309939eec103c6204bce9603c6b | 2023-11-18 |      | verify/rework SQL script (Sethekk Halls) |
+| sol@d05929b862cbf6002797e96f241928fed1105741 | 2023-11-18 |      | verify changes (Shadow Labyrinth) |
 | sol@81bd9b7ba48d1a3ffe7b212165bcf65fe57a87e1 | 2023-11-16 |      | verify changes (Karazhan) |
 | sol@b0cf308be22a147051c35088223d12333636f51e | 2023-11-15 |      | verify changes (also see sol@01c21539f903bbfc6cacdbdf9b5d11d0167040c6) (Serpentshrine Cavern) |
 | sol@c4722de46aae1b6e695768ffc965315c5a19bc2e | 2023-11-15 |      | verify changes (Karazhan) |

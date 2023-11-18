@@ -2,6 +2,10 @@ TODOs: [common](TODO.md), low prio: [cosmetic](TODO_cosmetic.md), [dungeon](TODO
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@606f51dd377dda4db58c334f382ef66c9005808b | 2023-11-17 |      | keep as reference; take over single values if needed; won't blindly take over such mass updates (don't care about sniffs) (Midsummer Fire Festival) |
+| sol@dbac76754280b2cf06aa05436850032d0de4d0da | 2023-11-17 |      | keep as reference; take over single values if needed; won't blindly take over such mass updates (don't care about sniffs) (Midsummer Fire Festival) |
+| sol@339f28d6bb999e0486eea60de6c2d70f5adfc2c2 | 2023-11-17 |      | take over position if needed (also see sol@cfd414b8f0b121b53d6d3d5d9c687b4e2aedfc0c, sol@b70ac0edc5806a1f3628b28db1fef0ab636621c7, sol@45114a33ee1bdca742c5d499b3f6f48d34a41fd9, sol@ac3b29041e3c41f4c77bb72baa59c69381d25536, sol@fea988a49255cd8e96a3fe97dedda998d7c6b9a1, sol@25ebeb856ee5d7dc719a02408449f3714d4c0cc2, sol@ec2dc733b156a02abde44c0d37d25dde782834f7, sol@ab59ec990186c7210f030aa0679e20d401b09581, sol@1e56e0f8406dc97f174b23ffcc6addabdb583f1c, sol@b9dcd3e80244d48e11242a3492e4ff87c49c6754, sol@a78c75100424e87b104144d79827512af42068d1, sol@6813868e2c1684149791337fbba2c77723de1112, sol@c097ffdbd0935aeba95b813cd0886d089c1f52c1, sol@0191eed34f64fb7526d170dbaa807b4460217c4b, sol@52854a03fa5976afcdd156aba8920f55f266b2c9) (Midsummer Fire Festival) |
+| sol@24c78215b7c90b08e3b55d11e88d75234491d7de | 2023-11-16 |      | keep as reference; take over single values if needed; won't blindly take over such mass updates (don't care about sniffs) (Midsummer Fire Festival) |
 | sol@2e5d5f2dc73e64aba29429903a152f6047eb4a6b | 2023-11-10 |      | verify changes (needs sol@ef09d4b63f9e3eb5221c1234c87a28c10c541a5d) (several holiday events) |
 | sol@cb483d124f772063f7f1850d53616155c6639ce5 | 2023-11-09 |      | verify changes (Midsummer Fire Festival) |
 | sol@d9094187066188c0d9de00b091aeaa0b0fce865b | 2023-10-22 |      | keep as reference; take over single values if needed; won't blindly take over such mass updates (don't care about sniffs) (Midsummer Fire Festival) |
