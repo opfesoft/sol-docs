@@ -2,6 +2,10 @@ TODOs: common, low prio: [cosmetic](TODO_cosmetic.md), [dungeon](TODO_dungeon.md
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@c138d0c0d530a355b465fc3e129e04c1fbb466dc | 2023-11-20 |      | verify/rework SQL script |
+| sol@8b4596e572e0c1232407d0773b16ac7959c4d98b | 2023-11-19 |      | verify/rework SQL script |
+| sol@9c225fca582d265f71b41752942fe39ca0bcfa07 | 2023-11-19 |      | verify/rework SQL script |
+| sol@4bf20ffde4216da29e6d3127cc952d93759e0eb4 | 2023-11-19 |      | take over if needed |
 | sol@69c1ed2e99ee924b0aa5c5783db36455534acf85 | 2023-11-16 |      | SPELL\_ATTR0\_CU\_SINGLE\_AURA\_STACK |
 | sol@1d836eddd37535136e9c8c57dd6409fa41ae945f | 2023-11-16 |      | verify/rework SQL script |
 | sol@9b6a67807ddae7b5b4f6ce44f26c563d742b8652 | 2023-11-16 |      | verify/rework SQL script |
@@ -29,18 +33,18 @@ TODOs: common, low prio: [cosmetic](TODO_cosmetic.md), [dungeon](TODO_dungeon.md
 | sol@1262bbd237fb424e3ba53950513bcd65ab3ef378 | 2023-10-22 |      | verify changes |
 | sol@945d7c6afef52bfdc677d3b06b1b4c27e5d86ef1 | 2023-10-22 |      | verify changes |
 | sol@968bc8d47b23b2d3e0cbe8658e6d5c90340bbef6 | 2023-10-22 | X    | won't take over, just enable rotation (also for the other signposts nearby); done: sol@ac961312757996e8df948186ea5c1f50529d07a7 |
-| sol@3228d7d762fd3490d8b0dbf72a8a5df2ff75199a | 2023-10-21 |      | verify/rework SQL script |
-| sol@228f6635c0acba196bf1225033f17cdf70bf4357 | 2023-10-21 |      | verify changes |
+| sol@3228d7d762fd3490d8b0dbf72a8a5df2ff75199a | 2023-10-21 | X    | verify/rework SQL script; done: sol@62656011f0b13eee335d14f5c9a2cc6930261f04 |
+| sol@228f6635c0acba196bf1225033f17cdf70bf4357 | 2023-10-21 | X    | verify changes; done: sol@e7cd9507309ce4b26488a8162d6e413fe3ce1c0b |
 | sol@359985dd4ca277f8dd2d22db814f789664227c0b | 2023-10-21 | X    | take over if needed; support all GO states (just use GO state + 1 for the parameter); done: sol@c0ba10d0179a3cba2edd7a2ad11f166e763f6408 |
-| sol@e3592f7de7bcf8893061ebc1284ce0436b95be40 | 2023-10-20 |      | verify changes |
+| sol@e3592f7de7bcf8893061ebc1284ce0436b95be40 | 2023-10-20 | X    | verify changes; done: sol@1995036c774bf50c37c65e78dc7c26d3cfcf317e |
 | sol@6bb16b0c7d6bc780f2f0bb8678f0f5f20167af05 | 2023-10-20 |      | remove the flag only for GUID 66696; adjust all associated scripts to be able to handle the missing NPC; low prio (minor issue) |
 | sol@1b2593d763d692017f73487b6b2daaa72a702523 | 2023-10-20 | X    | won't take over, fix rep requirements in quest\_template\_addon instead (also for the follow-up quests); done: sol@27ece8351936170f0feadec008602ef1a15ce746 |
 | sol@c7324f30662d389949ff376e3c0012368a6a3523 | 2023-10-19 |      | take over if needed |
 | sol@a39175bc3b700ab1c9d4812ba0cefa3cc6744670 | 2023-10-19 | X    | won't take over, only fix the aura script; done: sol@78c0b5172e6a09d2d587d5d22b2cead7e37b3f00 |
-| sol@8e12029456c5e8113b5a8e3eb1e7cc308874fa50 | 2023-10-17 |      | verify/rework SQL script |
-| sol@fc5be2f98eca9fe5e2867563916dcf816e929d8f | 2023-10-16 |      | verify/rework SQL script |
+| sol@8e12029456c5e8113b5a8e3eb1e7cc308874fa50 | 2023-10-17 | X    | verify/rework SQL script; update: not needed, see sol@2ca5f468a446a06293ba39d794f4a555449539ee |
+| sol@fc5be2f98eca9fe5e2867563916dcf816e929d8f | 2023-10-16 | X    | verify/rework SQL script; done: sol@abd4b83480657d8cf35aa3854a48d189968e2f82 |
 | sol@e30718db363cb1948f79a8d2be2fd8a6dfcd3b03 | 2023-10-16 | X    | verify changes; done: sol@91c6785fa5037bdff93fb4259be1cb00b28d7c08 |
-| sol@314cabd66747409659f0771b6ead3eaf63f0a651 | 2023-10-15 |      | verify/rework SQL script |
+| sol@314cabd66747409659f0771b6ead3eaf63f0a651 | 2023-10-15 | X    | verify/rework SQL script; done: sol@32610791617fbaf79077554fc91786c853cfe5a0 |
 | sol@7d6a578892a6be892248d989eeb96284b0014b6c | 2023-10-12 | X    | verify/rework SQL script; done: sol@2c4c10f9ee169af9df2df3e2c0e9f734edc2a5c4 |
 | sol@b91e10f44386aceea4198916e2bc9e686ae93b9e | 2023-10-10 | X    | verify/rework SQL script; update: wrong, won't take over; only GUID 18587 should stay energized all the time; done: sol@cf06b1dafe7efc07aacdb0cef20d91024bb6fc87 |
 | sol@214948bafbeb0cf36ea14267e3d9d5d86609b128 | 2023-10-10 | X    | verify/rework SQL script; done: sol@1873877e6b01da6e1180a86ac0822a7feab6d096 |
@@ -710,7 +714,7 @@ TODOs: common, low prio: [cosmetic](TODO_cosmetic.md), [dungeon](TODO_dungeon.md
 | sol@4fb2dc1fc4ea37f58251cb3618114f6820689fca | 2021-09-18 |      | take over if needed |
 | sol@a02b9ef7eb82b7063d05c5f8a9c22a8425af43f4 | 2021-09-17 | X    | verify/rework SQL script; done: sol@f7252917644fd576e91af114ef166ebbfb16a29a |
 | sol@f6f18cb5386fbe9afc0059bd4f0d61a566394e7f | 2021-09-17 | X    | verify changes; update: wrong, won't take over: according to the 2.0.3 patch notes the combo points should not reset until a combo point is applied to a different target; it does not seem that this has been changed until 3.3.5 |
-| sol@4dc642d530e3d4aa66f9b3a6bbb941392553d7b9 | 2021-09-16 |      | take over if needed; also see sol@d464ee7083f6321aa4d33c3f68c2432b247c38e0, sol@f59ee4ef7cc455fc300ed0741ac635c8e1f03fe3, sol@8aa331b432f04334ba2745fd1ce807efc4b458ef |
+| sol@4dc642d530e3d4aa66f9b3a6bbb941392553d7b9 | 2021-09-16 |      | take over if needed; also see sol@d464ee7083f6321aa4d33c3f68c2432b247c38e0, sol@f59ee4ef7cc455fc300ed0741ac635c8e1f03fe3, sol@8aa331b432f04334ba2745fd1ce807efc4b458ef, sol@e3a7613f56b098a997abe40c9ddc0b60fff4cb0d |
 | sol@f1e9b674c7daa672504d6713c5bba8a2b82c1841 | 2021-09-16 | X    | verify/rework SQL script; done: sol@fbf5c469265e7a5c691590459a110bd7cb01eda2 |
 | sol@7406a01ac303ef1ee68b698b9c4ebf2c6b1666a2 | 2021-09-13 |      | take over parts if needed, also see sol@107658ebbcf43e2c398b373acd1b26321e20a633, sol@d6118de10f66deb72a9a82ae1e2e2373950de02d, sol@60fb2c38f84778c74bbaa495a23e2a8f618f07ee, sol@3aadaa6d0ffa1ee0e0244601dd1cf66b41fea337, sol@702573038e89d2c7f446fad467261c75b9f90f82, sol@89f0c42c0e1479c0a77134ad2287548a78ee2e19, sol@a6a85c0d5d0a43abf0915e112b83b747a9f884de, sol@4e70e604279174048ace535bf93a38b59a899c19, sol@a0002afe07363c8ae4b4cb0bd4d79fb748df85f9, sol@ab4e95cc208ab694e0dd439391a5496b60861130, sol@68d026e8acb057ec1b2fad27799ebd5f8287b791 |
 | sol@009ba56898094055847a6798bea9dc7d01749760 | 2021-09-13 | X    | verify/rework SQL script; done: sol@b17eef44feacfeb401fc11af5472126e20878647 |
