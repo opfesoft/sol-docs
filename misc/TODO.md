@@ -2,6 +2,10 @@ TODOs: common, low prio: [cosmetic](TODO_cosmetic.md), [dungeon](TODO_dungeon.md
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@abf85fb44f66344064bc12b20228652c26b33395 | 2023-11-27 |      | verify changes |
+| sol@f7d7c4feb7a8f9c63bc4c94ebd48f1771d07958a | 2023-11-26 |      | probably take over the destination prediction; low prio (minor issue) |
+| sol@c02cccb87c0f98794c2f2ec3a7b144925fbccaca | 2023-11-23 |      | verify changes |
+| sol@1850c974a4e5f5517b9ae2b3deaf98569db11fa6 | 2023-11-23 |      | verify changes |
 | sol@c138d0c0d530a355b465fc3e129e04c1fbb466dc | 2023-11-20 |      | verify/rework SQL script |
 | sol@8b4596e572e0c1232407d0773b16ac7959c4d98b | 2023-11-19 |      | verify/rework SQL script |
 | sol@9c225fca582d265f71b41752942fe39ca0bcfa07 | 2023-11-19 |      | verify/rework SQL script |
@@ -30,8 +34,8 @@ TODOs: common, low prio: [cosmetic](TODO_cosmetic.md), [dungeon](TODO_dungeon.md
 | sol@0679789120c1622100735581b35914033a925120 | 2023-10-29 |      | verify changes |
 | sol@b2e492d2e24b531a25bd8399977309b7eff3884a | 2023-10-29 |      | verify/rework SQL script |
 | sol@9935e723417f28eff260d345264fc1ea66b5e695 | 2023-10-22 |      | take over if needed |
-| sol@1262bbd237fb424e3ba53950513bcd65ab3ef378 | 2023-10-22 |      | verify changes |
-| sol@945d7c6afef52bfdc677d3b06b1b4c27e5d86ef1 | 2023-10-22 |      | verify changes |
+| sol@1262bbd237fb424e3ba53950513bcd65ab3ef378 | 2023-10-22 |      | verify changes; update: wrong, won't take over; the item should be usable anytime and the summoners should die if used; update event script 13980 to prevent multiple spawns |
+| sol@945d7c6afef52bfdc677d3b06b1b4c27e5d86ef1 | 2023-10-22 | X    | verify changes; done: sol@85a56027688ea9779ded468a59796bc888db67a6 |
 | sol@968bc8d47b23b2d3e0cbe8658e6d5c90340bbef6 | 2023-10-22 | X    | won't take over, just enable rotation (also for the other signposts nearby); done: sol@ac961312757996e8df948186ea5c1f50529d07a7 |
 | sol@3228d7d762fd3490d8b0dbf72a8a5df2ff75199a | 2023-10-21 | X    | verify/rework SQL script; done: sol@62656011f0b13eee335d14f5c9a2cc6930261f04 |
 | sol@228f6635c0acba196bf1225033f17cdf70bf4357 | 2023-10-21 | X    | verify changes; done: sol@e7cd9507309ce4b26488a8162d6e413fe3ce1c0b |

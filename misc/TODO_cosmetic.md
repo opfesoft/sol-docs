@@ -24,7 +24,7 @@ TODOs: [common](TODO.md), low prio: cosmetic, [dungeon](TODO_dungeon.md), [event
 | sol@b3b760ab42d28cc439aa12843c89dda3f416b33e | 2023-02-17 |      | verify/rework SQL script; check the WP paths |
 | sol@7e664b62f49935cfa6b77fac8a2549d9d4015035 | 2023-02-17 |      | verify/rework SQL script; check the WP paths |
 | sol@9dfae7c7c48f4e9ce57c902464bb3c1bda40c440 | 2023-02-16 |      | verify/rework SQL script; check both WP paths |
-| sol@758435632b768d38ae0718ea00aa98550ac67dcd | 2023-02-16 |      | verify/rework SQL script; check the WP paths |
+| sol@758435632b768d38ae0718ea00aa98550ac67dcd | 2023-02-16 | X    | verify/rework SQL script; check the WP paths; done: sol@1f876bec673afa3b7fb051558875246e309a360e, sol@eb6e3ccb36471a7cb9f55f12e0f20bfa07aa7a2e, sol@73352fe506ad0698554eb2fc866eff0389c3a8ab, sol@519e8b294329f72e56fbe3a777af3aaabcc889e1, sol@5ce6d7638100b31b1bbacacd669199a022ef5e49 |
 | sol@858890d070f9f090836dc0a19dcdab0fd3cbbd1e | 2023-02-16 |      | verify/rework SQL script; check the WP paths |
 | sol@b3df45c58a91eb0e3ba313e58fae7829955858fe | 2023-02-16 |      | verify/rework SQL script (also see sol@f84848a95bfb7099e984ec22e0ef145ee9c695d4); check the WP paths |
 | sol@43b42b1b9cd8e966c009a8a9e03fb9a589562412 | 2022-12-31 |      | verify/rework SQL script; check the WP paths |

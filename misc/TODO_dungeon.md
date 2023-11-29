@@ -182,7 +182,7 @@ TODOs: [common](TODO.md), low prio: [cosmetic](TODO_cosmetic.md), dungeon, [even
 | sol@f5421722819342ccd76a0b099cf8ed4d879581d1 | 2023-03-19 |      | use SAI instead (also see sol@78070b105b1484251f7f645f6df1ddc10503866b) (Sethekk Halls) |
 | sol@7207be2057177ba9df59fa62c86962558414144c | 2023-03-16 |      | verify/rework SQL script (Gnomeregan) |
 | sol@f0be1aa9010145736c10dae2191046194946378d | 2023-03-15 |      | verify/rework SQL script (Botanica) |
-| sol@b21f98d6390c41240dc4efcb7244982bc89c6536 | 2023-03-15 |      | verify changes (also see sol@44d1df01c36d1a3c1f9e54c19b610b4f39c5a3d1, sol@f2de40d1721aa45da7d804ed2e45373d84329112, sol@6d1517f5e5a881b4cf66d43f3fbfda5ccbf352f8, sol@b281988dbc166f553844a08afcfb8582897c8beb, sol@e1464ed44229237ce492212852c4e6faf0a0c3a4) (Karazhan) |
+| sol@b21f98d6390c41240dc4efcb7244982bc89c6536 | 2023-03-15 |      | verify changes (also see sol@44d1df01c36d1a3c1f9e54c19b610b4f39c5a3d1, sol@f2de40d1721aa45da7d804ed2e45373d84329112, sol@6d1517f5e5a881b4cf66d43f3fbfda5ccbf352f8, sol@b281988dbc166f553844a08afcfb8582897c8beb, sol@e1464ed44229237ce492212852c4e6faf0a0c3a4, sol@135b453320c039defc2a2bc42706f1c4bf0f0ea4) (Karazhan) |
 | sol@1f82bcf1f172100eb43332bd30d824293ab3bb5d | 2023-03-14 |      | verify/rework SQL script (Opening the Dark Portal) |
 | sol@5890f8f7bb9e24f9d808f9865e27337bba5ed5c2 | 2023-03-13 |      | verify/rework SQL script (also see sol@532fd59367181b32c5ea33e7d6dac763ccf7b62b, sol@02876083e4822ede4eb59c09358687656cbc889a) (Mechanar) |
 | sol@6270c6ab64cb40b0eabf3edd8c220ebda0a35d30 | 2023-03-13 |      | verify changes (Ulduar) |
