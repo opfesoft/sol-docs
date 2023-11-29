@@ -32,9 +32,9 @@ TODOs: common, low prio: [cosmetic](TODO_cosmetic.md), [dungeon](TODO_dungeon.md
 | sol@9e10d1852e9fb4139d433dd59047dacda85ea464 | 2023-11-02 |      | verify/rework SQL script |
 | sol@13e00925538be38f7f9f854e66d484c7e6661580 | 2023-10-29 |      | verify/rework SQL script |
 | sol@0679789120c1622100735581b35914033a925120 | 2023-10-29 |      | verify changes |
-| sol@b2e492d2e24b531a25bd8399977309b7eff3884a | 2023-10-29 |      | verify/rework SQL script |
+| sol@b2e492d2e24b531a25bd8399977309b7eff3884a | 2023-10-29 | X    | verify/rework SQL script; done: sol@5f79526d210a1c210e39963eb2130d8a02132cff |
 | sol@9935e723417f28eff260d345264fc1ea66b5e695 | 2023-10-22 |      | take over if needed |
-| sol@1262bbd237fb424e3ba53950513bcd65ab3ef378 | 2023-10-22 |      | verify changes; update: wrong, won't take over; the item should be usable anytime and the summoners should die if used; update event script 13980 to prevent multiple spawns |
+| sol@1262bbd237fb424e3ba53950513bcd65ab3ef378 | 2023-10-22 | X    | verify changes; update: wrong, won't take over; the item should be usable anytime and the summoners should die if used; update event script 13980 to prevent multiple spawns; done: sol@6c32a85c35da531cf7d111aa3e741c0597ca9284 |
 | sol@945d7c6afef52bfdc677d3b06b1b4c27e5d86ef1 | 2023-10-22 | X    | verify changes; done: sol@85a56027688ea9779ded468a59796bc888db67a6 |
 | sol@968bc8d47b23b2d3e0cbe8658e6d5c90340bbef6 | 2023-10-22 | X    | won't take over, just enable rotation (also for the other signposts nearby); done: sol@ac961312757996e8df948186ea5c1f50529d07a7 |
 | sol@3228d7d762fd3490d8b0dbf72a8a5df2ff75199a | 2023-10-21 | X    | verify/rework SQL script; done: sol@62656011f0b13eee335d14f5c9a2cc6930261f04 |
