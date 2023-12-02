@@ -2,6 +2,8 @@ TODOs: common, low prio: [cosmetic](TODO_cosmetic.md), [dungeon](TODO_dungeon.md
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@ff5bb59cf0e67cf4f40152f18929e8e3cc4dd27d | 2023-11-30 |      | verify/rework SQL script |
+| sol@e8077540215250d5d73641dd405acfceb3207a74 | 2023-11-29 |      | verify/rework SQL script (contains a bug concerning RequiredMinRepFaction) |
 | sol@abf85fb44f66344064bc12b20228652c26b33395 | 2023-11-27 |      | verify changes |
 | sol@f7d7c4feb7a8f9c63bc4c94ebd48f1771d07958a | 2023-11-26 |      | probably take over the destination prediction; low prio (minor issue) |
 | sol@c02cccb87c0f98794c2f2ec3a7b144925fbccaca | 2023-11-23 |      | verify changes |
@@ -10,7 +12,7 @@ TODOs: common, low prio: [cosmetic](TODO_cosmetic.md), [dungeon](TODO_dungeon.md
 | sol@8b4596e572e0c1232407d0773b16ac7959c4d98b | 2023-11-19 |      | verify/rework SQL script |
 | sol@9c225fca582d265f71b41752942fe39ca0bcfa07 | 2023-11-19 |      | verify/rework SQL script |
 | sol@4bf20ffde4216da29e6d3127cc952d93759e0eb4 | 2023-11-19 |      | take over if needed |
-| sol@69c1ed2e99ee924b0aa5c5783db36455534acf85 | 2023-11-16 |      | SPELL\_ATTR0\_CU\_SINGLE\_AURA\_STACK |
+| sol@69c1ed2e99ee924b0aa5c5783db36455534acf85 | 2023-11-16 | X    | SPELL\_ATTR0\_CU\_SINGLE\_AURA\_STACK; done: sol@0822f5606b6641200d8bcb67602c01a2ea544adb |
 | sol@1d836eddd37535136e9c8c57dd6409fa41ae945f | 2023-11-16 |      | verify/rework SQL script |
 | sol@9b6a67807ddae7b5b4f6ce44f26c563d742b8652 | 2023-11-16 |      | verify/rework SQL script |
 | sol@1bf4d24fd264b51e432b09860df0ecf64422b3e0 | 2023-11-14 |      | verify/rework SQL script |
@@ -27,11 +29,11 @@ TODOs: common, low prio: [cosmetic](TODO_cosmetic.md), [dungeon](TODO_dungeon.md
 | sol@8af077bc3372d87fa059519a0479caefd6274841 | 2023-11-08 | X    | verify/rework SQL script; extend SMART\_TARGET\_VICTIM to accept number of units on the threat list and probably also maxDist, playerOnly & powerType; done: sol@15b67d98e33ef92f644fa7dd14cbe95a3439a965 |
 | sol@7d75456f8ef20d842fc5fe42e3322bc6c84521d7 | 2023-11-05 |      | verify/rework SQL script |
 | sol@17a40ff927b189c0c4abbf113620db765c426e2a | 2023-11-02 | X    | verify/rework SQL script; update: won't take over, Sol is not affected by this issue |
-| sol@9c09ddc3df0c7decc38b1e658e27a7c38b912c09 | 2023-11-02 |      | verify/rework SQL script (Desperate Defense already fixed, see 5351f38c4c043a7051398b52e10af2bb9c4d10f6) |
-| sol@bc688c2a51827030f50fae84b5ca92edd272f129 | 2023-11-02 |      | verify changes |
-| sol@9e10d1852e9fb4139d433dd59047dacda85ea464 | 2023-11-02 |      | verify/rework SQL script |
-| sol@13e00925538be38f7f9f854e66d484c7e6661580 | 2023-10-29 |      | verify/rework SQL script |
-| sol@0679789120c1622100735581b35914033a925120 | 2023-10-29 |      | verify changes |
+| sol@9c09ddc3df0c7decc38b1e658e27a7c38b912c09 | 2023-11-02 | X    | verify/rework SQL script (Desperate Defense already fixed, see 5351f38c4c043a7051398b52e10af2bb9c4d10f6); done: sol@f92d9ab49583735487c132d9394c6ef12993027c, sol@e900c2a3586875f866e898f4196fd774ddb61934 |
+| sol@bc688c2a51827030f50fae84b5ca92edd272f129 | 2023-11-02 | X    | verify changes; done: sol@0822f5606b6641200d8bcb67602c01a2ea544adb |
+| sol@9e10d1852e9fb4139d433dd59047dacda85ea464 | 2023-11-02 | X    | verify/rework SQL script; done: sol@46493c5b9cdfdc8977c994e94c668ee0284c0b78 |
+| sol@13e00925538be38f7f9f854e66d484c7e6661580 | 2023-10-29 | X    | verify/rework SQL script; done: sol@d2aa4b547e7f53b210b06c8139d4c0cd03bf7fa7 |
+| sol@0679789120c1622100735581b35914033a925120 | 2023-10-29 | X    | verify changes; done: sol@c6f326e6572b4265d4daf06d95cafe577eaaf1a9 |
 | sol@b2e492d2e24b531a25bd8399977309b7eff3884a | 2023-10-29 | X    | verify/rework SQL script; done: sol@5f79526d210a1c210e39963eb2130d8a02132cff |
 | sol@9935e723417f28eff260d345264fc1ea66b5e695 | 2023-10-22 |      | take over if needed |
 | sol@1262bbd237fb424e3ba53950513bcd65ab3ef378 | 2023-10-22 | X    | verify changes; update: wrong, won't take over; the item should be usable anytime and the summoners should die if used; update event script 13980 to prevent multiple spawns; done: sol@6c32a85c35da531cf7d111aa3e741c0597ca9284 |
