@@ -2,8 +2,12 @@ TODOs: common, low prio: [cosmetic](TODO_cosmetic.md), [dungeon](TODO_dungeon.md
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@8010dd7876e38eda075148058f9c3d895c14ee39 | 2023-12-04 |      | verify/rework SQL script |
+| sol@0e04fc20615b14ac029c309bab81d59980563342 | 2023-12-03 |      | won't take over, Sol is not affected by this issue; nevertheless, convert to SAI and improve the quest |
+| sol@df5d618130c91033dfcee8bf99906c564755d060 | 2023-12-03 |      | won't take over, Sol is not affected by this issue; fix player controlling the rocket for a few seconds before starting the WP movement |
+| sol@1b2e7600efdcd034fc6f8ab62913a9ac507481f2 | 2023-12-03 |      | verify/rework SQL script |
 | sol@ff5bb59cf0e67cf4f40152f18929e8e3cc4dd27d | 2023-11-30 |      | verify/rework SQL script |
-| sol@e8077540215250d5d73641dd405acfceb3207a74 | 2023-11-29 |      | verify/rework SQL script (contains a bug concerning RequiredMinRepFaction) |
+| sol@e8077540215250d5d73641dd405acfceb3207a74 | 2023-11-29 |      | verify/rework SQL script (contains a bug concerning RequiredMinRepFaction, see sol@9f21e5fd17e962b11fd0cb7f43b992ba2fd2a2a2) |
 | sol@abf85fb44f66344064bc12b20228652c26b33395 | 2023-11-27 |      | verify changes |
 | sol@f7d7c4feb7a8f9c63bc4c94ebd48f1771d07958a | 2023-11-26 |      | probably take over the destination prediction; low prio (minor issue) |
 | sol@c02cccb87c0f98794c2f2ec3a7b144925fbccaca | 2023-11-23 |      | verify changes |

@@ -2,6 +2,7 @@ TODOs: [common](TODO.md), low prio: [cosmetic](TODO_cosmetic.md), dungeon, [even
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@798bb68e3cd12f0785e7ecd15d39702dd59ecc4d | 2023-12-03 |      | keep as reference; take over single values if needed; won't blindly take over such mass updates (don't care about sniffs) (Serpentshrine Cavern) |
 | sol@47752b1b5adff74a7d32fa212e3d386cbe7a14d4 | 2023-11-20 |      | verify changes (The Eye) |
 | sol@d5f03f0ef4909bdd81173679097955f4cad4d933 | 2023-11-20 |      | verify changes (Karazhan) |
 | sol@15f645d751cf952285788a8857ae9074cc9be51e | 2023-11-19 |      | verify changes (Mana-Tombs) |
