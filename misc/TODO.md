@@ -28,10 +28,10 @@ TODOs: common, low prio: [cosmetic](TODO_cosmetic.md), [dungeon](TODO_dungeon.md
 | sol@67811a6369b27d0ce770a34756f89c871cf19f0f | 2023-11-12 | X    | won't take over, use CONDITION\_SOURCE\_TYPE\_SPELL instead; also fix SAI for creature ID 17226; done: sol@7804f0ddf985388a444101d8c27d32424ff5f942 |
 | sol@8eef2688680a0e8805bb7cd05dc88f8ef985b215 | 2023-11-12 |      | verify/rework SQL script (also see sol@aae5a1919f0d8207982a3513338e8f5a5c48b1bd) |
 | sol@db274846c22e60280557c4d81d482dbea77b300a | 2023-11-11 |      | verify/rework SQL script |
-| sol@7265231290fe2998d2e1fdb7ed21e90e78e830fc | 2023-11-09 |      | verify/rework SQL script |
+| sol@7265231290fe2998d2e1fdb7ed21e90e78e830fc | 2023-11-09 | X    | verify/rework SQL script; done: sol@22f0b9e63256538fcb538a61d184fb32c429c742 |
 | sol@6ab4947e40d0e6870b1e4d9ea4dadd4e4c7437ad | 2023-11-08 | X    | verify changes (also include sol@f3a5bad1d6559bb732c554e6b9a107cf8b7cd4b4, sol@9fe6bef6c05420c819e8eb849b5040f3f8c49b26, sol@ee2eae7c1b7fa10b8e112a34521995ea6bd83846); done: sol@622cd289f7318572088ba4793c0ad5db18b7e1fb |
 | sol@8af077bc3372d87fa059519a0479caefd6274841 | 2023-11-08 | X    | verify/rework SQL script; extend SMART\_TARGET\_VICTIM to accept number of units on the threat list and probably also maxDist, playerOnly & powerType; done: sol@15b67d98e33ef92f644fa7dd14cbe95a3439a965 |
-| sol@7d75456f8ef20d842fc5fe42e3322bc6c84521d7 | 2023-11-05 |      | verify/rework SQL script |
+| sol@7d75456f8ef20d842fc5fe42e3322bc6c84521d7 | 2023-11-05 | X    | verify/rework SQL script; done: sol@b9482763c2a0084225c86cec249f85e231bc579c |
 | sol@17a40ff927b189c0c4abbf113620db765c426e2a | 2023-11-02 | X    | verify/rework SQL script; update: won't take over, Sol is not affected by this issue |
 | sol@9c09ddc3df0c7decc38b1e658e27a7c38b912c09 | 2023-11-02 | X    | verify/rework SQL script (Desperate Defense already fixed, see 5351f38c4c043a7051398b52e10af2bb9c4d10f6); done: sol@f92d9ab49583735487c132d9394c6ef12993027c, sol@e900c2a3586875f866e898f4196fd774ddb61934 |
 | sol@bc688c2a51827030f50fae84b5ca92edd272f129 | 2023-11-02 | X    | verify changes; done: sol@0822f5606b6641200d8bcb67602c01a2ea544adb |

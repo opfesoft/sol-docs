@@ -29,30 +29,6 @@
 
 `sudo apt-get install git cmake make gcc-13 g++-13 ccache libmariadb-dev libbz2-dev libreadline-dev libncurses-dev mariadb-server perl bzip2`
 
-## OpenSSL installation
-
-Example for OpenSSL 3.1.4, installation in "~/sol-srv/lib/openssl":
-
-- Get package:
-```
-curl -L 'https://github.com/openssl/openssl/archive/refs/tags/openssl-3.1.4.tar.gz' >openssl-3.1.4.tar.gz
-tar -xzf openssl-3.1.4.tar.gz
-```
-
-- Install (here gcc 13 is used):
-```
-export CC='gcc-13'
-export CXX='g++-13'
-cd openssl-openssl-3.1.4
-./config --prefix=${HOME}/sol-srv/lib/openssl --openssldir=${HOME}/sol-srv/lib/openssl -static
-make -j $(($(nproc)+2))
-make install_sw
-```
-
-Further information: https://www.openssl.org/
-
-New releases: https://github.com/openssl/openssl/tags
-
 ## ACE installation
 
 Example for ACE 7.1.2, installation in "~/sol-srv/lib/ace":
