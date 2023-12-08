@@ -492,17 +492,13 @@ This will show or hide spells in vehicle spell bar.</td>
 </td>
 </tr>
 <tr>
-<td>CONDITION_SOURCE_TYPE_MAX</td>
-<td>27</td>
-<td><br />
-</td>
-<td><br />
-</td>
-<td><br />
-</td>
-<td><br />
-</td>
-<td>(Placeholder)</td>
+<td>CONDITION_SOURCE_TYPE_SMART_EVENT_TARGET</td>
+<td>151</td>
+<td>ID (<a href="smart_scripts.md#id">smart_scripts.id</a>) + 1</td>
+<td>EntryOrGuid (<a href="smart_scripts.md#entryorguid">smart_scripts.entryorguid</a>)</td>
+<td>SourceType (<a href="smart_scripts.md#source_type">smart_scripts.source_type</a>)</td>
+<td>Always 0</td>
+<td>Can be used to filter the targets.</td>
 </tr>
 </tbody>
 </table>

@@ -2,6 +2,7 @@ TODOs: common, low prio: [cosmetic](TODO_cosmetic.md), [dungeon](TODO_dungeon.md
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@a2de3a05b41bfe6e6a8038614dd2f97d6fbaa4b2 | 2023-12-04 |      | verify/rework SQL script |
 | sol@8010dd7876e38eda075148058f9c3d895c14ee39 | 2023-12-04 |      | verify/rework SQL script |
 | sol@0e04fc20615b14ac029c309bab81d59980563342 | 2023-12-03 |      | won't take over, Sol is not affected by this issue; nevertheless, convert to SAI and improve the quest |
 | sol@df5d618130c91033dfcee8bf99906c564755d060 | 2023-12-03 |      | won't take over, Sol is not affected by this issue; fix player controlling the rocket for a few seconds before starting the WP movement |
@@ -27,7 +28,7 @@ TODOs: common, low prio: [cosmetic](TODO_cosmetic.md), [dungeon](TODO_dungeon.md
 | sol@98d42e5748fbbb298b12773eb7018af02e8fb720 | 2023-11-12 |      | verify/rework SQL script |
 | sol@67811a6369b27d0ce770a34756f89c871cf19f0f | 2023-11-12 | X    | won't take over, use CONDITION\_SOURCE\_TYPE\_SPELL instead; also fix SAI for creature ID 17226; done: sol@7804f0ddf985388a444101d8c27d32424ff5f942 |
 | sol@8eef2688680a0e8805bb7cd05dc88f8ef985b215 | 2023-11-12 |      | verify/rework SQL script (also see sol@aae5a1919f0d8207982a3513338e8f5a5c48b1bd) |
-| sol@db274846c22e60280557c4d81d482dbea77b300a | 2023-11-11 |      | verify/rework SQL script |
+| sol@db274846c22e60280557c4d81d482dbea77b300a | 2023-11-11 | X    | verify/rework SQL script; done: sol@f0eaad2dc2961ed88dc63594f3c7b337fe6eba9f |
 | sol@7265231290fe2998d2e1fdb7ed21e90e78e830fc | 2023-11-09 | X    | verify/rework SQL script; done: sol@22f0b9e63256538fcb538a61d184fb32c429c742 |
 | sol@6ab4947e40d0e6870b1e4d9ea4dadd4e4c7437ad | 2023-11-08 | X    | verify changes (also include sol@f3a5bad1d6559bb732c554e6b9a107cf8b7cd4b4, sol@9fe6bef6c05420c819e8eb849b5040f3f8c49b26, sol@ee2eae7c1b7fa10b8e112a34521995ea6bd83846); done: sol@622cd289f7318572088ba4793c0ad5db18b7e1fb |
 | sol@8af077bc3372d87fa059519a0479caefd6274841 | 2023-11-08 | X    | verify/rework SQL script; extend SMART\_TARGET\_VICTIM to accept number of units on the threat list and probably also maxDist, playerOnly & powerType; done: sol@15b67d98e33ef92f644fa7dd14cbe95a3439a965 |
@@ -362,7 +363,7 @@ TODOs: common, low prio: [cosmetic](TODO_cosmetic.md), [dungeon](TODO_dungeon.md
 | sol@92b6d3b739ce2a61d3f54a1e0366c4991589e2f6 | 2022-08-01 | X    | there are several other mushrooms nearby with wrong position, check these GUIDs: 16415,16416,16417,16418,16419,16420,16421,16422,16423,16424,16425,16426,16429,16430,16431,16433,16434,16435,16437,16438,16442,16443,16445,16447,16448,33858,46364,46365,46366,63149,64898,64899,86138,86139,86140,87460; done: sol@313239e17004ec3f7ba0c6c0bb88b6d408b447e3 |
 | sol@4444410f70498ef59a2390a5090302537347ad12 | 2022-07-31 | X    | verify/rework SQL script; done: sol@ee8ea86923434e73fd170ef52ad539ba250664ae |
 | sol@62ffa75765de9f904959239a268331b727de8148 | 2022-07-29 |      | verify changes; low prio (World Boss) |
-| sol@c19d6b74e9fe6c2c877a5bb2bac263d340069a73 | 2022-07-25 |      | verify changes; low prio (minor issue) |
+| sol@c19d6b74e9fe6c2c877a5bb2bac263d340069a73 | 2022-07-25 | X    | verify changes; low prio (minor issue); done: sol@30b60a20735d3701182bc1e641a76de063421039 |
 | sol@7aea91fcb3f43f1401e1383e6ccc4de218d79b1a | 2022-07-25 | X    | won't take over, find another solution (also affects Water Shield & Earth Shield); low prio (minor issue); can be handled using conditions: sol@05a8a40ba8e6550adb443f52008fc8dd5d6ab32e |
 | sol@d9dde93315b884bac4a62cd530b5030692a15026 | 2022-07-24 | X    | verify/rework SQL script; done: sol@d0ad7d3c7298a4526f362aedf8f07c8925e962fe |
 | sol@c057b539e64606ef3356061634d25209cca2d556 | 2022-07-24 | X    | verify/rework SQL script; compare with TC version; done: sol@40f5a26da62113ff97b4a1794a5158797c677aea |

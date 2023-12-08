@@ -2,6 +2,7 @@ TODOs: [common](TODO.md), low prio: [cosmetic](TODO_cosmetic.md), dungeon, [even
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@f2b3e51c110eaa99cdae39738ea44142f9d0702a | 2023-12-07 |      | verify changes (also see sol@2d6c012e1d320d65906aca73c9eb278158720894) (Serpentshrine Cavern) |
 | sol@798bb68e3cd12f0785e7ecd15d39702dd59ecc4d | 2023-12-03 |      | keep as reference; take over single values if needed; won't blindly take over such mass updates (don't care about sniffs) (Serpentshrine Cavern) |
 | sol@47752b1b5adff74a7d32fa212e3d386cbe7a14d4 | 2023-11-20 |      | verify changes (The Eye) |
 | sol@d5f03f0ef4909bdd81173679097955f4cad4d933 | 2023-11-20 |      | verify changes (Karazhan) |
@@ -9,7 +10,7 @@ TODOs: [common](TODO.md), low prio: [cosmetic](TODO_cosmetic.md), dungeon, [even
 | sol@10500596ea97e309939eec103c6204bce9603c6b | 2023-11-18 |      | verify/rework SQL script (Sethekk Halls) |
 | sol@d05929b862cbf6002797e96f241928fed1105741 | 2023-11-18 |      | verify changes (Shadow Labyrinth) |
 | sol@81bd9b7ba48d1a3ffe7b212165bcf65fe57a87e1 | 2023-11-16 |      | verify changes (Karazhan) |
-| sol@b0cf308be22a147051c35088223d12333636f51e | 2023-11-15 |      | verify changes (also see sol@01c21539f903bbfc6cacdbdf9b5d11d0167040c6, sol@6c04b3276d925cbd614f19a0d1551c93c9328435, sol@bf40479db676c03ee0795a415c3f9cb6ed479351) (Serpentshrine Cavern) |
+| sol@b0cf308be22a147051c35088223d12333636f51e | 2023-11-15 |      | verify changes (also see sol@01c21539f903bbfc6cacdbdf9b5d11d0167040c6, sol@6c04b3276d925cbd614f19a0d1551c93c9328435, sol@bf40479db676c03ee0795a415c3f9cb6ed479351, sol@3ac77eb37948bbd485fb925df76ae5533a1f042c) (Serpentshrine Cavern) |
 | sol@c4722de46aae1b6e695768ffc965315c5a19bc2e | 2023-11-15 |      | verify changes (Karazhan) |
 | sol@1c1606a7e4351a02c32174018b146370db546829 | 2023-11-12 |      | only take over sleep state; handle sit through SMART\_ACTION\_ACTIVATE\_GOBJECT "use" (The Culling of Stratholme) |
 | sol@3c8adc71cdbd178453f597649abe75b5bfc700d3 | 2023-11-12 |      | verify changes (also see sol@4fabaee5975257f81dd77a728e42af60e3ad04d9) (Zul'Gurub) |
