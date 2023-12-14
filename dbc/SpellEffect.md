@@ -94,7 +94,7 @@ SPELL_EFFECT_PERSISTENT_AREA_AURA = 27
 - BasePoints: Depends on [Spell Aura](SpellEffectApplyAuraName.md)
 
 SPELL_EFFECT_SUMMON = 28
-- BasePoints: Number of summons
+- BasePoints: Number of summons (sometimes also used to set the HP of the summoned creature)
 - EffectMiscValueA: [Creature ID](../db/world/creature_template.md)
 - EffectMiscValueB: [Summon Properties](SummonProperties.md)
 - Radius: Spawn range

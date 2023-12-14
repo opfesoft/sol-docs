@@ -2,6 +2,10 @@ TODOs: [common](TODO.md), low prio: [cosmetic](TODO_cosmetic.md), dungeon, [even
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@18af46d35754172013ad7c15e6bb48f365dbe043 | 2023-12-12 |      | verify changes (Serpentshrine Cavern) |
+| sol@071fdd1218a9f16799f63571f22161418c7bd5ed | 2023-12-12 |      | verify/rework SQL script (Serpentshrine Cavern) |
+| sol@10c9a2729b58c658c93f3517949a3cb766305778 | 2023-12-11 |      | verify changes; use CONDITION\_SOURCE\_TYPE\_SMART\_EVENT\_TARGET & CONDITION\_DISTANCE\_TO instead (Serpentshrine Cavern) |
+| sol@8c723a183f144075cb5bb66b6791cc17bd00ee71 | 2023-12-11 |      | verify changes (Serpentshrine Cavern) |
 | sol@f2b3e51c110eaa99cdae39738ea44142f9d0702a | 2023-12-07 |      | verify changes (also see sol@2d6c012e1d320d65906aca73c9eb278158720894) (Serpentshrine Cavern) |
 | sol@798bb68e3cd12f0785e7ecd15d39702dd59ecc4d | 2023-12-03 |      | keep as reference; take over single values if needed; won't blindly take over such mass updates (don't care about sniffs) (Serpentshrine Cavern) |
 | sol@47752b1b5adff74a7d32fa212e3d386cbe7a14d4 | 2023-11-20 |      | verify changes (The Eye) |
@@ -10,7 +14,7 @@ TODOs: [common](TODO.md), low prio: [cosmetic](TODO_cosmetic.md), dungeon, [even
 | sol@10500596ea97e309939eec103c6204bce9603c6b | 2023-11-18 |      | verify/rework SQL script (Sethekk Halls) |
 | sol@d05929b862cbf6002797e96f241928fed1105741 | 2023-11-18 |      | verify changes (Shadow Labyrinth) |
 | sol@81bd9b7ba48d1a3ffe7b212165bcf65fe57a87e1 | 2023-11-16 |      | verify changes (Karazhan) |
-| sol@b0cf308be22a147051c35088223d12333636f51e | 2023-11-15 |      | verify changes (also see sol@01c21539f903bbfc6cacdbdf9b5d11d0167040c6, sol@6c04b3276d925cbd614f19a0d1551c93c9328435, sol@bf40479db676c03ee0795a415c3f9cb6ed479351, sol@3ac77eb37948bbd485fb925df76ae5533a1f042c) (Serpentshrine Cavern) |
+| sol@b0cf308be22a147051c35088223d12333636f51e | 2023-11-15 |      | verify changes (also see sol@01c21539f903bbfc6cacdbdf9b5d11d0167040c6, sol@6c04b3276d925cbd614f19a0d1551c93c9328435, sol@bf40479db676c03ee0795a415c3f9cb6ed479351, sol@3ac77eb37948bbd485fb925df76ae5533a1f042c, sol@310dd3137ce74b36a022cb3dc05209f94fa3e83d, sol@3c923ebc0c5fbfc266901967d42201b6ec56aaf3) (Serpentshrine Cavern) |
 | sol@c4722de46aae1b6e695768ffc965315c5a19bc2e | 2023-11-15 |      | verify changes (Karazhan) |
 | sol@1c1606a7e4351a02c32174018b146370db546829 | 2023-11-12 |      | only take over sleep state; handle sit through SMART\_ACTION\_ACTIVATE\_GOBJECT "use" (The Culling of Stratholme) |
 | sol@3c8adc71cdbd178453f597649abe75b5bfc700d3 | 2023-11-12 |      | verify changes (also see sol@4fabaee5975257f81dd77a728e42af60e3ad04d9) (Zul'Gurub) |
@@ -31,12 +35,12 @@ TODOs: [common](TODO.md), low prio: [cosmetic](TODO_cosmetic.md), dungeon, [even
 | sol@7f36c5f059c616444c91a4b0d4b0503b78c6c981 | 2023-10-08 |      | verify changes (Karazhan) |
 | sol@f7e77d68f9f56d764e7a27cfae6c345a4c446624 | 2023-10-08 |      | verify/rework SQL script (Blackrock Depths) |
 | sol@91c6bdd540b1825da1035b8e3cdfcc4d92a8f5c2 | 2023-10-07 |      | verify changes (Upper Blackrock Spire) |
-| sol@003398a8945a32708a01dee4d504304f52ff370e | 2023-10-01 |      | verify/rework SQL script (also see sol@9ff405fdb039c6999e547316c7eda305f9a157d9) (Serpentshrine Cavern) |
-| sol@62c6b158e59a0eb29f860f0f1b7f7a2f672754e2 | 2023-10-01 |      | verify changes (Serpentshrine Cavern) |
+| sol@003398a8945a32708a01dee4d504304f52ff370e | 2023-10-01 |      | verify/rework SQL script (also see sol@9ff405fdb039c6999e547316c7eda305f9a157d9, sol@142be82699ada144f7b25b32aead408f3b13ef4a) (Serpentshrine Cavern) |
+| sol@62c6b158e59a0eb29f860f0f1b7f7a2f672754e2 | 2023-10-01 |      | verify changes (also see sol@cb57691ce971492feac30778af5b43e38fa1fd23, sol@0e58dfb1e4c221138f97febf3c1fa12b084cdf3d, sol@8ea3d81d69a857fbc468adef0f52afb26d4831fc, sol@05ec0d09c3366c8e0379e303cb9b86ce48bd0db4, sol@a84a56536d38abaa1eff365a65a23a56d132f119, sol@4d40b036440069fcfa964eac36eebda9d60140cb) (Serpentshrine Cavern) |
 | sol@57f5c6fb0c80465cd343f2cd7418e81a03fbd275 | 2023-10-01 |      | verify changes (also see sol@8f81a08455ab0f7f6b251ec0628814e047512a05) (Serpentshrine Cavern) |
 | sol@c17a6c0a0e14f00952f798137873825eb4122ef8 | 2023-10-01 |      | verify changes (Karazhan) |
 | sol@4b85e3ed98c674fbb165bc9a5c24a6514cbb7d0d | 2023-09-27 |      | verify changes (also see sol@bf5878f8dcf44fe3b5b854c7a220699c4461727b) (Serpentshrine Cavern) |
-| sol@8d7461eb2cbeb92f534e32723eb088afe2504283 | 2023-09-27 |      | verify changes (also see sol@db44d7a35a735d5a789034e55dbf8685c7666c32) (Serpentshrine Cavern) |
+| sol@8d7461eb2cbeb92f534e32723eb088afe2504283 | 2023-09-27 |      | verify changes (also see sol@db44d7a35a735d5a789034e55dbf8685c7666c32, sol@31b66ad80a9b6cc0a4a2037f0f483be4a4be2acf, sol@7d761671ab0e5ab55b9e42aa5df9d3298dd0d081, sol@bf87cc5230f52122e0b262d6c1249544e79b8484) (Serpentshrine Cavern) |
 | sol@970c57954720733a2e02d32721395657db07ccd4 | 2023-09-25 |      | verify changes (also see sol@69418ab93616cd04d2a91060c12e110d675b6941) (Ulduar) |
 | sol@84d4d60cfcc2d97cf09aba55668e2ff5d81eef36 | 2023-09-25 |      | verify changes (Karazhan) |
 | sol@586cc1ee0f9b13bf7168037a28122061a9beffd9 | 2023-09-20 |      | verify/rework SQL script (Serpentshrine Cavern) |
@@ -46,7 +50,7 @@ TODOs: [common](TODO.md), low prio: [cosmetic](TODO_cosmetic.md), dungeon, [even
 | sol@533b36406efa6b0c400b5943371a3dbf1ac29d20 | 2023-09-17 |      | verify changes (Scarlet Monastery: Cathedral) |
 | sol@1eb573be1c893e7cabf683ec582420079f2e1e6b | 2023-09-17 |      | verify changes (also see sol@7dd9ca01c58855156cace6f23e4fbbaeda0941f9, sol@9b403e0d106f9df5a369a5014889586df357ac7d) (Karazhan) |
 | sol@764611eaf64a4514dc27311660653332c6bd9813 | 2023-09-17 |      | verify/rework SQL script (Sethekk Halls) |
-| sol@a0a06a6d1841dde84461dffffc7ce8e5e506fa33 | 2023-09-17 |      | verify changes (also see sol@7795dc4379052e4cbadce5982b8213edc28f8725) (Serpentshrine Cavern) |
+| sol@a0a06a6d1841dde84461dffffc7ce8e5e506fa33 | 2023-09-17 |      | verify changes (also see sol@7795dc4379052e4cbadce5982b8213edc28f8725, sol@112ad54bad901ce0b9b5460db9e083c8d3bf8233, sol@00ee7bd920aec8beef4a04a10405641b20f40c1e) (Serpentshrine Cavern) |
 | sol@c149f213fe9f10a92b02640432f9f68453f9f9a1 | 2023-09-17 |      | verify/rework SQL script (Karazhan) |
 | sol@189818e7813665f751119c090b55c3208ebba102 | 2023-09-06 |      | verify changes (Ulduar) |
 | sol@cacb32f4232f6ca011c43e01316100b7ad2c3b8d | 2023-09-03 |      | verify changes (Karazhan) |
@@ -68,7 +72,7 @@ TODOs: [common](TODO.md), low prio: [cosmetic](TODO_cosmetic.md), dungeon, [even
 | sol@fcf7ceea42b0bfcd7a0c5cdc06a08f6c77faf204 | 2023-07-27 |      | verify changes (also see sol@5abfbdff427190421873f7e076597d6c8b6d012e, sol@71312323a1599cc6d95c91946b810d177c59714a, sol@bbedb91e2ca6b82d34a2ff4030119ec40141ebb6, sol@a0f66edcecd2e1586e66a472f76f8b5cc901c2b8) (Karazhan) |
 | sol@750e0b4c23881c584df7d154800e937cd62f06eb | 2023-07-27 |      | verify changes (also see sol@9b438731fd2ef60dbb399a089c40282455222c5d, sol@fb1d356af98d7399f462055ab31d8e17847ad416, sol@3c698f86af7fa248973dff052ca4b6929fa6f608, sol@c05acf4f96e22d12826e3710fbf274c278ed94a9, sol@52c7edaa5cacf95dc868e8a035a694fa096042d3, sol@f583dbe98cbd80ec980bbf3bc94c1f366d609196) (Karazhan) |
 | sol@cc6454b2efbbdd9db2159ade285d8c756e8c33f8 | 2023-07-18 |      | verify changes (also see sol@0c90bfcf70c3ff60364c6b0df97aef23f8781efa) (Karazhan) |
-| sol@89e7fb301a6bc2d0decda25e25f23b59fe09f931 | 2023-07-18 |      | verify changes (also see sol@cdc06e1703a3ba54135727c5fadfc588891867d9, sol@d18368ad601ab422e755e6f888acf1437c4cf55a, sol@52744e60320ce95e3d168d9639245c118739b00f, sol@89d0db3a93f991b9ebf5cfa0f34d236da7028938, sol@3cfb1d3bf627c50208ac32bb1db60d1b8673bb3f, sol@5b899eb65d9c234a3c6dfe1c2544e1f382ab7c50, sol@4a0b879ee3ff6fd7318577f8b36b2eaf91ad59c3, sol@f9a88b52868e9125590d7f389b3b408a33486f12, sol@ae99ce586a57e64c921437f8d6c01c20af002a97, sol@f44e658342f727d1ed5034657c74128724d7cd28, sol@57841f7213ba40cfd7adab381b5e12dcb5e3385e, sol@7de2405604c0d9da2d76539696ecbab31f4165eb, sol@a3d728f791c466f6bb350a024bfc9c70d14189e2, sol@a56a224bd72603f79a95fad7b8b9642c7b72015e, sol@3dcbe649ddd0d5fe891ef6614ce07c63cb5060aa, sol@d9e12f7a467fb4aa8a0cfeee5e464b384fb361d6, sol@a19613df86ba3999d9d621fd3760da4349c0727a) (Karazhan) |
+| sol@89e7fb301a6bc2d0decda25e25f23b59fe09f931 | 2023-07-18 |      | verify changes (also see sol@cdc06e1703a3ba54135727c5fadfc588891867d9, sol@d18368ad601ab422e755e6f888acf1437c4cf55a, sol@52744e60320ce95e3d168d9639245c118739b00f, sol@89d0db3a93f991b9ebf5cfa0f34d236da7028938, sol@3cfb1d3bf627c50208ac32bb1db60d1b8673bb3f, sol@5b899eb65d9c234a3c6dfe1c2544e1f382ab7c50, sol@4a0b879ee3ff6fd7318577f8b36b2eaf91ad59c3, sol@f9a88b52868e9125590d7f389b3b408a33486f12, sol@ae99ce586a57e64c921437f8d6c01c20af002a97, sol@f44e658342f727d1ed5034657c74128724d7cd28, sol@57841f7213ba40cfd7adab381b5e12dcb5e3385e, sol@7de2405604c0d9da2d76539696ecbab31f4165eb, sol@a3d728f791c466f6bb350a024bfc9c70d14189e2, sol@a56a224bd72603f79a95fad7b8b9642c7b72015e, sol@3dcbe649ddd0d5fe891ef6614ce07c63cb5060aa, sol@d9e12f7a467fb4aa8a0cfeee5e464b384fb361d6, sol@a19613df86ba3999d9d621fd3760da4349c0727a, sol@af03611faf3a4c83f7311cd6652009ac9f3f346d) (Karazhan) |
 | sol@3860d273b4118b76aac9aa475aac1f949f8a3c06 | 2023-07-16 |      | verify changes (Karazhan) |
 | sol@5719ff45cf079c04139f650aebac59cab0f6aaff | 2023-07-11 |      | verify/rework SQL script (also see sol@9b5933ac5f12d42ec76aa346081eb12074d1de06) (Gruul's Lair) |
 | sol@89959a193f5cae0e96901e3a3360cfa83d4d099e | 2023-07-11 |      | verify/rework SQL script (Escape from Durnholde Keep, Mana-Tombs, Underbog, Slave Pens, Blood Furnace, Hellfire Ramparts) |
