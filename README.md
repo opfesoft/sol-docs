@@ -2,4 +2,3 @@
 
 - Based on [AC wiki commit 8212c8ac163a2d4d9bd6d381c0b66ff4bfa6d540](https://github.com/azerothcore/wiki/tree/8212c8ac163a2d4d9bd6d381c0b66ff4bfa6d540)
 - Adapted to Sol
-- Has been greatly updated and will continuously be updated in the future
