@@ -1269,15 +1269,6 @@ Holds information on every item that exists in the game. All items are created f
 <td><p>0</p></td>
 <td><p> </p></td>
 </tr>
-<tr>
-<td><p><a href="#verifiedbuild">VerifiedBuild (WDBVerified)</a></p></td>
-<td><p>smallint(5)</p></td>
-<td><p>signed</p></td>
-<td><p> </p></td>
-<td><p>YES</p></td>
-<td><p>1</p></td>
-<td><p> </p></td>
-</tr>
 </tbody>
 </table>
 
@@ -3572,6 +3563,3 @@ If the item is a container that can contain money, then this field defines the m
 </tbody>
 </table>
 
-### VerifiedBuild
-
-`(WDBVerified)` Set by developers.

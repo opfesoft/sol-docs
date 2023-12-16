@@ -11,7 +11,6 @@ This table holds greeting texts shown for quest giver NPCs or gameobjects. Conce
 | [GreetEmoteType](#greetemotetype)   | smallint(5)  | unsigned   | NO   |     | 0       |       |         |
 | [GreetEmoteDelay](#greetemotedelay) | int(10)      | unsigned   | NO   |     | 0       |       |         |
 | [Greeting](#greeting)               | text         |            | NO   |     | NULL    |       |         |
-| [VerifiedBuild](#verifiedbuild)     | smallint(6)  |            | NO   |     | 0       |       |         |
 
 ## Description of the fields
 
@@ -36,14 +35,3 @@ The emote delay in milliseconds.
 
 The greeting text.
 
-### VerifiedBuild
-
-This field was used to determine whether a template has been verified from WDB files.
-
-If value is 0 then it has not been parsed yet.
-
-If value is above 0 then it has been parsed with WDB files from that specific client build.
-
-If value is -1 then it is just a place holder until proper data are found on WDBs.
-
-If value is -Client Build then it was parsed with WDB files from that specific [client build](../auth/realmlist.md#gamebuild "DB:Auth:realmlist") and manually edited later for some special necessity.

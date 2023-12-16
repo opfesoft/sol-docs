@@ -185,20 +185,6 @@ This table holds information about menu options a gossip NPC can have. Example
 <td><br />
 </td>
 </tr>
-<tr>
-<td>VerifiedBuild</td>
-<td>smallint(5)</td>
-<td><br />
-</td>
-<td><br />
-</td>
-<td>NO</td>
-<td>0</td>
-<td><br />
-</td>
-<td><br />
-</td>
-</tr>
 </tbody>
 </table>
 
@@ -295,14 +281,3 @@ If BoxBroadCastTextID contains a valid broadcast\_text.ID, it links to broadcast
 
 The ID of the same text in [broadcast\_text.ID](broadcast_text.md#id).
 
-### VerifiedBuild
-
-This field was used to determine whether a template has been verified from WDB files.
-
-If value is 0 then it has not been parsed yet.
-
-If value is above 0 then it has been parsed with WDB files from that specific client build.
-
-If value is -1 then it is just a place holder until proper data are found on WDBs.
-
-If value is [client Build](../auth/realmlist.md#gamebuild) then it was parsed with WDB files from that specific client build and manually edited later for some special necessity.

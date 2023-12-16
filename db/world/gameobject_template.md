@@ -457,19 +457,6 @@ Contains template of all gameobjects
 <td><p><br />
 </p></td>
 </tr>
-<tr>
-<td><p><a href="#wdbverified">WDBVerified</a></p></td>
-<td><p>smallint(5)</p></td>
-<td><p>signed</p></td>
-<td><p><br />
-</p></td>
-<td><p>YES</p></td>
-<td><p>1</p></td>
-<td><p><br />
-</p></td>
-<td><p><br />
-</p></td>
-</tr>
 </tbody>
 </table>
 
@@ -1001,4 +988,3 @@ Note: Only `SmartGameObjectAI` can be used in this field, do not use `SmartAI`
 
 Name of the script this object uses if needed
 
-`WDBVerified`

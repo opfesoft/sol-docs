@@ -21,7 +21,6 @@ Its purpose is (will be) used as a globalized table containing the texts as ment
 | SoundId                                  | int(10)     | unsigned   |     | NO   | 0       |       |         |
 | UnkEmoteID                               | int(10)     | unsigned   |     | NO   | 0       |       |         |
 | Type                                     | int(10)     | unsigned   |     | NO   | 0       |       |         |
-| WDBVerified                              | smallint(5) | signed     |     | NO   | 0       |       |         |
 
 ## Description of the fields
 
@@ -67,18 +66,3 @@ An emote.
 
 ### Type
 
- 
-
-#### WDBVerified
-
-This field was used to determine whether a template has been verified from WDB files (ADB files for this one).
-
-If value is 0 then it has not been parsed yet.
-
-If value is above 0 then it has been parsed with WDB files from that specific client build.
-
-If value is -1 then it is just a place holder until proper data are found on WDBs.
-
-If value is -Client Build then it was parsed with WDB files from that specific [client build](../auth/realmlist.md#gamebuild "DB:Auth:realmlist") and manually edited later for some special necessity.
-
- 

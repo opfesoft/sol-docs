@@ -592,18 +592,6 @@ Contains all basic definitions of available quests.
 <td><p><br />
 </p></td>
 </tr>
-<tr>
-<td><p><a href="#verifiedbuild">VerifiedBuild</a></p></td>
-<td><p>smallint(5)</p></td>
-<td><p>YES</p></td>
-<td><p><br />
-</p></td>
-<td><p>0</p></td>
-<td><p><br />
-</p></td>
-<td><p><br />
-</p></td>
-</tr>
 </tbody>
 </table>
 
@@ -956,18 +944,6 @@ TODO
 ### ObjectiveText
 
 Used to define non-standard objective texts, that show up in the questlog. Example, "Heal fallen warrior" and the number gets added by Count values.
-
-### VerifiedBuild
-
-This field is used by the AzerothCore Team to determine whether a template has been verified from WDB files (ADB files for this one).
-
-If value is 0 then it has not been parsed yet.
-
-If value is above 0 then it has been parsed with WDB files from that specific client build.
-
-If value is -1 then it is just a place holder until proper data are found on WDBs.
-
-If value is [-Client Build](../auth/realmlist.md "DB:Auth:realmlist") then it was parsed with WDB files from that specific [client build](../auth/realmlist.md#gamebuild "DB:Auth:realmlist") and manually edited later for some special necessity.
 
 ## Examples dealing with quests
 

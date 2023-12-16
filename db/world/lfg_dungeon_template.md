@@ -10,4 +10,3 @@
 | position\_y    | float        |            | NO   |     | 0       |       |         |
 | position\_z    | float        |            | NO   |     | 0       |       |         |
 | orientation    | float        |            | NO   |     | 0       |       |         |
-| VerifiedBuild  | smallint(5)  |            | YES  |     | 0       |       |         |

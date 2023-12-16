@@ -670,14 +670,6 @@ This table contains the texts that are used for gossip. More research needs to b
 <td><p>NO</p></td>
 <td><p>0</p></td>
 </tr>
-<tr>
-<td><p><a href="#verifiedbuild">VerifiedBuild</a></p></td>
-<td><p>smallint(5)</p></td>
-<td><p>signed</p></td>
-<td><p> </p></td>
-<td><p>YES</p></td>
-<td><p>1</p></td>
-</tr>
 </tbody>
 </table>
 
@@ -731,12 +723,3 @@ The delay for the 3rd emote in milliseconds.
 
 The ID of the 3rd emote the NPC should play, see [Emotes.dbc](../../dbc/Emotes.md).
 
-### VerifiedBuild
-
-This field was used to determine whether a template has been verified from WDB files.
-
-If value is 0 then it has not been parsed yet.
-
-If value is above 0 then it has been parsed with WDB files from that specific client build.
-
-If value is -1 then it is just a place holder until proper data are found on WDBs.

@@ -66,16 +66,6 @@ Comes from sniffs. Visually speaking, this table is used to identify the X and Y
 <td><p></p></td>
 <td><p></p></td>
 </tr>
-<tr>
-<td><p><a href="#verifiedbuild">VerifiedBuild</a></p></td>
-<td><p>smallint</p></td>
-<td><p>unasigned</p></td>
-<td><p></p></td>
-<td><p>YES</p></td>
-<td><p>NULL</p></td>
-<td><p></p></td>
-<td><p></p></td>
-</tr>
 </tbody>
 </table>
 
@@ -103,7 +93,6 @@ Example quest: Secreat Communication.
 <td><p><strong>idx2</strong></p></td>
 <td><p><strong>x</strong></p></td>
 <td><p><strong>y</strong></p></td>
-<td><p><strong>VerifiedBuild</strong></p></td>
 </tr>
 <tr>
 <td><p>8318</p></td>
@@ -111,7 +100,6 @@ Example quest: Secreat Communication.
 <td><p>0</p></td>
 <td><p>-6231</p></td>
 <td><p>-51</p></td>
-<td><p>0</p></td>
 </tr>
 <tr>
 <td><p>8318</p></td>
@@ -119,7 +107,6 @@ Example quest: Secreat Communication.
 <td><p>1</p></td>
 <td><p>-6236</p></td>
 <td><p>-19</p></td>
-<td><p>0</p></td>
 </tr>
 <tr>
 <td><p>8318</p></td>
@@ -127,7 +114,6 @@ Example quest: Secreat Communication.
 <td><p>2</p></td>
 <td><p>-6241</p></td>
 <td><p>-52</p></td>
-<td><p>0</p></td>
 </tr>
 <tr>
 <td><p>8318</p></td>
@@ -135,7 +121,6 @@ Example quest: Secreat Communication.
 <td><p>3</p></td>
 <td><p>-6316</p></td>
 <td><p>-282</p></td>
-<td><p>0</p></td>
 </tr>
 <tr>
 <td><p>8318</p></td>
@@ -143,7 +128,6 @@ Example quest: Secreat Communication.
 <td><p>4</p></td>
 <td><p>-6413</p></td>
 <td><p>-282</p></td>
-<td><p>0</p></td>
 </tr>
 <tr>
 <td><p>8318</p></td>
@@ -151,7 +135,6 @@ Example quest: Secreat Communication.
 <td><p>5</p></td>
 <td><p>-6483</p></td>
 <td><p>-250</p></td>
-<td><p>0</p></td>
 </tr>
 <tr>
 <td><p>8318</p></td>
@@ -159,7 +142,6 @@ Example quest: Secreat Communication.
 <td><p>6</p></td>
 <td><p>-6483</p></td>
 <td><p>-217</p></td>
-<td><p>0</p></td>
 </tr>
 <tr>
 <td><p>8318</p></td>
@@ -167,7 +149,6 @@ Example quest: Secreat Communication.
 <td><p>7</p></td>
 <td><p>-6326</p></td>
 <td><p>-7</p></td>
-<td><p>0</p></td>
 </tr>
 </tbody>
 </table>
@@ -180,14 +161,3 @@ The X position of the question mark on the map.
 
 The Y position of the question mark on the map.
 
-### VerifiedBuild
-
-This field is used by the AzerothCore Team to determine whether a template has been verified from WDB files (ADB files for this one).
-
-If value is 0 then it has not been parsed yet.
-
-If value is above 0 then it has been parsed with WDB files from that specific client build.
-
-If value is -1 then it is just a place holder until proper data are found on WDBs.
-
-If value is [-Client Build](../auth/realmlist.md "DB:Auth:realmlist") then it was parsed with WDB files from that specific [client build](../auth/realmlist.md#gamebuild "DB:Auth:realmlist") and manually edited later for some special necessity.
