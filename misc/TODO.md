@@ -23,9 +23,9 @@ TODOs: common, low prio: [cosmetic](TODO_cosmetic.md), [dungeon](TODO_dungeon.md
 | sol@69c1ed2e99ee924b0aa5c5783db36455534acf85 | 2023-11-16 | X    | SPELL\_ATTR0\_CU\_SINGLE\_AURA\_STACK; done: sol@0822f5606b6641200d8bcb67602c01a2ea544adb |
 | sol@1d836eddd37535136e9c8c57dd6409fa41ae945f | 2023-11-16 |      | verify/rework SQL script |
 | sol@9b6a67807ddae7b5b4f6ce44f26c563d742b8652 | 2023-11-16 |      | verify/rework SQL script |
-| sol@1bf4d24fd264b51e432b09860df0ecf64422b3e0 | 2023-11-14 |      | verify/rework SQL script |
-| sol@d065733ca33a4593bd983c6ea9c2da756a532da0 | 2023-11-12 |      | verify/rework SQL script |
-| sol@6486f727403c3abe635f5b3816f44922db29c98a | 2023-11-12 |      | verify changes |
+| sol@1bf4d24fd264b51e432b09860df0ecf64422b3e0 | 2023-11-14 | X    | verify/rework SQL script; done: sol@c46ad425d780d60945e1ec1e435357044764dbcb |
+| sol@d065733ca33a4593bd983c6ea9c2da756a532da0 | 2023-11-12 | X    | verify/rework SQL script; done: sol@72d77cab77184cab775f42cc274d7d1464d9aa79 |
+| sol@6486f727403c3abe635f5b3816f44922db29c98a | 2023-11-12 | X    | verify changes; done: sol@7bb396670e3fb08146c483f2a4874e0296873c64 |
 | sol@ae5bf57dbaa3db4367689aedc84dd3336edcf27b | 2023-11-12 | X    | won't take over, use GetItemByPos instead; done: sol@c677cb5f147213c8b728d19a5cdf4fa44d2847da |
 | sol@1d3d3bebb8c855c760c74a40edf294904428b52c | 2023-11-12 | X    | verify/rework SQL script; done: sol@2a266fcb602f2593bddc20bf28e2941136bbaa52 |
 | sol@98d42e5748fbbb298b12773eb7018af02e8fb720 | 2023-11-12 | X    | verify/rework SQL script; done: sol@d406879d51e83e0aed74ba6a6d080db75b0e5134 |

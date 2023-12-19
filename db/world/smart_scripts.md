@@ -4038,7 +4038,7 @@ If the start position distance is far away the circle movement speed will be dec
 <tr>
 <td><p>SMART_TARGET_VICTIM</p></td>
 <td><p>2</p></td>
-<td><p>>maxDist3D</p></td>
+<td><p>maxDist3D</p></td>
 <td><p>restrictType - bitmask:<br />
 1 - player only<br />
 2 - threat list size <= restrictValue<br />
