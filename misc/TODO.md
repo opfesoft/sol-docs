@@ -22,7 +22,7 @@ TODOs: common, low prio: [cosmetic](TODO_cosmetic.md), [dungeon](TODO_dungeon.md
 | sol@4bf20ffde4216da29e6d3127cc952d93759e0eb4 | 2023-11-19 |      | take over if needed |
 | sol@69c1ed2e99ee924b0aa5c5783db36455534acf85 | 2023-11-16 | X    | SPELL\_ATTR0\_CU\_SINGLE\_AURA\_STACK; done: sol@0822f5606b6641200d8bcb67602c01a2ea544adb |
 | sol@1d836eddd37535136e9c8c57dd6409fa41ae945f | 2023-11-16 |      | verify/rework SQL script |
-| sol@9b6a67807ddae7b5b4f6ce44f26c563d742b8652 | 2023-11-16 |      | verify/rework SQL script |
+| sol@9b6a67807ddae7b5b4f6ce44f26c563d742b8652 | 2023-11-16 | X    | verify/rework SQL script; already fixed: sol@048331b1eb0ab97e72548a05d0cec8b774901c31 |
 | sol@1bf4d24fd264b51e432b09860df0ecf64422b3e0 | 2023-11-14 | X    | verify/rework SQL script; done: sol@c46ad425d780d60945e1ec1e435357044764dbcb |
 | sol@d065733ca33a4593bd983c6ea9c2da756a532da0 | 2023-11-12 | X    | verify/rework SQL script; done: sol@72d77cab77184cab775f42cc274d7d1464d9aa79 |
 | sol@6486f727403c3abe635f5b3816f44922db29c98a | 2023-11-12 | X    | verify changes; done: sol@7bb396670e3fb08146c483f2a4874e0296873c64 |

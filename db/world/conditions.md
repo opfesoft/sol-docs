@@ -477,7 +477,8 @@ This will show or hide spells in vehicle spell bar.</td>
 <td>vendor entry (<a href="npc_vendor.md#entry">npc_vendor.entry</a>)</td>
 <td>item entry (<a href="npc_vendor.md#item">npc_vendor.item</a>) or 0</td>
 <td>Always 0</td>
-<td>Always 0</td>
+<td>0 = Player<br />
+1 = Creature</td>
 <td>If the item entry is 0 the vendor itself is affected (vendor icon and gossip option).</td>
 </tr>
 <tr>
@@ -499,6 +500,16 @@ This will show or hide spells in vehicle spell bar.</td>
 <td>SourceType (<a href="smart_scripts.md#source_type">smart_scripts.source_type</a>)</td>
 <td>Always 0</td>
 <td>Can be used to filter the targets.</td>
+</tr>
+<tr>
+<td>CONDITION_SOURCE_TYPE_NPC_INTERACTION</td>
+<td>152</td>
+<td>Always 0</td>
+<td>creature entry (<a href="creature_template.md#entry">creature_template.entry</a>)</td>
+<td>Always 0</td>
+<td>0 = Player<br />
+1 = Creature</td>
+<td>Can be used to restrict interaction with the creature. If interaction is restricted the creature appears to the player as if having <a href="creature_template.md#npcflag">creature_template.npcflag</a> 0.</td>
 </tr>
 </tbody>
 </table>
