@@ -2,6 +2,7 @@ TODOs: common, low prio: [cosmetic](TODO_cosmetic.md), [dungeon](TODO_dungeon.md
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@be4d90404bb5d495a0db4a958855f64e0ce417eb | 2023-12-25 |      | take over if needed |
 | sol@03d06da87b85084e0a6891bed1c03807e30e663d | 2023-12-15 |      | take over if needed |
 | sol@f9e4edca8ebec0758142970fe6c930379f0cc156 | 2023-12-12 |      | verify/rework SQL script |
 | sol@e5c6d49587c3fd171f0e41624438372c153f4fc8 | 2023-12-11 |      | verify/rework SQL script |
@@ -18,10 +19,10 @@ TODOs: common, low prio: [cosmetic](TODO_cosmetic.md), [dungeon](TODO_dungeon.md
 | sol@1850c974a4e5f5517b9ae2b3deaf98569db11fa6 | 2023-11-23 |      | verify changes |
 | sol@c138d0c0d530a355b465fc3e129e04c1fbb466dc | 2023-11-20 |      | verify/rework SQL script |
 | sol@8b4596e572e0c1232407d0773b16ac7959c4d98b | 2023-11-19 |      | verify/rework SQL script |
-| sol@9c225fca582d265f71b41752942fe39ca0bcfa07 | 2023-11-19 |      | verify/rework SQL script |
+| sol@9c225fca582d265f71b41752942fe39ca0bcfa07 | 2023-11-19 | X    | verify/rework SQL script; done: sol@8cf6431b70e8b82972ae179e42ecf32cb4c79e84 |
 | sol@4bf20ffde4216da29e6d3127cc952d93759e0eb4 | 2023-11-19 |      | take over if needed |
 | sol@69c1ed2e99ee924b0aa5c5783db36455534acf85 | 2023-11-16 | X    | SPELL\_ATTR0\_CU\_SINGLE\_AURA\_STACK; done: sol@0822f5606b6641200d8bcb67602c01a2ea544adb |
-| sol@1d836eddd37535136e9c8c57dd6409fa41ae945f | 2023-11-16 |      | verify/rework SQL script |
+| sol@1d836eddd37535136e9c8c57dd6409fa41ae945f | 2023-11-16 | X    | verify/rework SQL script; done: sol@b89fce51adb3762d2fda2583473dc930145e8c78 |
 | sol@9b6a67807ddae7b5b4f6ce44f26c563d742b8652 | 2023-11-16 | X    | verify/rework SQL script; already fixed: sol@048331b1eb0ab97e72548a05d0cec8b774901c31 |
 | sol@1bf4d24fd264b51e432b09860df0ecf64422b3e0 | 2023-11-14 | X    | verify/rework SQL script; done: sol@c46ad425d780d60945e1ec1e435357044764dbcb |
 | sol@d065733ca33a4593bd983c6ea9c2da756a532da0 | 2023-11-12 | X    | verify/rework SQL script; done: sol@72d77cab77184cab775f42cc274d7d1464d9aa79 |
