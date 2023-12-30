@@ -13,12 +13,12 @@ TODOs: common, low prio: [cosmetic](TODO_cosmetic.md), [dungeon](TODO_dungeon.md
 | sol@1b2e7600efdcd034fc6f8ab62913a9ac507481f2 | 2023-12-03 |      | verify/rework SQL script |
 | sol@ff5bb59cf0e67cf4f40152f18929e8e3cc4dd27d | 2023-11-30 |      | verify/rework SQL script |
 | sol@e8077540215250d5d73641dd405acfceb3207a74 | 2023-11-29 |      | verify/rework SQL script (contains a bug concerning RequiredMinRepFaction, see sol@9f21e5fd17e962b11fd0cb7f43b992ba2fd2a2a2) |
-| sol@abf85fb44f66344064bc12b20228652c26b33395 | 2023-11-27 |      | verify changes |
+| sol@abf85fb44f66344064bc12b20228652c26b33395 | 2023-11-27 | X    | verify changes; done: sol@44b628eab135639ea36f5c69e8ad2b4dfaca4552, sol@9645d48acd8acced9aa1f6fb377f1f3b1fca43ca |
 | sol@f7d7c4feb7a8f9c63bc4c94ebd48f1771d07958a | 2023-11-26 |      | probably take over the destination prediction; low prio (minor issue) |
-| sol@c02cccb87c0f98794c2f2ec3a7b144925fbccaca | 2023-11-23 |      | verify changes |
-| sol@1850c974a4e5f5517b9ae2b3deaf98569db11fa6 | 2023-11-23 |      | verify changes |
-| sol@c138d0c0d530a355b465fc3e129e04c1fbb466dc | 2023-11-20 |      | verify/rework SQL script |
-| sol@8b4596e572e0c1232407d0773b16ac7959c4d98b | 2023-11-19 |      | verify/rework SQL script |
+| sol@c02cccb87c0f98794c2f2ec3a7b144925fbccaca | 2023-11-23 | X    | verify changes; done: sol@be35ece5180169acf42dd4f601010e4b7f757f4f |
+| sol@1850c974a4e5f5517b9ae2b3deaf98569db11fa6 | 2023-11-23 | X    | verify changes; won't take over, Sol is not affected by this issue (see sol@62ccded8d0942029e62176c2a3ce8c007c22b381) |
+| sol@c138d0c0d530a355b465fc3e129e04c1fbb466dc | 2023-11-20 | X    | verify/rework SQL script; done: sol@655d2f4bb19eb6c5d22d7cab6f9358c72837c641 |
+| sol@8b4596e572e0c1232407d0773b16ac7959c4d98b | 2023-11-19 | X    | verify/rework SQL script; done: sol@9595438b6de36a78f8138be6c200122385e37c54 |
 | sol@9c225fca582d265f71b41752942fe39ca0bcfa07 | 2023-11-19 | X    | verify/rework SQL script; done: sol@8cf6431b70e8b82972ae179e42ecf32cb4c79e84 |
 | sol@4bf20ffde4216da29e6d3127cc952d93759e0eb4 | 2023-11-19 |      | take over if needed |
 | sol@69c1ed2e99ee924b0aa5c5783db36455534acf85 | 2023-11-16 | X    | SPELL\_ATTR0\_CU\_SINGLE\_AURA\_STACK; done: sol@0822f5606b6641200d8bcb67602c01a2ea544adb |
