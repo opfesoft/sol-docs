@@ -477,7 +477,7 @@ TODOs: [common](TODO.md), low prio: [cosmetic](TODO_cosmetic.md), dungeon, [even
 | sol@a0da7417a096ec9cb9a8c4b2d09bf8b58ef3c106 | 2022-05-30 |      | verify changes (Blackwing Lair) |
 | sol@1e79b10b79de341fc8da767d05b93ec13102e05a | 2022-05-30 |      | verify changes (Zul'Gurub) |
 | sol@f471febbd7a1d77a8d0c997af0a3a4ecdd438f32 | 2022-05-26 | X    | won't take over, just update the text range (the text itself is perfectly fine) (Zul'Gurub); done: sol@76bee9f3a29ff6102d230dab48dda79489cc0ee9 |
-| sol@a6a2ca8ef76716f5b58b4ed2ae53d0bde424775b | 2022-05-24 |      | take over if needed (or perhaps implement another solution, e.g. change GO states according to instance data) |
+| sol@a6a2ca8ef76716f5b58b4ed2ae53d0bde424775b | 2022-05-24 |      | take over if needed (or perhaps implement another solution, e.g. change GO states according to instance data); also see sol@a11434b24fbf21bf092abe0fefd2e14751881302 |
 | sol@46d0b32d98d033d506c89f0eab06d22081c5fb94 | 2022-05-23 | X    | won't take over, just update the appropriate SAI entries (Stratholme); done: sol@4351d145f64f28b505b5b17ff949ac626ed1a956 |
 | sol@1f59431d03ed847467b171b3ae36117b73213cd3 | 2022-05-23 |      | verify changes (Blackwing Lair) |
 | sol@b6d79ac89e18ca864c8187e0b655c9de95de4ca8 | 2022-05-23 |      | verify changes (Zul'Gurub) |
