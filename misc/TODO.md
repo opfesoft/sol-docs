@@ -2,6 +2,8 @@ TODOs: common, low prio: [cosmetic](TODO_cosmetic.md), [dungeon](TODO_dungeon.md
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@5287570ea1a3fe6e1ce425ac0069b18c813d8bf8 | 2024-01-03 |      | won't take over, use waypoint\_data instead |
+| sol@78e761854b299b916975c1a6e2743d75c417472b | 2024-01-03 |      | verify/rework SQL script |
 | sol@f9f71fff36de7ee374c463de2494e16b35dbf6ec | 2024-01-01 |      | verify changes |
 | sol@51b38b5ee6f820fe5df99fb3657442698deee45e | 2024-01-01 |      | verify/rework SQL script |
 | sol@dc830932f791396fdd189005ec3f6454ebe6b50c | 2024-01-01 |      | verify changes |
@@ -18,10 +20,10 @@ TODOs: common, low prio: [cosmetic](TODO_cosmetic.md), [dungeon](TODO_dungeon.md
 | sol@0e04fc20615b14ac029c309bab81d59980563342 | 2023-12-03 |      | won't take over, Sol is not affected by this issue; nevertheless, convert to SAI and improve the quest |
 | sol@df5d618130c91033dfcee8bf99906c564755d060 | 2023-12-03 |      | won't take over, Sol is not affected by this issue; fix player controlling the rocket for a few seconds before starting the WP movement |
 | sol@1b2e7600efdcd034fc6f8ab62913a9ac507481f2 | 2023-12-03 | X    | verify/rework SQL script; done: sol@4a49b7f6b841c039c3f359c409b14c96017c70aa |
-| sol@ff5bb59cf0e67cf4f40152f18929e8e3cc4dd27d | 2023-11-30 |      | verify/rework SQL script |
+| sol@ff5bb59cf0e67cf4f40152f18929e8e3cc4dd27d | 2023-11-30 | X    | verify/rework SQL script; done: sol@52dc27dff33b998093d2bcb6d42cd0cff2763d52 |
 | sol@e8077540215250d5d73641dd405acfceb3207a74 | 2023-11-29 | X    | verify/rework SQL script (contains a bug concerning RequiredMinRepFaction, see sol@9f21e5fd17e962b11fd0cb7f43b992ba2fd2a2a2); done: sol@4a1e64ce7fc30695702b612c63e1926659a4ba2a |
 | sol@abf85fb44f66344064bc12b20228652c26b33395 | 2023-11-27 | X    | verify changes; done: sol@44b628eab135639ea36f5c69e8ad2b4dfaca4552, sol@9645d48acd8acced9aa1f6fb377f1f3b1fca43ca |
-| sol@f7d7c4feb7a8f9c63bc4c94ebd48f1771d07958a | 2023-11-26 |      | probably take over the destination prediction; low prio (minor issue) |
+| sol@f7d7c4feb7a8f9c63bc4c94ebd48f1771d07958a | 2023-11-26 |      | probably take over the destination prediction (also see sol@8f127f9e2135a70cdb5573d052f50304d1b3875c); low prio (minor issue) |
 | sol@c02cccb87c0f98794c2f2ec3a7b144925fbccaca | 2023-11-23 | X    | verify changes; done: sol@be35ece5180169acf42dd4f601010e4b7f757f4f |
 | sol@1850c974a4e5f5517b9ae2b3deaf98569db11fa6 | 2023-11-23 | X    | verify changes; won't take over, Sol is not affected by this issue (see sol@62ccded8d0942029e62176c2a3ce8c007c22b381) |
 | sol@c138d0c0d530a355b465fc3e129e04c1fbb466dc | 2023-11-20 | X    | verify/rework SQL script; done: sol@655d2f4bb19eb6c5d22d7cab6f9358c72837c641 |

@@ -2,6 +2,7 @@ TODOs: [common](TODO.md), low prio: [cosmetic](TODO_cosmetic.md), dungeon, [even
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@8fee16756fde7354c15f44d1b3c2b532fd0f0ed0 | 2024-01-03 |      | keep as reference; take over single values if needed; won't blindly take over such mass updates (don't care about sniffs) (The Eye) |
 | sol@e3d47f1010b1a60d3b19123926b8717210adf1d4 | 2023-12-25 |      | verify/rework SQL script; needs sol@be4d90404bb5d495a0db4a958855f64e0ce417eb (perhaps find another solution) |
 | sol@18af46d35754172013ad7c15e6bb48f365dbe043 | 2023-12-12 |      | verify changes (Serpentshrine Cavern) |
 | sol@071fdd1218a9f16799f63571f22161418c7bd5ed | 2023-12-12 |      | verify/rework SQL script (Serpentshrine Cavern) |

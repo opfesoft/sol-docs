@@ -2,6 +2,7 @@ TODOs: [common](TODO.md), low prio: cosmetic, [dungeon](TODO_dungeon.md), [event
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@5a52f3a9a8e45e056962664373a23d44e8e5224d | 2024-01-02 |      | verify/rework SQL script; use waypoint\_data instead |
 | sol@9ba3ead60acc22d01de5f67ebca59a76a0cb336a | 2023-12-04 |      | won't take over, use waypoint\_data instead; create a new path and add some pauses to make him less annoying for players |
 | sol@a7d2f2effae62483c8ddcdd6038da23d024d371a | 2023-09-17 |      | verify/rework SAI only |
 | sol@becf376b6915b86bede148ce0a0cb3ed81a1d81b | 2023-09-04 |      | verify/rework SQL script; use waypoint\_data instead |
