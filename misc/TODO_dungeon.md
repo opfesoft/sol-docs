@@ -2,6 +2,7 @@ TODOs: [common](TODO.md), low prio: [cosmetic](TODO_cosmetic.md), dungeon, [even
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@7a859da266bbee61e41b9ed9efa4d49b7f8eb503 | 2024-01-07 |      | verify changes (Serpentshrine Cavern) |
 | sol@8fee16756fde7354c15f44d1b3c2b532fd0f0ed0 | 2024-01-03 |      | keep as reference; take over single values if needed; won't blindly take over such mass updates (don't care about sniffs) (The Eye) |
 | sol@e3d47f1010b1a60d3b19123926b8717210adf1d4 | 2023-12-25 |      | verify/rework SQL script; needs sol@be4d90404bb5d495a0db4a958855f64e0ce417eb (perhaps find another solution) |
 | sol@18af46d35754172013ad7c15e6bb48f365dbe043 | 2023-12-12 |      | verify changes (Serpentshrine Cavern) |
@@ -38,7 +39,7 @@ TODOs: [common](TODO.md), low prio: [cosmetic](TODO_cosmetic.md), dungeon, [even
 | sol@f7e77d68f9f56d764e7a27cfae6c345a4c446624 | 2023-10-08 |      | verify/rework SQL script (Blackrock Depths) |
 | sol@91c6bdd540b1825da1035b8e3cdfcc4d92a8f5c2 | 2023-10-07 |      | verify changes (Upper Blackrock Spire) |
 | sol@003398a8945a32708a01dee4d504304f52ff370e | 2023-10-01 |      | verify/rework SQL script (also see sol@9ff405fdb039c6999e547316c7eda305f9a157d9, sol@142be82699ada144f7b25b32aead408f3b13ef4a) (Serpentshrine Cavern) |
-| sol@62c6b158e59a0eb29f860f0f1b7f7a2f672754e2 | 2023-10-01 |      | verify changes (also see sol@cb57691ce971492feac30778af5b43e38fa1fd23, sol@0e58dfb1e4c221138f97febf3c1fa12b084cdf3d, sol@8ea3d81d69a857fbc468adef0f52afb26d4831fc, sol@05ec0d09c3366c8e0379e303cb9b86ce48bd0db4, sol@a84a56536d38abaa1eff365a65a23a56d132f119, sol@4d40b036440069fcfa964eac36eebda9d60140cb, sol@9df2c485fca14aa787ee6e536664b7a30f4304b5, sol@330ed952dfd254cd6ee8a75b000d08fc6b6323a4) (Serpentshrine Cavern) |
+| sol@62c6b158e59a0eb29f860f0f1b7f7a2f672754e2 | 2023-10-01 |      | verify changes (also see sol@cb57691ce971492feac30778af5b43e38fa1fd23, sol@0e58dfb1e4c221138f97febf3c1fa12b084cdf3d, sol@8ea3d81d69a857fbc468adef0f52afb26d4831fc, sol@05ec0d09c3366c8e0379e303cb9b86ce48bd0db4, sol@a84a56536d38abaa1eff365a65a23a56d132f119, sol@4d40b036440069fcfa964eac36eebda9d60140cb, sol@9df2c485fca14aa787ee6e536664b7a30f4304b5, sol@330ed952dfd254cd6ee8a75b000d08fc6b6323a4, sol@e9ab01cc3b0c6374c2f2fd9644fc8e9eb40b745d) (Serpentshrine Cavern) |
 | sol@57f5c6fb0c80465cd343f2cd7418e81a03fbd275 | 2023-10-01 |      | verify changes (also see sol@8f81a08455ab0f7f6b251ec0628814e047512a05) (Serpentshrine Cavern) |
 | sol@c17a6c0a0e14f00952f798137873825eb4122ef8 | 2023-10-01 |      | verify changes (Karazhan) |
 | sol@4b85e3ed98c674fbb165bc9a5c24a6514cbb7d0d | 2023-09-27 |      | verify changes (also see sol@bf5878f8dcf44fe3b5b854c7a220699c4461727b) (Serpentshrine Cavern) |
@@ -52,7 +53,7 @@ TODOs: [common](TODO.md), low prio: [cosmetic](TODO_cosmetic.md), dungeon, [even
 | sol@533b36406efa6b0c400b5943371a3dbf1ac29d20 | 2023-09-17 |      | verify changes (Scarlet Monastery: Cathedral) |
 | sol@1eb573be1c893e7cabf683ec582420079f2e1e6b | 2023-09-17 |      | verify changes (also see sol@7dd9ca01c58855156cace6f23e4fbbaeda0941f9, sol@9b403e0d106f9df5a369a5014889586df357ac7d) (Karazhan) |
 | sol@764611eaf64a4514dc27311660653332c6bd9813 | 2023-09-17 |      | verify/rework SQL script (Sethekk Halls) |
-| sol@a0a06a6d1841dde84461dffffc7ce8e5e506fa33 | 2023-09-17 |      | verify changes (also see sol@7795dc4379052e4cbadce5982b8213edc28f8725, sol@112ad54bad901ce0b9b5460db9e083c8d3bf8233, sol@00ee7bd920aec8beef4a04a10405641b20f40c1e) (Serpentshrine Cavern) |
+| sol@a0a06a6d1841dde84461dffffc7ce8e5e506fa33 | 2023-09-17 |      | verify changes (also see sol@7795dc4379052e4cbadce5982b8213edc28f8725, sol@112ad54bad901ce0b9b5460db9e083c8d3bf8233, sol@00ee7bd920aec8beef4a04a10405641b20f40c1e, sol@d069fe5dac356731be77a392d7ff715f880a0034) (Serpentshrine Cavern) |
 | sol@c149f213fe9f10a92b02640432f9f68453f9f9a1 | 2023-09-17 |      | verify/rework SQL script (Karazhan) |
 | sol@189818e7813665f751119c090b55c3208ebba102 | 2023-09-06 |      | verify changes (Ulduar) |
 | sol@cacb32f4232f6ca011c43e01316100b7ad2c3b8d | 2023-09-03 |      | verify changes (Karazhan) |
