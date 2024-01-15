@@ -2,7 +2,9 @@ TODOs: [common](TODO.md), low prio: [cosmetic](TODO_cosmetic.md), dungeon, [even
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
-| sol@7a859da266bbee61e41b9ed9efa4d49b7f8eb503 | 2024-01-07 |      | verify changes (Serpentshrine Cavern) |
+| sol@390ade5d81f718b3e91fbf8f961bdc1ac02c2514 | 2024-01-14 |      | verify/rework SQL script (Icecrown Citadel) |
+| sol@bd296db80c8958921b4afa6f3fd79bf1d7afd97c | 2024-01-14 |      | verify changes (Icecrown Citadel) |
+| sol@7a859da266bbee61e41b9ed9efa4d49b7f8eb503 | 2024-01-07 |      | verify changes (also see sol@c863a8cfb59ed17692f9da2956b85a53ecc09ed7) (Serpentshrine Cavern) |
 | sol@8fee16756fde7354c15f44d1b3c2b532fd0f0ed0 | 2024-01-03 |      | keep as reference; take over single values if needed; won't blindly take over such mass updates (don't care about sniffs) (The Eye) |
 | sol@e3d47f1010b1a60d3b19123926b8717210adf1d4 | 2023-12-25 |      | verify/rework SQL script; needs sol@be4d90404bb5d495a0db4a958855f64e0ce417eb (perhaps find another solution) |
 | sol@18af46d35754172013ad7c15e6bb48f365dbe043 | 2023-12-12 |      | verify changes (Serpentshrine Cavern) |
@@ -72,7 +74,7 @@ TODOs: [common](TODO.md), low prio: [cosmetic](TODO_cosmetic.md), dungeon, [even
 | sol@69ce84d4bcdc25e6debb06c3d30a1beac6af3e25 | 2023-08-02 |      | verify/rework SQL script (Karazhan) |
 | sol@98ed01b9fe8965e62840cb1e820cf4d122937cd3 | 2023-07-27 |      | verify/rework SQL script (Karazhan) |
 | sol@90e23cbc66701ac9c163041927e6f6e17f2c72f2 | 2023-07-27 |      | verify changes (Battle for Mount Hyjal) |
-| sol@fcf7ceea42b0bfcd7a0c5cdc06a08f6c77faf204 | 2023-07-27 |      | verify changes (also see sol@5abfbdff427190421873f7e076597d6c8b6d012e, sol@71312323a1599cc6d95c91946b810d177c59714a, sol@bbedb91e2ca6b82d34a2ff4030119ec40141ebb6, sol@a0f66edcecd2e1586e66a472f76f8b5cc901c2b8) (Karazhan) |
+| sol@fcf7ceea42b0bfcd7a0c5cdc06a08f6c77faf204 | 2023-07-27 |      | verify changes (also see sol@5abfbdff427190421873f7e076597d6c8b6d012e, sol@71312323a1599cc6d95c91946b810d177c59714a, sol@bbedb91e2ca6b82d34a2ff4030119ec40141ebb6, sol@a0f66edcecd2e1586e66a472f76f8b5cc901c2b8, sol@e5a130d67f43cacd1d4889168dba70b41f7e1cb7) (Karazhan) |
 | sol@750e0b4c23881c584df7d154800e937cd62f06eb | 2023-07-27 |      | verify changes (also see sol@9b438731fd2ef60dbb399a089c40282455222c5d, sol@fb1d356af98d7399f462055ab31d8e17847ad416, sol@3c698f86af7fa248973dff052ca4b6929fa6f608, sol@c05acf4f96e22d12826e3710fbf274c278ed94a9, sol@52c7edaa5cacf95dc868e8a035a694fa096042d3, sol@f583dbe98cbd80ec980bbf3bc94c1f366d609196) (Karazhan) |
 | sol@cc6454b2efbbdd9db2159ade285d8c756e8c33f8 | 2023-07-18 |      | verify changes (also see sol@0c90bfcf70c3ff60364c6b0df97aef23f8781efa) (Karazhan) |
 | sol@89e7fb301a6bc2d0decda25e25f23b59fe09f931 | 2023-07-18 |      | verify changes (also see sol@cdc06e1703a3ba54135727c5fadfc588891867d9, sol@d18368ad601ab422e755e6f888acf1437c4cf55a, sol@52744e60320ce95e3d168d9639245c118739b00f, sol@89d0db3a93f991b9ebf5cfa0f34d236da7028938, sol@3cfb1d3bf627c50208ac32bb1db60d1b8673bb3f, sol@5b899eb65d9c234a3c6dfe1c2544e1f382ab7c50, sol@4a0b879ee3ff6fd7318577f8b36b2eaf91ad59c3, sol@f9a88b52868e9125590d7f389b3b408a33486f12, sol@ae99ce586a57e64c921437f8d6c01c20af002a97, sol@f44e658342f727d1ed5034657c74128724d7cd28, sol@57841f7213ba40cfd7adab381b5e12dcb5e3385e, sol@7de2405604c0d9da2d76539696ecbab31f4165eb, sol@a3d728f791c466f6bb350a024bfc9c70d14189e2, sol@a56a224bd72603f79a95fad7b8b9642c7b72015e, sol@3dcbe649ddd0d5fe891ef6614ce07c63cb5060aa, sol@d9e12f7a467fb4aa8a0cfeee5e464b384fb361d6, sol@a19613df86ba3999d9d621fd3760da4349c0727a, sol@af03611faf3a4c83f7311cd6652009ac9f3f346d) (Karazhan) |

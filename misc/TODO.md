@@ -2,6 +2,7 @@ TODOs: common, low prio: [cosmetic](TODO_cosmetic.md), [dungeon](TODO_dungeon.md
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@8900b2eb99cdf4ba1e3b025840f99688fc0950d3 | 2024-01-14 |      | wrong, won't take over; the texts are also used by Alliance NPCs; use 0 instead |
 | sol@48283c2b14ee10f23d23d221190ebd012078a743 | 2024-01-08 |      | won't take over, fix the broadcast text instead |
 | sol@db4a6bab3471d7f7721168541bcaec45d08a7e01 | 2024-01-08 |      | verify/rework SQL script; won't take over the spell script, use conditions instead |
 | sol@abc79629c374a7ad196732601d7af9a62f0857be | 2024-01-07 |      | won't take over, add item 22903 to loot reference 24093 |
@@ -11,13 +12,13 @@ TODOs: common, low prio: [cosmetic](TODO_cosmetic.md), [dungeon](TODO_dungeon.md
 | sol@f9f71fff36de7ee374c463de2494e16b35dbf6ec | 2024-01-01 | X    | verify changes; update: won't take over, Sol is not affected by this issue |
 | sol@51b38b5ee6f820fe5df99fb3657442698deee45e | 2024-01-01 |      | verify/rework SQL script |
 | sol@dc830932f791396fdd189005ec3f6454ebe6b50c | 2024-01-01 | X    | verify changes; update: won't take over, Sol is not affected by this issue |
-| sol@9cf67f1e5c24b40fa406195af0c306275ab2d795 | 2024-01-01 |      | verify/rework SQL script |
+| sol@9cf67f1e5c24b40fa406195af0c306275ab2d795 | 2024-01-01 | X    | verify/rework SQL script; done: sol@9a1393ac9a61ed4c3134bea238315c7f34ff3d91 |
 | sol@b2fcc1babf11a767db55c254d64b2dae2a3f913a | 2024-01-01 | X    | verify changes; update: won't take over, keep the delay |
-| sol@d80e7d5cb438d15d22a74afa83df2ecc26aede45 | 2024-01-01 |      | won't take over, just check the missing ones and duplicates |
-| sol@09e3dbf770d7e5ccb7df654e888e755f8977e33d | 2023-12-30 |      | SPELL\_ATTR0\_CU\_SINGLE\_AURA\_STACK |
+| sol@d80e7d5cb438d15d22a74afa83df2ecc26aede45 | 2024-01-01 | X    | won't take over, just check the missing ones and duplicates; done: sol@c3663249173736029df9b147d5942213e0344366 |
+| sol@09e3dbf770d7e5ccb7df654e888e755f8977e33d | 2023-12-30 | X    | SPELL\_ATTR0\_CU\_SINGLE\_AURA\_STACK; done: sol@88b37687e3e261768b9f2f64115da299d2c610e8 |
 | sol@be4d90404bb5d495a0db4a958855f64e0ce417eb | 2023-12-25 |      | take over if needed |
 | sol@03d06da87b85084e0a6891bed1c03807e30e663d | 2023-12-15 |      | take over if needed |
-| sol@f9e4edca8ebec0758142970fe6c930379f0cc156 | 2023-12-12 |      | verify/rework SQL script |
+| sol@f9e4edca8ebec0758142970fe6c930379f0cc156 | 2023-12-12 | X    | verify/rework SQL script; done: sol@2cb4d7b46b4112879c2d19f9443bf1b46ddeaf93 |
 | sol@e5c6d49587c3fd171f0e41624438372c153f4fc8 | 2023-12-11 | X    | verify/rework SQL script; done: sol@c7f30f23ecf7dca8fdba5503c41335d6f575b3c9 |
 | sol@a2de3a05b41bfe6e6a8038614dd2f97d6fbaa4b2 | 2023-12-04 | X    | verify/rework SQL script; done: sol@58109a87321fcbf8cd49002c409ad9fef2033203 |
 | sol@8010dd7876e38eda075148058f9c3d895c14ee39 | 2023-12-04 | X    | verify/rework SQL script; done: sol@27f272eb54b55b77ed624ba5583821507a32dde1 |
