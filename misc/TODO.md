@@ -2,15 +2,15 @@ TODOs: common, low prio: [cosmetic](TODO_cosmetic.md), [dungeon](TODO_dungeon.md
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
-| sol@8900b2eb99cdf4ba1e3b025840f99688fc0950d3 | 2024-01-14 |      | wrong, won't take over; the texts are also used by Alliance NPCs; use 0 instead |
-| sol@48283c2b14ee10f23d23d221190ebd012078a743 | 2024-01-08 |      | won't take over, fix the broadcast text instead |
-| sol@db4a6bab3471d7f7721168541bcaec45d08a7e01 | 2024-01-08 |      | verify/rework SQL script; won't take over the spell script, use conditions instead |
-| sol@abc79629c374a7ad196732601d7af9a62f0857be | 2024-01-07 |      | won't take over, add item 22903 to loot reference 24093 |
-| sol@aeee3559728d20955a5b81e301b4f7406bab028e | 2024-01-07 |      | verify/rework SQL script |
-| sol@5287570ea1a3fe6e1ce425ac0069b18c813d8bf8 | 2024-01-03 |      | won't take over, use waypoint\_data instead |
-| sol@78e761854b299b916975c1a6e2743d75c417472b | 2024-01-03 |      | verify/rework SQL script |
+| sol@8900b2eb99cdf4ba1e3b025840f99688fc0950d3 | 2024-01-14 | X    | wrong, won't take over; the texts are also used by Alliance NPCs; use 0 instead; done: sol@f4262cbd38ed443dd835a66aefa5370d94777f44 |
+| sol@48283c2b14ee10f23d23d221190ebd012078a743 | 2024-01-08 | X    | won't take over, fix the broadcast text instead; done: sol@63370ccebfcda50a36e509d8c5c18f81ccca9384 |
+| sol@db4a6bab3471d7f7721168541bcaec45d08a7e01 | 2024-01-08 | X    | verify/rework SQL script; won't take over the spell script, doesn't fix anything; improve event script and SAI instead: sol@6768100c4ef950cc724d377767805fa3f36d279a |
+| sol@abc79629c374a7ad196732601d7af9a62f0857be | 2024-01-07 | X    | won't take over, add item 22903 to loot reference 24093; done: sol@5eea0594ddf993a5c3bb52fff65889333d31153a |
+| sol@aeee3559728d20955a5b81e301b4f7406bab028e | 2024-01-07 | X    | verify/rework SQL script; done: sol@b4e1d7ef600aea051acf3aa79bf67aa8030c4975 |
+| sol@5287570ea1a3fe6e1ce425ac0069b18c813d8bf8 | 2024-01-03 | X    | won't take over, use waypoint\_data instead; done: sol@16e203f217929212eb1e48d88f5c7f3f336af26b |
+| sol@78e761854b299b916975c1a6e2743d75c417472b | 2024-01-03 | X    | verify/rework SQL script; done: sol@0d7023c3e57d8f6d521d9644afadb06959aa84bd |
 | sol@f9f71fff36de7ee374c463de2494e16b35dbf6ec | 2024-01-01 | X    | verify changes; update: won't take over, Sol is not affected by this issue |
-| sol@51b38b5ee6f820fe5df99fb3657442698deee45e | 2024-01-01 |      | verify/rework SQL script |
+| sol@51b38b5ee6f820fe5df99fb3657442698deee45e | 2024-01-01 | X    | verify/rework SQL script; done: sol@522eebd1cff76f4b543d81374664f57bf8f2bdf4 |
 | sol@dc830932f791396fdd189005ec3f6454ebe6b50c | 2024-01-01 | X    | verify changes; update: won't take over, Sol is not affected by this issue |
 | sol@9cf67f1e5c24b40fa406195af0c306275ab2d795 | 2024-01-01 | X    | verify/rework SQL script; done: sol@9a1393ac9a61ed4c3134bea238315c7f34ff3d91 |
 | sol@b2fcc1babf11a767db55c254d64b2dae2a3f913a | 2024-01-01 | X    | verify changes; update: won't take over, keep the delay |
