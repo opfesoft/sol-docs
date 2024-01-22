@@ -518,8 +518,6 @@ Maximum money that the creature drops when killed, in copper.
 
 ### AIName
 
-This field is overridden by ScriptName field if both are set.
-
 | Name            | Description                                                                                                         |
 |-----------------|---------------------------------------------------------------------------------------------------------------------|
 | NullCreatureAI  | Empty AI, creature does nothing; cannot be charmed.                                                                 |
@@ -536,6 +534,8 @@ This field is overridden by ScriptName field if both are set.
 | TurretAI        | Creature attacks using spell from field spell1; does not move.                                                      |
 | VehicleAI       | Creature acts as player vehicle.                                                                                    |
 | SmartAI         | Creature uses the "[smart_scripts](smart_scripts.md)" table to specify it's behaviour. |
+
+If the AI is overriden by an AI specified in the creature script (see [ScriptName](#scriptname)) an error is written to the server log. There is one exception: If AIName is "SmartAI" and the AI used by the creature script is derived from SmartAI it is possible to use both.
 
 ### MovementType
 

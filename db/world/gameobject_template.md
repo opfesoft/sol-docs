@@ -981,7 +981,7 @@ No data data used, all are always 0
 
 ### AIName
 
-This field is overridden by ScriptName field if both are set.
+If the AI is overriden by an AI specified in the gameobject script (see [ScriptName](#scriptname)) an error is written to the server log. There is one exception: If AIName is "SmartGameObjectAI" and the AI used by the gameobject script is derived from SmartGameObjectAI it is possible to use both.
 Note: Only `SmartGameObjectAI` can be used in this field, do not use `SmartAI`
 
 ### ScriptName
