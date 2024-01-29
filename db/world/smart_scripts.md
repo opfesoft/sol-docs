@@ -2707,15 +2707,14 @@ If targetType >0 the action is executed for each selected target instead of the 
 <td><p>75</p></td>
 <td><p>SpellId</p></td>
 <td><p>stacks (if 0 just apply the aura once)</p></td>
+<td><p>notPresent</p></td>
 <td><p><br />
 </p></td>
 <td><p><br />
 </p></td>
 <td><p><br />
 </p></td>
-<td><p><br />
-</p></td>
-<td><p>Adds aura to unit(s). Use e.g. target_type 17 to make AoE aura.</p></td>
+<td><p>Adds aura to unit(s). Use e.g. target_type 17 to make AoE aura. If "notPresent" is set the aura is not applied if it is already present on the target.</p></td>
 </tr>
 <tr>
 <td><p>SMART_ACTION_OVERRIDE_SCRIPT_BASE_OBJECT</p></td>

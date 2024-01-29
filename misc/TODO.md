@@ -2,7 +2,7 @@ TODOs: common, low prio: [cosmetic](TODO_cosmetic.md), [dungeon](TODO_dungeon.md
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
-| sol@4cfad0ffac777acff261eca24d76575ca4bf3eae | 2024-01-20 |      | verify changes |
+| sol@4cfad0ffac777acff261eca24d76575ca4bf3eae | 2024-01-20 | X    | verify changes; update: won't take over, keep the old behaviour |
 | sol@8900b2eb99cdf4ba1e3b025840f99688fc0950d3 | 2024-01-14 | X    | wrong, won't take over; the texts are also used by Alliance NPCs; use 0 instead; done: sol@f4262cbd38ed443dd835a66aefa5370d94777f44 |
 | sol@48283c2b14ee10f23d23d221190ebd012078a743 | 2024-01-08 | X    | won't take over, fix the broadcast text instead; done: sol@63370ccebfcda50a36e509d8c5c18f81ccca9384 |
 | sol@db4a6bab3471d7f7721168541bcaec45d08a7e01 | 2024-01-08 | X    | verify/rework SQL script; won't take over the spell script, doesn't fix anything; improve event script and SAI instead: sol@6768100c4ef950cc724d377767805fa3f36d279a |
