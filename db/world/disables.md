@@ -113,10 +113,11 @@ This table is used to disable dungeons/bgs/spells/etc.
 | 6     | DISABLE\_TYPE\_VMAP                  |
 | 7     | DISABLE\_TYPE\_MMAP                  |
 | 8     | DISABLE\_TYPE\_LFG\_MAP              |
+| 8     | DISABLE\_TYPE\_SCRIPT\_NAME          |
 
 ### entry
 
-Entry of Spell/Quest/Map/BG/Achievement/Map.
+Entry of Spell/Quest/Map/BG/Achievement/Map. In the case of DISABLE\_TYPE\_SCRIPT\_NAME it just has to be a unique number.
 
 ### flags
 
@@ -197,18 +198,17 @@ This will disable vMaps on whole Kalimdor.
 
 ***If sourceType = DISABLE\_TYPE\_MMAP:***
 
-******If sourceType = DISABLE\_TYPE\_LFG\_MAP:***
-***
+***If sourceType = DISABLE\_TYPE\_LFG\_MAP:***
 
 No flags needed just add the entry to the table with \`flags\`=0.
 
 ### params\_0
 
-MapId if DISABLE\_TYPE\_SPELL used, 0 for all maps.
+MapIds if DISABLE\_TYPE\_SPELL is used (0 for all maps; use comma as delimiter). Script name if DISABLE\_TYPE\_SCRIPT\_NAME is used.
 
 ### params\_1
 
-AreaId if DISABLE\_TYPE\_SPELL used, 0 for all areas.
+AreaIds if DISABLE\_TYPE\_SPELL is used (0 for all areas; use comma as delimiter).
 
 ### comment
 
