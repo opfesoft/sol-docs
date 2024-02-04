@@ -8,8 +8,6 @@
   - `vi /etc/apt/sources.list.d/kitware.list`
     - Ubuntu 20.04: `deb [signed-by=/usr/share/keyrings/kitware-archive-keyring.gpg] https://apt.kitware.com/ubuntu/ focal main`
     - Ubuntu 22.04: `deb [signed-by=/usr/share/keyrings/kitware-archive-keyring.gpg] https://apt.kitware.com/ubuntu/ jammy main`
-  - `rm /usr/share/keyrings/kitware-archive-keyring.gpg`
-  - `apt-get install kitware-archive-keyring`
 
 <br>
 

@@ -2,6 +2,7 @@ TODOs: [common](TODO.md), low prio: [cosmetic](TODO_cosmetic.md), [dungeon](TODO
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@a2f21bd46e1fc89465f6800645d2b4597264f126 | 2024-02-01 |      | verify changes (Midsummer Fire Festival) |
 | sol@c9bc5084be8f2b26c78a73df0ff9bb10c678a07f | 2024-01-21 |      | verify changes (Midsummer Fire Festival) |
 | sol@e85b71a2c519057d142d2471853dfbbe9665bd5f | 2024-01-05 |      | keep as reference; take over single values if needed; won't blindly take over such mass updates (don't care about sniffs) (several holiday events) |
 | sol@2e5d5f2dc73e64aba29429903a152f6047eb4a6b | 2023-11-10 |      | verify changes (needs sol@ef09d4b63f9e3eb5221c1234c87a28c10c541a5d) (several holiday events) |
@@ -92,7 +93,7 @@ TODOs: [common](TODO.md), low prio: [cosmetic](TODO_cosmetic.md), [dungeon](TODO
 | sol@c0aa1b88e8a33172e64585840c7761b3b38c4873 | 2021-03-29 |      | verify changes (Love is in the Air) |
 | sol@9e17e13953cda4c2f4f8c10c883cf5608f6a3d9e | 2021-03-09 |      | verify SQL script (Hallow's End) |
 | sol@c628cd776e43390421f6f355a57a99c38bccf41b | 2021-02-03 |      | verify SQL script (Lunar Festival) |
-| sol@911ac12ea631fde0d0090be32501fe93eb456de4 | 2021-02-01 |      | verify SQL script (also see sol@fc5bca04bc834d5d6f0173031923266a7f45cf0f) (Lunar Festival) |
+| sol@911ac12ea631fde0d0090be32501fe93eb456de4 | 2021-02-01 |      | verify SQL script (also see sol@fc5bca04bc834d5d6f0173031923266a7f45cf0f, sol@30a34154c50e3246a13280517e916e0081536aa8) (Lunar Festival) |
 | sol@9c239d17cbee9939ee743f76044bc858f1ad5cae | 2021-02-01 |      | verify SQL script (Lunar Festival) |
 | sol@106684fbd2c0ecabdc340bae9361f9d3dd7eb18f | 2020-12-31 |      | verify SQL script & quest (Brewfest) |
 | sol@24cfa307fe66b9b514f1654ac965dfcf2e2890b8 | 2020-10-11 |      | verify and rework SQL script; compare with TC version (Brewfest) |
