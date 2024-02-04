@@ -111,6 +111,19 @@ NOTICE: The data for this table is largely incomplete and is mostly just a regur
 </td>
 </tr>
 <tr>
+<td><a href="#maxAggroRadius">maxAggroRadius</a></td>
+<td>float</td>
+<td>unsigned</td>
+<td><br />
+</td>
+<td>YES</td>
+<td></td>
+<td><br />
+</td>
+<td><br />
+</td>
+</tr>
+<tr>
 <td><p><a href="#auras">auras</a></p></td>
 <td><p>text</p></td>
 <td><p></p></td>
@@ -186,6 +199,10 @@ This field controls the visibility distance for creatures:
 0 = Normal, standard visible distance from worldserver.conf (default 90 yards)
 
 1 = Large, maximum visibility distance (250 yards)
+
+### maxAggroRadius
+
+If set the aggro radius is limited to this value.
 
 ### auras
 
