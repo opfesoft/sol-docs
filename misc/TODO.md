@@ -2,6 +2,8 @@ TODOs: common, low prio: [cosmetic](TODO_cosmetic.md), [dungeon](TODO_dungeon.md
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@af8d960277f7649c3f1816e00e1db44be416a3fc | 2024-02-05 |      | won't take over, just check the missing ones and duplicates |
+| sol@26d0c137a97029e3cbb44b69f5f655de875bb520 | 2024-02-04 |      | verify/rework SQL script (also rework SAI for 22017) |
 | sol@1324f420f2cc38c1653475d352b7399c44a75eb9 | 2024-02-03 |      | verify changes; low prio (minor issue) |
 | sol@4cfad0ffac777acff261eca24d76575ca4bf3eae | 2024-01-20 | X    | verify changes; update: won't take over, keep the old behaviour |
 | sol@8900b2eb99cdf4ba1e3b025840f99688fc0950d3 | 2024-01-14 | X    | wrong, won't take over; the texts are also used by Alliance NPCs; use 0 instead; done: sol@f4262cbd38ed443dd835a66aefa5370d94777f44 |
@@ -30,7 +32,7 @@ TODOs: common, low prio: [cosmetic](TODO_cosmetic.md), [dungeon](TODO_dungeon.md
 | sol@ff5bb59cf0e67cf4f40152f18929e8e3cc4dd27d | 2023-11-30 | X    | verify/rework SQL script; done: sol@52dc27dff33b998093d2bcb6d42cd0cff2763d52 |
 | sol@e8077540215250d5d73641dd405acfceb3207a74 | 2023-11-29 | X    | verify/rework SQL script (contains a bug concerning RequiredMinRepFaction, see sol@9f21e5fd17e962b11fd0cb7f43b992ba2fd2a2a2); done: sol@4a1e64ce7fc30695702b612c63e1926659a4ba2a |
 | sol@abf85fb44f66344064bc12b20228652c26b33395 | 2023-11-27 | X    | verify changes; done: sol@44b628eab135639ea36f5c69e8ad2b4dfaca4552, sol@9645d48acd8acced9aa1f6fb377f1f3b1fca43ca |
-| sol@f7d7c4feb7a8f9c63bc4c94ebd48f1771d07958a | 2023-11-26 |      | probably take over the destination prediction (also see sol@8f127f9e2135a70cdb5573d052f50304d1b3875c); low prio (minor issue) |
+| sol@f7d7c4feb7a8f9c63bc4c94ebd48f1771d07958a | 2023-11-26 |      | probably take over the destination prediction (also see sol@8f127f9e2135a70cdb5573d052f50304d1b3875c, sol@71557b4274e2e7db2c0e0f51bf28c4ca75fa8241); low prio (minor issue) |
 | sol@c02cccb87c0f98794c2f2ec3a7b144925fbccaca | 2023-11-23 | X    | verify changes; done: sol@be35ece5180169acf42dd4f601010e4b7f757f4f |
 | sol@1850c974a4e5f5517b9ae2b3deaf98569db11fa6 | 2023-11-23 | X    | verify changes; won't take over, Sol is not affected by this issue (see sol@62ccded8d0942029e62176c2a3ce8c007c22b381) |
 | sol@c138d0c0d530a355b465fc3e129e04c1fbb466dc | 2023-11-20 | X    | verify/rework SQL script; done: sol@655d2f4bb19eb6c5d22d7cab6f9358c72837c641 |
@@ -866,7 +868,7 @@ TODOs: common, low prio: [cosmetic](TODO_cosmetic.md), [dungeon](TODO_dungeon.md
 | sol@b5d9b3d51325df25d8f5f66a77260bda354243ba | 2021-07-12 | X    | verify issue/changes; rework SQL script; update: won't take over, the quest seems to work fine; just increase the effect radius for Plague Strike to 8 yards: sol@55a28f19e4052c4fbaa3bae6555f105f3242055a |
 | sol@2e8a7498d74739078ea1fb4c9674730c26c221d4 | 2021-07-10 | X    | verify/rework SQL script; implemented another solution, see sol@e4e792a7905bb61a0ad4bc3399681ba2a384453b & sol@83e975090bbc5621bf3da6930ab07c34a6d8dbd9 |
 | sol@a61f7a128fd215a958b527e2f63beec81d77bc93 | 2021-07-09 |      | take over if needed |
-| sol@f8c8e98a0afacc765675f52f65c0f7cd37bc2220 | 2021-07-08 |      | take over if needed; use creature addon instead of creature template; adjust only aggro radius, won't change any other calculations; keep 20y as default |
+| sol@f8c8e98a0afacc765675f52f65c0f7cd37bc2220 | 2021-07-08 | X    | take over if needed; use creature addon instead of creature template; adjust only aggro radius, won't change any other calculations; keep 20y as default; update: won't take over; added a new column "maxAggroRadius" to the creature addon tables which can be used for this purpose, see sol@353d989dac2b1b14f3249784f06f2f9249c54eda |
 | sol@c7d5080b42abb84c226b55f2b4d56bbb5a6cf56a | 2021-07-08 | X    | take over from TC instead; done: sol@7287e32139b25e9ae552dbdf726c823af8f8c7c2 |
 | sol@6644c6518d9127b4d1dcc4d23138052b2aff344f | 2021-07-08 | X    | verify/rework SQL script; implemented another solution: sol@382f5c58ba2d03276041ac0673022654b4d8233e |
 | sol@b66314b67dc5952e3761c083d9e4aa2a74e44507 | 2021-07-07 | X    | verify/rework SQL script; done: sol@fe86c0cbd65f1c28f57fa58c407fc8f14cde9312; note: don't spawn multiple Noxxious Scions because the quest would then become too easy and it also does not match the quest description |

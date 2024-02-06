@@ -111,7 +111,7 @@ NOTICE: The data for this table is largely incomplete and is mostly just a regur
 </td>
 </tr>
 <tr>
-<td><a href="#maxAggroRadius">maxAggroRadius</a></td>
+<td><a href="#maxaggroradius">maxAggroRadius</a></td>
 <td>float</td>
 <td>unsigned</td>
 <td><br />
