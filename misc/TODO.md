@@ -2,8 +2,8 @@ TODOs: common, low prio: [cosmetic](TODO_cosmetic.md), [dungeon](TODO_dungeon.md
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
-| sol@af8d960277f7649c3f1816e00e1db44be416a3fc | 2024-02-05 |      | won't take over, just check the missing ones and duplicates |
-| sol@26d0c137a97029e3cbb44b69f5f655de875bb520 | 2024-02-04 |      | verify/rework SQL script (also rework SAI for 22017) |
+| sol@af8d960277f7649c3f1816e00e1db44be416a3fc | 2024-02-05 | X    | won't take over, just check the missing ones and duplicates; done: sol@607a2c710e20ae5a5106293104570b3885cbf0e3 |
+| sol@26d0c137a97029e3cbb44b69f5f655de875bb520 | 2024-02-04 | X    | verify/rework SQL script (also rework SAI for 22017); done: sol@968e37a257f937c8044e7f6d30e21bf06062a800 |
 | sol@1324f420f2cc38c1653475d352b7399c44a75eb9 | 2024-02-03 |      | verify changes; low prio (minor issue) |
 | sol@4cfad0ffac777acff261eca24d76575ca4bf3eae | 2024-01-20 | X    | verify changes; update: won't take over, keep the old behaviour |
 | sol@8900b2eb99cdf4ba1e3b025840f99688fc0950d3 | 2024-01-14 | X    | wrong, won't take over; the texts are also used by Alliance NPCs; use 0 instead; done: sol@f4262cbd38ed443dd835a66aefa5370d94777f44 |
