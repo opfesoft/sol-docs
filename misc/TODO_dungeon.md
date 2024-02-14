@@ -2,7 +2,7 @@ TODOs: [common](TODO.md), low prio: [cosmetic](TODO_cosmetic.md), dungeon, [even
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
-| sol@bf71d8e7f107ac74b7a957da78c249f3227569b3 | 2024-02-12 |      | verify changes (The Eye) |
+| sol@bf71d8e7f107ac74b7a957da78c249f3227569b3 | 2024-02-12 |      | verify changes (also see sol@5e7e5ce4173dee17f4ea6de6fda675c74b465d46) (The Eye) |
 | sol@723dda74d94f6f941f4982ee513e5fb9f0265cac | 2024-02-12 |      | verify/rework SQL script (The Eye) |
 | sol@c494f2ff70c7095d2667bb532ce7e45e016c16b4 | 2024-02-12 |      | verify/rework SQL script (The Eye) |
 | sol@1ec72ae6dc28897d19fe720c54db6662ad4c3257 | 2024-02-04 |      | verify changes (The Eye) |
