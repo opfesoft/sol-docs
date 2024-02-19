@@ -3,7 +3,7 @@ TODOs: [common](TODO.md), low prio: [cosmetic](TODO_cosmetic.md), [dungeon](TODO
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
 | sol@0c95ddf285e3f00a06d5c2a1257708d4163fbf20 | 2024-02-13 |      | verify/rework SQL script (Love is in the Air) |
-| sol@6c841df6d194229183e72acbaca0afbfeb10bbea | 2024-02-12 |      | keep as reference; take over single values if needed (Love is in the Air) |
+| sol@6c841df6d194229183e72acbaca0afbfeb10bbea | 2024-02-12 |      | keep as reference; take over single values if needed (also see sol@1a7ae2461a2dbaaa22f34f14099cd497334cd7c3, sol@19e28d04adcf2884c30db862414e6c67b4ce8f2b, sol@d3e451eb7b37e2d91e0ce0d257801a181824013e, sol@47a62b6f2b5ba212ae48a81c44ba11dfa22e1ad0, sol@75c6445e2f65fac74cdefacd2a457b79a1d6b616, sol@27d85435eea7df90ecfe4bc2acb0428d2eabd5b0, sol@051a1c3f7408b2141712ec278cbbf31382b64203, sol@15366b2754fd2faf558d398811c4003653089460) (Love is in the Air) |
 | sol@a2f21bd46e1fc89465f6800645d2b4597264f126 | 2024-02-01 |      | verify changes (Midsummer Fire Festival) |
 | sol@c9bc5084be8f2b26c78a73df0ff9bb10c678a07f | 2024-01-21 |      | verify changes (Midsummer Fire Festival) |
 | sol@e85b71a2c519057d142d2471853dfbbe9665bd5f | 2024-01-05 |      | keep as reference; take over single values if needed; won't blindly take over such mass updates (don't care about sniffs) (several holiday events) |
