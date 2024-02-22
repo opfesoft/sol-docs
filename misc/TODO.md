@@ -2,7 +2,8 @@ TODOs: common, low prio: [cosmetic](TODO_cosmetic.md), [dungeon](TODO_dungeon.md
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
-| sol@bc3ef723af5d0c1bad448f1ac3e0c6bf72c78f8c | 2024-02-18 |      | verify/rework SQL script |
+| sol@7e80d8e6bb1784d8cf588beb6af20ec7dad01fd6 | 2024-02-21 |      | verify changes |
+| sol@bc3ef723af5d0c1bad448f1ac3e0c6bf72c78f8c | 2024-02-18 | X    | verify/rework SQL script; update: wrong, won't take over; this should not be a permanent spawn, it is used during the quest "Parts for Kravel" (also see Sol commit sol@f962f437aedb536e8f2ad91d63769ba3a58d7342) |
 | sol@af8d960277f7649c3f1816e00e1db44be416a3fc | 2024-02-05 | X    | won't take over, just check the missing ones and duplicates; done: sol@607a2c710e20ae5a5106293104570b3885cbf0e3 |
 | sol@26d0c137a97029e3cbb44b69f5f655de875bb520 | 2024-02-04 | X    | verify/rework SQL script (also rework SAI for 22017); done: sol@968e37a257f937c8044e7f6d30e21bf06062a800 |
 | sol@1324f420f2cc38c1653475d352b7399c44a75eb9 | 2024-02-03 |      | verify changes; low prio (minor issue) |
@@ -719,7 +720,7 @@ TODOs: common, low prio: [cosmetic](TODO_cosmetic.md), [dungeon](TODO_dungeon.md
 | sol@de8d0b49f8c234394701cf6d15579cd444682e19 | 2021-10-04 | X    | verify issue & changes; done: sol@203fecc3d8d47860269dc507d1d43dafa374d376 |
 | sol@cdab63c3e062fac6d5eeb910747ffa129e49510f | 2021-10-04 | X    | verify/rework SQL script; update: was already fixed, see sol@ed4b00ca252bbca305ae9252486a1988f195e0b0 |
 | sol@4f5d78880c4a6e5130ac1db71320766104fe2354 | 2021-10-03 | X    | verify/rework SQL script; done: sol@666a2760c85f6dd041e1c9b8e24b91ee9849c17c |
-| sol@06e50a9690f7708dc7134c98807f58f1bb445035 | 2021-10-03 |      | take over if needed (also contains a second PR, see sol@e094c1ae78f64bdb6696f068238094b193914f3c) |
+| sol@06e50a9690f7708dc7134c98807f58f1bb445035 | 2021-10-03 |      | take over if needed (also contains a second PR, see sol@e094c1ae78f64bdb6696f068238094b193914f3c); update: second PR concerning SPELL\_ATTR0\_CU\_NO\_PVP\_FLAG implemented: sol@52facc4e2743cfd4156680fd47ca0ee74f52a30d |
 | sol@ecb92f9d669f8f888eedf5feb229a0e350e02976 | 2021-10-01 | X    | verify changes & loot, compare with TC; done: sol@f8dba2fc1ab2c573fe6d78203e1ad64c14ddc154 |
 | sol@0c8fb1ea73372e052643ea02d7c30379fba1d547 | 2021-10-01 |      | verify changes; low prio (minor issue) |
 | sol@46e1779688b5e1da6cccf8eecf8988fabb8b902b | 2021-10-01 | X    | verify/rework SQL script; done: sol@1e9a465921706f2cbb610f6e35ed70d86ed83172 |

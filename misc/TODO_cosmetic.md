@@ -2,10 +2,12 @@ TODOs: [common](TODO.md), low prio: cosmetic, [dungeon](TODO_dungeon.md), [event
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
-| sol@5a52f3a9a8e45e056962664373a23d44e8e5224d | 2024-01-02 |      | verify/rework SQL script; use waypoint\_data instead |
-| sol@9ba3ead60acc22d01de5f67ebca59a76a0cb336a | 2023-12-04 |      | won't take over, use waypoint\_data instead; create a new path and add some pauses to make him less annoying for players |
+| sol@794d3e47b90c9ee0ddfde38caf01f80bedd0ee12 | 2024-02-20 |      | rework existing SAI and add spell 29459 (see Sol commit sol@79fb5b4d030155bd89c0b4df8d71ab7061a873d2) |
+| sol@1cbf7492b64b8f45c0bf6421bcc0216a81f6d5cf | 2024-02-20 |      | won't take over, use waypoint\_data instead for the WP path |
+| sol@5a52f3a9a8e45e056962664373a23d44e8e5224d | 2024-01-02 |      | verify/rework SQL script; use waypoint\_data instead for the WP path |
+| sol@9ba3ead60acc22d01de5f67ebca59a76a0cb336a | 2023-12-04 |      | won't take over, use waypoint\_data instead for the WP path; create a new path and add some pauses to make him less annoying for players |
 | sol@a7d2f2effae62483c8ddcdd6038da23d024d371a | 2023-09-17 |      | verify/rework SAI only |
-| sol@becf376b6915b86bede148ce0a0cb3ed81a1d81b | 2023-09-04 |      | verify/rework SQL script; use waypoint\_data instead |
+| sol@becf376b6915b86bede148ce0a0cb3ed81a1d81b | 2023-09-04 |      | verify/rework SQL script; use waypoint\_data instead for the WP path |
 | sol@60adbf5b8273fa5a110fd3f06a3b659f63dcc805 | 2023-05-13 |      | verify/rework SQL script |
 | sol@602cfcf4f1adc12d8120f36ac3b2f2cee468f217 | 2023-05-12 |      | verify/rework SQL script |
 | sol@453bd777d75be787b027e5368a7d3e83ea8e9509 | 2023-05-10 |      | verify/rework SQL script; check the WP paths |
