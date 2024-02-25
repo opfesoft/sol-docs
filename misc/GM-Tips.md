@@ -97,34 +97,35 @@ Some quests or quest chains depend on a certain reputation for specific factions
 
 See "[GM-Commands](GM-Commands.md)" for a complete overview. If dead you can use the guild channel '/g' to execute the commands.
 
-| Command                          | Abbreviation            | Example                          | Comment |
-|----------------------------------|-------------------------|----------------------------------|---------|
-| `.gm [on\|off]`                  | `.g [on\|off]`          | `.g on`                          | Turn GM mode on/off **(important: always turn off GM mode before testing quests, creatures etc.!)** |
-| `.gm fly [on\|off]`              | `.g f [on\|off]`        | `.g f on`                        | Turn flying on/off |
-| `.modify speed all <multiplier>` | `.mo sp a <multiplier>` | `.mo sp a 5`                     | Set all speed multipliers (run, walk, fly) to the specified value |
-| `.modify hp <value>`             | `.mo h <value>`         | `.mo h 9999999`                  | Set health of the selected player (or own if no player is selected) |
-| `.modify mana <value>`           | `.mo m <value>`         | `.mo m 9999999`                  | Set mana of the selected player (or own if no player is selected) |
-| `.die`                           | `.di`                   |                                  | Kill the selected creature (will provide no loot!) |
-| `.damage <amount>`               | `.d <amount>`           | `.d 10`                          | Cause `<amount>` direct melee damage to the selected creature (you can also specify a specific school or spell damage, see [GM-Commands](GM-Commands.md) for details) |
-| `.respawn`                       | `.resp`                 |                                  | Respawn the selected creature/gameobject; if nothing is selected respawn all near creatures / gameobjects |
-| `.cheat cooldown`                | `.che c`                |                                  | Toggle cast cooldown off/on |
-| `.instance unbind all`           | `.i u all`              |                                  | Unbind all instances |
-| `.quest add <id>`                | `.q a <id>`             | `.q a 4284`                       | Add the specified quest to the quest log |
-| `.quest complete <id>`           | `.q c <id>`             | `.q c 4284`                       | Mark the specified quest as completed (has to be added be added before) |
-| `.quest reward <id>`             | `.q rew <id>`           | `.q rew 4284`                     | Reward the specified quest (has to be completed before) |
-| `.quest remove <id>`             | `.q rem <id>`           | `.q rem 4284`                     | Remove the specified quest (will also reset rewarded quests, so this should always be used after testing quests) |
-| `.go creature id <id>`           | `.go c id <id>`         | `.go c id 620`                   | Teleport to the first creature with the specified template ID (the ID used by wowhead etc.) |
-| `.go creature <guid>`            | `.go c <guid>`          | `.go c 79947`                    | Teleport to the creature with the specified GUID (**G**lobally **U**nique **Id**entifier, the unique ID of the spawned creature) |
-| `.go <x> <y> <z> <map>`          |                         | `.go 1629.36 -4373.39 31.2564 1` | Teleport to the specified coordinates on the specified [map](../dbc/Map.md) |
-| `.teleport <location>`           | `.t <location>`         | `.t Orgrimmar`                   | Teleport to the specified [location](../db/world/game_tele.md); use the ".lookup" command to search for locations, e.g. `.lookup tele orgr` |
-| `.lookup <subcommand>`           | `.lo <subcommand>`      | `.lo sp Uber Heal`               | Lookup various topics, e.g. skills, spells, creatures, teleport locations etc.; call ".lookup" without sub-command for a list of possible values |
-| `.modify phase <phasemask>`      | `.mo p <phasemask>`     | `.mo p 64`                       | Change phase mask of the selected creature or your own if no creature is selected. See [Phasing](#phasing) for details concerning phasing |
-| `.npc add temp <id>`             | `.np a t <id>`          | `.np a t 620`                    | Spawn a temporary NPC with the specified creature ID at the position of the GM; the temporary creature is not saved to the DB |
-| `.learn <id>`                    | `.l <id>`               | `.l 1908`                        | Learn the spell with the specified ID (either targeted player or self) |
-| `.unlearn <id>`                  | `.unl <id>`             | `.unl 1908`                      | Unlearn the spell with the specified ID (either targeted player or self) |
-| `.aura <id>`                     | `.au <id>`              | `.au 1908`                       | Add aura with the specified spell ID to the target (or self) |
-| `.unaura <id>`                   | `.u <id>`               | `.u 1908`                        | Remove aura with the specified spell ID to the target (or self); if using "all" as ID all auras will be removed |
-| `.additem <id> <amount>`         | `.ad <id> <amount>`     | `.ad 4457 10`                    | Add items with the specified item ID to the inventory; if amount is negative, remove the items |
+| Command                          | Abbreviation              | Example                          | Comment |
+|----------------------------------|---------------------------|----------------------------------|---------|
+| `.gm [on\|off]`                  | `.g [on\|off]`            | `.g on`                          | Turn GM mode on/off **(important: always turn off GM mode before testing quests, creatures etc.!)** |
+| `.gm fly [on\|off]`              | `.g f [on\|off]`          | `.g f on`                        | Turn flying on/off |
+| `.modify speed all <multiplier>` | `.mo sp a <multiplier>`   | `.mo sp a 5`                     | Set all speed multipliers (run, walk, fly) to the specified value |
+| `.modify hp <value>`             | `.mo h <value>`           | `.mo h 9999999`                  | Set health of the selected player (or own if no player is selected) |
+| `.modify mana <value>`           | `.mo m <value>`           | `.mo m 9999999`                  | Set mana of the selected player (or own if no player is selected) |
+| `.die`                           | `.di`                     |                                  | Kill the selected creature (will provide no loot!) |
+| `.damage <amount>`               | `.d <amount>`             | `.d 10`                          | Cause `<amount>` direct melee damage to the selected creature (you can also specify a specific school or spell damage, see [GM-Commands](GM-Commands.md) for details) |
+| `.respawn`                       | `.resp`                   |                                  | Respawn the selected creature/gameobject; if nothing is selected respawn all near creatures / gameobjects |
+| `.cheat cooldown`                | `.che c`                  |                                  | Toggle cast cooldown off/on |
+| `.instance unbind all`           | `.i u all`                |                                  | Unbind all instances |
+| `.quest add <id>`                | `.q a <id>`               | `.q a 4284`                       | Add the specified quest to the quest log |
+| `.quest complete <id>`           | `.q c <id>`               | `.q c 4284`                       | Mark the specified quest as completed (has to be added be added before) |
+| `.quest reward <id>`             | `.q rew <id>`             | `.q rew 4284`                     | Reward the specified quest (has to be completed before) |
+| `.quest remove <id>`             | `.q rem <id>`             | `.q rem 4284`                     | Remove the specified quest (will also reset rewarded quests, so this should always be used after testing quests) |
+| `.go creature id <id>`           | `.go c id <id>`           | `.go c id 620`                   | Teleport to the first creature with the specified template ID (the ID used by wowhead etc.) |
+| `.go creature <guid>`            | `.go c <guid>`            | `.go c 79947`                    | Teleport to the creature with the specified GUID (**G**lobally **U**nique **Id**entifier, the unique ID of the spawned creature) |
+| `.go <x> <y> <z> <map>`          |                           | `.go 1629.36 -4373.39 31.2564 1` | Teleport to the specified coordinates on the specified [map](../dbc/Map.md) |
+| `.teleport <location>`           | `.t <location>`           | `.t Orgrimmar`                   | Teleport to the specified [location](../db/world/game_tele.md); use the ".lookup" command to search for locations, e.g. `.lookup tele orgr` |
+| `.lookup <subcommand>`           | `.lo <subcommand>`        | `.lo sp Uber Heal`               | Lookup various topics, e.g. skills, spells, creatures, teleport locations etc.; call ".lookup" without sub-command for a list of possible values |
+| `.modify phase <phasemask>`      | `.mo p <phasemask>`       | `.mo p 64`                       | Change phase mask of the selected creature or your own if no creature is selected. See [Phasing](#phasing) for details concerning phasing |
+| `.npc add temp <id>`             | `.np a t <id>`            | `.np a t 620`                    | Spawn a temporary NPC with the specified creature ID at the position of the GM; the temporary creature is not saved to the DB |
+| `.learn <id>`                    | `.l <id>`                 | `.l 1908`                        | Learn the spell with the specified ID (either targeted player or self) |
+| `.unlearn <id>`                  | `.unl <id>`               | `.unl 1908`                      | Unlearn the spell with the specified ID (either targeted player or self) |
+| `.aura <id>`                     | `.au <id>`                | `.au 1908`                       | Add aura with the specified spell ID to the target (or self) |
+| `.unaura <id>`                   | `.u <id>`                 | `.u 1908`                        | Remove aura with the specified spell ID to the target (or self); if using "all" as ID all auras will be removed |
+| `.additem <id> <amount>`         | `.ad <id> <amount>`       | `.ad 4457 10`                    | Add items with the specified item ID to the inventory; if amount is negative, remove the items |
+| `.npc set data <field> <data>`   | `.np se d <field> <data>` | `.np se d 1 1`                   | Sets data for the selected creature; used to test scripts (e.g. SmartAI) |
 
 ## Macros
 

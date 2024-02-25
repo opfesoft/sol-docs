@@ -2,7 +2,7 @@ TODOs: common, low prio: [cosmetic](TODO_cosmetic.md), [dungeon](TODO_dungeon.md
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
-| sol@7e80d8e6bb1784d8cf588beb6af20ec7dad01fd6 | 2024-02-21 |      | verify changes |
+| sol@7e80d8e6bb1784d8cf588beb6af20ec7dad01fd6 | 2024-02-21 | X    | verify changes; done: sol@d369336f121628a8e63aa41991dd8d116a7d4398, sol@75f08f24ee0b9daaadf2fce1abcecb356111d4be |
 | sol@bc3ef723af5d0c1bad448f1ac3e0c6bf72c78f8c | 2024-02-18 | X    | verify/rework SQL script; update: wrong, won't take over; this should not be a permanent spawn, it is used during the quest "Parts for Kravel" (also see Sol commit sol@f962f437aedb536e8f2ad91d63769ba3a58d7342) |
 | sol@af8d960277f7649c3f1816e00e1db44be416a3fc | 2024-02-05 | X    | won't take over, just check the missing ones and duplicates; done: sol@607a2c710e20ae5a5106293104570b3885cbf0e3 |
 | sol@26d0c137a97029e3cbb44b69f5f655de875bb520 | 2024-02-04 | X    | verify/rework SQL script (also rework SAI for 22017); done: sol@968e37a257f937c8044e7f6d30e21bf06062a800 |
