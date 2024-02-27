@@ -19,6 +19,7 @@ Side note: Because SmartAI is derived from CreatureAI both use the same movement
 - ```.wp show on``` [waypoint_data.id](../db/world/waypoint_data.md#id): Show all waypoints of the specified path (GM on is required to actually see them). If no path id is specified shows the waypoints of the selected creature.
 - ```.wp show off```: Hide all visual waypoints.
 - ```.wp show info```: Show information about the selected waypoint.
+- ```.wp show stop```: Show stop timer.
 - ```.wp modify```: Modify the selected waypoint, options:
   - ```del```: Delete the selected waypoint.
   - ```move```: Move the selected waypoint to the position of the GM.

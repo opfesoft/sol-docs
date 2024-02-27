@@ -441,7 +441,7 @@ Note: Some commands are working only by selecting a player or a creature. These 
 |wp load|3|Syntax: .wp load $pathid Load pathid number for selected creature. Creature must have no waypoint data.|
 |wp modify|3|Syntax: .wp modify $option; Options: "action" - Changes the value action; "action_chance" - Changes the value action_chance; "del" - Deletes a selected waypoint; "delay" - Changes the value delay; "move" - Moves a selected waypoint; "move_type" - Changes the value move_type; "orientation" - Changes the value orientation (if the value is "player" takes the player's orientation)|
 |wp reload|3|Syntax: .wp reload $pathid Load path changes ingame - IMPORTANT: must be applied first for new paths before .wp load #pathid|
-|wp show|2|Syntax: .wp show $optionOptions:on $pathid (or selected creature with loaded path) - Show visual waypoints (Note: You must have GM on to see the waypoints)off Hide the visual waypoints.info Shows info for selected waypoint.first Shows visual the first waypoint.last Shows visual the last waypoint.|
+|wp show|2|Syntax: .wp show $option; Options: on $pathid (or selected creature with loaded path) - Show visual waypoints (Note: You must have GM on to see the waypoints); off - Hide the visual waypoints; info - Shows info for selected waypoint; first - Shows visual the first waypoint; last - Shows visual the last waypoint; stop - Show stop timer |
 |wp stop|3|Syntax: .wp stop $duration Stop WP movement for $duration ms (can also be used to decrease the current WP duration).|
 |wp unload|3|Syntax: .wp unload Unload path for selected creature.|
 |account addon|1|Syntax: .account addon #addon Set expansion addon level allowed. Addon values: 0 - normal, 1 - tbc, 2 - wotlk.|
