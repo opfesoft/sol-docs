@@ -2,8 +2,8 @@ TODOs: common, low prio: [cosmetic](TODO_cosmetic.md), [dungeon](TODO_dungeon.md
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
-| sol@bc08c278c98bb7826360ce26e804506a962cae55 | 2024-02-27 |      | won't take over, just check the missing ones and duplicates |
-| sol@a974248624cba6beaa04a68934fe7c5fbb1b9d84 | 2024-02-27 |      | won't take over, just check the missing ones and duplicates |
+| sol@bc08c278c98bb7826360ce26e804506a962cae55 | 2024-02-27 | X    | won't take over, just check the missing ones and duplicates; done: sol@89e297db4d22401eaf19ce09202a6ec22ddba45e, sol@d7678d4faaf35bfeb6ef97a3249f09eaa1e75b6d |
+| sol@a974248624cba6beaa04a68934fe7c5fbb1b9d84 | 2024-02-27 | X    | won't take over, just check the missing ones and duplicates; done: sol@89e297db4d22401eaf19ce09202a6ec22ddba45e, sol@d7678d4faaf35bfeb6ef97a3249f09eaa1e75b6d |
 | sol@7e80d8e6bb1784d8cf588beb6af20ec7dad01fd6 | 2024-02-21 | X    | verify changes; done: sol@d369336f121628a8e63aa41991dd8d116a7d4398, sol@75f08f24ee0b9daaadf2fce1abcecb356111d4be |
 | sol@bc3ef723af5d0c1bad448f1ac3e0c6bf72c78f8c | 2024-02-18 | X    | verify/rework SQL script; update: wrong, won't take over; this should not be a permanent spawn, it is used during the quest "Parts for Kravel" (also see Sol commit sol@f962f437aedb536e8f2ad91d63769ba3a58d7342) |
 | sol@af8d960277f7649c3f1816e00e1db44be416a3fc | 2024-02-05 | X    | won't take over, just check the missing ones and duplicates; done: sol@607a2c710e20ae5a5106293104570b3885cbf0e3 |
