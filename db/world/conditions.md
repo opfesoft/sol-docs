@@ -796,7 +796,7 @@ Player level (1-80 in 3.3.5)</td>
 <td>29</td>
 <td>Creature entry from <a href="creature_template.md#entry">creature_template.entry</a> or 0 to check for a nearby player</td>
 <td>Distance in yards</td>
-<td>Alive=0 / Dead=1</td>
+<td>Alive=0 / Dead=1 / Corpse=2</td>
 </tr>
 <tr>
 <td>CONDITION_NEAR_GAMEOBJECT</td>
@@ -1091,6 +1091,13 @@ CONDITION_STAND_STATE</p></td>
 <td>153</td>
 <td>[index](https://gitlab.com/opfesoft/sol/-/blob/master/src/server/game/Entities/Object/Updates/UpdateFields.h) (e.g. 82 for UNIT_NPC_FLAGS)</td>
 <td>flag mask</td>
+<td>Always 0</td>
+</tr>
+<tr>
+<td>CONDITION_CORPSE</td>
+<td>154</td>
+<td>Always 0</td>
+<td>Always 0</td>
 <td>Always 0</td>
 </tr>
 </tbody>

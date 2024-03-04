@@ -4564,6 +4564,25 @@ seat mask 9 means seat 0 and 3 (bit 1 + 8)</p></td>
 </p></td>
 <td><p>Target alive members of the [creature formation](creature_formations.md).</p></td>
 </tr>
+<tr>
+<td><p>SMART_TARGET_MINION</p></td>
+<td><p>232</p></td>
+<td><p><a href="creature_template.md#entry">creature_template.entry</a></p></td>
+<td><p>alive state (1 alive, 2 dead, 0 both)</p></td>
+<td><p><br />
+</p></td>
+<td><p><br />
+</p></td>
+<td><p><br />
+</p></td>
+<td><p><br />
+</p></td>
+<td><p><br />
+</p></td>
+<td><p><br />
+</p></td>
+<td><p>All minions with the specified creature entry.</p></td>
+</tr>
 </tbody>
 </table>
 
