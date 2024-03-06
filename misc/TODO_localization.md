@@ -2,6 +2,7 @@ TODOs: [common](TODO.md), low prio: [cosmetic](TODO_cosmetic.md), [dungeon](TODO
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@a9422b10becaf714b86febe56baa2ac7d0742ef9 | 2024-03-04 |      | use quest\_greeting instead (frFR) |
 | sol@cfe9ce719a3ad1d07aff91ef25731912f6f61761 | 2023-04-19 |      | verify/rework SQL script (zhCN) |
 | sol@f31f10fdf7b9b170bed87acb02a35f6fee5bdd6b | 2023-02-17 |      | verify/rework SQL script (esES, esMX) |
 | sol@2e6c28c4d8a011e948e83c016f65d1497fca6c23 | 2023-02-11 |      | verify changes (also see sol@66f4feb1da0593885d2a90081ab3be3fecd152e7) |
