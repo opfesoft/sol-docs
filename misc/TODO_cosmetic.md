@@ -106,7 +106,7 @@ TODOs: [common](TODO.md), low prio: cosmetic, [dungeon](TODO_dungeon.md), [event
 | sol@10eb1870914e661dd06ef3bebc439811606daf5b | 2021-12-28 |      | verify/rework SQL script; verify WP paths |
 | sol@93b6835e055bfe86bced5808d2906582a25a0227 | 2021-12-27 |      | verify/rework SQL script; check the WP paths |
 | sol@bc87362f7dd85a5cdc6560cb8c435afd22574d43 | 2021-12-23 |      | verify/rework SQL script (also see sol@585f3f245cd0a0360bd510b5bfd9377fc5625779); won't take over the updated spawn points, just check the WP paths and random movement |
-| sol@5b6e6c3d7e5b893358ef25917802b1cbab3ca67a | 2021-12-23 |      | verify/rework SQL script; won't take over the updated spawn points, just check the WP paths and random movement |
+| sol@5b6e6c3d7e5b893358ef25917802b1cbab3ca67a | 2021-12-23 | X    | verify/rework SQL script; won't take over the updated spawn points, just check the WP paths and random movement; done: sol@81263dba149e559434f05d9c93eecd57471dbfc6 |
 | sol@4beb2d8ab4234f6387b31804ac1c1bc73ca1873d | 2021-12-19 | X    | verify/rework SQL script; check the WP paths; update: took over emotes/equipment, see sol@6369dce3cc49c4a1a78fa6123d9963026804f653; done: sol@0dd744a7580b9f0d7410adf8716427ab79bc2c2c |
 | sol@1d8160a97067bd70719fe476450a48e1b1f9cf73 | 2021-12-19 | X    | verify/rework SQL script; won't take over the updated spawn points, just check the WP paths; done: sol@7105944d06e263525f1b6b67cdb482230ccdddf2 |
 | sol@bfb20a535be2452f95fb9ae7f231a278821e4087 | 2021-12-19 | X    | verify/rework SQL script (also see sol@585f3f245cd0a0360bd510b5bfd9377fc5625779); won't take over the updated spawn points, just check the WP paths; done: sol@26b4a406ce04f31ed12623f2bf3416f4407c82e0 |

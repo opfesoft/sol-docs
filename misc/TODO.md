@@ -2,6 +2,7 @@ TODOs: common, low prio: [cosmetic](TODO_cosmetic.md), [dungeon](TODO_dungeon.md
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@633d95bfb81aef9ecc91f4416553ddea8c94cfbd | 2024-03-09 |      | won't take over, just check the missing ones and duplicates |
 | sol@7d5c222314133bf15be8e0eef42b3aa1f14c3be6 | 2024-03-04 |      | verify/rework SQL script |
 | sol@bc08c278c98bb7826360ce26e804506a962cae55 | 2024-02-27 | X    | won't take over, just check the missing ones and duplicates; done: sol@89e297db4d22401eaf19ce09202a6ec22ddba45e, sol@d7678d4faaf35bfeb6ef97a3249f09eaa1e75b6d |
 | sol@a974248624cba6beaa04a68934fe7c5fbb1b9d84 | 2024-02-27 | X    | won't take over, just check the missing ones and duplicates; done: sol@89e297db4d22401eaf19ce09202a6ec22ddba45e, sol@d7678d4faaf35bfeb6ef97a3249f09eaa1e75b6d |
@@ -37,7 +38,7 @@ TODOs: common, low prio: [cosmetic](TODO_cosmetic.md), [dungeon](TODO_dungeon.md
 | sol@ff5bb59cf0e67cf4f40152f18929e8e3cc4dd27d | 2023-11-30 | X    | verify/rework SQL script; done: sol@52dc27dff33b998093d2bcb6d42cd0cff2763d52 |
 | sol@e8077540215250d5d73641dd405acfceb3207a74 | 2023-11-29 | X    | verify/rework SQL script (contains a bug concerning RequiredMinRepFaction, see sol@9f21e5fd17e962b11fd0cb7f43b992ba2fd2a2a2); done: sol@4a1e64ce7fc30695702b612c63e1926659a4ba2a |
 | sol@abf85fb44f66344064bc12b20228652c26b33395 | 2023-11-27 | X    | verify changes; done: sol@44b628eab135639ea36f5c69e8ad2b4dfaca4552, sol@9645d48acd8acced9aa1f6fb377f1f3b1fca43ca |
-| sol@f7d7c4feb7a8f9c63bc4c94ebd48f1771d07958a | 2023-11-26 |      | probably take over the destination prediction (also see sol@8f127f9e2135a70cdb5573d052f50304d1b3875c, sol@71557b4274e2e7db2c0e0f51bf28c4ca75fa8241); low prio (minor issue) |
+| sol@f7d7c4feb7a8f9c63bc4c94ebd48f1771d07958a | 2023-11-26 |      | probably take over the destination prediction (also see sol@8f127f9e2135a70cdb5573d052f50304d1b3875c, sol@71557b4274e2e7db2c0e0f51bf28c4ca75fa8241, sol@da453b2a8d85ad77e8cc0f0ff6bafb3b3fc47d01); low prio (minor issue) |
 | sol@c02cccb87c0f98794c2f2ec3a7b144925fbccaca | 2023-11-23 | X    | verify changes; done: sol@be35ece5180169acf42dd4f601010e4b7f757f4f |
 | sol@1850c974a4e5f5517b9ae2b3deaf98569db11fa6 | 2023-11-23 | X    | verify changes; won't take over, Sol is not affected by this issue (see sol@62ccded8d0942029e62176c2a3ce8c007c22b381) |
 | sol@c138d0c0d530a355b465fc3e129e04c1fbb466dc | 2023-11-20 | X    | verify/rework SQL script; done: sol@655d2f4bb19eb6c5d22d7cab6f9358c72837c641 |

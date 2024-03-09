@@ -206,3 +206,19 @@ cp ~/sol/modules/mod-stoabrogga/custom_configs/transmog.conf        ~/sol-srv/et
 Change the `*.conf` files as needed.
 
 - Set name, IP address and port for the realm (table "realmlist" in DB "auth")
+
+### Remote access
+
+Create a named pipe:
+
+`mkfifo /tmp/sol_stdin`
+
+Start the worldserver in background:
+
+`tail -f /tmp/sol_stdin | ~/sol-srv/bin/worldserver 1>>~/sol_world.log 2>&1 &`
+
+Send commands:
+
+`echo "server info" >/tmp/sol_stdin`
+
+The named pipe can be used as interface between the worldserver and any other application, e.g. Apache web server using CGI, PHP etc.
