@@ -2,6 +2,7 @@ TODOs: [common](TODO.md), low prio: [cosmetic](TODO_cosmetic.md), dungeon, [even
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@3f700645bd1579a4538a009cc4ea7d766656e62f | 2024-03-10 |      | verify changes (The Eye) |
 | sol@285c8cdc68353509e5fc6e1be57194f0bca08866 | 2024-03-04 |      | verify/rework SQL script (Gruul's Lair) |
 | sol@5a32048ae2454908b5538311d401a62dcaf92a66 | 2024-03-04 |      | verify/rework SQL script (The Eye) |
 | sol@1c8644b3bc32a5f73cadd80616330454b394d4f1 | 2024-03-04 |      | verify changes (probably just increase spellppmRate\_2 in item\_template) (The Eye) |
