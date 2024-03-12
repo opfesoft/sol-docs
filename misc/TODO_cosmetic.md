@@ -102,9 +102,9 @@ TODOs: [common](TODO.md), low prio: cosmetic, [dungeon](TODO_dungeon.md), [event
 | sol@a8d93ad85d875fa86d70b1596fa329f3422d8fd4 | 2022-01-03 |      | verify/rework SQL script; check the WP paths; auras seem to be wrong, won't take over |
 | sol@1ef12abc375595f5942b5d63b8393fb77d5f3391 | 2022-01-03 |      | verify/rework SQL script; won't delete the creatures (no reason to do this, probably create a pool), just check the WP paths (note: this update is not imported into the AC DB because sql\_rev 1640126290282588522 already exists) |
 | sol@ec7c68314d6be96c25a45b75fd5eee6250692318 | 2021-12-31 |      | verify/rework SQL script; verify WP paths |
-| sol@ddddb108b60f8ac37f4b20f048625853f6243522 | 2021-12-30 |      | verify/rework SQL script; check the WP paths |
-| sol@10eb1870914e661dd06ef3bebc439811606daf5b | 2021-12-28 |      | verify/rework SQL script; verify WP paths |
-| sol@93b6835e055bfe86bced5808d2906582a25a0227 | 2021-12-27 |      | verify/rework SQL script; check the WP paths |
+| sol@ddddb108b60f8ac37f4b20f048625853f6243522 | 2021-12-30 | X    | verify/rework SQL script; check the WP paths; done: sol@ad453a5118eeef5cc3dd27ea8563405e1dd99468 |
+| sol@10eb1870914e661dd06ef3bebc439811606daf5b | 2021-12-28 | X    | verify/rework SQL script; verify WP paths; done: sol@6f620022fac5ef8d6fc704d8e9b6a9369626f221 |
+| sol@93b6835e055bfe86bced5808d2906582a25a0227 | 2021-12-27 | X    | verify/rework SQL script; check the WP paths; update: not needed |
 | sol@bc87362f7dd85a5cdc6560cb8c435afd22574d43 | 2021-12-23 | X    | verify/rework SQL script (also see sol@585f3f245cd0a0360bd510b5bfd9377fc5625779); won't take over the updated spawn points, just check the WP paths and random movement; done: sol@157d6d1629f671a304d23e8c9c74a4df500f0431 |
 | sol@5b6e6c3d7e5b893358ef25917802b1cbab3ca67a | 2021-12-23 | X    | verify/rework SQL script; won't take over the updated spawn points, just check the WP paths and random movement; done: sol@81263dba149e559434f05d9c93eecd57471dbfc6 |
 | sol@4beb2d8ab4234f6387b31804ac1c1bc73ca1873d | 2021-12-19 | X    | verify/rework SQL script; check the WP paths; update: took over emotes/equipment, see sol@6369dce3cc49c4a1a78fa6123d9963026804f653; done: sol@0dd744a7580b9f0d7410adf8716427ab79bc2c2c |
