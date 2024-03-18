@@ -2,7 +2,7 @@ TODOs: common, low prio: [cosmetic](TODO_cosmetic.md), [dungeon](TODO_dungeon.md
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
-| sol@c49032a722bcf5d267c25df269fc47047f93e4f1 | 2024-03-11 |      | won't take over, just check the missing ones and duplicates |
+| sol@c49032a722bcf5d267c25df269fc47047f93e4f1 | 2024-03-11 | X    | won't take over, just check the missing ones and duplicates; done: sol@1a52fc27e3bbe9589a8133bd3dc15276609cddbc |
 | sol@633d95bfb81aef9ecc91f4416553ddea8c94cfbd | 2024-03-09 | X    | won't take over, just check the missing ones and duplicates; done: sol@79aed1fa27d60ac447b6518c7644e02d901e4d56 |
 | sol@7d5c222314133bf15be8e0eef42b3aa1f14c3be6 | 2024-03-04 | X    | verify/rework SQL script; done: sol@b0d028bc9addd3ab9b7ebc1e25f54c35ab261669 |
 | sol@bc08c278c98bb7826360ce26e804506a962cae55 | 2024-02-27 | X    | won't take over, just check the missing ones and duplicates; done: sol@89e297db4d22401eaf19ce09202a6ec22ddba45e, sol@d7678d4faaf35bfeb6ef97a3249f09eaa1e75b6d |

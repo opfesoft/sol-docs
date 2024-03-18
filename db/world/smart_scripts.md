@@ -3869,15 +3869,14 @@ If the start position distance is far away the circle movement speed will be dec
 <td><p>238</p></td>
 <td><p>[waypoint_data.id](waypoint_data.md#id)</p></td>
 <td><p>unload path (0/1)</p></td>
+<td><p>nextPathPoint</p></td>
 <td><p><br />
 </p></td>
 <td><p><br />
 </p></td>
 <td><p><br />
 </p></td>
-<td><p><br />
-</p></td>
-<td><p>Start WP movement using [waypoint_data](waypoint_data.md) which is better suited for formations than SMART_ACTION_FOLLOW. The default movement type is set to "idle", keep this in mind if unloading the path.</p></td>
+<td><p>Start WP movement using [waypoint_data](waypoint_data.md) which is better suited for formations than SMART_ACTION_FOLLOW. The default movement type is set to "idle", keep this in mind if unloading the path. If "nextPathPoint" is set continue with the specified point.</p></td>
 </tr>
 <tr>
 <td><p>SMART_ACTION_STOP_WP_PATH</p></td>
