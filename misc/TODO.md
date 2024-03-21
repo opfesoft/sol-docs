@@ -2,6 +2,11 @@ TODOs: common, low prio: [cosmetic](TODO_cosmetic.md), [dungeon](TODO_dungeon.md
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@33f951d74289f4a2ec89ba5ab519074e2b3e255b | 2024-03-20 |      | verify changes |
+| sol@e09c26b207cef32cd593ef93e1f9289e472ab2a3 | 2024-03-20 |      | won't take over, just check the missing ones and duplicates |
+| sol@9c27c8939ee2f7c057b48042218d0d500e04016b | 2024-03-20 |      | won't take over, just check the missing ones and duplicates |
+| sol@f6859a3e7f6c0ebd9174eb29bd1fc6d87f8ec04a | 2024-03-18 |      | won't take over, just check the missing ones and duplicates |
+| sol@580573b9115e64f36baedb6904ec9466d9c3357e | 2024-03-18 |      | won't take over, just check the missing ones and duplicates |
 | sol@c49032a722bcf5d267c25df269fc47047f93e4f1 | 2024-03-11 | X    | won't take over, just check the missing ones and duplicates; done: sol@1a52fc27e3bbe9589a8133bd3dc15276609cddbc |
 | sol@633d95bfb81aef9ecc91f4416553ddea8c94cfbd | 2024-03-09 | X    | won't take over, just check the missing ones and duplicates; done: sol@79aed1fa27d60ac447b6518c7644e02d901e4d56 |
 | sol@7d5c222314133bf15be8e0eef42b3aa1f14c3be6 | 2024-03-04 | X    | verify/rework SQL script; done: sol@b0d028bc9addd3ab9b7ebc1e25f54c35ab261669 |
