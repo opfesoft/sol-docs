@@ -221,4 +221,4 @@ Send commands:
 
 `echo "server info" >/tmp/sol_stdin`
 
-The named pipe can be used as interface between the worldserver and any other application, e.g. Apache web server using CGI, PHP etc.
+The named pipe can be used as interface between the worldserver and any other application, e.g. Apache web server using CGI, PHP or a Discord bot, e.g. [SolBot](https://gitlab.com/opfesoft/solbot).
