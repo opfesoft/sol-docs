@@ -1,5 +1,7 @@
 # Build and installation tips for project "Sol"
 
+[Server preparation example](Server_preparation_example.md)
+
 ## Add APT repositories
 
 - latest cmake
@@ -22,6 +24,8 @@
 - latest MariaDB
   - https://downloads.mariadb.org/mariadb/repositories/
   - https://mariadb.org/mariadb/all-releases/
+
+[MariaDB preparation example](MariaDB_preparation_example.md)
 
 ## Packages
 
