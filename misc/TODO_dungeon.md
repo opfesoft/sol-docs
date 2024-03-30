@@ -2,6 +2,7 @@ TODOs: [common](TODO.md), low prio: [cosmetic](TODO_cosmetic.md), dungeon, [even
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@16f220253a1c58833e58de4e7d2aeedefe41df05 | 2024-03-26 |      | verify changes (Serpentshrine Cavern) |
 | sol@4e95c9e006ddd0d483a52f907e9c683729a56604 | 2024-03-24 |      | verify changes (The Culling of Stratholme, Trial of the Crusader) |
 | sol@027d433eb204ccdd4b6bd6b1dee887705747c7dc | 2024-03-24 |      | verify/rework SQL script (Blackrock Depths) |
 | sol@e309a8090aedff458f9863585073263922ae9f90 | 2024-03-20 |      | verify/rework SQL script (Scholomance) |
@@ -40,7 +41,7 @@ TODOs: [common](TODO.md), low prio: [cosmetic](TODO_cosmetic.md), dungeon, [even
 | sol@3c8adc71cdbd178453f597649abe75b5bfc700d3 | 2023-11-12 |      | verify changes (also see sol@4fabaee5975257f81dd77a728e42af60e3ad04d9) (Zul'Gurub) |
 | sol@e1aa26f92d0e54c98b781e82f5050634d53df286 | 2023-11-11 |      | verify changes (Serpentshrine Cavern) |
 | sol@32ff556a99358a92f912d6f6d569492f82eac48d | 2023-11-11 |      | verify changes (Serpentshrine Cavern) |
-| sol@203536526cf1d025d6216c24594746b8b8081222 | 2023-11-11 |      | verify changes (The Eye) |
+| sol@203536526cf1d025d6216c24594746b8b8081222 | 2023-11-11 |      | verify changes (also see sol@3ea02712d4e4fc44536acccfb6fb785d098a6073) (The Eye) |
 | sol@2ac6d8669469087c48f4e38fabf4ab3f0e67302c | 2023-11-11 |      | verify/rework SQL script (Serpentshrine Cavern) |
 | sol@896e7c56563f163bc81d7f1b30add8fa26ad306e | 2023-11-11 |      | verify changes (Zul'Gurub) |
 | sol@632b55faa5598ea0770b2ffeae8e007a44769d90 | 2023-10-25 |      | verify changes (Icecrown Citadel) |
