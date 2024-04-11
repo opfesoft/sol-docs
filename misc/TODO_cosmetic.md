@@ -87,11 +87,11 @@ TODOs: [common](TODO.md), low prio: cosmetic, [dungeon](TODO_dungeon.md), [event
 | sol@5a8b455697f7dd5ad1380b07e6b04e437beacc22 | 2022-01-07 |      | verify/rework SQL script; check the WP paths |
 | sol@fdcaa8e1ae03332d59a9989fc237911a6d8698f4 | 2022-01-07 |      | verify/rework SQL script; check the WP paths |
 | sol@73d5772cf6fc89f95cf7ecf0143665f1a71f06a0 | 2022-01-06 | X    | verify/rework SQL script; check the WP paths; use SAI instead of creature script; done: sol@c17ebdfb0bb1a2e98222bec6b4741c6d0928f40d |
-| sol@49b3bac2323d0ea7b0f9fbf4beadee0d0d3a9bdb | 2022-01-06 |      | verify/rework SQL script; check the WP paths |
-| sol@890f6ad7f85e39c7acbcf11b3c4388a912954524 | 2022-01-06 |      | verify/rework SQL script; won't take over the updated spawn points; won't delete the creatures (no reason to do this, probably create a pool), just check the WP paths and the GO spawn |
-| sol@88c75d566da7eb235189bee09a5c224b992a33bb | 2022-01-05 |      | verify/rework SQL script; won't take over the updated spawn points, just check the WP paths |
+| sol@49b3bac2323d0ea7b0f9fbf4beadee0d0d3a9bdb | 2022-01-06 | X    | verify/rework SQL script; check the WP paths; done: sol@dd7727b303dfdb744e4c464a130bf2d2a39c9736 |
+| sol@890f6ad7f85e39c7acbcf11b3c4388a912954524 | 2022-01-06 | X    | verify/rework SQL script; check the WP paths and the GO spawn; done: sol@1aca929e92e3f1a3be942e66a280193d6866532c |
+| sol@88c75d566da7eb235189bee09a5c224b992a33bb | 2022-01-05 | X    | verify/rework SQL script; won't take over the updated spawn points, just check the WP paths; done: sol@cee04699ad738695e0d037b17727b1a106dcec8e |
 | sol@6f98d32790dadb760c42583045ee541323acedbb | 2022-01-05 |      | verify/rework SQL script; use SAI instead of creature script (also see sol@7354b14ffdb61df99112c747658c9583a6059769) |
-| sol@11debfe63c70abf6ae1da4ca8fb868c3aae20106 | 2022-01-04 |      | verify/rework SQL script; won't take over the updated spawn points; won't delete the creatures (no reason to do this, probably create a pool), just check the WP paths |
+| sol@11debfe63c70abf6ae1da4ca8fb868c3aae20106 | 2022-01-04 | X    | verify/rework SQL script; won't take over the updated spawn points; won't delete the creatures (no reason to do this, probably create a pool), just check the WP paths; done: sol@09bdeb84cdc3742b76e8e281e5518a34a3776afe |
 | sol@6561e9d2497b5aa3e6258b2ee85a429a991b6645 | 2022-01-04 | X    | verify/rework SQL script; won't take over the updated spawn points; won't delete the creatures (no reason to do this, probably create a pool), just check the WP paths; update: won't take over any of this stuff, especially replacing random movement with 2-point paths is just awful (once again, don't care about sniffs) |
 | sol@2f7ccbe92ffdd3dc3be55e9d5701271489d8ea92 | 2022-01-03 | X    | verify/rework SQL script; check the WP paths; done: sol@775bc90f150ba483822ca013ce6e1970bcc1d848 |
 | sol@91108f2f623baf7b570c179d6a232c8044828322 | 2022-01-03 | X    | verify/rework SQL script; check the WP paths; done: sol@775bc90f150ba483822ca013ce6e1970bcc1d848 |

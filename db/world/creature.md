@@ -184,7 +184,7 @@ Contains individual creature spawn data for each individual spawn of each indivi
 <td><p>NO</p></td>
 <td><p>1</p></td>
 <td><p> </p></td>
-<td><p>Storage used by core. &quot;Always set as 1&quot;</p></td>
+<td><p>Only used if [creature\_template.regenhealth](creature_template.md#regenhealth) is 0.</p></td>
 </tr>
 <tr>
 <td><p><a href="#curmana">curmana</a></p></td>
@@ -194,7 +194,7 @@ Contains individual creature spawn data for each individual spawn of each indivi
 <td><p>NO</p></td>
 <td><p>0</p></td>
 <td><p> </p></td>
-<td><p>Storage used by core. &quot;Always set as 0&quot;</p></td>
+<td><p>Only used if [creature\_template.regenhealth](creature_template.md#regenhealth) is 0.</p></td>
 </tr>
 <tr>
 <td><p><a href="#movementtype">MovementType</a></p></td>
@@ -365,11 +365,11 @@ The maximum distance that the creature may wander from its spawn point. If great
 
 ### curhealth
 
-The health that the creature will spawn with.
+The health that the creature will spawn with. Only used if [creature\_template.regenhealth](creature_template.md#regenhealth) is 0.
 
 ### curmana
 
-The mana that the creature will spawn with.
+The mana that the creature will spawn with. Only used if [creature\_template.regenhealth](creature_template.md#regenhealth) is 0.
 
 ### MovementType
 
