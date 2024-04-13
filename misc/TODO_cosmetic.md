@@ -85,7 +85,7 @@ TODOs: [common](TODO.md), low prio: cosmetic, [dungeon](TODO_dungeon.md), [event
 | sol@6a696bffd3b9b5187b722e456512fcf87b6ae917 | 2022-01-07 |      | verify/rework SQL script; check the WP paths |
 | sol@2e622e2771f1563e2c32d8450328acf3c0dec799 | 2022-01-07 |      | verify/rework SQL script; check the WP paths; update: Improved WP paths for Stonard Scout/Explorer/Grunt and Noboru the Cudgel, see sol@7007d9ae04c99ae067cbb33836d44054f7f829be, sol@f879f66db948e8c7999588bbcb33144292be7706 |
 | sol@5a8b455697f7dd5ad1380b07e6b04e437beacc22 | 2022-01-07 |      | verify/rework SQL script; check the WP paths |
-| sol@fdcaa8e1ae03332d59a9989fc237911a6d8698f4 | 2022-01-07 |      | verify/rework SQL script; check the WP paths |
+| sol@fdcaa8e1ae03332d59a9989fc237911a6d8698f4 | 2022-01-07 | X    | verify/rework SQL script; check the WP paths; done: sol@19b3d3932aa53c9487307e59ad3d69a1e65a66dd |
 | sol@73d5772cf6fc89f95cf7ecf0143665f1a71f06a0 | 2022-01-06 | X    | verify/rework SQL script; check the WP paths; use SAI instead of creature script; done: sol@c17ebdfb0bb1a2e98222bec6b4741c6d0928f40d |
 | sol@49b3bac2323d0ea7b0f9fbf4beadee0d0d3a9bdb | 2022-01-06 | X    | verify/rework SQL script; check the WP paths; done: sol@dd7727b303dfdb744e4c464a130bf2d2a39c9736 |
 | sol@890f6ad7f85e39c7acbcf11b3c4388a912954524 | 2022-01-06 | X    | verify/rework SQL script; check the WP paths and the GO spawn; done: sol@1aca929e92e3f1a3be942e66a280193d6866532c |

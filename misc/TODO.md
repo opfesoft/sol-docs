@@ -6,8 +6,8 @@ TODOs: common, low prio: [cosmetic](TODO_cosmetic.md), [dungeon](TODO_dungeon.md
 | sol@5f50e64c6d13fb12525ecb342ea9cb8170b0a60b | 2024-03-24 | X    | won't take over, just check the missing ones and duplicates; done: sol@d3888fab06e451cee72589376327cd1ae4296094 |
 | sol@92fd4646a7cd483608da38df4941128f76628ce2 | 2024-03-24 | X    | won't take over, just check the missing ones and duplicates; done: sol@986d26ef3a568ee3d966b9e5c80a7b5368e5032b |
 | sol@9e8becb219aa7b315bc48fa31ee03fe049980d3b | 2024-03-24 | X    | won't take over, just check the missing ones and duplicates; done: sol@2c259430e83f0e12861cfd27b2305520b1cf95fa |
-| sol@12a33b2888654f790acfdbb6cf5c98ec00a401ab | 2024-03-24 |      | verify/rework SQL script |
-| sol@a39153247cd043e0dd0199de4531e52681cf9b3c | 2024-03-24 |      | verify/rework SQL script |
+| sol@12a33b2888654f790acfdbb6cf5c98ec00a401ab | 2024-03-24 | X    | verify/rework SQL script; done: sol@07b9cd56a43912d2df98f3fa0dde6ee55d8450f9 |
+| sol@a39153247cd043e0dd0199de4531e52681cf9b3c | 2024-03-24 | X    | verify/rework SQL script; done: sol@08908be3a9604882701f9d2dc25019c21bf04dd8 |
 | sol@d79c6ffa73fa7834859cb078636e64fc7ffe4db5 | 2024-03-24 | X    | won't take over, just check the missing ones and duplicates; done: sol@6ec7904b721bcef1f0e3daffc6206b61affcbda2 |
 | sol@cf8e822485e1ea7b74ff3c7a0a0edd4c7d141ce9 | 2024-03-23 | X    | won't take over, just check the missing ones and duplicates; done: sol@b67722b10921c0ab230193fc0905a2ca92721d8a |
 | sol@e6944380feac772e04f25acf9f5fa0b90ebac8e2 | 2024-03-23 | X    | won't take over, just check the missing ones and duplicates; done: sol@6332446bb6623c41bfb2af91df0faadad183e2d3 |
