@@ -2,6 +2,7 @@ TODOs: [common](TODO.md), low prio: cosmetic, [dungeon](TODO_dungeon.md), [event
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@6f154d0a6baa819645b497f52c0fc6c514825341 | 2024-04-18 |      | verify/rework SQL script; check the WP paths; won't take over the new SAI events, use SMART\_EVENT\_MOVEMENTINFORM instead |
 | sol@794d3e47b90c9ee0ddfde38caf01f80bedd0ee12 | 2024-02-20 |      | rework existing SAI and add spell 29459 (see Sol commit sol@79fb5b4d030155bd89c0b4df8d71ab7061a873d2) |
 | sol@1cbf7492b64b8f45c0bf6421bcc0216a81f6d5cf | 2024-02-20 |      | won't take over, use waypoint\_data instead for the WP path |
 | sol@5a52f3a9a8e45e056962664373a23d44e8e5224d | 2024-01-02 |      | verify/rework SQL script; use waypoint\_data instead for the WP path |
@@ -82,7 +83,7 @@ TODOs: [common](TODO.md), low prio: cosmetic, [dungeon](TODO_dungeon.md), [event
 | sol@dd89bdfb2a95f67417434ee4a0d905ed3a72f5da | 2022-01-11 |      | verify/rework SQL script; won't take over the updated spawn points; just check the WP paths and probably the multiple creature IDs (use new table "creature\_id\_chance", see sol@d65c4ae50581b7e270d2d4ca7b73b1f9ce49abf7) |
 | sol@65330af54552c8181cab0741b121b2d8bf71e6a6 | 2022-01-11 |      | verify GUIDs; use new table "creature\_id\_chance", see sol@d65c4ae50581b7e270d2d4ca7b73b1f9ce49abf7 |
 | sol@ae795fbcaa49eef18d11daf614c636eaf05b5a8f | 2022-01-10 |      | verify/rework SQL script; check the WP paths |
-| sol@6a696bffd3b9b5187b722e456512fcf87b6ae917 | 2022-01-07 |      | verify/rework SQL script; check the WP paths |
+| sol@6a696bffd3b9b5187b722e456512fcf87b6ae917 | 2022-01-07 | X    | verify/rework SQL script; check the WP paths; done: sol@8fffe4c2176957988baf514bde8285997567ab1f |
 | sol@2e622e2771f1563e2c32d8450328acf3c0dec799 | 2022-01-07 | X    | verify/rework SQL script; check the WP paths; update: Improved WP paths for Stonard Scout/Explorer/Grunt and Noboru the Cudgel, see sol@7007d9ae04c99ae067cbb33836d44054f7f829be, sol@f879f66db948e8c7999588bbcb33144292be7706; done: sol@0fcde1590ca461c9fbd2774c83124526ef1397ee |
 | sol@5a8b455697f7dd5ad1380b07e6b04e437beacc22 | 2022-01-07 | X    | verify/rework SQL script; check the WP paths; done: sol@c43de5c1e7219f8d72b410b40a26b773f4d876fb |
 | sol@fdcaa8e1ae03332d59a9989fc237911a6d8698f4 | 2022-01-07 | X    | verify/rework SQL script; check the WP paths; done: sol@19b3d3932aa53c9487307e59ad3d69a1e65a66dd |
