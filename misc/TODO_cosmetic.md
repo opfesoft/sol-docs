@@ -80,9 +80,9 @@ TODOs: [common](TODO.md), low prio: cosmetic, [dungeon](TODO_dungeon.md), [event
 | sol@e71171f95ecf5e6c022f65872c8ab5f1f2ff7570 | 2022-01-15 |      | verify/rework SQL script; won't take over the updated spawn points, just check the WP paths |
 | sol@f5419a45a71ec91d5729c97f0d0bb73124322a9b | 2022-01-15 |      | verify/rework SQL script (also see sol@03a72cfc85b0479a1b010b15b5e13eb8527be40b); check the WP paths; verify creature IDs (use "creature\_id\_chance") |
 | sol@4c695c76d82e4ca3391428b023923bfba84fb120 | 2022-01-13 |      | verify/rework SQL script; check the WP paths |
-| sol@dd89bdfb2a95f67417434ee4a0d905ed3a72f5da | 2022-01-11 |      | verify/rework SQL script; won't take over the updated spawn points; just check the WP paths and probably the multiple creature IDs (use new table "creature\_id\_chance", see sol@d65c4ae50581b7e270d2d4ca7b73b1f9ce49abf7) |
+| sol@dd89bdfb2a95f67417434ee4a0d905ed3a72f5da | 2022-01-11 | X    | verify/rework SQL script; won't take over the updated spawn points; just check the WP paths and probably the multiple creature IDs (use new table "creature\_id\_chance", see sol@d65c4ae50581b7e270d2d4ca7b73b1f9ce49abf7); done: sol@a46440728196623559f57cc769dc83be2fc9f37c |
 | sol@65330af54552c8181cab0741b121b2d8bf71e6a6 | 2022-01-11 |      | verify GUIDs; use new table "creature\_id\_chance", see sol@d65c4ae50581b7e270d2d4ca7b73b1f9ce49abf7 |
-| sol@ae795fbcaa49eef18d11daf614c636eaf05b5a8f | 2022-01-10 |      | verify/rework SQL script; check the WP paths |
+| sol@ae795fbcaa49eef18d11daf614c636eaf05b5a8f | 2022-01-10 | X    | verify/rework SQL script; check the WP paths; done: sol@6cb7753561585f417e0aef462241a12d6027a6f5 |
 | sol@6a696bffd3b9b5187b722e456512fcf87b6ae917 | 2022-01-07 | X    | verify/rework SQL script; check the WP paths; done: sol@8fffe4c2176957988baf514bde8285997567ab1f |
 | sol@2e622e2771f1563e2c32d8450328acf3c0dec799 | 2022-01-07 | X    | verify/rework SQL script; check the WP paths; update: Improved WP paths for Stonard Scout/Explorer/Grunt and Noboru the Cudgel, see sol@7007d9ae04c99ae067cbb33836d44054f7f829be, sol@f879f66db948e8c7999588bbcb33144292be7706; done: sol@0fcde1590ca461c9fbd2774c83124526ef1397ee |
 | sol@5a8b455697f7dd5ad1380b07e6b04e437beacc22 | 2022-01-07 | X    | verify/rework SQL script; check the WP paths; done: sol@c43de5c1e7219f8d72b410b40a26b773f4d876fb |
