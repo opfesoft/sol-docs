@@ -23,17 +23,11 @@ This table contains all the path data for creatures that use waypoints and waypo
 
 ### id
 
-Unique ID for each path.
-
-*The TDB standard way of assigning an ID is to multiply GUID of the creature by 10.*
-
-*So for a creature with a GUID of 1234 the path ID would be 12340. Any waypoints submitted to TDB should follow this standard.*
-
-*However, this is only a suggestion when creating your own waypoints. This ID can be anything you want as long as creature\_addon.path\_id is set to the ID you pick here for the creature you are creating a waypoint for.*
+Unique ID for each path. Should be GUID of the creature multiplied by 10, but can be any value (also see [creature\_addon.path\_id](creature_addon.md#path_id)).
 
 ### point
 
-Unique point ID for each point in a path. Starts at 1 and increases with each path.
+Unique point ID for each point in a path. Starts at 1 and increases with each point.
 
 ### position\_x
 
@@ -66,7 +60,7 @@ Time to wait (in ms) between each point. If orientation is not NULL delay has to
 
 ### pathfinding
 
-Specifies if pathfinding should be used to reach the destination waypoint.
+Specifies if pathfinding should be used to reach the destination waypoint and also allows to use intermediate paths between waypoints.
 
 | Value       | Comment                                                                               |
 |-------------|---------------------------------------------------------------------------------------|
@@ -74,6 +68,13 @@ Specifies if pathfinding should be used to reach the destination waypoint.
 | 1           | Use pathfinding to reach the destination waypoint only, not for the formation members |
 | 2           | Do not use pathfinding at all                                                         |
 | 3           | Use pathfinding to reach the destination waypoint and for the formation members       |
+| 4           | Create an intermediate path using the next points until value != 4                    |
+
+A few notes concerning the intermediate paths (value 4):
+
+- Up to 50 points are allowed to be in an intermediate path (MovementInform is not triggered for these points)
+- Formation members use the next point with a value != 4 to determine pathfinding and move directly to this point (deriving their own intermediate path will be implemented later)
+- On reset the pathfinding of the next point with a value != 4 is used, so it is best to use value 3 to separate the intermediate paths from each other
 
 ### action
 
@@ -89,16 +90,10 @@ This field is used by the core and is **NOT** to be set by hand.
 
 This field holds the GUID of the waypoint visual when you enable the visual mode for waypoints.
 
-### Example Rows
-
-| Id    | Point | Position\_x | Position\_y | Position\_z | Orientation | Delay | Move\_type | Action | Action\_chance | wpguid |
-|-------|-------|-------------|-------------|-------------|-------------|-------|------------|--------|----------------|--------|
-| 20160 | 1     | -4998       | -1167       | 501657      | 0           | 10000 | 0          | 0      | 100            | 0      |
-| 20160 | 2     | -4958.38    | -1199.34    | 501659      | 0           | 0     | 0          | 0      | 100            | 0      |
-
 ### Additional notes
 
 - By default the movement does not use pathfinding to move from one waypoint to another (see [pathfinding](#pathfinding) above)
 - The decision to not use pathfinding by default was made for the following reasons:
   - Using a precalculated path increases performance (no need to calculate additional points between two waypoints).
   - The path creator can control exactly where the creature moves and guide it around obstacles in another way than automatic pathfinding does.
+- As with pathfinding 4 it is possible to create intermediate paths which further increases the flexibility of WP movement.
