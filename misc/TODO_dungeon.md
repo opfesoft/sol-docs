@@ -3,6 +3,7 @@ TODOs: [common](TODO.md), low prio: [cosmetic](TODO_cosmetic.md), dungeon, [even
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
 | sol@cb4a3390f9d22d3db4fc2f4301ad016d81d8f9be | 2024-04-21 |      | verify/rework SQL script; use waypoint\_data instead (Scarlet Monastery) |
+| sol@dbe04a8a140e3e423eaedba5754cc08f3abd9354 | 2024-04-21 |      | verify/rework SQL script (Stratholme) |
 | sol@c738f0d67c4ee5b0464975db7cbc70e98e22d7bf | 2024-04-20 |      | verify changes (Battle for Mount Hyjal) |
 | sol@cf4e7eda9743725a5e515617b348f3f702b2bb51 | 2024-04-14 |      | verify/rework SQL script (also see sol@1c1c1f44c8e68e5d7db698ca27f1daa6f0571901) (Battle for Mount Hyjal) |
 | sol@a8471d0f87b487659ace526faaad3262a92efcfe | 2024-04-14 |      | verify changes (Battle for Mount Hyjal) |
