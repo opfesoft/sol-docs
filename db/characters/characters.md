@@ -322,6 +322,8 @@ These flags control certain player specific attributes, mostly GM features
 | 32   | 0x00000020 | PLAYER_EXTRA_GM_CHAT           | Show GM badge in chat messages                      |
 | 64   | 0x00000040 | PLAYER_EXTRA_HAS_310_FLYER     | Marks if player already has 310% speed flying mount |
 | 256  | 0x00000100 | PLAYER_EXTRA_PVP_DEATH         | Store PvP death status until corpse creating        |
+| 1024 | 0x00000400 | PLAYER_EXTRA_SHOW_DK_PET       | Marks if player should see ghoul on login screen    |
+| 4096 | 0x00001000 | PLAYER_EXTRA_GM_FLY_ON         | GM fly state                                        |
 
 ### stable\_slots
 
