@@ -76,7 +76,7 @@ TODOs: [common](TODO.md), low prio: cosmetic, [dungeon](TODO_dungeon.md), [event
 | sol@ef9b60d083d615594573f870fc3767b0e13a74a3 | 2022-01-19 |      | verify/rework SQL script; check the WP paths |
 | sol@6e97b5c2d007e1e931eed79038d0fd9fa4857b28 | 2022-01-18 |      | verify creature IDs (use "creature\_id\_chance") |
 | sol@e64cd13f74647d11689ec2dffd1b5c863bb981ad | 2022-01-18 |      | verify/rework SQL script; check the WP paths |
-| sol@3f41c2c638576378f717c912158faf9985e31c51 | 2022-01-18 |      | verify/rework SQL script; won't take over the updated spawn points; just check the WP path |
+| sol@3f41c2c638576378f717c912158faf9985e31c51 | 2022-01-18 | X    | verify/rework SQL script; won't take over the updated spawn points; just check the WP path; done: sol@1524f9d96c418ccf07aa095c2b084d7389928c22 |
 | sol@e71171f95ecf5e6c022f65872c8ab5f1f2ff7570 | 2022-01-15 | X    | verify/rework SQL script; won't take over the updated spawn points, just check the WP paths; done: sol@89b4dec3249a1313b35409abe8c080b5cad30d63 |
 | sol@f5419a45a71ec91d5729c97f0d0bb73124322a9b | 2022-01-15 | X    | verify/rework SQL script (also see sol@03a72cfc85b0479a1b010b15b5e13eb8527be40b); check the WP paths; verify creature IDs (use "creature\_id\_chance"); done: sol@d0739e301c9c095ac18407f3efe9e7e916edda5e |
 | sol@4c695c76d82e4ca3391428b023923bfba84fb120 | 2022-01-13 | X    | verify/rework SQL script; check the WP paths; done: sol@19cf91b35012c9fdc4ef83d2ebd22849c6eed648 |
