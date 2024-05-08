@@ -72,7 +72,7 @@ TODOs: [common](TODO.md), low prio: cosmetic, [dungeon](TODO_dungeon.md), [event
 | sol@95a867d4616d6c51f173bc03a37892372ee0f0d7 | 2022-01-24 |      | verify/rework SQL script; check the WP paths and additional spawns |
 | sol@3fa222e75b2a090efcc2796927075c564af5bce4 | 2022-01-22 |      | verify/rework SQL script; check the WP paths; update: WP paths for Fel Reaver Sentries improved and corpse delay / respawn adjusted, see sol@14c6708b051ad054680d6417a4d776a40202c16e |
 | sol@e2f91ebc618e8a31b99f72740c3d7846bf46774e | 2022-01-22 |      | verify/rework SQL script; check the WP paths |
-| sol@c233e5af9362fbca0fa063a0c96dbed3c22a8ad6 | 2022-01-19 |      | verify/rework SQL script; check the WP paths and additional spawns |
+| sol@c233e5af9362fbca0fa063a0c96dbed3c22a8ad6 | 2022-01-19 | X    | verify/rework SQL script; check the WP paths and additional spawns; done: sol@7392fc2d6b9767117f75e885667ac479261361cb |
 | sol@ef9b60d083d615594573f870fc3767b0e13a74a3 | 2022-01-19 | X    | verify/rework SQL script; check the WP paths; done: sol@f7908e98604b5ded9d57c910b2c7a617671a6546 |
 | sol@6e97b5c2d007e1e931eed79038d0fd9fa4857b28 | 2022-01-18 |      | verify creature IDs (use "creature\_id\_chance") |
 | sol@e64cd13f74647d11689ec2dffd1b5c863bb981ad | 2022-01-18 | X    | verify/rework SQL script; check the WP paths; done: sol@a286d650e18963a827232665d91f6f92dba9cf1d |
