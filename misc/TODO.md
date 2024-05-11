@@ -2,6 +2,7 @@ TODOs: common, low prio: [cosmetic](TODO_cosmetic.md), [dungeon](TODO_dungeon.md
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@45ad5acddb005b939a3f8601317654b5cfbc4fcd | 2024-05-11 |      | verify/rework SQL script |
 | sol@565b55472ad052e68c970c2e19d2ad8fe756e7f1 | 2024-04-27 | X    | verify/rework SQL script; update: won't take over, the object seems misplaced here |
 | sol@c9850b2919e892f43e3ad8dfeea06acaecd38dd8 | 2024-04-24 | X    | verify/rework SQL script; done: sol@feb15a60b921da15bbfdf268dbd7945461596421 |
 | sol@62851d5a129fef5c63038ab279b546ae3b364523 | 2024-04-21 | X    | won't take over, just check the missing ones and duplicates; done: sol@78878c298175c4b45b01353c3d045e2d0490eb5c |
