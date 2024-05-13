@@ -2,9 +2,11 @@ TODOs: [common](TODO.md), low prio: [cosmetic](TODO_cosmetic.md), dungeon, [even
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@5668e47a5d6e890b2d4de2c5de8f84dd7a1f6d63 | 2024-05-12 |      | verify changes (Battle for Mount Hyjal) |
+| sol@daf78423e45e185973b780449ba0cf964f63139c | 2024-05-12 |      | verify/rework SQL script (Dire Maul) |
 | sol@d44c8990c1436f941c181d603f11ee5d1bf95005 | 2024-05-11 |      | verify changes (Karazhan) |
 | sol@2c771397ca388f52e858c5a110522fbca2893944 | 2024-05-11 |      | verify changes (Naxxramas) |
-| sol@9c363bd13f9680aaaea20f05a6e0d0e644b2bf7d | 2024-05-11 |      | verify/rework SQL script (Temple of Ahn'Qiraj) |
+| sol@9c363bd13f9680aaaea20f05a6e0d0e644b2bf7d | 2024-05-11 |      | verify/rework SQL script (also see sol@c95594e34a5c69dd0a53f5f56f4816ad5dab1b6d) (Temple of Ahn'Qiraj) |
 | sol@51202f8c23e95988ef59b00598fd9187a4bae407 | 2024-05-09 |      | verify/rework SQL script (Zul'Aman) |
 | sol@cb4a3390f9d22d3db4fc2f4301ad016d81d8f9be | 2024-04-21 |      | verify/rework SQL script; use waypoint\_data instead (Scarlet Monastery) |
 | sol@dbe04a8a140e3e423eaedba5754cc08f3abd9354 | 2024-04-21 |      | verify/rework SQL script (Stratholme) |
@@ -106,7 +108,7 @@ TODOs: [common](TODO.md), low prio: [cosmetic](TODO_cosmetic.md), dungeon, [even
 | sol@69ce84d4bcdc25e6debb06c3d30a1beac6af3e25 | 2023-08-02 |      | verify/rework SQL script (Karazhan) |
 | sol@98ed01b9fe8965e62840cb1e820cf4d122937cd3 | 2023-07-27 |      | verify/rework SQL script (Karazhan) |
 | sol@90e23cbc66701ac9c163041927e6f6e17f2c72f2 | 2023-07-27 |      | verify changes (Battle for Mount Hyjal) |
-| sol@fcf7ceea42b0bfcd7a0c5cdc06a08f6c77faf204 | 2023-07-27 |      | verify changes (also see sol@5abfbdff427190421873f7e076597d6c8b6d012e, sol@71312323a1599cc6d95c91946b810d177c59714a, sol@bbedb91e2ca6b82d34a2ff4030119ec40141ebb6, sol@a0f66edcecd2e1586e66a472f76f8b5cc901c2b8, sol@e5a130d67f43cacd1d4889168dba70b41f7e1cb7) (Karazhan) |
+| sol@fcf7ceea42b0bfcd7a0c5cdc06a08f6c77faf204 | 2023-07-27 |      | verify changes (also see sol@5abfbdff427190421873f7e076597d6c8b6d012e, sol@71312323a1599cc6d95c91946b810d177c59714a, sol@bbedb91e2ca6b82d34a2ff4030119ec40141ebb6, sol@a0f66edcecd2e1586e66a472f76f8b5cc901c2b8, sol@e5a130d67f43cacd1d4889168dba70b41f7e1cb7, sol@d709080029acabc2a82af9bba23339314e40baf1) (Karazhan) |
 | sol@750e0b4c23881c584df7d154800e937cd62f06eb | 2023-07-27 |      | verify changes (also see sol@9b438731fd2ef60dbb399a089c40282455222c5d, sol@fb1d356af98d7399f462055ab31d8e17847ad416, sol@3c698f86af7fa248973dff052ca4b6929fa6f608, sol@c05acf4f96e22d12826e3710fbf274c278ed94a9, sol@52c7edaa5cacf95dc868e8a035a694fa096042d3, sol@f583dbe98cbd80ec980bbf3bc94c1f366d609196) (Karazhan) |
 | sol@cc6454b2efbbdd9db2159ade285d8c756e8c33f8 | 2023-07-18 |      | verify changes (also see sol@0c90bfcf70c3ff60364c6b0df97aef23f8781efa) (Karazhan) |
 | sol@89e7fb301a6bc2d0decda25e25f23b59fe09f931 | 2023-07-18 |      | verify changes (also see sol@cdc06e1703a3ba54135727c5fadfc588891867d9, sol@d18368ad601ab422e755e6f888acf1437c4cf55a, sol@52744e60320ce95e3d168d9639245c118739b00f, sol@89d0db3a93f991b9ebf5cfa0f34d236da7028938, sol@3cfb1d3bf627c50208ac32bb1db60d1b8673bb3f, sol@5b899eb65d9c234a3c6dfe1c2544e1f382ab7c50, sol@4a0b879ee3ff6fd7318577f8b36b2eaf91ad59c3, sol@f9a88b52868e9125590d7f389b3b408a33486f12, sol@ae99ce586a57e64c921437f8d6c01c20af002a97, sol@f44e658342f727d1ed5034657c74128724d7cd28, sol@57841f7213ba40cfd7adab381b5e12dcb5e3385e, sol@7de2405604c0d9da2d76539696ecbab31f4165eb, sol@a3d728f791c466f6bb350a024bfc9c70d14189e2, sol@a56a224bd72603f79a95fad7b8b9642c7b72015e, sol@3dcbe649ddd0d5fe891ef6614ce07c63cb5060aa, sol@d9e12f7a467fb4aa8a0cfeee5e464b384fb361d6, sol@a19613df86ba3999d9d621fd3760da4349c0727a, sol@af03611faf3a4c83f7311cd6652009ac9f3f346d, sol@00f269bacd334fb5a70d03cf40cf68499a64acae) (Karazhan) |
@@ -358,7 +360,7 @@ TODOs: [common](TODO.md), low prio: [cosmetic](TODO_cosmetic.md), dungeon, [even
 | sol@dd4fa3893eb126ce89a42a3657e030ad3e0c9d33 | 2022-09-25 |      | verify changes (Molten Core) |
 | sol@337c308dd308679ebcc1bf9cac96172dc5804103 | 2022-09-21 |      | verify changes (also see sol@3c8a148b1eb67c96d0f3e63423996e9ad6ab7b3b) (Temple of Ahn'Qiraj) |
 | sol@c79edad21f37a8939030d9ac1a65a3b00a82421b | 2022-09-21 |      | verify changes (Upper Blackrock Spire) |
-| sol@e3f9ad1e6ba1d675d0470cb58335bbde7d6b146f | 2022-09-21 |      | verify changes (also see sol@590ab7c67f9d65c97f4105bb57c8f9ff82d396f9) (Naxxramas) |
+| sol@e3f9ad1e6ba1d675d0470cb58335bbde7d6b146f | 2022-09-21 |      | verify changes (also see sol@590ab7c67f9d65c97f4105bb57c8f9ff82d396f9, sol@85e967183fada459082847829bd55b8441507b9f) (Naxxramas) |
 | sol@f50c4bf3ad8ba8501d3ee63e5d144475fb0766a0 | 2022-09-19 |      | verify changes (needs sol@76f976fd805861b4a55a62bfc6403f909a9e0985, sol@b86cf11499f148376639401d479ddc8d33723b77) (Blackwing Lair) |
 | sol@11cfcc84797fc864a93ca917ab043cc52e2b52b3 | 2022-09-19 |      | verify changes (Temple of Ahn'Qiraj) |
 | sol@0f84e3ed34eb64c3a957cbe5872bb37d9a644591 | 2022-09-19 |      | verify changes (Lower Blackrock Spire) |
