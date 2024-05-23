@@ -22,8 +22,8 @@
 <br>
 
 - latest MariaDB
-  - https://downloads.mariadb.org/mariadb/repositories/
-  - https://mariadb.org/mariadb/all-releases/
+  - <https://downloads.mariadb.org/mariadb/repositories/>
+  - <https://mariadb.org/mariadb/all-releases/>
 
 [MariaDB preparation example](MariaDB_preparation_example.md)
 
@@ -33,12 +33,12 @@
 
 ## ACE installation
 
-Example for ACE 7.1.4, installation in "~/sol-srv/lib/ace":
+Example for ACE 8.0.0, installation in "~/sol-srv/lib/ace":
 
 - Get package:
 ```
-curl -L 'https://github.com/DOCGroup/ACE_TAO/releases/download/ACE%2BTAO-7_1_4/ACE+TAO-7.1.4.tar.gz' >ACE+TAO-7.1.4.tar.gz
-tar -xzf ACE+TAO-7.1.4.tar.gz
+curl -L 'https://github.com/DOCGroup/ACE_TAO/releases/download/ACE%2BTAO-8_0_0/ACE+TAO-8.0.0.tar.gz' >ACE+TAO-8.0.0.tar.gz
+tar -xzf ACE+TAO-8.0.0.tar.gz
 ```
 
 - Set `ACE_ROOT`:
@@ -59,7 +59,6 @@ add
 add
 
 ```
-c++std=c++17
 INSTALL_PREFIX = $(HOME)/sol-srv/lib/ace
 include $(ACE_ROOT)/include/makeinclude/platform_linux.GNU
 ```
@@ -79,9 +78,9 @@ rm -fr "$ACE_ROOT"
 export ACE_ROOT=
 ```
 
-Further information: http://www.dre.vanderbilt.edu/~schmidt/DOC_ROOT/ACE/ACE-INSTALL.html#unix_traditional
+Further information: <http://www.dre.vanderbilt.edu/~schmidt/DOC_ROOT/ACE/ACE-INSTALL.html#unix_traditional>
 
-New releases: https://github.com/DOCGroup/ACE_TAO/releases
+New releases: <https://github.com/DOCGroup/ACE_TAO/releases>
 
 ## Sol installation
 

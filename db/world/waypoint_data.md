@@ -69,12 +69,13 @@ Specifies if pathfinding should be used to reach the destination waypoint and al
 | 2           | Do not use pathfinding at all                                                         |
 | 3           | Use pathfinding to reach the destination waypoint and for the formation members       |
 | 4           | Create an intermediate path using the next points until value != 4                    |
+| 5           | Formation members will derive their path from the intermediate path                   |
 
 A few notes concerning the intermediate paths (value 4):
 
-- Up to 50 points are allowed to be in an intermediate path (MovementInform is not triggered for these points)
-- Formation members use the next point with a value != 4 to determine pathfinding and move directly to this point (deriving their own intermediate path will be implemented later)
-- On reset the pathfinding of the next point with a value != 4 is used, so it is best to use value 3 to separate the intermediate paths from each other
+- Up to 50 points are allowed to be in an intermediate path
+- The points won't trigger any events or actions
+- If value 5 is used but no intermediate path exists it is handled like value 3
 
 ### action
 

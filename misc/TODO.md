@@ -2,6 +2,8 @@ TODOs: common, low prio: [cosmetic](TODO_cosmetic.md), [dungeon](TODO_dungeon.md
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@cf8c1557555d2c0d2a034c8613397fd18cc65b9a | 2024-05-19 |      | won't take over, just check the missing ones and duplicates |
+| sol@4ae69cf01b5cdf6ddff33b9a44f55ea9785ca97b | 2024-05-18 |      | won't take over, find another solution to add all missing broadcast text IDs (also see sol@ce095bd802657a82828edd7bf4266af18dec050b, sol@64833d965f1f59d580d5ce674c4847afb7cfd368); low prio (minor issue) |
 | sol@e2029c363323d8bde195a302b6934497b57197ba | 2024-05-15 |      | only take over 177396, 179437 & 179438 |
 | sol@65942555b51c0200fdf962bc968ec9002686417a | 2024-05-14 |      | keep as reference; take over single values if needed; won't blindly take over such mass updates |
 | sol@45ad5acddb005b939a3f8601317654b5cfbc4fcd | 2024-05-11 |      | verify/rework SQL script |
