@@ -66,7 +66,7 @@ TODOs: [common](TODO.md), low prio: cosmetic, [dungeon](TODO_dungeon.md), [event
 | sol@80ad50632977c7f52eb048886ca22dddfa6e8c4e | 2022-02-19 |      | verify/rework SQL script; check the WP paths |
 | sol@18dacba03df4d1345177c8fbc1c2e2dd88f642c1 | 2022-02-18 |      | verify/rework SQL script; check the WP paths; verify creature IDs (use "creature\_id\_chance"); overwrites waypoint scripts from sol@61cb63e9ed65fc09207ff968a2ffd08d512fbb3e |
 | sol@b46b60cc10ddd289b20d607e8dd7d21541bb8fbd | 2022-02-18 |      | verify/rework SQL script (also see sol@a172832116eb32e7a90745a82c5928e03179062a); check the WP paths |
-| sol@61cb63e9ed65fc09207ff968a2ffd08d512fbb3e | 2022-01-30 |      | verify/rework SQL script (also see sol@585f3f245cd0a0360bd510b5bfd9377fc5625779); check random movement & WP paths |
+| sol@61cb63e9ed65fc09207ff968a2ffd08d512fbb3e | 2022-01-30 | X    | verify/rework SQL script (also see sol@585f3f245cd0a0360bd510b5bfd9377fc5625779); check random movement & WP paths; done: sol@35d37167dc60fb02d875fe417a345538284c2cf3 |
 | sol@fa9c2ed2026ddb60b248850273bccd80324af253 | 2022-01-27 |      | won't take over, just check the random movement in the area |
 | sol@5a4dad8e4d364c74a8043fce606cb0c5d22539c4 | 2022-01-27 |      | won't take over, just check the random movement in the area |
 | sol@95a867d4616d6c51f173bc03a37892372ee0f0d7 | 2022-01-24 | X    | verify/rework SQL script; check the WP paths and additional spawns; done: sol@c37208383fa4ec68c9204fe182f1bb29ec9d38bf |

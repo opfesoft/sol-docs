@@ -4,6 +4,8 @@
 
 Waypoint paths directly attached to a creature via [creature_addon.path_id](creature_addon.md#path_id) use the tables [waypoint_data](waypoint_data.md) and [waypoint_scripts](waypoint_scripts.md). They can be added and manipulated using the GM '.wp' commands. See also [Waypoints-Information](../../misc/Waypoints-Information.md) for general information about waypoints.
 
+**Important:** Creatures will be kept active during script execution in order to keep them in sync with WP delays.
+
 ## Structure
 
 | Field                            | Type         | Attributes   | Key | Null | Default | Comment
