@@ -26,7 +26,7 @@ TODOs: [common](TODO.md), low prio: cosmetic, [dungeon](TODO_dungeon.md), [event
 | sol@405d18180b56d836d89513d111b00d089d5f36ea | 2023-02-17 |      | verify/rework SQL script (also see sol@37bc07cdf59608d8e6973c1718dd102eb9673377); check the WP paths |
 | sol@f7f187c1ff950146073c4a20dfb09f33e3be76aa | 2023-02-17 |      | verify/rework SQL script |
 | sol@5a813c2dbf2f2d1a2ddc25df6a7385b71f794c22 | 2023-02-17 |      | verify/rework SQL script; check the WP paths |
-| sol@b3b760ab42d28cc439aa12843c89dda3f416b33e | 2023-02-17 |      | verify/rework SQL script; check the WP paths |
+| sol@b3b760ab42d28cc439aa12843c89dda3f416b33e | 2023-02-17 |      | verify/rework SQL script (also see sol@61cb63e9ed65fc09207ff968a2ffd08d512fbb3e); check the WP paths |
 | sol@7e664b62f49935cfa6b77fac8a2549d9d4015035 | 2023-02-17 |      | verify/rework SQL script; check the WP paths |
 | sol@9dfae7c7c48f4e9ce57c902464bb3c1bda40c440 | 2023-02-16 |      | verify/rework SQL script; check both WP paths |
 | sol@758435632b768d38ae0718ea00aa98550ac67dcd | 2023-02-16 | X    | verify/rework SQL script; check the WP paths; done: sol@1f876bec673afa3b7fb051558875246e309a360e, sol@eb6e3ccb36471a7cb9f55f12e0f20bfa07aa7a2e, sol@73352fe506ad0698554eb2fc866eff0389c3a8ab, sol@519e8b294329f72e56fbe3a777af3aaabcc889e1, sol@5ce6d7638100b31b1bbacacd669199a022ef5e49 |
@@ -64,7 +64,7 @@ TODOs: [common](TODO.md), low prio: cosmetic, [dungeon](TODO_dungeon.md), [event
 | sol@d8c83c6fb2be56f2b2af6fea627a71b0f3bd06a2 | 2022-02-24 |      | verify/rework SQL script; check the WP paths and additional spawns |
 | sol@15395a25aabe3519fc2d26e99745231296ae9ec3 | 2022-02-22 | X    | verify/rework SQL script; verify quests & additional changes to quest texts; update: only took over a few changes concerning quest template addons and one NPC, see sol@14c909346d55d1651aa423dd3bbf4ba0450f73e9; took over all quest emotes directly from the TC DB, see sol@5bacedc0abe63d90056faf01637c5facfed318fa, sol@811c2ed743f6ec4a926fd8af077206b44906c699 and sol@a300cc3bf62d97d1132911376b359a0b01a8a381 |
 | sol@80ad50632977c7f52eb048886ca22dddfa6e8c4e | 2022-02-19 |      | verify/rework SQL script; check the WP paths |
-| sol@18dacba03df4d1345177c8fbc1c2e2dd88f642c1 | 2022-02-18 |      | verify/rework SQL script; check the WP paths; verify creature IDs (use "creature\_id\_chance") |
+| sol@18dacba03df4d1345177c8fbc1c2e2dd88f642c1 | 2022-02-18 |      | verify/rework SQL script; check the WP paths; verify creature IDs (use "creature\_id\_chance"); overwrites waypoint scripts from sol@61cb63e9ed65fc09207ff968a2ffd08d512fbb3e |
 | sol@b46b60cc10ddd289b20d607e8dd7d21541bb8fbd | 2022-02-18 |      | verify/rework SQL script (also see sol@a172832116eb32e7a90745a82c5928e03179062a); check the WP paths |
 | sol@61cb63e9ed65fc09207ff968a2ffd08d512fbb3e | 2022-01-30 |      | verify/rework SQL script (also see sol@585f3f245cd0a0360bd510b5bfd9377fc5625779); check random movement & WP paths |
 | sol@fa9c2ed2026ddb60b248850273bccd80324af253 | 2022-01-27 |      | won't take over, just check the random movement in the area |

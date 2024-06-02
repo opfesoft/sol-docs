@@ -2,17 +2,26 @@ TODOs: [common](TODO.md), low prio: [cosmetic](TODO_cosmetic.md), dungeon, [even
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@733fbf89e130fbad9fdd933e8c3d8b5e171f5cf0 | 2024-05-28 |      | verify changes (Ulduar) |
+| sol@2a1d23e520547c802172e1cae31320607709dd98 | 2024-05-28 |      | verify changes (Battle for Mount Hyjal) |
+| sol@049e83c5760909ec6ee66574c52c9560ec2c8466 | 2024-05-27 |      | verify changes (Icecrown Citadel) |
+| sol@4f0c348fb65b056680497b253ea77eef5a724be0 | 2024-05-27 |      | verify changes (Ulduar) |
+| sol@99004116a594bf2f8d76fc7248f6e8130f4a5a40 | 2024-05-26 |      | verify changes (Ulduar) |
+| sol@bb1f7622ccb07eab68e7e25a8b7a0dc880d0d87e | 2024-05-26 |      | verify changes (Icecrown Citadel) |
+| sol@29dda79638604fc0626f76d5158085baa8327d5b | 2024-05-26 |      | verify changes (Ulduar) |
+| sol@bb19dbf3c92912fe631bfedeac04b9f4fbaade8e | 2024-05-25 |      | verify changes (Ulduar) |
+| sol@845fa07aad883db4c11f62cdbab82cb8fe6a1913 | 2024-05-25 |      | verify changes (Ulduar) |
 | sol@5668e47a5d6e890b2d4de2c5de8f84dd7a1f6d63 | 2024-05-12 |      | verify changes (Battle for Mount Hyjal) |
 | sol@daf78423e45e185973b780449ba0cf964f63139c | 2024-05-12 |      | verify/rework SQL script (Dire Maul) |
 | sol@d44c8990c1436f941c181d603f11ee5d1bf95005 | 2024-05-11 |      | verify changes (Karazhan) |
 | sol@2c771397ca388f52e858c5a110522fbca2893944 | 2024-05-11 |      | verify changes (Naxxramas) |
 | sol@9c363bd13f9680aaaea20f05a6e0d0e644b2bf7d | 2024-05-11 |      | verify/rework SQL script (also see sol@c95594e34a5c69dd0a53f5f56f4816ad5dab1b6d) (Temple of Ahn'Qiraj) |
 | sol@51202f8c23e95988ef59b00598fd9187a4bae407 | 2024-05-09 |      | verify/rework SQL script (Zul'Aman) |
-| sol@cb4a3390f9d22d3db4fc2f4301ad016d81d8f9be | 2024-04-21 |      | verify/rework SQL script; use waypoint\_data instead (Scarlet Monastery) |
+| sol@cb4a3390f9d22d3db4fc2f4301ad016d81d8f9be | 2024-04-21 |      | verify/rework SQL script (also see sol@141cc0bd44e54fbadb743ed6ba9b78ecdd9f2967); use waypoint\_data instead (Scarlet Monastery) |
 | sol@dbe04a8a140e3e423eaedba5754cc08f3abd9354 | 2024-04-21 |      | verify/rework SQL script (Stratholme) |
 | sol@c738f0d67c4ee5b0464975db7cbc70e98e22d7bf | 2024-04-20 |      | verify changes (Battle for Mount Hyjal) |
 | sol@cf4e7eda9743725a5e515617b348f3f702b2bb51 | 2024-04-14 |      | verify/rework SQL script (also see sol@1c1c1f44c8e68e5d7db698ca27f1daa6f0571901) (Battle for Mount Hyjal) |
-| sol@a8471d0f87b487659ace526faaad3262a92efcfe | 2024-04-14 |      | verify changes (Battle for Mount Hyjal) |
+| sol@a8471d0f87b487659ace526faaad3262a92efcfe | 2024-04-14 |      | verify changes (also see sol@458eadd9e47167724c142c3f387219f912215a65, sol@73e44859f075321bb53023e48aa13f717f321098, sol@7692b709acb3b0813bf9a66b74a8a31e45e7b9c8, sol@9b363594e7fdb1eb296e7fb46fb43909f476a52f, sol@9d672f8b627e7a143eac7ce5f84faa7d8fefbad0) (Battle for Mount Hyjal) |
 | sol@4199cb8ce0603274d9ae6d3996bb129ea000738b | 2024-04-09 |      | verify changes (Ahn'kahet) |
 | sol@e701f3c615bc4d47ddf9d801c165a148c9f1dff8 | 2024-04-08 |      | verify/rework SQL script (Battle for Mount Hyjal) |
 | sol@c80ad3d779da28f8d324e4d5e519d4fff6084835 | 2024-04-06 |      | verify changes (Temple of Ahn'Qiraj) |
@@ -24,7 +33,7 @@ TODOs: [common](TODO.md), low prio: [cosmetic](TODO_cosmetic.md), dungeon, [even
 | sol@4e95c9e006ddd0d483a52f907e9c683729a56604 | 2024-03-24 |      | verify changes (The Culling of Stratholme, Trial of the Crusader) |
 | sol@027d433eb204ccdd4b6bd6b1dee887705747c7dc | 2024-03-24 |      | verify/rework SQL script (Blackrock Depths) |
 | sol@e309a8090aedff458f9863585073263922ae9f90 | 2024-03-20 |      | verify/rework SQL script (Scholomance) |
-| sol@ec1b2f7a28e0acba50ad991bb12f42851dc2015b | 2024-03-19 |      | keep as reference (also see sol@58eb83c74e2c00f684d837d5ff8a3ac7f4c2a2b6, sol@a7761597ba88e689d71a074fc15d278c67e6f248, sol@102bf7c9c5c9837e31468e8bc82c8f2724e4aadf, sol@39b94880dbec8881eaa9a1f4c3414cba2cf98089, sol@ec10eb841cd223c2c2b04a5b55fb9d9b23076687, sol@22c8469d8ce63b4104778ebed5d7c99bc496cb78, sol@cdc72216c8b9282906fdd3634364a29c56973fd0, sol@781190c73b8c8d39acdaa493942fdb3b7ffdbf3d, sol@eced002ef96fbbcd98250d34e9d130b54fc2419b, sol@7889a99e8fc197adb945b5d0e6afe0dcdf3675b1, sol@0aaf5214239ebdb0bf491acf4a20aff52b48816a, sol@2912cb47f3158ae756e0a4bcc5b800bbf7627f84, sol@f78820e9d58e9cd8a8f7b6234d94bce5d8a0c1d5); take over single values if needed; won't blindly take over such mass updates (don't care about sniffs) (Battle for Mount Hyjal) |
+| sol@ec1b2f7a28e0acba50ad991bb12f42851dc2015b | 2024-03-19 |      | keep as reference (also see sol@58eb83c74e2c00f684d837d5ff8a3ac7f4c2a2b6, sol@a7761597ba88e689d71a074fc15d278c67e6f248, sol@102bf7c9c5c9837e31468e8bc82c8f2724e4aadf, sol@39b94880dbec8881eaa9a1f4c3414cba2cf98089, sol@ec10eb841cd223c2c2b04a5b55fb9d9b23076687, sol@22c8469d8ce63b4104778ebed5d7c99bc496cb78, sol@cdc72216c8b9282906fdd3634364a29c56973fd0, sol@781190c73b8c8d39acdaa493942fdb3b7ffdbf3d, sol@eced002ef96fbbcd98250d34e9d130b54fc2419b, sol@7889a99e8fc197adb945b5d0e6afe0dcdf3675b1, sol@0aaf5214239ebdb0bf491acf4a20aff52b48816a, sol@2912cb47f3158ae756e0a4bcc5b800bbf7627f84, sol@f78820e9d58e9cd8a8f7b6234d94bce5d8a0c1d5, sol@7f42ec037183d64a1c8c57e445255ee581bdb45e, sol@df688afaffb39ca5783548eee8e6ce610f20220c, sol@8200385efb40852413f0d056bcfa667536ae233f, sol@3985db30063b17eaf6c98a21f3e3fb236bf7ab2d, sol@2c246e49d036fddcb0619a1ebe78f495ff134a47, sol@9d672f8b627e7a143eac7ce5f84faa7d8fefbad0, sol@fe6137b0a07b754d24070911da4d3905cc48c366, sol@0f5992045ccd8e7c9fc320cd21f2cd4184552de4); take over single values if needed; won't blindly take over such mass updates (don't care about sniffs) (Battle for Mount Hyjal) |
 | sol@b69df485cf87e1a3ff838302e5b3295e78370407 | 2024-03-18 |      | keep as reference (also see sol@171011e506694cfeb8ac0f884ea2c9d1c7cba3cd); take over single values if needed; won't blindly take over such mass updates (don't care about sniffs) (Black Temple) |
 | sol@3a87b5a85e08b49f96e8445cb0be350a854d264b | 2024-03-11 |      | verify changes (The Eye) |
 | sol@3f700645bd1579a4538a009cc4ea7d766656e62f | 2024-03-10 |      | verify changes (also see sol@a62eef0dcf6bb172278d0fda894c7dde3b03d31e, sol@dcff70c935309947f8a41ea75198a1ca74a48665) (The Eye) |
