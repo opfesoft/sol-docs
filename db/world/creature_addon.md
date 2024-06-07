@@ -98,7 +98,7 @@ NOTICE: The data for this table is largely incomplete and is mostly just a regur
 </p></td>
 </tr>
 <tr>
-<td><a href="#islarge">isLarge</a></td>
+<td><a href="#addonflags">addonFlags</a></td>
 <td>tinyint(1)</td>
 <td>unsigned</td>
 <td><br />
@@ -192,13 +192,12 @@ Emote ID that the creature should continually perform.
 
 List of often used emote IDs and what they do can be found [here](../../dbc/Emotes.md).
 
-### isLarge
+### addonFlags
 
-This field controls the visibility distance for creatures:
-
-0 = Normal, standard visible distance from worldserver.conf (default 90 yards)
-
-1 = Large, maximum visibility distance (250 yards)
+| Flag                                   | Description |
+|----------------------------------------|-------------|
+| `CREATURE_ADDON_FLAG_IS_LARGE`         | Visibility distance for creatures; if set use maximum visibility distance (250y), otherwise default from worldserver.conf (normally 100y) |
+| `CREATURE_ADDON_FLAG_NO_RANDOM_GENDER` | Creature will only use the original gender of the specified DisplayID (see table [creature\_model\_info](creature_model_info.md)) |
 
 ### maxAggroRadius
 
