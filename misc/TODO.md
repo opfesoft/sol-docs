@@ -2,6 +2,8 @@ TODOs: common, low prio: [cosmetic](TODO_cosmetic.md), [dungeon](TODO_dungeon.md
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@82d5a42402d9ce9f3babd91014644f6a97d2738e | 2024-06-09 |      | verify changes; low prio |
+| sol@a1ddf6d520b8aa46133d657338ab47b06eb2fd8c | 2024-06-06 |      | verify/rework SQL script; only add for creatures which have neither AIName nor ScriptName set (for those creatures this has to be implemented depending on the already existing script) |
 | sol@3913618f87e27a0cb7b8deedc9dc7a378cc7614b | 2024-06-04 |      | verify changes; compare with TC |
 | sol@1d664870d2a04bcbe69e4c82233fdc1c8bace544 | 2024-06-01 |      | verify/rework SQL script |
 | sol@cf8c1557555d2c0d2a034c8613397fd18cc65b9a | 2024-05-19 |      | won't take over, just check the missing ones and duplicates |

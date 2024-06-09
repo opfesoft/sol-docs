@@ -99,7 +99,7 @@ NOTICE: The data for this table is largely incomplete and is mostly just a regur
 </tr>
 <tr>
 <td><a href="#addonflags">addonFlags</a></td>
-<td>tinyint(1)</td>
+<td>int(10)</td>
 <td>unsigned</td>
 <td><br />
 </td>
@@ -194,10 +194,10 @@ List of often used emote IDs and what they do can be found [here](../../dbc/Emot
 
 ### addonFlags
 
-| Flag                                   | Description |
-|----------------------------------------|-------------|
-| `CREATURE_ADDON_FLAG_IS_LARGE`         | Visibility distance for creatures; if set use maximum visibility distance (250y), otherwise default from worldserver.conf (normally 100y) |
-| `CREATURE_ADDON_FLAG_NO_RANDOM_GENDER` | Creature will only use the original gender of the specified DisplayID (see table [creature\_model\_info](creature_model_info.md)) |
+| Flag         | Hex          | Name                                                  | Description |
+|--------------|--------------|-------------------------------------------------------|-------------|
+| `1`          | `0x00000001` | `CREATURE_ADDON_FLAG_IS_LARGE`                        | Visibility distance for creatures; if set use maximum visibility distance (250y), otherwise default from worldserver.conf (normally 100y) |
+| `2`          | `0x00000002` | `CREATURE_ADDON_FLAG_NO_RANDOM_GENDER`                | Creature will only use the original gender of the specified DisplayID (see table [creature\_model\_info](creature_model_info.md)) |
 
 ### maxAggroRadius
 

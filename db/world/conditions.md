@@ -1100,6 +1100,13 @@ CONDITION_STAND_STATE</p></td>
 <td>Always 0</td>
 <td>Always 0</td>
 </tr>
+<tr>
+<td>CONDITION_NEAR_CREATURE_GUID</td>
+<td>155</td>
+<td>Creature GUID from <a href="creature.md#guid">creature.guid</a></td>
+<td>Distance in yards</td>
+<td>Alive=0 / Dead=1</td>
+</tr>
 </tbody>
 </table>
 
