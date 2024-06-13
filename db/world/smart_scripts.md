@@ -1004,7 +1004,7 @@ This is the probability of the event to occur as a percentage from 0-100. So, if
 <td><p>SMART_EVENT_MOVEMENTINFORM</p></td>
 <td><p>34</p></td>
 <td><p>MovementType (0=any)</p></td>
-<td><p>PointID (Important: For WAYPOINT_MOTION_TYPE the waypoint ID always starts with 0, but don't use 0 directly because 0 triggers on each waypoint)</p></td>
+<td><p>PointID (if 0 will trigger on any point)</p></td>
 <td><p><br />
 </p></td>
 <td><p><br />
@@ -1799,23 +1799,6 @@ This is the probability of the event to occur as a percentage from 0-100. So, if
 <td><p>Complete the specified quest for all targeted players</p></td>
 </tr>
 <tr>
-<td><p>SMART_ACTION_RESERVED_16</p></td>
-<td><p>16</p></td>
-<td><p><br />
-</p></td>
-<td><p><br />
-</p></td>
-<td><p><br />
-</p></td>
-<td><p><br />
-</p></td>
-<td><p><br />
-</p></td>
-<td><p><br />
-</p></td>
-<td><p>For 4.3.4 + only</p></td>
-</tr>
-<tr>
 <td><p>SMART_ACTION_SET_EMOTE_STATE</p></td>
 <td><p>17</p></td>
 <td><p><a href="../../dbc/Emotes.md">EmoteId</a></p></td>
@@ -1978,8 +1961,7 @@ This is the probability of the event to occur as a percentage from 0-100. So, if
 <tr>
 <td><p>SMART_ACTION_COMBAT_STOP</p></td>
 <td><p>27</p></td>
-<td><p><br />
-</p></td>
+<td><p>DeleteThreatList (0/1)</p></td>
 <td><p><br />
 </p></td>
 <td><p><br />
@@ -2330,19 +2312,14 @@ if set to 0 only aggressive / hostile NPCs attack</p></td>
 <tr>
 <td><p>SMART_ACTION_ATTACK_START</p></td>
 <td><p>49</p></td>
+<td><p>targetType</p></td>
+<td><p>targetParam1</p></td>
+<td><p>targetParam2</p></td>
+<td><p>targetParam3</p></td>
+<td><p>targetParam4</p></td>
 <td><p><br />
 </p></td>
-<td><p><br />
-</p></td>
-<td><p><br />
-</p></td>
-<td><p><br />
-</p></td>
-<td><p><br />
-</p></td>
-<td><p><br />
-</p></td>
-<td><p>Start attacking the target. If more than one target exists attack a random one.</p></td>
+<td><p>Start attacking the target. If more than one target exists attack a random one. If targetType >0 the action is executed for each selected target instead of the script owner.</p></td>
 </tr>
 <tr>
 <td><p>SMART_ACTION_SUMMON_GO</p></td>
