@@ -2,14 +2,18 @@ TODOs: common, low prio: [cosmetic](TODO_cosmetic.md), [dungeon](TODO_dungeon.md
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@cf258bc9696ab0d1547a016bbc57631d63145c3e | 2024-06-16 |      | SPELL\_ATTR0\_CU\_SINGLE\_AURA\_STACK |
+| sol@d6d49a9e45e5eb59e06fe14d7e4107015fcc0e0e | 2024-06-16 |      | take over if needed |
+| sol@03031d36167a686e5679aded25e1b4764ae9af34 | 2024-06-16 |      | verify changes; low prio |
+| sol@c00f89a6fdcf4c41940e0b08b435eaa9ecd03fec | 2024-06-15 |      | SPELL\_ATTR0\_CU\_SINGLE\_AURA\_STACK |
 | sol@cfcb5d5bd73fa1208e069df5e8ccfa993cf00690 | 2024-06-10 |      | won't take over, if needed find another solution; other summons have a similar behaviour (e.g. Shaman Fire Elemental) |
 | sol@7a99e0ba82db88da2b632d701acdacb900b0b8be | 2024-06-10 |      | only update the position of GUID 15403 & 15943 |
 | sol@afd8cfef9486205472f7ac7c01d081e2d83e3305 | 2024-06-09 |      | won't take over, use `SMART_TARGET_INVOKER_PARTY` instead and improve the SAI (see TC version; also see sol@923ea9f29a5c6f1f3462afb917daa0c5a2b6dda8) |
 | sol@82d5a42402d9ce9f3babd91014644f6a97d2738e | 2024-06-09 |      | verify changes; low prio |
 | sol@a1ddf6d520b8aa46133d657338ab47b06eb2fd8c | 2024-06-06 |      | verify/rework SQL script; only add for creatures which have neither AIName nor ScriptName set (for those creatures this has to be implemented depending on the already existing script) |
-| sol@3913618f87e27a0cb7b8deedc9dc7a378cc7614b | 2024-06-04 |      | verify changes; compare with TC |
-| sol@1d664870d2a04bcbe69e4c82233fdc1c8bace544 | 2024-06-01 |      | verify/rework SQL script |
-| sol@cf8c1557555d2c0d2a034c8613397fd18cc65b9a | 2024-05-19 |      | won't take over, just check the missing ones and duplicates |
+| sol@3913618f87e27a0cb7b8deedc9dc7a378cc7614b | 2024-06-04 | X    | verify changes; compare with TC; done: sol@7c4ae9d365203f6ff65c330cde73a7cfaaa35d12 |
+| sol@1d664870d2a04bcbe69e4c82233fdc1c8bace544 | 2024-06-01 | X    | verify/rework SQL script; done: sol@dc3e331c8d33896655dd0490369118a065d9381f |
+| sol@cf8c1557555d2c0d2a034c8613397fd18cc65b9a | 2024-05-19 | X    | won't take over, just check the missing ones and duplicates; done: sol@555ddd0eb5c47c66da6ae34dc6879af7010b6957 |
 | sol@4ae69cf01b5cdf6ddff33b9a44f55ea9785ca97b | 2024-05-18 | X    | won't take over, find another solution to add all missing broadcast text IDs (also see sol@ce095bd802657a82828edd7bf4266af18dec050b, sol@64833d965f1f59d580d5ce674c4847afb7cfd368); low prio (minor issue); done: sol@6216cdfbde58e0796c6edbb9d6a20b1ee11983c1 |
 | sol@e2029c363323d8bde195a302b6934497b57197ba | 2024-05-15 | X    | only take over 177396, 179437 & 179438; done: sol@614a5e4070354ceb3a414bde8b58f7d9f7400d75 |
 | sol@65942555b51c0200fdf962bc968ec9002686417a | 2024-05-14 |      | keep as reference; take over single values if needed; won't blindly take over such mass updates (also see sol@88c485f6c54d45d05d638e38126c4d57c5071f5a) |

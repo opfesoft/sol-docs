@@ -2,6 +2,8 @@ TODOs: [common](TODO.md), low prio: [cosmetic](TODO_cosmetic.md), [dungeon](TODO
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@4b5468face38ca051cf4ba010c1628651cc41d72 | 2024-06-17 |      | verify changes (Midsummer Fire Festival) |
+| sol@9d882739768e0b2eba1e5ad96ad38cfde1799a07 | 2024-06-15 |      | verify/rework SQL script (Pilgrim's Bounty) |
 | sol@0f82c8e8dd64df839df57e88073709c93f9c6ca0 | 2024-05-12 |      | won't take over, find another solution (Midsummer Fire Festival) |
 | sol@3176615a1d78bcca1e55b8594c0d9a7e3dea00d5 | 2024-04-21 |      | verify/rework SQL script (Midsummer Fire Festival) |
 | sol@0c95ddf285e3f00a06d5c2a1257708d4163fbf20 | 2024-02-13 |      | verify/rework SQL script (Love is in the Air) |
