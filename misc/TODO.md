@@ -2,6 +2,11 @@ TODOs: common, low prio: [cosmetic](TODO_cosmetic.md), [dungeon](TODO_dungeon.md
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@9572cbfaca968db700733cc8e54d9b01bee5a463 | 2024-06-22 |      | won't take over, just update with NPC text ID 10652 |
+| sol@d568544c5c81bd59bd9518638ceaa2c5d3980503 | 2024-06-20 |      | wrong, won't take over; loot reference 13002 is used for prospecting, use a new loot reference; also the group chance must not exceed 100% |
+| sol@eaa09ed95e20324a3cc9c9e189ad4502412f30dd | 2024-06-19 |      | verify/rework SQL script |
+| sol@8ea13ca778931f3d018472e0be47596c17615917 | 2024-06-19 |      | verify changes |
+| sol@dea3748629e61434cf3e6cc73dd5223f04b1a9b2 | 2024-06-19 |      | verify changes |
 | sol@cf258bc9696ab0d1547a016bbc57631d63145c3e | 2024-06-16 |      | SPELL\_ATTR0\_CU\_SINGLE\_AURA\_STACK |
 | sol@d6d49a9e45e5eb59e06fe14d7e4107015fcc0e0e | 2024-06-16 |      | take over if needed |
 | sol@03031d36167a686e5679aded25e1b4764ae9af34 | 2024-06-16 |      | verify changes; low prio |
@@ -10,7 +15,7 @@ TODOs: common, low prio: [cosmetic](TODO_cosmetic.md), [dungeon](TODO_dungeon.md
 | sol@7a99e0ba82db88da2b632d701acdacb900b0b8be | 2024-06-10 |      | only update the position of GUID 15403 & 15943 |
 | sol@afd8cfef9486205472f7ac7c01d081e2d83e3305 | 2024-06-09 |      | won't take over, use `SMART_TARGET_INVOKER_PARTY` instead and improve the SAI (see TC version; also see sol@923ea9f29a5c6f1f3462afb917daa0c5a2b6dda8) |
 | sol@82d5a42402d9ce9f3babd91014644f6a97d2738e | 2024-06-09 |      | verify changes; low prio |
-| sol@a1ddf6d520b8aa46133d657338ab47b06eb2fd8c | 2024-06-06 |      | verify/rework SQL script; only add for creatures which have neither AIName nor ScriptName set (for those creatures this has to be implemented depending on the already existing script) |
+| sol@a1ddf6d520b8aa46133d657338ab47b06eb2fd8c | 2024-06-06 | X    | verify/rework SQL script; done: sol@3c130e2e88d1970c8121fe78ceb5ad01d3f05cd1 |
 | sol@3913618f87e27a0cb7b8deedc9dc7a378cc7614b | 2024-06-04 | X    | verify changes; compare with TC; done: sol@7c4ae9d365203f6ff65c330cde73a7cfaaa35d12 |
 | sol@1d664870d2a04bcbe69e4c82233fdc1c8bace544 | 2024-06-01 | X    | verify/rework SQL script; done: sol@dc3e331c8d33896655dd0490369118a065d9381f |
 | sol@cf8c1557555d2c0d2a034c8613397fd18cc65b9a | 2024-05-19 | X    | won't take over, just check the missing ones and duplicates; done: sol@555ddd0eb5c47c66da6ae34dc6879af7010b6957 |
