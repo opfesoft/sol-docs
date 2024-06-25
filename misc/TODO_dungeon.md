@@ -2,6 +2,8 @@ TODOs: [common](TODO.md), low prio: [cosmetic](TODO_cosmetic.md), dungeon, [even
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@3b7049895cde2794259b5dddc41fc282d47e40a1 | 2024-06-25 |      | verify/rework SQL script (Escape from Durnholde Keep) |
+| sol@240314efb544521d50040538a03acdc6f0f69f35 | 2024-06-24 |      | verify changes (Icecrown Citadel) |
 | sol@3211c7d884a2eeba1949e7a5b7310f0bedfa77a3 | 2024-06-17 |      | verify changes (Obsidian Sanctum) |
 | sol@36621804b9732a16485fd85bde71a944464fdfb7 | 2024-06-16 |      | verify/rework SQL script (Black Temple) |
 | sol@e255a3ac3e15a6fb632026d1a1a18561be591877 | 2024-06-15 |      | verify changes (also see sol@4e385304c0e6dcf159f66c83df2b5962e3749fd3) (Black Temple) |

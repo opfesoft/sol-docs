@@ -2,6 +2,11 @@ TODOs: common, low prio: [cosmetic](TODO_cosmetic.md), [dungeon](TODO_dungeon.md
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@e73bc95800065cc3f3bf91037ac9694a394238ac | 2024-06-25 |      | verify/rework SQL script |
+| sol@f047f753c6143326ff06340464c7d5f20333616b | 2024-06-25 |      | verify/rework SQL script |
+| sol@cc314303684d26e2f55392e8eba19fe05398da2d | 2024-06-25 |      | verify/rework SQL script |
+| sol@76b389ed078036db897396d4afd1babc5b2624a8 | 2024-06-25 |      | won't take over, use SPELL\_AURA\_MOD\_FAKE\_INEBRIATE instead |
+| sol@b1fc1c34b71df9596fd0e43b4907d59deb422f56 | 2024-06-25 |      | verify/rework SQL script |
 | sol@9572cbfaca968db700733cc8e54d9b01bee5a463 | 2024-06-22 |      | won't take over, just update with NPC text ID 10652 |
 | sol@d568544c5c81bd59bd9518638ceaa2c5d3980503 | 2024-06-20 |      | wrong, won't take over; loot reference 13002 is used for prospecting, use a new loot reference; also the group chance must not exceed 100% |
 | sol@eaa09ed95e20324a3cc9c9e189ad4502412f30dd | 2024-06-19 |      | verify/rework SQL script |
@@ -13,7 +18,7 @@ TODOs: common, low prio: [cosmetic](TODO_cosmetic.md), [dungeon](TODO_dungeon.md
 | sol@c00f89a6fdcf4c41940e0b08b435eaa9ecd03fec | 2024-06-15 |      | SPELL\_ATTR0\_CU\_SINGLE\_AURA\_STACK |
 | sol@cfcb5d5bd73fa1208e069df5e8ccfa993cf00690 | 2024-06-10 |      | won't take over, if needed find another solution; other summons have a similar behaviour (e.g. Shaman Fire Elemental) |
 | sol@7a99e0ba82db88da2b632d701acdacb900b0b8be | 2024-06-10 |      | only update the position of GUID 15403 & 15943 |
-| sol@afd8cfef9486205472f7ac7c01d081e2d83e3305 | 2024-06-09 |      | won't take over, use `SMART_TARGET_INVOKER_PARTY` instead and improve the SAI (see TC version; also see sol@923ea9f29a5c6f1f3462afb917daa0c5a2b6dda8) |
+| sol@afd8cfef9486205472f7ac7c01d081e2d83e3305 | 2024-06-09 | X    | won't take over, improve the SAI (see TC version; also see sol@923ea9f29a5c6f1f3462afb917daa0c5a2b6dda8); done: sol@5a20a31617500e2c483ded96317854964266bfa2 |
 | sol@82d5a42402d9ce9f3babd91014644f6a97d2738e | 2024-06-09 |      | verify changes; low prio |
 | sol@a1ddf6d520b8aa46133d657338ab47b06eb2fd8c | 2024-06-06 | X    | verify/rework SQL script; done: sol@3c130e2e88d1970c8121fe78ceb5ad01d3f05cd1 |
 | sol@3913618f87e27a0cb7b8deedc9dc7a378cc7614b | 2024-06-04 | X    | verify changes; compare with TC; done: sol@7c4ae9d365203f6ff65c330cde73a7cfaaa35d12 |
