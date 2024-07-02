@@ -2,6 +2,8 @@ TODOs: [common](TODO.md), low prio: cosmetic, [dungeon](TODO_dungeon.md), [event
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@0c2d80ee3ffde956f6f6754eef6c4a71f54cb852 | 2024-06-29 |      | verify/rework SQL script; check the WP path |
+| sol@4b488a247e3e895bc43540d95e5538ce56f855f1 | 2024-06-27 |      | verify/rework SQL script; check the WP path |
 | sol@a644425758414071046d91f7701f5176955316f1 | 2024-06-19 |      | verify/rework SQL script; check the WP path |
 | sol@4b0202a5254ec297612a42bf2f2fa27178d50e8f | 2024-06-18 |      | verify/rework SQL script; check the WP path |
 | sol@6f154d0a6baa819645b497f52c0fc6c514825341 | 2024-04-18 |      | verify/rework SQL script; check the WP paths; won't take over the new SAI events, use SMART\_EVENT\_MOVEMENTINFORM instead |
