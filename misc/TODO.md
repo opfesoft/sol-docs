@@ -2,6 +2,16 @@ TODOs: common, low prio: [cosmetic](TODO_cosmetic.md), [dungeon](TODO_dungeon.md
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@d68edd0aec37838c960852ade781260bf94fa58b | 2024-07-07 |      | verify/rework SQL script |
+| sol@7bd4928d1170fad6934ba2bc463259711e921b90 | 2024-07-07 |      | verify/rework SQL script |
+| sol@0cdeef7980dbb529b5ef2aa49999c91913b7a781 | 2024-07-06 |      | rework SAI |
+| sol@4a06256bb735a8663ecca68f9f3be106d36807d9 | 2024-07-06 |      | verify/rework SQL script |
+| sol@b357e8e2c4a181c24a82ac1bf710afe027bc04f9 | 2024-07-06 |      | verify/rework SQL script |
+| sol@620c40b01072dc38f894f5da6fe968fd35d08dde | 2024-07-05 |      | verify changes |
+| sol@7cf25c94ab41ff35d74be40a825877fc8fcf3b6c | 2024-07-04 |      | verify changes; compare with `npc_archmage_landalock` |
+| sol@90974332bb4adf372e904a676999f7b786c12d00 | 2024-07-04 |      | verify/rework SQL script; low prio (minor issue) |
+| sol@193e906a84cb47090b8c95046b42251265f6cc97 | 2024-07-04 |      | verify changes (also see sol@8bca8a45edf85a73fe77ee28b6d7a9009e2ebd25) |
+| sol@0a8175ef037732aa25a908687a2c3a019ba5eb55 | 2024-07-03 |      | take over if needed (also see sol@e839581649da9596e0979cbe9f17cf1a1ed90660) |
 | sol@e0a56b0e7a97fe13514e31f8ecdf6d91fa92680d | 2024-07-01 |      | verify/rework SQL script |
 | sol@7fc503f9fe33ea8c78f902448ee96c03cc963ef3 | 2024-06-29 |      | verify/rework SQL script |
 | sol@63c8c6480ec90d03f62e60c4107d863b3997e2f0 | 2024-06-29 |      | verify changes |
@@ -81,7 +91,7 @@ TODOs: common, low prio: [cosmetic](TODO_cosmetic.md), [dungeon](TODO_dungeon.md
 | sol@b2fcc1babf11a767db55c254d64b2dae2a3f913a | 2024-01-01 | X    | verify changes; update: won't take over, keep the delay |
 | sol@d80e7d5cb438d15d22a74afa83df2ecc26aede45 | 2024-01-01 | X    | won't take over, just check the missing ones and duplicates; done: sol@c3663249173736029df9b147d5942213e0344366 |
 | sol@09e3dbf770d7e5ccb7df654e888e755f8977e33d | 2023-12-30 | X    | SPELL\_ATTR0\_CU\_SINGLE\_AURA\_STACK; done: sol@88b37687e3e261768b9f2f64115da299d2c610e8 |
-| sol@be4d90404bb5d495a0db4a958855f64e0ce417eb | 2023-12-25 |      | take over if needed |
+| sol@be4d90404bb5d495a0db4a958855f64e0ce417eb | 2023-12-25 | X    | take over if needed; done: sol@2cf5783f821da935b629866f146716a80776f6d3 |
 | sol@03d06da87b85084e0a6891bed1c03807e30e663d | 2023-12-15 |      | take over if needed |
 | sol@f9e4edca8ebec0758142970fe6c930379f0cc156 | 2023-12-12 | X    | verify/rework SQL script; done: sol@2cb4d7b46b4112879c2d19f9443bf1b46ddeaf93 |
 | sol@e5c6d49587c3fd171f0e41624438372c153f4fc8 | 2023-12-11 | X    | verify/rework SQL script; done: sol@c7f30f23ecf7dca8fdba5503c41335d6f575b3c9 |
@@ -331,7 +341,7 @@ TODOs: common, low prio: [cosmetic](TODO_cosmetic.md), [dungeon](TODO_dungeon.md
 | sol@14f3b444ae3ecc76698931a205a9114c44e18c13 | 2023-01-05 |      | take over if needed |
 | sol@1c523bd611934a780b222218d9f11c43cf43f233 | 2023-01-04 |      | take over if needed |
 | sol@ada13bc8adc8cade1ada4405f9c1bcdde5dfe07c | 2023-01-02 | X    | verify/rework SQL script; done: sol@f7a857a44c7b1c128165d2fc957e201ab2161ae7 |
-| sol@9e18b86311432170700e8e5b31c5f777023c814d | 2023-01-02 |      | verify changes (also see sol@8d2dda24ed85e835953156d1df429567bfc6fea8, sol@ed2997ab10c4ce1c7011f6859857f10145576488, sol@226408329a8a437ac3ba0925a7b96959d460dfda); low prio (minor issue) |
+| sol@9e18b86311432170700e8e5b31c5f777023c814d | 2023-01-02 |      | verify changes (also see sol@8d2dda24ed85e835953156d1df429567bfc6fea8, sol@ed2997ab10c4ce1c7011f6859857f10145576488, sol@226408329a8a437ac3ba0925a7b96959d460dfda, sol@37431cd7a6a2fb54fada2f637651c06ec32a44e3); low prio (minor issue) |
 | sol@7729684bf012cec613a852251ee5d24140f86c31 | 2022-12-30 | X    | won't take over, find another position; done: sol@e1c6061c42b801cf915f486cc66a7ea7e4766668 |
 | sol@dcf73d5edfb587f6e6b5afa709e1cc25c2c2a5ec | 2022-12-29 | X    | verify/rework SQL script (only for creature ID 17137); done: sol@62988c94403ab5529c7d8416e9dae8855861ca8c |
 | sol@3da3dada36f1bf55d417238ca99aada6265f9fc9 | 2022-12-28 | X    | verify/rework SQL script; update: already fixed, see sol@69dd72e30e37e2f4cfd703d582a8ebda193204dc |
@@ -654,7 +664,7 @@ TODOs: common, low prio: [cosmetic](TODO_cosmetic.md), [dungeon](TODO_dungeon.md
 | sol@d6fc2a1d52a338afb5a894354eafe335025e12f4 | 2021-12-05 | X    | verify/rework SQL script; also check old SAI and conditions; done: sol@806ab34b2a7ac6d994b36aa8ab6cbd812e2a3ad3 |
 | sol@1500453f5951093c5d1ed9bc2be0358ba88d3ad8 | 2021-12-03 |      | take over if needed (also see sol@fa1c2eca9d381dea334b954fb662b0a5f2036169) |
 | sol@5d2f4cf0e6c9345fedb54a3b7049f416c57086be | 2021-12-03 | X    | won't take over, rework CreatureScript; done: sol@5a4e254b0c9007dbef5c4511afe99a9711121542 |
-| sol@8668a03e145d6ec43a52e5e2615a35e4db1d3943 | 2021-12-01 |      | take over if needed |
+| sol@8668a03e145d6ec43a52e5e2615a35e4db1d3943 | 2021-12-01 |      | take over if needed (also see sol@d5ba5e0168401a698bd4eb398850ca9c1c9c274e) |
 | sol@79c0beeb51ff38283696cb8e83060472ac48c420 | 2021-11-30 |      | take over if needed (also see sol@9c178acd42ac1d079be0fca8ec61102c1fc14691) |
 | sol@5d544f6001bd60539285a802636e57c64d6e12fe | 2021-11-29 |      | won't take over, does not seem to be the correct way to fix this issue; try to find another solution; low prio (minor issue) |
 | sol@0b551a055cbba0e1529a116cd73fe898ce6e0e8b | 2021-11-29 |      | take over if needed |
