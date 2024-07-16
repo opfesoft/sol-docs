@@ -7,7 +7,7 @@ TODOs: [common](TODO.md), low prio: [cosmetic](TODO_cosmetic.md), [dungeon](TODO
 | sol@2429c05d814dda2e0a1b953f134b4ddd70b8c9e1 | 2024-06-29 |      | verify/rework SQL script (Midsummer Fire Festival) |
 | sol@4b5468face38ca051cf4ba010c1628651cc41d72 | 2024-06-17 |      | verify changes (also see sol@e69f642dfeb7f5fe1999863e1443d2f5242e2597, sol@b2457ef67e4e0a3cde875ef2a1c00b4624cacd48, sol@5740fda8ad0a8ed33df50b7791aac7808f70ede1, sol@c28a0973a2e5381309c9aaa1fa887b6d8c9070dc) (Midsummer Fire Festival) |
 | sol@9d882739768e0b2eba1e5ad96ad38cfde1799a07 | 2024-06-15 |      | verify/rework SQL script (Pilgrim's Bounty) |
-| sol@0f82c8e8dd64df839df57e88073709c93f9c6ca0 | 2024-05-12 |      | won't take over, find another solution (Midsummer Fire Festival) |
+| sol@0f82c8e8dd64df839df57e88073709c93f9c6ca0 | 2024-05-12 |      | won't take over, find another solution (also see sol@7b8e2514bf7d1493729ec2c724075155ca933952) (Midsummer Fire Festival) |
 | sol@3176615a1d78bcca1e55b8594c0d9a7e3dea00d5 | 2024-04-21 |      | verify/rework SQL script (Midsummer Fire Festival) |
 | sol@0c95ddf285e3f00a06d5c2a1257708d4163fbf20 | 2024-02-13 |      | verify/rework SQL script (Love is in the Air) |
 | sol@6c841df6d194229183e72acbaca0afbfeb10bbea | 2024-02-12 |      | keep as reference; take over single values if needed (also see sol@1a7ae2461a2dbaaa22f34f14099cd497334cd7c3, sol@19e28d04adcf2884c30db862414e6c67b4ce8f2b, sol@d3e451eb7b37e2d91e0ce0d257801a181824013e, sol@47a62b6f2b5ba212ae48a81c44ba11dfa22e1ad0, sol@75c6445e2f65fac74cdefacd2a457b79a1d6b616, sol@27d85435eea7df90ecfe4bc2acb0428d2eabd5b0, sol@051a1c3f7408b2141712ec278cbbf31382b64203, sol@15366b2754fd2faf558d398811c4003653089460) (Love is in the Air) |

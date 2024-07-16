@@ -2,6 +2,8 @@ TODOs: [common](TODO.md), low prio: [cosmetic](TODO_cosmetic.md), dungeon, [even
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@9050ddccecedc821394da9ea4d208afe36d30830 | 2024-07-15 |      | verify/rework SQL script (Black Temple) |
+| sol@c3d98054dd72a9ff2f081eb5e19f21059d1fed20 | 2024-07-14 |      | verify changes (Black Temple) |
 | sol@477f21d4ef2d32f08bc3d4e1804c2dc509171125 | 2024-07-10 |      | verify/rework SQL script (The Eye) |
 | sol@9c29e546dc1c1d49f392cacb563250e8a52e5ace | 2024-07-09 |      | verify/rework SQL script (The Eye) |
 | sol@430491f81c3d1a890c317f7133992911ec639613 | 2024-07-09 |      | verify/rework SQL script (The Eye) |
