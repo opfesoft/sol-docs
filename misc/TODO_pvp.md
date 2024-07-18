@@ -23,7 +23,7 @@ TODOs: [common](TODO.md), low prio: [cosmetic](TODO_cosmetic.md), [dungeon](TODO
 | sol@c797cb0b930ecdee67e575611cb9afdda2691616 | 2022-03-25 |      | verify changes |
 | sol@ccc9bb6679c232353939812760bedbd0f30b62cf | 2022-02-22 |      | verify changes |
 | sol@fa02edb0ae48b2aad30e73753b42dd6fe530345d | 2022-02-16 |      | verify changes |
-| sol@d2ec0f5d99eca11b62e73d238fd1f7208f322682 | 2022-02-15 |      | verify changes |
+| sol@d2ec0f5d99eca11b62e73d238fd1f7208f322682 | 2022-02-15 |      | verify changes (also see sol@a950a7f44ea5a3700676abd807697e64edceda23) |
 | sol@cac265525cf13d68bbe8cacc4c31cfb9286b3a8b | 2021-12-16 |      | verify changes |
 | sol@52d8e1b68ac1d34e2cc539710f5c75d75032338c | 2021-12-10 |      | verify changes |
 | sol@6baf498a17aa2a193e5e2c5fea672c47c65b5b16 | 2021-10-22 |      | won't take over; according to TC issue 15906 the server side spell 30176 has to be implemented which is triggered periodically setting the PvP state; spells 29894 (Alliance) and 29895 (Horde) are used for the slow effect; also see sol@babb7d6c69ee74dd37be6dc5eb3877399d772148 |

@@ -2,6 +2,12 @@ TODOs: common, low prio: [cosmetic](TODO_cosmetic.md), [dungeon](TODO_dungeon.md
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@cf7c015ea4f9b8591815d20bd9a147208d7ff981 | 2024-07-17 |      | verify changes |
+| sol@f510e122a03a057afe2a2abfba19f5534f9ac868 | 2024-07-17 |      | verify changes; use conditions |
+| sol@9f5b01ab37ad11fbace320b742eb9831766c3dda | 2024-07-17 |      | take over if needed |
+| sol@19d1d07f9f0b5309ab557ef48c283a6805c37f75 | 2024-07-17 |      | use UPDATE instead of DELETE/INSERT; also update locale `deDE` |
+| sol@e8af1aaffce60b3c553f3c3afd2f9a9d6d3a288c | 2024-07-17 |      | take over if needed |
+| sol@90c7658320395351bd31ed282437c6b8658f5a02 | 2024-07-17 |      | verify changes |
 | sol@8eb7b24670b560bfe0b8011f9bd4f7df6dae5133 | 2024-07-14 |      | verify/rework SQL script |
 | sol@d268840004697c270dee7bf0694af789a15b07c4 | 2024-07-14 |      | verify/rework SQL script |
 | sol@0ffd5c21688c9a2e55a6dd5c7e3abfbdc609315d | 2024-07-14 |      | verify/rework SQL script |
@@ -36,9 +42,9 @@ TODOs: common, low prio: [cosmetic](TODO_cosmetic.md), [dungeon](TODO_dungeon.md
 | sol@b1fc1c34b71df9596fd0e43b4907d59deb422f56 | 2024-06-25 |      | verify/rework SQL script |
 | sol@9572cbfaca968db700733cc8e54d9b01bee5a463 | 2024-06-22 |      | won't take over, just update with NPC text ID 10652 |
 | sol@d568544c5c81bd59bd9518638ceaa2c5d3980503 | 2024-06-20 |      | wrong, won't take over; loot reference 13002 is used for prospecting, use a new loot reference; also the group chance must not exceed 100% |
-| sol@eaa09ed95e20324a3cc9c9e189ad4502412f30dd | 2024-06-19 |      | verify/rework SQL script |
-| sol@8ea13ca778931f3d018472e0be47596c17615917 | 2024-06-19 |      | verify changes |
-| sol@dea3748629e61434cf3e6cc73dd5223f04b1a9b2 | 2024-06-19 |      | verify changes |
+| sol@eaa09ed95e20324a3cc9c9e189ad4502412f30dd | 2024-06-19 | X    | verify/rework SQL script; done: sol@d571d672505de7436ca4e2a44a5500daec2fcffd |
+| sol@8ea13ca778931f3d018472e0be47596c17615917 | 2024-06-19 | X    | verify changes; won't take over, additional damage should only be applied after reaching 5 stacks |
+| sol@dea3748629e61434cf3e6cc73dd5223f04b1a9b2 | 2024-06-19 | X    | verify changes; done: sol@caa7d3d66687c9a8c2ef61d4db4dd74c108fd7a9 |
 | sol@cf258bc9696ab0d1547a016bbc57631d63145c3e | 2024-06-16 | X    | SPELL\_ATTR0\_CU\_SINGLE\_AURA\_STACK; done: sol@76f6c1514a4bf8dacb34825024a9f7ba85527a26 |
 | sol@d6d49a9e45e5eb59e06fe14d7e4107015fcc0e0e | 2024-06-16 |      | take over if needed |
 | sol@03031d36167a686e5679aded25e1b4764ae9af34 | 2024-06-16 |      | verify changes; low prio |
