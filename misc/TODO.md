@@ -5,7 +5,7 @@ TODOs: common, low prio: [cosmetic](TODO_cosmetic.md), [dungeon](TODO_dungeon.md
 | sol@cf7c015ea4f9b8591815d20bd9a147208d7ff981 | 2024-07-17 |      | verify changes |
 | sol@f510e122a03a057afe2a2abfba19f5534f9ac868 | 2024-07-17 |      | verify changes; use conditions |
 | sol@9f5b01ab37ad11fbace320b742eb9831766c3dda | 2024-07-17 |      | take over if needed |
-| sol@19d1d07f9f0b5309ab557ef48c283a6805c37f75 | 2024-07-17 |      | use UPDATE instead of DELETE/INSERT; also update locale `deDE` |
+| sol@19d1d07f9f0b5309ab557ef48c283a6805c37f75 | 2024-07-17 | X    | use UPDATE instead of DELETE/INSERT; also update locale `deDE`; done: sol@1b4aaabc466a0603f99d3c0261e253046f2072fc |
 | sol@e8af1aaffce60b3c553f3c3afd2f9a9d6d3a288c | 2024-07-17 |      | take over if needed |
 | sol@90c7658320395351bd31ed282437c6b8658f5a02 | 2024-07-17 |      | verify changes |
 | sol@8eb7b24670b560bfe0b8011f9bd4f7df6dae5133 | 2024-07-14 |      | verify/rework SQL script |

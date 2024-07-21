@@ -2,6 +2,7 @@ TODOs: [common](TODO.md), low prio: [cosmetic](TODO_cosmetic.md), dungeon, [even
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@139e6d63623e34f8d7585cce9d6de4d8e195456c | 2024-07-20 |      | verify/rework SQL script (Icecrown Citadel) |
 | sol@5674c23d049731bf1e05e7b1509e2f1b29aa0228 | 2024-07-17 |      | verify changes (Blackwing Lair) |
 | sol@aabec7c8be7a6c6356bbb27216c946ec4f7901eb | 2024-07-17 |      | verify/rework SQL script (Black Temple) |
 | sol@9050ddccecedc821394da9ea4d208afe36d30830 | 2024-07-15 |      | verify/rework SQL script (Black Temple) |
@@ -18,7 +19,7 @@ TODOs: [common](TODO.md), low prio: [cosmetic](TODO_cosmetic.md), dungeon, [even
 | sol@f86dcb969b07ad8dfb55ede2d39e3f2b4ca1db38 | 2024-07-07 |      | verify/rework SQL script (Onyxia's Lair) |
 | sol@3db58e708695efb95cc1a0a57f9b0edcbba327fd | 2024-07-07 |      | verify changes (Gruul's Lair) |
 | sol@344261fa7bc7bd8c2379b0546a4a5a73a9391daa | 2024-07-06 |      | implement minAggroRadius for creature addon |
-| sol@76b6da1b3ff18b84097c4487a2e146fa5b04bab2 | 2024-07-06 |      | verify changes (Black Temple) |
+| sol@76b6da1b3ff18b84097c4487a2e146fa5b04bab2 | 2024-07-06 |      | verify changes (also see sol@5081b0affddbe2cbc1a0dc325b5f4bf64e05c8c7) (Black Temple) |
 | sol@b959d5cc87e262efdebf1fc079a3637b41af3df2 | 2024-07-04 |      | verify changes (Zul'Aman) |
 | sol@9de2178eb500ddf1a20eafddf25ad34f5bad6c54 | 2024-07-04 |      | verify changes (Naxxramas) |
 | sol@688d7e2fdf4d0e9e2a5297ed03127a4f49b631be | 2024-06-30 |      | take over if needed (Icecrown Citadel) |
@@ -56,7 +57,7 @@ TODOs: [common](TODO.md), low prio: [cosmetic](TODO_cosmetic.md), dungeon, [even
 | sol@4199cb8ce0603274d9ae6d3996bb129ea000738b | 2024-04-09 |      | verify changes (Ahn'kahet) |
 | sol@e701f3c615bc4d47ddf9d801c165a148c9f1dff8 | 2024-04-08 |      | verify/rework SQL script (Battle for Mount Hyjal) |
 | sol@c80ad3d779da28f8d324e4d5e519d4fff6084835 | 2024-04-06 |      | verify changes (Temple of Ahn'Qiraj) |
-| sol@dc7753b2b62ac6f04133e39b2de397b8737a6e12 | 2024-04-02 |      | verify changes (also see sol@94ea1098581786499a0995657178acfc868a4fe5, sol@916a8ef618690fecee0df2b2a68b753853b6b192) (Black Temple) |
+| sol@dc7753b2b62ac6f04133e39b2de397b8737a6e12 | 2024-04-02 |      | verify changes (also see sol@94ea1098581786499a0995657178acfc868a4fe5, sol@916a8ef618690fecee0df2b2a68b753853b6b192, sol@f07da20a423cceb3cd17e2f688184454ce81f4c7) (Black Temple) |
 | sol@3445262b9334fdae06b083d4fd091e858c259fa6 | 2024-04-02 |      | verify/rework SQL script (The Eye) |
 | sol@43b51dd34ce23007c1eb1ff108128da1396144c5 | 2024-04-02 |      | verify/rework SQL script (The Eye) |
 | sol@e79507fe668474310b46124757409e63d5b5a399 | 2024-03-31 |      | verify/rework SQL script (The Eye) |
@@ -65,7 +66,7 @@ TODOs: [common](TODO.md), low prio: [cosmetic](TODO_cosmetic.md), dungeon, [even
 | sol@027d433eb204ccdd4b6bd6b1dee887705747c7dc | 2024-03-24 |      | verify/rework SQL script (Blackrock Depths) |
 | sol@e309a8090aedff458f9863585073263922ae9f90 | 2024-03-20 |      | verify/rework SQL script (Scholomance) |
 | sol@ec1b2f7a28e0acba50ad991bb12f42851dc2015b | 2024-03-19 |      | keep as reference (also see sol@58eb83c74e2c00f684d837d5ff8a3ac7f4c2a2b6, sol@a7761597ba88e689d71a074fc15d278c67e6f248, sol@102bf7c9c5c9837e31468e8bc82c8f2724e4aadf, sol@39b94880dbec8881eaa9a1f4c3414cba2cf98089, sol@ec10eb841cd223c2c2b04a5b55fb9d9b23076687, sol@22c8469d8ce63b4104778ebed5d7c99bc496cb78, sol@cdc72216c8b9282906fdd3634364a29c56973fd0, sol@781190c73b8c8d39acdaa493942fdb3b7ffdbf3d, sol@eced002ef96fbbcd98250d34e9d130b54fc2419b, sol@7889a99e8fc197adb945b5d0e6afe0dcdf3675b1, sol@0aaf5214239ebdb0bf491acf4a20aff52b48816a, sol@2912cb47f3158ae756e0a4bcc5b800bbf7627f84, sol@f78820e9d58e9cd8a8f7b6234d94bce5d8a0c1d5, sol@7f42ec037183d64a1c8c57e445255ee581bdb45e, sol@df688afaffb39ca5783548eee8e6ce610f20220c, sol@8200385efb40852413f0d056bcfa667536ae233f, sol@3985db30063b17eaf6c98a21f3e3fb236bf7ab2d, sol@2c246e49d036fddcb0619a1ebe78f495ff134a47, sol@9d672f8b627e7a143eac7ce5f84faa7d8fefbad0, sol@fe6137b0a07b754d24070911da4d3905cc48c366, sol@0f5992045ccd8e7c9fc320cd21f2cd4184552de4, sol@ba8a152479b80d3f1b074e964fa45256debab3ed, sol@70fc43ff8d7130ccec526e7889af99a26c2c9e50, sol@8256d3cb5511aeaa97bd1453d5af7910b3043967, sol@bb69f1c3ec48bab8369c024297732604c7f5c224, sol@eed20b4647fb890bc980b55e8f9b2a94debe7c39, sol@bbb0cb43eb0d0574c9a019a0b01cfe71e04ef80b, sol@8a988fd10a1adba402cb6db45d7385c81ff606f9, sol@289758094ce9d4a457d25f0f42e0b4a855dd7888, sol@9684eb437aae1092455217d9d20c90a09eb4f348, sol@95221c4d505d964ce5ef2538e4dedbb48f5e2d63, sol@5f966e8e0c7bb104949d5e06e47ad8e2d4237a2c, sol@2319789804e5e11f88ef2d8cb2766fc957bca870, sol@81d4c2e1454c99d54e28ad8d46c0aea31e01ffe8, sol@24251bc061a9ed0cc00c5ed9fa0bd3732ea27d83, sol@a177beb7b9d91a62d187e4a6d75102e98e0748fc, sol@3f0b140f01b7b1b115d82986109fd87d5a46f163, sol@a8b09880fdb006f1b6d808bd8d957ba798d32908, sol@5b2a088da07f30f22a839a04146836ca12846ce0, sol@8b81b1dad1dceebec51c79fc2abce25443ba3c4d, sol@8df063984de1cc1c022ffdd32961d9b217ecb45d, sol@c3e22c0fe221e7cb16bd316ac875de7f25973508, sol@d0cd4358072ec3e1ae3c8aebfb3504f82e4be934, sol@8279d9c2725dceef8c795c54db5c2b8ac04df5d1, sol@ccf5f06128ff1c5e73b7ead84a297e0ba615215c, sol@a511ddb73ca207fcd476186cfd142dd556a5660a); take over single values if needed; won't blindly take over such mass updates (don't care about sniffs) (Battle for Mount Hyjal) |
-| sol@b69df485cf87e1a3ff838302e5b3295e78370407 | 2024-03-18 |      | keep as reference (also see sol@171011e506694cfeb8ac0f884ea2c9d1c7cba3cd); take over single values if needed; won't blindly take over such mass updates (don't care about sniffs) (Black Temple) |
+| sol@b69df485cf87e1a3ff838302e5b3295e78370407 | 2024-03-18 |      | keep as reference (also see sol@171011e506694cfeb8ac0f884ea2c9d1c7cba3cd, sol@d9d8ca24f342fc4578e9558b2094f41446e3a065); take over single values if needed; won't blindly take over such mass updates (don't care about sniffs) (Black Temple) |
 | sol@3a87b5a85e08b49f96e8445cb0be350a854d264b | 2024-03-11 |      | verify changes (The Eye) |
 | sol@3f700645bd1579a4538a009cc4ea7d766656e62f | 2024-03-10 |      | verify changes (also see sol@a62eef0dcf6bb172278d0fda894c7dde3b03d31e, sol@dcff70c935309947f8a41ea75198a1ca74a48665) (The Eye) |
 | sol@285c8cdc68353509e5fc6e1be57194f0bca08866 | 2024-03-04 |      | verify/rework SQL script (Gruul's Lair) |
