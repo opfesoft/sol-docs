@@ -2,6 +2,8 @@ TODOs: common, low prio: [cosmetic](TODO_cosmetic.md), [dungeon](TODO_dungeon.md
 
 | commit       | date       | done | todo / comment |
 |--------------|------------|------|----------------|
+| sol@c68f2342fc6f989dee81146ff56c6c34f5592b9e | 2024-07-23 |      | verify/rework SQL script |
+| sol@1e6d0e74d95ef8df194bd443eb4b6c4e136cb210 | 2024-07-21 |      | `SPELL_ATTR0_CU_SINGLE_AURA_STACK` |
 | sol@cf7c015ea4f9b8591815d20bd9a147208d7ff981 | 2024-07-17 |      | verify changes |
 | sol@f510e122a03a057afe2a2abfba19f5534f9ac868 | 2024-07-17 |      | verify changes; use conditions |
 | sol@9f5b01ab37ad11fbace320b742eb9831766c3dda | 2024-07-17 |      | take over if needed |
@@ -41,7 +43,7 @@ TODOs: common, low prio: [cosmetic](TODO_cosmetic.md), [dungeon](TODO_dungeon.md
 | sol@76b389ed078036db897396d4afd1babc5b2624a8 | 2024-06-25 |      | won't take over, use SPELL\_AURA\_MOD\_FAKE\_INEBRIATE instead |
 | sol@b1fc1c34b71df9596fd0e43b4907d59deb422f56 | 2024-06-25 |      | verify/rework SQL script |
 | sol@9572cbfaca968db700733cc8e54d9b01bee5a463 | 2024-06-22 |      | won't take over, just update with NPC text ID 10652 |
-| sol@d568544c5c81bd59bd9518638ceaa2c5d3980503 | 2024-06-20 |      | wrong, won't take over; loot reference 13002 is used for prospecting, use a new loot reference; also the group chance must not exceed 100% |
+| sol@d568544c5c81bd59bd9518638ceaa2c5d3980503 | 2024-06-20 | X    | wrong, won't take over; loot reference 13002 is used for prospecting, use a new loot reference; done: sol@03ab31e8e5fa059b45ba298d3e144f145ac93052 |
 | sol@eaa09ed95e20324a3cc9c9e189ad4502412f30dd | 2024-06-19 | X    | verify/rework SQL script; done: sol@d571d672505de7436ca4e2a44a5500daec2fcffd |
 | sol@8ea13ca778931f3d018472e0be47596c17615917 | 2024-06-19 | X    | verify changes; won't take over, additional damage should only be applied after reaching 5 stacks |
 | sol@dea3748629e61434cf3e6cc73dd5223f04b1a9b2 | 2024-06-19 | X    | verify changes; done: sol@caa7d3d66687c9a8c2ef61d4db4dd74c108fd7a9 |

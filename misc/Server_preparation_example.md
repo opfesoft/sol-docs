@@ -150,3 +150,32 @@ export LANGUAGE="en_US.utf8"
 export LC_ALL="en_US.utf8"
 ```
 
+## Screen
+
+`$ vi ~/.screenrc`
+
+```
+startup_message off
+msgwait 2
+vbell off
+defscrollback 0
+term xterm-256color
+termcapinfo xterm* ti@:te@
+hardstatus alwaysmessage
+hardstatus string '%{= dd}%-w%n*%t%+w'
+screen -t '' 1
+stuff "cd ~/sol\n"
+screen -t '' 2
+screen -t '' 3
+screen -t '' 4
+screen -t '' 5
+screen -t '' 6
+screen -t '' 7
+stuff "cd ~/sol-docs\n"
+select 1
+```
+
+Alias:
+
+`alias scr='screen -d -R'`
+
